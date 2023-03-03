@@ -1,0 +1,174 @@
+---
+schema-version: v1.2.1
+id: IEC61158-6-12-2019
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 6-12:
+    Application layer protocol specification - Type 12 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 6-12: Spécification du protocole de la couche application - Eléments
+    de type 12'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/65172
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-6-12{ed4.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-6-12{ed4.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-6-12:2019
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-6-12:2019-06:::'
+  type: URN
+date:
+- type: published
+  value: '2019-06-20'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2019-06-20'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-6-12:2019 provides common elements for basic time-critical and
+    non-time-critical messaging communications between application programs in an
+    automation environment and material specific to Type 2 fieldbus. The term “time-critical”
+    is used to represent the presence of a time-window, within which one or more specified
+    actions are required to be completed with some defined level of certainty. Failure
+    to complete specified actions within the time window risks failure of the applications
+    requesting the actions, with attendant risk to equipment, plant and possibly human
+    life.<br />\r\nThis International Standard specifies interactions between remote
+    applications and defines the externally visible behavior provided by the Type
+    2 fieldbus application layer. The purpose of this document is to define the protocol
+    provided to<br />\r\na) define the wire-representation of the service primitives
+    defined in this document, and<br />\r\nb) define the externally visible behavior
+    associated with their transfer. This document specifies the protocol of the Type
+    2 fieldbus application layer, in conformance with the OSI Basic Reference Model
+    (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br />\r\nThis
+    fourth edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\n- technical corrections; and<br />\r\n- editorial
+    improvements for clarification."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L’IEC 61158-6-12:2019 fournit des éléments communs pour les communications
+    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
+    d’application des environnements d’automatisation et le matériel spécifique au
+    bus de terrain de type 12. On utilise le terme \"prioritaire\" pour traduire la
+    présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une
+    ou plusieurs actions spécifiées soient terminées avec un niveau de certitude défini.
+    Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les
+    applications demandant les actions risquent de connaître une défaillance, avec
+    les risques que cela comporte pour les équipements, les installations et éventuellement
+    la vie humaine.<br />\r\nLa présente norme définit de manière abstraite le comportement,
+    visible par un observateur externe, assuré par les différents Types de la couche
+    Application de bus de terrain, en termes<br />\r\na) de syntaxe abstraite définissant
+    les unités de données de protocole de la couche Application, transmises entre
+    les entités d’application en communication,<br />\r\nb) de syntaxe de transfert
+    définissant les unités de données de protocole de la couche Application, transmises
+    entre les entités d’application en communication;<br />\r\nc) de diagramme d’états
+    de contexte d’application définissant le comportement de service d’application
+    observable entre les entités d’application en communication; et<br />\r\nd) de
+    diagrammes d’états de relations entre applications définissant le comportement
+    de communication visible entre les entités d’application en communication"
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-6-12-2014
+    type: standard
+    docid:
+    - id: IEC 61158-6-12:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-12:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-6-12-2010
+    type: standard
+    docid:
+    - id: IEC 61158-6-12:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-12:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-6-12-2007
+    type: standard
+    docid:
+    - id: IEC 61158-6-12:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-12:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.70
+  text: Application layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '6'
+  subpart: '12'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:N

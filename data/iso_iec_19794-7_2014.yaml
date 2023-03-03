@@ -1,0 +1,142 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC19794-7-2014
+title:
+- content: 'Information technology -- Biometric data interchange formats -- Part 7:
+    Signature/sign time series data'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10811
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec19794-7{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 19794-7:2014
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:19794-7:2014-02:::'
+  type: URN
+date:
+- type: published
+  value: '2014-02-05'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2014-02-05'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 19794-7:2014 specifies data interchange formats for signature/sign
+    behavioural data captured in the form of a multi-dimensional time series using
+    devices such as digitizing tablets or advanced pen systems. The data interchange
+    formats are generic, in that they may be applied and used in a wide range of application
+    areas where handwritten signs or signatures are involved. No application-specific
+    requirements or features are addressed in ISO/IEC 19794-7:2014. ISO/IEC 19794-7:2014
+    contains 1) a description of what data may be captured, 2) three data formats
+    for containing the data: 1) a full format for general use, 2) a compression format
+    capable of holding the same amount of information as the full format but in compressed
+    form, and 3) a compact format for use with smart cards and other tokens that does
+    not require compression/decompression but conveys less information than the full
+    format, and 3) examples of data record contents and best practices in capture.
+    Specifying which of the format types and which options defined in ISO/IEC 19794-7:2014
+    are to be applied in a particular application is out of scope; this needs to be
+    defined in application-specific requirements specifications or application profiles.
+    It is advisable that cryptographic techniques be used to protect the authenticity,
+    integrity, and confidentiality of stored and transmitted biometric data; yet such
+    provisions are beyond the scope of ISO/IEC 19794-7:2014. ISO/IEC 19794-7:2014
+    also specifies elements of conformance testing methodology, test assertions, and
+    test procedures as applicable to ISO/IEC 19794-7:2014. It establishes test assertions
+    on the structure and internal consistency of the signature/sign time series data
+    formats defined in ISO/IEC 19794-7:2014 (type A level 1 and 2 as defined in ISO/IEC
+    19794-1:2011/Amd1), and semantic test assertions (type A level 3 as defined in
+    ISO/IEC 19794-1:2011/Amd1). The conformance testing methodology specified in ISO/IEC
+    19794-7:2014 does not establish: - tests of other characteristics of biometric
+    products or other types of testing of biometric products (e.g. acceptance, performance,
+    robustness, security), - tests of conformance of systems that do not produce data
+    records claimed to conform to the requirements of ISO/IEC 19794-7:2014.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2014'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC19794-7-2007/COR1-2009
+    type: standard
+    docid:
+    - id: ISO/IEC 19794-7:2007/COR1:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 19794-7:2007/COR1:2009
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC19794-7-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 19794-7:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 19794-7:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 37
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.240.15
+  text: Identification cards. Chip cards. Biometrics
+structuredidentifier:
+  project_number: '19794'
+  part: '7'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

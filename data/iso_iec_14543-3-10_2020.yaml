@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC14543-3-10-2020
+title:
+- content: 'Information technology - Home electronic system (HES) architecture - Part
+    3-10: Amplitude modulated wireless short-packet (AMWSP) protocol optimized for
+    energy harvesting - Architecture and lower layer protocols'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/63311
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14543-3-10{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14543-3-10:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14543-3-10:2020-03:::'
+  type: URN
+date:
+- type: published
+  value: '2020-03-30'
+- type: stable-until
+  value: '2024-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2020-03-30'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 14543-3-10:2020(E) specifies a wireless protocol for low-powered
+    devices such as energy harvesting devices in a home environment. This wireless
+    protocol is specifically designed to keep the energy consumption of such sensors
+    and switches extremely low.<br />\r\nThe design is characterized by<br />\r\n•
+    keeping the communications very short, infrequent and mostly unidirectional, and<br
+    />\r\n• using communication frequencies that provide a good range even at low
+    transmit power and avoid collisions from disturbers.<br />\r\nThis allows the
+    use of small and low-cost energy harvesting devices that can compete with similar
+    battery-powered devices. The messages sent by energy harvesting devices are received
+    and processed mainly by line-powered devices such as relay switch actuators, repeaters
+    or gateways. Together these form part of a home automation system, which, when
+    conforming to ISO/IEC 14543 (all parts), is defined as a home electronic system.<br
+    />\r\nThis document specifies OSI Layers 1 to 3 of the amplitude modulated wireless
+    short-packet (AMWSP) protocols.<br />\r\nThe AMWSP protocol system consists of
+    two and optionally three types of components that are specified in this document.
+    These are the transmitter, the receiver and optionally the repeater. Repeaters
+    are needed when the transmitter and the receiver are located in such a way that
+    no good direct communication between them can be established.<br />\r\nProtection
+    against malicious attacks is handled in the upper layers and thus not treated
+    in this document."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC14543-3-10-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 14543-3-10:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14543-3-10:2012
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 25
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.240.67
+  text: IT applications in building and construction industry
+structuredidentifier:
+  project_number: '14543'
+  part: '3'
+  subpart: '10'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

@@ -1,0 +1,151 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC15444-5-2003
+title:
+- content: 'Information technology -- JPEG 2000 image coding system: Reference software'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Technologies de l''information -- Système de codage d''images JPEG 2000:
+    Logiciel de référence'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10315
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed1.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed1.0}fr.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15444-5:2003
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15444-5:2003-11:::'
+  type: URN
+date:
+- type: published
+  value: '2003-11-20'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2003-11-20'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 15444-5:2003 provides two independently created software reference
+    implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC
+    15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set
+    of lossless and lossy compression methods for coding continuous-tone, bi-level,
+    greyscale or colour digital still images.   The reference software is informative
+    only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000
+    image coding system.   Each version of the reference software contains source
+    code, which may be compiled to provide the following functionality:     transcoding
+    from selected, widely available image formats into a JPEG 2000 codestream;   transcoding
+    from selected, widely available image formats into the JP2 file format;  selection
+    of a wide range of JPEG 2000 encoding options (as documented in each reference
+    software);  decoding from a JPEG 2000 codestream to a range of selected widely
+    available image formats;  partial processing of a JP2 file to extract a JPEG 2000
+    codestream for decoding to a range of selected widely available image formats
+    (Note that the reference software does not implement a conforming JP2 file reader.);  some
+    additional tools to help with evaluation and testing.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2003'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2003/AMD2-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2003/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2003/AMD2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2003/AMD1-2003
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2003/AMD1:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2003/AMD1:2003
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.30
+  text: Coding of graphical and photographical information
+structuredidentifier:
+  project_number: '15444'
+  part: '5'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:C

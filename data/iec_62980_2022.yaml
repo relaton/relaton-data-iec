@@ -1,0 +1,133 @@
+---
+schema-version: v1.2.1
+id: IEC62980-2022
+title:
+- content: Parasitic communication protocol for radio-frequency wireless power transmission
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Protocole de communication parasite pour le transfert d'énergie sans fil
+    par rayonnement radiofréquence
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61718
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62980{ed1.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62980:2022
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62980:2022-09:::'
+  type: URN
+date:
+- type: published
+  value: '2022-09-28'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2022-09-28'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 62980:2022 defines procedures for transferring power to non-powered
+    IoT devices using the existing ISM band communication infrastructure and RF WPT
+    and a protocol for a two-way, long-distance wireless network in which IoT devices
+    and APs communicate using backscatter modulation of ISM-band signals. Three components
+    are required for two-way, long-distance wireless communication using backscatter
+    modulation of ISM-band signals:<br />\r\n• an STA that transmits wireless power
+    and data packets to SSNs by forming ISM-band signal channels between HIE-APs,<br
+    />\r\n• a battery-free SSN that changes the sensitivity of the channel signals
+    received from the STA using backscatter modulation, and<br />\r\n• an HIE-AP that
+    practically decodes the channel signals whose sensitivity was changed by the SSN.<br
+    />\r\nIn this document, the procedures for CW-type RF WPT using communication
+    among these three components are specified based on application of the CSI or
+    RSSI detection method of ISM-band communication.<br />\r\nThis document proposes
+    a convergence communication protocol than can deploy sensors, which can operate
+    at low power (dozens of microwatts or less) without batteries, collect energy,
+    and perform communication, to transmit power to SSNs using RF WPT based on parasitic
+    communication. This method can be applied to application service areas such as
+    domestic IoT, the micro-sensor industry, and industries related to environmental
+    monitoring in the future."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L'IEC 62980:2022 définit les procédures de transfert d'énergie vers des
+    dispositifs d'IoT au moyen de l'infrastructure de communication existante sur
+    les bandes ISM et du WPT RF, ainsi qu'un protocole de réseau sans fil longue distance
+    bidirectionnel qui permet aux dispositifs d'IoT et aux points d'accès de communiquer
+    par modulation de rétrodiffusion des signaux sur les bandes ISM. La communication
+    sans fil longue distance bidirectionnelle fondée sur la modulation de rétrodiffusion
+    des signaux sur les bandes ISM exige trois éléments:<br />\r\n• une STA qui assure
+    le transfert sans fil de l'énergie et des paquets de données vers les SSN en créant
+    des canaux de signaux dans les bandes ISM entre HIE-AP;<br />\r\n• un SSN sans
+    batterie qui modifie, par modulation de rétrodiffusion, la sensibilité des signaux
+    de canal reçus depuis la STA; et<br />\r\n• un HIE-AP qui décode de manière pratique
+    les signaux du canal dont la sensibilité a été modifiée par le SSN.<br />\r\nDans
+    le présent document, les procédures de WPT RF de type CW qui utilisent la communication
+    entre ces trois éléments sont spécifiées à partir de l'application d'une méthode
+    de détection des CSI ou du RSSI de la communication sur les bandes ISM.<br />\r\nLe
+    présent document propose un protocole de communication convergent qui peut déployer
+    des capteurs, lesquels peuvent fonctionner à faible puissance (quelques dizaines
+    de microwatts ou moins) sans batteries, collecter de l'énergie et assurer une
+    communication, afin d'alimenter des SSN au moyen d'un WPT RF fondé sur une communication
+    parasite. Cette méthode pourra être appliquée ultérieurement à des services d'application
+    tels que l'IoT domestique, l'industrie des microcapteurs et les industries impliquées
+    dans la surveillance de l'environnement."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2022'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 100/TA 15
+    number: 100
+    type: technicalCommittee
+ics:
+- code: 29.240.99
+  text: Other equipment related to power transmission and distribution networks
+structuredidentifier:
+  project_number: '62980'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:J

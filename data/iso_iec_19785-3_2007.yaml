@@ -1,0 +1,130 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC19785-3-2007
+title:
+- content: 'Information technology -- Common Biometric Exchange Formats Framework
+    -- Part 3: Patron format specifications'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10765
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec19785-3{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 19785-3:2007
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:19785-3:2007-12:::'
+  type: URN
+date:
+- type: published
+  value: '2007-12-13'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2007-12-13'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 19785-3:2007 specifies several patron formats that conform to the
+    requirements of ISO/IEC 19785-1.  ISO/IEC 19785-1 defines a basic structure for
+    standardized biometric information records (BIRs) that consists of three parts,
+    the standard biometric header (SBH), the biometric data block (BDB), and the security
+    block (SB). CBEFF also defines several data elements and their standardized abstract
+    values that can be used in SBHs and SBs (CBEFF treats the BDB as opaque data).
+    CBEFF also establishes mechanisms by which organizations, called “patrons” by
+    CBEFF, can specify and publish BIR format specifications, which are in turn called
+    “patron formats”. CBEFF enables patrons to develop BIR specifications that are
+    fully standardized and interoperable, yet are specifically adapted to the requirements
+    of a particular application environment.  CBEFF defines rules for BIRs that contain
+    only one BDB (simple BIR) and that contain at least one BDB (complex BIR). CBEFF
+    defines mandatory data elements that identify the format of a BDB and its security
+    attributes (encryption and integrity). All the other CBEFF-defined data elements
+    and abstract values are optional. CBEFF enables patrons to define additional data
+    elements and abstract values as required by the application environment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2007'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC19785-3-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 19785-3:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 19785-3:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC19785-3-2007/AMD1-2010
+    type: standard
+    docid:
+    - id: ISO/IEC 19785-3:2007/AMD1:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 19785-3:2007/AMD1:2010
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 37
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.240.15
+  text: Identification cards. Chip cards. Biometrics
+structuredidentifier:
+  project_number: '19785'
+  part: '3'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

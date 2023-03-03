@@ -1,0 +1,181 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC/IEEE8802-1AE-2020
+title:
+- content: 'Telecommunications and exchange between information technology systems
+    - Requirements for local and metropolitan area networks - Part 1AE: Media access
+    control (MAC) security'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/67506
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiecieee8802-1AE{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC/IEEE 8802-1AE:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec-ieee:8802-1AE:2020-08:::'
+  type: URN
+date:
+- type: published
+  value: '2020-08-21'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: www.ieee.org
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2020-08-21'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This document specifies provision of connectionless user data confidentiality,
+    frame data integrity, and data origin authenticity by media access independent
+    protocols and entities that operate transparently to MAC Clients.<br />\r\nNOTE
+    - The MAC Clients are as specified in IEEE Std 802®, IEEE Std 802.1Q?, and IEEE
+    Std 802.1X.2.<br />\r\nTo this end, it<br />\r\na) Specifies the requirements
+    to be satisfied by equipment claiming conformance to this standard.<br />\r\nb)
+    Specifies the requirements for MACsec in terms of provision of the MAC Service
+    and the preservation of the semantics and parameters of service requests and indications.<br
+    />\r\nc) Describes the threats, both intentional and accidental, to correct provision
+    of the service.<br />\r\nd) Specifies security services that prevent, or restrict,
+    the effect of attacks that exploit these threats.<br />\r\ne) Examines the potential
+    impact of both the threats and the use of MACsec on the Quality of Service (QoS),
+    specifying constraints on the design and operation of MAC Security entities and
+    protocols.<br />\r\nf) Models support of the secure MAC Service in terms of the
+    operation of media access control method independent MAC Security Entities (SecYs)
+    within the MAC Sublayer.<br />\r\ng) Specifies the format of the MACsec Protocol
+    Data Unit (MPDUs) used to provide secure service.<br />\r\nh) Identifies the functions
+    to be performed by each SecY, and provides an architectural model of its internal
+    operation in terms of Processes and Entities that provide those functions.<br
+    />\r\ni) Specifies each SecY's use of an associated and collocated Port Access
+    Entity (PAE, IEEE Std 802.1X) to discover and authenticate MACsec protocol peers
+    and its use of that PAE's Key Agreement Entity (KaY) to agree and update cryptographic
+    keys.<br />\r\nj) Specifies performance requirements and recommends default values
+    and applicable ranges for the operational parameters of a SecY.<br />\r\nk) Specifies
+    how SecYs are incorporated within the architecture of end stations, bridges, and
+    two-port Ethernet Data Encryption devices (EDEs).<br />\r\nl) Establishes the
+    requirements for management of MAC Security, identifying the managed objects and
+    defining the management operations for SecYs.<br />\r\nm) Specifies the Management
+    Information Base (MIB) module for managing the operation of MAC Security in TCP/IP
+    networks.<br />\r\nn) Specifies requirements, criteria, and choices of Cipher
+    Suites for use with this standard."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: www.ieee.org
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1AE-2013/AMD3-2018
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1AE:2013/AMD3:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/AMD3:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1AE-2013/AMD1-2015
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1AE:2013/AMD1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/AMD1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1AE-2013/AMD2-2015
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1AE:2013/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/AMD2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1AE-2013
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1AE:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '8802'
+  part: 1AE
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

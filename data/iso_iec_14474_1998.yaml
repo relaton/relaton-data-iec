@@ -1,0 +1,139 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC14474-1998
+title:
+- content: Information technology -- Telecommunications and information exchange between
+    systems -- Private Integrated Services Network -- Functional requirements for
+    static circuit-mode inter-PINX connections
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/9921
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14474{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14474:1998
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14474:1998-12:::'
+  type: URN
+date:
+- type: published
+  value: '1998-12-17'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '1998-12-17'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "The electronic version of this International Standard can be  downloaded
+    \ from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br
+    />\r\nThis International Standard is a part of the functional requirements for
+    the Private Integrated Services Network (PISN) and defines the functions and procedures
+    that are required by Private Integrated Services Network exchanges (PINXs) and
+    the intervening network (IVN) in order to establish Inter-PINX Connections (IPC).
+    The IPC is used for the transfer of signalling and user information between PINXs.<br
+    />\r\nThe Private Signalling System No.1 (PSS1) as defined in ISO/IEC 11572 and
+    11574 defines the signalling procedures and protocol for call control between
+    PINXs at the Q reference point. These procedures are independent of the types
+    of IVNs, called scenarios used to interconnect the PINXs. ISO/IEC TR14475 describes
+    the use of various types of IVNs which provide the interconnections of PINXs.<br
+    />\r\nIn order to connect a PINX to another PINX, mapping functions are required
+    to adapt the specific interfaces at the C reference point to the application at
+    the Q reference point. As such, mapping functions provide for physical adaptation
+    to the interface at the C reference point. Mapping functions also provide for
+    the mapping of user channels and signalling information at the Q reference point
+    to the appropriate channels or time-slots at the C reference point. The C and
+    Q reference points are defined in ISO/IEC 11579-1.<br />\r\nThe types of interfaces
+    at the C reference point covered by this International Standard are:<br />\r\n[1]
+    1544 kbit/s unstructured digital leased line<br />\r\n[2] 1544 kbit/s structured
+    digital leased line<br />\r\n[3] 2048 kbit/s unstructured digital leased line<br
+    />\r\n[4] 2048 kbit/s structured digital leased line<br />\r\n[5] 64 kbit/s unrestricted
+    digital leased line<br />\r\n[6] 1544 kbit/s ISDN Primary Rate user-network layer
+    1 interface<br />\r\n[7] 2048 kbit/s ISDN Primary Rate user-network layer 1 interface<br
+    />\r\n[8] ISDN Basic Rate user-network layer 1 interface<br />\r\nAt the Q reference
+    point the mappings provide a 64 kbit/s service for user channels and a packet
+    mode service for the signalling channel. The applied mapping is a static mapping,
+    i.e. there is a fixed relationship between user and signalling channels at the
+    Q reference point and the timeslots of the interface at the C reference point.
+    Any changes are subject to administrative actions.<br />\r\nThis International
+    Standard specifies PINX mapping functions between the Q reference point and the
+    C reference point for IVNs which provide either dedicated or semi-permanent, non-user
+    activation, circuit-mode IPCs. The dedicated IPC is the connection permanently
+    established, usually for the duration of a contractual period. The semi-permanent
+    IPC is the connection whose resources are reserved for specified times during
+    a contractual period. The semi-permanent IPC is established by management control
+    with or without user activations. In this International Standard, the semi-permanent
+    IPC established by management control with user activation is outside the scope.<br
+    />\r\nThe IVN can be a dedicated physical link, dedicated transmission system
+    or a cross connect system, or semi-permanent connection system. IVNs which include
+    inverse mulitlexer techniques (e.g. channel aggregation in accordance with ISO/IEC
+    13871) are covered by this International Standard so far as they support one of
+    the interfaces listed above.<br />\r\nThis International Standard also specifies
+    mapping information. At both sides of the PINX, mapping information is required
+    to administer the scenarios.<br />\r\nThis International Standard is applicable
+    to PINXs which can be interconnected to form a Private Integrated Services Network
+    (PISN) and which support signalling protocols at the Q reference point."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '1998'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 33.040.35
+  text: Telephone networks
+structuredidentifier:
+  project_number: '14474'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D

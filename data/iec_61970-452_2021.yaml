@@ -1,0 +1,194 @@
+---
+schema-version: v1.2.1
+id: IEC61970-452-2021
+title:
+- content: 'Energy management system application program interface (EMS-API) - Part
+    452: CIM static transmission network model profiles'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Interface de programmation d''application pour système de gestion d''énergie
+    (EMS-API) - Partie 452: Profils du modèle de réseau de transport statique CIM'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/64844
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61970-452{ed4.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61970-452:2021
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61970-452:2021-10:::'
+  type: URN
+date:
+- type: published
+  value: '2021-10-27'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2021-10-27'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61970-452:2021 defines the subset of classes, class attributes, and
+    associations from the CIM necessary to execute state estimation and power flow
+    applications between control centres and/or control centre components, such as
+    power systems applications.<br />\r\nThe North American Electric Reliability Council
+    (NERC) Data Exchange Working Group (DEWG) Common Power System Modelling group
+    (CPSM) produced the original data requirements, which are shown in Annex F. These
+    requirements are based on prior industry practices for exchanging power system
+    model data for use primarily in planning studies. However, the list of required
+    data has been extended starting with the first edition of this standard to facilitate
+    a model exchange that includes parameters common to breaker-oriented applications.
+    Where necessary this document establishes conventions, shown in Clause 6, with
+    which an XML data file must comply in order to be considered valid for exchange
+    of models.<br />\r\nThe data exchange use cases which this standard is meant to
+    support are described in Annex A. The idea of a modelling authority as the source
+    responsible for the modeling of a given region is described in Annex B. The concept
+    of a boundary between regions is explained in Annex C. Annex D explains the processing
+    of multiple profiles such as the three profiles described in this standard. The
+    use of different curve styles to define ReactiveCapabilityCurve-s is explained
+    in Annex E.<br />\r\nThis document is intended for two distinct audiences, data
+    producers and data recipients, and may be read from two perspectives.<br />\r\nFrom
+    the standpoint of model export software used by a data producer, this document
+    describes a minimum subset of CIM classes, attributes, and associations which
+    must be present in an XML formatted data file for model exchange. This document
+    does not dictate how the network is modelled, however. It only dictates what classes,
+    attributes, and associations are to be used to describe the source model as it
+    exists.<br />\r\nThis fourth edition cancels and replaces the third edition published
+    in 2017. This edition constitutes a technical revision. It is based on the IEC
+    61970 UML version ‘IEC61970CIM17v40’, dated 2020-08-24.<br />\r\nThis edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\na) The classes PowerElectronicsConnection, PowerElectronicsUnit
+    and PowerElectronicsWindUnit are added to the Core Equipment profile."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 61970-452:2021 définit le sous-ensemble des classes, des attributs
+    de classe et des associations du CIM nécessaires à l’exécution des applications
+    d’estimation d’état et de flux d’énergie. Le groupe Common Power System Modeling
+    (CPSM) de Data Exchange Working Group (DEWG) du North American Electric Reliability
+    Council (NERC) a établi les premières exigences relatives aux données, présentées
+    à l’Annexe F. Ces exigences sont fondées sur des pratiques industrielles antérieures
+    pour l’échange des données du modèle de réseau pour une utilisation essentiellement
+    dans les études de planification. Cependant, la liste des données exigées a été
+    étendue, en commençant par la présente édition de cette norme, afin de faciliter
+    un échange de modèle qui inclut des paramètres communs aux applications orientées
+    disjoncteur. Le présent document établit si nécessaire des conventions, présentées
+    à l’Article 6, auxquelles un fichier de données XML doit satisfaire afin d’être
+    reconnu comme valide pour l'échange de modèles.<br />\r\nL’Annexe A donne une
+    présentation détaillée des cas d’utilisation de l’échange de données que la présente
+    norme est réputée prendre en charge. L'Annexe B donne une présentation détaillée
+    d'une autorité de modélisation comme responsable de la modélisation d'une région
+    donnée. L'Annexe C explique le concept d'une frontière entre les régions. L'Annexe
+    D explique le traitement de profils multiples tels que les trois profils décrits
+    dans la présente norme. L'Annexe F explique l'utilisation des différents modèles
+    de réseaux permettant de définir ReactiveCapabilityCurve.<br />\r\nLe présent
+    document s'adresse à deux destinataires distincts, les producteurs de données
+    et les destinataires de données, et peut être interprété selon deux points de
+    vue.<br />\r\nDu point de vue du logiciel d’exportation des modèles utilisé par
+    un producteur de données, le document décrit un sous-ensemble minimal de classes,
+    d’attributs et d’associations du modèle CIM. Ce sous-ensemble doit être présent
+    dans un fichier de données formaté XML pour l’échange des modèles. En revanche,
+    la présente norme ne régit pas la manière dont le réseau est modélisé. Elle ne
+    gère que les classes, les attributs et les associations qui doivent être utilisés
+    pour décrire le modèle source réel.<br />\r\nCette quatrième édition annule et
+    remplace la troisième édition parue en 2017. Cette édition constitue une révision
+    technique. Elle est fondée sur la version IEC 61970 UML \"IEC61970CIM17v40\",
+    datée du 2020-08-24.<br />\r\nCette édition inclut les modifications techniques
+    majeures suivantes par rapport à l’édition précédente:<br />\r\na) les classes
+    PowerElectronicsConnection, PowerElectronicsUnit et PowerElectronicsWindUnit sont
+    ajoutées au profil CoreEquipment."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61970-452-2017
+    type: standard
+    docid:
+    - id: IEC 61970-452:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-452:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61970-452-2015
+    type: standard
+    docid:
+    - id: IEC 61970-452:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-452:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61970-452-2013
+    type: standard
+    docid:
+    - id: IEC 61970-452:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-452:2013
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '61970'
+  part: '452'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

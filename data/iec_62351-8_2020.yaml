@@ -1,0 +1,188 @@
+---
+schema-version: v1.2.1
+id: IEC62351-8-2020
+title:
+- content: 'Power systems management and associated information exchange - Data and
+    communications security - Part 8: Role-based access control for power system management'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Gestion des systèmes de puissance et échanges d''informations associés
+    - Sécurité des communications et des données – Partie 8: Contrôle d''accès basé
+    sur les rôles pour la gestion de systèmes de puissance'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61822
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62351-8{ed1.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62351-8:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62351-8:2020-04:::'
+  type: URN
+date:
+- type: published
+  value: '2020-04-28'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2020-04-28'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 62351-8: 2020 is to facilitate role-based access control (RBAC) for
+    power system management. RBAC assigns human users, automated systems, and software
+    applications (collectively called \"subjects\" in this document) to specified
+    \"roles\", and restricts their access to only those resources, which the security
+    policies identify as necessary for their roles.<br />\r\nAs electric power systems
+    become more automated and cyber security concerns become more prominent, it is
+    becoming increasingly critical to ensure that access to data (read, write, control,
+    etc.) is restricted. As in many aspects of security, RBAC is not just a technology;
+    it is a way of running a business. RBAC is not a new concept; in fact, it is used
+    by many operating systems to control access to system resources. Specifically,
+    RBAC provides an alternative to the all-or-nothing super-user model in which all
+    subjects have access to all data, including control commands.<br />\r\nRBAC is
+    a primary method to meet the security principle of least privilege, which states
+    that no subject should be authorized more permissions than necessary for performing
+    that subject’s task. With RBAC, authorization is separated from authentication.
+    RBAC enables an organization to subdivide super-user capabilities and package
+    them into special user accounts termed roles for assignment to specific individuals
+    according to their associated duties. This subdivision enables security policies
+    to determine who or what systems are permitted access to which data in other systems.
+    RBAC provides thus a means of reallocating system controls as defined by the organization
+    policy. In particular, RBAC can protect sensitive system operations from inadvertent
+    (or deliberate) actions by unauthorized users. Clearly RBAC is not confined to
+    human users though; it applies equally well to automated systems and software
+    applications, i.e., software parts operating independent of user interactions.<br
+    />\r\nThe following interactions are in scope:<br />\r\n– local (direct wired)
+    access to the object by a human user; by a local and automated computer agent,
+    or built-in HMI or panel;<br />\r\n– remote (via dial-up or wireless media) access
+    to the object by a human user;<br />\r\n– remote (via dial-up or wireless media)
+    access to the object by a remote automated computer agent, e.g. another object
+    at another substation, a distributed energy resource at an end-user’s facility,
+    or a control centre application.<br />\r\nWhile this document defines a set of
+    mandatory roles to be supported, the exchange format for defined specific or custom
+    roles is also in scope of this document.<br />\r\nOut of scope for this document
+    are all topics which are not directly related to the definition of roles and access
+    tokens for local and remote access, especially administrative or organizational
+    tasks."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 62351-8:2020 a pour objet de faciliter le contrôle d'accès basé sur
+    les rôles (RBAC) pour la gestion de systèmes de puissance. Le RBAC attribue des
+    utilisateurs humains, des systèmes automatisés et des applications logicielles
+    (appelés \"sujets\" dans le présent document) aux \"rôles\" spécifiés et limite
+    leur accès à ces ressources uniquement, que les politiques de sécurité identifient
+    comme nécessaires à leurs rôles.<br />\r\nLes systèmes électriques de puissance
+    étant de plus en plus automatisés et les préoccupations relatives à la cybersécurité
+    étant de plus en plus importantes, il est de plus en plus critique d’assurer la
+    restriction de l’accès aux données (lecture, écriture, contrôle, etc.). Comme
+    pour beaucoup d’aspects liés à la sécurité, le RBAC n’est pas uniquement une technologie;
+    il s’agit d’une manière de diriger une entreprise. Le RBAC n’est pas un concept
+    nouveau; en réalité, il est utilisé par de nombreux systèmes d’exploitation pour
+    contrôler l’accès aux ressources de systèmes. Le RBAC fournit notamment une alternative
+    au modèle tout ou rien de super utilisateur dans lequel tous les sujets ont accès
+    à toutes les données, y compris aux commandes de contrôle.<br />\r\nLe RBAC est
+    une méthode primaire pour satisfaire au principe de sécurité du droit d’accès
+    minimal, qui indique qu’il convient qu’aucun sujet ne se voit attribué plus de
+    permissions que nécessaire pour effectuer la tâche affectée audit sujet. Avec
+    le RBAC, l’autorisation est distincte de l’authentification. Le RBAC donne lieu
+    à une organisation permettant de sous-diviser les capacités des super utilisateurs
+    et de les empaqueter dans des rôles de comptes utilisateurs spéciaux destinés
+    à être attribués à des individus spécifiques selon les responsabilités qui leur
+    sont associées. Cette sous-division permet aux politiques de sécurité de déterminer
+    les personnes ou les systèmes qui ont accès aux données dans d’autres systèmes.
+    Le RBAC fournit ainsi un moyen de réattribuer des contrôles de systèmes comme
+    cela est défini par la politique organisationnelle. Le RBAC peut notamment protéger
+    des opérations sensibles de systèmes contre des actions commises par inadvertance
+    (ou délibérées) par des utilisateurs non autorisés. Cependant, le RBAC ne se limite
+    clairement pas aux utilisateurs humains; il s’applique tout aussi bien aux systèmes
+    automatisés qu’aux applications logicielles, c’est-à-dire, aux parties logicielles
+    qui fonctionnent indépendamment des interactions avec l’utilisateur.<br />\r\nLes
+    interactions suivantes relèvent du domaine d’application:<br />\r\n– accès local
+    (raccordé directement) à l’objet par un utilisateur humain; par un agent ordinateur
+    automatisé local, ou par un IHM ou du panneau intégré(e) aux objets;<br />\r\n–
+    accès à distance (par ligne commutée ou support sans fil) à l’objet par un utilisateur
+    humain;<br />\r\n– accès à distance (par ligne commutée ou support sans fil) à
+    l’objet par un agent ordinateur automatisé distant, par exemple, un autre objet
+    dans un autre poste, une ressource d’énergie distribuée dans l’installation d’un
+    utilisateur final, ou une application centrale de contrôle.<br />\r\nTandis que
+    le présent document définit un ensemble de rôles obligatoires à prendre en charge,
+    le format d’échange de rôles définis spécifiques ou personnalisés relève également
+    du domaine d’application du présent document.<br />\r\nTous les thèmes non directement
+    liés à la définition des rôles et des jetons d’accès concernant les accès locaux
+    et distants, en particulier les tâches administratives ou organisationnelles,
+    ne relèvent pas du domaine d’application du présent document."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: IECTS62351-8-2011
+    type: standard
+    docid:
+    - id: IEC TS 62351-8:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TS 62351-8:2011
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '62351'
+  part: '8'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:L

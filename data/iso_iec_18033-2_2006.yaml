@@ -1,0 +1,111 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC18033-2-2006
+title:
+- content: 'Information technology -- Security techniques -- Encryption algorithms
+    -- Part 2: Asymmetric ciphers'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10633
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec18033-2{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 18033-2:2006
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:18033-2:2006-05:::'
+  type: URN
+date:
+- type: published
+  value: '2006-05-08'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2006-05-08'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 18033-2:2006 specifies encryption systems (ciphers) for the purpose
+    of data confidentiality. The primary purpose of encryption (or  encipherment )
+    techniques is to protect the confidentiality of stored or transmitted data. An
+    encryption algorithm is applied to data (often called  plaintext  or  cleartext
+    ) to yield encrypted data (or  ciphertext ); this process is known as  encryption.
+    The encryption algorithm should be designed so that the ciphertext yields no information
+    about the plaintext except, perhaps, its length. Associated with every encryption
+    algorithm is a corresponding  decryption algorithm, which transforms ciphertext
+    back into its original plaintext.   An asymmetric, i.e. public-key, encryption
+    scheme allows a sender to use a recipient's public key to transmit an encryption
+    of a message to the receiver, who can use his secret key to decrypt the given
+    ciphertext, thereby obtaining the original message.    Such a scheme should be
+    secure in the sense that no information about the message should be leaked to
+    a (resource-bounded) attacker, even if that attacker mounts a so-called 'chosen
+    ciphertext' attack, in which he may obtain decryptions of other ciphertexts. This
+    is the strongest type of attack that has been proposed for a public-key encryption
+    scheme.    ISO/IEC 18033-2:2006 specifies the functional interface of such a scheme,
+    and in addition specifies a number of particular schemes that appear to be secure
+    against chosen ciphertext attack. The different schemes offer different trade-offs
+    between security properties and efficiency.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2006'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '18033'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

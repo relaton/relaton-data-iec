@@ -1,0 +1,137 @@
+---
+schema-version: v1.2.1
+id: IEC61158-5-18-2010
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 5-18:
+    Application layer service definition - Type 18 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 5-18: Définition des services des couches d’application - Eléments de
+    type 18'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/4671
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-5-18{ed2.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-5-18{ed2.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-5-18:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-5-18:2010-08:::'
+  type: URN
+date:
+- type: published
+  value: '2010-08-05'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2010-08-05'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: IEC 61158-5-18:2010 specifies the structure and services of the type 18
+    IEC fieldbus Application Layer, in conformance with the OSI Basic Reference Model
+    (ISO/IEC 7498) and the OSI Application Layer Structure (ISO/IEC 9545). This second
+    edition cancels and replaces the first edition published in 2007 and constitutes
+    a technical revision. The main change with respect to the previous edition are
+    Editorial corrections and Addition of cyclic data segmenting.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L'IEC 61158-5-18:2010 fournit des éléments communs pour les communications
+    en temps critique ou non entre des programmes d’application dans un environnement
+    et avec un matériel d’automatisation propres aux bus de terrain de type 18. On
+    utilise le terme \"prioritaire\" pour traduire la présence d’une fenêtre temporelle,
+    à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées
+    soient terminées avec un niveau de certitude défini. Si les actions spécifiées
+    ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les
+    actions risquent de connaître une défaillance, avec les risques que cela comporte
+    pour les équipements, les installations et éventuellement la vie humaine.<br />\r\nLa
+    présente partie de la norme IEC 61158 définit de manière abstraite le service,
+    visible par un observateur externe, assuré par la couche Application de bus de
+    terrain de type 18, en termes<br />\r\na) d’un modèle abstrait pour la définition
+    des ressources d’application (objets) qui peuvent être manipulées par les utilisateurs
+    par l’intermédiaire de l’utilisation du service FAL,<br />\r\nb) des actions primitives
+    et des événements du service;<br />\r\nc) des paramètres associés à chaque action
+    et événement primitif, et de la forme qu’ils peuvent prendre; et<br />\r\nd) des
+    interrelations entre ces actions et événements, et de leurs séquences valides."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-5-18-2007
+    type: standard
+    docid:
+    - id: IEC 61158-5-18:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-5-18:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.70
+  text: Application layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '5'
+  subpart: '18'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:H

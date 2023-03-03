@@ -1,0 +1,123 @@
+---
+schema-version: v1.2.1
+id: ISO15118-9-2022
+title:
+- content: 'Road vehicles - Vehicle to grid communication interface - Part 9: Physical
+    and data link layer conformance test for wireless communication'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/62035
+  type: src
+- content: https://webstore.iec.ch/preview/info_iso15118-9{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO 15118-9:2022
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso:15118-9:2022-11:::'
+  type: URN
+date:
+- type: published
+  value: '2022-11-24'
+- type: stable-until
+  value: '2024-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2022-11-24'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO 15118-9:2022 This document specifies conformance tests in the form
+    of an abstract test suite (ATS) for a system under test (SUT) implementing an
+    electric-vehicle or supply-equipment communication controller (EVCC or SECC) with
+    support for WLAN-based high-level communication (HLC) according to ISO 15118‑8
+    and against the background of ISO 15118-1. These conformance tests specify the
+    testing of capabilities and behaviours of an SUT, as well as checking what is
+    observed against the conformance requirements specified in ISO 15118‑8 and against
+    what the implementer states the SUT implementation's capabilities are.<br />\r\nThe
+    capability tests within the ATS check that the observable capabilities of the
+    SUT are in accordance with the static conformance requirements defined in ISO
+    15118‑8. The behaviour tests of the ATS examine an implementation as thoroughly
+    as practical over the full range of dynamic conformance requirements defined in
+    ISO 15118‑8 and within the capabilities of the SUT (see NOTE below).<br />\r\nA
+    test architecture is described in correspondence to the ATS. The abstract test
+    cases in this document are described leveraging this test architecture and are
+    specified in descriptive tabular format for the ISO/OSI physical and data link
+    layers (layers 1 and 2).<br />\r\nIn terms of coverage, this document only covers
+    normative sections and requirements in ISO 15118‑8. This document can additionally
+    refer to specific tests for requirements on referenced standards (e.g. IEEE, or
+    industry consortia standards, like WiFi Alliance) as long as they are relevant
+    in terms of conformance for implementations according to ISO 15118‑8. However,
+    it is explicitly not intended to widen the scope of this conformance specification
+    to such external standards, if it is not technically necessary for the purpose
+    of conformance testing for ISO 15118‑8. Furthermore, the conformance tests specified
+    in this document do not include the assessment of performance nor robustness or
+    reliability of an implementation. They cannot provide judgments on the physical
+    realization of abstract service primitives, how a system is implemented, how it
+    provides any requested service, nor the environment of the protocol implementation.
+    Furthermore, the abstract test cases defined in this document only consider the
+    communication protocol and the system's behaviour defined ISO 15118‑8. The power
+    flow between the EVSE and the EV is not considered.<br />\r\nNOTE Practical limitations
+    make it impossible to define an exhaustive test suite, and economic considerations
+    can restrict testing even further. Hence, the purpose of this document is to increase
+    the probability that different implementations are able to interwork. This is
+    achieved by verifying them by means of a protocol test suite, thereby increasing
+    the confidence that each implementation conforms to the protocol specification.
+    However, the specified protocol test suite cannot guarantee conformance to the
+    specification since it detects errors rather than their absence. Thus, conformance
+    to a test suite alone cannot guarantee interworking. Instead, it gives confidence
+    that an implementation has the required capabilities and that its behaviour conforms
+    consistently in representative instances of communication."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  from: '2022'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 69
+    number: 69
+    type: technicalCommittee
+ics:
+- code: '43.120'
+  text: Electric road vehicles
+- code: 43.040.15
+  text: Car informatics. On board computer systems
+structuredidentifier:
+  project_number: '15118'
+  part: '9'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

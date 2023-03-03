@@ -1,0 +1,173 @@
+---
+schema-version: v1.2.1
+id: IEC61158-4-2-2019
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 4-2:
+    Data-link layer protocol specification - Type 2 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4- 2: Spécification du protocole de la couche liaison de données - Éléments
+    de type 2'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/64864
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed4.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed4.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-4-2:2019
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-4-2:2019-04:::'
+  type: URN
+date:
+- type: published
+  value: '2019-04-18'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2019-04-18'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-4-2:2019 specifies procedures for the timely transfer of data
+    and control information from one data-link user entity to a peer user entity,
+    and among the data-link entities forming the distributed data-link service provider
+    and the structure of the fieldbus DLPDUs used for the transfer of data and control
+    information by the protocol of this standard, and their representation as physical
+    interface data units. This fourth edition cancels and replaces the third edition
+    published in 2014 and constitutes a technical revision.<br />\r\nThis edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\n•clarifications of ControlNet object in 7.2;<br />\r\n•extensions
+    and clarifications of TCP/IP interface object in 7.5;<br />\r\n•extensions and
+    clarifications of Ethernet Link object in 7.6;<br />\r\n•clarifications of DeviceNet
+    object in 7.7;<br />\r\n•extensions and clarifications of CCO object in 7.8;<br
+    />\r\n•extensions and clarifications of DLR object in 7.9;<br />\r\n•extensions
+    and clarifications of Port object in 7.11;<br />\r\n•addition of PRP/HSR Protocol
+    and PRP/HSR Nodes Table objects in 7.12 and 7.13;<br />\r\n•extensions and clarifications
+    of DLR protocol in Clause 10;<br />\r\n•addition of PRP/HSR protocol mapping in
+    Clause 11;<br />\r\n•update of indicator behaviour in A.2.2 and A.2.4;<br />\r\n•miscellaneous
+    editorial corrections."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "La couche de liaison de données assure les communications de messagerie
+    à contrainte de temps de base entre les appareils d'un environnement d'automatisation.<br
+    />\r\nCe protocole offre des opportunités de communication séquentielle et synchrone
+    cyclique à toutes les entités de liaison de données participantes. Un accès planifié
+    de premier plan est proposé à toutes les activités à contrainte de temps, un accès
+    non planifié l'étant aux activités moins critiques.<br />\r\nDes transferts déterministes
+    et synchronisés peuvent être assurés à des intervalles cycliques allant jusqu’à
+    1 ms et des appareils distants de 25 km. Cette performance peut être adaptée de
+    manière dynamique et en ligne en reconfigurant les paramètres de la liaison locale
+    sans interrompre le fonctionnement normal. De la même manière, des connexions
+    DL et de nouveaux appareils peuvent être ajoutés ou retirés pendant le fonctionnement
+    normal.<br />\r\nCe protocole offre la possibilité de maintenir la synchronisation
+    d'horloge d'une liaison étendue supérieure à 10 μs.<br />\r\nCe protocole permet
+    d'optimiser chaque opportunité d'accès en concaténant plusieurs DLSDU et DLPCI
+    associés en une seule DLPDU, améliorant le transfert de données des entités de
+    liaison de données qui émettent activement plusieurs flux de données.<br />\r\nLa
+    taille maximale du système est un nombre illimité de liaisons de 99 nœuds, comportant
+    chacune 255 adresses DLSAP. Chaque liaison comporte un maximum de 224 homologues
+    connexes et DLCEP d'éditeur."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2014
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2010
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2007
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.20
+  text: Data link layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '4'
+  subpart: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

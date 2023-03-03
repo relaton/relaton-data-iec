@@ -1,0 +1,144 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC29341-20-4-2017
+title:
+- content: 'Information technology - UPnP Device Architecture - Part 20-4: Audio video
+    device control protocol - Level 4 - Datastructure template'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61490
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29341-20-4{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29341-20-4:2017
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29341-20-4:2017-09:::'
+  type: URN
+date:
+- type: published
+  value: '2017-09-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2017-09-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29341-20-4:2017 defines the layout of the AV Datastructure Template
+    (AVDT) XML document. An AVDT document describes the format requirements and restrictions
+    of various data structures used within the UPnP AV specifications. Although these
+    data structures are defined very precisely in the appropriate service specification,
+    in most cases, each data structure definition allows for a certain degree of variation
+    in order to accommodate differences between individual devices.<br />\r\nThe purpose
+    of an AVDT document is to enable each device to describe (at run-time) its particular
+    variation of these AV data structures. AVDT documents allow users of AV data structures
+    (e.g. UPnP control points) to reduce the number of instances of those data structures
+    that comply with the service specification but are not compatible with the device's
+    particular capabilities. The ultimate goal of an AVDT document is to reduce those
+    error conditions that are caused by control points creating instances of a data
+    structure that exceed the static (known) capabilities of the device. Unfortunately,
+    the AVDT mechanism will never eliminate all preventable error conditions, but
+    it will help to reduce them by giving the client more information about the device's
+    particular capabilities.<br />\r\nAs described above, an AVDT document is a machine
+    readable, implementation-specific variant of an AV data structure defined by one
+    of the UPnP AV specifications. For a given device, each instance of that data
+    structure shall conform to both the specification definition and the device's
+    AVDT definition of that data structure.<br />\r\nIronically, an AVDT document
+    is both a more-restrictive and more-permissive variant of the specification definition.
+    AVDT documents are more restrictive because they limit certain aspects of the
+    data structure (e.g. such as the allowed values for each field) that are otherwise
+    permitted by the specification definition. However, due to limitations of the
+    AVDT constructs, it is simply not possible to express some of the more intricate
+    requirements defined by the specification (e.g. subtle interdependencies between
+    data structure fields). Consequently, instances of a data structure that comply
+    with a given AVDT description may not fully comply with all of the requirements
+    defined in the specification.<br />\r\nThe types of data structures that can be
+    described by an AVDT document represent a (non-hierarchitical) set of named property
+    values. The set of allowed property names and their allowed values for a given
+    data structure are defined by one of the UPnP AV specifications. Individual instances
+    of these data structures are manifested via an XML document whose elements and
+    attributes correspond to the set of named properties. In other words, within the
+    XML document that corresponds to a given instance of a certain data structure,
+    each XML element and attribute contains the value of a specific named property.<br
+    />\r\nAn AVDT document is conceptually similar to an XML schema in that both entities
+    identify the XML elements and attributes that appear in any given document instance.
+    Additionally, both AVDT documents and XML schemas identify the allowed values
+    that are permitted for each element and/or attribute which corresponds to a specific
+    property. However, unlike an XML schema, an AVDT document can also identify certain
+    dependencies between two or more properties. For example, the set of allowed values
+    of one property may depend on the actual value of another property. This type
+    of interrelationship is difficult to represent using an XML schema. Hence, the
+    AVDTdocument structure is needed.<br />\r\nIn the various AV Architecture scenarios,
+    sometimes there is a need to exchange device capabilities to ensure high level
+    interoperability. In order to express the parameterized capability, an AV specification
+    defines various templates for each purpose. A device uses the template and populates
+    it with values to reflect its capabilities at run-time.<br />\r\nThe AV Datastructure
+    Template (AVDT) is a common structure to define various templates, which are called
+    \"Datastructure\". This is written in XML and each data structure uses a subset
+    of the AVDT to meet the necessary requirement."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2017'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '29341'
+  part: '20'
+  subpart: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D

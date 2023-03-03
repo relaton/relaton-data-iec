@@ -1,0 +1,141 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC15444-6-2003
+title:
+- content: 'Information technology -- JPEG 2000 image coding system -- Part 6: Compound
+    image file format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/21279
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15444-6{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15444-6:2003
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15444-6:2003-10:::'
+  type: URN
+date:
+- type: published
+  value: '2003-10-21'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2003-10-21'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 15444-6:2003 defines a normative but optional file format for
+    storing compound images using the JPEG 2000 file format family architecture. A
+    compound image is an image that may contain scanned images, synthetic images or
+    both, and that preferably requires a mix of continuous tone and bi-level compression
+    methods. Besides defining a binary container for a mix of continuous-tone and
+    bi-level images, this format defines a composition model that describes how the
+    multiple images are combined to generate a compound image. This composition model
+    is based on the multi-layer Mixed Raster Content (MRC) imaging model, defined
+    in ITU-T T.44   ISO/IEC 16485.   The name of the file format defined in this part
+    of ISO/IEC 15444 is JPEG 200 Multi-layer or JPM. A JPM file uses the file format
+    architecture specified in ITU-T Rec T.800   ISO/IEC 15444-1. Therefore, a JPM
+    file is a contiguous sequence of boxes. It uses boxes defined for the JP2 file
+    format in ITU-T Rec T.800   ISO/IEC 15444-1 and the JPX file format defined in
+    ITU-T Rec T.801   ISO/IEC 15444-2. When stored in traditional computer file systems,
+    files that conform to this International Standard should have the file extension.jpm.
+    On Macintosh file systems, the type code should be ''jpm\040''.   ISO/IEC 15444-6:2003
+    is useful for applications that store multiple pages, images with mixed content,
+    and/or images that need more structure than provided in JP2. A JPM file stores
+    a compound image document as a sequence of pages, each of which consists of a
+    sequence of layout objects, each of which in turn consists of an MRC mask-image
+    object pair. A JPM file can support MRC-encoded data, binary-only objects and
+    pages, JPEG 2000-compressed objects and pages, or a mixture of all. Each of these
+    elements (page, layout object, mask/image object) may have a label and associated
+    metadata.   In addition, a JPM file contains a main page collection, which is
+    used to organize and navigate the pages in a compound image document. A key feature
+    of JPM is its support of fragmented JPEG 2000 codestreams to enable progressive
+    and interactive rendering in web applications. A JPM file may be self-contained
+    in that it contains all the data needed to composite the page or pages in the
+    file. A JPM file may also reference images and data in external files. The JPM
+    web profile supports JPEG 2000 and JPEG for continuous tone compression, and G4,
+    JBIG2 and JPEG 2000 for bi-level compression.   In summary, ISO/IEC 15444-6:2003
+    specifies:    a binary container for multiple bi-level and continuous-tone images
+    used to represent a compound image,  a mechanism by which multiple images can
+    be combined into a single compound image, based on the Mixed Raster Content model,  a
+    mechanism for grouping multiple images in a hierarchy of layout objects, pages
+    and page collections,  a mechanism for storing JPEG 2000 and other compressed
+    image data formats,  a mechanism by which metadata can be included in files specified
+    by ISO/IEC 15444-6:2003.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2003'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-6-2003/AMD1-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-6:2003/AMD1:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-6:2003/AMD1:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.30
+  text: Coding of graphical and photographical information
+structuredidentifier:
+  project_number: '15444'
+  part: '6'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

@@ -1,0 +1,141 @@
+---
+schema-version: v1.2.1
+id: IEC61158-6-18-2010
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 6-18:
+    Application layer protocol specification - Type 18 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 6-18: Spécification des protocoles des couches d''application - Eléments
+    de type 18'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/4693
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-6-18{ed2.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-6-18{ed2.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-6-18:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-6-18:2010-08:::'
+  type: URN
+date:
+- type: published
+  value: '2010-08-06'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2010-08-06'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-6-18:2010 specifies the protocol of the Type 18 fieldbus application
+    layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and
+    the OSI application layer structure (ISO/IEC 9545). It defines the protocol provided
+    to define the wire-representation of the service primitives defined in IEC 61158-5-18:2010,
+    and the externally visible behavior associated with their transfer. This second
+    edition cancels and replaces the first edition published in 2007 and constitutes
+    a technical revision. The main changes with respect to the previous edition are:<br
+    />\r\n- editorial corrections;<br />\r\n- addition of cyclic data segmenting."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L'IEC 61158-6-18:2010 fournit des éléments communs pour les communications
+    en temps critique ou non entre des programmes d'application dans un environnement
+    et avec un matériel d'automatisation propres aux bus de terrain de type 18. Le
+    terme \"en temps critique\" signale l'existence d'une fenêtre temporelle dans
+    laquelle est exigée la réalisation d'une ou de plusieurs actions spécifiées, avec
+    un niveau de certitude défini. La non-réalisation des actions spécifiées dans
+    la fenêtre temporelle induit un risque de défaillance des applications qui exigent
+    ces actions, avec les risques afférents pour l'équipement, les installations et
+    éventuellement la vie humaine.<br />\r\nLa présente norme définit les interactions
+    entre les applications distantes ainsi que le comportement, visible par un observateur
+    externe, assuré par la couche Application de bus de terrain de type 18, en termes<br
+    />\r\na) de syntaxe abstraite formelle définissant les unités de données de protocole
+    de couche application, acheminées entre les entités d'application en communication;<br
+    />\r\nb) de syntaxe de transfert définissant les règles de codage qui s'appliquent
+    aux unités de données de protocole de couche application;<br />\r\nc) de la machine
+    à état de contexte application définissant le comportement de service application
+    visible entre des entités d'application engagées dans une communication;<br />\r\nd)
+    de machines à état de relations d'applications définissant le comportement de
+    communication visible entre les entités d'application en communication."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-6-18-2007
+    type: standard
+    docid:
+    - id: IEC 61158-6-18:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-18:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.70
+  text: Application layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '6'
+  subpart: '18'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:K

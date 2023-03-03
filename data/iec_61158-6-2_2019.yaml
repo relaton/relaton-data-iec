@@ -1,0 +1,185 @@
+---
+schema-version: v1.2.1
+id: IEC61158-6-2-2019
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 6-2:
+    Application layer protocol specification - Type 2 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 6-2: Spécification du protocole de la couche liaison de données - Eléments
+    de type 2'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/65168
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-6-2{ed4.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-6-2{ed4.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-6-2:2019
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-6-2:2019-06:::'
+  type: URN
+date:
+- type: published
+  value: '2019-06-20'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2019-06-20'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-6-2:2019 provides common elements for basic time-critical and
+    non-time-critical messaging communications between application programs in an
+    automation environment and material specific to Type 2 fieldbus. The term “time-critical”
+    is used to represent the presence of a time-window, within which one or more specified
+    actions are required to be completed with some defined level of certainty. Failure
+    to complete specified actions within the time window risks failure of the applications
+    requesting the actions, with attendant risk to equipment, plant and possibly human
+    life.<br />\r\nThis International Standard specifies interactions between remote
+    applications and defines the externally visible behavior provided by the Type
+    2 fieldbus application layer. The purpose of this document is to define the protocol
+    provided to<br />\r\na) define the wire-representation of the service primitives
+    defined in this document, and<br />\r\nb) define the externally visible behavior
+    associated with their transfer. This document specifies the protocol of the Type
+    2 fieldbus application layer, in conformance with the OSI Basic Reference Model
+    (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br />\r\nThis
+    fourth edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\n- clarifications of response PDU formats in
+    case of failure in 4.1.5;<br />\r\n- clarifications of connection request priority
+    definition and handling in 4.1.6.5 and 4.1.6.6;<br />\r\n- clarification of connection
+    remaining path in 4.1.6.12;<br />\r\n- extensions of general syntax in 4.1.8.1;<br
+    />\r\n- extensions and clarifications of Identity object PDUs in 4.1.8.2;<br />\r\n-
+    updates of Assembly object PDUs in 4.1.8.4;<br />\r\n- extensions and clarification
+    of Time sync object PDUs in 4.1.8.6;<br />\r\n- updates of Parameter object PDUs
+    in 4.1.8.7;<br />\r\n- extensions of Connection Manager object PDUs in 4.1.8.8;<br
+    />\r\n- clarifications of Connection object PDUs in 4.1.8.9;<br />\r\n- extensions
+    and clarifications of message and connection paths in 4.1.9;<br />\r\n- updates
+    of object and service class codes in 4.1.10 and error codes in 4.1.11;<br />\r\n-
+    updates of data types in 4.2.4, 5.1.3 and 5.2.3;<br />\r\n- updates of the encapsulation
+    abstract syntax in 4.3;<br />\r\n- updates to the DLL mapping protocol machine
+    2 in Clause 11;<br />\r\n- miscellaneous editorial corrections."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L’IEC 61158-6-2:2019 fournit des éléments communs pour les communications
+    à temps critique ou non entre des programmes d'application dans un environnement
+    et avec un matériel d'automation spécifiques aux bus de terrain de type 2. Le
+    terme \"à temps critique\" signale l'existence d'une fenêtre temporelle dans laquelle
+    est exigée la réalisation d'une ou de plusieurs actions spécifiées, avec un niveau
+    de certitude défini. La non-réalisation des actions spécifiées dans la fenêtre
+    temporelle induit un risque de défaillance des applications qui demandent ces
+    actions, avec les risques relatifs à l'équipement, les installations et éventuellement
+    la vie humaine.<br />\r\nLe présent document spécifie les interactions entre les
+    applications distantes et définit le comportement, visible par un observateur
+    externe, assuré par la couche application de bus de terrain de type 2, en termes<br
+    />\r\na) de syntaxe abstraite formelle définissant les unités de données de protocole
+    de couche application, acheminées entre les entités d'application en communication;<br
+    />\r\nb) de syntaxe de transfert définissant les règles de codage qui s'appliquent
+    aux unités de données de protocole de couche application;<br />\r\nc) du diagramme
+    d'états de contexte application définissant le comportement de service application
+    visible entre des entités d'application engagées dans une communication;<br />\r\nd)
+    de diagrammes d'états de relations d'applications définissant le comportement
+    de communication visible entre les entités d'application en communication."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-6-2-2014
+    type: standard
+    docid:
+    - id: IEC 61158-6-2:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-2:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-6-2-2010
+    type: standard
+    docid:
+    - id: IEC 61158-6-2:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-2:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-6-2-2007
+    type: standard
+    docid:
+    - id: IEC 61158-6-2:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-6-2:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.70
+  text: Application layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '6'
+  subpart: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

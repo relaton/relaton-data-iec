@@ -1,0 +1,139 @@
+---
+schema-version: v1.2.1
+id: IEC61850-8-1-2011
+title:
+- content: 'Communication networks and systems for power utility automation - Part
+    8-1: Specific communication service mapping (SCSM) - Mappings to MMS (ISO 9506-1
+    and ISO 9506-2) and to ISO/IEC 8802-3'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes
+    électriques - Partie 8-1: Mise en correspondance des services de communication
+    spécifiques (SCSM) - Mise en correspondance pour MMS (ISO 9506-1 et ISO 9506-2)
+    et pour l''ISO/CEI 8802-3'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/6021
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61850-8-1{ed2.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61850-8-1:2011
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61850-8-1:2011-06:::'
+  type: URN
+date:
+- type: published
+  value: '2011-06-17'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2011-06-17'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61850-8-1:2011 specifies a method of exchanging time-critical and
+    non-time-critical data through local-area networks by mapping ACSI to MMS and
+    ISO/IEC 8802-3 frames. Defines a standardized method of using the ISO 9506 services
+    to implement the exchange of data. For those ACSI services defined in IEC 61850-7-2
+    that are not mapped to MMS, this part defines additional protocols. It describes
+    real utility devices with respect to their external visible data and behaviour
+    using an object oriented approach. The objects are abstract in nature and may
+    be used to a wide variety of applications. The use of this mapping goes far beyond
+    the application in the utility communications. The main changes with respect to
+    the previous edition are listed below:<br />\n- the support of gigabit Ethernet,<br
+    /> \n- the link layer redundancy,<br />\n- the extension of the length of the
+    object reference,<br />\n- the extension of the reason for inclusion type for
+    comprehensive logging,<br />\n- the mapping of the tracking services,<br />\n-
+    a second mapping of the objectReference when used in the tracking services, or
+    as linking,<br />\n- the extension of the AdditionalCause enumeration,<br />\n-
+    the simulation of GOOSE telegram,<br />\n- the so-called fixed-length encoded
+    GOOSE,<br />\n- the removal of the SCL Control Block."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    La CEI 61850-8-1:2011 spécifie une méthode d'échange de données prioritaires et de données non prioritaires par l'intermédiaire de réseaux locaux par la mise en correspondance de l'ACSI avec les trames MMS et ISO/CEI 8802-3. Définit une méthode normalisée d'utilisation des services ISO 9506 pour mettre en oeuvre l'échange de données. Pour ces services ACSI définis dans la CEI 61850-7-2 qui ne sont pas mis en correspondance en MMS, cette partie définit des protocoles additionnels. Elle décrit des équipements de distribution réels en fonction de leurs données et comportements visibles externes en utilisant une approche orientée objet. Les objets sont de nature abstraite et peuvent être utilisés dans des applications très diverses. L'utilisation de cette mise en correspondance dépasse l'application dans les communications de distribution. Les principales modifications apportées à l'édition précédente sont les suivantes:<br />
+    - la prise en charge d'Ethernet gigabit,<br />
+    - la redondance de couche liaison,<br />
+    - l'extension de la longueur de la référence d'objet,<br />
+    - l'extension de la raison du type d'inclusion pour une journalisation complète,<br />
+    - la mise en correspondance des services de suivi,<br />
+    - une deuxième mise en correspondance de la référence d'objet lorsqu'elle est utilisée dans les services de suivi, ou en tant que lien,<br />
+    - l'extension de l'énumération AdditionalCause,<br />
+    - la simulation de télégramme GOOSE,<br />
+    - le GOOSE nommé codé de longueur fixe,<br />
+    - l'élimination du bloc de commande SCL.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2011'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61850-8-1-2004
+    type: standard
+    docid:
+    - id: IEC 61850-8-1:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61850-8-1:2004
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '61850'
+  part: '8'
+  subpart: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

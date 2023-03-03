@@ -1,0 +1,108 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC29341-26-11-2017
+title:
+- content: 'Information technology - UPnP Device Architecture - Part 26-11: Telephony
+    device control protocol - Level 2 - Media management service'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61500
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29341-26-11{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29341-26-11:2017
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29341-26-11:2017-09:::'
+  type: URN
+date:
+- type: published
+  value: '2017-09-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2017-09-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29341-26-11:2017 is compliant with [1]. It defines a service type
+    referred to herein as the MediaManagement service.<br />\r\nThe MediaManagement
+    service enables the feature to set-up a media session on a Telephony Client (TC),
+    under the control of a Telephony Control Point (TelCP). This service provides
+    the following functions:<br />\r\n- Set up a media session to send and/or receive
+    media streams between a TC and a TS. To set up a media session, The MediaManagement
+    service provides an interface for a TelCP to negotiate the media capabilities
+    (e.g., codec types, IP address, port number etc.) between a TC and a TS. This
+    ensures a TelCP to select a common set of the media capabilities to be used to
+    send and/or receive media streams between a TS and a TC. After the media session
+    is established, the TC starts sending and/or receiving media streams based on
+    the media chapabilities negotiated between the TC and the TS.<br />\r\n- The mechanism
+    to modify the media capabilities of an existing media session. For instance, if
+    a media session is created for sending and receiving an audio media stream, it
+    is possible to modify the media session for sending and receiving a video media
+    stream.<br />\r\n- The mechanism to terminate a media session."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2017'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '29341'
+  part: '26'
+  subpart: '11'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

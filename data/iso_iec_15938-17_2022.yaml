@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC15938-17-2022
+title:
+- content: 'Information technology - Multimedia content description interface - Part
+    17: Compression of neural networks for multimedia content description and analysis'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/78601
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15938-17{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15938-17:2022
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15938-17:2022-08:::'
+  type: URN
+date:
+- type: published
+  value: '2022-08-26'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2022-08-26'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 15938-17:2022 This document specifies Neural Network Coding (NNC)
+    as a compressed representation of the parameters/weights of a trained neural network
+    and a decoding process for the compressed representation, complementing the description
+    of the network topology in existing (exchange) formats for neural networks. It
+    establishes a toolbox of compression methods, specifying (where applicable) the
+    resulting elements of the compressed bitstream.<br />\r\nThis document does not
+    specify a complete protocol for the transmission of neural networks, but focuses
+    on compression of network parameters. Only the syntax format, semantics, associated
+    decoding process requirements, parameter sparsification, parameter transformation
+    methods, parameter quantization, entropy coding method and integration/signalling
+    within existing exchange formats are specified, while other matters such as pre-processing,
+    system signalling and multiplexing, data loss recovery and post-processing are
+    considered to be outside the scope of this document. Additionally, the internal
+    processing steps performed within a decoder are also considered to be outside
+    the scope of this document; only the externally observable output behaviour is
+    required to conform to the specifications of this document."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2022'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '15938'
+  part: '17'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

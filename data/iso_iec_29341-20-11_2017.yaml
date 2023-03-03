@@ -1,0 +1,106 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC29341-20-11-2017
+title:
+- content: 'Information technology - UPnP Device Architecture - Part 20-11: Audio
+    video device control protocol - Level 4 - Connection manager service'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61484
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29341-20-11{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29341-20-11:2017
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29341-20-11:2017-09:::'
+  type: URN
+date:
+- type: published
+  value: '2017-09-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2017-09-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29341-20-11:2017 is compliant with the UPnP Device Architecture
+    version 1.0 [14].<br />\r\nThis service-type enables modeling of streaming capabilities
+    of A/V devices, and binding of those capabilities between devices. Each device
+    that is able to send or receive a stream according to the UPnP AV Architecture
+    will have 1 instance of the ConnectionManager service. This service provides a
+    mechanism for control points to:<br />\r\na) Perform capability matching between
+    source/server devices and sink/renderer devices,<br />\r\nb) Find information
+    about currently ongoing transfers in the network,<br />\r\nc) Setup and teardown
+    connections between devices (when required by the streaming protocol).<br />\r\nThe
+    ConnectionManager service is generic enough to properly abstract different kinds
+    of streaming mechanisms, such as HTTP-based streaming, RTSP/RTP-based and 1394-based
+    streaming.<br />\r\nThe ConnectionManager enables control points to abstract from
+    physical media interconnect technology when making connections. The term?stream'
+    used in this service template refers to both analog and digital data transfer."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2017'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '29341'
+  part: '20'
+  subpart: '11'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

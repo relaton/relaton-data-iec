@@ -1,0 +1,121 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC5965-2021
+title:
+- content: Information technology - Swordfish Scalable Storage Management API Specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/70994
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec5965{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 5965:2021
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:5965:2021-08:::'
+  type: URN
+date:
+- type: published
+  value: '2021-08-24'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2021-08-24'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This document defines the Swordfish Scalable Storage Management API.<br
+    />\r\nSwordfish extends the Redfish Scalable Platforms Management API Specification,
+    as defined by ISO 30115. It defines a comprehensive, RESTful API for storage management
+    that addresses block storage, file systems, object storage, and storage network
+    infrastructure. It is centered around common operational and business concerns
+    of storage management, including:<br />\r\n- Configuration and provisioning<br
+    />\r\n- Monitoring<br />\r\n- Event and log management<br />\r\n- Performance
+    assessment<br />\r\n- Diagnostics<br />\r\n- Fault detection and remediation<br
+    />\r\n- Security<br />\r\n- Accounting and resource consumption<br />\r\nSwordfish’s
+    storage model is built around well-defined classes of service, which provide a
+    means to map high-level business goals and objectives to specific, storage-based
+    actions and requirements, in a clear and consistent way that can be applied uniformly
+    across a broad spectrum of storage configurations and storage types (e.g., block
+    storage, file systems, object stores). Common storage management functionality
+    covered by class of service includes snapshots, replication, mapping and masking,
+    and provisioning.<br />\r\nThe Redfish specification provides the protocols and
+    a core set of data models and behaviors for the management of systems. It defines
+    the elements and behaviors that are mandatory for all Redfish implementations.
+    Additionally it defines additional elements and behaviors that can be chosen by
+    system vendors or manufacturers. The specifications also defines points at which
+    OEM (system vendor) extensions can be provided by a given implementation. The
+    specifications specifies normative requirements for Redfish Services and associated
+    materials, such as Redfish Schema files. The Redfish specifications does not set
+    requirements for Redfish clients, but willindicate what a Redfish client should
+    do in order to access and utilize a Redfish Service successfully and effectively.<br
+    />\r\nThe Swordfish specification defines additional data models and behaviors
+    for the management of storage systems and storage infrastructure. A Swordfish
+    implementation shall conform to all requirements specified in the Redfish specifications.<br
+    />\r\nSwordfish is suitable for a wide range of storage, from small-scale object
+    drives, integrated RAID cards or RBODs providing storage services, to external
+    disk arrays or file servers, to infrastructure providing storage services for
+    converged, hyperscale and large scale cloud environments."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.020'
+  text: Information technology (IT) in general
+structuredidentifier:
+  project_number: '5965'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

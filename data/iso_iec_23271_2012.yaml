@@ -1,0 +1,123 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC23271-2012
+title:
+- content: Information technology -- Common Language Infrastructure (CLI)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11053
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23271{ed3.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 23271:2012
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23271:2012-02:::'
+  type: URN
+date:
+- type: published
+  value: '2012-02-13'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2012-02-13'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 23271:2012 defines the Common Language Infrastructure (CLI) in
+    which applications written in multiple high-level languages can be executed in
+    different system environments without the need to rewrite those applications to
+    take into consideration the unique characteristics of those environments. It consists
+    of six partitions.    Partition I describes the overall architecture of the CLI,
+    and provides the normative description of the Common Type System (CTS), the Virtual
+    Execution System (VES), and the Common Language Specification (CLS). It also provides
+    an informative description of the metadata.   Partition II provides the normative
+    description of the metadata: its physical layout (as a file format), its logical
+    contents (as a set of tables and their relationships), and its semantics (as seen
+    from a hypothetical assembler, ILAsm).   Partition III describes the Common Intermediate
+    Language (CIL) instruction set.   Partition IV provides an overview of the CLI
+    Libraries, and a specification of their factoring into Profiles and Libraries.
+    A companion file, CLILibrary.xml, considered to be part of this partition, but
+    distributed in XML format, provides details of each class, value type, and interface
+    in the CLI Libraries.   Partition V describes a standard way to interchange debugging
+    information between CLI producers and consumers.   Partition VI contains some
+    sample programs written in CIL Assembly Language (ILAsm), information about a
+    particular implementation of an assembler, a machine-readable description of the
+    CIL instruction set which can be used to derive parts of the grammar used by this
+    assembler as well as other tools that manipulate CIL, a set of guidelines used
+    in the design of the libraries of Partition IV, and portability considerations.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2012'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC23271-2006
+    type: standard
+    docid:
+    - id: ISO/IEC 23271:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23271:2006
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 22
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.060'
+  text: Languages used in information technology
+structuredidentifier:
+  project_number: '23271'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

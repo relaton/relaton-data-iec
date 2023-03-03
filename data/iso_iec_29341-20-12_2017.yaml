@@ -1,0 +1,123 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC29341-20-12-2017
+title:
+- content: 'Information technology - UPnP Device Architecture - Part 20-12: Audio
+    video device control protocol - Level 4 - Content directory service'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61485
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29341-20-12{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29341-20-12:2017
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29341-20-12:2017-09:::'
+  type: URN
+date:
+- type: published
+  value: '2017-09-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2017-09-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29341-20-12:2017 specifies the characteristics of the UPnP networked
+    service named ContentDirectory, version 4. This service definition is compliant
+    with UPnP Device Architecture 1.0 [14].<br />\r\nMany devices within the home
+    network contain various types of content that other devices would like to access
+    (for example, music, videos, still images, etc). As an example, a MediaServer
+    device might contain a significant portion of the homeowner's audio, video, and
+    still-image library. In order for the homeowner to enjoy this content, the homeowner
+    needs to be able to browse the objects stored on the MediaServer, select a specific
+    one, and cause it to be played on an appropriate rendering device (for example,
+    an audio player for music objects, a TV for video content, an Electronic Picture
+    Frame for still-images, etc).<br />\r\nFor maximum convenience, it is highly desirable
+    to let the homeowner to initiate these operations from a variety of UI devices.
+    In most cases, these UI devices will either be a UI built into the rendering device,
+    or it will be a stand-alone UI device such as a wireless PDA or tablet. In any
+    case, it is unlikely that the homeowner will interact directly with the device
+    containing the content (that is: the homeowner won't have to walk over to the
+    server device). In order to enable this capability, the server device needs to
+    provide a uniform mechanism for UI devices to browse the content on the server
+    and to obtain detailed information about individual content objects. This is the
+    purpose of the ContentDirectory service.<br />\r\nThe ContentDirectory service
+    additionally provides a lookup/storage service that enables clients (for example,
+    UI devices) to locate (and possibly store) individual objects (for example, songs,
+    movies, pictures, etc) that the (server) device is capable of providing. For example,
+    this service can be used to enumerate a list of songs stored on an MP3 player,
+    a list of still-images comprising various slide-shows, a list of movies stored
+    in a DVD-Jukebox, a list of TV shows currently being broadcast (a.k.a an EPG),
+    a list of songs stored in a CD-Jukebox, a list of programs stored on a PVR (Personal
+    Video Recorder) device, etc. Nearly any type of content can be enumerated via
+    this ContentDirectory service. For devices that contain multiple types of content
+    (for example, MP3, MPEG2, JPEG, etc.), a single instance of the ContentDirectory
+    service can be used to enumerate all objects, regardless of their type."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2017'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '29341'
+  part: '20'
+  subpart: '12'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

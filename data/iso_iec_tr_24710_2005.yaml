@@ -1,0 +1,122 @@
+---
+schema-version: v1.2.1
+id: ISO/IECTR24710-2005
+title:
+- content: Information technology -- Radio frequency identification for item management
+    -- Elementary tag licence plate functionality for ISO/IEC 18000 air interface
+    definitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11110
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiectr24710{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC TR 24710:2005
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:24710:2005-10:tr::'
+  type: URN
+date:
+- type: published
+  value: '2005-10-27'
+- type: obsoleted
+  value: '2017-11-30'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2005-10-27'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 18000 defines the operation of radio frequency identification
+    (RFID) air interfaces for item identification and management.<br /><br />\r\nISO/IEC
+    18000 has been designed to encompass a full range of data capture and carrier
+    functionality. Both read and write operations are enabled, and the interfaces
+    can efficiently support both simple and complex data transactions.<br /><br />\r\nThis
+    approach facilitates user implementation by providing consistency between differing
+    types of RFID data transactions. Equally it provides architecture to guide future
+    RFID development whilst maintaining the backward compatibility necessary to sustain
+    market confidence.<br /><br />\r\nRecent developments in the design and management
+    of distributed databases holding item level information have focused attention
+    on 'identification data element' operation of RFID systems. In this application,
+    the RFID tag carries only sufficient data to permit reference to attribute information
+    held elsewhere. Typically this data does not change during the validity of the
+    'licence' and is of relatively low bit count.<br /><br />\r\nISO/IEC TR 24710:2005
+    has been prepared to assist users intending to implement ISO/IEC 18000 RFID air
+    interface standards, with particular focus on so-called elementary tags, i.e.
+    tags possessing limited memory - typically but not exclusively 256 bits or less
+    - and lacking write capability (but not excluding WORM devices).<br /><br />\r\nThe
+    annexes to ISO/IEC TR 24710:2005 describe the implementation of ISO/IEC 18000-2,
+    -3, -4, -6 and -7 in such an application.<br /><br />\r\nUsers are strongly advised
+    to refer to ISO/IEC 15961 and ISO/IEC 15962 for a full exposition of the management
+    issues relating to data strings used for identification data element purposes.<br
+    /><br />\r\nBodies external to ISO also specify identification data element length
+    and structure for particular applications.<br /><br />\r\nISO/IEC TR 24710:2005
+    defines for each of ISO/IEC 18000-2, -3, -4, -6 and -7, and, where relevant, for
+    each Mode within each part, a transaction that achieves an elementary tag 'identification
+    data element' for item identification and management.<br /><br />\r\nThe transaction
+    uses the existing air interface protocols defined in the corresponding parts of
+    ISO/IEC 18000 or a subset thereof."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: WITHDRAWN
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2005'
+place:
+- Geneva
+doctype: technical-report
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 31
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

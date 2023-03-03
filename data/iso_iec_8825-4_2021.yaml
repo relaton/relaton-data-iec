@@ -1,0 +1,209 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC8825-4-2021
+title:
+- content: 'Information technology - ASN.1 encoding rules - Part 4: XML Encoding Rules
+    (XER)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/69682
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec8825-4{ed4.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 8825-4:2021
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:8825-4:2021-06:::'
+  type: URN
+date:
+- type: published
+  value: '2021-06-30'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2021-06-30'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This document specifies a set of basic XML Encoding Rules (BASIC-XER)
+    that may be used to derive a transfer syntax for values of types defined in Rec.
+    ITU-T X.680 | ISO/IEC 8824-1 and Rec. ITU-T X.681 | ISO/IEC 8824-2. This document
+    also specifies a set of Canonical XML Encoding Rules (CXER) which provide constraints
+    on the basic XML Encoding Rules and produce a unique encoding for any given ASN.1
+    value. This document further specifies a set of extended XML Encoding Rules (EXTENDED-XER)
+    which adds further encoders options, and also allows the ASN.1 specifier to vary
+    the encoding that would be produced by BASIC-XER. It is implicit in the specification
+    of these encoding rules that they are also used for decoding.<br />\r\nThe encoding
+    rules specified in this document:<br />\r\n– are used at the time of communication;<br
+    />\r\n– are intended for use in circumstances where displaying of values and/or
+    processing them using commonly available XML tools (such as browsers) is the major
+    concern in the choice of encoding rules;<br />\r\n– allow the extension of an
+    abstract syntax by addition of extra values for all forms of extensibility described
+    in Rec. ITU-T X.680 | ISO/IEC 8824‑1.<br />\r\nThis document also specifies the
+    syntax and semantics of XER encoding instructions, and the rules for their assignment
+    and combination. XER encoding instructions can be used to control the EXTENDED-XER
+    encoding for specific ASN.1 types."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2015/COR1-2018
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2015/COR1:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2015/COR1:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2008/COR2-2014
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2008/COR2:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2008/COR2:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2008/COR1-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2008/COR1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2008/COR1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2002/AMD3-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2002/AMD3:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2002/AMD3:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2002/AMD2-2006
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2002/AMD2:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2002/AMD2:2006
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2002/AMD1-2004
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2002/AMD1:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2002/AMD1:2004
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8825-4-2002
+    type: standard
+    docid:
+    - id: ISO/IEC 8825-4:2002
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8825-4:2002
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.100.60
+  text: Presentation layer
+structuredidentifier:
+  project_number: '8825'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

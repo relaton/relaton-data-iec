@@ -1,0 +1,136 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC24775-7-2021
+title:
+- content: 'Information technology - Storage management - Part 7: Host elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/68860
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec24775-7{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 24775-7:2021
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:24775-7:2021-04:::'
+  type: URN
+date:
+- type: published
+  value: '2021-04-07'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2021-04-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "The host-base storage portion of the Storage Management Technical Specification
+    defines management profiles for autonomous, component and abstract profiles for
+    management of host-based storage devices.Â The autonomous profiles describe the
+    management of a stand-alone host-based storage entity. The component profiles
+    describe management of aspects of host-based storage entities that may be used
+    by other autonomous profiles. Finally, this section describes abstract profiles
+    that may be used as a basis for creating additional Host-based autonomous profiles.<br
+    />\r\nThis version of the Host-based Storage portion of the Storage Management
+    Technical Specification includes autonomous profiles:<br />\r\n- \"The Host Discovered
+    Resources Profile<br />\r\nThis profile defines the model for the storage devices
+    presented to an operating system running on a host computer system. In addition,
+    this profile describes the map of storage associated to a host-computer system
+    that a client application can discover.<br />\r\n- \"The Fibre Channel HBA Profile<br
+    />\r\nThis profile defines the model and functions of a Fibre Channel HBA that
+    exports block storage to a host computer system from a SAN device (Fibre Channel
+    switch, array, tape library, etc.).<br />\r\n- iSCSI Initiator Profile<br />\r\nThis
+    profile defines the model and functions necessary to manage an iSCSI initiator.<br
+    />\r\nComponent profiles used by autonomous profiles to describe aspects of host-based
+    storage elements and services. The component profiles defined in this version
+    of the specification include:<br />\r\n- Host Hardware RAID Controller Profile<br
+    />\r\nThis profile defines the model and functions of a host-based RAID controller
+    that exports block storage to a host computer system from locally attached storage
+    devices (internal hard drives, JBODs, etc.)<br />\r\n- Storage HBA Profile<br
+    />\r\nThis profile defines the model and functions of a SAS, SATA, SPI, or Fibre
+    Channel HBA that exports storage to a host computer system from a SAN device (Fibre
+    Channel switch, array, tape library, etc.).<br />\r\n- Disk Partition Profile<br
+    />\r\nThe Disk Partition profile models partition (or slice) configuration services
+    provided by operating systems on some platforms.<br />\r\n- SB Multipath Management
+    Profile<br />\r\nThe SB Multipath Management Profile models paths (connections
+    between host controllers and device ports) for environments supporting the SB
+    (Single Byte) command protocol.<br />\r\n- SCSI Multipath Management Profile<br
+    />\r\nThe SCSI Multipath Management profile models paths (connections between
+    host controllers, device ports, and logical units) for environments supporting
+    the SCSI command protocol."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC24775-7-2014
+    type: standard
+    docid:
+    - id: ISO/IEC 24775-7:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 24775-7:2014
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '24775'
+  part: '7'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

@@ -1,0 +1,122 @@
+---
+schema-version: v1.2.1
+id: IEC62439-4-2010
+title:
+- content: 'Industrial communication networks - High availability automation networks
+    - Part 4: Cross-network Redundancy Protocol (CRP)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Réseaux d''automatisation à haute
+    disponibilité - Partie 4: Protocole de redondance inter-réseau (CRP)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/7020
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62439-4{ed1.0}b.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec62439-4{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62439-4:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62439-4:2010-02:::'
+  type: URN
+date:
+- type: published
+  value: '2010-02-26'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2010-02-26'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    IEC 62439-4:2010 is applicable to high-availability automation networks based on the ISO/IEC 8802-3 (IEEE 802.3) (Ethernet) technology. It specifies a redundancy protocol that is based on the duplication of the network, the redundancy protocol being executed within the end nodes, as opposed to a redundancy protocol built in the switches. The switchover decision is taken in each node individually. The cross-network connection capability enables single attached end nodes to be connected on either of the two networks. It cancels and replaces IEC 62439 published in 2008 and constitutes a technical revision. It includes the following significant technical changes with respect to IEC 62439 (2008):<br />
+    - adding a calculation method for RSTP (rapid spanning tree protocol, IEEE 802.1Q),<br />
+    - adding two new redundancy protocols: HSR (High-availability Seamless Redundancy) and DRP (Distributed Redundancy Protocol),<br />
+    - moving former Clauses 1 to 4 (introduction, definitions, general aspects) and the Annexes (taxonomy, availability calculation) to IEC 62439-1, which serves now as a base for the other documents,<br />
+    - moving Clause 5 (MRP) to IEC 62439-2 with minor editorial changes,<br />
+    - moving Clause 6 (PRP) was to IEC 62439-3 with minor editorial changes,<br />
+    - moving Clause 7 (CRP) was to IEC 62439-4 with minor editorial changes, and<br />
+    - moving Clause 8 (BRP) was to IEC 62439-5 with minor editorial changes,<br />
+    - adding a method to calculate the maximum recovery time of RSTP in a restricted configuration (ring) to IEC 62439-1 as Clause 8,<br />
+    - adding specifications of the HSR (High-availability Seamless Redundancy) protocol, which shares the principles of PRP to IEC 62439-3 as Clause 5, and<br />
+    - introducing the DRP protocol as IEC 62439-6.<br /><br />This publication is to be read in conjunction with  IEC 62439-1:2010.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    La CEI 62439-4:2010 est applicable aux réseaux d'automatisation à haute disponibilité basés sur la technologie ISO/CEI 8802-3 (IEEE 802.3) (Ethernet). Elle définit un protocole de redondance basé sur la duplication du réseau, le protocole de redondance étant exécuté dans les n uds terminaux, par opposition à un protocole de redondance intégré aux commutateurs. La décision de commutation est prise individuellement par chaque n ud. La capacité de connexion inter-réseau permet à des n uds terminaux simples d'être connectés à l'un ou l'autre des deux réseaux. Elle annule et remplace la CEI 62439 publiée en 2008. et constitue une révision technique. Elle inclut les modifications techniques majeures suivantes par rapport à la CEI 62439 (2008):<br />
+    - ajout d'une méthode de calcul pour les RSTP (Rapid spanning tree protocol, IEEE 802.1Q),<br />
+    - ajout de deux nouveaux protocoles de redondance: HSR (High-availability Seamless Redundancy) et DRP (Distributed Redundancy Protocol),<br />
+    - transfert des anciens Articles 1 à 4 (introduction, définitions, aspects généraux) et des Annexes (taxonomie, calcul de disponibilité) dans la CEI 62439-1, qui sert désormais de base pour les autres documents,<br />
+    - transfert de l'Article 5 (MRP) dans la CEI 62439-2 avec des modifications éditoriales mineures,<br />
+    - transfert de l'Article 6 (PRP) dans la CEI 62439-3 avec des modifications éditoriales mineures,<br />
+    - transfert de l'Article 7 (CRP) dans la CEI 62439-4 avec des modifications éditoriales mineures, et<br />
+    - transfert de l'Article 8 (BRP) dans la CEI 62439-5 avec des modifications éditoriales mineures,<br />
+    - ajout d'une méthode de calcul de la durée maximale de rétablissement de RSTP dans une configuration réduite (anneau) dans la CEI 62439-1 comme Article 8,<br />
+    - ajout de spécifications de protocole HSR (High-availability Seamless Redundancy), qui partage les principes de PRP dans la CEI 62439-3 comme Article 5, et<br />
+    - introduction du protocole DRP en tant que CEI 62439-6.<br /><br />Cette publication doit être lue conjointement avec la  CEI 62439-1:2010.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
+structuredidentifier:
+  project_number: '62439'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:J

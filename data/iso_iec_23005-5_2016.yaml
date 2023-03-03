@@ -1,0 +1,145 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC23005-5-2016
+title:
+- content: 'Information technology - Media context and control - Part 5: Data formats
+    for interaction devices'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/24387
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23005-5{ed3.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 23005-5:2016
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23005-5:2016-03:::'
+  type: URN
+date:
+- type: published
+  value: '2016-03-17'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2016-03-17'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 23005-5:2016 specifies syntax and semantics of the data formats
+    for interaction devices, i.e. Device Commands and Sensed Information, required
+    for providing interoperability in controlling interaction devices and in sensing
+    information from interaction devices in real as well as virtual worlds as depicted
+    in Figure 1.<p>ISO/IEC 23005-5:2016 aims to provide data formats for industry-ready
+    interaction devices: sensors and actuators. The same data formats for interaction
+    devices can be utilized by various applications supported by different MPEG technologies.
+    Not only this International Standard but also other International Standards such
+    as ISO/IEC 23007 (MPEG-U) and scene representation specifications (for example
+    ISO/IEC 14496-20) can simply refer to this part of ISO/IEC 23005 to use the defined
+    data formats.</p><p>Two cases can occur for controlling a virtual world by using
+    the MPEG tools. When the virtual world is using a scene description defined by
+    MPEG tools (BIFS, Laser, etc.), the sensors and actuators can be directly connected
+    to it through an MPEG-U interface. When the virtual world is defined by non MPEG
+    tools, an adaptation engine and common formalism for effects are needed. In Figure
+    1, the first case is illustrated by VirtualWorld2 and the second by VirtualWorld1.</p><p>When
+    this part of ISO/IEC 23005 is used in the context of pure ISO/IEC 23005, the adaptation
+    engine (RV or VR engine), which is not within the scope of standardization, performs
+    bi-directional communications using data formats specified in this part of ISO/IEC
+    23005. The adaptation engine can also utilize other tools defined in ISO/IEC 23005-2,
+    which are user''s sensory preferences (USP), sensory device capabilities (SDC),
+    sensor capabilities (SC), and sensor adaptation preferences (SAP) for fine controls
+    of devices in both real and virtual worlds.</p><p>On the other hand, the defined
+    data formats (Sensed Information and Device Command) can be mapped to MPEG-U defined
+    interfaces when this part of ISO/IEC 23005 is utilized in the context of other
+    standards such as MPEG-U Framework. For example, the interface can be provided
+    as ISO/IEC 23007-2 in the context of MPEG-U. Also defined, Sensed Information
+    can be used by scene representation specifications as input data formats for a
+    scene. The Device Command data format can also be used as output data formats
+    to communicate with the outer world by mapping onto the interfaces defined in
+    specific specifications.</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2016'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC23005-5-2013
+    type: standard
+    docid:
+    - id: ISO/IEC 23005-5:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23005-5:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23005-5-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 23005-5:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23005-5:2011
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '23005'
+  part: '5'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

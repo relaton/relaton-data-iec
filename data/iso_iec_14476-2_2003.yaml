@@ -1,0 +1,140 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC14476-2-2003
+title:
+- content: 'Information technology -- Enhanced communications transport protocol:
+    Specification of QoS management for simplex multicast transport'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Technologies de l''information -- Protocole de transport de communications
+    amélioré: Spécification de la gestion de la qualité de service pour le transport
+    simplex en multidiffusion'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/9924
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14476-2{ed1.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_isoiec14476-2{ed1.0}fr.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14476-2:2003
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14476-2:2003-12:::'
+  type: URN
+date:
+- type: published
+  value: '2003-12-09'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2003-12-09'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 14476-2:2003 is an integral part of ITU-T Recommendation X.ectp   ISO/IEC
+    14476 having the main title of Enhanced communications transport protocol, which
+    is a family of protocol specifications designed to support multicast transport
+    services.   ISO/IEC 14476-1 provides a specification of various protocol operations
+    for simplex multicast transport. Those protocol operations include connection
+    management such as connection creation/termination and connection pause/resume,
+    membership management such as late join, user leave and membership tracking, and
+    error control for multicast data transport such as error detection and recovery.   ISO/IEC
+    14476-2:2003 provides a specification of QoS management for accomplishing desirable
+    quality of service in simplex multicast transport connection.   ISO/IEC 14476-2:2003
+    describes the following QoS management operations:    a) QoS negotiation   For
+    QoS negotiation, this specification assumes that a desired QoS level for multicast
+    application service can be expressed in terms of a set of QoS parameters. QoS
+    negotiation is performed via exchange of control packets between sender and receivers.
+    Sender proposes the target values of QoS parameters obtained from the application''s
+    requirements, and then each receiver can propose modified values based on its
+    system and/or network capacity. Sender arbitrates the modified values proposed
+    by receivers. Target values for QoS parameters can be used as input parameters
+    for reservation of network resources.  b) QoS monitoring   QoS control in ECTP
+    is based on feedback of control packets from receivers. The feedback messages
+    from receivers enable the sender to keep track of the number of active receivers
+    and also to monitor the connection status for multicast data transport. QoS monitoring
+    is designed to allow the sender to diagnose the connection status in terms of
+    QoS parameter values, and thus to take the necessary actions for maintaining the
+    connection status at a desired QoS level. The monitored connection status will
+    be reported to the application at the sender side. The information conveyed could
+    provide statistics useful for billing purposes, for example.  c) QoS maintenance   Based
+    on feedback information from receivers, the sender takes one or more actions so
+    as to maintain the connection status at a desired QoS level. These QoS maintenance
+    actions include adjustment of the data transmission rate, connection pause and
+    resume, troublemaker ejection and connection termination operations. These QoS
+    monitoring and maintenance functions, based on monitored parameter status, provide
+    rate-based congestion control.     ISO/IEC 14476-2:2003 is an integral part of
+    ITU-T draft Recommendation X.ectp   ISO/IEC 14476, which has 6 parts. All the
+    protocol components, including packet formats and protocol procedures specified
+    in ITU-T draft Recommendation X.606   ISO/IEC 14476-1, are also valid in ISO/IEC
+    14476-2:2003.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2003'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.100.40
+  text: Transport layer
+structuredidentifier:
+  project_number: '14476'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:F

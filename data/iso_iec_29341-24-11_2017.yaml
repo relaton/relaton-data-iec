@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC29341-24-11-2017
+title:
+- content: 'Information technology - UPnP Device Architecture - Part 24-11: Internet
+    gateway device control protocol - Level 2 - Wide area network internet protocol
+    v6 - Firewall control service'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61495
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29341-24-11{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29341-24-11:2017
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29341-24-11:2017-09:::'
+  type: URN
+date:
+- type: published
+  value: '2017-09-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2017-09-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29341-24-11:2017 specifies the characteristics of the UPnP networked
+    service named WANIPv6FirewallControl, version 1. This service definition is compliant
+    with UPnP Service Architecture 1.0 [1].<br />\r\nThis service supports the management
+    IPv6 firewall pinholes in Internet gateway devices independent of the WAN access
+    type (PPP, DHCP,?). It also supports access control to restrict operations to
+    authorized control points and users. It enables UPnP control points to:<br />\r\n-
+    create and delete pinholes of limited duration that allow external communication
+    from the WAN side of the gateway to reach devices on the LAN side<br />\r\n- determine
+    operational status of a pinhole<br />\r\nThis service does not support:<br />\r\n-
+    retrieving detailed information about pinholes (such as associated external port
+    or remaining lease duration)<br />\r\n- outbound packet filtering<br />\r\n- modification
+    of security policies of a gateway device"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2017'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '29341'
+  part: '24'
+  subpart: '11'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

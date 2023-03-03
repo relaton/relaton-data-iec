@@ -1,0 +1,258 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC14651-2007
+title:
+- content: Information technology -- International string ordering and comparison
+    -- Method for comparing character strings and description of the common template
+    tailorable ordering
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information -- Classement international et comparaison
+    de chaînes de caractères -- Méthode de comparaison de chaînes de caractères et
+    description du modèle commun et adaptable d'ordre de classement
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/21229
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14651{ed2.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_isoiec14651{ed2.0}fr.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14651:2007
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14651:2007-11:::'
+  type: URN
+date:
+- type: published
+  value: '2007-11-26'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2007-11-26'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: ISO/IEC 14651:2007 defines the following.     A reference comparison method.
+    This method is applicable to two character strings to determine their collating
+    order in a sorted list. The method can be applied to strings containing characters
+    from the full repertoire of ISO/IEC 10646. This method is also applicable to subsets
+    of that repertoire, such as those of the different ISO/IEC 8-bit standard character
+    sets, or any other character set, standardised or not, to produce ordering results
+    valid (after tailoring) for a given set of languages for each script. This method
+    uses collation tables derived either from the Common Template Table defined in
+    ISO/IEC 14651 or from one of its tailorings. This method provides a reference
+    format. The format is described using the Backus-Naur Form (BNF). This format
+    is used to describe the Common Template Table. The format is used normatively
+    within ISO/IEC 14651:2007.    A Common Template Table. A given tailoring of the
+    Common Template Table is used by the reference comparison method. The Common Template
+    Table describes an order for all characters encoded in ISO/IEC 10646:2003 up to
+    Amendment 2, plus characters DEVANAGARI LETTER GGA, DEVANAGARI LETTER JJA, DEVANAGARI
+    LETTER DDDA and DEVANAGARI LETTER BBA (characters U097B, U097C, U097E and U097F,
+    respectively). It allows for a specification of a fully deterministic ordering.
+    This table enables the specification of a string ordering adapted to local ordering
+    rules, without requiring an implementer to have knowledge of all the different
+    scripts already encoded in the UCS.     NOTE 1       This Common Template Table
+    is to be modified to suit the needs of a local environment. The main worldwide
+    benefit is that, for other scripts, often no modification is required and the
+    order will remain as consistent as possible and predictable from an international
+    point of view.  NOTE 2       The character repertoire used in ISO/IEC 14651:2007
+    is equivalent to that of the Unicode Standard version 5.0.    A reference name.
+    The reference name refers to this particular version of the Common Template Table,
+    for use as a reference when tailoring. In particular, this name implies that the
+    table is linked to a particular stage of development of the ISO/IEC 10646 Universal
+    multiple-octet coded character set.   Requirements for a declaration of the differences
+    (delta) between the collation table and the Common Template Table.     ISO/IEC
+    14651:2007 does not mandate the following.     A specific comparison method; any
+    equivalent method giving the same results is acceptable.   A specific format for
+    describing or tailoring tables in a given implementation.   Specific symbols to
+    be used by implementations, except for the name of the Common Template Table.   Any
+    specific user interface for choosing options.   Any specific internal format for
+    intermediate keys used when comparing, nor for the table used. The use of numeric
+    keys is not mandated either.   A context-dependent ordering.   Any particular
+    preparation of character strings prior to comparison.     NOTE 1       It is normally
+    necessary to do preparation of character strings prior to comparison even if it
+    is not prescribed by ISO/IEC 14651:2007 (see informative Annex C).  NOTE 2       Although
+    no user interface is required to choose options or to specify tailoring of the
+    Common Template Table, conformance requires always declaring the applicable delta,
+    a declaration of differences with this table. It is recommended that processes
+    present available tailoring options to users.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2007'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2019
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2016/AMD1-2017
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2016/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2016/AMD1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2016
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC14651-2011/AMD2-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2011/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2011/AMD2:2015
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC14651-2011/AMD1-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2011/AMD1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2011/AMD1:2012
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC14651-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2001/AMD3-2006
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2001/AMD3:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2001/AMD3:2006
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2001/AMD2-2005
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2001/AMD2:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2001/AMD2:2005
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2001/AMD1-2003
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2001/AMD1:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2001/AMD1:2003
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14651-2001
+    type: standard
+    docid:
+    - id: ISO/IEC 14651:2001
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14651:2001
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 2
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.10
+  text: Coding of character sets
+structuredidentifier:
+  project_number: '14651'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:F

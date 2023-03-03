@@ -1,0 +1,117 @@
+---
+schema-version: v1.2.1
+id: ISO15118-4-2018
+title:
+- content: 'Road vehicles - Vehicle to grid communication interface - Part 4: Network
+    and application protocol conformance test'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/32348
+  type: src
+- content: https://webstore.iec.ch/preview/info_iso15118-4{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO 15118-4:2018
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso:15118-4:2018-03:::'
+  type: URN
+date:
+- type: published
+  value: '2018-03-07'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2018-03-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO 15118-4:2018 specifies conformance tests in the form of an Abstract
+    Test Suite (ATS) for a System Under Test (SUT) implementing an EVCC or SECC according
+    to ISO 15118-2. These conformance tests specify the testing of capabilities and
+    behaviors of an SUT as well as checking what is observed against the conformance
+    requirements specified in ISO 15118-2 and against what the supplier states the
+    SUT implementation's capabilities are.<br />\r\nThe capability tests within the
+    ATS check that the observable capabilities of the SUT are in accordance with the
+    static conformance requirements defined in ISO 15118-2. The behavior tests of
+    the ATS examine an implementation as thoroughly as is practical over the full
+    range of dynamic conformance requirements defined in ISO 15118-2 and within the
+    capabilities of the SUT (see NOTE).<br />\r\nA test architecture is described
+    in correspondence to the ATS. The conformance test cases in this document are
+    described leveraging this test architecture and are specified in TTCN-3 Core Language
+    for ISO/OSI Network Layer (Layer 3) and above. The conformance test cases for
+    the Data Link Layer (Layer 2) and Physical Layer (Layer 1) are described in ISO
+    15118-5. Test cases with overlapping scopes are explicitly detailed.<br />\r\nThis
+    document does not include specific tests of other standards referenced within
+    ISO 15118-2, e.g. IETF RFCs. Furthermore, the conformance tests specified in this
+    document do not include the assessment of performance nor robustness or reliability
+    of an implementation. They cannot provide judgments on the physical realization
+    of abstract service primitives, how a system is implemented, how it provides any
+    requested service, nor the environment of the protocol implementation. Furthermore,
+    the test cases defined in this document only consider the communication protocol
+    defined ISO 15118-2. Power flow between the EVSE and the EV is not considered.<br
+    />\r\nNOTE 1 Practical limitations make it impossible to define an exhaustive
+    test suite, and economic considerations can restrict testing even further. Hence,
+    the purpose of this document is to increase the probability that different implementations
+    are able to interwork. This is achieved by verifying them by means of a protocol
+    test suite, thereby increasing the confidence that each implementation conforms
+    to the protocol specification. However, the specified protocol test suite cannot
+    guarantee conformance to the specification since it detects errors rather than
+    their absence. Thus conformance to a test suite alone cannot guarantee interworking.
+    What it does do is give confidence that an implementation has the required capabilities
+    and that its behavior conforms consistently in representative instances of communication.<br
+    />\r\nNOTE 2 This document has some interdependencies to the conformance tests
+    defined in ISO 15118-5 which result from ISO/OSI cross layer dependencies in the
+    underlying protocol specification (e.g. for sleep mode)"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  from: '2018'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 69
+    number: 69
+    type: technicalCommittee
+ics:
+- code: '43.120'
+  text: Electric road vehicles
+structuredidentifier:
+  project_number: '15118'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

@@ -1,0 +1,118 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC18000-62-2012
+title:
+- content: 'Information technology -- Radio frequency identification for item management
+    -- Part 62: Parameters for air interface communications at 860 MHz to 960 MHz
+    Type B'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10588
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec18000-62{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 18000-62:2012
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:18000-62:2012-07:::'
+  type: URN
+date:
+- type: published
+  value: '2012-07-13'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2012-07-13'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 18000-62:2012 defines the air interface for radio frequency identification
+    (RFID) devices operating in the 860 MHz to 960 MHz Industrial, Scientific, and
+    Medical (ISM) band used in item management applications. It provides a common
+    technical specification for RFID devices that can be used by ISO committees developing
+    RFID application standards.   It is intended to allow for compatibility and to
+    encourage inter-operability of products for the growing RFID market in the international
+    marketplace. It defines the forward and return link parameters for technical attributes
+    including, but not limited to, operating frequency, operating channel accuracy,
+    occupied channel bandwidth, maximum effective isotropic radiated power (EIRP),
+    spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy,
+    bit transmission order, and, where appropriate, operating channels, frequency
+    hop rate, hop sequence, spreading sequence, and chip rate. It further defines
+    the communications protocol used in the air interface.  ISO/IEC 18000-62:2012
+    specifies the physical and logical requirements for a passive-backscatter, Interrogator-Talks-First
+    (ITF) systems. The system comprises Interrogators, also known as readers, and
+    tags, also known as labels. An Interrogator receives information from a tag by
+    transmitting a continuous-wave (CW) RF signal to the tag; the tag responds by
+    modulating the reflection coefficient of its antenna, thereby backscattering an
+    information signal to the Interrogator. The system is ITF, meaning that a tag
+    modulates its antenna reflection coefficient with an information signal only after
+    being directed to do so by an Interrogator.  ISO/IEC 18000-62:2012 contains Type
+    B.  Type B uses Manchester in the forward link and an adaptive binary-tree collision-arbitration
+    algorithm.   ISO/IEC 18000-62:2012 specifies           physical interactions (the
+    signalling layer of the communication link) between Interrogators and tags,          Interrogator
+    and tag operating procedures and commands,          the collision arbitration
+    scheme used to identify a specific tag in a multiple-tag environment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2012'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 31
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
+structuredidentifier:
+  project_number: '18000'
+  part: '62'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

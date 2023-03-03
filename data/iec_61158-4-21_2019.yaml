@@ -1,0 +1,137 @@
+---
+schema-version: v1.2.1
+id: IEC61158-4-21-2019
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 4-21:
+    Data-link layer protocol specification - Type 21 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-21: Spécification du protocole de la couche liaison de données - Éléments
+    de type 21'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/64869
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-4-21{ed2.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-4-21{ed2.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-4-21:2019
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-4-21:2019-04:::'
+  type: URN
+date:
+- type: published
+  value: '2019-04-10'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2019-04-10'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-4-21:2019 describes procedures for the timely transfer of data
+    and control information from one data link user entity to a peer user entity,
+    and among the data link entities forming the distributed data link service provider
+    and procedures for giving communication opportunities based on standard ISO/IEC
+    8802-3 MAC, with provisions for nodes to be added or removed during normal operation;
+    structure of the fieldbus data link protocol data units (DLPDUs) used for the
+    transfer of data and control information by the protocol of this standard, and
+    their representation as physical interface data units. This second edition cancels
+    and replaces the first edition published in 2010. This edition constitutes a technical
+    revision. The main changes are:<br />\r\n• added Frame control Value, DLM function
+    and DLL constants;<br />\r\n• changed NCM_RETRY_RNMS to NCM_CHECK_NET_INTEGRITY_REQ;<br
+    />\r\n• updated DLM state table;<br />\r\n• miscellaneous editorial corrections."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L'IEC 61158-4-21:2019 décrit:<br />\r\na) des procédures de transfert
+    en temps opportun de données et d'informations de commande d'une entité utilisateur
+    de liaison de données à une entité utilisateur homologue ainsi qu'entre entités
+    de liaison de données qui constituent le fournisseur de services distribués de
+    la liaison;<br />\r\nb) des procédures offrant des moyens de communication, fondées
+    sur la commande d’accès au support (MAC) de l’ISO/IEC 8802 3, ainsi que des dispositions
+    permettant d'ajouter et de retirer des nœuds au cours du fonctionnement normal;<br
+    />\r\nc) la structure des unités de données de protocole de liaison de données
+    (DLPDU) de bus de terrain utilisées pour le transfert des données et les informations
+    de commande par le protocole objet du présent document, ainsi que leur représentation
+    en tant qu'unité de données d'interface de couche physique."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-4-21-2010
+    type: standard
+    docid:
+    - id: IEC 61158-4-21:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-21:2010
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.20
+  text: Data link layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '4'
+  subpart: '21'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:M

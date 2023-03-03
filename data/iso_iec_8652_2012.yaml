@@ -1,0 +1,149 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC8652-2012
+title:
+- content: Information technology -- Programming languages -- Ada
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11692
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec8652{ed3.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 8652:2012
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:8652:2012-12:::'
+  type: URN
+date:
+- type: published
+  value: '2012-12-10'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2012-12-10'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 8652:2012 specifies the form and meaning of programs written in
+    the programming language Ada. Its purpose is to promote the portability of Ada
+    programs to a variety of computing systems.  This third edition of ISO/IEC 8652
+    focuses on improvements in those user domains where safety and criticality are
+    prime concerns. It enhances the functionality of containers, improves the ability
+    to write and enforce contracts for Ada entities (for instance, via preconditions),
+    and adds to the capabilities of Ada to perform on multicore and multithreaded
+    architectures.  Ada is designed to support the construction of long‐lived, highly
+    reliable software systems. The language includes facilities to define packages
+    of related types, objects, and operations. The packages may be parameterized and
+    the types may be extended to support the construction of libraries of reusable,
+    adaptable software components. The operations may be implemented as subprograms
+    using conventional sequential control structures, or as entries that include synchronization
+    of concurrent threads of control as part of their invocation. Ada supports object‐oriented
+    programming by providing classes and interfaces, inheritance, polymorphism of
+    variables and methods, and generic units. The language treats modularity in the
+    physical sense as well, with a facility to support separate compilation.  The
+    language provides rich support for real‐time, concurrent programming, and includes
+    facilities for multicore and multiprocessor programming. Errors can be signaled
+    as exceptions and handled explicitly. The language also covers systems programming;
+    this requires precise control over the representation of data and access to system‐dependent
+    properties. Finally, a predefined environment of standard packages is provided,
+    including facilities for, among others, input‐output, string manipulation, numeric
+    elementary functions, random number generation, and definition and use of containers.  Foremost
+    in the design of Ada is the intent to increase the reliability of programs by
+    compiletime checking and rejection of unsafe programs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2012'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC8652-1995/AMD1-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 8652:1995/AMD1:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8652:1995/AMD1:2007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8652-1995/COR1-2001
+    type: standard
+    docid:
+    - id: ISO/IEC 8652:1995/COR1:2001
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8652:1995/COR1:2001
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC8652-1995
+    type: standard
+    docid:
+    - id: ISO/IEC 8652:1995
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 8652:1995
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 22
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.060'
+  text: Languages used in information technology
+structuredidentifier:
+  project_number: '8652'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

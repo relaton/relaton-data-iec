@@ -1,0 +1,130 @@
+---
+schema-version: v1.2.1
+id: ISO/IEC21991-2002
+title:
+- content: Information technology -- Telecommunications and information exchange between
+    systems -- Corporate Telecommunication Networks -- Signalling interworking between
+    QSIG and H.323 -- Call completion supplementary services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10933
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec21991{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 21991:2002
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:21991:2002-06:::'
+  type: URN
+date:
+- type: published
+  value: '2002-06-20'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2002-06-20'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 21991:2002 specifies signalling interworking between "QSIG" and
+    "H.323" in support of call completion supplementary services within a Corporate
+    telecommunication Network (CN).   "QSIG" is a signalling protocol that operates
+    at the Q reference point between Private Integrated services Network eXchanges
+    (PINX) within a Private Integrated Services Network (PISN). The Q reference point
+    is defined in ISO/IEC 11579-1. A PISN provides circuit-switched basic services
+    and supplementary services to its users. QSIG is specified in other Standards,
+    in particular ISO/IEC 11572 (call control in support of basic services), ISO/IEC
+    11582 (generic functional protocol for the support of supplementary services)
+    and a number of standards specifying individual supplementary services. ISO/IEC
+    13870 specifies the QSIG protocol in support of call completion services.   "H.323"
+    is a set of signalling protocols for the support of voice or multimedia communication
+    within a packet network, in particular a packet network that uses the Internet
+    Protocol (IP) as its network layer protocol (IP network). H.323 signalling protocols
+    operate between endpoints in an IP network, either indirectly via one or more
+    gatekeepers, or directly. An endpoint can be a terminal or a gateway to another
+    network. H.323 is an "umbrella" recommendation referring to various ITU-T recommendations,
+    in particular Recommendations H.225.0 and H.245 (basic communication capabilities)
+    and Recommendation H.450.1 (generic functional protocol for the support of supplementary
+    services). Recommendation H.450.9 specifies the H.323 protocol in support of call
+    completion services.   NOTE H.450.9 applies only to the 1998 version of H.323
+    (also known as H.323 version 2) and to later versions.   In both ISO/IEC 13870
+    (QSIG) and ITU-Recommendation H.450.9 (H.323), the call completion supplementary
+    services are Completion of Calls to Busy Subscribers (SS-CCBS) and Completion
+    of Calls on No Reply (SS-CCNR). These supplementary services apply after a call
+    establishment attempt has failed because the called user was busy or not available,
+    and provide means to re-establish the call when the called user becomes available.   Interworking
+    between QSIG and H.323 permits a call originating at a user of a PISN to terminate
+    at a user of a private IP network, or a call originating at a user of a private
+    IP network to terminate at a user of a PISN. In such a scenario, ISO/IEC 21991:2002
+    allows the completion of calls when the called user becomes available after having
+    been busy (SS-CCBS), or having not answered the original call (SS-CCNR).   Interworking
+    between a PISN employing QSIG and a public IP network employing H.323 is outside
+    the scope of ISO/IEC 21991:2002. However, the functionality specified in ISO/IEC
+    21991:2002 is in principle applicable to such a scenario when deployed in conjunction
+    with other relevant functionality (e.g., number translation, security functions,
+    etc.).   ISO/IEC 21991:2002 is applicable to any interworking unit that can act
+    as a gateway between a PISN employing QSIG and a private IP network employing
+    H.323.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2002'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 33.040.35
+  text: Telephone networks
+structuredidentifier:
+  project_number: '21991'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D
