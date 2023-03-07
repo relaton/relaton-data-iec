@@ -1,36 +1,31 @@
 ---
 schema-version: v1.2.1
-id: IEC60691-2015/AMD1-2019
+id: IEC60691-2023RLV
 title:
-- content: Amendment 1 - Thermal-links - Requirements and application guide
+- content: Thermal-links - Requirements and application guide
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Amendement 1 - Protecteurs thermiques - Exigences et guide d'application
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/59814
+- content: https://webstore.iec.ch/publication/83693
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60691{ed5.0.RLV}en.pdf
+  type: obp
 type: standard
 docid:
-- id: IEC 60691:2015/AMD1:2019
+- id: IEC 60691:2023 RLV
   type: IEC
   primary: true
-- id: urn:iec:std:iec:60691:2015-10:::||amd:1:2019-01
+- id: urn:iec:std:iec:60691::rlv
   type: URN
 date:
 - type: published
-  value: '2019-01-11'
+  value: '2023-03-06'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2024-12-31'
 contributor:
 - organization:
     name:
@@ -41,16 +36,39 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2019-01-11'
+  content: '5'
+revdate: '2023-03-06'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- content: "IEC 60691:2023 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 60691:2023
+    is applicable to thermal-links intended for incorporation in electrical appliances,
+    electronic equipment and component parts thereof, normally intended for use indoors,
+    in order to protect them against excessive temperatures under abnormal conditions.<br
+    />\r\nNOTE 1 The equipment is not designed to generate heat.<br />\r\nNOTE 2 The
+    effectiveness of the protection against excessive temperatures logically depends
+    upon the position and method of mounting of the thermal-link, as well as upon
+    the current which it is carrying.<br />\r\nThis document may be applicable to
+    thermal-links for use under conditions other than indoors, provided that the climatic
+    and other circumstances in the immediate surroundings of such thermal-links are
+    comparable with those in this standard.<br />\r\nThis document may be applicable
+    to thermal-links in their simplest forms (e.g. melting strips or wires), provided
+    that molten materials expelled during function cannot adversely interfere with
+    the safe use of the equipment, especially in the case of hand-held or portable
+    equipment, irrespective of its position."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -58,8 +76,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2015'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60691-2015/AMD1-2019
+    type: standard
+    docid:
+    - id: IEC 60691:2015/AMD1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60691:2015/AMD1:2019
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60691-2015+AMD1-2019CSV
@@ -172,17 +201,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60691-1993
-    type: standard
-    docid:
-    - id: IEC 60691:1993
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60691:1993
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60691-1993+AMD1-1995CSV
     type: standard
     docid:
@@ -191,6 +209,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60691:1993+AMD1:1995 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60691-1993
+    type: standard
+    docid:
+    - id: IEC 60691:1993
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60691:1993
       format: text/plain
 - type: updates
   bibitem:
@@ -219,4 +248,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:A
+price_code: iec:RD
