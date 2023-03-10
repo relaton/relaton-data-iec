@@ -1,23 +1,32 @@
 ---
 schema-version: v1.2.1
-id: IEC61000-3-2023SER
+id: IEC61511-2023SER
 title:
-- content: 'Electromagnetic compatibility (EMC) - Part 3: Limit - ALL PARTS'
+- content: Functional safety - Safety instrumented systems for the process industry
+    sector - ALL PARTS
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
+- content: Sécurité fonctionnelle - Systèmes instrumentés de sécurité pour le domaine
+    de la production par processus - TOUTES LES PARTIES
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/62426
+- content: https://webstore.iec.ch/publication/5527
   type: src
 type: standard
 docid:
-- id: IEC 61000-3:2023 SER
+- id: IEC 61511:2023 SER
   type: IEC
   primary: true
-- id: urn:iec:std:iec:61000-3::ser
+- id: urn:iec:std:iec:61511::ser
   type: URN
 date:
 - type: published
@@ -36,24 +45,20 @@ edition:
 revdate: '2023-01-03'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
 - content: A 15% discount of the total catalogue price is included.This pack contains
-    the following:IEC 61000-3-2:2018+AMD1:2020 CSVIEC 61000-3-3:2013+AMD1:2017+AMD2:2021
-    CSVIEC TS 61000-3-4:1998IEC TS 61000-3-5:2009IEC TR 61000-3-6:2008IEC TR 61000-3-7:2008IEC
-    61000-3-8:1997IEC 61000-3-11:2017 RLVIEC 61000-3-12:2011+AMD1:2021 CSVIEC TR 61000-3-13:2008IEC
-    TR 61000-3-14:2011IEC TR 61000-3-15:2011
+    the following:IEC TR 61511-0:2018IEC 61511-1:2016+AMD1:2017 CSVIEC 61511-2:2016
+    RLVIEC 61511-3:2016 RLVIEC TR 61511-4:2020
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: Ce pack contient les parties suivantes:IEC 61000-3-2:2018+AMD1:2020 CSVIEC
-    61000-3-3:2013+AMD1:2017+AMD2:2021 CSVIEC TS 61000-3-4:1998IEC TS 61000-3-5:2009IEC
-    TR 61000-3-6:2008IEC TR 61000-3-7:2008IEC 61000-3-8:1997IEC 61000-3-11:2017 RLVIEC
-    61000-3-12:2011+AMD1:2021 CSVIEC TR 61000-3-13:2008IEC TR 61000-3-14:2011IEC TR
-    61000-3-15:2011
+- content: Ce pack contient les parties suivantes:IEC TR 61511-0:2018IEC 61511-1:2016+AMD1:2017
+    CSVIEC 61511-2:2016 RLVIEC 61511-3:2016 RLVIEC TR 61511-4:2020
   language:
   - fr
   script:
@@ -75,16 +80,17 @@ place:
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: TC 77/SC 77A
-    number: 77
+  - name: TC 65/SC 65A
+    number: 65
     type: technicalCommittee
 ics:
-- code: 33.100.10
-  text: Emission
+- code: '13.110'
+  text: Safety of machinery
+- code: 25.040.01
+  text: Industrial automation systems in general
 structuredidentifier:
-  project_number: '61000'
-  part: '3'
+  project_number: '61511'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:TA
+price_code: iec:SA

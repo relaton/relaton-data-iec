@@ -1,39 +1,32 @@
 ---
 schema-version: v1.2.1
-id: IEC61158-3-2-2014/AMD1-2019
+id: IEC61158-3-2-2023
 title:
-- content: 'Amendment 1 - Industrial communication networks - Fieldbus specifications
-    - Part 3 - 2: Data-link layer service definition - Type 2 elements'
+- content: 'Industrial communication networks - Fieldbus specifications - Part 3-2:
+    Data-link layer service definition - Type 2 elements'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Amendment 1 - Réseaux de communication industriels - Spécifications des
-    bus de terrain - Partie 3-2 : définition des services des couches de liaison de
-    données - Eléments de type 2'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/64880
+- content: https://webstore.iec.ch/publication/66934
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-3-2{ed3.0}en.pdf
+  type: obp
 type: standard
 docid:
-- id: IEC 61158-3-2:2014/AMD1:2019
+- id: IEC 61158-3-2:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iec:61158-3-2:2014-08:::||amd:1:2019-04
+- id: 'urn:iec:std:iec:61158-3-2:2023-03:::'
   type: URN
 date:
 - type: published
-  value: '2019-04-18'
+  value: '2023-03-09'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2028-12-31'
 contributor:
 - organization:
     name:
@@ -44,16 +37,29 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2019-04-18'
+  content: '3'
+revdate: '2023-03-09'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- content: "IEC 61158-3-2:2023 is one of a series produced to facilitate the interconnection
+    of automation system components. It is related to other standards in the set as
+    defined by the \"three-layer\" fieldbus reference model described in IEC 61158‑1.<br
+    />\r\nThroughout the set of fieldbus standards, the term \"service\" refers to
+    the abstract capability provided by one layer of the OSI Basic Reference Model
+    to the layer immediately above. Thus, the data-link layer service defined in this
+    document is a conceptual architectural service, independent of administrative
+    and implementation divisions."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -61,8 +67,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2014'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61158-3-2-2014/AMD1-2019
+    type: standard
+    docid:
+    - id: IEC 61158-3-2:2014/AMD1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-3-2:2014/AMD1:2019
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61158-3-2-2014+AMD1-2019CSV
@@ -118,4 +135,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:A
+price_code: iec:J
