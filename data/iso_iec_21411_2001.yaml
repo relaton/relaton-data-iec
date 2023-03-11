@@ -50,6 +50,54 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    21411:2001 This International Standard specifies signalling interworking between
+    \"QSIG\" and \"H.323\" in support of call diversion supplementary services within
+    a Corporate telecommunication Network (CN).<br />\r\n\"QSIG\" is a signalling
+    protocol that operates at the Q reference point between Private Integrated Services
+    eXchanges (PINX) within a Private Integrated Services Network (PISN). The Q reference
+    point is defined in ISO/IEC 11579-1. A PISN provides circuit-switched basic services
+    and supplementary services to its users. QSIG is specified in other Standards,
+    in particular ISO/IEC 11572 (call control in support of basic services), ISO/IEC
+    11582 (generic functional protocol for the support of supplementary services)
+    and a number of standards specifying individual supplementary services. ISO/IEC
+    13873 specifies the QSIG protocol in support of call diversion services.<br />\r\n\"H.323\"
+    is a set of signalling protocols for the support of voice or multimedia communication
+    within a packet network, in particular a packet network that uses the Internet
+    Protocol (IP) as its network layer protocol (IP network). H.323 signalling protocols
+    operate between endpoints in an IP network, either indirectly via one or more
+    gatekeepers, or directly. An endpoint can be a terminal or a gateway to another
+    network. H.323 is an \"umbrella\" recommendation referring to various ITU-T recommendations,
+    in particular Recommendations H.225.0 and H.245 (basic communication capabilities)
+    and Recommendation H.450.1 (generic functional protocol for the support of supplementary
+    services). Recommendation H.450.3 specifies the H.323 protocol in support of call
+    diversion services.<br />\r\nNOTE - H.450.3 applies only to the 1998 version of
+    H.323 (also known as H.323 version 2) and to later versions.<br />\r\nIn both
+    ISO/IEC 13873 (QSIG) and ITU-Recommendation H.450.3 (H.323), the call diversion
+    supplementary services are Call Forwarding Unconditional (SS-CFU), Call Forwarding
+    Busy (SS-CFB), Call Forwarding No Reply (SS-CFNR) and Call Deflection (SS-CD).
+    These supplementary services apply during call establishment and provide diversion
+    of an incoming call to another destination.<br />\r\nInterworking between QSIG
+    and H.323 permits a call originating at a user of a PISN to terminate at a user
+    of an IP network, or a call originating at a user of an IP network to terminate
+    at a user of a PISN. This International Standard provides the following<br />\r\nadditional
+    capabilities:<br />\r\n- a call originating from a PISN and destined for a user
+    of an H.323 network to be diverted by the H.323 network to an alternative destination;<br
+    />\r\n- a call originating from an H.323 network and destined for a user of a
+    PISN to be diverted by the PISN to an alternative destination;<br />\r\n- a call
+    destined for a user of a PISN to be diverted to an alternative destination where
+    that alternative destination is in an H.323 network;<br />\r\n- a call destined
+    for a user of an H.323 network to be diverted to an alternative destination where
+    that alternative destination is in a PISN.<br />\r\nThis International Standard
+    is applicable to any interworking unit that can act as a gateway between a PISN
+    employing QSIG and an IP network employing H.323."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

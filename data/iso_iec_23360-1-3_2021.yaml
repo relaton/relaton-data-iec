@@ -49,35 +49,38 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document defines a system interface for compiled applications and
-    a minimal environment for support of installation scripts. Its purpose is to enable
-    a uniform industry standard environment for high-volume applications conforming
-    to the LSB.<br />\r\nThese specifications are composed of two basic parts: a common
-    part describing those parts of the interface that remain constant across all implementations
-    of the LSB, and an architecture-specific part describing the parts of the interface
-    that vary by processor architecture. Together, the common part and the relevant
-    architecture-specific part for a single hardware architecture provide a complete
-    interface specification for compiled application programs on systems that share
-    a common hardware architecture.<br />\r\nThe LSB contains both a set of Application
-    Program Interfaces (APIs) and Application Binary Interfaces (ABIs). APIs may appear
-    in the source code of portable applications, while the compiled binary of that
-    application may use the larger set of ABIs. A conforming implementation provides
-    all of the ABIs listed here. The compilation system may replace (e.g. by macro
-    definition) certain APIs with calls to one or more of the underlying binary interfaces,
-    and may insert calls to binary interfaces as needed.<br />\r\nThe LSB is primarily
-    a binary interface definition. Not all of the source level APIs available to applications
-    may be contained in this specification.<br />\r\nThis is the common part of the
-    Desktop module of the Linux Standard Base (LSB). This module provides the fundamental
-    system interfaces, libraries, and runtime environment upon which all conforming
-    applications and libraries depend requiring the LSB Desktop module depend.<br
-    />\r\nThe common part of LSB Desktop should be used in conjunction with an architecture-specific
-    part. Whenever a section of the common part is supplemented by architecture-specific
-    information, the common part includes a reference to the architecture-specific
-    part. Architecture-specific parts of LSB Desktop may also contain additional information
-    that is not referenced in the common part.<br />\r\nInterfaces described in this
-    part of LSB Desktop are mandatory except where explicitly listed otherwise. Interfaces
-    described in the LSB Desktop module supplement those described in the LSB Core
-    module. They do not depend on other LSB modules."
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    23360-1-3:2021 This document defines a system interface for compiled applications
+    and a minimal environment for support of installation scripts. Its purpose is
+    to enable a uniform industry standard environment for high-volume applications
+    conforming to the LSB.<br />\r\nThese specifications are composed of two basic
+    parts: a common part describing those parts of the interface that remain constant
+    across all implementations of the LSB, and an architecture-specific part describing
+    the parts of the interface that vary by processor architecture. Together, the
+    common part and the relevant architecture-specific part for a single hardware
+    architecture provide a complete interface specification for compiled application
+    programs on systems that share a common hardware architecture.<br />\r\nThe LSB
+    contains both a set of Application Program Interfaces (APIs) and Application Binary
+    Interfaces (ABIs). APIs may appear in the source code of portable applications,
+    while the compiled binary of that application may use the larger set of ABIs.
+    A conforming implementation provides all of the ABIs listed here. The compilation
+    system may replace (e.g. by macro definition) certain APIs with calls to one or
+    more of the underlying binary interfaces, and may insert calls to binary interfaces
+    as needed.<br />\r\nThe LSB is primarily a binary interface definition. Not all
+    of the source level APIs available to applications may be contained in this specification.<br
+    />\r\nThis is the common part of the Desktop module of the Linux Standard Base
+    (LSB). This module provides the fundamental system interfaces, libraries, and
+    runtime environment upon which all conforming applications and libraries depend
+    requiring the LSB Desktop module depend.<br />\r\nThe common part of LSB Desktop
+    should be used in conjunction with an architecture-specific part. Whenever a section
+    of the common part is supplemented by architecture-specific information, the common
+    part includes a reference to the architecture-specific part. Architecture-specific
+    parts of LSB Desktop may also contain additional information that is not referenced
+    in the common part.<br />\r\nInterfaces described in this part of LSB Desktop
+    are mandatory except where explicitly listed otherwise. Interfaces described in
+    the LSB Desktop module supplement those described in the LSB Core module. They
+    do not depend on other LSB modules."
   language:
   - en
   script:
