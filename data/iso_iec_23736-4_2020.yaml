@@ -50,8 +50,40 @@ language:
 script:
 - Latn
 abstract:
-- content: The electronic version of this International Standard can be  downloaded  from
-    the ISO/IEC Information Technology Task Force (ITTF) website.
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) website.<br /><br />\r\nISO/IEC
+    23736-4:2020 This specification, EPUB Open Container Format (OCF) 3.0.1, defines
+    a file format and processing model for encapsulating the set of related resources
+    that comprise an EPUB® Publication into a single-file container.<br />\r\nThis
+    specification is one of a family of related specifications that compose EPUB 3,
+    the third major revision of an interchange and delivery format for digital publications
+    based on XML and Web Standards. It is meant to be read and understood in concert
+    with the other specifications that make up EPUB 3:<br />\r\nThe EPUB 3 Overview
+    [EPUB3Overview], which provides an informative overview of EPUB and a roadmap
+    to the rest of the EPUB 3 documents. The Overview should be read first.<br />\r\nEPUB
+    Publications 3.0.1 [Publications301], which defines the semantics and overarching
+    conformance requirements for each Rendition of an EPUB Publication.<br />\r\nEPUB
+    Content Documents 3.0.1 [ContentDocs301], which defines profiles of XHTML, SVG
+    and CSS for use in the context of EPUB Publications.<br />\r\nEPUB Media Overlays
+    3.0.1 [MediaOverlays301], which defines a format and a processing model for synchronization
+    of text and audio.<br />\r\nOCF is the required container technology for EPUB
+    Publications. OCF may play a role in the following workflows:<br />\r\nDuring
+    the preparation steps in producing an EPUB Publication, OCF may be used as the
+    container format when exchanging an in-progress EPUB Publication between different
+    individuals and/or different organizations.<br />\r\nWhen providing an EPUB Publication
+    from publisher or conversion house to the distribution or sales channel, OCF is
+    the recommended container format to be used as the transport format.<br />\r\nWhen
+    delivering the final EPUB Publication to an EPUB Reading System or User, OCF is
+    the required format for the container that holds all of the assets that make up
+    the EPUB Publication.<br />\r\nThe OCF specification defines the rules for structuring
+    the file collection in the abstract: the \"abstract container\". It also defines
+    the rules for the representation of this abstract container within a ZIP archive:
+    the \"physical container\". The rules for ZIP physical containers build upon the
+    ZIP technologies used by [ODF]. OCF also defines a standard method for obfuscating
+    embedded resources, such as fonts, for those EPUB Publications that require this
+    functionality.<br />\r\nThis specification supersedes Open Container Format (OCF)
+    3.0 [OCF30]. Refer to [EPUB3Changes] for information on differences between this
+    specification and its predecessor."
   language:
   - en
   script:
