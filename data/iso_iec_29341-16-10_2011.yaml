@@ -50,24 +50,26 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 29341-16-10:2011(E) describes a service definition which is compliant
-    with the UPnP Device Architecture version 1.0.service. This service-type enables
-    modelling of \"Basic Power Management Proxy\" function capabilities. Basic Power
-    Management Proxy (BPMPX) is a combination of UPnP service and a control point.
-    As Control Point, Proxy discovers and controls Low Power Device services running
-    in the network, and as UPnP Proxy service, it advertises itself to the network,
-    and responds to actions from low power aware Control Point. [LPARCH] Basic functions
-    that BPMPX does are as follows:<br />\r\n- Receive multicast discovery messages
-    from power managed UPnP devices in order to be. aware of their power states (i.e.
-    the BPMPX will act as Control Point).<br />\r\n- Send multicast or unicast discovery
-    messages (i.e. M-SEARCH) to query UPnP devices and keep track of their power states
-    (i.e. the BPMPX will act as Control Point).<br />\r\n- Send GetPowerManagementInfo
-    action to obtain power management mechanism provided by power-aware devices.<br
-    />\r\n- Should send the appropriate wakeup message to the specified sleeping device
-    when it receives WakeupDevice action from power aware Control Point. [LPARCH].
-    Act as UPnP service.<br />\r\n- Sending BPMPX service announcements and M-Search
-    replies.<br />\r\n- Respond to SearchSleepingDevices action to provide the information
-    of sleeping devices in network.<br />\r\n- Respond to Wakeup action from Control
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    29341-16-10:2011 describes a service definition which is compliant with the UPnP
+    Device Architecture version 1.0.service. This service-type enables modelling of
+    \"Basic Power Management Proxy\" function capabilities. Basic Power Management
+    Proxy (BPMPX) is a combination of UPnP service and a control point. As Control
+    Point, Proxy discovers and controls Low Power Device services running in the network,
+    and as UPnP Proxy service, it advertises itself to the network, and responds to
+    actions from low power aware Control Point. [LPARCH] Basic functions that BPMPX
+    does are as follows:<br />\r\n- Receive multicast discovery messages from power
+    managed UPnP devices in order to be. aware of their power states (i.e. the BPMPX
+    will act as Control Point).<br />\r\n- Send multicast or unicast discovery messages
+    (i.e. M-SEARCH) to query UPnP devices and keep track of their power states (i.e.
+    the BPMPX will act as Control Point).<br />\r\n- Send GetPowerManagementInfo action
+    to obtain power management mechanism provided by power-aware devices.<br />\r\n-
+    Should send the appropriate wakeup message to the specified sleeping device when
+    it receives WakeupDevice action from power aware Control Point. [LPARCH]. Act
+    as UPnP service.<br />\r\n- Sending BPMPX service announcements and M-Search replies.<br
+    />\r\n- Respond to SearchSleepingDevices action to provide the information of
+    sleeping devices in network.<br />\r\n- Respond to Wakeup action from Control
     Point. (Wake up action is directed to the low power devices and not for waking
     up the BPMPX)."
   language:

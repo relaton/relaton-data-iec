@@ -60,6 +60,45 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    8473-1:1998 This Recommendation | International Standard specifies a protocol
+    that is used to provide the connectionless-mode Network service described in ITU-T
+    Rec. X.213 | ISO/IEC 8348 and to perform certain Network layer management functions.
+    The protocol relies upon the provision of an underlying connectionless-mode service
+    by real subnetworks and/or data links. The underlying connectionless-mode service
+    assumed by the protocol may be obtained either directly, from a connectionless-mode
+    real subnetwork, or indirectly, through the operation of an appropriate Subnetwork
+    Dependent Convergence Function (SNDCF) or Protocol (SNDCP) over a connection-mode
+    real subnetwork, as described in ISO/IEC 8648. This Recommendation | International
+    Standard specifies the operation of the protocol with respect to a uniform, abstract
+    \"underlying subnetwork service\". Other Recommendations | International Standards
+    specify the way in which this \"underlying subnetwork service\" is obtained from
+    real subnetworks, such as those which conform to ISO/IEC 8802 or ISO/IEC 8208.
+    The \"underlying subnetwork service\" may be obtained from real subnetworks other
+    than those that are specifically covered by the other Recommendations | International
+    Standards. This Recommendation | International Standard specifies:<br />\r\na)
+    procedures for the connectionless transmission of data and control information
+    from one Network entity to one or more peer Network entities;<br />\r\nb) the
+    encoding of the Protocol Data Units (PDUs) used for the transmission of data and
+    control information, comprising a variable-length protocol header format;<br />\r\nc)
+    procedures for the correct interpretation of protocol control information; and<br
+    />\r\nd) the functional requirements for implementations claiming conformance
+    to this Recommendation | International Standard.<br />\r\nThe procedures are defined
+    in terms of:<br />\r\na) the interactions among peer Network entities through
+    the exchange of protocol data units;<br />\r\nb) the interactions between a Network
+    entity and a Network service user through the exchange of Network service primitives;
+    and<br />\r\nc) the interactions between a Network entity and an abstract underlying
+    service provider through the exchange of service primitives. This Recommendation
+    | International Standard also provides the PICS proforma for this protocol, in
+    compliance with the relevant requirements, and in accordance with the relevant
+    guidance, given in ITU-T Rec. X.290 | ISO/IEC 9646-1"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

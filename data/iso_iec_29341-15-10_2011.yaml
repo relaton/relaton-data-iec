@@ -50,18 +50,20 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 29341-15-10:2011(E) Describes the Content Synchronization service
-    which enables two or more ContentDirectory services [CDS] to synchronize content
-    with each other. This service also enables a UPnP control point to synchronize
-    content with a ContentDirectory service. We refer this service as "CSS" or "ContentSync
-    service" from hereon. If a CDS wants to support synchronization of objects and
-    its resources with other CDSs, the implementation MUST enable this ContentSync
-    service (CSS). CSS keeps change log as part of CDS object property that describe
-    which CDS objects are added or modified or deleted since it has synchronized last.
-    Since synchronization enables interaction between ContentSync services, each service
-    has a Control Point (CP) functionality that invokes actions to other ContentSync
-    service to achieve synchronization of contents with each other. This service definition
-    is compliant with the UPnP Device Architecture version 1.0.
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    29341-15-10:2011 Describes the Content Synchronization service which enables two
+    or more ContentDirectory services [CDS] to synchronize content with each other.
+    This service also enables a UPnP control point to synchronize content with a ContentDirectory
+    service. We refer this service as \"CSS\" or \"ContentSync service\" from hereon.
+    If a CDS wants to support synchronization of objects and its resources with other
+    CDSs, the implementation MUST enable this ContentSync service (CSS). CSS keeps
+    change log as part of CDS object property that describe which CDS objects are
+    added or modified or deleted since it has synchronized last. Since synchronization
+    enables interaction between ContentSync services, each service has a Control Point
+    (CP) functionality that invokes actions to other ContentSync service to achieve
+    synchronization of contents with each other. This service definition is compliant
+    with the UPnP Device Architecture version 1.0."
   language:
   - en
   script:

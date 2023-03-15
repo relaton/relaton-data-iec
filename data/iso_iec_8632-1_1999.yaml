@@ -49,6 +49,41 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    8632-1:1999 provides a file format suitable for the storage and retrieval of picture
+    description information. The file format consists of an ordered set of elements
+    that may be used to describe pictures in a way that is compatible between systems
+    of different architectures, compatible with devices of differing capabilities
+    and design, and meaningful to application constituencies. This picture description
+    includes the capability for describing static images.<br />\r\nThe elements specified
+    provide for the representation of a wide range of pictures on a wide range of
+    graphical devices. The elements are organized into groups that delimit major structures
+    (metafiles, pictures, and application structures), that specify the representations
+    used within the metafile, that control the display of the picture, that perform
+    basic drawing actions, that control the attributes of the basic drawing actions,
+    that allow application-specific structuring to be overlaid on the graphical content,
+    and that provide access to non-standard device capabilities.<br />\r\nThe metafile
+    is defined in such a way that, in addition to sequential access to the whole metafile,
+    random access to individual pictures and individual context-independent application
+    structures is well-defined. Applications which require random access to pictures
+    and/or context-independent application structures within pictures may, within
+    the metafile, define directories to these pictures and/or context-independent
+    application structures. The metafile may then be opened and randomly accessed
+    without interpreting the entire metafile.<br />\r\nIn addition to a functional
+    specification, two standard encodings of the metafile syntax are specified. These
+    encodings address the needs of applications that require small metafile size plus
+    minimum effort to generate and interpret, and maximum flexibility for a human
+    reader or editor of the metafile.<br />\r\nThis part of ISO/IEC 8632 describes
+    the format using an abstract syntax. The remaining parts of ISO 8632 specify standardized
+    encodings that conform to this syntax: ISO/IEC 8632-3 specifies a binary encoding;
+    ISO/IEC 8632-4 specifies a clear text encoding."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

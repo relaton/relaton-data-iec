@@ -50,17 +50,19 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 29341-27-1:2017 is compliant with the UPnP Device Architecture
-    version 1.0. It defines a service type referred to herein as FriendlyInfoUpdate
-    service. It is scoped to the Device Description Document (DDD) and is a service
-    allowing control points to create orderly updates to the and elements. Once a
-    change has taken place the status of the DDD might not reflect that of the advertised
-    description because the device can not leave the network during ongoing activities.
-    Therefore a state variable is provided to indicate if the DDD contains non-advertised
-    (pending) values. If for any reason the device goes off line, power cycles, or
-    reboots it will most likely advertise its new DDD. If DeviceProtection UPnP DP
-    is implemented on the device then it will support restricting control point actions
-    to control points with specific Roles.
+- content: "The electronic version of this International Standard can be downloaded
+    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
+    29341-27-1:2017 is compliant with the UPnP Device Architecture version 1.0. It
+    defines a service type referred to herein as FriendlyInfoUpdate service. It is
+    scoped to the Device Description Document (DDD) and is a service allowing control
+    points to create orderly updates to the and elements. Once a change has taken
+    place the status of the DDD might not reflect that of the advertised description
+    because the device can not leave the network during ongoing activities. Therefore
+    a state variable is provided to indicate if the DDD contains non-advertised (pending)
+    values. If for any reason the device goes off line, power cycles, or reboots it
+    will most likely advertise its new DDD. If DeviceProtection UPnP DP is implemented
+    on the device then it will support restricting control point actions to control
+    points with specific Roles."
   language:
   - en
   script:
