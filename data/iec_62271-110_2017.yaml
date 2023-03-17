@@ -59,8 +59,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW -->IEC 62271-110:2017 is also available as  IEC 62271-110:2017
-    RLV  which contains the International Standard and its Redline version, showing
+- content: "<!-- NEW -->IEC 62271-110:2017 is also available as IEC 62271-110:2017
+    RLV which contains the International Standard and its Redline version, showing
     all changes of the technical content compared to the previous edition.<br /><br
     />\r\nIEC 62271-110:2017 is applicable to AC switching devices designed for indoor
     or outdoor installation, for operation at frequencies of 50 Hz and 60 Hz on systems
@@ -81,8 +81,8 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW -->IEC 62271-110:2017 est disponible sous forme de  IEC 62271-110:2017
-    RLV  qui contient la Norme internationale et sa version Redline, illustrant les
+- content: "<!-- NEW -->IEC 62271-110:2017 est disponible sous forme de IEC 62271-110:2017
+    RLV qui contient la Norme internationale et sa version Redline, illustrant les
     modifications du contenu technique depuis l'édition précédente.<br /><br />\r\nL’IEC
     62271-110:2017 est applicable aux appareils de connexion à courant alternatif
     conçus pour une installation à l'intérieur ou à l'extérieur, et pour fonctionner
@@ -109,7 +109,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -119,6 +119,39 @@ copyright:
     url: www.iec.ch
   from: '2017'
 relation:
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017/COR2-2018
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017/COR2:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017/COR2:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017/COR1-2017
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017/COR1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017/COR1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017RLV
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC62271-110-2012/COR1-2012

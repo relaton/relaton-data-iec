@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: IEC62271-110-2017RLV
+id: IEC62271-110-2023
 title:
 - content: 'High-voltage switchgear and controlgear - Part 110: Inductive load switching'
   language:
@@ -9,23 +9,30 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: 'Appareillage à haute tension - Partie 110: Manœuvre de charges inductives'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/61607
+- content: https://webstore.iec.ch/publication/74947
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62271-110{ed4.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec62271-110{ed5.0}b.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 62271-110:2017 RLV
+- id: IEC 62271-110:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iec:62271-110::rlv
+- id: 'urn:iec:std:iec:62271-110:2023-03:::'
   type: URN
 date:
 - type: published
-  value: '2017-10-05'
+  value: '2023-03-16'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2030-12-31'
 contributor:
 - organization:
     name:
@@ -36,39 +43,57 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2017-10-05'
+  content: '5'
+revdate: '2023-03-16'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "IEC 62271-110:2017 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62271-110:2017
+- content: "<!-- NEW! -->IEC 62271-110:2023 is available as IEC 62271-110:2023 RLV
+    which contains the International Standard and its Redline version, showing all
+    changes of the technical content compared to the previous edition.IEC 62271-110:2023
     is applicable to AC switching devices designed for indoor or outdoor installation,
     for operation at frequencies of 50 Hz and 60 Hz on systems having voltages above
     1 000 V and applied for inductive current switching. It is applicable to switching
     devices (including circuit-breakers in accordance with IEC 62271-100) that are
     used to switch high‑voltage motor currents and shunt reactor currents and also
     to high-voltage contactors used to switch high-voltage motor currents as covered
-    by IEC 62271-106. This fourth edition cancels and replaces the third edition published
-    in 2012 and constitutes a technical revision. This edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\n-
-    all switching devices are now covered, not only circuit-breakers;<br />\r\n- a
-    limited number of T10 tests no longer covers shunt-reactor switching tests below
-    52 kV;<br />\r\n- evaluation and reporting of a re-ignition-free arcing time window
-    has been added.<br />\r\nThe contents of the corrigendum of December 2017 and
-    of February 2018 have been included in this copy."
+    by IEC 62271-106. This fifth edition cancels and replaces the fourth edition published
+    in 2017. This edition constitutes a technical revision. This edition includes
+    the following significant technical changes with respect to the previous edition:
+    references to IEC 62271-100 and IEC 62271-106 have been updated to the latest
+    editions."
   language:
   - en
   script:
   - Latn
   format: text/html
+- content: "<!-- NEW! -->IEC 62271-110:2023 est disponible sous forme de IEC 62271-110:2023
+    RLV qui contient la Norme internationale et sa version Redline, illustrant les
+    modifications du contenu technique depuis l'édition précédente.L’IEC 62271-110:2023
+    est applicable aux appareils de connexion à courant alternatif conçus pour être
+    installés à l'intérieur ou à l'extérieur, pour fonctionner à des fréquences de
+    50 Hz et 60 Hz sur des réseaux de tensions supérieures à 1 000 V, et prévus pour
+    l’établissement et la coupure de courants inductifs. Elle est applicable aux appareils
+    de connexion (y compris les disjoncteurs conformément à l’IEC 62271‑100) qui sont
+    utilisés pour l’établissement et la coupure de courants de moteurs à haute tension
+    et de courants de bobines d'inductance shunt, ainsi qu’aux contacteurs à haute
+    tension utilisés pour l’établissement et la coupure de courants de moteurs à haute
+    tension, comme cela est couvert par l’IEC 62271-106. Cette cinquième édition annule
+    et remplace la quatrième édition parue en 2017. Cette édition constitue une révision
+    technique. Cette édition inclut les modifications techniques majeures suivantes
+    par rapport à l'édition précédente: les références à l’IEC 62271-100 et à l’IEC
+    62271-106 ont été mises à jour en fonction des dernières éditions."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -76,7 +101,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2017'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -110,6 +135,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-110:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017RLV
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -172,4 +208,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:RR
+price_code: iec:H
