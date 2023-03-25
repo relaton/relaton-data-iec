@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: IEC61535-2019RLV
+id: IEC61535-2023RLV
 title:
 - content: Installation couplers intended for permanent connection in fixed installations
   language:
@@ -10,22 +10,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/65932
+- content: https://webstore.iec.ch/publication/84273
   type: src
-- content: https://webstore.iec.ch/preview/info_iec61535{ed2.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec61535{ed3.0.RLV}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 61535:2019 RLV
+- id: IEC 61535:2023 RLV
   type: IEC
   primary: true
 - id: urn:iec:std:iec:61535::rlv
   type: URN
 date:
 - type: published
-  value: '2019-10-16'
+  value: '2023-03-24'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2029-12-31'
 contributor:
 - organization:
     name:
@@ -36,32 +36,32 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2019-10-16'
+  content: '3'
+revdate: '2023-03-24'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 61535:2019 RLV contains both the official IEC International Standard
+- content: "IEC 61535:2023 RLV contains both the official IEC International Standard
     and its Redline version. The Redline version is available in English only and
     provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br /><br />\r\nIEC 61535:2019
-    applies to two-wire, up to five-wire installation couplers, including earth, if
-    provided, with a rated voltage up to and including 500 V AC or DC and a rated
-    connecting capacity up to and including 10 mm2 for permanent connection in electrical
-    installations. Installation couplers with additional contacts for voltages other
-    than mains voltages are outside the scope of this document. This second edition
-    cancels and replaces the first edition published in 2009 and Amendment 1:2012.
-    This edition constitutes a technical revision. This edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\n-
-    enlargement of the scope to DC application;<br />\r\n- addition of further requirements
-    as regards DC application (marking, etc.), no additional test procedures were
-    deemed necessary; however some modifications were necessary in the normative text;<br
-    />\r\n- changes and enhancement of the field of application of installation couplers
-    into outdoor applications;<br />\r\n- addition of a suitable temperature range;<br
-    />\r\n- updating of the list of normative references, modified to undated references,
-    where possible."
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 61535:2023
+    applies to two-wire, up to five-wire installation couplers, with or without earthing
+    contact, if provided, with a rated voltage up to and including 500 V AC or 500
+    V DC and a rated connecting capacity up to and including 10 mm2 and a rated current
+    not exceeding 32 A for permanent connection in electrical installations. Installation
+    couplers with additional contacts for voltages other than mains voltages are outside
+    the scope of this document. This third edition cancels and replaces the second
+    edition published in 2019. This edition constitutes a technical revision. This
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) inclusion of a definition for \"live part\" based
+    on IEC 61140;<br />\r\nb) additional optional cross medial documentation, e.g.
+    marking with QR-Code;<br />\r\nc) corrections on the consistent use of the expressions
+    \"earth\", \"earthing contact\", \"earthing circuit\" and \"protective earth(ing)\"
+    throughout the document;<br />\r\nd) addition of missing compliance provisions
+    to 13.3;<br />\r\ne) update of Figure D.1 of Annex D;<br />\r\nf) inclusion of
+    new Annex F for cold climate requirements."
   language:
   - en
   script:
@@ -69,7 +69,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -77,7 +77,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2019'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -92,6 +92,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: IEC61535-2019RLV
+    type: standard
+    docid:
+    - id: IEC 61535:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61535:2019 RLV
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC61535-2009/COR1-2014
     type: standard
     docid:
@@ -103,17 +114,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61535-2009/AMD1-2012
-    type: standard
-    docid:
-    - id: IEC 61535:2009/AMD1:2012
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61535:2009/AMD1:2012
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61535-2009+AMD1-2012CSV
     type: standard
     docid:
@@ -122,6 +122,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61535:2009+AMD1:2012 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61535-2009/AMD1-2012
+    type: standard
+    docid:
+    - id: IEC 61535:2009/AMD1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61535:2009/AMD1:2012
       format: text/plain
 - type: updates
   bibitem:
