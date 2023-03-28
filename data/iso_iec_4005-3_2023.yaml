@@ -1,9 +1,10 @@
 ---
 schema-version: v1.2.1
-id: ISO/IEC29128-2011
+id: ISO/IEC4005-3-2023
 title:
-- content: Information technology -- Security techniques -- Verification of cryptographic
-    protocols
+- content: 'Telecommunications and information exchange between systems - Unmanned
+    aircraft area network (UAAN) - Part 3: Physical and data link protocols for control
+    communication'
   language:
   - en
   script:
@@ -11,20 +12,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/11357
+- content: https://webstore.iec.ch/publication/84366
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec29128{ed1.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec4005-3{ed1.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 29128:2011
+- id: ISO/IEC 4005-3:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:29128:2011-12:::'
+- id: 'urn:iec:std:iso-iec:4005-3:2023-03:::'
   type: URN
 date:
 - type: published
-  value: '2011-12-07'
+  value: '2023-03-22'
 contributor:
 - organization:
     name:
@@ -44,17 +45,17 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2011-12-07'
+revdate: '2023-03-22'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ISO/IEC 29128:2011 establishes a technical base for the security proof
-    of the specification of cryptographic protocols. It specifies design evaluation
-    criteria for these protocols, as well as methods to be applied in a verification
-    process for such protocols. It also provides definitions of different protocol
-    assurance levels consistent with evaluation assurance components in ISO/IEC 15408.
+- content: "ISO/IEC 4005-3:2023 This document specifies communication protocols for
+    the physical and data link layer for control communication, which is wireless
+    distributed communication network for units related with unmanned aircrafts (UAs)
+    in level II.<br />\r\nThis document describes control communication, which is
+    one-to-one communication between a UA and a controller."
   language:
   - en
   script:
@@ -62,7 +63,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REPLACED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -75,21 +76,26 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2011'
+  from: '2023'
 place:
 - Geneva
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
+  - name: ISO/IEC JTC 1/SC 6
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.030'
-  text: IT Security
+- code: '49.020'
+  text: Aircraft and space vehicles in general
+- code: 35.100.10
+  text: Physical layer
+- code: 35.100.20
+  text: Data link layer
 structuredidentifier:
-  project_number: '29128'
+  project_number: '4005'
+  part: '3'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:G
