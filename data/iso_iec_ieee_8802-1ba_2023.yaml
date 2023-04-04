@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC/IEEE8802-1BA-2016
+id: ISO/IEC/IEEE8802-1BA-2023
 title:
 - content: 'Information technology - Telecommunications and information exchange between
     systems - Local and metropolitan area networks - Specific requirements - Part
@@ -12,20 +12,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/26022
+- content: https://webstore.iec.ch/publication/84497
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiecieee8802-1BA{ed1.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiecieee8802-1BA{ed2.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC/IEEE 8802-1BA:2016
+- id: ISO/IEC/IEEE 8802-1BA:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec-ieee:8802-1BA:2016-10:::'
+- id: 'urn:iec:std:iso-iec-ieee:8802-1BA:2023-03:::'
   type: URN
 date:
 - type: published
-  value: '2016-10-06'
+  value: '2023-03-31'
 contributor:
 - organization:
     name:
@@ -52,15 +52,25 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2016-10-06'
+  content: '2'
+revdate: '2023-03-31'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: ISO/IEC/IEEE 8802-1BA:2023 Profiles that select features, options, configurations,
+    defaults, protocols and procedures of bridges, stations and LANs that are necessary
+    to build networks that are capable of transporting time-sensitive audio and/or
+    video data streams are defined in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -78,7 +88,19 @@ copyright:
     abbreviation:
       content: IEEE
     url: www.ieee.org
-  from: '2016'
+  from: '2023'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1BA-2016
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1BA:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1BA:2016
+      format: text/plain
 place:
 - Geneva
 doctype: international-standard
