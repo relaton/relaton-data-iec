@@ -18,4 +18,6 @@ jobs:
   crawl:
     uses: relaton/support/.github/workflows/crawler.yml@master
     with:
-      args: "${{ github.event.inputs.args || 'latest' }} ${{ secrets.IEC_HAPI_PROJ_PUBS_KEY }} ${{ secrets.IEC_HAPI_PROJ_PUBS_SECRET }}"
+      args: "${{ github.event.inputs.args || 'latest' }}"
+    secrets:
+      args: "${{ secrets.IEC_HAPI_PROJ_PUBS_KEY }} ${{ secrets.IEC_HAPI_PROJ_PUBS_SECRET }}"
