@@ -10,9 +10,13 @@ on:
   workflow_dispatch:
     inputs:
       args:
-        description: Extra args to pass to crawler.rb script (latest or all is supported)
+        description: Extra args to pass to crawler.rb script
         required: false
         default: 'latest'
+        type: choice
+        options:
+        - latest
+        - all
 
 jobs:
   crawl:
