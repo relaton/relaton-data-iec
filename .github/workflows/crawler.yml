@@ -1,0 +1,27 @@
+name: Crawler
+
+on:
+  push:
+    branches: [ master, main ]
+    tags: [ v* ]
+  pull_request:
+  schedule:
+  - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      args:
+        description: Extra args to pass to crawler.rb script
+        required: false
+        default: 'latest'
+        type: choice
+        options:
+        - latest
+        - all
+
+jobs:
+  crawl:
+    uses: relaton/support/.github/workflows/crawler.yml@master
+    with:
+      args: "${{ github.event.inputs.args || 'latest' }}"
+    secrets:
+      args: "${{ secrets.IEC_HAPI_PROJ_PUBS_KEY }} ${{ secrets.IEC_HAPI_PROJ_PUBS_SECRET }}"
