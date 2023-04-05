@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEC61000-4-20-2022
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4-20: Testing and measurement
@@ -70,14 +70,14 @@ abstract:
     and electromagnetic pulse simulators) and closed structures (for example TEM cells).
     These structures can be further classified as one-port, two-port, or multi-port
     TEM waveguides. The frequency range depends on the specific testing requirements
-    and the specific TEM waveguide type. The object of this document is to describe\r\n
-    \r\n\t TEM waveguide characteristics, including typical frequency ranges and equipment-under-test
-    (EUT) size limitations; \r\n\t TEM waveguide validation methods for electromagnetic
-    compatibility (EMC) tests; \r\n\t the EUT (i.e. EUT cabinet and cabling) definition;
-    \r\n\t test set-ups, procedures, and requirements for radiated emission measurements
-    in TEM waveguides; and \r\n\t test set-ups, procedures, and requirements for radiated
-    immunity testing in TEM waveguides.<em>NOTE Test methods are defined in this document
-    to measure the effects of electromagnetic radiation on equipment and the electromagnetic
+    and the specific TEM waveguide type. The object of this document is to describe\r\n\r\n\tTEM
+    waveguide characteristics, including typical frequency ranges and equipment-under-test
+    (EUT) size limitations;\r\n\tTEM waveguide validation methods for electromagnetic
+    compatibility (EMC) tests;\r\n\tthe EUT (i.e. EUT cabinet and cabling) definition;\r\n\ttest
+    set-ups, procedures, and requirements for radiated emission measurements in TEM
+    waveguides; and\r\n\ttest set-ups, procedures, and requirements for radiated immunity
+    testing in TEM waveguides.<em>NOTE Test methods are defined in this document to
+    measure the effects of electromagnetic radiation on equipment and the electromagnetic
     emissions from the equipment concerned. The simulation and measurement of electromagnetic
     radiation is not adequately exact for the quantitative determination of effects
     for all end-use installations. The test methods defined are structured for a primary
@@ -93,13 +93,13 @@ abstract:
     that are separate from those of IEC 61000‑4‑3.<br />\r\nThis third edition cancels
     and replaces the second edition published in 2010. This edition constitutes a
     technical revision. This edition includes the following significant technical
-    changes with respect to the previous edition:\r\n \r\n\t provide information on
-    the testing of large EUTs (including cables); \r\n\t apply the work on measurement
+    changes with respect to the previous edition:\r\n\r\n\tprovide information on
+    the testing of large EUTs (including cables);\r\n\tapply the work on measurement
     uncertainties by adapting the work completed in CISPR and TC 77 (for emissions
-    and immunity); \r\n\t update the validation procedure for the test volume regarding
-    field uniformity and TEM mode verification; \r\n\t provide information concerning
-    two-port and four-port TEM waveguides; \r\n\t add a new informative annex (Annex
-    I) dealing with transient TEM waveguide characterization; and \r\n\t add information
+    and immunity);\r\n\tupdate the validation procedure for the test volume regarding
+    field uniformity and TEM mode verification;\r\n\tprovide information concerning
+    two-port and four-port TEM waveguides;\r\n\tadd a new informative annex (Annex
+    I) dealing with transient TEM waveguide characterization; and\r\n\tadd information
     dealing with dielectric test stands for EUTs."
   language:
   - en
@@ -114,21 +114,21 @@ abstract:
     qui peuvent être elles-mêmes classées en guides d’onde TEM à un accès, à deux
     accès, ou à accès multiples. La plage de fréquences dépend des exigences d’essai
     spécifiques et du type spécifique de guide d’onde TEM.<br />\r\nL’objet du présent
-    document est de décrire\r\n \r\n\t les caractéristiques des guides d’onde TEM,
-    y compris les plages de fréquences types et les limites de tailles des équipements
-    en essai (EUT); \r\n\t les méthodes de validation des guides d’onde TEM pour les
-    essais de compatibilité électromagnétique CEM; \r\n\t la définition de l'EUT (c’est-à-dire
-    l’armoire et le câblage de l'EUT); \r\n\t les montages d’essai, les procédures
-    et les exigences relatives aux mesurages d’émissions rayonnées dans les guides
-    d’onde TEM; et \r\n\t les montages d'essai, les procédures et les exigences pour
-    les essais d’immunité rayonnée dans les guides d’onde TEM. \r\n \r\nNOTE<em>Dans
-    le présent document, les méthodes d’essai sont définies afin de mesurer les effets
-    des rayonnements électromagnétiques sur les matériels et les émissions électromagnétiques
-    des matériels concernés. La simulation et le mesurage des rayonnements électromagnétiques
-    ne sont pas suffisamment exacts pour une détermination quantitative des effets
-    sur toutes les installations d'utilisation finale. Les méthodes d’essai définies
-    sont structurées avec l’objectif premier d'établir une reproductibilité adéquate
-    des résultats dans différentes installations d’essai pour des analyses qualitatives
+    document est de décrire\r\n\r\n\tles caractéristiques des guides d’onde TEM, y
+    compris les plages de fréquences types et les limites de tailles des équipements
+    en essai (EUT);\r\n\tles méthodes de validation des guides d’onde TEM pour les
+    essais de compatibilité électromagnétique CEM;\r\n\tla définition de l'EUT (c’est-à-dire
+    l’armoire et le câblage de l'EUT);\r\n\tles montages d’essai, les procédures et
+    les exigences relatives aux mesurages d’émissions rayonnées dans les guides d’onde
+    TEM; et\r\n\tles montages d'essai, les procédures et les exigences pour les essais
+    d’immunité rayonnée dans les guides d’onde TEM.\r\n\r\nNOTE<em>Dans le présent
+    document, les méthodes d’essai sont définies afin de mesurer les effets des rayonnements
+    électromagnétiques sur les matériels et les émissions électromagnétiques des matériels
+    concernés. La simulation et le mesurage des rayonnements électromagnétiques ne
+    sont pas suffisamment exacts pour une détermination quantitative des effets sur
+    toutes les installations d'utilisation finale. Les méthodes d’essai définies sont
+    structurées avec l’objectif premier d'établir une reproductibilité adéquate des
+    résultats dans différentes installations d’essai pour des analyses qualitatives
     des effets.</em><br />\r\nLe présent document ne vise pas à spécifier les essais
     à appliquer à des appareils ou à un ou des systèmes particuliers. Le but principal
     présent document est de donner une référence de base d'ordre général à tous les

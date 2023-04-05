@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC14888-3-2006
 title:
 - content: 'Information technology -- Security techniques -- Digital signatures with
@@ -53,20 +53,20 @@ abstract:
 - content: 'ISO/IEC 14888-3:2006 specifies digital signature mechanisms with appendix
     whose security is based on the discrete logarithm problem. It provides a general
     description of a digital signature with appendix mechanism, and a variety of mechanisms
-    that provide digital signatures with appendix.    For each mechanism, ISO/IEC
-    14888-3:2006 specifies the process of generating keys, the process of producing
-    signatures, and the process of verifying signatures.    The verification of a
-    digital signature requires the signing entity''s verification key. It is thus
-    essential for a verifier to be able to associate the correct verification key
-    with the signing entity, or more precisely, with (parts of) the signing entity''s
-    identification data. This association may be provided by another means that is
-    not covered in ISO/IEC 14888-3:2006. Whatever the nature of such means, the scheme
-    is then said to be ''certificate-based''. If not, the association between the
-    correct verification key and the signing entity''s identification data is somehow
-    inherent in the verification key itself. In such a case, the scheme is said to
-    be ''identity-based''. Depending on the two different ways of checking the correctness
-    of the verification keys, the digital signature mechanisms specified in ISO/IEC
-    14888-3:2006 are categorized in two groups: certificate-based and identity-based.'
+    that provide digital signatures with appendix. For each mechanism, ISO/IEC 14888-3:2006
+    specifies the process of generating keys, the process of producing signatures,
+    and the process of verifying signatures. The verification of a digital signature
+    requires the signing entity''s verification key. It is thus essential for a verifier
+    to be able to associate the correct verification key with the signing entity,
+    or more precisely, with (parts of) the signing entity''s identification data.
+    This association may be provided by another means that is not covered in ISO/IEC
+    14888-3:2006. Whatever the nature of such means, the scheme is then said to be
+    ''certificate-based''. If not, the association between the correct verification
+    key and the signing entity''s identification data is somehow inherent in the verification
+    key itself. In such a case, the scheme is said to be ''identity-based''. Depending
+    on the two different ways of checking the correctness of the verification keys,
+    the digital signature mechanisms specified in ISO/IEC 14888-3:2006 are categorized
+    in two groups: certificate-based and identity-based.'
   language:
   - en
   script:
