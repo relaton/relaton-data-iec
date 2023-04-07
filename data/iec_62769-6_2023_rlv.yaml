@@ -1,8 +1,8 @@
 ---
 schema-version: v1.2.3
-id: IEC62769-6-2021RLV
+id: IEC62769-6-2023RLV
 title:
-- content: 'Field Device Integration (FDI) - Part 6: Technology Mapping'
+- content: 'Field Device Integration (FDI®) - Part 6: FDI Technology Mappings'
   language:
   - en
   script:
@@ -10,22 +10,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/68509
+- content: https://webstore.iec.ch/publication/84673
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62769-6{ed2.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec62769-6{ed3.0.RLV}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 62769-6:2021 RLV
+- id: IEC 62769-6:2023 RLV
   type: IEC
   primary: true
 - id: urn:iec:std:iec:62769-6::rlv
   type: URN
 date:
 - type: published
-  value: '2021-02-05'
+  value: '2023-04-06'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2025-12-31'
 contributor:
 - organization:
     name:
@@ -36,21 +36,23 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2021-02-05'
+  content: '3'
+revdate: '2023-04-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 62769-6:2021 RLV contains both the official IEC International Standard
+- content: "IEC 62769-6:2023 RLV contains both the official IEC International Standard
     and its Redline version. The Redline version is available in English only and
     provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62769-6:2021
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62769-6:2023
     specifies the technology mapping for the concepts described in the Field Device
-    Integration (FDI) standard. The technology mapping focuses on implementation regarding
-    the components FDI Client and User Interface Plug-in (UIP) that are specific only
-    to the WORKSTATION platform/.NET as defined in IEC 62769-4."
+    Integration (FDI®[1]) standard. The technology mapping focuses on implementation
+    of the components FDI® Client and User Interface Plug-in (UIP) in the specified
+    technologies for the WORKSTATION platform and the MOBILE platform as defined in
+    IEC 62769-4. There are individual subparts for the currently supported technologies.NET
+    and HTML5."
   language:
   - en
   script:
@@ -58,7 +60,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -66,8 +68,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2021'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: IEC62769-6-2021RLV
+    type: standard
+    docid:
+    - id: IEC 62769-6:2021 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62769-6:2021 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC62769-6-2021
@@ -109,4 +122,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:RR
+price_code: iec:RH
