@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC18033-4-2005
 title:
 - content: 'Information technology -- Security techniques -- Encryption algorithms
@@ -53,18 +53,18 @@ abstract:
 - content: 'ISO/IEC 18033-4:2005 specifies stream cipher algorithms. A stream cipher
     is an encryption mechanism that uses a keystream to encrypt a plaintext in bitwise
     or block-wise manner. A stream cipher is technically specified by choosing a keystream
-    generator and a mode of stream ciphers.   ISO/IEC 18033-4:2005 specifies the following
-    ways to generate keystream.    Mechanisms based on a block cipher: OFB, CTR, and
-    CFB modes of block ciphers.  Dedicated keystream generators: MUGI and SNOW 2.0.     ISO/IEC
-    18033-4:2005 specifies the following modes of stream ciphers:    binary-additive
-    output function,  MULTI-S01 output function.     There are two types of stream
-    cipher: a synchronous stream cipher, in which the keystream is only generated
-    from the secret key (and an initialization vector) and a self-synchronizing stream
-    cipher, in which the keystream is generated from the secret key and some past
-    ciphertexts (and an initialization vector). Typically the encryption operation
-    is the additive bitwise XOR operation between a keystream and the message. ISO/IEC
-    18033-4:2005 describes pseudorandom number generators for producing both keystream
-    and output functions for stream ciphers.'
+    generator and a mode of stream ciphers.ISO/IEC 18033-4:2005 specifies the following
+    ways to generate keystream.Mechanisms based on a block cipher: OFB, CTR, and CFB
+    modes of block ciphers.Dedicated keystream generators: MUGI and SNOW 2.0.ISO/IEC
+    18033-4:2005 specifies the following modes of stream ciphers:binary-additive output
+    function,MULTI-S01 output function.There are two types of stream cipher: a synchronous
+    stream cipher, in which the keystream is only generated from the secret key (and
+    an initialization vector) and a self-synchronizing stream cipher, in which the
+    keystream is generated from the secret key and some past ciphertexts (and an initialization
+    vector). Typically the encryption operation is the additive bitwise XOR operation
+    between a keystream and the message. ISO/IEC 18033-4:2005 describes pseudorandom
+    number generators for producing both keystream and output functions for stream
+    ciphers.'
   language:
   - en
   script:

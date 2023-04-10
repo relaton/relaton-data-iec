@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC9594-1-2008
 title:
 - content: 'Information technology -- Open Systems Interconnection -- The Directory:
@@ -59,14 +59,14 @@ abstract:
     names), and "name-to-address mapping", which allows the binding between objects
     and their locations to be dynamic. The latter capability allows OSI networks,
     for example, to be "self-configuring" in the sense that addition, removal and
-    changes of object location do not affect OSI network operation.  The Directory
-    is not intended to be a general-purpose database system, although it may be built
+    changes of object location do not affect OSI network operation.The Directory is
+    not intended to be a general-purpose database system, although it may be built
     on such systems. It is assumed, for instance, that, as is typical with communications
     directories, there is a considerably higher frequency of "queries" than of updates.
     The rate of updates is expected to be governed by the dynamics of people and organizations,
     rather than, for example, the dynamics of networks. There is also no need for
     instantaneous global commitment of updates; transient conditions, where both old
-    and new versions of the same information are available, are quite acceptable.  It
+    and new versions of the same information are available, are quite acceptable.It
     is a characteristic of the Directory that, except as a consequence of differing
     access rights or unpropagated updates, the results of directory queries will not
     be dependent on the identity or location of the enquirer. This characteristic

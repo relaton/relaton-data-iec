@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC9797-2-2002
 title:
 - content: 'Information technology -- Security techniques -- Message Authentication
@@ -59,7 +59,7 @@ abstract:
     integrity mechanism and message authentication mechanism is dependent on the length
     (in bits) k and secrecy of the key, on the length (in bits) n of a hash-code produced
     by the hash-function, on the strength of the hash-function, on the length (in
-    bits) m of the MAC, and on the specific mechanism.   The three mechanisms specified
+    bits) m of the MAC, and on the specific mechanism.The three mechanisms specified
     in ISO/IEC 9797-2:2002 are based on the dedicated hash-functions specified in
     ISO/IEC 10118-3. The first mechanism specified in ISO/IEC 9797-2:2002 is commonly
     known as MDx-MAC. It calls the complete hash-function once, but it makes a small
@@ -68,8 +68,8 @@ abstract:
     known as HMAC. It calls the complete hash-function twice. The third mechanism
     specified in ISO/IEC 9797-2:2002 is a variant of MDx-MAC that takes as input only
     short strings (at most 256 bits). It offers a higher performance for applications
-    that work with short input strings only.   ISO/IEC 9797-2:2002 can be applied
-    to the security services of any security architecture, process, or application.
+    that work with short input strings only.ISO/IEC 9797-2:2002 can be applied to
+    the security services of any security architecture, process, or application.
   language:
   - en
   script:

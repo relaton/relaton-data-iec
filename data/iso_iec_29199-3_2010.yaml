@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC29199-3-2010
 title:
 - content: 'Information technology -- JPEG XR image coding system -- Part 3: Motion
@@ -52,18 +52,17 @@ script:
 abstract:
 - content: ISO/IEC 29199-3:2010 specifies the use of JPEG XR coding for timed sequences
     of images (motion sequences) within files based on the ISO base media file format
-    (ISO/IEC 15444-12).  The Motion JPEG XR file format is designed to contain one
-    or more motion sequences of JPEG XR images, with their timing. It is intended
-    as a ‘building block', specifying only the video format. An application would
-    be expected to combine Motion JPEG XR with suitable audio, metadata, etc. for
-    a complete application specification; that specification would normally select
-    profiles and levels of Motion JPEG XR, and could also specify application profiles
-    and levels that apply to the integration.   Motion JPEG XR is expected to be used
-    in a variety of applications, particularly where JPEG XR coding technology is
-    already available for other reasons, or where the high-quality frame-based approach,
-    with no inter-frame coding, is appropriate.   Motion JPEG XR is a flexible format,
-    permitting a wide variety of usages, such as editing, display, interchange, and
-    streaming.
+    (ISO/IEC 15444-12).The Motion JPEG XR file format is designed to contain one or
+    more motion sequences of JPEG XR images, with their timing. It is intended as
+    a ‘building block', specifying only the video format. An application would be
+    expected to combine Motion JPEG XR with suitable audio, metadata, etc. for a complete
+    application specification; that specification would normally select profiles and
+    levels of Motion JPEG XR, and could also specify application profiles and levels
+    that apply to the integration. Motion JPEG XR is expected to be used in a variety
+    of applications, particularly where JPEG XR coding technology is already available
+    for other reasons, or where the high-quality frame-based approach, with no inter-frame
+    coding, is appropriate. Motion JPEG XR is a flexible format, permitting a wide
+    variety of usages, such as editing, display, interchange, and streaming.
   language:
   - en
   script:

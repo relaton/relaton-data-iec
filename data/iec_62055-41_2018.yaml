@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEC62055-41-2018
 title:
 - content: 'Electricity metering - Payment systems - Part 41: Standard transfer specification
@@ -53,44 +53,43 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW -->IEC 62055-41:2018 is also available as  IEC 62055-41:2018
-    RLV  which contains the International Standard and its Redline version, showing
-    all changes of the technical content compared to the previous edition.\r\n IEC
-    62055-41:2018 specifies the application layer protocol of the standard transfer
-    specification (STS) used for transferring units of credit and other management
-    information from a point of sale (POS) system to an STS-compliant payment meter
-    in a one-way token carrier system. It is primarily intended for application with
-    electricity payment meters without a tariff employing energy-based tokens, but
-    may also have application with currency-based token systems and for services other
-    than electricity. It is intended for use by manufacturers of payment meters that
-    have to accept tokens that comply with the STS and also by manufacturers of POS
-    systems that have to produce STS-compliant tokens and is to be read in conjunction
-    with IEC 62055-5x series. This third edition cancels and replaces the second edition
-    of IEC 62055-41, issued in 2014. It constitutes a technical revision. The main
-    technical changes with regard to the previous edition are as follows:<br />\r\n-
-    currency transfer tokens for electricity, water, gas and time metering;<br />\r\n-
-    finer resolution for gas and time credit transfer;<br />\r\n- common code PAN
-    for 2 and 4 digit manufacturer codes;<br />\r\n- reserved MfrCode values for certification
-    and testing purposes;<br />\r\n- provision for DLMS/COSEM as a virtual token carrier
-    type;<br />\r\n- addition of DKGA04, an advanced key derivation function from
-    160-bit VendingKey;<br />\r\n- withdrawal of DES for EA09 and TDES for DKGA03
-    cryptographic algorithms, but DES for DKGA02 remains in use;<br />\r\n- addition
-    of MISTY1 cryptographic algorithm using a 128-bit DecoderKey with supporting key
-    change tokens;<br />\r\n- transfer of SGC values to the meter via key change tokens;<br
-    />\r\n- revision of the test/display token requirements;<br />\r\n- revision of
-    the KMS to reflect current best practice;<br />\r\n- revision of the TID roll
-    over management guidelines;<br />\r\n- definition of BaseDate is referenced to
-    Coordinated Universal Time;<br />\r\n- some clarifications and additional examples
-    have been added."
+- content: "<!-- NEW -->IEC 62055-41:2018 is also available as IEC 62055-41:2018 RLV
+    which contains the International Standard and its Redline version, showing all
+    changes of the technical content compared to the previous edition.\r\nIEC 62055-41:2018
+    specifies the application layer protocol of the standard transfer specification
+    (STS) used for transferring units of credit and other management information from
+    a point of sale (POS) system to an STS-compliant payment meter in a one-way token
+    carrier system. It is primarily intended for application with electricity payment
+    meters without a tariff employing energy-based tokens, but may also have application
+    with currency-based token systems and for services other than electricity. It
+    is intended for use by manufacturers of payment meters that have to accept tokens
+    that comply with the STS and also by manufacturers of POS systems that have to
+    produce STS-compliant tokens and is to be read in conjunction with IEC 62055-5x
+    series. This third edition cancels and replaces the second edition of IEC 62055-41,
+    issued in 2014. It constitutes a technical revision. The main technical changes
+    with regard to the previous edition are as follows:<br />\r\n- currency transfer
+    tokens for electricity, water, gas and time metering;<br />\r\n- finer resolution
+    for gas and time credit transfer;<br />\r\n- common code PAN for 2 and 4 digit
+    manufacturer codes;<br />\r\n- reserved MfrCode values for certification and testing
+    purposes;<br />\r\n- provision for DLMS/COSEM as a virtual token carrier type;<br
+    />\r\n- addition of DKGA04, an advanced key derivation function from 160-bit VendingKey;<br
+    />\r\n- withdrawal of DES for EA09 and TDES for DKGA03 cryptographic algorithms,
+    but DES for DKGA02 remains in use;<br />\r\n- addition of MISTY1 cryptographic
+    algorithm using a 128-bit DecoderKey with supporting key change tokens;<br />\r\n-
+    transfer of SGC values to the meter via key change tokens;<br />\r\n- revision
+    of the test/display token requirements;<br />\r\n- revision of the KMS to reflect
+    current best practice;<br />\r\n- revision of the TID roll over management guidelines;<br
+    />\r\n- definition of BaseDate is referenced to Coordinated Universal Time;<br
+    />\r\n- some clarifications and additional examples have been added."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW -->IEC 62055-41:2018 est disponible sous forme de  IEC 62055-41:2018
-    RLV  qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.<br />\r\n \r\n
-    IEC 62055-41:2017(en-fr) spécifie le protocole de couche application de la standard
+- content: "<!-- NEW -->IEC 62055-41:2018 est disponible sous forme de IEC 62055-41:2018
+    RLV qui contient la Norme internationale et sa version Redline, illustrant les
+    modifications du contenu technique depuis l'édition précédente.<br />\r\n \r\nIEC
+    62055-41:2017(en-fr) spécifie le protocole de couche application de la standard
     transfer specification (STS) pour transférer des unités de crédit et autres informations
     de gestion, et ce, d'un système de point de vente (POS) vers un compteur à paiement
     conforme à la STS dans un système de support de jeton unidirectionnel. Elle est
@@ -100,9 +99,9 @@ abstract:
     que l'électricité.  Elle est destinée à être utilisée par les constructeurs de
     compteurs à paiement qui doivent accepter les jetons conformes à la STS et aussi
     par les constructeurs de systèmes POS qui doivent produire des jetons conformes
-    à la STS. Elle doit être utilisée conjointement avec la série IEC 62055-5x. \r\n\r\n
-    Cette troisième édition annule et remplace la deuxième édition de l’IEC 62055-41,
-    parue en 2014. Cette édition constitue une révision technique.<br />\r\nLes modifications
+    à la STS. Elle doit être utilisée conjointement avec la série IEC 62055-5x.\r\n\r\nCette
+    troisième édition annule et remplace la deuxième édition de l’IEC 62055-41, parue
+    en 2014. Cette édition constitue une révision technique.<br />\r\nLes modifications
     techniques majeures par rapport à l'édition précédente sont les suivantes:<br
     />\r\n• jetons de transfert de monnaies pour le comptage de l’électricité, de
     l’eau, du gaz et du temps;<br />\r\n• résolution plus affinée du transfert de

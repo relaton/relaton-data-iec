@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC14496-10-2008
 title:
 - content: 'Information technology -- Coding of audio-visual objects -- Part 10: Advanced
@@ -50,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 14496-10:2008 was developed jointly with the ITU-T in response
+- content: ISO/IEC 14496-10:2008 was developed jointly with the ITU-T in response
     to the growing need for higher compression of moving pictures for various applications
     such as digital storage media, television broadcasting, Internet streaming, and
     real-time audiovisual communication. It is also designed to enable the use of
@@ -63,52 +63,51 @@ abstract:
     channels. In the course of creating ISO/IEC 14496-10:2008, requirements from a
     wide variety of applications have been considered, necessary algorithmic elements
     have been developed, and these have been integrated into a single syntax. Hence,
-    ISO/IEC 14496-10:2008 will facilitate video data interchange among different applications.   The
+    ISO/IEC 14496-10:2008 will facilitate video data interchange among different applications.The
     coded representation specified in the syntax is designed to enable a high compression
     capability with minimal degradation of image quality. The algorithm is not ordinarily
     lossless, as the exact source sample values are typically not preserved through
     the encoding and decoding processes. A number of syntactical features with associated
     decoding processes are defined that can be used to achieve highly efficient compression,
     and individual selected regions can be sent without loss. The expected encoding
-    algorithm (not specified in ISO/IEC 14496-10:2008) can select between  inter  and  intra  coding
-    for block-shaped regions of each picture. Inter coding uses motion vectors for
-    block-based inter-picture prediction to exploit temporal statistical dependencies
-    between different pictures. Intra coding uses spatial prediction modes to exploit
-    spatial statistical dependencies in the source signal within a single picture.
-    Motion vectors and intra prediction modes may be associated with a variety of
-    block sizes in a picture. The residual signal remaining after intra or inter prediction
-    is then processed using a spatial transform to remove spatial correlation within
-    each transform block. The transformed blocks are then quantised. Quantisation
-    is an irreversible process that forms an approximation that can be represented
-    using a reduced number of bits while incurring some loss of fidelity. Finally,
-    the motion vectors or intra prediction modes are combined with the quantised transform
-    coefficient information and encoded using either context-adaptive variable length
-    codes or context-adaptive binary arithmetic coding.   Annexes A through E and
-    G contain normative requirements and are an integral part of ISO/IEC 14496-10:2008.
-    Annex A defines eleven  profiles  (Baseline, Main, Extended, High, High 10, High
-    4:2:2, High 4:4:4 Predictive, High 10 Intra, High 4:2:2 Intra, High 4:4:4 Intra,
-    and CAVLC 4:4:4 Intra), each being tailored to a group of application domains,
-    and also defines  levels  of capability within each of these profiles. Annex B
-    specifies the syntax and semantics of a byte stream format for delivery of the
-    coded video as an ordered stream of bytes or bits. Annex C specifies the Hypothetical
-    Reference Decoder and its use to check bitstream and decoder conformance. Annex
-    D specifies syntax and semantics for Supplemental Enhancement Information message
-    payloads. Annex E specifies syntax and semantics of the Video Usability Information
-    parameters of coded video sequences. Annex G specifies scalable video coding in
-    three additional profiles (Scalable Baseline, Scalable High, and Scalable High
-    Intra) which enable a coded video bitstream to be structured into layers, such
-    that layered subsets of the bitstream can be independently decodable to provide
+    algorithm (not specified in ISO/IEC 14496-10:2008) can select between inter and
+    intra coding for block-shaped regions of each picture. Inter coding uses motion
+    vectors for block-based inter-picture prediction to exploit temporal statistical
+    dependencies between different pictures. Intra coding uses spatial prediction
+    modes to exploit spatial statistical dependencies in the source signal within
+    a single picture. Motion vectors and intra prediction modes may be associated
+    with a variety of block sizes in a picture. The residual signal remaining after
+    intra or inter prediction is then processed using a spatial transform to remove
+    spatial correlation within each transform block. The transformed blocks are then
+    quantised. Quantisation is an irreversible process that forms an approximation
+    that can be represented using a reduced number of bits while incurring some loss
+    of fidelity. Finally, the motion vectors or intra prediction modes are combined
+    with the quantised transform coefficient information and encoded using either
+    context-adaptive variable length codes or context-adaptive binary arithmetic coding.Annexes
+    A through E and G contain normative requirements and are an integral part of ISO/IEC
+    14496-10:2008. Annex A defines eleven profiles (Baseline, Main, Extended, High,
+    High 10, High 4:2:2, High 4:4:4 Predictive, High 10 Intra, High 4:2:2 Intra, High
+    4:4:4 Intra, and CAVLC 4:4:4 Intra), each being tailored to a group of application
+    domains, and also defines levels of capability within each of these profiles.
+    Annex B specifies the syntax and semantics of a byte stream format for delivery
+    of the coded video as an ordered stream of bytes or bits. Annex C specifies the
+    Hypothetical Reference Decoder and its use to check bitstream and decoder conformance.
+    Annex D specifies syntax and semantics for Supplemental Enhancement Information
+    message payloads. Annex E specifies syntax and semantics of the Video Usability
+    Information parameters of coded video sequences. Annex G specifies scalable video
+    coding in three additional profiles (Scalable Baseline, Scalable High, and Scalable
+    High Intra) which enable a coded video bitstream to be structured into layers,
+    such that layered subsets of the bitstream can be independently decodable to provide
     video quality commensurate with the quantity of data that remains in each smaller
-    bitstream.   ISO/IEC 14496-10:2008 is the fourth edition of the ISO/IEC 14496-10
+    bitstream.ISO/IEC 14496-10:2008 is the fourth edition of the ISO/IEC 14496-10
     specification. It includes the same technical material specified in the first
-    edition (ISO/IEC 14496-10:2003), plus the following:  –         integrated errata
-    corrections that were specified in corrigenda of 2004, 2005, and 2006.  –         enhancements
+    edition (ISO/IEC 14496-10:2003), plus the following:–         integrated errata
+    corrections that were specified in corrigenda of 2004, 2005, and 2006.–         enhancements
     primarily for high-resolution, high-quality video applications that were specified
     in a 2004 amendment referred to as "Fidelity Range Extensions" and a 2007 amendment
-    referred to as "Professional Application Extensions".  –         enhancements
-    supporting additional color spaces and aspect ratio definitions specified in a
-    2007 amendment.  enhancements supporting scalable video coding as specified in
-    a 2007 amendment.'
+    referred to as "Professional Application Extensions".–         enhancements supporting
+    additional color spaces and aspect ratio definitions specified in a 2007 amendment.enhancements
+    supporting scalable video coding as specified in a 2007 amendment.
   language:
   - en
   script:

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC15693-2-2006
 title:
 - content: 'Identification cards -- Contactless integrated circuit cards -- Vicinity
@@ -58,7 +58,7 @@ abstract:
     device. ISO/IEC 15693-2:2006 defines the power and communications interface between
     the vicinity card and the reading device. Other parts of ISO/IEC 15693 define
     the physical dimensions of the card and the commands interpreted by the card and
-    reader.   Power is coupled to the vicinity card by an a.c. field produced in the
+    reader.Power is coupled to the vicinity card by an a.c. field produced in the
     reader, also known as a coupler; the powering field has a frequency of 13,56 MHz
     and is one of the industrial, scientific and medical (ISM) frequencies available
     for worldwide use. When sufficient power is received by the card, it is able to
@@ -69,15 +69,15 @@ abstract:
     to draw the maximum energy from the field almost continuously. Vicinity cards,
     which have no power source, can be energized at ranges of up to 1 m from a coupler
     that can only transmit power within the limits permitted by international radio
-    frequency (RF) regulations.   A vicinity card only responds when it receives a
-    valid command that selects a single card from a possible collection of cards within
+    frequency (RF) regulations.A vicinity card only responds when it receives a valid
+    command that selects a single card from a possible collection of cards within
     range of the coupler. This process of collision detection and selection, also
     known as anti-collision, is made possible by detecting the unique identification
     number encoded into every card. Anti-collision and the commands used are defined
     in ISO/IEC 15693-3. The card responds to the coupler by drawing more or less power
     from the field and generates one or two sub-carriers of around 450 kHz. These
     are switched on and off to provide Manchester-encoded data that are then detected
-    by the coupler.   Thus both power and bi-directional communications form the air
+    by the coupler.Thus both power and bi-directional communications form the air
     interface between the vicinity card and the coupler. It is the flexibility of
     the interface to select one or two sub-carriers when communicating from card to
     coupler, whilst also using slow or fast data rates from the coupler to the card,

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC23002-3-2007
 title:
 - content: 'Information technology -- MPEG video technologies -- Part 3: Representation
@@ -54,11 +54,11 @@ abstract:
     sequences and supplementing a primary video sequence. Depth maps and parallax
     maps are the first specified types of auxiliary video streams, relating to stereoscopic-view
     video content. In this context, ISO/IEC 23002-3:2007 specifies syntax and semantics
-    for conveying information describing the interpretation of auxiliary video streams.  Syntax
+    for conveying information describing the interpretation of auxiliary video streams.Syntax
     for such information is specified in ISO/IEC 23002-3:2007 as a stream of data
     referred to as a supplemental information (SI) message stream. Provisions for
     extensibility have been included, so that additional types of data can be defined
-    in future extensions of the current SI message stream syntax by ISO/IEC.  An SI
+    in future extensions of the current SI message stream syntax by ISO/IEC.An SI
     message stream can contain several concatenated SI messages, hence conveying various
     types of information. The auxiliary video SI (AVSI) is the only currently-defined
     type of SI (other than reserved SI message types that are reserved for future
@@ -69,11 +69,11 @@ abstract:
     interpretation of the auxiliary video as such depth information. The means for
     identifying the primary video stream and the auxiliary video stream to which these
     messages pertain is a system-level issue that is outside the scope of ISO/IEC
-    23002-3:2007.  Although the auxiliary video SI is the only type of SI that is
-    currently specified in ISO/IEC 23002-3:2007, the SI message format has been defined
-    in a generic fashion so that it can potentially be used for purposes other than
-    aiding in the interpretation of auxiliary video sequences. Any kind of data could
-    potentially be carried in the SI message format.
+    23002-3:2007.Although the auxiliary video SI is the only type of SI that is currently
+    specified in ISO/IEC 23002-3:2007, the SI message format has been defined in a
+    generic fashion so that it can potentially be used for purposes other than aiding
+    in the interpretation of auxiliary video sequences. Any kind of data could potentially
+    be carried in the SI message format.
   language:
   - en
   script:

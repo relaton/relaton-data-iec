@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC15938-7-2003
 title:
 - content: 'Information technology -- Multimedia content description interface --
@@ -57,22 +57,22 @@ abstract:
     extraction of descriptions from multimedia content is not addressed specifically.
     A system producing descriptions may be said to be an ISO/IEC 15938 compatible
     description production system if it produces descriptions (binary or textual)
-    that conform to the specifications of parts 1, 2, 3, 4 and 5 of ISO/IEC 15938.   The
+    that conform to the specifications of parts 1, 2, 3, 4 and 5 of ISO/IEC 15938.The
     characteristics of descriptions and the terminals consuming descriptions are defined
-    for parts 1, 2, 3, 4 and 5 of ISO/IEC 15938 as follows.     Descriptions: the
-    characteristics of a specific description are defined according to syntax and
-    semantics of elements from ISO/IEC 15938 (all parts) that are used in the description.   Terminals:
-    the characteristics of a terminal consuming a description are defined according
-    to the required description decoding process for the elements used in the description.
+    for parts 1, 2, 3, 4 and 5 of ISO/IEC 15938 as follows.Descriptions: the characteristics
+    of a specific description are defined according to syntax and semantics of elements
+    from ISO/IEC 15938 (all parts) that are used in the description.Terminals: the
+    characteristics of a terminal consuming a description are defined according to
+    the required description decoding process for the elements used in the description.
     An example of a description decoding property is the arithmetic accuracy in which
     the value of element are represented. The capabilities of a description consuming
     terminal are determined by the domain of descriptions and elements that the terminal
     is capable of decoding. A description can be decoded by a terminal if the elements
     of the description are within the subset of ISO/IEC 15938 (all parts) specified
-    for a given definition of decoder capabilities.     Guidelines are given on constructing
+    for a given definition of decoder capabilities.Guidelines are given on constructing
     tests to verify conformance of descriptions and terminals. ISO/IEC 15938-7:2003
     provides additional guidelines on how to construct test suites for checking conformance
-    of terminals. In addition, some test descriptions are provided.   The conformance
+    of terminals. In addition, some test descriptions are provided.The conformance
     testing consists of two stages: Systems testing and Description Definition Language
     (DDL) testing. The Systems conformance testing involves decoding the description
     stream, which may be in binary or textual access unit form, and checking that

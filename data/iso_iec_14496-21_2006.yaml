@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC14496-21-2006
 title:
 - content: 'Information technology -- Coding of audio-visual objects -- Part 21: MPEG-J
@@ -58,18 +58,18 @@ abstract:
     from a selected profile. The framework enables developers to create applications
     that combine MPEG audio and video streams, with 3D graphics rendering and user
     interaction. Applications can use advanced special effects in the graphics presentation
-    such as mapping video as a texture.   GFX applications, also called MPEGlets,
-    follow the well-known design of MIDlets on J2ME platforms and reuse familiar media
-    APIs from these platforms such as JSR-135 Mobile Media API. On the rendering side,
+    such as mapping video as a texture.GFX applications, also called MPEGlets, follow
+    the well-known design of MIDlets on J2ME platforms and reuse familiar media APIs
+    from these platforms such as JSR-135 Mobile Media API. On the rendering side,
     GFX provides a pluggable renderer architecture that allows use of renderers such
-    as  Java bindings to OpenGL ES  (JSR-239) or  Mobile 3D Graphics  (JSR-184). By
-    allowing choice of low-level rendering APIs, developers are free to design optimized
-    rendering algorithms for the needs of their applications and use dedicated application-specific
-    formats for their assets, as do all highly interactive applications.   Reusing
-    existing mobile APIs, most Java applications currently used on mobile devices
-    may be easily ported to a system using GFX. A GFX implementation is an ultra-thin
-    layer of several class and interface definitions over standard Java and MPEG-J
-    APIs. When added to any existing Java graphics API, the overhead is minimal.
+    as Java bindings to OpenGL ES (JSR-239) or Mobile 3D Graphics (JSR-184). By allowing
+    choice of low-level rendering APIs, developers are free to design optimized rendering
+    algorithms for the needs of their applications and use dedicated application-specific
+    formats for their assets, as do all highly interactive applications.Reusing existing
+    mobile APIs, most Java applications currently used on mobile devices may be easily
+    ported to a system using GFX. A GFX implementation is an ultra-thin layer of several
+    class and interface definitions over standard Java and MPEG-J APIs. When added
+    to any existing Java graphics API, the overhead is minimal.
   language:
   - en
   script:

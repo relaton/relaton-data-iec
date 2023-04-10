@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC24723-2010
 title:
 - content: Information technology -- Automatic identification and data capture techniques
@@ -58,20 +58,20 @@ abstract:
     symbol containing supplementary data which qualifies the primary message, and
     requiring all components to be read to extract the complete message. The GS1 Composite
     symbology is one such symbology. The use of the symbology is intended to comply
-    with the GS1 General Specifications.  A GS1 Composite symbol consists of a linear
+    with the GS1 General Specifications.A GS1 Composite symbol consists of a linear
     component (encoding the item's primary identification) associated with an adjacent
     2D component (encoding supplementary data, such as a batch number or expiration
     date). The GS1 Composite symbol always includes a linear component so that the
     primary identification is readable by all scanning technologies, and so that 2D
     imagers can use the linear component as a finder pattern for the adjacent 2D component.
     The GS1 Composite symbol always includes a multi-row 2D component, for compatibility
-    with linear and 2D imagers, and with linear and rastering laser scanners.  GS1
-    Composite symbols are intended for encoding identification numbers and data supplementary
+    with linear and 2D imagers, and with linear and rastering laser scanners.GS1 Composite
+    symbols are intended for encoding identification numbers and data supplementary
     to the identification in accordance with the GS1 General Specifications. The administration
     of the numbering system by GS1 ensures that identification codes assigned to particular
     items are unique world-wide and that they and the associated supplementary data
-    are defined in a consistent way.  ISO/IEC 24723:2010 defines the requirements
-    for the GS1 Composite symbology. It specifies the GS1 Composite symbology characteristics,
+    are defined in a consistent way.ISO/IEC 24723:2010 defines the requirements for
+    the GS1 Composite symbology. It specifies the GS1 Composite symbology characteristics,
     data character encodation, symbol formats, dimensions and print quality requirements,
     error correction rules, and reference decoding algorithms. For those linear and
     2D components of GS1 Composite symbols with published symbology specifications,

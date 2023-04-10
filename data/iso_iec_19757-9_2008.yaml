@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC19757-9-2008
 title:
 - content: 'Information technology -- Document Schema Definition Languages (DSDL)
@@ -54,25 +54,25 @@ script:
 abstract:
 - content: "ISO/IEC 19757-9:2008 defines a language that is designed to extend the
     declarative functionality of an XML Document Type Definition (DTD) to include<br
-    />\r\n\t declaring one or more namespaces to which some or all of the element
-    and attribute names in a DTD belong,<br />\r\n\t declaring constraints on the
-    content of elements with content model ANY to contain elements whose names belong
-    to one or more specified namespaces,<br />\r\n\t declaring datatypes for elements
-    that contain data content only and for attribute values.<br /><br /><br /><br
-    /><br />\r\nISO/IEC 19757-9:2008 defines two alternative syntax bindings for this
-    language. The first syntax binding uses XML processing instructions and is designed
-    to enable declarations in this language to be embedded within an XML DTD without
-    invalidating the DTD or altering its interpretation so far as legacy DTD parsers
-    are concerned. This first syntax also provides a means of associating a DTD with
-    an external declarations subset containing declarations in either syntax. This
-    syntax is defined using the modified BNF syntax notation used in W3C XML. The
-    second defined syntax binding uses an XML document syntax. The syntax rules are
-    defined by a schema that conforms to the RELAX NG Compact Syntax defined in ISO/IEC
-    19757-2. This syntax is designed to enable declarations in this language to be
-    expressed almost entirely in XML (in this case one XML processing instruction
-    needs to be inserted in the DTD) to facilitate implementation using existing XML
-    tools, either as a namespace-qualified fragment embedded within an XML instance
-    or as a separate XML document."
+    />\r\n\tdeclaring one or more namespaces to which some or all of the element and
+    attribute names in a DTD belong,<br />\r\n\tdeclaring constraints on the content
+    of elements with content model ANY to contain elements whose names belong to one
+    or more specified namespaces,<br />\r\n\tdeclaring datatypes for elements that
+    contain data content only and for attribute values.<br /><br /><br /><br /><br
+    />\r\nISO/IEC 19757-9:2008 defines two alternative syntax bindings for this language.
+    The first syntax binding uses XML processing instructions and is designed to enable
+    declarations in this language to be embedded within an XML DTD without invalidating
+    the DTD or altering its interpretation so far as legacy DTD parsers are concerned.
+    This first syntax also provides a means of associating a DTD with an external
+    declarations subset containing declarations in either syntax. This syntax is defined
+    using the modified BNF syntax notation used in W3C XML. The second defined syntax
+    binding uses an XML document syntax. The syntax rules are defined by a schema
+    that conforms to the RELAX NG Compact Syntax defined in ISO/IEC 19757-2. This
+    syntax is designed to enable declarations in this language to be expressed almost
+    entirely in XML (in this case one XML processing instruction needs to be inserted
+    in the DTD) to facilitate implementation using existing XML tools, either as a
+    namespace-qualified fragment embedded within an XML instance or as a separate
+    XML document."
   language:
   - en
   script:

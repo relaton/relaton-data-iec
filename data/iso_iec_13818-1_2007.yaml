@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC13818-1-2007
 title:
 - content: 'Information technology -- Generic coding of moving pictures and associated
@@ -62,27 +62,26 @@ abstract:
 - content: 'ISO/IEC 13818-1:2007 specifies the system layer of the coding. It was
     developed principally to support the combination of the video and audio coding
     methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports
-    six basic functions:    the synchronization of multiple compressed streams on
-    decoding;   the interleaving of multiple compressed streams into a single stream;   the
-    initialization of buffering for decoding start up;   continuous buffer management;   time
-    identification;   multiplexing and signalling of various components in a system
-    stream.     An ISO/IEC 13818-1:2007 multiplexed bit stream is either a Transport
-    Stream or a Program Stream. Both streams are constructed from PES packets and
-    packets containing other necessary information. Both   stream types support multiplexing
-    of video and audio compressed streams from one program with a common time base.  The
-    Transport Stream additionally supports the multiplexing of video and audio compressed
-    streams from multiple programs with independent time bases. For almost error-free
-    environments the Program Stream is generally more appropriate, supporting software
-    processing of program information. The Transport Stream is more suitable for use
-    in environments where errors are likely.  An ISO/IEC 13818-1:2007 multiplexed
-    bit stream, whether a Transport Stream or a Program Stream, is constructed in
-    two layers: the outermost layer is the system layer, and the innermost is the
-    compression layer. The system layer provides the functions necessary for using
-    one or more compressed data streams in a system. The video and audio parts of
-    ISO/IEC 13818-1:2007 define the compression coding layer for audio and video data.
-    Coding of other types of data is not defined by ISO/IEC 13818-1:2007, but is supported
-    by the system layer provided that the other types of data adhere to the constraints
-    defined in 2.7.'
+    six basic functions:the synchronization of multiple compressed streams on decoding;the
+    interleaving of multiple compressed streams into a single stream;the initialization
+    of buffering for decoding start up;continuous buffer management;time identification;multiplexing
+    and signalling of various components in a system stream.An ISO/IEC 13818-1:2007
+    multiplexed bit stream is either a Transport Stream or a Program Stream. Both
+    streams are constructed from PES packets and packets containing other necessary
+    information. Both stream types support multiplexing of video and audio compressed
+    streams from one program with a common time base.The Transport Stream additionally
+    supports the multiplexing of video and audio compressed streams from multiple
+    programs with independent time bases. For almost error-free environments the Program
+    Stream is generally more appropriate, supporting software processing of program
+    information. The Transport Stream is more suitable for use in environments where
+    errors are likely.An ISO/IEC 13818-1:2007 multiplexed bit stream, whether a Transport
+    Stream or a Program Stream, is constructed in two layers: the outermost layer
+    is the system layer, and the innermost is the compression layer. The system layer
+    provides the functions necessary for using one or more compressed data streams
+    in a system. The video and audio parts of ISO/IEC 13818-1:2007 define the compression
+    coding layer for audio and video data. Coding of other types of data is not defined
+    by ISO/IEC 13818-1:2007, but is supported by the system layer provided that the
+    other types of data adhere to the constraints defined in 2.7.'
   language:
   - en
   script:
@@ -184,6 +183,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: ISO/IEC13818-1-2015/COR1-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 13818-1:2015/COR1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 13818-1:2015/COR1:2016
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC13818-1-2015/AMD6-2016
     type: standard
     docid:
@@ -192,17 +202,6 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 13818-1:2015/AMD6:2016
-      format: text/plain
-- type: updates
-  bibitem:
-    id: ISO/IEC13818-1-2015/AMD1-2015/COR2-2016
-    type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -228,14 +227,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2015/COR1-2016
+    id: ISO/IEC13818-1-2015/AMD1-2015/COR2-2016
     type: standard
     docid:
-    - id: ISO/IEC 13818-1:2015/COR1:2016
+    - id: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 13818-1:2015/COR1:2016
+      content: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -316,17 +315,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2013/AMD2-2014
-    type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2013/AMD2:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2013/AMD2:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC13818-1-2013/AMD4-2014
     type: standard
     docid:
@@ -335,6 +323,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 13818-1:2013/AMD4:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC13818-1-2013/AMD2-2014
+    type: standard
+    docid:
+    - id: ISO/IEC 13818-1:2013/AMD2:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 13818-1:2013/AMD2:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -371,17 +370,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2007/AMD3-2009/COR1-2011
-    type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2007/AMD3:2009/COR1:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2007/AMD3:2009/COR1:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC13818-1-2007/COR3-2011
     type: standard
     docid:
@@ -390,6 +378,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 13818-1:2007/COR3:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC13818-1-2007/AMD3-2009/COR1-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 13818-1:2007/AMD3:2009/COR1:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 13818-1:2007/AMD3:2009/COR1:2011
       format: text/plain
 - type: updates
   bibitem:

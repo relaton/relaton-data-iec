@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC23001-5-2008
 title:
 - content: 'Information technology -- MPEG systems technologies -- Part 5: Bitstream
@@ -52,7 +52,7 @@ script:
 abstract:
 - content: ISO/IEC 23001-5:2008 specifies BSDL (Bitstream Syntax Description Language),
     a language based on W3C XML Schema to describe the structure of a bitstream with
-    an XML document named BS Description.  BSDL provides a normative grammar to describe
+    an XML document named BS Description.BSDL provides a normative grammar to describe
     in XML the high-level syntax of a bitstream; the resulting XML document is called
     a Bitstream Syntax Description (BS Description, BSD). This description is not
     meant to replace the original binary format, but acts as an additional layer,
@@ -60,7 +60,7 @@ abstract:
     basis, but rather address its high-level structure, e.g., how the bitstream is
     organized in layers or packets of data. Furthermore, the BS Description is itself
     scalable, which means it may describe the bitstream at different syntactic layers,
-    e.g., finer or coarser levels of detail, depending on the application.  This language
+    e.g., finer or coarser levels of detail, depending on the application.This language
     was initially developed in the context of Digital Item Adaptation (ISO/IEC 21000-7)
     as a generic tool for adapting scalable multimedia content. However, its use is
     not restricted to adaptation and may be relevant for any application parsing a

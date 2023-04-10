@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC9594-8-2005
 title:
 - content: 'Information technology -- Open Systems Interconnection -- The Directory:
@@ -64,7 +64,7 @@ abstract:
 - content: ISO/IEC 9594-8:2005 provides specifications for how information about objects,
     e.g. persons, is organized, created, maintained and retrieved. Multiple entities
     are likely deployed to provide the directory service. Communication amongst these
-    entities is authenticated and/or encrypted.   ISO/IEC 9594-8:2005 specifies three
+    entities is authenticated and/or encrypted.ISO/IEC 9594-8:2005 specifies three
     frameworks and a number of data objects that can be used to authenticate and secure
     the communication between two entities, e.g. between two directory service entities
     or between a web browser and web server. The data objects can also be used to
@@ -159,17 +159,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-8-2008/COR2-2012
-    type: standard
-    docid:
-    - id: ISO/IEC 9594-8:2008/COR2:2012
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 9594-8:2008/COR2:2012
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC9594-8-2005/COR4-2012
     type: standard
     docid:
@@ -178,6 +167,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9594-8:2005/COR4:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9594-8-2008/COR2-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 9594-8:2008/COR2:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9594-8:2008/COR2:2012
       format: text/plain
 - type: updates
   bibitem:

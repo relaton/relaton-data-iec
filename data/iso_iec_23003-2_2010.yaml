@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC23003-2-2010
 title:
 - content: 'Information technology -- MPEG audio technologies -- Part 2: Spatial Audio
@@ -57,7 +57,7 @@ abstract:
     than performing a discrete coding of the individual audio input signals, MPEG
     SAOC captures the perceptually relevant properties of audio signals into a compact
     set of parameters that are used to synthesize a flexibly rendered audio scene
-    from a transmitted downmix signal.  MPEG SAOC extends MPEG Surround in a way that
+    from a transmitted downmix signal.MPEG SAOC extends MPEG Surround in a way that
     provides several significant advantages in terms of additional functionality available
     to users. It allows the user on the decoding side to interactively control the
     multi-channel rendering of each individual audio object on different kinds of
@@ -71,15 +71,14 @@ abstract:
     (teleconferencing systems, music downloads, Internet streaming, etc.) towards
     the delivery of audio content while retaining full compatibility with existing
     receivers. Rendering can be interactively controlled by the end-user and is independent
-    of the playback system setup.  Key features of MPEG SAOC are:    interactive rendering
-    of audio objects on the decoder/receiver side;   transmitted SAOC bit stream is
-    independent of loudspeaker (or headphones) configuration;   low-power processing
-    mode (e.g. for applications on portable devices);   low-delay processing mode
-    (e.g. for communication applications);   flexibly selectable bitrate overhead,
-    allowing scalability from low bitrate applications such as Internet streaming
-    to high-quality applications such as custom remix of music;   it can be applied
-    upon audio using any coding scheme;   backward compatibility: the default downmix
-    is always available for legacy playback devices.'
+    of the playback system setup.Key features of MPEG SAOC are:interactive rendering
+    of audio objects on the decoder/receiver side;transmitted SAOC bit stream is independent
+    of loudspeaker (or headphones) configuration;low-power processing mode (e.g. for
+    applications on portable devices);low-delay processing mode (e.g. for communication
+    applications);flexibly selectable bitrate overhead, allowing scalability from
+    low bitrate applications such as Internet streaming to high-quality applications
+    such as custom remix of music;it can be applied upon audio using any coding scheme;backward
+    compatibility: the default downmix is always available for legacy playback devices.'
   language:
   - en
   script:

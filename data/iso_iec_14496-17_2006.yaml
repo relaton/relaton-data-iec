@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO/IEC14496-17-2006
 title:
 - content: 'Information technology -- Coding of audio-visual objects -- Part 17: Streaming
@@ -58,21 +58,21 @@ abstract:
     are in particular found in areas with severe transmission bandwidth constraints,
     such as mobile services over IP. However, services over broadband IP, over broadcast
     channels and over optical media may also benefit from the low bandwidth of ISO/IEC
-    14496-17:2006 text streams.   ISO/IEC 14496-17:2006 specifies a text stream as
-    a concatenation of text access units. A text access unit contains text information
+    14496-17:2006 text streams.ISO/IEC 14496-17:2006 specifies a text stream as a
+    concatenation of text access units. A text access unit contains text information
     of a specific format. For each text stream, the format of the text information
     within the text access units is signalled. Each text access unit within a text
     stream is intended to be displayed at a specific instance in time. Note that ISO/IEC
     14496-17:2006 signals the format of the text contained in text access units, but
-    that it does not contain any text format specification.   Within ISO/IEC 14496-17:2006,
+    that it does not contain any text format specification.Within ISO/IEC 14496-17:2006,
     a particular instance of text streams are 3GPP text streams. Each text access
     unit contained in a 3GPP text stream carries 3GPP Timed Text data, as specified
     in 3GPP TS 26.245. For 3GPP text streams, ISO/IEC 14496-17:2006 defines a generic
     framing structure suitable for transport of 3GPP text streams across a variety
     of networks, such as RTP for transport over IP, and MPEG-2 Systems for use in
-    media such as broadcast and optical discs.   The flexible framing structure for
-    text streams, consisting of so-called TTUs (Timed Text Units), allows for easy
-    and convenient adaptation to the various transport layers. By using TTUs, multiple
+    media such as broadcast and optical discs.The flexible framing structure for text
+    streams, consisting of so-called TTUs (Timed Text Units), allows for easy and
+    convenient adaptation to the various transport layers. By using TTUs, multiple
     small text access units can be aggregated into one transport packet, but TTUs
     can also be used to fragment large text access units across multiple transport
     packets, while providing a reasonable level of error resilience in case of packet
