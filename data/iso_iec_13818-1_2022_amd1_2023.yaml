@@ -1,9 +1,10 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC13818-1-2013
+id: ISO/IEC13818-1-2022/AMD1-2023
 title:
-- content: 'Information technology -- Generic coding of moving pictures and associated
-    audio information: Systems'
+- content: 'Amendment 1 - Information technology - Generic coding of moving pictures
+    and associated audio information - Part 1: Systems - Carriage of LCEVC and other
+    improvements'
   language:
   - en
   script:
@@ -11,20 +12,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/9817
+- content: https://webstore.iec.ch/publication/84759
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec13818-1{ed4.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 13818-1:2013
+- id: ISO/IEC 13818-1:2022/AMD1:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:13818-1:2013-05:::'
+- id: urn:iec:std:iso-iec:13818-1:2022-09:::||amd:1:2023-04
   type: URN
 date:
 - type: published
-  value: '2013-05-23'
+  value: '2023-04-03'
 contributor:
 - organization:
     name:
@@ -43,29 +42,15 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2013-05-23'
+  content: '8'
+revdate: '2023-04-03'
 language:
 - en
 script:
 - Latn
-abstract:
-- content: |-
-    ISO/IEC 13818-1:2013 specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports six basic functions:
-    1) the synchronization of multiple compressed streams on decoding;
-    2) the interleaving of multiple compressed streams into a single stream;
-    3) the initialization of buffering for decoding start up;
-    4) continuous buffer management;
-    5) time identification;
-    6) multiplexing and signalling of various components in a system stream.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -78,7 +63,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2013'
+  from: '2022'
 relation:
 - type: updates
   bibitem:
@@ -159,17 +144,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2015/COR1-2016
-    type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2015/COR1:2016
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2015/COR1:2016
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC13818-1-2015/AMD6-2016
     type: standard
     docid:
@@ -178,6 +152,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 13818-1:2015/AMD6:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC13818-1-2015/AMD1-2015/COR2-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -203,14 +188,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2015/AMD1-2015/COR2-2016
+    id: ISO/IEC13818-1-2015/COR1-2016
     type: standard
     docid:
-    - id: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
+    - id: ISO/IEC 13818-1:2015/COR1:2016
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 13818-1:2015/AMD1:2015/COR2:2016
+      content: ISO/IEC 13818-1:2015/COR1:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -310,6 +295,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 13818-1:2013/AMD4:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC13818-1-2013
+    type: standard
+    docid:
+    - id: ISO/IEC 13818-1:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 13818-1:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -449,4 +445,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:XZ

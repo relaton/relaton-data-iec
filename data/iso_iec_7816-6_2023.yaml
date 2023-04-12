@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC7816-6-2016
+id: ISO/IEC7816-6-2023
 title:
 - content: 'Identification cards - Integrated circuit cards - Part 6: Interindustry
     data elements for interchange'
@@ -11,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/25170
+- content: https://webstore.iec.ch/publication/84758
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec7816-6{ed3.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec7816-6{ed4.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 7816-6:2016
+- id: ISO/IEC 7816-6:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:7816-6:2016-06:::'
+- id: 'urn:iec:std:iso-iec:7816-6:2023-04:::'
   type: URN
 date:
 - type: published
-  value: '2016-06-14'
+  value: '2023-04-03'
 contributor:
 - organization:
     name:
@@ -43,27 +43,28 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '3'
-revdate: '2016-06-14'
+  content: '4'
+revdate: '2023-04-03'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 7816-6:2016 specifies directly or by reference, data elements,
-    including composite data elements that may be used in interindustry interchange.<br
-    />\r\nIt identifies the following characteristics of each data element:<br />\r\n-
-    identifier;<br />\r\n- name;<br />\r\n- description and reference;<br />\r\n-
-    format and coding (if not available in other ISO standards or parts of ISO/IEC
-    7816).<br />\r\nThe layout of each data element is described as seen at the interface
-    between the interface device and the card.<br />\r\nIt provides the definition
-    of data elements without consideration of any restrictions on the usage of the
-    data elements.<br />\r\nIt does not cover the internal implementation within the
-    card and/or the outside world. With the exception of login data objects (6.5),
-    only application class tags are eligible in ISO/IEC 7816-6:2016.<br />\r\nWhen
-    using an interindustry template, an application is allowed to nest context-specific
-    class tags (see ISO/IEC 7816‑4) under such a template unless it is previously
-    marked as Reserved for Future Use ISO/IEC JTC 1/SC 17."
+- content: "ISO/IEC 7816-6:2023 This document specifies directly or by reference,
+    data elements, including composite data elements that are applicable to interindustry
+    interchange.<br />\r\nIt identifies the following characteristics of each data
+    element:<br />\r\n- identifier;<br />\r\n- name;<br />\r\n- description and reference;<br
+    />\r\n- format and coding (if not available in other ISO standards or parts of
+    the ISO/IEC 7816 series).<br />\r\nThe layout of each data element is described
+    as seen at the interface between the interface device and the card.<br />\r\nThis
+    document provides the definition of data elements without consideration of any
+    restrictions on the usage of the data elements.<br />\r\nIt does not cover the
+    internal implementation within the card and/or the outside world. With the exception
+    of login data objects (6.5), only application class tags are eligible in this
+    document.<br />\r\nWhen using an interindustry template, an application is allowed
+    to nest context-specific class tags (see ISO/IEC 7816-4) under such a template
+    unless it is previously marked as reserved for future use by ISO/IEC JTC 1/SC
+    17."
   language:
   - en
   script:
@@ -71,7 +72,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -84,8 +85,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC7816-6-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 7816-6:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 7816-6:2016
+      format: text/plain
 - type: updates
   bibitem:
     id: ISO/IEC7816-6-2004/COR1-2006
