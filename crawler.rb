@@ -8,4 +8,5 @@ ENV["IEC_HAPI_PROJ_PUBS_SECRET"] = ARGV.shift
 
 RelatonIec::DataFetcher.new("iec-harmonised-#{mode}").fetch
 system("zip index.zip index.yaml")
-system("git add index.zip index.yaml")
+system("zip index1.zip index1.yaml")
+system("git add index.zip index.yaml index1.zip index1.yaml")
