@@ -1,8 +1,8 @@
 ---
 schema-version: v1.2.3
-id: IEC62769-103-1-2020RLV
+id: IEC62769-103-1-2023RLV
 title:
-- content: 'Field Device Integration (FDI) - Part 103-1: Profiles - PROFIBUS'
+- content: 'Field Device Integration (FDI)® - Part 103-1: Profiles - PROFIBUS'
   language:
   - en
   script:
@@ -10,22 +10,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/66992
+- content: https://webstore.iec.ch/publication/84813
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62769-103-1{ed2.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec62769-103-1{ed3.0.RLV}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 62769-103-1:2020 RLV
+- id: IEC 62769-103-1:2023 RLV
   type: IEC
   primary: true
 - id: urn:iec:std:iec:62769-103-1::rlv
   type: URN
 date:
 - type: published
-  value: '2020-04-28'
+  value: '2023-04-17'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2025-12-31'
 contributor:
 - organization:
     name:
@@ -36,24 +36,29 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2020-04-28'
+  content: '3'
+revdate: '2023-04-17'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 62769-103-1:2020 RLV contains both the official IEC International
+- content: "IEC 62769-103-1:2023 RLV contains both the official IEC International
     Standard and its Redline version. The Redline version is available in English
     only and provides you with a quick and easy way to compare all the changes between
-    the official IEC Standard and its previous edition.\r\nIEC 62769-103-1:2020 specifies
-    an FDI profile of IEC 62769 for IEC 61784 1_CP 3/1 (PROFIBUS DP) and IEC 61784
-    1_CP3/2 (PROFIBUS PA). This second edition cancels and replaces the first edition
-    published in 2015. This edition constitutes a technical revision. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na) support for generic protocol extension for faster adoption
-    of other technologies;<br />\r\nb) support for Package Developers to build EDDs
-    targeted for today’s EDD bases system under a single development tool."
+    the official IEC Standard and its previous edition.<br /><br />\r\nIEC 62769-103-1:2023
+    specifies an FDI®[1] profile of IEC 62769 for IEC 61784-1_CP 3/1 (PROFIBUS DP)[2]
+    and IEC 61784-1_CP3/2 (PROFIBUS PA).<br /><br />\r\n[1] FDI is a registered trademark
+    of the non-profit organization Fieldbus Foundation, Inc. This information is given
+    for the convenience of users of this document and does not constitute an endorsement
+    by IEC of the trademark holder or any of its products. Compliance does not require
+    use of the trade name. Use of the trade name requires permission of the trade
+    name holder.<br /><br />\r\n[2] PROFIBUS is the trade name of the non-profit consortium
+    PROFIBUS & PROFINET International. This information is given for the convenience
+    of users of this technical report and does not constitute an endorsement by IEC
+    of the trademark holder or any of its products. Compliance does not require use
+    of the trade name. Use of the trade name requires permission of the trade name
+    holder."
   language:
   - en
   script:
@@ -61,7 +66,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -69,7 +74,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2020'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -81,6 +86,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62769-103-1:2020
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62769-103-1-2020RLV
+    type: standard
+    docid:
+    - id: IEC 62769-103-1:2020 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62769-103-1:2020 RLV
       format: text/plain
 - type: updates
   bibitem:
