@@ -1,17 +1,19 @@
 ---
 schema-version: v1.2.3
-id: IEC61400-11-2012/AMD1-2018/COR1-2019
+id: IEC62439-3-2021/COR1-2023
 title:
-- content: 'Corrigendum 1 - Amendment 1 - Wind turbines - Part 11: Acoustic noise
-    measurement techniques'
+- content: 'Corrigendum 1 - Industrial communication networks - High availability
+    automation networks - Part 3: Parallel Redundancy Protocol (PRP) and High-availability
+    Seamless Redundancy (HSR)'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Corrigendum 1 - Amendement 1 - Éoliennes - Partie 11: Techniques de mesure
-    du bruit acoustique'
+- content: 'Corrigendum 1 - Réseaux de communication industriels - Réseaux de haute
+    disponibilité pour l''automatisation - Partie 3: Protocole de redondance en parallèle
+    (PRP) et redondance transparente de haute disponibilité (HSR)'
   language:
   - fr
   script:
@@ -19,20 +21,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/65442
+- content: https://webstore.iec.ch/publication/76473
   type: src
 type: standard
 docid:
-- id: IEC 61400-11:2012/AMD1:2018/COR1:2019
+- id: IEC 62439-3:2021/COR1:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iec:61400-11:2012-11:::||amd:1:2018-06:||cor:1:2019-10
+- id: urn:iec:std:iec:62439-3:2021-12:::||cor:1:2023-04
   type: URN
 date:
 - type: published
-  value: '2019-10-10'
+  value: '2023-04-21'
 - type: stable-until
-  value: '2026-12-31'
+  value: '2025-12-31'
 contributor:
 - organization:
     name:
@@ -43,8 +45,8 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '3'
-revdate: '2019-10-10'
+  content: '4'
+revdate: '2023-04-21'
 language:
 - en
 - fr
@@ -60,66 +62,68 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2012'
+  from: '2021'
 relation:
 - type: updates
   bibitem:
-    id: IEC61400-11-2002+AMD1-2006CSV
+    id: IEC62439-3-2016
     type: standard
     docid:
-    - id: IEC 61400-11:2002+AMD1:2006 CSV
+    - id: IEC 62439-3:2016
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61400-11:2002+AMD1:2006 CSV
+      content: IEC 62439-3:2016
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61400-11-2002/AMD1-2006
+    id: IEC62439-3-2016RLV
     type: standard
     docid:
-    - id: IEC 61400-11:2002/AMD1:2006
+    - id: IEC 62439-3:2016 RLV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61400-11:2002/AMD1:2006
+      content: IEC 62439-3:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61400-11-2002
+    id: IEC62439-3-2012
     type: standard
     docid:
-    - id: IEC 61400-11:2002
+    - id: IEC 62439-3:2012
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61400-11:2002
+      content: IEC 62439-3:2012
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61400-11-1998
+    id: IEC62439-3-2010
     type: standard
     docid:
-    - id: IEC 61400-11:1998
+    - id: IEC 62439-3:2010
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61400-11:1998
+      content: IEC 62439-3:2010
       format: text/plain
 place:
 - Geneva
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: TC 88
-    number: 88
+  - name: TC 65/SC 65C
+    number: 65
     type: technicalCommittee
 ics:
-- code: '27.180'
-  text: Wind turbine energy systems
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
 structuredidentifier:
-  project_number: '61400'
-  part: '11'
+  project_number: '62439'
+  part: '3'
   type: IEC
 ext:
   schema-version: v1.0.0
