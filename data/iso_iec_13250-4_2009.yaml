@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC13250-4-2009
+title:
+- content: 'Information technology -- Topic Maps -- Part 4: Canonicalization'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/9760
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec13250-4{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 13250-4:2009
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:13250-4:2009-02:::'
+  type: URN
+date:
+- type: published
+  value: '2009-02-18'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2009-02-18'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 13250-4:2009 defines a format known as Canonical XTM, or CXTM for
+    short. The format is an XML format, and has the property that it guarantees that
+    two equivalent Topic Maps Data Model instances (ISO/IEC 13250-2) will always produce
+    byte-by-byte identical serializations, and that non-equivalent instances will
+    always produce different serializations. CXTM thus enables direct comparison of
+    two topic maps to determine equality by comparison of their canonical serializations.
+    The purpose of CXTM is to allow the creation of test suites for various Topic
+    Maps-related technologies that are easily portable between different Topic Maps
+    implementations, so long as these support CXTM. CXTM is not intended to be used
+    for the interchange of topic maps, although this is possible. The standard format
+    for interchange of topic maps is XTM (ISO/IEC 13250-3).ISO/IEC 13250-4:2009 specifies
+    how CXTM files are produced from topic maps by means of a transformation from
+    the Topic Maps Data Model (ISO/IEC 13250-2) to the XML Infoset.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2009'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 34
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.240.30
+  text: IT applications in information, documentation and publishing
+structuredidentifier:
+  project_number: '13250'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:B

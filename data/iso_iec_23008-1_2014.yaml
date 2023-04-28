@@ -1,0 +1,146 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC23008-1-2014
+title:
+- content: 'Information technology -- High efficiency coding and media delivery in
+    heterogeneous environments -- Part 1: MPEG media transport (MMT)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11046
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23008-1{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 23008-1:2014
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23008-1:2014-05:::'
+  type: URN
+date:
+- type: published
+  value: '2014-05-23'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2014-05-23'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: |-
+    ISO/IEC 23008-1:2014 specifies MPEG Media Transport (MMT) technologies, which include a single encapsulation format, delivery protocols and signalling messages for transport and delivery of multimedia data over heterogeneous packet-switched networks for multimedia services. Types of packet-switched networks supported by this specification include bidirectional networks such as IP (Internet Protocol) networks and unidirectional networks such as digital broadcast networks (which may or may not use the IP).
+
+    The technologies specified by this specification belong to one of three functional areas of MMT: Media Processing Unit (MPU) format, signalling messages and delivery protocol.
+
+    Media Processing Unit format specifies the 'mpuf' branded ISO Based Media File Format encapsulating both timed and non-timed media contents. The MPU format is a self-contained ISOBMFF structure enabling independent consumption of media data, which hides codec specific details from the delivery function.
+
+    Signalling functional area specifies the formats of signalling messages carrying information for managing media content delivery and consumption, e.g. specific media locations and delivery configuration of media contents.
+
+    Delivery functional area specifies the payload formats that is independent of media and codec types, which allows fragmentation and aggregation of contents encapsulated as specified by this specification for delivery using packet-switched oriented transport protocols. The delivery functional area also provides an application layer transport protocol that allows for advanced delivery of media contents.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2014'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC23008-1-2017/AMD1-2017
+    type: standard
+    docid:
+    - id: ISO/IEC 23008-1:2017/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23008-1:2017/AMD1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23008-1-2017
+    type: standard
+    docid:
+    - id: ISO/IEC 23008-1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23008-1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23008-1-2014/AMD1-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 23008-1:2014/AMD1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23008-1:2014/AMD1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23008-1-2014/COR1-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 23008-1:2014/COR1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23008-1:2014/COR1:2015
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '23008'
+  part: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

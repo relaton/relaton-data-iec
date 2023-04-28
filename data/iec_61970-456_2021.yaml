@@ -1,0 +1,208 @@
+---
+schema-version: v1.2.3
+id: IEC61970-456-2021
+title:
+- content: 'Energy management system application program interface (EMS-API) - Part
+    456: Solved power system state profiles'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Interface de programmation d''application pour système de gestion d''énergie
+    (EMS-API) - Partie 456: Profils d''état de réseaux électriques résolus'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/68054
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61970-456{ed3.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61970-456:2021
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61970-456:2021-12:::'
+  type: URN
+date:
+- type: published
+  value: '2021-12-15'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2021-12-15'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61970-456:2021 belongs to the IEC 61970-450 to IEC 61970-499 series
+    that, taken as a whole, defines at an abstract level the content and exchange
+    mechanisms used for data transmitted between power system analyses applications,
+    control centres and/or control centre components.<br />\r\nThe purpose of this
+    document is to rigorously define the subset of classes, class attributes, and
+    roles from the CIM necessary to describe the result of state estimation, power
+    flow and other similar applications that produce a steady-state solution of a
+    power network, under a set of use cases which are included informatively in this
+    document.<br />\r\nThis document is intended for two distinct audiences, data
+    producers and data recipients, and can be read from those two perspectives. From
+    the standpoint of model export software used by a data producer, the document
+    defines how a producer may describe an instance of a network case in order to
+    make it available to some other program. From the standpoint of a consumer, the
+    document defines what that importing software must be able to interpret in order
+    to consume power flow cases.<br />\r\nThere are many different use cases for which
+    use of this document is expected and they differ in the way that the document
+    will be applied in each case. Implementers are expected to consider what use cases
+    they wish to cover in order to know the extent of different options they must
+    cover. As an example, the profiles defined in this document will be used in some
+    cases to exchange starting conditions rather than solved conditions, so if this
+    is an important use case, it means that a consumer application needs to be able
+    to handle an unsolved state as well as one which has met some solution criteria.<br
+    />\r\nThis third edition cancels and replaces the second edition published in
+    2018. This edition constitutes a technical revision. It is based on the IEC 61970
+    UML version ‘IEC61970CIM17v40’, dated 2020-08-24.<br />\r\nThis edition includes
+    the following significant technical changes with respect to the previous edition:<br
+    />\r\na) Updated to support CIM17 (IEC 61970-301:2020+AMD1) and align with IEC
+    61970‑452:ED4.<br />\r\nb) The classes PowerElectronicsConnection, PowerElectronicsUnit
+    and PowerElectronicsWindUnit are added to the Steady State Hypothesis (SSH) profile
+    to match the changes done for Edition 4 of IEC 61970-452, Core Equipment profile.<br
+    />\r\nc) Added relevant terms used in this document.<br />\r\nd) Clarified use
+    of Equipment.inService and Equipment.normallyInService."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 61970-456:2021 appartient aux séries IEC 61970-450 à IEC 61970-499
+    qui, considérées dans leur ensemble, définissent à un niveau abstrait le contenu
+    et les mécanismes d'échange utilisés pour les données transmises entre des applications
+    d’analyses de réseaux électriques, des centres de conduite et/ou des composants
+    de centre de conduite.<br />\r\nLe présent document a pour objet de définir de
+    façon rigoureuse le sous-ensemble de classes, les attributs de classe et les rôles
+    du CIM, nécessaires pour décrire le résultat de l'estimation d'état, du calcul
+    de répartition et d'autres applications analogues qui produisent une solution
+    en régime établi d'un réseau électrique dans un ensemble de cas d'utilisation
+    inclus à titre informatif dans le présent document.<br />\r\nLe présent document
+    s'adresse à deux destinataires distincts, les producteurs de données et les destinataires
+    de données. Il peut être interprété selon ces deux points de vue. Du point de
+    vue du logiciel d'exportation des modèles utilisé par un producteur de données,
+    le présent document présente la façon dont un producteur peut décrire une instance
+    d'un cas de réseau pour le rendre accessible à un autre programme. Du point de
+    vue du client, le document définit ce que ce logiciel d'importation doit être
+    capable d'interpréter afin de pouvoir absorber les cas de calcul de répartition.<br
+    />\r\nIl existe un grand nombre de cas d'utilisation pour lesquels l'utilisation
+    du présent document est prévue et ils diffèrent dans la manière dont le document
+    est appliqué dans chaque cas. Il est prévu que les personnes chargées de la mise
+    en œuvre envisagent les cas d'utilisation qu'ils souhaitent traiter afin de connaître
+    l'étendue des différentes options qu'ils doivent traiter. Par exemple, le profil
+    définit dans le présent document est utilisé dans certains cas pour échanger des
+    conditions initiales plutôt que des conditions résolues, de sorte que s'il s'agit
+    d'un cas d'utilisation important, cela signifie qu’il est nécessaire qu’une application
+    du client soit capable de traiter un état non résolu ainsi qu'un état qui a satisfait
+    à certains critères de solution.<br />\r\nCette troisième édition annule et remplace
+    la deuxième édition parue en 2018. Cette édition constitue une révision technique.
+    Elle est fondée sur la version UML de l’IEC 61970 ʺIEC61970CIM17v40ʺ datée du
+    2020-08-24.<br />\r\nCette édition inclut les modifications techniques majeures
+    suivantes par rapport à l'édition précédente:<br />\r\na) mise à jour pour prendre
+    en charge le CIM17 (IEC 61970-301:2020+AMD1) et s'aligner sur l'IEC 61970-452:ED4;<br
+    />\r\nb) les classes PowerElectronicsConnection, PowerElectronicsUnit et PowerElectronicsWindUnit
+    sont ajoutées au profil SSH (Steady State Hypothesis) pour correspondre aux modifications
+    apportées au profil CoreEquipment de l’édition 4 de l’IEC 61970-452;<br />\r\nc)
+    ajout des termes pertinents utilisés dans le présent document;<br />\r\nd) clarification
+    de l'utilisation de Equipment.inService et de Equipment.normallyInService."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61970-456-2018
+    type: standard
+    docid:
+    - id: IEC 61970-456:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-456:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61970-456-2013/AMD1-2015
+    type: standard
+    docid:
+    - id: IEC 61970-456:2013/AMD1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-456:2013/AMD1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61970-456-2013+AMD1-2015CSV
+    type: standard
+    docid:
+    - id: IEC 61970-456:2013+AMD1:2015 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-456:2013+AMD1:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61970-456-2013
+    type: standard
+    docid:
+    - id: IEC 61970-456:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-456:2013
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '61970'
+  part: '456'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:M

@@ -1,0 +1,184 @@
+---
+schema-version: v1.2.3
+id: IEC62541-4-2020
+title:
+- content: 'OPC Unified Architecture - Part 4: Services'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Architecture Unifiée OPC - Partie 4: Services'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61113
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62541-4{ed3.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62541-4:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62541-4:2020-07:::'
+  type: URN
+date:
+- type: published
+  value: '2020-07-13'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2020-07-13'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "<!-- NEW! -->IEC 62541-4:2020 is available as IEC 62541-4:2020 RLV which
+    contains the International Standard and its Redline version, showing all changes
+    of the technical content compared to the previous edition.IEC 62541-4:2020 defines
+    the OPC Unified Architecture (OPC UA) Services. The Services defined are the collection
+    of abstract Remote Procedure Calls (RPC) that are implemented by OPC UA Servers
+    and called by OPC UA Clients. All interactions between OPC UA Clients and Servers
+    occur via these Services. The defined Services are considered abstract because
+    no particular RPC mechanism for implementation is defined in this document. IEC
+    62541-6 specifies one or more concrete mappings supported for implementation.
+    For example, one mapping in IEC 62541-6 is to XML Web Services. In that case the
+    Services described in this document appear as the Web service methods in the WSDL
+    contract. Not all OPC UA Servers will need to implement all of the defined Services.
+    IEC 62541-7 defines the Profiles that dictate which Services need to be implemented
+    in order to be compliant with a particular Profile This third edition cancels
+    and replaces the second edition published in 2015. This edition constitutes a
+    technical revision. This edition includes the following significant technical
+    changes with respect to the previous edition:<br />\r\na) Added ability to resend
+    all data of monitored items in a Subscription using the ResendData Method.<br
+    />\r\nb) Added support for durable Subscriptions (lifetime of hours or days).<br
+    />\r\nc) Added Register2 and FindServersOnNetwork Services to support network-wide
+    discovery using capability filters.<br />\r\nd) Removed definition of software
+    certificates. Will be defined in a future edition.<br />\r\ne) Extended and partially
+    revised the redundancy definition. Added sub-range definitions for ServiceLevel
+    and added more terms for redundancy.<br />\r\nf) Added a section on how to use
+    Authorization Services to request user access tokens.<br />\r\ng) Added JSON Web
+    Tokens (JWTs) as a new user token.<br />\r\nh) Added the concept of session-less
+    service invocation.<br />\r\ni) Added a generic structure that allows passing
+    any number of attributes to the AddNodes Service.<br />\r\nj) Added requirement
+    to protect against user identity token attacks.<br />\r\nk) Added new EncryptedSecret
+    format for user identity tokens."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "<!-- NEW! -->IEC 62541-4:2020 est disponible sous forme de IEC 62541-4:2020
+    RLV qui contient la Norme internationale et sa version Redline, illustrant les
+    modifications du contenu technique depuis l'édition précédente.L'IEC 62541-4:2020
+    définit le modèle de communication Services de l'architecture unifiée OPC (OPC
+    UA). Les Services définis sont le recueil d'appels de procédures abstraites distantes
+    (RPC, Remote Procedure Call) qui sont mises en œuvre par les Serveurs OPC UA et
+    qui sont appelées par les Clients OPC UA. Toutes les interactions entre Clients
+    et Serveurs OPC UA ont lieu via ces Services. Les Services définis sont dits abstraits,
+    car aucun mécanisme RPC particulier n'est spécifié dans le présent document pour
+    leur mise en œuvre. L'IEC 62541-6 spécifie un ou plusieurs mécanismes concrets
+    de mapping pour la mise en œuvre. Par exemple, dans l'IEC 62541-6, l'un des mécanismes
+    de mapping repose sur l'utilisation des Services Web XML. Dans ce cas, les Services
+    décrits dans le présent document apparaissent comme les méthodes de services Web
+    dans le contrat WSDL. Il n'est pas nécessaire que l'ensemble des Serveurs OPC
+    UA mettent en œuvre toutes les correspondances avec les messages et les protocoles
+    de transport. L'IEC 62541-7 définit les Profils qui dictent les Services qu'il
+    est nécessaire de mettre en œuvre afin d'être conforme à un Profil particulier.
+    Cette troisième édition annule et remplace la deuxième édition parue en 2015.
+    Cette édition constitue une révision technique. Cette édition inclut les modifications
+    techniques majeures suivantes par rapport à l'édition précédente:<br />\r\na)
+    ajout de la capacité à renvoyer toutes les données des éléments surveillés dans
+    un abonnement à l'aide de la méthode ResendData;<br />\r\nb) ajout de la prise
+    en charge pour les abonnements durables (durée de vie en heures ou en jours);<br
+    />\r\nc) ajout des services Register2 et FindServersOnNetwork pour prendre en
+    charge le mécanisme de découverte sur l'ensemble du réseau à l'aide de filtres
+    de capacités;<br />\r\nd) suppression de la définition des certificats de logiciel
+    (seront définis dans une édition ultérieure);<br />\r\ne) enrichissement et révision
+    partielle de la définition de la redondance; ajout de définitions des sous plages
+    pour ServiceLevel et ajout de termes supplémentaires pour la redondance;<br />\r\nf)
+    ajout d'un paragraphe expliquant comment utiliser les Services d'autorisation
+    pour demander des jetons d'accès utilisateur;<br />\r\ng) ajout des jetons JSON
+    Web (JWT) comme nouveau jeton d'utilisateur;<br />\r\nh) ajout du concept d'invocation
+    de service sans session;<br />\r\ni) ajout d'une structure générique permettant
+    de transmettre n'importe quel nombre d'attributs dans le service AddNotes;<br
+    />\r\nj) ajout d'une exigence relative à la protection contre les attaques de
+    jeton d'identité utilisateur;<br />\r\nk) ajout du nouveau format EncryptedSecret
+    pour les jetons d'identité utilisateur."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62541-4-2015
+    type: standard
+    docid:
+    - id: IEC 62541-4:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-4:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62541-4-2011
+    type: standard
+    docid:
+    - id: IEC 62541-4:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-4:2011
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65E
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
+structuredidentifier:
+  project_number: '62541'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

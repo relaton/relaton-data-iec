@@ -1,0 +1,166 @@
+---
+schema-version: v1.2.3
+id: IEC62541-5-2020
+title:
+- content: 'OPC Unified Architecture - Part 5: Information Model'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Architecture unifiée OPC - Partie 5: Modèle d''informations'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/61114
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62541-5{ed3.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62541-5:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62541-5:2020-07:::'
+  type: URN
+date:
+- type: published
+  value: '2020-07-10'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2020-07-10'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "<!-- NEW! -->IEC 62541-5:2020 is available as IEC 62541-5:2020 RLV which
+    contains the International Standard and its Redline version, showing all changes
+    of the technical content compared to the previous edition.IEC 62541-5:2020 defines
+    the Information Model of the OPC Unified Architecture. The Information Model describes
+    standardized Nodes of a Server’s AddressSpace. These Nodes are standardized types
+    as well as standardized instances used for diagnostics or as entry points to server-specific
+    Nodes. Thus, the Information Model defines the AddressSpace of an empty OPC UA
+    Server. However, it is not expected that all Servers will provide all of these
+    Nodes.<br />\r\nThis third edition cancels and replaces the second edition published
+    in 2015. This edition constitutes a technical revision.<br />\r\nThis edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\na) Added Annex F on User Authentication. Describes the Role
+    Information Model that also allows configuration of Roles.<br />\r\nb) Added new
+    data types: \"Union\", \"Decimal\", \"OptionSet\", \"DateString\", \"TimeString\",
+    \"DurationString\", NormalizedString\", \"DecimalString\", and \"AudioDataType\".<br
+    />\r\nc) Added Method to request a state change in a Server.<br />\r\nd) Added
+    Method to set Subscription to persistent mode.<br />\r\ne) Added Method to request
+    resending of data from a Subscription.<br />\r\nf) Added concept allowing to temporarily
+    create a file to write to or read from a server in C.4.<br />\r\ng) Added new
+    Variable type to support Selection Lists.<br />\r\nh) Added optional properties
+    to FiniteStateMachineType to expose currently available states and transitions.<br
+    />\r\ni) Added UrisVersion Property to ServerType. This version information can
+    be used for session-less service invocation."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "<!-- NEW! -->IEC 62541-5:2020 est disponible sous forme de IEC 62541-5:2020
+    RLV qui contient la Norme internationale et sa version Redline, illustrant les
+    modifications du contenu technique depuis l'édition précédente.IEC 62541-5:2020
+    définit le Modèle d'information de l'Architecture unifiée OPC. Le Modèle d'information
+    décrit des Nœuds normalisés de l'AddressSpace d'un Serveur. Ces Nœuds sont des
+    types normalisés ainsi que des instances normalisées utilisés pour le diagnostic
+    ou comme des points d'entrée à des Nœuds spécifiques au serveur. Ainsi, le Modèle
+    d'information définit l'AddressSpace d'un Serveur OPC UA vide. Cependant, tous
+    les Serveurs ne sont pas supposés fournir la totalité de ces Nœuds.<br />\r\nCette
+    troisième édition annule et remplace la deuxième édition parue en 2015. Cette
+    édition constitue une révision technique.<br />\r\nCette édition inclut les modifications
+    techniques majeures suivantes par rapport à l'édition précédente:<br />\r\na)
+    ajout de l'Annexe F concernant l'Authentification des utilisateurs; description
+    du Modèle d'information de rôle qui autorise également la configuration des Rôles;<br
+    />\r\nb) ajout de nouveaux types de données: \"Union\", \"Decimal\", \"OptionSet\",
+    \"DateString\", \"TimeString\", \"DurationString\", \"NormalizedString\", \"DecimalString\"
+    et \"AudioDataType\";<br />\r\nc) ajout d'une méthode afin de demander un changement
+    d'état dans un Serveur;<br />\r\nd) ajout d'une méthode afin de définir un Abonnement
+    en mode persistant;<br />\r\ne) ajout d'une méthode afin de demander le renvoi
+    de données à partir d'un Abonnement;<br />\r\nf) ajout en C.4 d'un concept permettant
+    la création temporaire d'un fichier pour l'écriture ou la lecture sur un serveur;<br
+    />\r\ng) ajout d'un nouveau type de Variable afin de prendre en charge les Listes
+    de sélection;<br />\r\nh) ajout de propriétés facultatives au FiniteStateMachineType
+    afin de présenter les états et transitions actuellement disponibles;<br />\r\ni)
+    ajout d'une propriété UrisVersion au ServerType. Ces informations de version peuvent
+    être utilisées pour l'invocation de services sans session."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62541-5-2015
+    type: standard
+    docid:
+    - id: IEC 62541-5:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-5:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62541-5-2011
+    type: standard
+    docid:
+    - id: IEC 62541-5:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-5:2011
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65E
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
+structuredidentifier:
+  project_number: '62541'
+  part: '5'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

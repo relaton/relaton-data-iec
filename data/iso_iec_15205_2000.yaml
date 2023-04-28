@@ -1,0 +1,109 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC15205-2000
+title:
+- content: SBus - Chip and module interconnect bus
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10242
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15205{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15205:2000
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15205:2000-06:::'
+  type: URN
+date:
+- type: published
+  value: '2000-06-28'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2000-06-28'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: An input/output expansion bus with a 32- or 64-bit width is described in
+    this standard. The SBus is designed for systems requiring a small number expansion
+    ports. SBus Cards may be connected to a standard Sbus Connector mounted on the
+    motherboard. SBus Devices may also be attached to the SBus directly on the system's
+    motherboard. The dimensions of the SBus Card are 83,8 mm by 146,7 mm, making the
+    cards appropriate for small computer systems that make extensive use of highly
+    integrated circuits. The SBus Cards are designed to be installed in a plane parallel
+    to the system's motherboard as mezzanine cards. They are designed to provide connections
+    for devices external to the computer system through an exposed back panel. The
+    form factor is useful in Futurebus+, VMEbus, desktop computers, and similar applications.
+    The SBus has the capability of transferring data at rates up to 168 Mbytes/s,
+    depending on the implementation options selected. SBus Cards may either serve
+    as Masters on the bus, providing all virtual address information as well as the
+    data to be transferred, or they may serve as Slaves on the bus, providing data
+    transfer according to the requirements of some other SBus Master. The SBus Master
+    for a data transfer is selected by an arbitration process managed by the single
+    SBus Controller on the SBus. The SBus Controller provides a virtual to physical
+    address translation service.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2000'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 25
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.160'
+  text: Microprocessor systems
+structuredidentifier:
+  project_number: '15205'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

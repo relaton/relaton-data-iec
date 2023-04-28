@@ -1,0 +1,129 @@
+---
+schema-version: v1.2.3
+id: IECTR61850-90-4-2020
+title:
+- content: 'Communication networks and systems for power utility automation - Part
+    90-4: Network engineering guidelines'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/64801
+  type: src
+- content: https://webstore.iec.ch/preview/info_iectr61850-90-4{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC TR 61850-90-4:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61850-90-4:2020-05:tr::'
+  type: URN
+date:
+- type: published
+  value: '2020-05-25'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2020-05-25'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "IEC TR 61850-90-4:2020(E), which is a Technical Report, is intended for
+    an audience familiar with network communication and/or IEC 61850-based systems
+    and particularly for substation protection and control equipment vendors, network
+    equipment vendors and system integrators.<br />\r\nThis document focuses on engineering
+    a local area network limited to the requirements of IEC 61850-based substation
+    automation. It outlines the advantages and disadvantages of different approaches
+    to network topology, redundancy, clock synchronization, etc. so that the network
+    designer can make educated decisions. In addition, this document outlines possible
+    improvements to both substation automation and networking equipment.<br />\r\nThis
+    document addresses data transfer over the network in IEC 61850, such as transmitting
+    tripping commands for protection via GOOSE messages, and in particular the multicast
+    data transfer of large volumes of sampled values (SV) from merging units (MUs).<br
+    />\r\nThis document considers seamless redundancy to increase the network availability
+    under failure conditions and the high precision clock synchronization that is
+    central to the process bus and synchrophasor operation.<br />\r\nThis document
+    is not intended as a tutorial on networking or on IEC 61850. Rather, it references
+    and summarizes standards and publications to assist the engineers. Many publications
+    discuss the Ethernet technology but do not address the networks in terms of substation
+    automation. Therefore, many technologies and options have been ignored, since
+    they were not considered relevant for a future-proof substation automation network
+    design.<br />\r\nThis document does not address network-based security, which
+    is the subject of IEC 62351 and IEC 62443.<br />\r\nThis document does not address
+    technologies for wide area networks; these are covered by IEC TR 61850-90-12.
+    Guidelines for communication outside of the substation that uses exclusively the
+    routable Internet Protocol have been published, especially in documents IEC TR
+    61850-90-1 (substation to substation), IEC TR 61850-90-2 (substation to control
+    center) and IEC TR 61850-90-5 (synchrophasor transmission). However, data flows
+    used in substation-to-substation communication, or substation-to-control centre
+    communication such as R-GOOSE and R-SV are covered when they transit over Ethernet
+    links within the substation.<br />\r\nThis document does not dispense the responsible
+    system integrator from an analysis of the actual application configuration, which
+    is the base for a dependable system<br />\r\nThis second edition cancels and replaces
+    the first edition published in 2013. This edition constitutes a technical revision.<br
+    />\r\nThis edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\n• New object model for bridges and clocks based
+    on UML autogeneration.<br />\r\n• An example of SCL configuration with a topology<br
+    />\r\n• Extensions to the time distribution and clock<br />\r\n• Extension of
+    the testing"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: IECTR61850-90-4-2013
+    type: standard
+    docid:
+    - id: IEC TR 61850-90-4:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 61850-90-4:2013
+      format: text/plain
+place:
+- Geneva
+doctype: technical-report
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

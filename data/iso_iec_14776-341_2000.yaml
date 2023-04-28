@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC14776-341-2000
+title:
+- content: 'Information technology - Small Computer System Interface-3 (SCSI-3) -
+    Part 341: Controller Commands (SCC)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10180
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14776-341{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14776-341:2000
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14776-341:2000-06:::'
+  type: URN
+date:
+- type: published
+  value: '2000-06-09'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2000-06-09'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "The SCSI command set is designed to provide efficient peer-to-peer operation
+    of input/output devices\n(disks, tapes, printers, etc.) by an operating system.
+    The SCSI command set assumes a\ncommand-response protocol. Action on SCSI commands
+    shall not be deemed completed until a response\nis received. The response shall
+    include a status that indicates the final disposition of the command.\n\nThe SCSI
+    command set provides multiple operating systems concurrent control over one or
+    more input/output devices. However, the multiple operating systems must properly
+    coordinate their actions or data\ncorruption will result. This standard defines
+    commands that assist with coordination between multiple\noperating systems. \n\nThis
+    standard defines a device model for SCSI-3 storage arrays, the commands that may
+    apply to SCSI-3 storage arrays, and the SCSI commands that are uniquely for SCSI-3\nstorage
+    arrays."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2000'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 25
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '14776'
+  part: '341'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

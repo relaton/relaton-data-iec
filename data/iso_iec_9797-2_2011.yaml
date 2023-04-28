@@ -1,0 +1,115 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC9797-2-2011
+title:
+- content: 'Information technology - Security techniques - Message Authentication
+    Codes (MACs) - Part 2: Mechanisms using a dedicated hash-function'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11887
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec9797-2{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 9797-2:2011
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:9797-2:2011-05:::'
+  type: URN
+date:
+- type: published
+  value: '2011-05-09'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2011-05-09'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: |-
+    Message Authentication Code (MAC) algorithms are data integrity mechanisms that compute a short string (the Message Authentication Code or MAC) as a complex function of every bit of the data and of a secret key. Their main security property is unforgeability: someone who does not know the secret key should not be able to predict the MAC on any new data string.
+
+    MAC algorithms can be used to provide data integrity. Their purpose is the detection of any unauthorized modification of the data such as deletion, insertion, or transportation of items within data. This includes both malicious and accidental modifications. MAC algorithms can also provide data origin authentication. This means that they can provide assurance that a message has been originated by an entity in possession of a specific secret key.
+
+    ISO/IEC 9797-2:2011 specifies three MAC algorithms that are based on a dedicated hash-function (selected from ISO/IEC 10118-3).
+
+    ISO/IEC 9797-2:2011 specifies three MAC algorithms that use a secret key and a hash-function (or its round-function) with an n-bit result to calculate an m-bit MAC.
+
+    The strength of the data integrity mechanism and message authentication mechanism is dependent on the length (in bits) k and secrecy of the key, on the length (in bits) n of the hash-function and its strength, on the length (in bits) m of the MAC, and on the specific mechanism.
+
+    The first mechanism specified in ISO/IEC 9797-2:2011 is commonly known as MDx-MAC. It calls the complete hash-function once, but it makes a small modification to the round-function by adding a key to the additive constants in the round-function. The second mechanism specified in ISO/IEC 9797-2:2011 is commonly known as HMAC. It calls the complete hash-function twice. The third mechanism specified in ISO/IEC 9797-2:2011 is a variant of MDx-MAC that takes as input only short strings (at most 256 bits). It offers a higher performance for applications that work with short input strings only.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2011'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC9797-2-2002
+    type: standard
+    docid:
+    - id: ISO/IEC 9797-2:2002
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9797-2:2002
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '9797'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:F

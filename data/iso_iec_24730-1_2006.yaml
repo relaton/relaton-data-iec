@@ -1,0 +1,134 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC24730-1-2006
+title:
+- content: 'Information technology -- Real-time locating systems (RTLS) -- Part 1:
+    Application program interface (API)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/21433
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec24730-1{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 24730-1:2006
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:24730-1:2006-02:::'
+  type: URN
+date:
+- type: published
+  value: '2006-02-15'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2006-02-15'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 24730 defines two air interface protocols and a single application
+    program interface (API) for real-time locating systems (RTLS) for use in asset
+    management and is intended to allow for compatibility and to encourage interoperability
+    of products for the growing RTLS market. ISO/IEC 24730-1:2006, the RTLS API, establishes
+    a technical standard for RTLS. To be fully compliant with this standard, RTLS
+    must comply with ISO/IEC 24730-1:2006 and at least one air interface protocol
+    defined in ISO/IEC 24730. RTLS are wireless systems with the ability to locate
+    the position of an item anywhere in a defined space (local/campus, wide area/regional,
+    global) at a point in time that is, or is close to, real time. Position is derived
+    by measurements of the physical properties of the radio link. Conceptually there
+    are four classifications of RTLS:Locating an asset via satellite (requires line-of-sight)
+    - accuracy to 10 m.Locating an asset in a controlled area, e.g. warehouse, campus,
+    airport (area of interest is instrumented) - accuracy to 3 m. Locating an asset
+    in a more confined area (area of interest is instrumented) - accuracy to tens
+    of centimetres. Locating an asset over a terrestrial area using a terrestrial
+    mounted receiver over a wide area, e.g. cell phone towers - accuracy to 200 m.There
+    are a further two methods of locating an object which are really RFID rather than
+    RTLS:Locating an asset by virtue of the fact that the asset has passed point A
+    at a certain time and has not passed point B.Locating an asset by virtue of providing
+    a homing beacon whereby a person with a handheld can find an asset.The method
+    of location is through identification and location, generally through multi-lateration.
+    The different types areTime of Flight Ranging Systems,Amplitude Triangulation,Time
+    Difference of Arrival (TDOA),Cellular Triangulation,Satellite Multi-lateration,Angle
+    of Arrival.ISO/IEC 24730-1:2006 defines an API needed for utilizing an RTLS.An
+    API is a boundary across which application software uses facilities of programming
+    languages to invoke services. These facilities may include procedures or operations,
+    shared data objects and resolution of identifiers. A wide range of services may
+    be required at an API to support applications. Different methods may be appropriate
+    for documenting API specifications for different types of services.The information
+    flow across the API boundary is defined by the syntax and semantics of a particular
+    programming language, such that the user of that language may access the services
+    provided by the application platform on the other side of the boundary. This implies
+    the specification of a mapping of the functions being made available by the application
+    platform into the syntax and semantics of the programming language. An API specification
+    documents a service and/or service access method that is available at an interface
+    between the application and an application platform. This API describes the RTLS
+    service and its access methods, to enable client applications to interface with
+    the RTLS. This RTLS service is the minimum service that must be provided by an
+    RTLS to be API compatible with this standard.ISO/IEC 24730-1:2006 enables software
+    applications to utilize an RTLS infrastructure to locate assets with RTLS transmitters
+    attached to them. It defines a boundary across which application software uses
+    facilities of programming languages to collect information contained in RTLS tag
+    blinks received by the RTLS infrastructure.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2006'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 31
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
+structuredidentifier:
+  project_number: '24730'
+  part: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

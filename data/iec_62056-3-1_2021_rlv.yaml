@@ -1,0 +1,129 @@
+---
+schema-version: v1.2.3
+id: IEC62056-3-1-2021RLV
+title:
+- content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 3-1:
+    Use of local area networks on twisted pair with carrier signalling'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/69731
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62056-3-1{ed2.0.RLV}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62056-3-1:2021 RLV
+  type: IEC
+  primary: true
+- id: urn:iec:std:iec:62056-3-1::rlv
+  type: URN
+date:
+- type: published
+  value: '2021-07-07'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2021-07-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "IEC 62056-3-1:2021 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62056-3-1:2021
+    describes two sets of profiles: the first set of profiles allows a bidirectional
+    communication between a client and a server. This set of profiles is made of three
+    profiles allowing local bus data exchange with stations either energized or not.
+    For non-energized stations, the bus supplies energy for data exchange. Three different
+    profiles are supported:<br />\r\n• base profile: this three-layer profile provides
+    remote communication services;<br />\r\nNOTE 1 This first profile was published
+    in IEC 61142:1993 and became known as the Euridis standard.<br />\r\n• profile
+    with DLMS: this profile allows using DLMS services as specified in IEC 61334 4
+    41;<br />\r\nNOTE 2 This second profile was published in IEC 62056-31:1999.<br
+    />\r\n• profile with DLMS/COSEM: this profile allows using the DLMS/COSEM Application
+    layer and the COSEM object model as specified in IEC 62056 5 3 and in IEC 62056
+    6 2 respectively.<br />\r\nThe three profiles use the same physical layer and
+    they are fully compatible, meaning that devices implementing any of these profiles
+    can be operated on the same bus. The transmission medium is twisted pair using
+    carrier signalling and it is known as the Euridis Bus.<br />\r\nThe second set
+    of profiles allows unidirectional communication between a given Energy Metering
+    device and a Customer Energy Management System. This second set is made up of
+    three profiles.<br />\r\nSubclause 4.2.1 to Clause 8 included specify the bidirectional
+    communication using twisted pair signalling and Clause 9 to 9.5 the unidirectional
+    communication using twisted pair signalling.<br />\r\nThis second edition cancels
+    and replaces the first edition of IEC 62056-3-1, issued in 2013, and constitutes
+    a technical revision.<br />\r\nThe main technical changes with regard to the previous
+    edition are as follows:<br />\r\n• addition of a profile which makes use of the
+    IEC 62056 DLMS/COSEM Application layer and COSEM object model;<br />\r\n• review
+    of the data link layer which is split into two parts:<br />\r\n– a pure Data Link
+    layer;<br />\r\n– a \"Support Manager\" entity managing the communication media;<br
+    />\r\n• ability to negotiate the communication speed, bringing baud rate up to
+    9 600 bauds."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62056-3-1-2013
+    type: standard
+    docid:
+    - id: IEC 62056-3-1:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62056-3-1:2013
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 13
+    number: 13
+    type: technicalCommittee
+ics:
+- code: 17.220.20
+  text: Measurement of electrical and magnetic quantities
+- code: '35.110'
+  text: Networking
+- code: 91.140.50
+  text: Electricity supply systems
+structuredidentifier:
+  project_number: '62056'
+  part: '3'
+  subpart: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:RG

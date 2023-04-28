@@ -1,0 +1,148 @@
+---
+schema-version: v1.2.3
+id: IEC61158-4-2-2010
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 4-2:
+    Application layer protocol specification - Type 2 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de  terrain
+    - Partie 4-2: Spécification de protocole de la couche application - Eléments de
+    Type 2'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/19192
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed2.0}b.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-4-2:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-4-2:2010-08:::'
+  type: URN
+date:
+- type: published
+  value: '2010-08-06'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2010-08-06'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    IEC 61158-4-2:2010 provides communication opportunities to all participating data-link entities, sequentially and in a cyclic synchronous manner. Foreground scheduled access is available for time-critical activities together with background unscheduled access for less critical activities. It provides means to maintain clock synchronization across an extended link with a precision better than 10 ms. This protocol optimizes each access opportunity by concatenating multiple DLSDUs and associated DLPCI into a single DLPDU, thereby improving data transfer efficiency for data-link entities that actively source multiple streams of data. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are:<br />
+    - update of normative and bibliographic references;<br />
+    - update of abbreviations;<br />
+    - updates of the Ethernet Link object;<br />
+    - new DLR and QoS objects;<br />
+    - new DLR protocol. This bilingual version (2012-07) corresponds to the monolingual English version, published in 2010-08.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    La CEI 61158-4-2:2010 spécifie un protocole qui offre des opportunités de communication séquentielle et synchrone cyclique à toutes les entités de liaison de données participantes. Un accès planifié de premier plan est proposé à toutes les activités à contrainte de temps, un accès non planifié l'étant aux activités moins critiques. Ce protocole offre la possibilité de maintenir la synchronisation d'horloge d'une liaison étendue à 10 ms près. Ce protocole permet d'optimiser chaque opportunité d'accès en concaténant plusieurs DLSDU et DLPCI associés en une seule DLPDU, améliorant le transfert de données des entités de liaison de données qui émettent activement plusieurs flux de données. Cette deuxième édition annule et remplace la première édition publiée en 2007. Elle constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont:<br />
+    - la mise à jour des références normatives et bibliographiques;<br />
+    - la mise à jour des abréviations;<br />
+    - les mises à jour de l'objet de liaison Ethernet;<br />
+    - des nouveaux objets DLR et QoS;<br />
+    - un nouveau protocole DLR. La présente version bilingue (2012-07) correspond à la version anglaise monolingue publiée en 2010-08.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2019
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2014
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-4-2-2007
+    type: standard
+    docid:
+    - id: IEC 61158-4-2:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-4-2:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.20
+  text: Data link layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '4'
+  subpart: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

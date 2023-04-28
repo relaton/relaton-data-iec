@@ -1,0 +1,121 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC15962-2013
+title:
+- content: 'Information technology -- Radio frequency identification (RFID) for item
+    management -- Data protocol: data encoding rules and logical memory functions'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10476
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15962{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15962:2013
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15962:2013-03:::'
+  type: URN
+date:
+- type: published
+  value: '2013-03-08'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2013-03-08'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "The data protocol used to exchange information in a radio frequency identification
+    (RFID) system for item management is specified in ISO/IEC 15961 and in ISO/IEC
+    15962:2013. Both International Standards are required for a complete understanding
+    of the data protocol in its entirety; but each focuses on one particular interface:<br
+    />\r\n\tISO/IEC 15961 addresses the interface with the application system.<br
+    />\r\n\tISO/IEC 15962:2013 deals with the processing of data and its presentation
+    to the RF tag, and the initial processing of data captured from the RF tag.<br
+    /><br /><br /><br />\r\nISO/IEC 15962:2013 focuses on encoding the transfer syntax,
+    as defined in ISO/IEC 15961 according to the application commands defined in ISO/IEC
+    15961. The encodation is in a Logical Memory as a software analogue of the physical
+    memory of the RFID tag being addressed by the interrogator.<br /><br />\r\nISO/IEC
+    15962:2013<br />\r\n\tdefines the encoded structure of object identifiers;<br
+    />\r\n\tspecifies the data compaction rules that apply to the encoded data;<br
+    />\r\n\tspecifies a Precursor for encoding syntax features efficiently;<br />\r\n\tspecifies
+    formatting rules for the data, e.g. depending on whether a directory is used or
+    not;<br />\r\n\tdefines how application commands, e.g. to lock data, are transferred
+    to the Tag Driver;<br />\r\n\tspecifies processes associated with sensory information
+    and the transfers to the Tag Driver;<br />\r\n\tdefines other communication to
+    the application.<br /><br />"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2013'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC15962-2004
+    type: standard
+    docid:
+    - id: ISO/IEC 15962:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15962:2004
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 31
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
+structuredidentifier:
+  project_number: '15962'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:B

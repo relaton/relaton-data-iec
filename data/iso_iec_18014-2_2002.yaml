@@ -1,0 +1,120 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC18014-2-2002
+title:
+- content: 'Information technology -- Security techniques -- Time-stamping services
+    -- Part 2: Mechanisms producing independent tokens'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/21329
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec18014-2{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 18014-2:2002
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:18014-2:2002-12:::'
+  type: URN
+date:
+- type: published
+  value: '2002-12-10'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2002-12-10'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'ISO/IEC 18014-2:2002 describes time-stamping services producing independent
+    tokens. It describes a general model for time-stamping services of this type and
+    the basic components used to construct a time-stamping service of this type, it
+    defines the data structures and protocols used to interact with a time-stamping
+    service of this type, and it describes specific instances of such time-stamping
+    services. The usage of independent tokens presumes a high trust on the time-stamping
+    authority (TSA). Three independent mechanisms are currently covered: Time-stamps
+    using digital signatures In this mechanism the TSA has an asymmetric key pair,
+    and uses the private key to digitally sign the time-stamp token. Signature verification
+    will use the public key. This mechanism may require the use of a PKI (Public Key
+    Infrastructure). Time-stamps using message authentication codes In this mechanism
+    the TSA uses a secret key to digitally bind the time association. The time-stamp
+    token is authenticated using a Message Authentication Code (MAC). When using this
+    mechanism, the TSA is needed to carry out the verification. Time-stamps using
+    archivingIn this mechanism the TSA returns a time-stamp token that only has reference
+    information to bind the time-stamp to the messageImprint in the time-stamp token.
+    The TSA archives locally enough information to verify that the time-stamp is correct.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2002'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC18014-2-2009
+    type: standard
+    docid:
+    - id: ISO/IEC 18014-2:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 18014-2:2009
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '18014'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

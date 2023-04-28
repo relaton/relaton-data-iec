@@ -1,0 +1,139 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC29143-2011
+title:
+- content: Information technology -- Automatic identification and data capture techniques
+    -- Air interface specification for Mobile RFID interrogators
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/11369
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29143{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29143:2011
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29143:2011-01:::'
+  type: URN
+date:
+- type: published
+  value: '2011-01-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2011-01-31'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 29143:2011 provides an air interface specification for Mobile radio
+    frequency identification (RFID) interrogators being part of a passive backscatter
+    system. This system comprises one or more mobile interrogators, also known as
+    Mobile RFID interrogators, and an undefined number of tags, also known as labels.Interrogators
+    are not required to support channel sensing, i.e. do not need to implement Listen
+    Before Talk (LBT), and transmit commands on the off chance under the risk of colliding
+    with one or more peer-interrogators. Moreover, interrogators compliant to ISO/IEC
+    29143:2011 are not obliged to synchronize by any means (wired or wireless), i.e.
+    no control channel dedicated to coordinating Time Division Multiplexing (TDM)
+    is provided.Tags are powered by the RF signal provided by the interrogator and
+    respond to an interrogator by modulating the reflection coefficient of its antenna,
+    thereby backscattering data to the interrogator. The working mode adopted by the
+    tags is purely passive, i.e. tags do not actively initiate any kind of RF communication.In
+    ISO/IEC 29143:2011, collision arbitration and collision avoidance for Mobile RFID
+    applications are defined by specifying methods aimed at mitigating the impact
+    of emerging collisions and mechanisms used to avoid follow-up collisions.ISO/IEC
+    29143:2011 applies to Mobile RFID interrogator devices used to inventory passive
+    or semi-passive backscatter tags at 860 MHz to 960 MHz in a mobile (non-fixed)
+    application independent from specific communication details, i.e. modulation technique
+    and command set.Furthermore, the scope of ISO/IEC 29143:2011 is mobile consumer
+    applications, whereas mobile enterprise applications are not covered as long as
+    operating in a closed environment.An operating environment is considered to be
+    closed if it belongs to a central administrative authority able to guarantee for
+    sufficient isolation, i.e. preventing mobile enterprise interrogator devices from
+    being used outside the dedicated operating environment, and if sufficient spatial
+    separation and/or electromagnetic shielding from adjacent operating environments
+    is provided.An application is considered a consumer application if at least one
+    of two interacting entities is a private individual (consumer) and the interaction
+    is taking place in the public domain. Consequently, a Mobile RFID consumer application
+    is defined as Mobile RFID equipment (e.g. mobile phones equipped with an RFID
+    interrogator) being used in a consumer application.NOTE          As there is currently
+    no active contribution on Mobile HF interrogators, ISO/IEC 29143:2011 covers only
+    UHF.ISO/IEC 29143:2011 specifiesMobile RFID interrogator media access control,interrogator
+    to interrogator and multiple interrogator to tag collision arbitration scheme
+    including interrogator requirements,interrogator to interrogator and multiple
+    interrogator to tag collision avoidance scheme, andtag memory use for Mobile RFID
+    applications.ISO/IEC 29143:2011 does not specifyphysical interactions (the signaling
+    layer of the communication link) between interrogators and tags,interrogator and
+    tag operating procedures and commands, andthe collision arbitration algorithm
+    used to singulate (separate to the current response slot) a specific tag in a
+    multiple-tag environment.In particular, ISO/IEC 29143:2011 does not replace any
+    existing RFID air interface specification issued by ISO/IEC but extends the existing
+    methodologies for fixed RFID interrogators with mechanisms addressing the special
+    challenges of Mobile RFID. The concepts and mechanisms described in ISO/IEC 29143:2011
+    can be integrated in any existing RFID protocol approved by ISO/IEC for the given
+    frequency range of 860 MHz to 960 MHz (unless explicitly prohibited by such protocol)
+    regardless of the actual command set.The mechanisms defined by ISO/IEC 29143:2011
+    can be used for Mobile RFID interrogators used in consumer applications and compliant
+    to ISO/IEC 18000-6.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2011'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 31
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
+structuredidentifier:
+  project_number: '29143'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:F

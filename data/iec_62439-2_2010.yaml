@@ -1,0 +1,132 @@
+---
+schema-version: v1.2.3
+id: IEC62439-2-2010
+title:
+- content: 'Industrial communication networks - High availability automation networks
+    - Part 2: Media Redundancy Protocol (MRP)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux industriels de communication - Réseaux de haute disponibilité
+    pour l''automatisation - Partie 2: Protocole de redondance du support (MRP)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/7017
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62439-2{ed1.0}b.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec62439-2{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62439-2:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62439-2:2010-02:::'
+  type: URN
+date:
+- type: published
+  value: '2010-02-26'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2010-02-26'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    IEC 62439-2:2010 is applicable to high-availability automation networks based on the ISO/IEC 8802-3 (IEEE 802.3) (Ethernet) technology. It specifies a recovery protocol based on a ring topology, designed to react deterministically on a single failure of an inter-switch link or switch in the network, under the control of a dedicated media redundancy manager node. It cancels and replaces IEC 62439 published in 2008 and constitutes a technical revision. It includes the following significant technical changes with respect to IEC 62439 (2008):<br />
+    - adding a calculation method for RSTP (rapid spanning tree protocol, IEEE 802.1Q),<br />
+    - adding two new redundancy protocols: HSR (High-availability Seamless Redundancy) and DRP (Distributed Redundancy Protocol),<br />
+    - moving former Clauses 1 to 4 (introduction, definitions, general aspects) and the Annexes (taxonomy, availability calculation) to IEC 62439-1, which serves now as a base for the other documents,<br />
+    - moving Clause 5 (MRP) to IEC 62439-2 with minor editorial changes,<br />
+    - moving Clause 6 (PRP) was to IEC 62439-3 with minor editorial changes,<br />
+    - moving Clause 7 (CRP) was to IEC 62439-4 with minor editorial changes, and<br />
+    - moving Clause 8 (BRP) was to IEC 62439-5 with minor editorial changes,<br />
+    - adding a method to calculate the maximum recovery time of RSTP in a restricted configuration (ring) to IEC 62439-1 as Clause 8,<br />
+    - adding specifications of the HSR (High-availability Seamless Redundancy) protocol, which shares the principles of PRP to IEC 62439-3 as Clause 5, and<br />
+    - introducing the DRP protocol as IEC 62439-6.<br /><br />This publication is to be read in conjunction with IEC 62439-1:2010.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    La CEI 62439-2:2010 concerne les réseaux d'automation à haute disponibilité reposant sur la technologie (Ethernet) ISO/CEI 8802-3 (IEEE 802.3). Elle spécifie un protocole de récupération reposant sur une topologie en anneau, conçu pour réagir de manière déterministe sur une seule défaillance d'une maille inter-étage ou d'un commutateur du réseau, sous le contrôle d'un noeud du gestionnaire de redondance de support dédié. Elle annule et remplace la CEI 62439 publiée en 2008 et constitue une révision technique. Ell inclut les modifications techniques majeures suivantes par rapport à la CEI 62439 (2008):<br />
+    - ajout d'une méthode de calcul pour le protocole RSTP (Rapid Spanning Tree Protocol, IEEE 802.1Q),<br />
+    - ajout de deux nouveaux protocoles de redondance: HSR (High-availability Seamless Redundancy) et DRP (Distributed Redundancy Protocol),<br />
+    - déplacement des Articles 1 à 4 (Introduction, Définitions, Aspects généraux) et des Annexes (Taxinomie, Calcul de disponibilité) dans la CEI 62439-1, qui servent à présent de base aux autres documents,<br />
+    - déplacement de l'Article 5 (MRP) dans la CEI 62439-2 avec peu de modifications éditoriales,<br />
+    - déplacement de l'Article 6 (PRP) dans la CEI 62439-3 avec peu de modifications éditoriales,<br />
+    - déplacement de l'Article 7 (CRP) dans la CEI 62439-4 avec peu de modifications éditoriales, et<br />
+    - déplacement de l'Article 8 (BRP) dans la CEI 62439-5 avec peu de modifications éditoriales,<br />
+    - ajout d'une méthode de calcul du temps de reprise maximal du protocole RSTP dans une configuration restreinte (anneau) dans la CEI 62439-1 (Article 8),<br />
+    - ajout de spécifications du protocole HSR (High-availability Seamless Redundancy), qui partage les principes du protocole PRP dans la CEI 62439-3 (Article 5), et<br />
+    - introduction du protocole DRP (CEI 62439-6).<br /><br />Cette publication doit être lue conjointement avec la CEI 62439-1:2010.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62439-2-2016
+    type: standard
+    docid:
+    - id: IEC 62439-2:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62439-2:2016
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
+structuredidentifier:
+  project_number: '62439'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:L

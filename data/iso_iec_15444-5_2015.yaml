@@ -1,0 +1,159 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC15444-5-2015
+title:
+- content: 'Information technology - JPEG 2000 image coding system: Reference software'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/23542
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 15444-5:2015
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:15444-5:2015-10:::'
+  type: URN
+date:
+- type: published
+  value: '2015-10-14'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2015-10-14'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 15444-5:2015 defines a set of lossless and lossy compression methods
+    for coding continuous-tone, bi-level, greyscale or colour digital still images.
+    This Recommendation | International Standard provides three independently created
+    software reference implementations of Rec. ITU-T T.800 | ISO/IEC 15444-1, in order
+    to assist implementers of Rec. ITU-T T.800 | ISO/IEC 15444-1 in testing and understanding
+    its content. The packages are JASPER, JJ2000 and OPENJPEG.<p>The reference software
+    packages are informative only. This Recommendation | International Standard does
+    not define any additional part of the JPEG 2000 image coding system.</p><p>Each
+    version of the reference software contains source code, which may be compiled
+    to provide the following functionality:</p><p>- transcoding from selected, widely
+    available image formats into a JPEG 2000 codestream;</p><p>- transcoding from
+    selected, widely available image formats into the JP2 file format;</p><p>- selection
+    of a wide range of JPEG 2000 encoding options (as documented in each reference
+    software);</p><p>- decoding from a JPEG 2000 codestream to a range of selected
+    widely available image formats;</p><p>- Processing of a JP2 file to extract a
+    JPEG 2000 codestream for decoding and conversion to a range of selected widely
+    available image formats.</p><p>- The ability to extract metadata from a JP2 file,
+    including the contents of the Image Header box and the colour space.</p><p>- The
+    decoding of JP2 files that use the Three-Component Matrix-Based form of the Restricted
+    ICC method for the specification of colour space and the conversion of the decoded
+    image data to the sRGB colour space for display, including limited upsampling
+    of all decoded components to the same resolution.</p><p>- The decoding of JP2
+    files that use the Monochrome form of the Restricted ICC method for the specification
+    of colour space and the conversion of the decoded image data to the sRGB based
+    greyscale space as defined within the JP2 file format.</p><p>- The decoding of
+    JP2 files that use the sYCC colour space and the conversion of the decoded image
+    data to the sRGB colour space for display, including upsampling of all decoded
+    components to the same resolution.</p><p>- some additional tools to help with
+    evaluation and testing.</p><p>The reference software is intended for use as a
+    testing and validation tool for other implementations of JPEG 2000, and to help
+    in the understanding of Rec. ITU-T T.800 | ISO/IEC 15444-1. Although components
+    of the reference software may find application in software intended for product
+    development, this was not an objective of the development of this software, and
+    prospective implementers are cautioned against making any estimations of performance
+    or resource usage based on the reference software.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2015'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2003/AMD2-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2003/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2003/AMD2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2003/AMD1-2003
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2003/AMD1:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2003/AMD1:2003
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-5-2003
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-5:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-5:2003
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.30
+  text: Coding of graphical and photographical information
+structuredidentifier:
+  project_number: '15444'
+  part: '5'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:C

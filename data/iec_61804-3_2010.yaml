@@ -1,0 +1,197 @@
+---
+schema-version: v1.2.3
+id: IEC61804-3-2010
+title:
+- content: 'Function blocks (FB) for process control - Part 3: Electronic Device Description
+    Language (EDDL)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Blocs fonctionnels (FB) pour les procédés industriels - Partie 3: Langage
+    de description électronique de produit (EDDL)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/5955
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61804-3{ed2.0}b.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61804-3{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61804-3:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61804-3:2010-11:::'
+  type: URN
+date:
+- type: published
+  value: '2010-11-29'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2010-11-29'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    IEC 61804-3:2010 specifies the Electronic Device Description Language (EDDL) technology, which enables the integration of real product details using the tools of the engineering life cycle. It specifies EDDL as a generic language for describing the properties of automation system components. It specifies the semantic and lexical structure in a syntax-independent manner. A specific syntax is defined in Annex A, but it is possible to use the semantic model also with different syntaxes. This second edition cancels and replaces the first edition published in 2006. This edition constitutes a technical revision. The main changes with respect to the previous edition are:<br />
+    1.Additions:<br />
+    - Language elements to support modular devices, see, 7.9, 7.10, 7.36.1, 7.36.2, 7.36.3, 7.36.13, and 7.36.15;<br />
+    - Language elements to support offline configuration, 7.31;<br />
+    - Usage of UTF-8, see A.2.3.;<br />
+    - Various BuiltIns;<br />
+    - BLOCK_A referencing. Updates to support access to multiple blocks, see 7.4.1, 7.38.18 up to 7.38.26.;<br />
+    - Add VALIDITY attribute to various lexical structures;<br />
+    - Support of multi-language images, see 7.18.2.1;<br />
+    - In 7.23.1 deleted the restriction of the MENU item list;<br />
+    - Syntactical limitation on conditionals in 7.23.2.1 to restrict the MENU layout;<br />
+    - Add LIST and delete VARIABLE_LIST of the MENU items in 7.23.2.1;<br />
+    - Additional return value data types for METHOD TYPE, see 7.24.2.3;<br />
+    - Replace reference by a context specific specification in Table 170;<br />
+    - Clarification on KEY_POINTS behaviour, see 7.35.2.4;<br />
+    - Add TRANSPARENT to the lexical structure to make the list of attributes consistent, see 7.36.11;<br />
+    - Clarification on file behaviour, see 7.36.10;<br />
+    - Add in Table A.5 the new key-words;<br />
+    - Add the formal EDDL syntax in A.6;<br />
+    2.Corrections:<br />
+    - Deleted in A.6 all non-needed constructs using the auxiliary..._listR. These were created by a non-perfect syntax-checking tool.<br />
+    - Deleted in A.6 all non-needed "stmt1:" and "stmt2:". These were created by a non-perfect syntax-checking tool.<br />
+    - Made A.6 consistent about using a colon at the end of a term by amending colons in a consistent way.<br />
+    - Deleted not used references.<br />
+    - Deleted in several lexical structures the brackets and "".<br />
+    - Deleted in lexical structures the "[   ]" where the conditional expression was not possible.<br />
+    - Exchanged the attribute WIDTH by HEIGHT in the subclause specifying HEIGHT.<br />
+    - Spelling errors like GUAGE exchanged to GAUGE.<br />
+    - Syntactical limitation on conditionals in ACTIONS (for example see 7.14.2.3 and 7.14.2.4) to support conditionals only in the METHODs.<br />
+    - Clarification on file behaviour in 7.15.<br />
+    - Add GRID and IMAGES to the attribute list, see 7.19.<br />
+    - Deleted a duplication of element list in 7.23.2.1.<br />
+    - Defining and calling METHODs with parameter and return value, see 7.24.<br />
+    - Restriction on METHOD CLASS, see 7.24.2.2.<br />
+    - Clarification on SCALING_F ACTOR behaviour, see Table 165.<br />
+    - Deleted EDDL operators from EDDL keyword list, see Table A.5.<br />
+    - Clarification on TIME_VALUE coding prov iding the absolute basis, see Table D.16 and Table D.17.<br />
+    This bilingual version, published in 2011-07, corresponds to the English version.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    La CEI 61804-3:2010 spécifie la technologie de langage de description électronique de produit (Electronic Device Description Language: EDDL), qui permet en utilisant les outils d'ingénierie l'intégration de produit dans les systèmes tout au long du cycle de vie. Elle spécifie EDDL en tant que langage générique pour décrire les propriétés des composants système mettant en oeuvre des automatismes. Elle spécifie la sémantique et la structure lexicale indépendament de la syntaxe. Une syntaxe spécifique est définie à l'Annexe A mais il est possible d'utiliser le modèle sémantique avec d'autres syntaxes. Cette deuxième édition annule et remplace la première édition parue en 2006 et constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont:<br />
+    1.Ajouts:<br />
+    - Éléments de langage pour décrire les dispositifs modulaires, 7.9, 7.10, 7.36.1, 7.36.2, 7.36.3, 7.36.13 et 7.36.15;<br />
+    - Éléments de langage pour décrire la configuration hors connexion, 7.31;<br />
+    - Utilisation de UTF-8, voir A.2.3;<br />
+    - Divers BuiltIn;<br />
+    - Référencement de BLOCK_A. Mises à jour pour décrire l'accès à des blocs multiples, voir 7.4.1, 7.38.18 à 7.38.26;<br />
+    - Ajout de l'attribut VALIDITY (validité) à différentes structures lexicales;<br />
+    - Prise en charge d'images multilingues, voir 7.18.21;<br />
+    - En 7.23.1, suppression de la restriction de la liste d'éléments de MENU;<br />
+    - Limitation syntaxique sur les instructions conditionnelles en 7.23.2.1 pour restreindre la disposition de MENU;<br />
+    - Ajout de LIST (liste) et suppression de VARIABLE_LIST (liste des variables) dans les éléments de MENU en 7.23.2.1;<br />
+    - Types de données de valeur de retour additionnels pour METHOD TYPE, voir 7.24.2.3;<br />
+    - Remplacement de la référence par une spécification spécifique au contexte dans le Tableau 170;<br />
+    - Clarification sur le comportement des KEY_POINT (point clé), voir 7.35.2.4;<br />
+    - Ajout de TRANSPARENT à la structure lexicale pour rendre la liste d'attributs cohérente, voir 7.36.11;<br />
+    - Clarification sur le comportement des fichiers, voir 7.36.10;<br />
+    - Ajout dans le Tableau 5 de nouveaux mots clés;<br />
+    - Ajout de la syntaxe EDDL formelle en A.6.<br />
+    2.Corrections:<br />
+    - Suppression en A.6 de toutes les constructions non nécessaires utilisant l'élément auxiliaire..._listR. Celles-ci avaient été créées par un outil de vérification de syntaxe imparfait.<br />
+    - Suppression de tous les "stmt1:" et "stmt2:" superflus en A.6. Ceux-ci avaient été créés par un outil de vérification de syntaxe imparfait.<br />
+    - A.6, désormais cohérent en ce qui concerne l'utilisation d'un deux-points à la fin d'un terme après modification des deux-points.<br />
+    - Références non utilisées supprimées.<br />
+    - Parenthèses et "" supprimés dans plusieurs structures lexicales.<br />
+    - "[   ]" supprimé dans plusieurs structures lexicales dans lesquelles l'expression conditionnelle n'est pas possible.<br />
+    - Attribut WIDTH (largeur) remplacé par HEIGHT (hauteur) dans le paragraphe spécifiant HEIGHT.<br />
+    - Fautes d'orthographe telles que GUAGE remplacé par GAUGE.<br />
+    - Limitation syntaxique sur les instructions conditionnelles dans les ACTIONS (par exemple, voir 7.14.2.3 et 7.14.2.4) pour prendre en charge les éléments conditionnels uniquement dans les éléments METHOD (méthode).<br />
+    - Clarification sur le comportement des fichiers en 7.15.<br />
+    - Ajout de GRID (grille) et IMAGES à la liste des attributs, voir 7.19.<br />
+    - Suppression d'une duplication de liste d'éléments en 7.23.2.1.<br />
+    - Définition et appel des METHOD avec un paramètre et une valeur de retour, voir 7.24.<br />
+    - Restriction sur METHOD CLASS (classe de méthode), voir 7.24.2.2.<br />
+    - Clarification sur le comportement de SCALING_FACTOR (facteur d'échelle), voir Tableau 165.<br />
+    - Suppression d'opérateurs EDDL de la liste de mots-clés EDDL, voir Tableau A.5.<br />
+    - Clarification sur le codage de TIME_VALUE (valeur d'heure) constituant la base absolue, voir Tableau D.16 et Tableau D.17.<br />
+    La présente version bilingue, publiée en 2011-07, correspond à la version anglaise. La version française de cette norme n'a pas été soumise au vote.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61804-3-2015
+    type: standard
+    docid:
+    - id: IEC 61804-3:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61804-3:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61804-3-2006
+    type: standard
+    docid:
+    - id: IEC 61804-3:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61804-3:2006
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65E
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.240.50
+  text: IT applications in industry
+structuredidentifier:
+  project_number: '61804'
+  part: '3'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

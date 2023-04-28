@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.3
+id: IEC62541-5-2020RLV
+title:
+- content: 'OPC Unified Architecture - Part 5: Information Model'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/67310
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62541-5{ed3.0.RLV}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62541-5:2020 RLV
+  type: IEC
+  primary: true
+- id: urn:iec:std:iec:62541-5::rlv
+  type: URN
+date:
+- type: published
+  value: '2020-07-10'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2020-07-10'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "IEC 62541-5:2020 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.\r\nIEC 62541-5:2020 defines the
+    Information Model of the OPC Unified Architecture. The Information Model describes
+    standardized Nodes of a Server’s AddressSpace. These Nodes are standardized types
+    as well as standardized instances used for diagnostics or as entry points to server-specific
+    Nodes. Thus, the Information Model defines the AddressSpace of an empty OPC UA
+    Server. However, it is not expected that all Servers will provide all of these
+    Nodes.<br />\r\nThis third edition cancels and replaces the second edition published
+    in 2015. This edition constitutes a technical revision.<br />\r\nThis edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\na) Added Annex F on User Authentication. Describes the Role
+    Information Model that also allows configuration of Roles.<br />\r\nb) Added new
+    data types: \"Union\", \"Decimal\", \"OptionSet\", \"DateString\", \"TimeString\",
+    \"DurationString\", NormalizedString\", \"DecimalString\", and \"AudioDataType\".<br
+    />\r\nc) Added Method to request a state change in a Server.<br />\r\nd) Added
+    Method to set Subscription to persistent mode.<br />\r\ne) Added Method to request
+    resending of data from a Subscription.<br />\r\nf) Added concept allowing to temporarily
+    create a file to write to or read from a server in C.4.<br />\r\ng) Added new
+    Variable type to support Selection Lists.<br />\r\nh) Added optional properties
+    to FiniteStateMachineType to expose currently available states and transitions.<br
+    />\r\ni) Added UrisVersion Property to ServerType. This version information can
+    be used for session-less service invocation."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62541-5-2015
+    type: standard
+    docid:
+    - id: IEC 62541-5:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-5:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62541-5-2011
+    type: standard
+    docid:
+    - id: IEC 62541-5:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62541-5:2011
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65E
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
+structuredidentifier:
+  project_number: '62541'
+  part: '5'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:RV

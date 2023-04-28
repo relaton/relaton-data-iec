@@ -1,0 +1,102 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC14776-321-2002
+title:
+- content: 'Information technology - Small Computer System Interface-3 (SCSI-3) -
+    Part 321: SCSI-3 Block Commands (SBC)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10174
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec14776-321{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 14776-321:2002
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14776-321:2002-08:::'
+  type: URN
+date:
+- type: published
+  value: '2002-08-26'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2002-08-26'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The SCSI command set described in this document is designed to provide
+    efficient peer-to-peer operation of input/output logical units by an operating
+    system using block transfers. The SCSI command set assumes an underlying command-response
+    protocol. This SCSI command set provides multiple operating systems concurrent
+    control over one or more input/output logical units. However, the multiple operating
+    systems are assumed to coordinate their actions properly to prevent data corruption.
+    This SCSI standard provides commands that assist with coordination between multiple
+    operating systems. However, details of the coordination are beyond the scope of
+    the SCSI command set.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2002'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 25
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: '14776'
+  part: '321'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

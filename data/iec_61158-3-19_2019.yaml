@@ -1,0 +1,158 @@
+---
+schema-version: v1.2.3
+id: IEC61158-3-19-2019
+title:
+- content: 'Industrial communication networks - Fieldbus specifications - Part 3-19:
+    Data-link layer service definition - Type 19 elements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 3-19: Définition des services de couche liaison de données - Éléments
+    de type 19'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/64878
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-3-19{ed4.0}b.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-3-19{ed4.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61158-3-19:2019
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61158-3-19:2019-04:::'
+  type: URN
+date:
+- type: published
+  value: '2019-04-24'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2019-04-24'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61158-3-19:2019 defines the services provided to the Type 19 fieldbus
+    application layer at the boundary between the application and data-link layers
+    of the fieldbus reference model and systems management at the boundary between
+    the data-link layer and systems management of the fieldbus reference model. This
+    fourth edition cancels and replaces the third edition published in 2014. It constitutes
+    a technical revision. The main changes are:<br />\r\n-improving the hotplug and
+    redundancy features;<br />\r\n-improving the phase switching and the error handling;<br
+    />\r\n-editorial improvements"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "L’IEC 61158-3-19:2019 fournit les éléments communs des communications
+    de messagerie critiques du point de vue temporel entre appareils dans un environnement
+    automatisé. Le terme \"prioritaire\" sert à représenter la présence d'une fenêtre
+    temporelle, dans les limites de laquelle une ou plusieurs actions spécifiées sont
+    tenues d'être parachevées avec un certain niveau défini de certitude. Le manquement
+    à parachever les actions spécifiées dans les limites de la fenêtre temporelle
+    risque d'entraîner la défaillance des applications qui demandent ces actions,
+    avec le risque concomitant pour l'équipement, l'installation et éventuellement
+    pour la vie humaine.<br />\r\nLa présente norme définit de manière abstraite le
+    service visible de l'extérieur fourni par la couche liaison de données de bus
+    de terrain de type 19 en termes<br />\r\na) des actions et événements primitifs
+    du service;<br />\r\nb) des paramètres associés à chaque action primitive et événement
+    primitif, et la forme qu'ils prennent; et<br />\r\nc) de l'interrelation entre
+    ces actions et événements, et leurs séquences valides."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61158-3-19-2014
+    type: standard
+    docid:
+    - id: IEC 61158-3-19:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-3-19:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-3-19-2010
+    type: standard
+    docid:
+    - id: IEC 61158-3-19:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-3-19:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61158-3-19-2007
+    type: standard
+    docid:
+    - id: IEC 61158-3-19:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61158-3-19:2007
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.20
+  text: Data link layer
+- code: '35.110'
+  text: Networking
+structuredidentifier:
+  project_number: '61158'
+  part: '3'
+  subpart: '19'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:F

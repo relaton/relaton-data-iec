@@ -1,0 +1,116 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC21122-1-2022
+title:
+- content: 'Information technology - JPEG XS low-latency lightweight image coding
+    system - Part 1: Core coding system'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/75213
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec21122-1{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 21122-1:2022
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:21122-1:2022-03:::'
+  type: URN
+date:
+- type: published
+  value: '2022-03-29'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2022-03-29'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 21122-1:2022 This document defines the syntax and an accompanying
+    decompression process that is capable to represent continuous-tone grey-scale,
+    or continuous-tone colour digital images without visual loss at moderate compression
+    rates. Typical compression rates are between 2:1 and 6:1 but can also be higher
+    depending on the nature of the image. In particular, the syntax and the decoding
+    process specified in this document allow lightweight encoder and decoder implementations
+    that limit the end-to-end latency to a fraction of the frame size. However, the
+    definition of transmission channel buffer models necessary to ensure such latency
+    is beyond the scope of this document.<br />\r\nThis document:<br />\r\n- specifies
+    decoding processes for converting compressed image data to reconstructed image
+    data;<br />\r\n- specifies a codestream syntax containing information for interpreting
+    the compressed image data;<br />\r\n- provides guidance on encoding processes
+    for converting source image data to compressed image data."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2022'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC21122-1-2019
+    type: standard
+    docid:
+    - id: ISO/IEC 21122-1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 21122-1:2019
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.30
+  text: Coding of graphical and photographical information
+structuredidentifier:
+  project_number: '21122'
+  part: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

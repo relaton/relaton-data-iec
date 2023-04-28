@@ -1,0 +1,112 @@
+---
+schema-version: v1.2.3
+id: IEC61588-2009
+title:
+- content: Precision clock synchronization protocol for networked measurement and
+    control systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/5639
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61588{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61588:2009
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61588:2009-02:::'
+  type: URN
+date:
+- type: published
+  value: '2009-02-27'
+- type: stable-until
+  value: '2023-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2009-02-27'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: IEC 61588:2009(E) defines a protocol enabling precise synchronization of
+    clocks in measurement and control systems implemented with technologies such as
+    network communication, local computing, and distributed objects. The protocol
+    is applicable to systems communicating by local area networks supporting multicast
+    messaging including, but not limited to, Ethernet. The protocol enables heterogeneous
+    systems that include clocks of various inherent precision, resolution, and stability
+    to synchronize to a grandmaster clock. The protocol supports system-wide synchronization
+    accuracy in the sub-microsecond range with minimal network and local clock computing
+    resources. The default behavior of the protocol allows simple systems to be installed
+    and operated without requiring the administrative attention of users. The standard
+    includes mappings to User Datagram Protocol (UDP)/Internet Protocol (IP), DeviceNet,
+    and a layer-2 Ethernet implementation. It includes formal mechanisms for message
+    extensions, higher sampling rates, correction for asymmetry, a clock type to reduce
+    error accumulation in large topologies, and specifications on how to incorporate
+    the resulting additional data into the synchronization protocol. This second edition
+    cancels and replaces the first edition published in 2004. It constitutes a technical
+    revision.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2009'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61588-2004
+    type: standard
+    docid:
+    - id: IEC 61588:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61588:2004
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 65/SC 65C
+    number: 65
+    type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: '35.110'
+  text: Networking
+- code: 35.240.50
+  text: IT applications in industry
+structuredidentifier:
+  project_number: '61588'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P

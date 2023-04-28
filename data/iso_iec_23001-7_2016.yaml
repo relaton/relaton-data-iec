@@ -1,0 +1,141 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC23001-7-2016
+title:
+- content: 'Information technology - MPEG systems technologies - Part 7: Common encryption
+    in ISO base media file format files'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/24226
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23001-7{ed3.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 23001-7:2016
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23001-7:2016-02:::'
+  type: URN
+date:
+- type: published
+  value: '2016-02-15'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2016-02-15'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 23001-7:2016 specifies common encryption formats for use in any
+    file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata
+    is specified to enable multiple digital rights and key management systems (DRMs)
+    to access the same common encrypted file or stream. This part of ISO/IEC 23001
+    does not define a DRM system.<p>The AES-128 symmetric block cipher is incorporated
+    by reference to encrypt elementary stream data contained in media samples. Both
+    AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate
+    protection schemes. Partial encryption using a pattern of encrypted and clear
+    blocks is also specified in separate protection schemes. The identification of
+    encryption keys, Initialization Vector storage and processing is specified for
+    each scheme.</p><p>Subsample encryption is specified for NAL structured video,
+    such as AVC and HEVC, to enable normal processing and editing of video elementary
+    streams prior to decryption.</p><p>An XML representation is specified for important
+    common encryption information so that it can be included in XML files as standard
+    elements and attributes to enable interoperable license and key management prior
+    to media file download.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2016'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC23001-7-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 23001-7:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23001-7:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23001-7-2012/AMD1-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 23001-7:2012/AMD1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23001-7:2012/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC23001-7-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 23001-7:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 23001-7:2012
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '23001'
+  part: '7'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D

@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.3
+id: ISO/IECTS19571-2016
+title:
+- content: Programming Languages - Technical specification for C++ extensions for
+    concurrency
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/24083
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiects19571{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC TS 19571:2016
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:19571:2016-01:ts::'
+  type: URN
+date:
+- type: published
+  value: '2016-01-19'
+- type: obsoleted
+  value: '2021-08-25'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2016-01-19'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: Since the extensions described in this ISO/IEC TS 19571:2016 are experimental
+    and not part of the C++ standard library, they should not be declared directly
+    within namespace std. Unless otherwise specified, all components described in
+    this technical specification either:<p>- modify an existing interface in the C++
+    Standard Library in-place,</p><p>- are declared in a namespace whose name appends::experimental::concurrency_v1
+    to a namespace defined in the C++ Standard Library, such as std, or</p><p>- are
+    declared in a subnamespace of a namespace described in the previous bullet, whose
+    name is not the same as an existing subnamespace of namespace std.</p><p>Each
+    header described in this ISO/IEC TS 19571:2016 shall import the contents of std::experimental::concurrency_v1</p><p>into
+    std::experimental as if by</p><p>namespace std {</p><p>namespace experimental
+    {</p><p>inline namespace concurrency_v1 {}</p><p>}</p><p>}</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: WITHDRAWN
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2016'
+place:
+- Geneva
+doctype: technical-specification
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 22
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.060'
+  text: Languages used in information technology
+structuredidentifier:
+  project_number: TS
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D

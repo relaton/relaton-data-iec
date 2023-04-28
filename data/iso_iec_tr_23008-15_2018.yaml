@@ -1,0 +1,117 @@
+---
+schema-version: v1.2.3
+id: ISO/IECTR23008-15-2018
+title:
+- content: 'Information technology - High efficiency coding and media delivery in
+    heterogeneous environments - Part 15: Signalling, backward compatibility and display
+    adaptation for HDR/WCG video'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/63735
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiectr23008-15{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC TR 23008-15:2018
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23008-15:2018-08:tr::'
+  type: URN
+date:
+- type: published
+  value: '2018-08-07'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2018-08-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC TR 23008-15:2018 This document reviews approaches for processing
+    and coding of HDR/WCG video content. The purpose of this document is to provide
+    a set of publicly-referenceable methods for the operation of AVC or HEVC video
+    coding systems adapted for compressing HDR/WCG video for consumer distribution
+    applications.<br />\r\nThis document first includes a review of the video usability
+    information (VUI) indicators and supplemental enhancement information (SEI) messages
+    applicable for HDR/WCG video. It provides a description of processing steps for
+    converting from 4:4:4 RGB linear light representation video signals into video
+    signals with ICTCP colour representation and perceptual quantizer (PQ) transfer
+    function, or with Y′CbCr colour representation and HLG transfer function (ICTCP,
+    PQ and HLG are defined in Rec. ITU-R BT.2100-1). Some high-level approaches for
+    compressing these signals using either Rec. ITU-T H.264 | ISO/IEC 14496-10 or
+    Rec. ITU-T H.265 | ISO/IEC 23008-2 are provided. A description of post-decoding
+    processing steps is also included for converting back to a linear light, 4:4:4
+    RGB representation. The document also addresses the standard dynamic range (SDR)
+    backward compatibility, that is, the compatibility with legacy decoding systems
+    that are not able to detect and properly display HDR/WCG video content. It describes
+    example implementations of this feature using three different solutions: using
+    HLG as a backward compatible transfer function, using CRI and TMI SEI messages,
+    using dual-layer approach with the Scalable Main 10 profile of HEVC and an SDR
+    compatible base layer. Finally, the document illustrates the usage of CRI SEI
+    messages to convey metadata enabling the dynamic range and colour gamut adaptation
+    at the display side of the decoded video to the display capabilities.<br />\r\nNOTE
+    The document complements the material provided in ITU-T H.Sup15 | ISO/IEC TR 23008-14,
+    which is focused on conversion and coding practices for non-constant luminance
+    (NCL) Y′CbCr video signals using the PQ transfer function."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2018'
+place:
+- Geneva
+doctype: technical-report
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:F

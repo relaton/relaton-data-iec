@@ -1,0 +1,119 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC18032-2020
+title:
+- content: Information security - Prime number generation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/68171
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec18032{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 18032:2020
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:18032:2020-12:::'
+  type: URN
+date:
+- type: published
+  value: '2020-12-02'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2020-12-02'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This document specifies methods for generating and testing prime numbers
+    as required in cryptographic protocols and algorithms.<br />\r\nFirstly, this
+    document specifies methods for testing whether a given number is prime. The testing
+    methods included in this document are divided into two groups:<br />\r\n- probabilistic
+    primality tests, which have a small error probability. All probabilistic tests
+    described here can declare a composite to be a prime;<br />\r\n- deterministic
+    methods, which are guaranteed to give the right verdict. These methods use so-called
+    primality certificates.<br />\r\nSecondly, this document specifies methods to
+    generate prime numbers. Again, both probabilistic and deterministic methods are
+    presented.<br />\r\nNOTE It is possible that readers with a background in algorithm
+    theory have already had previous encounters with probabilistic and deterministic
+    algorithms. The deterministic methods in this document internally still make use
+    of random bits (to be generated via methods described in ISO/IEC 18031), and \"deterministic\"
+    only refers to the fact that the output is correct with probability one.<br />\r\nAnnex
+    A provides error probabilities that are utilized by the Miller-Rabin primality
+    test.<br />\r\nAnnex B describes variants of the methods for generating primes
+    so that particular cryptographic requirements can be met.<br />\r\nAnnex C defines
+    primitives utilized by the prime generation and verification methods."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2020'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC18032-2005
+    type: standard
+    docid:
+    - id: ISO/IEC 18032:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 18032:2005
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '18032'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E

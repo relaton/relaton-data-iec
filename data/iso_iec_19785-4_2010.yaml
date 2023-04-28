@@ -1,0 +1,109 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC19785-4-2010
+title:
+- content: 'Information technology -- Common Biometric Exchange Formats Framework
+    -- Part 4: Security block format specifications'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10766
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec19785-4{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 19785-4:2010
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:19785-4:2010-08:::'
+  type: URN
+date:
+- type: published
+  value: '2010-08-12'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2010-08-12'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 19785-4:2010 specifies security block formats (see ISO/IEC 19785-1)
+    registered in accordance with ISO/IEC 19785-2 as formats defined by the CBEFF
+    biometric organization ISO/IEC JTC 1/SC 37, and specifies their registered security
+    block format identifiers. [The security block format identifier is recorded in
+    the standard biometric header (SBH) of a patron format (or defined by that patron
+    format as the only available security block format).]The general-purpose security
+    block format provides for specification of whether the biometric data block (BDB)
+    is encrypted or the SBH and BDB have integrity applied (or both), and can include
+    ACBio instances (see ISO/IEC 24761). This security block provides all necessary
+    security parameters, including those used for encryption or integrity.It does
+    not restrict the algorithms and parameters used for encryption or integrity, but
+    provides for the recording of such algorithms and parameter values.It is a matter
+    for profiling to determine, for a particular application area, what algorithms
+    and parameter ranges can be used by the generator of a security block, and hence
+    what algorithms and parameter ranges have to be supported by the user of a security
+    block. This is out of the scope of ISO/IEC 19785-4:2010.The second security block
+    is more limited, but simpler (and in particular cannot contain ACBio instances,
+    and does not support encryption of the BDB).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2010'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 37
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.240.15
+  text: Identification cards. Chip cards. Biometrics
+structuredidentifier:
+  project_number: '19785'
+  part: '4'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:C

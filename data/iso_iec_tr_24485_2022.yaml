@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.3
+id: ISO/IECTR24485-2022
+title:
+- content: Information security, cybersecurity and privacy protection - Security techniques
+    - Security properties and best practices for test and evaluation of white box
+    cryptography
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/79660
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiectr24485{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC TR 24485:2022
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:24485:2022-10:tr::'
+  type: URN
+date:
+- type: published
+  value: '2022-10-20'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2022-10-20'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC TR 24485:2022 This document introduces security properties and
+    provides best practices on the test and evaluation of white box cryptography (WBC).
+    WBC is a cryptographic algorithm specialized for a key or secret, but where the
+    said key cannot be extracted.<br />\r\nThe WBC implementation can consist of plain
+    source code for the cryptographic algorithm and/or of a device implementing the
+    algorithm. In both cases, security functions are implemented to deter an attacker
+    from uncovering the key or secret.<br />\r\nSecurity properties consist in the
+    secrecy of security parameters concealed within the implementation of the white
+    box cryptography. Best practices for the test and evaluation includes mathematical
+    and practical analyses, static and dynamic analyses, non-invasive and invasive
+    analyses.<br />\r\nThis document is related to ISO/IEC 19790 which specifies security
+    requirements for cryptographic modules. In those modules, critical security parameters
+    (CSPs) and public security parameters (PSPs) are the assets to protect. WBC is
+    one solution to conceal CSPs inside of the implementation."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2022'
+place:
+- Geneva
+doctype: technical-report
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G

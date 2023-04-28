@@ -1,0 +1,164 @@
+---
+schema-version: v1.2.3
+id: IECTR62095-2003
+title:
+- content: Electric cables - Calculations for current ratings - Finite element method
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Câbles électriques - Calcul de la capacité de transport de courant - Méthode
+    des éléments finis
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/6455
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62095{ed1.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC TR 62095:2003
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62095:2003-06:tr::'
+  type: URN
+date:
+- type: published
+  value: '2003-06-13'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2003-06-13'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: The most important tasks in cable current rating calculations are the determination
+    of the conductor temperature for a given current loading or, conversely, the determination
+    of the tolerable load current for a given conductor temperature. In order to perform
+    these tasks the heat generated within the cable and the rate of its dissipation
+    away from the conductor, for a given conductor material and given load, must be
+    calculated. The ability of the surrounding medium to dissipate heat plays a very
+    important role in these determinations and varies widely because of factors such
+    as soil composition, moisture content, ambient temperature and wind conditions.
+    The heat is transferred through the cable and its surroundings in several ways.
+    For underground installations the heat is transferred by conduction from the conductor,
+    insulation, screens and other metallic parts. It is possible to quantify the heat
+    transfer processes in terms of the appropriate heat transfer equation as shown
+    in Annex A (equation A.1). Current rating calculations for power cables require
+    a solution of the heat transfer equations which define a functional relationship
+    between the conductor current and the temperature within the cable and its surroundings.
+    The challenge in solving these equations analytically often stems from the difficulty
+    of computing the temperature distribution in the soil surrounding the cable. An
+    analytical solution can be obtained when a cable is represented as a line source
+    placed in an infinite homogenous surrounding medium. Since this is not a practical
+    assumption for cable installations, another assumption is often used; namely,
+    that the earth surface is an isotherm. In practical cases, the depth of burial
+    of the cables is in the order of ten times their external diameter, and for the
+    usual temperature range reached by such cables, the assumption of an isothermal
+    earth surface is a reasonable one. In cases where this hypothesis does not hold;
+    namely, for large cable diameters and cables located close to the ground surface,
+    a correction to the solution has to be used or numerical methods should be applied.
+    With the isothermal surface boundary, the steady-state heat conduction equations
+    can be solved assuming that the cable is located in a uniform semi-infinite medium.
+    Methods of solving the heat conduction equations are described in IEC 60287 (steady-state
+    conditions) and IEC 60853 (cyclic conditions), for most practical applications.
+    When these methods cannot be applied, the heat conduction equations can be solved
+    using numerical approaches. One such approach, particularly suitable for the analysis
+    of underground cables, is the finite element method presented in this document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: Dans les calculs de capacité de transport des câbles, les aspects les plus
+    importants sont la détermination de la température de l'âme du câble lorsqu'il
+    est soumis à une charge donnée ou, inversement, l'évaluation de l'intensité du
+    courant admissible pour une température d'âme donnée. Il faut donc déterminer
+    la chaleur produite à l'intérieur du câble et sa dissipation à l'extérieur, pour
+    un matériau d'âme et un courant de charge donné. La capacité du milieu environnant
+    le câble à dissiper la chaleur est un élément de toute première importance pour
+    ces calculs; elle est susceptible de varier largement en raison de différents
+    facteurs tels que la composition et le taux d'humidité du sol ou la température
+    ambiante et les conditions de vent. Les modes de transfert de chaleur du câble
+    vers son environnement sont multiples. Pour les liaisons souterraines, le transfert
+    de chaleur à partir de l'âme, l'isolation, les écrans et autres parties métalliques,
+    se fait par conduction. Les modalités de dissipation de la chaleur sont quantifiables
+    grâce à l'équation de transmission de la chaleur décrite à l'Annexe A (équation
+    A.1). Les calculs de capacité de transport des câbles de puissance demandent la
+    résolution des équations de transmission de la chaleur, qui constituent une relation
+    fonctionnelle entre l'intensité du courant écoulé par le câble et la température
+    à l'intérieur du câble et dans son environnement. La résolution analytique de
+    ces équations se heurte souvent à la difficulté du calcul de la distribution des
+    températures dans le sol entourant le câble. Une résolution satisfaisante est
+    possible analytiquement lorsque le câble est assimilé à une source à section nulle
+    placée dans un milieu homogène et infini. Cette hypothèse n'étant pas vérifiée
+    dans les configurations d'installation réelles, une hypothèse alternative est
+    souvent soulevée, à savoir celle de l'isothermie de la surface du sol. En pratique,
+    la profondeur de pose est de l'ordre d'une dizaine de fois le diamètre des câbles,
+    et, dans la plage habituelle de températures atteintes par les câbles, l'hypothèse
+    de l'isothermie de la surface du sol est acceptable. Pour les cas où cette hypothèse
+    n'est pas réalisée, notamment pour les câbles à fort diamètre ou les câbles enterrés
+    à faible profondeur, il est nécessaire d'appliquer des coefficients correctifs
+    ou d'utiliser les méthodes de calcul numérique. Lorsque la surface du sol est
+    supposée isotherme, les équations de conduction de la chaleur en régime permanent
+    peuvent être résolues en admettant que le câble est posé dans un milieu homogène
+    semi-infini. Les méthodes de résolution des équations de conduction de la chaleur
+    sont décrites dans la CEI 60287 (régime permanent) et la CEI 60853 (régime cyclique),
+    et permettent de résoudre la plupart des problèmes posés dans la pratique. Lorsque
+    ces méthodes sont inapplicables, les équations de conduction de la chaleur peuvent
+    être résolues par des approches numériques. Parmi ces approches, la méthode des
+    éléments finis présentée dans ce document, se prête particulièrement bien à l'analyse
+    des câbles souterrains.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2003'
+place:
+- Geneva
+doctype: technical-report
+editorialgroup:
+  technical_committee:
+  - name: TC 20
+    number: 20
+    type: technicalCommittee
+ics:
+- code: 29.060.20
+  text: Cables
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:H

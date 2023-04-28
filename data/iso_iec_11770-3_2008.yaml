@@ -1,0 +1,171 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC11770-3-2008
+title:
+- content: 'Information technology -- Security techniques -- Key management -- Part
+    3: Mechanisms using asymmetric techniques'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/9669
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec11770-3{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 11770-3:2008
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:11770-3:2008-07:::'
+  type: URN
+date:
+- type: published
+  value: '2008-07-02'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2008-07-02'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric
+    cryptographic techniques. It specifically addresses the use of asymmetric techniques
+    to achieve the following goals.Establish a shared secret key for a symmetric cryptographic
+    technique between two entities A and B by key agreement. In a secret key agreement
+    mechanism, the secret key is the result of a data exchange between the two entities
+    A and B. Neither of them can predetermine the value of the shared secret key.Establish
+    a shared secret key for a symmetric cryptographic technique between two entities
+    A and B by key transport. In a secret key transport mechanism, the secret key
+    is chosen by one entity A and is transferred to another entity B, suitably protected
+    by asymmetric techniques.Make an entity's public key available to other entities
+    by key transport. In a public key transport mechanism, the public key of entity
+    A must be transferred to other entities in an authenticated way, but not requiring
+    secrecy.Some of the mechanisms of ISO/IEC 11770-3:2008 are based on the corresponding
+    authentication mechanisms in ISO/IEC 9798-3.ISO/IEC 11770-3:2008 does not cover
+    aspects of key management such askey lifecycle management,mechanisms to generate
+    or validate asymmetric key pairs,mechanisms to store, archive, delete, destroy,
+    etc. keys.While ISO/IEC 11770-3:2008 does not explicitly cover the distribution
+    of an entity's private key (of an asymmetric key pair) from a trusted third party
+    to a requesting entity, the key transport mechanisms described can be used to
+    achieve this. A private key can in all cases be distributed with these mechanisms
+    where an existing, non-compromised key already exists. However, in practice the
+    distribution of private keys is usually a manual process that relies on technological
+    means like smart cards, etc.ISO/IEC 11770-3:2008 does not cover the implementations
+    of the transformations used in the key management mechanisms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2008'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC11770-3-2015/AMD1-2017
+    type: standard
+    docid:
+    - id: ISO/IEC 11770-3:2015/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11770-3:2015/AMD1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11770-3-2015/COR1-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 11770-3:2015/COR1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11770-3:2015/COR1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11770-3-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 11770-3:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11770-3:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11770-3-2008/COR1-2009
+    type: standard
+    docid:
+    - id: ISO/IEC 11770-3:2008/COR1:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11770-3:2008/COR1:2009
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11770-3-1999
+    type: standard
+    docid:
+    - id: ISO/IEC 11770-3:1999
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11770-3:1999
+      format: text/plain
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '11770'
+  part: '3'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:H

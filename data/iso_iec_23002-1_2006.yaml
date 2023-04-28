@@ -1,0 +1,115 @@
+---
+schema-version: v1.2.3
+id: ISO/IEC23002-1-2006
+title:
+- content: 'Information technology -- MPEG video technologies -- Part 1: Accuracy
+    requirements for implementation of integer-output 8x8 inverse discrete cosine
+    transform'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/10993
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23002-1{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 23002-1:2006
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23002-1:2006-11:::'
+  type: URN
+date:
+- type: published
+  value: '2006-11-28'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2006-11-28'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A number of image and video coding related standards include a requirement
+    for decoders to implement an integer-output 8x8 inverse discrete cosine transform
+    (IDCT) for the generation of inverse-transformed sample differences with a nominal
+    range from -2B to (2B)-1 for some integer number of bits B, where B is greater
+    than or equal to 8. ISO/IEC 23002-1:2006 specifies conformance requirements for
+    establishing sufficient accuracy in such an integer-output IDCT implementation.
+    It is intended to be suitable for reference to establish partial or complete requirements
+    for IDCT accuracy for conformance to other standards that require IDCT use. The
+    accuracy requirements specified in the main body of ISO/IEC 23002-1:2006 are essentially
+    the same as those previously specified in IEEE 1180-1990 (which has since been
+    withdrawn), in Annex A of ITU-T Rec. H.261, and in Annex A of ITU-T Rec. H.263.
+    These requirements have been specified herein to resolve normative references
+    to IEEE 1180-1990 in MPEG standards after its withdrawal and to provide improved
+    clarity for the specification of IDCT accuracy requirements. An additional requirement
+    on encoded-bitstream intra refresh frequency was also previously specified in
+    IEEE 1180-1990, establishing a requirement of bitstream conformance that each
+    macroblock be intra-coded at least once within each series of 132 times that it
+    is coded in a predicted picture without an intervening intra picture. That additional
+    requirement is not specified in ISO/IEC 23002-1:2006, in order to confine its
+    scope to the domain of decoder conformance specification. Some allowances for
+    modification of the specified accuracy requirements are made within ISO/IEC 23002-1:2006.
+    Additional accuracy requirements that may be invoked by a referencing specification
+    are specified in Annexes A and B.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2006'
+place:
+- Geneva
+doctype: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '23002'
+  part: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:B
