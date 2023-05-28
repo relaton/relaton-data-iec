@@ -50,25 +50,26 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 14496-20:2006 defines a scene description format (LASeR) and an
+- content: "ISO/IEC 14496-20:2006 defines a scene description format (LASeR) and an
     aggregation format (SAF) suitable for representing and delivering rich-media services
     to resource-constrained devices such as mobile phones. A rich media service is
     a dynamic, interactive collection of multimedia data such as audio, video, graphics,
     and text. Services range from movies enriched with vector graphic overlays and
     interactivity (possibly enhanced with closed captions) to complex multi-step services
-    with fluid interaction and different media types at each step.LASeR aims at fulfilling
-    all the requirements of rich-media services at the scene description level. LASeR
-    supports:an optimized set of objects inherited from SVG to describe rich-media
-    scenes;a small set of key compatible extensions over SVG;the ability to encode
-    and transmit a LASeR stream and then reconstruct SVG content;dynamic updating
-    of the scene to achieve a reactive, smooth and continuous service;simple yet efficient
-    compression to improve delivery and parsing times, as well as storage size, one
-    of the design goals being to allow both for a direct implementation of the SDL
-    as documented, as well as for a decoder compliant with ISO/IEC 23001-1 to decode
-    the LASeR bitstream;an efficient interface with audio and visual streams with
-    frame-accurate synchronization;use of any font format, including the OpenType
-    industry standard; andeasy conversion from other popular rich-media formats in
-    order to leverage existing content and developer communities.
+    with fluid interaction and different media types at each step.<br /><br />\r\nLASeR
+    aims at fulfilling all the requirements of rich-media services at the scene description
+    level. LASeR supports:<br />\r\nan optimized set of objects inherited from SVG
+    to describe rich-media scenes;<br />\r\na small set of key compatible extensions
+    over SVG;<br />\r\nthe ability to encode and transmit a LASeR stream and then
+    reconstruct SVG content;<br />\r\ndynamic updating of the scene to achieve a reactive,
+    smooth and continuous service;<br />\r\nsimple yet efficient compression to improve
+    delivery and parsing times, as well as storage size, one of the design goals being
+    to allow both for a direct implementation of the SDL as documented, as well as
+    for a decoder compliant with ISO/IEC 23001-1 to decode the LASeR bitstream;<br
+    />\r\nan efficient interface with audio and visual streams with frame-accurate
+    synchronization;<br />\r\nuse of any font format, including the OpenType industry
+    standard; and<br />\r\neasy conversion from other popular rich-media formats in
+    order to leverage existing content and developer communities."
   language:
   - en
   script:
