@@ -18,7 +18,7 @@ docid:
 - id: IEC TR 62778:2014/COR1:2014
   type: IEC
   primary: true
-- id: urn:iec:std:iec:62778:2014-06:tr::||cor:1:2014-07
+- id: urn:iec:std:iec:62778:2014-06:::||cor:1:2014-07
   type: URN
 date:
 - type: published
@@ -43,7 +43,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: WITHDRAWN
 copyright:
 - owner:
   - name:
@@ -53,6 +53,17 @@ copyright:
     url: www.iec.ch
   from: '2014'
 relation:
+- type: obsoletes
+  bibitem:
+    id: IECTR62778-2014
+    type: standard
+    docid:
+    - id: IEC TR 62778:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 62778:2014
+      format: text/plain
 - type: updates
   bibitem:
     id: IECTR62778-2012
@@ -66,7 +77,7 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34
