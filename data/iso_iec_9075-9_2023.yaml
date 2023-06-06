@@ -1,9 +1,9 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC9075-3-2016
+id: ISO/IEC9075-9-2023
 title:
-- content: 'Information technology - Database languages - SQL - Part 3: Call-Level
-    Interface (SQL/CLI)'
+- content: 'Information technology - Database languages SQL - Part 9: Management of
+    External Data (SQL/MED)'
   language:
   - en
   script:
@@ -11,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/59686
+- content: https://webstore.iec.ch/publication/86049
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec9075-3{ed5.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec9075-9{ed5.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 9075-3:2016
+- id: ISO/IEC 9075-9:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:9075-3:2016-12:::'
+- id: 'urn:iec:std:iso-iec:9075-9:2023-06:::'
   type: URN
 date:
 - type: published
-  value: '2016-12-14'
+  value: '2023-06-01'
 contributor:
 - organization:
     name:
@@ -44,16 +44,15 @@ contributor:
   - type: publisher
 edition:
   content: '5'
-revdate: '2016-12-14'
+revdate: '2023-06-01'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ISO/IEC 9075-3:2016 deﬁnes the structures and procedures that can be used
-    to execute statements of the database language SQL from within an application
-    written in a programming language in such a way that procedures used are independent
-    of the SQL statements to be executed.
+- content: ISO/IEC 9075-9:2023 deﬁnes extensions to Database Language SQL to support
+    management of external data through the use of foreign-data wrappers and datalink
+    types.
   language:
   - en
   script:
@@ -61,7 +60,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -74,51 +73,73 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC9075-3-2016/COR1-2022
+    id: ISO/IEC9075-9-2016/COR2-2022
     type: standard
     docid:
-    - id: ISO/IEC 9075-3:2016/COR1:2022
+    - id: ISO/IEC 9075-9:2016/COR2:2022
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 9075-3:2016/COR1:2022
+      content: ISO/IEC 9075-9:2016/COR2:2022
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9075-3-2008
+    id: ISO/IEC9075-9-2016/COR1-2019
     type: standard
     docid:
-    - id: ISO/IEC 9075-3:2008
+    - id: ISO/IEC 9075-9:2016/COR1:2019
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 9075-3:2008
+      content: ISO/IEC 9075-9:2016/COR1:2019
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9075-3-2003/COR1-2005
+    id: ISO/IEC9075-9-2016
     type: standard
     docid:
-    - id: ISO/IEC 9075-3:2003/COR1:2005
+    - id: ISO/IEC 9075-9:2016
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 9075-3:2003/COR1:2005
+      content: ISO/IEC 9075-9:2016
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9075-3-2003
+    id: ISO/IEC9075-9-2008/COR1-2010
     type: standard
     docid:
-    - id: ISO/IEC 9075-3:2003
+    - id: ISO/IEC 9075-9:2008/COR1:2010
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 9075-3:2003
+      content: ISO/IEC 9075-9:2008/COR1:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9075-9-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 9075-9:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9075-9:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9075-9-2003
+    type: standard
+    docid:
+    - id: ISO/IEC 9075-9:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9075-9:2003
       format: text/plain
 place:
 - Geneva
@@ -133,7 +154,7 @@ ics:
   text: Languages used in information technology
 structuredidentifier:
   project_number: '9075'
-  part: '3'
+  part: '9'
   type: IEC
 ext:
   schema-version: v1.0.0

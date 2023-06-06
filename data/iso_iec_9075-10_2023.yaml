@@ -1,8 +1,8 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC9075-10-2016
+id: ISO/IEC9075-10-2023
 title:
-- content: 'Information technology - Database languages - SQL - Part 10: Object language
+- content: 'Information technology - Database languages SQL - Part 10: Object language
     bindings (SQL/OLB)'
   language:
   - en
@@ -11,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/59681
+- content: https://webstore.iec.ch/publication/86050
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec9075-10{ed4.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec9075-10{ed5.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 9075-10:2016
+- id: ISO/IEC 9075-10:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:9075-10:2016-12:::'
+- id: 'urn:iec:std:iso-iec:9075-10:2023-06:::'
   type: URN
 date:
 - type: published
-  value: '2016-12-14'
+  value: '2023-06-01'
 contributor:
 - organization:
     name:
@@ -43,25 +43,25 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2016-12-14'
+  content: '5'
+revdate: '2023-06-01'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 9075-2 speciﬁes embedded SQL for the programming languages: Ada,
-    C, COBOL, Fortran, MUMPS, Pascal, and PL/I. ISO/IEC 9075-10:2016 deﬁnes similar
+- content: "ISO/IEC 9075-10:2023 speciﬁes embedded SQL for the programming languages:
+    Ada, C, COBOL, Fortran, MUMPS, Pascal, and PL/I. ISO/IEC 9075-10:2016 deﬁnes similar
     features of Database language SQL that support embedding of SQL-statements into
     programs written in the Java? programming language (Java is a registered trademark
     of Sun Microsystems, Inc.). The embedding of SQL into Java is commonly known as
-    "SQLJ". This part of ISO/IEC 9075 speciﬁes the syntax and semantics of SQLJ, as
-    well as mechanisms to ensure binary portability of resulting SQLJ applications.
+    \"SQLJ\". This part of ISO/IEC 9075 speciﬁes the syntax and semantics of SQLJ,
+    as well as mechanisms to ensure binary portability of resulting SQLJ applications.
     In addition, it speciﬁes a number of Java packages and their contained classes
-    (including methods).<p>Throughout ISO/IEC 9075-10:2016, the terms "SQLJ" and "SQL/OLB"
-    are used synonymously.</p><p>NOTE Additional explanatory material (non-normative)
-    about certain facilities defined in ISO/IEC 9075-2 can be found in ISO/IEC TR
-    19075-3.</p>'
+    (including methods).<br />\r\nThroughout ISO/IEC 9075-10:2016, the terms \"SQLJ\"
+    and \"SQL/OLB\" are used synonymously.<br />\r\nNOTE Additional explanatory material
+    (non-normative) about certain facilities defined in ISO/IEC 9075-2 can be found
+    in ISO/IEC TR 19075-3."
   language:
   - en
   script:
@@ -69,7 +69,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -82,7 +82,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -94,6 +94,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9075-10:2016/COR1:2022
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9075-10-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 9075-10:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9075-10:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -148,8 +159,8 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.060'
-  text: Languages used in information technology
+- code: '35.200'
+  text: Interface and interconnection equipment
 structuredidentifier:
   project_number: '9075'
   part: '10'

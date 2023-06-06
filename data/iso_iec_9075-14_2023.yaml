@@ -1,9 +1,9 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC9075-14-2016/COR1-2019
+id: ISO/IEC9075-14-2023
 title:
-- content: 'Corrigendum 1 - Information technology - Database languages - SQL - Part
-    14: XML-Related Specifications (SQL/XML)'
+- content: 'Information technology - Database languages SQL - Part 14: XML-Related
+    Specifications (SQL/XML)'
   language:
   - en
   script:
@@ -11,18 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/65641
+- content: https://webstore.iec.ch/publication/86053
   type: src
+- content: https://webstore.iec.ch/preview/info_isoiec9075-14{ed6.0}en.pdf
+  type: obp
 type: standard
 docid:
-- id: ISO/IEC 9075-14:2016/COR1:2019
+- id: ISO/IEC 9075-14:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iso-iec:9075-14:2016-12:::||cor:1:2019-08
+- id: 'urn:iec:std:iso-iec:9075-14:2023-06:::'
   type: URN
 date:
 - type: published
-  value: '2019-08-13'
+  value: '2023-06-01'
 contributor:
 - organization:
     name:
@@ -41,15 +43,15 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '5'
-revdate: '2019-08-13'
+  content: '6'
+revdate: '2023-06-01'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -62,7 +64,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -74,6 +76,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9075-14:2016/COR2:2022
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9075-14-2016/COR1-2019
+    type: standard
+    docid:
+    - id: ISO/IEC 9075-14:2016/COR1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9075-14:2016/COR1:2019
       format: text/plain
 - type: updates
   bibitem:
@@ -161,12 +174,12 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.060'
-  text: Languages used in information technology
+- code: '35.200'
+  text: Interface and interconnection equipment
 structuredidentifier:
   project_number: '9075'
   part: '14'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+price_code: iso:H
