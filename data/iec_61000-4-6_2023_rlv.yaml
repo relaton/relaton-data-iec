@@ -1,40 +1,32 @@
 ---
 schema-version: v1.2.3
-id: IEC61000-4-6-2013/COR1-2015
+id: IEC61000-4-6-2023RLV
 title:
-- content: 'Corrigendum 1 - Electromagnetic compatibility (EMC) - Part 4-6: Testing
-    and measurement techniques - Immunity to conducted disturbances, induced by radio-frequency
-    fields'
+- content: 'Electromagnetic compatibility (EMC) - Part 4-6: Testing and measurement
+    techniques - Immunity to conducted disturbances, induced by radio-frequency fields'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Corrigendum 1 - Compatibilité électromagnetique (CEM) - Partie 4-6: Techniques
-    d''essai et de mesure - Immunité aux perturbations conduites, induites par les
-    champs radioélectriques'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/22665
+- content: https://webstore.iec.ch/publication/86093
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-4-6{ed5.0.RLV}en.pdf
+  type: obp
 type: standard
 docid:
-- id: IEC 61000-4-6:2013/COR1:2015
+- id: IEC 61000-4-6:2023 RLV
   type: IEC
   primary: true
-- id: urn:iec:std:iec:61000-4-6:2013-10:::||cor:1:2015-06
+- id: urn:iec:std:iec:61000-4-6::rlv
   type: URN
 date:
 - type: published
-  value: '2015-06-12'
+  value: '2023-06-06'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2027-12-31'
 contributor:
 - organization:
     name:
@@ -45,16 +37,56 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2015-06-12'
+  content: '5'
+revdate: '2023-06-06'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- content: "IEC 61000-4-6:2023 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 61000-4-6:
+    2023 relates to the conducted immunity requirements of electrical and electronic
+    equipment to electromagnetic disturbances coming from intended radio-frequency
+    (RF) transmitters in the frequency range 150 kHz up to 80 MHz.<br />\r\nNOTE 1
+    Product committees might decide to use the methods described in this document
+    also for frequencies up to 230 MHz (see Annex B) although the methods and test
+    instrumentation are intended to be used in the frequency range up to 80 MHz.<br
+    />\r\nEquipment not having at least one conducting wire or cable (such as mains
+    supply, signal line or earth connection) which can couple the equipment to the
+    disturbing RF fields is excluded from the scope of this document.<br />\r\nNOTE
+    2 Test methods are specified in this part of IEC 61000 to assess the effect that
+    conducted disturbing signals, induced by electromagnetic radiation, have on the
+    equipment concerned. The simulation and measurement of these conducted disturbances
+    are not adequately exact for the quantitative determination of effects. The test
+    methods specified are structured for the primary objective of establishing adequate
+    repeatability of results at various facilities for quantitative analysis of effects.<br
+    />\r\nThe object of this document is to establish a common reference for evaluating
+    the functional immunity of electrical and electronic equipment when subjected
+    to conducted disturbances induced by RF fields. The test method in this document
+    describes a consistent method to assess the immunity of an equipment or system
+    against a specified phenomenon.<br />\r\nNOTE 3 As described in IEC Guide 107,
+    this document is a basic EMC publication for use by product committees of the
+    IEC. As also stated in Guide 107, the IEC product committees are responsible for
+    determining whether this immunity test standard should be applied or not, and
+    if applied, they are responsible for determining the appropriate test levels and
+    performance criteria.<br />\r\nThis fifth edition cancels and replaces the fourth
+    edition published in 2013. This edition constitutes a technical revision. This
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) selection of injection devices revised;<br />\r\nb)
+    need of AE impedance check for clamp injection removed and Annex H deleted;<br
+    />\r\nc) saturation check revised;<br />\r\nd) new Annex H on testing with multiple
+    signals;<br />\r\ne) level-setting only with feedback loop."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -62,8 +94,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2013'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61000-4-6-2013/COR1-2015
+    type: standard
+    docid:
+    - id: IEC 61000-4-6:2013/COR1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61000-4-6:2013/COR1:2015
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61000-4-6-2013
@@ -214,4 +257,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:ZZ
+price_code: iec:RF
