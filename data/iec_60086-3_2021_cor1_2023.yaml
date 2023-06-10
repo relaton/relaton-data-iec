@@ -1,15 +1,15 @@
 ---
 schema-version: v1.2.3
-id: IEC60086-3-2021
+id: IEC60086-3-2021/COR1-2023
 title:
-- content: 'Primary batteries - Part 3: Watch batteries'
+- content: 'Corrigendum 1 - Primary batteries - Part 3: Watch batteries'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Piles électriques - Partie 3: Piles pour montres'
+- content: 'Corrigendum 1 - Piles électriques - Partie 3: Piles pour montres'
   language:
   - fr
   script:
@@ -17,22 +17,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/63418
+- content: https://webstore.iec.ch/publication/81857
   type: src
-- content: https://webstore.iec.ch/preview/info_iec60086-3{ed5.0}en.pdf
-  type: obp
-- content: https://webstore.iec.ch/preview/info_iec60086-3{ed5.0}b.pdf
-  type: obp
 type: standard
 docid:
-- id: IEC 60086-3:2021
+- id: IEC 60086-3:2021/COR1:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:60086-3:2021-04:::'
+- id: urn:iec:std:iec:60086-3:2021-04:::||cor:1:2023-06
   type: URN
 date:
 - type: published
-  value: '2021-04-27'
+  value: '2023-06-09'
 - type: stable-until
   value: '2026-12-31'
 contributor:
@@ -46,35 +42,12 @@ contributor:
   - type: publisher
 edition:
   content: '5'
-revdate: '2021-04-27'
+revdate: '2023-06-09'
 language:
 - en
 - fr
 script:
 - Latn
-abstract:
-- content: "<!-- NEW! -->IEC 60086-3:2021 is available as IEC 60086-3:2021 RLV which
-    contains the International Standard and its Redline version, showing all changes
-    of the technical content compared to the previous edition.<br /><br />\r\nIEC
-    60086-3-5:2021 specifies dimensions, designation, methods of tests and requirements
-    for primary batteries for watches. In several cases, a menu of test methods is
-    given. When presenting battery electrical characteristics and/or performance data,
-    the manufacturer specifies which test method was used.<br />\r\nThe contents of
-    the corrigendum of June 2023 have been included in this copy."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-- content: "<!-- NEW! -->IEC 60086-3:2021 est disponible sous forme de IEC 60086-3:2021
-    RLV qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.<br />\r\nLe contenu
-    du corrigendum de juin 2023 a été pris en considération dans cet exemplaire."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
 docstatus:
   stage:
     value: PUBLISHED
@@ -89,17 +62,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60086-3-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60086-3:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-3:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-3-2016
     type: standard
     docid:
@@ -108,6 +70,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-3:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-3-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60086-3:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-3:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -194,4 +167,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:F
+price_code: iec:ZZ
