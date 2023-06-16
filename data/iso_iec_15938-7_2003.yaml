@@ -50,29 +50,30 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 15938-7:2003 specifies a metadata system for describing multimedia
+- content: "ISO/IEC 15938-7:2003 specifies a metadata system for describing multimedia
     content. ISO/IEC 15938-7:2003 specifies how tests can be designed to verify whether
     descriptions and description consuming terminals meet the specifications of parts
     1, 2, 3, 4 and 5 of ISO/IEC IEC 15938. In ISO/IEC 15938-7:2003, the creation or
     extraction of descriptions from multimedia content is not addressed specifically.
     A system producing descriptions may be said to be an ISO/IEC 15938 compatible
     description production system if it produces descriptions (binary or textual)
-    that conform to the specifications of parts 1, 2, 3, 4 and 5 of ISO/IEC 15938.The
-    characteristics of descriptions and the terminals consuming descriptions are defined
-    for parts 1, 2, 3, 4 and 5 of ISO/IEC 15938 as follows.Descriptions: the characteristics
-    of a specific description are defined according to syntax and semantics of elements
-    from ISO/IEC 15938 (all parts) that are used in the description.Terminals: the
-    characteristics of a terminal consuming a description are defined according to
-    the required description decoding process for the elements used in the description.
-    An example of a description decoding property is the arithmetic accuracy in which
-    the value of element are represented. The capabilities of a description consuming
-    terminal are determined by the domain of descriptions and elements that the terminal
-    is capable of decoding. A description can be decoded by a terminal if the elements
-    of the description are within the subset of ISO/IEC 15938 (all parts) specified
-    for a given definition of decoder capabilities.Guidelines are given on constructing
-    tests to verify conformance of descriptions and terminals. ISO/IEC 15938-7:2003
-    provides additional guidelines on how to construct test suites for checking conformance
-    of terminals. In addition, some test descriptions are provided.The conformance
+    that conform to the specifications of parts 1, 2, 3, 4 and 5 of ISO/IEC 15938.<br
+    /><br />\r\nThe characteristics of descriptions and the terminals consuming descriptions
+    are defined for parts 1, 2, 3, 4 and 5 of ISO/IEC 15938 as follows.<br />\r\nDescriptions:
+    the characteristics of a specific description are defined according to syntax
+    and semantics of elements from ISO/IEC 15938 (all parts) that are used in the
+    description.<br />\r\nTerminals: the characteristics of a terminal consuming a
+    description are defined according to the required description decoding process
+    for the elements used in the description. An example of a description decoding
+    property is the arithmetic accuracy in which the value of element are represented.
+    The capabilities of a description consuming terminal are determined by the domain
+    of descriptions and elements that the terminal is capable of decoding. A description
+    can be decoded by a terminal if the elements of the description are within the
+    subset of ISO/IEC 15938 (all parts) specified for a given definition of decoder
+    capabilities.<br /><br />\r\nGuidelines are given on constructing tests to verify
+    conformance of descriptions and terminals. ISO/IEC 15938-7:2003 provides additional
+    guidelines on how to construct test suites for checking conformance of terminals.
+    In addition, some test descriptions are provided.<br /><br />\r\nThe conformance
     testing consists of two stages: Systems testing and Description Definition Language
     (DDL) testing. The Systems conformance testing involves decoding the description
     stream, which may be in binary or textual access unit form, and checking that
@@ -82,7 +83,7 @@ abstract:
     DDL testing. The DDL conformance testing involves parsing the textual XML description
     and checking that the description is well-formed and valid according to the schema
     comprised from parts 1, 2, 3, 4 and 5 of ISO/IEC 15938. The conformance testing
-    of descriptions does not involve checking the semantics of the descriptions.'
+    of descriptions does not involve checking the semantics of the descriptions."
   language:
   - en
   script:
