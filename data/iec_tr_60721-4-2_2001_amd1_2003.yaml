@@ -36,6 +36,8 @@ date:
   value: '2003-05-20'
 - type: stable-until
   value: '2024-12-31'
+- type: obsoleted
+  value: '2023-06-16'
 contributor:
 - organization:
     name:
@@ -55,7 +57,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: WITHDRAWN
 copyright:
 - owner:
   - name:
@@ -64,6 +66,29 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2001'
+relation:
+- type: obsoletes
+  bibitem:
+    id: IECTR60721-4-2-2001+AMD1-2003CSV
+    type: standard
+    docid:
+    - id: IEC TR 60721-4-2:2001+AMD1:2003 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 60721-4-2:2001+AMD1:2003 CSV
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: IECTR60721-4-2-2001
+    type: standard
+    docid:
+    - id: IEC TR 60721-4-2:2001
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 60721-4-2:2001
+      format: text/plain
 place:
 - Geneva
 doctype: technical-report
