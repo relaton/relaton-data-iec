@@ -54,55 +54,54 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    IEC 61158-6-10:2014 defines the protocol provided to define the wire-representation of the service primitives defined in IEC 61158-5-10, and define the externally visible behavior associated with their transfer. This standard specifies the protocol of the Type 10 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545). This third edition cancels and replaces the second edition published in 2010 and constitutes a technical revision. The main changes are:<br />
-    - Change from MRP integration to MRP reference;<br />
-    - Integration of dynamic frame packing;<br />
-    - Integration of peer to peer fragmentation;<br />
-    - Integration of fast forwarding;<br />
-    - Integration of shared RT_CLASS_3 ARs;<br />
-    - Integration of vendor specific blocks for the connect;<br />
-    - Integration of generic POF diagnosis;<br />
-    - Integration of autoconfiguration;<br />
-    - Integration of seamless media redundancy MRPD;<br />
-    - Integration of the System redundancy basic functionality;<br />
-    - Integration of the Configure in run basic functionality;<br />
-    - Integration of multiple interface support;<br />
-    - Integration of port statistic for error tracking;<br />
-    - Integration of controller to controller communication basic functionality;<br />
-    - Optimization of RT_CLASS_3 startup and forwarding;<br />
-    - Optimization of isochronuos startup;<br />
-    - Optimization of the startup time from power down;<br />
-    - Removal of MRRT;<br />
-    - Removal of distributed automation;<br />
-    - Update of the LLDP-EXT-MIB.
+- content: "IEC 61158-6-10:2014 defines the protocol provided to define the wire-representation
+    of the service primitives defined in IEC 61158-5-10, and define the externally
+    visible behavior associated with their transfer. This standard specifies the protocol
+    of the Type 10 fieldbus application layer, in conformance with the OSI Basic Reference
+    Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).
+    This third edition cancels and replaces the second edition published in 2010 and
+    constitutes a technical revision. The main changes are:<br />\r\n- Change from
+    MRP integration to MRP reference;<br />\r\n- Integration of dynamic frame packing;<br
+    />\r\n- Integration of peer to peer fragmentation;<br />\r\n- Integration of fast
+    forwarding;<br />\r\n- Integration of shared RT_CLASS_3 ARs;<br />\r\n- Integration
+    of vendor specific blocks for the connect;<br />\r\n- Integration of generic POF
+    diagnosis;<br />\r\n- Integration of autoconfiguration;<br />\r\n- Integration
+    of seamless media redundancy MRPD;<br />\r\n- Integration of the System redundancy
+    basic functionality;<br />\r\n- Integration of the Configure in run basic functionality;<br
+    />\r\n- Integration of multiple interface support;<br />\r\n- Integration of port
+    statistic for error tracking;<br />\r\n- Integration of controller to controller
+    communication basic functionality;<br />\r\n- Optimization of RT_CLASS_3 startup
+    and forwarding;<br />\r\n- Optimization of isochronuos startup;<br />\r\n- Optimization
+    of the startup time from power down;<br />\r\n- Removal of MRRT;<br />\r\n- Removal
+    of distributed automation;<br />\r\n- Update of the LLDP-EXT-MIB."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    L'IEC 61158-6-10:2014 décrit le protocole mis en place pour définir la représentation filaire des primitives de service définies dans la CEI 61158-5-10 et définir le comportement visible de l'extérieur associé à leur transfert. La présente norme spécifie le protocole de la couche application de bus de terrain de Type 10, en conformité avec le modèle de référence de base OSI (ISO/CEI 7498-1) et la structure de la couche application OSI (ISO/CEI 9545). Cette troisième édition annule et remplace la deuxième édition parue en 2010. Elle constitue une révision technique. Les principales modifications sont:<br />
-    - Changement de l'intégration MRP en référence MRP;<br />
-    - Intégration de la combinaison de trame dynamique;<br />
-    - Intégration de la fragmentation entre pairs;<br />
-    - Intégration du transfert rapide;<br />
-    - Intégration d'AR de RT_CLASS_3 partagées;<br />
-    - Intégration de blocs spécifiques au vendeur pour la connexion;<br />
-    - Intégration du diagnostic de POF générique;<br />
-    - Intégration de l'autoconfiguration;<br />
-    - Intégration du MRPD de redondance de support sans coupure;<br />
-    - Intégration de la fonction de base de redondance du Système;<br />
-    - Intégration de la fonction de base de Configuration en cours d'exécution;<br />
-    - Intégration de la prise en charge d'interfaces multiples;<br />
-    - Intégration de statistique de port pour le suivi des erreurs;<br />
-    - Intégration de la fonction de base de communication entre contrôleurs;<br />
-    - Optimisation du démarrage et du transfert de RT_CLASS_3;<br />
-    - Optimisation du démarrage isochrone;<br />
-    - Optimisation du temps de démarrage depuis une mise hors tension;<br />
-    - Suppression de MRRT;<br />
-    - Suppression de l'automatisation distribuée;<br />
-    - Mise à jour de LLDP-EXT-MIB.
+- content: "L'IEC 61158-6-10:2014 décrit le protocole mis en place pour définir la
+    représentation filaire des primitives de service définies dans la CEI 61158-5-10
+    et définir le comportement visible de l'extérieur associé à leur transfert. La
+    présente norme spécifie le protocole de la couche application de bus de terrain
+    de Type 10, en conformité avec le modèle de référence de base OSI (ISO/CEI 7498-1)
+    et la structure de la couche application OSI (ISO/CEI 9545). Cette troisième édition
+    annule et remplace la deuxième édition parue en 2010. Elle constitue une révision
+    technique. Les principales modifications sont:<br />\r\n- Changement de l'intégration
+    MRP en référence MRP;<br />\r\n- Intégration de la combinaison de trame dynamique;<br
+    />\r\n- Intégration de la fragmentation entre pairs;<br />\r\n- Intégration du
+    transfert rapide;<br />\r\n- Intégration d'AR de RT_CLASS_3 partagées;<br />\r\n-
+    Intégration de blocs spécifiques au vendeur pour la connexion;<br />\r\n- Intégration
+    du diagnostic de POF générique;<br />\r\n- Intégration de l'autoconfiguration;<br
+    />\r\n- Intégration du MRPD de redondance de support sans coupure;<br />\r\n-
+    Intégration de la fonction de base de redondance du Système;<br />\r\n- Intégration
+    de la fonction de base de Configuration en cours d'exécution;<br />\r\n- Intégration
+    de la prise en charge d'interfaces multiples;<br />\r\n- Intégration de statistique
+    de port pour le suivi des erreurs;<br />\r\n- Intégration de la fonction de base
+    de communication entre contrôleurs;<br />\r\n- Optimisation du démarrage et du
+    transfert de RT_CLASS_3;<br />\r\n- Optimisation du démarrage isochrone;<br />\r\n-
+    Optimisation du temps de démarrage depuis une mise hors tension;<br />\r\n- Suppression
+    de MRRT;<br />\r\n- Suppression de l'automatisation distribuée;<br />\r\n- Mise
+    à jour de LLDP-EXT-MIB."
   language:
   - fr
   script:
