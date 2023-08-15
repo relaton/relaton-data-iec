@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: ISO/IEC30107-1-2016
+id: ISO/IEC30107-1-2023
 title:
 - content: 'Information technology - Biometric presentation attack detection - Part
     1: Framework'
@@ -11,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/24051
+- content: https://webstore.iec.ch/publication/87804
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec30107-1{ed1.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec30107-1{ed2.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 30107-1:2016
+- id: ISO/IEC 30107-1:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:30107-1:2016-01:::'
+- id: 'urn:iec:std:iso-iec:30107-1:2023-08:::'
   type: URN
 date:
 - type: published
-  value: '2016-01-14'
+  value: '2023-08-10'
 contributor:
 - organization:
     name:
@@ -43,24 +43,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2016-01-14'
+  content: '2'
+revdate: '2023-08-10'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nSO/IEC
-    30107-1:2016 establishes terms and definitions that are useful in the specification,
-    characterization and evaluation of presentation attack detection methods.<br />\r\nOutside
-    the scope are<br />\r\n- standardization of specific PAD detection methods;<br
-    />\r\n- detailed information about countermeasures (i.e. anti-spoofing techniques),
-    algorithms, or sensors; and<br />\r\n- overall system-level security or vulnerability
-    assessment.<br />\r\nThe attacks to be considered in ISO/IEC 30107 are those that
-    take place at the sensor during the presentation and collection of the biometric
-    characteristics.<br />\r\nAny other attacks are considered outside the scope of
-    ISO/IEC 30107."
+- content: "ISO/IEC 30107-1:2023 This document establishes terms and definitions that
+    are useful in the specification, characterization and evaluation of presentation
+    attack detection (PAD) methods.<br />\r\nThis document does not provide the following:<br
+    />\r\n- standardization of specific PAD detection methods;<br />\r\n- detailed
+    information about countermeasures (i.e. anti-spoofing mechanisms), algorithms
+    or sensors;<br />\r\n- overall system-level security or vulnerability assessment.<br
+    />\r\nThe attacks to be considered in this document are those that take place
+    at the capture device during the presentation and collection of the biometric
+    characteristics. Any other attacks are considered outside the scope of this document."
   language:
   - en
   script:
@@ -68,7 +66,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -81,7 +79,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC30107-1-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 30107-1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 30107-1:2016
+      format: text/plain
 place:
 - Geneva
 doctype: international-standard
