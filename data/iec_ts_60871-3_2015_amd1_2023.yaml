@@ -1,38 +1,30 @@
 ---
 schema-version: v1.2.3
-id: IEC60092-303-1980/AMD1-1997
+id: IECTS60871-3-2015/AMD1-2023
 title:
-- content: 'Amendment 1 - Electrical installations in ships. Part 303: Equipment -
-    Transformers for power and lighting'
+- content: 'Amendment 1 - Shunt capacitors for AC power systems having a rated voltage
+    above 1 000 V - Part 3: Protection of shunt capacitors and shunt capacitor banks'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Amendement 1 - Installations électriques à bord des navires. 303e partie:
-    Matériel - Transformateurs de puissance'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/685
+- content: https://webstore.iec.ch/publication/79075
   type: src
 type: standard
 docid:
-- id: IEC 60092-303:1980/AMD1:1997
+- id: IEC TS 60871-3:2015/AMD1:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iec:60092-303:1980-01:::||amd:1:1997-09
+- id: urn:iec:std:iec:60871-3:2015-06:ts::||amd:1:2023-08
   type: URN
 date:
 - type: published
-  value: '1997-09-05'
+  value: '2023-08-22'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2026-12-31'
 contributor:
 - organization:
     name:
@@ -43,11 +35,10 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '3'
-revdate: '1997-09-05'
+  content: '2'
+revdate: '2023-08-22'
 language:
 - en
-- fr
 script:
 - Latn
 docstatus:
@@ -60,33 +51,34 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '1980'
+  from: '2015'
 relation:
 - type: updates
   bibitem:
-    id: IEC60092-303-1980
+    id: IECTS60871-3-1996
     type: standard
     docid:
-    - id: IEC 60092-303:1980
+    - id: IEC TS 60871-3:1996
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60092-303:1980
+      content: IEC TS 60871-3:1996
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype: technical-specification
 editorialgroup:
   technical_committee:
-  - name: TC 18
-    number: 18
+  - name: TC 33
+    number: 33
     type: technicalCommittee
 ics:
-- code: 47.020.60
-  text: Electrical equipment of ships and  of marine structures
+- code: 29.240.99
+  text: Other equipment related to power transmission and distribution networks
+- code: 31.060.70
+  text: Power capacitors
 structuredidentifier:
-  project_number: '60092'
-  part: '303'
+  project_number: TS
   type: IEC
 ext:
   schema-version: v1.0.0
