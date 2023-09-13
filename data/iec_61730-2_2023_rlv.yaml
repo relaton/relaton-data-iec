@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.4
-id: IEC61730-2-2016RLV
+id: IEC61730-2-2023RLV
 title:
 - content: 'Photovoltaic (PV) module safety qualification - Part 2: Requirements for
     testing'
@@ -11,22 +11,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/25678
+- content: https://webstore.iec.ch/publication/88434
   type: src
-- content: https://webstore.iec.ch/preview/info_iec61730-2{ed2.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec61730-2{ed3.0.RLV}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 61730-2:2016 RLV
+- id: IEC 61730-2:2023 RLV
   type: IEC
   primary: true
 - id: urn:iec:std:iec:61730-2::rlv
   type: URN
 date:
 - type: published
-  value: '2016-08-18'
+  value: '2023-09-12'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2027-12-31'
 contributor:
 - organization:
     name:
@@ -37,27 +37,29 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2016-08-18'
+  content: '3'
+revdate: '2023-09-12'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 61730-2:2016 RLV contains both the official IEC International Standard
+- content: "IEC 61730-2:2023 RLV contains both the official IEC International Standard
     and its Redline version. The Redline version is available in English only and
     provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nIEC 61730-2:2016 provides
-    the testing sequence intended to verify the safety of PV modules whose construction
-    has been assessed by IEC 61730-1. The test sequence and pass criteria are designed
-    to detect the potential breakdown of internal and external components of PV modules
-    that would result in fire, electric shock, and/or personal injury. The standard
-    defines the basic safety test requirements and additional tests that are a function
-    of the PV module end-use applications. Test categories include general inspection,
-    electrical shock hazard, fire hazard, mechanical stress, and environmental stress.
-    This new edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\n- the test sequences have been rearranged;<br
-    />\r\n- various tests have been detailed or added."
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 61730-2:2023
+    lists the tests a PV module is required to fulfil for safety qualification. This
+    document applies for safety qualification only in conjunction with IEC 61730-1.
+    The objective of this document is to provide the testing sequence intended to
+    verify the safety of PV modules whose construction has been assessed by IEC 61730-1.
+    The test sequence and pass criteria are designed to detect the potential breakdown
+    of internal and external components of PV modules that would result in fire, electric
+    shock, and/or personal injury. This document defines the basic safety test requirements
+    and additional tests that are a function of the PV module end-use applications.
+    The additional testing requirements outlined in relevant ISO documents, or the
+    national or local codes which govern the installation and use of these PV modules
+    in their intended locations, are considered in addition to the requirements contained
+    within this document."
   language:
   - en
   script:
@@ -65,7 +67,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -73,8 +75,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61730-2-2016RLV
+    type: standard
+    docid:
+    - id: IEC 61730-2:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61730-2:2016 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61730-2-2016
@@ -136,4 +149,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:RE
+price_code: iec:RF
