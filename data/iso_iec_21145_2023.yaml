@@ -1,8 +1,9 @@
 ---
 schema-version: v1.2.4
-id: ISO/IEC17788-2014
+id: ISO/IEC21145-2023
 title:
-- content: Information technology -- Cloud computing -- Overview and vocabulary
+- content: Information technology - Computer graphics, image processing and environmental
+    data representation - Style representation for mixed and augmented reality
   language:
   - en
   script:
@@ -10,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/10567
+- content: https://webstore.iec.ch/publication/88943
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec17788{ed1.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec21145{ed1.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 17788:2014
+- id: ISO/IEC 21145:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:17788:2014-10:::'
+- id: 'urn:iec:std:iso-iec:21145:2023-09:::'
   type: URN
 date:
 - type: published
-  value: '2014-10-10'
+  value: '2023-09-22'
 contributor:
 - organization:
     name:
@@ -43,18 +44,19 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2014-10-10'
+revdate: '2023-09-22'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    17788:2014 provides an overview of cloud computing along with a set of terms and
-    definitions. It is a terminology foundation for cloud computing standards. ISO/IEC
-    17788:2014 is applicable to all types of organizations (e.g., commercial enterprises,
-    government agencies, not-for-profit organizations)."
+- content: "This document specifies:<br />\r\n1) Constructs for representing and specifying
+    various augmentation and presentation styles. While augmentations can be in modalities
+    other than the visual (e.g. aural, haptic), this work addresses the visual augmentation
+    style only.<br />\r\n2) A model for how to associate the stylization constructs
+    to the augmentation objects. Specifically, the MAR behavior object in ISO/IEC
+    3721 is extended for this purpose.<br />\r\n3) Other miscellaneous functionalities
+    and abstractions that support the stylization of augmentation objects."
   language:
   - en
   script:
@@ -62,7 +64,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REPLACED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -75,22 +77,20 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2014'
+  from: '2023'
 place:
 - Geneva
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1/SC 38
+  - name: ISO/IEC JTC 1/SC 24
     number: 1
     type: technicalCommittee
 ics:
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-- code: '35.020'
-  text: Information technology (IT) in general
+- code: '35.140'
+  text: Computer graphics
 structuredidentifier:
-  project_number: '17788'
+  project_number: '21145'
   type: IEC
 ext:
   schema-version: v1.0.0
