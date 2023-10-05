@@ -1,6 +1,6 @@
 ---
-schema-version: v1.2.3
-id: IEC60068-2-10a-1969
+schema-version: v1.2.4
+id: IEC60068-2-10A-1969
 title:
 - content: 'Basic environmental testing procedures - Part 2: Test - Test J: Mould
     growth'
@@ -21,12 +21,14 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/12657
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60068-2-10a{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
-- id: IEC 60068-2-10a:1969
+- id: IEC 60068-2-10A:1969
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:60068-2-10a:1969-01:::'
+- id: 'urn:iec:std:iec:60068-2-10A:1969-01:::'
   type: URN
 date:
 - type: published
@@ -72,6 +74,18 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1969'
+relation:
+- type: updates
+  bibitem:
+    id: IEC60068-2-10A-1969/AMD1-1972
+    type: standard
+    docid:
+    - id: IEC 60068-2-10A:1969/AMD1:1972
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60068-2-10A:1969/AMD1:1972
+      format: text/plain
 place:
 - Geneva
 doctype: international-standard
@@ -86,7 +100,7 @@ ics:
 structuredidentifier:
   project_number: '60068'
   part: '2'
-  subpart: 10a
+  subpart: 10A
   type: IEC
 ext:
   schema-version: v1.0.0
