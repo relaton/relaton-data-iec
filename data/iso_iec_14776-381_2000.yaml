@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.4
 id: ISO/IEC14776-381-2000
 title:
 - content: 'Information technology - Small Computer System Interface (SCSI) - Part
@@ -53,15 +53,15 @@ script:
 - Latn
 abstract:
 - content: The SCSI command set is designed to provide efficient peer-to-peer operation
-    of input/output devices (disks, tapes, printers, etc.) by an operating system.
+    of input&#x2F;output devices (disks, tapes, printers, etc.) by an operating system.
     The SCSI command set assumes a command-response protocol. Action on SCSI commands
     shall not be deemed completed until a response is received. The response shall
     include a status that indicates the final disposition of the command. The SCSI
     command set provides multiple operating systems concurrent control over one or
-    more input/ output devices. The SCSI-3 Optical Memory Card (OMC) command set specifies
-    the commands for a device that declares itself as an optical memory card device
-    in the device type field of the INQUIRY command. The OMC command set is specified
-    independently of any service delivery subsystem; an underlying command-response
+    more input&#x2F; output devices. The SCSI-3 Optical Memory Card (OMC) command
+    set specifies the commands for a device that declares itself as an optical memory
+    card device in the device type field of the INQUIRY command. The OMC command set
+    is specified independently of any service delivery subsystem; an underlying command-response
     protocol is assumed. This standard defines the device model for the optical memory
     card devices.
   language:

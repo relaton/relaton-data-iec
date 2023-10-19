@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.4
 id: ISO/IEC14776-331-2002
 title:
 - content: 'Information technology - Small computer system interface (SCSI) - Part
@@ -52,21 +52,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "The SCSI command set is designed to provide efficient peer-to-peer operation
-    of input/output devices (disks, tapes, printers, etc.) by an operating system.
+- content: The SCSI command set is designed to provide efficient peer-to-peer operation
+    of input&#x2F;output devices (disks, tapes, printers, etc.) by an operating system.
     The SCSI command set assumes a command-response protocol. Action on SCSI commands
     shall not be deemed completed until a response is received. The response shall
-    include a status that indicates the final disposition of the command. \n\nThe
-    SCSI command set provides multiple operating systems concurrent control over one
-    or more input/output devices. However, the multiple operating systems must properly
-    coordinate their actions or data corruption will result. \n\nThis standard specifies
-    functional requirements for SCSI-3 Stream commands (SSC). SSC\npermits SCSI streaming
-    devices such as tape and printer devices to attach to computers and\nprovides
-    the definitions for their use.\nThis standard specifies the external behavior
-    of a device server that defines itself as either a\nSequential-access device or
-    a Printer device; together, these device types are known as Stream Devices. \n\nThe
-    SSC standard\nconforms to SCSI-3 Architectural Model (ISO/IEC 14776-411:1999)
-    standard."
+    include a status that indicates the final disposition of the command. The SCSI
+    command set provides multiple operating systems concurrent control over one or
+    more input&#x2F;output devices. However, the multiple operating systems must properly
+    coordinate their actions or data corruption will result. This standard specifies
+    functional requirements for SCSI-3 Stream commands (SSC). SSC permits SCSI streaming
+    devices such as tape and printer devices to attach to computers and provides the
+    definitions for their use. This standard specifies the external behavior of a
+    device server that defines itself as either a Sequential-access device or a Printer
+    device; together, these device types are known as Stream Devices. The SSC standard
+    conforms to SCSI-3 Architectural Model (ISO&#x2F;IEC 14776-411:1999) standard.
   language:
   - en
   script:
