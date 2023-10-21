@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.4
 id: ISO/IEC15205-2000
 title:
 - content: SBus - Chip and module interconnect bus
@@ -51,24 +51,24 @@ language:
 script:
 - Latn
 abstract:
-- content: An input/output expansion bus with a 32- or 64-bit width is described in
-    this standard. The SBus is designed for systems requiring a small number expansion
+- content: An input&#x2F;output expansion bus with a 32- or 64-bit width is described
+    in this standard. The SBus is designed for systems requiring a small number expansion
     ports. SBus Cards may be connected to a standard Sbus Connector mounted on the
-    motherboard. SBus Devices may also be attached to the SBus directly on the system's
+    motherboard. SBus Devices may also be attached to the SBus directly on the system&#x27;s
     motherboard. The dimensions of the SBus Card are 83,8 mm by 146,7 mm, making the
     cards appropriate for small computer systems that make extensive use of highly
     integrated circuits. The SBus Cards are designed to be installed in a plane parallel
-    to the system's motherboard as mezzanine cards. They are designed to provide connections
-    for devices external to the computer system through an exposed back panel. The
-    form factor is useful in Futurebus+, VMEbus, desktop computers, and similar applications.
-    The SBus has the capability of transferring data at rates up to 168 Mbytes/s,
-    depending on the implementation options selected. SBus Cards may either serve
-    as Masters on the bus, providing all virtual address information as well as the
-    data to be transferred, or they may serve as Slaves on the bus, providing data
-    transfer according to the requirements of some other SBus Master. The SBus Master
-    for a data transfer is selected by an arbitration process managed by the single
-    SBus Controller on the SBus. The SBus Controller provides a virtual to physical
-    address translation service.
+    to the system&#x27;s motherboard as mezzanine cards. They are designed to provide
+    connections for devices external to the computer system through an exposed back
+    panel. The form factor is useful in Futurebus+, VMEbus, desktop computers, and
+    similar applications. The SBus has the capability of transferring data at rates
+    up to 168 Mbytes&#x2F;s, depending on the implementation options selected. SBus
+    Cards may either serve as Masters on the bus, providing all virtual address information
+    as well as the data to be transferred, or they may serve as Slaves on the bus,
+    providing data transfer according to the requirements of some other SBus Master.
+    The SBus Master for a data transfer is selected by an arbitration process managed
+    by the single SBus Controller on the SBus. The SBus Controller provides a virtual
+    to physical address translation service.
   language:
   - en
   script:
