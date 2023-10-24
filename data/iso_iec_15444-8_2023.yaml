@@ -1,39 +1,30 @@
 ---
 schema-version: v1.2.4
-id: ISO/IEC15444-8-2007
+id: ISO/IEC15444-8-2023
 title:
-- content: 'Information technology -- JPEG 2000 image coding system: Secure JPEG 2000'
+- content: 'Information technology JPEG 2000 image coding system - Part 8: Secure
+    JPEG 2000'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Technologies de l''information -- Système de codage d''images JPEG 2000:
-    JPEG 2000 sécurisé'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/10318
+- content: https://webstore.iec.ch/publication/89600
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec15444-8{ed1.0}en.pdf
-  type: obp
-- content: https://webstore.iec.ch/preview/info_isoiec15444-8{ed1.0}fr.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec15444-8{ed2.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 15444-8:2007
+- id: ISO/IEC 15444-8:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:15444-8:2007-04:::'
+- id: 'urn:iec:std:iso-iec:15444-8:2023-10:::'
   type: URN
 date:
 - type: published
-  value: '2007-04-04'
+  value: '2023-10-16'
 contributor:
 - organization:
     name:
@@ -52,23 +43,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2007-04-04'
+  content: '2'
+revdate: '2023-10-16'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
-- content: ISO/IEC 15444-8:2007 specifies the framework, concepts, and methodology
-    for securing JPEG 2000 codestreams. It definesa normative codestream syntax containing
-    information for interpreting secure image data;a normative process for registering
-    JPSEC tools with a registration authority delivering a unique identifier;informative
-    examples of JPSEC tools in typical use cases;informative guidelines on how to
-    implement security services and related metadata.It does not describe specific
-    secure imaging applications or limit secure imaging to specific techniques, but
-    creates a framework that enables future extensions as secure imaging techniques
-    evolve.
+- content: "ISO/IEC 15444-8:2023 This document specifies the framework, concepts,
+    and methodology for securing JPEG 2000 codestreams. The scope of this document
+    is to define:<br />\r\n1) a normative codestream syntax containing information
+    for interpreting secure image data;<br />\r\n2) informative examples of JPSEC
+    tools in typical use cases;<br />\r\n3) informative guidelines on how to implement
+    security services and related metadata.<br />\r\nThe scope of this document is
+    not to describe specific secure imaging applications or to limit secure imaging
+    to specific techniques, but to create a framework that enables future extensions
+    as secure imaging techniques evolve."
   language:
   - en
   script:
@@ -76,7 +66,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -89,7 +79,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2007'
+  from: '2023'
 relation:
 - type: updates
   bibitem:
@@ -101,6 +91,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 15444-8:2007/AMD1:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC15444-8-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 15444-8:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 15444-8:2007
       format: text/plain
 place:
 - Geneva
