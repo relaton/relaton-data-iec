@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.4
 id: IEC60335-2-42-1994
 title:
 - content: 'Safety of household and similar electrical appliances - Part 2: Particular
@@ -33,6 +33,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/15336
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60335-2-42{ed3.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60335-2-42:1994
@@ -71,10 +73,12 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    Traite de la sécurité des fours à convection forcée, des cuiseurs à vapeur et des fours combinés vapeur-convection à usage collectif fonctionnant à l'électricité et qui ne sont pas destinés aux usages domestiques, la tension assignée des appareils n'étant pas supérieure à 250 V pour les appareils mono-
-    phasés alimentés entre phase et neutre et 480 V pour les autres appareils. Cette publication remplace CEI 335-2-46
-    Doit être utilisée conjointement avec CEI 335-1 (Troisième édition).
+- content: Traite de la sécurité des fours à convection forcée, des cuiseurs à vapeur
+    et des fours combinés vapeur-convection à usage collectif fonctionnant à l'électricité
+    et qui ne sont pas destinés aux usages domestiques, la tension assignée des appareils
+    n'étant pas supérieure à 250 V pour les appareils mono- phasés alimentés entre
+    phase et neutre et 480 V pour les autres appareils. Cette publication remplace
+    CEI 335-2-46 Doit être utilisée conjointement avec CEI 335-1 (Troisième édition).
   language:
   - fr
   script:
@@ -94,17 +98,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-42-2002/AMD2-2017
-    type: standard
-    docid:
-    - id: IEC 60335-2-42:2002/AMD2:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-42:2002/AMD2:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-42-2002+AMD1-2008+AMD2-2017CSV
     type: standard
     docid:
@@ -113,6 +106,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-42:2002+AMD1:2008+AMD2:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-42-2002/AMD2-2017
+    type: standard
+    docid:
+    - id: IEC 60335-2-42:2002/AMD2:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-42:2002/AMD2:2017
       format: text/plain
 - type: updates
   bibitem:
