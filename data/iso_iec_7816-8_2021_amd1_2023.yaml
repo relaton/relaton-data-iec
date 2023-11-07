@@ -1,9 +1,9 @@
 ---
 schema-version: v1.2.4
-id: ISO/IEC10918-7-2021
+id: ISO/IEC7816-8-2021/AMD1-2023
 title:
-- content: 'Information technology - Digital compression and coding of continuous-tone
-    still images - Part 7: Reference software'
+- content: 'Amendment 1 - Identification cards - Integrated circuit cards - Part 8:
+    Commands and mechanisms for security operations'
   language:
   - en
   script:
@@ -11,20 +11,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/71295
+- content: https://webstore.iec.ch/publication/89826
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec10918-7{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 10918-7:2021
+- id: ISO/IEC 7816-8:2021/AMD1:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:10918-7:2021-09:::'
+- id: urn:iec:std:iso-iec:7816-8:2021-08:::||amd:1:2023-11
   type: URN
 date:
 - type: published
-  value: '2021-09-15'
+  value: '2023-11-02'
 contributor:
 - organization:
     name:
@@ -43,27 +41,15 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2021-09-15'
+  content: '5'
+revdate: '2023-11-02'
 language:
 - en
 script:
 - Latn
-abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nThis
-    document provides reference software for the coding technology specified in Recommendation
-    ITU-T T.81 | ISO/IEC 10918-1. While the reference implementations also provide
-    an encoder, conformance testing of their encoding process is beyond the scope
-    of this document."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -80,30 +66,52 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC10918-7-2019
+    id: ISO/IEC7816-8-2019
     type: standard
     docid:
-    - id: ISO/IEC 10918-7:2019
+    - id: ISO/IEC 7816-8:2019
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 10918-7:2019
+      content: ISO/IEC 7816-8:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC7816-8-2016
+    type: standard
+    docid:
+    - id: ISO/IEC 7816-8:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 7816-8:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC7816-8-2004
+    type: standard
+    docid:
+    - id: ISO/IEC 7816-8:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 7816-8:2004
       format: text/plain
 place:
 - Geneva
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
+  - name: ISO/IEC JTC 1/SC 17
     number: 1
     type: technicalCommittee
 ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
+- code: 35.240.15
+  text: Identification cards. Chip cards. Biometrics
 structuredidentifier:
-  project_number: '10918'
-  part: '7'
+  project_number: '7816'
+  part: '8'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:F

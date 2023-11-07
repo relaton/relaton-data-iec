@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.4
-id: ISO/IEC10918-7-2021
+id: ISO/IEC10918-7-2023
 title:
 - content: 'Information technology - Digital compression and coding of continuous-tone
     still images - Part 7: Reference software'
@@ -11,20 +11,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/71295
+- content: https://webstore.iec.ch/publication/89823
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec10918-7{ed2.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec10918-7{ed3.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 10918-7:2021
+- id: ISO/IEC 10918-7:2023
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:10918-7:2021-09:::'
+- id: 'urn:iec:std:iso-iec:10918-7:2023-11:::'
   type: URN
 date:
 - type: published
-  value: '2021-09-15'
+  value: '2023-11-03'
 contributor:
 - organization:
     name:
@@ -43,19 +43,17 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2021-09-15'
+  content: '3'
+revdate: '2023-11-03'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nThis
-    document provides reference software for the coding technology specified in Recommendation
-    ITU-T T.81 | ISO/IEC 10918-1. While the reference implementations also provide
-    an encoder, conformance testing of their encoding process is beyond the scope
-    of this document."
+- content: This Specification provides reference software for the coding technology
+    specified in Recommendation ITU-T T.81 | ISO/IEC 10918-1. While the reference
+    implementations also provide an encoder, conformance testing of their encoding
+    process is beyond the scope of this Specification.
   language:
   - en
   script:
@@ -63,7 +61,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -76,8 +74,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2021'
+  from: '2023'
 relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC10918-7-2021
+    type: standard
+    docid:
+    - id: ISO/IEC 10918-7:2021
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 10918-7:2021
+      format: text/plain
 - type: updates
   bibitem:
     id: ISO/IEC10918-7-2019
@@ -106,4 +115,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B
