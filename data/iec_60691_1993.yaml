@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.4
 id: IEC60691-1993
 title:
 - content: Thermal-links - Requirements and application guide
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/17237
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60691{ed2.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60691:1993
@@ -47,10 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to thermal-links, intended for incorporation in electrical appliances, electronic equipment and component parts thereof, normally intended for use indoors, in order to protect them against excessive temperatures under abnormal conditions.
-    May be applicable to thermal-links for use under other than indoor conditions, provided that the climatic and other circum-
-    stances in the immediate surroundings of such thermal-links are comparable with those in this standard.
+- content: Applies to thermal-links, intended for incorporation in electrical appliances,
+    electronic equipment and component parts thereof, normally intended for use indoors,
+    in order to protect them against excessive temperatures under abnormal conditions.
+    May be applicable to thermal-links for use under other than indoor conditions,
+    provided that the climatic and other circum- stances in the immediate surroundings
+    of such thermal-links are comparable with those in this standard.
   language:
   - en
   script:
@@ -126,17 +130,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60691-2002+AMD1-2006+AMD2-2010CSV
-    type: standard
-    docid:
-    - id: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60691-2002/AMD2-2010
     type: standard
     docid:
@@ -145,6 +138,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60691:2002/AMD2:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60691-2002+AMD1-2006+AMD2-2010CSV
+    type: standard
+    docid:
+    - id: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
       format: text/plain
 - type: updates
   bibitem:

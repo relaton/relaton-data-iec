@@ -1,19 +1,18 @@
 ---
 schema-version: v1.2.4
-id: IEC60601-2-43-2010/AMD2-2019
+id: IEC60601-2-19-2020/AMD1-2023
 title:
-- content: 'Amendment 2 - Medical electrical equipment - Part 2-43: Particular requirements
-    for the basic safety and essential performance of X-ray equipment for interventional
-    procedures'
+- content: 'Amendment 1 - Medical electrical equipment - Part 2-19: Particular requirements
+    for the basic safety and essential performance of infant incubators'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'Amendement 2 - Appareils électromédicaux - Partie 2-43: Exigences particulières
-    pour la sécurité de base et les performances essentielles des appareils à rayonnement
-    X lors d''interventions'
+- content: 'Amendement 1 - Appareils électromédicaux - Partie 2-19: Exigences particulières
+    pour la sécurité de base et les performances essentielles des incubateurs pour
+    nouveau-nés'
   language:
   - fr
   script:
@@ -21,20 +20,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/60190
+- content: https://webstore.iec.ch/publication/68378
   type: src
 type: standard
 docid:
-- id: IEC 60601-2-43:2010/AMD2:2019
+- id: IEC 60601-2-19:2020/AMD1:2023
   type: IEC
   primary: true
-- id: urn:iec:std:iec:60601-2-43:2010-03:::||amd:2:2019-10
+- id: urn:iec:std:iec:60601-2-19:2020-09:::||amd:1:2023-11
   type: URN
 date:
 - type: published
-  value: '2019-10-16'
+  value: '2023-11-09'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2028-12-31'
 contributor:
 - organization:
     name:
@@ -45,8 +44,8 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2019-10-16'
+  content: '3'
+revdate: '2023-11-09'
 language:
 - en
 - fr
@@ -54,7 +53,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -62,79 +61,90 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2010'
+  from: '2020'
 relation:
 - type: updates
   bibitem:
-    id: IEC60601-2-43-2010+AMD1-2017+AMD2-2019CSV
+    id: IEC60601-2-19-2009/AMD1-2016
     type: standard
     docid:
-    - id: IEC 60601-2-43:2010+AMD1:2017+AMD2:2019 CSV
+    - id: IEC 60601-2-19:2009/AMD1:2016
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60601-2-43:2010+AMD1:2017+AMD2:2019 CSV
+      content: IEC 60601-2-19:2009/AMD1:2016
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-43-2010/AMD1-2017
+    id: IEC60601-2-19-2009+AMD1-2016CSV
     type: standard
     docid:
-    - id: IEC 60601-2-43:2010/AMD1:2017
+    - id: IEC 60601-2-19:2009+AMD1:2016 CSV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60601-2-43:2010/AMD1:2017
+      content: IEC 60601-2-19:2009+AMD1:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-43-2010+AMD1-2017CSV
+    id: IEC60601-2-19-2009/COR1-2012
     type: standard
     docid:
-    - id: IEC 60601-2-43:2010+AMD1:2017 CSV
+    - id: IEC 60601-2-19:2009/COR1:2012
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60601-2-43:2010+AMD1:2017 CSV
+      content: IEC 60601-2-19:2009/COR1:2012
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-43-2010
+    id: IEC60601-2-19-2009
     type: standard
     docid:
-    - id: IEC 60601-2-43:2010
+    - id: IEC 60601-2-19:2009
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60601-2-43:2010
+      content: IEC 60601-2-19:2009
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-43-2000
+    id: IEC60601-2-19-1990/AMD1-1996
     type: standard
     docid:
-    - id: IEC 60601-2-43:2000
+    - id: IEC 60601-2-19:1990/AMD1:1996
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60601-2-43:2000
+      content: IEC 60601-2-19:1990/AMD1:1996
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60601-2-19-1990
+    type: standard
+    docid:
+    - id: IEC 60601-2-19:1990
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60601-2-19:1990
       format: text/plain
 place:
 - Geneva
 doctype: international-standard
 editorialgroup:
   technical_committee:
-  - name: TC 62/SC 62B
+  - name: TC 62/SC 62D
     number: 62
     type: technicalCommittee
 ics:
-- code: 11.040.50
-  text: Radiographic equipment
+- code: 11.040.10
+  text: Anaesthetic, respiratory and reanimation equipment
 structuredidentifier:
   project_number: '60601'
   part: '2'
-  subpart: '43'
+  subpart: '19'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:E
+price_code: iec:C
