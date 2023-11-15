@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.4
+schema-version: v1.2.5
 id: IEC60533-2015
 title:
 - content: Electrical and electronic installations in ships - Electromagnetic compatibility
@@ -71,6 +71,29 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2015'
+relation:
+- type: updates
+  bibitem:
+    id: IEC60533-1999
+    type: standard
+    docid:
+    - id: IEC 60533:1999
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60533:1999
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IECTR60533-1977
+    type: standard
+    docid:
+    - id: IEC TR 60533:1977
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 60533:1977
+      format: text/plain
 place:
 - Geneva
 doctype: international-standard
