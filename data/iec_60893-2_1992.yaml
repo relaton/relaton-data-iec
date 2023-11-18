@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC60893-2-1992
 title:
 - content: 'Specification for industrial rigid laminated sheets based on thermosetting
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18272
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60893-2{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60893-2:1992
@@ -59,19 +61,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Gives methods of test for the materials defined in IEC 60893-1.
-
-    The contents of the corrigendum of September 1995 have been included in this copy.
+- content: Gives methods of test for the materials defined in IEC 60893-1. The contents
+    of the corrigendum of September 1995 have been included in this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Donne les méthodes d'essai applicables aux matériaux définis dans CEI 60893-1.
-
-    Le contenu du corrigendum de septembre 1995 a été pris en considération dans cet exemplaire.
+- content: Donne les méthodes d'essai applicables aux matériaux définis dans CEI 60893-1.
+    Le contenu du corrigendum de septembre 1995 a été pris en considération dans cet
+    exemplaire.
   language:
   - fr
   script:
@@ -89,6 +88,17 @@ copyright:
     url: www.iec.ch
   from: '1992'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60893-2-2003
+    type: standard
+    docid:
+    - id: IEC 60893-2:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60893-2:2003
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60893-2-1992/COR1-1995
