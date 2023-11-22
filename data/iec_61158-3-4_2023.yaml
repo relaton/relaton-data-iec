@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC61158-3-4-2023
 title:
 - content: 'Industrial communication networks - Fieldbus specifications - Part 3-4:
@@ -10,10 +10,21 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 3-4: Définition des services de la couche liaison de données - Éléments
+    de type 4'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://webstore.iec.ch/publication/83313
   type: src
 - content: https://webstore.iec.ch/preview/info_iec61158-3-4{ed4.0}en.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec61158-3-4{ed4.0}b.pdf
   type: obp
 type: standard
 docid:
@@ -41,6 +52,7 @@ edition:
 revdate: '2023-03-16'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
@@ -62,6 +74,29 @@ abstract:
     reference model."
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "L’IEC 61158-3-4:2023 fournit les éléments communs pour les communications
+    de messagerie prioritaires entre les appareils d’un environnement d’automatisation.
+    Le terme \"prioritaire\" est utilisé pour indiquer la présence d’une fenêtre temporelle,
+    dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon
+    un niveau défini de certitude. La non‑réalisation des actions spécifiées dans
+    la fenêtre temporelle induit un risque de défaillance des applications qui demandent
+    ces actions, avec les risques qui en découlent pour l’équipement, les installations
+    et éventuellement la vie humaine.<br />\r\nLe présent document définit de manière
+    abstraite les services visibles externes fournis par la couche liaison de données
+    de bus de terrain de type 4, concernant:<br />\r\nles actions et événements liés
+    aux primitives du service;<br />\r\nles paramètres associés à chaque action et
+    événement de primitive, ainsi que la forme prise par ces paramètres; et<br />\r\nl’interrelation
+    entre ces actions et événements, et leurs séquences valides.<br />\r\nLe présent
+    document a pour objet de définir les services fournis:<br />\r\nla couche application
+    de bus de terrain de type 4 à la limite entre les couches application et liaison
+    de données du modèle de référence de bus de terrain;<br />\r\nla gestion-système
+    à la frontière entre la couche liaison de données et la gestion-système du modèle
+    de référence de bus de terrain."
+  language:
+  - fr
   script:
   - Latn
   format: text/html
