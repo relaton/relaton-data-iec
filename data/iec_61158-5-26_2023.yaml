@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC61158-5-26-2023
 title:
 - content: 'Industrial communication networks - Fieldbus specifications - Part 5-26:
@@ -10,9 +10,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 5-26: Définition des services de la couche application - Éléments de
+    type 26'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://webstore.iec.ch/publication/66936
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61158-5-26{ed2.0}b.pdf
+  type: obp
 - content: https://webstore.iec.ch/preview/info_iec61158-5-26{ed2.0}en.pdf
   type: obp
 type: standard
@@ -41,6 +52,7 @@ edition:
 revdate: '2023-03-16'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
@@ -60,6 +72,28 @@ abstract:
     these actions and events, and their valid sequences."
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "L'IEC 61158-5-26:2023 fournit des éléments communs pour les communications
+    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
+    d’application des environnements d’automatisation et le matériel spécifique au
+    bus de terrain de type 26. Le terme \"prioritaire\" signale l’existence d’une
+    fenêtre temporelle dans laquelle une ou plusieurs actions spécifiées doivent être
+    réalisées, avec un niveau de certitude défini. Si les actions spécifiées ne sont
+    pas réalisées dans la fenêtre temporelle, les demandes d’action risquent d’être
+    rejetées, avec les risques que cela comporte pour les équipements, les installations
+    et éventuellement la vie humaine.<br />\r\nLe présent document définit de manière
+    abstraite le service, visible par un observateur extérieur, assuré par la couche
+    application de bus de terrain de type 26, en matière:<br />\r\nde modèle abstrait
+    visant à la définition des ressources d’application (objets) qui peuvent être
+    manipulées par des utilisateurs utilisant un service FAL;<br />\r\nd’événements
+    et d’actions liés aux primitives du service;<br />\r\nde paramètres associés à
+    chaque événement et action de primitive, ainsi que de forme prise par ces paramètres;
+    et<br />\r\nd’interaction entre ces événements et ces actions, ainsi que de séquences
+    valides desdits événements et actions."
+  language:
+  - fr
   script:
   - Latn
   format: text/html
