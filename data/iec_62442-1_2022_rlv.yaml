@@ -80,17 +80,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62442-1-2018RLV
-    type: standard
-    docid:
-    - id: IEC 62442-1:2018 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62442-1:2018 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62442-1-2018
     type: standard
     docid:
@@ -99,6 +88,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62442-1:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62442-1-2018RLV
+    type: standard
+    docid:
+    - id: IEC 62442-1:2018 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62442-1:2018 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -113,7 +113,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

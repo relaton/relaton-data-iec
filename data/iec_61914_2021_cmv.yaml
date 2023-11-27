@@ -83,17 +83,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61914-2015RLV
-    type: standard
-    docid:
-    - id: IEC 61914:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61914:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61914-2015
     type: standard
     docid:
@@ -102,6 +91,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61914:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61914-2015RLV
+    type: standard
+    docid:
+    - id: IEC 61914:2015 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61914:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -116,7 +116,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23A

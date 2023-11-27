@@ -87,17 +87,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IECTR60919-1-2010/AMD2-2017
-    type: standard
-    docid:
-    - id: IEC TR 60919-1:2010/AMD2:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC TR 60919-1:2010/AMD2:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IECTR60919-1-2010+AMD1-2013+AMD2-2017CSV
     type: standard
     docid:
@@ -109,14 +98,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IECTR60919-1-2010+AMD1-2013CSV
+    id: IECTR60919-1-2010/AMD2-2017
     type: standard
     docid:
-    - id: IEC TR 60919-1:2010+AMD1:2013 CSV
+    - id: IEC TR 60919-1:2010/AMD2:2017
       type: IEC
       primary: true
     formattedref:
-      content: IEC TR 60919-1:2010+AMD1:2013 CSV
+      content: IEC TR 60919-1:2010/AMD2:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -128,6 +117,17 @@ relation:
       primary: true
     formattedref:
       content: IEC TR 60919-1:2010/AMD1:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IECTR60919-1-2010+AMD1-2013CSV
+    type: standard
+    docid:
+    - id: IEC TR 60919-1:2010+AMD1:2013 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 60919-1:2010+AMD1:2013 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -164,7 +164,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F

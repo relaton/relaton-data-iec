@@ -112,17 +112,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IECTR62543-2011/AMD1-2013
-    type: standard
-    docid:
-    - id: IEC TR 62543:2011/AMD1:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC TR 62543:2011/AMD1:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IECTR62543-2011+AMD1-2013CSV
     type: standard
     docid:
@@ -131,6 +120,17 @@ relation:
       primary: true
     formattedref:
       content: IEC TR 62543:2011+AMD1:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IECTR62543-2011/AMD1-2013
+    type: standard
+    docid:
+    - id: IEC TR 62543:2011/AMD1:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 62543:2011/AMD1:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -156,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F

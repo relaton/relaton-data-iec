@@ -124,17 +124,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61800-5-1-2007/AMD1-2016
-    type: standard
-    docid:
-    - id: IEC 61800-5-1:2007/AMD1:2016
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61800-5-1:2007/AMD1:2016
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61800-5-1-2007+AMD1-2016CSV
     type: standard
     docid:
@@ -143,6 +132,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61800-5-1:2007+AMD1:2016 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61800-5-1-2007/AMD1-2016
+    type: standard
+    docid:
+    - id: IEC 61800-5-1:2007/AMD1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61800-5-1:2007/AMD1:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -179,7 +179,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22G

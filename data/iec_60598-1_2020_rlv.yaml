@@ -251,17 +251,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60598-1-1999/ISH25-2001
-    type: standard
-    docid:
-    - id: IEC 60598-1:1999/ISH25:2001
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-1:1999/ISH25:2001
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-1-1999/ISH26-2001
     type: standard
     docid:
@@ -270,6 +259,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-1:1999/ISH26:2001
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-1-1999/ISH25-2001
+    type: standard
+    docid:
+    - id: IEC 60598-1:1999/ISH25:2001
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-1:1999/ISH25:2001
       format: text/plain
 - type: updates
   bibitem:
@@ -449,7 +449,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

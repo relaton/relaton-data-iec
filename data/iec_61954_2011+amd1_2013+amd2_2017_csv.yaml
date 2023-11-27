@@ -137,17 +137,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61954-2011/AMD1-2013
-    type: standard
-    docid:
-    - id: IEC 61954:2011/AMD1:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61954:2011/AMD1:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61954-2011+AMD1-2013CSV
     type: standard
     docid:
@@ -156,6 +145,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61954:2011+AMD1:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61954-2011/AMD1-2013
+    type: standard
+    docid:
+    - id: IEC 61954:2011/AMD1:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61954:2011/AMD1:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -214,7 +214,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F

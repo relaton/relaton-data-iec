@@ -145,17 +145,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62271-100-2008+AMD1-2012CSV
-    type: standard
-    docid:
-    - id: IEC 62271-100:2008+AMD1:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62271-100:2008+AMD1:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62271-100-2008/AMD1-2012
     type: standard
     docid:
@@ -164,6 +153,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-100:2008/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-100-2008+AMD1-2012CSV
+    type: standard
+    docid:
+    - id: IEC 62271-100:2008+AMD1:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-100:2008+AMD1:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -255,7 +255,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

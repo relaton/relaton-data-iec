@@ -74,17 +74,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62769-101-2-2020RLV
-    type: standard
-    docid:
-    - id: IEC 62769-101-2:2020 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62769-101-2:2020 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62769-101-2-2020
     type: standard
     docid:
@@ -93,6 +82,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62769-101-2:2020
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62769-101-2-2020RLV
+    type: standard
+    docid:
+    - id: IEC 62769-101-2:2020 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62769-101-2:2020 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -107,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65E
