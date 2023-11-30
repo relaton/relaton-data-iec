@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC60929-1990
 title:
 - content: A.C. supplied electronic ballasts for tubular fluorescent lamps - Performance
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18411
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60929{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60929:1990
@@ -59,19 +61,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies performance requirements for electronic ballasts for use on a.c. supplies up to 1 000 V at 50 Hz or 60 Hz with operating frequencies deviating from the supply frequency, associated with tubular fluorescent lamps as specified in IEC 60081 and 60901 and other tubular fluorescent lamps for high frequency operation.
-
-    The contents of the corrigendum of June 1991 have been included in this copy.
+- content: Specifies performance requirements for electronic ballasts for use on a.c.
+    supplies up to 1 000 V at 50 Hz or 60 Hz with operating frequencies deviating
+    from the supply frequency, associated with tubular fluorescent lamps as specified
+    in IEC 60081 and 60901 and other tubular fluorescent lamps for high frequency
+    operation. The contents of the corrigendum of June 1991 have been included in
+    this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie les prescriptions de performances pour les ballasts électroniques alimentés en courant alternatif (jusqu'à 1 000 V) à 50 Hz ou 60 Hz, avec des fréquences de travail s'écartant de la fréquence d'alimentation, et utilisés en association avec des lampes tubulaires à fluorescence comme indiqué dans les CEI 60081 et 60901, ou avec d'autres types de lampes à fluorescence pour fonctionnement à haute fréquence.
-
-    Le contenu du corrigendum de juin 1991 a été pris en considération dans cet exemplaire.
+- content: Spécifie les prescriptions de performances pour les ballasts électroniques
+    alimentés en courant alternatif (jusqu'à 1 000 V) à 50 Hz ou 60 Hz, avec des fréquences
+    de travail s'écartant de la fréquence d'alimentation, et utilisés en association
+    avec des lampes tubulaires à fluorescence comme indiqué dans les CEI 60081 et
+    60901, ou avec d'autres types de lampes à fluorescence pour fonctionnement à haute
+    fréquence. Le contenu du corrigendum de juin 1991 a été pris en considération
+    dans cet exemplaire.
   language:
   - fr
   script:
@@ -146,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

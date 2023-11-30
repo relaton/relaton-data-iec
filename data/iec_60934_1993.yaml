@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC60934-1993
 title:
 - content: Circuit-breakers for equipment (CBE)
@@ -26,6 +26,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18431
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60934{ed2.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60934:1993
@@ -55,12 +57,10 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applicable to mechanical switching devices designed as
-    'circuit-breakers for equipment' (CBE) intended to provide
-    protection to circuits within electrical equipment for a.c. not
-    exceeding 440 V and/or d.c. not exceeding 250 V, and a rated
-    current not exceeding 125 A.
+- content: Applicable to mechanical switching devices designed as 'circuit-breakers
+    for equipment' (CBE) intended to provide protection to circuits within electrical
+    equipment for a.c. not exceeding 440 V and/or d.c. not exceeding 250 V, and a
+    rated current not exceeding 125 A.
   language:
   - en
   script:
@@ -210,7 +210,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

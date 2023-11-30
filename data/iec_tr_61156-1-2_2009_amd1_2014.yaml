@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IECTR61156-1-2-2009/AMD1-2014
 title:
 - content: 'Amendment 1 - Multicore and symmetrical pair/quad cables for digital communications
@@ -44,7 +44,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -53,9 +53,33 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2009'
+relation:
+- type: updates
+  bibitem:
+    id: IECTR61156-1-2-2009+AMD1-2014CSV
+    type: standard
+    docid:
+    - id: IEC TR 61156-1-2:2009+AMD1:2014 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 61156-1-2:2009+AMD1:2014 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IECTR61156-1-2-2009
+    type: standard
+    docid:
+    - id: IEC TR 61156-1-2:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 61156-1-2:2009
+      format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

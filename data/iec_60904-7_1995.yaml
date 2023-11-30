@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.5
 id: IEC60904-7-1995
 title:
 - content: 'Photovoltaic devices - Part 7: Computation of spectral mismatch error
@@ -13,6 +13,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18334
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60904-7{ed1.0}en.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60904-7:1995
@@ -40,12 +42,10 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Describes the procedure for determining the error introduced in the
-    testing of a photovoltaic device caused by the interaction of the
-    mismatch between the spectral responses of the test specimen and
-    the reference device, and the mismatch between the test spectrum
-    and the reference spectrum.
+- content: Describes the procedure for determining the error introduced in the testing
+    of a photovoltaic device caused by the interaction of the mismatch between the
+    spectral responses of the test specimen and the reference device, and the mismatch
+    between the test spectrum and the reference spectrum.
   language:
   - en
   script:
@@ -87,7 +87,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 82
