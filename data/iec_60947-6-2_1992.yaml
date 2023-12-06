@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60947-6-2-1992
 title:
 - content: 'Low-voltage switchgear and controlgear - Part 6: Multiple function equipment
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18555
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60947-6-2{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60947-6-2:1992
@@ -69,14 +71,12 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux appareils (ou aux matériels) de connexion de
-    commande et de protection (ACP), dont les contacts principaux sont
-    destinés à être reliés à des circuits dont la tension assignée
-    n'est pas supérieure a 1 000 V en courant alternatif ou 1 500 V en
-    courant continu. Les ACP sont destinés à assurer à la fois les
-    fonctions de commande et peuvent aussi assurer des fonctions
-    complémentaires telles que le sectionnement.
+- content: S'applique aux appareils (ou aux matériels) de connexion de commande et
+    de protection (ACP), dont les contacts principaux sont destinés à être reliés
+    à des circuits dont la tension assignée n'est pas supérieure a 1 000 V en courant
+    alternatif ou 1 500 V en courant continu. Les ACP sont destinés à assurer à la
+    fois les fonctions de commande et peuvent aussi assurer des fonctions complémentaires
+    telles que le sectionnement.
   language:
   - fr
   script:
@@ -184,7 +184,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

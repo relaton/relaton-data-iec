@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60947-2-1995
 title:
 - content: 'Low-voltage switchgear and controlgear - Part 2: Circuit-breakers'
@@ -27,6 +27,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18484
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60947-2{ed2.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60947-2:1995
@@ -56,19 +58,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    States the characteristics of circuit breakers, the conditions with which they shall comply: (operation and behaviour in normal service, operation and behaviour in case of overload and operation and behaviour in case of short-circuit, dielectic properties), tests intended for confirming that these conditions have been met and the methods to be adopted for these tests, and information to be marked on or given with the appartus.
-
-    The contents of the corrigendum of March 1997 have been included in this copy.
+- content: 'States the characteristics of circuit breakers, the conditions with which
+    they shall comply: (operation and behaviour in normal service, operation and behaviour
+    in case of overload and operation and behaviour in case of short-circuit, dielectic
+    properties), tests intended for confirming that these conditions have been met
+    and the methods to be adopted for these tests, and information to be marked on
+    or given with the appartus. The contents of the corrigendum of March 1997 have
+    been included in this copy.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Fixe les caractéristiques des disjoncteurs; les conditions auxquels ils doivent répondre (fonctionnement et tenue en service normal, fonctionnement et tenue en cas de surcharge et en cas de court-circuit; propriétés diélectriques); les essais destinés à vérifier si ces conditions sont remplies et les méthodes à adopter pour les essais; et les informations à marquer sur les appareils ou à fournir avec ceux-ci.
-
-    Le contenu du corrigendum de mars 1997 a été pris en considération dans cet exemplaire.
+- content: Fixe les caractéristiques des disjoncteurs; les conditions auxquels ils
+    doivent répondre (fonctionnement et tenue en service normal, fonctionnement et
+    tenue en cas de surcharge et en cas de court-circuit; propriétés diélectriques);
+    les essais destinés à vérifier si ces conditions sont remplies et les méthodes
+    à adopter pour les essais; et les informations à marquer sur les appareils ou
+    à fournir avec ceux-ci. Le contenu du corrigendum de mars 1997 a été pris en considération
+    dans cet exemplaire.
   language:
   - fr
   script:
@@ -264,7 +272,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

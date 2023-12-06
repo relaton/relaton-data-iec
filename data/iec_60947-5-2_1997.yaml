@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60947-5-2-1997
 title:
 - content: 'Low-voltage switchgear and controlgear - Part 5-2: Control circuit devices
@@ -10,7 +10,7 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: 'Appareillage à basse tension - Partie 5-2: Appareils et éléments de  commutation
+- content: 'Appareillage à basse tension - Partie 5-2: Appareils et éléments de commutation
     pour circuits de commande - Détecteurs de proximité'
   language:
   - fr
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18540
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60947-5-2{ed2.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60947-5-2:1997
@@ -102,17 +104,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60947-5-2-2007+AMD1-2012CSV
-    type: standard
-    docid:
-    - id: IEC 60947-5-2:2007+AMD1:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60947-5-2:2007+AMD1:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60947-5-2-2007/AMD1-2012
     type: standard
     docid:
@@ -121,6 +112,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60947-5-2:2007/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60947-5-2-2007+AMD1-2012CSV
+    type: standard
+    docid:
+    - id: IEC 60947-5-2:2007+AMD1:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60947-5-2:2007+AMD1:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -212,7 +214,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

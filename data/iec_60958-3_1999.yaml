@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60958-3-1999
 title:
 - content: 'Digital audio interface - Part 3: Consumer applications'
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18599
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60958-3{ed1.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60958-3:1999
@@ -75,17 +77,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60958-3-2006/AMD2-2015
-    type: standard
-    docid:
-    - id: IEC 60958-3:2006/AMD2:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60958-3:2006/AMD2:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60958-3-2006+AMD1-2009+AMD2-2015CSV
     type: standard
     docid:
@@ -94,6 +85,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60958-3:2006+AMD1:2009+AMD2:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60958-3-2006/AMD2-2015
+    type: standard
+    docid:
+    - id: IEC 60958-3:2006/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60958-3:2006/AMD2:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -141,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

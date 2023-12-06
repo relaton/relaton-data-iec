@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60974-1-1998
 title:
 - content: 'Arc welding equipment - Part 1: Welding power sources'
@@ -27,6 +27,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18646
   type: src
+- content: https://webstore.iec.ch/preview/info_iec60974-1{ed2.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 60974-1:1998
@@ -56,17 +58,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    This standard is applicable to power sources for arc welding and allied processes designed for industrial and professional use and supplied by a voltage within the low voltage range (as specified in IEC 38) or driven by mechanical means.
-    This standard is not applicable to welding power sources for manual metal arc welding with limited duty operation which are designed mainly for use by laymen.
+- content: This standard is applicable to power sources for arc welding and allied
+    processes designed for industrial and professional use and supplied by a voltage
+    within the low voltage range (as specified in IEC 38) or driven by mechanical
+    means. This standard is not applicable to welding power sources for manual metal
+    arc welding with limited duty operation which are designed mainly for use by laymen.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    La présente norme s'applique aux sources de courant pour soudage à l'arc et techniques connexes conçues pour usage industriel et professionnel et alimentées sous une tension du domaine de la basse tension (comme spécifié dans la CEI 60038) ou entraînées par des moyens mécaniques.
-    Elle ne s'applique pas aux sources de courant pour soudage manuel à l'arc à facteur de marche limité qui sont utilisées essentiellement par des non-professionnels.
+- content: La présente norme s'applique aux sources de courant pour soudage à l'arc
+    et techniques connexes conçues pour usage industriel et professionnel et alimentées
+    sous une tension du domaine de la basse tension (comme spécifié dans la CEI 60038)
+    ou entraînées par des moyens mécaniques. Elle ne s'applique pas aux sources de
+    courant pour soudage manuel à l'arc à facteur de marche limité qui sont utilisées
+    essentiellement par des non-professionnels.
   language:
   - fr
   script:
@@ -185,7 +192,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 26
