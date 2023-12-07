@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60335-2-4-2021
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-4: Particular
@@ -134,7 +134,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -144,6 +144,17 @@ copyright:
     url: www.iec.ch
   from: '2021'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-4-2021RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-4:2021 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-4:2021 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-4-2008+AMD1-2012+AMD2-2017CSV
@@ -168,17 +179,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-4-2008+AMD1-2012CSV
-    type: standard
-    docid:
-    - id: IEC 60335-2-4:2008+AMD1:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-4:2008+AMD1:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-4-2008/AMD1-2012
     type: standard
     docid:
@@ -187,6 +187,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-4:2008/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-4-2008+AMD1-2012CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-4:2008+AMD1:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-4:2008+AMD1:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -366,7 +377,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61
