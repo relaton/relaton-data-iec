@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-3-2-1995
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 3: Limits - Section 2: Limits
@@ -21,7 +21,7 @@ title:
   type: main
 - content: 'VERSION OFICIAL EN ESPANOL - Compatibilidad electromagnética (CEM) . Parte
     3: Límites. Sección 2: Límites para las emisiones de corriente armónica (equipos
-    con corriente de entrada  <= 16 A por fase).'
+    con corriente de entrada <= 16 A por fase).'
   language:
   - es
   script:
@@ -31,6 +31,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18719
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-3-2{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-3-2:1995
@@ -71,11 +73,14 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    Définit les limites pour les émissions de courant harmonique applicables aux appareils électriques et électroniques ayant un courant d'entrée dont la valeur est inférieure ou égale à 16 A par phase et qui sont destinés à être raccordés à des réseaux publics de distribution à basse tension. Les essais effectués conformément à la présente norme sont des essais de type. Les conditions d'essais pour des appareils particuliers sont indiquées à l'annexe C. Pour les
-    systèmes alimentés par des réseaux dont la tension nominale est
-    inférieure à 220 V (phase par rapport au neutre), les limites n'ont
-    pas encore été envisagées.
+- content: Définit les limites pour les émissions de courant harmonique applicables
+    aux appareils électriques et électroniques ayant un courant d'entrée dont la valeur
+    est inférieure ou égale à 16 A par phase et qui sont destinés à être raccordés
+    à des réseaux publics de distribution à basse tension. Les essais effectués conformément
+    à la présente norme sont des essais de type. Les conditions d'essais pour des
+    appareils particuliers sont indiquées à l'annexe C. Pour les systèmes alimentés
+    par des réseaux dont la tension nominale est inférieure à 220 V (phase par rapport
+    au neutre), les limites n'ont pas encore été envisagées.
   language:
   - fr
   script:
@@ -282,7 +287,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

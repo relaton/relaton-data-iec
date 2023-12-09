@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-4-1-1992
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4: Testing and measurement
@@ -31,6 +31,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18740
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-4-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-4-1:1992
@@ -60,19 +62,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Considers immunity tests for electric and/or electronic equipment (apparatus and systems) in its electromagnetic environment. Both conducted and radiated phenomena are considered including immunity tests for equipment connected to power, control and communication networks.
-
-    Replaces IEC 60801-1 (1984-11).
+- content: Considers immunity tests for electric and/or electronic equipment (apparatus
+    and systems) in its electromagnetic environment. Both conducted and radiated phenomena
+    are considered including immunity tests for equipment connected to power, control
+    and communication networks. Replaces IEC 60801-1 (1984-11).
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Concerne les essais d'immunité de matériel (appareils et systèmes) électriques et/ou électroniques, dans leur environnement électromagnétique (perturbations conduites et rayonnées). Concerne également les phénomènes conduits et rayonnés en incluant les essais d'immunité des matériels connectés aux réseaux électriques de puissance, de commande et de communication.
-
-    Remplace la CEI 60801-1 (1984-11).
+- content: Concerne les essais d'immunité de matériel (appareils et systèmes) électriques
+    et/ou électroniques, dans leur environnement électromagnétique (perturbations
+    conduites et rayonnées). Concerne également les phénomènes conduits et rayonnés
+    en incluant les essais d'immunité des matériels connectés aux réseaux électriques
+    de puissance, de commande et de communication. Remplace la CEI 60801-1 (1984-11).
   language:
   - fr
   script:
@@ -125,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77B

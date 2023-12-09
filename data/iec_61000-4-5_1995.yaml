@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-4-5-1995
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4: Testing and measurement
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18779
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-4-5{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-4-5:1995
@@ -59,9 +61,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Relates to the immunity requirements, test methods, and range of recommended test levels for equipment to unidirectional surges caused by overvoltages from switching and lightning transients. Several test levels are defined which relate to different environment and installation conditions. These requirements are developed for and are applicable to electrical and electronic equipment.
-    Establishes a common reference for evaluating the performance of equipment when subjected to high-energy disturbances on the power and inter-connection lines.
+- content: Relates to the immunity requirements, test methods, and range of recommended
+    test levels for equipment to unidirectional surges caused by overvoltages from
+    switching and lightning transients. Several test levels are defined which relate
+    to different environment and installation conditions. These requirements are developed
+    for and are applicable to electrical and electronic equipment. Establishes a common
+    reference for evaluating the performance of equipment when subjected to high-energy
+    disturbances on the power and inter-connection lines.
   language:
   - en
   script:
@@ -150,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77B

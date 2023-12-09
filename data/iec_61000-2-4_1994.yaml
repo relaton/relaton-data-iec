@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-2-4-1994
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 2: Environment - Section 4:
@@ -31,6 +31,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18710
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-2-4{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-2-4:1994
@@ -60,19 +62,23 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Gives the requirements for the compatibility levels for industrial and non-public networks. These levels are relevant to disturbances that may occur in the electrical power supply in normal operating conditions. This standard applies to low voltage and medium voltage a.c. power supply at 50 Hz/60 Hz. Networks for ships, aircraft, off-shore platforms and railways are out of its scope.
-
-    The contents of the corrigendum of August 1994 have been included in this copy.
+- content: Gives the requirements for the compatibility levels for industrial and
+    non-public networks. These levels are relevant to disturbances that may occur
+    in the electrical power supply in normal operating conditions. This standard applies
+    to low voltage and medium voltage a.c. power supply at 50 Hz/60 Hz. Networks for
+    ships, aircraft, off-shore platforms and railways are out of its scope. The contents
+    of the corrigendum of August 1994 have been included in this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Fixe les prescriptions en matière de niveaux de compatibilité pour les réseaux industriels et non publics. Ces niveaux sont conditionnés par les perturbations qui peuvent apparaître sur l'alimentation électrique de puissance dans les conditions normales d'utilisation.
-    Cette norme s'applique aux réseaux 50 Hz/60 Hz de puissance basse tension et moyenne tension alternative. Les réseaux pour bateaux, avions, plate-formes «off shore» et trains sont en dehors de son domaine d'application.
-
+- content: Fixe les prescriptions en matière de niveaux de compatibilité pour les
+    réseaux industriels et non publics. Ces niveaux sont conditionnés par les perturbations
+    qui peuvent apparaître sur l'alimentation électrique de puissance dans les conditions
+    normales d'utilisation. Cette norme s'applique aux réseaux 50 Hz/60 Hz de puissance
+    basse tension et moyenne tension alternative. Les réseaux pour bateaux, avions,
+    plate-formes «off shore» et trains sont en dehors de son domaine d'application.
     Le contenu du corrigendum d'août 1994 a été pris en considération dans cet exemplaire.
   language:
   - fr
@@ -104,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

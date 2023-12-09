@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-4-11-1994
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4: Testing and measuring techniques
@@ -32,6 +32,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18743
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-4-11{ed1.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-4-11:1994
@@ -61,15 +63,12 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    This standard defines the immunity test methods and range of
-    preferred test levels for electrical and electronic equipment
-    connected to low voltage power supply networks for voltages dips,
-    short interruptions, and voltage variations. It applies to
-    electrical and electronic equipment having a rated input current
-    not exceeding 16 A per phase. It does not apply to electrical and
-    electronic equipment for connection to d.c. networks or 400 Hz a.c.
-    networks.
+- content: This standard defines the immunity test methods and range of preferred
+    test levels for electrical and electronic equipment connected to low voltage power
+    supply networks for voltages dips, short interruptions, and voltage variations.
+    It applies to electrical and electronic equipment having a rated input current
+    not exceeding 16 A per phase. It does not apply to electrical and electronic equipment
+    for connection to d.c. networks or 400 Hz a.c. networks.
   language:
   - en
   script:
@@ -168,7 +167,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77B

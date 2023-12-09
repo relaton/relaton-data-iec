@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61156-7-1-2003/COR1-2003
 title:
 - content: 'Corrigendum 1 - Multicore and symmetrical pair/quad cables for digital
@@ -27,6 +27,8 @@ date:
   value: '2003-09-05'
 - type: stable-until
   value: '2026-12-31'
+- type: obsoleted
+  value: '2023-12-08'
 contributor:
 - organization:
     name:
@@ -45,7 +47,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: WITHDRAWN
 copyright:
 - owner:
   - name:
@@ -54,9 +56,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2003'
+relation:
+- type: obsoletes
+  bibitem:
+    id: IEC61156-7-1-2003
+    type: standard
+    docid:
+    - id: IEC 61156-7-1:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61156-7-1:2003
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61000-4-12-1995
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4: Testing and measurement
@@ -31,6 +31,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18746
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61000-4-12{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61000-4-12:1995
@@ -60,35 +62,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    This basic standard establishes the immunity requirements and a
-    common reference for evaluating in a laboratory the performance of
-    electrical and electronic equipment intended for residential,
-    commercial and industrial application, as well as of equipment
-    intended for electrical stations, as applicable.
-    The purpose of this standard is to define:
-
-    - test voltage and current waveforms;
-
-    - ranges of test levels;
-
-    - test equipment;
-
-    - test set-up;
-
-    - test procedure.
+- content: 'This basic standard establishes the immunity requirements and a common
+    reference for evaluating in a laboratory the performance of electrical and electronic
+    equipment intended for residential, commercial and industrial application, as
+    well as of equipment intended for electrical stations, as applicable. The purpose
+    of this standard is to define: - test voltage and current waveforms; - ranges
+    of test levels; - test equipment; - test set-up; - test procedure.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Cette norme fondamentale a pour objet d'établir les exigences d'immunité et de constituer une référence commune pour l'évaluation en laboratoire des performances d'équipements électriques et électroniques destinés aux applications résidentielles, commerciales et industrielles, ainsi que d'équipements destinés aux postes électriques, le cas échéant. Elle définit les paramètres suivants:
-    - tension d'essai et formes d'ondes de courant;
-    - gammes de niveaux d'essais;
-    - matériel d'essai;
-    - installation d'essai;
-    - procédure d'essai.
+- content: 'Cette norme fondamentale a pour objet d''établir les exigences d''immunité
+    et de constituer une référence commune pour l''évaluation en laboratoire des performances
+    d''équipements électriques et électroniques destinés aux applications résidentielles,
+    commerciales et industrielles, ainsi que d''équipements destinés aux postes électriques,
+    le cas échéant. Elle définit les paramètres suivants: - tension d''essai et formes
+    d''ondes de courant; - gammes de niveaux d''essais; - matériel d''essai; - installation
+    d''essai; - procédure d''essai.'
   language:
   - fr
   script:
@@ -141,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77B
