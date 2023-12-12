@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC18092-2013/COR1-2015
 title:
 - content: Corrigendum 1 - Information technology - Telecommunications and information
@@ -57,7 +57,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -74,6 +74,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: ISO/IEC18092-2013
+    type: standard
+    docid:
+    - id: ISO/IEC 18092:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 18092:2013
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC18092-2004
     type: standard
     docid:
@@ -85,7 +96,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

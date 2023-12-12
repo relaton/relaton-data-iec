@@ -1,0 +1,110 @@
+---
+schema-version: v1.2.7
+id: ISO/IEC4396-9-2023
+title:
+- content: 'Telecommunications and information exchange between systems - Recursive
+    inter-network architecture - Part 9: Error and flow control protocol'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/90346
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec4396-9{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 4396-9:2023
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:4396-9:2023-12:::'
+  type: URN
+date:
+- type: published
+  value: '2023-12-05'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2023-12-05'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This document provides the Error and Flow Control Protocol (EFCP) specification.
+    EFCP provides an inter-process communication (IPC) service to an application process,
+    which can be a (N+1)-IPC process (IPCP), with the requested Quality of Service
+    (QoS). One or more service data units (SDUs) are passed on the (N)-port-id to
+    the (N)-DIF (distributed IPC facility) to be sent to the destination application
+    process. Protocol data units (PDUs) transferred by the (N)-DIF are delivered to
+    the (N)-port-id for the using Application Process. This document describes the
+    placement of EFCP within RINA, the components EFCP consists of, and the mechanisms
+    and policies that are involved in EFCP’s work, and the timers and control mechanisms
+    required to manage the connection.<br />\r\nEFCP comprises two logical components,
+    the data transfer procedures (DTP), providing tightly bound mechanisms and the
+    data transfer control procedures (DTCP), which provides loosely bound mechanisms.<br
+    />\r\nThis document provides:<br />\r\n- the service definition;<br />\r\n- an
+    overview of EFCP;<br />\r\n- a description of the placement of EFCP within recursive
+    internetwork architecture (RINA);<br />\r\n- the common elements of data transfer
+    protocol (DTP) and data transfer control protocol (DTCP);<br />\r\n- DTP structure
+    and functions;<br />\r\n- DTCP structure and functions;<br />\r\n- an informative
+    list of all policies in EFCP."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2023'
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.100.30
+  text: Network layer
+structuredidentifier:
+  project_number: '4396'
+  part: '9'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:E
