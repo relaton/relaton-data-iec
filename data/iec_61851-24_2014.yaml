@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61851-24-2014
 title:
 - content: 'Electric vehicle conductive charging system - Part 24: Digital communication
@@ -96,7 +96,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -105,9 +105,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2014'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61851-24-2014/COR1-2015
+    type: standard
+    docid:
+    - id: IEC 61851-24:2014/COR1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61851-24:2014/COR1:2015
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 69

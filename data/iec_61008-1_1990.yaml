@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61008-1-1990
 title:
 - content: 'Residual current operated circuit-breakers without integral overcurrent
@@ -22,6 +22,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18815
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61008-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61008-1:1990
@@ -50,11 +52,12 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to residual current operated circuit-breakers functionally independent of, or functionally dependent on, line
-    voltage, for household and similar uses, not incorporating
-    overcurrent protection, for rated voltages not exceeding 440 V a.c. and rated currents not exceeding 125 A, intended principally for protection against shock-hazard.
-    This part includes definitions, requirements and tests, covering all types of RCCBs.
+- content: Applies to residual current operated circuit-breakers functionally independent
+    of, or functionally dependent on, line voltage, for household and similar uses,
+    not incorporating overcurrent protection, for rated voltages not exceeding 440
+    V a.c. and rated currents not exceeding 125 A, intended principally for protection
+    against shock-hazard. This part includes definitions, requirements and tests,
+    covering all types of RCCBs.
   language:
   - en
   script:
@@ -174,7 +177,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

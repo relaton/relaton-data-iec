@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61010-2-032-1994
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -32,6 +32,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18840
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61010-2-032{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61010-2-032:1994
@@ -61,36 +63,26 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to hand-held and hand-manipulated CURRENT CLAMPS. These
-    CURRENT CLAMPS are for use in the measurement of current without
-    interruption of the current path of the circuit in which it is
-    measured. They may be stand-alone CURRENT CLAMPS which are
-    themselves within the scope of part 1, or accessories to other
-    equipment within the scope of part 1.
-
-    This standard does not apply to current transformers or current
-    transducers intended for fixed installations.
-
-    This standard has the status of a group safety publication.
+- content: Applies to hand-held and hand-manipulated CURRENT CLAMPS. These CURRENT
+    CLAMPS are for use in the measurement of current without interruption of the current
+    path of the circuit in which it is measured. They may be stand-alone CURRENT CLAMPS
+    which are themselves within the scope of part 1, or accessories to other equipment
+    within the scope of part 1. This standard does not apply to current transformers
+    or current transducers intended for fixed installations. This standard has the
+    status of a group safety publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux PINCES AMPEREMETRIQUES tenues ou manipulées à la
-    main. Ces PINCES AMPEREMETRIQUES sont destinées au mesurage du
-    courant dans le circuit mesuré sans interruption de ce circuit.
-    Il peut s'agir de PINCES AMPEREMETRIQUES simples entrant dans le
-    domaine d'application de la partie 1, ou d'accessoires à d'autres
-    appareils électriques entrant dans le domaine d'application de la
-    partie 1.
-
-    Cette norme ne s'applique pas aux transformateurs de courant ni aux
-    transducteurs de courant prévus pour des installations fixes.
-
-    Cette norme a le statut d'une publication groupée de sécurité.
+- content: S'applique aux PINCES AMPEREMETRIQUES tenues ou manipulées à la main. Ces
+    PINCES AMPEREMETRIQUES sont destinées au mesurage du courant dans le circuit mesuré
+    sans interruption de ce circuit. Il peut s'agir de PINCES AMPEREMETRIQUES simples
+    entrant dans le domaine d'application de la partie 1, ou d'accessoires à d'autres
+    appareils électriques entrant dans le domaine d'application de la partie 1. Cette
+    norme ne s'applique pas aux transformateurs de courant ni aux transducteurs de
+    courant prévus pour des installations fixes. Cette norme a le statut d'une publication
+    groupée de sécurité.
   language:
   - fr
   script:
@@ -108,6 +100,39 @@ copyright:
     url: www.iec.ch
   from: '1994'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61010-2-032-2019/COR1-2020
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019/COR1:2020
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019/COR1:2020
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61010-2-032-2019RLV
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61010-2-032-2019
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61010-2-032-2012
@@ -132,7 +157,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

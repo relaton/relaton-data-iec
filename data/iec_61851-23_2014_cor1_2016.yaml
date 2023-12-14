@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61851-23-2014/COR1-2016
 title:
 - content: 'Corrigendum 1 - Electric vehicle conductive charging systems - Part 23:
@@ -52,7 +52,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -61,9 +61,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2014'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61851-23-2014
+    type: standard
+    docid:
+    - id: IEC 61851-23:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61851-23:2014
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 69

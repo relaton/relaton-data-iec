@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61300-1-1995
 title:
 - content: 'Fibre optic interconnecting devices and passive components - Basic test
@@ -30,6 +30,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19499
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61300-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61300-1:1995
@@ -59,19 +61,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Provides uniform and reproducible environmental test and measurement procedures for fibre optic interconnecting devices and passive components.
-
-    The contents of the corrigendum of March 1995 have been included in this copy.
+- content: Provides uniform and reproducible environmental test and measurement procedures
+    for fibre optic interconnecting devices and passive components. The contents of
+    the corrigendum of March 1995 have been included in this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Fournit des méthodes d'essais d'environnement et de mesures uniformes et reproductibles concernant les dispositifs d'interconnexion et les composants passifs à fibres optiques.
-
-    Le contenu du corrigendum de mars 1995 a été pris en considération dans cet exemplaire.
+- content: Fournit des méthodes d'essais d'environnement et de mesures uniformes et
+    reproductibles concernant les dispositifs d'interconnexion et les composants passifs
+    à fibres optiques. Le contenu du corrigendum de mars 1995 a été pris en considération
+    dans cet exemplaire.
   language:
   - fr
   script:
@@ -135,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

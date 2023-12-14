@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61044-1990
 title:
 - content: Opportunity-charging of lead-acid traction batteries
@@ -27,6 +27,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18936
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61044{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61044:1990
@@ -56,12 +58,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    This Technical Report covers the 'opportunity-charging' of
-    lead-acid traction batteries, i.e., the use of free time during a
-    working period to top up the charge and thus extend the working day
-    of a battery whilst avoiding excessive discharge.
-
+- content: This Technical Report covers the 'opportunity-charging' of lead-acid traction
+    batteries, i.e., the use of free time during a working period to top up the charge
+    and thus extend the working day of a battery whilst avoiding excessive discharge.
     Has the status of a technical report.
   language:
   - en
@@ -102,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

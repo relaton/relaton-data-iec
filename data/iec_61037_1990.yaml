@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61037-1990
 title:
 - content: Electronic ripple control receivers for tariff and load control
@@ -28,6 +28,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18927
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61037{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61037:1990
@@ -57,9 +59,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies requirements for the type test of indoor self-contained static ripple control receivers for the reception and interpretation of pulses of a single audio frequency superimposed on the voltage of the electricity distribution network and for the execution of the corresponding switching operations.
-    Requirements for constructional details internal to the receivers are not specified.
+- content: Specifies requirements for the type test of indoor self-contained static
+    ripple control receivers for the reception and interpretation of pulses of a single
+    audio frequency superimposed on the voltage of the electricity distribution network
+    and for the execution of the corresponding switching operations. Requirements
+    for constructional details internal to the receivers are not specified.
   language:
   - en
   script:
@@ -123,7 +127,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 13

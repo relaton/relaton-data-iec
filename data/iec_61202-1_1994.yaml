@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61202-1-1994
 title:
 - content: 'Fibre optic isolators - Part 1: Generic specification'
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19335
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61202-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61202-1:1994
@@ -47,22 +49,19 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to the family of fibre optic isolators used in the field of
-    fibre optics, which are non-reciprocal optical devices; are passive
-    components; have two optical ports for directional transmission of
-    optical power; are wavelength sensitive.
+- content: Applies to the family of fibre optic isolators used in the field of fibre
+    optics, which are non-reciprocal optical devices; are passive components; have
+    two optical ports for directional transmission of optical power; are wavelength
+    sensitive.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Applicable à la famille des isolateurs pour fibres optiques
-    utilisés dans le domaine des fibres optiques et qui constituent des
-    dispositifs optiques non réciproques; constituent des composants
-    passifs; comportent deux portes optiques pour la transmission
-    directionnelle de la puissance optique; sont sensibles aux
+- content: Applicable à la famille des isolateurs pour fibres optiques utilisés dans
+    le domaine des fibres optiques et qui constituent des dispositifs optiques non
+    réciproques; constituent des composants passifs; comportent deux portes optiques
+    pour la transmission directionnelle de la puissance optique; sont sensibles aux
     longueurs d'onde.
   language:
   - fr
@@ -105,7 +104,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

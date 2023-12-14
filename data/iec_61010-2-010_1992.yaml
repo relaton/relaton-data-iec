@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61010-2-010-1992
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -32,6 +32,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18835
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61010-2-010{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61010-2-010:1992
@@ -61,19 +63,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies only to electrically powered laboratory equipment for the heating of materials but excludes equipment for the heating and ventilation of laboratories and sterilizing equipment.
-
-    Has the status of a group safety publication in accordance with IEC Guide 104.
+- content: Applies only to electrically powered laboratory equipment for the heating
+    of materials but excludes equipment for the heating and ventilation of laboratories
+    and sterilizing equipment. Has the status of a group safety publication in accordance
+    with IEC Guide 104.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique seulement aux appareils alimentés électriquement utilisés dans des laboratoires pour l'échauffement des matières mais sont exclus les appareils pour le chauffage et la ventilation des laboratoires ainsi que les appareils de stérilisation.
-
-    A le statut d'une publication groupée de sécurité conformément au Guide 104.
+- content: S'applique seulement aux appareils alimentés électriquement utilisés dans
+    des laboratoires pour l'échauffement des matières mais sont exclus les appareils
+    pour le chauffage et la ventilation des laboratoires ainsi que les appareils de
+    stérilisation. A le statut d'une publication groupée de sécurité conformément
+    au Guide 104.
   language:
   - fr
   script:
@@ -126,7 +129,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61268-1995
 title:
 - content: Alternating current static var-hour meters for reactive energy (classes
@@ -29,6 +29,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19434
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61268{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61268:1995
@@ -58,22 +60,19 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies only to newly manufactured static var-hour meters of
-    accuracy classes 2 and 3 for the measurement of alternating current
-    electrical reactive energy of a frequency in the range 45 Hz to 65
-    Hz and, like IEC 60687 and IEC 61036, it includes type tests only.
+- content: Applies only to newly manufactured static var-hour meters of accuracy classes
+    2 and 3 for the measurement of alternating current electrical reactive energy
+    of a frequency in the range 45 Hz to 65 Hz and, like IEC 60687 and IEC 61036,
+    it includes type tests only.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique uniquement aux compteurs statiques neufs des classes de
-    précision 2 et 3. destinés à la mesure de l'énergie électrique
-    réactive en courant alternatif de fréquence comprise entre 45 Hz et
-    65 Hz; comme la CEI 60687 et la CEI 61036, cette norme n'inclut que
-    les essais de type.
+- content: S'applique uniquement aux compteurs statiques neufs des classes de précision
+    2 et 3. destinés à la mesure de l'énergie électrique réactive en courant alternatif
+    de fréquence comprise entre 45 Hz et 65 Hz; comme la CEI 60687 et la CEI 61036,
+    cette norme n'inclut que les essais de type.
   language:
   - fr
   script:
@@ -92,7 +91,8 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 13

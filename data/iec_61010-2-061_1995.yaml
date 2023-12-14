@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61010-2-061-1995
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -32,6 +32,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18847
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61010-2-061{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61010-2-061:1995
@@ -61,21 +63,26 @@ language:
 script:
 - Latn
 abstract:
-- content: "Applies to electrically powered laboratory atomic spectrometers with thermal
+- content: Applies to electrically powered laboratory atomic spectrometers with thermal
     atomization, including atomic absorption spectrometers, emission flame photometers,
     atomic fluorescence spectrophotometers, inductively coupled plasma spectrometers,
     microwave coupled plasma spectrometers, and mass spectrometers, all with thermal
     atomization and ionization (including tubing and connectors which are provided
-    by the manufacturer for connection to external supplies). \n\nThis publication
-    has the status of a group safety publication in accordance with IEC Guide 104."
+    by the manufacturer for connection to external supplies). This publication has
+    the status of a group safety publication in accordance with IEC Guide 104.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux spectromètres de laboratoire équipés d'une alimentation électrique et d'une vaporisation thermique, y compris les spectromètres à absorption atomique, les photomètres de flamme, les spectromètres à fluorescence atomique, les spectromètres à plasma couplé par induction, les spectromètres à plasma couplé par micro-onde, les spectromètres de masse, tous avec vaporisation et ionisation thermiques, y compris les tuyaux et connecteurs des équipements qui sont fournis par le constructeur pour connexion aux alimentations externes.
-    A le statut d'une publication groupée de sécurité conformément au Guide 104.
+- content: S'applique aux spectromètres de laboratoire équipés d'une alimentation
+    électrique et d'une vaporisation thermique, y compris les spectromètres à absorption
+    atomique, les photomètres de flamme, les spectromètres à fluorescence atomique,
+    les spectromètres à plasma couplé par induction, les spectromètres à plasma couplé
+    par micro-onde, les spectromètres de masse, tous avec vaporisation et ionisation
+    thermiques, y compris les tuyaux et connecteurs des équipements qui sont fournis
+    par le constructeur pour connexion aux alimentations externes. A le statut d'une
+    publication groupée de sécurité conformément au Guide 104.
   language:
   - fr
   script:
@@ -117,7 +124,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

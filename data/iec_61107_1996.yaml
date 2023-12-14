@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61107-1996
 title:
 - content: Data exchange for meter reading, tariff and load control - Direct local
@@ -29,6 +29,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19047
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61107{ed2.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61107:1996
@@ -68,13 +70,11 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie le matériel et les protocoles pour les systèmes locaux.
-    Concerne les systèmes à accès direct, dans lesquels le terminal
-    de saisie portable est connecté à un seul appareil à la
-    fois. La connexion peut être permanente ou débranchable par un
-    couplage électrique ou optique. Le protocole est basé sur le
-    modèle OSI pour la communication entre les systèmes ouverts.
+- content: Spécifie le matériel et les protocoles pour les systèmes locaux. Concerne
+    les systèmes à accès direct, dans lesquels le terminal de saisie portable est
+    connecté à un seul appareil à la fois. La connexion peut être permanente ou débranchable
+    par un couplage électrique ou optique. Le protocole est basé sur le modèle OSI
+    pour la communication entre les systèmes ouverts.
   language:
   - fr
   script:
@@ -105,7 +105,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 13

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61108-1-1996
 title:
 - content: 'Global navigation satellite systems (GNSS) - Part 1: Global positioning
@@ -12,7 +12,7 @@ title:
   format: text/plain
   type: main
 - content: 'Système mondial de navigation par satellite (GNSS) - Partie 1: Système
-    de positionnement par satellite GPS (Global Positioning  System) - Matériel de
+    de positionnement par satellite GPS (Global Positioning System) - Matériel de
     réception - Normes de fonctionnement, méthodes d''essai et résultats d''essai
     exigibles'
   language:
@@ -34,6 +34,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19048
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61108-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61108-1:1996
@@ -63,24 +65,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies the minimum performance standards, methods of testing and
-    required test results for GPS shipborne receiver equipment, based
-    upon IMO Resolution A.819(19), which uses the signals from the USA
-    Department of Defense Global Positioning System, in order to
-    determine position.
+- content: Specifies the minimum performance standards, methods of testing and required
+    test results for GPS shipborne receiver equipment, based upon IMO Resolution A.819(19),
+    which uses the signals from the USA Department of Defense Global Positioning System,
+    in order to determine position.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie les exigences minimales en matière de normes de
-    fonctionnement, de méthodes d'essai et de résultats d'essai exigés
-    pour le matériel de réception de bord des navires, basé sur la
-    résolution A.819(1 9) de l'OMI, qui utilise les signaux provenant du
-    système de positionnement par satellite GPS du Ministère de la
-    Défense des Etat s-Unis d'Amérique pour déterminer la position.
+- content: Spécifie les exigences minimales en matière de normes de fonctionnement,
+    de méthodes d'essai et de résultats d'essai exigés pour le matériel de réception
+    de bord des navires, basé sur la résolution A.819(1 9) de l'OMI, qui utilise les
+    signaux provenant du système de positionnement par satellite GPS du Ministère
+    de la Défense des Etat s-Unis d'Amérique pour déterminer la position.
   language:
   - fr
   script:
@@ -99,7 +97,8 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 80

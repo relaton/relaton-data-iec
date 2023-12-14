@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61098-1992
 title:
 - content: Installed personnel surface contamination monitoring assemblies for alpha
@@ -10,9 +10,8 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: |-
-    Ensembles fixes de contrôle de la contamination surfacique du
-    personnel par les émetteurs alpha et bêta
+- content: Ensembles fixes de contrôle de la contamination surfacique du personnel
+    par les émetteurs alpha et bêta
   language:
   - fr
   script:
@@ -22,6 +21,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19039
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61098{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61098:1992
@@ -58,10 +59,9 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux ensembles d'alarme de contamination permettant le
-    contrôle de la contamination radioactive surfacique alpha et bêta
-    du personnel, vêtu ou non.
+- content: S'applique aux ensembles d'alarme de contamination permettant le contrôle
+    de la contamination radioactive surfacique alpha et bêta du personnel, vêtu ou
+    non.
   language:
   - fr
   script:
@@ -92,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45B

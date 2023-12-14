@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61284-1995
 title:
 - content: Overhead lines - Requirements and tests for fittings
@@ -9,9 +9,7 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: |-
-    Lignes aériennes - Exigences et essais pour le matériel
-    d'équipement
+- content: Lignes aériennes - Exigences et essais pour le matériel d'équipement
   language:
   - fr
   script:
@@ -21,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19462
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61284{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61284:1995
@@ -57,12 +57,10 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique au matériel d'équipement pour lignes aériennes dont la
-    tension nominale dépasse 45 kV. Il est possible de l'appliquer
-    également aux matériels d'équipement pour lignes aériennes dont la
-    tension nominale est inférieure et à un matériel d'équipement
-    similaire pour les postes.
+- content: S'applique au matériel d'équipement pour lignes aériennes dont la tension
+    nominale dépasse 45 kV. Il est possible de l'appliquer également aux matériels
+    d'équipement pour lignes aériennes dont la tension nominale est inférieure et
+    à un matériel d'équipement similaire pour les postes.
   language:
   - fr
   script:
@@ -81,7 +79,8 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 11

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61316-1994
 title:
 - content: Industrial cable reels
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19620
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61316{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61316:1994
@@ -47,23 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to cable reels with a rated operating voltage not exceeding
-    690 V a.c./d.c. and 500 Hz with a rated current not exceeding 63A,
-    primarily intended to industrial use, either indoors or outdoors,
-    for use with accessories complying with IEC 60309-1.
+- content: Applies to cable reels with a rated operating voltage not exceeding 690
+    V a.c./d.c. and 500 Hz with a rated current not exceeding 63A, primarily intended
+    to industrial use, either indoors or outdoors, for use with accessories complying
+    with IEC 60309-1.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux enrouleurs de câble ayant une tension assignée ne
-    dépassant pas 690 V en courant continu ou en courant alternatif et
-    500 Hz avec un courant ne dépassant pas 63 A, essentiellement
-    destinés aux usages industriels, à l'intérieur ou à l'extérieur des
-    bâtiments, devant être utilisés avec des appareils conformes à la
-    CEI 60309-1.
+- content: S'applique aux enrouleurs de câble ayant une tension assignée ne dépassant
+    pas 690 V en courant continu ou en courant alternatif et 500 Hz avec un courant
+    ne dépassant pas 63 A, essentiellement destinés aux usages industriels, à l'intérieur
+    ou à l'extérieur des bâtiments, devant être utilisés avec des appareils conformes
+    à la CEI 60309-1.
   language:
   - fr
   script:
@@ -94,7 +93,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23H

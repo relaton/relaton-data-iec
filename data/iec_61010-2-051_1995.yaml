@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61010-2-051-1995
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -32,6 +32,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/18846
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61010-2-051{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61010-2-051:1995
@@ -61,19 +63,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to electrically operated laboratory equipment and its accessories for mechanical mixing and stirring, where mechanical energy influences the shape or size or homogeneity of materials and their accessories. The requirements for equipment which contain heating devices are given in IEC 61010-2-010.
-
-    This publication has the status of a group safety publication in accordance with IEC Guide 104.
+- content: Applies to electrically operated laboratory equipment and its accessories
+    for mechanical mixing and stirring, where mechanical energy influences the shape
+    or size or homogeneity of materials and their accessories. The requirements for
+    equipment which contain heating devices are given in IEC 61010-2-010. This publication
+    has the status of a group safety publication in accordance with IEC Guide 104.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux mixeurs et agitateurs électriques de laboratoire qui modifient la forme ou la taille ou l'homogénéité de matériaux en utilisant une énergie mécanique, et à leurs accessoires. Des prescriptions additionnelles pour appareils électriques contenant des dispositifs de chauffage sont données dans la CEI 61010-2-010.
-
-    A le statut d'une publication groupée de sécurité conformément au Guide 104.
+- content: S'applique aux mixeurs et agitateurs électriques de laboratoire qui modifient
+    la forme ou la taille ou l'homogénéité de matériaux en utilisant une énergie mécanique,
+    et à leurs accessoires. Des prescriptions additionnelles pour appareils électriques
+    contenant des dispositifs de chauffage sont données dans la CEI 61010-2-010. A
+    le statut d'une publication groupée de sécurité conformément au Guide 104.
   language:
   - fr
   script:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66
