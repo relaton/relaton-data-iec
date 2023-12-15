@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60335-2-65-2002/AMD1-2008
 title:
 - content: 'Amendment 1 - Household and similar electrical appliances - Safety - Part
@@ -62,7 +62,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -72,6 +72,61 @@ copyright:
     url: www.iec.ch
   from: '2002'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-65-2002/AMD2-2015
+    type: standard
+    docid:
+    - id: IEC 60335-2-65:2002/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-65:2002/AMD2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-65-2002+AMD1-2008+AMD2-2015CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-65:2002+AMD1:2008+AMD2:2015 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-65:2002+AMD1:2008+AMD2:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-65-2002+AMD1-2008CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-65:2002+AMD1:2008 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-65:2002+AMD1:2008 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-65-2002/COR1-2004
+    type: standard
+    docid:
+    - id: IEC 60335-2-65:2002/COR1:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-65:2002/COR1:2004
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-65-2002
+    type: standard
+    docid:
+    - id: IEC 60335-2-65:2002
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-65:2002
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-65-1993/AMD1-2000
@@ -96,7 +151,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

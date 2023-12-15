@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61557-9-2014
 title:
 - content: 'Electrical safety in low voltage distribution systems up to 1 000 V a.c.
@@ -107,7 +107,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -117,6 +117,28 @@ copyright:
     url: www.iec.ch
   from: '2014'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61557-9-2014/COR2-2017
+    type: standard
+    docid:
+    - id: IEC 61557-9:2014/COR2:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61557-9:2014/COR2:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61557-9-2014/COR1-2016
+    type: standard
+    docid:
+    - id: IEC 61557-9:2014/COR1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61557-9:2014/COR1:2016
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61557-9-2009
@@ -141,7 +163,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85
