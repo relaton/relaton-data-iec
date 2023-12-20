@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60529-1989+AMD1-1999CSV/COR3-2009
 title:
 - content: Corrigendum 3 - Degrees of protection provided by enclosures (IP Code)
@@ -107,17 +107,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60529-1976+AMD1-1978CSV
-    type: standard
-    docid:
-    - id: IEC 60529:1976+AMD1:1978 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60529:1976+AMD1:1978 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60529-1976
     type: standard
     docid:
@@ -127,9 +116,21 @@ relation:
     formattedref:
       content: IEC 60529:1976
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60529-1976+AMD1-1978CSV
+    type: standard
+    docid:
+    - id: IEC 60529:1976+AMD1:1978 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60529:1976+AMD1:1978 CSV
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 70
