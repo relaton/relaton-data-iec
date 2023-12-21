@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60691-2015/AMD1-2019
 title:
 - content: Amendment 1 - Thermal-links - Requirements and application guide
@@ -95,17 +95,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60691-2002+AMD1-2006+AMD2-2010CSV
-    type: standard
-    docid:
-    - id: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60691-2002/AMD2-2010
     type: standard
     docid:
@@ -114,6 +103,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60691:2002/AMD2:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60691-2002+AMD1-2006+AMD2-2010CSV
+    type: standard
+    docid:
+    - id: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60691:2002+AMD1:2006+AMD2:2010 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -172,17 +172,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60691-1993+AMD1-1995CSV
-    type: standard
-    docid:
-    - id: IEC 60691:1993+AMD1:1995 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60691:1993+AMD1:1995 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60691-1993
     type: standard
     docid:
@@ -191,6 +180,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60691:1993
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60691-1993+AMD1-1995CSV
+    type: standard
+    docid:
+    - id: IEC 60691:1993+AMD1:1995 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60691:1993+AMD1:1995 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -205,7 +205,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

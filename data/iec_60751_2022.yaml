@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60751-2022
 title:
 - content: Industrial platinum resistance thermometers and platinum temperature sensors
@@ -125,17 +125,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60751-1983
-    type: standard
-    docid:
-    - id: IEC 60751:1983
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60751:1983
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60751-1983+AMD1-1986CSV
     type: standard
     docid:
@@ -145,9 +134,21 @@ relation:
     formattedref:
       content: IEC 60751:1983+AMD1:1986 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60751-1983
+    type: standard
+    docid:
+    - id: IEC 60751:1983
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60751:1983
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

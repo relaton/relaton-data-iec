@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60633-2019
 title:
 - content: High-voltage direct current (HVDC) transmission - Vocabulary
@@ -112,17 +112,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60633-1998/AMD2-2015
-    type: standard
-    docid:
-    - id: IEC 60633:1998/AMD2:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60633:1998/AMD2:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60633-1998+AMD1-2009+AMD2-2015CSV
     type: standard
     docid:
@@ -131,6 +120,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60633:1998+AMD1:2009+AMD2:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60633-1998/AMD2-2015
+    type: standard
+    docid:
+    - id: IEC 60633:1998/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60633:1998/AMD2:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -178,7 +178,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F
