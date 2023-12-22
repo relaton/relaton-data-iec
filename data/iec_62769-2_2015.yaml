@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC62769-2-2015
 title:
 - content: 'Field Device Integration (FDI) - Part 2: FDI Client'
@@ -81,17 +81,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62769-2-2021
-    type: standard
-    docid:
-    - id: IEC 62769-2:2021
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62769-2:2021
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62769-2-2021RLV
     type: standard
     docid:
@@ -101,9 +90,21 @@ relation:
     formattedref:
       content: IEC 62769-2:2021 RLV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62769-2-2021
+    type: standard
+    docid:
+    - id: IEC 62769-2:2021
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62769-2:2021
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65E
