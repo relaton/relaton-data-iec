@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IECGUIDE112-1998
 title:
 - content: Guide on the safety of multimedia equipment
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/20538
   type: src
+- content: https://webstore.iec.ch/preview/info_iecguide112{ed1.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC GUIDE 112:1998
@@ -47,19 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    This Guide contains guidelines for using the current editions of IEC 60065 and IEC 60950 in evaluating the safety of multimedia equipment.
-
-    Requirements which should be fulfilled in addition to those in the current two standards are specified in this Guide.
+- content: This Guide contains guidelines for using the current editions of IEC 60065
+    and IEC 60950 in evaluating the safety of multimedia equipment. Requirements which
+    should be fulfilled in addition to those in the current two standards are specified
+    in this Guide.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Le présent guide contient des lignes directrices pour l'utilisation des éditions actuelles de la CEI 60065 et de la 60950 pour l'évaluation de la sécurité des matériels multimédias.
-
-    Les prescriptions qu'il convient de remplir en plus de celles des éditions actuelles des deux normes sont spécifiées dans le présent guide.
+- content: Le présent guide contient des lignes directrices pour l'utilisation des
+    éditions actuelles de la CEI 60065 et de la 60950 pour l'évaluation de la sécurité
+    des matériels multimédias. Les prescriptions qu'il convient de remplir en plus
+    de celles des éditions actuelles des deux normes sont spécifiées dans le présent
+    guide.
   language:
   - fr
   script:
@@ -101,7 +104,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ACOS

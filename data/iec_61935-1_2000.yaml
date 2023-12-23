@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61935-1-2000
 title:
 - content: 'Generic cabling systems - Specification for the testing of balanced communication
@@ -22,6 +22,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/20132
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61935-1{ed1.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61935-1:2000
@@ -50,9 +52,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies reference measurement procedures for cabling parameters
-    and the requirements for field tester accuracy to measure cabling parameters identified in ISO/IEC 11801.
+- content: Specifies reference measurement procedures for cabling parameters and the
+    requirements for field tester accuracy to measure cabling parameters identified
+    in ISO/IEC 11801.
   language:
   - en
   script:
@@ -146,7 +148,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

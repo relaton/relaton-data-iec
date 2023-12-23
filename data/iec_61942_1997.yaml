@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61942-1997
 title:
 - content: Live working - Gloves and mitts with mechanical protection
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/20152
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61942{ed1.0}b.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61942:1997
@@ -47,23 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Is applicable to insulating gloves and mitts made of plastic or elastomer with appropriate mechanical protection for use without over-gloves. Unless otherwise stated, the use of the term glove only includes gloves and mitts.
-
-    The gloves are intended to be used for working live or close to live parts at nominal voltages up to 7 500 V a.c. or 11 250 V d.c.
-
-    The contents of the corrigendum of May 2000 have been included in this copy.
+- content: Is applicable to insulating gloves and mitts made of plastic or elastomer
+    with appropriate mechanical protection for use without over-gloves. Unless otherwise
+    stated, the use of the term glove only includes gloves and mitts. The gloves are
+    intended to be used for working live or close to live parts at nominal voltages
+    up to 7 500 V a.c. or 11 250 V d.c. The contents of the corrigendum of May 2000
+    have been included in this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux gants et moufles isolants fabriqués en plastique ou en élastomère avec protection mécanique pour une utilisation sans surgant. Sauf indication contraire, l'utilisation du seul terme gant comprend gants et moufles.
-
-    Les gants peuvent être utilisés pour travailler sur ou au voisinage des parties sous tension à des tensions nominales jusqu'à 7 500 V en courant alternatif ou 11 250 V en courant continu.
-
-    Le contenu du corrigendum de mai 2000 a été pris en considération dans cet exemplaire.
+- content: S'applique aux gants et moufles isolants fabriqués en plastique ou en élastomère
+    avec protection mécanique pour une utilisation sans surgant. Sauf indication contraire,
+    l'utilisation du seul terme gant comprend gants et moufles. Les gants peuvent
+    être utilisés pour travailler sur ou au voisinage des parties sous tension à des
+    tensions nominales jusqu'à 7 500 V en courant alternatif ou 11 250 V en courant
+    continu. Le contenu du corrigendum de mai 2000 a été pris en considération dans
+    cet exemplaire.
   language:
   - fr
   script:
@@ -94,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

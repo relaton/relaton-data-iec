@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61400-1-1994
 title:
 - content: 'Wind turbine generator systems - Part 1: Safety requirements'
@@ -19,6 +19,8 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/19731
   type: src
+- content: https://webstore.iec.ch/preview/info_iec61400-1{ed1.0}b.img.pdf
+  type: obp
 type: standard
 docid:
 - id: IEC 61400-1:1994
@@ -47,17 +49,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Deals with safety aspects, quality assurance and engineering
-    integrity, and specifies safety requirements for design, installation and operation of wind turbine generator systems.
+- content: Deals with safety aspects, quality assurance and engineering integrity,
+    and specifies safety requirements for design, installation and operation of wind
+    turbine generator systems.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Traite des aspects relatifs à la sécurité, à l'assurance de
-    la qualité et à l'intégrité, et spécifie les prescriptions de sécurité, de la conception, de l'installation et de l'exploitation des aérogénérateurs.
+- content: Traite des aspects relatifs à la sécurité, à l'assurance de la qualité
+    et à l'intégrité, et spécifie les prescriptions de sécurité, de la conception,
+    de l'installation et de l'exploitation des aérogénérateurs.
   language:
   - fr
   script:
@@ -132,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 88
