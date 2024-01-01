@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC14496-22-2019/AMD2-2023
 title:
 - content: 'Amendment 2 - Information technology - Coding of audio-visual objects
@@ -110,17 +110,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14496-22-2009/COR1-2010
-    type: standard
-    docid:
-    - id: ISO/IEC 14496-22:2009/COR1:2010
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14496-22:2009/COR1:2010
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC14496-22-2009/AMD1-2010
     type: standard
     docid:
@@ -129,6 +118,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14496-22:2009/AMD1:2010
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14496-22-2009/COR1-2010
+    type: standard
+    docid:
+    - id: ISO/IEC 14496-22:2009/COR1:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14496-22:2009/COR1:2010
       format: text/plain
 - type: updates
   bibitem:
@@ -154,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

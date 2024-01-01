@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC/IEEE8802-3-2021/AMD2-2021
 title:
 - content: 'Amendment 2 - Telecommunications and exchange between information technology
@@ -81,6 +81,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: ISO/IEC/IEEE8802-3-2017/AMD10-2019
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-3:2017/AMD10:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-3:2017/AMD10:2019
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC/IEEE8802-3-2017/AMD11-2019
     type: standard
     docid:
@@ -92,14 +103,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-3-2017/AMD10-2019
+    id: ISO/IEC/IEEE8802-3-2017/AMD8-2018
     type: standard
     docid:
-    - id: ISO/IEC/IEEE 8802-3:2017/AMD10:2019
+    - id: ISO/IEC/IEEE 8802-3:2017/AMD8:2018
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 8802-3:2017/AMD10:2019
+      content: ISO/IEC/IEEE 8802-3:2017/AMD8:2018
       format: text/plain
 - type: updates
   bibitem:
@@ -125,17 +136,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-3-2017/AMD8-2018
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-3:2017/AMD8:2018
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-3:2017/AMD8:2018
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-3-2017/COR1-2018
     type: standard
     docid:
@@ -147,14 +147,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-3-2017/AMD7-2017
+    id: ISO/IEC/IEEE8802-3-2017/AMD5-2017
     type: standard
     docid:
-    - id: ISO/IEC/IEEE 8802-3:2017/AMD7:2017
+    - id: ISO/IEC/IEEE 8802-3:2017/AMD5:2017
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 8802-3:2017/AMD7:2017
+      content: ISO/IEC/IEEE 8802-3:2017/AMD5:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -191,14 +191,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-3-2017/AMD5-2017
+    id: ISO/IEC/IEEE8802-3-2017/AMD7-2017
     type: standard
     docid:
-    - id: ISO/IEC/IEEE 8802-3:2017/AMD5:2017
+    - id: ISO/IEC/IEEE 8802-3:2017/AMD7:2017
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 8802-3:2017/AMD5:2017
+      content: ISO/IEC/IEEE 8802-3:2017/AMD7:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -235,7 +235,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

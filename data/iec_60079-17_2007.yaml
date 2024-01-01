@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60079-17-2007
 title:
 - content: 'Explosive atmospheres - Part 17: Electrical installations inspection and
@@ -106,6 +106,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60079-17-2013
+    type: standard
+    docid:
+    - id: IEC 60079-17:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-17:2013
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60079-17-2002
     type: standard
     docid:
@@ -139,7 +150,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31/SC 31J

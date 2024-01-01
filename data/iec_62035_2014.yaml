@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC62035-2014
 title:
 - content: Discharge lamps (excluding flourescent lamps) - Safety specifications
@@ -111,17 +111,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62035-1999+AMD1-2003+AMD2-2012CSV
-    type: standard
-    docid:
-    - id: IEC 62035:1999+AMD1:2003+AMD2:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62035:1999+AMD1:2003+AMD2:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62035-1999/AMD2-2012
     type: standard
     docid:
@@ -130,6 +119,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62035:1999/AMD2:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62035-1999+AMD1-2003+AMD2-2012CSV
+    type: standard
+    docid:
+    - id: IEC 62035:1999+AMD1:2003+AMD2:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62035:1999+AMD1:2003+AMD2:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -166,7 +166,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

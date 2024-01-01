@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60079-0-2004
 title:
 - content: 'Electrical apparatus for explosive gas atmospheres - Part 0: General requirements'
@@ -170,17 +170,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-2011
-    type: standard
-    docid:
-    - id: IEC 60079-0:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-0:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-0-2011RLV
     type: standard
     docid:
@@ -189,6 +178,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-0:2011 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-0-2011
+    type: standard
+    docid:
+    - id: IEC 60079-0:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-0:2011
       format: text/plain
 - type: updates
   bibitem:
@@ -324,7 +324,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

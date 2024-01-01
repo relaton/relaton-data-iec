@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60086-1-1987
 title:
 - content: 'Primary batteries - Part 1: General'
@@ -60,17 +60,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60086-1-2015RLV
-    type: standard
-    docid:
-    - id: IEC 60086-1:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-1:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-1-2015
     type: standard
     docid:
@@ -79,6 +68,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-1-2015RLV
+    type: standard
+    docid:
+    - id: IEC 60086-1:2015 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-1:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -335,7 +335,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60286-3-2007
 title:
 - content: 'Packaging of components for automatic handling - Part 3: Packaging of
@@ -85,17 +85,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60286-3-2019RLV
-    type: standard
-    docid:
-    - id: IEC 60286-3:2019 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60286-3:2019 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60286-3-2019
     type: standard
     docid:
@@ -104,6 +93,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60286-3:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60286-3-2019RLV
+    type: standard
+    docid:
+    - id: IEC 60286-3:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60286-3:2019 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -151,7 +151,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

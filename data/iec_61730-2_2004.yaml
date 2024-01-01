@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61730-2-2004
 title:
 - content: 'Photovoltaic (PV) module safety qualification - Part 2: Requirements for
@@ -95,6 +95,28 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC61730-2-2016RLV
+    type: standard
+    docid:
+    - id: IEC 61730-2:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61730-2:2016 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61730-2-2016
+    type: standard
+    docid:
+    - id: IEC 61730-2:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61730-2:2016
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC61730-2-2004+AMD1-2011CSV
     type: standard
     docid:
@@ -117,7 +139,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 82

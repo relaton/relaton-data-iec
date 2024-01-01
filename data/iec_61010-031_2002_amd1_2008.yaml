@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61010-031-2002/AMD1-2008
 title:
 - content: 'Amendment 1 - Safety requirements for electrical equipment for measurement,
@@ -85,17 +85,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61010-031-2015/AMD1-2018
-    type: standard
-    docid:
-    - id: IEC 61010-031:2015/AMD1:2018
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61010-031:2015/AMD1:2018
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61010-031-2015+AMD1-2018CSV
     type: standard
     docid:
@@ -107,14 +96,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61010-031-2015
+    id: IEC61010-031-2015/AMD1-2018
     type: standard
     docid:
-    - id: IEC 61010-031:2015
+    - id: IEC 61010-031:2015/AMD1:2018
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61010-031:2015
+      content: IEC 61010-031:2015/AMD1:2018
       format: text/plain
 - type: updates
   bibitem:
@@ -126,6 +115,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61010-031:2015 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61010-031-2015
+    type: standard
+    docid:
+    - id: IEC 61010-031:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-031:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -151,7 +151,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

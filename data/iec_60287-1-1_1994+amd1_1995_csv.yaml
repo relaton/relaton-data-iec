@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60287-1-1-1994+AMD1-1995CSV
 title:
 - content: 'Versión Oficial En español - Cables eléctricos. Cálculo de la intensidad
@@ -64,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60287-1-1-2006/AMD1-2014
-    type: standard
-    docid:
-    - id: IEC 60287-1-1:2006/AMD1:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60287-1-1:2006/AMD1:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60287-1-1-2006+AMD1-2014CSV
     type: standard
     docid:
@@ -83,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60287-1-1:2006+AMD1:2014 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60287-1-1-2006/AMD1-2014
+    type: standard
+    docid:
+    - id: IEC 60287-1-1:2006/AMD1:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60287-1-1:2006/AMD1:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -152,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

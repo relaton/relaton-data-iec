@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC14443-2-2010/AMD3-2012
 title:
 - content: 'Amendment 3 - Identification cards -- Contactless integrated circuit cards
@@ -111,17 +111,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14443-2-2001/AMD1-2005/COR1-2007
-    type: standard
-    docid:
-    - id: ISO/IEC 14443-2:2001/AMD1:2005/COR1:2007
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14443-2:2001/AMD1:2005/COR1:2007
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC14443-2-2001/COR1-2007
     type: standard
     docid:
@@ -130,6 +119,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14443-2:2001/COR1:2007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14443-2-2001/AMD1-2005/COR1-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 14443-2:2001/AMD1:2005/COR1:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14443-2:2001/AMD1:2005/COR1:2007
       format: text/plain
 - type: updates
   bibitem:
@@ -155,7 +155,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 17

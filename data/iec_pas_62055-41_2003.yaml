@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IECPAS62055-41-2003
 title:
 - content: 'Electricity metering - Payment metering systems - Part 41: Standard Transfer
@@ -65,17 +65,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62055-41-2014
-    type: standard
-    docid:
-    - id: IEC 62055-41:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62055-41:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62055-41-2014RLV
     type: standard
     docid:
@@ -84,6 +73,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62055-41:2014 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62055-41-2014
+    type: standard
+    docid:
+    - id: IEC 62055-41:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62055-41:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -98,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 13

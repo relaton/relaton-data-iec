@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60502-4-2005
 title:
 - content: 'Power cables with extruded insulation and their accessories for rated
@@ -124,6 +124,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60502-4-2010
+    type: standard
+    docid:
+    - id: IEC 60502-4:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60502-4:2010
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60502-4-1997
     type: standard
     docid:
@@ -135,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60335-2-34-2012+AMD1-2015+AMD2-2016CSV
 title:
 - content: Household and similar electrical appliances - Safety - Part 2-34:Particular
@@ -64,11 +64,11 @@ abstract:
     If the motor-compressor control system is associated with the particular appliance
     control system, additional tests may be necessary on the final appliance. Keywords:
     Motor compressor, hermetic; semi-hermetic<br /><br />\r\nThis publication is to
-    be read in conjunction with IEC 60335-1:2010.<strong>This consolidated version
-    consists of the fifth edition (2012), its amendment 1 (2015) and its amendment
-    2 (2016). Therefore, no need to order amendments in addition to this publication.</strong>
-    The contents of the corrigendum to Amendment 1 of June 2015 and corrigendum 2
-    of June 2017 have been included in this copy."
+    be read in conjunction with IEC 60335-1:2010. This consolidated version consists
+    of the fifth edition (2012), its amendment 1 (2015) and its amendment 2 (2016).
+    Therefore, no need to order amendments in addition to this publication. The contents
+    of the corrigendum to Amendment 1 of June 2015 and corrigendum 2 of June 2017
+    have been included in this copy."
   language:
   - en
   script:
@@ -121,17 +121,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-34-2012/AMD1-2015
-    type: standard
-    docid:
-    - id: IEC 60335-2-34:2012/AMD1:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-34:2012/AMD1:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-34-2012+AMD1-2015CSV
     type: standard
     docid:
@@ -140,6 +129,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-34:2012+AMD1:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-34-2012/AMD1-2015
+    type: standard
+    docid:
+    - id: IEC 60335-2-34:2012/AMD1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-34:2012/AMD1:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -264,7 +264,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61C
@@ -280,4 +281,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:CR
+price_code: iec:CS

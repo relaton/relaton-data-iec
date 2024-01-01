@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61156-6-2020
 title:
 - content: 'Multicore and symmetrical pair/quad cables for digital communications
@@ -87,17 +87,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61156-6-2010+AMD1-2012CSV
-    type: standard
-    docid:
-    - id: IEC 61156-6:2010+AMD1:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61156-6:2010+AMD1:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61156-6-2010/AMD1-2012
     type: standard
     docid:
@@ -106,6 +95,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61156-6:2010/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61156-6-2010+AMD1-2012CSV
+    type: standard
+    docid:
+    - id: IEC 61156-6:2010+AMD1:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61156-6:2010+AMD1:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -153,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

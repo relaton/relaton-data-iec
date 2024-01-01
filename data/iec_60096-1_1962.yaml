@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60096-1-1962
 title:
 - content: 'Radio-frequency cables - Part 1: General requirements and measuring methods'
@@ -116,6 +116,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: IEC60096-1-1962/AMD2-1962
+    type: standard
+    docid:
+    - id: IEC 60096-1:1962/AMD2:1962
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60096-1:1962/AMD2:1962
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60096-1-1962/AMD1-1962
     type: standard
     docid:
@@ -138,17 +149,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60096-1-1962/AMD2-1962
-    type: standard
-    docid:
-    - id: IEC 60096-1:1962/AMD2:1962
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60096-1:1962/AMD2:1962
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60096-1-1958
     type: standard
     docid:
@@ -160,7 +160,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

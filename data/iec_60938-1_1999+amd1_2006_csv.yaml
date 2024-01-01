@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60938-1-1999+AMD1-2006CSV
 title:
 - content: 'Fixed inductors for electromagnetic interference suppression - Part 1:
@@ -44,9 +44,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to inductors designed for electromagnetic interference suppression intended for use within, or associated with, electronic or electrical equipment and machines. It is restricted to inductors for which safety tests are appropriate. The combination of two or more inductors within one enclosure is also included. Inductors within the scope of this standard may also be used to protect apparatus and machines from electrical noise and voltage or current transients coming from either the supply or from other parts of the apparatus. It may not necessarily apply in its entirety to inductors intended for use on motor vehicles, in aircraft or for marine applications.<strong>This consolidated version consists of the second edition (1999) and its amendment 1 (2006). Therefore, no need to order amendment in
-    addition to this publication.</strong>
+- content: Applies to inductors designed for electromagnetic interference suppression
+    intended for use within, or associated with, electronic or electrical equipment
+    and machines. It is restricted to inductors for which safety tests are appropriate.
+    The combination of two or more inductors within one enclosure is also included.
+    Inductors within the scope of this standard may also be used to protect apparatus
+    and machines from electrical noise and voltage or current transients coming from
+    either the supply or from other parts of the apparatus. It may not necessarily
+    apply in its entirety to inductors intended for use on motor vehicles, in aircraft
+    or for marine applications. This consolidated version consists of the second edition
+    (1999) and its amendment 1 (2006). Therefore, no need to order amendment in addition
+    to this publication.
   language:
   - en
   script:
@@ -99,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40
@@ -116,4 +125,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:CN
+price_code: iec:CP

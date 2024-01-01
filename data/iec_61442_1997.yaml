@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61442-1997
 title:
 - content: |-
@@ -83,9 +83,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1997'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61442-2005
+    type: standard
+    docid:
+    - id: IEC 61442:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61442:2005
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

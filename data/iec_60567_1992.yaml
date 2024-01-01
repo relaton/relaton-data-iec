@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60567-1992
 title:
 - content: Guide for the sampling of gases and of oil from oil-filled electrical equipment
@@ -95,6 +95,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60567-2011
+    type: standard
+    docid:
+    - id: IEC 60567:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60567:2011
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60567-2005
     type: standard
     docid:
@@ -117,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

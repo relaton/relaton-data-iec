@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: CISPR16-1-5-2003
 title:
 - content: 'Specification for radio disturbance and immunity measuring apparatus and
@@ -106,17 +106,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: CISPR16-1-5-2003/AMD1-2012
-    type: standard
-    docid:
-    - id: CISPR 16-1-5:2003/AMD1:2012
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 16-1-5:2003/AMD1:2012
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR16-1-5-2003+AMD1-2012CSV
     type: standard
     docid:
@@ -126,9 +115,21 @@ relation:
     formattedref:
       content: CISPR 16-1-5:2003+AMD1:2012 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR16-1-5-2003/AMD1-2012
+    type: standard
+    docid:
+    - id: CISPR 16-1-5:2003/AMD1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 16-1-5:2003/AMD1:2012
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/A

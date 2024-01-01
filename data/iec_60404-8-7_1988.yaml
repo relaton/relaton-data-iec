@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60404-8-7-1988
 title:
 - content: 'Magnetic materials. Part 8: Specifications for individual materials. Section
@@ -83,17 +83,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60404-8-7-2017
-    type: standard
-    docid:
-    - id: IEC 60404-8-7:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60404-8-7:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60404-8-7-2017RLV
     type: standard
     docid:
@@ -102,6 +91,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60404-8-7:2017 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60404-8-7-2017
+    type: standard
+    docid:
+    - id: IEC 60404-8-7:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60404-8-7:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -138,7 +138,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 68

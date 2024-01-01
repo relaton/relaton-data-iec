@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC11801-1995+AMD1-1999+AMD2-1999CSV
 title:
 - content: Information technology - Generic cabling for customer premises
@@ -118,17 +118,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC11801-2002/AMD1-2008/COR1-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC11801-2002/COR3-2008
     type: standard
     docid:
@@ -137,6 +126,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 11801:2002/COR3:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11801-2002/AMD1-2008/COR1-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -250,7 +250,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 25

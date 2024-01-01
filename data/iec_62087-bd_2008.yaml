@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC62087-BD-2008
 title:
 - content: Methods of measurement for the power consumption of audio, video and related
@@ -78,17 +78,6 @@ copyright:
     url: www.iec.ch
   from: '2008'
 relation:
-- type: obsoletes
-  bibitem:
-    id: IEC62087-BD-2011RLV
-    type: standard
-    docid:
-    - id: IEC 62087-BD:2011 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62087-BD:2011 RLV
-      format: text/plain
 - type: updates
   bibitem:
     id: IEC62087-BD-2011
@@ -100,9 +89,21 @@ relation:
     formattedref:
       content: IEC 62087-BD:2011
       format: text/plain
+- type: obsoletes
+  bibitem:
+    id: IEC62087-BD-2011RLV
+    type: standard
+    docid:
+    - id: IEC 62087-BD:2011 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62087-BD:2011 RLV
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

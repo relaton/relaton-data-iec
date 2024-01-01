@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC9594-4-2020
 title:
 - content: 'Information technology - Open systems interconnection - Part 4: The Directory:
@@ -106,17 +106,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-4-2008/COR1-2011
-    type: standard
-    docid:
-    - id: ISO/IEC 9594-4:2008/COR1:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 9594-4:2008/COR1:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC9594-4-2005/COR2-2011
     type: standard
     docid:
@@ -125,6 +114,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9594-4:2005/COR2:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9594-4-2008/COR1-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 9594-4:2008/COR1:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9594-4:2008/COR1:2011
       format: text/plain
 - type: updates
   bibitem:
@@ -139,17 +139,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-4-2005/COR1-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 9594-4:2005/COR1:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 9594-4:2005/COR1:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC9594-4-2008
     type: standard
     docid:
@@ -158,6 +147,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9594-4:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9594-4-2005/COR1-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 9594-4:2005/COR1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9594-4:2005/COR1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -194,7 +194,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

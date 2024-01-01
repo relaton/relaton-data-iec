@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60228-1966
 title:
 - content: Nominal cross-sectional areas and composition of conductors of insulated
@@ -79,6 +79,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60228-2004
+    type: standard
+    docid:
+    - id: IEC 60228:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60228:2004
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60228-1978/AMD1-1993
     type: standard
     docid:
@@ -112,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

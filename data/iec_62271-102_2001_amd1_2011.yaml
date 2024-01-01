@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC62271-102-2001/AMD1-2011
 title:
 - content: 'Amendment 1 - High-voltage switchgear and controlgear - Part 102: Alternating
@@ -100,17 +100,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62271-102-2001/AMD2-2013
-    type: standard
-    docid:
-    - id: IEC 62271-102:2001/AMD2:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62271-102:2001/AMD2:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62271-102-2001+AMD1-2011+AMD2-2013CSV
     type: standard
     docid:
@@ -119,6 +108,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-102:2001+AMD1:2011+AMD2:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-102-2001/AMD2-2013
+    type: standard
+    docid:
+    - id: IEC 62271-102:2001/AMD2:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-102:2001/AMD2:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -188,7 +188,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

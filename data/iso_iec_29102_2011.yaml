@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC29102-2011
 title:
 - content: Information technology -- Office equipment -- Method for the determination
@@ -83,9 +83,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2011'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC29102-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 29102:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 29102:2015
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 28

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60060-2-1994
 title:
 - content: 'High voltage test techniques - Part 2: Measuring systems'
@@ -111,17 +111,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60060-2-1973
-    type: standard
-    docid:
-    - id: IEC 60060-2:1973
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60060-2:1973
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60060-2-1973/COR1-1973
     type: standard
     docid:
@@ -131,9 +120,21 @@ relation:
     formattedref:
       content: IEC 60060-2:1973/COR1:1973
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60060-2-1973
+    type: standard
+    docid:
+    - id: IEC 60060-2:1973
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60060-2:1973
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 42

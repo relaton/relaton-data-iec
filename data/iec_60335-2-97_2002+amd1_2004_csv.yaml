@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60335-2-97-2002+AMD1-2004CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-97: Particular
@@ -100,6 +100,39 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60335-2-97-2016/AMD1-2019
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016/AMD1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016/AMD1:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-97-2016+AMD1-2019CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016+AMD1:2019 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016+AMD1:2019 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-97-2016
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60335-2-97-2002+AMD1-2004+AMD2-2008CSV
     type: standard
     docid:
@@ -155,7 +188,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: CISPR22-2003/AMD1-2004
 title:
 - content: Amendment 1 - Information technology equipment - Radio disturbance characteristics
@@ -95,17 +95,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: CISPR22-2008
-    type: standard
-    docid:
-    - id: CISPR 22:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 22:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR22-2008RLV
     type: standard
     docid:
@@ -114,6 +103,17 @@ relation:
       primary: true
     formattedref:
       content: CISPR 22:2008 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR22-2008
+    type: standard
+    docid:
+    - id: CISPR 22:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 22:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -260,7 +260,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/I

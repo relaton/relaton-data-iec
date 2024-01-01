@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61691-1-1-2004
 title:
 - content: 'Behavioural languages - Part 1-1: VHDL language reference manual'
@@ -62,9 +62,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2004'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61691-1-1-2011
+    type: standard
+    docid:
+    - id: IEC 61691-1-1:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61691-1-1:2011
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

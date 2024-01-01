@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60364-5-53-2001/AMD1-2002
 title:
 - content: 'Amendment 1 - Electrical installations of buildings - Part 5-53: Selection
@@ -65,17 +65,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60364-5-53-2001/AMD2-2015
-    type: standard
-    docid:
-    - id: IEC 60364-5-53:2001/AMD2:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60364-5-53:2001/AMD2:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60364-5-53-2001+AMD1-2002+AMD2-2015CSV
     type: standard
     docid:
@@ -84,6 +73,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60364-5-53:2001+AMD1:2002+AMD2:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60364-5-53-2001/AMD2-2015
+    type: standard
+    docid:
+    - id: IEC 60364-5-53:2001/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60364-5-53:2001/AMD2:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -164,7 +164,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

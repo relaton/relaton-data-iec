@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC14496-4-2004/AMD45-2016
 title:
 - content: 'Amendment 45 - Information technology - Coding of audio-visual objects
@@ -177,17 +177,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14496-4-2004/AMD18-2007
-    type: standard
-    docid:
-    - id: ISO/IEC 14496-4:2004/AMD18:2007
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14496-4:2004/AMD18:2007
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC14496-4-2004/AMD19-2007
     type: standard
     docid:
@@ -196,6 +185,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14496-4:2004/AMD19:2007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14496-4-2004/AMD18-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 14496-4:2004/AMD18:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14496-4:2004/AMD18:2007
       format: text/plain
 - type: updates
   bibitem:
@@ -276,7 +276,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

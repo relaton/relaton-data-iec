@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO80000-1-2022
 title:
 - content: 'Quantities and units - Part 1: General'
@@ -92,17 +92,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ISO80000-1-2009/COR1-2009
-    type: standard
-    docid:
-    - id: ISO 80000-1:2009/COR1:2009
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO 80000-1:2009/COR1:2009
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO80000-1-2009
     type: standard
     docid:
@@ -112,9 +101,21 @@ relation:
     formattedref:
       content: ISO 80000-1:2009
       format: text/plain
+- type: updates
+  bibitem:
+    id: ISO80000-1-2009/COR1-2009
+    type: standard
+    docid:
+    - id: ISO 80000-1:2009/COR1:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO 80000-1:2009/COR1:2009
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 25

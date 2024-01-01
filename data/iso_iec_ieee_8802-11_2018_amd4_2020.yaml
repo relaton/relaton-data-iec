@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC/IEEE8802-11-2018/AMD4-2020
 title:
 - content: 'Amendment 4 - Information technology - Telecommunications and information
@@ -81,17 +81,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-11-2018/AMD3-2020
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-11:2018/AMD3:2020
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-11:2018/AMD3:2020
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-11-2018/AMD5-2020
     type: standard
     docid:
@@ -100,6 +89,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC/IEEE 8802-11:2018/AMD5:2020
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-11-2018/AMD3-2020
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-11:2018/AMD3:2020
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-11:2018/AMD3:2020
       format: text/plain
 - type: updates
   bibitem:
@@ -136,6 +136,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: ISO/IEC/IEEE8802-11-2012/AMD5-2015
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-11:2012/AMD5:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-11:2012/AMD5:2015
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC/IEEE8802-11-2012/AMD4-2015
     type: standard
     docid:
@@ -147,14 +158,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-11-2012/AMD5-2015
+    id: ISO/IEC/IEEE8802-11-2012/AMD3-2014
     type: standard
     docid:
-    - id: ISO/IEC/IEEE 8802-11:2012/AMD5:2015
+    - id: ISO/IEC/IEEE 8802-11:2012/AMD3:2014
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 8802-11:2012/AMD5:2015
+      content: ISO/IEC/IEEE 8802-11:2012/AMD3:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -180,17 +191,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-11-2012/AMD3-2014
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-11:2012/AMD3:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-11:2012/AMD3:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-11-2012
     type: standard
     docid:
@@ -202,7 +202,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

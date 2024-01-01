@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60758-2004
 title:
 - content: Synthetic quartz crystal - Specifications and guide to the use
@@ -106,17 +106,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60758-1983/AMD1-1983
-    type: standard
-    docid:
-    - id: IEC 60758:1983/AMD1:1983
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60758:1983/AMD1:1983
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60758-1983
     type: standard
     docid:
@@ -126,9 +115,21 @@ relation:
     formattedref:
       content: IEC 60758:1983
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60758-1983/AMD1-1983
+    type: standard
+    docid:
+    - id: IEC 60758:1983/AMD1:1983
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60758:1983/AMD1:1983
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60068-2-6-2007
 title:
 - content: 'Environmental testing - Part 2-6: Tests - Test Fc: Vibration (sinusoidal)'
@@ -119,17 +119,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60068-2-6-1995
-    type: standard
-    docid:
-    - id: IEC 60068-2-6:1995
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60068-2-6:1995
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60068-2-6-1995/COR1-1995
     type: standard
     docid:
@@ -138,6 +127,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60068-2-6:1995/COR1:1995
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60068-2-6-1995
+    type: standard
+    docid:
+    - id: IEC 60068-2-6:1995
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60068-2-6:1995
       format: text/plain
 - type: updates
   bibitem:
@@ -229,7 +229,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC18092-2004
 title:
 - content: Information technology -- Telecommunications and information exchange between
@@ -83,9 +83,33 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2004'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC18092-2013/COR1-2015
+    type: standard
+    docid:
+    - id: ISO/IEC 18092:2013/COR1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 18092:2013/COR1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC18092-2013
+    type: standard
+    docid:
+    - id: ISO/IEC 18092:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 18092:2013
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

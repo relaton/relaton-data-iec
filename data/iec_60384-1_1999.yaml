@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60384-1-1999
 title:
 - content: 'Fixed capacitors for use in electronic equipment - Part 1: Generic specification'
@@ -85,17 +85,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60384-1-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60384-1:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60384-1:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60384-1-2016
     type: standard
     docid:
@@ -104,6 +93,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60384-1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60384-1-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60384-1:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60384-1:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -206,7 +206,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

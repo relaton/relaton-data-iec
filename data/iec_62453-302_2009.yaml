@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC62453-302-2009
 title:
 - content: 'Field device tool (FDT) interface specification - Part 302: Communication
@@ -91,9 +91,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2009'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62453-302-2016
+    type: standard
+    docid:
+    - id: IEC 62453-302:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62453-302:2016
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65E

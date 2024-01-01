@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60034-1-1996+AMD1-1997+AMD2-1999CSV
 title:
 - content: 'Rotating electrical machines - Part 1: Rating and performance'
@@ -67,17 +67,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60034-1-2017RLV
-    type: standard
-    docid:
-    - id: IEC 60034-1:2017 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60034-1:2017 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60034-1-2017
     type: standard
     docid:
@@ -86,6 +75,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60034-1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60034-1-2017RLV
+    type: standard
+    docid:
+    - id: IEC 60034-1:2017 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60034-1:2017 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -320,7 +320,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

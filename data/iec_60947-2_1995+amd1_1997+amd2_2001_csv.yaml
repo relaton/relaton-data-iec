@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60947-2-1995+AMD1-1997+AMD2-2001CSV
 title:
 - content: 'Low-voltage switchgear and controlgear - Part 2: Circuit-breakers'
@@ -81,17 +81,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60947-2-2006/AMD2-2013
-    type: standard
-    docid:
-    - id: IEC 60947-2:2006/AMD2:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60947-2:2006/AMD2:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60947-2-2006+AMD1-2009+AMD2-2013CSV
     type: standard
     docid:
@@ -100,6 +89,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60947-2:2006+AMD1:2009+AMD2:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60947-2-2006/AMD2-2013
+    type: standard
+    docid:
+    - id: IEC 60947-2:2006/AMD2:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60947-2:2006/AMD2:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -169,17 +169,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60947-2-1995/AMD1-1997
-    type: standard
-    docid:
-    - id: IEC 60947-2:1995/AMD1:1997
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60947-2:1995/AMD1:1997
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60947-2-1995/COR1-1997
     type: standard
     docid:
@@ -188,6 +177,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60947-2:1995/COR1:1997
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60947-2-1995/AMD1-1997
+    type: standard
+    docid:
+    - id: IEC 60947-2:1995/AMD1:1997
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60947-2:1995/AMD1:1997
       format: text/plain
 - type: updates
   bibitem:
@@ -257,7 +257,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

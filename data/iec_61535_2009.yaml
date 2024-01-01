@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC61535-2009
 title:
 - content: Installation couplers intended for permanent connection in fixed installations
@@ -99,17 +99,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61535-2019
-    type: standard
-    docid:
-    - id: IEC 61535:2019
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61535:2019
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61535-2019RLV
     type: standard
     docid:
@@ -118,6 +107,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61535:2019 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61535-2019
+    type: standard
+    docid:
+    - id: IEC 61535:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61535:2019
       format: text/plain
 - type: updates
   bibitem:
@@ -154,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23

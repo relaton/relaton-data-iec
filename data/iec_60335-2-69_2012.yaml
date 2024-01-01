@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60335-2-69-2012
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-69: Particular
@@ -105,17 +105,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-69-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-69:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-69:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-69-2016
     type: standard
     docid:
@@ -124,6 +113,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-69:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-69-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-69:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-69:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -215,7 +215,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61J

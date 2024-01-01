@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: ISO/IEC/IEEE8802-1Q-2020
 title:
 - content: 'Telecommunications and exchange between information technology systems
@@ -91,17 +91,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-1Q-2016/AMD7-2019
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD7:2019
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-1Q:2016/AMD7:2019
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-1Q-2016/AMD6-2019
     type: standard
     docid:
@@ -110,6 +99,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC/IEEE 8802-1Q:2016/AMD6:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1Q-2016/AMD7-2019
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD7:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1Q:2016/AMD7:2019
       format: text/plain
 - type: updates
   bibitem:
@@ -157,17 +157,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-1Q-2016/AMD1-2017
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-1Q:2016/AMD1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-1Q-2016/AMD3-2017
     type: standard
     docid:
@@ -176,6 +165,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC/IEEE 8802-1Q:2016/AMD3:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC/IEEE8802-1Q-2016/AMD1-2017
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1Q:2016/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -190,7 +190,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60050-1975
 title:
 - content: International Electrotechnical Vocabulary (IEV) - Index
@@ -57,21 +57,10 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1975'
-relation:
-- type: updates
-  bibitem:
-    id: IEC60050-1970
-    type: standard
-    docid:
-    - id: IEC 60050:1970
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60050:1970
-      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1
