@@ -20,7 +20,7 @@ on:
 
 jobs:
   crawl:
-    uses: relaton/support/.github/workflows/crawler.yml@master
+    uses: relaton/support/.github/workflows/crawler.yml@main
     with:
       args: "${{ github.event.inputs.args || 'latest' }}"
     secrets:
