@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IECTS62129-3-2014
 title:
 - content: 'Calibration of wavelength/optical frequency measurement instruments -
@@ -66,9 +66,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2014'
+relation:
+- type: obsoletes
+  bibitem:
+    id: IEC62129-3-2019
+    type: standard
+    docid:
+    - id: IEC 62129-3:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62129-3:2019
+      format: text/plain
 place:
 - Geneva
-doctype: technical-specification
+doctype:
+  type: technical-specification
 editorialgroup:
   technical_committee:
   - name: TC 86
