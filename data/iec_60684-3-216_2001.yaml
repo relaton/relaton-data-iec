@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60684-3-216-2001
 title:
 - content: 'Flexible insulating sleeving - Part 3: Specifications for individual types
@@ -101,17 +101,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60684-3-216-2001+AMD1-2005+AMD2-2013CSV
-    type: standard
-    docid:
-    - id: IEC 60684-3-216:2001+AMD1:2005+AMD2:2013 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60684-3-216:2001+AMD1:2005+AMD2:2013 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60684-3-216-2001/AMD2-2013
     type: standard
     docid:
@@ -120,6 +109,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60684-3-216:2001/AMD2:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60684-3-216-2001+AMD1-2005+AMD2-2013CSV
+    type: standard
+    docid:
+    - id: IEC 60684-3-216:2001+AMD1:2005+AMD2:2013 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60684-3-216:2001+AMD1:2005+AMD2:2013 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -156,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

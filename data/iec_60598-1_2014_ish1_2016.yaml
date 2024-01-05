@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.7
 id: IEC60598-1-2014/ISH1-2016
 title:
 - content: 'Interpretation sheet 1 - Luminaires - Part 1: General requirements and
@@ -64,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60598-1-2014/AMD1-2017
-    type: standard
-    docid:
-    - id: IEC 60598-1:2014/AMD1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-1:2014/AMD1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-1-2014+AMD1-2017CSV
     type: standard
     docid:
@@ -83,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-1:2014+AMD1:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-1-2014/AMD1-2017
+    type: standard
+    docid:
+    - id: IEC 60598-1:2014/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-1:2014/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -207,14 +207,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60598-1-1999/ISH26-2001
+    id: IEC60598-1-1999/ISH27-2001
     type: standard
     docid:
-    - id: IEC 60598-1:1999/ISH26:2001
+    - id: IEC 60598-1:1999/ISH27:2001
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60598-1:1999/ISH26:2001
+      content: IEC 60598-1:1999/ISH27:2001
       format: text/plain
 - type: updates
   bibitem:
@@ -229,14 +229,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60598-1-1999/ISH27-2001
+    id: IEC60598-1-1999/ISH26-2001
     type: standard
     docid:
-    - id: IEC 60598-1:1999/ISH27:2001
+    - id: IEC 60598-1:1999/ISH26:2001
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60598-1:1999/ISH27:2001
+      content: IEC 60598-1:1999/ISH26:2001
       format: text/plain
 - type: updates
   bibitem:
@@ -405,7 +405,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D
