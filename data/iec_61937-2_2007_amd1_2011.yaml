@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61937-2-2007/AMD1-2011
 title:
 - content: 'Amendment 1 -  Digital audio - Interface for non-linear PCM encoded audio
@@ -64,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61937-2-2007+AMD1-2011+AMD2-2018CSV
-    type: standard
-    docid:
-    - id: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61937-2-2007/AMD2-2018
     type: standard
     docid:
@@ -83,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61937-2:2007/AMD2:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61937-2-2007+AMD1-2011+AMD2-2018CSV
+    type: standard
+    docid:
+    - id: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -130,7 +130,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100/TA 20

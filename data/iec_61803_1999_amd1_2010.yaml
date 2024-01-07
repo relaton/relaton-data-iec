@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61803-1999/AMD1-2010
 title:
 - content: Amendment 1 - Determination of power losses in high-voltage direct current
@@ -65,17 +65,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61803-1999+AMD1-2010+AMD2-2016CSV
-    type: standard
-    docid:
-    - id: IEC 61803:1999+AMD1:2010+AMD2:2016 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61803:1999+AMD1:2010+AMD2:2016 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61803-1999/AMD2-2016
     type: standard
     docid:
@@ -84,6 +73,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61803:1999/AMD2:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61803-1999+AMD1-2010+AMD2-2016CSV
+    type: standard
+    docid:
+    - id: IEC 61803:1999+AMD1:2010+AMD2:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61803:1999+AMD1:2010+AMD2:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -120,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F
