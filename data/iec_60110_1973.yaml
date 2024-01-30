@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60110-1973
 title:
 - content: Recommendation for capacitors for inductive heat generating plants operating
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1998-06-30'
+- type: obsoleted
+  value: '1998-06-30'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 33

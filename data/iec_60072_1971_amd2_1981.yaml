@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60072-1971/AMD2-1981
 title:
 - content: Amendment 2 - Dimensions and output ratings for rotating electrical machines
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1981-12-31'
+- type: stable-until
+  value: '1991-02-01'
+- type: obsoleted
+  value: '1991-02-01'
 contributor:
 - organization:
     name:
@@ -85,17 +89,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60072-1956
-    type: standard
-    docid:
-    - id: IEC 60072:1956
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60072:1956
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60072-1956/COR1-1956
     type: standard
     docid:
@@ -104,6 +97,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60072:1956/COR1:1956
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60072-1956
+    type: standard
+    docid:
+    - id: IEC 60072:1956
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60072:1956
       format: text/plain
 - type: updates
   bibitem:
@@ -118,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

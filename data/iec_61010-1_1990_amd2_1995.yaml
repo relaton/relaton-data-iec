@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61010-1-1990/AMD2-1995
 title:
 - content: 'Amendment 2 - Safety requirements for electrical equipment for measurement,
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1995-07-04'
+- type: stable-until
+  value: '2001-02-13'
+- type: obsoleted
+  value: '2001-02-13'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

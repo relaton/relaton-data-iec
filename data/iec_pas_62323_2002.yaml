@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS62323-2002
 title:
 - content: Dimensions of half pot cores made of magnetic oxides for inductive proximity
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2002-06-14'
+- type: stable-until
+  value: '2005-06-10'
+- type: obsoleted
+  value: '2005-06-10'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 51

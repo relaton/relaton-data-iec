@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60060-1-1989/COR1-1992
 title:
 - content: 'Corrigendum 1 - High-voltage test techniques. Part 1: General definitions
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-03-01'
+- type: stable-until
+  value: '2010-09-29'
+- type: obsoleted
+  value: '2010-09-29'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 42

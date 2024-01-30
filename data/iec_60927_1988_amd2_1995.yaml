@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60927-1988/AMD2-1995
 title:
 - content: Amendment 2 - Starting devices (other than glow starters). Performance
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1995-08-14'
+- type: stable-until
+  value: '1996-07-03'
+- type: obsoleted
+  value: '1996-07-03'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

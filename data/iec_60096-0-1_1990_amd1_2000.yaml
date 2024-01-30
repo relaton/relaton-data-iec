@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60096-0-1-1990/AMD1-2000
 title:
 - content: 'Amendment 1 - Radio-frequency cables. Part 0: Guide to the design of detailed
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2000-05-05'
+- type: stable-until
+  value: '2012-10-30'
+- type: obsoleted
+  value: '2012-10-30'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

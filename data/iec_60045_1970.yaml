@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60045-1970
 title:
 - content: Specification for steam turbines
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1970-01-01'
+- type: stable-until
+  value: '1991-06-18'
+- type: obsoleted
+  value: '1991-06-18'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 5

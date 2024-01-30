@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60502-2-1997/AMD1-1998
 title:
 - content: 'Amendment 1 - Power cables with extruded insulation and their accessories
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1998-05-20'
+- type: stable-until
+  value: '2005-03-08'
+- type: obsoleted
+  value: '2005-03-08'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

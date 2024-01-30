@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-3A-1976/COR1-1980
 title:
 - content: 'Corrigendum 1 - First supplement: Metal-clad base materials for printed
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1980-06-01'
+- type: stable-until
+  value: '1995-01-01'
+- type: obsoleted
+  value: '1995-01-01'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

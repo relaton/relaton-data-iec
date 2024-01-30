@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC/IEEE8802-1Q-2016/COR1-2017
 title:
 - content: 'Corrigendum 1 - Information technology - Telecommunications and information
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2017-11-06'
+- type: stable-until
+  value: '2020-08-21'
+- type: obsoleted
+  value: '2020-08-21'
 contributor:
 - organization:
     name:
@@ -113,17 +117,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-1Q-2016/AMD5-2017
-    type: standard
-    docid:
-    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD5:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802-1Q:2016/AMD5:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC/IEEE8802-1Q-2016/AMD4-2017
     type: standard
     docid:
@@ -135,14 +128,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE8802-1Q-2016/AMD3-2017
+    id: ISO/IEC/IEEE8802-1Q-2016/AMD5-2017
     type: standard
     docid:
-    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD3:2017
+    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD5:2017
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 8802-1Q:2016/AMD3:2017
+      content: ISO/IEC/IEEE 8802-1Q:2016/AMD5:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -157,6 +150,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: ISO/IEC/IEEE8802-1Q-2016/AMD3-2017
+    type: standard
+    docid:
+    - id: ISO/IEC/IEEE 8802-1Q:2016/AMD3:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1Q:2016/AMD3:2017
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC/IEEE8802-1Q-2016
     type: standard
     docid:
@@ -168,7 +172,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

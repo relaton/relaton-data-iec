@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC15504-2-2003/COR1-2004
 title:
 - content: 'Corrigendum 1 - Information technology -- Process assessment -- Part 2:
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2004-02-11'
+- type: stable-until
+  value: '2015-02-27'
+- type: obsoleted
+  value: '2015-02-27'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 7

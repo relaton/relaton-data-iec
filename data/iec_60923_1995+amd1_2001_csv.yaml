@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60923-1995+AMD1-2001CSV
 title:
 - content: Auxiliaries for lamps - Ballasts for discharge lamps (excluding tubular
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2001-11-07'
+- type: stable-until
+  value: '2006-09-25'
+- type: obsoleted
+  value: '2006-09-25'
 contributor:
 - organization:
     name:
@@ -148,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60424-2-1997
 title:
 - content: 'Guidance of the limits of surface irregularities of ferrite cores - Part
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1997-10-09'
+- type: stable-until
+  value: '2015-12-04'
+- type: obsoleted
+  value: '2015-12-04'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

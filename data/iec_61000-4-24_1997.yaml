@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-4-24-1997
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4: Testing and measurement
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '1997-02-28'
+- type: stable-until
+  value: '2015-11-05'
+- type: obsoleted
+  value: '2015-11-05'
 contributor:
 - organization:
     name:
@@ -101,7 +105,8 @@ copyright:
   from: '1997'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77C

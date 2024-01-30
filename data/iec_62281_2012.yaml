@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62281-2012
 title:
 - content: Safety of primary and secondary lithium cells and batteries during transport
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2012-12-05'
+- type: stable-until
+  value: '2016-12-06'
+- type: obsoleted
+  value: '2016-12-06'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

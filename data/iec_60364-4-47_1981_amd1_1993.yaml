@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-47-1981/AMD1-1993
 title:
 - content: 'Amendment 1 - Electrical installations of buildings. Part 4: Protection
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1993-10-21'
+- type: stable-until
+  value: '2001-08-20'
+- type: obsoleted
+  value: '2001-08-20'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

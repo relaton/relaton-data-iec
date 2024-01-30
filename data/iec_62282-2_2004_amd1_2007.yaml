@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62282-2-2004/AMD1-2007
 title:
 - content: 'Amendment 1 - Fuel cell technologies - Part 2: Fuel cell modules'
@@ -38,6 +38,10 @@ docid:
 date:
 - type: published
   value: '2007-02-20'
+- type: stable-until
+  value: '2012-03-26'
+- type: obsoleted
+  value: '2012-03-26'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 105

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60251-4-1967
 title:
 - content: A.C. motor capacitors
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '1988-01-01'
+- type: obsoleted
+  value: '1988-01-01'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1967'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

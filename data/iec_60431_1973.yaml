@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60431-1973
 title:
 - content: Dimensions of square cores (RM-cores) made of magnetic oxides and associated
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1983-01-01'
+- type: obsoleted
+  value: '1983-01-01'
 contributor:
 - organization:
     name:
@@ -95,17 +99,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60431-1983
-    type: standard
-    docid:
-    - id: IEC 60431:1983
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60431:1983
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60431-1983+AMD1-1995CSV
     type: standard
     docid:
@@ -115,9 +108,21 @@ relation:
     formattedref:
       content: IEC 60431:1983+AMD1:1995 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60431-1983
+    type: standard
+    docid:
+    - id: IEC 60431:1983
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60431:1983
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

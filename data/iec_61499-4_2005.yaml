@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61499-4-2005
 title:
 - content: 'Function blocks - Part 4: Rules for compliance profiles'
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2005-08-24'
+- type: stable-until
+  value: '2013-01-30'
+- type: obsoleted
+  value: '2013-01-30'
 contributor:
 - organization:
     name:
@@ -74,7 +78,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

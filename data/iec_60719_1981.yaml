@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60719-1981
 title:
 - content: Calculation of the lower and upper limits for the average outer dimensions
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '1992-03-15'
+- type: obsoleted
+  value: '1992-03-15'
 contributor:
 - organization:
     name:
@@ -63,7 +67,8 @@ copyright:
   from: '1981'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

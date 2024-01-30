@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61030-1991/AMD1-1993
 title:
 - content: Amendment 1 - Audio, video and audiovisual systems - Domestic Digital Bus
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1993-02-15'
+- type: stable-until
+  value: '2007-05-02'
 - type: obsoleted
   value: '2007-05-02'
 contributor:
@@ -86,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

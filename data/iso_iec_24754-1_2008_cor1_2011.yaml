@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC24754-1-2008/COR1-2011
 title:
 - content: 'Corrigendum 1 - Information technology - Document description and processing
@@ -24,6 +24,8 @@ docid:
 date:
 - type: published
   value: '2011-08-11'
+- type: stable-until
+  value: '2019-09-12'
 - type: obsoleted
   value: '2019-09-12'
 contributor:
@@ -80,7 +82,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 34

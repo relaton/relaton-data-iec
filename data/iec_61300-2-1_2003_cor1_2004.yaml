@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61300-2-1-2003/COR1-2004
 title:
 - content: 'Corrigendum 1 -  Fibre optic interconnecting devices and passive components
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2004-04-20'
+- type: stable-until
+  value: '2009-08-18'
+- type: obsoleted
+  value: '2009-08-18'
 contributor:
 - organization:
     name:
@@ -124,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

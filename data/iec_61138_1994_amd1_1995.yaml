@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61138-1994/AMD1-1995
 title:
 - content: Amendment 1 - Cables for portable earthing and short-circuiting equipment
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1995-03-29'
+- type: stable-until
+  value: '2007-07-16'
+- type: obsoleted
+  value: '2007-07-16'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

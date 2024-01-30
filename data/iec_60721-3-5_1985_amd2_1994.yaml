@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60721-3-5-1985/AMD2-1994
 title:
 - content: 'Amendment 2 - Classification of environmental conditions. Part 3: Classification
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1994-09-30'
+- type: stable-until
+  value: '1997-03-21'
+- type: obsoleted
+  value: '1997-03-21'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

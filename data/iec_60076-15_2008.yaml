@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60076-15-2008
 title:
 - content: 'Power transformers - Part 15: Gas-filled power transformers'
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2008-02-27'
+- type: stable-until
+  value: '2015-04-22'
+- type: obsoleted
+  value: '2015-04-22'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 14

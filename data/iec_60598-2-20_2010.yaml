@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-20-2010
 title:
 - content: 'Luminaires - Part 2-20: Particular requirements - Lighting chains'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2010-02-11'
+- type: stable-until
+  value: '2014-11-25'
+- type: obsoleted
+  value: '2014-11-25'
 contributor:
 - organization:
     name:
@@ -125,17 +129,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60598-2-20-1996/ISH2-2003
-    type: standard
-    docid:
-    - id: IEC 60598-2-20:1996/ISH2:2003
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-2-20:1996/ISH2:2003
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-2-20-1996/ISH3-2003
     type: standard
     docid:
@@ -144,6 +137,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-2-20:1996/ISH3:2003
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-2-20-1996/ISH2-2003
+    type: standard
+    docid:
+    - id: IEC 60598-2-20:1996/ISH2:2003
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-2-20:1996/ISH2:2003
       format: text/plain
 - type: updates
   bibitem:
@@ -246,7 +250,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

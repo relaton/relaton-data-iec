@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60081-1956
 title:
 - content: International specification for tubular fluorescent lamps for general lighting
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1956-01-01'
+- type: stable-until
+  value: '1961-01-01'
+- type: obsoleted
+  value: '1961-01-01'
 contributor:
 - organization:
     name:
@@ -95,17 +99,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60081-1984+AMD1-1987+AMD2-1988CSV
-    type: standard
-    docid:
-    - id: IEC 60081:1984+AMD1:1987+AMD2:1988 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60081:1984+AMD1:1987+AMD2:1988 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60081-1984/AMD2-1988
     type: standard
     docid:
@@ -114,6 +107,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60081:1984/AMD2:1988
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60081-1984+AMD1-1987+AMD2-1988CSV
+    type: standard
+    docid:
+    - id: IEC 60081:1984+AMD1:1987+AMD2:1988 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60081:1984+AMD1:1987+AMD2:1988 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -183,7 +187,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

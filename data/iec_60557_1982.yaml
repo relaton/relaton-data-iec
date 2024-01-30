@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60557-1982
 title:
 - content: IEC terminology in the nuclear reactor field
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '2010-07-15'
 - type: obsoleted
   value: '2010-07-15'
 contributor:
@@ -82,7 +84,8 @@ copyright:
   from: '1982'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

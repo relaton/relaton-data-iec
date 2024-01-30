@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60368-1971/AMD1-1975
 title:
 - content: Amendment 1 - Piezoelectric filters
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1975-07-01'
+- type: stable-until
+  value: '1982-01-01'
+- type: obsoleted
+  value: '1982-01-01'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

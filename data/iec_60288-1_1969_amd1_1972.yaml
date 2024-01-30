@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60288-1-1969/AMD1-1972
 title:
 - content: 'Amendment 1 - Tube and valve shields - Part 1: General requirements and
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1998-01-16'
 - type: obsoleted
   value: '1998-01-16'
 contributor:
@@ -75,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

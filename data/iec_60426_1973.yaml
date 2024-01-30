@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60426-1973
 title:
 - content: Test methods for determining electrolytic corrosion with insulating materials
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '2007-01-29'
+- type: obsoleted
+  value: '2007-01-29'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ copyright:
   from: '1973'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

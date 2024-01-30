@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60256-1967
 title:
 - content: External diameters of cylindrical radiation probes containing Geiger-Müller
@@ -34,6 +34,8 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '2007-02-01'
 - type: obsoleted
   value: '2007-02-01'
 contributor:
@@ -79,7 +81,8 @@ copyright:
   from: '1967'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

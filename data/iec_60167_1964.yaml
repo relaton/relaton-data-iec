@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60167-1964
 title:
 - content: Methods of test for the determination of the insulation resistance of solid
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1964-01-01'
+- type: stable-until
+  value: '2015-12-04'
+- type: obsoleted
+  value: '2015-12-04'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1964'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

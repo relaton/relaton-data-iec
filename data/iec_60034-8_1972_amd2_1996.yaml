@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-8-1972/AMD2-1996
 title:
 - content: 'Amendment 2 - Rotating electrical machines. Part 8: Terminal markings
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1996-11-28'
+- type: stable-until
+  value: '2002-07-12'
+- type: obsoleted
+  value: '2002-07-12'
 contributor:
 - organization:
     name:
@@ -123,7 +127,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

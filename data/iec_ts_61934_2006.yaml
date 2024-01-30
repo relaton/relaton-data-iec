@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTS61934-2006
 title:
 - content: Electrical insulating materials and systems - Electrical measurement of
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2006-04-11'
+- type: stable-until
+  value: '2011-04-28'
+- type: obsoleted
+  value: '2011-04-28'
 contributor:
 - organization:
     name:
@@ -64,9 +68,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2006'
+relation:
+- type: updates
+  bibitem:
+    id: IECTS61934-2011
+    type: standard
+    docid:
+    - id: IEC TS 61934:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TS 61934:2011
+      format: text/plain
 place:
 - Geneva
-doctype: technical-specification
+doctype:
+  type: technical-specification
 editorialgroup:
   technical_committee:
   - name: TC 112

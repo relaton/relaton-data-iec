@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60127-3-1988/AMD1-1991/COR1-1994
 title:
 - content: 'Corrigendum 1 to Amendment 1 - Miniature fuses - Part 3: Sub-miniature
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1994-10-01'
+- type: stable-until
+  value: '2015-01-20'
+- type: obsoleted
+  value: '2015-01-20'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

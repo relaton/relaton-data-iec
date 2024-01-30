@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60158-3-1985
 title:
 - content: 'Low-voltage controlgear. Part 3: Additional requirements for contactors
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '2000-09-25'
+- type: obsoleted
+  value: '2000-09-25'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

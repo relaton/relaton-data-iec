@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62040-1-2-2002/COR2-2004
 title:
 - content: 'Corrigendum 2 - Uninterruptible power systems (UPS) - Part 1-2: General
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2004-02-17'
+- type: stable-until
+  value: '2008-06-11'
+- type: obsoleted
+  value: '2008-06-11'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22H

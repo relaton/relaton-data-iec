@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60974-6-2003
 title:
 - content: 'Arc welding equipment - Part 6: Limited duty manual metal arc welding
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '2003-01-30'
+- type: stable-until
+  value: '2010-11-29'
+- type: obsoleted
+  value: '2010-11-29'
 contributor:
 - organization:
     name:
@@ -105,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 26

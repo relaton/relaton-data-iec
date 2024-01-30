@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60341-1-1970
 title:
 - content: 'Push-button switches - Part 1: General requirements and measuring methods'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1970-01-01'
+- type: stable-until
+  value: '1994-01-01'
+- type: obsoleted
+  value: '1994-01-01'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1970'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48

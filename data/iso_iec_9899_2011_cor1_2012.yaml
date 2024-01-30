@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9899-2011/COR1-2012
 title:
 - content: Corrigendum 1 - Information technology -- Programming languages -- C -
@@ -22,6 +22,10 @@ docid:
 date:
 - type: published
   value: '2012-07-13'
+- type: stable-until
+  value: '2018-07-05'
+- type: obsoleted
+  value: '2018-07-05'
 contributor:
 - organization:
     name:
@@ -164,7 +168,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 22

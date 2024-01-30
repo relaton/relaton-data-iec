@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-13-1983
 title:
 - content: 'Basic environmental testing procedures - Part 2-13: Tests - Test M: Low
@@ -42,7 +42,9 @@ date:
 - type: published
   value: '1983-01-01'
 - type: stable-until
-  value: '2021-12-31'
+  value: '2021-03-03'
+- type: obsoleted
+  value: '2021-03-03'
 contributor:
 - organization:
     name:
@@ -112,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

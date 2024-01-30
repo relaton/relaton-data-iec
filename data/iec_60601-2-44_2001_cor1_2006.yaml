@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-2-44-2001/COR1-2006
 title:
 - content: 'Corrigendum 1 - Medical electrical equipment - Part 2-44:     Particular
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2006-04-27'
+- type: stable-until
+  value: '2009-02-25'
+- type: obsoleted
+  value: '2009-02-25'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

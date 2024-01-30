@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60794-3-20-2009
 title:
 - content: 'Optical fibre cables - Part 3-20: Outdoor cables - Family specification
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '2009-01-12'
+- type: stable-until
+  value: '2016-09-15'
+- type: obsoleted
+  value: '2016-09-15'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86A

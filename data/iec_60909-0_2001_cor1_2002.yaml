@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60909-0-2001/COR1-2002
 title:
 - content: 'Corrigendum 1 - Short-circuit currents in three-phase a.c. systems - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-02-15'
+- type: stable-until
+  value: '2016-01-28'
+- type: obsoleted
+  value: '2016-01-28'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 73

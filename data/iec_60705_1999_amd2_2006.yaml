@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60705-1999/AMD2-2006
 title:
 - content: Amendment 2 - Household microwave ovens - Methods for measuring performance
@@ -38,6 +38,10 @@ docid:
 date:
 - type: published
   value: '2006-01-17'
+- type: stable-until
+  value: '2010-04-29'
+- type: obsoleted
+  value: '2010-04-29'
 contributor:
 - organization:
     name:
@@ -180,7 +184,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59K

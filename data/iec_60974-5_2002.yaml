@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60974-5-2002
 title:
 - content: 'Arc welding equipment - Part 5: Wire feeders'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2002-02-13'
+- type: stable-until
+  value: '2007-11-14'
+- type: obsoleted
+  value: '2007-11-14'
 contributor:
 - organization:
     name:
@@ -112,7 +116,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 26

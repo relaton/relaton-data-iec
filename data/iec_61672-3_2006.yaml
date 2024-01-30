@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61672-3-2006
 title:
 - content: 'Electroacoustics - Sound level meters - Part 3: Periodic tests'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2006-10-25'
+- type: stable-until
+  value: '2013-09-30'
+- type: obsoleted
+  value: '2013-09-30'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

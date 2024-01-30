@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTS60868-0-1991
 title:
 - content: 'Flickermeter - Part 0: Evaluation of flicker severity'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1991-05-29'
+- type: stable-until
+  value: '2004-03-30'
+- type: obsoleted
+  value: '2004-03-30'
 contributor:
 - organization:
     name:
@@ -70,7 +74,8 @@ copyright:
   from: '1991'
 place:
 - Geneva
-doctype: technical-specification
+doctype:
+  type: technical-specification
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

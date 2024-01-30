@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60417-2-1998/AMD2-2002
 title:
 - content: 'Amendment 2 - Graphical symbols for use on equipment - Part 2: Symbol
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-05-30'
+- type: stable-until
+  value: '2002-10-09'
+- type: obsoleted
+  value: '2002-10-09'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3/SC 3C

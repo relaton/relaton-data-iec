@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61937-2-2003/COR1-2004
 title:
 - content: 'Corrigendum 1 - Digital audio - Interface for non-linear PCM encoded audio
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2004-03-11'
+- type: stable-until
+  value: '2007-05-23'
+- type: obsoleted
+  value: '2007-05-23'
 contributor:
 - organization:
     name:
@@ -53,17 +57,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61937-2-2007+AMD1-2011+AMD2-2018CSV
-    type: standard
-    docid:
-    - id: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61937-2-2007/AMD2-2018
     type: standard
     docid:
@@ -72,6 +65,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61937-2:2007/AMD2:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61937-2-2007+AMD1-2011+AMD2-2018CSV
+    type: standard
+    docid:
+    - id: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -119,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

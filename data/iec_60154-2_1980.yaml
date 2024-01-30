@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60154-2-1980
 title:
 - content: 'Flanges for waveguides. Part 2: Relevant specifications for flanges for
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2016-07-05'
+- type: obsoleted
+  value: '2016-07-05'
 contributor:
 - organization:
     name:
@@ -132,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46F

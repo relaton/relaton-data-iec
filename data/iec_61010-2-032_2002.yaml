@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61010-2-032-2002
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '2002-09-30'
+- type: stable-until
+  value: '2012-09-26'
+- type: obsoleted
+  value: '2012-09-26'
 contributor:
 - organization:
     name:
@@ -113,6 +117,39 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC61010-2-032-2019/COR1-2020
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019/COR1:2020
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019/COR1:2020
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61010-2-032-2019RLV
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61010-2-032-2019
+    type: standard
+    docid:
+    - id: IEC 61010-2-032:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61010-2-032:2019
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC61010-2-032-2012
     type: standard
     docid:
@@ -135,7 +172,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

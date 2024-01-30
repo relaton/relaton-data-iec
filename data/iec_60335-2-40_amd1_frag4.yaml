@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-40/AMD1/FRAG4
 title:
 - content: 'Amendment 1 - Household and similar electrical appliances - Safety - Part
@@ -21,6 +21,11 @@ docid:
   primary: true
 - id: 'urn:iec:std:iec:60335-2-40:2018-01:::||amd:1/FRAG4:'
   type: URN
+date:
+- type: stable-until
+  value: '2022-09-05'
+- type: obsoleted
+  value: '2022-09-05'
 contributor:
 - organization:
     name:
@@ -42,17 +47,6 @@ docstatus:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-40-2018RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-40:2018 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-40:2018 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-40-2018
     type: standard
     docid:
@@ -61,6 +55,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-40:2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-40-2018RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-40:2018 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-40:2018 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -207,7 +212,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 ics:
 - code: '23.120'
   text: Ventilators. Fans. Air-conditioners

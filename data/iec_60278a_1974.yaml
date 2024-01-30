@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60278A-1974
 title:
 - content: First supplement - Documentation to be supplied with electronic measuring
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1993-01-01'
+- type: obsoleted
+  value: '1993-01-01'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 13

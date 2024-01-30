@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-2-2-1991
 title:
 - content: 'Fire hazard testing - Part 2: Test methods - Section 2: Needle-flame test'
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1991-05-02'
+- type: stable-until
+  value: '2004-12-14'
+- type: obsoleted
+  value: '2004-12-14'
 contributor:
 - organization:
     name:
@@ -114,7 +118,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

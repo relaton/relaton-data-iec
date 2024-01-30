@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60233-1967
 title:
 - content: Tests on large hollow porcelains for use in electrical installations
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '1974-01-01'
+- type: obsoleted
+  value: '1974-01-01'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61195-1993+AMD1-1998CSV
 title:
 - content: Double-capped fluorescent lamps - Safety specifications
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1998-07-24'
+- type: stable-until
+  value: '2012-10-14'
+- type: obsoleted
+  value: '2012-10-14'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

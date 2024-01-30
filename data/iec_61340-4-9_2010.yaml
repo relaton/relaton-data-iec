@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61340-4-9-2010
 title:
 - content: 'Electrostatics - Part 4-9: Standard test methods for specific applications
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2010-01-14'
+- type: stable-until
+  value: '2016-04-27'
+- type: obsoleted
+  value: '2016-04-27'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 101

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60547-1976
 title:
 - content: Modular plug-in unit and standard 19-inch rack mounting unit based on NIM
@@ -33,6 +33,8 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '2010-07-15'
 - type: obsoleted
   value: '2010-07-15'
 contributor:
@@ -92,7 +94,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

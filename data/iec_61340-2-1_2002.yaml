@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61340-2-1-2002
 title:
 - content: 'Electrostatics - Part 2-1: Measurement methods - Ability of materials
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2002-06-14'
+- type: stable-until
+  value: '2015-08-28'
+- type: obsoleted
+  value: '2015-08-28'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 101

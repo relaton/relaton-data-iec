@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60947-1-1988/AMD1-1994
 title:
 - content: 'Amendment 1 - Low-voltage switchgear and controlgear. Part 1: General
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1994-10-28'
+- type: stable-until
+  value: '1996-09-30'
+- type: obsoleted
+  value: '1996-09-30'
 contributor:
 - organization:
     name:
@@ -325,7 +329,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

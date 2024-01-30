@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60245-1-1994/AMD2-1997
 title:
 - content: 'Amendment 2 - Rubber insulated cables - Rated voltages up to and including
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1997-12-15'
+- type: stable-until
+  value: '2003-12-19'
+- type: obsoleted
+  value: '2003-12-19'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

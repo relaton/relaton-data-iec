@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-40-1995/AMD1-2000
 title:
 - content: 'Amendment 1 - Safety of household and similar electrical appliances -
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2000-02-29'
+- type: stable-until
+  value: '2002-12-13'
+- type: obsoleted
+  value: '2002-12-13'
 contributor:
 - organization:
     name:
@@ -64,17 +68,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-40-2018RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-40:2018 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-40:2018 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-40-2018
     type: standard
     docid:
@@ -86,14 +79,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-40-2013/AMD1-2016
+    id: IEC60335-2-40-2018RLV
     type: standard
     docid:
-    - id: IEC 60335-2-40:2013/AMD1:2016
+    - id: IEC 60335-2-40:2018 RLV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60335-2-40:2013/AMD1:2016
+      content: IEC 60335-2-40:2018 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -105,6 +98,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-40:2013+AMD1:2016 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-40-2013/AMD1-2016
+    type: standard
+    docid:
+    - id: IEC 60335-2-40:2013/AMD1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-40:2013/AMD1:2016
       format: text/plain
 - type: updates
   bibitem:
@@ -218,7 +222,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61D

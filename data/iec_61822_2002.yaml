@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61822-2002
 title:
 - content: Electrical installations for lighting and beaconing of aerodromes - Constant
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-06-21'
+- type: stable-until
+  value: '2009-05-26'
+- type: obsoleted
+  value: '2009-05-26'
 contributor:
 - organization:
     name:
@@ -73,9 +77,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2002'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61822-2009
+    type: standard
+    docid:
+    - id: IEC 61822:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61822:2009
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 97

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60721-2-2-1988
 title:
 - content: 'Classification of environmental conditions. Part 2: Environmental conditions
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1988-01-01'
+- type: stable-until
+  value: '2012-12-13'
+- type: obsoleted
+  value: '2012-12-13'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

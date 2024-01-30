@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60371-2-1987
 title:
 - content: 'Specification for insulating materials based on mica. Part 2: Methods
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1987-03-30'
+- type: stable-until
+  value: '2004-06-23'
+- type: obsoleted
+  value: '2004-06-23'
 contributor:
 - organization:
     name:
@@ -112,7 +116,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-3-2-1995+AMD1-1997+AMD2-1998CSV
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 3-2: Limits - Limits for harmonic
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1998-04-23'
+- type: stable-until
+  value: '2004-11-10'
+- type: obsoleted
+  value: '2004-11-10'
 contributor:
 - organization:
     name:
@@ -277,7 +281,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

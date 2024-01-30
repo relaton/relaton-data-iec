@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR13-1990/AMD2-1993/COR1-1993
 title:
 - content: |-
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1993-12-01'
+- type: stable-until
+  value: '1996-09-30'
+- type: obsoleted
+  value: '1996-09-30'
 contributor:
 - organization:
     name:
@@ -262,7 +266,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/I

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-1-2003/AMD1-2006
 title:
 - content: 'Amendment 1 - Luminaires - Part 1: General requirements and tests'
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2006-07-24'
+- type: stable-until
+  value: '2008-04-16'
+- type: obsoleted
+  value: '2008-04-16'
 contributor:
 - organization:
     name:
@@ -69,17 +73,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60598-1-2014/AMD1-2017
-    type: standard
-    docid:
-    - id: IEC 60598-1:2014/AMD1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-1:2014/AMD1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-1-2014+AMD1-2017CSV
     type: standard
     docid:
@@ -88,6 +81,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-1:2014+AMD1:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-1-2014/AMD1-2017
+    type: standard
+    docid:
+    - id: IEC 60598-1:2014/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-1:2014/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -212,17 +216,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60598-1-1999/ISH26-2001
-    type: standard
-    docid:
-    - id: IEC 60598-1:1999/ISH26:2001
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-1:1999/ISH26:2001
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-1-1999/ISH25-2001
     type: standard
     docid:
@@ -231,6 +224,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-1:1999/ISH25:2001
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-1-1999/ISH26-2001
+    type: standard
+    docid:
+    - id: IEC 60598-1:1999/ISH26:2001
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-1:1999/ISH26:2001
       format: text/plain
 - type: updates
   bibitem:
@@ -410,7 +414,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

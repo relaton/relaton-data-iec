@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC24711-2007/COR1-2012
 title:
 - content: Corrigendum 1 - Method for the determination of ink cartridge yield for
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2012-09-07'
+- type: stable-until
+  value: '2015-11-03'
+- type: obsoleted
+  value: '2015-11-03'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 28

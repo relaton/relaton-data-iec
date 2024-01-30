@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS62169-2000
 title:
 - content: Standard for handling, packing, shipping and use of moisture/reflow sensitive
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2000-08-22'
+- type: stable-until
+  value: '2009-04-07'
+- type: obsoleted
+  value: '2009-04-07'
 contributor:
 - organization:
     name:
@@ -63,7 +67,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 47

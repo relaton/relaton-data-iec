@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60445-1988
 title:
 - content: Identification of equipment terminals and of terminations of certain designated
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1988-11-28'
+- type: stable-until
+  value: '1999-10-29'
+- type: obsoleted
+  value: '1999-10-29'
 contributor:
 - organization:
     name:
@@ -91,17 +95,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60445-2017RLV
-    type: standard
-    docid:
-    - id: IEC 60445:2017 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60445:2017 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60445-2017
     type: standard
     docid:
@@ -110,6 +103,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60445:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60445-2017RLV
+    type: standard
+    docid:
+    - id: IEC 60445:2017 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60445:2017 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -190,7 +194,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

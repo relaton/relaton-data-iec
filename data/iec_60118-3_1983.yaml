@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60118-3-1983
 title:
 - content: 'Hearing aids. Part 3: Hearing aid equipment not entirely worn on the listener'
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2010-06-04'
 - type: obsoleted
   value: '2010-06-04'
 contributor:
@@ -93,7 +95,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

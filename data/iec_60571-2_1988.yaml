@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60571-2-1988
 title:
 - content: 'Electronic equipment used on rail vehicles. Part 2: Standardization of
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1988-07-15'
+- type: stable-until
+  value: '1998-01-01'
+- type: obsoleted
+  value: '1998-01-01'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 9

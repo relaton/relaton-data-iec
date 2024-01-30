@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60904-1-1987
 title:
 - content: 'Photovoltaic devices. Part 1: Measurement of photovoltaic current-voltage
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1987-12-30'
+- type: stable-until
+  value: '2006-09-13'
+- type: obsoleted
+  value: '2006-09-13'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 82

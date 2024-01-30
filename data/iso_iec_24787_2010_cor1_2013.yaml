@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC24787-2010/COR1-2013
 title:
 - content: Corrigendum 1 - Information technology -- Identification cards -- On-card
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2013-06-07'
+- type: stable-until
+  value: '2018-10-16'
+- type: obsoleted
+  value: '2018-10-16'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 17

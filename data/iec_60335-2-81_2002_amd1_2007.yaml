@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-81-2002/AMD1-2007
 title:
 - content: 'Amendment 1 - Household and similar electrical appliances - Safety - Part
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2007-01-26'
+- type: stable-until
+  value: '2015-04-09'
+- type: obsoleted
+  value: '2015-04-09'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

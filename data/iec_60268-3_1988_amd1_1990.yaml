@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60268-3-1988/AMD1-1990
 title:
 - content: 'Amendment 1 - Sound system equipment. Part 3: Amplifiers'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1990-09-30'
+- type: stable-until
+  value: '2000-08-30'
+- type: obsoleted
+  value: '2000-08-30'
 contributor:
 - organization:
     name:
@@ -127,7 +131,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100/TA 20

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60749-34-2004
 title:
 - content: 'Semiconductor devices - Mechanical and climatic test methods - Part 34:
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2004-03-10'
+- type: stable-until
+  value: '2010-10-28'
+- type: obsoleted
+  value: '2010-10-28'
 contributor:
 - organization:
     name:
@@ -99,7 +103,8 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47

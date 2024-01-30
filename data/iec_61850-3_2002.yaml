@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61850-3-2002
 title:
 - content: 'Communication networks and systems in substations - Part 3: General requirements'
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2002-01-16'
+- type: stable-until
+  value: '2013-12-12'
+- type: obsoleted
+  value: '2013-12-12'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 57

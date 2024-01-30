@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60811-2-1-1986
 title:
 - content: 'Common test methods for insulating and sheathing materials of electric
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1986-05-15'
+- type: stable-until
+  value: '1998-04-15'
+- type: obsoleted
+  value: '1998-04-15'
 contributor:
 - organization:
     name:
@@ -142,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

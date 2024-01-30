@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60997-1989
 title:
 - content: Determination of polychlorinated biphenyls (PCBs) in mineral insulating
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1989-09-30'
+- type: stable-until
+  value: '2002-05-02'
+- type: obsoleted
+  value: '2002-05-02'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ copyright:
   from: '1989'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

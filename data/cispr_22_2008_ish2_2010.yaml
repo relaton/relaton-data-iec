@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR22-2008/ISH2-2010
 title:
 - content: Interpretation Sheet 2 - Information technology equipment - Radio disturbance
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2010-04-22'
+- type: stable-until
+  value: '2017-03-31'
+- type: obsoleted
+  value: '2017-03-31'
 contributor:
 - organization:
     name:
@@ -84,17 +88,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: CISPR22-2008
-    type: standard
-    docid:
-    - id: CISPR 22:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 22:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR22-2008RLV
     type: standard
     docid:
@@ -103,6 +96,17 @@ relation:
       primary: true
     formattedref:
       content: CISPR 22:2008 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR22-2008
+    type: standard
+    docid:
+    - id: CISPR 22:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 22:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -260,7 +264,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/I

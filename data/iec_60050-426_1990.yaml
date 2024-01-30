@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60050-426-1990
 title:
 - content: 'International Electrotechnical Vocabulary (IEV) - Part 426: Electrical
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1990-10-15'
+- type: stable-until
+  value: '2008-02-22'
+- type: obsoleted
+  value: '2008-02-22'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1

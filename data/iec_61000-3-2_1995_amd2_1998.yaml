@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-3-2-1995/AMD2-1998
 title:
 - content: 'Amendment 2 - Electromagnetic compatibility (EMC) - Part 3: Limits - Section
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1998-02-06'
+- type: stable-until
+  value: '2000-08-30'
+- type: obsoleted
+  value: '2000-08-30'
 contributor:
 - organization:
     name:
@@ -260,7 +264,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

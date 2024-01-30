@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62114-2001
 title:
 - content: Electrical Insulation Systems - Thermal classification
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2001-10-10'
+- type: stable-until
+  value: '2007-11-07'
+- type: obsoleted
+  value: '2007-11-07'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

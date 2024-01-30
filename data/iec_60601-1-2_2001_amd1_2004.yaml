@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-1-2-2001/AMD1-2004
 title:
 - content: 'Amendment 1 - Medical electrical equipment - Part 1-2: General requirements
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2004-09-28'
+- type: stable-until
+  value: '2010-03-16'
+- type: obsoleted
+  value: '2010-03-16'
 contributor:
 - organization:
     name:
@@ -129,7 +133,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62A

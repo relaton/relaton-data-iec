@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61150-1992/COR1-1992
 title:
 - content: Corrigendum 1 - Alkaline secondary cells and batteries - Sealed nickel-cadmium
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1992-03-01'
+- type: stable-until
+  value: '2004-06-08'
 - type: obsoleted
   value: '2004-06-08'
 contributor:
@@ -75,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21/SC 21A

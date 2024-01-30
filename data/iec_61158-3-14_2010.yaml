@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61158-3-14-2010
 title:
 - content: 'Industrial communication networks - Fieldbus specifications - Part 3-14:
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '2010-08-05'
+- type: stable-until
+  value: '2014-08-13'
+- type: obsoleted
+  value: '2014-08-13'
 contributor:
 - organization:
     name:
@@ -111,7 +115,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65C

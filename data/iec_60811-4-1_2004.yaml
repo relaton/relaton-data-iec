@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60811-4-1-2004
 title:
 - content: 'Insulating and sheathing materials of electric and optical cables - Common
@@ -53,6 +53,10 @@ docid:
 date:
 - type: published
   value: '2004-06-08'
+- type: stable-until
+  value: '2012-03-13'
+- type: obsoleted
+  value: '2012-03-13'
 contributor:
 - organization:
     name:
@@ -146,17 +150,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60811-4-1-1985+AMD1-1988+AMD2-1993CSV
-    type: standard
-    docid:
-    - id: IEC 60811-4-1:1985+AMD1:1988+AMD2:1993 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60811-4-1:1985+AMD1:1988+AMD2:1993 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60811-4-1-1985
     type: standard
     docid:
@@ -166,9 +159,21 @@ relation:
     formattedref:
       content: IEC 60811-4-1:1985
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60811-4-1-1985+AMD1-1988+AMD2-1993CSV
+    type: standard
+    docid:
+    - id: IEC 60811-4-1:1985+AMD1:1988+AMD2:1993 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60811-4-1:1985+AMD1:1988+AMD2:1993 CSV
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

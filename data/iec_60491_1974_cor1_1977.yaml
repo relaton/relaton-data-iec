@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60491-1974/COR1-1977
 title:
 - content: Corrigendum 1 - Safety requirements for electronic flash apparatus for
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-04-01'
+- type: stable-until
+  value: '1984-01-01'
+- type: obsoleted
+  value: '1984-01-01'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61724-1998
 title:
 - content: Photovoltaic system performance monitoring - Guidelines for measurement,
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1998-04-15'
+- type: stable-until
+  value: '2017-03-03'
+- type: obsoleted
+  value: '2017-03-03'
 contributor:
 - organization:
     name:
@@ -92,7 +96,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 82

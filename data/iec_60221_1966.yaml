@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60221-1966
 title:
 - content: Dimensions of screw cores made of ferromagnetic oxides
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1966-01-01'
+- type: stable-until
+  value: '1997-11-21'
 - type: obsoleted
   value: '1997-11-21'
 contributor:
@@ -99,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

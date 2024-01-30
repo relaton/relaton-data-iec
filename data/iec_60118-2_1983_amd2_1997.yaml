@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60118-2-1983/AMD2-1997
 title:
 - content: 'Amendment 2 - Hearing aids. Part 2: Hearing aids with automatic gain control
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1997-05-16'
+- type: stable-until
+  value: '2015-06-09'
+- type: obsoleted
+  value: '2015-06-09'
 contributor:
 - organization:
     name:
@@ -133,7 +137,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

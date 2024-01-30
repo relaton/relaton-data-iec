@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62061-2005/COR1-2005
 title:
 - content: Corrigendum 1 - Safety of machinery - Functional safety of safety-related
@@ -33,7 +33,9 @@ date:
 - type: published
   value: '2005-07-21'
 - type: stable-until
-  value: '2021-12-31'
+  value: '2021-03-22'
+- type: obsoleted
+  value: '2021-03-22'
 contributor:
 - organization:
     name:
@@ -76,17 +78,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62061-2005/AMD2-2015
-    type: standard
-    docid:
-    - id: IEC 62061:2005/AMD2:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62061:2005/AMD2:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62061-2005+AMD1-2012+AMD2-2015CSV
     type: standard
     docid:
@@ -98,14 +89,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62061-2005+AMD1-2012CSV
+    id: IEC62061-2005/AMD2-2015
     type: standard
     docid:
-    - id: IEC 62061:2005+AMD1:2012 CSV
+    - id: IEC 62061:2005/AMD2:2015
       type: IEC
       primary: true
     formattedref:
-      content: IEC 62061:2005+AMD1:2012 CSV
+      content: IEC 62061:2005/AMD2:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -117,6 +108,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62061:2005/AMD1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62061-2005+AMD1-2012CSV
+    type: standard
+    docid:
+    - id: IEC 62061:2005+AMD1:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62061:2005+AMD1:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -142,7 +144,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 44

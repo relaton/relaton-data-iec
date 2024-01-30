@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-11-20-1999/AMD1-2003
 title:
 - content: 'Amendment 1 - Fire hazard testing - Part 11-20: Test flames - 500 W flame
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2003-06-26'
+- type: stable-until
+  value: '2015-04-22'
+- type: obsoleted
+  value: '2015-04-22'
 contributor:
 - organization:
     name:
@@ -118,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

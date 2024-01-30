@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-6-1978
 title:
 - content: 'Fixed capacitors for use in electronic equipment - Part 6: Sectional specification:
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1978-01-01'
+- type: stable-until
+  value: '2005-09-26'
+- type: obsoleted
+  value: '2005-09-26'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

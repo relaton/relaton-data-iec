@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-22-1996
 title:
 - content: 'Rotating electrical machines -  Part 22:  AC generators for reciprocating
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1996-11-01'
+- type: stable-until
+  value: '2009-10-28'
+- type: obsoleted
+  value: '2009-10-28'
 contributor:
 - organization:
     name:
@@ -83,9 +87,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1996'
+relation:
+- type: obsoletes
+  bibitem:
+    id: IEC60034-22-2009
+    type: standard
+    docid:
+    - id: IEC 60034-22:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60034-22:2009
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

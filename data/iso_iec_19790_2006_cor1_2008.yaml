@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC19790-2006/COR1-2008
 title:
 - content: Corrigendum 1 - Information technology -- Security techniques -- Security
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2008-06-16'
+- type: stable-until
+  value: '2012-08-09'
+- type: obsoleted
+  value: '2012-08-09'
 contributor:
 - organization:
     name:
@@ -88,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 27

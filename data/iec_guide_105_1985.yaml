@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECGUIDE105-1985
 title:
 - content: |-
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1985-09-01'
+- type: stable-until
+  value: '2000-05-05'
+- type: obsoleted
+  value: '2000-05-05'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ACOS

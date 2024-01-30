@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60851-2-1985
 title:
 - content: 'Methods of test for winding wires. Part 2: Determination of dimensions.'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1985-09-30'
+- type: stable-until
+  value: '1996-10-24'
+- type: obsoleted
+  value: '1996-10-24'
 contributor:
 - organization:
     name:
@@ -116,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

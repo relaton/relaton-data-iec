@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61300-2-37-2006
 title:
 - content: 'Fibre optic interconnecting devices and passive components - Basic test
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '2006-10-25'
+- type: stable-until
+  value: '2016-04-20'
+- type: obsoleted
+  value: '2016-04-20'
 contributor:
 - organization:
     name:
@@ -109,7 +113,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

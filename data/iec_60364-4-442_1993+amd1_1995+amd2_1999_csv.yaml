@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-442-1993+AMD1-1995+AMD2-1999CSV
 title:
 - content: 'Electrical installations of buildings - Part 4: Protection for safety
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1999-06-17'
+- type: stable-until
+  value: '2001-08-21'
+- type: obsoleted
+  value: '2001-08-21'
 contributor:
 - organization:
     name:
@@ -119,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

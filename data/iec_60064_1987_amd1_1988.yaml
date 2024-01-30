@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60064-1987/AMD1-1988
 title:
 - content: Amendment 1 - Tungsten filament lamps for domestic and similar general
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1988-04-30'
+- type: stable-until
+  value: '1993-12-17'
+- type: obsoleted
+  value: '1993-12-17'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

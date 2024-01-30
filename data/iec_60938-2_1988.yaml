@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60938-2-1988
 title:
 - content: 'Fixed inductors for radio interference suppression. Part 2: Sectional
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1988-06-15'
+- type: stable-until
+  value: '2023-12-06'
+- type: obsoleted
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -118,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

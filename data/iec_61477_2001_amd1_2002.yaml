@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61477-2001/AMD1-2002
 title:
 - content: Amendment 1 - Live working - Minimum requirements for the utilization of
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2002-05-08'
+- type: stable-until
+  value: '2009-02-20'
+- type: obsoleted
+  value: '2009-02-20'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

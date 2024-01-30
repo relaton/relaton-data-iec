@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-3-1979
 title:
 - content: 'Luminaires - Part 2: Particular requirements - Section 3: Luminaires for
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '2001-03-22'
+- type: obsoleted
+  value: '2001-03-22'
 contributor:
 - organization:
     name:
@@ -159,7 +163,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34

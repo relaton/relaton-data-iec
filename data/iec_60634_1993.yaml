@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60634-1993
 title:
 - content: Heat test source (H.T.S.) lamps for carrying out heating tests on luminaires
@@ -39,6 +39,8 @@ docid:
 date:
 - type: published
   value: '1993-07-29'
+- type: stable-until
+  value: '2017-01-02'
 - type: obsoleted
   value: '2017-01-02'
 contributor:
@@ -110,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

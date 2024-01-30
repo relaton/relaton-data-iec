@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60312-1998/AMD1-2000
 title:
 - content: Amendment 1 - Vacuum cleaners for household use - Methods of measuring
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2000-04-18'
+- type: stable-until
+  value: '2007-04-27'
+- type: obsoleted
+  value: '2007-04-27'
 contributor:
 - organization:
     name:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59F

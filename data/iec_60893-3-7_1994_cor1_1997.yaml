@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60893-3-7-1994/COR1-1997
 title:
 - content: 'Corrigendum 1 - Specification for industrial rigid laminated sheets based
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1997-12-15'
+- type: stable-until
+  value: '2003-11-14'
+- type: obsoleted
+  value: '2003-11-14'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

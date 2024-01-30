@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60628-1978
 title:
 - content: Gassing of cable and capacitor insulating oils under electrical stress
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1978-01-01'
+- type: stable-until
+  value: '1985-01-01'
+- type: obsoleted
+  value: '1985-01-01'
 contributor:
 - organization:
     name:
@@ -70,7 +74,8 @@ copyright:
   from: '1978'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

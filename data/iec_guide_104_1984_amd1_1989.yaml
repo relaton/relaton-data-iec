@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECGUIDE104-1984/AMD1-1989
 title:
 - content: Amendment 1 - Guide to the drafting of safety standards, and the role of
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1989-05-01'
+- type: stable-until
+  value: '1997-08-14'
+- type: obsoleted
+  value: '1997-08-14'
 contributor:
 - organization:
     name:
@@ -118,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ACOS

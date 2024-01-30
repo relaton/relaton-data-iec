@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-16-1-1982/AMD1-1987
 title:
 - content: 'Amendment 1 - Fixed capacitors for use in electronic equipment. Part 16:
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '2005-11-09'
+- type: obsoleted
+  value: '2005-11-09'
 contributor:
 - organization:
     name:
@@ -76,7 +80,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60519-7-1983
 title:
 - content: 'Safety in electroheat installations. Part 7: Particular requirements for
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2008-02-27'
+- type: obsoleted
+  value: '2008-02-27'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '1983'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 27

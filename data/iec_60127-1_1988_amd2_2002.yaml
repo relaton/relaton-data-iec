@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60127-1-1988/AMD2-2002
 title:
 - content: 'Amendment 2 - Miniature fuses - Part 1: Definitions for miniature fuses
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2002-12-17'
+- type: stable-until
+  value: '2006-06-13'
+- type: obsoleted
+  value: '2006-06-13'
 contributor:
 - organization:
     name:
@@ -71,6 +75,50 @@ copyright:
     url: www.iec.ch
   from: '1988'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60127-1-2006+AMD1-2011+AMD2-2015CSV
+    type: standard
+    docid:
+    - id: IEC 60127-1:2006+AMD1:2011+AMD2:2015 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60127-1:2006+AMD1:2011+AMD2:2015 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60127-1-2006/AMD2-2015
+    type: standard
+    docid:
+    - id: IEC 60127-1:2006/AMD2:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60127-1:2006/AMD2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60127-1-2006/AMD1-2011
+    type: standard
+    docid:
+    - id: IEC 60127-1:2006/AMD1:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60127-1:2006/AMD1:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60127-1-2006
+    type: standard
+    docid:
+    - id: IEC 60127-1:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60127-1:2006
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60127-1-1988+AMD1-1999+AMD2-2002CSV
@@ -128,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

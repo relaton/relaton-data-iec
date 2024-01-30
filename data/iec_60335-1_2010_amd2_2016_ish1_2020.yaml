@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-1-2010/AMD2-2016/ISH1-2020
 title:
 - content: 'Interpretation Sheet 1 - Amendment 2 - Household and similar electrical
@@ -32,7 +32,9 @@ date:
 - type: published
   value: '2020-04-24'
 - type: stable-until
-  value: '2019-12-31'
+  value: '2021-11-22'
+- type: obsoleted
+  value: '2021-11-22'
 contributor:
 - organization:
     name:
@@ -449,7 +451,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

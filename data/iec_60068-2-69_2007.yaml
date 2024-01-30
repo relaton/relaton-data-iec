@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-69-2007
 title:
 - content: 'Environmental testing - Part 2-69: Tests - Test Te: Solderability testing
@@ -46,6 +46,10 @@ docid:
 date:
 - type: published
   value: '2007-05-09'
+- type: stable-until
+  value: '2017-03-07'
+- type: obsoleted
+  value: '2017-03-07'
 contributor:
 - organization:
     name:
@@ -134,7 +138,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61969-2-2000
 title:
 - content: 'Mechanical structures for electronic equipment - Outdoor enclosures -
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2000-01-27'
+- type: stable-until
+  value: '2011-11-17'
+- type: obsoleted
+  value: '2011-11-17'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48D

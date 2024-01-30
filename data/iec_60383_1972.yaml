@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60383-1972
 title:
 - content: Tests on insulators of ceramic material or glass for overhead lines with
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1976-01-01'
+- type: obsoleted
+  value: '1976-01-01'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

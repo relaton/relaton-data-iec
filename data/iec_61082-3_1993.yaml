@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61082-3-1993
 title:
 - content: 'Preparation of documents used in electrotechnology - Part 3: Connection
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1993-12-09'
+- type: stable-until
+  value: '2006-04-11'
+- type: obsoleted
+  value: '2006-04-11'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

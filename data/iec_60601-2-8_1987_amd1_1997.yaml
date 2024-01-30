@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-2-8-1987/AMD1-1997
 title:
 - content: 'Amendment 1 - Medical electrical equipment - Part 2: Particular requirements
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1997-08-26'
+- type: stable-until
+  value: '2010-11-10'
+- type: obsoleted
+  value: '2010-11-10'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62C

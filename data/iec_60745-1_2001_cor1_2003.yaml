@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60745-1-2001/COR1-2003
 title:
 - content: 'Corrigendum 1 - Hand-held motor-operated electric tools - Safety - Part
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2003-08-22'
+- type: stable-until
+  value: '2006-04-18'
+- type: obsoleted
+  value: '2006-04-18'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 116

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60044-3-2002
 title:
 - content: 'Instrument transformers - Part 3: Combined transformers'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2002-12-16'
+- type: stable-until
+  value: '2013-11-19'
+- type: obsoleted
+  value: '2013-11-19'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 38

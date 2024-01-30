@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO8630-3-1987/COR1-1992
 title:
 - content: 'Corrigendum 1 - Information processing - Data interchange on 130 mm (5.25
@@ -24,6 +24,8 @@ docid:
 date:
 - type: published
   value: '1992-11-19'
+- type: stable-until
+  value: '2018-10-02'
 - type: obsoleted
   value: '2018-10-02'
 contributor:
@@ -67,7 +69,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1

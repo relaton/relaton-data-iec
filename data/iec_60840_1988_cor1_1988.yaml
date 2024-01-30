@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60840-1988/COR1-1988
 title:
 - content: Tests for power cables with extruded insulation for rated voltages above
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1988-11-01'
+- type: stable-until
+  value: '1999-02-19'
+- type: obsoleted
+  value: '1999-02-19'
 contributor:
 - organization:
     name:
@@ -63,17 +67,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60840-2011
-    type: standard
-    docid:
-    - id: IEC 60840:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60840:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60840-2011RLV
     type: standard
     docid:
@@ -82,6 +75,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60840:2011 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60840-2011
+    type: standard
+    docid:
+    - id: IEC 60840:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60840:2011
       format: text/plain
 - type: updates
   bibitem:
@@ -151,7 +155,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

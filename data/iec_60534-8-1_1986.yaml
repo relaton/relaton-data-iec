@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60534-8-1-1986
 title:
 - content: 'Industrial-process control valves. Part 8: Noise considerations. Section
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1986-09-30'
+- type: stable-until
+  value: '2005-09-26'
+- type: obsoleted
+  value: '2005-09-26'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1986'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

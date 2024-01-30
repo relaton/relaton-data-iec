@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60730-2-9-1992/AMD2-1994
 title:
 - content: 'Amendment 2 - Automatic electrical controls for household and similar
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1994-11-10'
+- type: stable-until
+  value: '2000-05-18'
+- type: obsoleted
+  value: '2000-05-18'
 contributor:
 - organization:
     name:
@@ -183,7 +187,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 72

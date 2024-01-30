@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-3-1993+AMD1-1997CSV
 title:
 - content: 'Luminaires - Part 2: Particular requirements - Section 3: Luminaires for
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1997-09-10'
+- type: stable-until
+  value: '2011-11-17'
+- type: obsoleted
+  value: '2011-11-17'
 contributor:
 - organization:
     name:
@@ -173,7 +177,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

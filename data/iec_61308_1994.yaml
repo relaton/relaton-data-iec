@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61308-1994
 title:
 - content: |-
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1994-07-21'
+- type: stable-until
+  value: '2005-12-07'
+- type: obsoleted
+  value: '2005-12-07'
 contributor:
 - organization:
     name:
@@ -92,9 +96,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1994'
+relation:
+- type: obsoletes
+  bibitem:
+    id: IEC61308-2005
+    type: standard
+    docid:
+    - id: IEC 61308:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61308:2005
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 27

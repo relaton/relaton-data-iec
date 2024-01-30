@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60414-1973
 title:
 - content: Safety requirements for indicating and recording electrical measuring instruments
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1997-01-31'
+- type: obsoleted
+  value: '1997-01-31'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '1973'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

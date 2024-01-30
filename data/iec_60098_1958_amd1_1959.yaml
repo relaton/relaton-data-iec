@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60098-1958/AMD1-1959
 title:
 - content: Amendment 1 - Recommendations for lateral-cut commercial and transcription
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1959-06-01'
+- type: stable-until
+  value: '1964-01-01'
+- type: obsoleted
+  value: '1964-01-01'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

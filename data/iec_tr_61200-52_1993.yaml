@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61200-52-1993
 title:
 - content: 'Electrical installation guide - Part 52: Selection and erection of electrical
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1993-03-05'
+- type: stable-until
+  value: '2013-07-10'
+- type: obsoleted
+  value: '2013-07-10'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 64

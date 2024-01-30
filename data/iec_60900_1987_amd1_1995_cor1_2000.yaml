@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60900-1987/AMD1-1995/COR1-2000
 title:
 - content: Corrigendum 1 to Amendment 1 - Hand tools for live working up to 1000 V
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2000-05-26'
+- type: stable-until
+  value: '2004-01-08'
+- type: obsoleted
+  value: '2004-01-08'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

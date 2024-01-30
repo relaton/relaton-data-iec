@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR2-1961
 title:
 - content: Specification for CISPR radio interference measuring apparatus for the
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1961-01-01'
+- type: stable-until
+  value: '1975-01-01'
+- type: obsoleted
+  value: '1975-01-01'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

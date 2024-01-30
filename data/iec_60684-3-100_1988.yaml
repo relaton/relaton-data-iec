@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60684-3-100-1988
 title:
 - content: 'Specification for flexible insulating sleeving. Part 3: Specification
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1988-03-30'
+- type: stable-until
+  value: '2001-07-10'
+- type: obsoleted
+  value: '2001-07-10'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

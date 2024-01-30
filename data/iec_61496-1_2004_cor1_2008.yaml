@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61496-1-2004/COR1-2008
 title:
 - content: 'Corrigendum 1 - Safety of machinery - Electro-sensitive protective equipment
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2008-06-25'
+- type: stable-until
+  value: '2012-04-05'
+- type: obsoleted
+  value: '2012-04-05'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 44

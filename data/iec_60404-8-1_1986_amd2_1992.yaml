@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60404-8-1-1986/AMD2-1992
 title:
 - content: 'Amendment 2 - Magnetic materials. Part 8: Specifications for individual
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1992-12-15'
+- type: stable-until
+  value: '2001-04-11'
+- type: obsoleted
+  value: '2001-04-11'
 contributor:
 - organization:
     name:
@@ -74,6 +78,17 @@ copyright:
     url: www.iec.ch
   from: '1986'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60404-8-1-2015
+    type: standard
+    docid:
+    - id: IEC 60404-8-1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60404-8-1:2015
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60404-8-1-2001+AMD1-2004CSV
@@ -131,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 68

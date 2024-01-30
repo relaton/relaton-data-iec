@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60738-1-2-1998
 title:
 - content: 'Thermistors - Directly heated positive step-function temperature coefficient
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1998-12-10'
+- type: stable-until
+  value: '2008-02-13'
+- type: obsoleted
+  value: '2008-02-13'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

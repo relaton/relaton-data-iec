@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60613-1978
 title:
 - content: Electrical, thermal and loading characteristics of rotating anode X-ray
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1978-01-01'
+- type: stable-until
+  value: '1989-05-15'
+- type: obsoleted
+  value: '1989-05-15'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62

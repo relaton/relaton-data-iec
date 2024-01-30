@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60512-1-1994
 title:
 - content: 'Electromechanical components for electronic equipment - Basic testing
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1994-09-09'
+- type: stable-until
+  value: '2001-01-22'
+- type: obsoleted
+  value: '2001-01-22'
 contributor:
 - organization:
     name:
@@ -144,7 +148,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48

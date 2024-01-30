@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-0-2007/COR1-2010
 title:
 - content: 'Corrigendum 1 - Explosive atmospheres - Part 0: Equipment - General requirements'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '2010-12-14'
+- type: stable-until
+  value: '2019-04-18'
+- type: obsoleted
+  value: '2019-04-18'
 contributor:
 - organization:
     name:
@@ -138,17 +142,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-2011
-    type: standard
-    docid:
-    - id: IEC 60079-0:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-0:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-0-2011RLV
     type: standard
     docid:
@@ -160,14 +153,25 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-1998/ISH1-2008
+    id: IEC60079-0-2011
     type: standard
     docid:
-    - id: IEC 60079-0:1998/ISH1:2008
+    - id: IEC 60079-0:2011
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60079-0:1998/ISH1:2008
+      content: IEC 60079-0:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-0-2004/ISH1-2008
+    type: standard
+    docid:
+    - id: IEC 60079-0:2004/ISH1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-0:2004/ISH1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -182,14 +186,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-2004/ISH1-2008
+    id: IEC60079-0-1998/ISH1-2008
     type: standard
     docid:
-    - id: IEC 60079-0:2004/ISH1:2008
+    - id: IEC 60079-0:1998/ISH1:2008
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60079-0:2004/ISH1:2008
+      content: IEC 60079-0:1998/ISH1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -292,7 +296,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

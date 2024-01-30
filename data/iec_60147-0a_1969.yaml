@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60147-0A-1969
 title:
 - content: 'Supplement A - Essential ratings and characteristics of semiconductor
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '1983-01-01'
+- type: obsoleted
+  value: '1983-01-01'
 contributor:
 - organization:
     name:
@@ -62,7 +66,8 @@ copyright:
   from: '1969'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47

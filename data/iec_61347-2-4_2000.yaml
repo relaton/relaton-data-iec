@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61347-2-4-2000
 title:
 - content: 'Lamp controlgear - Part 2-4: Particular requirements for d.c. supplied
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2000-10-13'
+- type: stable-until
+  value: '2011-05-19'
+- type: obsoleted
+  value: '2011-05-19'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

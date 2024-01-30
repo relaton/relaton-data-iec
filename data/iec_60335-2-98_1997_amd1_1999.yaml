@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-98-1997/AMD1-1999
 title:
 - content: 'Amendment 1 - Safety of household and similar electrical appliances -
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1999-11-01'
+- type: stable-until
+  value: '2002-11-26'
+- type: obsoleted
+  value: '2002-11-26'
 contributor:
 - organization:
     name:
@@ -62,6 +66,61 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60335-2-98-2002+AMD1-2004+AMD2-2008CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-98:2002+AMD1:2004+AMD2:2008 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-98:2002+AMD1:2004+AMD2:2008 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-98-2002/AMD2-2008
+    type: standard
+    docid:
+    - id: IEC 60335-2-98:2002/AMD2:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-98:2002/AMD2:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-98-2002+AMD1-2004CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-98:2002+AMD1:2004 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-98:2002+AMD1:2004 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-98-2002/AMD1-2004
+    type: standard
+    docid:
+    - id: IEC 60335-2-98:2002/AMD1:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-98:2002/AMD1:2004
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-98-2002
+    type: standard
+    docid:
+    - id: IEC 60335-2-98:2002
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-98:2002
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60335-2-98-1997
     type: standard
     docid:
@@ -73,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

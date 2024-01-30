@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60571-1998/AMD1-2006
 title:
 - content: Amendment 1 - Electronic equipment used on rail vehicles
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '2006-04-27'
+- type: stable-until
+  value: '2012-09-27'
+- type: obsoleted
+  value: '2012-09-27'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 9

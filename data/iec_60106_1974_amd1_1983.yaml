@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60106-1974/AMD1-1983
 title:
 - content: Amendment 1 - Recommended methods of measurement of radiated and conducted
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '1990-01-01'
+- type: obsoleted
+  value: '1990-01-01'
 contributor:
 - organization:
     name:
@@ -76,17 +80,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60106-1959
-    type: standard
-    docid:
-    - id: IEC 60106:1959
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60106:1959
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60106-1959/COR1-1959
     type: standard
     docid:
@@ -96,9 +89,21 @@ relation:
     formattedref:
       content: IEC 60106:1959/COR1:1959
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60106-1959
+    type: standard
+    docid:
+    - id: IEC 60106:1959
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60106:1959
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

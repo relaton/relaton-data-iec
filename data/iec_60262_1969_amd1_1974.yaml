@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60262-1969/AMD1-1974
 title:
 - content: Amendment 1 - Ballasts for high pressure mercury vapour lamps
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1974-04-01'
+- type: stable-until
+  value: '1988-01-01'
+- type: obsoleted
+  value: '1988-01-01'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34

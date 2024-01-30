@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60621-4-1981
 title:
 - content: 'Electrical installations for outdoor sites under heavy conditions (including
@@ -34,6 +34,8 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '2009-01-06'
 - type: obsoleted
   value: '2009-01-06'
 contributor:
@@ -95,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 44

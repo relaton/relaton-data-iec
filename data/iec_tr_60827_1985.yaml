@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60827-1985
 title:
 - content: Guide to voltage fluctuation limits for household appliances (relating
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '2001-08-31'
+- type: obsoleted
+  value: '2001-08-31'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

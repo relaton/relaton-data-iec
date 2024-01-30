@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60273-1968/AMD1-1972
 title:
 - content: Amendment 1 - Dimensions of indoor and outdoor post insulators and post
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1972-03-01'
+- type: stable-until
+  value: '1979-01-01'
+- type: obsoleted
+  value: '1979-01-01'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

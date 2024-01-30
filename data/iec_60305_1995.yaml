@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60305-1995
 title:
 - content: Insulators for overhead lines with a nominal voltage above 1000 V - Ceramic
@@ -50,7 +50,9 @@ date:
 - type: published
   value: '1995-12-13'
 - type: stable-until
-  value: '2021-12-31'
+  value: '2021-01-11'
+- type: obsoleted
+  value: '2021-01-11'
 contributor:
 - organization:
     name:
@@ -137,7 +139,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60617-13-1978
 title:
 - content: 'Graphical symbols for diagrams - Part 13: Analogue elements'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1978-01-01'
+- type: stable-until
+  value: '1993-02-08'
+- type: obsoleted
+  value: '1993-02-08'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

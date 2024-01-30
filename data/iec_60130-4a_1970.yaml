@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60130-4A-1970
 title:
 - content: 'Connectors for frequencies below 3 MHz - Part 4: Circular multipole connectors
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1970-01-01'
+- type: stable-until
+  value: '2016-01-28'
 - type: obsoleted
   value: '2016-01-28'
 contributor:
@@ -63,7 +65,8 @@ copyright:
   from: '1970'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

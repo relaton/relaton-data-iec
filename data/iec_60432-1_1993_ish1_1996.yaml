@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60432-1-1993/ISH1-1996
 title:
 - content: Interpretation sheet I-SH 01 to IEC 432-1
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1996-09-30'
+- type: stable-until
+  value: '1999-08-13'
+- type: obsoleted
+  value: '1999-08-13'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

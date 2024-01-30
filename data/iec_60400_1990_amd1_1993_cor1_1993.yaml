@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60400-1990/AMD1-1993/COR1-1993
 title:
 - content: Corrigendum 1 - Amendment 1 - Lampholders for tubular fluorescent lamps
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-08-01'
+- type: stable-until
+  value: '1996-06-18'
+- type: obsoleted
+  value: '1996-06-18'
 contributor:
 - organization:
     name:
@@ -304,7 +308,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

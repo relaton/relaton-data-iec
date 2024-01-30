@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62301-2005
 title:
 - content: Household electrical appliances - Measurement of standby power
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2005-06-13'
+- type: stable-until
+  value: '2011-01-27'
+- type: obsoleted
+  value: '2011-01-27'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59

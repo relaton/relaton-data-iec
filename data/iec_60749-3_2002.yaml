@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60749-3-2002
 title:
 - content: 'Semiconductor devices - Mechanical and climatic test methods - Part 3:
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2002-04-09'
+- type: stable-until
+  value: '2017-03-03'
+- type: obsoleted
+  value: '2017-03-03'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47

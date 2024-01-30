@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60574-4-1982/AMD1-1991
 title:
 - content: 'Amendment 1 - Audiovisual, video and television equipment and systems.
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1991-01-10'
+- type: stable-until
+  value: '1996-12-05'
+- type: obsoleted
+  value: '1996-12-05'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

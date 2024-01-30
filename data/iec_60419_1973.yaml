@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60419-1973
 title:
 - content: Guide for the inclusion of lot-by-lot and periodic inspection procedures
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1998-01-23'
 - type: obsoleted
   value: '1998-01-23'
 contributor:
@@ -82,7 +84,8 @@ copyright:
   from: '1973'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 56

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-11-2005
 title:
 - content: 'Luminaires - Part 2-11: Particular requirements - Aquarium luminaires'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2005-05-19'
+- type: stable-until
+  value: '2013-05-16'
+- type: obsoleted
+  value: '2013-05-16'
 contributor:
 - organization:
     name:
@@ -88,7 +92,8 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

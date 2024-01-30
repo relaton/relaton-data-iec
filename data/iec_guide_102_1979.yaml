@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECGUIDE102-1979
 title:
 - content: Specification structures for the quality assessment of electronic components
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '1989-01-01'
+- type: obsoleted
+  value: '1989-01-01'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: SMB

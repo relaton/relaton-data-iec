@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60050-604-1987/AMD1-1998
 title:
 - content: 'Amendment 1 - International Electrotechnical Vocabulary (IEV) - Part 604:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1998-07-24'
+- type: stable-until
+  value: '2016-02-02'
+- type: obsoleted
+  value: '2016-02-02'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1

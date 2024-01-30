@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61331-3-1998
 title:
 - content: 'Protective devices against diagnostic medical X-radiation - Part 3: Protective
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '1998-11-06'
+- type: stable-until
+  value: '2014-05-07'
+- type: obsoleted
+  value: '2014-05-07'
 contributor:
 - organization:
     name:
@@ -112,7 +116,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

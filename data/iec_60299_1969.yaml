@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60299-1969
 title:
 - content: Measurement of the performance characteristics of electric blankets
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '1994-01-31'
+- type: obsoleted
+  value: '1994-01-31'
 contributor:
 - organization:
     name:
@@ -72,7 +76,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59

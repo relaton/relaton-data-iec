@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62271-110-2017/COR2-2018
 title:
 - content: 'Corrigendum 2 - High-voltage switchgear and controlgear - Part 110: Inductive
@@ -32,7 +32,9 @@ date:
 - type: published
   value: '2018-02-16'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2023-03-16'
+- type: obsoleted
+  value: '2023-03-16'
 contributor:
 - organization:
     name:
@@ -75,17 +77,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62271-110-2017
-    type: standard
-    docid:
-    - id: IEC 62271-110:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62271-110:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62271-110-2017RLV
     type: standard
     docid:
@@ -94,6 +85,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-110:2017 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -141,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

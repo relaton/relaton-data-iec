@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61800-5-1-2003/COR1-2003
 title:
 - content: 'Corrigendum 1 - Adjustable speed electrical power drive systems - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2003-09-17'
+- type: stable-until
+  value: '2007-07-16'
+- type: obsoleted
+  value: '2007-07-16'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22G

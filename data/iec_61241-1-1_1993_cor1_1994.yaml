@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61241-1-1-1993/COR1-1994
 title:
 - content: 'Corrigendum 1 - Electrical apparatus for use in the presence of combustible
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1994-03-01'
+- type: stable-until
+  value: '1999-06-17'
+- type: obsoleted
+  value: '1999-06-17'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

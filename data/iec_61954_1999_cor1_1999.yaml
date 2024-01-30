@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61954-1999/COR1-1999
 title:
 - content: Corrigendum 1 - Power electronics for electrical transmission and distribution
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1999-12-22'
+- type: stable-until
+  value: '2011-04-21'
+- type: obsoleted
+  value: '2011-04-21'
 contributor:
 - organization:
     name:
@@ -63,17 +67,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61954-2011+AMD1-2013+AMD2-2017CSV
-    type: standard
-    docid:
-    - id: IEC 61954:2011+AMD1:2013+AMD2:2017 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61954:2011+AMD1:2013+AMD2:2017 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61954-2011/AMD2-2017
     type: standard
     docid:
@@ -85,14 +78,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61954-2011/AMD1-2013
+    id: IEC61954-2011+AMD1-2013+AMD2-2017CSV
     type: standard
     docid:
-    - id: IEC 61954:2011/AMD1:2013
+    - id: IEC 61954:2011+AMD1:2013+AMD2:2017 CSV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 61954:2011/AMD1:2013
+      content: IEC 61954:2011+AMD1:2013+AMD2:2017 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -104,6 +97,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61954:2011+AMD1:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61954-2011/AMD1-2013
+    type: standard
+    docid:
+    - id: IEC 61954:2011/AMD1:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61954:2011/AMD1:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -151,7 +155,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F

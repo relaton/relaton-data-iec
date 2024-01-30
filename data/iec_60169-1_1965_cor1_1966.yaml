@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60169-1-1965/COR1-1966
 title:
 - content: 'Corrigendum 1 - Radio-frequency connectors - Part 1: General requirements
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1966-01-01'
+- type: stable-until
+  value: '2009-03-31'
 - type: obsoleted
   value: '2009-03-31'
 contributor:
@@ -75,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

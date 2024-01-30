@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60125-1961/AMD1-1965
 title:
 - content: Amendment 1 - General classification of ferromagnetic oxide materials and
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1965-12-01'
+- type: stable-until
+  value: '1979-01-01'
+- type: obsoleted
+  value: '1979-01-01'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

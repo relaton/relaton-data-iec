@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-27-1998
 title:
 - content: 'Specifications for particular types of winding wires - Part 27: Paper
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1998-01-23'
+- type: stable-until
+  value: '2013-10-10'
+- type: obsoleted
+  value: '2013-10-10'
 contributor:
 - organization:
     name:
@@ -102,17 +106,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60317-27-1998/COR1-2002
-    type: standard
-    docid:
-    - id: IEC 60317-27:1998/COR1:2002
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60317-27:1998/COR1:2002
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60317-27-1998/AMD1-1999/COR1-2002
     type: standard
     docid:
@@ -121,6 +114,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60317-27:1998/AMD1:1999/COR1:2002
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60317-27-1998/COR1-2002
+    type: standard
+    docid:
+    - id: IEC 60317-27:1998/COR1:2002
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60317-27:1998/COR1:2002
       format: text/plain
 - type: updates
   bibitem:
@@ -168,7 +172,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

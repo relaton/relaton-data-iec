@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-43-2001
 title:
 - content: 'Electrical installations of buildings - Part 4-43: Protection for safety
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2001-08-17'
+- type: stable-until
+  value: '2008-08-13'
+- type: obsoleted
+  value: '2008-08-13'
 contributor:
 - organization:
     name:
@@ -142,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60966-1-1988/AMD1-1990
 title:
 - content: 'Amendment 1 - Radio-frequency and coaxial cable assemblies. Part 1: Generic
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1990-10-10'
+- type: stable-until
+  value: '1999-04-23'
+- type: obsoleted
+  value: '1999-04-23'
 contributor:
 - organization:
     name:
@@ -112,7 +116,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

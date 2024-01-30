@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60569-1977
 title:
 - content: Informative guide for subjective tests on television receivers
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '1998-05-01'
 - type: obsoleted
   value: '1998-05-01'
 contributor:
@@ -78,7 +80,8 @@ copyright:
   from: '1977'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

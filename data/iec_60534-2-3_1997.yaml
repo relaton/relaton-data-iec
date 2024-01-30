@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60534-2-3-1997
 title:
 - content: 'Industrial-process control valves -  Part 2-3: Flow capacity - Test procedures'
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1997-12-22'
+- type: stable-until
+  value: '2015-12-16'
+- type: obsoleted
+  value: '2015-12-16'
 contributor:
 - organization:
     name:
@@ -100,7 +104,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

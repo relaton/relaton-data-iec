@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-61-1992
 title:
 - content: 'Safety of household and similar electrical appliances - Part 2: Particular
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1992-02-29'
+- type: stable-until
+  value: '2002-10-09'
+- type: obsoleted
+  value: '2002-10-09'
 contributor:
 - organization:
     name:
@@ -102,7 +106,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

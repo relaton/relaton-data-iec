@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60747-5-1-1997/AMD2-2002
 title:
 - content: 'Amendment 2 - Discrete semiconductor devices and integrated circuits -
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-03-25'
+- type: stable-until
+  value: '2016-02-23'
+- type: obsoleted
+  value: '2016-02-23'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47E

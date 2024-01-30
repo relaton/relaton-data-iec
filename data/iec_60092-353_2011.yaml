@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60092-353-2011
 title:
 - content: 'Electrical installations in ships - Part 353: Power cables for rated voltages
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2011-08-26'
+- type: stable-until
+  value: '2016-09-19'
+- type: obsoleted
+  value: '2016-09-19'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 18/SC 18A

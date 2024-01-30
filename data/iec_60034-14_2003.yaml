@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '2003-11-26'
+- type: stable-until
+  value: '2018-08-17'
+- type: obsoleted
+  value: '2018-08-17'
 contributor:
 - organization:
     name:
@@ -142,17 +146,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60034-14-1982
-    type: standard
-    docid:
-    - id: IEC 60034-14:1982
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60034-14:1982
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60034-14-1982CSV
     type: standard
     docid:
@@ -161,6 +154,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60034-14:1982 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60034-14-1982
+    type: standard
+    docid:
+    - id: IEC 60034-14:1982
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60034-14:1982
       format: text/plain
 place:
 - Geneva

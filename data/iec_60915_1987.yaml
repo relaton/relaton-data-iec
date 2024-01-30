@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60915-1987
 title:
 - content: Capacitors and resistors for electronic equipment. Preferred dimensions
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1987-11-30'
+- type: stable-until
+  value: '2006-11-28'
+- type: obsoleted
+  value: '2006-11-28'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1987'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

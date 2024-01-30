@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-51-1988
 title:
 - content: 'Safety of household and similar electrical appliances. Part 2: Particular
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1988-08-30'
+- type: stable-until
+  value: '1997-03-06'
+- type: obsoleted
+  value: '1997-03-06'
 contributor:
 - organization:
     name:
@@ -80,6 +84,28 @@ copyright:
     url: www.iec.ch
   from: '1988'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-51-2019
+    type: standard
+    docid:
+    - id: IEC 60335-2-51:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-51:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-51-2019RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-51:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-51:2019 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-51-2002+AMD1-2008+AMD2-2011CSV
@@ -148,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

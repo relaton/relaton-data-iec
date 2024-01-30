@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60379-1987
 title:
 - content: Methods for measuring the performance of electric storage water-heaters
@@ -42,7 +42,9 @@ date:
 - type: published
   value: '1987-09-30'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2023-02-07'
+- type: obsoleted
+  value: '2023-02-07'
 contributor:
 - organization:
     name:
@@ -128,7 +130,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59C

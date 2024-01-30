@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-1-1991/AMD2-1999
 title:
 - content: 'Amendment 2 - Safety of household and similar electrical appliances -
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '1999-06-24'
+- type: stable-until
+  value: '2001-05-18'
+- type: obsoleted
+  value: '2001-05-18'
 contributor:
 - organization:
     name:
@@ -75,17 +79,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-1-2010+AMD1-2013+AMD2-2016CSV
-    type: standard
-    docid:
-    - id: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-1-2010/AMD2-2016
     type: standard
     docid:
@@ -94,6 +87,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-1:2010/AMD2:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-1-2010+AMD1-2013+AMD2-2016CSV
+    type: standard
+    docid:
+    - id: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -438,7 +442,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

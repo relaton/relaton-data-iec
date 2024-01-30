@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60947-4-3-1999/AMD2-2011
 title:
 - content: 'Amendment 2 - Low-voltage switchgear and controlgear - Part 4-3: Contactors
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2011-03-14'
+- type: stable-until
+  value: '2014-05-07'
+- type: obsoleted
+  value: '2014-05-07'
 contributor:
 - organization:
     name:
@@ -140,7 +144,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

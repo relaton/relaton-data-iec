@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-2-1988
 title:
 - content: 'Specifications for particular types of winding wires - Part 2: Solderable
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1988-01-01'
+- type: stable-until
+  value: '1990-10-15'
+- type: obsoleted
+  value: '1990-10-15'
 contributor:
 - organization:
     name:
@@ -140,7 +144,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

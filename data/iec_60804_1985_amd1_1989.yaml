@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60804-1985/AMD1-1989
 title:
 - content: Amendment 1 - Integrating-averaging sound level meters
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1989-09-15'
+- type: stable-until
+  value: '2000-10-09'
+- type: obsoleted
+  value: '2000-10-09'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

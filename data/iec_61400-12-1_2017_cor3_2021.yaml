@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61400-12-1-2017/COR3-2021
 title:
 - content: 'Corrigendum 3 - Wind energy generation systems - Part 12-1: Power performance
@@ -32,7 +32,9 @@ date:
 - type: published
   value: '2021-05-26'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2022-09-05'
+- type: obsoleted
+  value: '2022-09-05'
 contributor:
 - organization:
     name:
@@ -86,17 +88,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC61400-12-1-2017
-    type: standard
-    docid:
-    - id: IEC 61400-12-1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61400-12-1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61400-12-1-2017RLV
     type: standard
     docid:
@@ -105,6 +96,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61400-12-1:2017 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61400-12-1-2017
+    type: standard
+    docid:
+    - id: IEC 61400-12-1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61400-12-1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -119,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 88

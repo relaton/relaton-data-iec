@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-6-1968
 title:
 - content: 'Electrical apparatus for explosive gas atmospheres - Part 6: Oil-immersed
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1968-01-01'
+- type: stable-until
+  value: '1995-04-28'
+- type: obsoleted
+  value: '1995-04-28'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

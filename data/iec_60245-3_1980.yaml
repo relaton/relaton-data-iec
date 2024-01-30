@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60245-3-1980
 title:
 - content: 'Rubber insulated cables of rated voltages up to and including 450/750
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '1994-07-07'
+- type: obsoleted
+  value: '1994-07-07'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

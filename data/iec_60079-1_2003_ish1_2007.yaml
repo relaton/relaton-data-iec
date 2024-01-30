@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-1-2003/ISH1-2007
 title:
 - content: 'Interpretation sheet 1 - Electrical apparatus for explosive gas atmospheres
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2007-02-16'
+- type: stable-until
+  value: '2007-04-27'
+- type: obsoleted
+  value: '2007-04-27'
 contributor:
 - organization:
     name:
@@ -194,7 +198,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

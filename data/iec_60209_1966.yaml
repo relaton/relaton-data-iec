@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60209-1966
 title:
 - content: Aluminium conductors, steel-reinforced
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1966-01-01'
+- type: stable-until
+  value: '1991-06-20'
+- type: obsoleted
+  value: '1991-06-20'
 contributor:
 - organization:
     name:
@@ -71,7 +75,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 7

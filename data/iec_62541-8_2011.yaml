@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62541-8-2011
 title:
 - content: 'OPC unified architecture - Part 8: Data Access'
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2011-10-18'
+- type: stable-until
+  value: '2015-03-25'
+- type: obsoleted
+  value: '2015-03-25'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65E

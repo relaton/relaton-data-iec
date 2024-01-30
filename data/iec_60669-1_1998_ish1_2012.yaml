@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60669-1-1998/ISH1-2012
 title:
 - content: 'Interpretation sheet 1 - Switches for household and similar fixed-electrical
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2012-02-16'
+- type: stable-until
+  value: '2017-02-22'
+- type: obsoleted
+  value: '2017-02-22'
 contributor:
 - organization:
     name:
@@ -183,7 +187,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

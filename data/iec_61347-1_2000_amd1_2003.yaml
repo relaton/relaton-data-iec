@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61347-1-2000/AMD1-2003
 title:
 - content: 'Amendment 1 - Lamp controlgear - Part 1: General and safety requirements'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '2003-09-29'
+- type: stable-until
+  value: '2007-01-31'
+- type: obsoleted
+  value: '2007-01-31'
 contributor:
 - organization:
     name:
@@ -61,17 +65,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61347-1-2007+AMD1-2010+AMD2-2012CSV
-    type: standard
-    docid:
-    - id: IEC 61347-1:2007+AMD1:2010+AMD2:2012 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61347-1:2007+AMD1:2010+AMD2:2012 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61347-1-2007/AMD2-2012
     type: standard
     docid:
@@ -80,6 +73,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61347-1:2007/AMD2:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61347-1-2007+AMD1-2010+AMD2-2012CSV
+    type: standard
+    docid:
+    - id: IEC 61347-1:2007+AMD1:2010+AMD2:2012 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-1:2007+AMD1:2010+AMD2:2012 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -149,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

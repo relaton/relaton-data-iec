@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60296-1969
 title:
 - content: Specification for unused mineral insulating oils for transformers and switchgear
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '1982-01-01'
+- type: obsoleted
+  value: '1982-01-01'
 contributor:
 - organization:
     name:
@@ -69,17 +73,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60296-2012RLV
-    type: standard
-    docid:
-    - id: IEC 60296:2012 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60296:2012 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60296-2012
     type: standard
     docid:
@@ -88,6 +81,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60296:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60296-2012RLV
+    type: standard
+    docid:
+    - id: IEC 60296:2012 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60296:2012 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -135,7 +139,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

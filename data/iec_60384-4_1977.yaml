@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-4-1977
 title:
 - content: 'Part 4: Sectional specification: Aluminium electrolytic capacitors with
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '2000-05-30'
+- type: obsoleted
+  value: '2000-05-30'
 contributor:
 - organization:
     name:
@@ -149,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

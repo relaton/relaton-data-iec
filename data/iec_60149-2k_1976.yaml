@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60149-2K-1976
 title:
 - content: Tenth supplement
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '1998-01-16'
 - type: obsoleted
   value: '1998-01-16'
 contributor:
@@ -76,7 +78,8 @@ copyright:
   from: '1976'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

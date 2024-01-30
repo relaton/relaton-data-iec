@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-9-1-1998
 title:
 - content: 'Fire hazard testing - Part 9-1: Surface spread of flame - General guidance'
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1998-12-10'
+- type: stable-until
+  value: '2005-09-22'
+- type: obsoleted
+  value: '2005-09-22'
 contributor:
 - organization:
     name:
@@ -101,7 +105,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60903-1988/COR1-2000
 title:
 - content: Corrigendum 1 - Specification for gloves and mitts of insulating material
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2000-05-26'
+- type: stable-until
+  value: '2002-08-22'
+- type: obsoleted
+  value: '2002-08-22'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

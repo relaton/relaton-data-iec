@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60947-4-3-1999/COR1-2000
 title:
 - content: 'Corrigendum 1 - Low-voltage switchgear and controlgear - Part 4-3: Contactors
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2000-05-11'
+- type: stable-until
+  value: '2014-05-07'
+- type: obsoleted
+  value: '2014-05-07'
 contributor:
 - organization:
     name:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

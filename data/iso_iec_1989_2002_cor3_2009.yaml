@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC1989-2002/COR3-2009
 title:
 - content: Corrigendum 3 - Information technology -- Programming languages -- COBOL
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2009-07-23'
+- type: stable-until
+  value: '2014-05-26'
+- type: obsoleted
+  value: '2014-05-26'
 contributor:
 - organization:
     name:
@@ -110,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 22

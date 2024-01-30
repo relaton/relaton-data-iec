@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60202-1965
 title:
 - content: Polyester film dielectric capacitors for direct current
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1965-01-01'
+- type: stable-until
+  value: '1988-01-01'
+- type: obsoleted
+  value: '1988-01-01'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1965'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

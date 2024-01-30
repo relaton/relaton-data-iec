@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60875-3-1987
 title:
 - content: 'Fibre optic branching devices - Part 3: Sectional specification - One-to-n
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '1992-08-20'
+- type: obsoleted
+  value: '1992-08-20'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86

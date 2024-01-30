@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC14496-3-2009/AMD4-2013/COR1-2015
 title:
 - content: 'Corrigendum 1 - Amendment 4 - Information technology -- Coding of audio-visual
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2015-03-26'
+- type: stable-until
+  value: '2019-12-12'
+- type: obsoleted
+  value: '2019-12-12'
 contributor:
 - organization:
     name:
@@ -242,17 +246,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14496-3-2005/AMD3-2006/COR1-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 14496-3:2005/AMD3:2006/COR1:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14496-3:2005/AMD3:2006/COR1:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC14496-3-2005/AMD2-2006/COR3-2008
     type: standard
     docid:
@@ -261,6 +254,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14496-3:2005/AMD2:2006/COR3:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14496-3-2005/AMD3-2006/COR1-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 14496-3:2005/AMD3:2006/COR1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14496-3:2005/AMD3:2006/COR1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -286,6 +290,17 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
+    id: ISO/IEC14496-3-2005/COR5-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 14496-3:2005/COR5:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14496-3:2005/COR5:2008
+      format: text/plain
+- type: updates
+  bibitem:
     id: ISO/IEC14496-3-2005/COR4-2008
     type: standard
     docid:
@@ -305,17 +320,6 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14496-3:2005/COR3:2008
-      format: text/plain
-- type: updates
-  bibitem:
-    id: ISO/IEC14496-3-2005/COR5-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 14496-3:2005/COR5:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14496-3:2005/COR5:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -506,7 +510,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

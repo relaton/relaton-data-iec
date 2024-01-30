@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60080-1956/COR1-1956
 title:
 - content: Corrigendum 1 - Specification for fixed paper capacitors for direct current
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1956-02-01'
+- type: stable-until
+  value: '1964-01-01'
+- type: obsoleted
+  value: '1964-01-01'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

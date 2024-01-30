@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61935-2-2003
 title:
 - content: 'Generic cabling systems - Specification for the testing of balanced communication
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2003-05-16'
+- type: stable-until
+  value: '2005-09-26'
+- type: obsoleted
+  value: '2005-09-26'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

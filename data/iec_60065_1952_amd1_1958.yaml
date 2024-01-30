@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60065-1952/AMD1-1958
 title:
 - content: Amendment 1 - Safety requirements for electric mains operated radio receiving
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1958-01-01'
+- type: stable-until
+  value: '1965-01-01'
+- type: obsoleted
+  value: '1965-01-01'
 contributor:
 - organization:
     name:
@@ -337,7 +341,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 108

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-37-1973/COR1-1993
 title:
 - content: 'Corrigendum 1 - Environmental testing. Part 2: Tests. Test Fd: Random
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-10-01'
+- type: stable-until
+  value: '1998-12-03'
+- type: obsoleted
+  value: '1998-12-03'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

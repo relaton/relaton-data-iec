@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60570-1985/AMD2-1993
 title:
 - content: Amendment 2 - Electrical supply track systems for luminaires
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1993-01-01'
+- type: stable-until
+  value: '1995-11-05'
+- type: obsoleted
+  value: '1995-11-05'
 contributor:
 - organization:
     name:
@@ -159,7 +163,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

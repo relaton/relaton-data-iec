@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-2-1-1985CSV
 title:
 - content: 'VERSION OFICIAL EN ESPANOL (Incluye modificación 1:1989) Materiales base
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '2004-12-15'
+- type: obsoleted
+  value: '2004-12-15'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

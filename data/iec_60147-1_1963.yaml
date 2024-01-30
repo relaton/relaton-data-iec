@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60147-1-1963
 title:
 - content: 'Essential ratings and characteristics of semiconductor devices and general
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1963-01-01'
+- type: stable-until
+  value: '1972-01-01'
+- type: obsoleted
+  value: '1972-01-01'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60320-2-2-1990/COR1-1990
 title:
 - content: 'Corrigendum 1 - Appliance couplers for household and similar general purposes
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1990-08-01'
+- type: stable-until
+  value: '1998-08-28'
+- type: obsoleted
+  value: '1998-08-28'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23G

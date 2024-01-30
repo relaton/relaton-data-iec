@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60554-2-1977/AMD2-1984
 title:
 - content: 'Amendment 2 - Specification for cellulosic papers for electrical purposes.
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1984-01-01'
+- type: stable-until
+  value: '2001-11-08'
+- type: obsoleted
+  value: '2001-11-08'
 contributor:
 - organization:
     name:
@@ -113,7 +117,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

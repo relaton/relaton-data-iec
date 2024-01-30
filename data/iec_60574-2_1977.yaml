@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60574-2-1977
 title:
 - content: 'Audio-visual, video and television equipment and systems - Part 2: Explanation
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '1992-05-15'
+- type: obsoleted
+  value: '1992-05-15'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62

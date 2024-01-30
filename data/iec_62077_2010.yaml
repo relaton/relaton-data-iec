@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62077-2010
 title:
 - content: Fibre optic interconnecting devices and passive components - Fibre optic
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2010-02-18'
+- type: stable-until
+  value: '2015-11-04'
+- type: obsoleted
+  value: '2015-11-04'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

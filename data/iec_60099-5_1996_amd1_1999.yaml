@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60099-5-1996/AMD1-1999
 title:
 - content: 'Amendment 1 - Surge arresters - Part 5: Selection and application recommendations
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1999-10-20'
+- type: stable-until
+  value: '2013-05-22'
+- type: obsoleted
+  value: '2013-05-22'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 37

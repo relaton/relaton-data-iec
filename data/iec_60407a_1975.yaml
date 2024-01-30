@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60407A-1975
 title:
 - content: 'First supplement: Sub-clause 7.5.5: Equipment for dental radiology.'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1975-01-01'
+- type: stable-until
+  value: '1994-07-31'
+- type: obsoleted
+  value: '1994-07-31'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1975'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-4-4-2004/AMD1-2010
 title:
 - content: 'Amendment 1 - Electromagnetic compatibility (EMC) - Part 4-4: Testing
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2010-01-27'
+- type: stable-until
+  value: '2012-04-30'
+- type: obsoleted
+  value: '2012-04-30'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61314-1-1995
 title:
 - content: 'Fibre optic fan-outs - Part 1: Generic specification'
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1995-03-13'
+- type: stable-until
+  value: '2006-08-15'
+- type: obsoleted
+  value: '2006-08-15'
 contributor:
 - organization:
     name:
@@ -116,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

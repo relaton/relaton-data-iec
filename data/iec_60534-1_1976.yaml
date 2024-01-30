@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60534-1-1976
 title:
 - content: 'Industrial-process control valves - Part 1: General considerations'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '1987-12-30'
+- type: obsoleted
+  value: '1987-12-30'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65

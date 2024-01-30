@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61557-9-1999
 title:
 - content: 'Electrical safety in low voltage distribution systems up to 1 000 V a.c.
@@ -46,6 +46,10 @@ docid:
 date:
 - type: published
   value: '1999-09-24'
+- type: stable-until
+  value: '2009-01-12'
+- type: obsoleted
+  value: '2009-01-12'
 contributor:
 - organization:
     name:
@@ -97,6 +101,39 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC61557-9-2014/COR2-2017
+    type: standard
+    docid:
+    - id: IEC 61557-9:2014/COR2:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61557-9:2014/COR2:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61557-9-2014/COR1-2016
+    type: standard
+    docid:
+    - id: IEC 61557-9:2014/COR1:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61557-9:2014/COR1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61557-9-2014
+    type: standard
+    docid:
+    - id: IEC 61557-9:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61557-9:2014
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC61557-9-2009
     type: standard
     docid:
@@ -108,7 +145,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

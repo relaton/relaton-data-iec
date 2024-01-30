@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60704-2-13-2000/AMD1-2005
 title:
 - content: 'Amendment 1 - Household and similar electrical appliances - Test code
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2005-12-16'
+- type: stable-until
+  value: '2011-01-27'
+- type: obsoleted
+  value: '2011-01-27'
 contributor:
 - organization:
     name:
@@ -72,6 +76,17 @@ copyright:
     url: www.iec.ch
   from: '2000'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60704-2-13-2016
+    type: standard
+    docid:
+    - id: IEC 60704-2-13:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60704-2-13:2016
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60704-2-13-2011
@@ -118,7 +133,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59

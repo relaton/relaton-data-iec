@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60215-1-1966/AMD1-1973
 title:
 - content: 'Amendment 1 - Safety requirements for radio transmitting equipment - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-05-01'
+- type: stable-until
+  value: '1978-01-01'
+- type: obsoleted
+  value: '1978-01-01'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 103

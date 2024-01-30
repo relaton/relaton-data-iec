@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60501-1975
 title:
 - content: Safety requirements for arc welding equipment - Plugs, socket-outlets and
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1975-01-01'
+- type: stable-until
+  value: '1992-01-01'
+- type: obsoleted
+  value: '1992-01-01'
 contributor:
 - organization:
     name:
@@ -69,7 +73,8 @@ copyright:
   from: '1975'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 26

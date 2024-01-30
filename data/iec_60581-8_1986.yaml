@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60581-8-1986
 title:
 - content: |-
@@ -35,6 +35,8 @@ docid:
 date:
 - type: published
   value: '1986-06-30'
+- type: stable-until
+  value: '2006-09-08'
 - type: obsoleted
   value: '2006-09-08'
 contributor:
@@ -116,7 +118,8 @@ copyright:
   from: '1986'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

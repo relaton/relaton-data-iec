@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60890-1987
 title:
 - content: A method of temperature-rise assessment by extrapolation for partially
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1987-07-15'
+- type: stable-until
+  value: '2014-05-07'
+- type: obsoleted
+  value: '2014-05-07'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121B

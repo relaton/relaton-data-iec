@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60298-1969/AMD1-1977
 title:
 - content: Amendment 1 - A.C. metal-enclosed switchgear and controlgear for rated
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1977-12-01'
+- type: stable-until
+  value: '1981-01-01'
+- type: obsoleted
+  value: '1981-01-01'
 contributor:
 - organization:
     name:
@@ -94,17 +98,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60298-1990
-    type: standard
-    docid:
-    - id: IEC 60298:1990
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60298:1990
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60298-1990+AMD1-1994CSV
     type: standard
     docid:
@@ -113,6 +106,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60298:1990+AMD1:1994 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60298-1990
+    type: standard
+    docid:
+    - id: IEC 60298:1990
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60298:1990
       format: text/plain
 - type: updates
   bibitem:
@@ -160,7 +164,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17

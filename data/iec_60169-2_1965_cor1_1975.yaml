@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60169-2-1965/COR1-1975
 title:
 - content: 'Corrigendum 1 - Radio-frequency connectors. Part 2: Coaxial unmatched
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1975-10-01'
+- type: stable-until
+  value: '2009-03-31'
+- type: obsoleted
+  value: '2009-03-31'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46F

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60395-1972
 title:
 - content: Portable X or gamma radiation exposure rate meters and monitors for use
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1993-09-01'
 - type: obsoleted
   value: '1993-09-01'
 contributor:
@@ -76,7 +78,8 @@ copyright:
   from: '1972'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45B

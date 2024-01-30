@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60192-1973/AMD2-1988
 title:
 - content: Amendment 2 - Low-pressure sodium vapour lamps
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1988-01-01'
+- type: stable-until
+  value: '2001-05-22'
+- type: obsoleted
+  value: '2001-05-22'
 contributor:
 - organization:
     name:
@@ -106,17 +110,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60192-1973
-    type: standard
-    docid:
-    - id: IEC 60192:1973
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60192:1973
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60192-1973/AMD1-1973
     type: standard
     docid:
@@ -125,6 +118,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60192:1973/AMD1:1973
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60192-1973
+    type: standard
+    docid:
+    - id: IEC 60192:1973
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60192:1973
       format: text/plain
 - type: updates
   bibitem:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

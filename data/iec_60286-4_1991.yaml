@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60286-4-1991
 title:
 - content: 'Packaging of components for automatic handling - Part 4: Stick magazines
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-03-13'
+- type: stable-until
+  value: '1997-12-11'
+- type: obsoleted
+  value: '1997-12-11'
 contributor:
 - organization:
     name:
@@ -88,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

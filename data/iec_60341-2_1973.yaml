@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60341-2-1973
 title:
 - content: 'Push-button switches - Part 2: General rules for drafting specification
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1994-01-01'
+- type: obsoleted
+  value: '1994-01-01'
 contributor:
 - organization:
     name:
@@ -62,7 +66,8 @@ copyright:
   from: '1973'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

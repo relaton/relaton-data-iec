@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-80-2002/AMD2-2008
 title:
 - content: 'Amendment 2 - Household and similar electrical appliances - Safety - Part
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2008-07-23'
+- type: stable-until
+  value: '2015-04-16'
+- type: obsoleted
+  value: '2015-04-16'
 contributor:
 - organization:
     name:
@@ -126,7 +130,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

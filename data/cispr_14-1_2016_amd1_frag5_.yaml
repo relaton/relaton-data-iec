@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR14-1-2016/AMD1/FRAG5-
 title:
 - content: 'Amendment 1/Fragment 5: Electromagnetic compatibility - Requirements for
@@ -31,7 +31,9 @@ docid:
   type: URN
 date:
 - type: stable-until
-  value: '2022-12-31'
+  value: '2020-09-07'
+- type: obsoleted
+  value: '2020-09-07'
 contributor:
 - organization:
     name:
@@ -282,7 +284,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 ics:
 - code: 33.100.10
   text: Emission

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62561-4-2010
 title:
 - content: 'Lightning protection system components (LPSC) - Part 4: Requirements for
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2010-11-29'
+- type: stable-until
+  value: '2017-07-28'
+- type: obsoleted
+  value: '2017-07-28'
 contributor:
 - organization:
     name:
@@ -97,9 +101,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2010'
+relation:
+- type: updates
+  bibitem:
+    id: IEC62561-4-2017
+    type: standard
+    docid:
+    - id: IEC 62561-4:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62561-4:2017
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 81

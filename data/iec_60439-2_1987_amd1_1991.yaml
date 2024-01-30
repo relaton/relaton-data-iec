@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60439-2-1987/AMD1-1991
 title:
 - content: 'Amendment 1 - Low-voltage switchgear and controlgear assemblies. Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-09-10'
+- type: stable-until
+  value: '2000-03-21'
+- type: obsoleted
+  value: '2000-03-21'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121B

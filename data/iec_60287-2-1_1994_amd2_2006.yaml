@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60287-2-1-1994/AMD2-2006
 title:
 - content: 'Amendment 2 - Electric cables - Calculation of the current rating - Part
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2006-03-08'
+- type: stable-until
+  value: '2015-04-09'
+- type: obsoleted
+  value: '2015-04-09'
 contributor:
 - organization:
     name:
@@ -87,17 +91,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60287-2-1-2015RLV
-    type: standard
-    docid:
-    - id: IEC 60287-2-1:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60287-2-1:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60287-2-1-2015
     type: standard
     docid:
@@ -106,6 +99,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60287-2-1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60287-2-1-2015RLV
+    type: standard
+    docid:
+    - id: IEC 60287-2-1:2015 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60287-2-1:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -164,7 +168,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

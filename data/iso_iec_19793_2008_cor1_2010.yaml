@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC19793-2008/COR1-2010
 title:
 - content: Corrigendum 1 - Information technology -- Open Distributed Processing --
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2010-09-10'
+- type: stable-until
+  value: '2015-03-18'
+- type: obsoleted
+  value: '2015-03-18'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 7

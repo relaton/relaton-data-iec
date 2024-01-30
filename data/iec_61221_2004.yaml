@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61221-2004
 title:
 - content: Petroleum products and lubricants - Triaryl phosphate ester turbine control
@@ -42,6 +42,8 @@ docid:
 date:
 - type: published
   value: '2004-05-26'
+- type: stable-until
+  value: '2014-04-01'
 - type: obsoleted
   value: '2014-04-01'
 contributor:
@@ -120,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

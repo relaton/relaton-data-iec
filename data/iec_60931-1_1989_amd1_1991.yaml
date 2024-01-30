@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60931-1-1989/AMD1-1991
 title:
 - content: 'Amendment 1 - Shunt power capacitors of the non-self-healing type for
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1991-09-15'
+- type: stable-until
+  value: '1996-11-19'
+- type: obsoleted
+  value: '1996-11-19'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 33

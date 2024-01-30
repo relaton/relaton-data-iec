@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-15-1995/ISH1-1996
 title:
 - content: Interpretation sheet I-SH 01
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1996-06-19'
+- type: stable-until
+  value: '2002-07-24'
+- type: obsoleted
+  value: '2002-07-24'
 contributor:
 - organization:
     name:
@@ -258,7 +262,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

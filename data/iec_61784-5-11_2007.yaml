@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61784-5-11-2007
 title:
 - content: 'Industrial communication networks - Profiles - Part 5-11: Installation
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2007-12-14'
+- type: stable-until
+  value: '2010-07-22'
+- type: obsoleted
+  value: '2010-07-22'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65C

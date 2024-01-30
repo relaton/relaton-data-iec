@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61969-1-1999
 title:
 - content: 'Mechanical structures for electronic equipment - Outdoor enclosures -
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1999-12-22'
+- type: stable-until
+  value: '2011-11-17'
+- type: obsoleted
+  value: '2011-11-17'
 contributor:
 - organization:
     name:
@@ -94,17 +98,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61969-1-2020
-    type: standard
-    docid:
-    - id: IEC 61969-1:2020
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61969-1:2020
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61969-1-2020RLV
     type: standard
     docid:
@@ -113,6 +106,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61969-1:2020 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61969-1-2020
+    type: standard
+    docid:
+    - id: IEC 61969-1:2020
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61969-1:2020
       format: text/plain
 - type: updates
   bibitem:
@@ -127,7 +131,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48D

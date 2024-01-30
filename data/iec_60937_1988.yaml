@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60937-1988
 title:
 - content: Cryostat end-cap dimensions for germanium semiconductor detectors for gamma-ray
@@ -33,6 +33,8 @@ docid:
 date:
 - type: published
   value: '1988-04-15'
+- type: stable-until
+  value: '2007-02-01'
 - type: obsoleted
   value: '2007-02-01'
 contributor:
@@ -65,7 +67,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

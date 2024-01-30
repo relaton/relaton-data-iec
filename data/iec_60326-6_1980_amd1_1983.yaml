@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60326-6-1980/AMD1-1983
 title:
 - content: 'Amendment 1 - Printed boards. Part 6: Specification for multilayer printed
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1983-12-01'
+- type: stable-until
+  value: '1996-01-01'
+- type: obsoleted
+  value: '1996-01-01'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

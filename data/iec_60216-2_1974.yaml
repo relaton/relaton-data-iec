@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60216-2-1974
 title:
 - content: |-
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1990-06-15'
+- type: obsoleted
+  value: '1990-06-15'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

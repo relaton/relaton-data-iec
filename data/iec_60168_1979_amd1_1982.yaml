@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60168-1979/AMD1-1982
 title:
 - content: Amendment 1 - Test on indoor and outdoor post insulators of ceramic material
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1982-07-01'
+- type: stable-until
+  value: '1988-01-01'
+- type: obsoleted
+  value: '1988-01-01'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

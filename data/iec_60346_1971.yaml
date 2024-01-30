@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60346-1971
 title:
 - content: Radioisotope all-or-nothing relays (terminology, classification, test methods)
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1971-01-01'
+- type: stable-until
+  value: '1989-01-01'
+- type: obsoleted
+  value: '1989-01-01'
 contributor:
 - organization:
     name:
@@ -60,7 +64,8 @@ copyright:
   from: '1971'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

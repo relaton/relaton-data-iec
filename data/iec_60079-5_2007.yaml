@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-5-2007
 title:
 - content: 'Explosive atmospheres - Part 5: Equipment protection by powder filling
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2007-03-29'
+- type: stable-until
+  value: '2015-02-17'
+- type: obsoleted
+  value: '2015-02-17'
 contributor:
 - organization:
     name:
@@ -147,7 +151,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

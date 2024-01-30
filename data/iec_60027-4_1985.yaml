@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60027-4-1985
 title:
 - content: 'Letter symbols to be used in electrical technology. Part 4: Symbols for
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1985-09-30'
+- type: stable-until
+  value: '2006-12-11'
+- type: obsoleted
+  value: '2006-12-11'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 25

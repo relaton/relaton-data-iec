@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60684-3-211-2002
 title:
 - content: 'Flexible insulating sleeving - Part 3: Specifications for individual types
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '2002-05-21'
+- type: stable-until
+  value: '2007-02-15'
+- type: obsoleted
+  value: '2007-02-15'
 contributor:
 - organization:
     name:
@@ -127,7 +131,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

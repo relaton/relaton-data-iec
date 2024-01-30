@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-1-1992/ISH1-1996
 title:
 - content: 'Interpretation sheet 1 - Luminaires - Part 1: General requirements and
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1996-12-01'
+- type: stable-until
+  value: '1997-06-01'
+- type: obsoleted
+  value: '1997-06-01'
 contributor:
 - organization:
     name:
@@ -403,7 +407,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

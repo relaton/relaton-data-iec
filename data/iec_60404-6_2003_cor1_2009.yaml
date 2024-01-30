@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60404-6-2003/COR1-2009
 title:
 - content: 'Corrigendum 1 - Magnetic materials - Part 6: Methods of measurement of
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2009-02-26'
+- type: stable-until
+  value: '2018-05-25'
+- type: obsoleted
+  value: '2018-05-25'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 68

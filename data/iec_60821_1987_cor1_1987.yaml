@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60821-1987/COR1-1987
 title:
 - content: Corrigendum 1 - IEC 821 BUS - Microprocessor system bus for 1  to 4 byte
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-06-01'
+- type: stable-until
+  value: '1991-12-17'
+- type: obsoleted
+  value: '1991-12-17'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47

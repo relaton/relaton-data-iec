@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62047-1-2005
 title:
 - content: 'Semiconductor devices - Micro-electromechanical devices - Part 1: Terms
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2005-09-27'
+- type: stable-until
+  value: '2016-01-06'
+- type: obsoleted
+  value: '2016-01-06'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47F

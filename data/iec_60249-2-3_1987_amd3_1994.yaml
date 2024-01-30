@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-2-3-1987/AMD3-1994
 title:
 - content: 'Amendment No. 3 - Base materials for printed circuits. Part 2: Specifications.
@@ -42,6 +42,8 @@ docid:
 date:
 - type: published
   value: '1994-05-19'
+- type: stable-until
+  value: '2004-12-15'
 - type: obsoleted
   value: '2004-12-15'
 contributor:
@@ -98,17 +100,6 @@ relation:
       format: text/plain
 - type: obsoletes
   bibitem:
-    id: IEC60249-2-3-1987
-    type: standard
-    docid:
-    - id: IEC 60249-2-3:1987
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60249-2-3:1987
-      format: text/plain
-- type: obsoletes
-  bibitem:
     id: IEC60249-2-3-1987CSV
     type: standard
     docid:
@@ -118,9 +109,21 @@ relation:
     formattedref:
       content: IEC 60249-2-3:1987 CSV
       format: text/plain
+- type: obsoletes
+  bibitem:
+    id: IEC60249-2-3-1987
+    type: standard
+    docid:
+    - id: IEC 60249-2-3:1987
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60249-2-3:1987
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

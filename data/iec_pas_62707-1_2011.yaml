@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS62707-1-2011
 title:
 - content: 'LED - Binning - Part 1: General requirements and white grid'
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2011-03-08'
+- type: stable-until
+  value: '2013-12-12'
+- type: obsoleted
+  value: '2013-12-12'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

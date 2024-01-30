@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60863-1986
 title:
 - content: Presentation of reliability, maintainability and availability predictions
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1986-05-15'
+- type: stable-until
+  value: '2004-06-02'
+- type: obsoleted
+  value: '2004-06-02'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ copyright:
   from: '1986'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 56

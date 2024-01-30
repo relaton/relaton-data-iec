@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-2-11-2000
 title:
 - content: 'Fire hazard testing - Part 2-11: Glowing/hot-wire based test methods -
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2000-10-09'
+- type: stable-until
+  value: '2014-02-06'
+- type: obsoleted
+  value: '2014-02-06'
 contributor:
 - organization:
     name:
@@ -97,17 +101,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60695-2-11-2014
-    type: standard
-    docid:
-    - id: IEC 60695-2-11:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60695-2-11:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60695-2-11-2014RLV
     type: standard
     docid:
@@ -116,6 +109,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60695-2-11:2014 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60695-2-11-2014
+    type: standard
+    docid:
+    - id: IEC 60695-2-11:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60695-2-11:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

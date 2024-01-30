@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60244-8-1980/AMD1-1983
 title:
 - content: 'Amendment 1 - Methods of measurement for radio transmitters - Part 8:
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1983-10-01'
+- type: stable-until
+  value: '1993-03-19'
+- type: obsoleted
+  value: '1993-03-19'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

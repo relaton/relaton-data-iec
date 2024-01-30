@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61181-1993
 title:
 - content: Impregnated insulating materials - Application of dissolved gas analysis
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1993-06-09'
+- type: stable-until
+  value: '2007-02-23'
+- type: obsoleted
+  value: '2007-02-23'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

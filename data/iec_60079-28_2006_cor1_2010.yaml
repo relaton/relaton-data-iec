@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-28-2006/COR1-2010
 title:
 - content: 'Corrigendum 1 - Explosive atmospheres - Part 28: Protection of equipment
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2010-03-24'
+- type: stable-until
+  value: '2019-11-14'
+- type: obsoleted
+  value: '2019-11-14'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

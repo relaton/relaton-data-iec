@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60092-352-1979
 title:
 - content: Electrical installations in ships. Choice and installation of cables for
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '1997-08-20'
+- type: obsoleted
+  value: '1997-08-20'
 contributor:
 - organization:
     name:
@@ -125,7 +129,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 18/SC 18A

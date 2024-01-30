@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60074-1963
 title:
 - content: Method for assessing the oxidation stability of insulating oils
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1963-01-01'
+- type: stable-until
+  value: '1982-01-01'
+- type: obsoleted
+  value: '1982-01-01'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

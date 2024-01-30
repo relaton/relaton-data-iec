@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60512-6-1977/COR1-1978
 title:
 - content: 'Corrigendum 1 - Electromechanical components for electronic equipment;
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1978-08-01'
+- type: stable-until
+  value: '1984-08-30'
+- type: obsoleted
+  value: '1984-08-30'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48

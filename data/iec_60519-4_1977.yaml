@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60519-4-1977
 title:
 - content: 'Safety in electro-heat installations - Part 4: Particular requirements
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '1995-05-01'
+- type: obsoleted
+  value: '1995-05-01'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 27

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60243-1-1988/COR1-1989
 title:
 - content: 'Corrigendum 1 - Methods of test for electric strength of solid insulating
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1989-03-01'
+- type: stable-until
+  value: '1998-01-23'
+- type: obsoleted
+  value: '1998-01-23'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-8-1981/AMD1-1987
 title:
 - content: 'Amendment 1 - Luminaires - Part 2-8: Particular requirements - Handlamps'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1987-07-01'
+- type: stable-until
+  value: '1996-07-17'
+- type: obsoleted
+  value: '1996-07-17'
 contributor:
 - organization:
     name:
@@ -137,7 +141,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

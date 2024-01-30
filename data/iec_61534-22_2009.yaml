@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61534-22-2009
 title:
 - content: 'Powertrack systems - Part 22: Particular requirements for powertrack systems
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2009-01-22'
+- type: stable-until
+  value: '2014-06-19'
+- type: obsoleted
+  value: '2014-06-19'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60183-1984/AMD1-1990
 title:
 - content: Amendment 1 - Guide to the selection of high-voltage cables
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1990-11-02'
+- type: stable-until
+  value: '2015-01-14'
+- type: obsoleted
+  value: '2015-01-14'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

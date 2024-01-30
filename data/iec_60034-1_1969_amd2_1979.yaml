@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-1-1969/AMD2-1979
 title:
 - content: 'Amendment 2 - Rotating electrical machines - Part 1: Rating and performance'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1979-11-30'
+- type: stable-until
+  value: '1983-01-01'
+- type: obsoleted
+  value: '1983-01-01'
 contributor:
 - organization:
     name:
@@ -61,17 +65,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60034-1-2017RLV
-    type: standard
-    docid:
-    - id: IEC 60034-1:2017 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60034-1:2017 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60034-1-2017
     type: standard
     docid:
@@ -80,6 +73,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60034-1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60034-1-2017RLV
+    type: standard
+    docid:
+    - id: IEC 60034-1:2017 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60034-1:2017 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -314,7 +318,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

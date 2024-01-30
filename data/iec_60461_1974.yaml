@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60461-1974
 title:
 - content: Time and control code for video tape recordings
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1986-09-30'
+- type: obsoleted
+  value: '1986-09-30'
 contributor:
 - organization:
     name:
@@ -92,7 +96,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

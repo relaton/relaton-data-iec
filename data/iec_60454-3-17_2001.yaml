@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60454-3-17-2001
 title:
 - content: 'Pressure-sensitive adhesive tapes for electrical purposes - Part 3: Specifications
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '2001-07-10'
+- type: stable-until
+  value: '2007-05-10'
+- type: obsoleted
+  value: '2007-05-10'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

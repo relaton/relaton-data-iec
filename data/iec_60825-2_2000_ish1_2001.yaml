@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60825-2-2000/ISH1-2001
 title:
 - content: 'Interpretation Sheet 1 - Safety of laser products - Part 2: Safety of
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2001-08-27'
+- type: stable-until
+  value: '2018-06-26'
+- type: obsoleted
+  value: '2018-06-26'
 contributor:
 - organization:
     name:
@@ -163,7 +167,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 76

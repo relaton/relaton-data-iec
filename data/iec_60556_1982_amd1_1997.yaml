@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60556-1982/AMD1-1997
 title:
 - content: Amendment 1 - Measuring methods for properties of gyromagnetic materials
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1997-07-30'
+- type: stable-until
+  value: '2006-04-27'
+- type: obsoleted
+  value: '2006-04-27'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

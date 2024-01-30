@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-7-705-1984
 title:
 - content: |-
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '1984-12-30'
+- type: stable-until
+  value: '2006-07-10'
+- type: obsoleted
+  value: '2006-07-10'
 contributor:
 - organization:
     name:
@@ -100,7 +104,8 @@ copyright:
   from: '1984'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

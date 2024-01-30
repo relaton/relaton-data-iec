@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60456-1974/AMD2-1987
 title:
 - content: Amendment 2 - Methods for for measuring the performance of electric clothes
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-07-01'
+- type: stable-until
+  value: '1994-02-08'
+- type: obsoleted
+  value: '1994-02-08'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59D

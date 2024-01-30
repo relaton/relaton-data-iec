@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61754-4-1997
 title:
 - content: 'Fibre optic connector interfaces - Part 4: Type SC connector family'
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1997-02-07'
+- type: stable-until
+  value: '2013-07-17'
+- type: obsoleted
+  value: '2013-07-17'
 contributor:
 - organization:
     name:
@@ -152,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

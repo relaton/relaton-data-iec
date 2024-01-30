@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61829-1995
 title:
 - content: Crystalline silicon photovoltaic (PV) array - On-site measurement of I-V
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1995-03-31'
+- type: stable-until
+  value: '2015-10-22'
+- type: obsoleted
+  value: '2015-10-22'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 82

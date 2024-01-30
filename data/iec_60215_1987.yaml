@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60215-1987
 title:
 - content: Safety requirements for radio transmitting equipment
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1987-06-15'
+- type: stable-until
+  value: '2016-04-27'
+- type: obsoleted
+  value: '2016-04-27'
 contributor:
 - organization:
     name:
@@ -131,7 +135,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 103

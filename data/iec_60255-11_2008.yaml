@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60255-11-2008
 title:
 - content: 'Measuring relays and protection equipment - Part 11: Voltage dips, short
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2008-10-08'
+- type: stable-until
+  value: '2013-04-24'
+- type: obsoleted
+  value: '2013-04-24'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 95

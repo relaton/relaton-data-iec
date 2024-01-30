@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60473-1974
 title:
 - content: Dimensions for panel-mounted indicating and recording electrical measuring
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1999-10-29'
+- type: obsoleted
+  value: '1999-10-29'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

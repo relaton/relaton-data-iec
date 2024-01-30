@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60730-2-7-1990/AMD1-1994
 title:
 - content: 'Amendment 1 - Automatic electrical controls for household and similar
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1994-01-20'
+- type: stable-until
+  value: '2008-04-14'
+- type: obsoleted
+  value: '2008-04-14'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 72

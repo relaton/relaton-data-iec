@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60809-1995/AMD4-2009
 title:
 - content: Amendment 4 - Lamps for road vehicles - Dimensional, electrical and luminous
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2009-02-25'
+- type: stable-until
+  value: '2014-12-16'
+- type: obsoleted
+  value: '2014-12-16'
 contributor:
 - organization:
     name:
@@ -62,17 +66,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60809-2014/AMD3-2019
-    type: standard
-    docid:
-    - id: IEC 60809:2014/AMD3:2019
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60809:2014/AMD3:2019
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60809-2014+AMD1-2017+AMD2-2017+AMD3-2019CSV
     type: standard
     docid:
@@ -84,14 +77,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60809-2014+AMD1-2017+AMD2-2017CSV
+    id: IEC60809-2014/AMD3-2019
     type: standard
     docid:
-    - id: IEC 60809:2014+AMD1:2017+AMD2:2017 CSV
+    - id: IEC 60809:2014/AMD3:2019
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60809:2014+AMD1:2017+AMD2:2017 CSV
+      content: IEC 60809:2014/AMD3:2019
       format: text/plain
 - type: updates
   bibitem:
@@ -103,6 +96,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60809:2014/AMD2:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60809-2014+AMD1-2017+AMD2-2017CSV
+    type: standard
+    docid:
+    - id: IEC 60809:2014+AMD1:2017+AMD2:2017 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60809:2014+AMD1:2017+AMD2:2017 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -271,7 +275,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

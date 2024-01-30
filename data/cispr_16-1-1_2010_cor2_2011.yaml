@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR16-1-1-2010/COR2-2011
 title:
 - content: 'Corrigendum 2 - Specification for radio disturbance and immunity measuring
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2011-10-13'
+- type: stable-until
+  value: '2018-04-10'
+- type: obsoleted
+  value: '2018-04-10'
 contributor:
 - organization:
     name:
@@ -76,17 +80,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: CISPR16-1-1-2015RLV
-    type: standard
-    docid:
-    - id: CISPR 16-1-1:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 16-1-1:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR16-1-1-2015
     type: standard
     docid:
@@ -98,14 +91,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: CISPR16-1-1-2010+AMD1-2010+AMD2-2014CSV
+    id: CISPR16-1-1-2015RLV
     type: standard
     docid:
-    - id: CISPR 16-1-1:2010+AMD1:2010+AMD2:2014 CSV
+    - id: CISPR 16-1-1:2015 RLV
       type: IEC
       primary: true
     formattedref:
-      content: CISPR 16-1-1:2010+AMD1:2010+AMD2:2014 CSV
+      content: CISPR 16-1-1:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -117,6 +110,17 @@ relation:
       primary: true
     formattedref:
       content: CISPR 16-1-1:2010/AMD2:2014
+      format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR16-1-1-2010+AMD1-2010+AMD2-2014CSV
+    type: standard
+    docid:
+    - id: CISPR 16-1-1:2010+AMD1:2010+AMD2:2014 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 16-1-1:2010+AMD1:2010+AMD2:2014 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -252,7 +256,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/A

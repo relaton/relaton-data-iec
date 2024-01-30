@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-20-1996/ISH2-2003
 title:
 - content: 'Interpretation sheet 02 - Luminaires - Part 2-20: Particular requirements
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2003-07-31'
+- type: stable-until
+  value: '2010-02-11'
+- type: obsoleted
+  value: '2010-02-11'
 contributor:
 - organization:
     name:
@@ -220,7 +224,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

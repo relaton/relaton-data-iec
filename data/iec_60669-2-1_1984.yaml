@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60669-2-1-1984
 title:
 - content: 'Switches for household and similar fixed-electrical installations - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1984-01-01'
+- type: stable-until
+  value: '1994-01-31'
+- type: obsoleted
+  value: '1994-01-31'
 contributor:
 - organization:
     name:
@@ -216,7 +220,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23

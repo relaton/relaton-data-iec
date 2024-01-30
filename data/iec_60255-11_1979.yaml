@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60255-11-1979
 title:
 - content: 'Electrical relays - Part 11: Interruptions to and alternating component
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '2008-10-08'
+- type: obsoleted
+  value: '2008-10-08'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 95

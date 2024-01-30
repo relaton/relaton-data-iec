@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61182-7-1995/COR1-2002
 title:
 - content: 'Corrigendum 1 - Printed boards - Electronic data description and transfer
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '2002-10-15'
+- type: stable-until
+  value: '2016-12-30'
 - type: obsoleted
   value: '2016-12-30'
 contributor:
@@ -76,7 +78,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

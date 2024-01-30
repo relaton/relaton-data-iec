@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60226-1967/AMD1-1982
 title:
 - content: Amendment 1 - Dimensions of cross cores (X-cores) made of ferromagnetic
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '1997-01-01'
 - type: obsoleted
   value: '1997-01-01'
 contributor:
@@ -75,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

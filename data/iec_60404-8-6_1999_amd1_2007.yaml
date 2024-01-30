@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60404-8-6-1999/AMD1-2007
 title:
 - content: 'Amendment 1 - Magnetic materials - Part 8-6: Specifications for individual
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2007-04-11'
+- type: stable-until
+  value: '2016-12-08'
+- type: obsoleted
+  value: '2016-12-08'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 68

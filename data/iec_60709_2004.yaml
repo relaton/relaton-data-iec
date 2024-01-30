@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60709-2004
 title:
 - content: Nuclear power plants - Instrumentation and control systems important to
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2004-11-02'
+- type: stable-until
+  value: '2018-04-18'
+- type: obsoleted
+  value: '2018-04-18'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

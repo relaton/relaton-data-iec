@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61207-1-1994
 title:
 - content: 'Expression of performance of gas analyzers - Part 1: General'
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1994-02-18'
+- type: stable-until
+  value: '2010-05-31'
+- type: obsoleted
+  value: '2010-05-31'
 contributor:
 - organization:
     name:
@@ -91,7 +95,8 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

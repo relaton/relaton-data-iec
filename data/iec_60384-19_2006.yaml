@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-19-2006
 title:
 - content: 'Fixed capacitors for use in electronic equipment - Part 19: Sectional
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2006-01-25'
+- type: stable-until
+  value: '2015-04-15'
+- type: obsoleted
+  value: '2015-04-15'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

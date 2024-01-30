@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-50-1983
 title:
 - content: 'Environmental testing. Part 2: Tests. Tests Z/AFc: Combined cold/vibration
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2010-04-21'
+- type: obsoleted
+  value: '2010-04-21'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1983'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

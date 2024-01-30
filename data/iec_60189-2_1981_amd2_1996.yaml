@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60189-2-1981/AMD2-1996
 title:
 - content: 'Amendment 2 - Low-frequency cables and wires with PVC insulation and PVC
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1996-11-08'
+- type: stable-until
+  value: '2007-05-23'
+- type: obsoleted
+  value: '2007-05-23'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

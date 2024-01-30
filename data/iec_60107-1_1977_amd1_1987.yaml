@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60107-1-1977/AMD1-1987
 title:
 - content: 'Amendment 1 - Recommended methods of measurement on receivers for television
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '1997-04-16'
+- type: obsoleted
+  value: '1997-04-16'
 contributor:
 - organization:
     name:
@@ -92,7 +96,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

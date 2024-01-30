@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61543-1995
 title:
 - content: Residual current-operated protective devices (RCDs) for household and similar
@@ -42,7 +42,9 @@ date:
 - type: published
   value: '1995-04-13'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2022-10-28'
+- type: obsoleted
+  value: '2022-10-28'
 contributor:
 - organization:
     name:
@@ -115,7 +117,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

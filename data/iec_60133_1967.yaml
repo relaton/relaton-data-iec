@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60133-1967
 title:
 - content: Dimensions for pot-cores made of ferromagnetic oxides and associated parts
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '1985-09-30'
+- type: obsoleted
+  value: '1985-09-30'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

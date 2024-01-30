@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60132-3-1963
 title:
 - content: 'Rotary wafer switches (low current rating). Part 3: Rotary wafer switches
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1963-01-01'
+- type: stable-until
+  value: '1999-10-01'
 - type: obsoleted
   value: '1999-10-01'
 contributor:
@@ -79,7 +81,8 @@ copyright:
   from: '1963'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23J

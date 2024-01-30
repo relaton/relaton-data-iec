@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60254-2-1997/AMD1-2000
 title:
 - content: 'Amendment 1 - Lead-acid traction batteries - Part 2: Dimensions of cells
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2000-05-05'
+- type: stable-until
+  value: '2008-02-22'
+- type: obsoleted
+  value: '2008-02-22'
 contributor:
 - organization:
     name:
@@ -116,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

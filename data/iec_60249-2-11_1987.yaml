@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-2-11-1987
 title:
 - content: 'Base materials for printed circuits. Part 2: Specifications. Specification
@@ -34,6 +34,8 @@ docid:
 date:
 - type: published
   value: '1987-05-15'
+- type: stable-until
+  value: '2002-10-15'
 - type: obsoleted
   value: '2002-10-15'
 contributor:
@@ -134,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

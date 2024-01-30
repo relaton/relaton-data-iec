@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60488-1974
 title:
 - content: Dimensions of copper conductors in local cables
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '2003-08-18'
 - type: obsoleted
   value: '2003-08-18'
 contributor:
@@ -76,7 +78,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

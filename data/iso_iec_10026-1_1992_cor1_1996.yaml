@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC10026-1-1992/COR1-1996
 title:
 - content: 'Corrigendum 1 - Information technology -- Open Systems Interconnection
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '1996-03-14'
+- type: stable-until
+  value: '1998-10-15'
+- type: obsoleted
+  value: '1998-10-15'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1

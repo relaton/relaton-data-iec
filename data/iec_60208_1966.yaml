@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60208-1966
 title:
 - content: Aluminium alloy stranded conductors (aluminium - magnesium - silicon type)
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1966-01-01'
+- type: stable-until
+  value: '1991-06-20'
+- type: obsoleted
+  value: '1991-06-20'
 contributor:
 - organization:
     name:
@@ -60,7 +64,8 @@ copyright:
   from: '1966'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 7

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-4A-1970
 title:
 - content: 'Electrical apparatus for explosive gas atmospheres - Part 4: Method of
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1970-01-01'
+- type: stable-until
+  value: '2010-01-21'
+- type: obsoleted
+  value: '2010-01-21'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ copyright:
   from: '1970'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

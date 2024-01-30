@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-20-1982
 title:
 - content: 'Luminaires. Part 2: Particular requirements. Section Twenty: Lighting
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '2003-07-31'
+- type: obsoleted
+  value: '2003-07-31'
 contributor:
 - organization:
     name:
@@ -205,7 +209,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

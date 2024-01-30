@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61099-1992/COR1-1993
 title:
 - content: Corrigendum 1 - Specifications for unused synthetic organic esters for
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-12-01'
+- type: stable-until
+  value: '2010-08-31'
+- type: obsoleted
+  value: '2010-08-31'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

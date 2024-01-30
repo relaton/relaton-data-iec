@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC11801-1995/COR1-1996
 title:
 - content: Corrigendum 1 - Information technology -- Generic cabling for customer
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '1996-12-15'
+- type: stable-until
+  value: '2002-09-30'
+- type: obsoleted
+  value: '2002-09-30'
 contributor:
 - organization:
     name:
@@ -99,17 +103,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC11801-2002/AMD1-2008/COR1-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC11801-2002/COR3-2008
     type: standard
     docid:
@@ -118,6 +111,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 11801:2002/COR3:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC11801-2002/AMD1-2008/COR1-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 11801:2002/AMD1:2008/COR1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -231,7 +235,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 25

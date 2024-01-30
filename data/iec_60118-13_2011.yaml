@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60118-13-2011
 title:
 - content: 'Electroacoustics - Hearing aids - Part 13: Electromagnetic compatibility
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2011-04-11'
+- type: stable-until
+  value: '2016-01-06'
+- type: obsoleted
+  value: '2016-01-06'
 contributor:
 - organization:
     name:
@@ -142,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

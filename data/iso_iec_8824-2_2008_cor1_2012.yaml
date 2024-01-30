@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC8824-2-2008/COR1-2012
 title:
 - content: 'Corrigendum 1 - Information technology -- Abstract Syntax Notation One
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2012-12-03'
+- type: stable-until
+  value: '2015-11-12'
+- type: obsoleted
+  value: '2015-11-12'
 contributor:
 - organization:
     name:
@@ -143,7 +147,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

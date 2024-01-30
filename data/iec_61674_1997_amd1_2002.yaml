@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61674-1997/AMD1-2002
 title:
 - content: Amendment 1 - Medical electrical equipment - Dosimeters with ionization
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2002-06-05'
+- type: stable-until
+  value: '2012-11-29'
+- type: obsoleted
+  value: '2012-11-29'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62C

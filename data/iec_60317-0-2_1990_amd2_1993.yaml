@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-0-2-1990/AMD2-1993
 title:
 - content: 'Amendment 2 - Specifications for particular types of winding wires. Part
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1993-01-22'
+- type: stable-until
+  value: '1997-11-13'
+- type: obsoleted
+  value: '1997-11-13'
 contributor:
 - organization:
     name:
@@ -162,7 +166,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

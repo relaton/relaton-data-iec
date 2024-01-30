@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60044-2-1997/AMD2-2002
 title:
 - content: 'Amendment 2 - Instrument transformers - Part 2: Inductive voltage transformers'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2002-12-13'
+- type: stable-until
+  value: '2011-07-13'
+- type: obsoleted
+  value: '2011-07-13'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 38

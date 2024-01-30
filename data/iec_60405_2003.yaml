@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60405-2003
 title:
 - content: Nuclear instrumentation - Constructional requirements and classification
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2003-04-29'
+- type: stable-until
+  value: '2011-03-30'
+- type: obsoleted
+  value: '2011-03-30'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

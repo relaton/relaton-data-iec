@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60617-10-1983/AMD1-1987
 title:
 - content: 'Amendment 1 - Graphical symbols for diagrams. Part 10: Telecommunications:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '1996-05-23'
+- type: obsoleted
+  value: '1996-05-23'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

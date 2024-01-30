@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60269-3-1-1994/AMD2-2001
 title:
 - content: 'Amendment 2 - Low-voltage fuses - Part 3-1: Supplementary requirements
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2001-03-07'
+- type: stable-until
+  value: '2004-07-08'
+- type: obsoleted
+  value: '2004-07-08'
 contributor:
 - organization:
     name:
@@ -110,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32B

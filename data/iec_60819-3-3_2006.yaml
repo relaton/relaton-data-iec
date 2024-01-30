@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60819-3-3-2006
 title:
 - content: 'Non-cellulosic papers for electrical purposes - Part 3: Specifications
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2006-06-13'
+- type: stable-until
+  value: '2011-09-13'
+- type: obsoleted
+  value: '2011-09-13'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

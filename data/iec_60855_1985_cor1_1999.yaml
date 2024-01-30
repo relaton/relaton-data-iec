@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60855-1985/COR1-1999
 title:
 - content: Corrigendum 1 - Insulating foam-filled tubes and solid rods for live working
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1999-07-23'
+- type: stable-until
+  value: '2009-10-28'
+- type: obsoleted
+  value: '2009-10-28'
 contributor:
 - organization:
     name:
@@ -72,7 +76,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

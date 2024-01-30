@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-11-2-2003/COR1-2006
 title:
 - content: 'Corrigendum 1 -  Fire hazard testing - Part 11-2: Test flames - 1 kW nominal
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2006-02-23'
+- type: stable-until
+  value: '2013-12-10'
+- type: obsoleted
+  value: '2013-12-10'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

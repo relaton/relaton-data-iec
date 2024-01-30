@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60083-1975
 title:
 - content: Plugs and socket-outlets for domestic and similar general use. Standards.
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1975-01-01'
+- type: stable-until
+  value: '1997-08-20'
+- type: obsoleted
+  value: '1997-08-20'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

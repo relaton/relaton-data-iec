@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECGUIDE112-2000
 title:
 - content: Guide on the safety of multimedia equipment
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2000-04-18'
+- type: stable-until
+  value: '2008-05-14'
+- type: obsoleted
+  value: '2008-05-14'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ACOS

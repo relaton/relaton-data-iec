@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62271-102-2001/AMD1-2011/COR1-2012
 title:
 - content: 'Corrigendum 1 - Amendment 1 - High-voltage switchgear and controlgear
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2012-01-27'
+- type: stable-until
+  value: '2018-05-15'
+- type: obsoleted
+  value: '2018-05-15'
 contributor:
 - organization:
     name:
@@ -73,17 +77,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62271-102-2001/AMD2-2013
-    type: standard
-    docid:
-    - id: IEC 62271-102:2001/AMD2:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62271-102:2001/AMD2:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62271-102-2001+AMD1-2011+AMD2-2013CSV
     type: standard
     docid:
@@ -92,6 +85,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-102:2001+AMD1:2011+AMD2:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-102-2001/AMD2-2013
+    type: standard
+    docid:
+    - id: IEC 62271-102:2001/AMD2:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-102:2001/AMD2:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -161,7 +165,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC23009-1-2014/COR2-2015
 title:
 - content: 'Corrigendum 2 - Information technology - Dynamic adaptive streaming over
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2015-12-07'
+- type: stable-until
+  value: '2019-08-14'
+- type: obsoleted
+  value: '2019-08-14'
 contributor:
 - organization:
     name:
@@ -165,7 +169,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

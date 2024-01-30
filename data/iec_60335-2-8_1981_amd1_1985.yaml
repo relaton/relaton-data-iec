@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-8-1981/AMD1-1985
 title:
 - content: 'Amendment 1 - Safety of household and similar electrical appliances -
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '1987-01-01'
+- type: obsoleted
+  value: '1987-01-01'
 contributor:
 - organization:
     name:
@@ -86,17 +90,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-8-2012+AMD1-2015CSV
-    type: standard
-    docid:
-    - id: IEC 60335-2-8:2012+AMD1:2015 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-8:2012+AMD1:2015 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-8-2012/AMD1-2015
     type: standard
     docid:
@@ -105,6 +98,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-8:2012/AMD1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-8-2012+AMD1-2015CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-8:2012+AMD1:2015 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-8:2012+AMD1:2015 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -218,7 +222,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

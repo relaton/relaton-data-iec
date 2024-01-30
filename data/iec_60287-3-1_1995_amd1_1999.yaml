@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60287-3-1-1995/AMD1-1999
 title:
 - content: 'Amendment 1 - Electric cables - Calculation of the current rating - Part
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1999-02-23'
+- type: stable-until
+  value: '2017-06-08'
+- type: obsoleted
+  value: '2017-06-08'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

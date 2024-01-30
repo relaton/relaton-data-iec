@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60934-1993/AMD1-1994
 title:
 - content: Amendment 1 - Circuit-breakers for equipment (CBE)
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1994-08-17'
+- type: stable-until
+  value: '2000-10-27'
+- type: obsoleted
+  value: '2000-10-27'
 contributor:
 - organization:
     name:
@@ -190,7 +194,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC15459-2-1999/COR1-2004
 title:
 - content: 'Corrigendum 1 - Information technology - Unique identification of transport
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2004-04-21'
+- type: stable-until
+  value: '2006-03-06'
+- type: obsoleted
+  value: '2006-03-06'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 31

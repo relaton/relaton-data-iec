@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60282-1-1994/AMD2-1997
 title:
 - content: 'Amendment 2 - High-voltage fuses - Part 1: Current-limiting fuses'
@@ -38,6 +38,10 @@ docid:
 date:
 - type: published
   value: '1997-09-10'
+- type: stable-until
+  value: '2002-01-29'
+- type: obsoleted
+  value: '2002-01-29'
 contributor:
 - organization:
     name:
@@ -70,17 +74,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60282-1-2009/AMD1-2014
-    type: standard
-    docid:
-    - id: IEC 60282-1:2009/AMD1:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60282-1:2009/AMD1:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60282-1-2009+AMD1-2014CSV
     type: standard
     docid:
@@ -89,6 +82,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60282-1:2009+AMD1:2014 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60282-1-2009/AMD1-2014
+    type: standard
+    docid:
+    - id: IEC 60282-1:2009/AMD1:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60282-1:2009/AMD1:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -290,7 +294,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32A

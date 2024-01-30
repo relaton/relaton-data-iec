@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60133-2000
 title:
 - content: Dimensions of pot-cores made of magnetic oxides and associated parts
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2000-12-21'
+- type: stable-until
+  value: '2010-06-24'
+- type: obsoleted
+  value: '2010-06-24'
 contributor:
 - organization:
     name:
@@ -114,7 +118,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

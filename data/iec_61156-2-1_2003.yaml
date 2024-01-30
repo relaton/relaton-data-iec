@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61156-2-1-2003
 title:
 - content: 'Multicore and symmetrical pair/quad cables for digital communications
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2003-04-25'
+- type: stable-until
+  value: '2010-06-28'
+- type: obsoleted
+  value: '2010-06-28'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

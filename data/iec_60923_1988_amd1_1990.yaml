@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60923-1988/AMD1-1990
 title:
 - content: Amendment 1 - Ballasts for discharge lamps (excluding tubular fluorescent
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1990-10-01'
+- type: stable-until
+  value: '1995-11-08'
+- type: obsoleted
+  value: '1995-11-08'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

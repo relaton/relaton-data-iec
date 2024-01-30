@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60099-4-2004/AMD1-2006
 title:
 - content: 'Amendment 1 - Surge arresters - Part 4: Metal-oxide surge arresters without
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2006-05-11'
+- type: stable-until
+  value: '2014-06-30'
+- type: obsoleted
+  value: '2014-06-30'
 contributor:
 - organization:
     name:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 37

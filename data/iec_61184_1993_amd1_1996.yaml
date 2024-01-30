@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61184-1993/AMD1-1996
 title:
 - content: Amendment 1 - Bayonet lampholders.
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1996-05-30'
+- type: stable-until
+  value: '1997-08-20'
+- type: obsoleted
+  value: '1997-08-20'
 contributor:
 - organization:
     name:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

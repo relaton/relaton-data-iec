@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-1-1976/ISH1-1976
 title:
 - content: Interpretation sheet I-SH 01
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1976-02-01'
+- type: stable-until
+  value: '1994-08-15'
+- type: obsoleted
+  value: '1994-08-15'
 contributor:
 - organization:
     name:
@@ -82,17 +86,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-1-2010+AMD1-2013+AMD2-2016CSV
-    type: standard
-    docid:
-    - id: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-1-2010/AMD2-2016
     type: standard
     docid:
@@ -101,6 +94,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-1:2010/AMD2:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-1-2010+AMD1-2013+AMD2-2016CSV
+    type: standard
+    docid:
+    - id: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-1:2010+AMD1:2013+AMD2:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -445,7 +449,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

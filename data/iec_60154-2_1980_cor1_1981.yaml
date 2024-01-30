@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60154-2-1980/COR1-1981
 title:
 - content: 'Corrigendum 1 - Flanges for waveguides. Part 2: Relevant specifications
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1981-11-01'
+- type: stable-until
+  value: '2016-07-05'
+- type: obsoleted
+  value: '2016-07-05'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46F

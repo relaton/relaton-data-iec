@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60793-2-2007
 title:
 - content: 'Optical fibres - Part 2: Product specifications - General'
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2007-11-30'
+- type: stable-until
+  value: '2011-11-28'
+- type: obsoleted
+  value: '2011-11-28'
 contributor:
 - organization:
     name:
@@ -223,7 +227,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86A

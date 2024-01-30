@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTS60479-1-2005/COR1-2006
 title:
 - content: 'Corrigendum 1 - Effects of current on human beings and livestock - Part
@@ -32,7 +32,9 @@ date:
 - type: published
   value: '2006-10-17'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2018-12-13'
+- type: obsoleted
+  value: '2018-12-13'
 contributor:
 - organization:
     name:
@@ -64,17 +66,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IECTS60479-1-2005+AMD1-2016CSV
-    type: standard
-    docid:
-    - id: IEC TS 60479-1:2005+AMD1:2016 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC TS 60479-1:2005+AMD1:2016 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IECTS60479-1-2005/AMD1-2016
     type: standard
     docid:
@@ -83,6 +74,17 @@ relation:
       primary: true
     formattedref:
       content: IEC TS 60479-1:2005/AMD1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IECTS60479-1-2005+AMD1-2016CSV
+    type: standard
+    docid:
+    - id: IEC TS 60479-1:2005+AMD1:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TS 60479-1:2005+AMD1:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -130,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

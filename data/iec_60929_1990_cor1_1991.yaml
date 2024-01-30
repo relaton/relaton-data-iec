@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60929-1990/COR1-1991
 title:
 - content: Corrigendum 1 - A.C. supplied electronic ballasts for tubular fluorescent
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-06-01'
+- type: stable-until
+  value: '2003-12-19'
+- type: obsoleted
+  value: '2003-12-19'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

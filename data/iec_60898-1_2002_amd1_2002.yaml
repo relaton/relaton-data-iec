@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60898-1-2002/AMD1-2002
 title:
 - content: |-
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-05-10'
+- type: stable-until
+  value: '2015-03-23'
+- type: obsoleted
+  value: '2015-03-23'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

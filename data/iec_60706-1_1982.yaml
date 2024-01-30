@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60706-1-1982
 title:
 - content: Guide on maintainability of equipment. Part 1 - Sections One, Two and Three.
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '2006-09-13'
+- type: obsoleted
+  value: '2006-09-13'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ copyright:
   from: '1982'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 56

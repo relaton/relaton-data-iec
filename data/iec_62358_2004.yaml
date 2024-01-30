@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62358-2004
 title:
 - content: Ferrite cores - Standard inductance factor (AL) and its tolerance
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2004-05-12'
+- type: stable-until
+  value: '2012-10-12'
+- type: obsoleted
+  value: '2012-10-12'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

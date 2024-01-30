@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60376-2005
 title:
 - content: Specification of technical grade sulfur hexafluoride (SF<sub>6</sub>) for
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2005-06-13'
+- type: stable-until
+  value: '2018-05-24'
+- type: obsoleted
+  value: '2018-05-24'
 contributor:
 - organization:
     name:
@@ -121,7 +125,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

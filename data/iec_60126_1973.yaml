@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60126-1973
 title:
 - content: IEC reference coupler for the measurement of hearing aids using earphones
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '2006-08-16'
+- type: obsoleted
+  value: '2006-08-16'
 contributor:
 - organization:
     name:
@@ -114,7 +118,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

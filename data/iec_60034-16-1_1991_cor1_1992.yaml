@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-16-1-1991/COR1-1992
 title:
 - content: 'Corrigendum 1 - Rotating electrical machines - Part 16: Excitation systems
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-04-01'
+- type: stable-until
+  value: '2011-05-25'
+- type: obsoleted
+  value: '2011-05-25'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

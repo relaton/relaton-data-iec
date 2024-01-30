@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-1-2008/COR1-2008
 title:
 - content: 'Corrigendum 1 - Fixed capacitors for use in electronic equipment - Part
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2008-11-26'
+- type: stable-until
+  value: '2016-02-12'
+- type: obsoleted
+  value: '2016-02-12'
 contributor:
 - organization:
     name:
@@ -53,17 +57,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60384-1-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60384-1:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60384-1:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60384-1-2016
     type: standard
     docid:
@@ -72,6 +65,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60384-1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60384-1-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60384-1:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60384-1:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -174,7 +178,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR11-2003/AMD2-2006
 title:
 - content: Amendment 2 - Industrial, scientific and medical (ISM) radio-frequency
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2006-06-26'
+- type: stable-until
+  value: '2009-05-28'
+- type: obsoleted
+  value: '2009-05-28'
 contributor:
 - organization:
     name:
@@ -261,7 +265,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/B

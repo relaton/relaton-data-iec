@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60276-1968/AMD1-1987
 title:
 - content: Amendment 1 - Definitions and nomenclature for carbon brushes, brush-holders,commutators
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '2018-05-08'
+- type: obsoleted
+  value: '2018-05-08'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60309-2-1981/AMD1-1983
 title:
 - content: 'Amendment 1 - Plugs, socket-outlets and couplers for industrial purposes
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1983-09-01'
+- type: stable-until
+  value: '1989-03-30'
+- type: obsoleted
+  value: '1989-03-30'
 contributor:
 - organization:
     name:
@@ -162,7 +166,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23H

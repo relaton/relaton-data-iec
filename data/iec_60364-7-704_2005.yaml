@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-7-704-2005
 title:
 - content: 'Low-voltage electrical installations - Part 7-704: Requirements for special
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2005-10-19'
+- type: stable-until
+  value: '2017-03-28'
+- type: obsoleted
+  value: '2017-03-28'
 contributor:
 - organization:
     name:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

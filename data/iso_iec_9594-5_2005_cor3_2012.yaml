@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9594-5-2005/COR3-2012
 title:
 - content: 'Corrigendum 3 - Information technology - Open Systems Interconnection
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2012-09-05'
+- type: stable-until
+  value: '2008-12-15'
+- type: obsoleted
+  value: '2008-12-15'
 contributor:
 - organization:
     name:
@@ -176,7 +180,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

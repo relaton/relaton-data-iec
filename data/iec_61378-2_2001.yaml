@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61378-2-2001
 title:
 - content: 'Convertor transformers - Part 2: Transformers for HVDC applications'
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2001-02-08'
+- type: stable-until
+  value: '2017-11-09'
+- type: obsoleted
+  value: '2017-11-09'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 14

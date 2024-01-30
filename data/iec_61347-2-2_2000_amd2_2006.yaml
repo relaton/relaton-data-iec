@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61347-2-2-2000/AMD2-2006
 title:
 - content: 'Amendment 2 - Lamp controlgear - Part 2-2: Particular requirements for
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2006-05-05'
+- type: stable-until
+  value: '2011-12-07'
+- type: obsoleted
+  value: '2011-12-07'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECCA01-2016
 title:
 - content: IEC Conformity Assessment Systems - Basic Rules
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2016-07-12'
+- type: stable-until
+  value: '2017-06-19'
+- type: obsoleted
+  value: '2017-06-19'
 contributor:
 - organization:
     name:
@@ -66,7 +70,8 @@ copyright:
   from: '2016'
 place:
 - Geneva
-doctype: other
+doctype:
+  type: other
 editorialgroup:
   technical_committee:
   - name: CAB

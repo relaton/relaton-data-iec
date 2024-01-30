@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60651-1979/AMD1-1993/COR1-1994
 title:
 - content: Corrigendum 1 - Amendment 1 - Sound level meters
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1994-03-01'
+- type: stable-until
+  value: '2003-04-17'
+- type: obsoleted
+  value: '2003-04-17'
 contributor:
 - organization:
     name:
@@ -104,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

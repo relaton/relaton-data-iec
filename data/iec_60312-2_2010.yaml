@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60312-2-2010
 title:
 - content: 'Vacuum cleaners for household use - Part 2: Wet cleaning appliances -
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2010-09-23'
+- type: stable-until
+  value: '2014-12-16'
+- type: obsoleted
+  value: '2014-12-16'
 contributor:
 - organization:
     name:
@@ -63,7 +67,8 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59F

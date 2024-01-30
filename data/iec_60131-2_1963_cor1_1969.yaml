@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60131-2-1963/COR1-1969
 title:
 - content: 'Corrigendum 1 - Lever switches. Part 2: Requirements for toggle switches
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1969-02-01'
+- type: stable-until
+  value: '1999-10-01'
 - type: obsoleted
   value: '1999-10-01'
 contributor:
@@ -84,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23J

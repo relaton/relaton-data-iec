@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECGUIDE111-1998
 title:
 - content: Electrical high-voltage equipment in high-voltage substations - Common
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1998-10-07'
+- type: stable-until
+  value: '2004-07-21'
+- type: obsoleted
+  value: '2004-07-21'
 contributor:
 - organization:
     name:
@@ -100,7 +104,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: SMB

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60871-1-1987/AMD1-1991
 title:
 - content: 'Amendment 1 - Shunt capacitors for a.c. power systems having a rated voltage
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1991-09-15'
+- type: stable-until
+  value: '1997-10-17'
+- type: obsoleted
+  value: '1997-10-17'
 contributor:
 - organization:
     name:
@@ -111,7 +115,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 33

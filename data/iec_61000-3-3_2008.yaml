@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-3-3-2008
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 3-3: Limits - Limitation of
@@ -47,6 +47,10 @@ docid:
 date:
 - type: published
   value: '2008-06-23'
+- type: stable-until
+  value: '2013-05-14'
+- type: obsoleted
+  value: '2013-05-14'
 contributor:
 - organization:
     name:
@@ -162,7 +166,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

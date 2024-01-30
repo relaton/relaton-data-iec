@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR11-1975/AMD1-1976
 title:
 - content: Amendment 1 - Limits and methods of measurement of radio interference characteristics
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1976-12-01'
+- type: stable-until
+  value: '1990-10-15'
+- type: obsoleted
+  value: '1990-10-15'
 contributor:
 - organization:
     name:
@@ -251,7 +255,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

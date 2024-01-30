@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-15-1995
 title:
 - content: 'Rotating electrical machines - Part 15: Impulse voltage withstand levels
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1995-01-30'
+- type: stable-until
+  value: '2009-03-17'
+- type: obsoleted
+  value: '2009-03-17'
 contributor:
 - organization:
     name:
@@ -105,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

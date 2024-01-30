@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC14496-11-2005/COR6-2007
 title:
 - content: 'Corrigendum 6 - Information technology -- Coding of audio-visual objects
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2007-10-15'
+- type: stable-until
+  value: '2015-11-02'
+- type: obsoleted
+  value: '2015-11-02'
 contributor:
 - organization:
     name:
@@ -121,7 +125,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

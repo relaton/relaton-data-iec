@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61937-1-2003
 title:
 - content: 'Digital audio - Interface for non-linear PCM encoded audio bitstreams
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2003-05-19'
+- type: stable-until
+  value: '2007-01-24'
+- type: obsoleted
+  value: '2007-01-24'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

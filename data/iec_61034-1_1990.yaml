@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61034-1-1990
 title:
 - content: 'Measurement of smoke density of electric cables burning under defined
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1990-12-31'
+- type: stable-until
+  value: '1997-08-14'
+- type: obsoleted
+  value: '1997-08-14'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60432-1-1993/AMD2-1997
 title:
 - content: 'Amendment 2 - Safety specifications for incandescent lamps - Part 1: Tungsten
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1997-06-10'
+- type: stable-until
+  value: '1999-08-13'
+- type: obsoleted
+  value: '1999-08-13'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

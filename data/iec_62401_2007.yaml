@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62401-2007
 title:
 - content: Radiation protection instrumentation - Alarming personal radiation devices
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2007-07-25'
+- type: stable-until
+  value: '2017-12-15'
+- type: obsoleted
+  value: '2017-12-15'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45B

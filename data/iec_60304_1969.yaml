@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60304-1969
 title:
 - content: Standard colours for insulation for low-frequency cables and wires
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '1978-01-01'
+- type: obsoleted
+  value: '1978-01-01'
 contributor:
 - organization:
     name:
@@ -102,7 +106,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

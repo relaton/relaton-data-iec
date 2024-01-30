@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-1-3-1986
 title:
 - content: 'Fire hazard testing. Part 1: Guidance for the preparation of requirements
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1986-09-30'
+- type: stable-until
+  value: '2002-08-27'
+- type: obsoleted
+  value: '2002-08-27'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ copyright:
   from: '1986'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

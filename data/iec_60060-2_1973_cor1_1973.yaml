@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60060-2-1973/COR1-1973
 title:
 - content: 'Corrigendum 1 - High-voltage test techniques - Part 2: Test procedures'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1994-11-23'
+- type: obsoleted
+  value: '1994-11-23'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 42

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60115-1-1982/AMD3-1989
 title:
 - content: 'Amendment 3 - Fixed resistors for use in electronic equipment - Part 1:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1989-04-15'
+- type: stable-until
+  value: '1999-05-07'
+- type: obsoleted
+  value: '1999-05-07'
 contributor:
 - organization:
     name:
@@ -176,7 +180,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

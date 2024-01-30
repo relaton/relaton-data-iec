@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60951-2-1988
 title:
 - content: 'Radiation monitoring equipment for accident and post-accident conditions
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1988-08-30'
+- type: stable-until
+  value: '2009-06-29'
+- type: obsoleted
+  value: '2009-06-29'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61097-6-1995
 title:
 - content: 'Global maritime distress and safety system (GMDSS) - Part 6: Narrowband
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1995-02-22'
+- type: stable-until
+  value: '2005-12-07'
+- type: obsoleted
+  value: '2005-12-07'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 80

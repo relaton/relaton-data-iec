@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60130-9-1989/AMD1-1993
 title:
 - content: 'Amendment 1 - Connectors for frequencies below 3 MHz. Part 9: Circular
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1993-04-07'
+- type: stable-until
+  value: '2000-05-18'
+- type: obsoleted
+  value: '2000-05-18'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTS61662-1995/AMD1-1996
 title:
 - content: Amendment 1 - Assessment of the risk of damage due to lightning
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1996-05-30'
+- type: stable-until
+  value: '2006-01-17'
+- type: obsoleted
+  value: '2006-01-17'
 contributor:
 - organization:
     name:
@@ -71,7 +75,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-specification
+doctype:
+  type: technical-specification
 editorialgroup:
   technical_committee:
   - name: TC 81

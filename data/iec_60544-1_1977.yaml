@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60544-1-1977
 title:
 - content: 'Guide for determining the effects of ionizing radiation on insulating
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '1994-05-09'
+- type: obsoleted
+  value: '1994-05-09'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60457-3-1974
 title:
 - content: 'Rigid precision coaxial lines and their associated precision connectors
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1980-01-01'
+- type: obsoleted
+  value: '1980-01-01'
 contributor:
 - organization:
     name:
@@ -72,7 +76,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

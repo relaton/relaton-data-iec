@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC15938-12-2008/COR2-2010
 title:
 - content: 'Corrigendum 2 - Information technology -- Multimedia content description
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2010-02-17'
+- type: stable-until
+  value: '2012-10-23'
+- type: obsoleted
+  value: '2012-10-23'
 contributor:
 - organization:
     name:
@@ -110,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

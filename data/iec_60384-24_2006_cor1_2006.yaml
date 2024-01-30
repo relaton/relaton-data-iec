@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60384-24-2006/COR1-2006
 title:
 - content: 'Corrigendum 1 - Fixed capacitors for use in electronic equipment - Part
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2006-10-24'
+- type: stable-until
+  value: '2015-07-22'
+- type: obsoleted
+  value: '2015-07-22'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60115-2-1972
 title:
 - content: 'Fixed resistors - Part 2: Fixed low-power non-wirewound resistors  Selection
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1982-01-01'
+- type: obsoleted
+  value: '1982-01-01'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

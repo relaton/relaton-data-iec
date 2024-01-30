@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60464-2-1974
 title:
 - content: 'Specification for insulating varnishes containing solvent. Part 2: Test
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '2001-07-31'
+- type: obsoleted
+  value: '2001-07-31'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

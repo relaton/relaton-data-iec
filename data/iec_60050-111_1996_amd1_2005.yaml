@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60050-111-1996/AMD1-2005
 title:
 - content: 'Amendment 1 - International Electrotechnical Vocabulary (IEV) - Part 111:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2005-03-21'
+- type: stable-until
+  value: '2014-03-26'
+- type: obsoleted
+  value: '2014-03-26'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1

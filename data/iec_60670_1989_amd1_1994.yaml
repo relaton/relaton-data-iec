@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60670-1989/AMD1-1994
 title:
 - content: Amendment 1 - General requirements for enclosures for accessories for household
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1994-07-14'
+- type: stable-until
+  value: '2002-12-06'
+- type: obsoleted
+  value: '2002-12-06'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

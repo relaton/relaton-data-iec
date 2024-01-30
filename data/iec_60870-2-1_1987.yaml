@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60870-2-1-1987
 title:
 - content: 'Telecontrol equipment and systems - Part 2: Operating conditions - Section
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-01-01'
+- type: stable-until
+  value: '1995-12-08'
+- type: obsoleted
+  value: '1995-12-08'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1987'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 57

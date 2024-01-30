@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61010-2-051-2003
 title:
 - content: 'Safety requirements for electrical equipment for measurement, control,
@@ -46,6 +46,10 @@ docid:
 date:
 - type: published
   value: '2003-06-18'
+- type: stable-until
+  value: '2015-03-10'
+- type: obsoleted
+  value: '2015-03-10'
 contributor:
 - organization:
     name:
@@ -119,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

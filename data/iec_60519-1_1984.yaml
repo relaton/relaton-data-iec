@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60519-1-1984
 title:
 - content: 'Safety in electroheat installations. Part 1: General requirements'
@@ -38,6 +38,10 @@ docid:
 date:
 - type: published
   value: '1984-11-30'
+- type: stable-until
+  value: '2003-07-31'
+- type: obsoleted
+  value: '2003-07-31'
 contributor:
 - organization:
     name:
@@ -144,7 +148,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 27

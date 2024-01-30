@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60196-1965
 title:
 - content: IEC standard frequencies
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1965-01-01'
+- type: stable-until
+  value: '2009-06-17'
+- type: obsoleted
+  value: '2009-06-17'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ copyright:
   from: '1965'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 8

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-3-1972
 title:
 - content: 'Electrical apparatus for explosive gas atmospheres - Part 3: Spark test
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1990-11-30'
+- type: obsoleted
+  value: '1990-11-30'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

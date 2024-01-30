@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-3-1993/ISH1-2001
 title:
 - content: Interpretation sheet to IEC 60598-2-3
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '2001-03-22'
+- type: stable-until
+  value: '2002-12-04'
+- type: obsoleted
+  value: '2002-12-04'
 contributor:
 - organization:
     name:
@@ -148,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60604-1980
 title:
 - content: "'Topflash/Flipflash' photographic lamp array"
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2001-02-28'
 - type: obsoleted
   value: '2001-02-28'
 contributor:
@@ -77,7 +79,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

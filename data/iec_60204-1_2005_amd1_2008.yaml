@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60204-1-2005/AMD1-2008
 title:
 - content: 'Amendment 1 - Safety of machinery - Electrical equipment of machines -
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2008-11-27'
+- type: stable-until
+  value: '2016-10-13'
+- type: obsoleted
+  value: '2016-10-13'
 contributor:
 - organization:
     name:
@@ -181,7 +185,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 44

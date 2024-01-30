@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IECTR18047-3-2004/COR2-2008
 title:
 - content: 'Corrigendum 2 - Information technology -- Radio frequency identification
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2008-06-16'
+- type: stable-until
+  value: '2011-05-30'
+- type: obsoleted
+  value: '2011-05-30'
 contributor:
 - organization:
     name:
@@ -100,7 +104,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 31

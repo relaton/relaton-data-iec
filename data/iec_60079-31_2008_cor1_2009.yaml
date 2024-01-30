@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-31-2008/COR1-2009
 title:
 - content: 'Corrigendum 1 - Explosive atmospheres - Part 31: Equipment dust ignition
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2009-03-24'
+- type: stable-until
+  value: '2022-02-04'
+- type: obsoleted
+  value: '2022-02-04'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

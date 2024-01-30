@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC19772-2009/COR1-2014
 title:
 - content: Corrigendum 1 - Information technology -- Security techniques -- Authenticated
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2014-09-01'
+- type: stable-until
+  value: '2020-11-27'
+- type: obsoleted
+  value: '2020-11-27'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 27

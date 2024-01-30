@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR62285-2002
 title:
 - content: Non-linear coefficient measuring methods - Application guide
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-07-30'
+- type: stable-until
+  value: '2005-05-30'
+- type: obsoleted
+  value: '2005-05-30'
 contributor:
 - organization:
     name:
@@ -59,9 +63,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2002'
+relation:
+- type: updates
+  bibitem:
+    id: IECTR62285-2005
+    type: standard
+    docid:
+    - id: IEC TR 62285:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC TR 62285:2005
+      format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86A

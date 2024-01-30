@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR21-1999
 title:
 - content: Interference to mobile radiocommunications in the presence of impulsive
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1999-10-08'
+- type: stable-until
+  value: '2008-03-26'
+- type: obsoleted
+  value: '2008-03-26'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/D

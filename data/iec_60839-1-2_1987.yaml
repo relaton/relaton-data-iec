@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60839-1-2-1987
 title:
 - content: 'Alarm systems. Part 1: General requirements. Section Two: Power units,
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1987-12-30'
+- type: stable-until
+  value: '2011-10-01'
+- type: obsoleted
+  value: '2011-10-01'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '1987'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 79

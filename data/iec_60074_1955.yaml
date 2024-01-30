@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60074-1955
 title:
 - content: 'Report on the work of the Permanent Sub-Committee of Technical Committee
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1955-01-01'
+- type: stable-until
+  value: '1963-01-01'
+- type: obsoleted
+  value: '1963-01-01'
 contributor:
 - organization:
     name:
@@ -84,17 +88,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60074-1963
-    type: standard
-    docid:
-    - id: IEC 60074:1963
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60074:1963
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60074-1963+AMD1-1973+AMD2-1974CSV
     type: standard
     docid:
@@ -104,9 +97,21 @@ relation:
     formattedref:
       content: IEC 60074:1963+AMD1:1973+AMD2:1974 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60074-1963
+    type: standard
+    docid:
+    - id: IEC 60074:1963
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60074:1963
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

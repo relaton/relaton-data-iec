@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-0-2-1997
 title:
 - content: 'Specifications for particular types of winding wires - Part 0: General
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1997-11-13'
+- type: stable-until
+  value: '2013-10-07'
+- type: obsoleted
+  value: '2013-10-07'
 contributor:
 - organization:
     name:
@@ -190,7 +194,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

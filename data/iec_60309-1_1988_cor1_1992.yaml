@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60309-1-1988/COR1-1992
 title:
 - content: 'Corrigendum 1 - Plugs, socket-outlets and couplers for industrial purposes.
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-03-01'
+- type: stable-until
+  value: '1997-08-20'
+- type: obsoleted
+  value: '1997-08-20'
 contributor:
 - organization:
     name:
@@ -172,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23H

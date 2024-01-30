@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60966-2-2-1992
 title:
 - content: 'Radio frequency and coaxial cable assemblies - Part 2-2: Blank detail
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-08-20'
+- type: stable-until
+  value: '2003-07-31'
+- type: obsoleted
+  value: '2003-07-31'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

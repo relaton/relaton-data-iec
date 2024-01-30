@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61958-2000
 title:
 - content: High-voltage prefabricated switchgear and controlgear assemblies - Voltage
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2000-11-09'
+- type: stable-until
+  value: '2011-01-27'
+- type: obsoleted
+  value: '2011-01-27'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17C

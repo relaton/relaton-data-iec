@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61069-6-1998
 title:
 - content: 'Industrial-process measurement and control - Evaluation of system properties
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1998-04-29'
+- type: stable-until
+  value: '2016-06-15'
+- type: obsoleted
+  value: '2016-06-15'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65A

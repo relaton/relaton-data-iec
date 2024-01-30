@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-12-2002/AMD1-2007
 title:
 - content: 'Amendment 1 - Rotating electrical machines - Part 12: Starting performance
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2007-06-21'
+- type: stable-until
+  value: '2016-11-23'
+- type: obsoleted
+  value: '2016-11-23'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61779-3-1998
 title:
 - content: 'Electrical apparatus for the detection and measurement of flammable gases
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1998-04-15'
+- type: stable-until
+  value: '2007-08-09'
+- type: obsoleted
+  value: '2007-08-09'
 contributor:
 - organization:
     name:
@@ -76,7 +80,8 @@ copyright:
   from: '1998'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-4-1-1992/COR1-1995
 title:
 - content: 'Corrigendum 1 - Electromagnetic compatibility (EMC) - Part 4-1: Testing
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1995-01-01'
+- type: stable-until
+  value: '2000-04-13'
+- type: obsoleted
+  value: '2000-04-13'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77

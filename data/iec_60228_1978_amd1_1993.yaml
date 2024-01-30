@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60228-1978/AMD1-1993
 title:
 - content: Amendment 1 - Conductors of insulated cables
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1993-01-22'
+- type: stable-until
+  value: '2004-11-02'
+- type: obsoleted
+  value: '2004-11-02'
 contributor:
 - organization:
     name:
@@ -58,6 +62,17 @@ copyright:
     url: www.iec.ch
   from: '1978'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60228-2004
+    type: standard
+    docid:
+    - id: IEC 60228:2004
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60228:2004
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60228-1978/COR1-1979
@@ -93,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60740-1982/AMD1-1991
 title:
 - content: Amendment 1 - Laminations for transformers and inductors for use in telecommunication
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-11-29'
+- type: stable-until
+  value: '2005-08-09'
+- type: obsoleted
+  value: '2005-08-09'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

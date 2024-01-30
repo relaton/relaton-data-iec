@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-35-2002+AMD1-2006CSV/COR1-2007
 title:
 - content: 'Corrigendum 1 - Household and similar electrical appliances - Safety -
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2007-04-18'
+- type: stable-until
+  value: '2016-11-08'
+- type: obsoleted
+  value: '2016-11-08'
 contributor:
 - organization:
     name:
@@ -172,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

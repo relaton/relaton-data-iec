@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61788-4-2007
 title:
 - content: 'Superconductivity - Part 4: Residual resistance ratio measurement - Residual
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2007-04-24'
+- type: stable-until
+  value: '2011-07-11'
+- type: obsoleted
+  value: '2011-07-11'
 contributor:
 - organization:
     name:
@@ -98,7 +102,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 90

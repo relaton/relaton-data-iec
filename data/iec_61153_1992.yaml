@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61153-1992
 title:
 - content: Electrical and pneumatic analogue chart recorders for use in industrial-process
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1992-05-31'
+- type: stable-until
+  value: '2008-03-05'
+- type: obsoleted
+  value: '2008-03-05'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60534-2-2-1980
 title:
 - content: 'Industrial-process control valves. Part 2: Flow capacity. Section Two:
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '1998-09-23'
+- type: obsoleted
+  value: '1998-09-23'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60811-1-2-1985+AMD1-1989CSV
 title:
 - content: 'VERSION OFICIAL EN ESPANOL (Incluye corrigendum:1985 + modificación 1:1989)
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '1985-07-30'
+- type: stable-until
+  value: '2012-03-12'
+- type: obsoleted
+  value: '2012-03-12'
 contributor:
 - organization:
     name:
@@ -109,7 +113,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

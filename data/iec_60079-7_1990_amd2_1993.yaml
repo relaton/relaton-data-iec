@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-7-1990/AMD2-1993
 title:
 - content: 'Amendment 2 - Electrical apparatus for explosive gs atmospheres - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-04-30'
+- type: stable-until
+  value: '2001-11-22'
+- type: obsoleted
+  value: '2001-11-22'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60838-1987/AMD1-1990
 title:
 - content: Amendment 1 - Miscellaneous lampholders
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1990-05-01'
+- type: stable-until
+  value: '1993-02-26'
+- type: obsoleted
+  value: '1993-02-26'
 contributor:
 - organization:
     name:
@@ -71,7 +75,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

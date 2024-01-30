@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60282-1-2002/COR1-2002
 title:
 - content: 'Corrigendum 1 - High-voltage fuses - Part 1: Current-limiting fuses'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '2002-08-12'
+- type: stable-until
+  value: '2005-11-21'
+- type: obsoleted
+  value: '2005-11-21'
 contributor:
 - organization:
     name:
@@ -281,7 +285,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60455-1A-1980
 title:
 - content: 'Specification for solventless polymerisable resinous compounds used for
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2004-11-15'
+- type: obsoleted
+  value: '2004-11-15'
 contributor:
 - organization:
     name:
@@ -81,7 +85,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

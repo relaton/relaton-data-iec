@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60331-1-2009
 title:
 - content: 'Tests for electric cables under fire conditions - Circuit integrity -
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2009-05-19'
+- type: stable-until
+  value: '2018-03-28'
+- type: obsoleted
+  value: '2018-03-28'
 contributor:
 - organization:
     name:
@@ -92,7 +96,8 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

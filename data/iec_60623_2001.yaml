@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60623-2001
 title:
 - content: Secondary cells and batteries containing alkaline or other non-acid electrolytes
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2001-09-26'
+- type: stable-until
+  value: '2017-01-23'
+- type: obsoleted
+  value: '2017-01-23'
 contributor:
 - organization:
     name:
@@ -111,17 +115,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60623-1990+AMD1-1992+AMD2-1992CSV
-    type: standard
-    docid:
-    - id: IEC 60623:1990+AMD1:1992+AMD2:1992 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60623:1990+AMD1:1992+AMD2:1992 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60623-1990
     type: standard
     docid:
@@ -130,6 +123,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60623:1990
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60623-1990+AMD1-1992+AMD2-1992CSV
+    type: standard
+    docid:
+    - id: IEC 60623:1990+AMD1:1992+AMD2:1992 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60623:1990+AMD1:1992+AMD2:1992 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -166,7 +170,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21/SC 21A

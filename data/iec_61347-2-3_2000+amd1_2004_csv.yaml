@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61347-2-3-2000+AMD1-2004CSV
 title:
 - content: 'Lamp controlgear - Part 2-3: Particular requirements for a.c. supplied
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2004-09-06'
+- type: stable-until
+  value: '2016-07-15'
+- type: obsoleted
+  value: '2016-07-15'
 contributor:
 - organization:
     name:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

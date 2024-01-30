@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61669-2001
 title:
 - content: Electroacoustics - Equipment for the measurement of real-ear acoustical
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2001-01-30'
+- type: stable-until
+  value: '2015-11-04'
+- type: obsoleted
+  value: '2015-11-04'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

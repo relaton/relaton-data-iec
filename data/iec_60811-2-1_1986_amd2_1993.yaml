@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60811-2-1-1986/AMD2-1993
 title:
 - content: 'Amendment 2 - Common test methods for insulating and sheathing materials
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1993-08-30'
+- type: stable-until
+  value: '1998-04-15'
+- type: obsoleted
+  value: '1998-04-15'
 contributor:
 - organization:
     name:
@@ -120,7 +124,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60462-1974
 title:
 - content: Standard test procedures for photomultiplier tubes for scintillation counting
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '2010-07-12'
+- type: obsoleted
+  value: '2010-07-12'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

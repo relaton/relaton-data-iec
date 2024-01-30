@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61726-1995
 title:
 - content: Cable assemblies, cables, connectors and passive microwave components -
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1995-05-19'
+- type: stable-until
+  value: '1999-12-01'
+- type: obsoleted
+  value: '1999-12-01'
 contributor:
 - organization:
     name:
@@ -103,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

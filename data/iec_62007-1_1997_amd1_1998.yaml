@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62007-1-1997/AMD1-1998
 title:
 - content: 'Amendment 1 - Semiconductor optoelectronic devices for fibre optic system
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1998-08-19'
+- type: stable-until
+  value: '2008-10-08'
+- type: obsoleted
+  value: '2008-10-08'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86

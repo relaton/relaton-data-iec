@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61010-1-1990/COR1-1999
 title:
 - content: 'Corrigendum 1 - Safety requirements for electrical equipment for measurement,
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1999-04-30'
+- type: stable-until
+  value: '2001-02-13'
+- type: obsoleted
+  value: '2001-02-13'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 66

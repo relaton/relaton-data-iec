@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60745-2-8-1982
 title:
 - content: 'Safety of hand-held motor-operated electric tools. Part 2: Particular
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '2003-01-27'
+- type: obsoleted
+  value: '2003-01-27'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 116

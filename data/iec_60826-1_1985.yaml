@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60826-1-1985
 title:
 - content: 'Overhead line support loadings - Part 1: General'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '1991-06-28'
+- type: obsoleted
+  value: '1991-06-28'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 11

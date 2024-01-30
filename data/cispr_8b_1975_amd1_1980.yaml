@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR8B-1975/AMD1-1980
 title:
 - content: Amendment 1 - Reports and Study Questions of the CISPR (approved or confirmed
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1980-04-01'
+- type: stable-until
+  value: '1975-01-01'
+- type: obsoleted
+  value: '1975-01-01'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60794-1-1987/AMD2-1991
 title:
 - content: 'Amendment 2 - Optical fibre cables - Part 1: Generic specification'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1991-04-01'
+- type: stable-until
+  value: '2011-09-13'
+- type: obsoleted
+  value: '2011-09-13'
 contributor:
 - organization:
     name:
@@ -137,7 +141,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

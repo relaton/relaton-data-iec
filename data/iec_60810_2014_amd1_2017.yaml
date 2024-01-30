@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60810-2014/AMD1-2017
 title:
 - content: Amendment 1 - Lamps for road vehicles - Performance requirements
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '2017-03-08'
+- type: stable-until
+  value: '2017-09-25'
+- type: obsoleted
+  value: '2017-09-25'
 contributor:
 - organization:
     name:
@@ -214,7 +218,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

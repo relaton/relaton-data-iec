@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR18-3-1986
 title:
 - content: 'Radio interference characteristics of overhead power lines and high-voltage
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1986-09-30'
+- type: stable-until
+  value: '2010-06-24'
+- type: obsoleted
+  value: '2010-06-24'
 contributor:
 - organization:
     name:
@@ -129,7 +133,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/B

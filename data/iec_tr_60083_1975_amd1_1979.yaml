@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60083-1975/AMD1-1979
 title:
 - content: Amendment 1 - Plugs and socket-outlets for domestic and similar general
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1979-12-01'
+- type: stable-until
+  value: '1997-08-20'
+- type: obsoleted
+  value: '1997-08-20'
 contributor:
 - organization:
     name:
@@ -144,7 +148,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

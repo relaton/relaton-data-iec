@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60809-1985/AMD3-1992/COR1-1993
 title:
 - content: Corrigendum 1 to amendment 3
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1993-01-01'
+- type: stable-until
+  value: '1995-12-01'
+- type: obsoleted
+  value: '1995-12-01'
 contributor:
 - organization:
     name:
@@ -60,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60809-2014+AMD1-2017+AMD2-2017+AMD3-2019CSV
-    type: standard
-    docid:
-    - id: IEC 60809:2014+AMD1:2017+AMD2:2017+AMD3:2019 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60809:2014+AMD1:2017+AMD2:2017+AMD3:2019 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60809-2014/AMD3-2019
     type: standard
     docid:
@@ -79,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60809:2014/AMD3:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60809-2014+AMD1-2017+AMD2-2017+AMD3-2019CSV
+    type: standard
+    docid:
+    - id: IEC 60809:2014+AMD1:2017+AMD2:2017+AMD3:2019 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60809:2014+AMD1:2017+AMD2:2017+AMD3:2019 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -269,7 +273,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

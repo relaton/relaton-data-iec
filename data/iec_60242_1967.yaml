@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60242-1967
 title:
 - content: Standard frequencies for centralized network control installations
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '1998-03-12'
 - type: obsoleted
   value: '1998-03-12'
 contributor:
@@ -76,7 +78,8 @@ copyright:
   from: '1967'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 8

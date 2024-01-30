@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60999-1-1990/COR1-1995
 title:
 - content: 'Corrigendum 1 - Connecting devices - Safety requirements for screw-type
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1995-02-01'
+- type: stable-until
+  value: '1999-11-30'
+- type: obsoleted
+  value: '1999-11-30'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23

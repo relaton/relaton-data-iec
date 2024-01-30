@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR16-1977/AMD2-1983
 title:
 - content: Amendment 2 - CISPR specification for radio interference measuring apparatus
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1983-10-01'
+- type: stable-until
+  value: '2006-03-15'
+- type: obsoleted
+  value: '2006-03-15'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/A

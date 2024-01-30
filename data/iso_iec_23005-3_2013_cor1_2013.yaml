@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC23005-3-2013/COR1-2013
 title:
 - content: 'Corrigendum 1 - Information technology - Media context and control - Part
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2013-08-29'
+- type: stable-until
+  value: '2016-07-05'
+- type: obsoleted
+  value: '2016-07-05'
 contributor:
 - organization:
     name:
@@ -99,7 +103,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

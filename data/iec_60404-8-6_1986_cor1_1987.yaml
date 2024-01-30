@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60404-8-6-1986/COR1-1987
 title:
 - content: 'Magnetic materials. Part 8: Specifications for individual materials. Section
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1987-03-01'
+- type: stable-until
+  value: '1999-04-28'
+- type: obsoleted
+  value: '1999-04-28'
 contributor:
 - organization:
     name:
@@ -125,7 +129,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 68

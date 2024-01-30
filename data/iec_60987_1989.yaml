@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60987-1989
 title:
 - content: Programmed digital computers important to safety for nuclear power stations
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1989-12-31'
+- type: stable-until
+  value: '2007-08-27'
+- type: obsoleted
+  value: '2007-08-27'
 contributor:
 - organization:
     name:
@@ -85,17 +89,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60987-2007+AMD1-2013CSV
-    type: standard
-    docid:
-    - id: IEC 60987:2007+AMD1:2013 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60987:2007+AMD1:2013 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60987-2007/AMD1-2013
     type: standard
     docid:
@@ -104,6 +97,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60987:2007/AMD1:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60987-2007+AMD1-2013CSV
+    type: standard
+    docid:
+    - id: IEC 60987:2007+AMD1:2013 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60987:2007+AMD1:2013 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -118,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

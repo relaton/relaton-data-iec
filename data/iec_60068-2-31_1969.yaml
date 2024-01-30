@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-31-1969
 title:
 - content: 'Environmental testing. Part 2: Tests. Test Ec: Drop and topple, primarily
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '2008-05-21'
+- type: obsoleted
+  value: '2008-05-21'
 contributor:
 - organization:
     name:
@@ -105,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

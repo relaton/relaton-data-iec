@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61156-4-1995/AMD1-1999
 title:
 - content: 'Amendment 1 - Multicore and symmetrical pair/quad cables for digital communications
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1999-12-22'
+- type: stable-until
+  value: '2003-04-24'
+- type: obsoleted
+  value: '2003-04-24'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

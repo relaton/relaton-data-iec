@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-2-5-1987/AMD5-2000
 title:
 - content: 'Amendment 5 - Base materials for printed circuits. Part 2: Specifications.
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2000-06-30'
+- type: stable-until
+  value: '2002-10-15'
+- type: obsoleted
+  value: '2002-10-15'
 contributor:
 - organization:
     name:
@@ -142,7 +146,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

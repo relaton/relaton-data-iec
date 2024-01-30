@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-20-1982/AMD2-1992
 title:
 - content: 'Amendment 2 - Luminaires. Part 2: Particular requirements. Section Twenty:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-09-30'
+- type: stable-until
+  value: '2003-07-31'
+- type: obsoleted
+  value: '2003-07-31'
 contributor:
 - organization:
     name:
@@ -212,7 +216,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

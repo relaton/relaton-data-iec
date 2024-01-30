@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60793-2-40-2002
 title:
 - content: 'Optical fibres - Part 2-40: Product specifications - Sectional specification
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-01-10'
+- type: stable-until
+  value: '2006-03-20'
+- type: obsoleted
+  value: '2006-03-20'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86A

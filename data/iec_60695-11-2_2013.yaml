@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-11-2-2013
 title:
 - content: 'Fire hazard testing - Part 11-2: Test flames - 1 kW pre-mixed flame -
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2013-12-10'
+- type: stable-until
+  value: '2017-06-08'
+- type: obsoleted
+  value: '2017-06-08'
 contributor:
 - organization:
     name:
@@ -145,7 +149,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

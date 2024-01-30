@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60094-1968/AMD2-1973
 title:
 - content: 'Amendment 2 - Magnetic tape recording and reproducing systems: Dimensions
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1981-01-01'
+- type: obsoleted
+  value: '1981-01-01'
 contributor:
 - organization:
     name:
@@ -161,7 +165,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

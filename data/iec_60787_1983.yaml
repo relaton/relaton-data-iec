@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60787-1983
 title:
 - content: Application guide for the selection of fuse-links of high-voltage fuses
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2007-03-29'
+- type: obsoleted
+  value: '2007-03-29'
 contributor:
 - organization:
     name:
@@ -111,7 +115,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32A

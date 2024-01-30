@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-7-714-1996
 title:
 - content: 'Electrical installations of buildings - Part 7: Requirements for special
@@ -46,6 +46,10 @@ docid:
 date:
 - type: published
   value: '1996-04-01'
+- type: stable-until
+  value: '2011-12-14'
+- type: obsoleted
+  value: '2011-12-14'
 contributor:
 - organization:
     name:
@@ -110,7 +114,8 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

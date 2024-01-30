@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60296-2012RLV
 title:
 - content: Fluids for electrotechnical applications - Unused mineral insulating oils
@@ -34,7 +34,9 @@ date:
 - type: published
   value: '2012-02-20'
 - type: stable-until
-  value: '2020-12-31'
+  value: '2020-06-26'
+- type: obsoleted
+  value: '2020-06-26'
 contributor:
 - organization:
     name:
@@ -150,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

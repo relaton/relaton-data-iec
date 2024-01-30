@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR10-1981/AMD1-1983
 title:
 - content: Amendment 1 - Organization, rules and procedures of the CISPR
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1983-09-01'
+- type: stable-until
+  value: '1992-09-15'
+- type: obsoleted
+  value: '1992-09-15'
 contributor:
 - organization:
     name:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

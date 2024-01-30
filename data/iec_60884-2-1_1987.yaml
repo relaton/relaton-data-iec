@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60884-2-1-1987
 title:
 - content: 'Plugs and socket-outlets for household and similar purposes. Part 2: Particular
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1987-09-15'
+- type: stable-until
+  value: '2006-10-11'
+- type: obsoleted
+  value: '2006-10-11'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1987'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

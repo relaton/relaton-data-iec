@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC15444-1-2004/COR1-2007
 title:
 - content: 'Corrigendum 1 - Information technology -- JPEG 2000 image coding system:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2007-07-10'
+- type: stable-until
+  value: '2016-10-06'
+- type: obsoleted
+  value: '2016-10-06'
 contributor:
 - organization:
     name:
@@ -207,7 +211,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

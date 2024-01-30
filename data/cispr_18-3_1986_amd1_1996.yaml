@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR18-3-1986/AMD1-1996
 title:
 - content: 'Amendment 1 - Radio interference characteristics of overhead power lines
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1996-05-22'
+- type: stable-until
+  value: '2010-06-24'
+- type: obsoleted
+  value: '2010-06-24'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-2-32-1994
 title:
 - content: 'Medical electrical equipment - Part 2: Particular requirements for the
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1994-03-04'
+- type: stable-until
+  value: '2012-10-26'
+- type: obsoleted
+  value: '2012-10-26'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

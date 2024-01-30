@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9899-1999/COR1-2001
 title:
 - content: Corrigendum 1 - Programming languages -- C -
@@ -22,6 +22,10 @@ docid:
 date:
 - type: published
   value: '2001-09-06'
+- type: stable-until
+  value: '2011-12-08'
+- type: obsoleted
+  value: '2011-12-08'
 contributor:
 - organization:
     name:
@@ -164,7 +168,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 22

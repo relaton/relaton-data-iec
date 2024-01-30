@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60965-2009
 title:
 - content: Nuclear power plants - Control rooms - Supplementary control points for
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2009-07-16'
+- type: stable-until
+  value: '2016-02-23'
+- type: obsoleted
+  value: '2016-02-23'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

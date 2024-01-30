@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60249-2-14-1988/AMD4-1994
 title:
 - content: "Amendment 4 - Base materials for printed circuits. Part 2:    \nSpecifications.
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '1994-05-19'
+- type: stable-until
+  value: '2004-12-15'
+- type: obsoleted
+  value: '2004-12-15'
 contributor:
 - organization:
     name:
@@ -120,17 +124,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60249-2-14-1988
-    type: standard
-    docid:
-    - id: IEC 60249-2-14:1988
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60249-2-14:1988
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60249-2-14-1988+AMD1-1989+AMD2-1990CSV
     type: standard
     docid:
@@ -140,9 +133,21 @@ relation:
     formattedref:
       content: IEC 60249-2-14:1988+AMD1:1989+AMD2:1990 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60249-2-14-1988
+    type: standard
+    docid:
+    - id: IEC 60249-2-14:1988
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60249-2-14:1988
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

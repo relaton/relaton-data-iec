@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60933-1-1988/AMD1-1992
 title:
 - content: 'Amendment 1 - Audio, video and audiovisual systems - Interconnections
@@ -33,6 +33,8 @@ docid:
 date:
 - type: published
   value: '1992-11-30'
+- type: stable-until
+  value: '2007-05-02'
 - type: obsoleted
   value: '2007-05-02'
 contributor:
@@ -88,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

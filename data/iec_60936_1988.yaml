@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60936-1988
 title:
 - content: Shipborne radar. Operational and performance requirements. Methods of tests
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1988-04-27'
+- type: stable-until
+  value: '1999-12-13'
+- type: obsoleted
+  value: '1999-12-13'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 80

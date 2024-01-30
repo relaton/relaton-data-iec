@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60300-3-3-1996
 title:
 - content: 'Dependability management - Part 3: Application guide - Section 3: Life
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1996-09-11'
+- type: stable-until
+  value: '2004-07-12'
+- type: obsoleted
+  value: '2004-07-12'
 contributor:
 - organization:
     name:
@@ -105,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 56

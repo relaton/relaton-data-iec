@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60191-4-1987
 title:
 - content: 'Mechanical standardization of semiconductor devices. Part 4: Coding systems
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1987-03-30'
+- type: stable-until
+  value: '1999-10-08'
+- type: obsoleted
+  value: '1999-10-08'
 contributor:
 - organization:
     name:
@@ -122,7 +126,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47D

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62368-1-2010/COR1-2010
 title:
 - content: 'Corrigendum 1 - Audio/video, information and communication technology
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2010-06-28'
+- type: stable-until
+  value: '2014-02-26'
+- type: obsoleted
+  value: '2014-02-26'
 contributor:
 - organization:
     name:
@@ -64,17 +68,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62368-1-2018
-    type: standard
-    docid:
-    - id: IEC 62368-1:2018
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62368-1:2018
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62368-1-2018RLV
     type: standard
     docid:
@@ -83,6 +76,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62368-1:2018 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62368-1-2018
+    type: standard
+    docid:
+    - id: IEC 62368-1:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62368-1:2018
       format: text/plain
 - type: updates
   bibitem:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 108

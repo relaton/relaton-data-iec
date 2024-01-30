@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-12-2002
 title:
 - content: 'Rotating electrical machines - Part 12: Starting performance of single-speed
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2002-04-09'
+- type: stable-until
+  value: '2016-11-23'
+- type: obsoleted
+  value: '2016-11-23'
 contributor:
 - organization:
     name:
@@ -138,17 +142,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60034-12-1980
-    type: standard
-    docid:
-    - id: IEC 60034-12:1980
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60034-12:1980
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60034-12-1980+AMD1-1992CSV
     type: standard
     docid:
@@ -158,9 +151,21 @@ relation:
     formattedref:
       content: IEC 60034-12:1980+AMD1:1992 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60034-12-1980
+    type: standard
+    docid:
+    - id: IEC 60034-12:1980
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60034-12:1980
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

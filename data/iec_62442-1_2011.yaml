@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62442-1-2011
 title:
 - content: 'Energy performance of lamp controlgear - Part 1: Controlgear for fluorescent
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '2011-10-12'
+- type: stable-until
+  value: '2018-05-03'
+- type: obsoleted
+  value: '2018-05-03'
 contributor:
 - organization:
     name:
@@ -101,17 +105,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62442-1-2018
-    type: standard
-    docid:
-    - id: IEC 62442-1:2018
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62442-1:2018
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62442-1-2018RLV
     type: standard
     docid:
@@ -121,9 +114,21 @@ relation:
     formattedref:
       content: IEC 62442-1:2018 RLV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62442-1-2018
+    type: standard
+    docid:
+    - id: IEC 62442-1:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62442-1:2018
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

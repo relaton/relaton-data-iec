@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60928-1995/AMD1-1999
 title:
 - content: Amendment 1 - Auxiliaries for lamps - A.C. supplied electronic ballasts
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1999-06-09'
+- type: stable-until
+  value: '2000-10-15'
+- type: obsoleted
+  value: '2000-10-15'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

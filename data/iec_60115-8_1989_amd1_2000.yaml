@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60115-8-1989/AMD1-2000
 title:
 - content: 'Amendment 1 - Fixed resistors for use in electronic equipment. Part 8:
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2000-07-31'
+- type: stable-until
+  value: '2014-10-17'
+- type: obsoleted
+  value: '2014-10-17'
 contributor:
 - organization:
     name:
@@ -53,6 +57,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60115-8-2009
+    type: standard
+    docid:
+    - id: IEC 60115-8:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60115-8:2009
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60115-8-1989
     type: standard
     docid:
@@ -64,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

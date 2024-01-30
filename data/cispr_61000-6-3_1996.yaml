@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR61000-6-3-1996
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 6: Generic standards - Section
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1996-12-12'
+- type: stable-until
+  value: '2006-07-17'
+- type: obsoleted
+  value: '2006-07-17'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60810-2003/AMD1-2008
 title:
 - content: Amendment 1 - Lamps for road vehicles - Performance requirements
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2008-08-28'
+- type: stable-until
+  value: '2014-12-16'
+- type: obsoleted
+  value: '2014-12-16'
 contributor:
 - organization:
     name:
@@ -69,17 +73,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60810-2014/AMD1-2017
-    type: standard
-    docid:
-    - id: IEC 60810:2014/AMD1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60810:2014/AMD1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60810-2014+AMD1-2017CSV
     type: standard
     docid:
@@ -88,6 +81,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60810:2014+AMD1:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60810-2014/AMD1-2017
+    type: standard
+    docid:
+    - id: IEC 60810:2014/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60810:2014/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -102,17 +106,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60810-2003/AMD2-2013
-    type: standard
-    docid:
-    - id: IEC 60810:2003/AMD2:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60810:2003/AMD2:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60810-2003+AMD1-2008+AMD2-2013CSV
     type: standard
     docid:
@@ -121,6 +114,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60810:2003+AMD1:2008+AMD2:2013 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60810-2003/AMD2-2013
+    type: standard
+    docid:
+    - id: IEC 60810:2003/AMD2:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60810:2003/AMD2:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -223,7 +227,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

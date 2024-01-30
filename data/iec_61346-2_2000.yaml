@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61346-2-2000
 title:
 - content: 'Industrial systems, installations and equipment and industrial products
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2000-04-18'
+- type: stable-until
+  value: '2009-07-30'
+- type: obsoleted
+  value: '2009-07-30'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

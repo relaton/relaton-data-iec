@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60700-1-1998/AMD2-2008
 title:
 - content: 'Amendment 2 - Thyristor valves for high voltage direct current (HVDC)
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2008-08-28'
+- type: stable-until
+  value: '2015-07-28'
+- type: obsoleted
+  value: '2015-07-28'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22F

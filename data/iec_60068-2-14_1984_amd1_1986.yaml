@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-14-1984/AMD1-1986
 title:
 - content: 'Amendment 1 - Environmental testing - Part 2: Tests. Test N: Change of
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1986-01-01'
+- type: stable-until
+  value: '2009-01-12'
+- type: obsoleted
+  value: '2009-01-12'
 contributor:
 - organization:
     name:
@@ -139,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

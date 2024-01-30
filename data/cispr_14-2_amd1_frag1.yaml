@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR14-2/AMD1/FRAG1
 title:
 - content: 'Amendment 1/Fragment 1: Electromagnetic compatibility - Requirements for
@@ -32,7 +32,9 @@ docid:
   type: URN
 date:
 - type: stable-until
-  value: '2022-12-31'
+  value: '2020-08-31'
+- type: obsoleted
+  value: '2020-08-31'
 contributor:
 - organization:
     name:
@@ -55,17 +57,6 @@ docstatus:
 relation:
 - type: updates
   bibitem:
-    id: CISPR14-2-2015RLV
-    type: standard
-    docid:
-    - id: CISPR 14-2:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 14-2:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR14-2-2015
     type: standard
     docid:
@@ -74,6 +65,17 @@ relation:
       primary: true
     formattedref:
       content: CISPR 14-2:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR14-2-2015RLV
+    type: standard
+    docid:
+    - id: CISPR 14-2:2015 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 14-2:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -132,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 ics:
 - code: 33.100.20
   text: Immunity

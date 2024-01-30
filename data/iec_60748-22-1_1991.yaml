@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60748-22-1-1991
 title:
 - content: 'Semiconductor devices. Integrated circuits - Part 22 - Section One: Blank
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1991-10-30'
+- type: stable-until
+  value: '1997-04-10'
+- type: obsoleted
+  value: '1997-04-10'
 contributor:
 - organization:
     name:
@@ -64,7 +68,8 @@ copyright:
   from: '1991'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47A

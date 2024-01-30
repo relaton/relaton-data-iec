@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60127-2-2003/AMD2-2010
 title:
 - content: 'Amendment 2 - Miniature fuses - Part 2: Cartridge fuse-links'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '2010-06-28'
+- type: stable-until
+  value: '2014-09-19'
+- type: obsoleted
+  value: '2014-09-19'
 contributor:
 - organization:
     name:
@@ -148,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

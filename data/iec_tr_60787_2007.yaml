@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60787-2007
 title:
 - content: Application guide for the selection of high-voltage current- limiting fuse-links
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2007-03-29'
+- type: stable-until
+  value: '2013-07-12'
+- type: obsoleted
+  value: '2013-07-12'
 contributor:
 - organization:
     name:
@@ -110,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32A

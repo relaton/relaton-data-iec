@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61326-2-6-2005/COR1-2007
 title:
 - content: 'Corrigendum 1 - Electrical equipment for measurement, control and laboratory
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2007-09-25'
+- type: stable-until
+  value: '2012-07-10'
+- type: obsoleted
+  value: '2012-07-10'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65A

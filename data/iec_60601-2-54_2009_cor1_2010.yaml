@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-2-54-2009/COR1-2010
 title:
 - content: 'Corrigendum 1 - Medical electrical equipment - Part 2-54: Particular requirements
@@ -34,7 +34,9 @@ date:
 - type: published
   value: '2010-03-10'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2022-09-26'
+- type: obsoleted
+  value: '2022-09-26'
 contributor:
 - organization:
     name:
@@ -88,17 +90,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-54-2009+AMD1-2015CSV
-    type: standard
-    docid:
-    - id: IEC 60601-2-54:2009+AMD1:2015 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60601-2-54:2009+AMD1:2015 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60601-2-54-2009/AMD1-2015
     type: standard
     docid:
@@ -107,6 +98,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60601-2-54:2009/AMD1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60601-2-54-2009+AMD1-2015CSV
+    type: standard
+    docid:
+    - id: IEC 60601-2-54:2009+AMD1:2015 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60601-2-54:2009+AMD1:2015 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -132,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

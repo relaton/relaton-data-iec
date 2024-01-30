@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-24-1997/AMD2-1999
 title:
 - content: 'Amendment 2 - Safety of household and similar electrical appliances -
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '1999-08-06'
+- type: stable-until
+  value: '2000-07-31'
+- type: obsoleted
+  value: '2000-07-31'
 contributor:
 - organization:
     name:
@@ -84,17 +88,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-24-2010+AMD1-2012+AMD2-2017CSV
-    type: standard
-    docid:
-    - id: IEC 60335-2-24:2010+AMD1:2012+AMD2:2017 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-24:2010+AMD1:2012+AMD2:2017 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-24-2010/AMD2-2017
     type: standard
     docid:
@@ -103,6 +96,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-24:2010/AMD2:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-24-2010+AMD1-2012+AMD2-2017CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-24:2010+AMD1:2012+AMD2:2017 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-24:2010+AMD1:2012+AMD2:2017 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -304,7 +308,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61C

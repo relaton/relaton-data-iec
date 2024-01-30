@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-67-2002+AMD1-2005CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-67: Particular
@@ -26,6 +26,10 @@ docid:
 date:
 - type: published
   value: '2005-11-23'
+- type: stable-until
+  value: '2016-04-28'
+- type: obsoleted
+  value: '2016-04-28'
 contributor:
 - organization:
     name:
@@ -153,7 +157,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61J

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60801-1-1984
 title:
 - content: 'Electromagnetic compatibility for industrial-process measurement and control
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1984-11-30'
+- type: stable-until
+  value: '1998-01-30'
 - type: obsoleted
   value: '1998-01-30'
 contributor:
@@ -87,7 +89,8 @@ copyright:
   from: '1984'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65A

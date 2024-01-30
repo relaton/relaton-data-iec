@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60825-1-1993/AMD2-2001/COR1-2002
 title:
 - content: 'Corrigendum 1 to Amendment 2 - Safety of laser products - Part 1: Equipment
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2002-06-24'
+- type: stable-until
+  value: '2011-01-31'
+- type: obsoleted
+  value: '2011-01-31'
 contributor:
 - organization:
     name:
@@ -163,7 +167,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 76

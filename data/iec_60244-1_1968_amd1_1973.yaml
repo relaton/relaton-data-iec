@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60244-1-1968/AMD1-1973
 title:
 - content: 'Amendment 1 - Methods of measurement for radiio transmitters - Part 1:
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '1999-12-22'
+- type: obsoleted
+  value: '1999-12-22'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 103

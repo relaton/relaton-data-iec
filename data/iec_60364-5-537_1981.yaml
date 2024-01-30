@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-5-537-1981
 title:
 - content: 'Electrical installations of buildings. Part 5: Selection and erection
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '2001-08-16'
+- type: obsoleted
+  value: '2001-08-16'
 contributor:
 - organization:
     name:
@@ -101,7 +105,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

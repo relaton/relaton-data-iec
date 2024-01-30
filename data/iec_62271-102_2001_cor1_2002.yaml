@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62271-102-2001/COR1-2002
 title:
 - content: 'Corrigendum 1 - High-voltage switchgear and controlgear - Part 102: Alternating
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2002-04-30'
+- type: stable-until
+  value: '2018-05-15'
+- type: obsoleted
+  value: '2018-05-15'
 contributor:
 - organization:
     name:
@@ -152,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

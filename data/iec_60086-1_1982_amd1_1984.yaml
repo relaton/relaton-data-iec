@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60086-1-1982/AMD1-1984
 title:
 - content: 'Amendment 1 - Primary batteries - Part 1: General'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1984-08-30'
+- type: stable-until
+  value: '1987-01-01'
+- type: obsoleted
+  value: '1987-01-01'
 contributor:
 - organization:
     name:
@@ -60,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60086-1-2015RLV
-    type: standard
-    docid:
-    - id: IEC 60086-1:2015 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-1:2015 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-1-2015
     type: standard
     docid:
@@ -79,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-1:2015
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-1-2015RLV
+    type: standard
+    docid:
+    - id: IEC 60086-1:2015 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-1:2015 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -335,7 +339,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

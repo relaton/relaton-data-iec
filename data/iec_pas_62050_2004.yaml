@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS62050-2004
 title:
 - content: Board level drop test method of components for handheld electronic products
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2004-11-10'
+- type: stable-until
+  value: '2008-01-30'
+- type: obsoleted
+  value: '2008-01-30'
 contributor:
 - organization:
     name:
@@ -74,7 +78,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 47

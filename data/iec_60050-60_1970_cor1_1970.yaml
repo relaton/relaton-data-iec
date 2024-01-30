@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60050-60-1970/COR1-1970
 title:
 - content: 'Corrigendum 1 - International Electrotechnical Vocabulary (IEV) - Part
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1970-03-01'
+- type: stable-until
+  value: '1998-04-29'
+- type: obsoleted
+  value: '1998-04-29'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1

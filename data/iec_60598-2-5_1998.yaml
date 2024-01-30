@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-5-1998
 title:
 - content: 'Luminaires - Part 2-5: Particular requirements - Floodlights'
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1998-01-30'
+- type: stable-until
+  value: '2015-08-06'
+- type: obsoleted
+  value: '2015-08-06'
 contributor:
 - organization:
     name:
@@ -143,7 +147,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

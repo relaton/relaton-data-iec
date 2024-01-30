@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61606-1-2003
 title:
 - content: 'Audio and audiovisual equipment - Digital audio parts - Basic measurement
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2003-10-10'
+- type: stable-until
+  value: '2009-07-09'
+- type: obsoleted
+  value: '2009-07-09'
 contributor:
 - organization:
     name:
@@ -68,7 +72,8 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

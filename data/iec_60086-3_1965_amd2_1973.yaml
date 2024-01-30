@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60086-3-1965/AMD2-1973
 title:
 - content: 'Amendment 2 - Primary cells and batteries - Part 3: Terminals'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1973-02-28'
+- type: stable-until
+  value: '1982-01-01'
+- type: obsoleted
+  value: '1982-01-01'
 contributor:
 - organization:
     name:
@@ -60,17 +64,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60086-3-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60086-3:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-3:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-3-2016
     type: standard
     docid:
@@ -79,6 +72,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-3:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-3-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60086-3:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-3:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -137,7 +141,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS61754-20-2001
 title:
 - content: 'Fibre optic connector interfaces - Part 20: Type LC connector family'
@@ -22,6 +22,10 @@ docid:
 date:
 - type: published
   value: '2001-05-22'
+- type: stable-until
+  value: '2002-08-14'
+- type: obsoleted
+  value: '2002-08-14'
 contributor:
 - organization:
     name:
@@ -70,7 +74,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61289-1-1994
 title:
 - content: 'High frequency surgical equipment - Part 1: Operation'
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1994-07-14'
+- type: stable-until
+  value: '2011-11-22'
+- type: obsoleted
+  value: '2011-11-22'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62D

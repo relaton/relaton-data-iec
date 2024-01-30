@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60641-3-2-1992
 title:
 - content: 'Specification for pressboard and presspaper for electrical purposes -
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '1992-05-31'
+- type: stable-until
+  value: '2007-11-14'
+- type: obsoleted
+  value: '2007-11-14'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

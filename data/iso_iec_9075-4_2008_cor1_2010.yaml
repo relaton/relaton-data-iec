@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9075-4-2008/COR1-2010
 title:
 - content: 'Corrigendum 1 - Information technology -- Database languages -- SQL --
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2010-06-01'
+- type: stable-until
+  value: '2011-12-15'
+- type: obsoleted
+  value: '2011-12-15'
 contributor:
 - organization:
     name:
@@ -165,7 +169,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 32

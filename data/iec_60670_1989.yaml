@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60670-1989
 title:
 - content: General requirements for enclosures for accessories for household and similar
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '1989-11-15'
+- type: stable-until
+  value: '2002-12-06'
+- type: obsoleted
+  value: '2002-12-06'
 contributor:
 - organization:
     name:
@@ -124,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

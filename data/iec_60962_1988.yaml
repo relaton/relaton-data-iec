@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60962-1988
 title:
 - content: Maintenance and use guide for petroleum lubricating oils for steam turbines
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '1988-01-01'
+- type: stable-until
+  value: '2011-11-30'
 - type: obsoleted
   value: '2011-11-30'
 contributor:
@@ -84,7 +86,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

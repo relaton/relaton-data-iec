@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61076-1-1995/COR1-1995
 title:
 - content: 'Corrigendum 1 - Connectors with assessed quality, for use in d.c., low
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1995-11-01'
+- type: stable-until
+  value: '2006-04-27'
+- type: obsoleted
+  value: '2006-04-27'
 contributor:
 - organization:
     name:
@@ -98,7 +102,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

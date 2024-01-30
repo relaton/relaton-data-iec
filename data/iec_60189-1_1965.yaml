@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60189-1-1965
 title:
 - content: 'Low-frequency cables and wires with p.v.c. insulation and p.v.c. sheath
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1965-01-01'
+- type: stable-until
+  value: '1986-01-01'
+- type: obsoleted
+  value: '1986-01-01'
 contributor:
 - organization:
     name:
@@ -148,7 +152,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

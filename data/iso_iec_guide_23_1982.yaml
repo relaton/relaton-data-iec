@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IECGUIDE23-1982
 title:
 - content: Methods of indicating conformity with standards for third-party certification
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1982-03-01'
+- type: stable-until
+  value: '2021-09-09'
+- type: obsoleted
+  value: '2021-09-09'
 contributor:
 - organization:
     name:
@@ -91,7 +95,8 @@ copyright:
   from: '1982'
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ISO/CASCO

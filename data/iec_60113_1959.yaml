@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60113-1959
 title:
 - content: Classification and definitions of diagrams and charts used in electrotechnology
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1959-01-01'
+- type: stable-until
+  value: '1971-01-01'
+- type: obsoleted
+  value: '1971-01-01'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1959'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

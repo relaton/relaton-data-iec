@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC80601-2-59-2008/COR1-2009
 title:
 - content: 'Corrigendum 1 - Medical electrical equipment - Part 2-59: Particular requirements
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2009-04-07'
+- type: stable-until
+  value: '2017-09-19'
+- type: obsoleted
+  value: '2017-09-19'
 contributor:
 - organization:
     name:
@@ -75,7 +79,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62D

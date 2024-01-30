@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-6-1986/AMD3-1992
 title:
 - content: 'Amendment 3 - Safety of household and similar electrical appliances. Part
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1992-01-31'
+- type: stable-until
+  value: '1997-05-09'
+- type: obsoleted
+  value: '1997-05-09'
 contributor:
 - organization:
     name:
@@ -240,7 +244,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60583-1977
 title:
 - content: Dimensions of test tubes made of glass or plastics for radioactivity measurements
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '2007-02-27'
 - type: obsoleted
   value: '2007-02-27'
 contributor:
@@ -79,7 +81,8 @@ copyright:
   from: '1977'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

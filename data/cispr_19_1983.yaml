@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR19-1983
 title:
 - content: Guidance on the use of the substitution method for measurements of radiation
@@ -34,6 +34,8 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2010-07-09'
 - type: obsoleted
   value: '2010-07-09'
 contributor:
@@ -87,7 +89,8 @@ copyright:
   from: '1983'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/B

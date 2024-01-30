@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-3-6-2001
 title:
 - content: 'Environmental testing - Part 3-6: Supporting documentation and guidance
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2001-08-27'
+- type: stable-until
+  value: '2018-01-23'
+- type: obsoleted
+  value: '2018-01-23'
 contributor:
 - organization:
     name:
@@ -94,7 +98,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

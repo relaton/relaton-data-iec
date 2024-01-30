@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-1-1977/AMD1-1984
 title:
 - content: 'Amendment 1 - Medical electrical equipment. Part 1: General requirements.'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1984-01-01'
+- type: stable-until
+  value: '2000-12-14'
+- type: obsoleted
+  value: '2000-12-14'
 contributor:
 - organization:
     name:
@@ -124,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62A

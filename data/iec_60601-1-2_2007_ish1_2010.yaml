@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-1-2-2007/ISH1-2010
 title:
 - content: 'Interpretation sheet 1 - Medical electrical equipment - Part 1-2: General
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2010-03-16'
+- type: stable-until
+  value: '2014-02-25'
+- type: obsoleted
+  value: '2014-02-25'
 contributor:
 - organization:
     name:
@@ -119,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62A

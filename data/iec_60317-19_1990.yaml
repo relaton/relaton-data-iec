@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-19-1990
 title:
 - content: 'Specifications for particular types of winding wires - Part 19: Solderable
@@ -43,6 +43,8 @@ docid:
 date:
 - type: published
   value: '1990-10-31'
+- type: stable-until
+  value: '2013-11-01'
 - type: obsoleted
   value: '2013-11-01'
 contributor:
@@ -161,7 +163,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

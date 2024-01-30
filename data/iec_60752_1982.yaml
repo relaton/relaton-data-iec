@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60752-1982
 title:
 - content: Audio-frequency calibration tape for transverse track recorders.
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '1996-08-23'
 - type: obsoleted
   value: '1996-08-23'
 contributor:
@@ -82,7 +84,8 @@ copyright:
   from: '1982'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

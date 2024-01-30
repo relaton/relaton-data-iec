@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60870-5-101-1995/AMD1-2000
 title:
 - content: 'Amendment 1 - Telecontrol equipment and systems - Part 5: Transmission
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2000-04-13'
+- type: stable-until
+  value: '2003-02-07'
+- type: obsoleted
+  value: '2003-02-07'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 57

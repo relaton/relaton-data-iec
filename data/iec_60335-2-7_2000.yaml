@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2000-01-31'
+- type: stable-until
+  value: '2002-07-24'
+- type: obsoleted
+  value: '2002-07-24'
 contributor:
 - organization:
     name:
@@ -74,6 +78,28 @@ copyright:
     url: www.iec.ch
   from: '2000'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2019
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2019RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2019 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-7-2008+AMD1-2011+AMD2-2016CSV
@@ -131,17 +157,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-7-2008RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-7:2008 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-7:2008 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-7-2008
     type: standard
     docid:
@@ -150,6 +165,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-7:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2008RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2008 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2008 RLV
       format: text/plain
 - type: updates
   bibitem:

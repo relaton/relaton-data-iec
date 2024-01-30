@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60705-1988/AMD1-1993
 title:
 - content: Amendment 1 - Methods for measuring the performance of microwave ovens
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-06-18'
+- type: stable-until
+  value: '1999-04-12'
+- type: obsoleted
+  value: '1999-04-12'
 contributor:
 - organization:
     name:
@@ -172,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59K

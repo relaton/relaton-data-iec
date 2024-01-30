@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61204-3-2000/COR1-2000
 title:
 - content: 'Corrigendum 1 - Low-voltage power supplies, d.c. output - Part 3: Electromagnetic
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2000-12-14'
+- type: stable-until
+  value: '2011-06-22'
+- type: obsoleted
+  value: '2011-06-22'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22E

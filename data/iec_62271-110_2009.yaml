@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62271-110-2009
 title:
 - content: 'High-voltage switchgear and controlgear - Part 110: Inductive load switching'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2009-01-26'
+- type: stable-until
+  value: '2012-09-27'
+- type: obsoleted
+  value: '2012-09-27'
 contributor:
 - organization:
     name:
@@ -132,17 +136,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62271-110-2017
-    type: standard
-    docid:
-    - id: IEC 62271-110:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62271-110:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62271-110-2017RLV
     type: standard
     docid:
@@ -151,6 +144,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62271-110:2017 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62271-110-2017
+    type: standard
+    docid:
+    - id: IEC 62271-110:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62271-110:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -187,7 +191,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

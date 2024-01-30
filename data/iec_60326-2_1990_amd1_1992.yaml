@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60326-2-1990/AMD1-1992
 title:
 - content: 'Amendment 1 - Printed boards. Part 2: Test methods'
@@ -29,6 +29,8 @@ docid:
 date:
 - type: published
   value: '1992-06-30'
+- type: stable-until
+  value: '2004-12-15'
 - type: obsoleted
   value: '2004-12-15'
 contributor:
@@ -106,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 91

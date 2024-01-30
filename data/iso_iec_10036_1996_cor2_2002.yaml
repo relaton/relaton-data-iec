@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC10036-1996/COR2-2002
 title:
 - content: Corrigendum 2 - Information technology -- Font information interchange
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2002-11-29'
+- type: stable-until
+  value: '2020-12-21'
+- type: obsoleted
+  value: '2020-12-21'
 contributor:
 - organization:
     name:
@@ -88,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 34

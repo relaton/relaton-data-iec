@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC19752-2004/COR1-2012
 title:
 - content: Corrigendum 1 - Information technology -- Method for the determination
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2012-09-07'
+- type: stable-until
+  value: '2017-01-16'
+- type: obsoleted
+  value: '2017-01-16'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 28

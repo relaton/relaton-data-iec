@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-0-1983/AMD2-1991
 title:
 - content: |-
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1991-11-28'
+- type: stable-until
+  value: '2008-11-27'
+- type: obsoleted
+  value: '2008-11-27'
 contributor:
 - organization:
     name:
@@ -154,17 +158,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-2011
-    type: standard
-    docid:
-    - id: IEC 60079-0:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-0:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-0-2011RLV
     type: standard
     docid:
@@ -173,6 +166,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-0:2011 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-0-2011
+    type: standard
+    docid:
+    - id: IEC 60079-0:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-0:2011
       format: text/plain
 - type: updates
   bibitem:
@@ -187,17 +191,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-0-2007/ISH1-2008
-    type: standard
-    docid:
-    - id: IEC 60079-0:2007/ISH1:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-0:2007/ISH1:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-0-2004/ISH1-2008
     type: standard
     docid:
@@ -206,6 +199,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-0:2004/ISH1:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-0-2007/ISH1-2008
+    type: standard
+    docid:
+    - id: IEC 60079-0:2007/ISH1:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-0:2007/ISH1:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -308,7 +312,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

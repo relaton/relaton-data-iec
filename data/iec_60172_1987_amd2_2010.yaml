@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60172-1987/AMD2-2010
 title:
 - content: Amendment 2 - Test procedure for the determination of the temperature index
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '2010-01-07'
+- type: stable-until
+  value: '2015-05-12'
+- type: obsoleted
+  value: '2015-05-12'
 contributor:
 - organization:
     name:
@@ -126,7 +130,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

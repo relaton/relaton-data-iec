@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60227-5-1997/AMD2-2003
 title:
 - content: 'Amendment 2 - Polyvinyl chloride insulated cables of rated voltages up
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2003-06-19'
+- type: stable-until
+  value: '2011-09-29'
+- type: obsoleted
+  value: '2011-09-29'
 contributor:
 - organization:
     name:
@@ -152,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

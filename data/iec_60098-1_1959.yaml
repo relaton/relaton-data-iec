@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60098-1-1959
 title:
 - content: 'Recommendations for stereophonic commercial disk records - Part 1: Recommendations
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1959-01-01'
+- type: stable-until
+  value: '1964-01-01'
+- type: obsoleted
+  value: '1964-01-01'
 contributor:
 - organization:
     name:
@@ -63,7 +67,8 @@ copyright:
   from: '1959'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

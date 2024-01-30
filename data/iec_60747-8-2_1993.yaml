@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60747-8-2-1993
 title:
 - content: 'Semiconductor devices - Discrete devices - Part 8: Field-effect transistors
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1993-02-15'
+- type: stable-until
+  value: '2013-12-31'
+- type: obsoleted
+  value: '2013-12-31'
 contributor:
 - organization:
     name:
@@ -66,7 +70,8 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47E

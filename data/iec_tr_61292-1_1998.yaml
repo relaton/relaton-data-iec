@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61292-1-1998
 title:
 - content: Fibre optics - Parameters of amplifier components
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1998-01-30'
+- type: stable-until
+  value: '2009-04-29'
+- type: obsoleted
+  value: '2009-04-29'
 contributor:
 - organization:
     name:
@@ -91,7 +95,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86C

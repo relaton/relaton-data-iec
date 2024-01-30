@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60552-1977/AMD1-1984
 title:
 - content: Amendment 1 - CAMAC - Organization of multi-crate systems. Specification
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1984-01-01'
+- type: stable-until
+  value: '2011-03-01'
 - type: obsoleted
   value: '2011-03-01'
 contributor:
@@ -75,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

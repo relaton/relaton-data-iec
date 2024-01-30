@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECPAS61300-3-35-2002
 title:
 - content: 'Fibre optic interconnecting devices and passive components - Basic test
@@ -26,6 +26,10 @@ docid:
 date:
 - type: published
   value: '2002-07-30'
+- type: stable-until
+  value: '2009-11-20'
+- type: obsoleted
+  value: '2009-11-20'
 contributor:
 - organization:
     name:
@@ -65,17 +69,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61300-3-35-2015
-    type: standard
-    docid:
-    - id: IEC 61300-3-35:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61300-3-35:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61300-3-35-2015RLV
     type: standard
     docid:
@@ -84,6 +77,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61300-3-35:2015 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61300-3-35-2015
+    type: standard
+    docid:
+    - id: IEC 61300-3-35:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61300-3-35:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -109,7 +113,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: publicly-available-specification
+doctype:
+  type: publicly-available-specification
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

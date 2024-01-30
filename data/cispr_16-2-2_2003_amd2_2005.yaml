@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR16-2-2-2003/AMD2-2005
 title:
 - content: 'Amendment 2 - Specification for radio disturbance and immunity measuring
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '2005-07-11'
+- type: stable-until
+  value: '2010-07-28'
+- type: obsoleted
+  value: '2010-07-28'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60286-3-1997
 title:
 - content: 'Packging of components for automatic handling - Part 3: Packaging of leadless
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1997-12-22'
+- type: stable-until
+  value: '2007-06-06'
+- type: obsoleted
+  value: '2007-06-06'
 contributor:
 - organization:
     name:
@@ -93,17 +97,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60286-3-2019RLV
-    type: standard
-    docid:
-    - id: IEC 60286-3:2019 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60286-3:2019 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60286-3-2019
     type: standard
     docid:
@@ -112,6 +105,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60286-3:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60286-3-2019RLV
+    type: standard
+    docid:
+    - id: IEC 60286-3:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60286-3:2019 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -159,7 +163,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

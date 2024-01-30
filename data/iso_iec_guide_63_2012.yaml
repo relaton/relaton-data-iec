@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IECGUIDE63-2012
 title:
 - content: Guide to the development and inclusion of safety aspects in International
@@ -27,6 +27,10 @@ docid:
 date:
 - type: published
   value: '2012-01-10'
+- type: stable-until
+  value: '2019-08-12'
+- type: obsoleted
+  value: '2019-08-12'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: guide
+doctype:
+  type: guide
 editorialgroup:
   technical_committee:
   - name: ISO/TC 210

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60924-1990/AMD1-1993
 title:
 - content: Amendment 1 - D.C. supplied electronic ballasts for tubular fluorescent
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1993-03-19'
+- type: stable-until
+  value: '2000-10-15'
+- type: obsoleted
+  value: '2000-10-15'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

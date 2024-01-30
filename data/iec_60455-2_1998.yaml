@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60455-2-1998
 title:
 - content: 'Resin based reactive compounds used for electrical insulation - Part 2:
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '1998-12-15'
+- type: stable-until
+  value: '2015-06-25'
+- type: obsoleted
+  value: '2015-06-25'
 contributor:
 - organization:
     name:
@@ -122,7 +126,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

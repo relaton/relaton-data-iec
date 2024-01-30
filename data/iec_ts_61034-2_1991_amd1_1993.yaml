@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTS61034-2-1991/AMD1-1993
 title:
 - content: 'Amendment 1 - Measurement of smoke density of electric cables burning
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1993-11-30'
+- type: stable-until
+  value: '1997-09-05'
+- type: obsoleted
+  value: '1997-09-05'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-specification
+doctype:
+  type: technical-specification
 editorialgroup:
   technical_committee:
   - name: TC 20

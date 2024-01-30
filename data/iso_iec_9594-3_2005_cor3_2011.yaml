@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9594-3-2005/COR3-2011
 title:
 - content: 'Corrigendum 3 - Information technology -- Open Systems Interconnection
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2011-11-22'
+- type: stable-until
+  value: '2008-12-15'
+- type: obsoleted
+  value: '2008-12-15'
 contributor:
 - organization:
     name:
@@ -88,17 +92,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-3-2008/COR2-2012
-    type: standard
-    docid:
-    - id: ISO/IEC 9594-3:2008/COR2:2012
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 9594-3:2008/COR2:2012
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC9594-3-2005/COR4-2012
     type: standard
     docid:
@@ -107,6 +100,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9594-3:2005/COR4:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9594-3-2008/COR2-2012
+    type: standard
+    docid:
+    - id: ISO/IEC 9594-3:2008/COR2:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9594-3:2008/COR2:2012
       format: text/plain
 - type: updates
   bibitem:
@@ -132,17 +136,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-3-2008
-    type: standard
-    docid:
-    - id: ISO/IEC 9594-3:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 9594-3:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC9594-3-2001/COR3-2008
     type: standard
     docid:
@@ -165,14 +158,14 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9594-3-2001/COR2-2008
+    id: ISO/IEC9594-3-2008
     type: standard
     docid:
-    - id: ISO/IEC 9594-3:2001/COR2:2008
+    - id: ISO/IEC 9594-3:2008
       type: IEC
       primary: true
     formattedref:
-      content: ISO/IEC 9594-3:2001/COR2:2008
+      content: ISO/IEC 9594-3:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -184,6 +177,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 9594-3:2001/COR1:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC9594-3-2001/COR2-2008
+    type: standard
+    docid:
+    - id: ISO/IEC 9594-3:2001/COR2:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 9594-3:2001/COR2:2008
       format: text/plain
 - type: updates
   bibitem:
@@ -209,7 +213,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 6

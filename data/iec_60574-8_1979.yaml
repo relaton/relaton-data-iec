@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60574-8-1979
 title:
 - content: 'Audiovisual, video and television equipment and systems. Part 8: Symbols
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '1998-10-16'
+- type: obsoleted
+  value: '1998-10-16'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

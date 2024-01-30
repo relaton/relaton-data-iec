@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60947-5-2-1992/AMD1-1994
 title:
 - content: 'Amendment 1 - Low-voltage switchgear and controlgear - Part 5: Control
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1994-05-19'
+- type: stable-until
+  value: '1997-10-30'
+- type: obsoleted
+  value: '1997-10-30'
 contributor:
 - organization:
     name:
@@ -62,17 +66,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60947-5-2-2007/AMD1-2012
-    type: standard
-    docid:
-    - id: IEC 60947-5-2:2007/AMD1:2012
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60947-5-2:2007/AMD1:2012
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60947-5-2-2007+AMD1-2012CSV
     type: standard
     docid:
@@ -81,6 +74,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60947-5-2:2007+AMD1:2012 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60947-5-2-2007/AMD1-2012
+    type: standard
+    docid:
+    - id: IEC 60947-5-2:2007/AMD1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60947-5-2:2007/AMD1:2012
       format: text/plain
 - type: updates
   bibitem:
@@ -172,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

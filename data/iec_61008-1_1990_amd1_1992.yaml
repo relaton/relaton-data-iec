@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61008-1-1990/AMD1-1992
 title:
 - content: 'Amendment 1 - Residual current operated circuit-breakers without integral
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1992-05-31'
+- type: stable-until
+  value: '1996-12-31'
+- type: obsoleted
+  value: '1996-12-31'
 contributor:
 - organization:
     name:
@@ -152,7 +156,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23E

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC8613-2-1995/COR1-1998
 title:
 - content: 'Corrigendum 1 - Information technology -- Open Document Architecture (ODA)
@@ -23,6 +23,8 @@ docid:
 date:
 - type: published
   value: '1998-12-20'
+- type: stable-until
+  value: '2021-11-17'
 - type: obsoleted
   value: '2021-11-17'
 contributor:
@@ -90,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1

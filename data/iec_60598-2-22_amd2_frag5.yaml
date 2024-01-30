@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-22/AMD2/FRAG5
 title:
 - content: 'Fragment 5 - Amendment 2 - Luminaires - Part 2-22: Particular requirements
@@ -28,6 +28,11 @@ docid:
   primary: true
 - id: 'urn:iec:std:iec:60598-2-22:2014-06:::||amd:2/FRAG5:'
   type: URN
+date:
+- type: stable-until
+  value: '2021-12-06'
+- type: obsoleted
+  value: '2021-12-06'
 contributor:
 - organization:
     name:
@@ -182,7 +187,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 ics:
 - code: 29.140.40
   text: Luminaires

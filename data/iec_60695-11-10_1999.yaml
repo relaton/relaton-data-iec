@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-11-10-1999
 title:
 - content: 'Fire hazard testing - Part 11-10: Test flames - 50 W horizontal and vertical
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1999-03-31'
+- type: stable-until
+  value: '2013-05-21'
+- type: obsoleted
+  value: '2013-05-21'
 contributor:
 - organization:
     name:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

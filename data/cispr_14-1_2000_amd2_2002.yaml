@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR14-1-2000/AMD2-2002
 title:
 - content: 'Amendment 2 - Electromagnetic compatibility - Requirements for household
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2002-08-12'
+- type: stable-until
+  value: '2005-11-11'
+- type: obsoleted
+  value: '2005-11-11'
 contributor:
 - organization:
     name:
@@ -239,7 +243,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/F

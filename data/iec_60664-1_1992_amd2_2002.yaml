@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60664-1-1992/AMD2-2002
 title:
 - content: 'Amendment 2 - Insulation coordination for equipment within low-voltage
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-05-21'
+- type: stable-until
+  value: '2007-04-26'
+- type: obsoleted
+  value: '2007-04-26'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 109

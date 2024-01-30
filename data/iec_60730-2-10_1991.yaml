@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60730-2-10-1991
 title:
 - content: 'Automatic electrical controls for household and similar use - Part 2:
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1991-10-31'
+- type: stable-until
+  value: '2006-10-11'
+- type: obsoleted
+  value: '2006-10-11'
 contributor:
 - organization:
     name:
@@ -114,7 +118,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 72

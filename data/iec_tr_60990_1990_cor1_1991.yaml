@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60990-1990/COR1-1991
 title:
 - content: Corrigendum 1 - Methods of measurement of touch-current and protective
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-08-01'
+- type: stable-until
+  value: '1999-08-31'
+- type: obsoleted
+  value: '1999-08-31'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 108

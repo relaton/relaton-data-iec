@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60584-3-1989
 title:
 - content: 'Thermocouples. Part 3: Extension and compensating cables - Tolerances
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1989-08-15'
+- type: stable-until
+  value: '2007-11-27'
+- type: obsoleted
+  value: '2007-11-27'
 contributor:
 - organization:
     name:
@@ -91,7 +95,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65B

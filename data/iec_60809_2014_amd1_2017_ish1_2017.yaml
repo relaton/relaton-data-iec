@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60809-2014/AMD1-2017/ISH1-2017
 title:
 - content: Interpretation sheet 1 - Lamps for road vehicles - Dimensional, electrical
@@ -32,7 +32,9 @@ date:
 - type: published
   value: '2017-07-13'
 - type: stable-until
-  value: '2021-12-31'
+  value: '2021-04-07'
+- type: obsoleted
+  value: '2021-04-07'
 contributor:
 - organization:
     name:
@@ -108,17 +110,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60809-2014/AMD1-2017
-    type: standard
-    docid:
-    - id: IEC 60809:2014/AMD1:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60809:2014/AMD1:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60809-2014+AMD1-2017CSV
     type: standard
     docid:
@@ -127,6 +118,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60809:2014+AMD1:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60809-2014/AMD1-2017
+    type: standard
+    docid:
+    - id: IEC 60809:2014/AMD1:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60809:2014/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
@@ -273,7 +275,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR7-1969/AMD1-1973
 title:
 - content: Amendment 1 - Recommendations of the CISPR
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1973-06-01'
+- type: stable-until
+  value: '1975-01-01'
+- type: obsoleted
+  value: '1975-01-01'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR

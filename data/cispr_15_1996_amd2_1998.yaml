@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR15-1996/AMD2-1998
 title:
 - content: Amendment 2 - Limits and methods of measurement of radio disturbance characteristics
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1998-12-10'
+- type: stable-until
+  value: '2000-08-30'
+- type: obsoleted
+  value: '2000-08-30'
 contributor:
 - organization:
     name:
@@ -108,17 +112,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: CISPR15-2013/ISH2-2013
-    type: standard
-    docid:
-    - id: CISPR 15:2013/ISH2:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: CISPR 15:2013/ISH2:2013
-      format: text/plain
-- type: updates
-  bibitem:
     id: CISPR15-2013/ISH1-2013
     type: standard
     docid:
@@ -127,6 +120,17 @@ relation:
       primary: true
     formattedref:
       content: CISPR 15:2013/ISH1:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: CISPR15-2013/ISH2-2013
+    type: standard
+    docid:
+    - id: CISPR 15:2013/ISH2:2013
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 15:2013/ISH2:2013
       format: text/plain
 - type: updates
   bibitem:
@@ -372,7 +376,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/F

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-39-1976
 title:
 - content: 'Basic environmental testing procedures - Part 2-39: Tests - Test Z/AMD:
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '2015-09-16'
+- type: obsoleted
+  value: '2015-09-16'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1976'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

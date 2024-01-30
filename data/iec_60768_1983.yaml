@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60768-1983
 title:
 - content: Process stream radiation monitoring equipment in light water nuclear reactors
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2009-04-29'
+- type: obsoleted
+  value: '2009-04-29'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1983'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45A

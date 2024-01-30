@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-44-2001/AMD1-2003
 title:
 - content: 'Amendment 1 - Electrical installations of buildings - Part 4-44: Protection
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2003-10-09'
+- type: stable-until
+  value: '2007-08-14'
+- type: obsoleted
+  value: '2007-08-14'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

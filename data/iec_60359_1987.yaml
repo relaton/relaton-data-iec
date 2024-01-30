@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60359-1987
 title:
 - content: Expression of the performance of electrical and electronic measuring equipment
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1987-07-15'
+- type: stable-until
+  value: '2001-12-19'
+- type: obsoleted
+  value: '2001-12-19'
 contributor:
 - organization:
     name:
@@ -107,7 +111,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

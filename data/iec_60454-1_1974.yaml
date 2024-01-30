@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60454-1-1974
 title:
 - content: 'Specifications for pressure-sensitive adhesive tapes for electrical purposes
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1992-05-31'
+- type: obsoleted
+  value: '1992-05-31'
 contributor:
 - organization:
     name:
@@ -72,7 +76,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

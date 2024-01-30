@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60490-1974
 title:
 - content: Rules for testing of rail vehicles equipped with thermal engines and electric
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1992-01-01'
+- type: obsoleted
+  value: '1992-01-01'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 9

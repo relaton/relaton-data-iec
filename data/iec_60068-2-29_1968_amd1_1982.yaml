@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-29-1968/AMD1-1982
 title:
 - content: 'amendment 1 - Basic environmental testing procedures for electronic components
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1982-11-30'
+- type: stable-until
+  value: '1987-03-30'
+- type: obsoleted
+  value: '1987-03-30'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

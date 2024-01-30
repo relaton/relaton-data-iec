@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60185-1987/AMD2-1995
 title:
 - content: Amendment 2 - Current transformers.
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1995-09-13'
+- type: stable-until
+  value: '1996-12-10'
+- type: obsoleted
+  value: '1996-12-10'
 contributor:
 - organization:
     name:
@@ -126,7 +130,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 38

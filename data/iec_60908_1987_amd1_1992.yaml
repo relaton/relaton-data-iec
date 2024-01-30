@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60908-1987/AMD1-1992
 title:
 - content: Amendment 1 - Compact disc digital audio system
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1992-09-30'
+- type: stable-until
+  value: '1999-02-10'
+- type: obsoleted
+  value: '1999-02-10'
 contributor:
 - organization:
     name:
@@ -90,7 +94,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

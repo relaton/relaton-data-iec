@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62552-2007/COR1-2008
 title:
 - content: Corrigendum 1 - Household refrigerating appliances - Characteristics and
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2008-03-18'
+- type: stable-until
+  value: '2015-02-13'
+- type: obsoleted
+  value: '2015-02-13'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59M

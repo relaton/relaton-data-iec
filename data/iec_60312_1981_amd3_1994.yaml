@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60312-1981/AMD3-1994
 title:
 - content: Amendment 3 - Methods of measurement of performance of vacuum cleaners
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1994-01-01'
+- type: stable-until
+  value: '1998-02-01'
+- type: obsoleted
+  value: '1998-02-01'
 contributor:
 - organization:
     name:
@@ -168,7 +172,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59

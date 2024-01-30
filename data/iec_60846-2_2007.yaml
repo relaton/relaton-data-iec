@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60846-2-2007
 title:
 - content: 'Radiation protection instrumentation - Ambient and/or directional dose
@@ -38,6 +38,10 @@ docid:
 date:
 - type: published
   value: '2007-07-10'
+- type: stable-until
+  value: '2015-12-16'
+- type: obsoleted
+  value: '2015-12-16'
 contributor:
 - organization:
     name:
@@ -92,7 +96,8 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45/SC 45B

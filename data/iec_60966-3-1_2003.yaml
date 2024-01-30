@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60966-3-1-2003
 title:
 - content: 'Radio frequency and coaxial cable assemblies - Part 3-1: Blank detail
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2003-08-07'
+- type: stable-until
+  value: '2009-01-12'
+- type: obsoleted
+  value: '2009-01-12'
 contributor:
 - organization:
     name:
@@ -83,6 +87,17 @@ copyright:
 relation:
 - type: updates
   bibitem:
+    id: IEC60966-3-1-2009
+    type: standard
+    docid:
+    - id: IEC 60966-3-1:2009
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60966-3-1:2009
+      format: text/plain
+- type: updates
+  bibitem:
     id: IEC60966-3-1-1992
     type: standard
     docid:
@@ -94,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60094-1957/AMD1-1959
 title:
 - content: 'Amendment 1 - Recommendations for magnetic tape recording and reproducing
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1959-02-01'
+- type: stable-until
+  value: '1962-01-01'
+- type: obsoleted
+  value: '1962-01-01'
 contributor:
 - organization:
     name:
@@ -161,7 +165,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60281-1969/AMD1-1975
 title:
 - content: Amendment 1 - Magnetic cores for application in coincident current matrix
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1975-01-01'
+- type: stable-until
+  value: '2001-06-06'
 - type: obsoleted
   value: '2001-06-06'
 contributor:
@@ -86,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

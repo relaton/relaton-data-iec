@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-57-1989
 title:
 - content: 'Environmental testing. Part 2: Tests. Test Ff: Vibration - Time history
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1989-06-30'
+- type: stable-until
+  value: '1999-11-18'
+- type: obsoleted
+  value: '1999-11-18'
 contributor:
 - organization:
     name:
@@ -101,7 +105,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

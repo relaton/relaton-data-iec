@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61948-1-2001
 title:
 - content: 'Nuclear medicine instrumentation - Routine tests  - Part 1: Radiation
@@ -25,6 +25,10 @@ docid:
 date:
 - type: published
   value: '2001-02-13'
+- type: stable-until
+  value: '2016-03-24'
+- type: obsoleted
+  value: '2016-03-24'
 contributor:
 - organization:
     name:
@@ -64,7 +68,8 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62C

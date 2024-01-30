@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61986-2002
 title:
 - content: Rotating electrical machines - Equivalent loading and super-position techniques
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2002-01-09'
+- type: stable-until
+  value: '2008-03-11'
+- type: obsoleted
+  value: '2008-03-11'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

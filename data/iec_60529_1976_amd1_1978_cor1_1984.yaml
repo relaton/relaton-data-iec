@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60529-1976/AMD1-1978/COR1-1984
 title:
 - content: Corrigendum 1 - Amendment 1 - Classification of degrees of protection provided
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1984-08-01'
+- type: stable-until
+  value: '1989-11-30'
+- type: obsoleted
+  value: '1989-11-30'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 70

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-4-1967/AMD1-1973
 title:
 - content: 'Amendment 1 - Recommendations for rotating electrical machinery (excluding
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1973-02-28'
+- type: stable-until
+  value: '1985-01-01'
+- type: obsoleted
+  value: '1985-01-01'
 contributor:
 - organization:
     name:
@@ -119,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

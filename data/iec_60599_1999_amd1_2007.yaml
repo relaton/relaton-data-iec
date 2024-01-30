@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60599-1999/AMD1-2007
 title:
 - content: Amendment 1 - Mineral oil-impregnated electrical equipment in service -
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2007-04-11'
+- type: stable-until
+  value: '2015-09-16'
+- type: obsoleted
+  value: '2015-09-16'
 contributor:
 - organization:
     name:
@@ -72,17 +76,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60599-2015
-    type: standard
-    docid:
-    - id: IEC 60599:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60599:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60599-2015RLV
     type: standard
     docid:
@@ -91,6 +84,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60599:2015 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60599-2015
+    type: standard
+    docid:
+    - id: IEC 60599:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60599:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -127,7 +131,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

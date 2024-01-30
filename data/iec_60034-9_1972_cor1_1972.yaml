@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-9-1972/COR1-1972
 title:
 - content: 'Corrigendum 1 - Rotating electrical machines - Part 9: Noise limits'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1972-01-01'
+- type: stable-until
+  value: '1990-05-31'
+- type: obsoleted
+  value: '1990-05-31'
 contributor:
 - organization:
     name:
@@ -149,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62391-1-2015/COR1-2016
 title:
 - content: 'Corrigendum 1 - Fixed electric double-layer capacitors for use in electric
@@ -24,7 +24,9 @@ date:
 - type: published
   value: '2016-12-05'
 - type: stable-until
-  value: '2030-12-31'
+  value: '2022-10-20'
+- type: obsoleted
+  value: '2022-10-20'
 contributor:
 - organization:
     name:
@@ -66,17 +68,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC62391-1-2015
-    type: standard
-    docid:
-    - id: IEC 62391-1:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62391-1:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62391-1-2015RLV
     type: standard
     docid:
@@ -85,6 +76,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62391-1:2015 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62391-1-2015
+    type: standard
+    docid:
+    - id: IEC 62391-1:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62391-1:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -99,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60122-3-1977/AMD2-1991
 title:
 - content: 'Amendment 2 - Quartz crystal units for frequency control and selection.
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-03-19'
+- type: stable-until
+  value: '2001-07-26'
+- type: obsoleted
+  value: '2001-07-26'
 contributor:
 - organization:
     name:
@@ -154,7 +158,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

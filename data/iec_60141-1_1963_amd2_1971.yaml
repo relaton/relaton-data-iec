@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60141-1-1963/AMD2-1971
 title:
 - content: 'Amendment 2 - Tests on oil-filled and gas-pressure cables and their accessories
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1971-01-01'
+- type: stable-until
+  value: '1976-01-01'
+- type: obsoleted
+  value: '1976-01-01'
 contributor:
 - organization:
     name:
@@ -109,17 +113,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60141-1-1963/COR1-1963
-    type: standard
-    docid:
-    - id: IEC 60141-1:1963/COR1:1963
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60141-1:1963/COR1:1963
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60141-1-1963
     type: standard
     docid:
@@ -129,9 +122,21 @@ relation:
     formattedref:
       content: IEC 60141-1:1963
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60141-1-1963/COR1-1963
+    type: standard
+    docid:
+    - id: IEC 60141-1:1963/COR1:1963
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60141-1:1963/COR1:1963
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

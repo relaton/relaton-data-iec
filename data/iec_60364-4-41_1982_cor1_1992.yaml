@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-41-1982/COR1-1992
 title:
 - content: 'Corrigendum 1 - Electrical installations of buildings - Part 4-41: Protection
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1992-01-01'
+- type: stable-until
+  value: '1992-10-29'
+- type: obsoleted
+  value: '1992-10-29'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

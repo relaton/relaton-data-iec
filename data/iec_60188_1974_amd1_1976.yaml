@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60188-1974/AMD1-1976
 title:
 - content: Amendment 1 - High-pressure mercury vapour lamps
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '2001-05-30'
+- type: obsoleted
+  value: '2001-05-30'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

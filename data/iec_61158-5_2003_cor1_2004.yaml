@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61158-5-2003/COR1-2004
 title:
 - content: 'Corrigendum 1 - Digital data communications for measurement and control
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2004-07-06'
+- type: stable-until
+  value: '2007-12-14'
+- type: obsoleted
+  value: '2007-12-14'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65C

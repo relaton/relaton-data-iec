@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60127A-1980
 title:
 - content: First supplement - Cartridge fuse links for miniature fuses
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '1989-01-01'
+- type: obsoleted
+  value: '1989-01-01'
 contributor:
 - organization:
     name:
@@ -59,7 +63,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

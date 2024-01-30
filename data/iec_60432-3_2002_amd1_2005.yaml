@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60432-3-2002/AMD1-2005
 title:
 - content: 'Amendment 1 - Incandescent lamps - Safety specifications - Part 3: Tungsten-halogen
@@ -40,6 +40,10 @@ docid:
 date:
 - type: published
   value: '2005-03-07'
+- type: stable-until
+  value: '2012-07-04'
+- type: obsoleted
+  value: '2012-07-04'
 contributor:
 - organization:
     name:
@@ -116,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

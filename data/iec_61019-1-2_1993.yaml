@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61019-1-2-1993
 title:
 - content: 'Surface acoustic wave (SAW) resonators - Part 1: General information,
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1993-03-05'
+- type: stable-until
+  value: '2004-11-02'
+- type: obsoleted
+  value: '2004-11-02'
 contributor:
 - organization:
     name:
@@ -79,7 +83,8 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

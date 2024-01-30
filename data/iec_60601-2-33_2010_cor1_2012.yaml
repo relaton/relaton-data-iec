@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60601-2-33-2010/COR1-2012
 title:
 - content: 'Corrigendum 1 - Medical electrical equipment - Part 2-33: Particular requirements
@@ -34,7 +34,9 @@ date:
 - type: published
   value: '2012-03-05'
 - type: stable-until
-  value: '2022-12-31'
+  value: '2023-05-22'
+- type: obsoleted
+  value: '2023-05-22'
 contributor:
 - organization:
     name:
@@ -99,17 +101,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-33-2010+AMD1-2013CSV
-    type: standard
-    docid:
-    - id: IEC 60601-2-33:2010+AMD1:2013 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60601-2-33:2010+AMD1:2013 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60601-2-33-2010/AMD1-2013
     type: standard
     docid:
@@ -118,6 +109,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60601-2-33:2010/AMD1:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60601-2-33-2010+AMD1-2013CSV
+    type: standard
+    docid:
+    - id: IEC 60601-2-33:2010+AMD1:2013 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60601-2-33:2010+AMD1:2013 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -198,7 +200,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 62/SC 62B

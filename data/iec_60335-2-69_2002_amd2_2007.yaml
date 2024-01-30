@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-69-2002/AMD2-2007
 title:
 - content: 'Amendment 2 - Household and similar electrical appliances - Safety - Part
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2007-12-13'
+- type: stable-until
+  value: '2012-02-22'
+- type: obsoleted
+  value: '2012-02-22'
 contributor:
 - organization:
     name:
@@ -75,17 +79,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-69-2016RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-69:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-69:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-69-2016
     type: standard
     docid:
@@ -94,6 +87,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-69:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-69-2016RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-69:2016 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-69:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -185,7 +189,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61J

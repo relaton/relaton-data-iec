@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60078-1967
 title:
 - content: Characteristic impedances and dimensions of radio-frequency coaxial cables
@@ -32,6 +32,8 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '2004-11-10'
 - type: obsoleted
   value: '2004-11-10'
 contributor:
@@ -104,7 +106,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46A

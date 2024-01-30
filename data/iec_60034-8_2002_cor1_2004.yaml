@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-8-2002/COR1-2004
 title:
 - content: 'Corrigendum 1 - Rotating electrical machines - Part 8: Terminal markings
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2004-03-17'
+- type: stable-until
+  value: '2007-06-22'
+- type: obsoleted
+  value: '2007-06-22'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-14-1982/COR1-1984
 title:
 - content: 'Corrigendum 1 - Rotating electrical machines - Part 14: Mechanical vibration
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1984-08-30'
+- type: stable-until
+  value: '1996-11-14'
+- type: obsoleted
+  value: '1996-11-14'
 contributor:
 - organization:
     name:
@@ -130,7 +134,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61076-2-101-2008/COR1-2010
 title:
 - content: 'Corrigendum 1 - Connectors for electronic equipment - Product requirements
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2010-03-16'
+- type: stable-until
+  value: '2012-04-20'
+- type: obsoleted
+  value: '2012-04-20'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

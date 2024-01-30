@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60512-2-1985/AMD1-1994
 title:
 - content: 'Amendment 1 - Electromechanical components for electronic equipment; basic
@@ -34,6 +34,8 @@ docid:
 date:
 - type: published
   value: '1994-08-15'
+- type: stable-until
+  value: '2005-01-19'
 - type: obsoleted
   value: '2005-01-19'
 contributor:
@@ -100,7 +102,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48B

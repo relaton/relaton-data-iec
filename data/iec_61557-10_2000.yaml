@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61557-10-2000
 title:
 - content: 'Electrical safety in low voltage distribution systems up to 1 000 V a.c.
@@ -47,6 +47,10 @@ docid:
 date:
 - type: published
   value: '2000-12-21'
+- type: stable-until
+  value: '2013-04-29'
+- type: obsoleted
+  value: '2013-04-29'
 contributor:
 - organization:
     name:
@@ -97,7 +101,8 @@ copyright:
   from: '2000'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

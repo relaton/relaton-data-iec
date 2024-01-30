@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61246-1994/AMD1-2002
 title:
 - content: Amendment 1 - Magnetic oxide cores (E-cores) of rectangular cross-section
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2002-07-10'
+- type: stable-until
+  value: '2006-08-28'
+- type: obsoleted
+  value: '2006-08-28'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 51

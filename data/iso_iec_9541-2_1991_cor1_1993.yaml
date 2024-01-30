@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC9541-2-1991/COR1-1993
 title:
 - content: 'Corrigendum 1 - Information technology -- Font information interchange
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '1993-03-25'
+- type: stable-until
+  value: '2012-08-13'
+- type: obsoleted
+  value: '2012-08-13'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 34

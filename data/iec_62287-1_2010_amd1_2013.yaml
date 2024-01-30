@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62287-1-2010/AMD1-2013
 title:
 - content: 'Amendment 1 - Maritime navigation and radiocommunication equipment and
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2013-04-26'
+- type: stable-until
+  value: '2017-04-05'
+- type: obsoleted
+  value: '2017-04-05'
 contributor:
 - organization:
     name:
@@ -98,7 +102,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 80

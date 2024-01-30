@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60763-3-1-1992
 title:
 - content: 'Specification for laminated pressboard - Part 3: Specifications for individual
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '1992-09-15'
+- type: stable-until
+  value: '2010-08-06'
+- type: obsoleted
+  value: '2010-08-06'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

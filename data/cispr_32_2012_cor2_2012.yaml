@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: CISPR32-2012/COR2-2012
 title:
 - content: Corrigendum 2 - Electromagnetic compatibility of multimedia equipment -
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2012-08-28'
+- type: stable-until
+  value: '2015-03-31'
+- type: obsoleted
+  value: '2015-03-31'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: CISPR/CIS/I

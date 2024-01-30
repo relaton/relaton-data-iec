@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60146-3-1977
 title:
 - content: 'Semiconductor convertors. Part 3: Semiconductor direct d.c. convertors
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-01-01'
+- type: stable-until
+  value: '1999-11-18'
+- type: obsoleted
+  value: '1999-11-18'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ copyright:
   from: '1977'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22

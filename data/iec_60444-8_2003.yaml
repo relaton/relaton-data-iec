@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60444-8-2003
 title:
 - content: 'Measurement of quartz crystal unit parameters - Part 8: Test fixture for
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2003-07-04'
+- type: stable-until
+  value: '2016-12-15'
+- type: obsoleted
+  value: '2016-12-15'
 contributor:
 - organization:
     name:
@@ -86,7 +90,8 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

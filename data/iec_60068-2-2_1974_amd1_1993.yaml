@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-2-1974/AMD1-1993
 title:
 - content: 'Amendment 1 - Basic environmental testing procedures - Part 2-2: Tests
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1993-01-01'
+- type: stable-until
+  value: '2007-07-16'
+- type: obsoleted
+  value: '2007-07-16'
 contributor:
 - organization:
     name:
@@ -115,7 +119,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

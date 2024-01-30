@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-36-1992
 title:
 - content: 'Specifications for particular types of winding wires - Part 36: Solderable
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '1992-07-15'
+- type: stable-until
+  value: '2013-10-14'
+- type: obsoleted
+  value: '2013-10-14'
 contributor:
 - organization:
     name:
@@ -108,7 +112,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

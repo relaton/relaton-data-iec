@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-6-3/AMD2/FRAG1
 title:
 - content: 'Amendment 2, Fragment 1 - Electromagnetic compatibility (EMC) - Part 6-3:
@@ -32,7 +32,9 @@ docid:
   type: URN
 date:
 - type: stable-until
-  value: '2020-12-31'
+  value: '2020-07-30'
+- type: obsoleted
+  value: '2020-07-30'
 contributor:
 - organization:
     name:
@@ -99,7 +101,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 structuredidentifier:
   project_number: '61000'
   part: '6'

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC10116-2006/COR1-2008
 title:
 - content: Corrigendum 1 - Information technology -- Security techniques -- Modes
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2008-03-31'
+- type: stable-until
+  value: '2017-07-11'
+- type: obsoleted
+  value: '2017-07-11'
 contributor:
 - organization:
     name:
@@ -77,7 +81,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 27

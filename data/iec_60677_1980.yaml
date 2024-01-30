@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60677-1980
 title:
 - content: Block transfers in CAMAC systems
@@ -31,6 +31,8 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2018-04-03'
 - type: obsoleted
   value: '2018-04-03'
 contributor:
@@ -80,7 +82,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

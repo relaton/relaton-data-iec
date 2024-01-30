@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-52-1984
 title:
 - content: 'Basic environmental testing procedures - Part 2: Tests. Test Kb: Salt
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1984-01-01'
+- type: stable-until
+  value: '1996-02-07'
+- type: obsoleted
+  value: '1996-02-07'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

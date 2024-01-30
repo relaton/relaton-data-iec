@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61300-3-35-2009/COR1-2010
 title:
 - content: 'Corrigendum 1 - Fibre optic interconnecting devices and passive components
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2010-06-28'
+- type: stable-until
+  value: '2015-06-25'
+- type: obsoleted
+  value: '2015-06-25'
 contributor:
 - organization:
     name:
@@ -54,17 +58,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC61300-3-35-2015
-    type: standard
-    docid:
-    - id: IEC 61300-3-35:2015
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61300-3-35:2015
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC61300-3-35-2015RLV
     type: standard
     docid:
@@ -73,6 +66,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 61300-3-35:2015 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61300-3-35-2015
+    type: standard
+    docid:
+    - id: IEC 61300-3-35:2015
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61300-3-35:2015
       format: text/plain
 - type: updates
   bibitem:
@@ -98,7 +102,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

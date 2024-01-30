@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60708-2-1981
 title:
 - content: 'Low-frequency cables with polyolefin insulation and moisture barrier polyolefin
@@ -36,6 +36,8 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '2004-05-17'
 - type: obsoleted
   value: '2004-05-17'
 contributor:
@@ -98,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

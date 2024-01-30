@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62722-2-1/AMD1/FRAG1
 title:
 - content: 'Fragment 1 - Amendment 1 - Luminaire performance - Part 2-1: Particular
@@ -28,6 +28,11 @@ docid:
   primary: true
 - id: 'urn:iec:std:iec:62722-2-1:2014-11:::||amd:1/FRAG1:'
   type: URN
+date:
+- type: stable-until
+  value: '2023-01-24'
+- type: obsoleted
+  value: '2023-01-24'
 contributor:
 - organization:
     name:
@@ -83,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 structuredidentifier:
   project_number: '62722'
   part: '2'

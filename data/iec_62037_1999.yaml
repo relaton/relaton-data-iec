@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62037-1999
 title:
 - content: RF connectors, connector cable assemblies, and cables -  Intermodulation
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '1999-09-16'
+- type: stable-until
+  value: '2012-05-29'
+- type: obsoleted
+  value: '2012-05-29'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '1999'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

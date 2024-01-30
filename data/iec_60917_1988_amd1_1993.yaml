@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60917-1988/AMD1-1993
 title:
 - content: Amendment 1 - Modular order for the development of mechanical structures
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1993-03-05'
+- type: stable-until
+  value: '1998-01-01'
+- type: obsoleted
+  value: '1998-01-01'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 48/SC 48D

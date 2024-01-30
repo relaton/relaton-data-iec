@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-1-1999/ISH27-2001
 title:
 - content: |-
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2001-09-01'
+- type: stable-until
+  value: '2004-02-04'
+- type: obsoleted
+  value: '2004-02-04'
 contributor:
 - organization:
     name:
@@ -405,7 +409,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

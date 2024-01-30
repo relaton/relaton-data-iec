@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60655-1979
 title:
 - content: Values for the difference between free-field and pressure sensitivity levels
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '2006-10-09'
+- type: obsoleted
+  value: '2006-10-09'
 contributor:
 - organization:
     name:
@@ -85,7 +89,8 @@ copyright:
   from: '1979'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

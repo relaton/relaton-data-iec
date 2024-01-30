@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60092-204-1987
 title:
 - content: 'Electrical installations in ships. Part 204: System design - Electric
@@ -33,6 +33,8 @@ docid:
 date:
 - type: published
   value: '1987-03-30'
+- type: stable-until
+  value: '2013-03-01'
 - type: obsoleted
   value: '2013-03-01'
 contributor:
@@ -80,7 +82,8 @@ copyright:
   from: '1987'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 18

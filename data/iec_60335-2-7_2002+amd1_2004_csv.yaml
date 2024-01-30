@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-7-2002+AMD1-2004CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-7: Particular
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2004-11-04'
+- type: stable-until
+  value: '2012-03-26'
+- type: obsoleted
+  value: '2012-03-26'
 contributor:
 - organization:
     name:
@@ -83,6 +87,28 @@ copyright:
     url: www.iec.ch
   from: '2002'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2019
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2019RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2019 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2019 RLV
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-7-2008+AMD1-2011+AMD2-2016CSV
@@ -140,17 +166,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-7-2008RLV
-    type: standard
-    docid:
-    - id: IEC 60335-2-7:2008 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-7:2008 RLV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-7-2008
     type: standard
     docid:
@@ -159,6 +174,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-7:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-7-2008RLV
+    type: standard
+    docid:
+    - id: IEC 60335-2-7:2008 RLV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-7:2008 RLV
       format: text/plain
 - type: updates
   bibitem:
@@ -305,7 +331,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

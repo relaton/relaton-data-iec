@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60172-1981
 title:
 - content: Test procedure for the determination of the temperature index of enamelled
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '1987-12-30'
+- type: obsoleted
+  value: '1987-12-30'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

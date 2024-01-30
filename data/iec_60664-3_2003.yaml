@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60664-3-2003
 title:
 - content: 'Insulation coordination for equipment within low-voltage systems - Part
@@ -43,6 +43,10 @@ docid:
 date:
 - type: published
   value: '2003-02-17'
+- type: stable-until
+  value: '2016-11-04'
+- type: obsoleted
+  value: '2016-11-04'
 contributor:
 - organization:
     name:
@@ -223,7 +227,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 109

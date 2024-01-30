@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR60536-1976
 title:
 - content: Classification of electrical and electronic equipment with regard to protection
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '1999-11-25'
+- type: obsoleted
+  value: '1999-11-25'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ copyright:
   from: '1976'
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 64

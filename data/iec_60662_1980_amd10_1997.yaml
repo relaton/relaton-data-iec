@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60662-1980/AMD10-1997
 title:
 - content: Amendment 10 - High-pressure sodium vapour lamps
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1997-09-29'
+- type: stable-until
+  value: '2011-02-23'
+- type: obsoleted
+  value: '2011-02-23'
 contributor:
 - organization:
     name:
@@ -181,7 +185,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

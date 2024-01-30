@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60724-1984/AMD1-1993
 title:
 - content: Amendment 1 - Guide to the short-circuit temperature limits of electric
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1993-02-26'
+- type: stable-until
+  value: '2000-10-09'
+- type: obsoleted
+  value: '2000-10-09'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

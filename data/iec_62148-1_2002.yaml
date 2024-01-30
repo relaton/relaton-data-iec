@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62148-1-2002
 title:
 - content: 'Fibre optic active components and devices - Package and interface standards
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-03-05'
+- type: stable-until
+  value: '2017-08-31'
+- type: obsoleted
+  value: '2017-08-31'
 contributor:
 - organization:
     name:
@@ -80,7 +84,8 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86C

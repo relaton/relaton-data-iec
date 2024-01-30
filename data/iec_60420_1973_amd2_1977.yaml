@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60420-1973/AMD2-1977
 title:
 - content: Amendment 2 - High-voltage alternating current switch-fuse combinations
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1977-11-01'
+- type: stable-until
+  value: '1990-10-15'
+- type: obsoleted
+  value: '1990-10-15'
 contributor:
 - organization:
     name:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 17/SC 17A

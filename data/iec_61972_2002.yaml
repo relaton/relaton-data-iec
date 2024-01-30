@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61972-2002
 title:
 - content: Method for determining losses and efficiency of three-phase cage induction
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-11-22'
+- type: stable-until
+  value: '2008-01-10'
+- type: obsoleted
+  value: '2008-01-10'
 contributor:
 - organization:
     name:
@@ -82,7 +86,8 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60487-1-1974
 title:
 - content: 'Methods of measurement for equipment used in terrestrial radio-relay systems
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1974-01-01'
+- type: stable-until
+  value: '1984-01-01'
+- type: obsoleted
+  value: '1984-01-01'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

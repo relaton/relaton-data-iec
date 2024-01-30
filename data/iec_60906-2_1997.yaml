@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60906-2-1997
 title:
 - content: |-
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '1997-02-14'
+- type: stable-until
+  value: '2011-05-12'
+- type: obsoleted
+  value: '2011-05-12'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23/SC 23B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60095-2-1984
 title:
 - content: 'Lead-acid starter batteries. Part 2: Dimensions of batteries and dimensions
@@ -45,6 +45,10 @@ docid:
 date:
 - type: published
   value: '1984-09-30'
+- type: stable-until
+  value: '2009-10-28'
+- type: obsoleted
+  value: '2009-10-28'
 contributor:
 - organization:
     name:
@@ -157,7 +161,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

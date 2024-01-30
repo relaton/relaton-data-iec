@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61236-1993/COR2-2000
 title:
 - content: Corrigendum 2 - Saddles, pole clamps (stick clamps) and accessories for
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '2000-05-26'
+- type: stable-until
+  value: '2010-10-27'
+- type: obsoleted
+  value: '2010-10-27'
 contributor:
 - organization:
     name:
@@ -83,7 +87,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

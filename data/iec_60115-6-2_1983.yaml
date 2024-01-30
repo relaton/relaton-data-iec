@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60115-6-2-1983
 title:
 - content: 'Fixed resistors for use in electronic equipment. Part 6: Blank detail
@@ -36,6 +36,8 @@ docid:
 date:
 - type: published
   value: '1983-01-01'
+- type: stable-until
+  value: '2012-12-31'
 - type: obsoleted
   value: '2012-12-31'
 contributor:
@@ -92,7 +94,8 @@ copyright:
   from: '1983'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60509-1988
 title:
 - content: Sealed nickel-cadmium button rechargeable single cells
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1988-12-14'
+- type: stable-until
+  value: '2003-06-05'
+- type: obsoleted
+  value: '2003-06-05'
 contributor:
 - organization:
     name:
@@ -87,7 +91,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21/SC 21A

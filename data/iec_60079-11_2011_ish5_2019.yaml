@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-11-2011/ISH5-2019
 title:
 - content: 'Interpretation Sheet 5 - Explosive atmospheres - Part 11: Equipment protection
@@ -24,7 +24,9 @@ date:
 - type: published
   value: '2019-08-29'
 - type: stable-until
-  value: '2023-12-31'
+  value: '2023-01-13'
+- type: obsoleted
+  value: '2023-01-13'
 contributor:
 - organization:
     name:
@@ -55,17 +57,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60079-11-2006/ISH1-2019
-    type: standard
-    docid:
-    - id: IEC 60079-11:2006/ISH1:2019
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-11:2006/ISH1:2019
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-11-2011/ISH6-2019
     type: standard
     docid:
@@ -74,6 +65,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-11:2011/ISH6:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-11-2006/ISH1-2019
+    type: standard
+    docid:
+    - id: IEC 60079-11:2006/ISH1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-11:2006/ISH1:2019
       format: text/plain
 - type: updates
   bibitem:
@@ -220,7 +222,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31/SC 31G

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60269-1-1986/COR2-1996
 title:
 - content: 'Corrigendum 2 - Low-voltages fuses - Part 1: General requirements'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '1996-12-31'
+- type: stable-until
+  value: '1998-12-15'
+- type: obsoleted
+  value: '1998-12-15'
 contributor:
 - organization:
     name:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32B

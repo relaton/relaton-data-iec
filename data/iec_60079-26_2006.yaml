@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-26-2006
 title:
 - content: 'Explosive atmospheres - Part 26: Equipment with equipment protection level
@@ -41,6 +41,10 @@ docid:
 date:
 - type: published
   value: '2006-08-24'
+- type: stable-until
+  value: '2014-10-28'
+- type: obsoleted
+  value: '2014-10-28'
 contributor:
 - organization:
     name:
@@ -92,17 +96,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60079-26-2014
-    type: standard
-    docid:
-    - id: IEC 60079-26:2014
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-26:2014
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-26-2014RLV
     type: standard
     docid:
@@ -111,6 +104,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-26:2014 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-26-2014
+    type: standard
+    docid:
+    - id: IEC 60079-26:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-26:2014
       format: text/plain
 - type: updates
   bibitem:
@@ -136,7 +140,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

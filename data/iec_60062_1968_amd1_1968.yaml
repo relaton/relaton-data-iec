@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60062-1968/AMD1-1968
 title:
 - content: amendment 1 - Marking codes for values and tolerances of resistors and
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1968-12-31'
+- type: stable-until
+  value: '1974-01-01'
+- type: obsoleted
+  value: '1974-01-01'
 contributor:
 - organization:
     name:
@@ -150,7 +154,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

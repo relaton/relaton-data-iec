@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IECTR61340-5-2-2007/COR1-2009
 title:
 - content: 'Corrigendum 1 - Electrostatics - Part 5-2: Protection of electronic devices
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2009-05-26'
+- type: stable-until
+  value: '2018-03-28'
+- type: obsoleted
+  value: '2018-03-28'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: technical-report
+doctype:
+  type: technical-report
 editorialgroup:
   technical_committee:
   - name: TC 101

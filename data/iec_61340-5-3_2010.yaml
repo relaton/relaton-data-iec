@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61340-5-3-2010
 title:
 - content: 'Electrostatics - Part 5-3: Protection of electronic devices from electrostatic
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '2010-03-16'
+- type: stable-until
+  value: '2015-07-16'
+- type: obsoleted
+  value: '2015-07-16'
 contributor:
 - organization:
     name:
@@ -105,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 101

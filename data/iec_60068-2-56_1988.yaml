@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-56-1988
 title:
 - content: 'Environmental testing - Part 2: Tests. Test Cb: Damp heat, steady state,
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1988-12-14'
+- type: stable-until
+  value: '2002-07-16'
+- type: obsoleted
+  value: '2002-07-16'
 contributor:
 - organization:
     name:
@@ -78,7 +82,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

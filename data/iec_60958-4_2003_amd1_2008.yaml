@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60958-4-2003/AMD1-2008
 title:
 - content: 'Amendment 1 - Digital audio interface - Part 4: Professional applications'
@@ -29,6 +29,10 @@ docid:
 date:
 - type: published
   value: '2008-02-27'
+- type: stable-until
+  value: '2016-03-24'
+- type: obsoleted
+  value: '2016-03-24'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

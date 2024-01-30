@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC15946-1-2008/COR1-2009
 title:
 - content: 'Corrigendum 1 - Information technology -- Security techniques -- Cryptographic
@@ -23,6 +23,10 @@ docid:
 date:
 - type: published
   value: '2009-02-16'
+- type: stable-until
+  value: '2016-07-04'
+- type: obsoleted
+  value: '2016-07-04'
 contributor:
 - organization:
     name:
@@ -99,7 +103,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 27

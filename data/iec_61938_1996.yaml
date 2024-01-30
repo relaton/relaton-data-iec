@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61938-1996
 title:
 - content: |-
@@ -36,6 +36,10 @@ docid:
 date:
 - type: published
   value: '1996-12-05'
+- type: stable-until
+  value: '2013-06-27'
+- type: obsoleted
+  value: '2013-06-27'
 contributor:
 - organization:
     name:
@@ -96,7 +100,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

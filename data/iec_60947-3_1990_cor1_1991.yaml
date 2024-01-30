@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60947-3-1990/COR1-1991
 title:
 - content: 'Corrigendum 1 - Low-voltage switchgear and controlgear. Part 3: Switches,
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1991-12-01'
+- type: stable-until
+  value: '1999-01-21'
+- type: obsoleted
+  value: '1999-01-21'
 contributor:
 - organization:
     name:
@@ -260,7 +264,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

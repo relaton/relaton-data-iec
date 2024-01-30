@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60350-1999/AMD2-2008
 title:
 - content: Amendment 2 - Electric cooking ranges, hobs, ovens and grills for household
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2008-03-11'
+- type: stable-until
+  value: '2011-12-16'
+- type: obsoleted
+  value: '2011-12-16'
 contributor:
 - organization:
     name:
@@ -117,7 +121,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59K

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60051-5-1985
 title:
 - content: 'Direct acting indicating analogue electrical measuring instruments and
@@ -44,6 +44,10 @@ docid:
 date:
 - type: published
   value: '1985-01-01'
+- type: stable-until
+  value: '2017-12-15'
+- type: obsoleted
+  value: '2017-12-15'
 contributor:
 - organization:
     name:
@@ -93,7 +97,8 @@ copyright:
   from: '1985'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

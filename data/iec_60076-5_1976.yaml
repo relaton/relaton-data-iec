@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60076-5-1976
 title:
 - content: 'Power transformers - Part 5: Ability to withstand short circuit'
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1976-01-01'
+- type: stable-until
+  value: '2000-07-13'
+- type: obsoleted
+  value: '2000-07-13'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 14

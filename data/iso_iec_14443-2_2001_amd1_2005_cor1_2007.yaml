@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC14443-2-2001/AMD1-2005/COR1-2007
 title:
 - content: 'Corrigendum 1 - Amendment 1 - Identification cards -- Contactless integrated
@@ -26,6 +26,10 @@ docid:
 date:
 - type: published
   value: '2007-10-30'
+- type: stable-until
+  value: '2010-08-19'
+- type: obsoleted
+  value: '2010-08-19'
 contributor:
 - organization:
     name:
@@ -157,7 +161,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 17

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60092-3-1965/AMD2-1971
 title:
 - content: 'Amendment 2 - Electrical installations in ships - Part 3: Cables (construction,
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1971-03-01'
+- type: stable-until
+  value: '2010-03-17'
+- type: obsoleted
+  value: '2010-03-17'
 contributor:
 - organization:
     name:
@@ -128,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 18/SC 18A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC62282-3-3-2007
 title:
 - content: 'Fuel cell technologies - Part 3-3: Stationary fuel cell power systems
@@ -42,6 +42,10 @@ docid:
 date:
 - type: published
   value: '2007-11-14'
+- type: stable-until
+  value: '2012-06-14'
+- type: obsoleted
+  value: '2012-06-14'
 contributor:
 - organization:
     name:
@@ -95,7 +99,8 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 105
