@@ -1,0 +1,207 @@
+---
+schema-version: v1.2.8
+id: IEC61970-302-2024
+title:
+- content: 'Energy management system application program interface (EMS-API) - Part
+    302: Common information model (CIM) dynamics'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: 'Interface de programmation d''application pour système de gestion d''énergie
+    (EMS-API) - Partie 302: Régimes dynamiques de modèle d''information commun (CIM)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/68152
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61970-302{ed2.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61970-302:2024
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61970-302:2024-01:::'
+  type: URN
+date:
+- type: published
+  value: '2024-01-31'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2024-01-31'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61970-302:2024 specifies a Dynamics package which contains part of
+    the CIM to support the exchange of models between software applications that perform
+    analysis of the steady-state stability (small-signal stability) or transient stability
+    of a power system as defined by IEEE / CIGRE, Definition and classification of
+    power system stability IEEE/CIGRE joint task force on stability terms and definitions.<br
+    />\r\nThe model descriptions in this document provide specifications for each
+    type of dynamic model as well as the information that needs to be included in
+    dynamic case exchanges between planning/study applications.<br />\r\nThe scope
+    of the CIM Dynamics package specified in this document includes:<br />\r\n• standard
+    models: a simplified approach to describing dynamic models, where models representing
+    dynamic behaviour of elements of the power system are contained in predefined
+    libraries of classes which are interconnected in a standard manner. Only the names
+    of the selected elements of the models along with their attributes are needed
+    to describe dynamic behaviour.<br />\r\n• proprietary user-defined models: an
+    approach providing users the ability to define the parameters of a dynamic behaviour
+    model representing a vendor or user proprietary device where an explicit description
+    of the model is not provided by this document. The same libraries and standard
+    interconnections are used for both proprietary user-defined models and standard
+    models. The behavioural details of the model are not documented in this document,
+    only the model parameters.<br />\r\n• A model to enable exchange of models’ descriptions.
+    This approach can be used to describe user defined and standard models.<br />\r\n•
+    A model to enable exchange of simulation results.<br />\r\nThis second edition
+    cancels and replaces the first edition published in 2018. This edition constitutes
+    a technical revision.<br />\r\nThis edition includes the following significant
+    technical changes with respect to the previous edition:<br />\r\na) The majority
+    of issues detected in IEC 61970-302:2018 are addressed;<br />\r\nb) IEEE 421.5-2016
+    on Excitation systems is fully covered;<br />\r\nc) The IEEE turbine report from
+    2013 was considered and as a result a number of gas, steam and hydro turbines/governors
+    are added;<br />\r\nd) IEC 61400-27-1:2020 on wind turbines is fully incorporated;<br
+    />\r\ne) WECC Inverter-Based Resource (IBR) models, Hybrid STATCOM models and
+    storage models are added;<br />\r\nf) The user defined models are enhanced with
+    a model which enables modelling of detailed dynamic model;<br />\r\ng) A model
+    to enable exchange of simulation results is added;<br />\r\nh) The work on the
+    HVDC models is not complete. The HVDC dynamics models are a complex domain in
+    which there are no models that are approved or widely recognised on international
+    level, i.e. there are only project-based models. At this stage IEC 61970-302:2022
+    only specifies some general classes. However, it is recognised that better coverage
+    of HVDC will require a further edition of this document;<br />\r\ni) Models from
+    IEEE 1547-2018 \"IEEE Standard for Interconnection and Interoperability of Distributed
+    Energy Resources with Associated Electric Power Systems Interfaces\" are added.<br
+    />\r\nj) Statements have been added to certain figures, tables, schemas, and enumerations
+    throughout the document that indicate that they are reproduced with the permission
+    of the UCA International User Group (UCAIug). These items are derived from the
+    CIM."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 61970-302:2024 spécifie un paquetage dynamique (Dynamics) contenant
+    des extensions du modèle d'information commun (CIM). Il s'agit d'assurer l'échange
+    des modèles entre les applications logicielles qui procèdent à l'analyse de la
+    stabilité en régime établi (stabilité en petits signaux) ou de la stabilité transitoire
+    d'un système de puissance comme cela est défini dans le document Definition and
+    classification of power system stability (Définition et classification de la stabilité
+    des systèmes de puissance) du groupe de travail commun IEEE/CIGRE sur les termes
+    et définitions relatifs à la stabilité.<br />\r\nLes descriptions de modèles indiquées
+    dans le présent document donnent des spécifications pour chaque type de modèle
+    dynamique, ainsi que des informations qui doivent être incluses dans les échanges
+    de cas dynamiques entre les applications de planification/d'étude.<br />\r\nLe
+    domaine d'application du paquetage CIM Dynamics spécifié dans le présent document
+    inclut:<br />\r\n• des modèles normalisés: une approche simplifiée qui vise à
+    décrire des modèles dynamiques, les modèles représentant le comportement dynamique
+    des éléments du système de puissance qui sont contenus dans des bibliothèques
+    prédéfinies de classes interconnectées de manière normalisée. Seuls les noms des
+    éléments sélectionnés des modèles, accompagnés de leurs attributs, sont nécessaires
+    à la description du comportement dynamique;<br />\r\n• des modèles propriétaires
+    définis par l'utilisateur: approche qui donne à l'utilisateur la possibilité de
+    définir les paramètres d'un modèle de comportement dynamique représentant le dispositif
+    propriétaire d'un fournisseur ou d'un utilisateur lorsque le présent document
+    ne donne pas de description explicite du modèle. Les mêmes bibliothèques et interconnexions
+    normalisées sont utilisées tant pour les modèles propriétaires définis par l'utilisateur
+    que pour les modèles normalisés. Les détails comportementaux du modèle ne sont
+    pas documentés dans le présent document, seuls les paramètres du modèle le sont;<br
+    />\r\n• un modèle d'échange des descriptions des modèles. Cette approche peut
+    être utilisée pour décrire les modèles définis par l'utilisateur et les modèles
+    normalisés;<br />\r\n• un modèle d'échange des résultats de simulation.<br />\r\nCette
+    deuxième édition annule et remplace la première édition parue en 2018. Cette édition
+    constitue une révision technique.<br />\r\nCette édition inclut les modifications
+    techniques majeures suivantes par rapport à l'édition précédente:<br />\r\na)
+    la majeure partie des problèmes détectés dans l'IEC 61970-302:2018 ont été résolus;<br
+    />\r\nb) l’IEEE 421.5-2016 relative aux systèmes d'excitation est intégralement
+    couverte;<br />\r\nc) le rapport IEEE sur les turbines publié en 2013 a été pris
+    en considération et, à ce titre, un certain nombre de turbines/régulateurs à vapeur,
+    à gaz et hydrauliques ont été ajoutés;<br />\r\nd) l’IEC 61400-27-1:2020 relative
+    aux éoliennes est totalement intégrée;<br />\r\ne) des modèles de ressources fondées
+    sur les onduleurs (IBR - Inverter based Resource), des modèles STATCOM hybrides
+    et des modèles de stockage WECC ont été ajoutés;<br />\r\nf) les modèles définis
+    par l'utilisateur ont été améliorés avec un modèle de modélisation de modèle dynamique
+    détaillé;<br />\r\ng) un modèle d'échange des résultats de simulation a été ajouté;<br
+    />\r\nh) le travail réalisé sur les modèles CCHT n'est pas terminé. Les modèles
+    de régimes dynamiques CCHT sont un domaine complexe dans lequel aucun modèle n'est
+    approuvé ou ne fait l'objet d'un consensus au niveau mondial, c'est-à-dire qu'il
+    ne s'agit que de modèles à l'état de projet. À ce stade, l'IEC 61970-302:2022
+    ne spécifie que certaines classes générales. Toutefois, il est reconnu qu'une
+    meilleure couverture de CCHT implique une prochaine édition du présent document;<br
+    />\r\ni) les modèles de l'IEEE 1547-2018 \"IEEE Standard for Interconnection and
+    Interoperability of Distributed Energy Resources with Associated Electric Power
+    Systems Interfaces\" sont ajoutés;<br />\r\nj) Les experts de l’IEC et les experts
+    techniques procèdent actuellement à la clarification des droits à la propriété
+    intellectuelle dans les normes. Les anciens documents (auxquels il peut être fait
+    référence) ne comportent pas ces clarifications. Des énoncés ont été ajoutés à
+    certaines figures, ainsi qu’à certains tableaux, schémas et énumérations tout
+    au long du document pour indiquer qu'ils sont reproduits avec l'autorisation de
+    l'UCA International User Group (UCAIug). Ces éléments sont dérivés du CIM."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2024'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61970-302-2018
+    type: standard
+    docid:
+    - id: IEC 61970-302:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61970-302:2018
+      format: text/plain
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '61970'
+  part: '302'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P
