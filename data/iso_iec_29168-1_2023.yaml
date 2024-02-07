@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC29168-1-2023
+title:
+- content: 'Information technology - Open systems interconnection - Part 1: Object
+    identifier resolution system'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/91754
+  type: src
+- content: https://webstore.iec.ch/preview/info_isoiec29168-1{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: ISO/IEC 29168-1:2023
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:29168-1:2023-03:::'
+  type: URN
+date:
+- type: published
+  value: '2023-03-17'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2023-03-17'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "ISO/IEC 29168-1:2023 This document specifies the OID resolution system,
+    including the overall architecture and a DNS-based resolution mechanism.<br />\r\nIt
+    specifies the means for inserting any application-defined information associated
+    with an OID node into the DNS (see clause 6) and the means of retrieval of that
+    information using the ORS (see clause 7).<br />\r\nIt does not restrict the number
+    of applications it can support.<br />\r\nIt specifies the required operation of
+    an ORS client (see clause 7), including the mapping of an OID-IRI value by the
+    ORS client into a DNS name to produce a DNS query for the specified application
+    information and the processing of any returned information. The ORS has no role
+    in the allocation or registration of OID nodes.<br />\r\nThe required behaviour
+    of an ORS client is specified, but the interfaces to it are specified only in
+    terms of the semantics of the interaction. A bit-level application program interface
+    is platform and software dependent, and is not in the scope of this document.<br
+    />\r\nA special behaviour of an ORS client is specified to cache OID information
+    in order to reduce the response time of OID resolution. This document also specifies
+    a mechanism to resolve an OID node when one of its superior OID nodes is not ORS-supported.<br
+    />\r\nIt does not include a tutorial or complete specification on the management
+    of DNS zone files (for that, see IETF RFC 1035 and IETF RFC 3403); it specifies
+    (only) the DNS resource records (see 6.3) that need to be inserted in the zone
+    files in order to support ORS access to the information associated with an OID
+    node.<br />\r\nThis document specifies required DNS zone file resource records,
+    and prohibits the use of other resource records of a similar form but with different
+    semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise
+    restrict the general use of DNS zone files."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2023'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC29168-1-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 29168-1:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 29168-1:2011
+      format: text/plain
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.100.01
+  text: Open systems interconnection in general
+structuredidentifier:
+  project_number: '29168'
+  part: '1'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:D
