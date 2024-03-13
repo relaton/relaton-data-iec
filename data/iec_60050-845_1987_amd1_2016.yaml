@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60050-845-1987/AMD1-2016
 title:
 - content: 'Amendment 1 - International Electrotechnical Vocabulary (IEV) - Part 845:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2016-12-16'
+- type: stable-until
+  value: '2020-12-07'
+- type: obsoleted
+  value: '2020-12-07'
 contributor:
 - organization:
     name:
@@ -84,7 +88,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 1
