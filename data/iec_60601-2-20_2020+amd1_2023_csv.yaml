@@ -54,7 +54,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "IEC 60601-2-20:2020+AMD1:2023 applies to the BASIC SAFETY and ESSENTIAL
+- content: "IEC 60601-2-20:2020+AMD1:2023 CSV applies to the BASIC SAFETY and ESSENTIAL
     PERFORMANCE of INFANT TRANSPORT INCUBATOR equipment, as defined in 201.3.208,
     also referred to as ME EQUIPMENT. If a clause or subclause is specifically intended
     to be applicable to ME EQUIPMENT only, or to ME SYSTEMS only, the title and content
@@ -81,8 +81,8 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "L'IEC 60601-2-20:2020+AMD1:2023 s'applique à la SECURITE DE BASE et aux
-    PERFORMANCES ESSENTIELLES des INCUBATEURS DE TRANSPORT POUR NOUVEAU-NES, tels
+- content: "L'IEC 60601-2-20:2020+AMD1:2023 CSV s'applique à la SECURITE DE BASE et
+    aux PERFORMANCES ESSENTIELLES des INCUBATEURS DE TRANSPORT POUR NOUVEAU-NES, tels
     que définis au 201.3.208, également désignés sous le terme APPAREILS EM. Si un
     article ou un paragraphe est spécifiquement destiné à être applicable uniquement
     aux APPAREILS EM ou uniquement aux SYSTEMES EM, le titre et le contenu de cet
@@ -193,17 +193,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60601-2-20-1990
-    type: standard
-    docid:
-    - id: IEC 60601-2-20:1990
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60601-2-20:1990
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60601-2-20-1990+AMD1-1996CSV
     type: standard
     docid:
@@ -212,6 +201,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60601-2-20:1990+AMD1:1996 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60601-2-20-1990
+    type: standard
+    docid:
+    - id: IEC 60601-2-20:1990
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60601-2-20:1990
       format: text/plain
 place:
 - Geneva
