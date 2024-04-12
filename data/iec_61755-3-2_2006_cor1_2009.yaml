@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61755-3-2-2006/COR1-2009
 title:
 - content: 'Corrigendum 1 - Fibre optic connector optical interfaces - Part 3-2: Optical
@@ -54,7 +54,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -63,9 +63,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2006'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61755-3-2-2006
+    type: standard
+    docid:
+    - id: IEC 61755-3-2:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61755-3-2:2006
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B
