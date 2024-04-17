@@ -1,20 +1,17 @@
 ---
 schema-version: v1.2.8
-id: CISPR11A-1976
+id: CISPR4-1967/AMD1-1975
 title:
-- content: First supplement - Limits and methods of measurement of radio interference
-    characteristics of industrial, scientific and medical (ISM) radio-frequency equipment
-    (excluding surgical diathermy apparatus)
+- content: First supplement - CISPR measuring set specification for the frequency
+    range 300 MHz to 1 000 MHz
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Premier complément - Limites et méthodes de mesure des caractéristiques
-    des appareils industriels, scientifiques et médicaux (ISM) à haute fréquence (à
-    l'exclusion des appareils de diathermie chirurgicale) relatives aux perturbations
-    radioélectriques
+- content: Premier complément - Spécification de l'appareillage de mesure CISPR pour
+    les fréquences comprises entre 300 et 1 000 MHz
   language:
   - fr
   script:
@@ -22,22 +19,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/12027
+- content: https://webstore.iec.ch/publication/12223
   type: src
 type: standard
 docid:
-- id: CISPR 11A:1976
+- id: CISPR 4:1967/AMD1:1975
   type: IEC
   primary: true
-- id: 'urn:iec:std:cispr:11A:1976-01:::'
+- id: urn:iec:std:cispr:4:1967-01:::||amd:1:1975-01
   type: URN
 date:
 - type: published
-  value: '1976-01-01'
-- type: stable-until
-  value: '2016-11-19'
-- type: obsoleted
-  value: '2016-11-19'
+  value: '1975-01-01'
 contributor:
 - organization:
     name:
@@ -49,7 +42,7 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '1976-01-01'
+revdate: '1975-01-01'
 language:
 - en
 - fr
@@ -65,7 +58,19 @@ copyright:
     abbreviation:
       content: CISPR
     url: www.iec.ch
-  from: '1976'
+  from: '1967'
+relation:
+- type: updates
+  bibitem:
+    id: CISPR4-1967
+    type: standard
+    docid:
+    - id: CISPR 4:1967
+      type: IEC
+      primary: true
+    formattedref:
+      content: CISPR 4:1967
+      format: text/plain
 place:
 - Geneva
 doctype:
@@ -75,10 +80,10 @@ editorialgroup:
   - name: CISPR
     type: technicalCommittee
 ics:
-- code: 33.100.10
-  text: Emission
+- code: 33.100.01
+  text: Electromagnetic compatibility in general
 structuredidentifier:
-  project_number: 11A
+  project_number: '4'
   type: IEC
 ext:
   schema-version: v1.0.0
