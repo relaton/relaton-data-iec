@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1970-01-01'
+- type: stable-until
+  value: '1975-01-01'
+- type: obsoleted
+  value: '1975-01-01'
 contributor:
 - organization:
     name:
@@ -59,6 +63,18 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1970'
+relation:
+- type: updates
+  bibitem:
+    id: IEC60050-1975
+    type: standard
+    docid:
+    - id: IEC 60050:1975
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60050:1975
+      format: text/plain
 place:
 - Geneva
 doctype:

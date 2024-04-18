@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60034-14-1982CSV
 title:
 - content: 'Rotating electrical machines - Part 14: Mechanical vibration of certain
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '1996-11-14'
+- type: obsoleted
+  value: '1996-11-14'
 contributor:
 - organization:
     name:
@@ -145,7 +149,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2
