@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60061B-1966/AMD2-1966
 title:
 - content: Amendment 2 - Lamp caps and holders together with gauges for the control
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1966-01-01'
+- type: stable-until
+  value: '2015-06-03'
+- type: obsoleted
+  value: '2015-06-03'
 contributor:
 - organization:
     name:
@@ -77,17 +81,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60061B-1966/AMD1-1966
-    type: standard
-    docid:
-    - id: IEC 60061B:1966/AMD1:1966
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60061B:1966/AMD1:1966
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60061B-1966
     type: standard
     docid:
@@ -97,9 +90,21 @@ relation:
     formattedref:
       content: IEC 60061B:1966
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60061B-1966/AMD1-1966
+    type: standard
+    docid:
+    - id: IEC 60061B:1966/AMD1:1966
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60061B:1966/AMD1:1966
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

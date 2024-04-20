@@ -1,6 +1,6 @@
 ---
-schema-version: v1.2.3
-id: IEC60067a-1955
+schema-version: v1.2.8
+id: IEC60067A-1955
 title:
 - content: First supplement - Dimensions of electronic tubes and valves - Bases
   language:
@@ -21,14 +21,18 @@ link:
   type: src
 type: standard
 docid:
-- id: IEC 60067a:1955
+- id: IEC 60067A:1955
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:60067a:1955-01:::'
+- id: 'urn:iec:std:iec:60067A:1955-01:::'
   type: URN
 date:
 - type: published
   value: '1955-01-01'
+- type: stable-until
+  value: '1967-01-01'
+- type: obsoleted
+  value: '1967-01-01'
 contributor:
 - organization:
     name:
@@ -59,14 +63,15 @@ copyright:
   from: '1955'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110
     number: 110
     type: technicalCommittee
 structuredidentifier:
-  project_number: 60067a
+  project_number: 60067A
   type: IEC
 ext:
   schema-version: v1.0.0

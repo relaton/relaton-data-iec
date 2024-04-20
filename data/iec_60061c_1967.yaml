@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60061C-1967
 title:
 - content: Third supplement - Lamp caps and holders together with gauges for the control
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1967-01-01'
+- type: stable-until
+  value: '2015-06-03'
+- type: obsoleted
+  value: '2015-06-03'
 contributor:
 - organization:
     name:
@@ -76,7 +80,8 @@ copyright:
   from: '1967'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

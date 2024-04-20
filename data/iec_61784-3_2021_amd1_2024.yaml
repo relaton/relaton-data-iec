@@ -1,17 +1,18 @@
 ---
 schema-version: v1.2.8
-id: IEC60056-4-1972/AMD3-1981
+id: IEC61784-3-2021/AMD1-2024
 title:
-- content: 'amendment 3 - High-voltage alternating-current circuit-breakers - Part
-    4: Type tests and routine tests'
+- content: 'Amendment 1 - Industrial communication networks - Profiles - Part 3: Functional
+    safety fieldbuses - General rules and profile definitions'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: 'amendement 3 - Disjoncteurs à courant alternatif à haute tension - Partie
-    4: Essais de type et essais individuels'
+- content: 'Amendement 1 - Réseaux de communication industriels - Profils - Partie
+    3 : Bus de terrain de sécurité fonctionnelle - Règles générales et définitions
+    de profils'
   language:
   - fr
   script:
@@ -19,22 +20,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/12542
+- content: https://webstore.iec.ch/publication/79055
   type: src
 type: standard
 docid:
-- id: IEC 60056-4:1972/AMD3:1981
+- id: IEC 61784-3:2021/AMD1:2024
   type: IEC
   primary: true
-- id: urn:iec:std:iec:60056-4:1972-01:::||amd:3:1981-06
+- id: urn:iec:std:iec:61784-3:2021-02:::||amd:1:2024-04
   type: URN
 date:
 - type: published
-  value: '1981-06-30'
+  value: '2024-04-19'
 - type: stable-until
-  value: '2016-11-19'
-- type: obsoleted
-  value: '2016-11-19'
+  value: '2026-12-31'
 contributor:
 - organization:
     name:
@@ -45,8 +44,8 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '3'
-revdate: '1981-06-30'
+  content: '4'
+revdate: '2024-04-19'
 language:
 - en
 - fr
@@ -54,7 +53,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -62,73 +61,73 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '1972'
+  from: '2021'
 relation:
 - type: updates
   bibitem:
-    id: IEC60056-4-1972+AMD1-1975+AMD2-1977CSV
+    id: IEC61784-3-2016+AMD1-2017CSV
     type: standard
     docid:
-    - id: IEC 60056-4:1972+AMD1:1975+AMD2:1977 CSV
+    - id: IEC 61784-3:2016+AMD1:2017 CSV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1972+AMD1:1975+AMD2:1977 CSV
+      content: IEC 61784-3:2016+AMD1:2017 CSV
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60056-4-1972/AMD2-1977
+    id: IEC61784-3-2016/AMD1-2017
     type: standard
     docid:
-    - id: IEC 60056-4:1972/AMD2:1977
+    - id: IEC 61784-3:2016/AMD1:2017
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1972/AMD2:1977
+      content: IEC 61784-3:2016/AMD1:2017
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60056-4-1972/AMD1-1975
+    id: IEC61784-3-2016
     type: standard
     docid:
-    - id: IEC 60056-4:1972/AMD1:1975
+    - id: IEC 61784-3:2016
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1972/AMD1:1975
+      content: IEC 61784-3:2016
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60056-4-1972
+    id: IEC61784-3-2016RLV
     type: standard
     docid:
-    - id: IEC 60056-4:1972
+    - id: IEC 61784-3:2016 RLV
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1972
+      content: IEC 61784-3:2016 RLV
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60056-4-1959/AMD1-1965
+    id: IEC61784-3-2010
     type: standard
     docid:
-    - id: IEC 60056-4:1959/AMD1:1965
+    - id: IEC 61784-3:2010
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1959/AMD1:1965
+      content: IEC 61784-3:2010
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60056-4-1959
+    id: IEC61784-3-2007
     type: standard
     docid:
-    - id: IEC 60056-4:1959
+    - id: IEC 61784-3:2007
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60056-4:1959
+      content: IEC 61784-3:2007
       format: text/plain
 place:
 - Geneva
@@ -136,13 +135,18 @@ doctype:
   type: international-standard
 editorialgroup:
   technical_committee:
-  - name: TC 17
-    number: 17
+  - name: TC 65/SC 65C
+    number: 65
     type: technicalCommittee
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+- code: 35.100.05
+  text: Multilayer applications
 structuredidentifier:
-  project_number: '60056'
-  part: '4'
+  project_number: '61784'
+  part: '3'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:E
+price_code: iec:C
