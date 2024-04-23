@@ -1,7 +1,15 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60068-2-30-1980+AMD1-1985CSV
 title:
+- content: 'Environmental testing - Part 2: Tests. Test Db and guidance: Damp heat,
+    cyclic (12 + 12-hour cycle)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 - content: 'Versión Oficial En español (Incluye modificación 1:1985) Ensayos ambientales
     -- Parte 2: Ensayos - Ensayo Db y Guía: Ensayo cíclico de calor húmedo (ciclo
     de 12 + 12 horas).'
@@ -24,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2005-08-10'
+- type: obsoleted
+  value: '2005-08-10'
 contributor:
 - organization:
     name:
@@ -37,6 +49,7 @@ edition:
   content: '2.1'
 revdate: '1980-01-01'
 language:
+- en
 - es
 script:
 - Latn
@@ -96,7 +109,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104
