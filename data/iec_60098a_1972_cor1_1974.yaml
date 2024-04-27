@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60098A-1972/COR1-1974
 title:
-- content: "Corrigendum 1 - Processed disk records and reproducing equipment\n- Methods
-    of measuring the characteristics of disk record playing  \nunits"
+- content: Corrigendum 1 - Processed disk records and reproducing equipment - Methods
+    of measuring the characteristics of disk record playing units
   language:
   - en
   script:
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-06-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

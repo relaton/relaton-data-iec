@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-5A-1969
 title:
 - content: 'Supplement to publication - Electrical apparatus for explosive gas atmospheres
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1969-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1969'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

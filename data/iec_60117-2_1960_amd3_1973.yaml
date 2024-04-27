@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60117-2-1960/AMD3-1973
 title:
 - content: 'Amendment 3 - Recommended graphical symbols - Part 2: Machines, transformers,
@@ -10,9 +10,8 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: |-
-    Amendement 3 - Symboles graphiques recommandés - Partie 2: Machines,
-    tranformateurs, piles et accumulateurs
+- content: 'Amendement 3 - Symboles graphiques recommandés - Partie 2: Machines, tranformateurs,
+    piles et accumulateurs'
   language:
   - fr
   script:
@@ -32,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-10-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -85,17 +88,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60117-2-1960
-    type: standard
-    docid:
-    - id: IEC 60117-2:1960
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60117-2:1960
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60117-2-1960+AMD1-1966+AMD2-1971+AMD3-1973CSV
     type: standard
     docid:
@@ -105,9 +97,21 @@ relation:
     formattedref:
       content: IEC 60117-2:1960+AMD1:1966+AMD2:1971+AMD3:1973 CSV
       format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60117-2-1960
+    type: standard
+    docid:
+    - id: IEC 60117-2:1960
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60117-2:1960
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3

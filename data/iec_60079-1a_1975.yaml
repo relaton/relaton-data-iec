@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60079-1A-1975
 title:
 - content: 'Electrical apparatus for explosive gas atmospheres - Part 1: Construction
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '1975-01-01'
+- type: stable-until
+  value: '2002-07-05'
+- type: obsoleted
+  value: '2002-07-05'
 contributor:
 - organization:
     name:
@@ -89,7 +93,8 @@ copyright:
   from: '1975'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

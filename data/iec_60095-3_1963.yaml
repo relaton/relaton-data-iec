@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60095-3-1963
 title:
-- content: 'Lead-acid starter batteries - Part 3: Dimensions and marking of  terminals'
+- content: 'Lead-acid starter batteries - Part 3: Dimensions and marking of terminals'
   language:
   - en
   script:
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1963-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -72,7 +76,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

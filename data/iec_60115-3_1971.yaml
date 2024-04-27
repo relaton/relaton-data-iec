@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60115-3-1971
 title:
 - content: 'Fixed resistors - Part 3: Wirewound resistors type I - Selection of methods
@@ -10,7 +10,7 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: 'Résistances fixes  - Partie 3: Résistances bobinées type I - Choix des
+- content: 'Résistances fixes - Partie 3: Résistances bobinées type I - Choix des
     méthodes d''essai et règles générales'
   language:
   - fr
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1971-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1971'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 40

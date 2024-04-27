@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60617-13-1993
 title:
 - content: 'Graphical symbols for diagrams - Part 13: Analogue elements'
@@ -39,6 +39,10 @@ docid:
 date:
 - type: published
   value: '1993-02-08'
+- type: stable-until
+  value: '2004-09-13'
+- type: obsoleted
+  value: '2004-09-13'
 contributor:
 - organization:
     name:
@@ -58,20 +62,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    General; qualifying symbols; amplifiers; function generators:
-    co-ordinate converters; signal converters; electronic switches; coefficient scaler.
-
-    Please note that parts 2 to 11 are available in database format.
+- content: 'General; qualifying symbols; amplifiers; function generators: co-ordinate
+    converters; signal converters; electronic switches; coefficient scaler. Please
+    note that parts 2 to 11 are available in database format.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Généralités symboles distinctifs; amplificateurs; générateurs de fonction; convertisseurs de coordonnées; convertisseurs de signaux; commutateurs électroniques; ajusteur de coefficient.
-
-    Les parties 2 à 11 sont disponibles en format base de données.
+- content: Généralités symboles distinctifs; amplificateurs; générateurs de fonction;
+    convertisseurs de coordonnées; convertisseurs de signaux; commutateurs électroniques;
+    ajusteur de coefficient. Les parties 2 à 11 sont disponibles en format base de
+    données.
   language:
   - fr
   script:
@@ -102,7 +104,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 3
