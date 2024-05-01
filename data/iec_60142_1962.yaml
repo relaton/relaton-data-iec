@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60142-1962
 title:
 - content: Magnetic sound recording on 16 mm and 35 mm film for the international
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1962-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1962'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 29

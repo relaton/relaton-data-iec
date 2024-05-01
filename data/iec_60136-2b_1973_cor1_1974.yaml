@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60136-2B-1973/COR1-1974
 title:
 - content: 'Corrigendum 1 - Dimensions of brushes and brush-holders for electrical
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1974-04-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -73,7 +77,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 2
