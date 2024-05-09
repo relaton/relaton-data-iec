@@ -1,34 +1,31 @@
 ---
 schema-version: v1.2.8
-id: IEC60136-1986/AMD1-1995
+id: IEC62153-4-3-2013/AMD1-2024
 title:
-- content: Amendment 1 - Dimensions of brushes and brush-holders for electrical machinery
+- content: 'Amendment 1 - Metallic communication cable test methods - Part 4-3: Electromagnetic
+    compatibility (EMC) related test method for measuring surface transfer impedance
+    - Triaxial method'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Amendement 1 - Dimensions des balais et porte-balais pour machines électriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
 link:
-- content: https://webstore.iec.ch/publication/840
+- content: https://webstore.iec.ch/publication/80113
   type: src
 type: standard
 docid:
-- id: IEC 60136:1986/AMD1:1995
+- id: IEC 62153-4-3:2013/AMD1:2024
   type: IEC
   primary: true
-- id: urn:iec:std:iec:60136:1986-06:::||amd:1:1995-04
+- id: urn:iec:std:iec:62153-4-3:2013-10:::||amd:1:2024-05
   type: URN
 date:
 - type: published
-  value: '1995-04-26'
+  value: '2024-05-08'
+- type: stable-until
+  value: '2029-12-31'
 contributor:
 - organization:
     name:
@@ -40,15 +37,14 @@ contributor:
   - type: publisher
 edition:
   content: '2'
-revdate: '1995-04-26'
+revdate: '2024-05-08'
 language:
 - en
-- fr
 script:
 - Latn
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -56,18 +52,18 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '1986'
+  from: '2013'
 relation:
 - type: updates
   bibitem:
-    id: IEC60136-1986
+    id: IEC62153-4-3-2006
     type: standard
     docid:
-    - id: IEC 60136:1986
+    - id: IEC 62153-4-3:2006
       type: IEC
       primary: true
     formattedref:
-      content: IEC 60136:1986
+      content: IEC 62153-4-3:2006
       format: text/plain
 place:
 - Geneva
@@ -75,14 +71,18 @@ doctype:
   type: international-standard
 editorialgroup:
   technical_committee:
-  - name: TC 2
-    number: 2
+  - name: TC 46
+    number: 46
     type: technicalCommittee
 ics:
-- code: 29.160.10
-  text: Components for rotating machines
+- code: 33.100.10
+  text: Emission
+- code: 33.120.10
+  text: Coaxial cables. Waveguides
 structuredidentifier:
-  project_number: '60136'
+  project_number: '62153'
+  part: '4'
+  subpart: '3'
   type: IEC
 ext:
   schema-version: v1.0.0
