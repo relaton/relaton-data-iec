@@ -33,8 +33,6 @@ docid:
 date:
 - type: published
   value: '2006-03-14'
-- type: stable-until
-  value: '2024-12-31'
 contributor:
 - organization:
     name:
@@ -82,7 +80,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -91,6 +89,40 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2000'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61347-2-8-2000/AMD1-2006/COR1-2012
+    type: standard
+    docid:
+    - id: IEC 61347-2-8:2000/AMD1:2006/COR1:2012
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-8:2000/AMD1:2006/COR1:2012
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61347-2-8-2000/AMD1-2006
+    type: standard
+    docid:
+    - id: IEC 61347-2-8:2000/AMD1:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-8:2000/AMD1:2006
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61347-2-8-2000
+    type: standard
+    docid:
+    - id: IEC 61347-2-8:2000
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-8:2000
+      format: text/plain
 place:
 - Geneva
 doctype:

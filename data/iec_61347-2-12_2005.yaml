@@ -43,8 +43,6 @@ docid:
 date:
 - type: published
   value: '2005-06-10'
-- type: stable-until
-  value: '2024-12-31'
 contributor:
 - organization:
     name:
@@ -99,7 +97,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -108,6 +106,29 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2005'
+relation:
+- type: updates
+  bibitem:
+    id: IEC61347-2-12-2005+AMD1-2010CSV
+    type: standard
+    docid:
+    - id: IEC 61347-2-12:2005+AMD1:2010 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-12:2005+AMD1:2010 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61347-2-12-2005/AMD1-2010
+    type: standard
+    docid:
+    - id: IEC 61347-2-12:2005/AMD1:2010
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-12:2005/AMD1:2010
+      format: text/plain
 place:
 - Geneva
 doctype:
