@@ -1,19 +1,17 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60244-5A-1971
 title:
-- content: |-
-    First supplement to Publication 244-5 (1971).
-    Methods of measurement for radio transmitters.
+- content: First supplement to Publication 244-5 (1971). Methods of measurement for
+    radio transmitters.
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: |-
-    Premier complément à la Publication 244-5 (1971).
-    Méthode de mesure applicables aux émetteurs radioélectriques.
+- content: Premier complément à la Publication 244-5 (1971). Méthode de mesure applicables
+    aux émetteurs radioélectriques.
   language:
   - fr
   script:
@@ -33,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1971-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -51,17 +53,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Part 5: Measurements particular to transmitters and transporters for monochrome and colour television.
-    Appendices.
+- content: 'Part 5: Measurements particular to transmitters and transporters for monochrome
+    and colour television. Appendices.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Cinquième partie: Mesures relatives aux émetteurs de télévision en noir et blanc et de télévision en couleur.
-    Annexes.
+- content: 'Cinquième partie: Mesures relatives aux émetteurs de télévision en noir
+    et blanc et de télévision en couleur. Annexes.'
   language:
   - fr
   script:
@@ -92,7 +92,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 103

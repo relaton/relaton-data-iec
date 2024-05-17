@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60191-3B-1978
 title:
 - content: 'Mechanical standardization of semiconductor devices - Part 3: General
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1978-01-01'
+- type: stable-until
+  value: '1999-10-29'
+- type: obsoleted
+  value: '1999-10-29'
 contributor:
 - organization:
     name:
@@ -51,9 +55,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Completes IEC 60191-3 by defining in a more satisfactory manner the mounted length and width of DIL and QUIL packages and giving recommendations for the bending of terminals of QUIL packages used for the mounting of integrated circuits.
-    It also lists the dimensions permitting the definition of the families of packages of Form 3 and Form 4.
+- content: Completes IEC 60191-3 by defining in a more satisfactory manner the mounted
+    length and width of DIL and QUIL packages and giving recommendations for the bending
+    of terminals of QUIL packages used for the mounting of integrated circuits. It
+    also lists the dimensions permitting the definition of the families of packages
+    of Form 3 and Form 4.
   language:
   - en
   script:
@@ -82,7 +88,8 @@ copyright:
   from: '1978'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47D

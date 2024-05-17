@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60228A-1982
 title:
 - content: First supplement - Conductors of insulated cables - Guide to the dimensional
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1982-01-01'
+- type: stable-until
+  value: '2004-11-02'
+- type: obsoleted
+  value: '2004-11-02'
 contributor:
 - organization:
     name:
@@ -49,24 +53,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Intended as a guide to manufacturers of cables and cable connectors to assist in ensuring that connectors and cable conductors fit together. Gives guidance on dimensional limits for the following types of conductor included in IEC 60228:
-
-    -circular solid conductors, Class 1, of copper and aluminium;
-    -circular and compacted circular stranded conductors, Class 2, of copper and aluminium;
-    -flexible conductors, Class 5, of copper:
-    -flexible conductors, Class 6, of copper.
+- content: 'Intended as a guide to manufacturers of cables and cable connectors to
+    assist in ensuring that connectors and cable conductors fit together. Gives guidance
+    on dimensional limits for the following types of conductor included in IEC 60228:
+    -circular solid conductors, Class 1, of copper and aluminium; -circular and compacted
+    circular stranded conductors, Class 2, of copper and aluminium; -flexible conductors,
+    Class 5, of copper: -flexible conductors, Class 6, of copper.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Sert de guide pour les fabricants de câbles et de connexions de câbles en vue de contribuer à l'ajustement des connecteurs et des âmes. Donne des indications sur les limites dimensionnelles des types suivants d'âmes compris dans la CEI 60228:
-    - âmes câblées circulaires de la classe 1, en cuivre et en aluminium;
-    - âmes câblées circulaires et circulaires rétreintes de la classe 2, en cuivre et en aluminium;
-    - âmes souples de la classe 5, en cuivre;
-    - âmes souples de la classe 6, en cuivre.
+- content: 'Sert de guide pour les fabricants de câbles et de connexions de câbles
+    en vue de contribuer à l''ajustement des connecteurs et des âmes. Donne des indications
+    sur les limites dimensionnelles des types suivants d''âmes compris dans la CEI
+    60228: - âmes câblées circulaires de la classe 1, en cuivre et en aluminium; -
+    âmes câblées circulaires et circulaires rétreintes de la classe 2, en cuivre et
+    en aluminium; - âmes souples de la classe 5, en cuivre; - âmes souples de la classe
+    6, en cuivre.'
   language:
   - fr
   script:
@@ -85,7 +89,8 @@ copyright:
   from: '1982'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20
