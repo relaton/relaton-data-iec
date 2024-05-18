@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-0-2-1997+AMD1-1999+AMD2-2005CSV
 title:
 - content: 'Specifications for particular types of winding wires - Part 0-2: General
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2005-04-05'
+- type: stable-until
+  value: '2013-10-07'
+- type: obsoleted
+  value: '2013-10-07'
 contributor:
 - organization:
     name:
@@ -51,23 +55,23 @@ language:
 script:
 - Latn
 abstract:
-- content: "Specifies the general requirements of enamelled rectangular copper winding
-    wires with or without bonding layer.\nThis publication supersedes IEC 60182-3
-    (1972).\n\nThe contents of the corrigendum of February 1999 have been included
-    in this copy.<strong>This consolidated version consists of the second edition
-    (1997),\nits amendment 1 (1999) and its amendment 2 (2005). Therefore, no \nneed
-    to order amendments in addition to this publication.</strong>"
+- content: Specifies the general requirements of enamelled rectangular copper winding
+    wires with or without bonding layer. This publication supersedes IEC 60182-3 (1972).
+    The contents of the corrigendum of February 1999 have been included in this copy.
+    This consolidated version consists of the second edition (1997), its amendment
+    1 (1999) and its amendment 2 (2005). Therefore, no need to order amendments in
+    addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "Spécifie les prescriptions générales pour les fils de bobinage de section
-    rectangulaire en cuivre émaillé.\nCette publication remplace la CEI 60182-3.\n\nLe
-    contenu du corrigendum de février 1999 a été pris en considération dans cet exemplaire.<strong>
-    Cette version consolidée comprend la deuxième édition (1997),\nson amendement
-    1 (1999) et son amendement 2 (2005). Il n'est donc\npas nécessaire de commander
-    les amendements avec cette \npublication.</strong>"
+- content: Spécifie les prescriptions générales pour les fils de bobinage de section
+    rectangulaire en cuivre émaillé. Cette publication remplace la CEI 60182-3. Le
+    contenu du corrigendum de février 1999 a été pris en considération dans cet exemplaire.
+    Cette version consolidée comprend la deuxième édition (1997), son amendement 1
+    (1999) et son amendement 2 (2005). Il n'est donc pas nécessaire de commander les
+    amendements avec cette publication.
   language:
   - fr
   script:
@@ -186,7 +190,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

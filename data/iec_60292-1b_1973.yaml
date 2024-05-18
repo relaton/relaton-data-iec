@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60292-1B-1973
 title:
 - content: 'Second supplement - Low-voltage motor staters: Part1: Direct-on-line (full
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1973-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1973'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121A

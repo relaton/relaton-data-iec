@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-25-1990+AMD1-1997+AMD2-1997CSV
 title:
 - content: 'Specifications for particular types of winding wires - Part 25: Polyester
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1997-12-19'
+- type: stable-until
+  value: '2010-03-10'
+- type: obsoleted
+  value: '2010-03-10'
 contributor:
 - organization:
     name:
@@ -53,17 +57,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "<strong>This consolidated version consists of the second edition (1990),\nits
-    amendment 1 (1997) and its amendment 2 (1997). Therefore, no \nneed to order amendments
-    in addition to this publication.</strong>"
+- content: This consolidated version consists of the second edition (1990), its amendment
+    1 (1997) and its amendment 2 (1997). Therefore, no need to order amendments in
+    addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<strong> Cette version consolidée comprend la première édition (1990),\nson
-    amendement 1 (1997) et son amendement 2 (1997). Il n'est donc\npas nécessaire
-    de commander les amendements avec cette \npublication.</strong>"
+- content: Cette version consolidée comprend la première édition (1990), son amendement
+    1 (1997) et son amendement 2 (1997). Il n'est donc pas nécessaire de commander
+    les amendements avec cette publication.
   language:
   - fr
   script:
@@ -138,7 +142,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

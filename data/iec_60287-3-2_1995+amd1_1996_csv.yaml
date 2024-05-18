@@ -1,7 +1,15 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60287-3-2-1995+AMD1-1996CSV
 title:
+- content: 'Calculation of the current rating - Part 3: Sections on operating conditions
+    - Section 2: Economic optimization of power cable size'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 - content: 'Versión oficial en español - Cálculo de la intensidad admisible - Parte
     3: Secciones sobre condiciones de funcionamiento - Sección 2: Optimización económica
     de las secciones de los cables eléctricos de potencia'
@@ -24,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1995-06-30'
+- type: stable-until
+  value: '2012-07-04'
+- type: obsoleted
+  value: '2012-07-04'
 contributor:
 - organization:
     name:
@@ -37,12 +49,13 @@ edition:
   content: '1.1'
 revdate: '1995-06-30'
 language:
+- en
 - es
 script:
 - Latn
 abstract:
-- content: "Deals solely with the economic choice of conductor size based on \njoule
-    losses. Voltage dependent losses have not been considered."
+- content: Deals solely with the economic choice of conductor size based on joule
+    losses. Voltage dependent losses have not been considered.
   language:
   - es
   script:
@@ -84,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

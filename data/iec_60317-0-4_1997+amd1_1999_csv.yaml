@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-0-4-1997+AMD1-1999CSV
 title:
 - content: 'Specifications for particular types of winding wires - Part 0-4: General
@@ -11,8 +11,8 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: 'Spécifications pour types particuliers de fils de bobinage -     Partie
-    0-4: Prescriptions générales - Fil de section rectangulaire en cuivre nu ou émaillé
+- content: 'Spécifications pour types particuliers de fils de bobinage - Partie 0-4:
+    Prescriptions générales - Fil de section rectangulaire en cuivre nu ou émaillé
     guipé de fibres de verre imprégnées de vernis ou de résine'
   language:
   - fr
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2000-01-31'
+- type: stable-until
+  value: '2015-10-23'
+- type: obsoleted
+  value: '2015-10-23'
 contributor:
 - organization:
     name:
@@ -60,9 +64,9 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie les prescriptions générales pour les fils de bobinage de section rectangulaire en cuivre ou en cuivre émaillé guipé de fibres de verre.
-    Cette publication remplace la CEI 60182-3.
+- content: Spécifie les prescriptions générales pour les fils de bobinage de section
+    rectangulaire en cuivre ou en cuivre émaillé guipé de fibres de verre. Cette publication
+    remplace la CEI 60182-3.
   language:
   - fr
   script:
@@ -170,7 +174,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

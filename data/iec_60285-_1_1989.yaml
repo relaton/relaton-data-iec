@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60285-/1-1989
 title:
 - content: Alkaline secondary cells and batteries - Sealed nickel-cadmium cylindrical
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1989-11-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -61,7 +65,8 @@ copyright:
   from: '1989'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

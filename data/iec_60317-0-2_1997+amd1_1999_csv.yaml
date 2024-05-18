@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-0-2-1997+AMD1-1999CSV
 title:
 - content: 'Specifications for particular types of winding wires - Part 0-2: General
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2000-01-14'
+- type: stable-until
+  value: '2013-10-07'
+- type: obsoleted
+  value: '2013-10-07'
 contributor:
 - organization:
     name:
@@ -51,17 +55,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies the general requirements of enamelled rectangular copper winding wires with or without bonding layer.
-    This publication supersedes IEC 60182-3 (1972).
+- content: Specifies the general requirements of enamelled rectangular copper winding
+    wires with or without bonding layer. This publication supersedes IEC 60182-3 (1972).
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie les prescriptions générales pour les fils de bobinage de section rectangulaire en cuivre émaillé.
-    Cette publication remplace la CEI 60182-3.
+- content: Spécifie les prescriptions générales pour les fils de bobinage de section
+    rectangulaire en cuivre émaillé. Cette publication remplace la CEI 60182-3.
   language:
   - fr
   script:
@@ -180,7 +182,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55
