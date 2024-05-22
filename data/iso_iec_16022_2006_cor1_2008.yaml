@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC16022-2006/COR1-2008
 title:
 - content: Corrigendum 1 - Information technology -- Automatic identification and
@@ -49,7 +49,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -63,9 +63,33 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2006'
+relation:
+- type: updates
+  bibitem:
+    id: ISO/IEC16022-2006/COR2-2011
+    type: standard
+    docid:
+    - id: ISO/IEC 16022:2006/COR2:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 16022:2006/COR2:2011
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC16022-2006
+    type: standard
+    docid:
+    - id: ISO/IEC 16022:2006
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 16022:2006
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 31
