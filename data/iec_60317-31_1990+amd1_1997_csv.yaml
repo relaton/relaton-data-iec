@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-31-1990+AMD1-1997CSV
 title:
 - content: 'Specifications for particular types of winding wires - Part 31: Glass-fibre
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1997-12-17'
+- type: stable-until
+  value: '2015-10-22'
+- type: obsoleted
+  value: '2015-10-22'
 contributor:
 - organization:
     name:
@@ -68,9 +72,9 @@ abstract:
     overcoated with polyamide-imide enamelled rectangular copper wire, class 200<br
     />\r\n- IEC 60317-30:1990, Specifications for particular types of winding wires
     - Part 30: Polyimide enamelled rectangular copper wire, class 220<br />\r\nWhen
-    an enamelled wire is used, it must have a minimum class of 155.<br /><strong>This
+    an enamelled wire is used, it must have a minimum class of 155.<br />\r\nThis
     consolidated version consists of the first edition (1990) and its amendment 1
-    (1997). Therefore, no need to order amendment in addition to this publication.</strong>"
+    (1997). Therefore, no need to order amendment in addition to this publication."
   language:
   - en
   script:
@@ -94,9 +98,9 @@ abstract:
     />\r\n- IEC 60317-30:1990, Spécifications pour types particuliers de fils de bobinage
     - Partie 30: Fil de section rectangulaire en cuivre emaillé avec polyimide, classe
     220<br />\r\nQuand les fibres de verre imprégnées sont appliquées, le fil doit
-    avoir au minimum une classe thermique de 155.<br /><strong>Cette version consolidée
+    avoir au minimum une classe thermique de 155.<br />\r\nCette version consolidée
     comprend la première édition (1990) et son amendement 1 (1997). Il n'est donc
-    pas nécessaire de commander l'amendement avec cette publication.</strong>"
+    pas nécessaire de commander l'amendement avec cette publication."
   language:
   - fr
   script:
@@ -149,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

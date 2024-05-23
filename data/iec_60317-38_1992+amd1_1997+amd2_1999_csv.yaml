@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60317-38-1992+AMD1-1997+AMD2-1999CSV
 title:
-- content: 'Specifications for particular types of winding wires - Part 38:  Polyester
+- content: 'Specifications for particular types of winding wires - Part 38: Polyester
     or polyesterimide overcoated with polyamide-imide enamelled round copper wire,
     class 200, with a bonding layer'
   language:
@@ -11,9 +11,9 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: 'Spécifications pour types particuliers de fils de bobinage -     Partie
-    38: Fil de section circulaire en cuivre émaillé avec      polyester ou polyesterimide
-    et avec surcouche polyamide-imide, classe 200, avec une couche adhérente'
+- content: 'Spécifications pour types particuliers de fils de bobinage - Partie 38:
+    Fil de section circulaire en cuivre émaillé avec polyester ou polyesterimide et
+    avec surcouche polyamide-imide, classe 200, avec une couche adhérente'
   language:
   - fr
   script:
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2000-01-14'
+- type: stable-until
+  value: '2013-10-14'
+- type: obsoleted
+  value: '2013-10-14'
 contributor:
 - organization:
     name:
@@ -53,17 +57,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "<strong>This consolidated version consists of the first edition (1992),\nits
-    amendment 1 (1997) and its amendment 2 (1999). Therefore, no \nneed to order amendments
-    in addition to this publication.</strong>"
+- content: This consolidated version consists of the first edition (1992), its amendment
+    1 (1997) and its amendment 2 (1999). Therefore, no need to order amendments in
+    addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<strong> Cette version consolidée comprend la première édition (1992),\nson
-    amendement 1 (1997) et son amendement 2 (1999). Il n'est donc\npas nécessaire
-    de commander les amendements avec cette \npublication.</strong>"
+- content: Cette version consolidée comprend la première édition (1992), son amendement
+    1 (1997) et son amendement 2 (1999). Il n'est donc pas nécessaire de commander
+    les amendements avec cette publication.
   language:
   - fr
   script:
@@ -116,7 +120,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55
