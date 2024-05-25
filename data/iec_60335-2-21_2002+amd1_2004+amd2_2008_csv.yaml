@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-21-2002+AMD1-2004+AMD2-2008CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-21: Particular
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2009-04-29'
+- type: stable-until
+  value: '2012-11-06'
+- type: obsoleted
+  value: '2012-11-06'
 contributor:
 - organization:
     name:
@@ -55,9 +59,9 @@ abstract:
     water heaters for household and similar purposes and intended for heating water
     below boiling temperature, their rated voltage being not more than 250 V for single-phase
     appliances and 480 V for other appliances. The contents of the corrigendum of
-    March 2007 have been included in this copy.<strong>This consolidated version consists
+    March 2007 have been included in this copy. This consolidated version consists
     of the fifth edition (2002), its amendment 1 (2004) and its amendment 2 (2008).
-    Therefore, no need to order amendments in addition to this publication.</strong>
+    Therefore, no need to order amendments in addition to this publication.
   language:
   - en
   script:
@@ -67,10 +71,10 @@ abstract:
     storage water heaters for household and similar purposes and intended for heating
     water below boiling temperature, their rated voltage being not more than 250 V
     for single-phase appliances and 480 V for other appliances. Le contenu du corrigendum
-    de mars 2007 a été pris en considération dans cet exemplaire.<strong> Cette version
-    consolidée comprend la cinquième édition (2002), son amendement 1 (2004) et son
-    amendement 2 (2008). Il n'est donc pas nécessaire de commander les amendements
-    avec cette publication.</strong>
+    de mars 2007 a été pris en considération dans cet exemplaire. Cette version consolidée
+    comprend la cinquième édition (2002), son amendement 1 (2004) et son amendement
+    2 (2008). Il n'est donc pas nécessaire de commander les amendements avec cette
+    publication.
   language:
   - fr
   script:
@@ -288,7 +292,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

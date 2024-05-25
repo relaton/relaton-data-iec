@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-87-2002+AMD1-2007+AMD2-2012CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-87: Particular
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2012-10-26'
+- type: stable-until
+  value: '2016-05-25'
+- type: obsoleted
+  value: '2016-05-25'
 contributor:
 - organization:
     name:
@@ -51,22 +55,22 @@ language:
 script:
 - Latn
 abstract:
-- content: IEC 60335-2-87:2002+A1:2007+A2:2012 deals with the safety of electric animal-stunning
-    equipment, These are for inductrial or commercial use, on farms or in areas where
-    they may be a source of danger to the public. The standard covers manual, semi-automatic
-    and automatic equipment. For electric fence energizers, see IEC 60335-2-76. For
-    electric fishing machines, see IEC 60335-2-86.<br /><strong>This consolidated
-    version consists of the second edition (2002), its amendment 1 (2007) and its
-    amendment 2 (2012). Therefore, no need to order amendments in addition to this
-    publication.</strong>
+- content: "IEC 60335-2-87:2002+A1:2007+A2:2012 deals with the safety of electric
+    animal-stunning equipment, These are for inductrial or commercial use, on farms
+    or in areas where they may be a source of danger to the public. The standard covers
+    manual, semi-automatic and automatic equipment. For electric fence energizers,
+    see IEC 60335-2-76. For electric fishing machines, see IEC 60335-2-86.<br />\r\nThis
+    consolidated version consists of the second edition (2002), its amendment 1 (2007)
+    and its amendment 2 (2012). Therefore, no need to order amendments in addition
+    to this publication."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<strong> Cette version consolidée comprend la seconde édition (2002),
-    son amendement 1 (2007) et son amendement 2 (2012). Il n'est donc pas nécessaire
-    de commander les amendements avec cette publication.</strong>"
+- content: Cette version consolidée comprend la seconde édition (2002), son amendement
+    1 (2007) et son amendement 2 (2012). Il n'est donc pas nécessaire de commander
+    les amendements avec cette publication.
   language:
   - fr
   script:
@@ -141,7 +145,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61H

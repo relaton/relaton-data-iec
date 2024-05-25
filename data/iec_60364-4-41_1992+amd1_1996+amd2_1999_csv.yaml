@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60364-4-41-1992+AMD1-1996+AMD2-1999CSV
 title:
 - content: 'Electrical installations of buildings - Part 4: Protection for safety
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1999-05-27'
+- type: stable-until
+  value: '2001-08-17'
+- type: obsoleted
+  value: '2001-08-17'
 contributor:
 - organization:
     name:
@@ -51,22 +55,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "Describes protective measures intended to ensure the safety of persons
+- content: 'Describes protective measures intended to ensure the safety of persons
     from electric shock both in normal service and in case of fault. Also includes
-    particular requirements applicable to TN, TT and IT system earthing. \n\nNote:
-    For voltage bands for electrical installations of buildings, see IEC 60449.\n\nA
-    basic safety publication in accordance with IEC Guide 104."
+    particular requirements applicable to TN, TT and IT system earthing. Note: For
+    voltage bands for electrical installations of buildings, see IEC 60449. A basic
+    safety publication in accordance with IEC Guide 104.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Décrit les mesures de protection destinées à assurer la sécurité des personnes vis-à-vis des chocs électriques, tant en cours de service normal qu'en cours de défaut. Contient également les règles particulières applicables aux systèmes de mise à la terre TN, TT et IT.
-
-    Note: Pour les domaines de tensions des installations électriques des bâtiments, voir CEI 60449.
-
-    Une publication fondamentale de sécurité conformément au Guide 104.
+- content: 'Décrit les mesures de protection destinées à assurer la sécurité des personnes
+    vis-à-vis des chocs électriques, tant en cours de service normal qu''en cours
+    de défaut. Contient également les règles particulières applicables aux systèmes
+    de mise à la terre TN, TT et IT. Note: Pour les domaines de tensions des installations
+    électriques des bâtiments, voir CEI 60449. Une publication fondamentale de sécurité
+    conformément au Guide 104.'
   language:
   - fr
   script:
@@ -185,7 +189,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 64

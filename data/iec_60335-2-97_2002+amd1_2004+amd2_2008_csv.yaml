@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-97-2002+AMD1-2004+AMD2-2008CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-97: Particular
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2009-01-28'
+- type: stable-until
+  value: '2016-04-20'
+- type: obsoleted
+  value: '2016-04-20'
 contributor:
 - organization:
     name:
@@ -58,17 +62,23 @@ abstract:
     Examples of rolling equipment that can be driven are awnings; blinds; grilles;
     projection screens; shutters for doors and windows. Drives for equipment with
     a spring-controlled driven part, such as a folding arm awning, are also within
-    the scope of this standard.<strong>This consolidated version consists of the second
-    edition (2002), its amendment 1 (2004) and its amendments 2 (2008). Therefore,
-    no need to order amendments in addition to this publication.</strong>
+    the scope of this standard. This consolidated version consists of the second edition
+    (2002), its amendment 1 (2004) and its amendments 2 (2008). Therefore, no need
+    to order amendments in addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Deals with the safety of electric drives for rolling equipment such as shutters, blinds, and awnings, intended for household and similar purposes, their rated voltage being not more than 250 V for single-phase and 480 V for other appliances. Examples of rolling equipment that can be driven are awnings; blinds; grilles; projection screens; shutters for doors and windows. Drives for equipment with a spring-controlled driven part, such as a folding arm awning, are also within the scope of this standard.<strong> Cette version consolidée comprend la deuxième édition (2002),
-    son amendement 1 (2004) et son amendement 2 (2008). Il n'est donc pas nécessaire de commander les amendements avec cette publication.</strong>
+- content: Deals with the safety of electric drives for rolling equipment such as
+    shutters, blinds, and awnings, intended for household and similar purposes, their
+    rated voltage being not more than 250 V for single-phase and 480 V for other appliances.
+    Examples of rolling equipment that can be driven are awnings; blinds; grilles;
+    projection screens; shutters for doors and windows. Drives for equipment with
+    a spring-controlled driven part, such as a folding arm awning, are also within
+    the scope of this standard. Cette version consolidée comprend la deuxième édition
+    (2002), son amendement 1 (2004) et son amendement 2 (2008). Il n'est donc pas
+    nécessaire de commander les amendements avec cette publication.
   language:
   - fr
   script:
@@ -86,6 +96,39 @@ copyright:
     url: www.iec.ch
   from: '2002'
 relation:
+- type: updates
+  bibitem:
+    id: IEC60335-2-97-2016/AMD1-2019
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016/AMD1:2019
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016/AMD1:2019
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-97-2016+AMD1-2019CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016+AMD1:2019 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016+AMD1:2019 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-97-2016
+    type: standard
+    docid:
+    - id: IEC 60335-2-97:2016
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-97:2016
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC60335-2-97-2002/AMD2-2008
@@ -143,7 +186,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61

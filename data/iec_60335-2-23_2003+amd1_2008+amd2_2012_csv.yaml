@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2012-03-26'
+- type: stable-until
+  value: '2016-06-09'
+- type: obsoleted
+  value: '2016-06-09'
 contributor:
 - organization:
     name:
@@ -54,10 +58,10 @@ abstract:
 - content: "IEC 60335-2-23:2003+A1:2008+A2:2012 deals with the safety of electric
     appliances for the care of skin or hair of persons or animals, intended for household
     and similar purposes. The rated voltage of the appliance being not more than 250
-    V.<br /><br />This publication is to be read in conjunction with \nIEC 60335-1:2010.<br
-    /><br /><strong>This consolidated version consists of the fifth edition (2003),\nits
-    amendment 1 (2008) and its amendment 2 (2012). Therefore, no \nneed to order amendments
-    in addition to this publication.</strong>"
+    V.<br /><br />\r\nThis publication is to be read in conjunction with IEC 60335-1:2010.<br
+    /><br />\r\nThis consolidated version consists of the fifth edition (2003), its
+    amendment 1 (2008) and its amendment 2 (2012). Therefore, no need to order amendments
+    in addition to this publication."
   language:
   - en
   script:
@@ -66,10 +70,10 @@ abstract:
 - content: "La CEI 60335-2-23:2003+A1:2008+A2:2012 Traite de la sécurité des appareils
     électriques pour les soins de la peau ou des cheveux des personnes ou des animaux,
     destinés aux usages domestiques et analogues et dont la tension assignée n'est
-    pas supérieure à 250 V.<br /><br />Cette publication doit être lue conjointement
-    avec la \nCEI 60335-1:2010.<br /><br /><strong> Cette version consolidée comprend
-    la cinquième édition (2003),\nson amendement 1 (2008) et son amendement 2 (2012).
-    Il n'est donc \npas nécessaire de commander les amendements avec cette \npublication.</strong>"
+    pas supérieure à 250 V.<br /><br />\r\nCette publication doit être lue conjointement
+    avec la CEI 60335-1:2010.<br /><br />\r\nCette version consolidée comprend la
+    cinquième édition (2003), son amendement 1 (2008) et son amendement 2 (2012).
+    Il n'est donc pas nécessaire de commander les amendements avec cette publication."
   language:
   - fr
   script:
@@ -111,17 +115,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-23-2003/COR2-2008
-    type: standard
-    docid:
-    - id: IEC 60335-2-23:2003/COR2:2008
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-23:2003/COR2:2008
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-23-2003/AMD1-2008
     type: standard
     docid:
@@ -130,6 +123,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-23:2003/AMD1:2008
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-23-2003/COR2-2008
+    type: standard
+    docid:
+    - id: IEC 60335-2-23:2003/COR2:2008
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-23:2003/COR2:2008
       format: text/plain
 - type: updates
   bibitem:

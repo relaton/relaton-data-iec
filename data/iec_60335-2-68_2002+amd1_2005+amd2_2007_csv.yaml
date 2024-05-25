@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60335-2-68-2002+AMD1-2005+AMD2-2007CSV
 title:
 - content: 'Household and similar electrical appliances - Safety - Part 2-68: Particular
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2007-03-21'
+- type: stable-until
+  value: '2012-03-29'
+- type: obsoleted
+  value: '2012-03-29'
 contributor:
 - organization:
     name:
@@ -52,14 +56,14 @@ language:
 script:
 - Latn
 abstract:
-- content: "Applicable to the safety of electrical portable, motor-operated spray
-    extraction appliances and electrical attachments intended for industrial and commercial
-    use, their rated voltage being not more than 250 V for single-phase and 480 V
-    for other appliances. These appliances employ water-based cleaning agents and
-    are used for cleaning fabrics, upholstery, carpets, floor coverings or hard surfaces.<strong>This
-    consolidated version consists of the third edition (2002),\nits amendment 1 (2005)
-    and its amendment 2 (2006). Therefore, no \nneed to order amendments in addition
-    to this publication.</strong>"
+- content: Applicable to the safety of electrical portable, motor-operated spray extraction
+    appliances and electrical attachments intended for industrial and commercial use,
+    their rated voltage being not more than 250 V for single-phase and 480 V for other
+    appliances. These appliances employ water-based cleaning agents and are used for
+    cleaning fabrics, upholstery, carpets, floor coverings or hard surfaces. This
+    consolidated version consists of the third edition (2002), its amendment 1 (2005)
+    and its amendment 2 (2006). Therefore, no need to order amendments in addition
+    to this publication.
   language:
   - en
   script:
@@ -79,17 +83,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60335-2-68-2012+AMD1-2016CSV
-    type: standard
-    docid:
-    - id: IEC 60335-2-68:2012+AMD1:2016 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-68:2012+AMD1:2016 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-68-2012/AMD1-2016
     type: standard
     docid:
@@ -98,6 +91,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-68:2012/AMD1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-68-2012+AMD1-2016CSV
+    type: standard
+    docid:
+    - id: IEC 60335-2-68:2012+AMD1:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-68:2012+AMD1:2016 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -189,7 +193,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 61/SC 61J

@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1999-01-29'
+- type: stable-until
+  value: '2000-07-31'
+- type: obsoleted
+  value: '2000-07-31'
 contributor:
 - organization:
     name:
@@ -51,25 +55,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to:
-    - refrigerating appliances for household and similar use;
-    - ice-makers incorporating a motor-compressor and ice-makers intended to be incorporated in frozen food storage compartments;
-    - refrigerating appliances and ice-makers for use in camping, touring caravans and boats for leisure purposes.
-    These appliances may be operated from the mains, and/or from a separate battery.
-    - compression-type appliances which use flammable refrigerants.
+- content: 'Applies to: - refrigerating appliances for household and similar use;
+    - ice-makers incorporating a motor-compressor and ice-makers intended to be incorporated
+    in frozen food storage compartments; - refrigerating appliances and ice-makers
+    for use in camping, touring caravans and boats for leisure purposes. These appliances
+    may be operated from the mains, and/or from a separate battery. - compression-type
+    appliances which use flammable refrigerants.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique:
-    - aux appareils de réfrigération pour usages domestiques et analogues;
-    - aux fabriques de glace comportant un moto-compresseur et fabriques de glace pouvant être incorporées dans les compartiments pour la conservation de denrées congelées;
-    - aux appareils de réfrigération et fabriques de glace à usage de loisir pour le camping, le caravaning ou le bateau.
-    Ces appareils peuvent être alimentés par le secteur, et/ou par une batterie séparée.
-    - aux appareils à compression qui utilisent des fluides frigorigènes inflammables.
+- content: 'S''applique: - aux appareils de réfrigération pour usages domestiques
+    et analogues; - aux fabriques de glace comportant un moto-compresseur et fabriques
+    de glace pouvant être incorporées dans les compartiments pour la conservation
+    de denrées congelées; - aux appareils de réfrigération et fabriques de glace à
+    usage de loisir pour le camping, le caravaning ou le bateau. Ces appareils peuvent
+    être alimentés par le secteur, et/ou par une batterie séparée. - aux appareils
+    à compression qui utilisent des fluides frigorigènes inflammables.'
   language:
   - fr
   script:
@@ -111,17 +114,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60335-2-24-2010/AMD2-2017
-    type: standard
-    docid:
-    - id: IEC 60335-2-24:2010/AMD2:2017
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60335-2-24:2010/AMD2:2017
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60335-2-24-2010+AMD1-2012+AMD2-2017CSV
     type: standard
     docid:
@@ -130,6 +122,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60335-2-24:2010+AMD1:2012+AMD2:2017 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60335-2-24-2010/AMD2-2017
+    type: standard
+    docid:
+    - id: IEC 60335-2-24:2010/AMD2:2017
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60335-2-24:2010/AMD2:2017
       format: text/plain
 - type: updates
   bibitem:

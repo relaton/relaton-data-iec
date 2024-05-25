@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60368-3A-1981
 title:
 - content: 'First supplement - Piezoelectric filters - Part 3: Standard outlines'
@@ -30,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1981-01-01'
+- type: stable-until
+  value: '2016-11-19'
+- type: obsoleted
+  value: '2016-11-19'
 contributor:
 - organization:
     name:
@@ -60,7 +64,8 @@ copyright:
   from: '1981'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 49

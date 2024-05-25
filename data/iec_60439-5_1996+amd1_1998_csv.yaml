@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60439-5-1996+AMD1-1998CSV
 title:
 - content: 'Low-voltage switchgear and controlgear assemblies - Part 5: Particular
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '1998-10-16'
+- type: stable-until
+  value: '2006-06-13'
+- type: obsoleted
+  value: '2006-06-13'
 contributor:
 - organization:
     name:
@@ -53,25 +57,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Gives supplementary requirements for cable distribution cabinets
-    (CDC), which are stationary, type-tested assemblies (TTA) for
-    outdoor installation in places which are exposed to the public, but
-    where only skilled persons have access to their use. They are safe
-    for use in public three-phase systems
+- content: Gives supplementary requirements for cable distribution cabinets (CDC),
+    which are stationary, type-tested assemblies (TTA) for outdoor installation in
+    places which are exposed to the public, but where only skilled persons have access
+    to their use. They are safe for use in public three-phase systems
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Fournit les exigences complémentaires pour les ensembles
-    d'appareillage fixes pour réseaux de distribution (ERD), ensembles
-    de série (ES) pour installation à l'extérieur, dans des
-    emplacements au contact avec le public, mais qui ne sont
-    accessibles pour l'utilisation que par des personnes qualifiées.
-    Ils sont destinés à être utilisés avec des systèmes triphasés
-    publics.
+- content: Fournit les exigences complémentaires pour les ensembles d'appareillage
+    fixes pour réseaux de distribution (ERD), ensembles de série (ES) pour installation
+    à l'extérieur, dans des emplacements au contact avec le public, mais qui ne sont
+    accessibles pour l'utilisation que par des personnes qualifiées. Ils sont destinés
+    à être utilisés avec des systèmes triphasés publics.
   language:
   - fr
   script:
@@ -124,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 121/SC 121B
