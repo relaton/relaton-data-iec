@@ -1,7 +1,14 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60691-1993+AMD1-1995CSV
 title:
+- content: Thermal-links - Requirements and application guide
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 - content: VERSION OFICIAL EN ESPANOL (Incluye modificación 1:1995) Protectores térmicos.
     Requisitos y guía de aplicación.
   language:
@@ -23,6 +30,10 @@ docid:
 date:
 - type: published
   value: '1993-03-31'
+- type: stable-until
+  value: '2002-12-19'
+- type: obsoleted
+  value: '2002-12-19'
 contributor:
 - organization:
     name:
@@ -36,14 +47,17 @@ edition:
   content: '2.1'
 revdate: '1993-03-31'
 language:
+- en
 - es
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to thermal-links, intended for incorporation in electrical appliances, electronic equipment and component parts thereof, normally intended for use indoors, in order to protect them against excessive temperatures under abnormal conditions.
-    May be applicable to thermal-links for use under other than indoor conditions, provided that the climatic and other circum-
-    stances in the immediate surroundings of such thermal-links are comparable with those in this standard.
+- content: Applies to thermal-links, intended for incorporation in electrical appliances,
+    electronic equipment and component parts thereof, normally intended for use indoors,
+    in order to protect them against excessive temperatures under abnormal conditions.
+    May be applicable to thermal-links for use under other than indoor conditions,
+    provided that the climatic and other circum- stances in the immediate surroundings
+    of such thermal-links are comparable with those in this standard.
   language:
   - es
   script:
@@ -206,7 +220,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 32/SC 32C

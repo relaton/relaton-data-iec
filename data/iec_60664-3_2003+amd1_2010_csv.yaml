@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60664-3-2003+AMD1-2010CSV
 title:
 - content: 'Insulation coordination for equipment within low-voltage systems - Part
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2010-08-23'
+- type: stable-until
+  value: '2016-11-04'
+- type: obsoleted
+  value: '2016-11-04'
 contributor:
 - organization:
     name:
@@ -55,20 +59,19 @@ abstract:
 - content: "IEC 60664-3:2003+A1:2010 applies to assemblies protected against pollution
     by the use of coating, potting or moulding, thus allowing a reduction of clearance
     and creepage distances as described in Part 1 or Part 5. This standard describes
-    the requirements and test procedures for two methods of protection:<br />\n- type
-    1 protection improves the microenvironment of the parts under the protection;<br
-    />\n- type 2 protection is considered to be similar to solid insulation.<br />\nThis
-    standard also applies to all kinds of protected printed boards, including the
-    surface of inner layers of multi-layer boards, substrates and similarly protected
+    the requirements and test procedures for two methods of protection:<br />\r\n-
+    type 1 protection improves the microenvironment of the parts under the protection;<br
+    />\r\n- type 2 protection is considered to be similar to solid insulation.<br
+    />\r\nThis standard also applies to all kinds of protected printed boards, including
+    the surface of inner layers of multi-layer boards, substrates and similarly protected
     assemblies. In the case of multi-layer printed boards, the distances through an
     inner layer are covered by the requirements for solid insulation in Part 1. This
     standard refers only to permanent protection. It does not cover assemblies that
     are subjected to mechanical adjustment or repair. The principles of this standard
-    are applicable to functional, basic, supplementary and reinforced insulation.<strong>This
-    consolidated version consists of the second edition (2003) \nand its amendment
-    1 (2010). Therefore, no need to order amendment in\naddition to this publication.</strong>
-    \n\nThe contents of the corrigendum of November 2010 have been included in this
-    copy."
+    are applicable to functional, basic, supplementary and reinforced insulation.
+    This consolidated version consists of the second edition (2003) and its amendment
+    1 (2010). Therefore, no need to order amendment in addition to this publication.
+    The contents of the corrigendum of November 2010 have been included in this copy."
   language:
   - en
   script:
@@ -78,9 +81,9 @@ abstract:
     la pollution au moyen de revêtement, d'empotage ou de moulage, permettant ainsi
     une réduction des distances d'isolement et des lignes de fuite décrites dans la
     Partie 1 ou la Partie 5. Cette norme décrit les prescriptions et procédures d'essai
-    pour deux méthodes de protection:<br />\n- la protection de type 1 améliore le
-    micro-environnement des parties sous protection;<br />\n- protection de type 2
-    est considérée comme similaire à l'isolation solide.<br />\nLa présente norme
+    pour deux méthodes de protection:<br />\r\n- la protection de type 1 améliore
+    le micro-environnement des parties sous protection;<br />\r\n- protection de type
+    2 est considérée comme similaire à l'isolation solide.<br />\r\nLa présente norme
     s'applique également à toutes sortes de cartes imprimées protégées, y compris
     la surface de couches internes de cartes multicouches, de substrats et d'ensembles
     protégés de manière similaire. Dans le cas de cartes imprimées multicouches, les
@@ -88,11 +91,10 @@ abstract:
     l'isolation solide dans la Partie 1. La présente norme fait uniquement référence
     à une protection permanente. Elle n'englobe pas les ensembles soumis à une mise
     au point mécanique ou à des réparations. Les principes de cette norme sont applicables
-    à l'isolation fonctionnelle, principale, supplémentaire et renforcée.<strong>
-    Cette version consolidée comprend la deuxième édition (2003) et\nson amendement
-    1 (2010). Il n'est donc pas nécessaire de commander \nl'amendement avec cette
-    publication.</strong> \n\nLe contenu du corrigendum de novembre 2010 a été pris
-    en considération dans cet exemplaire."
+    à l'isolation fonctionnelle, principale, supplémentaire et renforcée. Cette version
+    consolidée comprend la deuxième édition (2003) et son amendement 1 (2010). Il
+    n'est donc pas nécessaire de commander l'amendement avec cette publication. Le
+    contenu du corrigendum de novembre 2010 a été pris en considération dans cet exemplaire."
   language:
   - fr
   script:
@@ -156,7 +158,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 109

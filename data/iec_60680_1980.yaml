@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60680-1980
 title:
 - content: Test methods of plasma equipment for electroheat applications
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1980-01-01'
+- type: stable-until
+  value: '2008-08-12'
+- type: obsoleted
+  value: '2008-08-12'
 contributor:
 - organization:
     name:
@@ -49,21 +53,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Standardizes the test conditions and methods for determining the main parameters and technical characteristics of electroheat equipment using one or more plasma torches.
-    Specifies methods of test for:
-    a)spraying, cutting and welding;
-    b)solid, liquid and gaseous charge heating equipment.
+- content: 'Standardizes the test conditions and methods for determining the main
+    parameters and technical characteristics of electroheat equipment using one or
+    more plasma torches. Specifies methods of test for: a)spraying, cutting and welding;
+    b)solid, liquid and gaseous charge heating equipment.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Normalise des conditions et des méthodes d'essai permettant de déterminer les paramètres essentiels et les caractéristiques techniques des installations électrothermiques utilisant une ou plusieurs torches à plasma.
-    Définit les méthodes d'essai s'appliquant:
-    a) aux installations de projection, de coupage et de soudage;
-    b) aux installations de chauffage de charges solides, liquides et gazeuses.
+- content: 'Normalise des conditions et des méthodes d''essai permettant de déterminer
+    les paramètres essentiels et les caractéristiques techniques des installations
+    électrothermiques utilisant une ou plusieurs torches à plasma. Définit les méthodes
+    d''essai s''appliquant: a) aux installations de projection, de coupage et de soudage;
+    b) aux installations de chauffage de charges solides, liquides et gazeuses.'
   language:
   - fr
   script:
@@ -71,7 +74,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -82,7 +85,8 @@ copyright:
   from: '1980'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 27

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60570-2-1-1994+AMD1-1996CSV
 title:
 - content: 'Electrical supply track systems for luminaires - Part 2-1: Mixed supply
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2001-09-27'
+- type: stable-until
+  value: '2003-02-03'
+- type: obsoleted
+  value: '2003-02-03'
 contributor:
 - organization:
     name:
@@ -51,20 +55,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to mixed supply track systems for connecting both class I
-    and class III luminaires simultaneously, but in different track
-    openings to the electrical supply, with two or more poles.
+- content: Applies to mixed supply track systems for connecting both class I and class
+    III luminaires simultaneously, but in different track openings to the electrical
+    supply, with two or more poles.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux systèmes de rails d'alimentation mixte pour la
-    connexion simultanée à l'alimentation électrique des luminaires de
-    classe I et de classe III, mais dans des ouvertures différentes du
-    rail comportant deux pôles ou plus.
+- content: S'applique aux systèmes de rails d'alimentation mixte pour la connexion
+    simultanée à l'alimentation électrique des luminaires de classe I et de classe
+    III, mais dans des ouvertures différentes du rail comportant deux pôles ou plus.
   language:
   - fr
   script:
@@ -106,7 +107,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

@@ -1,7 +1,15 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60641-1-1979+AMD1-1993CSV
 title:
+- content: 'Specification for pressboard and presspaper for electrical purposes -
+    Part 1: Definitions and general requirements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
 - content: 'VERSION OFICIAL EN ESPANOL (Incluye modificación 1:1993) Especificaciones
     para papel y cartón comprimidos para usos eléctricos. Parte 1: Definiciones y
     requisitos generales.'
@@ -24,6 +32,10 @@ docid:
 date:
 - type: published
   value: '1979-01-01'
+- type: stable-until
+  value: '2007-11-14'
+- type: obsoleted
+  value: '2007-11-14'
 contributor:
 - organization:
     name:
@@ -37,6 +49,7 @@ edition:
   content: '1.1'
 revdate: '1979-01-01'
 language:
+- en
 - es
 script:
 - Latn
@@ -84,7 +97,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 15

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60851-4-1996+AMD1-1997+AMD2-2005CSV
 title:
 - content: 'Winding wires - Test methods - Part 4: Chemical properties'
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2005-03-29'
+- type: stable-until
+  value: '2016-07-06'
+- type: obsoleted
+  value: '2016-07-06'
 contributor:
 - organization:
     name:
@@ -49,22 +53,21 @@ language:
 script:
 - Latn
 abstract:
-- content: "Specifies the following tests:\n\n- Test 12: Resistance to solvents;\n\n-
-    Test 16: Resistance to refrigerants;\n\n- Test 17: Solderability;\n\n- Test 20:
-    Resistance to transformer oil<strong>This consolidated version consists of the
-    second edition (1996),\nits amendment 1 (1997) and its amendment 2 (2005). Therefore,
-    no \nneed to order amendments in addition to this publication.</strong>"
+- content: 'Specifies the following tests: - Test 12: Resistance to solvents; - Test
+    16: Resistance to refrigerants; - Test 17: Solderability; - Test 20: Resistance
+    to transformer oil This consolidated version consists of the second edition (1996),
+    its amendment 1 (1997) and its amendment 2 (2005). Therefore, no need to order
+    amendments in addition to this publication.'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "Donne les méthodes d'essai suivantes:\n\n- Essai 12: Résistance aux solvants;\n\n-
-    Essai 16: Résistance aux fluides réfrigérants;\n\n- Essai 17: Brasabilité;\n\n-
-    Essai 20: Résistance à l'huile de transformateurs.<strong> Cette version consolidée
-    comprend la deuxième édition (1996),\nson amendement 1 (1997) et son amendement
-    2 (2005). Il n'est donc\npas nécessaire de commander les amendements avec cette
-    \npublication.</strong>"
+- content: 'Donne les méthodes d''essai suivantes: - Essai 12: Résistance aux solvants;
+    - Essai 16: Résistance aux fluides réfrigérants; - Essai 17: Brasabilité; - Essai
+    20: Résistance à l''huile de transformateurs. Cette version consolidée comprend
+    la deuxième édition (1996), son amendement 1 (1997) et son amendement 2 (2005).
+    Il n''est donc pas nécessaire de commander les amendements avec cette publication.'
   language:
   - fr
   script:
@@ -150,7 +153,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 55

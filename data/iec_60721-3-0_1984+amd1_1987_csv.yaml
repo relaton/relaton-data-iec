@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60721-3-0-1984+AMD1-1987CSV
 title:
-- content: 'Classification of environmental conditions - Part 3:             Classification
-    of groups of environmental parameters and their  severities - Introduction'
+- content: 'Classification of environmental conditions - Part 3: Classification of
+    groups of environmental parameters and their severities - Introduction'
   language:
   - en
   script:
@@ -11,7 +11,7 @@ title:
   format: text/plain
   type: main
 - content: 'Classification des conditions d''environnement - Partie 3: Classification
-    des groupements des agents d''environnement et de  leurs sévérités - Introduction'
+    des groupements des agents d''environnement et de leurs sévérités - Introduction'
   language:
   - fr
   script:
@@ -19,8 +19,8 @@ title:
   format: text/plain
   type: main
 - content: 'VERSION OFICIAL EN ESPANOL (Incluye corrigendum:1985 + modificación 1:1987)
-    :1987              Clasificación de las condiciones ambientales. Parte 3: Clasificación
-    de grupos de parámetros ambientales y sus severidades. Sección 0: Introducción.'
+    :1987 Clasificación de las condiciones ambientales. Parte 3: Clasificación de
+    grupos de parámetros ambientales y sus severidades. Sección 0: Introducción.'
   language:
   - es
   script:
@@ -43,7 +43,9 @@ date:
 - type: published
   value: '2002-10-22'
 - type: stable-until
-  value: '2020-12-31'
+  value: '2020-05-07'
+- type: obsoleted
+  value: '2020-05-07'
 contributor:
 - organization:
     name:
@@ -63,25 +65,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "Establishes classes of environmental parameters and their severities,
-    covering the extreme (short-term) conditions to which a product may be subjected
-    when being transported, installed, stored and used. Separate groups of classes
-    are given for different product applications.\n\nThe contents of the corrigendum
-    of December 1985 have been included in this copy.<strong>This consolidated version
-    consists of the first edition (1984) \nand its amendment 1 (1987). Therefore,
-    no need to order amendment in\naddition to this publication.</strong>"
+- content: Establishes classes of environmental parameters and their severities, covering
+    the extreme (short-term) conditions to which a product may be subjected when being
+    transported, installed, stored and used. Separate groups of classes are given
+    for different product applications. The contents of the corrigendum of December
+    1985 have been included in this copy. This consolidated version consists of the
+    first edition (1984) and its amendment 1 (1987). Therefore, no need to order amendment
+    in addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "Définit les catégories des agents d'environnement et de leurs degrés de
+- content: Définit les catégories des agents d'environnement et de leurs degrés de
     sévérité, couvrant les conditions extrêmes (de courte durée) auxquelles un produit
     peut être exposé lorsqu'il est transporté, installé, mis en stock et utilisé.
-    Ces catégories dépendent des applications du produit.\n\nLe contenu du corrigendum
-    de décembre 1985 a été pris en considération dans cet exemplaire.<strong> Cette
-    version consolidée comprend la première édition (1984) et\nson amendement 1 (1987).
-    Il n'est donc pas nécessaire de commander \nl'amendement avec cette publication.</strong>"
+    Ces catégories dépendent des applications du produit. Le contenu du corrigendum
+    de décembre 1985 a été pris en considération dans cet exemplaire. Cette version
+    consolidée comprend la première édition (1984) et son amendement 1 (1987). Il
+    n'est donc pas nécessaire de commander l'amendement avec cette publication.
   language:
   - fr
   script:
@@ -134,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

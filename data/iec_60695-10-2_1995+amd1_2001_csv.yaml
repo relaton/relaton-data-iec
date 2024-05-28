@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60695-10-2-1995+AMD1-2001CSV
 title:
 - content: 'Fire hazard testing - Part 10-2: Guidance and test methods for the minimization
@@ -37,6 +37,10 @@ docid:
 date:
 - type: published
   value: '2001-11-22'
+- type: stable-until
+  value: '2003-07-04'
+- type: obsoleted
+  value: '2003-07-04'
 contributor:
 - organization:
     name:
@@ -55,19 +59,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies the ball pressure test as a method for testing parts of non-metallic materials for resistance to heat. It is applicable to electrotechnical equipment, its sub-assemblies and components, and to solid electrical insulating materials except ceramics.
-
-    Has the status of a basic safety publication in accordance with IEC Guide 104.
+- content: Specifies the ball pressure test as a method for testing parts of non-metallic
+    materials for resistance to heat. It is applicable to electrotechnical equipment,
+    its sub-assemblies and components, and to solid electrical insulating materials
+    except ceramics. Has the status of a basic safety publication in accordance with
+    IEC Guide 104.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Spécifie l'essai à la bille comme méthode d'essai appliquée aux parties en matériaux non métalliques pour vérifier la résistance à la chaleur. Elle est applicable aux matériels électrotechniques, à leurs sous-ensembles et à leur composants, et aux matériaux isolants électriques solides à l'exception des céramiques.
-
-    A le statut d'une publication fondamentale de sécurité conformément au Guide CEI 104.
+- content: Spécifie l'essai à la bille comme méthode d'essai appliquée aux parties
+    en matériaux non métalliques pour vérifier la résistance à la chaleur. Elle est
+    applicable aux matériels électrotechniques, à leurs sous-ensembles et à leur composants,
+    et aux matériaux isolants électriques solides à l'exception des céramiques. A
+    le statut d'une publication fondamentale de sécurité conformément au Guide CEI
+    104.
   language:
   - fr
   script:
@@ -131,7 +138,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 89

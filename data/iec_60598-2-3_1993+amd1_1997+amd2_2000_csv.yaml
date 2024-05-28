@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-3-1993+AMD1-1997+AMD2-2000CSV
 title:
 - content: 'Luminaires - Part 2-3: Particular requirements - Luminaires for road and
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2001-09-26'
+- type: stable-until
+  value: '2002-12-04'
+- type: obsoleted
+  value: '2002-12-04'
 contributor:
 - organization:
     name:
@@ -51,21 +55,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Specifies requirements for luminaires for road and street lighting, for use with tungsten filament, tubular fluorescent and other discharge lamps on supply voltages not exceeding 1 000 V.
-
-    The contents of the corrigendum of March 2001 have been included in
-    this copy.
+- content: Specifies requirements for luminaires for road and street lighting, for
+    use with tungsten filament, tubular fluorescent and other discharge lamps on supply
+    voltages not exceeding 1 000 V. The contents of the corrigendum of March 2001
+    have been included in this copy.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Détaille les prescriptions applicables aux luminaires d'éclairage public à utiliser avec des lampes à filament de tungstène, des lampes tubulaires fluorescentes et autres lampes à décharge pour des tensions d'alimentation ne dépassant pas 1 000 V.
-
-    Le contenu du corrigendum de mars 2001 a été pris en considération
-    dans cet exemplaire.
+- content: Détaille les prescriptions applicables aux luminaires d'éclairage public
+    à utiliser avec des lampes à filament de tungstène, des lampes tubulaires fluorescentes
+    et autres lampes à décharge pour des tensions d'alimentation ne dépassant pas
+    1 000 V. Le contenu du corrigendum de mars 2001 a été pris en considération dans
+    cet exemplaire.
   language:
   - fr
   script:
@@ -173,7 +176,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60721-2-4-1987+AMD1-1988CSV
 title:
 - content: 'Classification of environmental conditions - Part 2-4: Environmental conditions
@@ -10,7 +10,7 @@ title:
   - Latn
   format: text/plain
   type: main
-- content: 'Classification des conditions d''environnement - Partie 2-4:  Conditions
+- content: 'Classification des conditions d''environnement - Partie 2-4: Conditions
     d''environnement présentes dans la nature - Rayonnement solaire et température'
   language:
   - fr
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-10-22'
+- type: stable-until
+  value: '2018-06-22'
+- type: obsoleted
+  value: '2018-06-22'
 contributor:
 - organization:
     name:
@@ -51,20 +55,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "Defines limiting severities of solar radiation to which products are liable
-    to be exposed during transportation, storage and use.<strong>This consolidated
-    version consists of the first edition (1987) \nand its amendment 1 (1988). Therefore,
-    no need to order amendment in\naddition to this publication.</strong>"
+- content: Defines limiting severities of solar radiation to which products are liable
+    to be exposed during transportation, storage and use. This consolidated version
+    consists of the first edition (1987) and its amendment 1 (1988). Therefore, no
+    need to order amendment in addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "Définit les sévérités limites du rayonnement solaire auquel les produits
+- content: Définit les sévérités limites du rayonnement solaire auquel les produits
     sont susceptibles d'être exposés pendant le transport, le stockage et la mise
-    en oeuvre.<strong> Cette version consolidée comprend la première édition (1987)
-    et\nson amendement 1 (1988). Il n'est donc pas nécessaire de commander \nl'amendement
-    avec cette publication.</strong>"
+    en oeuvre. Cette version consolidée comprend la première édition (1987) et son
+    amendement 1 (1988). Il n'est donc pas nécessaire de commander l'amendement avec
+    cette publication.
   language:
   - fr
   script:
@@ -106,7 +110,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 104

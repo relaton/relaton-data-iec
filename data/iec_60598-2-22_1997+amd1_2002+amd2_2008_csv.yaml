@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60598-2-22-1997+AMD1-2002+AMD2-2008CSV
 title:
 - content: 'Luminaires - Part 2-22: Particular requirements - Luminaires for emergency
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2008-04-14'
+- type: stable-until
+  value: '2014-06-09'
+- type: obsoleted
+  value: '2014-06-09'
 contributor:
 - organization:
     name:
@@ -53,9 +57,9 @@ script:
 abstract:
 - content: IEC 60598-2-22.Ed 3.2:2008 specifies requirements for emergency lighting
     luminaires for use with electrical light sources on emergency power supplies not
-    exceeding 1 000 V.<strong>This consolidated version consists of the third edition
-    (1997), its amendment 1 (2002) and its amendment 2 (2008). Therefore, no need
-    to order amendments in addition to this publication.</strong>
+    exceeding 1 000 V. This consolidated version consists of the third edition (1997),
+    its amendment 1 (2002) and its amendment 2 (2008). Therefore, no need to order
+    amendments in addition to this publication.
   language:
   - en
   script:
@@ -64,9 +68,9 @@ abstract:
 - content: 'La CEI 60598-2-22.Ed 3.2: 2008 spécifie les prescriptions applicables
     aux luminaires pour éclairage de secours à utiliser avec des sources lumineuses
     électriques, pour des tensions d''alimentation de secours ne dépassant pas 1 000
-    V.<strong>La présente version consolidée comprend la troisième édition (1997),
-    son amendement 1 (2002) et son amendement 2 (2008). Il n''est donc pas nécessaire
-    de commander les amendements avec cette publication.</strong>'
+    V. La présente version consolidée comprend la troisième édition (1997), son amendement
+    1 (2002) et son amendement 2 (2008). Il n''est donc pas nécessaire de commander
+    les amendements avec cette publication.'
   language:
   - fr
   script:
@@ -86,17 +90,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60598-2-22-2014+AMD1-2017CSV
-    type: standard
-    docid:
-    - id: IEC 60598-2-22:2014+AMD1:2017 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60598-2-22:2014+AMD1:2017 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60598-2-22-2014/AMD1-2017
     type: standard
     docid:
@@ -105,6 +98,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60598-2-22:2014/AMD1:2017
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60598-2-22-2014+AMD1-2017CSV
+    type: standard
+    docid:
+    - id: IEC 60598-2-22:2014+AMD1:2017 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60598-2-22:2014+AMD1:2017 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -207,7 +211,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34D
