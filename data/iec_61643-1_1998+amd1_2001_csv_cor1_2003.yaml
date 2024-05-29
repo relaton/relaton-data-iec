@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61643-1-1998+AMD1-2001CSV/COR1-2003
 title:
 - content: 'Corrigendum 1 - Surge protective devices connected to low-voltage power
@@ -32,6 +32,10 @@ docid:
 date:
 - type: published
   value: '2003-10-08'
+- type: stable-until
+  value: '2005-03-30'
+- type: obsoleted
+  value: '2005-03-30'
 contributor:
 - organization:
     name:
@@ -50,18 +54,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    IEC 61643-1(Edition 1.1 - 2002) Corrigendum 1
-    Surge protective devices connected to low-voltage power distribution systems - Part 1: Performance requirements and testing methods
+- content: 'IEC 61643-1(Edition 1.1 - 2002) Corrigendum 1 Surge protective devices
+    connected to low-voltage power distribution systems - Part 1: Performance requirements
+    and testing methods'
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    CEI 61643-1(Edition 1.1 - 2002) Corrigendum 1
-    Dispositifs de protection contre les surtensions connectés aux réseaux de distribution basse tension -
-    Partie 1: Prescriptions de fonctionnement et méthodes d'essai
+- content: 'CEI 61643-1(Edition 1.1 - 2002) Corrigendum 1 Dispositifs de protection
+    contre les surtensions connectés aux réseaux de distribution basse tension - Partie
+    1: Prescriptions de fonctionnement et méthodes d''essai'
   language:
   - fr
   script:
@@ -147,7 +150,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 37/SC 37A

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61754-7-1996+AMD1-1999+AMD2-2000CSV
 title:
 - content: 'Fibre optic connector interfaces - Part 7: Type MPO connector family'
@@ -24,6 +24,10 @@ docid:
 date:
 - type: published
   value: '2000-11-28'
+- type: stable-until
+  value: '2004-11-29'
+- type: obsoleted
+  value: '2004-11-29'
 contributor:
 - organization:
     name:
@@ -41,10 +45,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Defines the standard interface dimensions for type MPO family of
-    connectors which is a multiway plug connector characterized by a
-    rectangular ferrule normally 6,4 mm x 2,5 mm.
+- content: Defines the standard interface dimensions for type MPO family of connectors
+    which is a multiway plug connector characterized by a rectangular ferrule normally
+    6,4 mm x 2,5 mm.
   language:
   - en
   script:
@@ -119,7 +122,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 86/SC 86B

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61477-2001+AMD1-2002+AMD2-2004CSV
 title:
 - content: Live working - Minimum requirements for the utilization of tools, devices
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2005-01-11'
+- type: stable-until
+  value: '2009-02-20'
+- type: obsoleted
+  value: '2009-02-20'
 contributor:
 - organization:
     name:
@@ -51,25 +55,24 @@ language:
 script:
 - Latn
 abstract:
-- content: "Gives the minimum requirements relative to specification, manufacture,
+- content: Gives the minimum requirements relative to specification, manufacture,
     selection, application and maintenance of tools, devices and equipment for live
-    working.\nIt provides the type of information which is useful to skilled persons
-    in order to make the use of tools, devices and equipment safer.<strong>This consolidated
-    version consists of the first edition (2001),\nits amendment 1 (2002) and its
-    amendment 2 (2004). Therefore, no \nneed to order amendments in addition to this
-    publication.</strong>"
+    working. It provides the type of information which is useful to skilled persons
+    in order to make the use of tools, devices and equipment safer. This consolidated
+    version consists of the first edition (2001), its amendment 1 (2002) and its amendment
+    2 (2004). Therefore, no need to order amendments in addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "Donne les exigences minimales relatives aux spécifications, à la fabrication,
+- content: Donne les exigences minimales relatives aux spécifications, à la fabrication,
     à la sélection, à l'emploi et à l'entretien des outils, dispositifs et équipements
-    pour travaux sous tension.\nElle fournit le type d'information utile aux personnes
+    pour travaux sous tension. Elle fournit le type d'information utile aux personnes
     formées de façon à rendre plus sûre l'utilisation des outils, dispositifs et équipements
-    pour travaux sous tension.<strong> Cette version consolidée comprend la première
-    édition (2001),\nson amendement 1 (2002) et son amendement 2 (2004). Il n'est
-    donc\npas nécessaire de commander les amendements avec cette \npublication.</strong>"
+    pour travaux sous tension. Cette version consolidée comprend la première édition
+    (2001), son amendement 1 (2002) et son amendement 2 (2004). Il n'est donc pas
+    nécessaire de commander les amendements avec cette publication.
   language:
   - fr
   script:
@@ -133,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

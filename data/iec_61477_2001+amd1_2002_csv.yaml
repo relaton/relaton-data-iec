@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61477-2001+AMD1-2002CSV
 title:
 - content: Live working - Minimum requirements for the utilization of tools, devices
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2002-06-27'
+- type: stable-until
+  value: '2009-02-20'
+- type: obsoleted
+  value: '2009-02-20'
 contributor:
 - organization:
     name:
@@ -51,17 +55,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Gives the minimum requirements relative to specification, manufacture, selection, application and maintenance of tools, devices and equipment for live working.
-    It provides the type of information which is useful to skilled persons in order to make the use of tools, devices and equipment safer.
+- content: Gives the minimum requirements relative to specification, manufacture,
+    selection, application and maintenance of tools, devices and equipment for live
+    working. It provides the type of information which is useful to skilled persons
+    in order to make the use of tools, devices and equipment safer.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Donne les exigences minimales relatives aux spécifications, à la fabrication, à la sélection, à l'emploi et à l'entretien des outils, dispositifs et équipements pour travaux sous tension.
-    Elle fournit le type d'information utile aux personnes formées de façon à rendre plus sûre l'utilisation des outils, dispositifs et équipements pour travaux sous tension.
+- content: Donne les exigences minimales relatives aux spécifications, à la fabrication,
+    à la sélection, à l'emploi et à l'entretien des outils, dispositifs et équipements
+    pour travaux sous tension. Elle fournit le type d'information utile aux personnes
+    formées de façon à rendre plus sûre l'utilisation des outils, dispositifs et équipements
+    pour travaux sous tension.
   language:
   - fr
   script:
@@ -125,7 +132,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 78

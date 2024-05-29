@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61000-4-16-1998+AMD1-2001+AMD2-2009CSV
 title:
 - content: 'Electromagnetic compatibility (EMC) - Part 4-16: Testing and measurement
@@ -35,6 +35,10 @@ docid:
 date:
 - type: published
   value: '2011-05-11'
+- type: stable-until
+  value: '2015-12-09'
+- type: obsoleted
+  value: '2015-12-09'
 contributor:
 - organization:
     name:
@@ -53,23 +57,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "IEC 61000-4-16:1998+A1:2001+A2:2009 Establishes a common and reproducible
+- content: IEC 61000-4-16:1998+A1:2001+A2:2009 Establishes a common and reproducible
     basis for testing electrical and electronic equipment with the application of
     common mode disturbances to power supply, control, signal and communication ports.
     This standard defines test voltage and current waveform, range of test levels,
     test equipment, test set-up and test procedures. The test is intended to demonstrate
     the immunity of electrical and electronic equipment when subjected to conducted,
     common mode disturbances such as those originating from power line currents and
-    return leakage currents in the earthing/grounding system.<strong>This consolidated
-    version consists of the first edition (1998),\nits amendment 1 (2001) and its
-    amendment 2 (2009). Therefore, no \nneed to order amendments in addition to this
-    publication.</strong>"
+    return leakage currents in the earthing/grounding system. This consolidated version
+    consists of the first edition (1998), its amendment 1 (2001) and its amendment
+    2 (2009). Therefore, no need to order amendments in addition to this publication.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "La CEI 61000-4-16:1998+A1:2001+A2:2009 Etablit une base commune et reproductible
+- content: La CEI 61000-4-16:1998+A1:2001+A2:2009 Etablit une base commune et reproductible
     destinée à essayer les performances des matériels électriques et électroniques
     lorsque ceux-ci sont soumis à des perturbations par conduction en mode commun,
     appliquées aux accès d'alimentation, de commande, de signal et de communication.
@@ -78,10 +81,9 @@ abstract:
     d'essai. L'essai vise à démontrer l'immunité des matériels électriques et électroniques
     soumis à des perturbations de conduction en mode commun telles que celles provenant
     des courants de ligne d'alimentation et des retours de courants de fuite dans
-    les dispositifs de mise à la terre/à la masse.<strong> Cette version consolidée
-    comprend la première édition (1998),\nson amendement 1 (2001) et son amendement
-    2 (2009). Il n'est donc\npas nécessaire de commander les amendements avec cette
-    \npublication.</strong>"
+    les dispositifs de mise à la terre/à la masse. Cette version consolidée comprend
+    la première édition (1998), son amendement 1 (2001) et son amendement 2 (2009).
+    Il n'est donc pas nécessaire de commander les amendements avec cette publication.
   language:
   - fr
   script:
@@ -145,7 +147,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 77/SC 77A

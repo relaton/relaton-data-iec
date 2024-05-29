@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61156-3-1-1995+AMD1-1999CSV
 title:
 - content: 'Multicore and symmetrical pair/quad cables for digital communications
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2000-04-28'
+- type: stable-until
+  value: '2003-04-28'
+- type: obsoleted
+  value: '2003-04-28'
 contributor:
 - organization:
     name:
@@ -61,13 +65,11 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    Détermine la mise en pages et les style pour les spécifications
-    particulières décrivant les câbles à paire(s)/quarte(s) symétriques
-    pour transmissions numériques pour raccordement de terminal. Sur la
-    base de cette spécification particulière cadre, des spécifications
-    particulières peuvent être préparées par un organisme national de
-    normalisation, un constructeur ou un utilisateur.
+- content: Détermine la mise en pages et les style pour les spécifications particulières
+    décrivant les câbles à paire(s)/quarte(s) symétriques pour transmissions numériques
+    pour raccordement de terminal. Sur la base de cette spécification particulière
+    cadre, des spécifications particulières peuvent être préparées par un organisme
+    national de normalisation, un constructeur ou un utilisateur.
   language:
   - fr
   script:
@@ -142,7 +144,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

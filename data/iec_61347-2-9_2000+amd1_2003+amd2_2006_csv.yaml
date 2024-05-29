@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61347-2-9-2000+AMD1-2003+AMD2-2006CSV
 title:
 - content: 'Lamp controlgear - Part 2-9: Particular requirements for ballasts for
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '2009-10-13'
+- type: stable-until
+  value: '2012-10-30'
+- type: obsoleted
+  value: '2012-10-30'
 contributor:
 - organization:
     name:
@@ -58,10 +62,10 @@ abstract:
     or 60 Hz, associated with discharge lamps, having rated wattages, dimensions and
     characteristics as specified in IEC 60188, IEC 60192 and IEC 60662. This standard
     shall be used in conjunction with IEC 61347-1. It was established on the basis
-    of the first edition (2000) of that standard.<strong>This consolidated version
-    consists of the first edition (2000),\nits amendment 1 (2003) and its amendment
-    2 (2006). Therefore, no \nneed to order amendments in addition to this publication.</strong><br
-    /><br />This publication shall be read in conjunction with IEC 61347-1:2000."
+    of the first edition (2000) of that standard. This consolidated version consists
+    of the first edition (2000), its amendment 1 (2003) and its amendment 2 (2006).
+    Therefore, no need to order amendments in addition to this publication.<br /><br
+    />\r\nThis publication shall be read in conjunction with IEC 61347-1:2000."
   language:
   - en
   script:
@@ -76,10 +80,10 @@ abstract:
     nominales, les dimensions et les caractéristiques sont indiquées dans la CEI 60188,
     la CEI 60192 et la CEI 60662. Cette norme doit être utilisée conjointement avec
     la CEI 61347-1. Elle a été établie sur la base de la première édition (2000) de
-    cette norme.<strong> Cette version consolidée comprend la première édition (2000),\nson
-    amendement 1 (2003) et son amendement 2 (2006). Il n'est donc\npas nécessaire
-    de commander les amendements avec cette \npublication.</strong><br /><br />Cette
-    publication doit être lue conjointement avec la CEI 61347-1:2000."
+    cette norme. Cette version consolidée comprend la première édition (2000), son
+    amendement 1 (2003) et son amendement 2 (2006). Il n'est donc pas nécessaire de
+    commander les amendements avec cette publication.<br /><br />\r\nCette publication
+    doit être lue conjointement avec la CEI 61347-1:2000."
   language:
   - fr
   script:
@@ -143,7 +147,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34C

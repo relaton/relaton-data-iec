@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61156-2-1-1995+AMD1-1999CSV
 title:
 - content: 'Multicore and symmetrical pair/quad cables for digital communications
-    - Part 2: Horizontal floor wiring - Section 1:  Blank detail specification'
+    - Part 2: Horizontal floor wiring - Section 1: Blank detail specification'
   language:
   - en
   script:
@@ -34,6 +34,10 @@ docid:
 date:
 - type: published
   value: '2000-04-28'
+- type: stable-until
+  value: '2003-04-25'
+- type: obsoleted
+  value: '2003-04-25'
 contributor:
 - organization:
     name:
@@ -140,7 +144,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

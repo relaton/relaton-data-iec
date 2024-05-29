@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60969-1988+AMD1-1991+AMD2-2000CSV
 title:
 - content: Self-ballasted lamps for general lighting services - Performance requirements
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '2001-03-22'
+- type: stable-until
+  value: '2016-10-13'
+- type: obsoleted
+  value: '2016-10-13'
 contributor:
 - organization:
     name:
@@ -49,13 +53,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "Specifies the performance requirements together with the test methods
-    and conditions required to show compliance of tubular fluorescent and other gas-discharge
+- content: Specifies the performance requirements together with the test methods and
+    conditions required to show compliance of tubular fluorescent and other gas-discharge
     lamps with integrated means for controlling starting and stable operation (self-ballasted
-    lamps), intended for domestic and similar general lighting purposes.<strong>This
-    consolidated version consists of the first edition (1998),\nits amendment 1 (1991)
-    and its amendment 2 (2000). Therefore, no \nneed to order amendments in addition
-    to this publication.</strong>"
+    lamps), intended for domestic and similar general lighting purposes. This consolidated
+    version consists of the first edition (1998), its amendment 1 (1991) and its amendment
+    2 (2000). Therefore, no need to order amendments in addition to this publication.
   language:
   - en
   script:
@@ -65,9 +68,9 @@ abstract:
     requises pour démontrer la conformité de la lampe tubulaire à fluorescence et
     autres lampes à décharge à dispositif d'amorçage et de stabilisation incorporé
     (lampes à ballast incorporé) destinées à l'éclairage domestique et éclairage général
-    similaire.<strong> Cette version consolidée comprend la première édition (1998),
-    son amendement 1 (1991) et son amendement 2 (2000). Il n'est donc pas nécessaire
-    de commander les amendements avec cette publication.</strong>
+    similaire. Cette version consolidée comprend la première édition (1998), son amendement
+    1 (1991) et son amendement 2 (2000). Il n'est donc pas nécessaire de commander
+    les amendements avec cette publication.
   language:
   - fr
   script:
@@ -120,7 +123,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

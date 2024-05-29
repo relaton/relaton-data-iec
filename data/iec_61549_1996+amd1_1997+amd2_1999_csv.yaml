@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC61549-1996+AMD1-1997+AMD2-1999CSV
 title:
 - content: Miscellaneous lamps
@@ -31,6 +31,10 @@ docid:
 date:
 - type: published
   value: '1999-05-31'
+- type: stable-until
+  value: '2003-05-13'
+- type: obsoleted
+  value: '2003-05-13'
 contributor:
 - organization:
     name:
@@ -49,17 +53,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Relevant to lamps not covered elsewhere in the scope of existing
-    IEC standards.
+- content: Relevant to lamps not covered elsewhere in the scope of existing IEC standards.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    Traite des lampes ou des renseignements les concernant qui ne sont
-    pas inclus dans le domaine d'application des normes CEI existantes.
+- content: Traite des lampes ou des renseignements les concernant qui ne sont pas
+    inclus dans le domaine d'application des normes CEI existantes.
   language:
   - fr
   script:
@@ -123,7 +124,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

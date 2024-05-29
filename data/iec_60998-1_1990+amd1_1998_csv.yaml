@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: IEC60998-1-1990+AMD1-1998CSV
 title:
 - content: 'Connecting devices for low voltage circuits for household and similar
@@ -33,6 +33,10 @@ docid:
 date:
 - type: published
   value: '1999-04-30'
+- type: stable-until
+  value: '2002-12-13'
+- type: obsoleted
+  value: '2002-12-13'
 contributor:
 - organization:
     name:
@@ -51,20 +55,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    Applies to connecting devices as separate entities for the connection of two or more electrical copper conductors, rigid or flexible, having a cross-sectional area of 0.5 mm2 up to and including 35 mm2 with a rated voltage not exceeding 1 000 V a.c. up to and including 1 000 Hz and 1 500 V d.c. where electrical energy is used for household and similar purposes.
-    This publication supersedes IEC 60685-1.
-
+- content: Applies to connecting devices as separate entities for the connection of
+    two or more electrical copper conductors, rigid or flexible, having a cross-sectional
+    area of 0.5 mm2 up to and including 35 mm2 with a rated voltage not exceeding
+    1 000 V a.c. up to and including 1 000 Hz and 1 500 V d.c. where electrical energy
+    is used for household and similar purposes. This publication supersedes IEC 60685-1.
     Has the status of a group safety publication in accordance with IEC Guide 104.
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    S'applique aux dispositifs de connexion en tant que parties séparées pour la connexion de deux ou plusieurs conducteurs électriques en cuivre rigides jusqu'à et y compris 35 mm2 avec une tension assignée ne dépassant pas 1000 V en courant alternatif jusqu'à et y compris 1000 Hz et 1500 V en courant continu lorsque l'énergie électrique est utilisée pour usage domestiques et analogues. Cette publication remplace la CEI 60685-1 (1980).
-
-    A le statut d'une publication groupée de sécurité conformément au Guide 104.
+- content: S'applique aux dispositifs de connexion en tant que parties séparées pour
+    la connexion de deux ou plusieurs conducteurs électriques en cuivre rigides jusqu'à
+    et y compris 35 mm2 avec une tension assignée ne dépassant pas 1000 V en courant
+    alternatif jusqu'à et y compris 1000 Hz et 1500 V en courant continu lorsque l'énergie
+    électrique est utilisée pour usage domestiques et analogues. Cette publication
+    remplace la CEI 60685-1 (1980). A le statut d'une publication groupée de sécurité
+    conformément au Guide 104.
   language:
   - fr
   script:
@@ -106,7 +114,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 23
