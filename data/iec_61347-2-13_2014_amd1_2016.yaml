@@ -41,8 +41,6 @@ docid:
 date:
 - type: published
   value: '2016-07-20'
-- type: stable-until
-  value: '2024-12-31'
 contributor:
 - organization:
     name:
@@ -63,7 +61,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: PUBLISHED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -73,6 +71,28 @@ copyright:
     url: www.iec.ch
   from: '2014'
 relation:
+- type: updates
+  bibitem:
+    id: IEC61347-2-13-2014+AMD1-2016CSV
+    type: standard
+    docid:
+    - id: IEC 61347-2-13:2014+AMD1:2016 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-13:2014+AMD1:2016 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC61347-2-13-2014
+    type: standard
+    docid:
+    - id: IEC 61347-2-13:2014
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 61347-2-13:2014
+      format: text/plain
 - type: updates
   bibitem:
     id: IEC61347-2-13-2006
