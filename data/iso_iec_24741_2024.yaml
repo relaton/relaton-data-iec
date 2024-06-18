@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.8
-id: ISO/IECTR24741-2018
+id: ISO/IEC24741-2024
 title:
 - content: Information technology - Biometrics - Overview and application
   language:
@@ -10,23 +10,19 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/62579
+- content: https://webstore.iec.ch/publication/95976
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiectr24741{ed2.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec24741{ed3.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC TR 24741:2018
+- id: ISO/IEC 24741:2024
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:24741:2018-01:tr::'
+- id: 'urn:iec:std:iso-iec:24741:2024-06:::'
   type: URN
 date:
 - type: published
-  value: '2018-01-24'
-- type: stable-until
-  value: '2024-06-12'
-- type: obsoleted
   value: '2024-06-12'
 contributor:
 - organization:
@@ -46,21 +42,23 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2018-01-24'
+  content: '3'
+revdate: '2024-06-12'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ISO/IEC TR 24741:2018 describes the history of biometrics and what biometrics
-    does, the various biometric technologies in general use today (for example, fingerprint
-    recognition and face recognition) and the architecture of the systems and the
-    system processes that allow automated recognition using those technologies. It
-    also provides information about the application of biometrics in various business
-    domains such as border management, law enforcement and driver licensing, the societal
-    and jurisdiction considerations that are typically taken into account in biometric
-    systems, and the international standards that underpin their use.
+- content: "This document describes the history and purpose of biometrics, the various
+    biometric technologies in general use today (for example, fingerprint recognition,
+    face recognition and iris recognition) and the architecture of the systems and
+    the system processes that allow automated recognition using those technologies.
+    It provides information on the application of biometrics in various business domains,
+    such as border management, law enforcement and driver licencing. It also provides
+    information on the societal and jurisdictional considerations that are typically
+    taken into account in biometric systems.<br />\r\nAdditionally, this document
+    provides guidance on the use of the International Standards that underpin the
+    use of biometric recognition systems."
   language:
   - en
   script:
@@ -68,7 +66,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REPLACED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -81,8 +79,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2018'
+  from: '2024'
 relation:
+- type: updates
+  bibitem:
+    id: ISO/IECTR24741-2018
+    type: standard
+    docid:
+    - id: ISO/IEC TR 24741:2018
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC TR 24741:2018
+      format: text/plain
 - type: updates
   bibitem:
     id: ISO/IECTR24741-2007
@@ -97,7 +106,7 @@ relation:
 place:
 - Geneva
 doctype:
-  type: technical-report
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 37
@@ -107,8 +116,8 @@ ics:
 - code: 35.240.15
   text: Identification cards. Chip cards. Biometrics
 structuredidentifier:
-  project_number: TR
+  project_number: '24741'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:F
