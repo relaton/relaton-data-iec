@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.8
 id: ISO/IEC19794-5-2005/COR4-2015
 title:
 - content: 'Corrigendum 4 - Information technology - Biometric data interchange formats
@@ -49,7 +49,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: REPLACED
+    value: REVISED
 copyright:
 - owner:
   - name:
@@ -119,9 +119,21 @@ relation:
     formattedref:
       content: ISO/IEC 19794-5:2005/AMD1:2007
       format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC19794-5-2005
+    type: standard
+    docid:
+    - id: ISO/IEC 19794-5:2005
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 19794-5:2005
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 37
