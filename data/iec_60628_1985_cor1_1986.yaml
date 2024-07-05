@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60628-1985/COR1-1986
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Gassing of insulating liquids under electrical stress and ionization
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Corrigendum 1 - Gassing of insulating liquids under electrical stress and
     ionization
   language:
@@ -10,6 +24,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Gassing des isolants liquides sous contrainte électrique et ionisation
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Corrigendum 1 - Gassing des isolants liquides sous contrainte électrique
     et ionisation
   language:
@@ -75,7 +103,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

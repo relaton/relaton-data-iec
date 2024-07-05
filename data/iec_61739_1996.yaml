@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61739-1996
 title:
+- content: Integrated circuits
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Procedures for manufacturing line approval and quality management'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Integrated circuits - Part 1: Procedures for manufacturing line approval
     and quality management'
   language:
@@ -10,6 +24,21 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Circuits intégrés
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Procédures pour l'agrément d'une  ligne de fabrication et la gestion de
+    la qualité
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Circuits intégrés - Procédures pour l'agrément d'une  ligne de fabrication
     et la gestion de la qualité
   language:
@@ -95,7 +124,8 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47A

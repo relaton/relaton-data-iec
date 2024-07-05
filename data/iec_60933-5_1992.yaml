@@ -1,9 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60933-5-1992
 title:
+- content: Audio, video and audiovisual systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interconnections and matching values
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 5: Y/C connector for video systems -- Electrical matching values
+    and description of the connector'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Audio, video and audiovisual systems - Interconnections and matching values
-    - Part 5: Y/C connector for video systems - Electrical matching values and description
+    - Part 5: Y/C connector for video systems -- Electrical matching values and description
     of the connector'
   language:
   - en
@@ -11,8 +33,30 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Systèmes audio, vidéo et audiovisuels
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interconnexions et valeurs d'adaptation
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 5: Connecteur Y/C pour les systèmes vidéo -- Valeurs d''adaptation
+    électrique et description du connecteur'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Systèmes audio, vidéo et audiovisuels - Interconnexions et valeurs d''adaptation
-    - Partie 5: Connecteur Y/C pour les systèmes vidéo - Valeurs d''adaptation électrique
+    - Partie 5: Connecteur Y/C pour les systèmes vidéo -- Valeurs d''adaptation électrique
     et description du connecteur'
   language:
   - fr
@@ -20,6 +64,22 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: VERSION OFICIAL EN ESPANOL
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'Sistemas, audio, vídeo y audiovisuales. Interconexiones y valores de adaptación.
+    Parte 5: Conector Y/C para los sistemas de vídeo. Valores de adaptación eléctrica
+    y descripción del conector.'
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: 'VERSION OFICIAL EN ESPANOL - Sistemas, audio, vídeo y audiovisuales. Interconexiones
     y valores de adaptación. Parte 5: Conector Y/C para los sistemas de vídeo. Valores
     de adaptación eléctrica y descripción del conector.'
@@ -99,7 +159,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

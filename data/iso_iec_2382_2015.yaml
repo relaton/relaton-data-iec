@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO/IEC2382-2015
 title:
 - content: Information technology -- Vocabulary
@@ -8,7 +8,28 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Information technology -- Vocabulary
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Vocabulaire
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Technologies de l'information - Vocabulaire
   language:
   - fr
@@ -96,7 +117,8 @@ copyright:
   from: '2015'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1

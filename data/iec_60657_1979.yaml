@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60657-1979
 title:
 - content: Non-ionizing radiation hazards in the frequency range from 10 MHz to 300
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Non-ionizing radiation hazards in the frequency range from 10 MHz to 300
+    000 MHz
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Dangers des rayonnements non ionisants dans la gamme de fréquences de 10
+    MHz à 300 000 MHz
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Dangers des rayonnements non ionisants dans la gamme de fréquences de 10
     MHz à 300 000 MHz
   language:
@@ -84,7 +100,8 @@ copyright:
   from: '1979'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 103

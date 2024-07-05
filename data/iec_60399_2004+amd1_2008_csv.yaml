@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60399-2004+AMD1-2008CSV
 title:
 - content: Barrel thread for lampholders with shade holder ring
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Barrel thread for lampholders with shade holder ring
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Filetage à filet rond pour douilles avec bague support d'abat-jour
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Filetage à filet rond pour douilles avec bague support d'abat-jour
   language:
   - fr
@@ -129,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34B

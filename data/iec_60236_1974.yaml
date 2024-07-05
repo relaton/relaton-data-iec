@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60236-1974
 title:
 - content: Methods for the designation of electrostatic deflecting electrodes of cathode-ray
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Methods for the designation of electrostatic deflecting electrodes of cathode-ray
+    tubes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Méthodes de désignation des électrodes de déviation électrique des tubes
+    à rayons cathodiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Méthodes de désignation des électrodes de déviation électrique des tubes
     à rayons cathodiques
   language:
@@ -92,7 +108,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

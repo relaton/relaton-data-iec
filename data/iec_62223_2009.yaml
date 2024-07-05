@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62223-2009
 title:
+- content: Insulators
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Glossary of terms and definitions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Insulators - Glossary of terms and definitions
   language:
   - en
@@ -9,6 +23,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Isolateurs
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Lexique de termes et définitions
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Isolateurs - Lexique de termes et définitions
   language:
   - fr
@@ -16,6 +44,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Versión Oficial En español
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Aisladores. Glosario de términos.
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Versión Oficial En español - Aisladores. Glosario de términos.
   language:
   - es
@@ -102,7 +144,8 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 36

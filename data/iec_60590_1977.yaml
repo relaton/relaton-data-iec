@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60590-1977
 title:
 - content: Determination of the aromatic hydrocarbon content of new mineral insulating
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Determination of the aromatic hydrocarbon content of new mineral insulating
+    oils
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Détermination de la teneur en hydrocarbures aromatiques des huiles isolantes
+    minérales neuves
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Détermination de la teneur en hydrocarbures aromatiques des huiles isolantes
     minérales neuves
   language:
@@ -83,7 +99,8 @@ copyright:
   from: '1977'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

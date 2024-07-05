@@ -1,7 +1,29 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60840-2020/COR1-2021
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Power cables with extruded insulation and their accessories for rated voltages
+    above 30 kV (U<sub>m </sub>= 36 kV) up to 150 kV (U<sub>m</sub> = 170 kV)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Test methods and requirements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: Corrigendum 1 - Power cables with extruded insulation and their accessories
     for rated voltages above 30 kV (U<sub>m </sub>= 36 kV) up to 150 kV (U<sub>m</sub>
     = 170 kV) - Test methods and requirements
@@ -11,6 +33,29 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Câbles d'énergie à isolation extrudée et leurs accessoires pour des tensions
+    assignées supérieures à 30 kV (U<sub>m</sub> = 36 kV) et jusqu'à 150 kV (U<sub>m</sub>
+    = 170 kV)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Méthodes et exigences d'essai
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: Corrigendum 1 - Câbles d'énergie à isolation extrudée et leurs accessoires
     pour des tensions assignées supérieures à 30 kV (U<sub>m</sub> = 36 kV) et jusqu'à
     150 kV (U<sub>m</sub> = 170 kV) - Méthodes et exigences d'essai
@@ -79,17 +124,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC60840-2011
-    type: standard
-    docid:
-    - id: IEC 60840:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60840:2011
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60840-2011RLV
     type: standard
     docid:
@@ -98,6 +132,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60840:2011 RLV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60840-2011
+    type: standard
+    docid:
+    - id: IEC 60840:2011
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60840:2011
       format: text/plain
 - type: updates
   bibitem:
@@ -178,7 +223,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20

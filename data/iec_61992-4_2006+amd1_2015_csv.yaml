@@ -1,8 +1,30 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61992-4-2006+AMD1-2015CSV
 title:
-- content: Railway applications - Fixed installations - DC switchgear - Part 4:Outdoor
+- content: Railway applications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Fixed installations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: DC switchgear -- Part 4:Outdoor d.c. disconnectors, switch-disconnectors
+    and earthing switches
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Railway applications - Fixed installations - DC switchgear -- Part 4:Outdoor
     d.c. disconnectors, switch-disconnectors and earthing switches
   language:
   - en
@@ -10,8 +32,30 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Applications ferroviaires
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Installations fixes
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Appareillage à courant continu -- Partie 4: Interrupteurs-sectionneurs,
+    sectionneurset sectionneurs de terre à courant continu, pour usage extérieur'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Applications ferroviaires - Installations fixes - Appareillage à courant
-    continu - Partie 4: Interrupteurs-sectionneurs, sectionneurset sectionneurs de
+    continu -- Partie 4: Interrupteurs-sectionneurs, sectionneurset sectionneurs de
     terre à courant continu, pour usage extérieur'
   language:
   - fr
@@ -87,7 +131,8 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 9

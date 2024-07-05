@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60979-1989
 title:
 - content: Wires for wire wrapping applications
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Wires for wire wrapping applications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Fils pour connexions enroulées
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Fils pour connexions enroulées
   language:
   - fr
@@ -83,7 +97,8 @@ copyright:
   from: '1989'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

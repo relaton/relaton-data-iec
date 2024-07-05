@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60134-1961
 title:
 - content: Rating systems for electronic tubes and valves and analogous semiconductor
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Rating systems for electronic tubes and valves and analogous semiconductor
+    devices
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Systèmes de valeurs limites pour les tubes électroniques et les dispositifs
+    à semiconducteurs analogues
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Systèmes de valeurs limites pour les tubes électroniques et les dispositifs
     à semiconducteurs analogues
   language:
@@ -84,7 +100,8 @@ copyright:
   from: '1961'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

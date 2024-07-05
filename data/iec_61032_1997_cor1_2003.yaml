@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61032-1997/COR1-2003
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Protection of persons and equipment by enclosures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Probes for verification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: Corrigendum 1 - Protection of persons and equipment by enclosures - Probes
     for verification
   language:
@@ -10,6 +31,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Protection des personnes et des matériels par les enveloppes
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Calibres d'essai pour la vérification
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: Corrigendum 1 - Protection des personnes et des matériels par les enveloppes
     - Calibres d'essai pour la vérification
   language:
@@ -86,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 70

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60498-1975
 title:
 - content: High-voltage coaxial connectors used in nuclear instrumentation
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: High-voltage coaxial connectors used in nuclear instrumentation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Connecteurs coaxiaux de haute tension utilisés en instrumentation nucléaire
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Connecteurs coaxiaux de haute tension utilisés en instrumentation nucléaire
   language:
   - fr
@@ -83,7 +97,8 @@ copyright:
   from: '1975'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 45

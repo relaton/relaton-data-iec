@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60079-1-2014/ISH1-2020
 title:
+- content: Interpretation sheet 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Explosive atmospheres
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Equipment protection by flameproof enclosures "d"'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Interpretation sheet 1 - Explosive atmospheres - Part 1: Equipment protection
     by flameproof enclosures "d"'
   language:
@@ -77,17 +98,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60079-1-2001/ISH1-2007
-    type: standard
-    docid:
-    - id: IEC 60079-1:2001/ISH1:2007
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60079-1:2001/ISH1:2007
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60079-1-2003/ISH1-2007
     type: standard
     docid:
@@ -96,6 +106,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60079-1:2003/ISH1:2007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60079-1-2001/ISH1-2007
+    type: standard
+    docid:
+    - id: IEC 60079-1:2001/ISH1:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60079-1:2001/ISH1:2007
       format: text/plain
 - type: updates
   bibitem:
@@ -198,7 +219,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 31

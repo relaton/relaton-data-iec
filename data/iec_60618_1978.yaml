@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60618-1978
 title:
 - content: Inductive voltage dividers
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Inductive voltage dividers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Diviseurs de tension inductifs
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Diviseurs de tension inductifs
   language:
   - fr
@@ -85,7 +99,8 @@ copyright:
   from: '1978'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61144-1992
 title:
 - content: Test method for the determination of oxygen index of insulating liquids
@@ -8,7 +8,22 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Test method for the determination of oxygen index of insulating liquids
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Méthode d'essai pour la détermination de l'indice d'oxygène des isolants
+    liquides
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Méthode d'essai pour la détermination de l'indice d'oxygène des isolants
     liquides
   language:
@@ -81,7 +96,8 @@ copyright:
   from: '1992'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 10

@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60086-2-2021/COR1-2022
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Primary batteries
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 2: Physical and electrical specifications'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Primary batteries - Part 2: Physical and electrical specifications'
   language:
   - en
@@ -9,6 +30,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Piles électriques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 2: Spécifications physiques et électriques'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Piles électriques - Partie 2: Spécifications physiques
     et électriques'
   language:
@@ -195,17 +237,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60086-2-1994/AMD1-1995/COR1-1995
-    type: standard
-    docid:
-    - id: IEC 60086-2:1994/AMD1:1995/COR1:1995
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-2:1994/AMD1:1995/COR1:1995
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-2-1994/COR1-1995
     type: standard
     docid:
@@ -214,6 +245,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-2:1994/COR1:1995
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-2-1994/AMD1-1995/COR1-1995
+    type: standard
+    docid:
+    - id: IEC 60086-2:1994/AMD1:1995/COR1:1995
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-2:1994/AMD1:1995/COR1:1995
       format: text/plain
 - type: updates
   bibitem:
@@ -338,17 +380,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEC60086-2-1977
-    type: standard
-    docid:
-    - id: IEC 60086-2:1977
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 60086-2:1977
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC60086-2-1977+AMD1-1978+AMD2-1979+AMD3-1980CSV
     type: standard
     docid:
@@ -357,6 +388,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 60086-2:1977+AMD1:1978+AMD2:1979+AMD3:1980 CSV
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC60086-2-1977
+    type: standard
+    docid:
+    - id: IEC 60086-2:1977
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60086-2:1977
       format: text/plain
 - type: updates
   bibitem:
@@ -426,7 +468,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

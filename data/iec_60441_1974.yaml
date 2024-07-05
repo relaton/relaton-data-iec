@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60441-1974
 title:
 - content: Photometric and colorimetric methods of measurement of the light emitted
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Photometric and colorimetric methods of measurement of the light emitted
+    by a cathode-ray tube screen
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Méthodes de mesure photométriques et colorimétriques de la lumière émise
+    par un écran de tube à rayons cathodiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Méthodes de mesure photométriques et colorimétriques de la lumière émise
     par un écran de tube à rayons cathodiques
   language:
@@ -86,7 +102,8 @@ copyright:
   from: '1974'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

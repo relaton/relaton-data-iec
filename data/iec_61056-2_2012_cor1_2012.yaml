@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61056-2-2012/COR1-2012
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: General purpose lead-acid batteries (valve-regulated types)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 2: Dimensions, terminals and marking'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - General purpose lead-acid batteries (valve-regulated types)
     - Part 2: Dimensions, terminals and marking'
   language:
@@ -10,6 +31,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Batteries d'accumulateurs au plomb-acide pour usage général (types à soupapes)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 2: Dimensions, bornes et marquage'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Batteries d''accumulateurs au plomb-acide pour usage général
     (types à soupapes) - Partie 2: Dimensions, bornes et marquage'
   language:
@@ -86,7 +128,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 21

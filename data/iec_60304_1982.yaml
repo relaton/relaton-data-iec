@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60304-1982
 title:
 - content: Standard colours for insulation for low-frequency cables and wires
@@ -8,7 +8,22 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Standard colours for insulation for low-frequency cables and wires
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Couleurs de référence de l'enveloppe isolante pour câbles et fils pour
+    basses fréquences
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Couleurs de référence de l'enveloppe isolante pour câbles et fils pour
     basses fréquences
   language:
@@ -128,7 +143,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46/SC 46C

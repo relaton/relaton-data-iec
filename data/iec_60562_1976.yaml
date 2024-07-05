@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60562-1976
 title:
 - content: Measurements of incidental ionizing radiation from electronic tubes
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Measurements of incidental ionizing radiation from electronic tubes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Mesures des rayonnements ionisants accidentels produits par les tubes électroniques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Mesures des rayonnements ionisants accidentels produits par les tubes électroniques
   language:
   - fr
@@ -83,7 +97,8 @@ copyright:
   from: '1976'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

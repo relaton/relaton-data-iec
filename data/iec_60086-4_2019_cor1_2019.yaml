@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60086-4-2019/COR1-2019
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Primary batteries
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 4: Safety of lithium batteries'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Primary batteries - Part 4: Safety of lithium batteries'
   language:
   - en
@@ -9,6 +30,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Piles électriques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 4: Sécurité des piles au lithium'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Piles électriques - Partie 4: Sécurité des piles au lithium'
   language:
   - fr
@@ -106,7 +148,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 35

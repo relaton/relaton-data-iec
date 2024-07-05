@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60067D-1977
 title:
+- content: Fourth supplement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Dimensions of electronic tubes and valves
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Fourth supplement - Dimensions of electronic tubes and valves
   language:
   - en
@@ -9,6 +23,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Quatrième complément
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Dimensions des tubes électroniques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Quatrième complément - Dimensions des tubes électroniques
   language:
   - fr
@@ -59,9 +87,22 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '1977'
+relation:
+- type: updates
+  bibitem:
+    id: IEC60067D-1960
+    type: standard
+    docid:
+    - id: IEC 60067D:1960
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 60067D:1960
+      format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

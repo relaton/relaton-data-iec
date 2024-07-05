@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60235-4-1972
 title:
 - content: 'Measurement of the electrical properties of microwave tubes. Part 4: Magnetrons'
@@ -8,7 +8,22 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: 'Measurement of the electrical properties of microwave tubes. Part 4: Magnetrons'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: 'Mesures des caractéristiques électriques des tubes pour hyperfréquences.
+    Quatrième partie: Magnétrons'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: 'Mesures des caractéristiques électriques des tubes pour hyperfréquences.
     Quatrième partie: Magnétrons'
   language:
@@ -78,7 +93,8 @@ copyright:
   from: '1972'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 110

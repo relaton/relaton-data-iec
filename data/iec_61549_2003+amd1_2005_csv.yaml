@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61549-2003+AMD1-2005CSV
 title:
 - content: Miscellaneous lamps
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Miscellaneous lamps
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Lampes diverses
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Lampes diverses
   language:
   - fr
@@ -137,7 +151,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

@@ -1,9 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO/IEC14496-4-2004/AMD13-2007/COR2-2009
 title:
+- content: Corrigendum 2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Amendment 13
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Information technology -- Coding of audio-visual objects -- Part 4: Conformance
+    testing -- Parametric coding for high quality audio conformance'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 2 - Amendment 13 - Information technology -- Coding of audio-visual
-    objects -- Part 4: Conformance testing - Parametric coding for high quality audio
+    objects -- Part 4: Conformance testing -- Parametric coding for high quality audio
     conformance'
   language:
   - en
@@ -166,17 +188,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14496-4-2004/AMD18-2007
-    type: standard
-    docid:
-    - id: ISO/IEC 14496-4:2004/AMD18:2007
-      type: IEC
-      primary: true
-    formattedref:
-      content: ISO/IEC 14496-4:2004/AMD18:2007
-      format: text/plain
-- type: updates
-  bibitem:
     id: ISO/IEC14496-4-2004/AMD19-2007
     type: standard
     docid:
@@ -185,6 +196,17 @@ relation:
       primary: true
     formattedref:
       content: ISO/IEC 14496-4:2004/AMD19:2007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO/IEC14496-4-2004/AMD18-2007
+    type: standard
+    docid:
+    - id: ISO/IEC 14496-4:2004/AMD18:2007
+      type: IEC
+      primary: true
+    formattedref:
+      content: ISO/IEC 14496-4:2004/AMD18:2007
       format: text/plain
 - type: updates
   bibitem:
@@ -265,7 +287,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: ISO/IEC JTC 1/SC 29

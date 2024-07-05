@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60450-2004+AMD1-2007CSV
 title:
 - content: Measurement of the average viscometric degree of polymerization of new
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Measurement of the average viscometric degree of polymerization of new
+    and aged cellulosic electrically insulating materials
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Mesure du degré de polymérisation moyen viscosimétrique des matériaux isolants
+    cellulosiques neufs et vieillis à usage électrique
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Mesure du degré de polymérisation moyen viscosimétrique des matériaux isolants
     cellulosiques neufs et vieillis à usage électrique
   language:
@@ -120,7 +136,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 112

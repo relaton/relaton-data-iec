@@ -1,7 +1,28 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62040-1-2017/COR1-2019
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Uninterruptible power systems (UPS)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Safety requirements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Uninterruptible power systems (UPS) - Part 1: Safety requirements'
   language:
   - en
@@ -9,6 +30,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Alimentations sans interruption (ASI)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1: Exigences de sécurité'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Alimentations sans interruption (ASI) - Partie 1: Exigences
     de sécurité'
   language:
@@ -63,17 +105,6 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEC62040-1-2008+AMD1-2013CSV
-    type: standard
-    docid:
-    - id: IEC 62040-1:2008+AMD1:2013 CSV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 62040-1:2008+AMD1:2013 CSV
-      format: text/plain
-- type: updates
-  bibitem:
     id: IEC62040-1-2008/AMD1-2013
     type: standard
     docid:
@@ -82,6 +113,17 @@ relation:
       primary: true
     formattedref:
       content: IEC 62040-1:2008/AMD1:2013
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEC62040-1-2008+AMD1-2013CSV
+    type: standard
+    docid:
+    - id: IEC 62040-1:2008+AMD1:2013 CSV
+      type: IEC
+      primary: true
+    formattedref:
+      content: IEC 62040-1:2008+AMD1:2013 CSV
       format: text/plain
 - type: updates
   bibitem:
@@ -107,7 +149,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 22/SC 22H

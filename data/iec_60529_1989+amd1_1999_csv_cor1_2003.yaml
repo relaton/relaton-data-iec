@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60529-1989+AMD1-1999CSV/COR1-2003
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Degrees of protection provided by enclosures (IP Code)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Corrigendum 1 - Degrees of protection provided by enclosures (IP Code)
   language:
   - en
@@ -9,6 +23,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Degrés de protection procurés par les enveloppes (Code IP)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Corrigendum 1 - Degrés de protection procurés par les enveloppes (Code
     IP)
   language:
@@ -129,7 +157,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 70

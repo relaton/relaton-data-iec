@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60615-1978
 title:
 - content: Terminology for microwave apparatus
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Terminology for microwave apparatus
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Terminologie pour appareils à micro-ondes
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Terminologie pour appareils à micro-ondes
   language:
   - fr
@@ -78,7 +92,8 @@ copyright:
   from: '1978'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 85

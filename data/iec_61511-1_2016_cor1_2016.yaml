@@ -1,9 +1,31 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61511-1-2016/COR1-2016
 title:
+- content: Corrigendum 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Functional safety
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Safety instrumented systems for the process industry sector -- Part 1:
+    Framework, definitions, system, hardware and application programming requirements'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Functional safety - Safety instrumented systems for the
-    process industry sector - Part 1: Framework, definitions, system, hardware and
+    process industry sector -- Part 1: Framework, definitions, system, hardware and
     application programming requirements'
   language:
   - en
@@ -11,8 +33,31 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Corrigendum 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Sécurité fonctionnelle
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Systèmes instrumentés de sécurité pour le secteur des industries de transformation
+    -- Partie 1: Cadre, définitions, exigences pour le système, le matériel et la
+    programmation d''application'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: 'Corrigendum 1 - Sécurité fonctionnelle - Systèmes instrumentés de sécurité
-    pour le secteur des industries de transformation - Partie 1: Cadre, définitions,
+    pour le secteur des industries de transformation -- Partie 1: Cadre, définitions,
     exigences pour le système, le matériel et la programmation d''application'
   language:
   - fr
@@ -88,7 +133,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65/SC 65A

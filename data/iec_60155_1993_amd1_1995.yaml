@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60155-1993/AMD1-1995
 title:
+- content: Amendment 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Glow-starters for fluorescent lamps
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Amendment 1 - Glow-starters for fluorescent lamps
   language:
   - en
@@ -9,6 +23,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Amendement 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interrupteurs d'amorçage à lueur pour lampes à fluorescence (starters)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Amendement 1 - Interrupteurs d'amorçage à lueur pour lampes à fluorescence
     (starters)
   language:
@@ -17,6 +45,27 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: VERSION OFICIAL EN ESPANOL
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Modificación 1
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Arrancadores de encendido para lámparas fluorescentes (cebadores).
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
 - content: VERSION OFICIAL EN ESPANOL - Modificación 1 - Arrancadores de encendido
     para lámparas fluorescentes (cebadores).
   language:
@@ -160,7 +209,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 34/SC 34A

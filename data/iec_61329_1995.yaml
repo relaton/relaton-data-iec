@@ -1,7 +1,22 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61329-1995
 title:
+- content: Sound system equipment
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Methods of measuring and specifying the performance of sounders (electroacoustic
+    transducers for tone production)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Sound system equipment - Methods of measuring and specifying the performance
     of sounders (electroacoustic transducers for tone production)
   language:
@@ -10,6 +25,21 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Equipements pour systèmes électroacoustiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Méthodes de mesure et de spécification de la qualité de fonctionnement
+    des sondeurs (transducteurs électroacoustiques de production de sons)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Equipements pour systèmes électroacoustiques - Méthodes de mesure et de
     spécification de la qualité de fonctionnement des sondeurs (transducteurs électroacoustiques
     de production de sons)
@@ -19,6 +49,22 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: VERSION OFICIAL EN ESPANOL
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Equipos para sistemas electroacusticos. Métodos de medida y especificación
+    de la calidad de funcionamiento de los sonadores (transductores electroacústicos
+    de producción de sonido).
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: VERSION OFICIAL EN ESPANOL - Equipos para sistemas electroacusticos. Métodos
     de medida y especificación de la calidad de funcionamiento de los sonadores (transductores
     electroacústicos de producción de sonido).
@@ -97,7 +143,8 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 100

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60946-1988
 title:
 - content: Binary direct voltage signals for process measurement and control systems
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Binary direct voltage signals for process measurement and control systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Signaux logiques de mesure et de commande dans les processus industriels
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Signaux logiques de mesure et de commande dans les processus industriels
   language:
   - fr
@@ -81,7 +95,8 @@ copyright:
   from: '1988'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 65

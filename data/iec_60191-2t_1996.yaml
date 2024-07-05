@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60191-2T-1996
 title:
 - content: Eighteenth supplement
@@ -8,7 +8,21 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Eighteenth supplement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Dix-huitième complément
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Dix-huitième complément
   language:
   - fr
@@ -61,7 +75,8 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 47/SC 47D

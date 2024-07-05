@@ -1,7 +1,21 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60442-1998+AMD1-2003CSV
 title:
+- content: Electric toasters for household and similar purposes
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Methods for measuring the performance
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Electric toasters for household and similar purposes - Methods for measuring
     the performance
   language:
@@ -10,6 +24,20 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Grille-pain électriques pour usages domestiques et analogues
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Méthode de mesure de l'aptitude à la fonction
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Grille-pain électriques pour usages domestiques et analogues - Méthode
     de mesure de l'aptitude à la fonction
   language:
@@ -111,7 +139,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 59/SC 59L

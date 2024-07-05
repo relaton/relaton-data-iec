@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60246-1967
 title:
 - content: Connecting wires having a rated voltage of 20 kV and 25 kV d.c. anda maximum
@@ -9,7 +9,23 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Connecting wires having a rated voltage of 20 kV and 25 kV d.c. anda maximum
+    working temperature of 105 °C for use in televisionreceivers
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Fils de connexion pour des tensions nominales de 20 kV et 25 kV etune température
+    maximale de service de 105 °C destinés à êtreutilisés dans des récepteurs de télévision
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Fils de connexion pour des tensions nominales de 20 kV et 25 kV etune température
     maximale de service de 105 °C destinés à êtreutilisés dans des récepteurs de télévision
   language:
@@ -81,7 +97,8 @@ copyright:
   from: '1967'
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 46

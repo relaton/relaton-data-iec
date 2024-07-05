@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60719-1992
 title:
 - content: Calculation of the lower and upper limits for the average outer dimensions
@@ -10,7 +10,25 @@ title:
   script:
   - Latn
   format: text/plain
+  type: title-main
+- content: Calculation of the lower and upper limits for the average outer dimensions
+    of cables with circular copper conductors and of rated voltages up to and including
+    450/750 V
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
   type: main
+- content: Calcul des valeurs minimales et maximales des dimensions extérieures moyennes
+    des conducteurs et câbles à âmes circulaires en cuivre et de tension nominale
+    au plus égale à 450/750 V
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
 - content: Calcul des valeurs minimales et maximales des dimensions extérieures moyennes
     des conducteurs et câbles à âmes circulaires en cuivre et de tension nominale
     au plus égale à 450/750 V
@@ -97,7 +115,8 @@ relation:
       format: text/plain
 place:
 - Geneva
-doctype: international-standard
+doctype:
+  type: international-standard
 editorialgroup:
   technical_committee:
   - name: TC 20
