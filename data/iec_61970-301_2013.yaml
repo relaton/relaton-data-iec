@@ -48,24 +48,24 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/20192
+- content: https://webstore.iec.ch/publication/6210
   type: src
-- content: https://webstore.iec.ch/preview/info_iec61970-301{ed4.0}b.pdf
+- content: https://webstore.iec.ch/preview/info_iec61970-301{ed5.0}b.pdf
   type: obp
 type: standard
 docid:
 - id: IEC 61970-301:2013
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:61970-301:2013-05:::'
+- id: 'urn:iec:std:iec:61970-301:2013-12:::'
   type: URN
 date:
 - type: published
-  value: '2013-05-23'
+  value: '2013-12-13'
 - type: stable-until
-  value: '2013-12-13'
+  value: '2016-12-16'
 - type: obsoleted
-  value: '2013-12-13'
+  value: '2016-12-16'
 contributor:
 - organization:
     name:
@@ -76,51 +76,61 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2013-05-23'
+  content: '5'
+revdate: '2013-12-13'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "IEC 61970-301:2013 deals with the common information model (CIM), an abstract
-    model that represents all the major objects in an electric utility enterprise
-    typically involved in utility operations. The object classes represented in the
-    CIM are abstract in nature and may be used in a wide variety of applications.
-    The use of the CIM goes far beyond its application in an EMS. This standard is
-    to be understood as a tool to enable integration in any domain where a common
-    power system model is needed to facilitate interoperability and plug compatibility
-    between applications and systems independent of any particular implementation.
-    Major changes from the third edition include the following:<br />\r\n- extensions
-    have been added to support UCTE exchange;<br />\r\n- the transformer regulation
-    model has been expanded to support phase shifting transformer models needed by
-    ENTSO-E;<br />\r\n- zero and negative sequence impedance terms have been added;<br
-    />\r\n- new StateVariables package has been added;<br />\r\n- additional classes
-    have been added."
+- content: "IEC 61970-301:2013 defines the Common Information Model (CIM), that is
+    an abstract model representing all the major objects in an electric utility enterprise
+    typically involved in utility operations. By providing a standard way of representing
+    power system resources as object classes and attributes, along with their relationships,
+    the CIM facilitates the integration of Energy Management System (EMS) applications
+    developed independently by different vendors, between entire EMS systems developed
+    independently, or between an EMS system and other systems concerned with different
+    aspects of power system operations, such as generation or distribution management.
+    SCADA is modeled to the extent necessary to support power system simulation and
+    inter-control center communication. The CIM facilitates integration by defining
+    a common language (i.e. semantics) based on the CIM to enable these applications
+    or systems to access public data and exchange information independent of how such
+    information is represented internally. Major changes from the fourth edition include
+    the following:<br />\r\n- transformer models have been modified to be consistent
+    for use by distribution and transmission purposes;<br />\r\n- a more general and
+    clear naming approach was added and several ambiguous attributes related to naming
+    were dropped;<br />\r\n- phase component wires models have been enhanced to describe
+    internal phase specific attributes and connections;<br />\r\n- addition of diagram
+    layout models to facilitate the exchange of diagram layout information."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "La CEI 61970-301:2013 traite du modèle d'information commun (CIM), un
-    modèle abstrait qui représente tous les objets principaux d'une entreprise de
-    service public de distribution d'électricité habituellement impliqués dans les
-    opérations de l'entreprise. Les classes d'objets représentées dans le CIM sont
-    de nature abstraite et peuvent être utilisées dans une large gamme d'applications.
-    L'utilisation du CIM n'est pas limitée à son application dans un EMS. Cette norme
-    est destinée à être comprise comme un outil permettant l'intégration dans tout
-    domaine où un modèle commun de réseau est nécessaire pour faciliter l'interopérabilité
-    et la compatibilité de connexion entre des applications et des systèmes indépendants
-    de toute mise en oeuvre particulière. Les principales modifications par rapport
-    à la troisième édition sont les suivantes:<br />\r\n- extensions ajoutées pour
-    prendre en charge l'échange UCTE;<br />\r\n- extension du modèle de régulation
-    des transformateurs afin de prendre en charge les modèles de transformateurs de
-    déphasage dont a besoin l'ENTSO-E;<br />\r\n- ajout des termes \"impédance homopolaire\"
-    et \"impédance inverse\" aux endroits où ils étaient absents;<br />\r\n- ajout
-    d'un nouveau paquetage StateVariables afin de prendre en charge l'échange de solutions
-    de modèles de réseau à partir du calcul de répartition, de l'estimation d'état,
-    etc.;<br />\r\n- ajout de classes complémentaires."
+- content: "La CEI 61970-301:2013 définit le CIM qui est un modèle abstrait représentant
+    tous les objets principaux d'une entreprise de distribution d'électricité habituellement
+    nécessaires aux opérations d'une entreprise d'électricité. En fournissant une
+    façon normalisée de représenter des ressources de réseaux électriques comme classes
+    et attributs d'objets ainsi que leurs relations, le CIM facilite l'intégration
+    des applications de l'EMS développées de façon indépendante par différents fournisseurs,
+    entre des systèmes EMS complets développés de façon indépendante ou entre un système
+    EMS et d'autres systèmes concernés par différents aspects des opérations d'un
+    réseau électrique tels que la gestion de la production ou de la distribution.
+    Le système SCADA est modélisé dans toute la mesure nécessaire pour prendre en
+    charge la simulation des systèmes énergétiques et la communication entre des centres
+    de commande. Le CIM facilite l'intégration en définissant un langage commun (c'est-à-dire
+    une sémantique) fondé sur le modèle CIM pour permettre à ces applications ou systèmes
+    d'accéder aux données publiques et d'échanger des informations indépendamment
+    de la représentation interne de ces informations. Les modifications techniques
+    majeures par rapport à l'édition précédente sont les suivantes:<br />\r\n- les
+    modèles de transformateurs ont été modifiés pour qu'ils soient adaptés à une utilisation
+    dans les domaines de la distribution et du transport;<br />\r\n- l'ajout d'une
+    approche de dénomination plus générale et plus claire et suppression des attributs
+    ambigus liés à la dénomination;<br />\r\n- des modèles de fils de phase pour les
+    composants ont été améliorés pour décrire les connexions et les attributs spécifiques
+    de phase interne;<br />\r\n- des modèles de présentation des diagrammes ont été
+    ajoutés pour faciliter l'échange des informations sur la présentation des diagrammes."
   language:
   - fr
   script:
@@ -137,73 +147,6 @@ copyright:
       content: IEC
     url: www.iec.ch
   from: '2013'
-relation:
-- type: updates
-  bibitem:
-    id: IEC61970-301-2016RLV
-    type: standard
-    docid:
-    - id: IEC 61970-301:2016 RLV
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2016 RLV
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEC61970-301-2016
-    type: standard
-    docid:
-    - id: IEC 61970-301:2016
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2016
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEC61970-301-2013
-    type: standard
-    docid:
-    - id: IEC 61970-301:2013
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2013
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEC61970-301-2011
-    type: standard
-    docid:
-    - id: IEC 61970-301:2011
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2011
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEC61970-301-2009
-    type: standard
-    docid:
-    - id: IEC 61970-301:2009
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2009
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEC61970-301-2003
-    type: standard
-    docid:
-    - id: IEC 61970-301:2003
-      type: IEC
-      primary: true
-    formattedref:
-      content: IEC 61970-301:2003
-      format: text/plain
 place:
 - Geneva
 doctype:
