@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC21990-2002
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Inter-exchange signalling protocol
-    -- Short message service
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Inter-exchange signalling protocol
+- content: Private Integrated Services Network -- Inter-exchange signalling protocol
+    -- Short message service
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Inter-exchange signalling protocol
     -- Short message service
   language:
   - en
@@ -60,32 +73,30 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    21990:2002 specifies the signalling protocol for the support of the Short Message
-    Service (SMS) at the Q reference point between Private Integrated services Network
-    eXchanges (PINXs) connected together within a Private Integrated Services Network
-    (PISN).<br />\r\nThis service is based on GSM 03.40. The Service Centre functionality
-    described in ISO/IEC 21990:2002 is equal to the functionality of a Service Centre
-    in GSM 03.40. Thus, for interoperability with a GSM network, it is only necessary
-    to implement a QSIG interface.<br />\r\nNOTE 1 The interworking with other air
-    interfaces is not precluded, but is outside the scope of ISO/IEC 21990:2002.<br
-    />\r\nNOTE 2 The Short Message Service is a special type of basic service but
-    is described in the present document as a supplementary service.<br />\r\nThe
+- content: "<p>ISO/IEC 21990:2002 specifies the signalling protocol for the support
+    of the Short Message Service (SMS) at the Q reference point between Private Integrated
+    services Network eXchanges (PINXs) connected together within a Private Integrated
+    Services Network (PISN).</p><p>This service is based on GSM 03.40. The Service
+    Centre functionality described in ISO/IEC 21990:2002 is equal to the functionality
+    of a Service Centre in GSM 03.40. Thus, for interoperability with a GSM network,
+    it is only necessary to implement a QSIG interface.</p><p>NOTE 1 The interworking
+    with other air interfaces is not precluded, but is outside the scope of ISO/IEC
+    21990:2002.</p><p>NOTE 2 The Short Message Service is a special type of basic
+    service but is described in the present document as a supplementary service.</p><p>The
     Short Message Service is a service which permits a served user to send a message
-    of limited size to another user in the same PISN or another network.<br />\r\nThe
-    Q reference point is defined in ISO/IEC 11579-1.<br />\r\nService specifications
+    of limited size to another user in the same PISN or another network.</p><p>The
+    Q reference point is defined in ISO/IEC 11579-1.</p><p>Service specifications
     are produced in three stages and according to the method specified in ETS 300
     387. ISO/IEC 21990:2002 contains the stage 3 specification for the Q reference
     point and satisfies the requirements identified by the stage 1 and stage 2 specifications
-    in ISO/IEC 21989.<br />\r\nThe signalling protocol for SMS operates on top of
-    the signalling protocol for the connection oriented call independent APDU transport
+    in ISO/IEC 21989.</p><p>The signalling protocol for SMS operates on top of the
+    signalling protocol for the connection oriented call independent APDU transport
     mechanism and uses certain further aspects of the generic procedures for the control
-    of supplementary services specified in ISO/IEC 11582.<br />\r\nISO/IEC 21990:2002
+    of supplementary services specified in ISO/IEC 11582.</p><p>ISO/IEC 21990:2002
     also specifies additional signalling protocol requirements for the support of
     interactions at the Q reference point between SMS and supplementary services and
-    ANFs.<br />\r\nISO/IEC 21990:2002 is applicable to PINXs which can be interconnected
-    to form a PISN."
+    ANFs.</p><p>ISO/IEC 21990:2002 is applicable to PINXs which can be interconnected
+    to form a PISN.</p>"
   language:
   - en
   script:

@@ -67,40 +67,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    5965:2021 This document defines the Swordfish Scalable Storage Management API.<br
-    />\r\nSwordfish extends the Redfish Scalable Platforms Management API Specification,
-    as defined by ISO 30115. It defines a comprehensive, RESTful API for storage management
-    that addresses block storage, file systems, object storage, and storage network
-    infrastructure. It is centered around common operational and business concerns
-    of storage management, including:<br />\r\n- Configuration and provisioning<br
-    />\r\n- Monitoring<br />\r\n- Event and log management<br />\r\n- Performance
-    assessment<br />\r\n- Diagnostics<br />\r\n- Fault detection and remediation<br
-    />\r\n- Security<br />\r\n- Accounting and resource consumption<br />\r\nSwordfish’s
-    storage model is built around well-defined classes of service, which provide a
-    means to map high-level business goals and objectives to specific, storage-based
-    actions and requirements, in a clear and consistent way that can be applied uniformly
-    across a broad spectrum of storage configurations and storage types (e.g., block
-    storage, file systems, object stores). Common storage management functionality
-    covered by class of service includes snapshots, replication, mapping and masking,
-    and provisioning.<br />\r\nThe Redfish specification provides the protocols and
-    a core set of data models and behaviors for the management of systems. It defines
-    the elements and behaviors that are mandatory for all Redfish implementations.
-    Additionally it defines additional elements and behaviors that can be chosen by
-    system vendors or manufacturers. The specifications also defines points at which
-    OEM (system vendor) extensions can be provided by a given implementation. The
-    specifications specifies normative requirements for Redfish Services and associated
-    materials, such as Redfish Schema files. The Redfish specifications does not set
-    requirements for Redfish clients, but willindicate what a Redfish client should
-    do in order to access and utilize a Redfish Service successfully and effectively.<br
-    />\r\nThe Swordfish specification defines additional data models and behaviors
-    for the management of storage systems and storage infrastructure. A Swordfish
-    implementation shall conform to all requirements specified in the Redfish specifications.<br
-    />\r\nSwordfish is suitable for a wide range of storage, from small-scale object
-    drives, integrated RAID cards or RBODs providing storage services, to external
-    disk arrays or file servers, to infrastructure providing storage services for
-    converged, hyperscale and large scale cloud environments."
+- content: |-
+    <p>This document defines the Swordfish Scalable Storage Management API.</p><p>Swordfish extends the Redfish Scalable Platforms Management API Specification, as defined by ISO 30115. It defines a comprehensive, RESTful API for storage management that addresses block storage, file systems, object storage, and storage network infrastructure. It is centered around common operational and business concerns of storage management, including:</p>
+
+    Configuration and provisioning
+    Monitoring
+    Event and log management
+    Performance assessment
+    Diagnostics
+    Fault detection and remediation
+    Security
+    Accounting and resource consumption<p>Swordfish’s storage model is built around well-defined classes of service, which provide a means to map high-level business goals and objectives to specific, storage-based actions and requirements, in a clear and consistent way that can be applied uniformly across a broad spectrum of storage configurations and storage types (e.g., block storage, file systems, object stores). Common storage management functionality covered by class of service includes snapshots, replication, mapping and masking, and provisioning.</p><p>The Redfish specification provides the protocols and a core set of data models and behaviors for the management of systems. It defines the elements and behaviors that are mandatory for all Redfish implementations. Additionally it defines additional elements and behaviors that can be chosen by system vendors or manufacturers. The specifications also defines points at which OEM (system vendor) extensions can be provided by a given implementation. The specifications specifies normative requirements for Redfish Services and associated materials, such as Redfish Schema files. The Redfish specifications does not set requirements for Redfish clients, but willindicate what a Redfish client should do in order to access and utilize a Redfish Service successfully and effectively.</p><p>The Swordfish specification defines additional data models and behaviors for the management of storage systems and storage infrastructure. A Swordfish implementation shall conform to all requirements specified in the Redfish specifications.</p><p>Swordfish is suitable for a wide range of storage, from small-scale object drives, integrated RAID cards or RBODs providing storage services, to external disk arrays or file servers, to infrastructure providing storage services for converged, hyperscale and large scale cloud environments.</p>
   language:
   - en
   script:

@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC23360-1-2006
 title:
-- content: 'Linux Standard Base (LSB) core specification 3.1 -- Part 1: Generic specification'
+- content: Linux Standard Base (LSB) core specification 3.1
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Linux Standard Base (LSB) core specification 3.1 -- Part 1: Generic specification'
+- content: 'Part 1: Generic specification'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Linux Standard Base (LSB) core specification 3.1 - Part 1: Generic specification'
   language:
   - en
   script:
@@ -60,21 +67,21 @@ language:
 script:
 - Latn
 abstract:
-- content: "The Linux Standard Base (LSB) defines a system interface for compiled
+- content: '<p>The Linux Standard Base (LSB) defines a system interface for compiled
     applications and a minimal environment for support of installation scripts. Its
     purpose is to enable a uniform industry standard environment for high-volume applications
-    conforming to the LSB.<br /><br />\r\nThese specifications are composed of two
-    basic parts: A common specification (\"LSB-generic\" or \"generic LSB\"), ISO/IEC
-    23360-1:2006, describing those parts of the interface that remain constant across
-    all implementations of the LSB, and an architecture-specific part (\"LSB-arch\"
-    or \"archLSB\") describing the parts of the interface that vary by processor architecture.
-    Together, the LSB-generic and the relevant architecture-specific parts of ISO/IEC
-    23360 for a single hardware architecture provide a complete interface specification
-    for compiled application programs on systems that share a common hardware architecture.<br
-    /><br />\r\nISO/IEC 23360-1:2006, the LSB-generic document, is used in conjunction
-    with an architecture-specific part. Whenever a section of the LSB-generic specification
-    is supplemented by architecture-specific information, the LSB-generic document
-    includes a reference to the architecture part."
+    conforming to the LSB.</p><p>These specifications are composed of two basic parts:
+    A common specification ("LSB-generic" or "generic LSB"), ISO/IEC 23360-1:2006,
+    describing those parts of the interface that remain constant across all implementations
+    of the LSB, and an architecture-specific part ("LSB-arch" or "archLSB") describing
+    the parts of the interface that vary by processor architecture. Together, the
+    LSB-generic and the relevant architecture-specific parts of ISO/IEC 23360 for
+    a single hardware architecture provide a complete interface specification for
+    compiled application programs on systems that share a common hardware architecture.</p><p>ISO/IEC
+    23360-1:2006, the LSB-generic document, is used in conjunction with an architecture-specific
+    part. Whenever a section of the LSB-generic specification is supplemented by architecture-specific
+    information, the LSB-generic document includes a reference to the architecture
+    part.</p>'
   language:
   - en
   script:
@@ -114,4 +121,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

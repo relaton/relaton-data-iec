@@ -2,18 +2,31 @@
 schema-version: v1.2.9
 id: ISO/IEC8825-1-2002
 title:
-- content: 'Information technology -- ASN.1 encoding rules: Specification of Basic
-    Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding
-    Rules (DER)'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'ASN.1 encoding rules: Specification of Basic Encoding Rules (BER), Canonical
+    Encoding Rules (CER) and Distinguished Encoding Rules (DER)'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- ASN.1 encoding rules: Specification of Basic
+- content: 'Part 1:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - ASN.1 encoding rules: Specification of Basic
     Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding
-    Rules (DER)'
+    Rules (DER) - Part 1:'
   language:
   - en
   script:
@@ -58,7 +71,7 @@ date:
 - type: stable-until
   value: '2008-12-15'
 - type: obsoleted
-  value: '2008-12-15'
+  value: '2009-12-15'
 contributor:
 - organization:
     name:
@@ -85,9 +98,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 8825-1:2002 defines a set of Basic Encoding Rules (BER) that may
-    be applied to values of types defined using the ASN.1 notation. Application of
-    these encoding rules produces a transfer syntax for such values. It is implicit
+- content: "<p>ISO/IEC 8825-1:2002 defines a set of Basic Encoding Rules (BER) that
+    may be applied to values of types defined using the ASN.1 notation. Application
+    of these encoding rules produces a transfer syntax for such values. It is implicit
     in the specification of these encoding rules that they are also used for decoding.
     ISO/IEC 8825-1:2002 defines also a set of Distinguished Encoding Rules (DER) and
     a set of Canonical Encoding Rules (CER) both of which provide constraints on the
@@ -95,9 +108,27 @@ abstract:
     definite length form of encoding while CER uses the indefinite length form. DER
     is more suitable for the small encoded values, while CER is more suitable for
     the large ones. It is implicit in the specification of these encoding rules that
-    they are also used for decoding.
+    they are also used for decoding.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 8825-1:2002 définit un ensemble de règles de codage de base
+    (BER, basic encoding rules) applicables aux valeurs des types définis au moyen
+    de la notation ASN.1. L'application de ces règles de codage produit une syntaxe
+    de transfert pour de telles valeurs. Il est implicitement entendu que ces règles
+    de codage servent également au décodage. L'ISO/CEI 8825-1:2002 définit également
+    un ensemble de règles de codage distinctives (DER, distinguished encoding rules)
+    et un ensemble de règles de codage canoniques (CER, canonical encoding rules)
+    qui permettent tous deux de déclarer des contraintes sur les règles de codage
+    de base (BER). La principale différence entre ces deux ensembles de règles est
+    que les DER utilisent des formes de codage de longueur définie alors que les CER
+    utilisent les formes de longueur indéfinie. Les DER sont mieux adaptées au codage
+    des petites valeurs, et les CER à celui des grandes valeurs. Il est implicitement
+    entendu que ces règles de codage servent également au décodage.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -135,4 +166,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

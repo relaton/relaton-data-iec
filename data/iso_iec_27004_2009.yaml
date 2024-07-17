@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC27004-2009
 title:
-- content: Information technology -- Security techniques -- Information security management
-    -- Measurement
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Information security management
+- content: Information security management -- Measurement
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Information security management
     -- Measurement
   language:
   - en
@@ -62,10 +75,11 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 27004:2009 provides guidance on the development and use of measures
-    and measurement in order to assess the effectiveness of an implemented information
-    security management system (ISMS) and controls or groups of controls, as specified
-    in ISO/IEC 27001.ISO/IEC 27004:2009 is applicable to all types and sizes of organization.
+- content: "<p>ISO/IEC 27004:2009 provides guidance on the development and use of
+    measures and measurement in order to assess the effectiveness of an implemented
+    information security management system (ISMS) and controls or groups of controls,
+    as specified in ISO/IEC 27001.</p><p>ISO/IEC 27004:2009 is applicable to all types
+    and sizes of organization.</p>"
   language:
   - en
   script:
@@ -97,13 +111,13 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 03.100.70
-  text: Management systems
 - code: '35.030'
   text: IT Security
+- code: 03.100.70
+  text: Management systems
 structuredidentifier:
   project_number: '27004'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

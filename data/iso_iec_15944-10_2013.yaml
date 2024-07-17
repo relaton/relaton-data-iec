@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC15944-10-2013
 title:
-- content: 'Information technology -- Business Operational View -- Part 10: IT-enabled
-    coded domains as semantic components in business transactions'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Business operational view
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Business Operational View -- Part 10: IT-enabled
+- content: 'Part 10: IT-enabled coded domains as semantic components in business transactions'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Business operational view - Part 10: IT-enabled
     coded domains as semantic components in business transactions'
   language:
   - en
@@ -62,48 +75,46 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nThe
-    primary purpose of ISO/IEC 15944-10:2013 is to provide, in a single consolidated
-    document, an integrated approach for the key concepts and their definitions as
-    well as rules pertaining to \"coded domains\" as they already exist in the multipart
+- content: <p>The primary purpose of ISO/IEC 15944-10:2013 is to provide, in a single
+    consolidated document, an integrated approach for the key concepts and their definitions
+    as well as rules pertaining to "coded domains" as they already exist in the multipart
     ISO/IEC 15944 eBusiness standard, especially Parts 1, 2, 5 and 8. It does so in
     a systematic and rules-based manner. As such, ISO/IEC 15944-10:2013 serves as
     a methodology and tool for an IT-enabled approach to existing widely used standards,
-    specifications, authority files, pick-lists, etc., of a \"codes representing X\"
+    specifications, authority files, pick-lists, etc., of a "codes representing X"
     nature, i.e. as ISO/IEC 15944-10:2013 compliant coded domains, involving the making
-    of (legally-binding) commitments, based on common business practices.<br />\r\nISO/IEC
+    of (legally-binding) commitments, based on common business practices.</p><p>ISO/IEC
     15944-10:2013 specifies the five key characteristics of coded domains and identifies
     twelve benefits of the use of coded domains. A key purpose of ISO/IEC 15944-10:2013
-    is to maximize and state very explicitly the level of \"intelligence\" at the
-    highest and most precise required level with respect to the semantics of the actual
-    data being interchanged among autonomous parties in a business transaction. Here
-    the use of coded domains presents a simple and very pragmatic approach at the
-    data element, i.e. semantic component level. It focuses on the development of
-    intelligently coded data elements as part of coded domains. This involves rule-based,
-    structured and pre-defined values whose purpose and use has been clearly stated
-    and unambiguously defined (thereby facilitating an IT-enabled approach).<br />\r\nIn
-    an Open-edi and eBusiness context ISO/IEC 15944-10:2013 supports the use of coded
-    domains as re-useable business objects among participating parties in any type
-    of business transaction. Coded domains can be used is support of any type of scenario
-    component, i.e. \"roles\", and \"Information Bundles (IBs)\", and \"semantic components
-    (SCs)\", as well as scenario attributes. Re-use of coded domains is supported
-    through coded domains being registered through procedures specified in ISO/IEC
-    15944-2.<br />\r\nThe semantics of the data values in a coded domain are identified
-    and referenced via unique and unambiguous \"ID codes\", i.e. as unique identifiers.
-    With such unambiguous and unique ID codes, in ISO/IEC 15944-10:2013 compliant
-    coded domains can be associated multiple human interface equivalents (HIEs) in
-    many forms and languages. The approach taken here is that of the separation of
-    the (single) IT interface requirements of semantic interoperability from their
-    (multiple) human interface (linguistic) equivalents (required by the jurisdictional
-    domains of the participating parties as well as those of an individual accessibility
-    nature). Use of ISO/IEC 15944-10:2013 therefore facilitates semantic interoperability
-    requirements of both jurisdictional domains and all kinds of parties to a business
-    transaction [including where the buyer is an individual, and public policy requirements
-    apply (e.g. consumer protection, privacy protection, individual accessibility,
-    etc.)].<br />\r\nIn addition to its twelve normative clauses and two normative
-    annexes, ISO/IEC 15944-10:2013 provides extensive informative text in its Clause
-    0 \"Introduction\" and six informative annexes."
+    is to maximize and state very explicitly the level of "intelligence" at the highest
+    and most precise required level with respect to the semantics of the actual data
+    being interchanged among autonomous parties in a business transaction. Here the
+    use of coded domains presents a simple and very pragmatic approach at the data
+    element, i.e. semantic component level. It focuses on the development of intelligently
+    coded data elements as part of coded domains. This involves rule-based, structured
+    and pre-defined values whose purpose and use has been clearly stated and unambiguously
+    defined (thereby facilitating an IT-enabled approach).</p><p>In an Open-edi and
+    eBusiness context ISO/IEC 15944-10:2013 supports the use of coded domains as re-useable
+    business objects among participating parties in any type of business transaction.
+    Coded domains can be used is support of any type of scenario component, i.e. "roles",
+    and "Information Bundles (IBs)", and "semantic components (SCs)", as well as scenario
+    attributes. Re-use of coded domains is supported through coded domains being registered
+    through procedures specified in ISO/IEC 15944-2.</p><p>The semantics of the data
+    values in a coded domain are identified and referenced via unique and unambiguous
+    "ID codes", i.e. as unique identifiers. With such unambiguous and unique ID codes,
+    in ISO/IEC 15944-10:2013 compliant coded domains can be associated multiple human
+    interface equivalents (HIEs) in many forms and languages. The approach taken here
+    is that of the separation of the (single) IT interface requirements of semantic
+    interoperability from their (multiple) human interface (linguistic) equivalents
+    (required by the jurisdictional domains of the participating parties as well as
+    those of an individual accessibility nature). Use of ISO/IEC 15944-10:2013 therefore
+    facilitates semantic interoperability requirements of both jurisdictional domains
+    and all kinds of parties to a business transaction [including where the buyer
+    is an individual, and public policy requirements apply (e.g. consumer protection,
+    privacy protection, individual accessibility, etc.)].</p><p>In addition to its
+    twelve normative clauses and two normative annexes, ISO/IEC 15944-10:2013 provides
+    extensive informative text in its Clause 0 "Introduction" and six informative
+    annexes.</p>
   language:
   - en
   script:
@@ -135,8 +146,8 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 35.240.60
-  text: IT applications in transport
+- code: 35.240.63
+  text: IT applications in trade
 structuredidentifier:
   project_number: '15944'
   part: '10'

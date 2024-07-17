@@ -2,14 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC15444-1-2004
 title:
-- content: 'Information technology -- JPEG 2000 image coding system: Core coding system'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'JPEG 2000 image coding system: Core coding system'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPEG 2000 image coding system: Core coding system'
+- content: 'Part 1:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPEG 2000 image coding system: Core coding system
+    - Part 1:'
   language:
   - en
   script:
@@ -79,16 +94,19 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 15444-1:2004 ITU-T Rec. T.800 defines a set of lossless (bit-preserving)
-    and lossy compression methods for coding bi-level, continuous-tone grey-scale,
-    palletized colour, or continuous-tone colour digital still images.ISO/IEC 15444-1:2004
-    ITU-T Rec. T.800specifies decoding processes for converting compressed image data
-    to reconstructed image data;specifies a codestream syntax containing information
-    for interpreting the compressed image data;specifies a file format;provides guidance
-    on encoding processes for converting source image data to compressed image data;provides
-    guidance on how to implement these processes in practice.
+- content: |-
+    <p>ISO/IEC 15444-1:2004 | ITU-T Rec. T.800 defines a set of lossless (bit-preserving) and lossy compression methods for coding bi-level, continuous-tone grey-scale, palletized colour, or continuous-tone colour digital still images.</p><p>ISO/IEC 15444-1:2004 | ITU-T Rec. T.800</p>
+    specifies decoding processes for converting compressed image data to reconstructed image data;specifies a codestream syntax containing information for interpreting the compressed image data;specifies a file format;provides guidance on encoding processes for converting source image data to compressed image data;provides guidance on how to implement these processes in practice.
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    <p>L'ISO/CEI 15444-1:2004 | UIT-T Rec. T.800 définit un ensemble de méthodes de compression sans perte (au bit près) et avec perte pour codage d'images numériques fixes, monochromes, à modelé continu en échelle de gris, à palette ou à modelé continu de couleurs.</p><p>L'ISO/CEI 15444-1:2004 | UIT-T Rec. T.800:</p>
+    spécifie des processus de décodage permettant de convertir des données d'image comprimées en données d'image reconstituées;spécifie une syntaxe de flux codé contenant des informations permettant d'interpréter des données d'image comprimées;spécifie un format de fichier;fournit des directives sur les processus de codage permettant de convertir des données d'image de source en données d'image comprimées;fournit des directives sur la façon d'implémenter ces processus en pratique.
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -126,4 +144,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

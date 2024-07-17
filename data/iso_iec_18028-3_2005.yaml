@@ -2,15 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC18028-3-2005
 title:
-- content: 'Information technology -- Security techniques -- IT network security --
-    Part 3: Securing communications between networks using security gateways'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- IT network security --
+- content: 'IT network security -- Part 3: Securing communications between networks
+    using security gateways'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - IT network security --
     Part 3: Securing communications between networks using security gateways'
   language:
   - en
@@ -33,6 +47,8 @@ docid:
 date:
 - type: published
   value: '2005-12-12'
+- type: obsoleted
+  value: '2014-02-21'
 contributor:
 - organization:
     name:
@@ -58,14 +74,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18028-3:2005 provides an overview of security gateways through
-    a description of different architectures.It outlines the techniques for security
-    gateways to analyse network traffic. The techniques discussed are as follows:packet
-    filtering,stateful packet inspection,application proxy,network address translation,content
-    analysing and filtering.Additionally, ISO/IEC 18028-3:2005 provides guidelines
-    for the selection and configuration of security gateways. It gives guidance to
-    choose the right type of architecture for a security gateway, which best meets
-    the security requirements of an organization.
+- content: |-
+    <p>ISO/IEC 18028-3:2005 provides an overview of security gateways through a description of different architectures.</p><p>It outlines the techniques for security gateways to analyse network traffic. The techniques discussed are as follows:</p>
+    packet filtering,stateful packet inspection,application proxy,network address translation,content analysing and filtering.<p>Additionally, ISO/IEC 18028-3:2005 provides guidelines for the selection and configuration of security gateways. It gives guidance to choose the right type of architecture for a security gateway, which best meets the security requirements of an organization.</p>
   language:
   - en
   script:
@@ -73,7 +84,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -97,12 +108,12 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.040'
-  text: Information coding
+- code: '35.030'
+  text: IT Security
 structuredidentifier:
   project_number: '18028'
   part: '3'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

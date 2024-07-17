@@ -75,18 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 10116:2006 specifies modes of operation for an<em>n</em>-bit block
-    cipher. These modes provide methods for encrypting and decrypting data where the
-    bit length of the data may exceed the size of the block cipher. The modes specified
-    in ISO/IEC 10116:2006 only provide protection of data confidentiality. Protection
-    of data integrity and requirements for padding the data are not within the scope
-    of ISO/IEC 10116:2006.<br /><br />\r\nISO/IEC 10116:2006 specifies five modes
-    of operation:\r\n\r\n\tElectronic Codebook (ECB);\r\n\tCipher Block Chaining (CBC),
-    with optional interleaving;\r\n\tCipher Feedback (CFB);\r\n\tOutput Feedback (OFB);
-    and\r\n\tCounter (CTR).<br /><br />\r\nThe Annexes of ISO/IEC 10166:2006 provide
-    object identifiers (according to ISO/IEC 9834) for each mode, a description of
-    the properties of each mode, and diagrams and examples of each mode.<br /><br
-    />\r\nBlock ciphers are specified in ISO/IEC 18033-3."
+- content: |-
+    <p>ISO/IEC 10116:2006 specifies modes of operation for an<em>n</em>-bit block cipher. These modes provide methods for encrypting and decrypting data where the bit length of the data may exceed the size of the block cipher. The modes specified in ISO/IEC 10116:2006 only provide protection of data confidentiality. Protection of data integrity and requirements for padding the data are not within the scope of ISO/IEC 10116:2006.</p><p>ISO/IEC 10116:2006 specifies five modes of operation:</p>
+    Electronic Codebook (ECB);Cipher Block Chaining (CBC), with optional interleaving;Cipher Feedback (CFB);Output Feedback (OFB); and Counter (CTR).<p>The Annexes of ISO/IEC 10166:2006 provide object identifiers (according to ISO/IEC 9834) for each mode, a description of the properties of each mode, and diagrams and examples of each mode.</p><p>Block ciphers are specified in ISO/IEC 18033-3.</p>
   language:
   - en
   script:
@@ -125,4 +116,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

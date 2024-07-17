@@ -46,6 +46,8 @@ docid:
 date:
 - type: published
   value: '2020-03-19'
+- type: obsoleted
+  value: '2024-02-29'
 contributor:
 - organization:
     name:
@@ -71,28 +73,28 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies the CMAF multimedia format, which contains segmented
-    media objects optimized for streaming delivery and decoding on end user devices
-    in adaptive multimedia presentations.<br />\r\nCMAF specifies a track format derived
-    from the ISO base media file format, then derives addressable media objects from
-    CMAF tracks that can be used for storage and delivery.<br />\r\nCMAF specifies
+- content: "<p>This document specifies the CMAF multimedia format, which contains
+    segmented media objects optimized for streaming delivery and decoding on end user
+    devices in adaptive multimedia presentations.</p><p>CMAF specifies a track format
+    derived from the ISO base media file format, then derives addressable media objects
+    from CMAF tracks that can be used for storage and delivery.</p><p>CMAF specifies
     sets of tracks that share encoding and packaging constraints that enable the selection
     of multiple tracks to form a multimedia presentation and allow seamless switching
     of alternative encodings of the same content at different bit rates, frame rates,
-    resolution, etc.<br />\r\nCMAF specifies a hypothetical application model that
-    determines how tracks in a CMAF presentation are intended to be combined and synchronized
+    resolution, etc.</p><p>CMAF specifies a hypothetical application model that determines
+    how tracks in a CMAF presentation are intended to be combined and synchronized
     to form a multimedia presentation. The model abstracts delivery to allow any delivery
     method. The hypothetical application model assumes a manifest and player, but
     CMAF does not specify a manifest, player, or delivery protocol, with the intent
-    that any that support the hypothetical application model can be used.<br />\r\nCMAF
+    that any that support the hypothetical application model can be used.</p><p>CMAF
     specifies media profiles and brands that constrain media encoding and packaging
     of CMAF tracks to enable seamless adaptive switching of tracks and allow devices
-    to identify compatible content by its brand.<br />\r\nCMAF specifies presentation
+    to identify compatible content by its brand.</p><p>CMAF specifies presentation
     profiles that conditionally require sets of CMAF tracks conforming to specified
     media profiles and allow content creators and devices to identify compatible multimedia
-    presentations.<br />\r\nCMAF enables extensibility by specifying how new media
-    profiles and presentation profiles can be specified and identified and includes
-    guidelines for those specifications."
+    presentations.</p><p>CMAF enables extensibility by specifying how new media profiles
+    and presentation profiles can be specified and identified and includes guidelines
+    for those specifications.</p>"
   language:
   - en
   script:
@@ -132,4 +134,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

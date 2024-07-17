@@ -71,23 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 7816-15:2016 specifies an application in a card. This application
+- content: "<p>ISO/IEC 7816-15:2016 specifies an application in a card. This application
     contains information on cryptographic functionality. This part of ISO/IEC 7816
     defines a common syntax and format for the cryptographic information and mechanisms
-    to share this information whenever appropriate.<p>The objectives of this part
-    of ISO/IEC 7816 are to</p>\r\n\r\n\r\n\tfacilitate interoperability among components
-    running on various platforms (platform neutral),\r\n\tenable applications in the
-    outside world to take advantage of products and components from multiple manufacturers
-    (vendor neutral),\r\n\tenable the use of advances in technology without rewriting
-    application-level software (application neutral), and\r\n\tmaintain consistency
+    to share this information whenever appropriate.</p><p>The objectives of this part
+    of ISO/IEC 7816 are to</p>\n\n- facilitate interoperability among components running
+    on various platforms (platform neutral),\n- enable applications in the outside
+    world to take advantage of products and components from multiple manufacturers
+    (vendor neutral),\n- enable the use of advances in technology without rewriting
+    application-level software (application neutral), and\n- maintain consistency
     with existing, related standards while expanding upon them only where necessary
-    and practical.<p>It supports the following capabilities:</p>\r\n\r\n\r\n\tstorage
-    of multiple instances of cryptographic information in a card;\r\n\tuse of the
-    cryptographic information;\r\n\tretrieval of the cryptographic information, a
-    key factor for this is the notion of \"Directory Files\", which provides a layer
-    of indirection between objects on the card and the actual format of these objects;\r\n\tcross-referencing
+    and practical.<p>It supports the following capabilities:</p>\n\n- storage of multiple
+    instances of cryptographic information in a card;\n- use of the cryptographic
+    information;\n- retrieval of the cryptographic information, a key factor for this
+    is the notion of \"Directory Files\", which provides a layer of indirection between
+    objects on the card and the actual format of these objects;\n- cross-referencing
     of the cryptographic information with DOs defined in other parts of ISO/IEC 7816
-    when appropriate;\r\n\tdifferent authentication mechanisms;\r\n\tmultiple cryptographic
+    when appropriate; \n- different authentication mechanisms;\n- multiple cryptographic
     algorithms (the suitability of these is outside the scope of this part of ISO/IEC
     7816).<p>ISO/IEC 7816-15.2016 does not cover the internal implementation within
     the card and/or the outside world. It is not mandatory for implementations complying

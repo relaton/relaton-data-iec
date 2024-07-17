@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC24800-3-2010
 title:
-- content: 'Information technology -- JPSearch -- Part 3: Query format'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: JPSearch
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPSearch -- Part 3: Query format'
+- content: 'Part 3: Query format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPSearch - Part 3: Query format'
   language:
   - en
   script:
@@ -56,13 +70,13 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”, provides
-    a standardized interface for image search and retrieval systems in three aspects
-    - input query format, output result format and query management - as a specialization
-    of ISO/IEC 15938-12:2008 for images and accompanying metadata.The top-level tools
-    defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult and
-    Management. Both InputQuery and FetchResult tools belong to input query format.
-    The input query format provides users/systems with a set of precise input parameters
+- content: "<p>ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”,
+    provides a standardized interface for image search and retrieval systems in three
+    aspects - input query format, output result format and query management - as a
+    specialization of ISO/IEC 15938-12:2008 for images and accompanying metadata.</p><p>The
+    top-level tools defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult
+    and Management. Both InputQuery and FetchResult tools belong to input query format.</p><p>The
+    input query format provides users/systems with a set of precise input parameters
     to describe their search criteria in addition to a set of preferred output parameters
     to depict the return result sets through InputQuery. Through InputQuery, users
     can use queries of various types, such as query by media, query by description,
@@ -71,18 +85,19 @@ abstract:
     a query request is issued using the asynchronous mode, the FetchResult element
     is used to indicate the preparedness of the user to receive results. When a query
     request is issued using the synchronous mode, the FetchResult element is used
-    to receive individual pages of the result set (if paging is activated).The OutputResult,
-    which is the output result format, provides users/systems with a set of output
-    parameters to describe the aggregated return result sets for user presentation
-    or machine consumption. The Management tool, which is the query management tool
-    set, provides a means for selecting services (e.g. MPEG-7 database or Core Metadata
-    services) or aggregated services (e.g. service provider that administers a set
-    of different services) based on service properties (e.g. supported query format,
-    supported metadata standard). The goal is to define a query language that provides
-    the industry with a standardized format to accept and respond to user/system specification
-    for image searches. In the framework of JPSearch, the JPSearch Query Format is
-    designed to be used as an interface between querying client and answering servers,
-    as well as between aggregation service agent and individual service providers.
+    to receive individual pages of the result set (if paging is activated).</p><p>The
+    OutputResult, which is the output result format, provides users/systems with a
+    set of output parameters to describe the aggregated return result sets for user
+    presentation or machine consumption.</p><p>The Management tool, which is the query
+    management tool set, provides a means for selecting services (e.g. MPEG-7 database
+    or Core Metadata services) or aggregated services (e.g. service provider that
+    administers a set of different services) based on service properties (e.g. supported
+    query format, supported metadata standard).</p><p>The goal is to define a query
+    language that provides the industry with a standardized format to accept and respond
+    to user/system specification for image searches. In the framework of JPSearch,
+    the JPSearch Query Format is designed to be used as an interface between querying
+    client and answering servers, as well as between aggregation service agent and
+    individual service providers.</p>"
   language:
   - en
   script:

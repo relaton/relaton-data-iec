@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC15910-1999
 title:
-- content: Information technology -- Software user documentation process
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Software user documentation process
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Software user documentation process
+- content: Information technology - Software user documentation process
   language:
   - en
   script:
@@ -31,6 +38,8 @@ docid:
 date:
 - type: published
   value: '1999-12-16'
+- type: obsoleted
+  value: '2011-05-19'
 contributor:
 - organization:
     name:
@@ -57,7 +66,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -88,4 +97,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC9594-4-2014
 title:
-- content: 'Information technology -- Open Systems Interconnection -- The Directory
-    -- Part 4: Procedures for distributed operation'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open Systems Interconnection
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Open Systems Interconnection -- The Directory
+- content: 'The Directory -- Part 4: Procedures for distributed operation'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Open Systems Interconnection - The Directory
     -- Part 4: Procedures for distributed operation'
   language:
   - en
@@ -62,10 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    ISO/IEC 9594 has been produced to facilitate the interconnection of information processing systems to provide directory services. A set of such systems, together with the directory information that they hold, can be viewed as an integrated whole, called the Directory. The information held by the Directory, collectively known as the Directory Information Base (DIB), is typically used to facilitate communication between, with or about objects such as application entities, people, terminals and distribution lists.
-
-    ISO/IEC 9594-4:2014 specifies the procedures required for a distributed directory consisting of a mix of Directory System Agents (DSAs) and lightweight directory access protocol (LDAP) servers acting together to provide a consistent service to its users, independent of the point of access. It also describes procedures for protocol conversion between the directory access protocol/directory system protocol (DAP/DSP) protocols and the LDAP protocol.
+- content: "<p>ISO/IEC 9594 has been produced to facilitate the interconnection of
+    information processing systems to provide directory services. A set of such systems,
+    together with the directory information that they hold, can be viewed as an integrated
+    whole, called the Directory. The information held by the Directory, collectively
+    known as the Directory Information Base (DIB), is typically used to facilitate
+    communication between, with or about objects such as application entities, people,
+    terminals and distribution lists.</p><p>ISO/IEC 9594-4:2014 specifies the procedures
+    required for a distributed directory consisting of a mix of Directory System Agents
+    (DSAs) and lightweight directory access protocol (LDAP) servers acting together
+    to provide a consistent service to its users, independent of the point of access.
+    It also describes procedures for protocol conversion between the directory access
+    protocol/directory system protocol (DAP/DSP) protocols and the LDAP protocol.</p>"
   language:
   - en
   script:
@@ -105,4 +126,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

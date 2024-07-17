@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IECTR14369-2014
 title:
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Guidelines for the preparation of Language-Independent
-    Service Specifications (LISS)
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages, their environments and system software interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Guidelines for the preparation of Language-Independent
+- content: Guidelines for the preparation of Language-Independent Service Specifications
+    (LISS)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages, their environments and
+    system software interfaces - Guidelines for the preparation of Language-Independent
     Service Specifications (LISS)
   language:
   - en
@@ -38,7 +51,7 @@ date:
 - type: stable-until
   value: '2018-02-05'
 - type: obsoleted
-  value: '2018-02-05'
+  value: '2018-01-30'
 contributor:
 - organization:
     name:
@@ -64,10 +77,23 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    ISO/IEC TR 14369:2014 provides guidelines to those concerned with developing specifications of information technology services and their interfaces intended for use by clients of the services, in particular by external applications that do not necessarily all share the environment and assumptions of one particular programming language. The guidelines do not directly or fully cover all aspects of service or interface specifications, but they do cover those aspects required to achieve language independence, i.e. required to make a specification neutral with respect to the language environment from which the service is invoked. The guidelines are primarily concerned with the interface between the service and the external applications making use of the service, including the special case where the service itself is already specified in a language-dependent way but needs to be invoked from environments of other languages. Language bindings, already addressed by another Technical Report, ISO/IEC/TR 10182, are dealt with by providing advice on how to use the two Technical Reports together.
-
-    ISO/IEC TR 14369:2014 provides technical guidelines, rather than organizational or administrative guidelines for the management of the development process, though in some cases the technical guidelines may have organizational or administrative implications.
+- content: "<p>ISO/IEC TR 14369:2014 provides guidelines to those concerned with developing
+    specifications of information technology services and their interfaces intended
+    for use by clients of the services, in particular by external applications that
+    do not necessarily all share the environment and assumptions of one particular
+    programming language. The guidelines do not directly or fully cover all aspects
+    of service or interface specifications, but they do cover those aspects required
+    to achieve language independence, i.e. required to make a specification neutral
+    with respect to the language environment from which the service is invoked. The
+    guidelines are primarily concerned with the interface between the service and
+    the external applications making use of the service, including the special case
+    where the service itself is already specified in a language-dependent way but
+    needs to be invoked from environments of other languages. Language bindings, already
+    addressed by another Technical Report, ISO/IEC/TR 10182, are dealt with by providing
+    advice on how to use the two Technical Reports together.</p><p>ISO/IEC TR 14369:2014
+    provides technical guidelines, rather than organizational or administrative guidelines
+    for the management of the development process, though in some cases the technical
+    guidelines may have organizational or administrative implications.</p>"
   language:
   - en
   script:
@@ -106,4 +132,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

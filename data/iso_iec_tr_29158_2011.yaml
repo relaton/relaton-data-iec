@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR29158-2011
 title:
-- content: Information technology -- Automatic identification and data capture techniques
-    -- Direct Part Mark (DPM) Quality Guideline
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Automatic identification and data capture techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Automatic identification and data capture techniques
-    -- Direct Part Mark (DPM) Quality Guideline
+- content: Direct Part Mark (DPM) Quality Guideline
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Automatic identification and data capture techniques
+    - Direct Part Mark (DPM) Quality Guideline
   language:
   - en
   script:
@@ -33,6 +46,8 @@ docid:
 date:
 - type: published
   value: '2011-10-06'
+- type: obsoleted
+  value: '2020-12-14'
 contributor:
 - organization:
     name:
@@ -58,19 +73,19 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC TR 29158:2011 is an engineering document intended for verifier
-    manufacturers and application specification developers.<br /><br />\r\nIt describes
-    modifications which are to be considered in conjunction with the symbol quality
-    methodology defined in ISO/IEC 15415 and a symbology specification. It defines
-    alternative illumination conditions, some new terms and parameters, modifications
-    to the measurement and grading of certain parameters, and the reporting of the
-    grading results.<br /><br />\r\nISO/IEC TR 29158:2011 was developed to assess
-    the symbol quality of direct marked parts, where the mark is applied directly
-    to the surface of the item and the reading device is a two-dimensional imager.<br
-    /><br />\r\nWhen application specifications allow, this method may also be applied
-    to symbols produced by other methods. This is appropriate when direct part marked
-    (DPM) symbols and non-DPM symbols are being scanned in the same scanning environment.
-    The symbol grade is reported as a DPM grade rather than as an ISO/IEC 15415 grade."
+- content: "<p>ISO/IEC TR 29158:2011 is an engineering document intended for verifier
+    manufacturers and application specification developers.</p><p>It describes modifications
+    which are to be considered in conjunction with the symbol quality methodology
+    defined in ISO/IEC 15415 and a symbology specification. It defines alternative
+    illumination conditions, some new terms and parameters, modifications to the measurement
+    and grading of certain parameters, and the reporting of the grading results.</p><p>ISO/IEC
+    TR 29158:2011 was developed to assess the symbol quality of direct marked parts,
+    where the mark is applied directly to the surface of the item and the reading
+    device is a two-dimensional imager.</p><p>When application specifications allow,
+    this method may also be applied to symbols produced by other methods. This is
+    appropriate when direct part marked (DPM) symbols and non-DPM symbols are being
+    scanned in the same scanning environment. The symbol grade is reported as a DPM
+    grade rather than as an ISO/IEC 15415 grade.</p>"
   language:
   - en
   script:
@@ -109,4 +124,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B

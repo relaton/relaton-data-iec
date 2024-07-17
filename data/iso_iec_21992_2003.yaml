@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC21992-2003
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Mapping functions for the tunnelling
-    of QSIG through IP networks
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Mapping functions for the tunnelling
+- content: Private Integrated Services Network -- Mapping functions for the tunnelling
+    of QSIG through IP networks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Mapping functions for the tunnelling
     of QSIG through IP networks
   language:
   - en
@@ -60,23 +73,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    21992:2003(E) specifies functions for using a packet network that uses the Internet
-    Protocol (IP) as its network layer protocol and UDP and TCP as its transport layer
-    protocols, to interconnect two Private Integrated services Network eXchanges (PINXs)
-    forming part of a Private Integrated Services Network (PISN). Interconnection
-    is achieved by carrying the inter-PINX signalling protocol directly over the Transmission
-    Control Protocol (TCP) and inter-PINX user information (e.g. voice) over the Real-time
-    Transport Protocol (RTP), RTP being carried over the User Datagram Protocol (UDP).
-    The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC
-    11572, ISO/IEC 11582 and other International Standards.<br />\r\nISO/IEC 21992:2003(E)
-    provides for two types of interconnection:<br />\r\non-demand, where a separate
-    TCP connection for QSIG is established at the start of each call and cleared down
-    at the end of that call; and<br />\r\nsemi-permanent, where a single TCP connection
-    with an indefinite lifetime carries QSIG on behalf of many single calls.<br />\r\nISO/IEC
-    21992:2003(E) is applicable to PINXs that can be interconnected to form a PISN
-    using QSIG as the inter-PINX signalling protocol."
+- content: |-
+    <p>ISO/IEC 21992:2003(E) specifies functions for using a packet network that uses the Internet Protocol (IP) as its network layer protocol and UDP and TCP as its transport layer protocols, to interconnect two Private Integrated services Network eXchanges (PINXs) forming part of a Private Integrated Services Network (PISN). Interconnection is achieved by carrying the inter-PINX signalling protocol directly over the Transmission Control Protocol (TCP) and inter-PINX user information (e.g. voice) over the Real-time Transport Protocol (RTP), RTP being carried over the User Datagram Protocol (UDP). The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC 11582 and other International Standards.</p><p>ISO/IEC 21992:2003(E) provides for two types of interconnection:</p>
+    on-demand, where a separate TCP connection for QSIG is established at the start of each call and cleared down at the end of that call; andsemi-permanent, where a single TCP connection with an indefinite lifetime carries QSIG on behalf of many single calls.<p>ISO/IEC 21992:2003(E) is applicable to PINXs that can be interconnected to form a PISN using QSIG as the inter-PINX signalling protocol.</p>
   language:
   - en
   script:

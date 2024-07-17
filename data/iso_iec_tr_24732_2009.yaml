@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IECTR24732-2009
 title:
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Extension for the programming language C to support
-    decimal floating-point arithmetic
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages, their environments and system software interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Extension for the programming language C to support
+- content: Extension for the programming language C to support decimal floating-point
+    arithmetic
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages, their environments and
+    system software interfaces - Extension for the programming language C to support
     decimal floating-point arithmetic
   language:
   - en
@@ -64,13 +77,13 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC TR 24732:2009 specifies an extension to the programming language
+- content: "<p>ISO/IEC TR 24732:2009 specifies an extension to the programming language
     C, specified by the International Standard ISO/IEC 9899:1999. The extension provides
     support for decimal floating-point arithmetic that is intended to be consistent
     with the specification in IEEE 754-2008. Any conflict between the requirements
     described here and that specification is unintentional. ISO/IEC TR 24732:2009
-    defers to IEEE 754-2008.<br /><br />\r\nThe binary floating-point arithmetic as
-    specified in IEEE 754-2008 is not considered in ISO/IEC TR 24732:2009."
+    defers to IEEE 754-2008.</p><p>The binary floating-point arithmetic as specified
+    in IEEE 754-2008 is not considered in ISO/IEC TR 24732:2009.</p>"
   language:
   - en
   script:
@@ -109,4 +122,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

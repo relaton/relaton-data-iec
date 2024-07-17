@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC19757-2-2003
 title:
-- content: 'Information technology -- Document Schema Definition Language (DSDL) --
-    Part 2: Regular-grammar-based validation -- RELAX NG'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Document Schema Definition Language (DSDL)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Document Schema Definition Language (DSDL) --
+- content: 'Part 2: Regular-grammar-based validation -- RELAX NG'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Document Schema Definition Language (DSDL) -
     Part 2: Regular-grammar-based validation -- RELAX NG'
   language:
   - en
@@ -62,12 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 19757-2:2003 specifies RELAX NG, a schema language for XML. A RELAX
-    NG schema specifies a pattern for the structure and content of an XML document.
-    The pattern is specified by using a regular tree grammar. A RELAX NG schema is
-    itself an XML document.ISO/IEC 19757-2:2003 specifies:when an XML document is
-    a correct RELAX NG schema; andwhen an XML document is valid with respect to a
-    correct RELAX NG schema.
+- content: |-
+    <p>ISO/IEC 19757-2:2003 specifies RELAX NG, a schema language for XML. A RELAX NG schema specifies a pattern for the structure and content of an XML document. The pattern is specified by using a regular tree grammar. A RELAX NG schema is itself an XML document.</p><p>ISO/IEC 19757-2:2003 specifies:</p>
+    when an XML document is a correct RELAX NG schema; andwhen an XML document is valid with respect to a correct RELAX NG schema.
   language:
   - en
   script:
@@ -107,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

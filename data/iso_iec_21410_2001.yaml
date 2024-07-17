@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC21410-2001
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Corporate telecommunication networks -- Signalling interworking between
-    QSIG and H.323 -- Call transfer supplementary services
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Corporate telecommunication networks -- Signalling interworking between
+- content: Corporate telecommunication networks -- Signalling interworking between
+    QSIG and H.323 -- Call transfer supplementary services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Corporate telecommunication networks -- Signalling interworking between
     QSIG and H.323 -- Call transfer supplementary services
   language:
   - en
@@ -60,71 +73,71 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    21410:2001 This International Standard specifies signalling interworking between
-    \"QSIG\" and \"H.323\" in support of the call transfer supplementary services
-    within a Corporate telecommunication Network (CN).<br />\r\n\"QSIG\" is a signalling
+- content: <p>This International Standard specifies signalling interworking between
+    "QSIG" and "H.323" in support of the call transfer</p><p>supplementary services
+    within a Corporate telecommunication Network (CN).</p><p>"QSIG" is a signalling
     protocol that operates at the Q reference point between Private Integrated Services
-    eXchanges (PINX) within a Private Integrated Services Network (PISN). The Q reference
-    point is defined in ISO/IEC 11579-1. A PISN provides circuit-switched basic services
-    and supplementary services to its users. QSIG is specified in other Standards,
-    in particular ISO/IEC 11572 (call control in support of basic services), ISO/IEC
-    11582 (generic functional protocol for the support of supplementary services)
-    and a number of standards specifying individual supplementary services. ISO/IEC
-    13869 specifies the QSIG protocol in support of call transfer by consultation
-    and ISO/IEC 19460 specifies the QSIG protocol in support of single step call transfer.<br
-    />\r\n\"H.323\" is a set of signalling protocols for the support of voice or multimedia
-    communication within a packet network, in particular a packet network that uses
-    the Internet Protocol (IP) as its network layer protocol (IP network). H.323 signalling
-    protocols operate between endpoints in an IP network, either indirectly via one
-    or more gatekeepers, or directly. An endpoint can be a terminal or a gateway to
-    another network. H.323 is an \"umbrella\" recommendation referring to various
-    ITU-T recommendations, in particular Recommendations H.225.0 and H.245 (basic
-    communication capabilities) and Recommendation H.450.1 (generic functional protocol
-    for the support of supplementary services). Recommendation H.450.2 specifies the
-    H.323 protocol in support of call transfer.<br />\r\nNOTE - H.450.2 applies only
-    to the 1998 version of H.323 (also known as H.323 version 2) and to later versions.<br
-    />\r\nCall transfer by consultation, as supported by ISO/IEC 13869, is a supplementary
-    service that enables a user (user A) to transform two of that user's calls (at
-    least one of which must be answered) into a new call between the two other users
-    in the two calls (users B and C).<br />\r\nSingle step call transfer, as supported
-    by ISO/IEC 19460, is a supplementary service that enables a user (user A) to transform
-    an existing call between user A and user B into a new call between user B and
-    user C without user A needing to establish a call with user C prior to transfer.<br
-    />\r\nCall transfer, as supported by H.450.2, is a supplementary service that
-    enables the served user (user A) to transform an existing call with a second user
-    (user B) into a new call between user B and a third user (user C) selected by
-    user A. User A may or may not have a call established with user C prior to call
-    transfer. If a call is already established between user A and user C, this is
-    known as transfer by consultation and is equivalent to call transfer as supported
-    by ISO/IEC 13869. If a call is not already established between user A and user
+    eXchanges (PINX)</p><p>within a Private Integrated Services Network (PISN). The
+    Q reference point is defined in ISO/IEC 11579-1. A PISN provides</p><p>circuit-switched
+    basic services and supplementary services to its users. QSIG is specified in other
+    Standards, in particular</p><p>ISO/IEC 11572 (call control in support of basic
+    services), ISO/IEC 11582 (generic functional protocol for the support of</p><p>supplementary
+    services) and a number of standards specifying individual supplementary services.
+    ISO/IEC 13869 specifies the</p><p>QSIG protocol in support of call transfer by
+    consultation and ISO/IEC 19460 specifies the QSIG protocol in support of single</p><p>step
+    call transfer.</p><p>"H.323" is a set of signalling protocols for the support
+    of voice or multimedia communication within a packet network, in</p><p>particular
+    a packet network that uses the Internet Protocol (IP) as its network layer protocol
+    (IP network). H.323 signalling</p><p>protocols operate between endpoints in an
+    IP network, either indirectly via one or more gatekeepers, or directly. An endpoint</p><p>can
+    be a terminal or a gateway to another network. H.323 is an "umbrella" recommendation
+    referring to various ITU-T</p><p>recommendations, in particular Recommendations
+    H.225.0 and H.245 (basic communication capabilities) and</p><p>Recommendation
+    H.450.1 (generic functional protocol for the support of supplementary services).
+    Recommendation H.450.2</p><p>specifies the H.323 protocol in support of call transfer.</p><p>NOTE
+    - H.450.2 applies only to the 1998 version of H.323 (also known as H.323 version
+    2) and to later versions.</p><p>Call transfer by consultation, as supported by
+    ISO/IEC 13869, is a supplementary service that enables a user (user A) to</p><p>transform
+    two of that user's calls (at least one of which must be answered) into a new call
+    between the two other users in the two</p><p>calls (users B and C).</p><p>Single
+    step call transfer, as supported by ISO/IEC 19460, is a supplementary service
+    that enables a user (user A) to transform</p><p>an existing call between user
+    A and user B into a new call between user B and user C without user A needing
+    to establish a call</p><p>with user C prior to transfer.</p><p>Call transfer,
+    as supported by H.450.2, is a supplementary service that enables the served user
+    (user A) to transform an existing</p><p>call with a second user (user B) into
+    a new call between user B and a third user (user C) selected by user A. User A
+    may or may</p><p>not have a call established with user C prior to call transfer.
+    If a call is already established between user A and user C, this is</p><p>known
+    as transfer by consultation and is equivalent to call transfer as supported by
+    ISO/IEC 13869. If a call is not already</p><p>established between user A and user
     C, this is known as single step call transfer and is equivalent to call transfer
-    as supported by ISO/IEC 19460.<br />\r\nInterworking between QSIG and H.323 permits
-    a call originating at a user of a PISN to terminate at a user of an IP network,
-    or a call originating at a user of an IP network to terminate at a user of a PISN.
-    This International Standard provides the following<br />\r\nadditional capabilities:<br
-    />\r\n- a PISN user with two calls established, at least one of which being to
-    or from a user in an IP network, to be able to transform those two calls into
-    a new call between the other two users involved;<br />\r\n- a PISN user with a
-    call established to or from a user in an IP network to be able to transform that
-    call into a new call between the IP network user and a third user selected by
-    the PISN user, that third user being either in the IP network or in the PISN;<br
-    />\r\n- a PISN user with a call established to a second PISN user to be able to
-    transfer that call into a new call between the second user and a third user selected
-    by the first user, that third user being in an IP network;<br />\r\n- an IP network
-    user with two calls established, at least one of which being to or from a user
-    in a PISN, to be able to transform those two calls into a new call between the
-    other two users involved;<br />\r\n- an IP network user with a call established
-    to or from a user in a PISN to be able to transform that call into a new call
-    between the PISN user and a third user selected by the IP network user, that third
-    user being either in the IP network or in the PISN; and<br />\r\nISO/IEC 21410:2001(E)<br
-    />\r\n- an IP network user with a call established to a second user in the IP
-    network to be able to transfer that call into a new call<br />\r\nbetween the
-    second user and a third user selected by the first user, that third user being
-    in a PISN.<br />\r\nThis International Standard is applicable to any interworking
-    unit that can act as a gateway between a PISN employing QSIG and an IP network
-    employing H.323."
+    as supported</p><p>by ISO/IEC 19460.</p><p>Interworking between QSIG and H.323
+    permits a call originating at a user of a PISN to terminate at a user of an IP
+    network, or</p><p>a call originating at a user of an IP network to terminate at
+    a user of a PISN. This International Standard provides the following</p><p>additional
+    capabilities:</p><p>_ a PISN user with two calls established, at least one of
+    which being to or from a user in an IP network, to be able to</p><p>transform
+    those two calls into a new call between the other two users involved;</p><p>_
+    a PISN user with a call established to or from a user in an IP network to be able
+    to transform that call into a new call</p><p>between the IP network user and a
+    third user selected by the PISN user, that third user being either in the IP network
+    or in</p><p>the PISN;</p><p>_ a PISN user with a call established to a second
+    PISN user to be able to transfer that call into a new call between the second</p><p>user
+    and a third user selected by the first user, that third user being in an IP network;</p><p>_
+    an IP network user with two calls established, at least one of which being to
+    or from a user in a PISN, to be able to</p><p>transform those two calls into a
+    new call between the other two users involved;</p><p>_ an IP network user with
+    a call established to or from a user in a PISN to be able to transform that call
+    into a new call</p><p>between the PISN user and a third user selected by the IP
+    network user, that third user being either in the IP network or in</p><p>the PISN;
+    and</p><p><strong>ISO/IEC 21410:2001(E)</strong></p><p><strong>2</strong>© ISO/IEC
+    2001? All rights reserved</p><p>_ an IP network user with a call established to
+    a second user in the IP network to be able to transfer that call into a new call</p><p>between
+    the second user and a third user selected by the first user, that third user being
+    in a PISN.</p><p>This International Standard is applicable to any interworking
+    unit that can act as a gateway between a PISN employing QSIG</p><p>and an IP network
+    employing H.323.</p>
   language:
   - en
   script:

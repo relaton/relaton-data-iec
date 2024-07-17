@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC24727-1-2007
 title:
-- content: 'Identification cards -- Integrated circuit card programming interfaces
-    -- Part 1: Architecture'
+- content: Identification cards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Integrated circuit card programming interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Identification cards -- Integrated circuit card programming interfaces
-    -- Part 1: Architecture'
+- content: 'Part 1: Architecture'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Identification cards - Integrated circuit card programming interfaces
+    - Part 1: Architecture'
   language:
   - en
   script:
@@ -62,15 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 24727 is a set of programming interfaces for interactions between
-    integrated circuit cards and external applications to include generic services
-    for multi-sector use. The organization and the operation of the ICC conform to
-    ISO/IEC 7816-4.<br /><br />\r\nISO/IEC 24727-1:2007 specifies<br />\r\nsystem
-    architecture and principles of operation,<br />\r\na capabilities discovery mechanism,<br
-    />\r\nsecurity rationale.<br /><br />\r\nIt does not cover the internal implementation
-    within the card or the outside world.<br /><br />\r\nISO/IEC 24727-1:2007 is independent
-    of the physical interface technology. It applies to cards accessed by one or more
-    of the following methods: contacts, close coupling and radio frequency."
+- content: |-
+    <p>ISO/IEC 24727 is a set of programming interfaces for interactions between integrated circuit cards and external applications to include generic services for multi-sector use. The organization and the operation of the ICC conform to ISO/IEC 7816-4.</p><p>ISO/IEC 24727-1:2007 specifies</p>
+    system architecture and principles of operation,a capabilities discovery mechanism,security rationale.<p>It does not cover the internal implementation within the card or the outside world.</p><p>ISO/IEC 24727-1:2007 is independent of the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling and radio frequency.</p>
   language:
   - en
   script:
@@ -110,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

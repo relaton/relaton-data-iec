@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC13818-1-2007
 title:
-- content: 'Information technology -- Generic coding of moving pictures and associated
-    audio information: Systems'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'Generic coding of moving pictures and associated audio information: Systems'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Generic coding of moving pictures and associated
-    audio information: Systems'
+- content: 'Part 1:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Generic coding of moving pictures and associated
+    audio information: Systems - Part 1:'
   language:
   - en
   script:
@@ -79,31 +92,31 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 13818-1:2007 specifies the system layer of the coding. It was
-    developed principally to support the combination of the video and audio coding
-    methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports
-    six basic functions:the synchronization of multiple compressed streams on decoding;the
-    interleaving of multiple compressed streams into a single stream;the initialization
-    of buffering for decoding start up;continuous buffer management;time identification;multiplexing
-    and signalling of various components in a system stream.An ISO/IEC 13818-1:2007
-    multiplexed bit stream is either a Transport Stream or a Program Stream. Both
-    streams are constructed from PES packets and packets containing other necessary
-    information. Both stream types support multiplexing of video and audio compressed
-    streams from one program with a common time base.The Transport Stream additionally
-    supports the multiplexing of video and audio compressed streams from multiple
-    programs with independent time bases. For almost error-free environments the Program
-    Stream is generally more appropriate, supporting software processing of program
-    information. The Transport Stream is more suitable for use in environments where
-    errors are likely.An ISO/IEC 13818-1:2007 multiplexed bit stream, whether a Transport
-    Stream or a Program Stream, is constructed in two layers: the outermost layer
-    is the system layer, and the innermost is the compression layer. The system layer
-    provides the functions necessary for using one or more compressed data streams
-    in a system. The video and audio parts of ISO/IEC 13818-1:2007 define the compression
-    coding layer for audio and video data. Coding of other types of data is not defined
-    by ISO/IEC 13818-1:2007, but is supported by the system layer provided that the
-    other types of data adhere to the constraints defined in 2.7.'
+- content: |-
+    <p>ISO/IEC 13818-1:2007 specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports six basic functions:</p>
+
+    the synchronization of multiple compressed streams on decoding;
+    the interleaving of multiple compressed streams into a single stream;
+    the initialization of buffering for decoding start up;
+    continuous buffer management;
+    time identification;
+    multiplexing and signalling of various components in a system stream.<p>An ISO/IEC 13818-1:2007 multiplexed bit stream is either a Transport Stream or a Program Stream. Both streams are constructed from PES packets and packets containing other necessary information. Both<strong></strong>stream types support multiplexing of video and audio compressed streams from one program with a common time base.</p><p>The Transport Stream additionally supports the multiplexing of video and audio compressed streams from multiple programs with independent time bases. For almost error-free environments the Program Stream is generally more appropriate, supporting software processing of program information. The Transport Stream is more suitable for use in environments where errors are likely.</p><p>An ISO/IEC 13818-1:2007 multiplexed bit stream, whether a Transport Stream or a Program Stream, is constructed in two layers: the outermost layer is the system layer, and the innermost is the compression layer. The system layer provides the functions necessary for using one or more compressed data streams in a system. The video and audio parts of ISO/IEC 13818-1:2007 define the compression coding layer for audio and video data. Coding of other types of data is not defined by ISO/IEC 13818-1:2007, but is supported by the system layer provided that the other types of data adhere to the constraints defined in 2.7.</p>
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: |-
+    <p>L'ISO/CEI 13818-1:2007 spécifie la couche système du codage. Elle a été élaborée principalement pour assurer la combinaison des méthodes de codage vidéo et audio définies dans l'ISO/CEI 13818-2 et l'ISO/CEI 13818-3. La couche système assure six fonctions de base:</p>
+
+    la synchronisation lors du codage de multiples flux comprimés;
+    l'entrelacement de plusieurs flux comprimés en un seul flux;
+    la réinitialisation des mémoires tampons au début du décodage;
+    la gestion permanente des mémoires tampons;
+    le repérage temporel;
+    le multiplexage et la signalisation des diverses composantes d'un flux système.<p>Un flux binaire multiplexé conformément à l'ISO/CEI 13818-1:2007 est soit un flux de transport soit un flux de programme. Ces deux flux sont construits à partir de paquet PES et de paquets contenant les autres informations nécessaires. Ces deux flux permettent le multiplexage de flux vidéo et audio comprimés issus d'un même programme, avec une base de temps commune.</p><p>Le flux de transport permet en outre le multiplexage de flux vidéo et audio comprimés issus de plusieurs programmes, ayant des bases de temps indépendantes. Le flux de programme convient en général mieux à des environnements pratiquement exempts d'erreurs, avec possibilité de traitement informatique des informations de programme. Le flux de transport convient mieux à des environnements exposés aux erreurs.</p><p>Un flux binaire multiplexé conformément à l'ISO/CEI 13818-1:2007, que ce soit un flux de transport ou un flux de programme, se compose de deux couches: celle qui est en surface est la couche système, celle qui est la plus profonde est la couche de compression. La couche système remplit les fonctions nécessaires pour utiliser un ou plusieurs flux de données comprimées dans un système. Les parties vidéo et audio de l'ISO/CEI 13818-1:2007 définissent la couche de compression codée pour les données audio et vidéo. Le codage d'autres types de données n'est pas défini par l'ISO/CEI 13818-1:2007, mais est assuré par la couche système à condition que ces autres types de données soient conformes aux contraintes définies en 2.7.</p>
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -141,4 +154,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

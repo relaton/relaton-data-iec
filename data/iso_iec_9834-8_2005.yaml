@@ -2,20 +2,33 @@
 schema-version: v1.2.9
 id: ISO/IEC9834-8-2005
 title:
-- content: 'Information technology -- Open Systems Interconnection -- Procedures for
-    the operation of OSI Registration Authorities: Generation and registration of
-    Universally Unique Identifiers (UUIDs) and their use as ASN.1 Object Identifier
-    components'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open Systems Interconnection
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Open Systems Interconnection -- Procedures for
+- content: 'Procedures for the operation of OSI Registration Authorities: Generation
+    and registration of Universally Unique Identifiers (UUIDs) and their use as ASN.1
+    Object Identifier components -- Part 8:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Open Systems Interconnection - Procedures for
     the operation of OSI Registration Authorities: Generation and registration of
     Universally Unique Identifiers (UUIDs) and their use as ASN.1 Object Identifier
-    components'
+    components -- Part 8:'
   language:
   - en
   script:
@@ -64,7 +77,7 @@ date:
 - type: stable-until
   value: '2008-12-15'
 - type: obsoleted
-  value: '2008-12-15'
+  value: '2009-08-14'
 contributor:
 - organization:
     name:
@@ -91,20 +104,41 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 9834-8:2005 specifies the format and generation rules that enable
-    users to produce 128-bit identifiers that are either guaranteed or have a high
-    probability of being globally unique.The UUIDs generated in conformance with ISO/IEC
-    9834-8:2005 are suitable either for transient use, with generation of a new UUID
-    every 100 nanoseconds, or as persistent identifiers.ISO/IEC 9834-8:2005 is derived
-    from earlier non-standard specifications of UUIDs and their generation, and is
-    technically identical to those earlier specifications. It specifies the procedures
-    for the operation of a Web-based Registration Authority for UUIDs.ISO/IEC 9834-8:2005
-    also specifies and allows the use of UUIDs (registered or not registered) as OID
-    components under the arc {joint-iso-itu-t uuid(25)}. This enables users to generate
-    OIDs without any registration procedures. It also specifies and allows the use
-    of UUIDs (registered or not registered) to form a URN.
+- content: "<p>ISO/IEC 9834-8:2005 specifies the format and generation rules that
+    enable users to produce 128-bit identifiers that are either guaranteed or have
+    a high probability of being globally unique.</p><p>The UUIDs generated in conformance
+    with ISO/IEC 9834-8:2005 are suitable either for transient use, with generation
+    of a new UUID every 100 nanoseconds, or as persistent identifiers.</p><p>ISO/IEC
+    9834-8:2005 is derived from earlier non-standard specifications of UUIDs and their
+    generation, and is technically identical to those earlier specifications. It specifies
+    the procedures for the operation of a Web-based Registration Authority for UUIDs.</p><p>ISO/IEC
+    9834-8:2005 also specifies and allows the use of UUIDs (registered or not registered)
+    as OID components under the arc<strong>{joint-iso-itu-t uuid(25)}</strong>. This
+    enables users to generate OIDs without any registration procedures. It also specifies
+    and allows the use of UUIDs (registered or not registered) to form a URN.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 9834-8:2005 spécifie le format et les règles de génération
+    qui permettent aux utilisateurs de générer des identificateurs de 128 bits qui
+    sont soit garantis mondialement uniques ou sont mondialement uniques avec une
+    haute probabilité.</p><p>Les identificateurs UUID générés conformément à l'ISO/CEI
+    9834-8:2005 sont appropriés soit pour usage temporaire avec génération d'un nouvel
+    identificateur UUID toutes les 100 ns, soit comme identificateurs permanents.</p><p>L'ISO/CEI
+    9834-8:2005 est déduite de spécifications antérieures non normalisées concernant
+    les identificateurs UUID et leur génération, et elle est techniquement identique
+    à ces spécifications antérieures. Elle spécifie les procédures de fonctionnement
+    d'un organisme d'enregistrement pour identificateurs UUID accessible par protocole
+    IP.</p><p>L'ISO/CEI 9834-8:2005 spécifie et permet également l'utilisation d'identificateurs
+    UUID (enregistrés ou non enregistrés) comme composants d'identificateur OID au-dessous
+    de l'arc<strong>{joint-iso-itu-t uuid(25)}</strong>. Cet usage permet aux utilisateurs
+    de générer des identificateurs OID sans aucune procédure d'enregistrement. Elle
+    spécifie et permet également l'utilisation des identificateurs UUID (enregistrés
+    ou non enregistrés) afin de former un nom URN.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -142,4 +176,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

@@ -9,15 +9,22 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: 'ASN.1 encoding rules: Mapping W3C XML schema definitions into ASN.1'
+- content: 'ASN.1 encoding rules:  Mapping W3C XML schema definitions into ASN.1'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology - ASN.1 encoding rules: Mapping W3C XML schema
-    definitions into ASN.1'
+- content: 'Part 5:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - ASN.1 encoding rules:  Mapping W3C XML schema
+    definitions into ASN.1 - Part 5:'
   language:
   - en
   script:
@@ -68,22 +75,23 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 8825-5:2015 specifies two Versions of a mapping from any XSD Schema
-    into an ASN.1 schema. The ASN.1 schema for both Versions support the same semantics
-    and validate the same set of XML documents.<p>ISO/IEC 8825-5:2015 specifies the
-    final XER encoding instructions that are to be applied as part of the defined
-    mapping to ASN.1 types, but does not specify which syntactic form is to be used
-    for the specification of those final XER encoding instructions, or the order or
-    manner of their assignment.</p><p>NOTE - Implementers of tools generating these
-    mappings may choose any syntactic form or order of assignment that results in
-    the specified final XER encoding instructions being applied. Examples in this
-    Recommendation | International Standard generally use the type prefix form, but
-    use of an XER Encoding Control Section may be preferred for the mapping of a complete
-    XSD Schema, as a matter of style.</p><p>There are different ways (syntactically)
-    of assigning XER encoding instructions for use in EXTENDED-XER encodings (for
-    example, use of ASN.1 type prefix encoding instructions or use of an XER encoding
-    control section). The choice of these syntactic forms is a matter of style and
-    is outside the scope of this Recommendation | International Standard.</p>
+- content: "<p>ISO/IEC 8825-5:2015 specifies two Versions of a mapping from any XSD
+    Schema into an ASN.1 schema. The ASN.1 schema for both Versions support the same
+    semantics and validate the same set of XML documents.</p><p>ISO/IEC 8825-5:2015
+    specifies the final XER encoding instructions that are to be applied as part of
+    the defined mapping to ASN.1 types, but does not specify which syntactic form
+    is to be used for the specification of those final XER encoding instructions,
+    or the order or manner of their assignment.</p><p>NOTE? Implementers of tools
+    generating these mappings may choose any syntactic form or order of assignment
+    that results in the specified final XER encoding instructions being applied. Examples
+    in this Recommendation | International Standard generally use the type prefix
+    form, but use of an XER Encoding Control Section may be preferred for the mapping
+    of a complete XSD Schema, as a matter of style.</p><p>There are different ways
+    (syntactically) of assigning XER encoding instructions for use in EXTENDED-XER
+    encodings (for example, use of ASN.1 type prefix encoding instructions or use
+    of an XER encoding control section). The choice of these syntactic forms is a
+    matter of style and is outside the scope of this Recommendation | International
+    Standard.</p>"
   language:
   - en
   script:
@@ -123,4 +131,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

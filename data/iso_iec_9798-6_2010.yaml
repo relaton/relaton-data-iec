@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC9798-6-2010
 title:
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 6: Mechanisms using manual data transfer'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 6: Mechanisms using manual data transfer'
+- content: 'Entity authentication -- Part 6: Mechanisms using manual data transfer'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - Entity authentication --
+    Part 6: Mechanisms using manual data transfer'
   language:
   - en
   script:
@@ -58,25 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 9798-6:2010 specifies eight entity authentication mechanisms based
-    on manual data transfer between authenticating devices. Four of these mechanisms
-    are improved versions of mechanisms specified in ISO/IEC 9798-6:2005 since they
-    use less user input and achieve more security. Such mechanisms can be appropriate
-    in a variety of circumstances where there is no need for an existing public key
-    infrastructure, shared secret keys or passwords. One such application occurs in
-    personal networks, where the owner of two personal devices capable of wireless
-    communications wishes them to perform an entity authentication procedure as part
-    of the process of preparing them for use in the network. These mechanisms can
-    also be used to support key management functions.ISO/IEC 9798-6:2010 specifies
-    mechanisms in which entity authentication is achieved bymanually transferring
-    short data strings from one device to the other, ormanually comparing short data
-    strings output by the two devices.In ISO/IEC 9798-6:2010, the meaning of the term
-    entity authentication is different from the meaning applied in other parts of
-    ISO/IEC 9798. Instead of one device verifying that the other device has a claimed
-    identity (and vice versa), both devices in possession of a user verify that they
-    correctly share a data string with the other device at the time of execution of
-    the mechanism. This data string could contain identifiers (and/or public keys)
-    for one or both of the devices.
+- content: |-
+    <p>ISO/IEC 9798-6:2010 specifies eight entity authentication mechanisms based on manual data transfer between authenticating devices. Four of these mechanisms are improved versions of mechanisms specified in ISO/IEC 9798-6:2005 since they use less user input and achieve more security. Such mechanisms can be appropriate in a variety of circumstances where there is no need for an existing public key infrastructure, shared secret keys or passwords. One such application occurs in personal networks, where the owner of two personal devices capable of wireless communications wishes them to perform an entity authentication procedure as part of the process of preparing them for use in the network. These mechanisms can also be used to support key management functions.</p><p>ISO/IEC 9798-6:2010 specifies mechanisms in which entity authentication is achieved by</p>
+
+    manually transferring short data strings from one device to the other, or
+    manually comparing short data strings output by the two devices.<p>In ISO/IEC 9798-6:2010, the meaning of the term entity authentication is different from the meaning applied in other parts of ISO/IEC 9798. Instead of one device verifying that the other device has a claimed identity (and vice versa), both devices in possession of a user verify that they correctly share a data string with the other device at the time of execution of the mechanism. This data string could contain identifiers (and/or public keys) for one or both of the devices.</p>
   language:
   - en
   script:

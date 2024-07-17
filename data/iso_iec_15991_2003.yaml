@@ -2,8 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC15991-2003
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Specification, functional model
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Private Integrated Services Network --  Specification, functional model
     and information flows -- Call Priority Interruption and Call Priority Interruption
     Protection supplementary services
   language:
@@ -11,9 +24,9 @@ title:
   script:
   - Latn
   format: text/plain
-  type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Private Integrated Services Network -- Specification, functional model
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network --  Specification, functional model
     and information flows -- Call Priority Interruption and Call Priority Interruption
     Protection supplementary services
   language:
@@ -62,26 +75,24 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    15991:2003 specifies the Supplementary Services Call Priority Interruption (SS-CPI)
-    and Call Priority Interruption Protection (SS-CPIP), which are applicable to various
-    basic services supported by Private Integrated Services Networks (PISN). Basic
-    services are specified in ISO/IEC 11574.<br />\r\nNOTE This edition of ISO/IEC
-    15991 does not apply to the circuit-mode Multiple Rate Bearer Service.<br />\r\nSS-CPI
-    is a supplementary service that allows a call request for a priority call to proceed
-    successfully in the case that there is no user information channel available.
-    This is accomplished by force releasing an established call of lower priority.<br
-    />\r\nSS-CPIP is a supplementary service that allows for the protection of calls
-    against interruption from other, priority, calls.<br />\r\nSS-CPI and SS-CPIP
-    are described separately because SS-CPI is a service used by a calling user, and
-    SS-CPIP is a service used by either a calling user or a called user.<br />\r\nSupplementary
+- content: "<p>ISO/IEC 15991:2003 specifies the Supplementary Services Call Priority
+    Interruption (SS-CPI) and Call Priority Interruption Protection (SS-CPIP), which
+    are applicable to various basic services supported by Private Integrated Services
+    Networks (PISN). Basic services are specified in ISO/IEC 11574.</p><p>NOTE This
+    edition of ISO/IEC 15991 does not apply to the circuit-mode Multiple Rate Bearer
+    Service.</p><p>SS-CPI is a supplementary service that allows a call request for
+    a priority call to proceed successfully in the case that there is no user information
+    channel available. This is accomplished by force releasing an established call
+    of lower priority.</p><p>SS-CPIP is a supplementary service that allows for the
+    protection of calls against interruption from other, priority, calls.</p><p>SS-CPI
+    and SS-CPIP are described separately because SS-CPI is a service used by a calling
+    user, and SS-CPIP is a service used by either a calling user or a called user.</p><p>Supplementary
     service specifications are produced in three stages, according to the method described
     in ETS 300 387. ISO/IEC 15991:2003 contains the stage 1 and stage 2 specifications
     of SS-CPI. The stage 1 specification (clause 6) specifies the general feature
     principles and capabilities. The stage 2 specification (clause 7) identifies the
     Functional Entities involved in the supplementary service and the information
-    flows between them."
+    flows between them.</p>"
   language:
   - en
   script:

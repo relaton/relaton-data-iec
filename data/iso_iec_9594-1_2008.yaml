@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC9594-1-2008
 title:
-- content: 'Information technology -- Open Systems Interconnection -- The Directory:
-    Overview of concepts, models and services'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open Systems Interconnection
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Open Systems Interconnection -- The Directory:
-    Overview of concepts, models and services'
+- content: 'The Directory: Overview of concepts, models and services -- Part 1:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Open Systems Interconnection - The Directory:
+    Overview of concepts, models and services -- Part 1:'
   language:
   - en
   script:
@@ -62,7 +75,7 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 9594-1:2008 gives an overview of the concepts, models and services
+- content: <p>ISO/IEC 9594-1:2008 gives an overview of the concepts, models and services
     related to “The Directory”. The Directory provides the directory capabilities
     required by OSI applications, OSI management processes, other OSI layer entities,
     and telecommunications services. Among the capabilities which it provides are
@@ -71,21 +84,21 @@ abstract:
     names), and "name-to-address mapping", which allows the binding between objects
     and their locations to be dynamic. The latter capability allows OSI networks,
     for example, to be "self-configuring" in the sense that addition, removal and
-    changes of object location do not affect OSI network operation.The Directory is
-    not intended to be a general-purpose database system, although it may be built
+    changes of object location do not affect OSI network operation.</p><p>The Directory
+    is not intended to be a general-purpose database system, although it may be built
     on such systems. It is assumed, for instance, that, as is typical with communications
     directories, there is a considerably higher frequency of "queries" than of updates.
     The rate of updates is expected to be governed by the dynamics of people and organizations,
     rather than, for example, the dynamics of networks. There is also no need for
     instantaneous global commitment of updates; transient conditions, where both old
-    and new versions of the same information are available, are quite acceptable.It
+    and new versions of the same information are available, are quite acceptable.</p><p>It
     is a characteristic of the Directory that, except as a consequence of differing
     access rights or unpropagated updates, the results of directory queries will not
     be dependent on the identity or location of the enquirer. This characteristic
     renders the Directory unsuitable for some telecommunications applications, for
     example some types of routing. For cases where the results are dependent on the
     identity of the enquirer, access to directory information and updates of the Directory
-    may be denied.
+    may be denied.</p>
   language:
   - en
   script:
@@ -125,4 +138,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

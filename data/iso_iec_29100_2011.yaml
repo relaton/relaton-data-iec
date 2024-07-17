@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC29100-2011
 title:
-- content: Information technology -- Security techniques -- Privacy framework
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Privacy framework
+- content: Privacy framework
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Privacy framework
   language:
   - en
   script:
@@ -61,6 +75,8 @@ docid:
 date:
 - type: published
   value: '2011-12-05'
+- type: obsoleted
+  value: '2024-02-16'
 contributor:
 - organization:
     name:
@@ -87,34 +103,30 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    29100:2011 provides a privacy framework which<br />\r\n- specifies a common privacy
-    terminology;<br />\r\n- defines the actors and their roles in processing personally
-    identifiable information (PII);<br />\r\n- describes privacy safeguarding considerations;
-    and<br />\r\n- provides references to known privacy principles for information
-    technology.<br />\r\nISO/IEC 29100:2011 is applicable to natural persons and organizations
-    involved in specifying, procuring, architecting, designing, developing, testing,
-    maintaining, administering, and operating information and communication technology
-    systems or services where privacy controls are required for the processing of
-    PII."
+- content: |-
+    <p>ISO/IEC 29100:2011 provides a privacy framework which</p>
+
+    specifies a common privacy terminology;
+    defines the actors and their roles in processing personally identifiable information (PII);
+    describes privacy safeguarding considerations; and
+    provides references to known privacy principles for information technology.<p>ISO/IEC 29100:2011 is applicable to natural persons and organizations involved in specifying, procuring, architecting, designing, developing, testing, maintaining, administering, and operating information and communication technology systems or services where privacy controls are required for the processing of PII.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "La présente Norme internationale fournit un cadre pour la protection de
-    la vie privée qui:<br />\r\n- spécifie une terminologie commune relative à la
-    protection de la vie privée;<br />\r\n- définit les acteurs et leurs rôles dans
-    le traitement de données à caractère personnel (DCP);<br />\r\n- décrit les éléments
-    à prendre en considération pour la protection de la vie privée; et<br />\r\n-
-    fournit des références à des principes connus de protection de la vie privée pour
-    les technologies de l'information.<br />\r\nLa présente Norme internationale s'applique
+- content: "<p>La présente Norme internationale fournit un cadre pour la protection
+    de la vie privée qui:</p><p>— spécifie une terminologie commune relative à la
+    protection de la vie privée;</p><p>— définit les acteurs et leurs rôles dans le
+    traitement de données à caractère personnel (DCP);</p><p>— décrit les éléments
+    à prendre en considération pour la protection de la vie privée; et</p><p>— fournit
+    des références à des principes connus de protection de la vie privée pour les
+    technologies de l'information.</p><p>La présente Norme internationale s'applique
     aux personnes physiques et aux organismes participant à la spécification, à la
     fourniture, à l'architecture, à la conception, au développement, aux essais, à
     la maintenance, à l'administration et à l'exploitation des systèmes ou services
     de technologies de l'information et de la communication dans lesquels des mesures
-    de protection de la vie privée sont requises pour le traitement de DCP."
+    de protection de la vie privée sont requises pour le traitement de DCP.</p>"
   language:
   - fr
   script:
@@ -153,4 +165,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

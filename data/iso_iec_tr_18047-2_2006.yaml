@@ -2,17 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR18047-2-2006
 title:
-- content: 'Information technology -- Radio frequency identification device conformance
-    test methods -- Part 2: Test methods for air interface communications below 135
-    kHz'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Radio frequency identification device conformance test methods
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Radio frequency identification device conformance
-    test methods -- Part 2: Test methods for air interface communications below 135
+- content: 'Part 2: Test methods for air interface communications below 135 kHz'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Radio frequency identification device conformance
+    test methods - Part 2: Test methods for air interface communications below 135
     kHz'
   language:
   - en
@@ -35,6 +47,8 @@ docid:
 date:
 - type: published
   value: '2006-06-01'
+- type: obsoleted
+  value: '2012-01-19'
 contributor:
 - organization:
     name:
@@ -60,32 +74,10 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18000 defines the air interfaces for radio frequency identification
-    (RFID) devices used in item management applications. ISO/IEC 18000-2 defines the
-    air interface for these devices operating in frequencies below 135 kHz.The purpose
-    of ISO/IEC TR 18047 is to provide test methods for conformance with the various
-    parts of ISO/IEC 18000.Each part of ISO/IEC TR 18047 contains all measurements
-    required to be made on a product in order to establish whether it conforms with
-    the corresponding part of ISO/IEC 18000. For ISO/IEC TR 18047-2:2006, each interrogator
-    needs to be assessed with tags of both type A (FDX) and type B (HDX), while each
-    tag needs to be assessed either with type A (FDX) or type B (HDX).It should be
-    noted that measurement of tag and interrogator performance is covered by ISO/IEC
-    TR 18046. ISO/IEC TR 18047-2:2006 defines test methods for determining the conformance
-    of radio frequency identification devices (tags and interrogators) for item management
-    with the specifications given in ISO/IEC 18000-2, but does not apply to the testing
-    of conformity with regulatory or similar requirements.The test methods require
-    only that the mandatory functions, and any optional functions which are implemented,
-    be verified. This may, in appropriate circumstances, be supplemented by further,
-    application-specific functionality criteria that are not available in the general
-    case.The interrogator and tag conformance parameters in ISO/IEC TR 18047-2:2006
-    are the following:mode-specific conformance parameters including nominal values
-    and tolerances;parameters that apply directly affecting system functionality and
-    inter-operability.The following are not included in ISO/IEC TR 18047-2:2006:parameters
-    that are already included in regulatory test requirements;high-level data encoding
-    conformance test parameters (these are specified in ISO/IEC 15962). Unless otherwise
-    specified, the tests in this part of ISO/IEC TR 18047-2:2006 are to be applied
-    exclusively to RFID tags and interrogators defined in ISO/IEC 18000-2.ISO/IEC
-    TR 18047-2:2006 also describes all necessary conformance tests.
+- content: |-
+    <p>ISO/IEC 18000 defines the air interfaces for radio frequency identification (RFID) devices used in item management applications. ISO/IEC 18000-2 defines the air interface for these devices operating in frequencies below 135 kHz.</p><p>The purpose of ISO/IEC TR 18047 is to provide test methods for conformance with the various parts of ISO/IEC 18000.</p><p>Each part of ISO/IEC TR 18047 contains all measurements required to be made on a product in order to establish whether it conforms with the corresponding part of ISO/IEC 18000. For ISO/IEC TR 18047-2:2006, each interrogator needs to be assessed with tags of both type A (FDX) and type B (HDX), while each tag needs to be assessed either with type A (FDX) or type B (HDX).</p><p>It should be noted that measurement of tag and interrogator performance is covered by ISO/IEC TR 18046. ISO/IEC TR 18047-2:2006 defines test methods for determining the conformance of radio frequency identification devices (tags and interrogators) for item management with the specifications given in ISO/IEC 18000-2, but does not apply to the testing of conformity with regulatory or similar requirements.</p><p>The test methods require only that the mandatory functions, and any optional functions which are implemented, be verified. This may, in appropriate circumstances, be supplemented by further, application-specific functionality criteria that are not available in the general case.</p><p>The interrogator and tag conformance parameters in ISO/IEC TR 18047-2:2006 are the following:</p>
+    mode-specific conformance parameters including nominal values and tolerances;parameters that apply directly affecting system functionality and inter-operability.<p>The following are not included in ISO/IEC TR 18047-2:2006:</p>
+    parameters that are already included in regulatory test requirements;high-level data encoding conformance test parameters (these are specified in ISO/IEC 15962).<p>Unless otherwise specified, the tests in this part of ISO/IEC TR 18047-2:2006 are to be applied exclusively to RFID tags and interrogators defined in ISO/IEC 18000-2.</p><p>ISO/IEC TR 18047-2:2006 also describes all necessary conformance tests.</p>
   language:
   - en
   script:
@@ -93,7 +85,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -124,4 +116,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

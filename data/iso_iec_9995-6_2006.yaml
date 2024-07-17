@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC9995-6-2006
 title:
-- content: 'Information technology -- Keyboard layouts for text and office systems
-    -- Part 6: Function section'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Keyboard layouts for text and office systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Keyboard layouts for text and office systems
-    -- Part 6: Function section'
+- content: 'Part 6: Function section'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Keyboard layouts for text and office systems
+    - Part 6: Function section'
   language:
   - en
   script:
@@ -51,6 +64,8 @@ docid:
 date:
 - type: published
   value: '2006-08-31'
+- type: obsoleted
+  value: '2009-10-08'
 contributor:
 - organization:
     name:
@@ -77,19 +92,29 @@ language:
 script:
 - Latn
 abstract:
-- content: Within the general scope described in ISO/IEC 9995-1, ISO/IEC 9995-6:2006
+- content: "<p>Within the general scope described in ISO/IEC 9995-1, ISO/IEC 9995-6:2006
     specifies the function section of keyboards for information technology equipment
     and the division of that section into zones. It specifies the arrangement, the
     number, and the location of the keys in the function zones of the function section
-    as well as the allocation of functions to the keys.
+    as well as the allocation of functions to the keys.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
+- content: "<p>Dans le domaine d'application général de l'ISO/CEI 9995-1, l'ISO/CEI
+    9995-6:2006 normalise le module de fonction d'un clavier et sa division en zones.
+    Elle normalise finalement la disposition, le nombre et la position des touches
+    des zones de fonctions du module de fonctions et l'attribution de fonctions aux
+    touches.</p>"
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -121,4 +146,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:A
+price_code: iso:B

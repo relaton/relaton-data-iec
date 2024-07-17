@@ -2,16 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC13335-1-2004
 title:
-- content: 'Information technology -- Security techniques -- Management of information
-    and communications technology security -- Part 1: Concepts and models for information
-    and communications technology security management'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- Management of information
+- content: 'Management of information and communications technology security -- Part
+    1: Concepts and models for information and communications technology security
+    management'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - Management of information
     and communications technology security -- Part 1: Concepts and models for information
     and communications technology security management'
   language:
@@ -35,6 +49,8 @@ docid:
 date:
 - type: published
   value: '2004-11-19'
+- type: obsoleted
+  value: '2010-03-22'
 contributor:
 - organization:
     name:
@@ -60,12 +76,12 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 13335-1:2004 presents the concepts and models fundamental to a
-    basic understanding of ICT security, and addresses the general management issues
+- content: "<p>ISO/IEC 13335-1:2004 presents the concepts and models fundamental to
+    a basic understanding of ICT security, and addresses the general management issues
     that are essential to the successful planning, implementation and operation of
-    ICT security. Part 2 of ISO/IEC 13335 (currently 2nd WD) provides operational
+    ICT security. Part 2 of ISO/IEC 13335 (currently 2<sup>nd</sup> WD) provides operational
     guidance on ICT security. Together these parts can be used to help identify and
-    manage all aspects of ICT security.
+    manage all aspects of ICT security.</p>"
   language:
   - en
   script:
@@ -73,7 +89,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: WITHDRAWN
 copyright:
 - owner:
   - name:
@@ -97,12 +113,14 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.040'
-  text: Information coding
+- code: '35.030'
+  text: IT Security
+- code: 03.100.70
+  text: Management systems
 structuredidentifier:
   project_number: '13335'
   part: '1'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

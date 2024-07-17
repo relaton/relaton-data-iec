@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC19794-6-2005
 title:
-- content: 'Information technology -- Biometric data interchange formats -- Part 6:
-    Iris image data'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Biometric data interchange formats
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Biometric data interchange formats -- Part 6:
+- content: 'Part 6: Iris image data'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Biometric data interchange formats - Part 6:
     Iris image data'
   language:
   - en
@@ -32,7 +45,7 @@ docid:
   type: URN
 date:
 - type: published
-  value: '2005-06-01'
+  value: '2005-06-10'
 contributor:
 - organization:
     name:
@@ -52,23 +65,22 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2005-06-01'
+revdate: '2005-06-10'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This edition of the standard exceptionally remains valid until 2033.<br
-    /><br />\r\nISO/IEC 19794-6:2005 specifies two alternative image interchange formats
-    for biometric authentication systems that utilize iris recognition.<br /><br />\r\nThe
+- content: "<p>ISO/IEC 19794-6:2005 specifies two alternative image interchange formats
+    for biometric authentication systems that utilize iris recognition.</p><p>The
     first is based on a rectilinear image storage format that may be a raw, uncompressed
     array of intensity values or a compressed format such as that specified by ISO/IEC
-    15444.<br /><br />\r\nThe second format is based on a polar image specification
-    that requires certain pre-processing and image segmentation steps, but produces
-    a much more compact data structure that contains only iris information.<br /><br
-    />\r\nData that comply with either one of the iris image formats specified in
-    ISO/IEC 19794-6:2005 are intended to be embedded in a CBEFF-compliant structure
-    in the CBEFF Biometric Data Block (BDB) as specified in ISO/IEC 19785-1."
+    15444.</p><p>The second format is based on a polar image specification that requires
+    certain pre-processing and image segmentation steps, but produces a much more
+    compact data structure that contains only iris information.</p><p>Data that comply
+    with either one of the iris image formats specified in ISO/IEC 19794-6:2005 are
+    intended to be embedded in a CBEFF-compliant structure in the CBEFF Biometric
+    Data Block (BDB) as specified in ISO/IEC 19785-1.</p>"
   language:
   - en
   script:

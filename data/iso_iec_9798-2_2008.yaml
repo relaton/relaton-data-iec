@@ -2,16 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC9798-2-2008
 title:
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 2: Mechanisms using symmetric encipherment algorithms'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 2: Mechanisms using symmetric encipherment algorithms'
+- content: 'Entity authentication -- Part 2: Mechanisms using symmetric encipherment
+    algorithms'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - Entity authentication --
+    Part 2: Mechanisms using symmetric encipherment algorithms'
   language:
   - en
   script:
@@ -36,7 +50,7 @@ date:
 - type: stable-until
   value: '2019-06-05'
 - type: obsoleted
-  value: '2019-06-05'
+  value: '2019-06-03'
 contributor:
 - organization:
     name:
@@ -62,23 +76,23 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 9798-2:2008 specifies entity authentication mechanisms using symmetric
-    encipherment algorithms. Four of the mechanisms provide entity authentication
+- content: "<p>ISO/IEC 9798-2:2008 specifies entity authentication mechanisms using
+    symmetric encipherment algorithms. Four of the mechanisms provide entity authentication
     between two entities where no trusted third party is involved; two of these are
     mechanisms to unilaterally authenticate one entity to another, while the other
     two are mechanisms for mutual authentication of two entities. The remaining mechanisms
     require a trusted third party for the establishment of a common secret key, and
-    realize mutual or unilateral entity authentication.The mechanisms specified in
-    ISO/IEC 9798-2:2008 use time variant parameters such as time stamps, sequence
+    realize mutual or unilateral entity authentication.</p><p>The mechanisms specified
+    in ISO/IEC 9798-2:2008 use time variant parameters such as time stamps, sequence
     numbers, or random numbers to prevent valid authentication information from being
-    accepted at a later time or more than once.If no trusted third party is involved
-    and a time stamp or sequence number is used, one pass is needed for unilateral
+    accepted at a later time or more than once.</p><p>If no trusted third party is
+    involved and a time stamp or sequence number is used, one pass is needed for unilateral
     authentication, while two passes are needed to achieve mutual authentication.
     If no trusted third party is involved and a challenge and response method employing
     random numbers is used, two passes are needed for unilateral authentication, while
     three passes are required to achieve mutual authentication. If a trusted third
     party is involved, any additional communication between an entity and the trusted
-    third party requires two extra passes in the communication exchange.
+    third party requires two extra passes in the communication exchange.</p>"
   language:
   - en
   script:
@@ -118,4 +132,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B

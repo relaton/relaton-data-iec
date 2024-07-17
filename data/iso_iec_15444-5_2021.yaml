@@ -71,54 +71,52 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    15444-5:2021 Rec. ITU-T T.800 ISO/IEC 15444-1 defines a set of lossless and lossy
+- content: "<p>Rec. ITU-T T.800 | ISO/IEC 15444-1 defines a set of lossless and lossy
     compression methods for coding continuous-tone, bi-level, greyscale or colour
-    digital still images. This Recommendation International Standard provides three
-    independently created software reference implementations of Rec. ITU-T T.800 ISO/IEC
-    15444-1, in order to assist implementers of Rec. ITU-T T.800 ISO/IEC 15444-1 in
-    testing and understanding its content. The packages are JASPER, JJ2000 and OPENJPEG.<br
-    />\r\nThis Recommendation International Standard also provides an independently
-    created software reference implementation of Rec. ITU-T T.814 ISO/IEC 15444-15,
-    which specifies a high-throughput (HT) block coding algorithm that can be used
-    in place of the block coding algorithm of Rec. ITU-T T.800 ISO/IEC 15444-1, in
-    order to assist implementers of Rec. ITU-T T.814 ISO/IEC 15444-15 in testing and
-    understanding its content. The package is TT.<br />\r\nThis Recommendation International
-    Standard additionally provides an independently created software reference implementation
-    for parsing of a JP2 file format specified in Rec. ITU-T T.800 ISO/IEC 15444-1
-    and a JPH file format specified in Rec. ITU-T T.814 ISO/IEC 15444-15, The package
-    is Codestream-parser.<br />\r\nThis Recommendation International Standard does
-    not define any additional part of the JPEG 2000 image coding system.<br />\r\nEach
-    version of the J2K reference software contains source code, which can be compiled
-    to provide the following functionality:<br />\r\n– Transcoding from selected,
-    widely available image formats into a JPEG 2000 codestream.<br />\r\n– Transcoding
-    from selected, widely available image formats into the JP2 file format.<br />\r\n–
+    digital still images. This Recommendation | International Standard provides three
+    independently created software reference implementations of Rec. ITU-T T.800 |
+    ISO/IEC 15444-1, in order to assist implementers of Rec. ITU-T T.800 | ISO/IEC
+    15444-1 in testing and understanding its content. The packages are JASPER, JJ2000
+    and OPENJPEG.</p><p>This Recommendation | International Standard also provides
+    an independently created software reference implementation of Rec. ITU-T T.814
+    | ISO/IEC 15444-15, which specifies a high-throughput (HT) block coding algorithm
+    that can be used in place of the block coding algorithm of Rec. ITU-T T.800 |
+    ISO/IEC 15444-1, in order to assist implementers of Rec. ITU-T T.814 | ISO/IEC
+    15444-15 in testing and understanding its content. The package is TT.</p><p>This
+    Recommendation | International Standard additionally provides an independently
+    created software reference implementation for parsing of a JP2 file format specified
+    in Rec. ITU-T T.800 | ISO/IEC 15444-1 and a JPH file format specified in Rec.
+    ITU-T T.814 | ISO/IEC 15444-15, The package is Codestream-parser.</p><p>This Recommendation
+    | International Standard does not define any additional part of the JPEG 2000
+    image coding system.</p><p>Each version of the J2K reference software contains
+    source code, which can be compiled to provide the following functionality:</p><p>–
+    Transcoding from selected, widely available image formats into a JPEG 2000 codestream.</p><p>–
+    Transcoding from selected, widely available image formats into the JP2 file format.</p><p>–
     Selection of a wide range of JPEG 2000 encoding options (as documented in each
-    reference software).<br />\r\n– Decoding from a JPEG 2000 codestream to a range
-    of selected widely available image formats.<br />\r\n– Processing of a JP2 file
-    to extract a JPEG 2000 codestream for decoding and conversion to a range of selected
-    widely available image formats.<br />\r\n– The ability to extract metadata from
-    a JP2 file, including the contents of the Image Header box and the colour space.<br
-    />\r\n– The decoding of JP2 files that use the three-component matrix-based form
-    of the restricted ICC method for the specification of colour space and the conversion
-    of the decoded image data to the sRGB colour space for display, including limited
-    upsampling of all decoded components to the same resolution.<br />\r\n– The decoding
-    of JP2 files that use the monochrome form of the restricted ICC method for the
-    specification of colour space and the conversion of the decoded image data to
-    the sRGB based greyscale space as defined within the JP2 file format.<br />\r\n–
-    The decoding of JP2 files that use the sYCC colour space and the conversion of
-    the decoded image data to the sRGB colour space for display, including upsampling
-    of all decoded components to the same resolution.<br />\r\n– Some additional tools
-    to help with evaluation and testing.<br />\r\nThe TT HTJ2K reference software
-    contains source code, which can be compiled to provide the following functionality:<br
-    />\r\n– Decoding from a HTJ2K codestream to a range of selected widely available
-    image formats.<br />\r\nThe codestream-parser reference software contains source
-    code, which can provide the following functionality:<br />\r\n– Parsing of JP2
-    file format;<br />\r\n– Parsing of JPH file format.<br />\r\nThe reference software
-    is intended for use as a testing and validation tool for other implementations
-    of JPEG 2000, and to help in the understanding of Rec. ITU-T T.800 ISO/IEC 15444-1
-    and Rec. ITU-T T.814 ISO/IEC 15444-15."
+    reference software).</p><p>– Decoding from a JPEG 2000 codestream to a range of
+    selected widely available image formats.</p><p>– Processing of a JP2 file to extract
+    a JPEG 2000 codestream for decoding and conversion to a range of selected widely
+    available image formats.</p><p>– The ability to extract metadata from a JP2 file,
+    including the contents of the Image Header box and the colour space.</p><p>– The
+    decoding of JP2 files that use the three-component matrix-based form of the restricted
+    ICC method for the specification of colour space and the conversion of the decoded
+    image data to the sRGB colour space for display, including limited upsampling
+    of all decoded components to the same resolution.</p><p>– The decoding of JP2
+    files that use the monochrome form of the restricted ICC method for the specification
+    of colour space and the conversion of the decoded image data to the sRGB based
+    greyscale space as defined within the JP2 file format.</p><p>– The decoding of
+    JP2 files that use the sYCC colour space and the conversion of the decoded image
+    data to the sRGB colour space for display, including upsampling of all decoded
+    components to the same resolution.</p><p>– Some additional tools to help with
+    evaluation and testing.</p><p>The TT HTJ2K reference software contains source
+    code, which can be compiled to provide the following functionality:</p><p>– Decoding
+    from a HTJ2K codestream to a range of selected widely available image formats.</p><p>The
+    codestream-parser reference software contains source code, which can provide the
+    following functionality:</p><p>– Parsing of JP2 file format;</p><p>– Parsing of
+    JPH file format.</p><p>The reference software is intended for use as a testing
+    and validation tool for other implementations of JPEG 2000, and to help in the
+    understanding of Rec. ITU-T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.814 | ISO/IEC
+    15444-15.</p>"
   language:
   - en
   script:

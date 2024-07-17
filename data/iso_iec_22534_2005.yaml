@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC22534-2005
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Application session services
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Application session services
+- content: Application session services
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Application session services
   language:
   - en
   script:
@@ -58,18 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nThe
-    services defined in ISO/IEC 22534:2005 are used to establish and maintain a relationship
-    between an application and a server for the purpose of exchanging application
-    messages. For the purpose of ISO/IEC 22534:2005, this relationship is called an
-    application session.<br />\r\nApplication protocols, such as ECMA-323, require
-    that an application session is established before application messages are exchanged.
-    ECMA-269 specifies several mechanisms for establishing an application context.
-    One possible mechanism is ACSE (ISO/IEC 8649) - but since ASCE uses ASN.1 encoding
-    for its services, it is not desirable for use with XML based protocols such as
-    ECMA-323.<br />\r\nISO/IEC 22534:2005 provides an XML-based alternative for establishing
-    application sessions."
+- content: "<p>The services defined in ISO/IEC 22534:2005 are used to establish and
+    maintain a relationship between an application and a server for the purpose of
+    exchanging application messages. For the purpose of ISO/IEC 22534:2005, this relationship
+    is called an application session.</p><p>Application protocols, such as ECMA-323,
+    require that an application session is established before application messages
+    are exchanged. ECMA-269 specifies several mechanisms for establishing an application
+    context. One possible mechanism is ACSE (ISO/IEC 8649) - but since ASCE uses ASN.1
+    encoding for its services, it is not desirable for use with XML based protocols
+    such as ECMA-323.</p><p>ISO/IEC 22534:2005 provides an XML-based alternative for
+    establishing application sessions.</p>"
   language:
   - en
   script:

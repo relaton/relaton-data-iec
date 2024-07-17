@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR19755-2003
 title:
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Object finalization for programming language COBOL
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages, their environments and system software interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages, their environments and
-    system software interfaces -- Object finalization for programming language COBOL
+- content: Object finalization for programming language COBOL
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages, their environments and
+    system software interfaces - Object finalization for programming language COBOL
   language:
   - en
   script:
@@ -62,14 +75,14 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC TR 19755:2003 specifies a feature for finalizing objects in COBOL.
-    The specification is a Type 2 Technical Report so that implementations can be
-    undertaken on an experimental basis. The experience gained is expected to result
-    in an improved specification that can progress to standardization.<br /><br />\r\nThe
+- content: "<p>ISO/IEC TR 19755:2003 specifies a feature for finalizing objects in
+    COBOL. The specification is a Type 2 Technical Report so that implementations
+    can be undertaken on an experimental basis. The experience gained is expected
+    to result in an improved specification that can progress to standardization.</p><p>The
     purpose of object finalization is to free resources that will not otherwise be
     freed by the normal garbage collection process. Examples include files that are
     open, temporary work files, database connections, TCP/IP socket interfaces and
-    network connections."
+    network connections.</p>"
   language:
   - en
   script:
@@ -108,4 +121,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B

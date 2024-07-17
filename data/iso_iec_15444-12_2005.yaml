@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC15444-12-2005
 title:
-- content: 'Information technology -- JPEG 2000 image coding system -- Part 12: ISO
-    base media file format'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: JPEG 2000 image coding system
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPEG 2000 image coding system -- Part 12: ISO
+- content: 'Part 12: ISO base media file format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPEG 2000 image coding system - Part 12: ISO
     base media file format'
   language:
   - en
@@ -62,27 +75,28 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 15444-12:2005 specifies the structure and uses of the ISO base
+- content: <p>ISO/IEC 15444-12:2005 specifies the structure and uses of the ISO base
     media file format. The identical text is published as ISO/IEC 14496-12:2005. This
     file format is used to contain time-based media such as video and audio. The storage
     of particular coding schemes is defined in specifications that derive from and
     reference ISO/IEC 14496-12:2005 and ISO/IEC 15444-12:2005, such as the MPEG-4
     file format specified in ISO/IEC 14496-14, or the Motion JPEG file format specified
-    in ISO/IEC 15444-3.This file format is designed to contain timed media information
-    for a presentation in a flexible, extensible format that facilitates interchange,
-    management, editing and presentation of the media. This presentation may be "local"
-    to the system containing the presentation, or may be via a network or other stream
-    delivery mechanism. The file format is designed to be independent of any particular
-    network protocol while enabling efficient support for them in general.The file
-    structure is object-oriented; a file can be decomposed into constituent objects
-    very simply, and the structure of the objects inferred directly from their type.This
-    technically identical text is published as ISO/IEC 14496-12:2005 for MPEG-4, and
-    as ISO/IEC 15444-12:2005 for JPEG 2000, and reference to this specification should
-    be made accordingly. The recommendation is to reference one, for example ISO/IEC
-    14496-12:2005, and append to the reference a parenthetical comment identifying
-    the other, for example "(technically identical to ISO/IEC 15444-12:2005)".This
-    version adds various new tools, including those for content protection, better
-    support of metadata, and better support for advanced coding.
+    in ISO/IEC 15444-3.</p><p>This file format is designed to contain timed media
+    information for a presentation in a flexible, extensible format that facilitates
+    interchange, management, editing and presentation of the media. This presentation
+    may be "local" to the system containing the presentation, or may be via a network
+    or other stream delivery mechanism. The file format is designed to be independent
+    of any particular network protocol while enabling efficient support for them in
+    general.</p><p>The file structure is object-oriented; a file can be decomposed
+    into constituent objects very simply, and the structure of the objects inferred
+    directly from their type.</p><p>This technically identical text is published as
+    ISO/IEC 14496-12:2005 for MPEG-4, and as ISO/IEC 15444-12:2005 for JPEG 2000,
+    and reference to this specification should be made accordingly. The recommendation
+    is to reference one, for example ISO/IEC 14496-12:2005, and append to the reference
+    a parenthetical comment identifying the other, for example "(technically identical
+    to ISO/IEC 15444-12:2005)".</p><p>This version adds various new tools, including
+    those for content protection, better support of metadata, and better support for
+    advanced coding.</p>
   language:
   - en
   script:
@@ -122,4 +136,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

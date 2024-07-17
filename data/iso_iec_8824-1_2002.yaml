@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC8824-1-2002
 title:
-- content: 'Information technology -- Abstract Syntax Notation One (ASN.1): Specification
-    of basic notation'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'Abstract Syntax Notation One (ASN.1): Specification of basic notation'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Abstract Syntax Notation One (ASN.1): Specification
-    of basic notation'
+- content: 'Part 1:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Abstract Syntax Notation One (ASN.1): Specification
+    of basic notation - Part 1:'
   language:
   - en
   script:
@@ -54,7 +67,7 @@ date:
 - type: stable-until
   value: '2008-12-15'
 - type: obsoleted
-  value: '2008-12-15'
+  value: '2009-12-15'
 contributor:
 - organization:
     name:
@@ -81,14 +94,26 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 8824-1:2002 provides a notation called Abstract Syntax Notation
+- content: "<p>ISO/IEC 8824-1:2002 provides a notation called Abstract Syntax Notation
     One (ASN.1) for defining the syntax of information data. It defines a number of
     simple data types and specifies a notation for referencing these types and for
-    specifying values of these types.The ASN.1 notations can be applied whenever it
-    is necessary to define the abstract syntax of information without constraining
-    in any way how the information is encoded for transmission.
+    specifying values of these types.</p><p>The ASN.1 notations can be applied whenever
+    it is necessary to define the abstract syntax of information without constraining
+    in any way how the information is encoded for transmission.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 8824-1:2002 spécifie une notation dite notation de syntaxe
+    abstraite numéro un (ASN.1) pour la définition de la syntaxe de données informationnelles.
+    Elle définit un certain nombre de types de donnée simples et spécifie une notation
+    pour y faire référence et en spécifier les valeurs.</p><p>La notation ASN.1 peut
+    être utilisée chaque fois qu'il est nécessaire de définir la syntaxe abstraite
+    d'informations sans imposer de contrainte sur la manière de coder ces informations
+    en vue de leur transmission.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -126,4 +151,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

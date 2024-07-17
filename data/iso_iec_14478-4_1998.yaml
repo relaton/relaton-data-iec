@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC14478-4-1998
 title:
-- content: 'Information technology -- Computer graphics and image processing -- Presentation
-    Environment for Multimedia Objects (PREMO) -- Part 4: Modelling, rendering and
-    interaction component'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Computer graphics and image processing
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Computer graphics and image processing -- Presentation
+- content: 'Presentation Environment for Multimedia Objects (PREMO) -- Part 4: Modelling,
+    rendering and interaction component'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Computer graphics and image processing - Presentation
     Environment for Multimedia Objects (PREMO) -- Part 4: Modelling, rendering and
     interaction component'
   language:
@@ -59,6 +72,40 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: '<p>This part of ISO/IEC 14478 describes a set of Object types and non-Object
+    types to provide the construction of, presentation of, and the interaction with
+    Multimedia information. The multimedia information tan be graphics, Video, audio,
+    or other types of presentable media. This information tan be enhanced by time
+    aspects. Throughout this document this part of ISO/IEC 14478 will also be referred
+    to as "Modelling, Rendering and Interaction", and abbreviated as MRI. The Modelling,
+    Rendering and Interaction Component constitutes a framework of?Middleware'', System
+    Software components lying between the generic operating System and computing environment,
+    and a specific application operating as a client of the Services and type definitions
+    provided by this component. It provides a framework over the foundation objects
+    and multimedia Systems Services defined in other Parts of the international Standard
+    for the development of a distributed and heterogeneous network of devices for
+    creating multimedia models, rendering these models, and interacting with this
+    process.</p><p>The Modelling, Rendering and Interaction Component encompasses
+    the following characteristics:</p><p>a) Provision of a hierarchy of multimedia
+    primitives as an abstract framework for describing the capabilities of modelling
+    and rendering devices, and for enabling their interoperation;</p><p>b) within
+    the primitive hierarchy, specific Provision for describing the temporal structure
+    of multimedia data through the stepwise construction of structured primitives
+    from component data;</p><p>c) Provision of abstract types for modelers, renderers
+    and other supporting devices, enabling the integration of such devices or any
+    future subtypes representing real Software or hardware, into a processing network
+    of such devices;</p><p>d) provision of an Object type to map synchronization requirements
+    expressed within multimedia primitives into control of the stream and synchronization
+    mechanisms provided by ISO/IEC 14478-2 and ISO/IEC 14478-3.</p><p>The Modelling,
+    Rendering and Interaction Component relies on the Object types and Services defined
+    in PREMO Part 2: Foundation Components (ISO/IEC 1447%2), and PREMO Part 3: Multimedia
+    Systems Services (ISO/IEC 14478-3).</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

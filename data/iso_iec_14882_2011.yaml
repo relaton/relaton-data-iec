@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC14882-2011
 title:
-- content: Information technology -- Programming languages -- C++
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages -- C++
+- content: C++
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages - C++
   language:
   - en
   script:
@@ -34,7 +48,7 @@ date:
 - type: stable-until
   value: '2014-12-15'
 - type: obsoleted
-  value: '2014-12-15'
+  value: '2015-01-14'
 contributor:
 - organization:
     name:
@@ -60,15 +74,15 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 14882:2011 specifies requirements for implementations of the C++
-    programming language. The first such requirement is that they implement the language,
-    and so ISO/IEC 14882:2011 also defines C++. Other requirements and relaxations
-    of the first requirement appear at various places within ISO/IEC 14882:2011.<br
-    /><br />\r\nC++ is a general purpose programming language based on the C programming
-    language as specified in ISO/IEC 9899:1999. In addition to the facilities provided
-    by C, C++ provides additional data types, classes, templates, exceptions, namespaces,
+- content: "<p>ISO/IEC 14882:2011 specifies requirements for implementations of the
+    C++ programming language. The first such requirement is that they implement the
+    language, and so ISO/IEC 14882:2011 also defines C++. Other requirements and relaxations
+    of the first requirement appear at various places within ISO/IEC 14882:2011.</p><p>C++
+    is a general purpose programming language based on the C programming language
+    as specified in ISO/IEC 9899:1999. In addition to the facilities provided by C,
+    C++ provides additional data types, classes, templates, exceptions, namespaces,
     operator overloading, function name overloading, references, free store management
-    operators, and additional library facilities."
+    operators, and additional library facilities.</p>"
   language:
   - en
   script:
@@ -107,4 +121,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

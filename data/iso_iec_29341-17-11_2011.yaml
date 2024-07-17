@@ -9,7 +9,7 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: UPnP device architecture
+- content: UPnP Device Architecture
   language:
   - en
   script:
@@ -24,7 +24,7 @@ title:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - UPnP device architecture - Part 17-11: Quality
+- content: 'Information technology - UPnP Device Architecture - Part 17-11: Quality
     of Service Device Control Protocol -- Level 3 -- Quality of Service Manager Service'
   language:
   - en
@@ -46,7 +46,7 @@ docid:
   type: URN
 date:
 - type: published
-  value: '2011-08-29'
+  value: '2011-08-30'
 contributor:
 - organization:
     name:
@@ -66,26 +66,24 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2011-08-29'
+revdate: '2011-08-30'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    29341-17-11:2011 describes the service-type that enables modelling of 'Quality
-    of Service Manager' function capabilities. This service provides a mechanism for
-    a Control Point to:<br />\r\n- Be agnostic of the QoS capabilities and associated
-    details about the various QoS Devices on the network at the expense of potential
-    network inefficiency.<br />\r\n- Abstract the tasks of setting up, modifying and
-    revoking the QoS associated with every traffic stream.<br />\r\n- QosManager:3
-    defines new capabilities to set up Parameterized QoS. Control Points may now request
-    reservations for specific resources for the exclusive use of individual streams.
-    Successful resource reservation ensures that streams will always have the bandwidth
-    and other resources to transport time critical data.<br />\r\n- QosManager:3 defines
-    a method for Control Points to request preemption of existing reservations on
-    the UPnP-QoS network if necessary to admit a new stream.<br />\r\n- QosManager:3
+- content: "ISO/IEC 29341-17-11:2011(E) describes the service-type that enables modelling
+    of 'Quality of Service Manager' function capabilities. This service provides a
+    mechanism for a Control Point to:<br/> \n- Be agnostic of the QoS capabilities
+    and associated details about the various QoS Devices on the network at the expense
+    of potential network inefficiency.<br/> \n- Abstract the tasks of setting up,
+    modifying and revoking the QoS associated with every traffic stream.<br/> \n-
+    QosManager:3 defines new capabilities to set up Parameterized QoS. Control Points
+    may now request reservations for specific resources for the exclusive use of individual
+    streams. Successful resource reservation ensures that streams will always have
+    the bandwidth and other resources to transport time critical data.<br/> \n- QosManager:3
+    defines a method for Control Points to request preemption of existing reservations
+    on the UPnP-QoS network if necessary to admit a new stream.<br/> \n- QosManager:3
     supports a mechanism for providing a list of blocking streams to a Control Point
     so that it can handle preemption on its own, if desired. This service definition
     is compliant with the UPnP Device Architecture version 1.0."

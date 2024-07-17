@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IECTR23272-2006
 title:
-- content: Information technology -- Common Language Infrastructure (CLI) -- Technical
-    Report on Information Derived from Partition IV XML File
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Common Language Infrastructure (CLI)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Common Language Infrastructure (CLI) -- Technical
+- content: Technical Report on Information Derived from Partition IV XML File
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Common Language Infrastructure (CLI) - Technical
     Report on Information Derived from Partition IV XML File
   language:
   - en
@@ -62,24 +75,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "This Technical Report is intended as an aid for understanding the libraries
+- content: "<p>This Technical Report is intended as an aid for understanding the libraries
     specified in Standard ECMA-335, Partition IV: Profiles and Libraries. That Partition
     includes a machine-readable specification, in XML, of the types that comprise
     the standard libraries. This Technical Report, in companion files, provides the
     following items which help to form a traceable chain from the normative XML specification
-    to a portable, printable representation of its contents:<br />\r\nTool Source
-    Code: A program written in the C# programming language, XML Style-sheet Language
-    (XSL), and using the facilities of the Microsoft.NET Framework(TM) and Microsoft
-    Office(TM) to convert the XML into files viewable using Microsoft Word(TM). This
-    program, provided by Intel Corporation, can be modified to produce other views
-    of the XML.<br />\r\nMicrosoft Word(TM) Files: These are the files produced by
-    running the tool mentioned above on the XML from Partition IV. The Ecma task group
-    TC39/TG3 used similar files (produced using earlier versions of this tool run
-    against earlier versions of the XML) as the primary means of reviewing the XML.<br
-    />\r\nPDF(TM) Files: These files are produced from the Microsoft Word(TM) files
-    using the Adobe Acrobat(TM) program. They are viewable on a wide range of computer
-    systems and printable on a range of computer output devices. In most cases, they
-    will appear visually identical regardless of the means used to render them."
+    to a portable, printable representation of its contents:</p><strong>Tool Source
+    Code:</strong> A program written in the C# programming language, XML Style-sheet
+    Language (XSL), and using the facilities of the Microsoft.NET Framework(TM) and
+    Microsoft Office(TM) to convert the XML into files viewable using Microsoft Word(TM).
+    This program, provided by Intel Corporation, can be modified to produce other
+    views of the XML.<strong>Microsoft Word(TM) Files:</strong> These are the files
+    produced by running the tool mentioned above on the XML from Partition IV. The
+    Ecma task group TC39/TG3 used similar files (produced using earlier versions of
+    this tool run against earlier versions of the XML) as the primary means of reviewing
+    the XML.<strong>PDF(TM) Files:</strong>These files are produced from the Microsoft
+    Word(TM) files using the Adobe Acrobat(TM) program. They are viewable on a wide
+    range of computer systems and printable on a range of computer output devices.
+    In most cases, they will appear visually identical regardless of the means used
+    to render them."
   language:
   - en
   script:
@@ -118,4 +132,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:A
+price_code: iso:B

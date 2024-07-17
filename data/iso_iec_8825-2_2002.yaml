@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC8825-2-2002
 title:
-- content: 'Information technology -- ASN.1 encoding rules: Specification of Packed
-    Encoding Rules (PER)'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'ASN.1 encoding rules: Specification of Packed Encoding Rules (PER)'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- ASN.1 encoding rules: Specification of Packed
-    Encoding Rules (PER)'
+- content: 'Part 2:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - ASN.1 encoding rules: Specification of Packed
+    Encoding Rules (PER) - Part 2:'
   language:
   - en
   script:
@@ -54,7 +67,7 @@ date:
 - type: stable-until
   value: '2008-12-15'
 - type: obsoleted
-  value: '2008-12-15'
+  value: '2009-12-15'
 contributor:
 - organization:
     name:
@@ -81,12 +94,21 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 8825-2:2002 describes a set of encoding rules that can be applied
+- content: "<p>ISO/IEC 8825-2:2002 describes a set of encoding rules that can be applied
     to values of all ASN.1 types to achieve a much more compact representation than
     that achieved by the Basic Encoding Rules and its derivatives (described in ITU-T
-    Rec.X.690 ISO/IEC 8826-1).
+    Rec.X.690 | ISO/IEC 8826-1).</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 8825-2:2002 décrit un ensemble de règles de codage applicables
+    aux valeurs de tous les types ASN.1. Ces règles donnent une représentation plus
+    compacte que celle que l'on peut obtenir au moyen des règles de codage de base
+    et de leurs dérivées (décrites dans la Rec. UIT-T X.690 | ISO/CEI 8825-1).</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -124,4 +146,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

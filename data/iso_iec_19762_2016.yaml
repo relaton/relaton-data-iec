@@ -71,13 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: L'ISO/IEC 19762:2016 provides the general terms and definitions in the
-    field of automatic identification techniques and data entry are based on which
+- content: "<p>L'ISO/IEC 19762:2016 provides the general terms and definitions in
+    the field of automatic identification techniques and data entry are based on which
     other specialized sections in various technical fields, as well as the essential
     terms that must be employed by non-technical users to communicate with specialists
-    in automatic identification and data capture techniques.
+    in automatic identification and data capture techniques.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/IEC 19762:2016 fournit les termes généraux et définitions dans
+    le domaine des techniques automatiques d'identification et de saisie de données
+    sur lesquels se basent d'autres sections spécialisées dans divers domaines techniques,
+    de même que les termes essentiels qui doivent être employés par des utilisateurs
+    non-spécialistes pour communiquer avec des spécialistes dans les techniques automatiques
+    d'identification et de saisie de données.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -107,10 +118,10 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 01.040.35
-  text: Information technology (Vocabularies)
 - code: 35.040.50
   text: Automatic identification and data capture techniques
+- code: 01.040.35
+  text: Information technology (Vocabularies)
 structuredidentifier:
   project_number: '19762'
   type: IEC

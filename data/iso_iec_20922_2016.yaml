@@ -63,27 +63,16 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    20922:2016 is a Client Server publish/subscribe messaging transport protocol.
-    It is light weight, open, simple, and designed so as to be easy to implement.
-    These characteristics make it ideal for use in many situations, including constrained
-    environments such as for communication in Machine to Machine (M2M) and Internet
-    of Things (IoT) contexts where a small code footprint is required and/or network
-    bandwidth is at a premium.<br />\r\nThe protocol runs over TCP/IP, or over other
-    network protocols that provide ordered, lossless, bi-directional connections.
-    Its features include:<br />\r\n- Use of the publish/subscribe message pattern
-    which provides one-to-many message distribution and decoupling of applications.<br
-    />\r\n- A messaging transport that is agnostic to the content of the payload.<br
-    />\r\nThree qualities of service for message delivery:<br />\r\n- \"At most once\",
-    where messages are delivered according to the best efforts of the operating environment.
-    Message loss can occur. This level could be used, for example, with ambient sensor
-    data where it does not matter if an individual reading is lost as the next one
-    will be published soon after.<br />\r\n- \"At least once\", where messages are
-    assured to arrive but duplicates can occur.<br />\r\n- \"Exactly once\", where
-    message are assured to arrive exactly once. This level could be used, for example,
-    with billing systems where duplicate or lost messages could lead to incorrect
-    charges being applied."
+- content: |-
+    <p>ISO/IEC 20922:2016 is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium.</p><p>The protocol runs over TCP/IP, or over other network protocols that provide ordered, lossless, bi-directional connections. Its features include:</p>
+
+    Use of the publish/subscribe message pattern which provides one-to-many message distribution and decoupling of applications.
+    A messaging transport that is agnostic to the content of the payload.
+    Three qualities of service for message delivery:
+
+    "At most once", where messages are delivered according to the best efforts of the operating environment. Message loss can occur. This level could be used, for example, with ambient sensor data where it does not matter if an individual reading is lost as the next one will be published soon after.
+    "At least once", where messages are assured to arrive but duplicates can occur.
+    "Exactly once", where message are assured to arrive exactly once. This level could be used, for example, with billing systems where duplicate or lost messages could lead to incorrect charges being applied.
   language:
   - en
   script:

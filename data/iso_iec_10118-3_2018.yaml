@@ -70,20 +70,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 10118-3:2018 This document specifies dedicated hash-functions,
-    i.e. specially designed hash-functions. The hash-functions in this document are
-    based on the iterative use of a round-function. Distinct round-functions are specified,
-    giving rise to distinct dedicated hash-functions.<br />\r\nThe use of Dedicated
-    Hash-Functions 1, 2 and 3 in new digital signature implementations is deprecated.<br
-    />\r\nNOTE As a result of their short hash-code length and/or cryptanalytic results,
-    Dedicated Hash-Functions 1, 2 and 3 do not provide a sufficient level of collision
-    resistance for future digital signature applications and they are therefore, only
-    usable for legacy applications. However, for applications where collision resistance
+- content: "<p>This document specifies dedicated hash-functions, i.e. specially designed
+    hash-functions. The hash-functions in this document are based on the iterative
+    use of a round-function. Distinct round-functions are specified, giving rise to
+    distinct dedicated hash-functions.</p><p>The use of Dedicated Hash-Functions 1,
+    2 and 3 in new digital signature implementations is deprecated.</p><p>NOTE As
+    a result of their short hash-code length and/or cryptanalytic results, Dedicated
+    Hash-Functions 1, 2 and 3 do not provide a sufficient level of collision resistance
+    for future digital signature applications and they are therefore, only usable
+    for legacy applications. However, for applications where collision resistance
     is not required, such as in hash-functions as specified in ISO/IEC 9797‑2, or
-    in key derivation functions specified in ISO/IEC 11770‑6, their use is not deprecated.<br
-    />\r\nNumerical examples for dedicated hash-functions specified in this document
-    are given in Annex B as additional information. For information purposes, SHA-3
-    extendable-output functions are specified in Annex C."
+    in key derivation functions specified in ISO/IEC 11770‑6, their use is not deprecated.</p><p>Numerical
+    examples for dedicated hash-functions specified in this document are given in
+    Annex B as additional information. For information purposes, SHA-3 extendable-output
+    functions are specified in Annex C.</p>"
   language:
   - en
   script:

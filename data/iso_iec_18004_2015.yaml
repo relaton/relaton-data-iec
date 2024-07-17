@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC18004-2015
 title:
-- content: Information technology -- Automatic identification and data capture techniques
-    -- QR Code bar code symbology specification
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Automatic identification and data capture techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Automatic identification and data capture techniques
-    -- QR Code bar code symbology specification
+- content: QR Code bar code symbology specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Automatic identification and data capture techniques
+    - QR Code bar code symbology specification
   language:
   - en
   script:
@@ -60,13 +73,24 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18004:2015 defines the requirements for the symbology known as
-    QR Code. It specifies the QR Code symbology characteristics, data character encoding
-    methods, symbol formats, dimensional characteristics, error correction rules,
-    reference decoding algorithm, production quality requirements, and user-selectable
-    application parameters.
+- content: "<p>ISO/IEC 18004:2015 defines the requirements for the symbology known
+    as QR Code. It specifies the QR Code symbology characteristics, data character
+    encoding methods, symbol formats, dimensional characteristics, error correction
+    rules, reference decoding algorithm, production quality requirements, and user-selectable
+    application parameters.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/IEC 18004:2015 définit les exigences de la symbologie appelée
+    QR Code. Elle spécifie les caractéristiques de la symbologie de QR Code, les méthodes
+    de codage des caractères de données, les formats de symboles, les caractéristiques
+    dimensionnelles, les règles de correction d'erreurs, l'algorithme de décodage
+    de référence, les exigences de qualité de production, ainsi que les paramètres
+    d'application sélectionnables par l'utilisateur.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -96,11 +120,11 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
+- code: 35.040.50
+  text: Automatic identification and data capture techniques
 - code: 01.080.50
   text: Graphical symbols for use on information technology and telecommunications
     technical drawings and in relevant technical product documentation
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
 structuredidentifier:
   project_number: '18004'
   type: IEC

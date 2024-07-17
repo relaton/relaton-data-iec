@@ -2,14 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC8825-4-2008
 title:
-- content: 'Information technology -- ASN.1 encoding rules: XML Encoding Rules (XER)'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'ASN.1 encoding rules: XML Encoding Rules (XER)'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- ASN.1 encoding rules: XML Encoding Rules (XER)'
+- content: 'Part 4:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - ASN.1 encoding rules: XML Encoding Rules (XER)
+    - Part 4:'
   language:
   - en
   script:
@@ -60,24 +75,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 8825-4:2008 specifies a set of basic XML Encoding Rules (BASIC-XER)
-    that can be used to derive a transfer syntax for values of types defined in ISO/IEC
-    8824-1 and ISO/IEC 8824-2. It also specifies a set of Canonical XML Encoding Rules
-    (CXER) which provide constraints on the basic XML Encoding Rules and produce a
-    unique encoding for any given ASN.1 value. ISO/IEC 8825-4:2008 further specifies
-    a set of extended XML Encoding Rules (EXTENDED-XER) which adds further encoder
-    options, and also allows the ASN.1 specifier to vary the encoding that would be
-    produced by BASIC-XER. It is implicit in the specification of these encoding rules
-    that they are also used for decoding.<br /><br />\r\nThe encoding rules specified
-    in ISO/IEC 8825-4:2008:<br />\r\n\tare used at the time of communication;<br />\r\n\tare
-    intended for use in circumstances where displaying of values and/or processing
-    them using commonly available XML tools (such as browsers) is the major concern
-    in the choice of encoding rules;<br />\r\n\tallow the extension of an abstract
-    syntax by addition of extra values for all forms of extensibility described in
-    ISO/IEC 8824-1.<br /><br /><br /><br />\r\nISO/IEC 8825-4:2008 also specifies
-    the syntax and semantics of XER encoding instructions, and the rules for their
-    assignment and combination. XER encoding instructions can be used to control the
-    EXTENDED-XER encoding for specific ASN.1 types."
+- content: |-
+    <p>ISO/IEC 8825-4:2008 specifies a set of basic XML Encoding Rules (BASIC-XER) that can be used to derive a transfer syntax for values of types defined in ISO/IEC 8824-1 and ISO/IEC 8824-2. It also specifies a set of Canonical XML Encoding Rules (CXER) which provide constraints on the basic XML Encoding Rules and produce a unique encoding for any given ASN.1 value. ISO/IEC 8825-4:2008 further specifies a set of extended XML Encoding Rules (EXTENDED-XER) which adds further encoder options, and also allows the ASN.1 specifier to vary the encoding that would be produced by BASIC-XER. It is implicit in the specification of these encoding rules that they are also used for decoding.</p><p>The encoding rules specified in ISO/IEC 8825-4:2008:</p>
+
+    are used at the time of communication;
+    are intended for use in circumstances where displaying of values and/or processing them using commonly available XML tools (such as browsers) is the major concern in the choice of encoding rules;
+    allow the extension of an abstract syntax by addition of extra values for all forms of extensibility described in ISO/IEC 8824-1.<p>ISO/IEC 8825-4:2008 also specifies the syntax and semantics of XER encoding instructions, and the rules for their assignment and combination. XER encoding instructions can be used to control the EXTENDED-XER encoding for specific ASN.1 types.</p>
   language:
   - en
   script:
@@ -117,4 +120,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

@@ -76,22 +76,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 15938-17:2022 This document specifies Neural Network Coding (NNC)
-    as a compressed representation of the parameters/weights of a trained neural network
-    and a decoding process for the compressed representation, complementing the description
-    of the network topology in existing (exchange) formats for neural networks. It
-    establishes a toolbox of compression methods, specifying (where applicable) the
-    resulting elements of the compressed bitstream.<br />\r\nThis document does not
-    specify a complete protocol for the transmission of neural networks, but focuses
-    on compression of network parameters. Only the syntax format, semantics, associated
-    decoding process requirements, parameter sparsification, parameter transformation
-    methods, parameter quantization, entropy coding method and integration/signalling
-    within existing exchange formats are specified, while other matters such as pre-processing,
-    system signalling and multiplexing, data loss recovery and post-processing are
-    considered to be outside the scope of this document. Additionally, the internal
-    processing steps performed within a decoder are also considered to be outside
-    the scope of this document; only the externally observable output behaviour is
-    required to conform to the specifications of this document."
+- content: "<p>This document specifies Neural Network Coding (NNC) as a compressed
+    representation of the parameters/weights of a trained neural network and a decoding
+    process for the compressed representation, complementing the description of the
+    network topology in existing (exchange) formats for neural networks. It establishes
+    a toolbox of compression methods, specifying (where applicable) the resulting
+    elements of the compressed bitstream.</p><p>This document does not specify a complete
+    protocol for the transmission of neural networks, but focuses on compression of
+    network parameters. Only the syntax format, semantics, associated decoding process
+    requirements, parameter sparsification, parameter transformation methods, parameter
+    quantization, entropy coding method and integration/signalling within existing
+    exchange formats are specified, while other matters such as pre-processing, system
+    signalling and multiplexing, data loss recovery and post-processing are considered
+    to be outside the scope of this document. Additionally, the internal processing
+    steps performed within a decoder are also considered to be outside the scope of
+    this document; only the externally observable output behaviour is required to
+    conform to the specifications of this document.</p>"
   language:
   - en
   script:
@@ -131,4 +131,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

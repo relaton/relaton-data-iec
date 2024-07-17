@@ -71,17 +71,18 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies one method for authenticated encryption suitable
-    for applications requiring lightweight cryptographic mechanisms. This method processes
-    a data string with the following security objectives:<br /><br />\r\na) data confidentiality,
-    i.e. protection against unauthorized disclosure of data,<br />\r\nb) data integrity,
-    i.e. protection that enables the recipient of data to verify that it has not been
-    modified.<br /><br />\r\nOptionally, this method can provide data origin authentication,
-    i.e. protection that enables the recipient of data to verify the identity of the
-    data originator. The method specified in this document is based on a lightweight
-    stream cipher, and requires the parties of the protected data to share a secret
-    key for this algorithm. Key management is outside the scope of this document.<br
-    /><br />\r\nNOTE Key management techniques are defined in the ISO/IEC 11770 series."
+- content: "<p>This document specifies one method for authenticated encryption suitable
+    for applications requiring lightweight cryptographic mechanisms.</p><p>This method
+    processes a data string with the following security objectives:</p><p>a) data
+    confidentiality, i.e. protection against unauthorized disclosure of data,</p><p>b)
+    data integrity, i.e. protection that enables the recipient of data to verify that
+    it has not been modified.</p><p>Optionally, this method can provide data origin
+    authentication, i.e. protection that enables the recipient of data to verify the
+    identity of the data originator.</p><p>The method specified in this document is
+    based on a lightweight stream cipher, and requires the parties of the protected
+    data to share a secret key for this algorithm. Key management is outside the scope
+    of this document.</p><p>NOTE Key management techniques are defined in the ISO/IEC
+    11770 series.</p>"
   language:
   - en
   script:

@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC13719-1-1998
 title:
-- content: 'Information technology -- Portable Common Tool Environment (PCTE) -- Part
-    1: Abstract specification'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Portable Common Tool Environment (PCTE)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Portable Common Tool Environment (PCTE) -- Part
+- content: 'Part 1: Abstract specification'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Portable Common Tool Environment (PCTE) - Part
     1: Abstract specification'
   language:
   - en
@@ -57,6 +70,30 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This part of ISO/IEC 13719 specifies PCTE in abstract, programming-language-independent,
+    terms. It specifies the interface supported by any conforming implementation as
+    a set of abstract operation specifications, together with the types of their parameters
+    and results. It is supported by a number of standard bindings, i.e. representations
+    of the interface in standard programming languages.</p><p>The scope of this part
+    of ISO/IEC 13719 is restricted to a single PCTE installation. It does not specify
+    the means of communication between PCTE installations, nor between a PCTE installation
+    and another system.</p><p> A number of features are not completely defined in
+    this part of ISO/IEC 13719, some freedom being allowed to the implementor. Some
+    of these are implementation limits, for which constraints are defined (see clause
+    24). The other implementation-dependent and implementation-defined features are
+    specified in the appropriate places in this Standard.</p><p>PCTE is an interface
+    to a set of facilities that forms the basis for constructing environments supporting
+    systems engineering projects. These facilities are designed particularly to provide
+    an infrastructure for programs which may be part of such environments. Such programs,
+    which are used as aids to systems development, are often referred to as tools.</p><p>This
+    part of ISO/IEC 13719 also includes (in annex B) a language standard for the PCTE
+    Data Description Language (DDL), suitable for writing PCTE schema definition sets.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

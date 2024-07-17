@@ -2,9 +2,22 @@
 schema-version: v1.2.9
 id: ISO/IECTR10171-2000
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- List of standard data link layer protocols that utilize high-level
-    data link control (HDLC) classes of procedures, list of standard XID format identifiers,
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: List of standard data link layer protocols that utilize high-level data
+    link control (HDLC) classes of procedures, list of standard XID format identifiers,
     list of standard mode-setting  information field format identifiers, and list
     of standard user-defined parameter set identification values
   language:
@@ -12,10 +25,10 @@ title:
   script:
   - Latn
   format: text/plain
-  type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- List of standard data link layer protocols that utilize high-level
-    data link control (HDLC) classes of procedures, list of standard XID format identifiers,
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - List of standard data link layer protocols that utilize high-level data
+    link control (HDLC) classes of procedures, list of standard XID format identifiers,
     list of standard mode-setting  information field format identifiers, and list
     of standard user-defined parameter set identification values
   language:
@@ -63,6 +76,26 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This Technical Report lists the standard data link layer protocols
+    that utilize HDLC based classes of procedures as defined in</p><p>ISO/IEC 13239
+    in their realization. The list indicates the basic repertoire (i.e. class of procedures)
+    used plus the optional</p><p>functions employed.</p><p>This Technical Report lists
+    the standard XID information field format identifiers. The list identifies the
+    source document as</p><p>well as describing the characteristics of the information
+    provided.</p><p>This Technical Report lists the standard mode-setting frame information
+    field format identifiers. The list identifies the source</p><p>document as well
+    as describing the characteristics of the information provided.</p><p>This Technical
+    Report lists the standard user-defined parameter set identification values, as
+    well as indicating the source and</p><p>use of the private parameter set.</p><p><strong>NOTE<em>-</em></strong>With
+    the exception of ISO/IEC 7776 and ITU-T X.25 LAPB, which are designed to be complementary,
+    the protocols listed do not</p><p>interwork. (There are differences in the usage
+    of certain functions by different protocols.)</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

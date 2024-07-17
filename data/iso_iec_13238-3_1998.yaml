@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC13238-3-1998
 title:
-- content: 'Information technology -- Data Management -- Part 3: IRDS export/import
-    facility'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Data Management
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Data Management -- Part 3: IRDS export/import
+- content: 'Part 3: IRDS export/import facility'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Data Management - Part 3: IRDS export/import
     facility'
   language:
   - en
@@ -57,6 +70,25 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This part of ISO/IEC 13238 enables the bulk transfer of all or part
+    of the data contained in an</p><p>Information Resource Dictionary (IRD) or in
+    an Information Resource Dictionary Definition</p><p>conforming to ISO/IEC 10728:1993
+    IRDS Services Interface.</p><p>This part of ISO/IEC 13238 defines a format for
+    such a transfer and also services to generate</p><p>the export file and services
+    to import the file. These services are additional to the existing</p><p>services
+    defined in the IRDS Services Interface.</p><p>This version of this part of ISO/IEC
+    13238 defines a limited set of Export and Import</p><p>services. It is expected
+    that implementations will also provide more sophisticated services</p><p>based
+    on the use of the Transfer File structure defined in this part of ISO/IEC 13238.</p><p>The
+    physical way in which the transfer takes place is outside the scope of this part
+    of</p><p>ISO/IEC 13238. Each transfer may be effected in one of several ways including
+    the physical</p><p>transfer of the data using a transportable storage device.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

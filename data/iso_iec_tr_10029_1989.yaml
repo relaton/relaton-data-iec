@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR10029-1989
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Operation of an X.25 interworking unit
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Operation of an X.25 interworking unit
+- content: Operation of an X.25 interworking unit
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Operation of an X.25 interworking unit
   language:
   - en
   script:
@@ -62,13 +75,13 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Describes the function of the Interworking unit (IWU) in terms of the
+- content: "<p>Describes the function of the Interworking unit (IWU) in terms of the
     mapping between Protokol Data Units (PDUs) that it receives from one interface,
     and PDUs that it then transmits which could be on either interface of the IWU.
     Also describes procedures an IWU can initiate on each interface independently.
     Each interface corresponds to one instance of a DTE/DXE connection, and both interfaces
     of the Interworking Unit operate as a DTE as specified by ISO 8208. References:
-    ISO 8208; 8880-2; 8881.'
+    ISO 8208; 8880-2; 8881.</p>"
   language:
   - en
   script:
@@ -107,4 +120,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:A
+price_code: iso:B

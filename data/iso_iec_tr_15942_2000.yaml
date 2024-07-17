@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR15942-2000
 title:
-- content: Information technology -- Programming languages -- Guide for the use of
-    the Ada programming language in high integrity systems
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages -- Guide for the use of
-    the Ada programming language in high integrity systems
+- content: Guide for the use of the Ada programming language in high integrity systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages - Guide for the use of the
+    Ada programming language in high integrity systems
   language:
   - en
   script:
@@ -58,56 +71,57 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    TR 15942:2000 This Technical Report provides guidance on the use of Ada when producing
-    high integrity systems. In producing such applications it is usually the case
-    that adherence to guidelines or standards has to be demonstrated to independent
-    bodies.<br />\r\nThese guidelines or standards vary according to the application
-    area, industrial sector or nature of the risk involved.<br />\r\nFor safety applications,
-    the international generic standard is [IEC 61508] of which part 3 is concerned
-    with software.<br />\r\nFor security systems, the multi-national generic assessment
-    guide is [ISO CD 15408].<br />\r\nFor sector-specific guidance and standards there
-    are:<br />\r\nAirborne civil avionics: [DO-178B]<br />\r\nNuclear power plants:
-    [IEC 880]<br />\r\nMedical systems: [IEC 601-4]<br />\r\nPharmaceutical: [GAMP]<br
-    />\r\nFor national/regional guidance and standards there are the following:<br
-    />\r\nUK Defence: [DS 00-55]<br />\r\nEuropean rail: [EN 50128]<br />\r\nEuropean
-    security: [ITSEC]<br />\r\nUS nuclear: [NRC]<br />\r\nUK automotive: [MISRA]<br
-    />\r\nUS medical: [FDA]<br />\r\nUS space: [NASA]<br />\r\nThe above standards
-    and guides are referred to as Standards in this Technical Report. The above list
-    is not exhaustive but indicative of the type of Standard to which this Technical
-    Report provides guidance.<br />\r\nThe specific Standards above are not addressed
-    individually but this Technical Report is synthesized from an analysis of their
-    requirements and recommendations.<br />\r\n1.1 Within the scope<br />\r\nThis
-    Technical Report assumes that a system is being developed in Ada to meet a standard
-    listed above or one of a similar nature. The primary goal of this Technical Report
-    is to translate general requirements into Ada specific ones. For example, a general
-    standard might require that dynamic testing provides evidence of the execution
-    of all the statements in the code of the application. In the case of generics,
-    this is interpreted by this Technical Report to mean all instantiations of the
-    generic should be executed.<br />\r\nThis Technical Report is intended to provide
-    guidance only, and hence there are no?shalls'. However, this Technical Report
-    identifies verification and validation issues which should be resolved and documented
-    according to the sector-specific standards being employed.<br />\r\nThe following
-    topics are within the scope of this Technical Report:<br />\r\n- the choice of
-    features of the language which aid verification and compliance to the standards,<br
-    />\r\n- identification of language features requiring additional verification
-    steps,<br />\r\n- the use of tools to aid design and verification,<br />\r\n-
-    issues concerning qualification of compilers for use on high integrity applications,<br
-    />\r\n- tools, such as graphic design tools, which generate Ada source code which
-    is accessible to users.<br />\r\nTools which generate Ada source code require
-    special consideration. Where generated code may be modified or extended, verification
-    of the extensions and overall system will be assisted if the guidelines have been
-    taken into account. Even where modification is not planned, inspection and analysis
-    of the generated code may be unavoidable unless the generator is trusted or \"qualified\"
-    according to an applicable standard. Finally, even if generated code is neither
-    modified nor inspected, the overall verification process may be made more complicated
-    if the code deviates from guidelines intended to facilitate testing and analysis.
-    Potential users of such tools should evaluate their code generation against the
-    guidance provided in this Technical Report.<br />\r\n1.2 Out of scope<br />\r\nThe
+- content: "<p><strong>1 Scope</strong></p><p>This Technical Report provides guidance
+    on the use of Ada when producing high integrity systems. In producing such</p><p>applications
+    it is usually the case that adherence to guidelines or standards has to be demonstrated
+    to independent bodies.</p><p>These guidelines or standards vary according to the
+    application area, industrial sector or nature of the risk involved.</p><p>For
+    safety applications, the international generic standard is [IEC 61508] of which
+    part 3 is concerned with software.</p><p>For security systems, the multi-national
+    generic assessment guide is [ISO CD 15408].</p><p>For sector-specific guidance
+    and standards there are:</p><p><strong>Airborne civil avionics</strong>: [DO-178B]</p><p><strong>Nuclear
+    power plants</strong>: [IEC 880]</p><p><strong>Medical systems</strong>: [IEC
+    601-4]</p><p><strong>Pharmaceutical</strong>: [GAMP]</p><p>For national/regional
+    guidance and standards there are the following:</p><p><strong>UK Defence</strong>:
+    [DS 00-55]</p><p><strong>European rail</strong>: [EN 50128]</p><p><strong>European
+    security</strong>: [ITSEC]</p><p><strong>US nuclear</strong>: [NRC]</p><p><strong>UK
+    automotive</strong>: [MISRA]</p><p><strong>US medical</strong>: [FDA]</p><p><strong>US
+    space</strong>: [NASA]</p><p>The above standards and guides are referred to as
+    Standards in this Technical Report. The above list is not exhaustive but</p><p>indicative
+    of the type of Standard to which this Technical Report provides guidance.</p><p>The
+    specific Standards above are not addressed individually but this Technical Report
+    is synthesized from an analysis of their</p><p>requirements and recommendations.</p><p><strong>1.1
+    Within the scope</strong></p><p>This Technical Report assumes that a system is
+    being developed in Ada to meet a standard listed above or one of a similar</p><p>nature.
+    The primary goal of this Technical Report is to translate general requirements
+    into Ada specific ones. For example, a</p><p>general standard might require that
+    dynamic testing provides evidence of the execution of all the statements in the
+    code of the</p><p>application. In the case of generics, this is interpreted by
+    this Technical Report to mean all instantiations of the generic should</p><p>be
+    executed.</p><p><strong>ISO/IEC TR 15942:2000 (E)</strong></p><p><strong>2</strong>©
+    ISO/IEC 2000 - All rights reserved</p><p>This Technical Report is intended to
+    provide guidance only, and hence there are no?shalls'. However, this Technical
+    Report</p><p>identifies verification and validation issues which should be resolved
+    and documented according to the sector-specific</p><p>standards being employed.</p><p>The
+    following topics are within the scope of this Technical Report:</p><p>_ the choice
+    of features of the language which aid verification and compliance to the standards,</p><p>_
+    identification of language features requiring additional verification steps,</p><p>_
+    the use of tools to aid design and verification,</p><p>_ issues concerning qualification
+    of compilers for use on high integrity applications,</p><p>_ tools, such as graphic
+    design tools, which generate Ada source code which is accessible to users.</p><p>Tools
+    which generate Ada source code require special consideration. Where generated
+    code may be modified or extended,</p><p>verification of the extensions and overall
+    system will be assisted if the guidelines have been taken into account. Even where</p><p>modification
+    is not planned, inspection and analysis of the generated code may be unavoidable
+    unless the generator is trusted or</p><p>?qualified' according to an applicable
+    standard. Finally, even if generated code is neither modified nor inspected, the
+    overall</p><p>verification process may be made more complicated if the code deviates
+    from guidelines intended to facilitate testing and</p><p>analysis. Potential users
+    of such tools should evaluate their code generation against the guidance provided
+    in this Technical</p><p>Report.</p><p><strong>1.2 Out of scope</strong></p><p>The
     following topics are considered to be out of scope with respect to this Technical
-    Report:<br />\r\n- Domain-specific standards,<br />\r\n- Application-specific
-    issues,<br />\r\n- Hardware and system-specific issues,<br />\r\n- Human factor"
+    Report:</p><p>_ Domain-specific standards,</p><p>_ Application-specific issues,</p><p>_
+    Hardware and system-specific issues,</p><p>_ Human factor</p>"
   language:
   - en
   script:

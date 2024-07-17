@@ -71,48 +71,45 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) website.<br /><br />\r\nISO/IEC
-    23736-6:2020 This specification, EPUB Canonical Fragment Identifier (epubcfi),
-    defines a standardized method for referencing arbitrary content within an EPUB®
-    Publication through the use of fragment identifiers.<br />\r\nThe Web has proven
-    that the concept of hyperlinking is tremendously powerful, but EPUB Publications
-    have been denied much of the benefit that hyperlinking makes possible because
-    of the lack of a standardized scheme to link into them. Although proprietary schemes
-    have been developed and implemented for individual Reading Systems, without a
-    commonly-understood syntax there has been no way to achieve cross-platform interoperability.
-    The functionality that can see significant benefit from breaking down this barrier,
-    however, is varied: from reading location maintenance to annotation attachment
-    to navigation, the ability to point into any Publication opens a whole new dimension
-    not previously available to developers and Authors.<br />\r\nThis specification
-    attempts to rectify this situation by defining an arbitrary structural reference
-    that can uniquely identify any location, or simple range of locations, in an EPUB
-    Publication: the EPUB CFI. The following considerations have strongly influenced
-    the design and scope of this scheme:<br />\r\nThe mechanism used to reference
-    content should be interoperable: references to a reading position created by one
-    Reading System should be usable by another.<br />\r\nDocument references to EPUB
-    content should be enabled in the same way that existing hyperlinks enable references
-    throughout the Web.<br />\r\nEach location in an EPUB file should be able to be
-    identified without the need to modify the document.<br />\r\nAll fragment identifiers
-    that reference the same logical location should be equal when compared.<br />\r\nComparison
-    operations, including tests for sorting and comparison, should be able to be performed
-    without accessing the referenced files.<br />\r\nSimple manipulations should be
-    possible without access to the original files (e.g., given a reference deep in
-    a file, it should be possible to generate a reference to the start of the file).<br
-    />\r\nIdentifier resolution should be reasonably efficient (e.g., processing of
-    the first chapter is not necessary to resolve a fragment identifier that points
-    to the last chapter).<br />\r\nReferences should be able to recover their target
-    locations through parser variations and document revisions.<br />\r\nExpression
-    of simple, contiguous ranges should be supported.<br />\r\nAn extensible mechanism
-    to accommodate future reference recovery heuristics should be provided.<br />\r\nIn
-    the case of both Standard EPUB CFIs and Intra-Publication EPUB CFI, this specification
-    conforms with the guidelines expressed by W3C in Section 6. Best Practices for
-    Fragid Structures [FragIDBestPractices].<br />\r\nIn other words, both standard
-    CFI URIs (e.g., \"book.epub#epubcfi(?)\", referred media type \"application/epub+zip\")
-    and intra-publication CFI URIs (e.g., \"package.opf#epubcfi(?)\", referred media
-    type \"application/oebps-package+xml\") make use of a fragment identifier syntax
-    that does not overlap with existing schemes in the context of the aforementioned
-    media types' suffix registrations (i.e., \"-xml\" and \"zip\")."
+- content: '<p>This specification, EPUB Canonical Fragment Identifier (epubcfi), defines
+    a standardized method for referencing arbitrary content within an EPUB® Publication
+    through the use of fragment identifiers.</p><p>The Web has proven that the concept
+    of hyperlinking is tremendously powerful, but EPUB Publications have been denied
+    much of the benefit that hyperlinking makes possible because of the lack of a
+    standardized scheme to link into them. Although proprietary schemes have been
+    developed and implemented for individual Reading Systems, without a commonly-understood
+    syntax there has been no way to achieve cross-platform interoperability. The functionality
+    that can see significant benefit from breaking down this barrier, however, is
+    varied: from reading location maintenance to annotation attachment to navigation,
+    the ability to point into any Publication opens a whole new dimension not previously
+    available to developers and Authors.</p><p>This specification attempts to rectify
+    this situation by defining an arbitrary structural</p><p>reference that can uniquely
+    identify any location, or simple range of locations, in an EPUB Publication: the
+    EPUB CFI. The following considerations have strongly influenced the design and
+    scope of this scheme:</p><p>The mechanism used to reference content should be
+    interoperable: references to a reading position created by one Reading System
+    should be usable by another.</p><p>Document references to EPUB content should
+    be enabled in the same way that existing hyperlinks enable references throughout
+    the Web.</p><p>Each location in an EPUB file should be able to be identified without
+    the need to modify the document.</p><p>All fragment identifiers that reference
+    the same logical location should be equal when compared.</p><p>Comparison operations,
+    including tests for sorting and comparison, should be able to be performed without
+    accessing the referenced files.</p><p>Simple manipulations should be possible
+    without access to the original files (e.g., given a reference deep in a file,
+    it should be possible to generate a reference to the start of the file).</p><p>Identifier
+    resolution should be reasonably efficient (e.g., processing of the first chapter
+    is not necessary to resolve a fragment identifier that points to the last chapter).</p><p>References
+    should be able to recover their target locations through parser variations and
+    document revisions.</p><p>Expression of simple, contiguous ranges should be supported.</p><p>An
+    extensible mechanism to accommodate future reference recovery heuristics should
+    be provided.</p><p>In the case of both Standard EPUB CFIs and Intra-Publication
+    EPUB CFI, this specification conforms with the guidelines expressed by W3C in
+    Section 6. Best Practices for Fragid Structures [FragIDBestPractices].</p><p>In
+    other words, both standard CFI URIs (e.g., "book.epub#epubcfi(?)", referred media
+    type "application/epub+zip") and intra-publication CFI URIs (e.g., "package.opf#epubcfi(?)",
+    referred media type "application/oebps-package+xml") make use of a fragment identifier
+    syntax that does not overlap with existing schemes in the context of the aforementioned
+    media types'' suffix registrations (i.e., "-xml" and "zip").</p>'
   language:
   - en
   script:

@@ -2,15 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC9797-3-2011
 title:
-- content: 'Information technology -- Security techniques -- Message Authentication
-    Codes (MACs) -- Part 3: Mechanisms using a universal hash-function'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- Message Authentication
+- content: 'Message Authentication Codes (MACs) -- Part 3: Mechanisms using a universal
+    hash-function'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - Message Authentication
     Codes (MACs) -- Part 3: Mechanisms using a universal hash-function'
   language:
   - en
@@ -58,11 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 9797-3:2011 specifies the following Message Authentication Code
-    (MAC) algorithms that use a secret key and a universal hash-function with an n-bit
-    result to calculate an m-bit MAC based on the block ciphers specified in ISO/IEC
-    18033-3 and the stream ciphers specified in ISO/IEC 18033-4: UMAC; Badger; Poly1305-AES;
-    GMAC.'
+- content: |-
+    <p>ISO/IEC 9797-3:2011 specifies the following Message Authentication Code (MAC) algorithms that use a secret key and a universal hash-function with an<em>n</em>-bit result to calculate an<em>m</em>-bit MAC based on the block ciphers specified in ISO/IEC 18033-3 and the stream ciphers specified in ISO/IEC 18033-4:</p>
+
+     UMAC;
+     Badger;
+     Poly1305-AES;
+     GMAC.
   language:
   - en
   script:

@@ -72,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 15938-17:2024 This document specifies Neural Network Coding (NNC)
+- content: <p class="MsoBodyText">This document specifies Neural Network Coding (NNC)
     as a compressed representation of the parameters/weights of a trained neural network
     and a decoding process for the compressed representation, complementing the description
     of the network topology in existing (exchange) formats for neural networks. It
@@ -82,8 +82,8 @@ abstract:
     to the compression of differential updates of neural networks with respect to
     a base network. Such differential updates are for example useful when models are
     redistributed after fine-tuning or transfer learning, or when providing versions
-    of a neural network with different compression ratios.<br />\r\nThis document
-    does not specify a complete protocol for the transmission of neural networks,
+    of a neural network with different compression ratios.</p><p class="MsoBodyText">This
+    document does not specify a complete protocol for the transmission of neural networks,
     but focuses on compression of network parameters. Only the syntax format, semantics,
     associated decoding process requirements, parameter sparsification, parameter
     transformation methods, parameter quantization, entropy coding method and integration/signalling
@@ -92,7 +92,7 @@ abstract:
     considered to be outside the scope of this document. Additionally, the internal
     processing steps performed within a decoder are also considered to be outside
     the scope of this document; only the externally observable output behaviour is
-    required to conform to the specifications of this document."
+    required to conform to the specifications of this document.</p>
   language:
   - en
   script:

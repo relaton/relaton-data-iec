@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC24787-2010
 title:
-- content: Information technology -- Identification cards -- On-card biometric comparison
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Identification cards
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Identification cards -- On-card biometric comparison
+- content: On-card biometric comparison
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Identification cards - On-card biometric comparison
   language:
   - en
   script:
@@ -60,13 +74,15 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 24787:2010 establishesrequirements for performing comparisons of
-    biometric samples and returning decisions on an integrated circuit card, andsecurity
-    policies for on-card biometric comparison.It also establishes commands and rules
-    to permit pre-comparison computations to be done off-card.ISO/IEC 24787:2010 does
-    not establishrequirements for off-card comparison implementations,requirements
-    for system-on-card implementations, ormodality-specific requirements for storage
-    and comparison.
+- content: |-
+    <p>ISO/IEC 24787:2010 establishes</p>
+
+    requirements for performing comparisons of biometric samples and returning decisions on an integrated circuit card, and
+    security policies for on-card biometric comparison.<p>It also establishes commands and rules to permit pre-comparison computations to be done off-card.</p><p>ISO/IEC 24787:2010 does not establish</p>
+
+    requirements for off-card comparison implementations,
+    requirements for system-on-card implementations, or
+    modality-specific requirements for storage and comparison.
   language:
   - en
   script:
@@ -105,4 +121,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

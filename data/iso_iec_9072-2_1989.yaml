@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC9072-2-1989
 title:
-- content: 'Information processing systems -- Text communication -- Remote Operations
-    -- Part 2: Protocol specification'
+- content: Information processing systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Text communication
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information processing systems -- Text communication -- Remote Operations
+- content: 'Remote Operations -- Part 2: Protocol specification'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information processing systems - Text communication - Remote Operations
     -- Part 2: Protocol specification'
   language:
   - en
@@ -36,7 +49,7 @@ date:
 - type: stable-until
   value: '1995-09-21'
 - type: obsoleted
-  value: '1995-09-21'
+  value: '2020-07-29'
 contributor:
 - organization:
     name:
@@ -62,12 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Specifies the protocol (abstract syntax) and procedures for the Remote
-    Operation Service Element. The ROSE services are procided in conjunction with
-    the Association Control Service Element service and the ACSE protocol, optionally
-    the Reliable Transfer Service Element services and the RTSE protocol and the presentation-service.
-    Describes the conformance requirements for systems implementing these procedures:
-    ISO 7498; 8509; 8649; 8650; 8822; 8824; 8825; 9066-1; 9066-2; 9072-2.'
+- content: "La présente partie de l'ISO/CEI 9072 spécifie le protocole (syntaxe abstraite)
+    et les procédures applicables à l'élément de service d'opérations distantes (partie
+    1 de cette Norme internationale). Les services ROSE sont fournis en liaison avec
+    les services de l'élément de service de contrôle d'association (ACSE) (ISO 8649)
+    et avec le protocole ACSE (ISO 8650), optionnellement avec les services de l'élément
+    de service de transfert fiable (RTSE) (ISO/CEI 9066-1) et avec le protocole RTSE
+    (ISO/CEI 9066-2), ainsi qu'avec le service de présentation (ISO 8822). Les procédures
+    ROSE sont définies sous la forme \na) des interactions entre machines protocole
+    ROSE homologues par l'emploi des services RTSE ou du service de présentation;
+    \nb) des interactions entre la machine protocole ROSE et son utilisateur de service.\n\nLa
+    présente partie de l'ISO/CEI 9072 spécifie les conditions de\nconformité applicables
+    aux systèmes qui mettent en oeuvre ces procédures."
   language:
   - en
   script:
@@ -107,4 +126,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

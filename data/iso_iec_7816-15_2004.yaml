@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC7816-15-2004
 title:
-- content: 'Identification cards -- Integrated circuit cards -- Part 15: Cryptographic
-    information application'
+- content: Identification cards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Integrated circuit cards
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Identification cards -- Integrated circuit cards -- Part 15: Cryptographic
+- content: 'Part 15: Cryptographic information application'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Identification cards - Integrated circuit cards - Part 15: Cryptographic
     information application'
   language:
   - en
@@ -62,15 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 7816-15:2004 specifies a card application. This application contains
-    information on cryptographic functionality. Further, ISO/IEC 7816-15:2004 defines
-    a common syntax (in ASN.1) and format for the cryptographic information and mechanisms
-    to share this information whenever appropriate.ISO/IEC 7816-15:2004 supports the
-    following capabilities:storage of multiple instances of cryptographic information
-    in a card;use of the cryptographic information;retrieval of the cryptographic
-    information;cross-referencing of the cryptographic information with DOs defined
-    in ISO/IEC 7816 when appropriate; different authentication mechanisms; andmultiple
-    cryptographic algorithms.
+- content: |-
+    <p>ISO/IEC 7816-15:2004 specifies a card application. This application contains information on cryptographic functionality. Further, ISO/IEC 7816-15:2004 defines a common syntax (in ASN.1) and format for the cryptographic information and mechanisms to share this information whenever appropriate.</p><p>ISO/IEC 7816-15:2004 supports the following capabilities:</p>
+    storage of multiple instances of cryptographic information in a card;use of the cryptographic information;retrieval of the cryptographic information;cross-referencing of the cryptographic information with DOs defined in ISO/IEC 7816 when appropriate; different authentication mechanisms; andmultiple cryptographic algorithms.
   language:
   - en
   script:
@@ -110,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

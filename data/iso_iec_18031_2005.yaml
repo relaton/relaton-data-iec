@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC18031-2005
 title:
-- content: Information technology -- Security techniques -- Random bit generation
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Random bit generation
+- content: Random bit generation
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Random bit generation
   language:
   - en
   script:
@@ -60,14 +74,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18031:2005 specifies a conceptual model for a random bit generator
-    for cryptographic purposes, together with the elements of this model.ISO/IEC 18031:2005
-    also includesthe description of the main elements required for a non-deterministic
-    random bit generator;the description of the main elements required for a deterministic
-    random bit generator;their characteristics; their security requirements.Techniques
-    for statistical testing of random bit generators for the purposes of independent
-    verification or validation, and detailed designs for such generators, are outside
-    the scope of ISO/IEC 18031:2005.
+- content: |-
+    <p>ISO/IEC 18031:2005 specifies a conceptual model for a random bit generator for cryptographic purposes, together with the elements of this model.</p><p>ISO/IEC 18031:2005 also includes</p>
+    the description of the main elements required for a non-deterministic random bit generator;the description of the main elements required for a deterministic random bit generator;their characteristics; their security requirements.<p>Techniques for statistical testing of random bit generators for the purposes of independent verification or validation, and detailed designs for such generators, are outside the scope of ISO/IEC 18031:2005.</p>
   language:
   - en
   script:
@@ -106,4 +115,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC19502-2005
 title:
-- content: Information technology -- Meta Object Facility (MOF)
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Meta Object Facility (MOF)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Meta Object Facility (MOF)
+- content: Information technology - Meta Object Facility (MOF)
   language:
   - en
   script:
@@ -56,33 +63,10 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 19502:2005 defines a metamodel (defined using Meta Object Facility,
-    MOF), a set of interfaces [defined using Open Distributed Processing (ODP) Interface
-    Definition Language (IDL) (ITU-T Recommendation X.920 (1997) ISO/IEC 14750:1999)],
-    that can be used to define and manipulate a set of interoperable metamodels and
-    their corresponding models. ISO/IEC 19502:2005 also defines the mapping from MOF
-    to ODP IDL. These interoperable metamodels include the Unified Modeling Language
-    (UML) metamodel (ISO/IEC 19501:2005), the MOF meta-metamodel, as well as future
-    standard technologies that will be specified using metamodels. The MOF provides
-    the infrastructure for implementing design and reuse repositories, application
-    development tool frameworks, etc. The MOF specifies precise mapping rules that
-    enable the CORBA interfaces for metamodels to be generated automatically, thus
-    encouraging consistency in manipulating metadata in all phases of the distributed
-    application development cycle. Mappings from MOF to W3C XML and XSD are specified
-    in ISO/IEC 19503. Mappings from MOF to Java (TM) are in the JMI (Java Metadata
-    Interchange) specification defined by the Java Community Process.ISO/IEC 19502:2005
-    specifiesan abstract language for specifying, constructing, and managing technology
-    neutral metamodels (a metamodel is in effect an abstract language for some kind
-    of metadata);a framework for implementing repositories and integration frameworks
-    (e.g., tool integration frameworks) that hold metadata (e.g., models) described
-    by the metamodels and which uses standard technology mappings to transform MOF
-    metamodels into metadata APIs.ISO/IEC 19502:2005 also providesa formal definition
-    of the MOF meta-metamodel, i.e. the abstract language for specifying MOF metamodels;a
-    mapping from arbitrary MOF metamodels to CORBA IDL that produces IDL interfaces
-    for managing any kind of metadata;a set of 'reflective' CORBA IDL interfaces for
-    managing metadata independent of the metamodel;a set of CORBA IDL interfaces for
-    representing and managing MOF metamodels;an XMI format for MOF metamodel interchange
-    (OMG XMI specification).
+- content: |-
+    <p>ISO/IEC 19502:2005 defines a metamodel (defined using Meta Object Facility, MOF), a set of interfaces [defined using Open Distributed Processing (ODP) Interface Definition Language (IDL) (ITU-T Recommendation X.920 (1997) | ISO/IEC 14750:1999)], that can be used to define and manipulate a set of interoperable metamodels and their corresponding models. ISO/IEC 19502:2005 also defines the mapping from MOF to ODP IDL. These interoperable metamodels include the Unified Modeling Language (UML) metamodel (ISO/IEC 19501:2005), the MOF meta-metamodel, as well as future standard technologies that will be specified using metamodels. The MOF provides the infrastructure for implementing design and reuse repositories, application development tool frameworks, etc. The MOF specifies precise mapping rules that enable the CORBA interfaces for metamodels to be generated automatically, thus encouraging consistency in manipulating metadata in all phases of the distributed application development cycle. Mappings from MOF to W3C XML and XSD are specified in ISO/IEC 19503. Mappings from MOF to Java (TM) are in the JMI (Java Metadata Interchange) specification defined by the Java Community Process.</p><p>ISO/IEC 19502:2005 specifies</p>
+    an abstract language for specifying, constructing, and managing technology neutral metamodels (a metamodel is in effect an abstract language for some kind of metadata);a framework for implementing repositories and integration frameworks (e.g., tool integration frameworks) that hold metadata (e.g., models) described by the metamodels and which uses standard technology mappings to transform MOF metamodels into metadata APIs.<p>ISO/IEC 19502:2005 also provides</p>
+    a formal definition of the MOF meta-metamodel, i.e. the abstract language for specifying MOF metamodels;a mapping from arbitrary MOF metamodels to CORBA IDL that produces IDL interfaces for managing any kind of metadata;a set of 'reflective' CORBA IDL interfaces for managing metadata independent of the metamodel;a set of CORBA IDL interfaces for representing and managing MOF metamodels;<p>an XMI format for MOF metamodel interchange (OMG XMI specification).</p>
   language:
   - en
   script:

@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC13250-2003
 title:
-- content: Information technology -- SGML applications -- Topic maps
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: SGML applications
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- SGML applications -- Topic maps
+- content: Topic maps
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - SGML applications - Topic maps
   language:
   - en
   script:
@@ -34,7 +48,7 @@ date:
 - type: stable-until
   value: '2015-03-20'
 - type: obsoleted
-  value: '2015-03-20'
+  value: '2021-09-07'
 contributor:
 - organization:
     name:
@@ -60,18 +74,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 13250:2003 (2<sup>nd</sup> edition) specifies two syntaxes for
-    the interchange of Topic Maps. One of these syntaxes is based on the ISO/IEC 10744:1997
-    (HyTime) meta-DTD (meta Document Type Definition), and it is itself specified
-    as a meta-DTD. The other, called XTM (XML Topic Maps), is specified as an eXtensible
-    Markup Language (XML) DTD.<br /><br />\r\nBoth syntaxes allow the expression of:\r\n\r\n\tassociations
-    between subjects of discourse and zero or more of their names, to be used in various
-    contexts,\r\n\tassociations between subjects and occurrences (pieces of relevant
-    addressable information),\r\n\tuser-defined associations among any arbitrary subjects
-    of discourse,\r\n\tuser-defined subjects which are classes of subjects, including
-    classes of associations and the distinct roles that are played in instances of
-    associations, and\r\n\tscopes, expressed as sets of subjects, within the context
-    of which specific associations are meant to be understood as valid and/or relevant."
+- content: |-
+    <p>ISO/IEC 13250:2003 (2<sup>nd</sup> edition) specifies two syntaxes for the interchange of Topic Maps. One of these syntaxes is based on the ISO/IEC 10744:1997 (HyTime) meta-DTD (meta Document Type Definition), and it is itself specified as a meta-DTD. The other, called XTM (XML Topic Maps), is specified as an eXtensible Markup Language (XML) DTD.</p><p>Both syntaxes allow the expression of:</p>
+     associations between subjects of discourse and zero or more of their names, to be used in various contexts, associations between subjects and occurrences (pieces of relevant addressable information), user-defined associations among any arbitrary subjects of discourse, user-defined subjects which are classes of subjects, including classes of associations and the distinct roles that are played in instances of associations, and scopes, expressed as sets of subjects, within the context of which specific associations are meant to be understood as valid and/or relevant.
   language:
   - en
   script:
@@ -110,4 +115,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

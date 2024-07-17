@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC23002-4-2014
 title:
-- content: 'Information technology -- MPEG video technologies -- Part 4: Video tool
-    library'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: MPEG video technologies
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- MPEG video technologies -- Part 4: Video tool
+- content: 'Part 4: Video tool library'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - MPEG video technologies - Part 4: Video tool
     library'
   language:
   - en
@@ -63,14 +76,10 @@ script:
 - Latn
 abstract:
 - content: |-
-    ISO/IEC 23002-4:2014 defines the description of the MPEG video tool library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This tool library defines the specification of FUs, which are sufficient to build complete decoding solutions according to the following coding standards:
+    <p>ISO/IEC 23002-4:2014 defines the description of the MPEG video tool library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This tool library defines the specification of FUs, which are sufficient to build complete decoding solutions according to the following coding standards:</p>
 
-    - ISO/IEC 14496-2 (MPEG-4 Simple Profile), and
-    - ISO/IEC 14496-10 (MPEG-4 AVC Constrained Baseline Profile).
-
-    The objective of ISO/IEC 23001-4 is to define the general framework principles, and ISO/IEC 23002-4:2014 defines the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG coding standards. Each FU is defined in the form of a textual description. The conventions followed by the input and output behavior are also described.
-
-    Implementations compliant with ISO/IEC 23002-4:2014 can be designed using any software or hardware language and components. The reference software for the textual specification of FUs is written in RVC-CAL language of which a formal syntax is provided in ISO/IEC 23001-4, and which will be defined in Amendment 1 to ISO/IEC 23002-4.
+    ISO/IEC 14496-2 (MPEG-4 Simple Profile), and
+    ISO/IEC 14496-10 (MPEG-4 AVC Constrained Baseline Profile).<p>The objective of ISO/IEC 23001-4 is to define the general framework principles, and ISO/IEC 23002-4:2014 defines the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG coding standards. Each FU is defined in the form of a textual description. The conventions followed by the input and output behavior are also described.</p><p>Implementations compliant with ISO/IEC 23002-4:2014 can be designed using any software or hardware language and components. The reference software for the textual specification of FUs is written in RVC-CAL language of which a formal syntax is provided in ISO/IEC 23001-4, and which will be defined in Amendment 1 to ISO/IEC 23002-4.</p>
   language:
   - en
   script:
@@ -110,4 +119,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B

@@ -2,16 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC18000-6-2004
 title:
-- content: 'Information technology -- Radio frequency identification for item management
-    -- Part 6: Parameters for air interface communications at 860 MHz to 960 MHz'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Radio frequency identification for item management
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Radio frequency identification for item management
-    -- Part 6: Parameters for air interface communications at 860 MHz to 960 MHz'
+- content: 'Part 6: Parameters for air interface communications at 860 MHz to 960
+    MHz'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Radio frequency identification for item management
+    - Part 6: Parameters for air interface communications at 860 MHz to 960 MHz'
   language:
   - en
   script:
@@ -62,25 +76,25 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18000-6:2004 defines the air interface for radio-frequency identification
-    (RFID) devices operating in the 860 MHz to 960 MHz Industrial, Scientific, and
-    Medical (ISM) band used in item management applications. Its purpose is to provide
-    a common technical specification for RFID devices that may be used by ISO committees
-    developing RFID application standards. ISO/IEC 18000-6:2004 is intended to allow
-    for compatibility and to encourage inter-operability of products for the growing
-    RFID market in the international marketplace. ISO/IEC 18000-6:2004 defines the
-    forward and return link parameters for technical attributes including, but not
-    limited to, operating frequency, operating channel accuracy, occupied channel
-    bandwidth, maximum EIRP, spurious emissions, modulation, duty cycle, data coding,
-    bit rate, bit rate accuracy, bit transmission order, and where appropriate operating
-    channels, frequency hop rate, hop sequence, spreading sequence, and chip rate.
-    It further defines the communications protocol used in the air interface.ISO/IEC
+- content: "<p>ISO/IEC 18000-6:2004 defines the air interface for radio-frequency
+    identification (RFID) devices operating in the 860 MHz to 960 MHz Industrial,
+    Scientific, and Medical (ISM) band used in item management applications. Its purpose
+    is to provide a common technical specification for RFID devices that may be used
+    by ISO committees developing RFID application standards. ISO/IEC 18000-6:2004
+    is intended to allow for compatibility and to encourage inter-operability of products
+    for the growing RFID market in the international marketplace. ISO/IEC 18000-6:2004
+    defines the forward and return link parameters for technical attributes including,
+    but not limited to, operating frequency, operating channel accuracy, occupied
+    channel bandwidth, maximum EIRP, spurious emissions, modulation, duty cycle, data
+    coding, bit rate, bit rate accuracy, bit transmission order, and where appropriate
+    operating channels, frequency hop rate, hop sequence, spreading sequence, and
+    chip rate. It further defines the communications protocol used in the air interface.</p><p>ISO/IEC
     18000-6:2004 contains one mode with two types. Both types use a common return
     link and are reader talks first. Type A uses Pulse Interval Encoding (PIE) in
     the forward link, and an adaptive ALOHA collision arbitration algorithm. Type
     B uses Manchester in the forward link and an adaptive binary tree collision arbitration
     algorithm. The detailed technical differences between the two types are shown
-    in the parameter tables.
+    in the parameter tables.</p>"
   language:
   - en
   script:
@@ -120,4 +134,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

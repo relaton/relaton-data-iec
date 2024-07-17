@@ -2,15 +2,22 @@
 schema-version: v1.2.9
 id: ISO/IEC18180-2013
 title:
-- content: Information technology -- Specification for the Extensible Configuration
-    Checklist Description Format (XCCDF) Version 1.2
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Specification for the Extensible Configuration Checklist Description Format
+    (XCCDF) Version 1.2
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Specification for the Extensible Configuration
+- content: Information technology - Specification for the Extensible Configuration
     Checklist Description Format (XCCDF) Version 1.2
   language:
   - en
@@ -58,18 +65,16 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    18180:2013 specifies the data model and Extensible Markup Language (XML) representation
-    for the Extensible Configuration Checklist Description Format (XCCDF) Version
-    1.2. An XCCDF document is a structured collection of security configuration rules
-    for some set of target systems. The XCCDF specification is designed to support
-    information interchange, document generation, organizational and situational tailoring,
-    automated compliance testing, and scoring. ISO/IEC 18180:2013 also defines a data
-    model and format for storing results of security guidance or checklist testing.
-    The intent of XCCDF is to provide a uniform foundation for expression of security
-    checklists and other configuration guidance, and thereby foster more widespread
-    application of good security practices."
+- content: "<p>ISO/IEC 18180:2013 specifies the data model and Extensible Markup Language
+    (XML) representation for the Extensible Configuration Checklist Description Format
+    (XCCDF) Version 1.2. An XCCDF document is a structured collection of security
+    configuration rules for some set of target systems. The XCCDF specification is
+    designed to support information interchange, document generation, organizational
+    and situational tailoring, automated compliance testing, and scoring. ISO/IEC
+    18180:2013 also defines a data model and format for storing results of security
+    guidance or checklist testing. The intent of XCCDF is to provide a uniform foundation
+    for expression of security checklists and other configuration guidance, and thereby
+    foster more widespread application of good security practices.</p>"
   language:
   - en
   script:
@@ -101,10 +106,10 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.030'
-  text: IT Security
 - code: 35.040.50
   text: Automatic identification and data capture techniques
+- code: '35.030'
+  text: IT Security
 structuredidentifier:
   project_number: '18180'
   type: IEC

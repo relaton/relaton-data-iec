@@ -72,24 +72,24 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies a methodology for the evaluation of non-deterministic
+- content: "<p>This document specifies a methodology for the evaluation of non-deterministic
     or deterministic random bit generators intended to be used for cryptographic applications.
     The provisions given in this document enable the vendor of an RBG to submit well-defined
     claims of security to an evaluation authority and shall enable an evaluator or
     a tester, for instance a validation authority, to evaluate, test, certify or reject
-    these claims.<br />\r\nThis document is implementation-agnostic. Hence, it offers
+    these claims.</p><p>This document is implementation-agnostic. Hence, it offers
     no specific guidance on design and implementation decisions for random bit generators.
     However, design and implementation issues influence the evaluation of an RBG in
     this document, for instance because it requires the use of a stochastic model
     of the random source and because any such model is supported by technical arguments
-    pertaining to the design of the device at hand.<br />\r\nRandom bit generators
-    as evaluated in this document aim to output bit strings that appear evenly distributed.
+    pertaining to the design of the device at hand.</p><p>Random bit generators as
+    evaluated in this document aim to output bit strings that appear evenly distributed.
     Depending on the distribution of random numbers required by the consuming application,
     however, it is worth noting that additional steps can be necessary (and can well
     be critical to security) for the consuming application to transform the random
     bit strings produced by the RBG into random numbers of a distribution suitable
     to the application requirements. Such subsequent transformations are outside the
-    scope of evaluations performed in this document."
+    scope of evaluations performed in this document.</p>"
   language:
   - en
   script:

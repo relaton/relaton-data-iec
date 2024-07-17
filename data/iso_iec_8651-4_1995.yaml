@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC8651-4-1995
 title:
-- content: 'Information technology -- Computer graphics -- Graphical Kernel System
-    (GKS) language bindings -- Part 4: C'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Computer graphics
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Computer graphics -- Graphical Kernel System
-    (GKS) language bindings -- Part 4: C'
+- content: 'Graphical Kernel System (GKS) language bindings -- Part 4: C'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Computer graphics - Graphical Kernel System (GKS)
+    language bindings -- Part 4: C'
   language:
   - en
   script:
@@ -58,10 +71,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Cancels and replaces the first edition (1991). Specifies a language independent
-    nucleus of a graphics system. For integration into a programming language, GKS
-    is embedded in a language dependent layer obeying the particular conventions of
-    that language. Specifies such a language dependent layer for the C language.
+- content: |-
+    <p>
+    Le système graphique GKS, ISO 7942:1994, spécifie un noyau graphique indépendant du langage. Pour être intégré dans un langage de programmation, GKS est inclus dans une couche dépendante du langage et obéissant aux conventions particulières de ce langage. La présente partie de l'ISO/CEI 8651 spécifie une couche dépendante du langage pour le langage C.</p>
   language:
   - en
   script:
@@ -93,10 +105,10 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.060'
-  text: Languages used in information technology
 - code: '35.140'
   text: Computer graphics
+- code: '35.060'
+  text: Languages used in information technology
 structuredidentifier:
   project_number: '8651'
   part: '4'

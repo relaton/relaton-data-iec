@@ -2,15 +2,22 @@
 schema-version: v1.2.9
 id: ISO/IEC18019-2004
 title:
-- content: Software and system engineering -- Guidelines for the design and preparation
-    of user documentation for application software
+- content: Software and system engineering
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Guidelines for the design and preparation of user documentation for application
+    software
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Software and system engineering -- Guidelines for the design and preparation
+- content: Software and system engineering - Guidelines for the design and preparation
     of user documentation for application software
   language:
   - en
@@ -33,6 +40,8 @@ docid:
 date:
 - type: published
   value: '2004-01-06'
+- type: obsoleted
+  value: '2012-01-25'
 contributor:
 - organization:
     name:
@@ -58,20 +67,21 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18019:2004 provides guidelines for the design and preparation of
-    user documentation for application software. It describes how to establish what
-    information users need, how to determine the way in which that information should
-    be presented to the users, and how then to prepare the information and make it
-    available.Application software includes consumer software packages, software for
-    office applications, business software and specialist software for use by professionals.ISO/IEC
-    18019:2004 is for use by people responsible for specifying, designing and preparing
-    user documentation for application software and people who manage these activities,
-    including developers of tools for creating hardcopy documentation, product designers,
-    application developers, project managers, authors, programmers, translators and
-    localization staff.It is intended for use in all types of organizations, whether
-    or not a dedicated documentation department is present. In all cases, it can be
-    used as a basis for local standards and procedures. Readers are assumed to have
-    experience or knowledge of software development or documentation development processes.
+- content: "<p>ISO/IEC 18019:2004 provides guidelines for the design and preparation
+    of user documentation for application software. It describes how to establish
+    what information users need, how to determine the way in which that information
+    should be presented to the users, and how then to prepare the information and
+    make it available.</p><p>Application software includes consumer software packages,
+    software for office applications, business software and specialist software for
+    use by professionals.</p><p>ISO/IEC 18019:2004 is for use by people responsible
+    for specifying, designing and preparing user documentation for application software
+    and people who manage these activities, including developers of tools for creating
+    hardcopy documentation, product designers, application developers, project managers,
+    authors, programmers, translators and localization staff.</p><p>It is intended
+    for use in all types of organizations, whether or not a dedicated documentation
+    department is present. In all cases, it can be used as a basis for local standards
+    and procedures. Readers are assumed to have experience or knowledge of software
+    development or documentation development processes.</p>"
   language:
   - en
   script:
@@ -79,7 +89,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -110,4 +120,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

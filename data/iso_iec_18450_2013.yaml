@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC18450-2013
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Web Services Description Language (WSDL) for CSTA Phase III
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Web Services Description Language (WSDL) for CSTA Phase III
+- content: Web Services Description Language (WSDL) for CSTA Phase III
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Web Services Description Language (WSDL) for CSTA Phase III
   language:
   - en
   script:
@@ -58,30 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nWeb
-    Services Description Language (WSDL) is an XML schema for describing Web services
-    and how they can be accessed by Web based applications. WSDL facilitates the creation
-    and deployment of web based applications. For example, by using WSDL with many
-    industry Web services development environments, a web services developer can access
-    features provided by an implementation without knowing details of the network
-    or underlying transport protocols.<br />\r\nISO/IEC 18450:2013 specifies two WSDL
-    documents: Computing Function WSDL and Switching Function WSDL, for ISO/IEC 18051,
-    Services for Computer Supported Telecommunications Applications (CSTA) Phase III.
-    All CSTA features (e.g., services and events) specified in ISO/IEC 18051 are specified
-    in ISO/IEC 18450:2013. ISO/IEC 18450:2013 specifies pairs of port types, one from
-    the Computing Function WSDL and one from the Switching Function WSDL, for all
-    the profiles specified in ISO/IEC 18051.<br />\r\nA full WSDL document contains
-    both abstract definitions (WSDL messages and port type elements) and concrete
-    protocol specific definitions (WSDL bindings, ports, and service elements). This
-    CSTA WSDL Standard specifies only the abstract definitions of a WSDL document.
-    The concrete and protocol specific definitions are implementation specific and
-    are outside the scope of ISO/IEC 18450:2013. Annex B illustrates an example SOAP
-    over HTTP binding.<br />\r\nWSDL is defined in XML and XML Schemata. ISO/IEC 18450:2013
-    builds upon the XML data types and imports all message formats specified in ISO/IEC
-    18056.<br />\r\nAnnex A specifies mechanisms to establish event channels based
-    on WS-Eventing. The event channels allow the Switching Function and Computing
-    Function to be both a Service Requester and a Service Provider."
+- content: "<p>Web Services Description Language (WSDL) is an XML schema for describing
+    Web services and how they can be accessed by Web based applications. WSDL facilitates
+    the creation and deployment of web based applications. For example, by using WSDL
+    with many industry Web services development environments, a web services developer
+    can access features provided by an implementation without knowing details of the
+    network or underlying transport protocols.</p><p>ISO/IEC 18450:2013 specifies
+    two WSDL documents: Computing Function WSDL and Switching Function WSDL, for ISO/IEC
+    18051, Services for Computer Supported Telecommunications Applications (CSTA)
+    Phase III. All CSTA features (e.g., services and events) specified in ISO/IEC
+    18051 are specified in ISO/IEC 18450:2013. ISO/IEC 18450:2013 specifies pairs
+    of port types, one from the Computing Function WSDL and one from the Switching
+    Function WSDL, for all the profiles specified in ISO/IEC 18051.</p><p>A full WSDL
+    document contains both abstract definitions (WSDL messages and port type elements)
+    and concrete protocol specific definitions (WSDL bindings, ports, and service
+    elements). This CSTA WSDL Standard specifies only the abstract definitions of
+    a WSDL document. The concrete and protocol specific definitions are implementation
+    specific and are outside the scope of ISO/IEC 18450:2013. Annex B illustrates
+    an example SOAP over HTTP binding.</p><p>WSDL is defined in XML and XML Schemata.
+    ISO/IEC 18450:2013 builds upon the XML data types and imports all message formats
+    specified in ISO/IEC 18056.</p><p>Annex A specifies mechanisms to establish event
+    channels based on WS-Eventing. The event channels allow the Switching Function
+    and Computing Function to be both a Service Requester and a Service Provider.</p>"
   language:
   - en
   script:

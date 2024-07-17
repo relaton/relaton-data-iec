@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC16500-8-1999
 title:
-- content: 'Information technology -- Generic digital audio-visual systems -- Part
-    8: Management architecture and protocols'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Generic digital audio-visual systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Generic digital audio-visual systems -- Part
-    8: Management architecture and protocols'
+- content: 'Part 8: Management architecture and protocols'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Generic digital audio-visual systems - Part 8:
+    Management architecture and protocols'
   language:
   - en
   script:
@@ -57,6 +70,40 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This part of ISO/IEC 16500 describes the management architecture and
+    protocol for managing the DAVIC</p><p>System. The DAVIC system management architecture
+    is the TMN-based (Telecommunication Management</p><p>Network) architecture defined
+    in ITU-T Recommendation M.3010. This management architecture allows for</p><p>automatic
+    administration, configuration, monitoring, billing, and maintenance of the Service
+    Provider System, the</p><p>Delivery System, and the Consumer System over the DAVIC
+    S5 flows. In accordance with DAVIC 1.3.1a Part 4</p><p>and ISO/IEC 16500-5, the
+    content of these flows is based on either the CMIP protocol or the SNMP protocol,</p><p>depending
+    on the complexity of the underlying subsystem or the preference of the network
+    provider. SNMP</p><p>MIBs (Management Information Base) for managing the STU and
+    the Server have been defined in ISO/IEC</p><p>16500-5. Usage related information
+    models have also been defined in ISO/IEC 16500-9 using both CMISE and</p><p>SNMP.
+    For managing the ATM, SDH/SONET components of the Core Network of the DAVIC Delivery
+    System,</p><p>CMISE models defined in ITU-T and ATM Forum are recommended in ISO/IEC
+    16500-5 subclause 10.5.3.</p><p>Taking into account that the current DAVIC specification
+    for the Access Network is ATM-based 1, this Part of</p><p>ISO/IEC 16500 defines
+    CMISE information models for managing the DAVIC Access Network and servicerelated</p><p>data
+    in the Delivery System. In the future, if DAVIC specifications allow altenative
+    access technologies</p><p>(such as IP-based), additional system management information
+    models (such as SNMP MIB) may be needed. The</p><p>management of the coexistence
+    of different access network technologies, using different protocols, could be</p><p>achieved
+    through interworking tools (i.e., interworking between CMIP and SNMP) as described
+    in subclause 6.4.</p><p>Tutorial information on a protocol-independent modeling
+    technique is also provided in an informative annex.</p><p>This part of ISO/IEC
+    16500 is organized as follows:</p><p/><p>This part of ISO/IEC 16500 refers to
+    system architecture and interface information that are described in ISO/IEC</p><p>16500
+    parts?1, -5 and?9 and in DAVIC 1.3.1a Part 4:<em>Delivery system architecture
+    and interface</em>.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC13818-1-2013
 title:
-- content: 'Information technology -- Generic coding of moving pictures and associated
-    audio information: Systems'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Generic coding of moving pictures and associated audio information
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Generic coding of moving pictures and associated
-    audio information: Systems'
+- content: 'Part 1: Systems'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Generic coding of moving pictures and associated
+    audio information - Part 1: Systems'
   language:
   - en
   script:
@@ -63,13 +76,14 @@ script:
 - Latn
 abstract:
 - content: |-
-    ISO/IEC 13818-1:2013 specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports six basic functions:
-    1) the synchronization of multiple compressed streams on decoding;
-    2) the interleaving of multiple compressed streams into a single stream;
-    3) the initialization of buffering for decoding start up;
-    4) continuous buffer management;
-    5) time identification;
-    6) multiplexing and signalling of various components in a system stream.
+    <p>ISO/IEC 13818-1:2013 specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports six basic functions:</p>
+
+     the synchronization of multiple compressed streams on decoding;
+     the interleaving of multiple compressed streams into a single stream;
+     the initialization of buffering for decoding start up;
+     continuous buffer management;
+     time identification;
+     multiplexing and signalling of various components in a system stream.
   language:
   - en
   script:
@@ -109,4 +123,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

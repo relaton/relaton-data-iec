@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC16317-2011
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- proxZzzy for sleeping hosts
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- proxZzzy for sleeping hosts
+- content: proxZzzy for sleeping hosts
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - proxZzzy for sleeping hosts
   language:
   - en
   script:
@@ -58,18 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    16317:2011 specifies maintenance of network connectivity and presence by proxies
-    to extend the sleep duration of hosts.<br />\r\nISO/IEC 16317:2011 specifies:\r\n\r\n\tcapabilities
-    that a proxy may expose to a host;\r\n\tinformation that must be exchanged between
-    a host and a proxy;\r\n\tproxy behaviour for 802.3 (Ethernet) and 802.11 (WiFi);\r\n\trequired
-    and optional behaviour of a proxy while it is operating, including responding
-    to packets, generating packets, ignoring packets, and waking the host.\r\n\r\nISO/IEC
-    16317:2011 does not:\r\n\r\n\r\n\tspecify communication mechanisms between hosts
-    and proxies;\r\n\textend or modify the referenced specifications (and for any
-    discrepancies those specifications are authoritative);\r\n\tsupport security and
-    communication protocols such as IPsec, MACSec, SSL, TLS, Mobile IP, etc."
+- content: |-
+    <p>ISO/IEC 16317:2011 specifies maintenance of network connectivity and presence by proxies to extend the sleep duration of hosts.</p><p>ISO/IEC 16317:2011 specifies:</p>
+
+    capabilities that a proxy may expose to a host;
+    information that must be exchanged between a host and a proxy;
+    proxy behaviour for 802.3 (Ethernet) and 802.11 (WiFi);
+    required and optional behaviour of a proxy while it is operating, including responding to packets, generating packets, ignoring packets, and waking the host.<p>ISO/IEC 16317:2011 does not:</p>
+
+    specify communication mechanisms between hosts and proxies;
+    extend or modify the referenced specifications (and for any discrepancies those specifications are authoritative);
+    support security and communication protocols such as IPsec, MACSec, SSL, TLS, Mobile IP, etc.
   language:
   - en
   script:

@@ -1,0 +1,169 @@
+---
+schema-version: v1.2.9
+id: ISO/IEC23290-2002
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Private Integrated Services Network -- Mapping functions for the tunnelling
+    of QSIG through H.323 networks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Mapping functions for the tunnelling
+    of QSIG through H.323 networks
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Télécommunications et échange d'information entre systèmes
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Réseau privé avec intégration de services -- Fonctions d'application pour
+    l'emploi de l'action tunnel de QSIG à travers les réseaux H.323
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technologies de l'information - Télécommunications et échange d'information
+    entre systèmes - Réseau privé avec intégration de services -- Fonctions d'application
+    pour l'emploi de l'action tunnel de QSIG à travers les réseaux H.323
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/98130
+  type: src
+type: standard
+docid:
+- id: ISO/IEC 23290:2002
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23290:2002-12:::'
+  type: URN
+date:
+- type: published
+  value: '2002-12-10'
+- type: obsoleted
+  value: '2004-10-07'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2002-12-10'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "<p>ISO/IEC 23290:2002 specifies functions for using an H.323 packet network
+    in order to interconnect two Private Integrated services Network eXchanges (PINXs)
+    forming part of a Private Integrated Services Network (PISN). Interconnection
+    is achieved by carrying the inter-PINX signalling protocol over the H.323 call
+    signalling channel, making use of the protocol tunnelling facilities of H.323,
+    and inter-PINX user information (e.g., voice) over logical channels established
+    through H.323. Each logical channel usually represents a unidirectional media
+    stream conveyed by means of the Real-time Transport Protocol (RTP). The inter-PINX
+    signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC
+    11582 and other International Standards.</p><p>ISO/IEC 23290:2002 provides for
+    an on-demand type of interconnection, where a separate H.323 call is established
+    at the start of each PISN call and cleared down at the end of that call. A semi-permanent
+    scenario where a single H.323 call with an indefinite lifetime carries QSIG on
+    behalf of many PISN calls is described as an additional option.</p><p>In the scenarios
+    covered in ISO/IEC 23290:2002, the PINXs participating in a call are not necessarily
+    aware of the H.323 network providing the interconnection, and the features available
+    are those of the QSIG network. This is different from a scenario where true interworking
+    between QSIG and H.323 (i.e. QSIG-H.323-QSIG) is used to connect two PISNs or
+    two parts of the same PISN. In this latter case all networks participate in a
+    call on equal terms, and features are limited to those available in all networks
+    and supported by the gateways. This latter scenario is outside the scope of ISO/IEC
+    23290:2002.</p><p>ISO/IEC 23290:2002 is applicable to PINXs that can be interconnected
+    to form a PISN using QSIG as the inter-PINX signalling protocol.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2002'
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 6
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 33.040.35
+  text: Telephone networks
+structuredidentifier:
+  project_number: '23290'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:B

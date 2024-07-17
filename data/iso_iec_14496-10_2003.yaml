@@ -1,0 +1,184 @@
+---
+schema-version: v1.2.9
+id: ISO/IEC14496-10-2003
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Coding of audio-visual objects
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 10: Advanced Video Coding'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Coding of audio-visual objects - Part 10: Advanced
+    Video Coding'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Codage des objets audiovisuels
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 10: Codage visuel avancé'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
+    10: Codage visuel avancé'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/98163
+  type: src
+type: standard
+docid:
+- id: ISO/IEC 14496-10:2003
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:14496-10:2003-11:::'
+  type: URN
+date:
+- type: published
+  value: '2003-11-27'
+- type: obsoleted
+  value: '2004-09-28'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2003-11-27'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "<p>ISO/IEC 14496-10:2003 was developed jointly with the ITU-T in response
+    to the growing need for higher compression of moving pictures for various applications
+    such as digital storage media, television broadcasting, Internet streaming and
+    real-time audiovisual communication. It is also designed to enable the use of
+    the coded video representation in a flexible manner for a wide variety of network
+    environments. It is designed to be generic in the sense that it serves a wide
+    range of applications, bit rates, resolutions, qualities and services. The use
+    of ISO/IEC 14496-10:2003 allows motion video to be manipulated as a form of computer
+    data and to be stored on various storage media, transmitted and received over
+    existing and future networks and distributed on existing and future broadcasting
+    channels. In the course of creating ISO/IEC 14496-10:2003, various requirements
+    from typical applications have been considered, necessary algorithmic elements
+    have been developed, and these have been integrated into a single syntax. Hence,
+    ISO/IEC 14496-10:2003 will facilitate video data interchange among different applications.</p><p>The
+    coded representation specified in the syntax is designed to enable a high compression
+    capability for a desired image quality. The algorithm is not lossless, as the
+    exact source sample values are typically not preserved through the encoding and
+    decoding processes. A number of techniques are defined that may be used to achieve
+    highly efficient compression. The expected encoding algorithm (not specified in
+    ISO/IEC 14496-10:2003) selects between inter and intra coding for block-shaped
+    regions of each picture. Inter coding uses motion vectors for block-based inter
+    prediction to exploit temporal statistical dependencies between different pictures.
+    Intra coding uses various spatial prediction modes to exploit spatial statistical
+    dependencies in the source signal for a single picture. Motion vectors and intra
+    prediction modes may be specified for a variety of block sizes in the picture.
+    The prediction residual is then further compressed using a transform to remove
+    spatial correlation inside the transform block before it is quantised, producing
+    an irreversible process that typically discards less important visual information
+    while forming a close approximation to the source samples. Finally, the motion
+    vectors or intra prediction modes are combined with the quantised transform coefficient
+    information and encoded using either variable length codes or arithmetic coding.</p><p>Annexes
+    A through E contain normative requirements and are an integral part of ISO/IEC
+    14496-10:2003. Annex A defines three profiles (Baseline, Main and Extended), each
+    being tailored to certain application domains, and defines the levels of capability
+    within each profile. Annex B specifies syntax and semantics of a byte stream format
+    for delivery of coded video as an ordered stream of bytes or bits. Annex C specifies
+    the Hypothetical Reference Decoder and its use to check bitstream and decoder
+    conformance. Annex D specifies syntax and semantics for Supplemental Enhancement
+    Information message payloads. Annex E specifies syntax and semantics of the Video
+    Usability Information parameters of the sequence parameter sets of coded video
+    sequences.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: REVISED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2003'
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 29
+    number: 1
+    type: technicalCommittee
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: '14496'
+  part: '10'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:B

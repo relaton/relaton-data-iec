@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC29160-2012
 title:
-- content: Information technology -- Radio frequency identification for item management
-    -- RFID Emblem
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Radio frequency identification for item management
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Radio frequency identification for item management
-    -- RFID Emblem
+- content: RFID Emblem
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Radio frequency identification for item management
+    - RFID Emblem
   language:
   - en
   script:
@@ -81,18 +94,35 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 29160:2012 specifies the design and use of the RFID Emblem: an
-    easily identified visual guide that indicates the presence of radio frequency
+- content: "<p>ISO/IEC 29160:2012 specifies the design and use of the RFID Emblem:
+    an easily identified visual guide that indicates the presence of radio frequency
     identification (RFID). It does not address location of the RFID Emblem on a label.
-    Specific placement requirements are left to application standards developers.It
+    Specific placement requirements are left to application standards developers.</p><p>It
     also specifies an RFID Index, which can be included in the RFID Emblem and which
     addresses the complication added by the wide range of RFID tags (frequency, protocol
     and data structure). The RFID Index is a two-character code that provides specific
     information about compliant tags and interrogators. Successful reading of RFID
     tags requires knowledge of the frequency, protocol and data structure information
-    provided by the RFID Index.'
+    provided by the RFID Index.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 29160:2012 définit la conception et l'utilisation de l'Emblème
+    RFID: un guide visuel facilement identifiable qui indique la présence de l'identification
+    par radiofréquence (RFID). Elle n'aborde pas la position de l'Emblème RFID sur
+    les étiquettes. La définition d'exigences spécifiques de placement incombe aux
+    développeurs de normes d'application.</p><p>L'ISO/CEI 29160:2012 définit également
+    un Index RFID, qui peut être inclus dans l'Emblème RFID et qui s'intéresse à la
+    complexité engendrée par la grande diversité des étiquettes électroniques RFID
+    (fréquence, protocole et structure de données). L'Index RFID est un code à deux
+    caractères qui fournit des informations spécifiques sur les étiquettes électroniques
+    et les interrogateurs conformes. Pour parvenir à lire une étiquette électronique
+    RFID, il faut connaître les informations de fréquence, de protocole et de structure
+    de données fournies par l'Index RFID correspondant.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -129,4 +159,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

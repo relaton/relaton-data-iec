@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC15962-2013
 title:
-- content: 'Information technology -- Radio frequency identification (RFID) for item
-    management -- Data protocol: data encoding rules and logical memory functions'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Radio frequency identification (RFID) for item management
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Radio frequency identification (RFID) for item
-    management -- Data protocol: data encoding rules and logical memory functions'
+- content: 'Data protocol: data encoding rules and logical memory functions'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Radio frequency identification (RFID) for item
+    management - Data protocol: data encoding rules and logical memory functions'
   language:
   - en
   script:
@@ -62,25 +75,19 @@ language:
 script:
 - Latn
 abstract:
-- content: "The data protocol used to exchange information in a radio frequency identification
-    (RFID) system for item management is specified in ISO/IEC 15961 and in ISO/IEC
-    15962:2013. Both International Standards are required for a complete understanding
-    of the data protocol in its entirety; but each focuses on one particular interface:<br
-    />\r\n\tISO/IEC 15961 addresses the interface with the application system.<br
-    />\r\n\tISO/IEC 15962:2013 deals with the processing of data and its presentation
-    to the RF tag, and the initial processing of data captured from the RF tag.<br
-    /><br /><br /><br />\r\nISO/IEC 15962:2013 focuses on encoding the transfer syntax,
-    as defined in ISO/IEC 15961 according to the application commands defined in ISO/IEC
-    15961. The encodation is in a Logical Memory as a software analogue of the physical
-    memory of the RFID tag being addressed by the interrogator.<br /><br />\r\nISO/IEC
-    15962:2013<br />\r\n\tdefines the encoded structure of object identifiers;<br
-    />\r\n\tspecifies the data compaction rules that apply to the encoded data;<br
-    />\r\n\tspecifies a Precursor for encoding syntax features efficiently;<br />\r\n\tspecifies
-    formatting rules for the data, e.g. depending on whether a directory is used or
-    not;<br />\r\n\tdefines how application commands, e.g. to lock data, are transferred
-    to the Tag Driver;<br />\r\n\tspecifies processes associated with sensory information
-    and the transfers to the Tag Driver;<br />\r\n\tdefines other communication to
-    the application.<br /><br />"
+- content: |-
+    <p>The data protocol used to exchange information in a radio frequency identification (RFID) system for item management is specified in ISO/IEC 15961 and in ISO/IEC 15962:2013. Both International Standards are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:</p>
+
+    ISO/IEC 15961 addresses the interface with the application system.
+    ISO/IEC 15962:2013 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.<p>ISO/IEC 15962:2013 focuses on encoding the transfer syntax, as defined in ISO/IEC 15961 according to the application commands defined in ISO/IEC 15961. The encodation is in a Logical Memory as a software analogue of the physical memory of the RFID tag being addressed by the interrogator.</p><p>ISO/IEC 15962:2013</p>
+
+    defines the encoded structure of object identifiers;
+    specifies the data compaction rules that apply to the encoded data;
+    specifies a Precursor for encoding syntax features efficiently;
+    specifies formatting rules for the data, e.g. depending on whether a directory is used or not;
+    defines how application commands, e.g. to lock data, are transferred to the Tag Driver;
+    specifies processes associated with sensory information and the transfers to the Tag Driver;
+    defines other communication to the application.
   language:
   - en
   script:

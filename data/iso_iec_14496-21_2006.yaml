@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC14496-21-2006
 title:
-- content: 'Information technology -- Coding of audio-visual objects -- Part 21: MPEG-J
-    Graphics Framework eXtensions (GFX)'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Coding of audio-visual objects
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Coding of audio-visual objects -- Part 21: MPEG-J
+- content: 'Part 21: MPEG-J Graphics Framework eXtensions (GFX)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Coding of audio-visual objects - Part 21: MPEG-J
     Graphics Framework eXtensions (GFX)'
   language:
   - en
@@ -58,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 14496-21:2006 describes a lightweight programmatic environment
+- content: "<p>ISO/IEC 14496-21:2006 describes a lightweight programmatic environment
     for advanced interactive multi-media applications. Designed for limited resources
     devices such as mobile phones, Graphics Framework eXtenstions (GFX) offer a framework
     that marries a subset of the MPEG standard Java application environment (MPEG-J)
@@ -66,19 +79,19 @@ abstract:
     from a selected profile. The framework enables developers to create applications
     that combine MPEG audio and video streams, with 3D graphics rendering and user
     interaction. Applications can use advanced special effects in the graphics presentation
-    such as mapping video as a texture.<br /><br />\r\nGFX applications, also called
-    MPEGlets, follow the well-known design of MIDlets on J2ME platforms and reuse
-    familiar media APIs from these platforms such as JSR-135 Mobile Media API. On
-    the rendering side, GFX provides a pluggable renderer architecture that allows
-    use of renderers such as Java bindings to OpenGL ES (JSR-239) or Mobile 3D Graphics
+    such as mapping video as a texture.</p><p>GFX applications, also called MPEGlets,
+    follow the well-known design of MIDlets on J2ME platforms and reuse familiar media
+    APIs from these platforms such as JSR-135 Mobile Media API. On the rendering side,
+    GFX provides a pluggable renderer architecture that allows use of renderers such
+    as<em>Java bindings to OpenGL ES</em> (JSR-239) or<em>Mobile 3D Graphics</em>
     (JSR-184). By allowing choice of low-level rendering APIs, developers are free
     to design optimized rendering algorithms for the needs of their applications and
     use dedicated application-specific formats for their assets, as do all highly
-    interactive applications.<br /><br />\r\nReusing existing mobile APIs, most Java
-    applications currently used on mobile devices may be easily ported to a system
-    using GFX. A GFX implementation is an ultra-thin layer of several class and interface
-    definitions over standard Java and MPEG-J APIs. When added to any existing Java
-    graphics API, the overhead is minimal."
+    interactive applications.</p><p>Reusing existing mobile APIs, most Java applications
+    currently used on mobile devices may be easily ported to a system using GFX. A
+    GFX implementation is an ultra-thin layer of several class and interface definitions
+    over standard Java and MPEG-J APIs. When added to any existing Java graphics API,
+    the overhead is minimal.</p>"
   language:
   - en
   script:

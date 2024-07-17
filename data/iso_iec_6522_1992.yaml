@@ -2,16 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC6522-1992
 title:
-- content: Information technology -- Programming languages -- PL/1 general purpose
-    subset
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages -- PL/1 general purpose
-    subset
+- content: PL/1 general purpose subset
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages - PL/1 general purpose subset
   language:
   - en
   script:
@@ -58,13 +70,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The language defined is different from those of previous PL/I standards,
+- content: "<p>The language defined is different from those of previous PL/I standards,
     although substantially upward compatible, at the source program and semantic level.
     The differences are summarized in appendix A. Specifies the syntax and semantics
     of conforming PL/I programs. Defines a conforming processor (or conforming implementation)
     only in terms of those conforming programs. The definition is accomplished by
     specifying a conceptual PL/I machine which translates and interprets intended
-    PL/I programs.
+    PL/I programs.</p>"
   language:
   - en
   script:

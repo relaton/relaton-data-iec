@@ -3,7 +3,14 @@ schema-version: v1.2.9
 id: ISO/IEC19831-2015
 title:
 - content: Cloud Infrastructure Management Interface (CIMI) Model and RESTful HTTP-based
-    Protocol -- An Interface for Managing Cloud Infrastructure
+    Protocol
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: An Interface for Managing Cloud Infrastructure
   language:
   - en
   script:
@@ -11,7 +18,7 @@ title:
   format: text/plain
   type: title-main
 - content: Cloud Infrastructure Management Interface (CIMI) Model and RESTful HTTP-based
-    Protocol -- An Interface for Managing Cloud Infrastructure
+    Protocol - An Interface for Managing Cloud Infrastructure
   language:
   - en
   script:
@@ -58,10 +65,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    ISO/IEC 19831:2015 describes the model and protocol for management interactions between a cloud Infrastructure as a Service (IaaS) Provider and the Consumers of an IaaS service. The basic resources of IaaS (machines, storage, and networks) are modeled with the goal of providing Consumer management access to an implementation of IaaS and facilitating portability between cloud implementations that support the specification. This document specifies a Representational State Transfer (REST)-style protocol using HTTP. However, the underlying model is not specific to HTTP, and it is possible to map it to other protocols as well.
-
-    CIMI addresses the management of the lifecycle of infrastructure provided by a Provider. CIMI does not extend beyond infrastructure management to the control of the applications and services that the Consumer chooses to run on the infrastructure provided as a service by the Provider. Although CIMI may be to some extent applicable to other cloud service models, such as Platform as a Service ("PaaS") or Storage as a Service ("SaaS"), these uses are outside the design goals of CIMI.
+- content: <p>ISO/IEC 19831:2015 describes the model and protocol for management interactions
+    between a cloud Infrastructure as a Service (IaaS) Provider and the Consumers
+    of an IaaS service. The basic resources of IaaS (machines, storage, and networks)
+    are modeled with the goal of providing Consumer management access to an implementation
+    of IaaS and facilitating portability between cloud implementations that support
+    the specification. This document specifies a Representational State Transfer (REST)-style
+    protocol using HTTP. However, the underlying model is not specific to HTTP, and
+    it is possible to map it to other protocols as well.</p><p>CIMI addresses the
+    management of the lifecycle of infrastructure provided by a Provider. CIMI does
+    not extend beyond infrastructure management to the control of the applications
+    and services that the Consumer chooses to run on the infrastructure provided as
+    a service by the Provider. Although CIMI may be to some extent applicable to other
+    cloud service models, such as Platform as a Service ("PaaS") or Storage as a Service
+    ("SaaS"), these uses are outside the design goals of CIMI.</p>
   language:
   - en
   script:

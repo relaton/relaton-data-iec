@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC23002-3-2007
 title:
-- content: 'Information technology -- MPEG video technologies -- Part 3: Representation
-    of auxiliary video and supplemental information'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: MPEG video technologies
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- MPEG video technologies -- Part 3: Representation
+- content: 'Part 3: Representation of auxiliary video and supplemental information'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - MPEG video technologies - Part 3: Representation
     of auxiliary video and supplemental information'
   language:
   - en
@@ -58,16 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 23002-3:2007 defines auxiliary video streams as data coded as
-    video sequences and supplementing a primary video sequence. Depth maps and parallax
-    maps are the first specified types of auxiliary video streams, relating to stereoscopic-view
-    video content. In this context, ISO/IEC 23002-3:2007 specifies syntax and semantics
-    for conveying information describing the interpretation of auxiliary video streams.<br
-    /><br />\r\nSyntax for such information is specified in ISO/IEC 23002-3:2007 as
-    a stream of data referred to as a supplemental information (SI) message stream.
-    Provisions for extensibility have been included, so that additional types of data
-    can be defined in future extensions of the current SI message stream syntax by
-    ISO/IEC.<br /><br />\r\nAn SI message stream can contain several concatenated
+- content: "<p>ISO/IEC 23002-3:2007 defines auxiliary video streams as data coded
+    as video sequences and supplementing a primary video sequence. Depth maps and
+    parallax maps are the first specified types of auxiliary video streams, relating
+    to stereoscopic-view video content. In this context, ISO/IEC 23002-3:2007 specifies
+    syntax and semantics for conveying information describing the interpretation of
+    auxiliary video streams.</p><p>Syntax for such information is specified in ISO/IEC
+    23002-3:2007 as a stream of data referred to as a supplemental information (SI)
+    message stream. Provisions for extensibility have been included, so that additional
+    types of data can be defined in future extensions of the current SI message stream
+    syntax by ISO/IEC.</p><p>An SI message stream can contain several concatenated
     SI messages, hence conveying various types of information. The auxiliary video
     SI (AVSI) is the only currently-defined type of SI (other than reserved SI message
     types that are reserved for future specification by ISO/IEC and are to be ignored
@@ -77,12 +90,11 @@ abstract:
     and can provide parameters for the proper interpretation of the auxiliary video
     as such depth information. The means for identifying the primary video stream
     and the auxiliary video stream to which these messages pertain is a system-level
-    issue that is outside the scope of ISO/IEC 23002-3:2007.<br /><br />\r\nAlthough
-    the auxiliary video SI is the only type of SI that is currently specified in ISO/IEC
-    23002-3:2007, the SI message format has been defined in a generic fashion so that
-    it can potentially be used for purposes other than aiding in the interpretation
-    of auxiliary video sequences. Any kind of data could potentially be carried in
-    the SI message format."
+    issue that is outside the scope of ISO/IEC 23002-3:2007.</p><p>Although the auxiliary
+    video SI is the only type of SI that is currently specified in ISO/IEC 23002-3:2007,
+    the SI message format has been defined in a generic fashion so that it can potentially
+    be used for purposes other than aiding in the interpretation of auxiliary video
+    sequences. Any kind of data could potentially be carried in the SI message format.</p>"
   language:
   - en
   script:

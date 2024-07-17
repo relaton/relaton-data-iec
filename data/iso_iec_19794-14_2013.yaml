@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC19794-14-2013
 title:
-- content: 'Information technology -- Biometric data interchange formats -- Part 14:
-    DNA data'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Biometric data interchange formats
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Biometric data interchange formats -- Part 14:
+- content: 'Part 14: DNA data'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Biometric data interchange formats - Part 14:
     DNA data'
   language:
   - en
@@ -62,26 +75,27 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 19794-14:2013 specifies a data interchange format for the exchange
+- content: "<p>ISO/IEC 19794-14:2013 specifies a data interchange format for the exchange
     of DNA data for person identification or verification technologies that utilize
-    human DNA.It will provide the ability for DNA profile data to be exchanged and
-    used for comparison (subject to privacy regulations) with DNA profile data produced
-    by any other system that is based on a compatible DNA profiling technique and
-    where the data format conforms to ISO/IEC 19794-14:2013.ISO/IEC 19794-14:2013
+    human DNA.</p><p>It will provide the ability for DNA profile data to be exchanged
+    and used for comparison (subject to privacy regulations) with DNA profile data
+    produced by any other system that is based on a compatible DNA profiling technique
+    and where the data format conforms to ISO/IEC 19794-14:2013.</p><p>ISO/IEC 19794-14:2013
     is intended to cover current forensic DNA profiling or typing techniques that
     are based on short tandem repeats (STRs), including STRs on the Y chromosome (Y-STRs),
-    as well as mitochondrial DNA.A single DNA data record for a subject may require
-    data resulting from more than one of these different DNA techniques. ISO/IEC 19794-14:2013
-    enables data for multiple DNA techniques to be presented in a single record for
-    a given subject.This data format has been prepared in light of ongoing efforts
-    to reduce human involvement in the processing (enrolment and comparison) of DNA.
-    In anticipation of the data format requirements for automated DNA techniques ISO/IEC
-    19794-14:2013 will describe a format for both processed and raw (electrophoretic)
-    DNA data. Extensible Mark-up Language (XML) encoding of the data is used to specify
-    DNA data interchange. A normative XML Schema Definition (XSD) specification is
-    provided in Annex B.ISO/IEC 19794-14:2013 is not intended for any other purposes
-    than exchange of DNA for biometric verification and identification of individuals;
-    in particular it does not exchange medical and other health-related information.
+    as well as mitochondrial DNA.</p><p>A single DNA data record for a subject may
+    require data resulting from more than one of these different DNA techniques. ISO/IEC
+    19794-14:2013 enables data for multiple DNA techniques to be presented in a single
+    record for a given subject.</p><p>This data format has been prepared in light
+    of ongoing efforts to reduce human involvement in the processing (enrolment and
+    comparison) of DNA. In anticipation of the data format requirements for automated
+    DNA techniques ISO/IEC 19794-14:2013 will describe a format for both processed
+    and raw (electrophoretic) DNA data. Extensible Mark-up Language (XML) encoding
+    of the data is used to specify DNA data interchange. A normative XML Schema Definition
+    (XSD) specification is provided in Annex B.</p><p>ISO/IEC 19794-14:2013 is not
+    intended for any other purposes than exchange of DNA for biometric verification
+    and identification of individuals; in particular it does not exchange medical
+    and other health-related information.</p>"
   language:
   - en
   script:
@@ -121,4 +135,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IECTR24800-1-2007
 title:
-- content: 'Information technology -- JPSearch -- Part 1: System framework and components'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: JPSearch
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPSearch -- Part 1: System framework and components'
+- content: 'Part 1: System framework and components'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPSearch - Part 1: System framework and components'
   language:
   - en
   script:
@@ -60,25 +74,20 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC TR 24800-1:2007 specifies a framework for interoperability for
-    still image search and retrieval and identifies an architecture and the components
-    in this framework, the linkages between components, and which of these components
-    and links are to be standardized in ISO/IEC 24800. ISO/IEC TR 24800-1:2007 specifies
-    the following:Definitions of terms and abbreviations.A review of traditional approaches
-    to image search and from various examples, motivates the importance of the user
-    in the search process, the importance of making explicit the user task and user
-    evaluation, and that meaning in images may be as much added from outside as extracted
-    from the image itself.Real use cases of the various ways searching take place.
-    In particular, there could be multiple entry points into the overall search framework.
-    These include automatic, semi-automatic, and human (user) driven searches.A description
-    of the overall search and management process. This can be considered the requirements
-    specifications for a general search and management architecture. A 4-layer architecture
-    for ISO/IEC 24800 and explicitly identifies the components in the architecture,
-    and their roles and positions in the architecture.The overall structure of ISO/IEC
-    24800 and the purpose of the subsequent sub-parts:ISO/IEC 24800-2: Schema and
-    ontology registration and identificationISO/IEC 24800-3: ISO/IEC 24800 query formatISO/IEC
-    24800-4: Metadata embedded in image data (JPEG-1 and JPEG-2000) file formatISO/IEC
-    24800-5: Data interchange format between image repositories'
+- content: |-
+    <p>ISO/IEC TR 24800-1:2007 specifies a framework for interoperability for still image search and retrieval and identifies an architecture and the components in this framework, the linkages between components, and which of these components and links are to be standardized in ISO/IEC 24800.</p><p>ISO/IEC TR 24800-1:2007 specifies the following:</p>
+
+    Definitions of terms and abbreviations.
+    A review of traditional approaches to image search and from various examples, motivates the importance of the user in the search process, the importance of making explicit the user task and user evaluation, and that meaning in images may be as much added from outside as extracted from the image itself.
+    Real use cases of the various ways searching take place. In particular, there could be multiple entry points into the overall search framework. These include automatic, semi-automatic, and human (user) driven searches.
+    A description of the overall search and management process. This can be considered the requirements specifications for a general search and management architecture.
+    A 4-layer architecture for ISO/IEC 24800 and explicitly identifies the components in the architecture, and their roles and positions in the architecture.
+    The overall structure of ISO/IEC 24800 and the purpose of the subsequent sub-parts:
+
+    ISO/IEC 24800-2: Schema and ontology registration and identification
+    ISO/IEC 24800-3: ISO/IEC 24800 query format
+    ISO/IEC 24800-4: Metadata embedded in image data (JPEG-1 and JPEG-2000) file format
+    ISO/IEC 24800-5: Data interchange format between image repositories
   language:
   - en
   script:
@@ -117,4 +126,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

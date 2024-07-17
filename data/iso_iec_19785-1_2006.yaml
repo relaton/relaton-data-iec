@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC19785-1-2006
 title:
-- content: 'Information technology -- Common Biometric Exchange Formats Framework
-    -- Part 1: Data element specification'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Common Biometric Exchange Formats Framework
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Common Biometric Exchange Formats Framework
-    -- Part 1: Data element specification'
+- content: 'Part 1: Data element specification'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Common Biometric Exchange Formats Framework -
+    Part 1: Data element specification'
   language:
   - en
   script:
@@ -62,22 +75,22 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 19785-1:2006 defines a basic structure for standardized biometric
+- content: "<p>ISO/IEC 19785-1:2006 defines a basic structure for standardized biometric
     information records (BIRs) within the Common Biometric Exchange Formats Framework
     (CBEFF). This structure consists of three parts: the standard biometric header
     (SBH), the biometric data block (BDB), and the security block (SB). CBEFF also
     defines several data elements and their standardized abstract values that can
     be used in SBHs and SBs (CBEFF treats the BDB as opaque data). CBEFF also establishes
-    mechanisms by which organizations, called ''patrons'' by CBEFF, can specify and
-    publish BIR format specifications, which are in turn called ''patron formats''.
+    mechanisms by which organizations, called 'patrons' by CBEFF, can specify and
+    publish BIR format specifications, which are in turn called 'patron formats'.
     CBEFF enables patrons to develop BIR specifications that are fully standardized
     and interoperable, yet are specifically adapted to the requirements of a particular
-    application environment.CBEFF defines rules for BIRs that contain only one BDB
-    (simple BIR) and that contain at least one BDB (complex BIR). CBEFF defines mandatory
-    data elements that identify the format of a BDB and its security attributes (encryption
-    and integrity). All the other CBEFF-defined data elements and abstract values
-    are optional. CBEFF enables patrons to define additional data elements and abstract
-    values as required by the application environment.'
+    application environment.</p><p>CBEFF defines rules for BIRs that contain only
+    one BDB (simple BIR) and that contain at least one BDB (complex BIR). CBEFF defines
+    mandatory data elements that identify the format of a BDB and its security attributes
+    (encryption and integrity). All the other CBEFF-defined data elements and abstract
+    values are optional. CBEFF enables patrons to define additional data elements
+    and abstract values as required by the application environment.</p>"
   language:
   - en
   script:
@@ -117,4 +130,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

@@ -2,15 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IECGUIDE77-2-2008
 title:
-- content: 'Guide for specification of product properties and classes -- Part 2: Technical
-    principles and guidance'
+- content: Guide for specification of product properties and classes
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Guide for specification of product properties and classes -- Part 2: Technical
+- content: 'Part 2: Technical principles and guidance'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Guide for specification of product properties and classes - Part 2: Technical
     principles and guidance'
   language:
   - en
@@ -58,39 +64,22 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC Guide 77 provides general advice and guidance for the description
-    of products and their characteristics by the use of the ISO 13584 and IEC 61360
-    series of standards for the creation of computer-processable reference dictionaries.
-    This description will provide the details of the products and their properties
-    in an unambiguous manner capable of computer communication, in a form that is
-    independent from any proprietary application software.ISO/IEC Guide 77 is intended
-    to assist the objective of enabling the flow of technical information between
-    internal and external business partners in a cost-effective and timely manner.The
-    guidance given in ISO/IEC Guide 77-2:2008 contains technical recommendations intended
-    to assist standardization committees and technical experts contributing their
-    knowledge to the development of standard reference dictionaries compliant with
-    the common ISO 13584/IEC 61360 dictionary model.It might also be useful for information
-    experts responsible for the exchange of technical information between business
-    partners or for the generation of applications of ISO 13584 and IEC 61360.ISO/IEC
-    Guide 77-2:2008 is intended to support the achievement of industrial benefits
-    of applications of the common ISO 13584/IEC 61360 dictionary model. The following
-    are within the scope of ISO/IEC Guide 77-2:2008: general principles of product
-    description and characterization; presentation of the concepts of product characterization
-    classes, product properties, product ontology and reference dictionaries for products;
-    universal identification of classes and properties; presentation of the modelling
-    constructs that can be used for building reference dictionaries conforming to
-    the common ISO 13584/IEC 61360 dictionary model; rules and principles for developing
-    standard reference dictionaries; rules and principles for connecting standard
-    reference dictionaries to avoid duplication and overlap; rules and principles
-    for developing user-defined reference dictionaries and for connecting user-defined
-    reference dictionaries to standard reference dictionaries; formats and mechanisms
-    for exchanging reference dictionaries; mechanisms for connecting reference dictionaries
-    to classification systems.The following are outside the scope of ISO/IEC Guide
-    77-2:2008: an overview for ISO and IEC Technical Committees and industrial managers
-    for the development of computer-processable product libraries, reference dictionaries
-    and catalogues; case studies from experiences in the creation of reference dictionaries
-    of product information in industrial practice; categorization of products for
-    purposes other than product characterization.'
+- content: |-
+    <p>ISO/IEC Guide 77 provides general advice and guidance for the description of products and their characteristics by the use of the ISO 13584 and IEC 61360 series of standards for the creation of computer-processable reference dictionaries. This description will provide the details of the products and their properties in an unambiguous manner capable of computer communication, in a form that is independent from any proprietary application software.</p><p>ISO/IEC Guide 77 is intended to assist the objective of enabling the flow of technical information between internal and external business partners in a cost-effective and timely manner.</p><p>The guidance given in ISO/IEC Guide 77-2:2008 contains technical recommendations intended to assist standardization committees and technical experts contributing their knowledge to the development of standard reference dictionaries compliant with the common ISO 13584/IEC 61360 dictionary model.</p><p>It might also be useful for information experts responsible for the exchange of technical information between business partners or for the generation of applications of ISO 13584 and IEC 61360.</p><p>ISO/IEC Guide 77-2:2008 is intended to support the achievement of industrial benefits of applications of the common ISO 13584/IEC 61360 dictionary model. The following are within the scope of ISO/IEC Guide 77-2:2008:</p>
+
+     general principles of product description and characterization;
+     presentation of the concepts of product characterization classes, product properties, product ontology and reference dictionaries for products;
+     universal identification of classes and properties;
+     presentation of the modelling constructs that can be used for building reference dictionaries conforming to the common ISO 13584/IEC 61360 dictionary model;
+     rules and principles for developing standard reference dictionaries;
+     rules and principles for connecting standard reference dictionaries to avoid duplication and overlap;
+     rules and principles for developing user-defined reference dictionaries and for connecting user-defined reference dictionaries to standard reference dictionaries;
+     formats and mechanisms for exchanging reference dictionaries;
+     mechanisms for connecting reference dictionaries to classification systems.<p>The following are outside the scope of ISO/IEC Guide 77-2:2008:</p>
+
+     an overview for ISO and IEC Technical Committees and industrial managers for the development of computer-processable product libraries, reference dictionaries and catalogues;
+     case studies from experiences in the creation of reference dictionaries of product information in industrial practice;
+     categorization of products for purposes other than product characterization.
   language:
   - en
   script:
@@ -121,10 +110,10 @@ editorialgroup:
   - name: ISO/TMB
     type: technicalCommittee
 ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
 - code: 35.240.50
   text: IT applications in industry
+- code: 25.040.40
+  text: Industrial process measurement and control
 structuredidentifier:
   project_number: GUIDE
   type: IEC

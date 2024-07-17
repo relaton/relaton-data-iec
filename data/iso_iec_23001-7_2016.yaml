@@ -75,11 +75,11 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 23001-7:2016 specifies common encryption formats for use in any
-    file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata
+- content: "<p>ISO/IEC 23001-7:2016 specifies common encryption formats for use in
+    any file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata
     is specified to enable multiple digital rights and key management systems (DRMs)
     to access the same common encrypted file or stream. This part of ISO/IEC 23001
-    does not define a DRM system.<p>The AES-128 symmetric block cipher is incorporated
+    does not define a DRM system.</p><p>The AES-128 symmetric block cipher is incorporated
     by reference to encrypt elementary stream data contained in media samples. Both
     AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate
     protection schemes. Partial encryption using a pattern of encrypted and clear
@@ -90,7 +90,7 @@ abstract:
     streams prior to decryption.</p><p>An XML representation is specified for important
     common encryption information so that it can be included in XML files as standard
     elements and attributes to enable interoperable license and key management prior
-    to media file download.</p>
+    to media file download.</p>"
   language:
   - en
   script:
@@ -130,4 +130,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

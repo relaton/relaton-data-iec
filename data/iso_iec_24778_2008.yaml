@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC24778-2008
 title:
-- content: Information technology -- Automatic identification and data capture techniques
-    -- Aztec Code bar code symbology specification
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Automatic identification and data capture techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Automatic identification and data capture techniques
-    -- Aztec Code bar code symbology specification
+- content: Aztec Code bar code symbology specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Automatic identification and data capture techniques
+    - Aztec Code bar code symbology specification
   language:
   - en
   script:
@@ -33,6 +46,8 @@ docid:
 date:
 - type: published
   value: '2008-02-11'
+- type: obsoleted
+  value: '2024-04-09'
 contributor:
 - organization:
     name:
@@ -58,18 +73,18 @@ language:
 script:
 - Latn
 abstract:
-- content: Aztec Code is a two-dimensional matrix symbology whose symbols are nominally
-    square, made up of square modules on a square grid, with a square bullseye pattern
-    at their centre. Aztec Code symbols can encode from small to large amounts of
-    data with user-selected percentages of error correction.Manufacturers of bar code
-    equipment and users of the technology require publicly available standard symbology
-    specifications to which they can refer when developing equipment and application
-    standards. The publication of standardized symbology specifications is designed
-    to achieve this.ISO/IEC 24778:2008 defines the requirements for the Aztec Code
-    symbology. It specifies the Aztec Code symbology characteristics including data
-    character encodation, rules for error control encoding, the graphical symbol structure,
-    symbol dimensions and print quality requirements, a reference decoding algorithm,
-    and user-selectable application parameters.
+- content: "<p>Aztec Code is a two-dimensional matrix symbology whose symbols are
+    nominally square, made up of square modules on a square grid, with a square bullseye
+    pattern at their centre. Aztec Code symbols can encode from small to large amounts
+    of data with user-selected percentages of error correction.</p><p>Manufacturers
+    of bar code equipment and users of the technology require publicly available standard
+    symbology specifications to which they can refer when developing equipment and
+    application standards. The publication of standardized symbology specifications
+    is designed to achieve this.</p><p>ISO/IEC 24778:2008 defines the requirements
+    for the Aztec Code symbology. It specifies the Aztec Code symbology characteristics
+    including data character encodation, rules for error control encoding, the graphical
+    symbol structure, symbol dimensions and print quality requirements, a reference
+    decoding algorithm, and user-selectable application parameters.</p>"
   language:
   - en
   script:
@@ -108,4 +123,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

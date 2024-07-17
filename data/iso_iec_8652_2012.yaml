@@ -2,14 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC8652-2012
 title:
-- content: Information technology -- Programming languages -- Ada
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Programming languages -- Ada
+- content: Ada
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Programming languages - Ada
   language:
   - en
   script:
@@ -60,33 +74,32 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 8652:2012 specifies the form and meaning of programs written in
-    the programming language Ada. Its purpose is to promote the portability of Ada
-    programs to a variety of computing systems.<br /><br />\r\nThis third edition
-    of ISO/IEC 8652 focuses on improvements in those user domains where safety and
-    criticality are prime concerns. It enhances the functionality of containers, improves
-    the ability to write and enforce contracts for Ada entities (for instance, via
-    preconditions), and adds to the capabilities of Ada to perform on multicore and
-    multithreaded architectures.<br /><br />\r\nAda is designed to support the construction
-    of long‐lived, highly reliable software systems. The language includes facilities
-    to define packages of related types, objects, and operations. The packages may
-    be parameterized and the types may be extended to support the construction of
-    libraries of reusable, adaptable software components. The operations may be implemented
-    as subprograms using conventional sequential control structures, or as entries
-    that include synchronization of concurrent threads of control as part of their
-    invocation. Ada supports object‐oriented programming by providing classes and
-    interfaces, inheritance, polymorphism of variables and methods, and generic units.
-    The language treats modularity in the physical sense as well, with a facility
-    to support separate compilation.<br /><br />\r\nThe language provides rich support
-    for real‐time, concurrent programming, and includes facilities for multicore and
-    multiprocessor programming. Errors can be signaled as exceptions and handled explicitly.
-    The language also covers systems programming; this requires precise control over
-    the representation of data and access to system‐dependent properties. Finally,
-    a predefined environment of standard packages is provided, including facilities
-    for, among others, input‐output, string manipulation, numeric elementary functions,
-    random number generation, and definition and use of containers.<br /><br />\r\nForemost
+- content: "<p>ISO/IEC 8652:2012 specifies the form and meaning of programs written
+    in the programming language Ada. Its purpose is to promote the portability of
+    Ada programs to a variety of computing systems.</p><p>This third edition of ISO/IEC
+    8652 focuses on improvements in those user domains where safety and criticality
+    are prime concerns. It enhances the functionality of containers, improves the
+    ability to write and enforce contracts for Ada entities (for instance, via preconditions),
+    and adds to the capabilities of Ada to perform on multicore and multithreaded
+    architectures.</p><p>Ada is designed to support the construction of long‐lived,
+    highly reliable software systems. The language includes facilities to define packages
+    of related types, objects, and operations. The packages may be parameterized and
+    the types may be extended to support the construction of libraries of reusable,
+    adaptable software components. The operations may be implemented as subprograms
+    using conventional sequential control structures, or as entries that include synchronization
+    of concurrent threads of control as part of their invocation. Ada supports object‐oriented
+    programming by providing classes and interfaces, inheritance, polymorphism of
+    variables and methods, and generic units. The language treats modularity in the
+    physical sense as well, with a facility to support separate compilation.</p><p>The
+    language provides rich support for real‐time, concurrent programming, and includes
+    facilities for multicore and multiprocessor programming. Errors can be signaled
+    as exceptions and handled explicitly. The language also covers systems programming;
+    this requires precise control over the representation of data and access to system‐dependent
+    properties. Finally, a predefined environment of standard packages is provided,
+    including facilities for, among others, input‐output, string manipulation, numeric
+    elementary functions, random number generation, and definition and use of containers.</p><p>Foremost
     in the design of Ada is the intent to increase the reliability of programs by
-    compiletime checking and rejection of unsafe programs."
+    compiletime checking and rejection of unsafe programs.</p>"
   language:
   - en
   script:
@@ -125,4 +138,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

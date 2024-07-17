@@ -75,36 +75,36 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 20248:2018 is an ISO/IEC 9594‑8 (Public Key Infrastructure: digital
-    signatures and certificates) application specification for automated identification
+- content: "<p>ISO/IEC 20248:2018 is an ISO/IEC 9594‑8 (Public Key Infrastructure:
+    digital signatures and certificates) application specification for automated identification
     services. It specifies a method whereby data stored within a barcode and/or RFID
     tag are structured, encoded and digitally signed. ISO/IEC 9594‑8 is used to provide
     a standard method for key and data description management and distribution. It
     is worth noting that the data capacity and/or data transfer capacity of Automated
     Identification Data Carriers are restricted. This restricts the normal use of
     a Digital Signature as specified in ISO/IEC 9594‑8 within automated identification
-    services.<br />\r\nThe purpose of this document is to provide an open and interoperable
+    services.</p><p>The purpose of this document is to provide an open and interoperable
     method, between automated identification services and data carriers, to read data,
-    verify data originality and data integrity in an offline use case.<br />\r\nISO/IEC
-    20248:2018 specifies<br />\r\n- the meta data structure, the DigSig, which contains
-    the Digital Signature and encoded structured data,<br />\r\n- the public key certificate
+    verify data originality and data integrity in an offline use case.</p><p>ISO/IEC
+    20248:2018 specifies</p><p>- the meta data structure, the DigSig, which contains
+    the Digital Signature and encoded structured data,</p><p>- the public key certificate
     parameter and extension use, the DigSig Certificate, which contains the certified
     associated public key, the structured data description, the read methods and private
-    containers,<br />\r\n- the method to specify, read, describe, sign, verify, encode
-    and decode the structured data, the DigSig Data Description,<br />\r\n- the DigSig
+    containers,</p><p>- the method to specify, read, describe, sign, verify, encode
+    and decode the structured data, the DigSig Data Description,</p><p>- the DigSig
     EncoderGenerator which generates the relevant asymmetric key pairs, keeps the
-    Private Key secret and generates the DigSigs, and<br />\r\n- the DigSig DecoderVerifier
+    Private Key secret and generates the DigSigs, and</p><p>- the DigSig DecoderVerifier
     which, by using to the DigSig Certificate, reads the DigSig from the set of Data
-    Carriers, verifies the DigSig and extracts the structured data from the DigSig.<br
-    />\r\nA successful verification of the DigSig signifies the following:<br />\r\n-
-    the data was not tampered with;<br />\r\n- the source of the data is as indicated
-    on the DigSig Certificate used to verify the DigSig with;<br />\r\n- if a secured
-    identifier of the data carrier is included in the DigSig it contains, then the
-    data stored on the data carrier can be considered as the original issued copy
-    of the data; the secure identifier will be able to guarantee that the data carrier
-    is authentic.<br />\r\nISO/IEC 20248:2018 does not specify<br />\r\n- cryptographic
-    methods, nor<br />\r\n- key management methods.<br />\r\nISO/IEC 20248:2018 is
-    used in conjunction with standard risk assessments of the use environment."
+    Carriers, verifies the DigSig and extracts the structured data from the DigSig.</p><p>A
+    successful verification of the DigSig signifies the following:</p><p>- the data
+    was not tampered with;</p><p>- the source of the data is as indicated on the DigSig
+    Certificate used to verify the DigSig with;</p><p>- if a secured identifier of
+    the data carrier is included in the DigSig it contains, then the data stored on
+    the data carrier can be considered as the original issued copy of the data; the
+    secure identifier will be able to guarantee that the data carrier is authentic.</p><p>ISO/IEC
+    20248:2018 does not specify</p><p>- cryptographic methods, nor</p><p>- key management
+    methods.</p><p>ISO/IEC 20248:2018 is used in conjunction with standard risk assessments
+    of the use environment.</p>"
   language:
   - en
   script:

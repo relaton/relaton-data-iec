@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC14169-1995
 title:
-- content: Information technology -- 90 mm flexible disk cartridges -- 21 MBytes formatted
-    capacity -- ISO Type 305
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 90 mm flexible disk cartridges
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- 90 mm flexible disk cartridges -- 21 MBytes formatted
+- content: 21 MBytes formatted capacity -- ISO Type 305
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - 90 mm flexible disk cartridges - 21 MBytes formatted
     capacity -- ISO Type 305
   language:
   - en
@@ -62,12 +75,12 @@ language:
 script:
 - Latn
 abstract:
-- content: Specifies the mechanical, physical and magnetical characteristics of the
-    cartridge, so as to provide physical interchangeability between data processing
+- content: "<p>Specifies the mechanical, physical and magnetical characteristics of
+    the cartridge, so as to provide physical interchangeability between data processing
     systems. It also specifies the method of recording, the quality of recorded signals,
     the track layouts and the track formats. Such flexible disk cartridges are identified
     as ISO type 305. Together with a standard for volume and file structure, for instance
-    ISO/IEC 9293, it allows full data interchange between data processing systems.
+    ISO/IEC 9293, it allows full data interchange between data processing systems.</p>"
   language:
   - en
   script:
@@ -106,4 +119,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

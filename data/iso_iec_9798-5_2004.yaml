@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC9798-5-2004
 title:
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 5: Mechanisms using zero-knowledge techniques'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Security techniques -- Entity authentication
-    -- Part 5: Mechanisms using zero-knowledge techniques'
+- content: 'Entity authentication -- Part 5: Mechanisms using zero-knowledge techniques'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Security techniques - Entity authentication --
+    Part 5: Mechanisms using zero-knowledge techniques'
   language:
   - en
   script:
@@ -62,19 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 9798-5:2004 specifies authentication mechanisms in the form of
-    exchange of information between a claimant and a verifier.<br /><br />\r\nIn accordance
-    with the types of calculations that need to be performed by a claimant and the
-    verifier (see Annex C), the mechanisms specified in ISO/IEC 9798-5:2004 can be
-    classified into four main groups.<br />\r\nThe first group is characterized by
-    the performance of short modular exponentiations. The challenge size needs to
-    be optimized since it has a proportional impact on workloads.<br />\r\nThe second
-    group is characterized by the possibility of a \"coupon\" strategy for the claimant.
-    A verifier can authenticate a claimant without computational power. The challenge
-    size has no impact on workloads.<br />\r\nThe third group is characterized by
-    the possibility of a \"coupon\" strategy for the verifier. A verifier without
-    computational power can authenticate a claimant. The challenge size has no impact
-    on workloads.<br />\r\nThe fourth group has no possibility of a \"coupon\" strategy."
+- content: |-
+    <p>ISO/IEC 9798-5:2004 specifies authentication mechanisms in the form of exchange of information between a claimant and a verifier.</p><p>In accordance with the types of calculations that need to be performed by a claimant and the verifier (see Annex C), the mechanisms specified in ISO/IEC 9798-5:2004 can be classified into four main groups.</p>
+    The first group is characterized by the performance of short modular exponentiations. The challenge size needs to be optimized since it has a proportional impact on workloads.The second group is characterized by the possibility of a "coupon" strategy for the claimant. A verifier can authenticate a claimant without computational power. The challenge size has no impact on workloads.The third group is characterized by the possibility of a "coupon" strategy for the verifier. A verifier without computational power can authenticate a claimant. The challenge size has no impact on workloads.The fourth group has no possibility of a "coupon" strategy.
   language:
   - en
   script:
@@ -114,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

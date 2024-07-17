@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC11577-1995
 title:
-- content: Information technology -- Open Systems Interconnection -- Network layer
-    security protocol
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open Systems Interconnection
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Open Systems Interconnection -- Network layer
-    security protocol
+- content: Network layer security protocol
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Open Systems Interconnection - Network layer security
+    protocol
   language:
   - en
   script:
@@ -77,12 +90,51 @@ language:
 script:
 - Latn
 abstract:
-- content: Specifies a protocol to be used by End Systems and Intermediate Systems
+- content: "<p>Specifies a protocol to be used by End Systems and Intermediate Systems
     in order to provide security services in the Network layer, which is defined by
     CCITT Rec. X.213, ISO/IEC 8348 and ISO 8648. The protocol defined herein is called
-    the Network Layer Security Protocol (NLSP).
+    the Network Layer Security Protocol (NLSP).</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "La présente Recommandation de l'UIT-T | Norme internationale spécifie
+    un protocole qui doit être utilisé par les systèmes d'extrémité et les systèmes
+    intermédiaires pour assurer des services de sécurité dans la couche réseau définie
+    par la Rec. X.213 du CCITT | ISO 8348 ainsi que par ISO 8348 AD2 et ISO 8648.
+    Le protocole défini dans la présente Recommandation de l'UIT-T | Norme internationale
+    est appelé protocole de sécurité de couche réseau (NLSP). La présente Recommandation
+    de l'UIT-T | Norme internationale spécifie: \n1) La mise en oeuvre des services
+    de sécurité suivants définis dans la Rec. X.800 du CCITT | ISO 7498-2: \na) authentification
+    de l'entité homologue; \nb) authentification de l'origine des données; \nc) contrôle
+    d'accès; \nd) confidentialité des données en mode connexion; \ne) confidentialité
+    des données en mode sans connexion; \nf) confidentialité du flux de trafic; \ng)
+    intégrité en mode connexion sans reprise (y compris intégrité des unités de données,
+    dans laquelle l'intégrité de chaque SDU est protégée au cours d'une connexion);
+    \nh) intégrité en mode sans connexion.\n\n\n2) Les caractéristiques fonctionnelles
+    requises pour les applications déclarées conformes à la présente Recommandation
+    de l'UIT-T | Norme internationale. Les procédures du présent protocole sont définies
+    en termes de: \n a) conditions requises pour les techniques cryptographiques qui
+    peuvent être\n utilisées dans une instance de ce protocole; \nb) conditions requises
+    pour les informations acheminées dans l'association de sécurité utilisée dans
+    une instance de communication.<p>Bien que le degré de protection offert par certains
+    mécanismes\n de sécurité dépende de l'utilisation de certaines techniques\n cryptographiques,
+    la mise en oeuvre correcte du présent protocole ne\n dépend pas du choix d'un
+    algorithme de codage ou de décodage particulier.\n Ce choix doit faire l&#x92;objet
+    d&#x92;une décision locale au niveau\n des systèmes de communication.</p><p>En
+    outre, ni le choix ni l&#x92;application d&#x92;une politique de sécurité\n particulière
+    n&#x92;entrent dans le cadre de la présente Recommandation\n de I&#x92;UIT-T |
+    Norme internationale. Il incombe aux autorités locales\n de choisir une politique
+    de sécurité particulière, donc\n le degré de protection qui sera assuré, parmi
+    les systèmes\n qui utilisent une seule instance de communication sûre. La présente\n
+    Recommandation de l'UIT-T | Norme internationale n&#x92;implique nullement que\n
+    demultiples instances de communication sûres faisant intervenir un seul\n système
+    ouvert doivent utiliser le même protocole<br/>\n de sécurité.</p><p>L&#x92;Annexe
+    D décrit le formulaire PICS pour le protocole de sécurité\n de couche réseau conformément
+    aux directives pertinentes données\n dans ISO/CEI 9646-2.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html

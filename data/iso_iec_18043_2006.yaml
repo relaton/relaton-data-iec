@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC18043-2006
 title:
-- content: Information technology -- Security techniques -- Selection, deployment
-    and operations of intrusion detection systems
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Selection, deployment
-    and operations of intrusion detection systems
+- content: Selection, deployment and operations of intrusion detection systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Selection, deployment and
+    operations of intrusion detection systems
   language:
   - en
   script:
@@ -35,6 +48,8 @@ docid:
 date:
 - type: published
   value: '2006-06-19'
+- type: obsoleted
+  value: '2015-02-11'
 contributor:
 - organization:
     name:
@@ -60,20 +75,20 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 18043:2006 provides guidance for an organization that decides
+- content: '<p>ISO/IEC 18043:2006 provides guidance for an organization that decides
     to include an intrusion detection capability within its IT infrastructure. It
     is a "how to" for managers and users who want to: understand the benefits and
     limitations of IDS; develop a strategy and implementation plan for IDS; effectively
     manage the outputs of an IDS; integrate intrusion detection into the organization''s
     security practices; and understand the legal and privacy issues involved in the
-    deployment of IDS. ISO/IEC 18043:2006 provides information that will facilitate
+    deployment of IDS.</p><p>ISO/IEC 18043:2006 provides information that will facilitate
     collaboration among organizations using IDS. The common framework it provides
     will help make it easier for organizations to exchange information about intrusions
-    that cut across organizational boundaries. ISO/IEC 18043:2006 provides a brief
-    overview of the intrusion detection process; discusses what an IDS can and cannot
-    do; provides a checklist that helps identify the best IDS features for a specific
-    IT environment; describes various deployment strategies; provides guidance on
-    managing alerts from IDSs; and discusses management and legal considerations.'
+    that cut across organizational boundaries.</p><p>ISO/IEC 18043:2006 provides a
+    brief overview of the intrusion detection process; discusses what an IDS can and
+    cannot do; provides a checklist that helps identify the best IDS features for
+    a specific IT environment; describes various deployment strategies; provides guidance
+    on managing alerts from IDSs; and discusses management and legal considerations.</p>'
   language:
   - en
   script:
@@ -81,7 +96,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -105,11 +120,11 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.040'
-  text: Information coding
+- code: '35.030'
+  text: IT Security
 structuredidentifier:
   project_number: '18043'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

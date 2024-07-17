@@ -46,7 +46,7 @@ docid:
   type: URN
 date:
 - type: published
-  value: '2017-09-18'
+  value: '2017-09-13'
 contributor:
 - organization:
     name:
@@ -66,54 +66,51 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2017-09-18'
+revdate: '2017-09-13'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    29341-20-14:2017 is compliant with the UPnP Device Architecture version 1.0 [14].
-    It defines a service type referred to herein as ScheduledRecording service.<br
-    />\r\nThe ScheduledRecording service is a UPnP service that allows control points
-    to schedule the recording of content. Generally, this content is broadcast content,
-    but this specification does not limit itself to broadcast content. This service
-    type enables the following functions:<br />\r\n- Create a recordSchedule so that
-    it is added to the list of recordSchedule instances. Each recordSchedule describes
-    user-level recording instructions for the ScheduledRecording service.<br />\r\n-
-    Browse a list of recordSchedule instances stored by the ScheduledRecording service.<br
-    />\r\n- Delete a recordSchedule so that it is removed from the list of recordSchedule
-    instances.<br />\r\n- Browse a list of recordTask instances, stored by the ScheduledRecording
+- content: "<p>ISO/IEC 29341-20-14:2017 is compliant with the UPnP Device Architecture
+    version 1.0 [14]. It defines a service type referred to herein as ScheduledRecording
+    service.</p><p>The ScheduledRecording service is a UPnP service that allows control
+    points to schedule the recording of content. Generally, this content is broadcast
+    content, but this specification does not limit itself to broadcast content. This
+    service type enables the following functions:</p><p>- Create a recordSchedule
+    so that it is added to the list of recordSchedule instances. Each recordSchedule
+    describes user-level recording instructions for the ScheduledRecording service.</p><p>-
+    Browse a list of recordSchedule instances stored by the ScheduledRecording service.</p><p>-
+    Delete a recordSchedule so that it is removed from the list of recordSchedule
+    instances.</p><p>- Browse a list of recordTask instances, stored by the ScheduledRecording
     service. The ScheduledRecording service may create zero or more recordTask instances
     for each recordSchedule. A recordTask represents a discrete recording operation
-    of a recordSchedule.<br />\r\n- Enable or disable individual recordTask instances.<br
-    />\r\n- Enable or disable a recordSchedule.<br />\r\n- Receive notifications i
-    ndicating change of recordSchedule or recordTask list.<br />\r\nThe ScheduledRecording
-    service does not require a dependency on any UPnP services other than a co-located
-    ContentDirectory service, which provides the following functions:<br />\r\n- A
-    ContentDirectory service provides channel line-up to allow users to find recordable
-    channels. A control point may use this metadata when creating a recordSchedule
-    on a ScheduledRecording service.<br />\r\n- A ContentDirectory service may provide
-    Electronic Program Guide (EPG) features to allow users to find recordable content.
-    A control point may use this metadata when creating a recordSchedule on a ScheduledRecording
-    service.<br />\r\n- Contents recorded by the ScheduledRecording service may be
-    exposed by a ContentDirectory service.<br />\r\nThe architectural relationship
-    among the different concepts, defined by the ScheduledRecording service can be
-    summarized as follows: A ScheduledRecording service owns a flat (that is: non-nested)
-    list of recordSchedule instances, meaning that the ScheduledRecording service
-    may create, destroy, or change recordSchedule instances. A recordSchedule represents
-    user-level instructions to perform recording operations. Generally, a user constructs
-    his instructions to a ScheduledRecording service via a control point that invokes
-    UPnP actions that affect the list of recordSchedule instances. In all cases, the
-    ScheduledRecording service shall be able to describe discrete recording operations
-    for a recordSchedule through a list of associated recordTask instances. A recordTask
-    can only exist with a recordSchedule (that is: never orphaned). Thus when a recordTask
-    is created by the ScheduledRecording service, its lifetime depends on its parent
-    recordSchedule. An individual recordTask can be selectively enabled or disabled.<br
-    />\r\nThis service template does not address:<br />\r\nImplementations where the
-    ScheduledRecording service and its associated ContentDirectory service are not
-    co-located in the same device."
+    of a recordSchedule.</p><p>- Enable or disable individual recordTask instances.</p><p>-
+    Enable or disable a recordSchedule.</p><p>- Receive notifications i ndicating
+    change of recordSchedule or recordTask list.</p><p>The ScheduledRecording service
+    does not require a dependency on any UPnP services other than a co-located ContentDirectory
+    service, which provides the following functions:</p><p>- A ContentDirectory service
+    provides channel line-up to allow users to find recordable channels. A control
+    point may use this metadata when creating a recordSchedule on a ScheduledRecording
+    service.</p><p>- A ContentDirectory service may provide Electronic Program Guide
+    (EPG) features to allow users to find recordable content. A control point may
+    use this metadata when creating a recordSchedule on a ScheduledRecording service.</p><p>-
+    Contents recorded by the ScheduledRecording service may be exposed by a ContentDirectory
+    service.</p><p>The architectural relationship among the different concepts, defined
+    by the ScheduledRecording service can be summarized as follows: A ScheduledRecording
+    service owns a flat (that is: non-nested) list of recordSchedule instances, meaning
+    that the ScheduledRecording service may create, destroy, or change recordSchedule
+    instances. A recordSchedule represents user-level instructions to perform recording
+    operations. Generally, a user constructs his instructions to a ScheduledRecording
+    service via a control point that invokes UPnP actions that affect the list of
+    recordSchedule instances. In all cases, the ScheduledRecording service shall be
+    able to describe discrete recording operations for a recordSchedule through a
+    list of associated recordTask instances. A recordTask can only exist with a recordSchedule
+    (that is: never orphaned). Thus when a recordTask is created by the ScheduledRecording
+    service, its lifetime depends on its parent recordSchedule. An individual recordTask
+    can be selectively enabled or disabled.</p><p>This service template does not address:</p><p>Implementations
+    where the ScheduledRecording service and its associated ContentDirectory service
+    are not co-located in the same device.</p>"
   language:
   - en
   script:

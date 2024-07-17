@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR22767-2005
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Using CSTA for SIP phone user agents (uaCSTA)
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- Using CSTA for SIP phone user agents (uaCSTA)
+- content: Using CSTA for SIP phone user agents (uaCSTA)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - Using CSTA for SIP phone user agents (uaCSTA)
   language:
   - en
   script:
@@ -58,23 +71,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO/IEC
-    TR 22767:2005 describes how CSTA can be used to provide a subset of CSTA call
-    control functionality, called first party call control, for Session Initiation
-    Protocol (SIP) user agents. The term uaCSTA (for user agent CSTA) refers to transporting
-    ECMA-323 (CSTA XML) messages over a SIP session.<br />\r\nSIP is a control (signalling)
-    protocol for creating, modifying, and terminating sessions with one or more participants.
-    These sessions include Internet telephone calls, multimedia distribution, and
-    multimedia conferences.<br />\r\nCSTA standardizes a very powerful and flexible
-    set of application services to observe and control voice and non-voice media calls
-    as well as control and observe non-call related features.<br />\r\nuaCSTA leverages
-    SIP mechanisms to provide a highly featured, robust, and extensible set of features
-    to support applications in the Enterprise environment.<br />\r\nuaCSTA can be
-    implemented by several different types of SIP user agents:<br />\r\ndirectly by
-    a SIP user agent on a SIP phone,<br />\r\nuaCSTA can also be implemented by a
-    SIP B2BUA to augment 3PCC functionality, and<br />\r\nby a proxy server that is
-    front-ending a PBX."
+- content: |-
+    <p>ISO/IEC TR 22767:2005 describes how CSTA can be used to provide a subset of CSTA call control functionality, called first party call control, for Session Initiation Protocol (SIP) user agents. The term uaCSTA (for user agent CSTA) refers to transporting ECMA-323 (CSTA XML) messages over a SIP session.</p><p>SIP is a control (signalling) protocol for creating, modifying, and terminating sessions with one or more participants. These sessions include Internet telephone calls, multimedia distribution, and multimedia conferences.</p><p>CSTA standardizes a very powerful and flexible set of application services to observe and control voice and non-voice media calls as well as control and observe non-call related features.</p><p>uaCSTA leverages SIP mechanisms to provide a highly featured, robust, and extensible set of features to support applications in the Enterprise environment.</p><p>uaCSTA can be implemented by several different types of SIP user agents:</p>
+    directly by a SIP user agent on a SIP phone,uaCSTA can also be implemented by a SIP B2BUA to augment 3PCC functionality, andby a proxy server that is front-ending a PBX.
   language:
   - en
   script:

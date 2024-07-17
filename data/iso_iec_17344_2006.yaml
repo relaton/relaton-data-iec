@@ -2,17 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC17344-2006
 title:
-- content: 'Information technology -- Data Interchange on 120 mm and 80 mm Optical
-    Disk using +R Format -- Capacity: 4,7 and 1,46 Gbytes per Side (Recording speed
-    up to 16X)'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Data Interchange on 120 mm and 80 mm Optical Disk using +R Format
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Data Interchange on 120 mm and 80 mm Optical
-    Disk using +R Format -- Capacity: 4,7 and 1,46 Gbytes per Side (Recording speed
+- content: 'Capacity: 4,7 and 1,46 Gbytes per Side (Recording speed up to 16X)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Data Interchange on 120 mm and 80 mm Optical
+    Disk using +R Format - Capacity: 4,7 and 1,46 Gbytes per Side (Recording speed
     up to 16X)'
   language:
   - en
@@ -38,7 +50,7 @@ date:
 - type: stable-until
   value: '2009-06-15'
 - type: obsoleted
-  value: '2009-06-15'
+  value: '2009-06-10'
 contributor:
 - organization:
     name:
@@ -64,25 +76,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 17344:2006 specifies the mechanical, physical and optical characteristics
-    of 120 mm recordable optical disks with capacities of 4,7 Gbytes and 9,4 Gbytes.
-    It specifies the quality of the recorded and unrecorded signals, the format of
-    the data and the recording method, thereby allowing for information interchange
-    by means of such disks. The data can be written once and read many times using
-    a non-reversible method. These disks are identified as +R.ISO/IEC 17344:2006 also
-    specifies 80 mm disks with capacities of 1,46 Gbytes and 2,92 Gbytes. These disks
-    have the same characteristics as the 120 mm disks, except for some parameters
-    related to the smaller dimensions.ISO/IEC 17344:2006 specifies:two related but
-    different Types of this disk;the conditions for conformance;the environments in
-    which the disk is to be tested, operated and stored;the mechanical, physical and
-    dimensional characteristics of the disk, so as to provide mechanical interchange
-    between data processing systems;the format of the information on the disk, including
-    the physical disposition of the tracks and sectors, the error correcting codes
-    and the coding method; andthe characteristics of the signals recorded on the disk,
-    thus enabling data processing systems to read the data from the disk.ISO/IEC 17344:2006
-    provides for the interchange of disks between optical disk drives. Together with
-    a standard for volume and file structure, it provides for full data interchange
-    between data processing systems.
+- content: |-
+    <p>ISO/IEC 17344:2006 specifies the mechanical, physical and optical characteristics of 120 mm recordable optical disks with capacities of 4,7 Gbytes and 9,4 Gbytes. It specifies the quality of the recorded and unrecorded signals, the format of the data and the recording method, thereby allowing for information interchange by means of such disks. The data can be written once and read many times using a non-reversible method. These disks are identified as +R.</p><p>ISO/IEC 17344:2006 also specifies 80 mm disks with capacities of 1,46 Gbytes and 2,92 Gbytes. These disks have the same characteristics as the 120 mm disks, except for some parameters related to the smaller dimensions.</p><p>ISO/IEC 17344:2006 specifies:</p>
+    two related but different Types of this disk;the conditions for conformance;the environments in which the disk is to be tested, operated and stored;the mechanical, physical and dimensional characteristics of the disk, so as to provide mechanical interchange between data processing systems;the format of the information on the disk, including the physical disposition of the tracks and sectors, the error correcting codes and the coding method; andthe characteristics of the signals recorded on the disk, thus enabling data processing systems to read the data from the disk.<p>ISO/IEC 17344:2006 provides for the interchange of disks between optical disk drives. Together with a standard for volume and file structure, it provides for full data interchange between data processing systems.</p>
   language:
   - en
   script:
@@ -121,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

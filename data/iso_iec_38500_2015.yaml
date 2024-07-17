@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC38500-2015
 title:
-- content: Information technology -- Governance of IT for the organization
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Governance of IT for the organization
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Governance of IT for the organization
+- content: Information technology - Governance of IT for the organization
   language:
   - en
   script:
@@ -31,6 +38,8 @@ docid:
 date:
 - type: published
   value: '2015-02-11'
+- type: obsoleted
+  value: '2024-02-23'
 contributor:
 - organization:
     name:
@@ -56,31 +65,18 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 38500:2015 provides guiding principles for members of governing
-    bodies of organizations (which can comprise owners, directors, partners, executive
-    managers, or similar) on the effective, efficient, and acceptable use of information
-    technology (IT) within their organizations. It also provides guidance to those
-    advising, informing, or assisting governing bodies. They include the following:<br
-    />\r\n- executive managers;<br />\r\n- members of groups monitoring the resources
-    within the organization;<br />\r\n- external business or technical specialists,
-    such as legal or accounting specialists, retail or industrial associations, or
-    professional bodies;<br />\r\n- internal and external service providers (including
-    consultants);<br />\r\n- auditors. ISO/IEC 38500:2015 applies to the governance
-    of the organization's current and future use of IT including management processes
-    and decisions related to the current and future use of IT. These processes can
-    be controlled by IT specialists within the organization, external service providers,
-    or business units within the organization. ISO/IEC 38500:2015 defines the governance
-    of IT as a subset or domain of organizational governance, or in the case of a
-    corporation, corporate governance. ISO/IEC 38500:2015 is applicable to all organizations,
-    including public and private companies, government entities, and not-for-profit
-    organizations. ISO/IEC 38500:2015 is applicable to organizations of all sizes
-    from the smallest to the largest, regardless of the extent of their use of IT.
-    The purpose of ISO/IEC 38500:20015 is to promote effective, efficient, and acceptable
-    use of IT in all organizations by<br />\r\n- assuring stakeholders that, if the
-    principles and practices proposed by the standard are followed, they can have
-    confidence in the organization's governance of IT,<br />\r\n- informing and guiding
-    governing bodies in governing the use of IT in their organization, and<br />\r\n-
-    establishing a vocabulary for the governance of IT."
+- content: |-
+    <p>ISO/IEC 38500:2015 provides guiding principles for members of governing bodies of organizations (which can comprise owners, directors, partners, executive managers, or similar) on the effective, efficient, and acceptable use of information technology (IT) within their organizations.</p><p>It also provides guidance to those advising, informing, or assisting governing bodies. They include the following:</p>
+
+    executive managers;
+    members of groups monitoring the resources within the organization;
+    external business or technical specialists, such as legal or accounting specialists, retail or industrial associations, or professional bodies;
+    internal and external service providers (including consultants);
+    auditors.<p>ISO/IEC 38500:2015 applies to the governance of the organization's current and future use of IT including management processes and decisions related to the current and future use of IT. These processes can be controlled by IT specialists within the organization, external service providers, or business units within the organization.</p><p>ISO/IEC 38500:2015 defines the governance of IT as a subset or domain of organizational governance, or in the case of a corporation, corporate governance.</p><p>ISO/IEC 38500:2015 is applicable to all organizations, including public and private companies, government entities, and not-for-profit organizations. ISO/IEC 38500:2015 is applicable to organizations of all sizes from the smallest to the largest, regardless of the extent of their use of IT.</p><p>The purpose of ISO/IEC 38500:20015 is to promote effective, efficient, and acceptable use of IT in all organizations by:</p>
+
+    assuring stakeholders that, if the principles and practices proposed by the standard are followed, they can have confidence in the organization's governance of IT,
+    informing and guiding governing bodies in governing the use of IT in their organization, and
+    establishing a vocabulary for the governance of IT.
   language:
   - en
   script:
@@ -112,8 +108,8 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.080'
-  text: Software
+- code: '35.020'
+  text: Information technology (IT) in general
 structuredidentifier:
   project_number: '38500'
   type: IEC

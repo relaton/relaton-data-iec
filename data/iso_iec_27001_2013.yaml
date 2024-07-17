@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC27001-2013
 title:
-- content: Information technology -- Security techniques -- Information security management
-    systems -- Requirements
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Information security management
+- content: Information security management systems -- Requirements
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Information security management
     systems -- Requirements
   language:
   - en
@@ -66,15 +79,29 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 27001:2013 specifies the requirements for establishing, implementing,
+- content: "<p>ISO/IEC 27001:2013 specifies the requirements for establishing, implementing,
     maintaining and continually improving an information security management system
     within the context of the organization. It also includes requirements for the
     assessment and treatment of information security risks tailored to the needs of
     the organization. The requirements set out in ISO/IEC 27001:2013 are generic and
     are intended to be applicable to all organizations, regardless of type, size or
-    nature.
+    nature.</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 27001:2013 spécifie les exigences relatives à l'établissement,
+    à la mise en &#x9c;uvre, à la mise à jour et à l'amélioration continue d'un système
+    de management de la sécurité de l'information dans le contexte d'une organisation.
+    Elle comporte également des exigences sur l'appréciation et le traitement des
+    risques de sécurité de l'information, adaptées aux besoins de l'organisation.
+    Les exigences fixées dans l'ISO/CEI 27001:2013 sont génériques et prévues pour
+    s'appliquer à toute organisation, quels que soient son type, sa taille et sa nature.
+    Il n'est pas admis qu'une organisation s'affranchisse de l'une des exigences spécifiées
+    aux Articles 4 à 10 lorsqu'elle revendique la conformité à l'ISO/CEI 27001:2013.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -104,10 +131,10 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 03.100.70
-  text: Management systems
 - code: '35.030'
   text: IT Security
+- code: 03.100.70
+  text: Management systems
 structuredidentifier:
   project_number: '27001'
   type: IEC

@@ -2,16 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IECTR19075-1-2011
 title:
-- content: 'Information technology -- Database languages -- SQL Technical Reports
-    -- Part 1: XQuery Regular Expression Support in SQL'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Database languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Database languages -- SQL Technical Reports
-    -- Part 1: XQuery Regular Expression Support in SQL'
+- content: 'SQL Technical Reports -- Part 1: XQuery Regular Expression Support in
+    SQL'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Database languages - SQL Technical Reports --
+    Part 1: XQuery Regular Expression Support in SQL'
   language:
   - en
   script:
@@ -33,6 +47,8 @@ docid:
 date:
 - type: published
   value: '2011-07-06'
+- type: obsoleted
+  value: '2021-08-31'
 contributor:
 - organization:
     name:
@@ -58,15 +74,14 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC TR 19075-1:2011 describes the regular expression support in SQL
-    adopted from the regular expression syntax of XQuery 1.0 and XPath 2.0 Functions
-    and Operators (Second Edition), which is derived from Perl. It discusses five
-    operators using this regular expression syntax:<br /><br />\r\nLIKE_REGEX predicate,
-    to determine the existence of a match to a regular expression.<br />\r\nOCCURRENCES_REGEX
-    numeric function, to determine the number of matches to a regular expression.<br
-    />\r\nPOSITION_REGEX function, to determine the position of a match.<br />\r\nSUBSTRING_REGEX
-    function, to extract a substring matching a regular expression.<br />\r\nTRANSLATE_REGEX
-    function, to perform replacements using a regular expression."
+- content: |-
+    <p>ISO/IEC TR 19075-1:2011 describes the regular expression support in SQL adopted from the regular expression syntax of<em>XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)</em>, which is derived from Perl. It discusses five operators using this regular expression syntax:</p>
+
+    LIKE_REGEX predicate, to determine the existence of a match to a regular expression.
+    OCCURRENCES_REGEX numeric function, to determine the number of matches to a regular expression.
+    POSITION_REGEX function, to determine the position of a match.
+    SUBSTRING_REGEX function, to extract a substring matching a regular expression.
+    TRANSLATE_REGEX function, to perform replacements using a regular expression.
   language:
   - en
   script:
@@ -105,4 +120,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+price_code: iso:B

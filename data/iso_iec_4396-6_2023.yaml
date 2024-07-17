@@ -71,24 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document is a service definition that provides an abstract description
-    of the application programming interface (API) seen by an Application Process
-    using a distributed inter-process communication (IPC) facility (DIF). APIs reflect
-    the specific constraints and conventions of an operating system or programming
-    language. This document does not do that. A service definition specifies the interactions
-    between an Application Process and IPC independent of such specifics.<br />\r\nThe
-    application process may be an IPC process and the member of a (N+1)-DIF. Actual
-    APIs will be system specific (or may not exist at all), but this sequence of interaction
-    will be maintained. The notation here is used to emphasize that the participants
-    can only act on what they see and must not make assumptions about any events that
-    may have occurred elsewhere. Hence the primitives are described in terms of primitives
-    invoked locally to cause an action, submit, and primitives locally invoked to
-    deliver information on state.<br />\r\nThis is not a design for an API. It cannot
+- content: <p class="MsoBodyText">This document is a service definition that provides
+    an abstract description of the application programming interface (API) seen by
+    an Application Process using a distributed inter-process communication (IPC) facility
+    (DIF). APIs reflect the specific constraints and conventions of an operating system
+    or programming language. This document does not do that. A service definition
+    specifies the interactions between an Application Process and IPC independent
+    of such specifics.</p><p class="MsoBodyText">The application process may be an
+    IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific
+    (or may not exist at all), but this sequence of interaction will be maintained.
+    The notation here is used to emphasize that the participants can only act on what
+    they see and must not make assumptions about any events that may have occurred
+    elsewhere. Hence the primitives are described in terms of primitives invoked locally
+    to cause an action, submit, and primitives locally invoked to deliver information
+    on state.</p><p class="MsoBodyText">This is not a design for an API. It cannot
     be as a basis for any conformance tests. An actual API may make some, all or none
     of the parameters noted here visible to the user and may add additional primitives
     of local significance. The purpose of this service definition is to specify information
     that must or may be available by whatever means, explicit or implicit, to drive
-    the operation of the DIF."
+    the operation of the DIF.</p>
   language:
   - en
   script:

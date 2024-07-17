@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC7816-4-2005
 title:
-- content: 'Identification cards -- Integrated circuit cards -- Part 4: Organization,
-    security and commands for interchange'
+- content: Identification cards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Integrated circuit cards
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Identification cards -- Integrated circuit cards -- Part 4: Organization,
+- content: 'Part 4: Organization, security and commands for interchange'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Identification cards - Integrated circuit cards - Part 4: Organization,
     security and commands for interchange'
   language:
   - en
@@ -62,18 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC 7816-4:2005 specifies:contents of command-response pairs exchanged
-    at the interface,means of retrieval of data elements and data objects in the card,structures
-    and contents of historical bytes to describe operating characteristics of the
-    card,structures for applications and data in the card, as seen at the interface
-    when processing commands,access methods to files and data in the card,a security
-    architecture defining access rights to files and data in the card,means and mechanisms
-    for identifying and addressing applications in the card,methods for secure messaging,access
-    methods to the algorithms processed by the card. It does not describe these algorithms.It
-    does not cover the internal implementation within the card or the outside world.ISO/IEC
-    7816-4:2005 is independent from the physical interface technology. It applies
-    to cards accessed by one or more of the following methods: contacts, close coupling,
-    and radio frequency.'
+- content: |-
+    <p>ISO/IEC 7816-4:2005 specifies:</p>
+    contents of command-response pairs exchanged at the interface,means of retrieval of data elements and data objects in the card,structures and contents of historical bytes to describe operating characteristics of the card,structures for applications and data in the card, as seen at the interface when processing commands,access methods to files and data in the card,a security architecture defining access rights to files and data in the card,means and mechanisms for identifying and addressing applications in the card,methods for secure messaging,access methods to the algorithms processed by the card. It does not describe these algorithms.<p>It does not cover the internal implementation within the card or the outside world.</p><p>ISO/IEC 7816-4:2005 is independent from the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling, and radio frequency.</p>
   language:
   - en
   script:
@@ -113,4 +117,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC23001-1-2006
 title:
-- content: 'Information technology -- MPEG systems technologies -- Part 1: Binary
-    MPEG format for XML'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: MPEG systems technologies
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- MPEG systems technologies -- Part 1: Binary
-    MPEG format for XML'
+- content: 'Part 1: Binary MPEG format for XML'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - MPEG systems technologies - Part 1: Binary MPEG
+    format for XML'
   language:
   - en
   script:
@@ -58,30 +71,31 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 23001-1:2006 provides a standardized set of generic technologies
+- content: "<p>ISO/IEC 23001-1:2006 provides a standardized set of generic technologies
     for encoding XML documents. It addresses a broad spectrum of applications and
     requirements by providing generic methods for transmitting and compressing XML
-    documents. ISO/IEC 23001-1:2006 provides a specification which gives rules for
-    the preparation of XML documents for efficient transport and storage, and enables
-    the development of ISO/IEC 23001-1 terminals to receive, decode and assemble possibly
-    partitioned and compressed XML documents. The binary MPEG format for XML relies
-    on schema knowledge between encoder and decoder in order to reach high compression
-    efficiency, while providing fragmentation mechanisms for ensuring transmission
-    and processing flexibility. ISO/IEC 23001-1:2006 also defines means to compile
-    and transmit schema knowledge information to enable the decoding of compressed
-    XML documents without a priori schema knowledge at the receiving terminal. The
-    binary MPEG format for XML is described in four main sections:System Architecture
+    documents.</p><p>ISO/IEC 23001-1:2006 provides a specification which gives rules
+    for the preparation of XML documents for efficient transport and storage, and
+    enables the development of ISO/IEC 23001-1 terminals to receive, decode and assemble
+    possibly partitioned and compressed XML documents.</p><p>The binary MPEG format
+    for XML relies on schema knowledge between encoder and decoder in order to reach
+    high compression efficiency, while providing fragmentation mechanisms for ensuring
+    transmission and processing flexibility. ISO/IEC 23001-1:2006 also defines means
+    to compile and transmit schema knowledge information to enable the decoding of
+    compressed XML documents without a priori schema knowledge at the receiving terminal.</p><p>The
+    binary MPEG format for XML is described in four main sections:</p><em>System Architecture</em>
     presents the architecture of an ISO/IEC 23001-1-compliant terminal and general
-    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour. Binary
-    Format specifies binary syntax and associated semantics of the structural elements.
-    In particular, this section describes the structure of a binary access unit.Binary
-    Fragment Update Payload specifies binary syntax and associated semantics of the
-    payload content. In particular, this section describes the decoding process of
-    complex Type content using finite state automaton decoders. Advanced Optimized
-    Decoders describes the mechanisms for decoding simple types of an XML document
-    using advanced optimised decoders. The binary format for XML described in this
-    specification can be used for encoding MPEG-7 and MPEG-21 descriptions, as specified
-    in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary Format), respectively.
+    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour.<em>Binary
+    Format</em> specifies binary syntax and associated semantics of the structural
+    elements. In particular, this section describes the structure of a binary access
+    unit.<em>Binary Fragment Update Payload</em> specifies binary syntax and associated
+    semantics of the payload content. In particular, this section describes the decoding
+    process of complex Type content using finite state automaton decoders.<em>Advanced
+    Optimized Decoders</em> describes the mechanisms for decoding simple types of
+    an XML document using advanced optimised decoders.<p>The binary format for XML
+    described in this specification can be used for encoding MPEG-7 and MPEG-21 descriptions,
+    as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary
+    Format), respectively.</p>"
   language:
   - en
   script:

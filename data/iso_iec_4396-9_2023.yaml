@@ -71,24 +71,31 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document provides the Error and Flow Control Protocol (EFCP) specification.
-    EFCP provides an inter-process communication (IPC) service to an application process,
-    which can be a (N+1)-IPC process (IPCP), with the requested Quality of Service
-    (QoS). One or more service data units (SDUs) are passed on the (N)-port-id to
-    the (N)-DIF (distributed IPC facility) to be sent to the destination application
-    process. Protocol data units (PDUs) transferred by the (N)-DIF are delivered to
-    the (N)-port-id for the using Application Process. This document describes the
-    placement of EFCP within RINA, the components EFCP consists of, and the mechanisms
-    and policies that are involved in EFCP’s work, and the timers and control mechanisms
-    required to manage the connection.<br />\r\nEFCP comprises two logical components,
-    the data transfer procedures (DTP), providing tightly bound mechanisms and the
-    data transfer control procedures (DTCP), which provides loosely bound mechanisms.<br
-    />\r\nThis document provides:<br />\r\n- the service definition;<br />\r\n- an
-    overview of EFCP;<br />\r\n- a description of the placement of EFCP within recursive
-    internetwork architecture (RINA);<br />\r\n- the common elements of data transfer
-    protocol (DTP) and data transfer control protocol (DTCP);<br />\r\n- DTP structure
-    and functions;<br />\r\n- DTCP structure and functions;<br />\r\n- an informative
-    list of all policies in EFCP."
+- content: '<p class="MsoBodyText">This document provides the Error and Flow Control
+    Protocol (EFCP) specification. EFCP provides an inter-process communication (IPC)
+    service to an application process, which can be a (N+1)-IPC process (IPCP), with
+    the requested Quality of Service (QoS). One or more service data units (SDUs)
+    are passed on the (N)-port-id to the (N)-DIF (distributed IPC facility) to be
+    sent to the destination application process. Protocol data units (PDUs) transferred
+    by the (N)-DIF are delivered to the (N)-port-id for the using Application Process.
+    This document describes the placement of EFCP within RINA, the components EFCP
+    consists of, and the mechanisms and policies that are involved in EFCP’s work,
+    and the timers and control mechanisms required to manage the connection.</p><p
+    class="MsoBodyText">EFCP comprises two logical components, the data transfer procedures
+    (DTP), providing tightly bound mechanisms and the data transfer control procedures
+    (DTCP), which provides loosely bound mechanisms.</p><p class="MsoBodyText">This
+    document provides:</p><p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!--
+    [if!supportLists]-->—<!--[endif]-->the service definition;</p><p class="ListContinue1"
+    style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->an overview
+    of EFCP;</p><p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->a
+    description of the placement of EFCP within recursive internetwork architecture
+    (RINA);</p><p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->the
+    common elements of data transfer protocol (DTP) and data transfer control protocol
+    (DTCP);</p><p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->DTP
+    structure and functions;</p><p class="ListContinue1" style="mso-list: l0 level1
+    lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->DTCP structure and functions;</p><p
+    class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->an
+    informative list of all policies in EFCP.en</p>'
   language:
   - en
   script:

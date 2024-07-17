@@ -77,14 +77,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 27000:2016 the overview of information security management systems,
-    and terms and definitions commonly used in the ISMS family of standards. This
-    International Standard is applicable to all types and sizes of organization (e.g.
-    commercial enterprises, government agencies, not-for-profit organizations).<br
-    /><br />\r\nThe electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) website."
+- content: "<p>ISO/IEC 27000:2016 the overview of information security management
+    systems, and terms and definitions commonly used in the ISMS family of standards.
+    This International Standard is applicable to all types and sizes of organization
+    (e.g. commercial enterprises, government agencies, not-for-profit organizations).</p>"
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>ISO/IEC 27000:2016 offre une vue d'ensemble des systèmes de management
+    de la sécurité de l'information, ainsi que des termes et définitions d'usage courant
+    dans la famille de normes du SMSI. La présente Norme internationale est applicable
+    à tous les types et à toutes les tailles d'organismes (par exemple: les entreprises
+    commerciales, les organismes publics, les organismes à but non lucratif).</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -114,15 +122,15 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-- code: 03.100.70
-  text: Management systems
 - code: '35.030'
   text: IT Security
+- code: 03.100.70
+  text: Management systems
+- code: 01.040.35
+  text: Information technology (Vocabularies)
 structuredidentifier:
   project_number: '27000'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+price_code: iso:B

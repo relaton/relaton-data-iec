@@ -2,14 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC15444-5-2003
 title:
-- content: 'Information technology -- JPEG 2000 image coding system: Reference software'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'JPEG 2000 image coding system: Reference software'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPEG 2000 image coding system: Reference software'
+- content: 'Part 5:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPEG 2000 image coding system: Reference software
+    - Part 5:'
   language:
   - en
   script:
@@ -79,25 +94,34 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 15444-5:2003 provides two independently created software reference
-    implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC
-    15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set
-    of lossless and lossy compression methods for coding continuous-tone, bi-level,
-    greyscale or colour digital still images.<br /><br />\r\nThe reference software
-    is informative only. ISO/IEC 15444-5:2003 does not define any additional part
-    of the JPEG 2000 image coding system.<br /><br />\r\nEach version of the reference
-    software contains source code, which may be compiled to provide the following
-    functionality:<br />\r\ntranscoding from selected, widely available image formats
-    into a JPEG 2000 codestream;<br />\r\ntranscoding from selected, widely available
-    image formats into the JP2 file format;<br />\r\nselection of a wide range of
-    JPEG 2000 encoding options (as documented in each reference software);<br />\r\ndecoding
-    from a JPEG 2000 codestream to a range of selected widely available image formats;<br
-    />\r\npartial processing of a JP2 file to extract a JPEG 2000 codestream for decoding
-    to a range of selected widely available image formats (Note that the reference
-    software does not implement a conforming JP2 file reader.);<br />\r\nsome additional
-    tools to help with evaluation and testing."
+- content: |-
+    <p>ISO/IEC 15444-5:2003 provides two independently created software reference implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC 15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set of lossless and lossy compression methods for coding continuous-tone, bi-level, greyscale or colour digital still images.</p><p>The reference software is informative only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000 image coding system.</p><p>Each version of the reference software contains source code, which may be compiled to provide the following functionality:</p>
+    transcoding from selected, widely available image formats into a JPEG 2000 codestream; transcoding from selected, widely available image formats into the JP2 file format;selection of a wide range of JPEG 2000 encoding options (as documented in each reference software);decoding from a JPEG 2000 codestream to a range of selected widely available image formats;partial processing of a JP2 file to extract a JPEG 2000 codestream for decoding to a range of selected widely available image formats (Note that the reference software does not implement a conforming JP2 file reader.);some additional tools to help with evaluation and testing.
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>L'ISO/CEI 15444-5:2003 contient deux implémentations de référence de
+    l'ISO/CEI 15444-1 sous forme de logiciels créés indépendamment l'un de l'autre,
+    afin d'aider les personnes chargées de l'implémentation de l'ISO/CEI 15444-1 à
+    tester et à comprendre son contenu. L'ISO/CEI 15444-1 définit un ensemble de méthodes
+    de compression sans perte et avec perte pour le codage d'images numériques fixes
+    à modelé continu, monochromes, en échelle de gris ou en couleur.</p><p>Les logiciels
+    de référence ne sont donnés qu'à titre indicatif. L'ISO/CEI 15444-5:2003 ne définit
+    pas d'autres parties du système de codage d'images JPEG 2000.</p><p>Chaque version
+    des logiciels de référence contient un code source, qui peut être compilé pour
+    offrir les fonctionnalités suivantes:</p><p>-- transcodage de formats d'images
+    courants en un flux codé JPEG 2000;</p><p>-- transcodage de formats d'images courants
+    en un format de fichier JP2;</p><p>-- choix d'une large gamme d'options de codage
+    JPEG 2000 (telles qu'indiquées dans chaque logiciel de référence);</p><p>-- décodage
+    d'un flux codé JPEG 2000 en une série de formats d'images courants;</p><p>-- traitement
+    partiel d'un fichier JP2 en vue de l'extraction d'un flux codé JPEG 2000 nécessaire
+    au décodage d'une série de formats d'images courants (noter que les logiciels
+    de référence n'implémentent pas un lecteur de fichier JP2 conforme);</p><p>--
+    d'autres outils permettant de procéder à une évaluation et à des essais.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
@@ -135,4 +159,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+price_code: iso:B

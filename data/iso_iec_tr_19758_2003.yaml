@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR19758-2003
 title:
-- content: Information technology -- Document description and processing languages
-    -- DSSSL library for complex compositions
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Document description and processing languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Document description and processing languages
-    -- DSSSL library for complex compositions
+- content: DSSSL library for complex compositions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Document description and processing languages
+    - DSSSL library for complex compositions
   language:
   - en
   script:
@@ -58,17 +71,9 @@ language:
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC TR 19758:2003 provides a DSSSL (ISO/IEC 10179:1996) library that
-    makes it feasible to describe DSSSL specification for documents described by SGML
-    (ISO 8879:1986) or XML (Extensible Markup Language).The library can deal with
-    some complex compositions programmed by a number of complicated DSSSL specification
-    statements. Those compositions consist of the formatting objects: paper size,
-    paper placement, unit, basic composition style, font, character size, headline,
-    page number, note, inlinenote, emphasizing mark, superscript/subscript, word-length
-    adjustment, character space adjustment, clause, list, table, heading, ruby, paragraph
-    indentation, score, rule, and inline.The DSSSL library contains the simple parameter
-    data and the four files:full parameter generator;function set;page model set;flow
-    object construction rules.Their actual data are specified in ISO/IEC TR 19758:2003.'
+- content: |-
+    <p>ISO/IEC TR 19758:2003 provides a DSSSL (ISO/IEC 10179:1996) library that makes it feasible to describe DSSSL specification for documents described by SGML (ISO 8879:1986) or XML (Extensible Markup Language).</p><p>The library can deal with some complex compositions programmed by a number of complicated DSSSL specification statements. Those compositions consist of the formatting objects: paper size, paper placement, unit, basic composition style, font, character size, headline, page number, note, inlinenote, emphasizing mark, superscript/subscript, word-length adjustment, character space adjustment, clause, list, table, heading, ruby, paragraph indentation, score, rule, and inline.</p><p>The DSSSL library contains the simple parameter data and the four files:</p>
+    full parameter generator;function set;page model set;flow object construction rules.<p>Their actual data are specified in ISO/IEC TR 19758:2003.</p>
   language:
   - en
   script:

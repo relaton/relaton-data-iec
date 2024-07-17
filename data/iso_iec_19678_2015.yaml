@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC19678-2015
 title:
-- content: Information Technology -- BIOS Protection Guidelines
+- content: Information Technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: BIOS Protection Guidelines
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information Technology -- BIOS Protection Guidelines
+- content: Information Technology - BIOS Protection Guidelines
   language:
   - en
   script:
@@ -56,26 +63,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.<br /><br />\r\nISO
-    19678:2015 provides requirements and guidelines for preventing the unauthorized
-    modification of Basic Input/Output System (BIOS) firmware on PC client systems.
-    Unauthorized modification of BIOS firmware by malicious software constitutes a
-    significant threat because of the BIOS's unique and privileged position within
-    the PC architecture. A malicious BIOS modification could be part of a sophisticated,
-    targeted attack on an organization?either a permanent denial of service (if the
-    BIOS is corrupted) or a persistent malware presence (if the BIOS is implanted
-    with malware). As used in this publication, the term BIOS refers to conventional
-    BIOS, Extensible Firmware Interface (EFI) BIOS, and Unified Extensible Firmware
-    Interface (UEFI) BIOS. This International Standard applies to system BIOS firmware
-    (e.g., conventional BIOS or UEFI BIOS) stored in the system flash memory of computer
-    systems, including portions that may be formatted as Option ROMs. However, it
-    does not apply to Option ROMs, UEFI drivers, and firmware stored elsewhere in
-    a computer system. Subclause 7.2 provides platform vendors with requirements for
-    a secure BIOS update process. Additionally, subclause 7.3 provides guidelines
-    for managing the BIOS in an operational environment. While this International
-    Standard focuses on current and future x86 and x64 client platforms, the controls
-    and procedures are independent of any particular system design."
+- content: "<p>ISO 19678:2015 provides requirements and guidelines for preventing
+    the unauthorized modification of<em>Basic Input/Output System (BIOS)</em> firmware
+    on PC client systems. Unauthorized modification of BIOS firmware by malicious
+    software constitutes a significant threat because of the BIOS's unique and privileged
+    position within the PC architecture. A malicious BIOS modification could be part
+    of a sophisticated, targeted attack on an organization?either a permanent denial
+    of service (if the BIOS is corrupted) or a persistent malware presence (if the
+    BIOS is implanted with malware).</p><p>As used in this publication, the term BIOS
+    refers to conventional BIOS,<em>Extensible Firmware Interface (EFI)</em> BIOS,
+    and<em>Unified Extensible Firmware Interface (UEFI)</em>BIOS<em>.</em> This International
+    Standard applies to system BIOS firmware (e.g., conventional BIOS or UEFI BIOS)
+    stored in the system flash memory of computer systems, including portions that
+    may be formatted as Option ROMs. However, it does not apply to Option ROMs, UEFI
+    drivers, and firmware stored elsewhere in a computer system.</p><p>Subclause 7.2
+    provides platform vendors with requirements for a secure BIOS update process.
+    Additionally, subclause 7.3 provides guidelines for managing the BIOS in an operational
+    environment.</p><p>While this International Standard focuses on current and future
+    x86 and x64 client platforms, the controls and procedures are independent of any
+    particular system design.</p>"
   language:
   - en
   script:

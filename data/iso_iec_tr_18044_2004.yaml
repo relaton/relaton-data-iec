@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IECTR18044-2004
 title:
-- content: Information technology -- Security techniques -- Information security incident
-    management
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Security techniques
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Security techniques -- Information security incident
+- content: Information security incident management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Security techniques - Information security incident
     management
   language:
   - en
@@ -33,6 +46,8 @@ docid:
 date:
 - type: published
   value: '2004-10-12'
+- type: obsoleted
+  value: '2011-08-17'
 contributor:
 - organization:
     name:
@@ -58,22 +73,9 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC TR 18044:2004 provides advice and guidance on information security
-    incident management for information security managers and for information system
-    managers. ISO/IEC TR 18044:2004 provides information on the benefits to be obtained
-    from and the key issues associated with a good information security incident management
-    approach (to convince senior corporate management and those personnel who will
-    report to and receive feedback from a scheme that the scheme should be introduced
-    and used); information on examples of information security incidents, and an insight
-    into their possible causes;a description of the planning and documentation required
-    to introduce a good structured information security incident management approach;
-    a description of the information security incident management process*. * Quick,
-    co-ordinated and effective responses to an information security incident require
-    extensive technical and procedural preparations. Information security incident
-    responses may consist of immediate, short- and long-term actions. Any actions
-    undertaken as the response to an incident should be based on previously developed,
-    documented and accepted security incident response procedures and processes, including
-    those for post-response analysis.
+- content: |-
+    <p>ISO/IEC TR 18044:2004 provides advice and guidance on information security incident management for information security managers and for information system managers.</p><p>ISO/IEC TR 18044:2004 provides</p>
+    information on the benefits to be obtained from and the key issues associated with a good information security incident management approach (to convince senior corporate management and those personnel who will report to and receive feedback from a scheme that the scheme should be introduced and used); information on examples of information security incidents, and an insight into their possible causes;a description of the planning and documentation required to introduce a good structured information security incident management approach; a description of the information security incident management process*.<p>* Quick, co-ordinated and effective responses to an information security incident require extensive technical and procedural preparations. Information security incident responses may consist of immediate, short- and long-term actions. Any actions undertaken as the response to an incident should be based on previously developed, documented and accepted security incident response procedures and processes, including those for post-response analysis.</p>
   language:
   - en
   script:
@@ -81,7 +83,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: REPLACED
 copyright:
 - owner:
   - name:
@@ -105,11 +107,11 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.040'
-  text: Information coding
+- code: '35.030'
+  text: IT Security
 structuredidentifier:
   project_number: TR
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

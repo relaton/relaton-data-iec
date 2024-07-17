@@ -2,18 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC/IEEE8802-1AR-2014
 title:
-- content: 'Information technology -- Telecommunications and information exchange
-    between systems -- Local and metropolitan area networks -- Part 1AR: Secure device
-    identity'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Telecommunications and information exchange
-    between systems -- Local and metropolitan area networks -- Part 1AR: Secure device
-    identity'
+- content: 'Local and metropolitan area networks -- Part 1AR: Secure device identity'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Telecommunications and information exchange between
+    systems - Local and metropolitan area networks -- Part 1AR: Secure device identity'
   language:
   - en
   script:
@@ -72,13 +83,12 @@ language:
 script:
 - Latn
 abstract:
-- content: A secure device identifier (DevID) is a cryptographic identity bound to
-    a device used for assertion of the device's identity. ISO/IEC/IEEE 8802-1AR:2014
-    specifies - globally unique per-device identifiers and the management and cryptographic
-    binding of a device to its identifiers, - the relationship between an initially
-    installed identity and subsequent locally significant identities, and - interfaces
-    and methods for use of DevIDs with existing and new provisioning and authentication
-    protocols.
+- content: |-
+    <p>A secure device identifier (DevID) is a cryptographic identity bound to a device used for assertion of the device's identity. ISO/IEC/IEEE 8802-1AR:2014 specifies</p>
+
+    globally unique per-device identifiers and the management and cryptographic binding of a device to its identifiers,
+    the relationship between an initially installed identity and subsequent locally significant identities, and
+    interfaces and methods for use of DevIDs with existing and new provisioning and authentication protocols.
   language:
   - en
   script:
@@ -123,4 +133,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:B

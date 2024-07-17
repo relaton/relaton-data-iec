@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IECTR29166-2011
 title:
-- content: Information technology -- Document description and processing languages
-    -- Guidelines for translation between ISO/IEC 26300 and ISO/IEC 29500 document
-    formats
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Document description and processing languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Document description and processing languages
-    -- Guidelines for translation between ISO/IEC 26300 and ISO/IEC 29500 document
+- content: Guidelines for translation between ISO/IEC 26300 and ISO/IEC 29500 document
+    formats
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Document description and processing languages
+    - Guidelines for translation between ISO/IEC 26300 and ISO/IEC 29500 document
     formats
   language:
   - en
@@ -60,27 +73,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) website.<br /><br />\r\nOASIS
-    Open Document Format ODF 1.0 (ISO/IEC 26300) and Office Open XML (ISO/IEC 29500)
-    are both open document formats for saving and exchanging word processing documents,
-    spreadsheets and presentations. Both formats are XML based but differ in design
-    and scope.<br />\r\nISO/IEC TR 29166:2012 aims at analysing the two International
-    Standards and their underlying concepts in terms of interoperability issues for
-    a selected set of features. It analyses the way these features are implemented
-    in both International Standards and estimates the degree of translatability between
-    them using a table-based comparison. ISO/IEC TR 29166:2012 serves as a preliminary
-    technical translation guideline for evaluating translatability between certain
-    parts of the two International Standards. It does not compare different implementations
-    which can cause additional kinds of interoperability problems.<br />\r\nIt starts
-    by studying common use cases to identify how the most important functionalities
+- content: "<p>OASIS Open Document Format ODF 1.0 (ISO/IEC 26300) and Office Open
+    XML (ISO/IEC 29500) are both open document formats for saving and exchanging word
+    processing documents, spreadsheets and presentations. Both formats are XML based
+    but differ in design and scope.</p><p>ISO/IEC TR 29166:2012 aims at analysing
+    the two International Standards and their underlying concepts in terms of interoperability
+    issues for a selected set of features. It analyses the way these features are
+    implemented in both International Standards and estimates the degree of translatability
+    between them using a table-based comparison. ISO/IEC TR 29166:2012 serves as a
+    preliminary technical translation guideline for evaluating translatability between
+    certain parts of the two International Standards. It does not compare different
+    implementations which can cause additional kinds of interoperability problems.</p><p>It
+    starts by studying common use cases to identify how the most important functionalities
     of one document format can be represented in the other format. This is followed
     by a thorough review of the concepts, architectures and various features of the
     two document formats in order to provide a good understanding of the commonalities
     and differences. It is expected that functionalities will be able to be translated
     with different degrees of fidelity to the other format. As an illustrative sample
     of this functionality, detailed information is provided on the extent to which
-    those functionalities can be translated.<br />\r\nISO/IEC TR 29166:2012 addresses
+    those functionalities can be translated.</p><p>ISO/IEC TR 29166:2012 addresses
     both developers seeking to implement either ISO/IEC 26300 or ISO/IEC 29500 and
     template designers and other power users whose competences cut across the spectrum
     of XML and XML-related technologies which directly or remotely deal with one or
@@ -90,7 +101,7 @@ abstract:
     two formats. ISO/IEC TR 29166:2012 is a necessary step to the goal of helping
     achieve interoperability and harmonization between the two formats. It should
     encourage standards bodies as well as the developers of office suites to translate
-    some of the ideas into future versions of the standards and products."
+    some of the ideas into future versions of the standards and products.</p>"
   language:
   - en
   script:

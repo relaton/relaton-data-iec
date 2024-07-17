@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC15938-1-2002
 title:
-- content: 'Information technology -- Multimedia content description interface --
-    Part 1: Systems'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Multimedia content description interface
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Multimedia content description interface --
-    Part 1: Systems'
+- content: 'Part 1: Systems'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Multimedia content description interface - Part
+    1: Systems'
   language:
   - en
   script:
@@ -57,6 +70,39 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This International Standard defines a Multimedia Content Description
+    Interface, specifying a series of interfaces</p><p>from system to application
+    level to allow disparate systems to interchange information about multimedia content.
+    It</p><p>describes the architecture for systems, a language for extensions and
+    specific applications, description tools in the</p><p>audio and visual domains,
+    as well as tools that are not specific to audio-visual domains.</p><p>This part
+    of ISO/IEC 15938 specifies system level functionalities for the communication
+    of multimedia content</p><p>descriptions. ISO/IEC 15938-1 provides a specification
+    which will:</p><p> enable development of ISO/IEC 15938 receiving sub-systems,
+    called ISO/IEC 15938 Terminal, or Terminal in</p><p>short, to receive and assemble
+    possibly partitioned and compressed multimedia content descriptions</p><p> provide
+    rules for the preparation of multimedia content descriptions consisting of the
+    tools specified in Parts 3,</p><p>4 and 5 of ISO/IEC 15938 for efficient transport
+    and storage.</p><p>The decoding process within the ISO/IEC 15938 Terminal is normative.
+    The rules mentioned provide guidance for</p><p>the preparation and encoding of
+    multimedia content descriptions without leading to a unique encoded</p><p>representation
+    of such descriptions.</p><p>This part of the MPEG-7 Standard is intended to be
+    implemented in conjunction with other parts of the standard. In</p><p>particular,
+    MPEG-7 Part 1: Systems assumes some knowledge of Part 2: Description Definition
+    Language (DDL) in</p><p>its normative syntactic definitions of Descriptors and
+    Description Schemes, as well as in the processing of schema</p><p>and descriptions.
+    The methods for obtaining the descriptions to which the encoding techniques in
+    this part refer are</p><p>defined in Parts 3, 4, and 5 of ISO/IEC 15938.</p><p>MPEG-7
+    is an extensible standard. The standard method of extending the standard beyond
+    the Description</p><p>Schemes provided in the standard is to define new ones in
+    the DDL, and to make those DSs as accessible as the</p><p>instantiated descriptions.
+    Further details are available in Part 2.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED

@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC21000-21-2013
 title:
-- content: 'Information technology -- Multimedia framework (MPEG-21) -- Part 21: Media
-    Contract Ontology'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Multimedia framework (MPEG-21)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Multimedia framework (MPEG-21) -- Part 21: Media
+- content: 'Part 21: Media Contract Ontology'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Multimedia framework (MPEG-21) - Part 21: Media
     Contract Ontology'
   language:
   - en
@@ -62,29 +75,26 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 21000-21:2013 specifies MPEG-21 Media Contract Ontology (MCO).
-    The MCO may be used to represent contracts for content directly or for services
-    on content based on MPEG-21 technologies. This is implemented by using some of
-    the classes and properties defined in ISO/IEC 21000-19 (Media Value Chain Ontology)
-    and by extending its ontology. Media Contract Ontology is able to represent the
-    most common rights in contracts in the media field and the conditions appearing
-    the most in those documents. It is made of a contract core ontology, for implementing
-    the most general entities, and of an extension including specific elements to
-    address the most relevant information found in contracts for permitting the exploitation
-    of intellectual property rights. A mechanism for defining further future extensions
-    is in place. A contract expressed with MCO may provide:<br />\r\n- the identification
-    of the contract itself;<br />\r\n- possible relationships with other contracts;<br
-    />\r\n- the parties;<br />\r\n- a textual version of the contract;<br />\r\n-
-    the object of the contract (content or service);<br />\r\n- the deontic-expression
-    (permissions, obligations, prohibitions), with possible reference to textual clauses.
-    There is support for:<br />\r\n- encryption of the whole contract or any sub-part
-    of it;<br />\r\n- inclusion of metadata to be associated to contract entities,
-    as annotation properties. A document instance created according to MCO specification
-    can be:<br />\r\n- a contract template;<br />\r\n- a contract offer;<br />\r\n-
-    a signed contract (binding the parties). The MCO can also be used for representing:<br
-    />\r\n- exploitation contexts (as deontic expressions);<br />\r\n- rights situation
-    related to specified content or service, also derived from multiple contracts;<br
-    />\r\n- any subset of knowledge about rights on content or service."
+- content: |-
+    <p>ISO/IEC 21000-21:2013 specifies MPEG-21 Media Contract Ontology (MCO).</p><p>The MCO may be used to represent contracts for content directly or for services on content based on MPEG-21 technologies. This is implemented by using some of the classes and properties defined in ISO/IEC 21000-19 (Media Value Chain Ontology) and by extending its ontology.</p><p>Media Contract Ontology is able to represent the most common rights in contracts in the media field and the conditions appearing the most in those documents.</p><p>It is made of a contract core ontology, for implementing the most general entities, and of an extension including specific elements to address the most relevant information found in contracts for permitting the exploitation of intellectual property rights. A mechanism for defining further future extensions is in place.</p><p>A contract expressed with MCO may provide:</p>
+
+    the identification of the contract itself;
+    possible relationships with other contracts;
+    the parties;
+    a textual version of the contract;
+    the object of the contract (content or service);
+    the deontic-expression (permissions, obligations, prohibitions), with possible reference to textual clauses.<p>There is support for:</p>
+
+    encryption of the whole contract or any sub-part of it;
+    inclusion of metadata to be associated to contract entities, as annotation properties.<p>A document instance created according to MCO specification can be:</p>
+
+    a contract template;
+    a contract offer;
+    a signed contract (binding the parties).<p>The MCO can also be used for representing:</p>
+
+    exploitation contexts (as deontic expressions);
+    rights situation related to specified content or service, also derived from multiple contracts;
+    any subset of knowledge about rights on content or service.
   language:
   - en
   script:

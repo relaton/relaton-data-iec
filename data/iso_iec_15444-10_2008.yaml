@@ -2,16 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IEC15444-10-2008
 title:
-- content: 'Information technology -- JPEG 2000 image coding system: Extensions for
-    three-dimensional data'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: 'JPEG 2000 image coding system: Extensions for three-dimensional data'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- JPEG 2000 image coding system: Extensions for
-    three-dimensional data'
+- content: 'Part 10:'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - JPEG 2000 image coding system: Extensions for
+    three-dimensional data - Part 10:'
   language:
   - en
   script:
@@ -36,7 +49,7 @@ date:
 - type: stable-until
   value: '2011-12-15'
 - type: obsoleted
-  value: '2011-12-15'
+  value: '2012-06-01'
 contributor:
 - organization:
     name:
@@ -62,19 +75,14 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 15444-10:2008 defines a set of lossless (bit-preserving) and lossy
-    compression methods for coding continuous-tone, bi-level, grey-scale, colour digital
-    volumetric images, or multi-component volumetric images. This set of methods extends
-    the elements in the core coding system defined in ISO/IEC 15444-1 and ISO/IEC
-    15444-2. Extensions which pertain to encoding and decoding are defined as procedures
-    which may be used in combination with the encoding and decoding processes defined
-    in ISO/IEC 15444-1 and ISO/IEC 15444-2. Each encoding or decoding extension is
-    to be used only in combination with particular coding processes and only in accordance
-    with the requirements set forth herein. ISO/IEC 15444-10:2008 also defines extensions
-    to the compressed data format, i.e. interchange format and the abbreviated formats.In
-    particular, for ISO/IEC 15444-2, the following extensions are supported by ISO/IEC
-    15444-10:2008:variable DC offset;arbitrary wavelet transform kernels;multi-component
-    transformations;non-linear transformations;region-of-interest.
+- content: |-
+    <p>ISO/IEC 15444-10:2008 defines a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital volumetric images, or multi-component volumetric images. This set of methods extends the elements in the core coding system defined in ISO/IEC 15444-1 and ISO/IEC 15444-2. Extensions which pertain to encoding and decoding are defined as procedures which may be used in combination with the encoding and decoding processes defined in ISO/IEC 15444-1 and ISO/IEC 15444-2. Each encoding or decoding extension is to be used only in combination with particular coding processes and only in accordance with the requirements set forth herein. ISO/IEC 15444-10:2008 also defines extensions to the compressed data format, i.e. interchange format and the abbreviated formats.</p><p>In particular, for ISO/IEC 15444-2, the following extensions are supported by ISO/IEC 15444-10:2008:</p>
+
+    variable DC offset;
+    arbitrary wavelet transform kernels;
+    multi-component transformations;
+    non-linear transformations;
+    region-of-interest.
   language:
   - en
   script:
@@ -114,4 +122,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+price_code: iso:B

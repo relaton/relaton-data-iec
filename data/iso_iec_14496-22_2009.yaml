@@ -2,15 +2,28 @@
 schema-version: v1.2.9
 id: ISO/IEC14496-22-2009
 title:
-- content: 'Information technology -- Coding of audio-visual objects -- Part 22: Open
-    Font Format'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Coding of audio-visual objects
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Coding of audio-visual objects -- Part 22: Open
+- content: 'Part 22: Open Font Format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Coding of audio-visual objects - Part 22: Open
     Font Format'
   language:
   - en
@@ -62,40 +75,14 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 14496-22:2009 specifies the Open Font Format (OFF) specification,
-    the TrueType™ and Compact Font Format (CFF) outline formats, and the TrueType
-    hinting language. It makes references to both TrueType and PostScript, as Open
-    Font Format fonts combine the two technologies.<br /><br /><br />\r\nMultimedia
-    applications require a broad range of media-related standards. In addition to
-    the typical audio and video applications, multimedia presentations include scalable
-    2D graphics and text supporting all languages of the world. Faithful reproduction
-    of scalable multimedia content requires additional components including scalable
-    font technology. The Open Font Format is an extension of the TrueType font format,
-    adding support for PostScript font data. OFF fonts and the operating system services
-    which support OFF fonts provide users with a simple way to install and use fonts,
-    whether the fonts contain TrueType outlines or CFF (PostScript) outlines.<br /><br
-    />\r\nThe Open Font Format addresses the following goals:<br /><br />\r\nbroader
-    multi-platform support;<br />\r\nexcellent support for international character
-    sets;<br />\r\nexcellent protection for font data;<br />\r\nsmaller file sizes
-    to make font distribution more efficient;<br />\r\nexcellent support for advanced
-    typographic control.<br /><br /><br />\r\nPostScript® data included in OFF fonts
-    may be directly rasterized or converted to the TrueType outline format for rendering,
-    depending on which rasterizers have been installed in the host operating system.
-    But the user model is the same: OFF fonts just work. Users will not need to be
-    aware of the type of outline data in OFF fonts. And font creators can use whichever
-    outline format they feel provides the best set of features for their work, without
-    worrying about limiting a font's usability.<br /><br />\r\nOFF fonts can include
-    the OFF Layout tables, which allow font creators to design broader international
-    and high-end typographic fonts. The OFF Layout tables contain information on glyph
-    substitution, glyph positioning, justification, and baseline positioning, enabling
-    text-processing applications to improve text layout.<br /><br />\r\nAs with TrueType
-    fonts, OFF fonts allow the handling of large glyph sets using Unicode encoding.
-    Such encoding allows broad international support, as well as support for typographic
-    glyph variants.<br /><br />\r\nAdditionally, OFF fonts may contain digital signatures,
-    which enable operating systems and browsing applications to identify the source
-    and integrity of font files, including embedded font files obtained in web documents,
-    before using them. Also, font developers can encode embedding restrictions in
-    OFF fonts which cannot be altered in a font signed by the developer."
+- content: |-
+    <p>ISO/IEC 14496-22:2009 specifies the Open Font Format (OFF) specification, the TrueType™ and Compact Font Format (CFF) outline formats, and the TrueType hinting language. It makes references to both TrueType and PostScript, as Open Font Format fonts combine the two technologies.</p><p>Multimedia applications require a broad range of media-related standards. In addition to the typical audio and video applications, multimedia presentations include scalable 2D graphics and text supporting all languages of the world. Faithful reproduction of scalable multimedia content requires additional components including scalable font technology. The Open Font Format is an extension of the TrueType font format, adding support for PostScript font data. OFF fonts and the operating system services which support OFF fonts provide users with a simple way to install and use fonts, whether the fonts contain TrueType outlines or CFF (PostScript) outlines.</p><p>The Open Font Format addresses the following goals:</p>
+
+    broader multi-platform support;
+    excellent support for international character sets;
+    excellent protection for font data;
+    smaller file sizes to make font distribution more efficient;
+    excellent support for advanced typographic control.<p>PostScript® data included in OFF fonts may be directly rasterized or converted to the TrueType outline format for rendering, depending on which rasterizers have been installed in the host operating system. But the user model is the same: OFF fonts just work. Users will not need to be aware of the type of outline data in OFF fonts. And font creators can use whichever outline format they feel provides the best set of features for their work, without worrying about limiting a font's usability.</p><p>OFF fonts can include the OFF Layout tables, which allow font creators to design broader international and high-end typographic fonts. The OFF Layout tables contain information on glyph substitution, glyph positioning, justification, and baseline positioning, enabling text-processing applications to improve text layout.</p><p>As with TrueType fonts, OFF fonts allow the handling of large glyph sets using Unicode encoding. Such encoding allows broad international support, as well as support for typographic glyph variants.</p><p>Additionally, OFF fonts may contain digital signatures, which enable operating systems and browsing applications to identify the source and integrity of font files, including embedded font files obtained in web documents, before using them. Also, font developers can encode embedding restrictions in OFF fonts which cannot be altered in a font signed by the developer.</p>
   language:
   - en
   script:
@@ -135,4 +122,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

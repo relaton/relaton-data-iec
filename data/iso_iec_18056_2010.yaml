@@ -2,17 +2,30 @@
 schema-version: v1.2.9
 id: ISO/IEC18056-2010
 title:
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- XML protocol for Computer Supported Telecommunications Applications
-    (CSTA) Phase III
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Telecommunications and information exchange between
-    systems -- XML protocol for Computer Supported Telecommunications Applications
+- content: XML protocol for Computer Supported Telecommunications Applications (CSTA)
+    Phase III
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - XML protocol for Computer Supported Telecommunications Applications
     (CSTA) Phase III
   language:
   - en
@@ -64,13 +77,13 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 18056:2010 specifies an XML protocol for the services defined in
-    ISO/IEC 18051. It provides an alternative protocol to the ASN.1-based protocol
+- content: "<p>ISO/IEC 18056:2010 specifies an XML protocol for the services defined
+    in ISO/IEC 18051. It provides an alternative protocol to the ASN.1-based protocol
     specified in ISO/IEC 18052. In addition to the CSTA-specific protocol details,
     it describes the concepts underlying the request/response model, application association,
     notation and service, and describes the template used in ISO/IEC 18056:2010. It
     also specifies the PICS for ISO/IEC 18056:2010 and provides examples of CSTA XML
-    encodings.
+    encodings.</p>"
   language:
   - en
   script:
@@ -98,7 +111,7 @@ doctype:
   type: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1
+  - name: ISO/IEC JTC 1/SC 6
     number: 1
     type: technicalCommittee
 ics:
@@ -109,4 +122,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+price_code: iso:B

@@ -2,14 +2,21 @@
 schema-version: v1.2.9
 id: ISO/IEC10744-1997
 title:
-- content: Information technology -- Hypermedia/Time-based Structuring Language (HyTime)
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Hypermedia/Time-based Structuring Language (HyTime)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology -- Hypermedia/Time-based Structuring Language (HyTime)
+- content: Information technology - Hypermedia/Time-based Structuring Language (HyTime)
   language:
   - en
   script:
@@ -55,6 +62,55 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This International Standard defines a language and underlying model
+    for the representation of “hyperdocuments” that link and synchronize static and
+    dynamic (time-based) information contained in multiple conventional and multimedia
+    documents and information objects. The language is known as the “Hypermedimime-based
+    Structuring Language”, or “HyTime”.</p><p>HyTime can represent time in both the
+    abstract, or “musical” sense, and in user-defined real-time units. It also provides
+    a way of relating the two so that elements of time-dependent documents can be
+    synchronized.</p><p>NOTE 7 This facility extends to the representation of multimedia
+    information the power, once limited to conventional documents, to distinguish
+    intrinsic information content from style considerations.</p><p>HyTime’s techniques
+    for representing its time model are equally applicable to spatial and other domains;
+    all are treated as systems for measuring along different axes of a coordinate
+    space. Arbitrary cross-references and access paths based on external interactions
+    (“hypermedia links”) are also supported.</p><p>HyTime’s time representation contains
+    sufficient information to derive the durations of both control (“gestural”) data
+    (e.g., control information for audio or video hardware) and visual data (e.g.,
+    a music score, presentation storyboard, or television script).</p><p>The media
+    formats and data notations of objects in a HyTime hyperdocument can include formatted
+    and unformatted documents, audio and video segments, still images, and object-oriented
+    graphics, among others. Users can specify the positions and sizes of occurrences
+    of objects in space and time, using a variety of measurement units and granularities
+    Temporal requirements of applications ranging from animation to project management
+    can be supported by choosing appropriate measurement granules.</p><p>NOTE 8 This
+    International Standard does not address the representation of audio or video content
+    data, but simply defines the means by which the start-time and duration of such
+    data can be synchronized with other digitized information. Nor does it specify
+    the layout process by which occurrences of unformatted documents and other information
+    objects can be made to fit the positions and sizes specified for them.</p><p>HyTime
+    is an enabling standard, not an encompassing one. AS a result, the objects comprising
+    a HyTime hyperdocument are free to conform to any application architectures, or
+    to document architectures imposed by standards, and to be represented in any notation
+    permitted by those architectures Only the “hub document”, which may determine
+    the hyperdocument membership, must conform PO HyTime in addition to any other
+    architectures to which it may conform.</p><p>HyTime is designed for flexibility
+    and extensibility. Optional subsets can be implemented, alone or in conjunction
+    with user-defined extensions.</p><p>The Hypermedia/Time-based Structuring Language
+    (HyTime) is an SGML application conforming to International Standard IS0 8879
+    - Standard Generalized Markup Language.</p><p>The hyperdocument interchange format
+    recommended in this International Standard is IS0 9069, the SGML Document Interchange
+    Format (SDIF). SDIF is defined in Abstract Syntax Notation 1 (ISO/IEC 8824) and
+    can be encoded according to the basic encoding rules of ISOAEC 8825 for interchange
+    using protocols conforming to the Open Systems Interconnection (OSI) model. Other
+    interchange formats can also be used.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED
