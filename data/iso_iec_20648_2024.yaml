@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC20648-2016
+id: ISO/IEC20648-2024
 title:
 - content: Information technology
   language:
@@ -23,22 +23,39 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Spécification TLS pour systèmes de stockage
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Technologies de l'information - Spécification TLS pour systèmes de stockage
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/24307
+- content: https://webstore.iec.ch/publication/98374
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec20648{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 20648:2016
+- id: ISO/IEC 20648:2024
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:20648:2016-03:::'
+- id: 'urn:iec:std:iso-iec:20648:2024-07:::'
   type: URN
 date:
 - type: published
-  value: '2016-03-03'
-- type: obsoleted
   value: '2024-07-17'
 contributor:
 - organization:
@@ -58,25 +75,28 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2016-03-03'
+  content: '2'
+revdate: '2024-07-17'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 20648:2016 details the requirements for use of the Transport
+- content: '<p class="MsoNormal" style="margin-bottom: 12.0pt; text-align: justify;
+    line-height: 11.5pt;">This document details the requirements for use of the Transport
     Layer Security (TLS) protocol in conjunction with data storage technologies. The
-    requirements set out in this specification are intended to facilitate secure interoperability
+    requirements set out in this document are intended to facilitate secure interoperability
     of storage clients and servers as well as non-storage technologies that may have
-    similar interoperability needs.</p><p>ISO/IEC 20648:2016 is relevant to anyone
-    involved in owning, operating or using data storage devices. This includes senior
-    managers, acquirers of storage product and service, and other non-technical managers
-    or users, in addition to managers and administrators who have specific responsibilities
-    for information security and/or storage security, storage operation, or who are
-    responsible for an organization's overall security program and security policy
-    development. It is also relevant to anyone involved in the planning, design and
-    implementation of the architectural aspects of storage security.</p>"
+    similar interoperability needs.</p><p class="MsoNormal" style="margin-bottom:
+    12.0pt; text-align: justify; line-height: 11.5pt;">This document is relevant to
+    anyone involved in owning, operating or using data storage devices. This includes
+    senior managers, acquirers of storage products and service, and other non-technical
+    managers or users, in addition to managers and administrators who have specific
+    responsibilities for information security and/or storage security, storage operation,
+    or who are responsible for an organization’s overall security program and security
+    policy development. It is also relevant to anyone involved in the planning, design
+    and implementation of the architectural aspects of storage security.</p>'
   language:
   - en
   script:
@@ -84,7 +104,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -97,7 +117,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2016'
+  from: '2024'
 place:
 - Geneva
 doctype:
@@ -117,4 +137,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+price_code: iso:C
