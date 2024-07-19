@@ -1,0 +1,199 @@
+---
+schema-version: v1.2.9
+id: IEC61968-9-2024
+title:
+- content: Enterprise business function interfaces for utility operations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 9: Interfaces for meter reading and control'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Enterprise business function interfaces for utility operations - Part
+    9: Interfaces for meter reading and control'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Interfaces de fonctions métier d'entreprise pour l'exploitation des services
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 9: Interfaces pour le relevé et la commande des compteurs'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Interfaces de fonctions métier d''entreprise pour l''exploitation des
+    services - Partie 9: Interfaces pour le relevé et la commande des compteurs'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/75041
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61968-9{ed3.0}b.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61968-9:2024
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61968-9:2024-07:::'
+  type: URN
+date:
+- type: published
+  value: '2024-07-18'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2024-07-18'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61968-9:2024 specifies the information content of a set of message
+    types that can be used to support many of the business functions related to meter
+    reading and control. Typical uses of the message types include meter reading,
+    controls, events, customer data synchronization and customer switching. Although
+    intended primarily for electrical distribution networks, IEC 61968-9 can be used
+    for other metering applications, including non-electrical metered quantities necessary
+    to support gas and water networks.<br />\r\nThe purpose of this document is to
+    define a standard for the integration of metering systems (MS), which includes
+    traditional manual systems, and (one or two-way) automated meter reading (AMR)
+    systems, and meter data management (MDM) systems with other enterprise systems
+    and business functions within the scope of IEC 61968. The scope of this document
+    is the exchange of information between metering systems, MDM systems and other
+    systems within the utility enterprise. The specific details of communication protocols
+    those systems employ are outside the scope of this document. Instead, this document
+    will recognize and model the general capabilities that can be potentially provided
+    by advanced and/or legacy meter infrastructures, including two-way communication
+    capabilities such as load control, dynamic pricing, outage detection, distributed
+    energy resource (DER) control signals and on-request read. In this way, this document
+    will not be impacted by the specification, development and/or deployment of next
+    generation meter infrastructures either through the use of standards or proprietary
+    means.<br />\r\nThe focus of IEC 61968-9 is to define standard messages for the
+    integration of enterprise applications, these messages may be directly or indirectly
+    related to information flows within a broader scope. Examples would include messaging
+    between head end systems and meters or PAN devices. The various components described
+    later in this document will typically fall into either the category of a metering
+    system (MS) head end, an MDM or other enterprise application (e.g. OMS, DRMS,
+    CIS).<br />\r\nThe capabilities and information provided by a meter reading and
+    meter data management systems are important for a variety of purposes, including
+    (but not limited to) interval data, time-based demand data, time-based energy
+    data (usage and production), outage management, service interruption, service
+    restoration, quality of service monitoring, distribution network analysis, distribution
+    planning, demand response, customer billing and work management. This standard
+    also extends the CIM (Common Information Model) to support the exchange of meter
+    data.<br />\r\nThis third edition cancels and replaces the second edition published
+    in 2013. This edition constitutes a technical revision. Please see the foreword
+    of IEC 61968-9 for further details."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "l’IEC 61968-9:2024 spécifie le contenu informationnel d'un ensemble de
+    types de messages qui peuvent être utilisés pour prendre en charge de nombreuses
+    fonctions métier relatives au relevé et à la commande des compteurs. Les utilisations
+    typiques des types de messages comprennent le relevé de compteurs, les commandes,
+    les événements, la synchronisation des données client et la commutation de clientèle.
+    Bien qu'elle soit principalement destinée aux réseaux de distribution électrique,
+    l’IEC 61968-9 peut être utilisée pour d'autres applications de comptage, y compris
+    les grandeurs comptées non électriques qui sont nécessaires pour prendre en charge
+    les réseaux de gaz et d'eau.<br />\r\nLe but du présent document est de définir
+    une norme pour l'intégration des systèmes de comptage (MS), qui inclut les systèmes
+    manuels traditionnels et les systèmes de relevés de compteur automatisés (AMR)
+    (à une seule voie ou à deux voies), ainsi que les systèmes de gestion des données
+    de compteur (MDM – meter data management) avec d'autres systèmes et fonctions
+    métier qui s'inscrivent dans le domaine d'application de l’IEC 61968. Le domaine
+    d'application du présent document est l'échange d'informations entre les systèmes
+    de comptage, les systèmes MDM et d'autres systèmes au sein de l'entreprise de
+    distribution. Les informations détaillées spécifiques relatives aux protocoles
+    de communications qu'utilisent les systèmes en question ne relèvent pas du domaine
+    d'application du présent document. En revanche, la présente Norme internationale
+    reconnaîtra et modélisera les capacités générales qui peuvent être potentiellement
+    assurées par des infrastructures de compteurs avancées et/ou héritées, y compris
+    les capacités de communication bidirectionnelle telles que régulation de la charge,
+    tarification dynamique, détection d'interruptions de service, signaux de commande
+    de ressources énergétiques réparties (DER) et lecture sur demande. Ainsi, le présent
+    document ne sera pas influencé par la spécification, le développement et/ou le
+    déploiement d'infrastructures de compteurs de prochaine génération, et ce, ni
+    par l'utilisation de normes ni par des moyens propriétaires.<br />\r\nLes capacités
+    et les informations fournies par des systèmes de relevés de compteurs et de gestion
+    de données de compteur sont importantes pour une diversité d'applications, y compris
+    (entre autres) les données d'intervalles, les données de demande fondées sur la
+    durée, les données d'énergie fondées sur la durée (utilisation et production),
+    la gestion des interruptions de service, l'interruption de service, le rétablissement
+    du service, la surveillance de la qualité de service, l'analyse du réseau de distribution,
+    la planification de la distribution, la réduction de la demande, la facturation
+    des clients et la gestion des travaux. La présente norme étend également le CIM
+    (Common Information Model, c'est-à-dire Modèle d'Information Commun) pour prendre
+    en charge l'échange des données de compteurs.<br />\r\nCette troisième édition
+    annule et remplace la deuxième édition parue en 2013. Cette édition constitue
+    une révision technique. Veuillez consulter l'avant-propos de la IEC 61968-9 pour
+    plus de détails."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2024'
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: TC 57
+    number: 57
+    type: technicalCommittee
+ics:
+- code: '33.200'
+  text: Telecontrol. Telemetering
+structuredidentifier:
+  project_number: '61968'
+  part: '9'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:P
