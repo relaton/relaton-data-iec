@@ -71,9 +71,55 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>
-    La présente Norme internationale est conçue pour spécifier le traitement de documents SGML valides. DSSSL définit la sémantique, la syntaxe, et le modèle de traitement de deux langages pour la spécification du traitement du document: a) Le langage de transformation pour transformer des documents SGML balisés selon une ou plusieurs DTD en d'autres documents SGML balisés selon d'autres DTD. La spécification de ce processus de transformation est entièrement définie par la présente Norme internationale. b) Le langage de style, dans lequel le résultat est obtenu en appliquant un ensemble de caractéristiques de formatage à des portions de données, et dont la spécification est aussi précise que l'exige l'application. Certaines décisions ayant trait au formatage, telles que les fins de lignes et fins de colonnes, sont laissées aux processus de composition et de mise en pages. Le langage de style de DSSSL est conçu pour être utilisé dans des environnements fort variés, dont les</p>
+- content: "<p>This International Standard is designed to specify the processing of
+    valid SGML documents.</p><p>DSSSL defines the semantics, syntax, and processing
+    model of two languages for the specification of document processing:</p><p>a)
+    The transformation language for transforming SGML documents marked up in accordance
+    with one or more DTDs into other SGML documents marked up in accordance with other
+    DTDs. The specification of this transformation process is fully defined by this
+    International Standard.</p><p>b) The style language, where the result is achieved
+    by applying a set of formatting characteristics to portions of the data, and the
+    specification is, therefore, as precise as the application requires, leaving some
+    formatting decisions, such as line-end and column-end decisions, to the composition
+    and layout process.</p><p>The DSSSL style language is intended to be used in a
+    wide variety of environments with typographic requirements ranging from simple
+    single-column layouts to complex multiple­column layouts. This International Standard
+    does not standardize a formatter nor does it standardize composition or other
+    processing algorithms. Rather, it provides the means whereby an implementation
+    may externalize 'style characteristics' and other techniques for associating style
+    information with an SGML document.</p><p>DSSSL provides a mechanism for specifying
+    the use of 'external processes' to manipulate data. The nature of these processes
+    is outside the scope of DSSSL, but may include typical data management functions,
+    such as sorting and indexing; typical composition functions, such as hyphenation
+    algorithms; and graphics or multimedia processes for non-SGML data.</p><p>Documents
+    that have already been formatted or do not contain any hierarchical structural
+    information or generic markup are not within the field of application of this
+    International Standard.</p><p>DSSSL expresses specifications to be performed by
+    some processor that accepts an input document and produces an output document.
+    DSSSL is independent of the type of formatter, formatting system, or other transformation
+    processor.</p><p>a) Constructs that provide access to, and control of, all possible
+    marked-up information in an SGML document, as well as mechanisms for string processing
+    to allow for the manipulation of non-marked up data. This is provided by the Standard
+    Document Query Language (SDQL) component of DSSSL.</p><p>NOTE I String processing
+    is necessary so that no special 'markers' need be embedded in the source document
+    to indicate presentational changes. The display of a dropped or raised capital
+    letter in a larger point size at the beginning of a line or paragraph is an example
+    of a case where string processing may be used to isolate the first character or
+    group of characters in order to achieve a desired presentational effect.</p><p>b)
+    Provisions for specifying the relationship between one or more SGML documents
+    as input to a transformation process and zero or more resulting SGML documents
+    as the output of the process.</p><p>c) Provisions for specifying the relationships
+    between the SGML document(s), as expressed in the source Document Type Definition(s),
+    and the result of the formatting process. The output of the formatting process
+    may be an 1SO/IEC l 0 180 Standard Page Description Language (SPDL) document or
+    it may be a document in some other, possibly proprietary, form.</p><p>d) Provisions
+    for describing the typographic style and layout of a document.</p><p>e) Definitions
+    of a machine-processable syntax for the representation of a DSSSL specification
+    and its various components.</p><p>f) Provisions for creating new DSSSL characteristics
+    and their associated values, as well as new flow object classes. These are declared
+    in the declarations for the style language portion of the DSSSL specification.</p><p></p><p>This
+    International Standard is intended for use in a wide variety of SGML application
+    environments, including both electronic publishing and conventional printing.</p>"
   language:
   - en
   script:

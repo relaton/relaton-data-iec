@@ -93,12 +93,34 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>
-    La présente partie de l'ISO 8859 définit un jeu de 185 caractères graphiques, portant le nom d'alphabet latin/grec, et la représentation codée de chacun de ces caractères sur un seul octet. Aucun de ces caractères n'est «sans espacement». L'utilisation de fonctions de contrôle telles que ESPACE ARRIÈRE ou RETOUR CHARIOT pour la représentation codée de caractères composés est interdite par l'ISO 8859.</p><p>
-    Ce jeu de caractères graphiques, l'alphabet latin/grec, est destiné aux applications de traitement de texte et de données et peut également servir à l'échange d'informations. Il est destiné aux applications multilingues comportant des écritures latines et grecques. Il permet le traitement de données et de textes écrits en grec. Ce jeu de caractères graphiques peut être utilisé dans une version d'un code à 8 éléments conforme à l'ISO 2022 ou à l'ISO 4873.<br/><br/>NOTE -- L'ISO 8859 n'est pas destinée à être utilisée pour les services télématiques définis par le CCITT. Si des informations codées conformément à l'ISO 8859 doivent être transférées à de tels services, elles devront se conformer aux spécifications de ces services au niveau de l'interface de codage.</p>
+- content: <p>This part of ISO 8859 defines a set of 185 graphic characters identified
+    as the Latin/Greek alphabet, and specifies the coded representation of each of
+    these characters by means of a single 8-bit byte. None of these characters are
+    "non-spacing".</p><p>The use of control functions, such as BACKSPACE or CARRIAGE
+    RETURN for the coded representation of comÂ­posite characters is prohibited by
+    ISO 8859.</p>
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "<p>La présente partie de l'ISO 8859 définit un jeu de 185 caractères graphiques,
+    portant le nom d'alphabet latin/grec, et la représentation codée de chacun de
+    ces caractères sur un seul octet. Aucun de ces caractères n'est «sans espacement».
+    L'utilisation de fonctions de contrôle telles que ESPACE ARRIÈRE ou RETOUR CHARIOT
+    pour la représentation codée de caractères composés est interdite par l'ISO 8859.</p><p>Ce
+    jeu de caractères graphiques, l'alphabet latin/grec, est destiné aux applications
+    de traitement de texte et de données et peut également servir à l'échange d'informations.
+    Il est destiné aux applications multilingues comportant des écritures latines
+    et grecques. Il permet le traitement de données et de textes écrits en grec. Ce
+    jeu de caractères graphiques peut être utilisé dans une version d'un code à 8
+    éléments conforme à l'ISO 2022 ou à l'ISO 4873.</p><p>NOTE -- L'ISO 8859 n'est
+    pas destinée à être utilisée pour les services télématiques définis par le CCITT.
+    Si des informations codées conformément à l'ISO 8859 doivent être transférées
+    à de tels services, elles devront se conformer aux spécifications de ces services
+    au niveau de l'interface de codage.</p>"
+  language:
+  - fr
   script:
   - Latn
   format: text/html
