@@ -1,0 +1,169 @@
+---
+schema-version: v1.2.9
+id: ISO/IEC23264-2-2024
+title:
+- content: Information security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Redaction of authentic data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 2: Redactable signature schemes based on asymmetric mechanisms'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information security - Redaction of authentic data - Part 2: Redactable
+    signature schemes based on asymmetric mechanisms'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Sécurité de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Rédaction de données authentifiées
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 2: Schémas de signature éditable basés sur des mécanismes asymétriques'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Sécurité de l''information - Rédaction de données authentifiées - Partie
+    2: Schémas de signature éditable basés sur des mécanismes asymétriques'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/99496
+  type: src
+type: standard
+docid:
+- id: ISO/IEC 23264-2:2024
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:23264-2:2024-08:::'
+  type: URN
+date:
+- type: published
+  value: '2024-08-15'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2024-08-15'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: '<p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
+    none;">This document specifies cryptographic mechanisms to redact authentic data.
+    The mechanisms described in this document offer different combinations of the
+    security properties defined and described in ISO/IEC 23264-1. For all mechanisms,
+    this document describes the processes for key generation, generating the redactable
+    attestation, carrying out redactions and verifying redactable attestations.</p><p
+    class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;">This
+    document contains mechanisms that are based on asymmetric cryptography using three
+    related transformations:</p><p class="MsoBodyText" style="margin-left: 36.0pt;
+    text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align: none; text-autospace:
+    none;"><!-- [if!supportLists]-->¾<!--[endif]-->a public transformation defined
+    by a verification key (verification process for verifying a redactable attestation),</p><p
+    class="MsoBodyText" style="margin-left: 36.0pt; text-indent: -36.0pt; mso-list:
+    l0 level1 lfo1; mso-layout-grid-align: none; text-autospace: none;"><!-- [if!supportLists]-->¾<!--[endif]-->a
+    private transformation defined by a private attestation key (redactable attestation
+    process for generating a redactable attestation), and</p><p class="MsoBodyText"
+    style="margin-left: 36.0pt; text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align:
+    none; text-autospace: none;"><!-- [if!supportLists]-->¾<!--[endif]-->a third transformation
+    defined by the redaction key (redaction process) allowing to redact authentic
+    information within the constraints set forth during generation of the attestation
+    such that redacted information cannot be reconstructed.</p><p class="MsoBodyText"
+    style="mso-layout-grid-align: none; text-autospace: none;">This document contains
+    mechanisms which, after a successful redaction, allow the attestation to remain
+    verifiable using the verification transformation and attest that non-redacted
+    fields of the attested message are unmodified. This document further details that
+    the three transformations have the property whereby it is computationally infeasible
+    to derive the private attestation transformation, given the redaction and or the
+    verification transformation and key(s).</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2024'
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: ISO/IEC JTC 1/SC 27
+    number: 1
+    type: technicalCommittee
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: '23264'
+  part: '2'
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iso:G
