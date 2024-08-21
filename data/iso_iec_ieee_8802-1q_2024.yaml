@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC/IEEE8802-1Q-2020/AMD31-2021
+id: ISO/IEC/IEEE8802-1Q-2024
 title:
 - content: Telecommunications and exchange between information technology systems
   language:
@@ -16,8 +16,7 @@ title:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 1Q: Bridges and bridged networks -- Amendment 31: Stream Reservation
-    Protocol (SRP) enhancements and performance improvements'
+- content: 'Part 1Q: Bridges and bridged networks'
   language:
   - en
   script:
@@ -26,28 +25,54 @@ title:
   type: title-part
 - content: 'Telecommunications and exchange between information technology systems
     - Requirements for local and metropolitan area networks - Part 1Q: Bridges and
-    bridged networks -- Amendment 31: Stream Reservation Protocol (SRP) enhancements
-    and performance improvements'
+    bridged networks'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
+- content: Télécommunications et échange entre systèmes informatiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Exigences pour les réseaux locaux et métropolitains
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1Q: Ponts et réseaux pontés'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Télécommunications et échange entre systèmes informatiques - Exigences
+    pour les réseaux locaux et métropolitains - Partie 1Q: Ponts et réseaux pontés'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/71822
+- content: https://webstore.iec.ch/publication/99734
   type: src
 type: standard
 docid:
-- id: ISO/IEC/IEEE 8802-1Q:2020/AMD31:2021
+- id: ISO/IEC/IEEE 8802-1Q:2024
   type: IEC
   primary: true
-- id: urn:iec:std:iso-iec-ieee:8802-1Q:2020-08:::||amd:31:2021-10
+- id: 'urn:iec:std:iso-iec-ieee:8802-1Q:2024-08:::'
   type: URN
 date:
 - type: published
-  value: '2021-10-29'
-- type: obsoleted
   value: '2024-08-20'
 contributor:
 - organization:
@@ -75,15 +100,25 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2021-10-29'
+  content: '3'
+revdate: '2024-08-20'
 language:
 - en
+- fr
 script:
 - Latn
+abstract:
+- content: "<p>This document specifies Bridges that interconnect individual LANs,
+    each supporting the IEEE 802 MAC Service using a different or identical media
+    access control method, to provide Bridged Networks and VLANs.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -101,7 +136,7 @@ copyright:
     abbreviation:
       content: IEEE
     url: www.ieee.org
-  from: '2020'
+  from: '2024'
 place:
 - Geneva
 doctype:
@@ -120,4 +155,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+price_code: iso:H
