@@ -1,29 +1,22 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC30141-2018/COR1-2020
+id: ISO/IEC30141-2024
 title:
-- content: Corrigendum 1
+- content: Internet of things (IoT)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-intro
-- content: Internet of Things (IoT)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
 - content: Reference architecture
   language:
   - en
   script:
   - Latn
   format: text/plain
-  type: title-part
-- content: Corrigendum 1 - Internet of Things (IoT) - Reference architecture
+  type: title-main
+- content: Internet of things (IoT) - Reference architecture
   language:
   - en
   script:
@@ -31,22 +24,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/68024
+- content: https://webstore.iec.ch/publication/66548
   type: src
+- content: https://webstore.iec.ch/preview/info_isoiec30141{ed2.0}en.pdf
+  type: obp
 type: standard
 docid:
-- id: ISO/IEC 30141:2018/COR1:2020
+- id: ISO/IEC 30141:2024
   type: IEC
   primary: true
-- id: urn:iec:std:iso-iec:30141:2018-08:::||cor:1:2020-12
+- id: 'urn:iec:std:iso-iec:30141:2024-08:::'
   type: URN
 date:
 - type: published
-  value: '2020-12-08'
+  value: '2024-08-23'
 - type: stable-until
-  value: '2024-08-23'
-- type: obsoleted
-  value: '2024-08-23'
+  value: '2029-12-31'
 contributor:
 - organization:
     name:
@@ -65,15 +58,24 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2020-12-08'
+  content: '2'
+revdate: '2024-08-23'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The electronic version of this International Standard can be downloaded
-    from the ISO/IEC Information Technology Task Force (ITTF) web site.
+- content: "ISO/IEC 30141:2024 This document provides a standardized IoT Reference
+    Architecture using a common vocabulary, reusable designs and industry best practices.
+    It uses a top down approach, beginning with collecting the most important characteristics
+    of IoT, abstracting those into a generic IoT Conceptual Model, deriving a high
+    level system based reference with subsequent dissection of that model into five
+    architecture views from different perspectives.<br />\r\nThis second edition cancels
+    and replaces the first edition published in 2018. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) conformance with ISO/IEC/IEEE
+    42010:2022;<br />\r\nb) improved usability;<br />\r\nc) implementation pattern
+    support."
   language:
   - en
   script:
@@ -81,7 +83,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -94,7 +96,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2018'
+  from: '2024'
 place:
 - Geneva
 doctype:
@@ -112,4 +114,4 @@ structuredidentifier:
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+price_code: iso:G
