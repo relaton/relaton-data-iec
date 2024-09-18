@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC11801-2002
+id: ISO/IEC19369-2024
 title:
 - content: Information technology
   language:
@@ -9,14 +9,22 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Generic cabling for customer premises
+- content: Telecommunications and information exchange between systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Information technology - Generic cabling for customer premises
+- content: NFCIP-2 test methods
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - NFCIP-2 test methods
   language:
   - en
   script:
@@ -30,14 +38,21 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Câblage générique des locaux d'utilisateurs
+- content: Téléinformatique
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Technologies de l'information - Câblage générique des locaux d'utilisateurs
+- content: Méthodes d'essai NFCIP-2
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technologies de l'information - Téléinformatique - Méthodes d'essai NFCIP-2
   language:
   - fr
   script:
@@ -45,20 +60,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/98119
+- content: https://webstore.iec.ch/publication/100735
   type: src
+- content: https://webstore.iec.ch/preview/info_isoiec19369{ed2.0}en.pdf
+  type: obp
 type: standard
 docid:
-- id: ISO/IEC 11801:2002
+- id: ISO/IEC 19369:2024
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:11801:2002-10:::'
+- id: 'urn:iec:std:iso-iec:19369:2024-09:::'
   type: URN
 date:
 - type: published
-  value: '2002-10-23'
-- type: obsoleted
-  value: '2017-11-21'
+  value: '2024-09-17'
 contributor:
 - organization:
     name:
@@ -77,16 +92,25 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '3'
-revdate: '2002-10-23'
+  content: '2'
+revdate: '2024-09-17'
 language:
 - en
 - fr
 script:
 - Latn
+abstract:
+- content: <p class="MsoBodyText">This document specifies test methods for ISO/IEC
+    21481 in addition to applicable test methods specified in ISO/IEC 10373-6, ISO/IEC
+    10373-7 and ISO/IEC 23917.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REPLACED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -99,22 +123,22 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2002'
+  from: '2024'
 place:
 - Geneva
 doctype:
   type: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1
+  - name: ISO/IEC JTC 1/SC 6
     number: 1
     type: technicalCommittee
 ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
+- code: 35.100.10
+  text: Physical layer
 structuredidentifier:
-  project_number: '11801'
+  project_number: '19369'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+price_code: iso:A
