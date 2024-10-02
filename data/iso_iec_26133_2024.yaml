@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC29794-4-2024
+id: ISO/IEC26133-2024
 title:
 - content: Information technology
   language:
@@ -9,51 +9,37 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Biometric sample quality
+- content: OpenID connect
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 4: Finger image data'
+- content: OpenID connect dynamic client registration 1.0 incorporating errata set
+    2
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - Biometric sample quality - Part 4: Finger image
-    data'
+- content: Information technology - OpenID connect - OpenID connect dynamic client
+    registration 1.0 incorporating errata set 2
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Qualité d'échantillon biométrique
+- content: Titre manque
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Partie 4: Données d''image de doigt'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Qualité d''échantillon biométrique -
-    Partie 4: Données d''image de doigt'
+- content: Titre manque
   language:
   - fr
   script:
@@ -61,20 +47,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/101557
+- content: https://webstore.iec.ch/publication/101716
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec29794-4{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 29794-4:2024
+- id: ISO/IEC 26133:2024
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:29794-4:2024-09:::'
+- id: 'urn:iec:std:iso-iec:26133:2024-10:::'
   type: URN
 date:
 - type: published
-  value: '2024-09-30'
+  value: '2024-10-01'
 contributor:
 - organization:
     name:
@@ -93,20 +77,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2024-09-30'
+  content: '1'
+revdate: '2024-10-01'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 29794-4:2017 establishes</p><p>- terms and definitions for
-    quantifying finger image quality,</p><p>- methods used to quantify the quality
-    of finger images, and</p><p>- standardized encoding of finger image quality,</p><p>for
-    finger images at 196,85 px/cm spatial sampling rate scanned or captured using
-    optical sensors with capture dimension (width, height) of at least 1,27 cm × 1,651
-    cm.</p>"
+- content: "<p>OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
+    protocol. It enables Clients to verify the identity of the End-User based on the
+    authentication performed by an Authorization Server, as well as to obtain basic
+    profile information about the End-User in an interoperable and REST-like manner.</p><p>This
+    document defines how an OpenID Connect Relying Party can dynamically register
+    with the End-User's OpenID Provider, providing information about itself to the
+    OpenID Provider, and obtaining information needed to use it, including the OAuth
+    2.0 Client ID for this Relying Party.</p>"
   language:
   - en
   script:
@@ -134,16 +120,15 @@ doctype:
   type: international-standard
 editorialgroup:
   technical_committee:
-  - name: ISO/IEC JTC 1/SC 37
+  - name: ISO/IEC JTC 1
     number: 1
     type: technicalCommittee
 ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
+- code: '35.030'
+  text: IT Security
 structuredidentifier:
-  project_number: '29794'
-  part: '4'
+  project_number: '26133'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+price_code: iso:E
