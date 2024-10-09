@@ -79,18 +79,15 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW! -->IEC 62541-10:2020 is available as IEC 62541-10:2020 RLV which
-    contains the International Standard and its Redline version, showing all changes
-    of the technical content compared to the previous edition.IEC 62541-10:2020 defines
-    the information model associated with Programs in the OPC Unified Architecture.
-    This includes the description of the NodeClasses, standard Properties, Methods
-    and Events and associated behaviour and information for Programs. The complete
-    Address Space model including all NodeClasses and Attributes is specified in IEC
-    62541-3. The Services such as those used to invoke the Methods used to manage
-    Programs are specified in IEC 62541 4. This third edition cancels and replaces
-    the second edition published in 2015. This edition includes several clarifications
-    and in addition the following significant technical changes with respect to the
-    previous edition:<br />\r\na) Changed ProgramType to ProgramStateMachineType.
+- content: "IEC 62541-10:2020 defines the information model associated with Programs
+    in the OPC Unified Architecture. This includes the description of the NodeClasses,
+    standard Properties, Methods and Events and associated behaviour and information
+    for Programs. The complete Address Space model including all NodeClasses and Attributes
+    is specified in IEC 62541-3. The Services such as those used to invoke the Methods
+    used to manage Programs are specified in IEC 62541 4. This third edition cancels
+    and replaces the second edition published in 2015. This edition includes several
+    clarifications and in addition the following significant technical changes with
+    respect to the previous edition:<br />\r\na) Changed ProgramType to ProgramStateMachineType.
     This is in line with the NodeSet (and thus implementations). In ProgramDiagnosticDataType:
     changed the definition of lastInputArguments and lastOutputArguments and added
     two additional fields for the argument values. Also changed StatusResult into
@@ -103,27 +100,25 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW! -->IEC 62541-10:2020 est disponible sous forme de IEC 62541-10:2020
-    RLV qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.IEC 62541-10:2020
-    définit le modèle d'information associé avec des Programmes dans l'Architecture
-    unifiée OPC. Elle comprend la description des NodeClasses, des Propriétés, Méthodes
-    et Evénements normalisés et du comportement associé ainsi que des informations
-    relatives aux Programmes. Le modèle d'espace d'adressage complet, comprenant toutes
-    les NodeClasses et tous les Attributs, est spécifié dans l'IEC 62541-3. Les Services
-    tels que ceux utilisés pour invoquer les Méthodes appliquées pour gérer les Programmes
-    sont spécifiés dans l'IEC 62541-4. Cette troisième édition annule et remplace
-    la deuxième édition parue en 2015.<br />\r\nCette édition inclut plusieurs clarifications
-    ainsi que les modifications techniques majeures suivantes par rapport à l'édition
-    précédente:<br />\r\na) remplacement de ProgramType par ProgramStateMachineType,
-    conformément au NodeSet (et donc aux mises en œuvre). Dans le programme ProgramDiagnosticDataType,
-    modification des définitions de lastInputArguments et lastOutputArguments, et
-    ajout de deux champs complémentaires pour les valeurs d'arguments. Remplacement
-    également de StatusResult par StatusCode. Création d'une nouvelle version du type
-    de ProgramDiagnostic2DataType;<br />\r\nb) remplacement de la règle de modélisation
-    Facultative par OptionalPlaceHolder pour les Méthodes de Commande de Programme.
-    Ceci fait suite à la clarification apportée dans l'IEC 62541-3, et permet aux
-    sous-types (ou instances) d'ajouter des arguments."
+- content: "IEC 62541-10:2020 définit le modèle d'information associé avec des Programmes
+    dans l'Architecture unifiée OPC. Elle comprend la description des NodeClasses,
+    des Propriétés, Méthodes et Evénements normalisés et du comportement associé ainsi
+    que des informations relatives aux Programmes. Le modèle d'espace d'adressage
+    complet, comprenant toutes les NodeClasses et tous les Attributs, est spécifié
+    dans l'IEC 62541-3. Les Services tels que ceux utilisés pour invoquer les Méthodes
+    appliquées pour gérer les Programmes sont spécifiés dans l'IEC 62541-4. Cette
+    troisième édition annule et remplace la deuxième édition parue en 2015.<br />\r\nCette
+    édition inclut plusieurs clarifications ainsi que les modifications techniques
+    majeures suivantes par rapport à l'édition précédente:<br />\r\na) remplacement
+    de ProgramType par ProgramStateMachineType, conformément au NodeSet (et donc aux
+    mises en œuvre). Dans le programme ProgramDiagnosticDataType, modification des
+    définitions de lastInputArguments et lastOutputArguments, et ajout de deux champs
+    complémentaires pour les valeurs d'arguments. Remplacement également de StatusResult
+    par StatusCode. Création d'une nouvelle version du type de ProgramDiagnostic2DataType;<br
+    />\r\nb) remplacement de la règle de modélisation Facultative par OptionalPlaceHolder
+    pour les Méthodes de Commande de Programme. Ceci fait suite à la clarification
+    apportée dans l'IEC 62541-3, et permet aux sous-types (ou instances) d'ajouter
+    des arguments."
   language:
   - fr
   script:

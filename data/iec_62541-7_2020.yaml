@@ -79,62 +79,57 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW! -->IEC 62541-7:2020 is available as IEC 62541-7:2020 RLV which
-    contains the International Standard and its Redline version, showing all changes
-    of the technical content compared to the previous edition.\r\nIEC 62541-7:2020
-    defines the OPC Unified Architecture (OPC UA) Profiles. The Profiles in this document
-    are used to segregate features with regard to testing of OPC UA products and the
-    nature of the testing (tool based or lab based). This includes the testing performed
-    by the OPC Foundation provided OPC UA CTT (a self-test tool) and by the OPC Foundation
-    provided Independent certification test labs. This could equally as well refer
-    to test tools provided by another organization or a test lab provided by another
-    organization. What is important is the concept of automated tool-based testing
-    versus lab-based testing. The scope of this standard includes defining functionality
-    that can only be tested in a lab and defining the grouping of functionality that
-    is to be used when testing OPC UA products either in a lab or using automated
-    tools. The definition of actual TestCases is not within the scope of this document,
-    but the general categories of TestCases are within the scope of this document.<br
-    />\r\nMost OPC UA applications will conform to several, but not all, of the Profiles.<br
-    />\r\nThis third edition cancels and replaces the second edition published in
-    2015. This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) new functional Profiles:<br />\r\n• profiles for global discovery and
-    global certificate management;<br />\r\n• profiles for global KeyCredential management
-    and global access token management;<br />\r\n• facet for durable subscriptions;<br
-    />\r\n• standard UA Client Profile;<br />\r\n• profiles for administration of
-    user roles and permissions.<br />\r\nb) new transport Profiles:<br />\r\n• HTTPS
-    with JSON encoding;<br />\r\n• secure WebSockets (WSS) with binary or JSON encoding;<br
-    />\r\n• reverse connectivity.<br />\r\nc) new security Profiles:<br />\r\n• transportSecurity
-    – TLS 1.2 with PFS (with perfect forward secrecy);<br />\r\n• securityPolicy [A]
-    – Aes128-Sha256-RsaOaep (replaces Base128Rsa15);<br />\r\n• securityPolicy – Aes256-Sha256-RsaPss
-    adds perfect forward secrecy for UA TCP);<br />\r\n• user Token JWT (Jason Web
-    Token).<br />\r\nd) deprecated Security Profiles (due to broken algorithms):<br
-    />\r\n• securityPolicy – Basic128Rsa15 (broken algorithm Sha1);<br />\r\n• securityPolicy
-    – Basic256 (broken algorithm Sha1);<br />\r\n• transportSecurity – TLS 1.0 (broken
-    algorithm RC4);<br />\r\n• transportSecurity – TLS 1.1 (broken algorithm RC4).<br
-    />\r\ne) deprecated Transport (missing support on most platforms):<br />\r\n•
-    SOAP/HTTP with WS-SecureConversation (all encodings)."
+- content: "IEC 62541-7:2020 defines the OPC Unified Architecture (OPC UA) Profiles.
+    The Profiles in this document are used to segregate features with regard to testing
+    of OPC UA products and the nature of the testing (tool based or lab based). This
+    includes the testing performed by the OPC Foundation provided OPC UA CTT (a self-test
+    tool) and by the OPC Foundation provided Independent certification test labs.
+    This could equally as well refer to test tools provided by another organization
+    or a test lab provided by another organization. What is important is the concept
+    of automated tool-based testing versus lab-based testing. The scope of this standard
+    includes defining functionality that can only be tested in a lab and defining
+    the grouping of functionality that is to be used when testing OPC UA products
+    either in a lab or using automated tools. The definition of actual TestCases is
+    not within the scope of this document, but the general categories of TestCases
+    are within the scope of this document.<br />\r\nMost OPC UA applications will
+    conform to several, but not all, of the Profiles.<br />\r\nThis third edition
+    cancels and replaces the second edition published in 2015. This edition constitutes
+    a technical revision.<br />\r\nThis edition includes the following significant
+    technical changes with respect to the previous edition:<br />\r\na) new functional
+    Profiles:<br />\r\n• profiles for global discovery and global certificate management;<br
+    />\r\n• profiles for global KeyCredential management and global access token management;<br
+    />\r\n• facet for durable subscriptions;<br />\r\n• standard UA Client Profile;<br
+    />\r\n• profiles for administration of user roles and permissions.<br />\r\nb)
+    new transport Profiles:<br />\r\n• HTTPS with JSON encoding;<br />\r\n• secure
+    WebSockets (WSS) with binary or JSON encoding;<br />\r\n• reverse connectivity.<br
+    />\r\nc) new security Profiles:<br />\r\n• transportSecurity – TLS 1.2 with PFS
+    (with perfect forward secrecy);<br />\r\n• securityPolicy [A] – Aes128-Sha256-RsaOaep
+    (replaces Base128Rsa15);<br />\r\n• securityPolicy – Aes256-Sha256-RsaPss adds
+    perfect forward secrecy for UA TCP);<br />\r\n• user Token JWT (Jason Web Token).<br
+    />\r\nd) deprecated Security Profiles (due to broken algorithms):<br />\r\n• securityPolicy
+    – Basic128Rsa15 (broken algorithm Sha1);<br />\r\n• securityPolicy – Basic256
+    (broken algorithm Sha1);<br />\r\n• transportSecurity – TLS 1.0 (broken algorithm
+    RC4);<br />\r\n• transportSecurity – TLS 1.1 (broken algorithm RC4).<br />\r\ne)
+    deprecated Transport (missing support on most platforms):<br />\r\n• SOAP/HTTP
+    with WS-SecureConversation (all encodings)."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW! -->IEC 62541-7:2020 est disponible sous forme de IEC 62541-7:2020
-    RLV qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.\r\nL'IEC 62541-7:2020
-    définit les Profils de l'architecture unifiée OPC (OPC UA). Les Profils du présent
-    document permettent de classer les caractéristiques en fonction des essais de
-    produits OPC UA et de la nature des essais (via un outil ou en laboratoire). Cela
-    inclut les essais effectués à l'aide de l'outil d'essai de conformité CTT OPC
-    UA développé par la Fondation OPC (outil d'essai autonome), ainsi que les essais
-    réalisés par des laboratoires de certification indépendants de cette même fondation.
-    Le présent document peut également faire référence aux outils d'essai ou au laboratoire
-    d'essai d'un autre organisme. Dans le cas présent, l'élément important est le
-    concept qui oppose les essais fondés sur un outil automatisé et les essais en
-    laboratoire. Le domaine d'application de la présente norme inclut la définition
-    d'une fonctionnalité qui ne peut être soumise à l'essai qu'en laboratoire, ainsi
-    que la définition du regroupement des fonctionnalités à utiliser durant les essais
-    de produits OPC UA effectués en laboratoire ou à l'aide d'outils automatisés.
+- content: "L'IEC 62541-7:2020 définit les Profils de l'architecture unifiée OPC (OPC
+    UA). Les Profils du présent document permettent de classer les caractéristiques
+    en fonction des essais de produits OPC UA et de la nature des essais (via un outil
+    ou en laboratoire). Cela inclut les essais effectués à l'aide de l'outil d'essai
+    de conformité CTT OPC UA développé par la Fondation OPC (outil d'essai autonome),
+    ainsi que les essais réalisés par des laboratoires de certification indépendants
+    de cette même fondation. Le présent document peut également faire référence aux
+    outils d'essai ou au laboratoire d'essai d'un autre organisme. Dans le cas présent,
+    l'élément important est le concept qui oppose les essais fondés sur un outil automatisé
+    et les essais en laboratoire. Le domaine d'application de la présente norme inclut
+    la définition d'une fonctionnalité qui ne peut être soumise à l'essai qu'en laboratoire,
+    ainsi que la définition du regroupement des fonctionnalités à utiliser durant
+    les essais de produits OPC UA effectués en laboratoire ou à l'aide d'outils automatisés.
     La définition des TestCases réels ne relève pas du domaine d'application du présent
     document, mais les catégories de TestCases générales relèvent du domaine d'application
     du présent document.<br />\r\nLa plupart des applications OPC UA sont conformes

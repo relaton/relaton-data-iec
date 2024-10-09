@@ -2,17 +2,29 @@
 schema-version: v1.2.9
 id: ISO/IECTR24731-1-2007
 title:
-- content: 'Information technology -- Programming languages, their environments and
-    system software interfaces -- Extensions to the C library -- Part 1: Bounds-checking
-    interfaces'
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Programming languages, their environments and system software interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Information technology -- Programming languages, their environments and
-    system software interfaces -- Extensions to the C library -- Part 1: Bounds-checking
+- content: 'Extensions to the C library -- Part 1: Bounds-checking interfaces'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Programming languages, their environments and
+    system software interfaces - Extensions to the C library -- Part 1: Bounds-checking
     interfaces'
   language:
   - en
@@ -20,11 +32,41 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Langages de programmation, leurs environnements et leurs systèmes d'interface
+    de logiciel
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Extensions à la bibliothèque C -- Partie 1: Interfaces des contrôles des
+    bornes'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Langages de programmation, leurs environnements
+    et leurs systèmes d''interface de logiciel - Extensions à la bibliothèque C --
+    Partie 1: Interfaces des contrôles des bornes'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/11151
+- content: https://webstore.iec.ch/publication/98245
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiectr24731-1{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
 - id: ISO/IEC TR 24731-1:2007
@@ -53,22 +95,23 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
+  content: '2'
 revdate: '2007-08-29'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: 'ISO/IEC TR 24731-1:2007 provides alternative functions for the C Library
+- content: '<p>ISO/IEC TR 24731-1:2007 provides alternative functions for the C Library
     (as defined in ISO/IEC 9899:1999) that promote safer, more secure programming.
     The functions verify that output buffers are large enough for the intended result,
     and return a failure indicator if they are not. Optionally, failing functions
     call a "runtime-constraint handler" to report the error. Data is never written
     past the end of an array. All string results are null terminated. In addition,
     the functions in ISO/IEC TR 24731-1:2007 are re-entrant: they never return pointers
-    to static objects owned by the function.ISO/IEC TR 24731-1:2007 also contains
-    functions that address insecurities with the C input-output facilities.'
+    to static objects owned by the function.</p><p>ISO/IEC TR 24731-1:2007 also contains
+    functions that address insecurities with the C input-output facilities.</p>'
   language:
   - en
   script:
@@ -76,7 +119,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
