@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: IEC62394-2022
+id: IEC62394-2024
 title:
 - content: Service diagnostic interface for consumer electronics products and networks
   language:
@@ -25,24 +25,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/66914
+- content: https://webstore.iec.ch/publication/80737
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62394{ed4.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec62394{ed5.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 62394:2022
+- id: IEC 62394:2024
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:62394:2022-07:::'
+- id: 'urn:iec:std:iec:62394:2024-10:::'
   type: URN
 date:
 - type: published
-  value: '2022-07-22'
+  value: '2024-10-30'
 - type: stable-until
-  value: '2024-10-30'
-- type: obsoleted
-  value: '2024-10-30'
+  value: '2028-12-31'
 contributor:
 - organization:
     name:
@@ -53,14 +51,14 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2022-07-22'
+  content: '5'
+revdate: '2024-10-30'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 62394:2022 specifies requirements for service diagnostic software
+- content: "IEC 62394:2024 specifies requirements for service diagnostic software
     to be implemented in products that incorporate a digital interface. It does not
     specify requirements for carrying out remote diagnosis or for manufacturer-dependent
     software.<br />\r\nThe Service Diagnostic Interface (SDI) requires an external
@@ -71,16 +69,16 @@ abstract:
     to be tested in products and certain aspects of controllers' diagnostic software.<br
     />\r\nThe SDI is based upon ECHONET specification version 2.11, ECHONET Lite specification
     version 1.13, and APPENDIX Detailed Requirements for ECHONET Device objects Release
-    M, because this interface will be used in future products. The use of this connection
-    and existing communication protocols enable implementation in products at a low
-    cost, with maximum flexibility and efficiency.<br />\r\nThe SDI consists of<br
-    />\r\n• specific hardware and software requirements of the device under test (DUT);<br
-    />\r\n• specific requirements of the controller:<br />\r\n– the service software;<br
-    />\r\n– an ECHONET interface;<br />\r\n• the connection between the controller
-    and the DUT.<br />\r\nThis document provides the minimal requirements necessary
-    to carry out computerized diagnosis. It covers the standardized software of the
-    controller as well as the standardized software and provisions in the DUT.<br
-    />\r\nIEC 62394:2022 cancels and replaces the third edition published in 2017.
+    Q rev. 1, because this interface will be used in future products. The use of this
+    connection and existing communication protocols enable implementation in products
+    at a low cost, with maximum flexibility and efficiency.<br />\r\nThe SDI consists
+    of<br />\r\n• specific hardware and software requirements of the device under
+    test (DUT);<br />\r\n• specific requirements of the controller:<br />\r\n– the
+    service software;<br />\r\n– an ECHONET interface;<br />\r\n• the connection between
+    the controller and the DUT.<br />\r\nThis document provides the minimal requirements
+    necessary to carry out computerized diagnosis. It covers the standardized software
+    of the controller as well as the standardized software and provisions in the DUT.<br
+    />\r\nIEC 62394:2024 cancels and replaces the fourth edition published in 2022.
     This edition constitutes a technical revision.<br />\r\nThis edition includes
     the following significant technical changes with respect to the previous edition:<br
     />\r\na) updates of the device object super class specifications for the property
@@ -94,7 +92,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -102,7 +100,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2022'
+  from: '2024'
 place:
 - Geneva
 doctype:

@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC15444-2-2004/AMD2-2006
+id: ISO/IEC14496-15-2024
 title:
 - content: Information technology
   language:
@@ -9,52 +9,55 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: 'JPEG 2000 image coding system: Extensions'
+- content: Coding of audio-visual objects
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 2:  -- Amendment 2:  Extended capabilities marker segment'
+- content: 'Part 15: Carriage of network abstraction layer (NAL) unit structured video
+    in the ISO base media file format'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - JPEG 2000 image coding system: Extensions - Part
-    2:  -- Amendment 2:  Extended capabilities marker segment'
+- content: 'Information technology - Coding of audio-visual objects - Part 15: Carriage
+    of network abstraction layer (NAL) unit structured video in the ISO base media
+    file format'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Amendment 2
+- content: Technologies de l'information
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-intro
-- content: 'Technologies de l''information -- Système de codage d''images JPEG 2000:
-    Extensions'
+- content: Codage des objets audiovisuels
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Segment marqueur à capacités étendues
+- content: 'Partie 15: Transport de vidéo structurée en unités NAL sur la couche réseau
+    au format ISO de base pour les fichiers médias'
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Amendment 2 - Technologies de l''information -- Système de codage d''images
-    JPEG 2000: Extensions - Segment marqueur à capacités étendues'
+- content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
+    15: Transport de vidéo structurée en unités NAL sur la couche réseau au format
+    ISO de base pour les fichiers médias'
   language:
   - fr
   script:
@@ -62,22 +65,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/10306
+- content: https://webstore.iec.ch/publication/102880
   type: src
 type: standard
 docid:
-- id: ISO/IEC 15444-2:2004/AMD2:2006
+- id: ISO/IEC 14496-15:2024
   type: IEC
   primary: true
-- id: urn:iec:std:iso-iec:15444-2:2004-05:::||amd:2:2006-01
+- id: 'urn:iec:std:iso-iec:14496-15:2024-10:::'
   type: URN
 date:
 - type: published
-  value: '2006-01-09'
-- type: stable-until
-  value: '2021-11-12'
-- type: obsoleted
-  value: '2021-11-12'
+  value: '2024-10-31'
 contributor:
 - organization:
     name:
@@ -96,16 +95,27 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2006-01-09'
+  content: '7'
+revdate: '2024-10-31'
 language:
 - en
 - fr
 script:
 - Latn
+abstract:
+- content: <p class="MsoBodyText">This document specifies the storage format for streams
+    of video that is structured as NAL units, such as AVC (ISO/IEC 14496-10) and HEVC
+    (ISO/IEC 23008-2) video streams. In addition, Annex E specifies parameters and
+    sub-parameters applying when sample entries specified in this document are used
+    as the 'codecs' parameter of a MIME type, as specified in IETF RFC 6381.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -118,7 +128,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2004'
+  from: '2024'
 place:
 - Geneva
 doctype:
@@ -129,12 +139,12 @@ editorialgroup:
     number: 1
     type: technicalCommittee
 ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
 structuredidentifier:
-  project_number: '15444'
-  part: '2'
+  project_number: '14496'
+  part: '15'
   type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+price_code: iso:H
