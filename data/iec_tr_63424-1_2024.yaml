@@ -1,0 +1,141 @@
+---
+schema-version: v1.2.9
+id: IECTR63424-1-2024
+title:
+- content: Validation of dynamic power control and exposure time-averaging algorithms
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Cellular network implementations for SAR at frequencies up to
+    6 GHz'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Validation of dynamic power control and exposure time-averaging algorithms
+    - Part 1: Cellular network implementations for SAR at frequencies up to 6 GHz'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/72268
+  type: src
+- content: https://webstore.iec.ch/preview/info_iectr63424-1{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC TR 63424-1:2024
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:63424-1:2024-12:tr::'
+  type: URN
+date:
+- type: published
+  value: '2024-12-11'
+- type: stable-until
+  value: '2029-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2024-12-11'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "IEC TR 63424-1:2024 describes the methods for validating dynamic power
+    control and (dynamic) exposure time-averaging (DPC-ETA) algorithms used in RF
+    modem chipsets of wireless devices. The DPC-ETA implementations are exposure-based,
+    where SAR is time-averaged according to power recorded by the RF modem. Time-averaging
+    windows up to six minutes consistent with applicable SAR limits and regulatory
+    policies are considered for frequencies up to 6 GHz. The DPC-ETA power control
+    parameters are established based on SAR compliance results with all relevant design
+    and operating tolerances taken into consideration. The device output power is
+    controlled by DPC-ETA to maintain SAR compliance in real-time. While SAR compliance
+    is evaluated independently by applying IEC/IEEE 62209-1528:2020 [1], this document
+    contains information for algorithm validation.<br />\r\nQuasi-static and dynamic
+    power control test sequences are described in this document for algorithm validation.
+    The test sequences are sent from a radio communication tester (RCT) and DPC-ETA
+    responses are measured with conducted and radiated power measurement methods to
+    confirm algorithm functionality. Test sequences for wireless configurations that
+    need validation, including wireless mode transitions, call drop, handover, discontinuous
+    transmission, and simultaneous transmission are described. Considerations for
+    measurement automation to acquire time-aligned results for correlation with power
+    changes in the test sequences are provided. DPC-ETA algorithms are validated by
+    correlating the normalized power measurement results with the expected behaviours
+    of an implementation for the applied test sequences. The procedures in this document
+    also support algorithm validation of modular transmitters using an appropriate
+    test platform. Guidance for using SAR methods in place of radiated power measurements
+    and capacitive proximity sensor triggering with time-averaged detection are also
+    included.<br />\r\nNOTE 1 A separate document will be considered to validate DPC-ETA
+    implementations above 6 GHz, according to near-field millimetre-wave band power
+    density exposure requirements. Substantially shorter time-averaging window durations,
+    on the order of a few seconds, can be required to satisfy some national regulatory
+    requirements.<br />\r\nNOTE 2 The scope of this document is limited to cellular
+    network technologies that have RF modem transmission power dictated by a base
+    station and therefore can be tested using RCT test sequences. Cellular network
+    technologies (also referred to as wireless wide area networks (WWAN)) include
+    Global System for Mobile Communications (GSM), Universal Mobile Telecommunication
+    System (UMTS), Long-Term Evolution (LTE) and 5G New Radio (NR), including other
+    related 2G, 3G, 4G, and 5G specifications, respectively. A separate document will
+    be considered for validating DPC-ETA implementations for wireless local area network
+    (WLAN) technologies, such as those based on the IEEE 802.11 standards series.
+    With WLAN technologies, the transmit power is dictated independently by the RF
+    modem and can be specific to each power control implementation, requiring different
+    testing approaches.<br />\r\nNOTE 3 The procedures in this document can also be
+    considered for 3GPP [2] 5G NR FR1 bands above 6 GHz.<br />\r\nNOTE 4 This document
+    does not address algorithm validation for simultaneous transmission configurations
+    involving transmitters that are not controlled by DPC-ETA operations in the RF
+    modem. These are evaluated according to regulatory requirements."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2024'
+place:
+- Geneva
+doctype:
+  type: technical-report
+editorialgroup:
+  technical_committee:
+  - name: TC 106
+    number: 106
+    type: technicalCommittee
+ics:
+- code: '13.280'
+  text: Radiation protection
+- code: '17.240'
+  text: Radiation measurements
+structuredidentifier:
+  project_number: TR
+  type: IEC
+ext:
+  schema-version: v1.0.0
+price_code: iec:M
