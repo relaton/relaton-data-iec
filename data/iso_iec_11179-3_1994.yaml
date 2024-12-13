@@ -112,26 +112,20 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente partie de l'ISO/CEI 11179 spécifie les attributs des éléments
-    de données. Elle se limite à un jeu d'attributs de base indépendants de leur utilisation
-    dans les systèmes d'application, les bases de données, les messages d'échange
-    de données, etc. La présente partie de l'ISO/CEI 11179 s'applique aux activités
-    comprenant: \na) la définition, la spécification et le contenu des dictionnaires
-    d'éléments de données; \nb) la conception et la spécification de modèles de données
-    orientés application, bases de données et messages types pour l'échange de données;
-    \nc) l'utilisation réelle de données dans les communications et les systèmes de
-    traitement de l'information; \nd) l'échange ou l'établissement de références dans
-    diverses collections d'éléments de données.\n\nLe jeu des attributs de base devra
-    être étendu à des attributs\nsupplémentaires afin de permettre de remplir la fonction
-    de l'ensemble\nde la gestion des données. La présente partie de l'ISO/CEI 11179\nne
-    suppose aucune structure logique ou physique. Une gestion complète des\ndonnées
-    nécessite également un jeu de règles et de\nprocédures pour le classement, la
-    définition, la dénomination\net l'enregistrement des éléments de données. Ces
-    règles\net procédures sont hors du domaine d'application de la présente\npartie
-    de l'ISO/CEI 11179. Elles sont traitées dans les autres parties\nde l'ISO/CEI
-    11179. Les techniques de mise en oeuvre d'un dictionnaire d'éléments\nde données
-    utilisant la présente partie de l'ISO/CEI 11179 sont\nhors du domaine d'application
-    de la présente partie de l'ISO/CEI 11179."
+- content: |-
+    La présente partie de l'ISO/CEI 11179 spécifie les attributs des éléments de données. Elle se limite à un jeu d'attributs de base indépendants de leur utilisation dans les systèmes d'application, les bases de données, les messages d'échange de données, etc. La présente partie de l'ISO/CEI 11179 s'applique aux activités comprenant:<ul><li>a) la définition, la spécification et le contenu des dictionnaires d'éléments de données;</li><li>b) la conception et la spécification de modèles de données orientés application, bases de données et messages types pour l'échange de données;</li><li>c) l'utilisation réelle de données dans les communications et les systèmes de traitement de l'information;</li><li>d) l'échange ou l'établissement de références dans diverses collections d'éléments de données.</li></ul>
+    Le jeu des attributs de base devra être étendu à des attributs
+    supplémentaires afin de permettre de remplir la fonction de l'ensemble
+    de la gestion des données. La présente partie de l'ISO/CEI 11179
+    ne suppose aucune structure logique ou physique. Une gestion complète des
+    données nécessite également un jeu de règles et de
+    procédures pour le classement, la définition, la dénomination
+    et l'enregistrement des éléments de données. Ces règles
+    et procédures sont hors du domaine d'application de la présente
+    partie de l'ISO/CEI 11179. Elles sont traitées dans les autres parties
+    de l'ISO/CEI 11179. Les techniques de mise en oeuvre d'un dictionnaire d'éléments
+    de données utilisant la présente partie de l'ISO/CEI 11179 sont
+    hors du domaine d'application de la présente partie de l'ISO/CEI 11179.
   language:
   - fr
   script:
@@ -155,20 +149,20 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '11179'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '11179'
+    part: '3'
+    type: IEC
+  price_code: iso:B

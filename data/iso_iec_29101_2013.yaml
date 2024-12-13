@@ -74,12 +74,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29101:2013 defines a privacy architecture framework that</p>
-
-    specifies concerns for information and communication technology (ICT) systems that process personally identifiable information (PII);
-    lists components for the implementation of such systems; and
-    provides architectural views contextualizing these components.<p>ISO/IEC 29101:2013 is applicable to entities involved in specifying, procuring, architecting, designing, testing, maintaining, administering and operating ICT systems that process PII. It focuses primarily on ICT systems that are designed to interact with PII principals.</p>
+- content: "<p>ISO/IEC 29101:2013 defines a privacy architecture framework that</p><ul><li>specifies
+    concerns for information and communication technology (ICT) systems that process
+    personally identifiable information (PII);</li><li>lists components for the implementation
+    of such systems; and</li><li>provides architectural views contextualizing these
+    components.</li></ul><p>ISO/IEC 29101:2013 is applicable to entities involved
+    in specifying, procuring, architecting, designing, testing, maintaining, administering
+    and operating ICT systems that process PII. It focuses primarily on ICT systems
+    that are designed to interact with PII principals.</p>"
   language:
   - en
   script:
@@ -103,19 +105,19 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '29101'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '29101'
+    type: IEC
+  price_code: iso:B

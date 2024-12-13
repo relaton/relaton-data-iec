@@ -75,13 +75,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19770-5:2013 provides an overview of Software Asset Management (SAM), which is the subject of the ISO/IEC 19770 family of standards, and defines related terms.</p><p>ISO/IEC 19770-5:2013 contains:</p>
-
-    an overview of the ISO/IEC 19770 family of standards;
-    an introduction to SAM;
-    a brief description of the foundation principles and approaches on which SAM is based; and
-    consistent terms and definitions for use throughout the ISO/IEC 19770 family of standards.<p>ISO/IEC 19770-5:2013 is applicable to all types of organization (e.g. commercial enterprises, government agencies, non-profit organizations).</p>
+- content: "<p>ISO/IEC 19770-5:2013 provides an overview of Software Asset Management
+    (SAM), which is the subject of the ISO/IEC 19770 family of standards, and defines
+    related terms.</p><p>ISO/IEC 19770-5:2013 contains:</p><ol><li>an overview of
+    the ISO/IEC 19770 family of standards;</li><li>an introduction to SAM;</li><li>a
+    brief description of the foundation principles and approaches on which SAM is
+    based; and</li><li>consistent terms and definitions for use throughout the ISO/IEC
+    19770 family of standards.</li></ol><p>ISO/IEC 19770-5:2013 is applicable to all
+    types of organization (e.g. commercial enterprises, government agencies, non-profit
+    organizations).</p>"
   language:
   - en
   script:
@@ -105,20 +107,20 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '19770'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '19770'
+    part: '5'
+    type: IEC
+  price_code: iso:B

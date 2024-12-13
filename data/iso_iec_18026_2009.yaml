@@ -63,17 +63,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18026:2009 specifies the Spatial Reference Model (SRM) defining relevant aspects of spatial positioning and related information processing. The SRM allows precise and unambiguous specification of geometric properties such as position (location), direction, and distance. The SRM addresses the needs of a broad community of users, who have a range of accuracy and performance requirements in computationally intensive applications.</p><p>Aspects of ISO/IEC 18026:2009 apply to, but are not limited to:</p>
-
-    mapping, charting, geodesy, and imagery;
-    topography;
-    location-based services;
-    oceanography;
-    meteorology and climatology;
-    interplanetary and planetary sciences;
-    embedded systems; and
-    modelling and simulation.<p>The application program interface supports more than 30 forms of position representation. To ensure that spatial operations are performed consistently, the application program interface specifies conversion operations with functionality defined to ensure high precision transformation between alternative representations of geometric properties.</p><p>ISO/IEC 18026:2009 is not intended to replace the standards and specifications developed by ISO/TC 211, ISO/TC 184, the International Astronomical Union (IAU), and the International Association of Geodesy (IAG). It is applicable to applications whose spatial information requirements overlap two or more of the application areas that are the scope of the work of ISO/TC 211, ISO/TC 184, the IAU, and the IAG.</p>
+- content: "<p>ISO/IEC 18026:2009 specifies the Spatial Reference Model (SRM) defining
+    relevant aspects of spatial positioning and related information processing. The
+    SRM allows precise and unambiguous specification of geometric properties such
+    as position (location), direction, and distance. The SRM addresses the needs of
+    a broad community of users, who have a range of accuracy and performance requirements
+    in computationally intensive applications.</p><p>Aspects of ISO/IEC 18026:2009
+    apply to, but are not limited to:</p><ol><li>mapping, charting, geodesy, and imagery;</li><li>topography;</li><li>location-based
+    services;</li><li>oceanography;</li><li>meteorology and climatology;</li><li>interplanetary
+    and planetary sciences;</li><li>embedded systems; and</li><li>modelling and simulation.</li></ol><p>The
+    application program interface supports more than 30 forms of position representation.
+    To ensure that spatial operations are performed consistently, the application
+    program interface specifies conversion operations with functionality defined to
+    ensure high precision transformation between alternative representations of geometric
+    properties.</p><p>ISO/IEC 18026:2009 is not intended to replace the standards
+    and specifications developed by ISO/TC 211, ISO/TC 184, the International Astronomical
+    Union (IAU), and the International Association of Geodesy (IAG). It is applicable
+    to applications whose spatial information requirements overlap two or more of
+    the application areas that are the scope of the work of ISO/TC 211, ISO/TC 184,
+    the IAU, and the IAG.</p>"
   language:
   - en
   script:
@@ -97,19 +105,19 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 24
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: '18026'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 24
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    project_number: '18026'
+    type: IEC
+  price_code: iso:ZZ

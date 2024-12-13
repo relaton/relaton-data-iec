@@ -70,18 +70,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23004-3:2007 specifies the component model which is the realization technology of the MPEG Multimedia Middleware. In addition, the interfaces of the support application programming interface needed for instantiation and interaction with components and services are specified.</p><p>ISO/IEC 23004-3 specifies the following:</p>
-
-    component model (what constitutes a component);
-    Unit of Trading (M3W component);
-    Unit of Loading (executable component);
-    Unit of Instantiation (Service);
-    standard interfaces:
-
-    navigation between interfaces (rcIUnknown, rcIServiceGeneric);
-    binding (rcIServiceGeneric);
-    access to public attributes (rcIServiceGeneric);
+- content: "<p>ISO/IEC 23004-3:2007 specifies the component model which is the realization
+    technology of the MPEG Multimedia Middleware. In addition, the interfaces of the
+    support application programming interface needed for instantiation and interaction
+    with components and services are specified.</p><p>ISO/IEC 23004-3 specifies the
+    following:</p><ul><li>component model (what constitutes a component);</li><li>Unit
+    of Trading (M3W component);</li><li>Unit of Loading (executable component);</li><li>Unit
+    of Instantiation (Service);</li><li>standard interfaces:<ul><li>navigation between
+    interfaces (rcIUnknown, rcIServiceGeneric);</li><li>binding (rcIServiceGeneric);</li><li>access
+    to public attributes (rcIServiceGeneric);</li></ul></li></ul>"
   language:
   - en
   script:
@@ -105,20 +102,20 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23004'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23004'
+    part: '3'
+    type: IEC
+  price_code: iso:H

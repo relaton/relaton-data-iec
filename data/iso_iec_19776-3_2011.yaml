@@ -79,14 +79,14 @@ abstract:
     time-based space that contains graphic and aural objects that can be dynamically
     modified through a variety of mechanisms. ISO/IEC 19776-3:2011 defines a mapping
     of the abstract objects in X3D to a specific X3D encoding written out in a compact
-    binary form.</p><p>Each X3D file encoded using the compressed binary encoding:</p>\n\nsupports
+    binary form.</p><p>Each X3D file encoded using the compressed binary encoding:</p><ul><li>supports
     all of the purposes of X3D files defined in the X3D abstract specification ISO/IEC
-    19775; \nencodes X3D constructs in a compressed binary format, taking advantage
-    of geometric and information-theoretic compression techniques.<p>X3D files encoded
-    using the compressed binary encoding may be referenced from files using other
-    X3D encodings, and may themselves reference other X3D files encoded using other
-    X3D encodings. Sets of X3D files that use multiple encodings can only be processed
-    by browsers that support all of the utilized X3D encodings.</p>"
+    19775;</li><li>encodes X3D constructs in a compressed binary format, taking advantage
+    of geometric and information-theoretic compression techniques.</li></ul><p>X3D
+    files encoded using the compressed binary encoding may be referenced from files
+    using other X3D encodings, and may themselves reference other X3D files encoded
+    using other X3D encodings. Sets of X3D files that use multiple encodings can only
+    be processed by browsers that support all of the utilized X3D encodings.</p>"
   language:
   - en
   script:
@@ -110,20 +110,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 24
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: '19776'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 24
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    project_number: '19776'
+    part: '3'
+    type: IEC
+  price_code: iso:B

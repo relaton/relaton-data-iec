@@ -73,9 +73,23 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 18044:2004 provides advice and guidance on information security incident management for information security managers and for information system managers.</p><p>ISO/IEC TR 18044:2004 provides</p>
-    information on the benefits to be obtained from and the key issues associated with a good information security incident management approach (to convince senior corporate management and those personnel who will report to and receive feedback from a scheme that the scheme should be introduced and used); information on examples of information security incidents, and an insight into their possible causes;a description of the planning and documentation required to introduce a good structured information security incident management approach; a description of the information security incident management process*.<p>* Quick, co-ordinated and effective responses to an information security incident require extensive technical and procedural preparations. Information security incident responses may consist of immediate, short- and long-term actions. Any actions undertaken as the response to an incident should be based on previously developed, documented and accepted security incident response procedures and processes, including those for post-response analysis.</p>
+- content: "<p>ISO/IEC TR 18044:2004 provides advice and guidance on information security
+    incident management for information security managers and for information system
+    managers.</p><p>ISO/IEC TR 18044:2004 provides</p><ul><li>information on the benefits
+    to be obtained from and the key issues associated with a good information security
+    incident management approach (to convince senior corporate management and those
+    personnel who will report to and receive feedback from a scheme that the scheme
+    should be introduced and used);</li><li>information on examples of information
+    security incidents, and an insight into their possible causes;</li><li>a description
+    of the planning and documentation required to introduce a good structured information
+    security incident management approach;</li><li>a description of the information
+    security incident management process*.</li></ul><p>* Quick, co-ordinated and effective
+    responses to an information security incident require extensive technical and
+    procedural preparations. Information security incident responses may consist of
+    immediate, short- and long-term actions. Any actions undertaken as the response
+    to an incident should be based on previously developed, documented and accepted
+    security incident response procedures and processes, including those for post-response
+    analysis.</p>"
   language:
   - en
   script:
@@ -99,19 +113,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

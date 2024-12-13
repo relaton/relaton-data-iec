@@ -75,15 +75,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14443-3:2011 describes:</p>
-
-    polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
-    the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
-    the initial Request and Answer to Request command content;
-    methods to detect and communicate with one PICC among several PICCs (anticollision);
-    other parameters required to initialize communications between a PICC and PCD;
-    optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria.<p>Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443-4.</p><p>ISO/IEC 14443-3:2011 is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443-2).</p>
+- content: "<p>ISO/IEC 14443-3:2011 describes:</p><ul><li>polling for proximity cards
+    or objects (PICCs) entering the field of a proximity coupling device (PCD);</li><li>the
+    byte format, the frames and timing used during the initial phase of communication
+    between PCDs and PICCs;</li><li>the initial Request and Answer to Request command
+    content;</li><li>methods to detect and communicate with one PICC among several
+    PICCs (anticollision);</li><li>other parameters required to initialize communications
+    between a PICC and PCD;</li><li>optional means to ease and speed up the selection
+    of one PICC among several PICCs based on application criteria.</li></ul><p>Protocol
+    and commands used by higher layers and by applications and which are used after
+    the initial phase are described in ISO/IEC 14443-4.</p><p>ISO/IEC 14443-3:2011
+    is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443-2).</p>"
   language:
   - en
   script:
@@ -107,20 +109,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '14443'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '14443'
+    part: '3'
+    type: IEC
+  price_code: iso:B

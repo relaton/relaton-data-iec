@@ -76,32 +76,32 @@ abstract:
 - content: "<p>ISO/IEC 29116-1:2008 specifies a set of protocols to be used in conjunction
     with ISO/IEC 23000-5, in applications where governed audio and video information
     is streamed to an end-user device, named the Media Streaming Player.</p><p>Media
-    Streaming Players can interact with a number of Media Streaming Devices:</p><em>Content
+    Streaming Players can interact with a number of Media Streaming Devices:</p><ul><li><em>Content
     Provider Device,</em>a device capable of interacting with a Media Streaming Player
-    to provide content;<em>Licence Provider Device,</em>a device capable of interacting
-    with a Media Streaming Player to provide licences;<em>IPMP Tool Provider Device,</em>a
-    device capable of interacting with a Media Streaming Player to provide IPMP Tools,
-    i.e. modules performing one or more functions such as encryption, watermarking,
-    etc.;<em>Domain Management Device,</em>a device capable of managing various functions
-    needed for a proper functioning of a domain.<p>Two types of protocols are the
-    target of ISO/IEC 29116-1:2008: the Access Protocols and the Domain Management
-    Protocols.</p><p>The Access Protocols specify how a Media Streaming Player can
-    obtain from another Media Streaming Device the following information:</p>\n\na
-    content item or any of its parts, either streamed to an end-user device by means
-    of existing protocols such as MPEG-2 Transport Stream or Real Time Protocol over
-    Internet Protocol (RTP/IP) or stored in an MPEG-21 file;\na licence, which can
-    grant the Media Streaming Player or its user(s) some rights over a content item
-    or any of its parts, possibly under some conditions;\nexecutable code implementing
-    security functions<p>The Domain Management Protocols specify how a number of devices
-    and/or users can be grouped in a domain, groups of devices or users sharing some
-    common properties. By using domains it becomes possible to implement more flexible
-    licensing modalities, e.g. to license content to all devices or users in a domain.
-    Domain Management Protocols include the specification of technologies for achieving
-    the following goals:</p>\n\ncreating, renewing or deleting a domain; \nissuing
-    domain membership licences for devices and users;\nmanaging devices and users
-    memberships of a domain, i.e. joining, renewing and leaving a domain;\nverifying
-    that domain-bound content has been used within the domain according to licence
-    terms."
+    to provide content;</li><li><em>Licence Provider Device,</em>a device capable
+    of interacting with a Media Streaming Player to provide licences;</li><li><em>IPMP
+    Tool Provider Device,</em>a device capable of interacting with a Media Streaming
+    Player to provide IPMP Tools, i.e. modules performing one or more functions such
+    as encryption, watermarking, etc.;</li><li><em>Domain Management Device,</em>a
+    device capable of managing various functions needed for a proper functioning of
+    a domain.</li></ul><p>Two types of protocols are the target of ISO/IEC 29116-1:2008:
+    the Access Protocols and the Domain Management Protocols.</p><p>The Access Protocols
+    specify how a Media Streaming Player can obtain from another Media Streaming Device
+    the following information:</p><ul><li>a content item or any of its parts, either
+    streamed to an end-user device by means of existing protocols such as MPEG-2 Transport
+    Stream or Real Time Protocol over Internet Protocol (RTP/IP) or stored in an MPEG-21
+    file;</li><li>a licence, which can grant the Media Streaming Player or its user(s)
+    some rights over a content item or any of its parts, possibly under some conditions;</li><li>executable
+    code implementing security functions</li></ul><p>The Domain Management Protocols
+    specify how a number of devices and/or users can be grouped in a domain, groups
+    of devices or users sharing some common properties. By using domains it becomes
+    possible to implement more flexible licensing modalities, e.g. to license content
+    to all devices or users in a domain. Domain Management Protocols include the specification
+    of technologies for achieving the following goals:</p><ul><li>creating, renewing
+    or deleting a domain;</li><li>issuing domain membership licences for devices and
+    users;</li><li>managing devices and users memberships of a domain, i.e. joining,
+    renewing and leaving a domain;</li><li>verifying that domain-bound content has
+    been used within the domain according to licence terms.</li></ul>"
   language:
   - en
   script:
@@ -125,20 +125,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '29116'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '29116'
+    part: '1'
+    type: IEC
+  price_code: iso:B

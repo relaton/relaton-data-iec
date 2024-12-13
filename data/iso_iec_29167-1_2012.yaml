@@ -76,12 +76,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29167-1:2012 defines the architecture for security and file management for the ISO/IEC 18000 air interface standards for radio frequency identification (RFID) devices. It provides a common technical specification for security and file management for RFID devices that can be used by ISO committees developing RFID application standards.</p><p>ISO/IEC 29167-1:2012 specifies architecture for</p>
-
-     untraceability,
-     security services, and
-     file management<p>as a further optional extension of the air interface. Both security and file management are defined in alignment with existing air interfaces and ISO/IEC 29167-1:2012 only covers extensions on security and file management beyond the scope of the ISO/IEC 18000 air interfaces.</p><p>ISO/IEC 29167-1:2012 defines various security features called<em>security mechanisms</em> that can be implemented by a tag depending on the application. A tag can support one, a subset, or all of the specified security mechanisms. For an interrogator it is possible to get information about the security mechanisms that are actually implemented and supported by a tag. Moreover, it has been considered that adding new security mechanisms remains possible. Besides signaling the presence of certain security services, further details of the mechanisms such as utilized encryption algorithm and key length also need to be specified and accessible.</p>
+- content: "<p>ISO/IEC 29167-1:2012 defines the architecture for security and file
+    management for the ISO/IEC 18000 air interface standards for radio frequency identification
+    (RFID) devices. It provides a common technical specification for security and
+    file management for RFID devices that can be used by ISO committees developing
+    RFID application standards.</p><p>ISO/IEC 29167-1:2012 specifies architecture
+    for</p><ul><li> untraceability,</li><li> security services, and</li><li> file
+    management</li></ul><p>as a further optional extension of the air interface. Both
+    security and file management are defined in alignment with existing air interfaces
+    and ISO/IEC 29167-1:2012 only covers extensions on security and file management
+    beyond the scope of the ISO/IEC 18000 air interfaces.</p><p>ISO/IEC 29167-1:2012
+    defines various security features called<em>security mechanisms</em> that can
+    be implemented by a tag depending on the application. A tag can support one, a
+    subset, or all of the specified security mechanisms. For an interrogator it is
+    possible to get information about the security mechanisms that are actually implemented
+    and supported by a tag. Moreover, it has been considered that adding new security
+    mechanisms remains possible. Besides signaling the presence of certain security
+    services, further details of the mechanisms such as utilized encryption algorithm
+    and key length also need to be specified and accessible.</p>"
   language:
   - en
   script:
@@ -105,20 +117,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '29167'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '29167'
+    part: '1'
+    type: IEC
+  price_code: iso:B

@@ -71,29 +71,30 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 7816-15:2016 specifies an application in a card. This application
+- content: <p>ISO/IEC 7816-15:2016 specifies an application in a card. This application
     contains information on cryptographic functionality. This part of ISO/IEC 7816
     defines a common syntax and format for the cryptographic information and mechanisms
     to share this information whenever appropriate.</p><p>The objectives of this part
-    of ISO/IEC 7816 are to</p>\n\n- facilitate interoperability among components running
-    on various platforms (platform neutral),\n- enable applications in the outside
-    world to take advantage of products and components from multiple manufacturers
-    (vendor neutral),\n- enable the use of advances in technology without rewriting
-    application-level software (application neutral), and\n- maintain consistency
-    with existing, related standards while expanding upon them only where necessary
-    and practical.<p>It supports the following capabilities:</p>\n\n- storage of multiple
-    instances of cryptographic information in a card;\n- use of the cryptographic
-    information;\n- retrieval of the cryptographic information, a key factor for this
-    is the notion of \"Directory Files\", which provides a layer of indirection between
-    objects on the card and the actual format of these objects;\n- cross-referencing
-    of the cryptographic information with DOs defined in other parts of ISO/IEC 7816
-    when appropriate; \n- different authentication mechanisms;\n- multiple cryptographic
-    algorithms (the suitability of these is outside the scope of this part of ISO/IEC
-    7816).<p>ISO/IEC 7816-15.2016 does not cover the internal implementation within
-    the card and/or the outside world. It is not mandatory for implementations complying
-    with this International Standard to support all options described.</p><p>In case
-    of discrepancies between ASN.1 definitions in the body of the text and the module
-    in Annex A, Annex A takes precedence.</p>"
+    of ISO/IEC 7816 are to</p><ul><li>- facilitate interoperability among components
+    running on various platforms (platform neutral),</li><li>- enable applications
+    in the outside world to take advantage of products and components from multiple
+    manufacturers (vendor neutral),</li><li>- enable the use of advances in technology
+    without rewriting application-level software (application neutral), and</li><li>-
+    maintain consistency with existing, related standards while expanding upon them
+    only where necessary and practical.</li></ul><p>It supports the following capabilities:</p><ul><li>-
+    storage of multiple instances of cryptographic information in a card;</li><li>-
+    use of the cryptographic information;</li><li>- retrieval of the cryptographic
+    information, a key factor for this is the notion of "Directory Files", which provides
+    a layer of indirection between objects on the card and the actual format of these
+    objects;</li><li>- cross-referencing of the cryptographic information with DOs
+    defined in other parts of ISO/IEC 7816 when appropriate;</li><li>- different authentication
+    mechanisms;</li><li>- multiple cryptographic algorithms (the suitability of these
+    is outside the scope of this part of ISO/IEC 7816).</li></ul><p>ISO/IEC 7816-15.2016
+    does not cover the internal implementation within the card and/or the outside
+    world. It is not mandatory for implementations complying with this International
+    Standard to support all options described.</p><p>In case of discrepancies between
+    ASN.1 definitions in the body of the text and the module in Annex A, Annex A takes
+    precedence.</p>
   language:
   - en
   script:
@@ -117,20 +118,20 @@ copyright:
   from: '2016'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '15'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '15'
+    type: IEC
+  price_code: iso:H

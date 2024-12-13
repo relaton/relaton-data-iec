@@ -75,13 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 27035:2011 provides a structured and planned approach to:</p>
-
-    detect, report and assess information security incidents;
-    respond to and manage information security incidents;
-    detect, assess and manage information security vulnerabilities; and
-    continuously improve information security and incident management as a result of managing information security incidents and vulnerabilities.<p>ISO/IEC 27035:2011 provides guidance on information security incident management for large and medium-sized organizations. Smaller organizations can use a basic set of documents, processes and routines described in this International Standard, depending on their size and type of business in relation to the information security risk situation. It also provides guidance for external organizations providing information security incident management services.</p>
+- content: "<p>ISO/IEC 27035:2011 provides a structured and planned approach to:</p><ol><li>detect,
+    report and assess information security incidents;</li><li>respond to and manage
+    information security incidents;</li><li>detect, assess and manage information
+    security vulnerabilities; and</li><li>continuously improve information security
+    and incident management as a result of managing information security incidents
+    and vulnerabilities.</li></ol><p>ISO/IEC 27035:2011 provides guidance on information
+    security incident management for large and medium-sized organizations. Smaller
+    organizations can use a basic set of documents, processes and routines described
+    in this International Standard, depending on their size and type of business in
+    relation to the information security risk situation. It also provides guidance
+    for external organizations providing information security incident management
+    services.</p>"
   language:
   - en
   script:
@@ -105,19 +110,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '27035'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '27035'
+    type: IEC
+  price_code: iso:B

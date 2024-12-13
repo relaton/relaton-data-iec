@@ -71,18 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29133:2010 specifies methodologies to be used for the conformance of rewritable hybrid media data carriers, which combine radio frequency identification (RFID) tag technology with linear and/or two-dimensional bar code symbologies that are written to an erasable substrate. Three main product configuration types are addressed within ISO/IEC 29133:2010:</p>
-
-    Rewritable Media, which supports the rewriting of linear or two-dimensional symbols;
-    Rewritable Hybrid Media, which integrates the Rewritable Media with an RFID tag;
-    Rewritable Media combined with RFID technology that are physically separate data carriers but still require their data encoding processes to be integrated as part of a Rewritable Hybrid Media system.<p>In particular, ISO/IEC 29133:2010</p>
-
-    defines the base requirements for Rewritable Media and Rewritable Media devices,
-    defines additional methods for process control of the Rewritable Media over multiple erasure and rewrite cycles,
-    defines reference standards for evaluating the RFID tag component,
-    defines additional methods for process control of the RFID component over multiple erasure and rewrite cycles,
-    provides information to ensure that the data encoded in the bar code symbology and RFID data carrier are synchronous, i.e. are derived from the same source data set. Note that depending on the application, the encoded data can be identical or different (e.g. one data carrier could provide additional data).
+- content: "<p>ISO/IEC 29133:2010 specifies methodologies to be used for the conformance
+    of rewritable hybrid media data carriers, which combine radio frequency identification
+    (RFID) tag technology with linear and/or two-dimensional bar code symbologies
+    that are written to an erasable substrate. Three main product configuration types
+    are addressed within ISO/IEC 29133:2010:</p><ul><li>Rewritable Media, which supports
+    the rewriting of linear or two-dimensional symbols;</li><li>Rewritable Hybrid
+    Media, which integrates the Rewritable Media with an RFID tag;</li><li>Rewritable
+    Media combined with RFID technology that are physically separate data carriers
+    but still require their data encoding processes to be integrated as part of a
+    Rewritable Hybrid Media system.</li></ul><p>In particular, ISO/IEC 29133:2010</p><ul><li>defines
+    the base requirements for Rewritable Media and Rewritable Media devices,</li><li>defines
+    additional methods for process control of the Rewritable Media over multiple erasure
+    and rewrite cycles,</li><li>defines reference standards for evaluating the RFID
+    tag component,</li><li>defines additional methods for process control of the RFID
+    component over multiple erasure and rewrite cycles,</li><li>provides information
+    to ensure that the data encoded in the bar code symbology and RFID data carrier
+    are synchronous, i.e. are derived from the same source data set. Note that depending
+    on the application, the encoded data can be identical or different (e.g. one data
+    carrier could provide additional data).</li></ul>"
   language:
   - en
   script:
@@ -106,19 +113,19 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '29133'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '29133'
+    type: IEC
+  price_code: iso:D

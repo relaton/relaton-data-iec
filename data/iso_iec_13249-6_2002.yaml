@@ -102,9 +102,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 13249-6:2002 specifies an interface for data mining to enable standard access to and storage and manipulation of typical data structures in data mining.</p><p>ISO/IEC 13249-6:2002 specifies</p>
-    user-defined types for the four major data mining functionsassociation rules,clustering,classification,and regression,routines to manipulate these user-defined types to allowsetting parameters for mining activities,training of mining models,testing of mining models,and application of mining models,user-defined types for data structures common across these data mining functions to capture metadata for data mining input.<p>ISO/IEC 13249-6:2002 provides for interchange of data mining models so that models built on one system can be imported and deployed in other environments.</p>
+- content: "<p>ISO/IEC 13249-6:2002 specifies an interface for data mining to enable
+    standard access to and storage and manipulation of typical data structures in
+    data mining.</p><p>ISO/IEC 13249-6:2002 specifies</p><ul><li>user-defined types
+    for the four major data mining functions<ul><li>association rules,</li><li>clustering,</li><li>classification,</li><li>and
+    regression,</li></ul></li><li>routines to manipulate these user-defined types
+    to allow<ul><li>setting parameters for mining activities,</li><li>training of
+    mining models,</li><li>testing of mining models,</li><li>and application of mining
+    models,</li></ul></li><li>user-defined types for data structures common across
+    these data mining functions to capture metadata for data mining input.</li></ul><p>ISO/IEC
+    13249-6:2002 provides for interchange of data mining models so that models built
+    on one system can be imported and deployed in other environments.</p>"
   language:
   - en
   script:
@@ -128,20 +136,20 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '13249'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '13249'
+    part: '6'
+    type: IEC
+  price_code: iso:B

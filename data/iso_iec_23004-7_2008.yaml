@@ -78,12 +78,12 @@ abstract:
     Basically this means reducing the chance of breaking the system during an upgrade/extension
     and giving the ability to restore a consistent configuration when things have
     gone wrong.</p><p>ISO/IEC 23004-7:2008 specifies entities and interfaces for the
-    following.</p>\n\nMonitoring: This is basically extraction of the model that describes
-    the software and hardware configuration of the terminal (self model). \nDiagnosis:
+    following.</p><ul><li>Monitoring: This is basically extraction of the model that
+    describes the software and hardware configuration of the terminal (self model).</li><li>Diagnosis:
     Based on the self model framework, this will need to determine whether there is
-    a fault in the configuration. \nRepair: The faults that have been identified during
-    diagnosis will need to be removed when this is possible using the facilities for
-    upgrading and extension offered by M3W."
+    a fault in the configuration.</li><li>Repair: The faults that have been identified
+    during diagnosis will need to be removed when this is possible using the facilities
+    for upgrading and extension offered by M3W.</li></ul>"
   language:
   - en
   script:
@@ -107,20 +107,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23004'
-  part: '7'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23004'
+    part: '7'
+    type: IEC
+  price_code: iso:G

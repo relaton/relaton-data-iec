@@ -72,13 +72,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 27033-4:2014 gives guidance for securing communications between networks using security gateways (firewall, application firewall, Intrusion Protection System, etc.) in accordance with a documented information security policy of the security gateways, including:</p>
-
-    identifying and analysing network security threats associated with security gateways;
-    defining network security requirements for security gateways based on threat analysis;
-    using techniques for design and implementation to address the threats and control aspects associated with typical network scenarios; and
-    addressing issues associated with implementing, operating, monitoring and reviewing network security gateway controls.
+- content: "<p>ISO/IEC 27033-4:2014 gives guidance for securing communications between
+    networks using security gateways (firewall, application firewall, Intrusion Protection
+    System, etc.) in accordance with a documented information security policy of the
+    security gateways, including:</p><ol><li>identifying and analysing network security
+    threats associated with security gateways;</li><li>defining network security requirements
+    for security gateways based on threat analysis;</li><li>using techniques for design
+    and implementation to address the threats and control aspects associated with
+    typical network scenarios; and</li><li>addressing issues associated with implementing,
+    operating, monitoring and reviewing network security gateway controls.</li></ol>"
   language:
   - en
   script:
@@ -102,20 +104,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '27033'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '27033'
+    part: '4'
+    type: IEC
+  price_code: iso:D

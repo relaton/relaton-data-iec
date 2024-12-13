@@ -101,9 +101,35 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9945 (parts 1 to 4):2002 defines a standard operating system interface and environment, including a command interpreter (or "shell"), and common utility programs to support applications portability at the source code level. It is the single common revision to ISO/IEC 9945-1:1996 (IEEE Std 1003.1-1996), ISO/IEC 9945-2:1993 (IEEE Std 1003.2-1992), and the Base Specifications of The Open Group Single UNIX® Specification, Version 2. This standard is intended to be used by both applications developers and system implementors and comprises four major components (each in an associated volume):</p><p>General terms, concepts, and interfaces common to all volumes of this standard, including utility conventions and C-language header definitions, are included in the Base Definitions volume (ISO/IEC 9945-1:2002).</p><p>Definitions for system service functions and subroutines, language-specific system services for the C programming language, function issues, including portability, error handling, and error recovery, are included in the System Interfaces volume (ISO/IEC 9945-2:2002).</p><p>Definitions for a standard source code-level interface to command interpretation services (a "shell2) and common utility programs for application programs are included in the Shell and Utilities volume (ISO/IEC 9945-3:2002).</p><p>Extended rationale that did not fit well into the rest of the document structure, containing historical information concerning the contents of this standard and why features were included or discarded by the standard developers, is included in the Rationale (Informative) volume (ISO/IEC 9945-4:2002).</p><p>The following areas are outside the scope of ISO/IEC 9945 (parts 1 to 4):2002:</p>
-    Graphics interfacesDatabase management system interfacesRecord I/O considerationsObject or binary code portabilitySystem configuration and resource availability<p>ISO/IEC 9945 (parts 1 to 4):2002 describes the external characteristics and facilities that are of importance to applications developers, rather than the internal construction techniques employed to achieve these capabilities. Special emphasis is placed on those functions and facilities that are needed in a wide variety of commercial applications.</p>
+- content: <p>ISO/IEC 9945 (parts 1 to 4):2002 defines a standard operating system
+    interface and environment, including a command interpreter (or "shell"), and common
+    utility programs to support applications portability at the source code level.
+    It is the single common revision to ISO/IEC 9945-1:1996 (IEEE Std 1003.1-1996),
+    ISO/IEC 9945-2:1993 (IEEE Std 1003.2-1992), and the Base Specifications of The
+    Open Group Single UNIX® Specification, Version 2. This standard is intended to
+    be used by both applications developers and system implementors and comprises
+    four major components (each in an associated volume):</p><p>General terms, concepts,
+    and interfaces common to all volumes of this standard, including utility conventions
+    and C-language header definitions, are included in the Base Definitions volume
+    (ISO/IEC 9945-1:2002).</p><p>Definitions for system service functions and subroutines,
+    language-specific system services for the C programming language, function issues,
+    including portability, error handling, and error recovery, are included in the
+    System Interfaces volume (ISO/IEC 9945-2:2002).</p><p>Definitions for a standard
+    source code-level interface to command interpretation services (a "shell2) and
+    common utility programs for application programs are included in the Shell and
+    Utilities volume (ISO/IEC 9945-3:2002).</p><p>Extended rationale that did not
+    fit well into the rest of the document structure, containing historical information
+    concerning the contents of this standard and why features were included or discarded
+    by the standard developers, is included in the Rationale (Informative) volume
+    (ISO/IEC 9945-4:2002).</p><p>The following areas are outside the scope of ISO/IEC
+    9945 (parts 1 to 4):2002:</p><ul><li>Graphics interfaces</li><li>Database management
+    system interfaces</li><li>Record I/O considerations</li><li>Object or binary code
+    portability</li><li>System configuration and resource availability</li></ul><p>ISO/IEC
+    9945 (parts 1 to 4):2002 describes the external characteristics and facilities
+    that are of importance to applications developers, rather than the internal construction
+    techniques employed to achieve these capabilities. Special emphasis is placed
+    on those functions and facilities that are needed in a wide variety of commercial
+    applications.</p>
   language:
   - en
   script:
@@ -127,20 +153,20 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '9945'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '9945'
+    part: '2'
+    type: IEC
+  price_code: iso:B

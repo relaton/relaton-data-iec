@@ -90,16 +90,22 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: |-
-    <p>La présente Norme internationale définit:</p>
-
-    les conditions de test de conformité;
-    les environnements de fonctionnement et de stockage des cartouches;
-    les caractéristiques mécaniques, physiques et dimensionnelles du boîtier et de la cartouche afin d'assurer l'interchangeabilité mécanique entre les systèmes de traitement de l'information;
-    le format des informations sur le disque, à la fois de celles qui sont gravées et de celles qui sont écrites par l'utilisateur, y compris la disposition physique des pistes et des secteurs, les codes de correction d'erreur et le code de modulation utilisé;
-    les caractéristiques des informations gravées sur le disque;
-    les caractéristiques magnéto-optiques du disque permettant aux dispositifs de traitement de les écrire sur le disque;
-    la qualité minimale des données écrites par l'utilisateur sur le disque permettant aux dispositifs de traitement de données de les lire sur le disque.<p>La présente Norme internationale permet l'échange entre des lecteurs-enregistreurs de disques optiques. En association avec une norme relative à la structure de volume et de fichier, elle prévoit des échanges de données entre systèmes de traitement de l'information.</p>
+- content: "<p>La présente Norme internationale définit:</p><ul><li>les conditions
+    de test de conformité;</li><li>les environnements de fonctionnement et de stockage
+    des cartouches;</li><li>les caractéristiques mécaniques, physiques et dimensionnelles
+    du boîtier et de la cartouche afin d'assurer l'interchangeabilité mécanique entre
+    les systèmes de traitement de l'information;</li><li>le format des informations
+    sur le disque, à la fois de celles qui sont gravées et de celles qui sont écrites
+    par l'utilisateur, y compris la disposition physique des pistes et des secteurs,
+    les codes de correction d'erreur et le code de modulation utilisé;</li><li>les
+    caractéristiques des informations gravées sur le disque;</li><li>les caractéristiques
+    magnéto-optiques du disque permettant aux dispositifs de traitement de les écrire
+    sur le disque;</li><li>la qualité minimale des données écrites par l'utilisateur
+    sur le disque permettant aux dispositifs de traitement de données de les lire
+    sur le disque.</li></ul><p>La présente Norme internationale permet l'échange entre
+    des lecteurs-enregistreurs de disques optiques. En association avec une norme
+    relative à la structure de volume et de fichier, elle prévoit des échanges de
+    données entre systèmes de traitement de l'information.</p>"
   language:
   - fr
   script:
@@ -123,19 +129,19 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 23
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.220.30
-  text: Optical storage devices
-structuredidentifier:
-  project_number: '13549'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 23
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.220.30
+    text: Optical storage devices
+  structuredidentifier:
+    project_number: '13549'
+    type: IEC
+  price_code: iso:ZZ

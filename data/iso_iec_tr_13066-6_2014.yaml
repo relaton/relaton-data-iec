@@ -71,23 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 13066-6:2014 provides an overview to the structure and terminology of the Java accessibility application programming interface (API) It will provide:</p>
-
-    A description of the overall architecture and terminology of the API;
-    Further introductory explanations regarding the content and use of the API beyond those found in Annex A of ISO/IEC 13066-1;
-    An overview of the main properties, including of:
-
-    user interface elements;
-    how to get and set focus;
-    of communication mechanisms in the API;
-    a discussion of design considerations for the API (e.g. pointers to external sources of information on accessibility guidance related to using the API);
-    information on extending the API (and where this is appropriate);
-    an introduction to the programming interface of the API (including pointers to external sources of information);
-    an introduction to the Java Access Bridge for Windows and the Java Access Bridge for GNOME.<p>It will provide this information as an introduction to the Java API to assist:</p>
-
-    IT system level developers who create custom controls and/or interface to them;
-    AT developers involved in programming "hardware to software" and "software to software" interactions.
+- content: <p>ISO/IEC TR 13066-6:2014 provides an overview to the structure and terminology
+    of the Java accessibility application programming interface (API) It will provide:</p><ul><li>A
+    description of the overall architecture and terminology of the API;</li><li>Further
+    introductory explanations regarding the content and use of the API beyond those
+    found in Annex A of ISO/IEC 13066-1;</li><li>An overview of the main properties,
+    including of:<ul><li>user interface elements;</li><li>how to get and set focus;</li><li>of
+    communication mechanisms in the API;</li><li>a discussion of design considerations
+    for the API (e.g. pointers to external sources of information on accessibility
+    guidance related to using the API);</li><li>information on extending the API (and
+    where this is appropriate);</li><li>an introduction to the programming interface
+    of the API (including pointers to external sources of information);</li><li>an
+    introduction to the Java Access Bridge for Windows and the Java Access Bridge
+    for GNOME.</li></ul></li></ul><p>It will provide this information as an introduction
+    to the Java API to assist:</p><ul><li>IT system level developers who create custom
+    controls and/or interface to them;</li><li>AT developers involved in programming
+    "hardware to software" and "software to software" interactions.</li></ul>
   language:
   - en
   script:
@@ -111,21 +110,21 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 35
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 11.180.99
-  text: Other standards related to aids for disabled and handicapped people
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 35
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 11.180.99
+    text: Other standards related to aids for disabled and handicapped people
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:F

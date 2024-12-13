@@ -71,14 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9798-5:2009 specifies entity authentication mechanisms using zero-knowledge techniques:</p>
-
-    mechanisms based on identities and providing unilateral authentication;
-    mechanisms based on integer factorization and providing unilateral authentication;
-    mechanisms based on discrete logarithms with respect to numbers that are either prime or composite, and providing unilateral authentication;
-    mechanisms based on asymmetric encryption systems and providing either unilateral authentication, or mutual authentication;
-    mechanisms based on discrete logarithms on elliptic curves and providing unilateral authentication.<p>These mechanisms are constructed using the principles of zero-knowledge techniques, but they are not necessarily zero-knowledge according to the strict definition for every choice of parameters.</p>
+- content: "<p>ISO/IEC 9798-5:2009 specifies entity authentication mechanisms using
+    zero-knowledge techniques:</p><ul><li>mechanisms based on identities and providing
+    unilateral authentication;</li><li>mechanisms based on integer factorization and
+    providing unilateral authentication;</li><li>mechanisms based on discrete logarithms
+    with respect to numbers that are either prime or composite, and providing unilateral
+    authentication;</li><li>mechanisms based on asymmetric encryption systems and
+    providing either unilateral authentication, or mutual authentication;</li><li>mechanisms
+    based on discrete logarithms on elliptic curves and providing unilateral authentication.</li></ul><p>These
+    mechanisms are constructed using the principles of zero-knowledge techniques,
+    but they are not necessarily zero-knowledge according to the strict definition
+    for every choice of parameters.</p>"
   language:
   - en
   script:
@@ -102,20 +105,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '9798'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '9798'
+    part: '5'
+    type: IEC
+  price_code: iso:G

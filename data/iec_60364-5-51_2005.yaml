@@ -63,11 +63,11 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/1876
   type: src
-- content: https://webstore.iec.ch/preview/info_iec60364-5-51{ed5.0}b.pdf
-  type: obp
 - content: https://webstore.iec.ch/preview/info_iec60364-5-51{ed5.0}en_d.pdf
   type: obp
 - content: https://webstore.iec.ch/preview/info_iec60364-5-51{ed5.0}fr_d.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec60364-5-51{ed5.0}b.pdf
   type: obp
 type: standard
 docid:
@@ -80,7 +80,7 @@ date:
 - type: published
   value: '2005-04-14'
 - type: stable-until
-  value: '2025-12-31'
+  value: '2027-12-31'
 contributor:
 - organization:
     name:
@@ -134,23 +134,23 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: TC 64
-    number: 64
-    type: technicalCommittee
-ics:
-- code: 91.140.50
-  text: Electricity supply systems
-- code: '13.260'
-  text: Protection against electric shock.  Live working
-structuredidentifier:
-  project_number: '60364'
-  part: '5'
-  subpart: '51'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:J
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 64
+      number: 64
+      type: technicalCommittee
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  - code: '13.260'
+    text: Protection against electric shock.  Live working
+  structuredidentifier:
+    project_number: '60364'
+    part: '5'
+    subpart: '51'
+    type: IEC
+  price_code: iec:J

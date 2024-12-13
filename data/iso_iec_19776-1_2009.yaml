@@ -80,12 +80,12 @@ abstract:
     that contains graphic and aural objects that can be dynamically modified through
     a variety of mechanisms. ISO/IEC 19776-1:2009 defines a mapping of the abstract
     objects in X3D to a specific X3D encoding using the Extensible Markup Language
-    (XML).</p><p>Each XML-encoded X3D file:</p>\n\nsupports all of the purposes of
-    X3D files defined in the X3D abstract specification ISO/IEC 19775; \nencodes X3D
-    constructs in an XML format.<p>An XML-encoded X3D file may be referenced from
-    files using other X3D encodings and may itself reference other X3D files encoded
-    using other X3D encodings. Such files can only be processed by browsers that conform
-    to all of the utilized X3D encodings.</p>"
+    (XML).</p><p>Each XML-encoded X3D file:</p><ol><li>supports all of the purposes
+    of X3D files defined in the X3D abstract specification ISO/IEC 19775;</li><li>encodes
+    X3D constructs in an XML format.</li></ol><p>An XML-encoded X3D file may be referenced
+    from files using other X3D encodings and may itself reference other X3D files
+    encoded using other X3D encodings. Such files can only be processed by browsers
+    that conform to all of the utilized X3D encodings.</p>"
   language:
   - en
   script:
@@ -109,20 +109,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 24
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: '19776'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 24
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    project_number: '19776'
+    part: '1'
+    type: IEC
+  price_code: iso:B

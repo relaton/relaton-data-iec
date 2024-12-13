@@ -75,13 +75,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-30:2014 defines a storage format based on, and compatible with, the ISO Base Media File Format (ISO/IEC 14496-12 and ISO/IEC 15444-12), which is used by the MP4 file format (ISO/IEC 14496-14) and the Motion JPEG 2000 file format (ISO/IEC 15444-3) among others. ISO/IEC 14496-30:2014 enables timed text and subtitle streams to</p>
-
-    be used in conjunction with other media streams, such as audio or video,
-    be used in an MPEG-4 systems environment, if desired,
-    be formatted for delivery by a streaming server, using hint tracks, and
-    inherit all the use cases and features of the ISO Base Media File Format on which MP4 and MJ2 are based.
+- content: "<p>ISO/IEC 14496-30:2014 defines a storage format based on, and compatible
+    with, the ISO Base Media File Format (ISO/IEC 14496-12 and ISO/IEC 15444-12),
+    which is used by the MP4 file format (ISO/IEC 14496-14) and the Motion JPEG 2000
+    file format (ISO/IEC 15444-3) among others. ISO/IEC 14496-30:2014 enables timed
+    text and subtitle streams to</p><ul><li>be used in conjunction with other media
+    streams, such as audio or video,</li><li>be used in an MPEG-4 systems environment,
+    if desired,</li><li>be formatted for delivery by a streaming server, using hint
+    tracks, and</li><li>inherit all the use cases and features of the ISO Base Media
+    File Format on which MP4 and MJ2 are based.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +107,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '14496'
-  part: '30'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '14496'
+    part: '30'
+    type: IEC
+  price_code: iso:B

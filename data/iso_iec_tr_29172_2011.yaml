@@ -75,13 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 29172:2011 describes a reference architecture for Mobile AIDC (automatic identification and data capture) services. For example, a radio frequency identification (RFID) tag or a linear bar code or two-dimensional symbol called a "data carrier" is affixed to a movie poster; a Mobile RFID interrogator or a symbol capturing camera, i.e. a Mobile ORM reader, is built into a cell phone; an end-user aims or touches the cell phone to the data carrier on the movie poster; and the corresponding information content is retrieved via the network. This reference architecture does not restrict exploitation of other service architectures and aims at supporting the Mobile AIDC service models described in ISO/IEC TR 29172:2011.</p><p>ISO/IEC TR 29172:2011 includes</p>
-
-    descriptions of Mobile AIDC services,
-    reference architecture and service components,
-    service operation procedures, and
-    relationship among relevant standards to enable the reference architecture.
+- content: <p>ISO/IEC TR 29172:2011 describes a reference architecture for Mobile
+    AIDC (automatic identification and data capture) services. For example, a radio
+    frequency identification (RFID) tag or a linear bar code or two-dimensional symbol
+    called a "data carrier" is affixed to a movie poster; a Mobile RFID interrogator
+    or a symbol capturing camera, i.e. a Mobile ORM reader, is built into a cell phone;
+    an end-user aims or touches the cell phone to the data carrier on the movie poster;
+    and the corresponding information content is retrieved via the network. This reference
+    architecture does not restrict exploitation of other service architectures and
+    aims at supporting the Mobile AIDC service models described in ISO/IEC TR 29172:2011.</p><p>ISO/IEC
+    TR 29172:2011 includes</p><ul><li>descriptions of Mobile AIDC services,</li><li>reference
+    architecture and service components,</li><li>service operation procedures, and</li><li>relationship
+    among relevant standards to enable the reference architecture.</li></ul>
   language:
   - en
   script:
@@ -105,19 +110,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

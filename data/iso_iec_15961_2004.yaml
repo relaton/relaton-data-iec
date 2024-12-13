@@ -75,10 +75,28 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The data protocol used to exchange information in a radio-frequency identification (RFID) system for item management is specified in ISO/IEC 15961:2004 and in ISO/IEC 15962:2004. Both are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:</p>
-    ISO/IEC 15961:2004 addresses the information interface with the application system.ISO/IEC 15962:2004 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.<p>ISO/IEC 15961:2004 focuses on the interface between the application and the data protocol processor, and includes the specification of the transfer syntax and definition of application commands and responses. It allows data and commands to be specified in a standardized way, independent of the particular air interface of ISO/IEC 18000.</p><p>ISO/IEC 15961:2004</p>
-    provides guidelines on how data shall be presented as objects;defines the structure of object identifiers, based on ISO/IEC 9834-1;specifies the commands that are supported for transferring data between the application and the RF tag;specifies the responses that are supported for transferring data between the RF tag and the application;provides a formal description of all the processes using ASN.1, as specified in ISO/IEC 8824-1;specifies the transfer syntax, based on the Basic Encoding Rules of ISO/IEC 8825-1, for data to be transferred from and to the application.<p>It is expected that ISO/IEC 15961:2004 will be used as a reference to develop software appropriate for particular applications, or for particular RF equipment.</p>
+- content: "<p>The data protocol used to exchange information in a radio-frequency
+    identification (RFID) system for item management is specified in ISO/IEC 15961:2004
+    and in ISO/IEC 15962:2004. Both are required for a complete understanding of the
+    data protocol in its entirety; but each focuses on one particular interface:</p><ul><li>ISO/IEC
+    15961:2004 addresses the information interface with the application system.</li><li>ISO/IEC
+    15962:2004 deals with the processing of data and its presentation to the RF tag,
+    and the initial processing of data captured from the RF tag.</li></ul><p>ISO/IEC
+    15961:2004 focuses on the interface between the application and the data protocol
+    processor, and includes the specification of the transfer syntax and definition
+    of application commands and responses. It allows data and commands to be specified
+    in a standardized way, independent of the particular air interface of ISO/IEC
+    18000.</p><p>ISO/IEC 15961:2004</p><ul><li>provides guidelines on how data shall
+    be presented as objects;</li><li>defines the structure of object identifiers,
+    based on ISO/IEC 9834-1;</li><li>specifies the commands that are supported for
+    transferring data between the application and the RF tag;</li><li>specifies the
+    responses that are supported for transferring data between the RF tag and the
+    application;</li><li>provides a formal description of all the processes using
+    ASN.1, as specified in ISO/IEC 8824-1;</li><li>specifies the transfer syntax,
+    based on the Basic Encoding Rules of ISO/IEC 8825-1, for data to be transferred
+    from and to the application.</li></ul><p>It is expected that ISO/IEC 15961:2004
+    will be used as a reference to develop software appropriate for particular applications,
+    or for particular RF equipment.</p>"
   language:
   - en
   script:
@@ -102,19 +120,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '15961'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '15961'
+    type: IEC
+  price_code: iso:B

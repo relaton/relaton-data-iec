@@ -70,10 +70,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10179:1996/Amd.1:2003 specifies</p>
-    additional flow object classes for online display, andadditional formatting areas for inline-display area and inter-line attachment area.<p>For clarification of some existing definitions in ISO/IEC 10179:1996, ISO/IEC 10179:1996/Amd.1:2003 adds the following annexes:</p>
-    Annex B; clarification of the existing types and symbols;Annex C; specification of formal public identifiers and their associated characteristics for various line breaking and line composition methods;Annex D; clarification of the grove plan and SGML property set;Annex E; clarification of the flow object classes and characteristics;Annex F; clarification of the values of characteristics.
+- content: "<p>ISO/IEC 10179:1996/Amd.1:2003 specifies</p><ul><li>additional flow
+    object classes for online display, and</li><li>additional formatting areas for
+    inline-display area and inter-line attachment area.</li></ul><p>For clarification
+    of some existing definitions in ISO/IEC 10179:1996, ISO/IEC 10179:1996/Amd.1:2003
+    adds the following annexes:</p><ul><li>Annex B; clarification of the existing
+    types and symbols;</li><li>Annex C; specification of formal public identifiers
+    and their associated characteristics for various line breaking and line composition
+    methods;</li><li>Annex D; clarification of the grove plan and SGML property set;</li><li>Annex
+    E; clarification of the flow object classes and characteristics;</li><li>Annex
+    F; clarification of the values of characteristics.</li></ul>"
   language:
   - en
   script:
@@ -97,19 +103,19 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 34
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
-structuredidentifier:
-  project_number: '10179'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 34
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  structuredidentifier:
+    project_number: '10179'
+    type: IEC
+  price_code: iso:H

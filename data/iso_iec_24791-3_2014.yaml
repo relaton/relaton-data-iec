@@ -75,13 +75,26 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24791-3:2014 defines interfaces for device management of radio frequency identification (RFID) systems. Interfaces are defined that provide for discovery, configuration, initialization and monitoring of RFID systems within the Software System Infrastructure (SSI).</p><p>It only deals with devices that provide RFID related services. It does not distinguish the form factor of such RFID devices.</p><p>ISO/IEC 24791-3:2014 provides two distinct interface sets, one based on the EPCglobal Discovery, Configuration, and Initialization (DCI) standard and the IETF SNMP RFCs and the other based on the Organization for the Advancement of Structured Information Standards (OASIS) Device Profile for Web Services (DPWS) standard. The definition of the Device Profile for RFID is referred to in ISO/IEC 24791-3:2014 as the RFID Device Management Profile, or RDMP.</p><p>Each interface option set provides interface definitions that provide ISO/IEC 24791-3 Client Endpoints and Services Endpoints with the mechanisms for:</p>
-
-    discovery of the RFID devices and services on a local or remote subnet;
-    a firmware upgrade service;
-    a management service that implements configuration related functions;
-    a monitoring service for reporting alerts, diagnostics, and performance information.<p>The two interface set definitions provided by ISO/IEC 24791-3:2014 allow for clients and services endpoints to implement and provide the services based on the specific characteristics of the RFID system to be implemented.</p>
+- content: "<p>ISO/IEC 24791-3:2014 defines interfaces for device management of radio
+    frequency identification (RFID) systems. Interfaces are defined that provide for
+    discovery, configuration, initialization and monitoring of RFID systems within
+    the Software System Infrastructure (SSI).</p><p>It only deals with devices that
+    provide RFID related services. It does not distinguish the form factor of such
+    RFID devices.</p><p>ISO/IEC 24791-3:2014 provides two distinct interface sets,
+    one based on the EPCglobal Discovery, Configuration, and Initialization (DCI)
+    standard and the IETF SNMP RFCs and the other based on the Organization for the
+    Advancement of Structured Information Standards (OASIS) Device Profile for Web
+    Services (DPWS) standard. The definition of the Device Profile for RFID is referred
+    to in ISO/IEC 24791-3:2014 as the RFID Device Management Profile, or RDMP.</p><p>Each
+    interface option set provides interface definitions that provide ISO/IEC 24791-3
+    Client Endpoints and Services Endpoints with the mechanisms for:</p><ul><li>discovery
+    of the RFID devices and services on a local or remote subnet;</li><li>a firmware
+    upgrade service;</li><li>a management service that implements configuration related
+    functions;</li><li>a monitoring service for reporting alerts, diagnostics, and
+    performance information.</li></ul><p>The two interface set definitions provided
+    by ISO/IEC 24791-3:2014 allow for clients and services endpoints to implement
+    and provide the services based on the specific characteristics of the RFID system
+    to be implemented.</p>"
   language:
   - en
   script:
@@ -105,20 +118,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '24791'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '24791'
+    part: '3'
+    type: IEC
+  price_code: iso:B

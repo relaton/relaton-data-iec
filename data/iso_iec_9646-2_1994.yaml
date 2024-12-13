@@ -105,37 +105,42 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "<p> 1.1 La présente partie de l'ISO/CEI 9646 spécifie les conditions\n
-    et donne des conseils s'appliquant à la production, indépendante\n des systèmes
-    réels, de spécifications d'essais et de suites\n de tests de conformité pour une
-    ou plusieurs spécifications relatives\n à l'OSI. Elle est applicable, en particulier,
-    à la production\n de toutes les spécifications d'essai de conformité pour des
-    protocoles\n OSI, y compris les projets de ces spécifications.</p><p> 1.2 La présente
-    partie de l'ISO/CEI 9646 s'applique à la production\n de tests élémentaires qui
-    vérifient qu'une mise en oeuvre\n satisfait aux conditions de conformité statique
-    et/ou dynamique en contrôlant\n et en observant le comportement du protocole.
-    Les méthodes de test abstraites\n définies dans la présente partie de l'ISO/CEI
-    9646 peuvent être\n utilisées pour spécifier tout test élémentaire qui\n peut
-    être exprimé de manière abstraite en termes de contrôle\n et d'observation d'unités
-    de données de protocole (PDU) et de\n primitives de service abstrait (ASP). Néanmoins,
-    pour certains protocoles,\n des tests élémentaires ne pouvant pas être exprimés\n
-    ainsi peuvent être nécessaires. La spécification de ces\n tests élémentaires n'entre
-    pas dans le cadre de la présente\n partie de l'ISO/CEI 9646, bien qu'il puisse
-    être nécessaire d'inclure\n ces tests dans une spécification d'essai de conformité.<br/><br/>\n
-    NOTE -- Par exemple, certaines conditions de conformité statique relatives\n à
-    un élément de service d'application peuvent exiger des\n techniques de tests spécifiques
-    à l'application.</p><p>La présente partie de l'ISO/CEI 9646 s'applique à la production\n
-    de suites de tests qui testent une mise en oeuvre d'un seul ou de plusieurs\n
-    protocoles adjacents, que ceux-ci soient encastrés sous d'autres protocoles\n
-    ou non.</p><p>1.3 Les points suivants n'entrent pas dans le cadre de la présente
-    partie\n de l'ISO/CEI 9646:</p>\n\n a) la relation entre spécification de suites
-    de tests abstraites\n (ATS) et techniques de description formelle (FDT); \n b)
-    le test par des méthodes de test spécifiques à des\n applications, des protocoles
-    ou des systèmes particuliers, y compris\n le test de conditions de conformité
-    utilisant d&#x92;autres moyens\n que les échanges d&#x92;unités de données de
-    protocole\n (PDU). NOTE - La présente partie de I&#x92;ISO/CEI 9646 s&#x92;applique\n
-    entièrement à certains protocoles de la couche Physique mais\n pas à tous. Néanmoins,
-    beaucoup des concepts définis\n ici s&#x92;appliquent à tous les protocoles."
+- content: |-
+    <p> 1.1 La présente partie de l'ISO/CEI 9646 spécifie les conditions
+     et donne des conseils s'appliquant à la production, indépendante
+     des systèmes réels, de spécifications d'essais et de suites
+     de tests de conformité pour une ou plusieurs spécifications relatives
+     à l'OSI. Elle est applicable, en particulier, à la production
+     de toutes les spécifications d'essai de conformité pour des protocoles
+     OSI, y compris les projets de ces spécifications.</p><p> 1.2 La présente partie de l'ISO/CEI 9646 s'applique à la production
+     de tests élémentaires qui vérifient qu'une mise en oeuvre
+     satisfait aux conditions de conformité statique et/ou dynamique en contrôlant
+     et en observant le comportement du protocole. Les méthodes de test abstraites
+     définies dans la présente partie de l'ISO/CEI 9646 peuvent être
+     utilisées pour spécifier tout test élémentaire qui
+     peut être exprimé de manière abstraite en termes de contrôle
+     et d'observation d'unités de données de protocole (PDU) et de
+     primitives de service abstrait (ASP). Néanmoins, pour certains protocoles,
+     des tests élémentaires ne pouvant pas être exprimés
+     ainsi peuvent être nécessaires. La spécification de ces
+     tests élémentaires n'entre pas dans le cadre de la présente
+     partie de l'ISO/CEI 9646, bien qu'il puisse être nécessaire d'inclure
+     ces tests dans une spécification d'essai de conformité.<br/><br/>
+     NOTE -- Par exemple, certaines conditions de conformité statique relatives
+     à un élément de service d'application peuvent exiger des
+     techniques de tests spécifiques à l'application.</p><p>La présente partie de l'ISO/CEI 9646 s'applique à la production
+     de suites de tests qui testent une mise en oeuvre d'un seul ou de plusieurs
+     protocoles adjacents, que ceux-ci soient encastrés sous d'autres protocoles
+     ou non.</p><p>1.3 Les points suivants n'entrent pas dans le cadre de la présente partie
+     de l'ISO/CEI 9646:</p><ul><li>a) la relation entre spécification de suites de tests abstraites
+     (ATS) et techniques de description formelle (FDT);</li><li>b) le test par des méthodes de test spécifiques à des
+     applications, des protocoles ou des systèmes particuliers, y compris
+     le test de conditions de conformité utilisant d&#x92;autres moyens
+     que les échanges d&#x92;unités de données de protocole
+     (PDU). NOTE - La présente partie de I&#x92;ISO/CEI 9646 s&#x92;applique
+     entièrement à certains protocoles de la couche Physique mais
+     pas à tous. Néanmoins, beaucoup des concepts définis
+     ici s&#x92;appliquent à tous les protocoles.</li></ul>
   language:
   - fr
   script:
@@ -159,20 +164,20 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.01
-  text: Open systems interconnection in general
-structuredidentifier:
-  project_number: '9646'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  structuredidentifier:
+    project_number: '9646'
+    part: '2'
+    type: IEC
+  price_code: iso:E

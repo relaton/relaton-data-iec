@@ -74,9 +74,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18032:2005 specifies methods for generating and testing prime numbers. Prime numbers are used in various cryptographic algorithms, mainly in asymmetric encryption algorithms and digital signature algorithms.</p><p>Firstly, ISO/IEC 18032:2005 specifies methods for testing whether a given number is prime. The testing methods included in ISO/IEC 18032:2005 can be divided into two groups:</p>
-    Probabilistic primality tests, which have a small error probability. All probabilistic tests described here may declare a composite to be a prime. One test described here may declare a prime to be composite.Deterministic methods, which are guaranteed to give the right verdict. These methods use so-called primality certificates.<p>Secondly, ISO/IEC 18032:2005 specifies methods to generate prime numbers. Again, both probabilistic and deterministic methods are presented.</p>
+- content: "<p>ISO/IEC 18032:2005 specifies methods for generating and testing prime
+    numbers. Prime numbers are used in various cryptographic algorithms, mainly in
+    asymmetric encryption algorithms and digital signature algorithms.</p><p>Firstly,
+    ISO/IEC 18032:2005 specifies methods for testing whether a given number is prime.
+    The testing methods included in ISO/IEC 18032:2005 can be divided into two groups:</p><ul><li>Probabilistic
+    primality tests, which have a small error probability. All probabilistic tests
+    described here may declare a composite to be a prime. One test described here
+    may declare a prime to be composite.</li><li>Deterministic methods, which are
+    guaranteed to give the right verdict. These methods use so-called primality certificates.</li></ul><p>Secondly,
+    ISO/IEC 18032:2005 specifies methods to generate prime numbers. Again, both probabilistic
+    and deterministic methods are presented.</p>"
   language:
   - en
   script:
@@ -100,19 +108,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18032'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18032'
+    type: IEC
+  price_code: iso:B

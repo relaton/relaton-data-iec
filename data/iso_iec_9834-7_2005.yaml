@@ -98,17 +98,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9834-7:2005 specifies procedures for registration authorities responsible for the assignment to organizations of names that are globally unambiguous in the context of:</p>
-    O/R addresses, as defined in ISO/IEC 10021-2;Directory names, as defined in ISO/IEC 9594-2; andASN.1 object identifiers, as defined in ISO/IEC 8824-1.
+- content: "<p>ISO/IEC 9834-7:2005 specifies procedures for registration authorities
+    responsible for the assignment to organizations of names that are globally unambiguous
+    in the context of:</p><ul><li>O/R addresses, as defined in ISO/IEC 10021-2;</li><li>Directory
+    names, as defined in ISO/IEC 9594-2; and</li><li>ASN.1 object identifiers, as
+    defined in ISO/IEC 8824-1.</li></ul>"
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    <p>L'ISO/CEI 9834-7:2005 spécifie des procédures pour les organismes d'enregistrement chargés de l'attribution, aux organisations, de noms mondialement uniques dans le contexte</p>
-    des adresses expéditeur/destinataire, définies dans l'ISO/CEI 10021-2,des noms d'annuaire, définis dans l'ISO/CEI 9594-2, etdes identificateurs d'objet ASN.1, définis dans l'ISO/CEI 8824-1.
+- content: "<p>L'ISO/CEI 9834-7:2005 spécifie des procédures pour les organismes d'enregistrement
+    chargés de l'attribution, aux organisations, de noms mondialement uniques dans
+    le contexte</p><ul><li>des adresses expéditeur/destinataire, définies dans l'ISO/CEI
+    10021-2,</li><li>des noms d'annuaire, définis dans l'ISO/CEI 9594-2, et</li><li>des
+    identificateurs d'objet ASN.1, définis dans l'ISO/CEI 8824-1.</li></ul>"
   language:
   - fr
   script:
@@ -132,20 +136,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.01
-  text: Open systems interconnection in general
-structuredidentifier:
-  project_number: '9834'
-  part: '7'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  structuredidentifier:
+    project_number: '9834'
+    part: '7'
+    type: IEC
+  price_code: iso:B

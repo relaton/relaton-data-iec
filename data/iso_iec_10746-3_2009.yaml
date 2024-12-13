@@ -71,13 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10746 provides a coordinating framework for the standardization of open distributed processing (ODP). This supports distribution, interworking, portability, and platform and technology independence. It establishes an enterprise architecture framework for the specification of ODP systems.</p><p>ISO/IEC 10746 defines the essential concepts necessary to specify open distributed processing systems from five prescribed viewpoints. It provides a well-developed framework for the structuring of specifications for large-scale, distributed systems.</p><p>The framework for system specification provided by ISO/IEC 10746 has four fundamental elements:</p>
-
-    an object modelling approach to system specification;
-    the specification of a system in terms of separate but interrelated viewpoint specifications;
-    the definition of a system infrastructure providing distribution transparencies for system applications;
-    a framework for assessing system conformance.<p>ISO/IEC 10746-3:2009 specifies the required characteristics that qualify distributed processing as open, i.e. the constraints to which ODP standards must conform. It uses the descriptive techniques from ISO/IEC 10746-2 to define five ISO/IEC 10746 viewpoints. These viewpoints are subdivisions of the specification of a whole system, established to bring together the particular pieces of information relevant to some stakeholder or particular area of concern. ISO/IEC 10746-3:2009 also defines a taxonomy for functions and structures to realize distribution transparencies.</p>
+- content: "<p>ISO/IEC 10746 provides a coordinating framework for the standardization
+    of open distributed processing (ODP). This supports distribution, interworking,
+    portability, and platform and technology independence. It establishes an enterprise
+    architecture framework for the specification of ODP systems.</p><p>ISO/IEC 10746
+    defines the essential concepts necessary to specify open distributed processing
+    systems from five prescribed viewpoints. It provides a well-developed framework
+    for the structuring of specifications for large-scale, distributed systems.</p><p>The
+    framework for system specification provided by ISO/IEC 10746 has four fundamental
+    elements:</p><ul><li>an object modelling approach to system specification;</li><li>the
+    specification of a system in terms of separate but interrelated viewpoint specifications;</li><li>the
+    definition of a system infrastructure providing distribution transparencies for
+    system applications;</li><li>a framework for assessing system conformance.</li></ul><p>ISO/IEC
+    10746-3:2009 specifies the required characteristics that qualify distributed processing
+    as open, i.e. the constraints to which ODP standards must conform. It uses the
+    descriptive techniques from ISO/IEC 10746-2 to define five ISO/IEC 10746 viewpoints.
+    These viewpoints are subdivisions of the specification of a whole system, established
+    to bring together the particular pieces of information relevant to some stakeholder
+    or particular area of concern. ISO/IEC 10746-3:2009 also defines a taxonomy for
+    functions and structures to realize distribution transparencies.</p>"
   language:
   - en
   script:
@@ -101,20 +113,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '10746'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '10746'
+    part: '3'
+    type: IEC
+  price_code: iso:G

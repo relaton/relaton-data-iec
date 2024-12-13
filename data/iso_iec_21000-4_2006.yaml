@@ -71,9 +71,33 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 21000-4:2006 specifies how to include Intellectual Property Management and Protection (IPMP) information and protected parts in a Digital Item. It provides a simple mechanism to include protected parts in the DID (ISO/IEC 21000-2) description of a digital item, and provides mechanisms for describing the governance over, and the tools used for the protected content.</p><p>ISO/IEC 21000 (MPEG-21) defines an open framework for multimedia delivery and consumption, with both the content creator and content consumer as focal points. The vision for MPEG-21 is to define a multimedia framework to enable transparent and augmented use of multimedia resources across a wide range of networks and devices used by different communities. The basic architectural concept in MPEG-21 is the Digital Item. Digital Items are structured digital objects, including a standard representation and identification, and metadata. They are the basic unit of transaction in the MPEG-21 framework.</p><p>Within ISO/IEC 21000-4:2006 this technology is described in three main sections:</p>
-    IPMP DIDL: ISO/IEC 21000-4:2006 provides an alternative normative representation for parts of Digital Items that require protection through IPMP governance. This representation is termed the IPMP Digital Item Declaration Language (IPMP DIDL), and defines governed XML elements corresponding to entities in the DID model (ISO/IEC 21000-2).IPMP Info Descriptor: The IPMPInfoDescriptor and its associated elements are used to communicate information about the IPMP governance and tools required for a Digital Item or its parts.IPMP General Info Descriptor: The IPMPGeneralInfoDescriptor and its associated elements are used to communicate general information relating to a complete Digital Item.<p>The aim of ISO/IEC 21000-4:2006 is to allow controls on the flow and usage of Digital Items throughout their lifecycle. ISO/IEC 21000-4:2006 purposely does not specify protection measures, keys, key management, trust management, encryption algorithms, certification infrastructures or other components that would also be needed as part of a complete IPMP solution.</p>
+- content: "<p>ISO/IEC 21000-4:2006 specifies how to include Intellectual Property
+    Management and Protection (IPMP) information and protected parts in a Digital
+    Item. It provides a simple mechanism to include protected parts in the DID (ISO/IEC
+    21000-2) description of a digital item, and provides mechanisms for describing
+    the governance over, and the tools used for the protected content.</p><p>ISO/IEC
+    21000 (MPEG-21) defines an open framework for multimedia delivery and consumption,
+    with both the content creator and content consumer as focal points. The vision
+    for MPEG-21 is to define a multimedia framework to enable transparent and augmented
+    use of multimedia resources across a wide range of networks and devices used by
+    different communities. The basic architectural concept in MPEG-21 is the Digital
+    Item. Digital Items are structured digital objects, including a standard representation
+    and identification, and metadata. They are the basic unit of transaction in the
+    MPEG-21 framework.</p><p>Within ISO/IEC 21000-4:2006 this technology is described
+    in three main sections:</p><ul><li>IPMP DIDL: ISO/IEC 21000-4:2006 provides an
+    alternative normative representation for parts of Digital Items that require protection
+    through IPMP governance. This representation is termed the IPMP Digital Item Declaration
+    Language (IPMP DIDL), and defines governed XML elements corresponding to entities
+    in the DID model (ISO/IEC 21000-2).</li><li>IPMP Info Descriptor: The IPMPInfoDescriptor
+    and its associated elements are used to communicate information about the IPMP
+    governance and tools required for a Digital Item or its parts.</li><li>IPMP General
+    Info Descriptor: The IPMPGeneralInfoDescriptor and its associated elements are
+    used to communicate general information relating to a complete Digital Item.</li></ul><p>The
+    aim of ISO/IEC 21000-4:2006 is to allow controls on the flow and usage of Digital
+    Items throughout their lifecycle. ISO/IEC 21000-4:2006 purposely does not specify
+    protection measures, keys, key management, trust management, encryption algorithms,
+    certification infrastructures or other components that would also be needed as
+    part of a complete IPMP solution.</p>"
   language:
   - en
   script:
@@ -97,20 +121,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '21000'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '21000'
+    part: '4'
+    type: IEC
+  price_code: iso:G

@@ -71,22 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15149-1:2014 specifies the physical layer and media access control layer protocols of wireless network over a magnetic field in a low frequency band (~300 kHz) for wireless communication in harsh environment (around metal, underwater, underground, etc.).</p><p>The physical layer protocol is designed for the following scope:</p>
-
-    low carrier frequency for large magnetic field area and reliable communication in harsh environment;
-    simple and robust modulation for a low implementation cost and error performance;
-    variable coding and bandwidth for a link adaptation.<p>The media access control layer protocol is designed for the following scope:</p>
-
-    simple and efficient network topology for low power consumption;
-    variable superframe structure for compact and efficient data transmission;
-    dynamic address assignment for small packet size and efficient address management.<p>ISO/IEC 15149-1:2014 supports several kbps data transmission in wireless network within a distance of several metres. It can be applied to various services such as the following areas:</p>
-
-    environmental industry to manage pollution levels in soil and water using wireless underground or underwater sensors;
-    construction industry to monitor the integrity of buildings and bridges using wireless, inner-corrosion sensors;
-    consumer-electronics industry to detect food spoilage in wet, airtight storage areas and transfer the sensing data from the inside to the outside;
-    agricultural industry to manage the moisture level as well as mineral status in soil using wireless, buried sensors;
-    transportation industry to manage road conditions and traffic information using wireless, underground sensors.
+- content: "<p>ISO/IEC 15149-1:2014 specifies the physical layer and media access
+    control layer protocols of wireless network over a magnetic field in a low frequency
+    band (~300 kHz) for wireless communication in harsh environment (around metal,
+    underwater, underground, etc.).</p><p>The physical layer protocol is designed
+    for the following scope:</p><ul><li>low carrier frequency for large magnetic field
+    area and reliable communication in harsh environment;</li><li>simple and robust
+    modulation for a low implementation cost and error performance;</li><li>variable
+    coding and bandwidth for a link adaptation.</li></ul><p>The media access control
+    layer protocol is designed for the following scope:</p><ul><li>simple and efficient
+    network topology for low power consumption;</li><li>variable superframe structure
+    for compact and efficient data transmission;</li><li>dynamic address assignment
+    for small packet size and efficient address management.</li></ul><p>ISO/IEC 15149-1:2014
+    supports several kbps data transmission in wireless network within a distance
+    of several metres. It can be applied to various services such as the following
+    areas:</p><ul><li>environmental industry to manage pollution levels in soil and
+    water using wireless underground or underwater sensors;</li><li>construction industry
+    to monitor the integrity of buildings and bridges using wireless, inner-corrosion
+    sensors;</li><li>consumer-electronics industry to detect food spoilage in wet,
+    airtight storage areas and transfer the sensing data from the inside to the outside;</li><li>agricultural
+    industry to manage the moisture level as well as mineral status in soil using
+    wireless, buried sensors;</li><li>transportation industry to manage road conditions
+    and traffic information using wireless, underground sensors.</li></ul>"
   language:
   - en
   script:
@@ -110,20 +116,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.110'
-  text: Networking
-structuredidentifier:
-  project_number: '15149'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    project_number: '15149'
+    part: '1'
+    type: IEC
+  price_code: iso:F

@@ -105,9 +105,27 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18051:2005 specifies the Services and Event Reports for Computer-Supported Telecommunications Applications, Phase III (CSTA).</p><p>It focuses on providing application service interfaces to a Switching Function, Computing Function and a Special Resource Function. A CSTA application interface is disassociated from the various user-network interfaces and network-network interfaces CSTA applications may serve, observe or manipulate. Because CSTA operates with existing telecommunications interfaces indirectly, it operates generically, so that differences among various existing interfaces are hidden from CSTA applications. Support of user-to-network interfaces is outside the scope of ISO/IEC 18051:2005.</p><p>Although most terminal equipment (TE) is suitable for use with CSTA, there will be instances of TE that will not be suitable in certain circumstances. Examples are:</p>
-    FAX terminals and modems that are unable to adjust their transmission modes to prevent carrier conflict when both parties are alerted via CSTA during call establishment; andFunctional terminals that perform telecommunication functions outside the control of the Switching Function.<p>Services defined in ISO/IEC 18051:2005 allow functional integration between a computing network and a telecommunications network. Computing platforms, i.e. Application Programming Interfaces (APIs) that support such functionally-integrated applications are outside the scope of ISO/IEC 18051:2005.</p><p>ISO/IEC 18051:2005 is part of a suite of CSTA International Standards and Technical Reports that provide a comprehensive description of the architectural and practical issues involved in applying, implementing and utilizing CSTA-based CTI applications.</p>
+- content: "<p>ISO/IEC 18051:2005 specifies the Services and Event Reports for Computer-Supported
+    Telecommunications Applications, Phase III (CSTA).</p><p>It focuses on providing
+    application service interfaces to a Switching Function, Computing Function and
+    a Special Resource Function. A CSTA application interface is disassociated from
+    the various user-network interfaces and network-network interfaces CSTA applications
+    may serve, observe or manipulate. Because CSTA operates with existing telecommunications
+    interfaces indirectly, it operates generically, so that differences among various
+    existing interfaces are hidden from CSTA applications. Support of user-to-network
+    interfaces is outside the scope of ISO/IEC 18051:2005.</p><p>Although most terminal
+    equipment (TE) is suitable for use with CSTA, there will be instances of TE that
+    will not be suitable in certain circumstances. Examples are:</p><ul><li>FAX terminals
+    and modems that are unable to adjust their transmission modes to prevent carrier
+    conflict when both parties are alerted via CSTA during call establishment; and</li><li>Functional
+    terminals that perform telecommunication functions outside the control of the
+    Switching Function.</li></ul><p>Services defined in ISO/IEC 18051:2005 allow functional
+    integration between a computing network and a telecommunications network. Computing
+    platforms, i.e. Application Programming Interfaces (APIs) that support such functionally-integrated
+    applications are outside the scope of ISO/IEC 18051:2005.</p><p>ISO/IEC 18051:2005
+    is part of a suite of CSTA International Standards and Technical Reports that
+    provide a comprehensive description of the architectural and practical issues
+    involved in applying, implementing and utilizing CSTA-based CTI applications.</p>"
   language:
   - en
   script:
@@ -131,19 +149,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.30
-  text: Network layer
-structuredidentifier:
-  project_number: '18051'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.30
+    text: Network layer
+  structuredidentifier:
+    project_number: '18051'
+    type: IEC
+  price_code: iso:B

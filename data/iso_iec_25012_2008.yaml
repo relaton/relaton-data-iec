@@ -71,12 +71,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 25012:2008 defines a general data quality model for data retained in a structured format within a computer system.</p><p>ISO/IEC 25012:2008 can be used to establish data quality requirements, define data quality measures, or plan and perform data quality evaluations. It could be used, for example,</p>
-
-    to define and evaluate data quality requirements in data production, acquisition and integration processes,
-    to identify data quality assurance criteria, also useful for re-engineering, assessment and improvement of data,
-    to evaluate the compliance of data with legislation and/or requirements.<p>ISO/IEC 25012:2008 categorizes quality attributes into fifteen characteristics considered by two points of view: inherent and system dependent. Data quality characteristics will be of varying importance and priority to different stakeholders.</p><p>ISO/IEC 25012:2008 is intended to be used in conjunction with the other parts of the SQuaRE series of International Standards, and with ISO/IEC 9126-1 until superseded by ISO/IEC 25010.</p>
+- content: "<p>ISO/IEC 25012:2008 defines a general data quality model for data retained
+    in a structured format within a computer system.</p><p>ISO/IEC 25012:2008 can
+    be used to establish data quality requirements, define data quality measures,
+    or plan and perform data quality evaluations. It could be used, for example,</p><ul><li>to
+    define and evaluate data quality requirements in data production, acquisition
+    and integration processes,</li><li>to identify data quality assurance criteria,
+    also useful for re-engineering, assessment and improvement of data,</li><li>to
+    evaluate the compliance of data with legislation and/or requirements.</li></ul><p>ISO/IEC
+    25012:2008 categorizes quality attributes into fifteen characteristics considered
+    by two points of view: inherent and system dependent. Data quality characteristics
+    will be of varying importance and priority to different stakeholders.</p><p>ISO/IEC
+    25012:2008 is intended to be used in conjunction with the other parts of the SQuaRE
+    series of International Standards, and with ISO/IEC 9126-1 until superseded by
+    ISO/IEC 25010.</p>"
   language:
   - en
   script:
@@ -100,19 +108,19 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '25012'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '25012'
+    type: IEC
+  price_code: iso:C

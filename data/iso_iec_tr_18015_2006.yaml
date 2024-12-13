@@ -71,9 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The aim of ISO/IEC TR 18015 is to:</p>
-    give the reader a model of time and space overheads implied by use of various C++ language and library features;debunk widespread myths about performance problems in C++;present techniques for use of C++ in applications where performance matters; andpresent techniques for implementing C++ standard language and library facilities to yield efficient code.<p>The special needs of embedded systems programming are presented, including ROMability and predictability. A separate chapter presents general C and C++ interfaces to the basic hardware facilities of embedded systems.</p>
+- content: "<p>The aim of ISO/IEC TR 18015 is to:</p><ul><li>give the reader a model
+    of time and space overheads implied by use of various C++ language and library
+    features;</li><li>debunk widespread myths about performance problems in C++;</li><li>present
+    techniques for use of C++ in applications where performance matters; and</li><li>present
+    techniques for implementing C++ standard language and library facilities to yield
+    efficient code.</li></ul><p>The special needs of embedded systems programming
+    are presented, including ROMability and predictability. A separate chapter presents
+    general C and C++ interfaces to the basic hardware facilities of embedded systems.</p>"
   language:
   - en
   script:
@@ -97,19 +102,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:ZZ

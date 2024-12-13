@@ -113,7 +113,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "IEC 60794-3-40: 2022 is a family specification that covers sewer cables
+- content: 'IEC 60794-3-40: 2022 is a family specification that covers sewer cables
     and conduits for installation by blowing and/or pulling in man accessible and
     non-man accessible storm and sanitary sewers. Systems built with components covered
     by this document are subject to the requirements of sectional specification IEC
@@ -129,14 +129,15 @@ abstract:
     of the sewer cable and is agreed between the customer and the supplier. This second
     edition cancels and replaces the first edition published in 2008. This edition
     constitutes a technical revision. This edition includes the following significant
-    technical changes with respect to the previous edition:\r\n\r\n\tthis document
-    follows the new structure for family specifications: symbols and abbreviations
+    technical changes with respect to the previous edition:<ol style="list-style-type:lower-alpha"><li>this
+    document follows the new structure for family specifications: symbols and abbreviations
     were included in Clause 3, and Clause 4 became the General requirements with 4.1
-    Optical fibres, 4.2 Cable element and 4.3 Optical fibre cable construction;\r\n\tAnnex
-    D has been removed as it is part of IEC TR 62691;\r\n\tthis document has been
+    Optical fibres, 4.2 Cable element and 4.3 Optical fibre cable construction;</li><li>Annex
+    D has been removed as it is part of IEC TR 62691;</li><li>this document has been
     streamlined by cross-referencing IEC 60794-1-1, IEC 60793-2, IEC 60794-3 and the
-    IEC 60794-1-2x series;\r\n\tthe fibre strain allowance for tensile tests was updated;\r\n\tcharacteristics
-    Table 5, Table 6, Table 7 were moved to the Annex A (informative)."
+    IEC 60794-1-2x series;</li><li>the fibre strain allowance for tensile tests was
+    updated;</li><li>characteristics Table 5, Table 6, Table 7 were moved to the Annex
+    A (informative).</li></ol>'
   language:
   - en
   script:
@@ -190,21 +191,21 @@ copyright:
   from: '2022'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: TC 86/SC 86A
-    number: 86
-    type: technicalCommittee
-ics:
-- code: 33.180.10
-  text: Fibres and cables
-structuredidentifier:
-  project_number: '60794'
-  part: '3'
-  subpart: '40'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 86/SC 86A
+      number: 86
+      type: technicalCommittee
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
+  structuredidentifier:
+    project_number: '60794'
+    part: '3'
+    subpart: '40'
+    type: IEC
+  price_code: iec:H

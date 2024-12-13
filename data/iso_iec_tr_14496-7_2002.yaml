@@ -101,9 +101,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-7:2002 specifies the encoding tools that both enhance the execution and quality for the coding of visual objects as defined in the ISO/IEC 14496-2. There are three visual tools including</p>
-    Fast Motion Estimation;Fast Global Motion Estimation;Fast and Robust Sprite Generation.<p>There is an on-going effort lead by National Chiao Tung University to implement only simple profile encoder/decoder, which will appear in the future amendment of this document. The platform specific optimization is not currently addressed.</p>
+- content: "<p>ISO/IEC 14496-7:2002 specifies the encoding tools that both enhance
+    the execution and quality for the coding of visual objects as defined in the ISO/IEC
+    14496-2. There are three visual tools including</p><ul><li>Fast Motion Estimation;</li><li>Fast
+    Global Motion Estimation;</li><li>Fast and Robust Sprite Generation.</li></ul><p>There
+    is an on-going effort lead by National Chiao Tung University to implement only
+    simple profile encoder/decoder, which will appear in the future amendment of this
+    document. The platform specific optimization is not currently addressed.</p>"
   language:
   - en
   script:
@@ -127,19 +131,19 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

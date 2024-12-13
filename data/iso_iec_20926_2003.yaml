@@ -75,9 +75,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 20926:2003 specifies the International Function Point Users Group (IFPUG) Release 4.1 unadjusted Functional Size Measurement Method.</p><p>It provides:a clear and detailed description of function point counting;</p>
-    a foundation to ensure that counts are consistent;guidance to allow function point counting of Functional User Requirements from the deliverables of popular software development methodologies and techniques;a framework to enable automated support for function point counting.<p>The provisions of ISO/IEC 20926:2003 can be applied by anyone using function point analysis for software measurement. ISO/IEC 20926:2003 was designed for use by persons new to function point counting as well as those with intermediate and advanced experience.</p>
+- content: "<p>ISO/IEC 20926:2003 specifies the International Function Point Users
+    Group (IFPUG) Release 4.1 unadjusted Functional Size Measurement Method.</p><p>It
+    provides:a clear and detailed description of function point counting;</p><ul><li>a
+    foundation to ensure that counts are consistent;</li><li>guidance to allow function
+    point counting of Functional User Requirements from the deliverables of popular
+    software development methodologies and techniques;</li><li>a framework to enable
+    automated support for function point counting.</li></ul><p>The provisions of ISO/IEC
+    20926:2003 can be applied by anyone using function point analysis for software
+    measurement. ISO/IEC 20926:2003 was designed for use by persons new to function
+    point counting as well as those with intermediate and advanced experience.</p>"
   language:
   - en
   script:
@@ -101,19 +108,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '20926'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '20926'
+    type: IEC
+  price_code: iso:B

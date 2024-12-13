@@ -80,20 +80,20 @@ abstract:
     includes a machine-readable specification, in XML, of the types that comprise
     the standard libraries. This Technical Report, in companion files, provides the
     following items which help to form a traceable chain from the normative XML specification
-    to a portable, printable representation of its contents:</p><strong>Tool Source
-    Code:</strong> A program written in the C# programming language, XML Style-sheet
+    to a portable, printable representation of its contents:</p><ul><li><strong>Tool
+    Source Code:</strong> A program written in the C# programming language, XML Style-sheet
     Language (XSL), and using the facilities of the Microsoft.NET Framework(TM) and
     Microsoft Office(TM) to convert the XML into files viewable using Microsoft Word(TM).
     This program, provided by Intel Corporation, can be modified to produce other
-    views of the XML.<strong>Microsoft Word(TM) Files:</strong> These are the files
-    produced by running the tool mentioned above on the XML from Partition IV. The
-    Ecma task group TC39/TG3 used similar files (produced using earlier versions of
-    this tool run against earlier versions of the XML) as the primary means of reviewing
-    the XML.<strong>PDF(TM) Files:</strong>These files are produced from the Microsoft
-    Word(TM) files using the Adobe Acrobat(TM) program. They are viewable on a wide
-    range of computer systems and printable on a range of computer output devices.
-    In most cases, they will appear visually identical regardless of the means used
-    to render them."
+    views of the XML.</li><li><strong>Microsoft Word(TM) Files:</strong> These are
+    the files produced by running the tool mentioned above on the XML from Partition
+    IV. The Ecma task group TC39/TG3 used similar files (produced using earlier versions
+    of this tool run against earlier versions of the XML) as the primary means of
+    reviewing the XML.</li><li><strong>PDF(TM) Files:</strong>These files are produced
+    from the Microsoft Word(TM) files using the Adobe Acrobat(TM) program. They are
+    viewable on a wide range of computer systems and printable on a range of computer
+    output devices. In most cases, they will appear visually identical regardless
+    of the means used to render them.</li></ul>"
   language:
   - en
   script:
@@ -117,19 +117,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

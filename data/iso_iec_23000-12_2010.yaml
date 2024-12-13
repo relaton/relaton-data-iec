@@ -71,17 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23000-12:2010 specifies a file format designed for interactive music services. It integrates the multiple audio tracks with appropriate additional information for enabling users to experience various preset mixes and to make their own mixes complying with interactivity rules imposed by the producer.</p><p>It specifies</p>
-
-    a file type brand regarding relevant application area, and
-    a file structure, which is capable of storage with multiple audio tracks with the following:
-
-
-    group information on hierarchical structure of audio tracks;
-    preset which is predefined mixing information on multiple audio tracks;
-    rule which introduces specific data related to user's interaction;
-    timed text, image and metadata.
+- content: "<p>ISO/IEC 23000-12:2010 specifies a file format designed for interactive
+    music services. It integrates the multiple audio tracks with appropriate additional
+    information for enabling users to experience various preset mixes and to make
+    their own mixes complying with interactivity rules imposed by the producer.</p><p>It
+    specifies</p><ul><li>a file type brand regarding relevant application area, and</li><li>a
+    file structure, which is capable of storage with multiple audio tracks with the
+    following:</li></ul><ul><li>group information on hierarchical structure of audio
+    tracks;</li><li>preset which is predefined mixing information on multiple audio
+    tracks;</li><li>rule which introduces specific data related to user's interaction;</li><li>timed
+    text, image and metadata.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +104,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23000'
-  part: '12'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23000'
+    part: '12'
+    type: IEC
+  price_code: iso:D

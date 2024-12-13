@@ -61,37 +61,42 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18025:2014 provides mechanisms to specify unambiguously objects used to model environmental concepts. To accomplish this, a collection of nine EDCS dictionaries of environmental concepts are specified:</p>
-
-    classifications: specify the type of environmental objects;
-    attributes: specify the state of environmental objects;
-    attribute value characteristics: specify information concerning the values of attributes;
-    attribute enumerants: specify the allowable values for the state of an enumerated attribute;
-    units: specify quantitative measures of the state of some environmental objects;
-    unit scales: allow a wide range of numerical values to be stated;
-    unit equivalence classes: specify sets of units that are mutually comparable;
-    organizational schemas: useful for locating classifications and attributes sharing a common context; and
-    groups: into which concepts sharing a common context are collected.<p>A functional interface is also specified.</p><p>As denoting and encoding a concept requires a standard way of identifying the concept, ISO/IEC 18025:2014 specifies labels and codes in the dictionaries.</p><p>ISO/IEC 18025:2014 specifies environmental phenomena in categories that include, but are not limited to, the following:</p>
-
-    abstract concepts (e.g., absolute latitude accuracy, geodetic azimuth);
-    airborne particulates and aerosols (e.g., cloud, dust, fog, snow);
-    animals (e.g., civilian, fish, human, whale pod);
-    atmosphere and atmospheric conditions (e.g., air temperature, humidity, rain rate, sensible and latent heat, wind speed and direction);
-    bathymetric physiography (e.g., bar, channel, continental shelf, guyot, reef, seamount, waterbody floor region);
-    electromagnetic and acoustic phenomena (e.g., acoustic noise, frequency, polarization, sound speed profile, surface reflectivity);
-    equipment (e.g., aircraft, spacecraft, tent, train, vessel);
-    extraterrestrial phenomena (e.g., asteroid, comet, planet);
-    hydrology (e.g., lake, rapids, river, swamp);
-    ice (e.g., iceberg, ice field, ice peak, ice shelf, glacier);
-    man-made structures and their interiors (e.g., bridge, building, hallway, road, room, tower);
-    ocean and littoral surface phenomena (e.g., beach profile, current, surf, tide, wave);
-    ocean floor (e.g., coral, rock, sand);
-    oceanographic conditions (e.g., luminescence, salinity, specific gravity, turbidity, water current speed);
-    physiography (e.g., cliff, gorge, island, mountain, reef, strait, valley region);
-    space (e.g., charged particle species, ionospheric scintillation, magnetic field, particle density, solar flares);
-    surface materials (e.g., concrete, metal, paint, soil); and
-    vegetation (e.g., crop land, forest, grass land, kelp bed, tree).
+- content: "<p>ISO/IEC 18025:2014 provides mechanisms to specify unambiguously objects
+    used to model environmental concepts. To accomplish this, a collection of nine
+    EDCS dictionaries of environmental concepts are specified:</p><ol><li>classifications:
+    specify the type of environmental objects;</li><li>attributes: specify the state
+    of environmental objects;</li><li>attribute value characteristics: specify information
+    concerning the values of attributes;</li><li>attribute enumerants: specify the
+    allowable values for the state of an enumerated attribute;</li><li>units: specify
+    quantitative measures of the state of some environmental objects;</li><li>unit
+    scales: allow a wide range of numerical values to be stated;</li><li>unit equivalence
+    classes: specify sets of units that are mutually comparable;</li><li>organizational
+    schemas: useful for locating classifications and attributes sharing a common context;
+    and</li><li>groups: into which concepts sharing a common context are collected.</li></ol><p>A
+    functional interface is also specified.</p><p>As denoting and encoding a concept
+    requires a standard way of identifying the concept, ISO/IEC 18025:2014 specifies
+    labels and codes in the dictionaries.</p><p>ISO/IEC 18025:2014 specifies environmental
+    phenomena in categories that include, but are not limited to, the following:</p><ol><li>abstract
+    concepts (e.g., absolute latitude accuracy, geodetic azimuth);</li><li>airborne
+    particulates and aerosols (e.g., cloud, dust, fog, snow);</li><li>animals (e.g.,
+    civilian, fish, human, whale pod);</li><li>atmosphere and atmospheric conditions
+    (e.g., air temperature, humidity, rain rate, sensible and latent heat, wind speed
+    and direction);</li><li>bathymetric physiography (e.g., bar, channel, continental
+    shelf, guyot, reef, seamount, waterbody floor region);</li><li>electromagnetic
+    and acoustic phenomena (e.g., acoustic noise, frequency, polarization, sound speed
+    profile, surface reflectivity);</li><li>equipment (e.g., aircraft, spacecraft,
+    tent, train, vessel);</li><li>extraterrestrial phenomena (e.g., asteroid, comet,
+    planet);</li><li>hydrology (e.g., lake, rapids, river, swamp);</li><li>ice (e.g.,
+    iceberg, ice field, ice peak, ice shelf, glacier);</li><li>man-made structures
+    and their interiors (e.g., bridge, building, hallway, road, room, tower);</li><li>ocean
+    and littoral surface phenomena (e.g., beach profile, current, surf, tide, wave);</li><li>ocean
+    floor (e.g., coral, rock, sand);</li><li>oceanographic conditions (e.g., luminescence,
+    salinity, specific gravity, turbidity, water current speed);</li><li>physiography
+    (e.g., cliff, gorge, island, mountain, reef, strait, valley region);</li><li>space
+    (e.g., charged particle species, ionospheric scintillation, magnetic field, particle
+    density, solar flares);</li><li>surface materials (e.g., concrete, metal, paint,
+    soil); and</li><li>vegetation (e.g., crop land, forest, grass land, kelp bed,
+    tree).</li></ol>"
   language:
   - en
   script:
@@ -115,19 +120,19 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 24
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: '18025'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 24
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    project_number: '18025'
+    type: IEC
+  price_code: iso:ZZ

@@ -70,18 +70,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>This version of the specification models various details of the following objects of the media library for monitoring.</p>
-
-    Library
-    Drives
-    Changer Devices
-    Slots
-    IO Slots
-    SCSI Interfaces and SCSI and FC Target Ports
-    Physical Tapes
-    Physical Package
-    Magazines<p>In general, a CIM client can monitor the health and status of the above objects as well as get alert, status change and lifecycle CIM indications. In addition, a client can control the movement of media in a library using this specification.</p>
+- content: "<p>This version of the specification models various details of the following
+    objects of the media library for monitoring.</p><ul><li>Library</li><li>Drives</li><li>Changer
+    Devices</li><li>Slots</li><li>IO Slots</li><li>SCSI Interfaces and SCSI and FC
+    Target Ports</li><li>Physical Tapes</li><li>Physical Package</li><li>Magazines</li></ul><p>In
+    general, a CIM client can monitor the health and status of the above objects as
+    well as get alert, status change and lifecycle CIM indications. In addition, a
+    client can control the movement of media in a library using this specification.</p>"
   language:
   - en
   script:
@@ -105,20 +100,20 @@ copyright:
   from: '2021'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
-structuredidentifier:
-  project_number: '24775'
-  part: '8'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '24775'
+    part: '8'
+    type: IEC
+  price_code: iso:ZZ

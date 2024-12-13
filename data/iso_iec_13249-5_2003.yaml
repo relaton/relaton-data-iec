@@ -71,10 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 13249-5:2003:</p>
-    introduces the still image part of ISO/IEC 13249 (all parts);gives the references necessary for ISO/IEC 13249-5:2003;defines notations and conventions specific to ISO/IEC 13249-5:2003;defines concepts specific to ISO/IEC 13249-5:2003;defines the still image user-defined types and their associated routines.<p>The still image user-defined types defined in ISO/IEC 13249-5:2003 adhere to the following.</p>
-    A still image user-defined type is generic to image handling. It addresses the need to store, manage and retrieve information based on aspects of inherent image characteristics such as height, width and format and based on image features such as average color, color histogram, positional color and texture. It also addresses the need to employ manipulation such as rotation, scaling as well as similarity assessment.A still image user-defined type does not redefine the database language SQL directly or in combination with another still image data type.<p>The still image user-defined types are applicable to all different image formats. However, not all functionality can be used with all known still image formats.</p><p>An implementation of ISO/IEC 13249-5:2003 may exist in environments that also support information and content management, decision support, data mining and data warehousing systems.</p><p>Application areas addressed by implementations of ISO/IEC 13249-5:2003 include, but are not restricted to, graphics, multimedia, scientific research and medicine.</p>
+- content: "<p>ISO/IEC 13249-5:2003:</p><ul><li>introduces the still image part of
+    ISO/IEC 13249 (all parts);</li><li>gives the references necessary for ISO/IEC
+    13249-5:2003;</li><li>defines notations and conventions specific to ISO/IEC 13249-5:2003;</li><li>defines
+    concepts specific to ISO/IEC 13249-5:2003;</li><li>defines the still image user-defined
+    types and their associated routines.</li></ul><p>The still image user-defined
+    types defined in ISO/IEC 13249-5:2003 adhere to the following.</p><ul><li>A still
+    image user-defined type is generic to image handling. It addresses the need to
+    store, manage and retrieve information based on aspects of inherent image characteristics
+    such as height, width and format and based on image features such as average color,
+    color histogram, positional color and texture. It also addresses the need to employ
+    manipulation such as rotation, scaling as well as similarity assessment.</li><li>A
+    still image user-defined type does not redefine the database language SQL directly
+    or in combination with another still image data type.</li></ul><p>The still image
+    user-defined types are applicable to all different image formats. However, not
+    all functionality can be used with all known still image formats.</p><p>An implementation
+    of ISO/IEC 13249-5:2003 may exist in environments that also support information
+    and content management, decision support, data mining and data warehousing systems.</p><p>Application
+    areas addressed by implementations of ISO/IEC 13249-5:2003 include, but are not
+    restricted to, graphics, multimedia, scientific research and medicine.</p>"
   language:
   - en
   script:
@@ -98,20 +113,20 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '13249'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '13249'
+    part: '5'
+    type: IEC
+  price_code: iso:H

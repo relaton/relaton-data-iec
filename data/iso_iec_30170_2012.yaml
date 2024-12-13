@@ -70,13 +70,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 30170:2012 specifies the syntax and semantics of the computer programming language Ruby, and the requirements for conforming Ruby processors, strictly conforming Ruby programs, and conforming Ruby programs.</p><p>It does not specify</p>
-
-    the limit of size or complexity of a program text which a conforming processor evaluates,
-    the minimal requirements of a data processing system that is capable of supporting a conforming processor,
-    the method for activating the execution of programs on a data processing system, and
-    the method for reporting syntactic and runtime errors.
+- content: "<p>ISO/IEC 30170:2012 specifies the syntax and semantics of the computer
+    programming language Ruby, and the requirements for conforming Ruby processors,
+    strictly conforming Ruby programs, and conforming Ruby programs.</p><p>It does
+    not specify</p><ul><li>the limit of size or complexity of a program text which
+    a conforming processor evaluates,</li><li>the minimal requirements of a data processing
+    system that is capable of supporting a conforming processor,</li><li>the method
+    for activating the execution of programs on a data processing system, and</li><li>the
+    method for reporting syntactic and runtime errors.</li></ul>"
   language:
   - en
   script:
@@ -100,19 +101,19 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '30170'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '30170'
+    type: IEC
+  price_code: iso:H

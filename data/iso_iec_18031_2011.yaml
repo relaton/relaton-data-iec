@@ -70,12 +70,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18031:2011 specifies a conceptual model for a random bit generator for cryptographic purposes, together with the elements of this model.</p><p>ISO/IEC 18031:2011</p>
-
-    specifies the characteristics of the main elements required for a non-deterministic random bit generator,
-    specifies the characteristics of the main elements required for a deterministic random bit generator,
-    establishes the security requirements for both the non-deterministic and the deterministic random bit generator.<p>Where there is a requirement to produce sequences of random numbers from random bit strings, ISO/IEC 18031:2011 gives guidelines on how this can be performed.</p><p>Techniques for statistical testing of random bit generators for the purposes of independent verification or validation, and detailed designs for such generators, are outside the scope of ISO/IEC 18031:2011.</p>
+- content: "<p>ISO/IEC 18031:2011 specifies a conceptual model for a random bit generator
+    for cryptographic purposes, together with the elements of this model.</p><p>ISO/IEC
+    18031:2011</p><ul><li>specifies the characteristics of the main elements required
+    for a non-deterministic random bit generator,</li><li>specifies the characteristics
+    of the main elements required for a deterministic random bit generator,</li><li>establishes
+    the security requirements for both the non-deterministic and the deterministic
+    random bit generator.</li></ul><p>Where there is a requirement to produce sequences
+    of random numbers from random bit strings, ISO/IEC 18031:2011 gives guidelines
+    on how this can be performed.</p><p>Techniques for statistical testing of random
+    bit generators for the purposes of independent verification or validation, and
+    detailed designs for such generators, are outside the scope of ISO/IEC 18031:2011.</p>"
   language:
   - en
   script:
@@ -99,19 +104,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18031'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18031'
+    type: IEC
+  price_code: iso:H

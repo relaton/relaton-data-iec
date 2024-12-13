@@ -71,9 +71,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 15938-8:2002 forms an informative part of ISO/IEC 15938 on extraction and use of metadata descriptions for multimedia content.</p><p>ISO/IEC TR 15938-8:2002 provides two types of information:</p>
-    informative examples that illustrate the instantiation of description tools in creating descriptions conforming to ISO/IEC 15938, anddetailed technical information on extracting descriptions automatically from multimedia content and using them in multimedia applications.<p>ISO/IEC TR 15938-8:2002 is a companion for ISO/IEC 15938-3 (Visual) and ISO/IEC 15938-5 (Multimedia Description Schemes), which provide normative definitions of the description tools. Effort has been made in this Technical Report to preserve the subclause numbering of ISO/IEC 15938-3 and ISO/IEC 15938-5 to allow easy mapping of the information on extraction and use with those technical specifications.</p>
+- content: "<p>ISO/IEC TR 15938-8:2002 forms an informative part of ISO/IEC 15938
+    on extraction and use of metadata descriptions for multimedia content.</p><p>ISO/IEC
+    TR 15938-8:2002 provides two types of information:</p><ol><li>informative examples
+    that illustrate the instantiation of description tools in creating descriptions
+    conforming to ISO/IEC 15938, and</li><li>detailed technical information on extracting
+    descriptions automatically from multimedia content and using them in multimedia
+    applications.</li></ol><p>ISO/IEC TR 15938-8:2002 is a companion for ISO/IEC 15938-3
+    (Visual) and ISO/IEC 15938-5 (Multimedia Description Schemes), which provide normative
+    definitions of the description tools. Effort has been made in this Technical Report
+    to preserve the subclause numbering of ISO/IEC 15938-3 and ISO/IEC 15938-5 to
+    allow easy mapping of the information on extraction and use with those technical
+    specifications.</p>"
   language:
   - en
   script:
@@ -97,19 +106,19 @@ copyright:
   from: '2002'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:H

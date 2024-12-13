@@ -75,12 +75,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-25:2009 describes a model for connecting 3D Graphics Compression tools defined in ISO/IEC 14496 to graphics primitives defined in any other standard, specification or recommendation.</p><p>The goal of ISO/IEC 14496-25:2009 is to specify an architectural model able to accommodate</p>
-
-    third-party XML based description of scene graph and graphics primitives with
-    (potential) binarization tools and with
-    MPEG-4 3D Graphics Compression tools specified in ISO/IEC 14496-2, ISO/IEC 14496-11 and ISO/IEC 14496-16.
+- content: "<p>ISO/IEC 14496-25:2009 describes a model for connecting 3D Graphics
+    Compression tools defined in ISO/IEC 14496 to graphics primitives defined in any
+    other standard, specification or recommendation.</p><p>The goal of ISO/IEC 14496-25:2009
+    is to specify an architectural model able to accommodate</p><ul><li>third-party
+    XML based description of scene graph and graphics primitives with</li><li>(potential)
+    binarization tools and with</li><li>MPEG-4 3D Graphics Compression tools specified
+    in ISO/IEC 14496-2, ISO/IEC 14496-11 and ISO/IEC 14496-16.</li></ul>"
   language:
   - en
   script:
@@ -104,20 +105,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '14496'
-  part: '25'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '14496'
+    part: '25'
+    type: IEC
+  price_code: iso:B

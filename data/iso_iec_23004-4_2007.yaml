@@ -71,17 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 23004-4:2007 specifies the interfaces of the support application
+- content: <p>ISO/IEC 23004-4:2007 specifies the interfaces of the support application
     programming interface and the realization technology used for resource management
     in MPEG Multimedia Middleware (M3W). Resource management is an optional framework
-    for M3W platforms.</p><p>ISO/IEC 23004-4:2007 specifies</p>\n\nentities and interfaces
-    for resource budget creation, assignment and removal, \nentity and interfaces
-    for assessing the feasibility and selecting resource configurations (resource
-    configuration = set of assigned budgets), \ninterfaces implemented by quality-aware
-    entities (Quality-aware entities can provide multiple quality levels and know
-    the resource needed to provide each quality level.), \nentity and interfaces for
-    coordination of the \"budget--quality level\" negotiation (includes interfaces
-    for registration and setting priorities)."
+    for M3W platforms.</p><p>ISO/IEC 23004-4:2007 specifies</p><ul><li>entities and
+    interfaces for resource budget creation, assignment and removal,</li><li>entity
+    and interfaces for assessing the feasibility and selecting resource configurations
+    (resource configuration = set of assigned budgets),</li><li>interfaces implemented
+    by quality-aware entities (Quality-aware entities can provide multiple quality
+    levels and know the resource needed to provide each quality level.),</li><li>entity
+    and interfaces for coordination of the "budget--quality level" negotiation (includes
+    interfaces for registration and setting priorities).</li></ul>
   language:
   - en
   script:
@@ -105,20 +105,20 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23004'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23004'
+    part: '4'
+    type: IEC
+  price_code: iso:F

@@ -70,12 +70,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The Storage Management Technical Specification, Part 6 Fabric defines management profiles for Autonomous (top level) profiles for programs and devices whose central function is providing support for storage networking. This version of Storage Management Technical Specification, Part 6 Fabric includes these autonomous profiles:</p>
-
-    Fabric<br />This profile defines the model and functions of a storage network including topology and zoning control.
-    Switch<br />This profile defines the model and functions of a Fibre Channel Switch including state, status, and control of the device and it’s connections and product information,
-    Extender<br />This profile defines the model and functions of a networking device that allows for fibre channel to be extended over other networks, and specifically over IP (FCIP).
+- content: "<p>The Storage Management Technical Specification, Part 6 Fabric defines
+    management profiles for Autonomous (top level) profiles for programs and devices
+    whose central function is providing support for storage networking. This version
+    of Storage Management Technical Specification, Part 6 Fabric includes these autonomous
+    profiles:</p><ul><li>Fabric<br />This profile defines the model and functions
+    of a storage network including topology and zoning control.</li><li>Switch<br
+    />This profile defines the model and functions of a Fibre Channel Switch including
+    state, status, and control of the device and it’s connections and product information,</li><li>Extender<br
+    />This profile defines the model and functions of a networking device that allows
+    for fibre channel to be extended over other networks, and specifically over IP
+    (FCIP).</li></ul>"
   language:
   - en
   script:
@@ -99,20 +104,20 @@ copyright:
   from: '2021'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
-structuredidentifier:
-  project_number: '24775'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '24775'
+    part: '6'
+    type: IEC
+  price_code: iso:ZZ

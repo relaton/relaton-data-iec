@@ -64,12 +64,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The OCF Cloud specifications are divided into a series of documents:</p>
-
-    OCF Cloud security specification (this document): The cloud security specification document specifies the security recuirements and definitions for OCF devices and OCF clouds implementations.
-    OCF Device to Cloud Specification: The OCF Device to Cloud Specification document defines functional extensions and capabilities to meet the requirements of the OCF Cloud. This document specifies new Resource Types to enable the functionality and any extensions required to connect an OCF device to an OCF cloud.
-    OCF Cloud API for cloud services specification: The Cloud API for cloud services specification defines the OCF cloud API.
+- content: "<p>The OCF Cloud specifications are divided into a series of documents:</p><ul><li>OCF
+    Cloud security specification (this document): The cloud security specification
+    document specifies the security recuirements and definitions for OCF devices and
+    OCF clouds implementations.</li><li>OCF Device to Cloud Specification: The OCF
+    Device to Cloud Specification document defines functional extensions and capabilities
+    to meet the requirements of the OCF Cloud. This document specifies new Resource
+    Types to enable the functionality and any extensions required to connect an OCF
+    device to an OCF cloud.</li><li>OCF Cloud API for cloud services specification:
+    The Cloud API for cloud services specification defines the OCF cloud API.</li></ul>"
   language:
   - en
   script:
@@ -93,20 +96,20 @@ copyright:
   from: '2021'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
-structuredidentifier:
-  project_number: '30118'
-  part: '12'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '30118'
+    part: '12'
+    type: IEC
+  price_code: iso:ZZ

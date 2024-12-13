@@ -73,9 +73,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 17345:2006 specifies the mechanical, physical, and optical characteristics of a 130 mm optical disk cartridge (ODC) that employs thermo-optical Phase Change effects to enable data interchange between such disks.</p><p>It specifies two types:</p>
-    Type RW (Rewritable) provides for data to be written read and erased many times over the recording surfaces of the disk.Type WORM (Write Once Read Many) provides for data once written to be read a multiplicity of times. This type uses a Write Once Read Many times recording material (written marks cannot be erased and attempted modifications of the written marks are detectable). Multisession (incremental write operations) recording may be performed on Type WORM disks.
+- content: "<p>ISO/IEC 17345:2006 specifies the mechanical, physical, and optical
+    characteristics of a 130 mm optical disk cartridge (ODC) that employs thermo-optical
+    Phase Change effects to enable data interchange between such disks.</p><p>It specifies
+    two types:</p><ul><li>Type RW (Rewritable) provides for data to be written read
+    and erased many times over the recording surfaces of the disk.</li><li>Type WORM
+    (Write Once Read Many) provides for data once written to be read a multiplicity
+    of times. This type uses a Write Once Read Many times recording material (written
+    marks cannot be erased and attempted modifications of the written marks are detectable).
+    Multisession (incremental write operations) recording may be performed on Type
+    WORM disks.</li></ul>"
   language:
   - en
   script:
@@ -99,19 +106,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 23
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.220.30
-  text: Optical storage devices
-structuredidentifier:
-  project_number: '17345'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 23
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.220.30
+    text: Optical storage devices
+  structuredidentifier:
+    project_number: '17345'
+    type: IEC
+  price_code: iso:ZZ

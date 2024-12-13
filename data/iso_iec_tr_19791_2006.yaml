@@ -75,9 +75,23 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 19791:2006 provides guidance and criteria for the security evaluation of operational systems. It provides an extension to the scope of ISO/IEC 15408, by taking into account a number of critical aspects of operational systems not addressed in ISO/IEC 15408 evaluation. The principal extensions that are required address evaluation of the operational environment surrounding the target of evaluation, and the decomposition of complex operational systems into security domains that can be separately evaluated.</p><p>ISO/IEC TR 19791:2006 provides</p>
-    a definition and model for operational systems;a description of the extensions to ISO/IEC 15408 evaluation concepts needed to evaluate such operational systems;a methodology and process for performing the security evaluation of operational systems;additional security evaluation criteria to address those aspects of operational systems not covered by the ISO/IEC 15408 evaluation criteria.<p>ISO/IEC TR 19791:2006 permits the incorporation of security products evaluated against ISO/IEC 15408 into operational systems evaluated as a whole using ISO/IEC TR 19791:2006.</p><p>ISO/IEC TR 19791:2006 is limited to the security evaluation of operational systems and does not consider other forms of system assessment. It does not define techniques for the identification, assessment and acceptance of operational risk.</p>
+- content: "<p>ISO/IEC TR 19791:2006 provides guidance and criteria for the security
+    evaluation of operational systems. It provides an extension to the scope of ISO/IEC
+    15408, by taking into account a number of critical aspects of operational systems
+    not addressed in ISO/IEC 15408 evaluation. The principal extensions that are required
+    address evaluation of the operational environment surrounding the target of evaluation,
+    and the decomposition of complex operational systems into security domains that
+    can be separately evaluated.</p><p>ISO/IEC TR 19791:2006 provides</p><ul><li>a
+    definition and model for operational systems;</li><li>a description of the extensions
+    to ISO/IEC 15408 evaluation concepts needed to evaluate such operational systems;</li><li>a
+    methodology and process for performing the security evaluation of operational
+    systems;</li><li>additional security evaluation criteria to address those aspects
+    of operational systems not covered by the ISO/IEC 15408 evaluation criteria.</li></ul><p>ISO/IEC
+    TR 19791:2006 permits the incorporation of security products evaluated against
+    ISO/IEC 15408 into operational systems evaluated as a whole using ISO/IEC TR 19791:2006.</p><p>ISO/IEC
+    TR 19791:2006 is limited to the security evaluation of operational systems and
+    does not consider other forms of system assessment. It does not define techniques
+    for the identification, assessment and acceptance of operational risk.</p>"
   language:
   - en
   script:
@@ -101,19 +115,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

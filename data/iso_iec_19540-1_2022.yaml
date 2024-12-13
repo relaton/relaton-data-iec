@@ -71,14 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>There are four parts to this specification, two are normative and two informative. The normative parts are:</p>
-
-    The UAF Domain Metamodel (DMM) (this document) that provides the definition of concepts, relationships and viewpoints for the framework. The UAF DMM is the basis for any implementation of UAF including non-UML/SysML implementations.
-    The UAF Profile (UAFP) (see document dtc/19-06-15) is a UML/SysML implementation of the UAF DMM<p>The informative parts are:</p>
-
-    The UAF Traceability, Annex A (see document dtc/19-06-17), which details the mappings between the UAF and the various frameworks and languages that contribute to the UAF.
-    The UAF Example Model, Annex B (see document dtc/19-06-18), which illustrates a practical usage of UAF.
+- content: <p>There are four parts to this specification, two are normative and two
+    informative. The normative parts are:</p><ol><li>The UAF Domain Metamodel (DMM)
+    (this document) that provides the definition of concepts, relationships and viewpoints
+    for the framework. The UAF DMM is the basis for any implementation of UAF including
+    non-UML/SysML implementations.</li><li>The UAF Profile (UAFP) (see document dtc/19-06-15)
+    is a UML/SysML implementation of the UAF DMM</li></ol><p>The informative parts
+    are:</p><ol start="3"><li>The UAF Traceability, Annex A (see document dtc/19-06-17),
+    which details the mappings between the UAF and the various frameworks and languages
+    that contribute to the UAF.</li><li>The UAF Example Model, Annex B (see document
+    dtc/19-06-18), which illustrates a practical usage of UAF.</li></ol>
   language:
   - en
   script:
@@ -102,20 +104,20 @@ copyright:
   from: '2022'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.020'
-  text: Information technology (IT) in general
-structuredidentifier:
-  project_number: '19540'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    project_number: '19540'
+    part: '1'
+    type: IEC
+  price_code: iso:H

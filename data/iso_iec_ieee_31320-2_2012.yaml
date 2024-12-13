@@ -81,15 +81,15 @@ script:
 abstract:
 - content: "<p>ISO/IEC/IEEE 31320-2:2012 describes the semantics and syntax of IDEF1X,
     a language used to represent a conceptual schema. Two styles of IDEF1X model are
-    described.</p>\n\nThe<em>key style</em> is used to produce information models
+    described.</p><ol><li>The<em>key style</em> is used to produce information models
     that represent the structure and semantics of data within an enterprise and is
     backward-compatible with the US government's Federal Information Processing Standard
-    (FIPS) PUB 184, Integration Definition for Information Modeling (IDEF1X). \nThe<em>identity
+    (FIPS) PUB 184, Integration Definition for Information Modeling (IDEF1X).</li><li>The<em>identity
     style</em> is used to produce object models that represent the knowledge, behaviour,
     and rules of the concepts within an enterprise. It can be used as a growth path
     for key-style models. The identity style can, with suitable automation support,
     be used to develop a model that is an executable prototype of the target object-oriented
-    system."
+    system.</li></ol>"
   language:
   - en
   script:
@@ -118,20 +118,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '31320'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '31320'
+    part: '2'
+    type: IEC
+  price_code: iso:H

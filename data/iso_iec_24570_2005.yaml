@@ -77,9 +77,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24570:2004:</p>
-    specifies a method to measure functional size of software,gives guidelines how to determine the components of functional size of software,specifies how to calculate the functional size as aresult of the method, andgives guidelines for the application of the method.
+- content: "<p>ISO/IEC 24570:2004:</p><ul><li>specifies a method to measure functional
+    size of software,</li><li>gives guidelines how to determine the components of
+    functional size of software,</li><li>specifies how to calculate the functional
+    size as aresult of the method, and</li><li>gives guidelines for the application
+    of the method.</li></ul>"
   language:
   - en
   script:
@@ -103,19 +105,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '24570'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '24570'
+    type: IEC
+  price_code: iso:B

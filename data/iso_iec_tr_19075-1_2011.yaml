@@ -74,14 +74,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 19075-1:2011 describes the regular expression support in SQL adopted from the regular expression syntax of<em>XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)</em>, which is derived from Perl. It discusses five operators using this regular expression syntax:</p>
-
-    LIKE_REGEX predicate, to determine the existence of a match to a regular expression.
-    OCCURRENCES_REGEX numeric function, to determine the number of matches to a regular expression.
-    POSITION_REGEX function, to determine the position of a match.
-    SUBSTRING_REGEX function, to extract a substring matching a regular expression.
-    TRANSLATE_REGEX function, to perform replacements using a regular expression.
+- content: "<p>ISO/IEC TR 19075-1:2011 describes the regular expression support in
+    SQL adopted from the regular expression syntax of<em>XQuery 1.0 and XPath 2.0
+    Functions and Operators (Second Edition)</em>, which is derived from Perl. It
+    discusses five operators using this regular expression syntax:</p><ul><li>LIKE_REGEX
+    predicate, to determine the existence of a match to a regular expression.</li><li>OCCURRENCES_REGEX
+    numeric function, to determine the number of matches to a regular expression.</li><li>POSITION_REGEX
+    function, to determine the position of a match.</li><li>SUBSTRING_REGEX function,
+    to extract a substring matching a regular expression.</li><li>TRANSLATE_REGEX
+    function, to perform replacements using a regular expression.</li></ul>"
   language:
   - en
   script:
@@ -105,19 +106,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

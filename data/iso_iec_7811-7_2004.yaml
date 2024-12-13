@@ -75,9 +75,32 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7811-7(2004) is one of a series of International Standards describing the characteristics of identification cards. It is the purpose of ISO/IEC 7811-7 to provide criteria to which cards shall perform and to specify the requirements for such cards used for international interchange. It takes into consideration both human and machine aspects and states minimum requirements.</p><p>ISO/IEC 7811-7 specifies requirements for a high coercivity magnetic stripe (including any protective overlay) on an identification card, the encoding technique and coded character sets. This encoding technique provides for a card capacity of approximately 10 times that of a card conforming to ISO/IEC 7811-6. The number of tracks has been increased to six, each track being approximately half the width of tracks conforming to ISO/IEC 7811-6, located so that readers designed to read these high density tracks will also be able to read cards conforming to ISO/IEC 7811-2 and ISO/IEC 7811-6. Data is encoded in eight-bit bytes using the MFM encoding technique. Data framing is used to limit error propagation, and error correction techniques further improve reliability of reading.</p><p>ISO/IEC 7811-7 specifies:</p>
-    the conditions for conformance,physical characteristics for the card (warpage and surface distortions) and the magnetic stripe area (location, height and surface profile, roughness, adhesion, wear and resistance to chemicals),the signal amplitude performance characteristics of the magnetic stripe,the encoding specification including technique (MFM), angle of recording, bit density, flux transition spacing variation and signal amplitude,the data structure including track format, use of error correction techniques, user data capacity for ID-1, ID-2 and ID-3 size cards, and decoding techniques, andthe location of encoded tracks.<p>ISO/IEC 7811-7, together with a standard for test methods, provides for interchange between various types of identification card processing devices and systems.</p>
+- content: "<p>ISO/IEC 7811-7(2004) is one of a series of International Standards
+    describing the characteristics of identification cards. It is the purpose of ISO/IEC
+    7811-7 to provide criteria to which cards shall perform and to specify the requirements
+    for such cards used for international interchange. It takes into consideration
+    both human and machine aspects and states minimum requirements.</p><p>ISO/IEC
+    7811-7 specifies requirements for a high coercivity magnetic stripe (including
+    any protective overlay) on an identification card, the encoding technique and
+    coded character sets. This encoding technique provides for a card capacity of
+    approximately 10 times that of a card conforming to ISO/IEC 7811-6. The number
+    of tracks has been increased to six, each track being approximately half the width
+    of tracks conforming to ISO/IEC 7811-6, located so that readers designed to read
+    these high density tracks will also be able to read cards conforming to ISO/IEC
+    7811-2 and ISO/IEC 7811-6. Data is encoded in eight-bit bytes using the MFM encoding
+    technique. Data framing is used to limit error propagation, and error correction
+    techniques further improve reliability of reading.</p><p>ISO/IEC 7811-7 specifies:</p><ul><li>the
+    conditions for conformance,</li><li>physical characteristics for the card (warpage
+    and surface distortions) and the magnetic stripe area (location, height and surface
+    profile, roughness, adhesion, wear and resistance to chemicals),</li><li>the signal
+    amplitude performance characteristics of the magnetic stripe,</li><li>the encoding
+    specification including technique (MFM), angle of recording, bit density, flux
+    transition spacing variation and signal amplitude,</li><li>the data structure
+    including track format, use of error correction techniques, user data capacity
+    for ID-1, ID-2 and ID-3 size cards, and decoding techniques, and</li><li>the location
+    of encoded tracks.</li></ul><p>ISO/IEC 7811-7, together with a standard for test
+    methods, provides for interchange between various types of identification card
+    processing devices and systems.</p>"
   language:
   - en
   script:
@@ -101,20 +124,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7811'
-  part: '7'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7811'
+    part: '7'
+    type: IEC
+  price_code: iso:B

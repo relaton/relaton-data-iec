@@ -75,13 +75,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 8825-2:2008 specifies a set of Packed Encoding Rules that can be used to derive a transfer syntax for values of types defined in ISO/IEC 8824-1. These Packed Encoding Rules can also be applied for decoding such a transfer syntax in order to identify the data values being transferred. The encoding rules specified in ISO/IEC 8825-2:2008:</p>
-
-    are used at the time of communication;
-    are intended for use in circumstances where minimizing the size of the representation of values is the major concern in the choice of encoding rules;
-    allow the extension of an abstract syntax by addition of extra values, preserving the encodings of the existing values, for all forms of extension described in ISO/IEC 8824-1;
-    can be modified in accordance with the provisions of ISO/IEC 8825-6.
+- content: "<p>ISO/IEC 8825-2:2008 specifies a set of Packed Encoding Rules that can
+    be used to derive a transfer syntax for values of types defined in ISO/IEC 8824-1.
+    These Packed Encoding Rules can also be applied for decoding such a transfer syntax
+    in order to identify the data values being transferred. The encoding rules specified
+    in ISO/IEC 8825-2:2008:</p><ul><li>are used at the time of communication;</li><li>are
+    intended for use in circumstances where minimizing the size of the representation
+    of values is the major concern in the choice of encoding rules;</li><li>allow
+    the extension of an abstract syntax by addition of extra values, preserving the
+    encodings of the existing values, for all forms of extension described in ISO/IEC
+    8824-1;</li><li>can be modified in accordance with the provisions of ISO/IEC 8825-6.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +108,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.60
-  text: Presentation layer
-structuredidentifier:
-  project_number: '8825'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  structuredidentifier:
+    project_number: '8825'
+    part: '2'
+    type: IEC
+  price_code: iso:B

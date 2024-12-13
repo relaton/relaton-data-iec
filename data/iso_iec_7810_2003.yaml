@@ -67,9 +67,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7810:2003 is one of a series of standards describing the characteristics of identification cards. It is the purpose of ISO/IEC 7810:2003 to provide criteria to which cards shall perform and to specify the requirements for such cards used for international interchange. It takes into consideration both human and machine aspects and states minimum requirements.</p><p>ISO/IEC 7810:2003 specifies:</p>
-    four different sizes of identification cards with a nominal thickness of 0,76 mm and dimensions of: ID-000 25 mm x 15 mm, ID-1 85,60 mm x 53,98 mm, ID-2 105 mm x 74 mm, ID-3 125 mm x 88 mm;the conditions for conformance;the dimensions and tolerances of the identification cards;the construction and materials of the identification cards; andthe physical characteristics of the cards such as bending stiffness, flammability, toxicity, resistance to chemicals, dimensional stability, adhesion or blocking, warpage, resistance to heat, surface distortions, and contamination.<p>ISO/IEC 7810:2003, together with a standard for test methods, provides for interchange between various types of identification card processing devices and systems.</p>
+- content: "<p>ISO/IEC 7810:2003 is one of a series of standards describing the characteristics
+    of identification cards. It is the purpose of ISO/IEC 7810:2003 to provide criteria
+    to which cards shall perform and to specify the requirements for such cards used
+    for international interchange. It takes into consideration both human and machine
+    aspects and states minimum requirements.</p><p>ISO/IEC 7810:2003 specifies:</p><ul><li>four
+    different sizes of identification cards with a nominal thickness of 0,76 mm and
+    dimensions of:<ul><li> ID-000 25 mm x 15 mm,</li><li> ID-1 85,60 mm x 53,98 mm,</li><li>
+    ID-2 105 mm x 74 mm,</li><li> ID-3 125 mm x 88 mm;</li></ul></li><li>the conditions
+    for conformance;</li><li>the dimensions and tolerances of the identification cards;</li><li>the
+    construction and materials of the identification cards; and</li><li>the physical
+    characteristics of the cards such as bending stiffness, flammability, toxicity,
+    resistance to chemicals, dimensional stability, adhesion or blocking, warpage,
+    resistance to heat, surface distortions, and contamination.</li></ul><p>ISO/IEC
+    7810:2003, together with a standard for test methods, provides for interchange
+    between various types of identification card processing devices and systems.</p>"
   language:
   - en
   script:
@@ -93,19 +105,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7810'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7810'
+    type: IEC
+  price_code: iso:B

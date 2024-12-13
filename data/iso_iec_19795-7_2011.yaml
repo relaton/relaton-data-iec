@@ -71,25 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19795-7:2011 establishes a mechanism for measuring the core algorithmic capabilities of biometric comparison algorithms running on ISO/IEC 7816 integrated circuit cards. Specifically, ISO/IEC 19795-7:2011</p>
-
-    instantiates a mechanism for on-card biometric comparison testing;
-    standardizes procedures for the measurement of the accuracy of on-card biometric comparison implementations running on object-based, test-specific sample cards;
-    standardizes procedures for the measurement of durations of the various operations;
-    gives examples for matching ISO/IEC 19794-2:2005 compact card minutiae templates.<p>The following are specifically not within the scope of ISO/IEC 19795-7:2011:</p>
-
-    procedures for securing the communications channel, including cryptographic protection of the biometric templates;
-    procedures for protection of sample or template integrity using digital signatures;
-    authentication of the card and reader;
-    selection or use of transmission protocols (e.g. contactless);
-    profiles of specific data interchange standards;
-    procedures for evaluation of readers, including performance, conformance and interoperability;
-    procedures for evaluation of ruggedness or durability of the card;
-    on-card template generation (e.g. extraction of minutiae from images);
-    template update or adaptation;
-    formal conformance tests of ISO/IEC 7816-4 and ISO/IEC 7816-11;
-    testing of devices not conforming to ISO/IEC 7816, including all system-on-card devices.
+- content: "<p>ISO/IEC 19795-7:2011 establishes a mechanism for measuring the core
+    algorithmic capabilities of biometric comparison algorithms running on ISO/IEC
+    7816 integrated circuit cards. Specifically, ISO/IEC 19795-7:2011</p><ul><li>instantiates
+    a mechanism for on-card biometric comparison testing;</li><li>standardizes procedures
+    for the measurement of the accuracy of on-card biometric comparison implementations
+    running on object-based, test-specific sample cards;</li><li>standardizes procedures
+    for the measurement of durations of the various operations;</li><li>gives examples
+    for matching ISO/IEC 19794-2:2005 compact card minutiae templates.</li></ul><p>The
+    following are specifically not within the scope of ISO/IEC 19795-7:2011:</p><ul><li>procedures
+    for securing the communications channel, including cryptographic protection of
+    the biometric templates;</li><li>procedures for protection of sample or template
+    integrity using digital signatures;</li><li>authentication of the card and reader;</li><li>selection
+    or use of transmission protocols (e.g. contactless);</li><li>profiles of specific
+    data interchange standards;</li><li>procedures for evaluation of readers, including
+    performance, conformance and interoperability;</li><li>procedures for evaluation
+    of ruggedness or durability of the card;</li><li>on-card template generation (e.g.
+    extraction of minutiae from images);</li><li>template update or adaptation;</li><li>formal
+    conformance tests of ISO/IEC 7816-4 and ISO/IEC 7816-11;</li><li>testing of devices
+    not conforming to ISO/IEC 7816, including all system-on-card devices.</li></ul>"
   language:
   - en
   script:
@@ -113,20 +113,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 37
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '19795'
-  part: '7'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 37
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '19795'
+    part: '7'
+    type: IEC
+  price_code: iso:D

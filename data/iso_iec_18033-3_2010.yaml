@@ -76,9 +76,9 @@ abstract:
     block cipher is a symmetric encipherment system with the property that the encryption
     algorithm operates on a block of plaintext, i.e. a string of bits of a defined
     length, to yield a block of ciphertext.</p><p>ISO/IEC 18033-3:2010 specifies following
-    algorithms:</p>\n\n64-bit block ciphers: TDEA, MISTY1, CAST-128, HIGHT; \n128-bit
-    block ciphers: AES, Camellia, SEED.<p>NOTE The primary purpose of encryption (or
-    encipherment) techniques is to protect the confidentiality of stored or transmitted
+    algorithms:</p><ul><li>64-bit block ciphers: TDEA, MISTY1, CAST-128, HIGHT;</li><li>128-bit
+    block ciphers: AES, Camellia, SEED.</li></ul><p>NOTE The primary purpose of encryption
+    (or encipherment) techniques is to protect the confidentiality of stored or transmitted
     data. An encryption algorithm is applied to data (often called plaintext or cleartext)
     to yield encrypted data (or ciphertext); this process is known as encryption.
     The encryption algorithm needs to be designed so that the ciphertext yields no
@@ -108,20 +108,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18033'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18033'
+    part: '3'
+    type: IEC
+  price_code: iso:G

@@ -71,11 +71,10 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29192-3:2012 specifies two dedicated keystream generators for lightweight stream ciphers:</p>
-
-    Enocoro: a lightweight keystream generator with a key size of 80 or 128 bits;
-    Trivium: a lightweight keystream generator with a key size of 80 bits.
+- content: "<p>ISO/IEC 29192-3:2012 specifies two dedicated keystream generators for
+    lightweight stream ciphers:</p><ul><li>Enocoro: a lightweight keystream generator
+    with a key size of 80 or 128 bits;</li><li>Trivium: a lightweight keystream generator
+    with a key size of 80 bits.</li></ul>"
   language:
   - en
   script:
@@ -99,20 +98,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '29192'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '29192'
+    part: '3'
+    type: IEC
+  price_code: iso:D

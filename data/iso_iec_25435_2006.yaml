@@ -67,9 +67,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 25435:2006 specifies the mechanical, physical and optical characteristics of a 60 mm, read-only ODC having a maximum capacity of 1,8 Gbytes. It specifies the physical format, the quality of the recorded signals, the format of the data and its modulation method, thereby allowing for information interchange by means of such ODCs.</p><p>ISO/IEC 25435:2006 specifies two types of ODCs, Type A and Type B:</p>
-    Type A: Single layer disk with maximum recorded capacity of 0,9 G-bytes;Type B: Dual layer disk with maximum recorded capacity of 1,8 G-bytes.
+- content: "<p>ISO/IEC 25435:2006 specifies the mechanical, physical and optical characteristics
+    of a 60 mm, read-only ODC having a maximum capacity of 1,8 Gbytes. It specifies
+    the physical format, the quality of the recorded signals, the format of the data
+    and its modulation method, thereby allowing for information interchange by means
+    of such ODCs.</p><p>ISO/IEC 25435:2006 specifies two types of ODCs, Type A and
+    Type B:</p><ul><li>Type A: Single layer disk with maximum recorded capacity of
+    0,9 G-bytes;</li><li>Type B: Dual layer disk with maximum recorded capacity of
+    1,8 G-bytes.</li></ul>"
   language:
   - en
   script:
@@ -93,19 +98,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 23
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.220.30
-  text: Optical storage devices
-structuredidentifier:
-  project_number: '25435'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 23
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.220.30
+    text: Optical storage devices
+  structuredidentifier:
+    project_number: '25435'
+    type: IEC
+  price_code: iso:B

@@ -67,10 +67,37 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 8484:2007 specifies the characteristics and location of a magnetic stripe on a savingsbook and the use of such savingsbooks for international interchange. Compatibility with international interchange systems is provided through the requirements of ISO/IEC 8484:2007, enabling a savingsbook with a magnetic stripe to be read and possibly encoded in a device that is compatible with reading identification cards used in international interchange. It takes into consideration both human and machine aspects and states minimum requirements.</p><p>ISO/IEC 8484:2007 specifies requirements for a magnetic stripe (including any protective overlay) on a savingsbook, the encoding technique and coded character sets. It also specifies the characteristics of the savingsbook cover such as stiffness, minimum size, surface irregularities, roughness and interaction between the cover material and the magnetic stripe. Most of the magnetic characteristics are based on ISO/IEC 7811-2. The major changes from ISO 8484:1987 include the following.</p>
-    ISO/IEC 8484:2007 uses the same definitions, criteria and test methods as in ISO/IEC 7811-2. The reference material has changed from SRM 3200 to RM 7811/2. More complete requirements have been added for signal amplitude, flux transition spacing variation, magnetic stripe area surface profile and warpage. Classifications have been added for unused and returned savingsbooks. An optional high coercivity magnetic stripe has been added based on ISO/IEC 7811-6 and RM 7811/6.<p>Because savingsbooks are generally paper-based documents, some criteria and test methods have been taken from ISO/IEC 15457-2.</p><p>ISO/IEC 8484:2007 specifies</p>
-    the conditions for conformance;physical characteristics for the savingsbook (warpage, surface distortions, and stiffness) and the magnetic stripe area (location, height and surface profile, roughness, adhesion, wear, and resistance to environment),the signal amplitude performance characteristics of the magnetic stripe;the encoding specification, including technique, angle of recording, bit density, flux transition spacing variation, and signal amplitude;the data structure, including track format, coded character sets and use of error correction;the location of the encoded track.<p>ISO/IEC 8484:2007, together with a standard for test methods, provides for interchange between various types of savingsbook processing devices and systems.</p>
+- content: "<p>ISO/IEC 8484:2007 specifies the characteristics and location of a magnetic
+    stripe on a savingsbook and the use of such savingsbooks for international interchange.
+    Compatibility with international interchange systems is provided through the requirements
+    of ISO/IEC 8484:2007, enabling a savingsbook with a magnetic stripe to be read
+    and possibly encoded in a device that is compatible with reading identification
+    cards used in international interchange. It takes into consideration both human
+    and machine aspects and states minimum requirements.</p><p>ISO/IEC 8484:2007 specifies
+    requirements for a magnetic stripe (including any protective overlay) on a savingsbook,
+    the encoding technique and coded character sets. It also specifies the characteristics
+    of the savingsbook cover such as stiffness, minimum size, surface irregularities,
+    roughness and interaction between the cover material and the magnetic stripe.
+    Most of the magnetic characteristics are based on ISO/IEC 7811-2. The major changes
+    from ISO 8484:1987 include the following.</p><ul><li>ISO/IEC 8484:2007 uses the
+    same definitions, criteria and test methods as in ISO/IEC 7811-2.</li><li>The
+    reference material has changed from SRM 3200 to RM 7811/2.</li><li>More complete
+    requirements have been added for signal amplitude, flux transition spacing variation,
+    magnetic stripe area surface profile and warpage.</li><li>Classifications have
+    been added for unused and returned savingsbooks.</li><li>An optional high coercivity
+    magnetic stripe has been added based on ISO/IEC 7811-6 and RM 7811/6.</li></ul><p>Because
+    savingsbooks are generally paper-based documents, some criteria and test methods
+    have been taken from ISO/IEC 15457-2.</p><p>ISO/IEC 8484:2007 specifies</p><ul><li>the
+    conditions for conformance;</li><li>physical characteristics for the savingsbook
+    (warpage, surface distortions, and stiffness) and the magnetic stripe area (location,
+    height and surface profile, roughness, adhesion, wear, and resistance to environment),</li><li>the
+    signal amplitude performance characteristics of the magnetic stripe;</li><li>the
+    encoding specification, including technique, angle of recording, bit density,
+    flux transition spacing variation, and signal amplitude;</li><li>the data structure,
+    including track format, coded character sets and use of error correction;</li><li>the
+    location of the encoded track.</li></ul><p>ISO/IEC 8484:2007, together with a
+    standard for test methods, provides for interchange between various types of savingsbook
+    processing devices and systems.</p>"
   language:
   - en
   script:
@@ -94,19 +121,19 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.40
-  text: IT applications in banking
-structuredidentifier:
-  project_number: '8484'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.40
+    text: IT applications in banking
+  structuredidentifier:
+    project_number: '8484'
+    type: IEC
+  price_code: iso:B

@@ -71,9 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-19:2004 specifies the transmission of synthesized texture data as part of the MPEG-4 encoded audio-visual presentation. More specifically, it defines:</p>
-    The data structures of synthesized texture;The animation methods of synthesized textures; andThe coded representation of synthesized texture data streams.<p>Synthesized texture streams are used for creation of very low bit rate synthetic video clips. Synthesized texture clips are built using key frame based animations of skeletons that affect photorealistic textures whose color information is modeled by equations.</p>
+- content: "<p>ISO/IEC 14496-19:2004 specifies the transmission of synthesized texture
+    data as part of the MPEG-4 encoded audio-visual presentation. More specifically,
+    it defines:</p><ul><li>The data structures of synthesized texture;</li><li>The
+    animation methods of synthesized textures; and</li><li>The coded representation
+    of synthesized texture data streams.</li></ul><p>Synthesized texture streams are
+    used for creation of very low bit rate synthetic video clips. Synthesized texture
+    clips are built using key frame based animations of skeletons that affect photorealistic
+    textures whose color information is modeled by equations.</p>"
   language:
   - en
   script:
@@ -97,20 +102,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '14496'
-  part: '19'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '14496'
+    part: '19'
+    type: IEC
+  price_code: iso:H

@@ -63,19 +63,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>This document</p>
-
-    specifies the architecture of the UCS;
-    defines terms used for the UCS;
-    describes the general structure of the UCS codespace;
-    specifies the assigned planes of the UCS: the Basic Multilingual Plane (BMP) of the UCS, the Supplementary Multilingual Plane (SMP), the Supplementary Ideographic Plane (SIP), the Tertiary Ideographic Plane (TIP), and the Supplementary Special-purpose Plane (SSP);
-    defines a set of graphic characters used in scripts and the written form of languages on a world-wide scale;
-    specifies the names for the graphic characters and format characters of the BMP, SMP, SIP, TIP, SSP and their coded representations within the UCS codespace;
-    specifies the coded representations for control characters and private use characters;
-    specifies three encoding forms of the UCS: UTF-8, UTF-16, and UTF-32;
-    specifies seven encoding schemes of the UCS: UTF-8, UTF-16, UTF-16BE, UTF-16LE, UTF-32, UTF-32BE, and UTF-32LE;
-    specifies the management of future additions to this coded character set.<p>NOTE The determination of suitability of these characters for use as identifiers in programming languages is not specified by this document but can be found in an external reference. See Annex U.</p>
+- content: "<p>This document</p><ul><li>specifies the architecture of the UCS;</li><li>defines
+    terms used for the UCS;</li><li>describes the general structure of the UCS codespace;</li><li>specifies
+    the assigned planes of the UCS: the Basic Multilingual Plane (BMP) of the UCS,
+    the Supplementary Multilingual Plane (SMP), the Supplementary Ideographic Plane
+    (SIP), the Tertiary Ideographic Plane (TIP), and the Supplementary Special-purpose
+    Plane (SSP);</li><li>defines a set of graphic characters used in scripts and the
+    written form of languages on a world-wide scale;</li><li>specifies the names for
+    the graphic characters and format characters of the BMP, SMP, SIP, TIP, SSP and
+    their coded representations within the UCS codespace;</li><li>specifies the coded
+    representations for control characters and private use characters;</li><li>specifies
+    three encoding forms of the UCS: UTF-8, UTF-16, and UTF-32;</li><li>specifies
+    seven encoding schemes of the UCS: UTF-8, UTF-16, UTF-16BE, UTF-16LE, UTF-32,
+    UTF-32BE, and UTF-32LE;</li><li>specifies the management of future additions to
+    this coded character set.</li></ul><p>NOTE The determination of suitability of
+    these characters for use as identifiers in programming languages is not specified
+    by this document but can be found in an external reference. See Annex U.</p>"
   language:
   - en
   script:
@@ -99,19 +102,19 @@ copyright:
   from: '2020'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 2
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.10
-  text: Coding of character sets
-structuredidentifier:
-  project_number: '10646'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 2
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.10
+    text: Coding of character sets
+  structuredidentifier:
+    project_number: '10646'
+    type: IEC
+  price_code: iso:ZZ

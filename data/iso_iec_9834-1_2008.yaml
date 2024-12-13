@@ -77,16 +77,26 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9834-1:2008:</p>
-
-     specifies a registration-hierarchical-name-tree (RH-name-tree) which is a generic tree structure for allocations made by a hierarchical structure of Registration Authorities, and the specific form of this that supports the ASN.1<strong>OBJECT IDENTIFIER</strong>type and the ASN.1<strong>OID-IRI</strong>type (ISO/IEC 8824-1);
-     registers top-level arcs of the international object identifier tree;
-     specifies procedures which are generally applicable to registration in the context of any RH-name-tree;
-     provides guidelines for the establishment and operation of International Registration Authorities for use, when needed, by other ITU-T Recommendations and/or International Standards;
-     provides guidelines for additional International Standards which choose to reference the procedures in ISO/IEC 9834-1:2008;
-     provides a recommended fee structure for lower-level Registration Authorities;
-     records the information provided to IETF and the registration with IANA of the "oid" IRI scheme.<p>It does not exclude or disallow the use of any syntactic form of names or naming domains for registration purposes. It is intended to cover those cases where a registration-hierarchical-name is an appropriate form of identification.</p><p>Information about registration for specific objects is contained in separate International Standards.</p><p>ISO/IEC 9834-1:2008 applies to registration by ITU-T Recommendations and/or International Standards, by International Registration Authorities and by any other Registration Authority.</p>
+- content: <p>ISO/IEC 9834-1:2008:</p><ol><li> specifies a registration-hierarchical-name-tree
+    (RH-name-tree) which is a generic tree structure for allocations made by a hierarchical
+    structure of Registration Authorities, and the specific form of this that supports
+    the ASN.1<strong>OBJECT IDENTIFIER</strong>type and the ASN.1<strong>OID-IRI</strong>type
+    (ISO/IEC 8824-1);</li><li> registers top-level arcs of the international object
+    identifier tree;</li><li> specifies procedures which are generally applicable
+    to registration in the context of any RH-name-tree;</li><li> provides guidelines
+    for the establishment and operation of International Registration Authorities
+    for use, when needed, by other ITU-T Recommendations and/or International Standards;</li><li>
+    provides guidelines for additional International Standards which choose to reference
+    the procedures in ISO/IEC 9834-1:2008;</li><li> provides a recommended fee structure
+    for lower-level Registration Authorities;</li><li> records the information provided
+    to IETF and the registration with IANA of the "oid" IRI scheme.</li></ol><p>It
+    does not exclude or disallow the use of any syntactic form of names or naming
+    domains for registration purposes. It is intended to cover those cases where a
+    registration-hierarchical-name is an appropriate form of identification.</p><p>Information
+    about registration for specific objects is contained in separate International
+    Standards.</p><p>ISO/IEC 9834-1:2008 applies to registration by ITU-T Recommendations
+    and/or International Standards, by International Registration Authorities and
+    by any other Registration Authority.</p>
   language:
   - en
   script:
@@ -110,20 +120,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.01
-  text: Open systems interconnection in general
-structuredidentifier:
-  project_number: '9834'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  structuredidentifier:
+    project_number: '9834'
+    part: '1'
+    type: IEC
+  price_code: iso:B

@@ -71,9 +71,19 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 21000-10:2006 specifies the syntax and semantics of tools that may be used to process Digital Items.</p><p>ISO/IEC 21000-10:2006 specifies:</p>
-    Digital Item Methods: Tools enabling users to include sequences of instructions for adding predefined functionality to a Digital Item. Digital Item Methods are authored with the Digital Item Method Language, an extension of ECMAScript language (ISO/IEC 16262), which includes a normative set of Digital Item Base Operations. The predefined functionality specified by a Digital Item Method provides a suggested interaction between a User and the Digital Item. Digital Item eXtension Operations: Provide for extended functionality not included by the normative set of Digital Item Base Operations to be implemented efficiently in a higher level programming lanuage. Linkage with ISO/IEC 21000-2: Tools for integrating Digital Item Methods and Digital Item eXtension Operations with Digital Item Declarations (as specified by ISO/IEC 21000-2).
+- content: "<p>ISO/IEC 21000-10:2006 specifies the syntax and semantics of tools that
+    may be used to process Digital Items.</p><p>ISO/IEC 21000-10:2006 specifies:</p><ul><li>Digital
+    Item Methods: Tools enabling users to include sequences of instructions for adding
+    predefined functionality to a Digital Item. Digital Item Methods are authored
+    with the Digital Item Method Language, an extension of ECMAScript language (ISO/IEC
+    16262), which includes a normative set of Digital Item Base Operations. The predefined
+    functionality specified by a Digital Item Method provides a suggested interaction
+    between a User and the Digital Item.</li><li>Digital Item eXtension Operations:
+    Provide for extended functionality not included by the normative set of Digital
+    Item Base Operations to be implemented efficiently in a higher level programming
+    lanuage.</li><li>Linkage with ISO/IEC 21000-2: Tools for integrating Digital Item
+    Methods and Digital Item eXtension Operations with Digital Item Declarations (as
+    specified by ISO/IEC 21000-2).</li></ul>"
   language:
   - en
   script:
@@ -97,20 +107,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '21000'
-  part: '10'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '21000'
+    part: '10'
+    type: IEC
+  price_code: iso:H

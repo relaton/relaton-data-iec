@@ -94,9 +94,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15444-5:2003 provides two independently created software reference implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC 15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set of lossless and lossy compression methods for coding continuous-tone, bi-level, greyscale or colour digital still images.</p><p>The reference software is informative only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000 image coding system.</p><p>Each version of the reference software contains source code, which may be compiled to provide the following functionality:</p>
-    transcoding from selected, widely available image formats into a JPEG 2000 codestream; transcoding from selected, widely available image formats into the JP2 file format;selection of a wide range of JPEG 2000 encoding options (as documented in each reference software);decoding from a JPEG 2000 codestream to a range of selected widely available image formats;partial processing of a JP2 file to extract a JPEG 2000 codestream for decoding to a range of selected widely available image formats (Note that the reference software does not implement a conforming JP2 file reader.);some additional tools to help with evaluation and testing.
+- content: "<p>ISO/IEC 15444-5:2003 provides two independently created software reference
+    implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC
+    15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set
+    of lossless and lossy compression methods for coding continuous-tone, bi-level,
+    greyscale or colour digital still images.</p><p>The reference software is informative
+    only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000
+    image coding system.</p><p>Each version of the reference software contains source
+    code, which may be compiled to provide the following functionality:</p><ul><li>transcoding
+    from selected, widely available image formats into a JPEG 2000 codestream;</li><li>transcoding
+    from selected, widely available image formats into the JP2 file format;</li><li>selection
+    of a wide range of JPEG 2000 encoding options (as documented in each reference
+    software);</li><li>decoding from a JPEG 2000 codestream to a range of selected
+    widely available image formats;</li><li>partial processing of a JP2 file to extract
+    a JPEG 2000 codestream for decoding to a range of selected widely available image
+    formats (Note that the reference software does not implement a conforming JP2
+    file reader.);</li><li>some additional tools to help with evaluation and testing.</li></ul>"
   language:
   - en
   script:
@@ -143,20 +156,20 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '15444'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '15444'
+    part: '5'
+    type: IEC
+  price_code: iso:B

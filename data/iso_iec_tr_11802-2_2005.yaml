@@ -77,9 +77,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 11802-2:2005 provides:</p>
-    A description of the Binary and Hexadecimal Representation of ISO/IEC 8802 LAN MAC addresses; andA description of the subdivision of the Universally Administered Standard Group MAC Address Block into: ISO/IEC 10038 MAC Bridge Filtered MAC Group Addresses and Standard MAC Group Addresses.
+- content: "<p>ISO/IEC TR 11802-2:2005 provides:</p><ul><li>A description of the Binary
+    and Hexadecimal Representation of ISO/IEC 8802 LAN MAC addresses; and</li><li>A
+    description of the subdivision of the Universally Administered Standard Group
+    MAC Address Block into: ISO/IEC 10038 MAC Bridge Filtered MAC Group Addresses
+    and Standard MAC Group Addresses.</li></ul>"
   language:
   - en
   script:
@@ -103,19 +105,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.110'
-  text: Networking
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

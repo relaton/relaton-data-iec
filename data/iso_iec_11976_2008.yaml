@@ -77,19 +77,31 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 11976:2008 specifies the mechanical, physical, and optical characteristics of a 130 mm optical disk cartridge (ODC) that employs thermo-optical Phase Change effects to enable data interchange between such disks.</p><p>ISO/IEC 11976:2008 specifies two types of disk.</p>
-
-    Type RW (Rewritable) provides for data to be written, read and erased many times over the recording surfaces of the disk.
-    Type WORM (Write Once Read Many) provides for data once written to be read a multiplicity of times. This type uses a Write Once Read Many times recording material (written marks cannot be erased and attempted modifications of the written marks are detectable). Multisession (incremental write operations) recording may be performed on Type WORM disks.<p>The disk is two-sided with a nominal capacity of 30,0 Gbytes per side and the cartridge (two sides) provides a nominal capacity of 60,0 Gbytes.</p><p>ISO/IEC 11976:2008 specifies the following:</p>
-
-    the conditions for conformance testing and the Reference Drive;
-    the environments in which the cartridges are to be operated and stored;
-    the mechanical, physical and dimensional characteristics of the cartridge so as to provide mechanical interchangeability between data processing systems;
-    the format of the information on the disk, both embossed and user-written, including the physical disposition of the tracks and sectors, the error correction codes, the modulation methods used;
-    the characteristics of the embossed information on the disk;
-    the thermo-optical characteristics of the disk, enabling processing systems to write data onto the disk;
-    the minimum quality of user-written data on the disk, enabling data processing systems to read data from the disk.<p>ISO/IEC 11976:2008 provides for interchange between optical disk drives. Together with a standard for volume and file structure, it provides for full data interchange between data processing systems.</p>
+- content: "<p>ISO/IEC 11976:2008 specifies the mechanical, physical, and optical
+    characteristics of a 130 mm optical disk cartridge (ODC) that employs thermo-optical
+    Phase Change effects to enable data interchange between such disks.</p><p>ISO/IEC
+    11976:2008 specifies two types of disk.</p><ul><li>Type RW (Rewritable) provides
+    for data to be written, read and erased many times over the recording surfaces
+    of the disk.</li><li>Type WORM (Write Once Read Many) provides for data once written
+    to be read a multiplicity of times. This type uses a Write Once Read Many times
+    recording material (written marks cannot be erased and attempted modifications
+    of the written marks are detectable). Multisession (incremental write operations)
+    recording may be performed on Type WORM disks.</li></ul><p>The disk is two-sided
+    with a nominal capacity of 30,0 Gbytes per side and the cartridge (two sides)
+    provides a nominal capacity of 60,0 Gbytes.</p><p>ISO/IEC 11976:2008 specifies
+    the following:</p><ul><li>the conditions for conformance testing and the Reference
+    Drive;</li><li>the environments in which the cartridges are to be operated and
+    stored;</li><li>the mechanical, physical and dimensional characteristics of the
+    cartridge so as to provide mechanical interchangeability between data processing
+    systems;</li><li>the format of the information on the disk, both embossed and
+    user-written, including the physical disposition of the tracks and sectors, the
+    error correction codes, the modulation methods used;</li><li>the characteristics
+    of the embossed information on the disk;</li><li>the thermo-optical characteristics
+    of the disk, enabling processing systems to write data onto the disk;</li><li>the
+    minimum quality of user-written data on the disk, enabling data processing systems
+    to read data from the disk.</li></ul><p>ISO/IEC 11976:2008 provides for interchange
+    between optical disk drives. Together with a standard for volume and file structure,
+    it provides for full data interchange between data processing systems.</p>"
   language:
   - en
   script:
@@ -113,19 +125,19 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 23
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.220.30
-  text: Optical storage devices
-structuredidentifier:
-  project_number: '11976'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 23
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.220.30
+    text: Optical storage devices
+  structuredidentifier:
+    project_number: '11976'
+    type: IEC
+  price_code: iso:B

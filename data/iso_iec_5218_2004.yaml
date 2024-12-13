@@ -82,9 +82,33 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 5218:2004 specifies a uniform representation of human sexes for the interchange of information. It provides a set of numeric codes that are independent of language-derived codes and as such is intended to provide a common basis for the international exchange of information containing human sex data.</p><p>In providing numeric codes for the representation of human sexes, ISO/IEC 5218:2004 aims to:</p>
-    reduce the time required to record, format, and transmit the information;improved the integrity, clarity and accuracy of the interchanged information;minimize the amount of human intervention required for communicating the information; and,reduce costs related to the use and exchange of the information.<p>As such, ISO/IEC 5218:2004 meets the requirements of most applications that need to code human sexes.</p><p>ISO/IEC 5218:2004, however, does not supplant national standards for coding sexes based on codes derived from names of sexes in various languages, nor does it provide codes for sexes that may be required in specific medical or scientific applications or in applications that need to code information on sex other than for human beings.</p><p>Annex A provides an illustrative and easy to understand example for addressing how the three strategic directions of ISO/IEC JTC1, namely "portability", "interoperability", and "cultural adaptability", can inter-work. The rise in the use of the Internet underscores the validity for the need of such an approach.</p><p>Annex A also provides an example of unique unambiguous referencing and identification of a semantic component: (1) among heterogeneous IT systems, i.e., at the IT interface; and, (2) with multiple human interface equivalents, be they of a linguistic, symbolic, multimedia, etc., nature. This human interface also includes the provision for the requirements for the disabled using Braille, Bliss, etc.</p><p>Annex A concludes with a representation, in XML, of the multiple human interface (linguistic) equivalents for the four numeric codes of ISO/IEC 5218:2004, focusing on the different languages of countries participating in the work of ISO/IEC JTC1/SC32.</p>
+- content: '<p>ISO/IEC 5218:2004 specifies a uniform representation of human sexes
+    for the interchange of information. It provides a set of numeric codes that are
+    independent of language-derived codes and as such is intended to provide a common
+    basis for the international exchange of information containing human sex data.</p><p>In
+    providing numeric codes for the representation of human sexes, ISO/IEC 5218:2004
+    aims to:</p><ul><li>reduce the time required to record, format, and transmit the
+    information;</li><li>improved the integrity, clarity and accuracy of the interchanged
+    information;</li><li>minimize the amount of human intervention required for communicating
+    the information; and,</li><li>reduce costs related to the use and exchange of
+    the information.</li></ul><p>As such, ISO/IEC 5218:2004 meets the requirements
+    of most applications that need to code human sexes.</p><p>ISO/IEC 5218:2004, however,
+    does not supplant national standards for coding sexes based on codes derived from
+    names of sexes in various languages, nor does it provide codes for sexes that
+    may be required in specific medical or scientific applications or in applications
+    that need to code information on sex other than for human beings.</p><p>Annex
+    A provides an illustrative and easy to understand example for addressing how the
+    three strategic directions of ISO/IEC JTC1, namely "portability", "interoperability",
+    and "cultural adaptability", can inter-work. The rise in the use of the Internet
+    underscores the validity for the need of such an approach.</p><p>Annex A also
+    provides an example of unique unambiguous referencing and identification of a
+    semantic component: (1) among heterogeneous IT systems, i.e., at the IT interface;
+    and, (2) with multiple human interface equivalents, be they of a linguistic, symbolic,
+    multimedia, etc., nature. This human interface also includes the provision for
+    the requirements for the disabled using Braille, Bliss, etc.</p><p>Annex A concludes
+    with a representation, in XML, of the multiple human interface (linguistic) equivalents
+    for the four numeric codes of ISO/IEC 5218:2004, focusing on the different languages
+    of countries participating in the work of ISO/IEC JTC1/SC32.</p>'
   language:
   - en
   script:
@@ -145,19 +169,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '5218'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '5218'
+    type: IEC
+  price_code: iso:B

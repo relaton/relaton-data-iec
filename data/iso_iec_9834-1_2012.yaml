@@ -73,15 +73,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9834-1:2012:</p>
-
-    specifies a tree structure for allocations made by a hierarchical structure of Registration Authorities, called the international object identifier (OID) tree, which supports the ASN.1 OBJECT IDENTIFIER type and the ASN.1 OID-IRI type (ISO/IEC 8824-1);
-    registers top-level arcs of the international OID tree;
-    specifies procedures which are generally applicable to registration at any level of the international OID tree;
-    provides guidelines for the establishment and operation of International Registration Authorities for use, when needed, by other ITU-T Recommendations and/or International Standards;
-    provides guidelines for additional ITU-T Recommendations and/or International Standards which choose to reference the procedures in ISO/IEC 9834-1:2012;
-    provides a recommended fee structure for lower-level Registration Authorities.<p>Information about registration for specific objects is contained in separate ITU-T Recommendations and/or International Standards.</p><p>ISO/IEC 9834-1:2012 applies to registration by ITU-T Recommendations and/or International Standards, by International Registration Authorities, and by any other Registration Authority.</p>
+- content: "<p>ISO/IEC 9834-1:2012:</p><ol><li>specifies a tree structure for allocations
+    made by a hierarchical structure of Registration Authorities, called the international
+    object identifier (OID) tree, which supports the ASN.1 OBJECT IDENTIFIER type
+    and the ASN.1 OID-IRI type (ISO/IEC 8824-1);</li><li>registers top-level arcs
+    of the international OID tree;</li><li>specifies procedures which are generally
+    applicable to registration at any level of the international OID tree;</li><li>provides
+    guidelines for the establishment and operation of International Registration Authorities
+    for use, when needed, by other ITU-T Recommendations and/or International Standards;</li><li>provides
+    guidelines for additional ITU-T Recommendations and/or International Standards
+    which choose to reference the procedures in ISO/IEC 9834-1:2012;</li><li>provides
+    a recommended fee structure for lower-level Registration Authorities.</li></ol><p>Information
+    about registration for specific objects is contained in separate ITU-T Recommendations
+    and/or International Standards.</p><p>ISO/IEC 9834-1:2012 applies to registration
+    by ITU-T Recommendations and/or International Standards, by International Registration
+    Authorities, and by any other Registration Authority.</p>"
   language:
   - en
   script:
@@ -105,20 +111,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.01
-  text: Open systems interconnection in general
-structuredidentifier:
-  project_number: '9834'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  structuredidentifier:
+    project_number: '9834'
+    part: '1'
+    type: IEC
+  price_code: iso:D

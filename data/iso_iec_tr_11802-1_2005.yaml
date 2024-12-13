@@ -79,9 +79,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 11802-1:2005 provides:</p>
-    a description of the ISO/IEC 8802-2 LLC addressing conventions, andthe consideration for the manner in which new LLC address uses are assigned a value.<p>It is outside the scope of this TR to provide architectural judgements regarding the entities which are identified by particular address value(s).</p>
+- content: "<p>ISO/IEC TR 11802-1:2005 provides:</p><ul><li>a description of the ISO/IEC
+    8802-2 LLC addressing conventions, and</li><li>the consideration for the manner
+    in which new LLC address uses are assigned a value.</li></ul><p>It is outside
+    the scope of this TR to provide architectural judgements regarding the entities
+    which are identified by particular address value(s).</p>"
   language:
   - en
   script:
@@ -105,19 +107,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.110'
-  text: Networking
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

@@ -70,21 +70,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 17839-1:2014 establishes</p>
-
-    functional architecture of a Biometric System-on-Card
-    definition of type S1 (fully ISO/IEC 7810 compliant) and type S2 implementation of a Biometric System-on-Card
-    sensor types in a Biometric System-on-Card
-    minimum requirements to a Biometric System-on-Card with respect to
-
-    discriminative power (i.e. biometric accuracy criteria)
-    interfaces
-    power supply options<p>The following aspects are out of scope of ISO/IEC 17839-1:2014:</p>
-
-    off-card biometric comparison, storage-on-card
-    work-load sharing implementations
-    detailed specification and configuration of individual components<p>ISO/IEC 17839-1:2014 provides a functional architectural description of a Biometric System-on-Card and describes how the interfaces are mapped using existing commands and data structures from other International Standards.</p>
+- content: "<p>ISO/IEC 17839-1:2014 establishes</p><ul><li>functional architecture
+    of a Biometric System-on-Card</li><li>definition of type S1 (fully ISO/IEC 7810
+    compliant) and type S2 implementation of a Biometric System-on-Card</li><li>sensor
+    types in a Biometric System-on-Card</li><li>minimum requirements to a Biometric
+    System-on-Card with respect to<ul><li>discriminative power (i.e. biometric accuracy
+    criteria)</li><li>interfaces</li><li>power supply options</li></ul></li></ul><p>The
+    following aspects are out of scope of ISO/IEC 17839-1:2014:</p><ul><li>off-card
+    biometric comparison, storage-on-card</li><li>work-load sharing implementations</li><li>detailed
+    specification and configuration of individual components</li></ul><p>ISO/IEC 17839-1:2014
+    provides a functional architectural description of a Biometric System-on-Card
+    and describes how the interfaces are mapped using existing commands and data structures
+    from other International Standards.</p>"
   language:
   - en
   script:
@@ -108,20 +105,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '17839'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:A
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '17839'
+    part: '1'
+    type: IEC
+  price_code: iso:A

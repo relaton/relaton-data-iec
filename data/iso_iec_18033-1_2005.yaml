@@ -75,9 +75,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18033 specifies encryption systems (ciphers) for the purpose of data confidentiality.</p><p>ISO/IEC 18033-1:2005 specifies:</p>
-    terms and definitions used throughout ISO/IEC 18033;the purpose of encryption, the differences between symmetric and asymmetric ciphers, and the key management problems associated with the use of ciphers;the uses and properties of encryption;criteria for the inclusion of encryption algorithms in ISO/IEC 18033.
+- content: "<p>ISO/IEC 18033 specifies encryption systems (ciphers) for the purpose
+    of data confidentiality.</p><p>ISO/IEC 18033-1:2005 specifies:</p><ul><li>terms
+    and definitions used throughout ISO/IEC 18033;</li><li>the purpose of encryption,
+    the differences between symmetric and asymmetric ciphers, and the key management
+    problems associated with the use of ciphers;</li><li>the uses and properties of
+    encryption;</li><li>criteria for the inclusion of encryption algorithms in ISO/IEC
+    18033.</li></ul>"
   language:
   - en
   script:
@@ -101,20 +105,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18033'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18033'
+    part: '1'
+    type: IEC
+  price_code: iso:B

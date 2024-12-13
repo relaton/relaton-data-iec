@@ -89,12 +89,12 @@ script:
 - Latn
 abstract:
 - content: |-
-    <p class="MsoNormal">This document defines the functionality and behavior of the Sideband Interface responsible for connecting the Network Controller to the Management Controller. It also outlines the behavioral model of the network traffic destined for the Management Controller from the Network Controller.</p><p class="MsoNormal">This document defines the following two aspects of the Network Controller Sideband Interface (NC‑SI):</p><!-- [if!supportLists]-->behavior of the interface, which include its operational states as well as the states of the associated components,<!-- [if!supportLists]-->the payloads and commands of the communication protocol supported over the interface.<p class="MsoNormal">The scope of this document is limited to addressing only a single Management Controller communicating with one or more Network Controllers.</p><p class="MsoNormal">This document also defines the following aspects of a 3.3V RMII Based Transport (RBT) based physical medium:</p><!-- [if!supportLists]-->transport binding for NC-SI over RBT,<!-- [if!supportLists]-->electrical and timing requirements for the RBT,<!-- [if!supportLists]-->an optional hardware arbitration mechanism for RBT.<p class="MsoNormal">Only the topics that may affect the behavior of the Network Controller or Management Controller, as it pertains to the Sideband Interface operations, are discussed in this document.</p><p class="Heading2-NoTOC">NC-SI over MCTP Binding Specification (DSP0261)</p><p class="MsoNormal">This document defines the bindings between NC-SI protocol elements and MCTP elements in order for NC-SI Control and Pass-Through traffic to be transported using MCTP.</p><p class="MsoNormal">Portions of this document rely on information and definitions from other specifications, which clause<!-- [if supportFields]><span lang=EN-GB
+    <p class="MsoNormal">This document defines the functionality and behavior of the Sideband Interface responsible for connecting the Network Controller to the Management Controller. It also outlines the behavioral model of the network traffic destined for the Management Controller from the Network Controller.</p><p class="MsoNormal">This document defines the following two aspects of the Network Controller Sideband Interface (NC‑SI):</p><ul><li class="MsoNormal"><!-- [if!supportLists]-->behavior of the interface, which include its operational states as well as the states of the associated components,</li><li class="MsoNormal"><!-- [if!supportLists]-->the payloads and commands of the communication protocol supported over the interface.</li></ul><p class="MsoNormal">The scope of this document is limited to addressing only a single Management Controller communicating with one or more Network Controllers.</p><p class="MsoNormal">This document also defines the following aspects of a 3.3V RMII Based Transport (RBT) based physical medium:</p><ul><li class="MsoNormal"><!-- [if!supportLists]-->transport binding for NC-SI over RBT,</li><li class="MsoNormal"><!-- [if!supportLists]-->electrical and timing requirements for the RBT,</li><li class="MsoNormal"><!-- [if!supportLists]-->an optional hardware arbitration mechanism for RBT.</li></ul><p class="MsoNormal">Only the topics that may affect the behavior of the Network Controller or Management Controller, as it pertains to the Sideband Interface operations, are discussed in this document.</p><p class="Heading2-NoTOC">NC-SI over MCTP Binding Specification (DSP0261)</p><p class="MsoNormal">This document defines the bindings between NC-SI protocol elements and MCTP elements in order for NC-SI Control and Pass-Through traffic to be transported using MCTP.</p><p class="MsoNormal">Portions of this document rely on information and definitions from other specifications, which clause<!-- [if supportFields]><span lang=EN-GB
     style='mso-ansi-language:EN-GB'><span
     style='mso-spacerun:yes'> REF _Ref99190650 \r \h<span style='mso-element:
     field-separator'><![endif]-->2<!-- [if gte mso 9]>
      08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000D0000005F00520065006600390039003100390030003600350030000000<![endif]--><!-- [if supportFields]><span lang=EN-GB
-    style='mso-ansi-language:EN-GB'><![endif]--> identifies. Two of these references are particularly relevant:</p><!-- [if!supportLists]-->DMTF DSP0222,<em style="mso-bidi-font-style: normal;">Network Controller Sideband Interface (NC-SI) Specification</em>, provides the NC‑SI base control that is to be bound over MCTP by this specification.<!--[endif]-->DMTF DSP0236,<em style="mso-bidi-font-style: normal;">Management Component Transport Protocol (MCTP) Base Specification</em>, defines the MCTP transport on which the NC-SI Control and Pass-through packets are to be conveyed.
+    style='mso-ansi-language:EN-GB'><![endif]--> identifies. Two of these references are particularly relevant:</p><ul><li class="MsoNormal"><!-- [if!supportLists]-->DMTF DSP0222,<em style="mso-bidi-font-style: normal;">Network Controller Sideband Interface (NC-SI) Specification</em>, provides the NC‑SI base control that is to be bound over MCTP by this specification.</li><li class="MsoNormal"><!--[endif]-->DMTF DSP0236,<em style="mso-bidi-font-style: normal;">Management Component Transport Protocol (MCTP) Base Specification</em>, defines the MCTP transport on which the NC-SI Control and Pass-through packets are to be conveyed.</li></ul>
   language:
   - en
   script:
@@ -118,19 +118,19 @@ copyright:
   from: '2024'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
-structuredidentifier:
-  project_number: '24079'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '24079'
+    type: IEC
+  price_code: iso:H

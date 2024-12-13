@@ -75,27 +75,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18013-2:2008 establishes guidelines for the content and formatting of data stored on an ISO compliant driving licence (IDL) using machine-readable technologies. It creates a common basis for the international use of IDL data without restricting individual domestic or regional driver licensing authorities from applying their specific data policies.</p><p>ISO/IEC 18013-2:2008 specifies the following items.</p>
-
-    Mandatory and optional machine-readable data. Machine-readable IDL data support the following functions (subject in some cases to the inclusion of appropriate optional data elements):
-
-    confirming the driving privileges of a driver;
-    enabling a link to be established to a driving privilege database;
-    age verification;
-    identity verification;
-    biographical data verification;
-    evidence of residence;
-    biometric authentication;
-    document authentication and validation.
-
-
-    The logical data structure.
-    Encoding methods for the following:
-
-    cases where the memory capacity available to the IDL application does not exceed 5 kB, typically applicable to 2D barcode symbologies, high-coercivity high-density magnetic stripe and limited memory capacity integrated circuits (contactless and those with contacts);
-    integrated circuits (contactless and those with contacts) where the memory capacity available to the IDL application exceeds 5 kB;
-    optical memory.
+- content: "<p>ISO/IEC 18013-2:2008 establishes guidelines for the content and formatting
+    of data stored on an ISO compliant driving licence (IDL) using machine-readable
+    technologies. It creates a common basis for the international use of IDL data
+    without restricting individual domestic or regional driver licensing authorities
+    from applying their specific data policies.</p><p>ISO/IEC 18013-2:2008 specifies
+    the following items.</p><ul><li>Mandatory and optional machine-readable data.
+    Machine-readable IDL data support the following functions (subject in some cases
+    to the inclusion of appropriate optional data elements):<ul><li>confirming the
+    driving privileges of a driver;</li><li>enabling a link to be established to a
+    driving privilege database;</li><li>age verification;</li><li>identity verification;</li><li>biographical
+    data verification;</li><li>evidence of residence;</li><li>biometric authentication;</li><li>document
+    authentication and validation.</li></ul></li><li>The logical data structure.</li><li>Encoding
+    methods for the following:<ul><li>cases where the memory capacity available to
+    the IDL application does not exceed 5 kB, typically applicable to 2D barcode symbologies,
+    high-coercivity high-density magnetic stripe and limited memory capacity integrated
+    circuits (contactless and those with contacts);</li><li>integrated circuits (contactless
+    and those with contacts) where the memory capacity available to the IDL application
+    exceeds 5 kB;</li><li>optical memory.</li></ul></li></ul>"
   language:
   - en
   script:
@@ -119,20 +116,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '18013'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '18013'
+    part: '2'
+    type: IEC
+  price_code: iso:B

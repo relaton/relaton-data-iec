@@ -72,10 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO 17839-2:2015 defines the following:</p><p>- dimensions of a Biometric System-on-Card type S1 and type S2;</p><p>- position and size of the biometric capture device;</p><p>- minimum requirements to a Biometric System-on-Card with respect to</p>
-
-    - mechanical durability, and? man-machine interface and ergonomics.<p>The standardization of other on-card devices such as an electronic display or a keypad is outside the scope of this part of ISO/IEC 17839.</p>
+- content: "<p>ISO 17839-2:2015 defines the following:</p><p>- dimensions of a Biometric
+    System-on-Card type S1 and type S2;</p><p>- position and size of the biometric
+    capture device;</p><p>- minimum requirements to a Biometric System-on-Card with
+    respect to</p><ul><li>- mechanical durability, and</li><li>? man-machine interface
+    and ergonomics.</li></ul><p>The standardization of other on-card devices such
+    as an electronic display or a keypad is outside the scope of this part of ISO/IEC
+    17839.</p>"
   language:
   - en
   script:
@@ -99,20 +102,20 @@ copyright:
   from: '2015'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '17839'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '17839'
+    part: '2'
+    type: IEC
+  price_code: iso:B

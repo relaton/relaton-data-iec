@@ -75,14 +75,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15444-10:2008 defines a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital volumetric images, or multi-component volumetric images. This set of methods extends the elements in the core coding system defined in ISO/IEC 15444-1 and ISO/IEC 15444-2. Extensions which pertain to encoding and decoding are defined as procedures which may be used in combination with the encoding and decoding processes defined in ISO/IEC 15444-1 and ISO/IEC 15444-2. Each encoding or decoding extension is to be used only in combination with particular coding processes and only in accordance with the requirements set forth herein. ISO/IEC 15444-10:2008 also defines extensions to the compressed data format, i.e. interchange format and the abbreviated formats.</p><p>In particular, for ISO/IEC 15444-2, the following extensions are supported by ISO/IEC 15444-10:2008:</p>
-
-    variable DC offset;
-    arbitrary wavelet transform kernels;
-    multi-component transformations;
-    non-linear transformations;
-    region-of-interest.
+- content: "<p>ISO/IEC 15444-10:2008 defines a set of lossless (bit-preserving) and
+    lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour
+    digital volumetric images, or multi-component volumetric images. This set of methods
+    extends the elements in the core coding system defined in ISO/IEC 15444-1 and
+    ISO/IEC 15444-2. Extensions which pertain to encoding and decoding are defined
+    as procedures which may be used in combination with the encoding and decoding
+    processes defined in ISO/IEC 15444-1 and ISO/IEC 15444-2. Each encoding or decoding
+    extension is to be used only in combination with particular coding processes and
+    only in accordance with the requirements set forth herein. ISO/IEC 15444-10:2008
+    also defines extensions to the compressed data format, i.e. interchange format
+    and the abbreviated formats.</p><p>In particular, for ISO/IEC 15444-2, the following
+    extensions are supported by ISO/IEC 15444-10:2008:</p><ul><li>variable DC offset;</li><li>arbitrary
+    wavelet transform kernels;</li><li>multi-component transformations;</li><li>non-linear
+    transformations;</li><li>region-of-interest.</li></ul>"
   language:
   - en
   script:
@@ -106,20 +112,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '15444'
-  part: '10'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '15444'
+    part: '10'
+    type: IEC
+  price_code: iso:B

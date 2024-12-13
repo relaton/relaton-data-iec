@@ -74,10 +74,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19761:2003 specifies the set of definitions, conventions and activities of the COSMIC-FFP Functional Size Measurement Method. It is applicable to software from the following functional domains:</p>
-    application software which is needed to support business administration;real-time software, the task of which is to keep up with or control events happening in the real world;hybrids of the above.<p>ISO/IEC 19761:2003 has not been designed for measuring the functional size of a piece of software, or its parts, which:</p>
-    are characterized by complex mathematical algorithms or other specialized and complex rules, such as may be found in expert systems, simulation software, self-learning software and weather forecasting systems, orprocess continuous variables such as audio sounds or video images, such as may be found, for instance, in computer game software, musical instruments and the like.<p>However, within the local environment of an organisation using the COSMIC-FFP Functional Size Measurement Method, it may be possible to measure these FUR in a way which is meaningful as a local standard. ISO/IEC 19761:2003 contains provision for the local customisation of the method for this purpose.</p>
+- content: "<p>ISO/IEC 19761:2003 specifies the set of definitions, conventions and
+    activities of the COSMIC-FFP Functional Size Measurement Method. It is applicable
+    to software from the following functional domains:</p><ol><li>application software
+    which is needed to support business administration;</li><li>real-time software,
+    the task of which is to keep up with or control events happening in the real world;</li><li>hybrids
+    of the above.</li></ol><p>ISO/IEC 19761:2003 has not been designed for measuring
+    the functional size of a piece of software, or its parts, which:</p><ol><li>are
+    characterized by complex mathematical algorithms or other specialized and complex
+    rules, such as may be found in expert systems, simulation software, self-learning
+    software and weather forecasting systems, or</li><li>process continuous variables
+    such as audio sounds or video images, such as may be found, for instance, in computer
+    game software, musical instruments and the like.</li></ol><p>However, within the
+    local environment of an organisation using the COSMIC-FFP Functional Size Measurement
+    Method, it may be possible to measure these FUR in a way which is meaningful as
+    a local standard. ISO/IEC 19761:2003 contains provision for the local customisation
+    of the method for this purpose.</p>"
   language:
   - en
   script:
@@ -101,19 +113,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '19761'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '19761'
+    type: IEC
+  price_code: iso:B

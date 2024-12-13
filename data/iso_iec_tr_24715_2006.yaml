@@ -73,9 +73,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 24715:2006 is based on ISO/IEC 23360 (Linux Standard Base Core Specification 3.1, which was submitted to ISO/IEC on 2005/10/31 for publication), and ISO/IEC 9945:2003 edition dated 2003/8/15 with ISO/IEC 9945:2003/Cor.1:2004 (published 2004/9/15).</p><p>The scope of this Technical Report is to identify areas of conflict between ISO/IEC 23360 (the Linux Standard Base 3.1 specification) and the ISO/IEC 9945 (POSIX) International Standard.</p><p>The audience for this Technical Report is the technical workgroups that develop the standards; that is, the Austin Group and the Linux Standard Base workgroup. It is also intended to be of interest to systems engineers, technical managers and procurement officers.</p><p>This Technical Report is organized in the following sections:</p>
-    Clause 1 provides a list of normative references.Clause 2 provides the terms and definitions used in this document.Clause 3 provides a list of differences that could be possible conflicts or extensions in the System Interfaces.Clause 4 provides a list of differences that could be possible conflicts or extensions in the Shell and Utilities.Appendix A provides background information on the POSIX standards and the LSB.
+- content: "<p>ISO/IEC TR 24715:2006 is based on ISO/IEC 23360 (Linux Standard Base
+    Core Specification 3.1, which was submitted to ISO/IEC on 2005/10/31 for publication),
+    and ISO/IEC 9945:2003 edition dated 2003/8/15 with ISO/IEC 9945:2003/Cor.1:2004
+    (published 2004/9/15).</p><p>The scope of this Technical Report is to identify
+    areas of conflict between ISO/IEC 23360 (the Linux Standard Base 3.1 specification)
+    and the ISO/IEC 9945 (POSIX) International Standard.</p><p>The audience for this
+    Technical Report is the technical workgroups that develop the standards; that
+    is, the Austin Group and the Linux Standard Base workgroup. It is also intended
+    to be of interest to systems engineers, technical managers and procurement officers.</p><p>This
+    Technical Report is organized in the following sections:</p><ul><li>Clause 1 provides
+    a list of normative references.</li><li>Clause 2 provides the terms and definitions
+    used in this document.</li><li>Clause 3 provides a list of differences that could
+    be possible conflicts or extensions in the System Interfaces.</li><li>Clause 4
+    provides a list of differences that could be possible conflicts or extensions
+    in the Shell and Utilities.</li><li>Appendix A provides background information
+    on the POSIX standards and the LSB.</li></ul>"
   language:
   - en
   script:
@@ -99,19 +112,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:ZZ

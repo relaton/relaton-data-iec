@@ -75,12 +75,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23006-2:2011 specifies a set of Application Programming Interfaces (APIs) so that MXM Applications executing on an MXM Device can access the standard multimedia technologies contained in its Middleware as MXM Engines, as specified by ISO/IEC 23006-1.</p><p>The APIs belong to the following two classes:</p>
-
-
-     the MXM Engine APIs, i.e. the collection of the individual MXM Engine APIs providing access to a single MPEG technology (e.g. video coding) or to a group of MPEG technologies where this is convenient;
-     the MXM Orchestrator API, i.e. the API of the special MXM Engine that is capable of creating chains of MXM engines to execute a high-level application call such as Play, as opposed to the typically low-level MXM Engine API calls.
+- content: "<p>ISO/IEC 23006-2:2011 specifies a set of Application Programming Interfaces
+    (APIs) so that MXM Applications executing on an MXM Device can access the standard
+    multimedia technologies contained in its Middleware as MXM Engines, as specified
+    by ISO/IEC 23006-1.</p><p>The APIs belong to the following two classes:</p><ul><li>
+    the MXM Engine APIs, i.e. the collection of the individual MXM Engine APIs providing
+    access to a single MPEG technology (e.g. video coding) or to a group of MPEG technologies
+    where this is convenient;</li><li> the MXM Orchestrator API, i.e. the API of the
+    special MXM Engine that is capable of creating chains of MXM engines to execute
+    a high-level application call such as Play, as opposed to the typically low-level
+    MXM Engine API calls.</li></ul>"
   language:
   - en
   script:
@@ -104,20 +108,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23006'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23006'
+    part: '2'
+    type: IEC
+  price_code: iso:B

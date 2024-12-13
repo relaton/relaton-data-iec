@@ -75,9 +75,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24727 is a set of programming interfaces for interactions between integrated circuit cards and external applications to include generic services for multi-sector use. The organization and the operation of the ICC conform to ISO/IEC 7816-4.</p><p>ISO/IEC 24727-1:2007 specifies</p>
-    system architecture and principles of operation,a capabilities discovery mechanism,security rationale.<p>It does not cover the internal implementation within the card or the outside world.</p><p>ISO/IEC 24727-1:2007 is independent of the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling and radio frequency.</p>
+- content: "<p>ISO/IEC 24727 is a set of programming interfaces for interactions between
+    integrated circuit cards and external applications to include generic services
+    for multi-sector use. The organization and the operation of the ICC conform to
+    ISO/IEC 7816-4.</p><p>ISO/IEC 24727-1:2007 specifies</p><ul><li>system architecture
+    and principles of operation,</li><li>a capabilities discovery mechanism,</li><li>security
+    rationale.</li></ul><p>It does not cover the internal implementation within the
+    card or the outside world.</p><p>ISO/IEC 24727-1:2007 is independent of the physical
+    interface technology. It applies to cards accessed by one or more of the following
+    methods: contacts, close coupling and radio frequency.</p>"
   language:
   - en
   script:
@@ -101,20 +107,20 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '24727'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '24727'
+    part: '1'
+    type: IEC
+  price_code: iso:B

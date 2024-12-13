@@ -71,15 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18014 specifies time-stamping techniques. It consists of three parts, which include the general notion, models for a time-stamping service, data structures, and protocols.</p><p>ISO/IEC 18014-1:2008 describes a framework and defines the basic notion, the data structures, and protocols which are used for any time-stamping technique.</p><p>ISO/IEC 18014-1:2008:</p>
-
-    identifies the objective of a time-stamping authority;
-    describes a general model on which time-stamping services are based;
-    describes a process of generating and verifying time-stamp;
-    defines the data structures of time-stamp token;
-    defines the basic protocols of time-stamping;
-    specifies the protocols between the involved entities.
+- content: "<p>ISO/IEC 18014 specifies time-stamping techniques. It consists of three
+    parts, which include the general notion, models for a time-stamping service, data
+    structures, and protocols.</p><p>ISO/IEC 18014-1:2008 describes a framework and
+    defines the basic notion, the data structures, and protocols which are used for
+    any time-stamping technique.</p><p>ISO/IEC 18014-1:2008:</p><ul><li>identifies
+    the objective of a time-stamping authority;</li><li>describes a general model
+    on which time-stamping services are based;</li><li>describes a process of generating
+    and verifying time-stamp;</li><li>defines the data structures of time-stamp token;</li><li>defines
+    the basic protocols of time-stamping;</li><li>specifies the protocols between
+    the involved entities.</li></ul>"
   language:
   - en
   script:
@@ -103,20 +104,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18014'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18014'
+    part: '1'
+    type: IEC
+  price_code: iso:E

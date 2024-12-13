@@ -71,15 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19500-2:2012 specifies a comprehensive, flexible approach to supporting networks of objects that are distributed across and managed by multiple, heterogeneous CORBA-compliant Object Request Brokers (ORBs). The approach to inter-ORB operation is universal, because elements can be combined in many ways to satisfy a very broad range of needs.</p><p>ISO/IEC 19500-2:2012 specifies</p>
-
-
-    ORB interoperability architecture
-    Inter-ORB bridge support
-    General Inter-ORB Protocol (GIOP) for object request broker (ORB) interoperability. GIOP can be mapped onto any connection-oriented transport protocol that meets a minimal set of assumptions defined by this International Standard
-    Internet Inter-ORB Protocol (IIOP), a specific mapping of the GIOP which runs directly over connections that use the Internet Protocol and the Transmission Control Protocol (TCP/IP connections)
-    CORBA Security Attribute Service (SAS) protocol and its use within the CSIv2 architecture to address the requirements of CORBA security for interoperable authentication, delegation, and privileges<p>ISO/IEC 19500-2:2012 provides a widely implemented and used particularization of ITU-T Rec. X.931 | ISO/IEC 14752. It supports interoperability and location transparency in ODP systems.</p>
+- content: "<p>ISO/IEC 19500-2:2012 specifies a comprehensive, flexible approach to
+    supporting networks of objects that are distributed across and managed by multiple,
+    heterogeneous CORBA-compliant Object Request Brokers (ORBs). The approach to inter-ORB
+    operation is universal, because elements can be combined in many ways to satisfy
+    a very broad range of needs.</p><p>ISO/IEC 19500-2:2012 specifies</p><ul><li>ORB
+    interoperability architecture</li><li>Inter-ORB bridge support</li><li>General
+    Inter-ORB Protocol (GIOP) for object request broker (ORB) interoperability. GIOP
+    can be mapped onto any connection-oriented transport protocol that meets a minimal
+    set of assumptions defined by this International Standard</li><li>Internet Inter-ORB
+    Protocol (IIOP), a specific mapping of the GIOP which runs directly over connections
+    that use the Internet Protocol and the Transmission Control Protocol (TCP/IP connections)</li><li>CORBA
+    Security Attribute Service (SAS) protocol and its use within the CSIv2 architecture
+    to address the requirements of CORBA security for interoperable authentication,
+    delegation, and privileges</li></ul><p>ISO/IEC 19500-2:2012 provides a widely
+    implemented and used particularization of ITU-T Rec. X.931 | ISO/IEC 14752. It
+    supports interoperability and location transparency in ODP systems.</p>"
   language:
   - en
   script:
@@ -103,20 +110,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '19500'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '19500'
+    part: '2'
+    type: IEC
+  price_code: iso:H

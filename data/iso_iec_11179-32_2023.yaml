@@ -71,12 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>This document provides a specification for an extension to a metadata registry (MDR), as specified in ISO/IEC 11179-3:2023, in which metadata that describes concept systems can be registered.</p><p>The specification in this document, together with the relevant clauses of the specification in ISO/IEC 11179-3, provides the ability to record the following metadata:</p>
-
-    concept systems and associated concepts;
-    relations among concepts in a concept system;
-    assertions about concepts in a concept system.<p>The metamodel in this document is intended to support the full description of a concept system, including ontologies.</p><p>Where there is a requirement to register an ontology where the details are defined elsewhere, consider using ISO/IEC 19763-3 instead.</p>
+- content: "<p>This document provides a specification for an extension to a metadata
+    registry (MDR), as specified in ISO/IEC 11179-3:2023, in which metadata that describes
+    concept systems can be registered.</p><p>The specification in this document, together
+    with the relevant clauses of the specification in ISO/IEC 11179-3, provides the
+    ability to record the following metadata:</p><ul><li>concept systems and associated
+    concepts;</li><li>relations among concepts in a concept system;</li><li>assertions
+    about concepts in a concept system.</li></ul><p>The metamodel in this document
+    is intended to support the full description of a concept system, including ontologies.</p><p>Where
+    there is a requirement to register an ontology where the details are defined elsewhere,
+    consider using ISO/IEC 19763-3 instead.</p>"
   language:
   - en
   script:
@@ -100,20 +104,20 @@ copyright:
   from: '2023'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '11179'
-  part: '32'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '11179'
+    part: '32'
+    type: IEC
+  price_code: iso:G

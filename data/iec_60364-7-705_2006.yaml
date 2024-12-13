@@ -63,11 +63,11 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/1892
   type: src
-- content: https://webstore.iec.ch/preview/info_iec60364-7-705{ed2.0}b.pdf
-  type: obp
 - content: https://webstore.iec.ch/preview/info_iec60364-7-705{ed2.0}en_d.pdf
   type: obp
 - content: https://webstore.iec.ch/preview/info_iec60364-7-705{ed2.0}fr_d.pdf
+  type: obp
+- content: https://webstore.iec.ch/preview/info_iec60364-7-705{ed2.0}b.pdf
   type: obp
 type: standard
 docid:
@@ -80,7 +80,7 @@ date:
 - type: published
   value: '2006-07-10'
 - type: stable-until
-  value: '2025-12-31'
+  value: '2026-12-31'
 contributor:
 - organization:
     name:
@@ -137,23 +137,23 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: TC 64
-    number: 64
-    type: technicalCommittee
-ics:
-- code: 91.140.50
-  text: Electricity supply systems
-- code: '29.020'
-  text: Electrical engineering in general
-structuredidentifier:
-  project_number: '60364'
-  part: '7'
-  subpart: '705'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 64
+      number: 64
+      type: technicalCommittee
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  - code: '29.020'
+    text: Electrical engineering in general
+  structuredidentifier:
+    project_number: '60364'
+    part: '7'
+    subpart: '705'
+    type: IEC
+  price_code: iec:F

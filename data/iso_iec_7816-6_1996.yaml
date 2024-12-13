@@ -110,20 +110,16 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente partie de l'ISO/CEI 7816 spécifie directement ou par référence
-    les éléments de données (DE), qui comprennent les DE composites, utilisés dans
-    l'échange intersectoriel et basés sur les cartes à circuits intégrés (ICC). Elle
-    identifie les caractéristiques ci-dessous de chaque DE: \nIdentificateur; \nNom;
-    \nDescription et référence ISO; \nFormat et codage (s'il n'est pas disponible
-    dans d'autres normes ISO ou dans les autres parties de l'ISO/CEI 7816).\n\nLa
-    disposition de chaque DE est décrite telle qu'elle apparaît à\nl'interface entre
-    le dispositif d'interface (IFD) et le ICC. La présente\npartie de l'ISO/CEI 7816
-    définit les moyens d'extraction des DE dans la\ncarte (octets historiques, remise
-    à zéro, commandes à exécuter\net commandes définies dans cette norme internationale).
-    La présente\npartie de l'ISO/CEI 7816 donne la définition des DE sans considération\ndes
-    restrictions faites sur l'utilisation des DE. Il est prévu d'incorporer\nde nouveaux
-    objets de données intersectoriels dans la présente norme; voir l'article 7 pour
-    la procédure à suivre."
+- content: |-
+    La présente partie de l'ISO/CEI 7816 spécifie directement ou par référence les éléments de données (DE), qui comprennent les DE composites, utilisés dans l'échange intersectoriel et basés sur les cartes à circuits intégrés (ICC). Elle identifie les caractéristiques ci-dessous de chaque DE:<ul><li>Identificateur;</li><li>Nom;</li><li>Description et référence ISO;</li><li>Format et codage (s'il n'est pas disponible dans d'autres normes ISO ou dans les autres parties de l'ISO/CEI 7816).</li></ul>
+    La disposition de chaque DE est décrite telle qu'elle apparaît à
+    l'interface entre le dispositif d'interface (IFD) et le ICC. La présente
+    partie de l'ISO/CEI 7816 définit les moyens d'extraction des DE dans la
+    carte (octets historiques, remise à zéro, commandes à exécuter
+    et commandes définies dans cette norme internationale). La présente
+    partie de l'ISO/CEI 7816 donne la définition des DE sans considération
+    des restrictions faites sur l'utilisation des DE. Il est prévu d'incorporer
+    de nouveaux objets de données intersectoriels dans la présente norme; voir l'article 7 pour la procédure à suivre.
   language:
   - fr
   script:
@@ -147,20 +143,20 @@ copyright:
   from: '1996'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '6'
+    type: IEC
+  price_code: iso:B

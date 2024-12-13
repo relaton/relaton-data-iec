@@ -71,13 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9973:2013 specifies procedures to be followed in preparing, maintaining and publishing the International Register of Items for any standard whose classes of items are applicable to this register. The items that may be registered fall into several broad categories including:</p>
-
-    computer graphics concepts,
-    data structures used by relevant standards,
-    spatial and environmental concepts, and
-    profiles of relevant standards.
+- content: "<p>ISO/IEC 9973:2013 specifies procedures to be followed in preparing,
+    maintaining and publishing the International Register of Items for any standard
+    whose classes of items are applicable to this register. The items that may be
+    registered fall into several broad categories including:</p><ul><li>computer graphics
+    concepts,</li><li>data structures used by relevant standards,</li><li>spatial
+    and environmental concepts, and</li><li>profiles of relevant standards.</li></ul>"
   language:
   - en
   script:
@@ -101,19 +100,19 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 24
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: '9973'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 24
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    project_number: '9973'
+    type: IEC
+  price_code: iso:E

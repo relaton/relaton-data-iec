@@ -77,14 +77,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 18047-6:2011 defines test methods for determining the conformance of radio frequency identification (RFID) devices (tags and interrogators) for item management with the specifications given in ISO/IEC 18000-6, but does not apply to the testing of conformity with regulatory or similar requirements.</p><p>The test methods require only that the mandatory functions, and any optional functions which are implemented, be verified. This can, in appropriate circumstances, be supplemented by further, application-specific functionality criteria that are not available in the general case.</p><p>The interrogator and tag conformance parameters in ISO/IEC TR 18047-6:2011 are the following:</p>
-
-    type-specific conformance parameters including nominal values and tolerances;
-    parameters that apply directly affecting system functionality and inter-operability.<p>The following are not included in ISO/IEC TR 18047-6:2011:</p>
-
-    parameters that are already included in regulatory test requirements;
-    high-level data encoding conformance test parameters (these are specified in ISO/IEC 15962).<p>Unless otherwise specified, the tests in ISO/IEC TR 18047-6:2011 are to be applied exclusively to RFID tags and interrogators defined in ISO/IEC 18000-6.</p>
+- content: "<p>ISO/IEC TR 18047-6:2011 defines test methods for determining the conformance
+    of radio frequency identification (RFID) devices (tags and interrogators) for
+    item management with the specifications given in ISO/IEC 18000-6, but does not
+    apply to the testing of conformity with regulatory or similar requirements.</p><p>The
+    test methods require only that the mandatory functions, and any optional functions
+    which are implemented, be verified. This can, in appropriate circumstances, be
+    supplemented by further, application-specific functionality criteria that are
+    not available in the general case.</p><p>The interrogator and tag conformance
+    parameters in ISO/IEC TR 18047-6:2011 are the following:</p><ul><li>type-specific
+    conformance parameters including nominal values and tolerances;</li><li>parameters
+    that apply directly affecting system functionality and inter-operability.</li></ul><p>The
+    following are not included in ISO/IEC TR 18047-6:2011:</p><ul><li>parameters that
+    are already included in regulatory test requirements;</li><li>high-level data
+    encoding conformance test parameters (these are specified in ISO/IEC 15962).</li></ul><p>Unless
+    otherwise specified, the tests in ISO/IEC TR 18047-6:2011 are to be applied exclusively
+    to RFID tags and interrogators defined in ISO/IEC 18000-6.</p>"
   language:
   - en
   script:
@@ -108,19 +116,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

@@ -77,12 +77,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 27002:2013 gives guidelines for organizational information security standards and information security management practices including the selection, implementation and management of controls taking into consideration the organization's information security risk environment(s).</p><p>It is designed to be used by organizations that intend to:</p>
-
-    select controls within the process of implementing an Information Security Management System based on ISO/IEC 27001;
-    implement commonly accepted information security controls;
-    develop their own information security management guidelines.
+- content: "<p>ISO/IEC 27002:2013 gives guidelines for organizational information
+    security standards and information security management practices including the
+    selection, implementation and management of controls taking into consideration
+    the organization's information security risk environment(s).</p><p>It is designed
+    to be used by organizations that intend to:</p><ol><li>select controls within
+    the process of implementing an Information Security Management System based on
+    ISO/IEC 27001;</li><li>implement commonly accepted information security controls;</li><li>develop
+    their own information security management guidelines.</li></ol>"
   language:
   - en
   script:
@@ -121,19 +123,19 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '27002'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '27002'
+    type: IEC
+  price_code: iso:B

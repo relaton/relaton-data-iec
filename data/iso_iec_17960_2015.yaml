@@ -71,12 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>This International Standard specifies a language-neutral and environment-neutral description to define the methodology needed to support the signing of software source code, to enable it to be uniquely identified, and to enable roll-back to signed previous versions. It is intended to be used by originators of software source code and the recipients of their signed source code. This International Standard is designed for transfers of source code among disparate entities.</p><p>The following areas are outside the scope of this International Standard:</p><p>- Determination of the trust level of a certification authority;</p><p>- Format used to track revisions of source code files;</p><p>- Digital signing of object or binary code;</p><p>- System configuration and resource availability;</p><p>- Metadata</p>
-
-    - This is partially addressed by ISO/IEC 19770‑2;<p>- Transmission and representation issues</p>
-
-    - Though this could be an issue in implementation, there are techniques such as Portable Document Format (PDF)[1] that can be used to mitigate these issues. This applies in particular to the transmission of digital signatures.<p>[1] ISO 32000-1:2008 Document management? Portable document format? Part 1: PDF 1 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed.</p>
+- content: "<p>This International Standard specifies a language-neutral and environment-neutral
+    description to define the methodology needed to support the signing of software
+    source code, to enable it to be uniquely identified, and to enable roll-back to
+    signed previous versions. It is intended to be used by originators of software
+    source code and the recipients of their signed source code. This International
+    Standard is designed for transfers of source code among disparate entities.</p><p>The
+    following areas are outside the scope of this International Standard:</p><p>-
+    Determination of the trust level of a certification authority;</p><p>- Format
+    used to track revisions of source code files;</p><p>- Digital signing of object
+    or binary code;</p><p>- System configuration and resource availability;</p><p>-
+    Metadata</p><ul><li>- This is partially addressed by ISO/IEC 19770‑2;</li></ul><p>-
+    Transmission and representation issues</p><ul><li>- Though this could be an issue
+    in implementation, there are techniques such as Portable Document Format (PDF)[1]
+    that can be used to mitigate these issues. This applies in particular to the transmission
+    of digital signatures.</li></ul><p>[1] ISO 32000-1:2008 Document management? Portable
+    document format? Part 1: PDF 1 specifies a digital form for representing electronic
+    documents to enable users to exchange and view electronic documents independent
+    of the environment in which they were created or the environment in which they
+    are viewed or printed.</p>"
   language:
   - en
   script:
@@ -100,19 +113,19 @@ copyright:
   from: '2015'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '17960'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '17960'
+    type: IEC
+  price_code: iso:B

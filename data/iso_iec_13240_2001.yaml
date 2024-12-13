@@ -73,12 +73,30 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p style="font-weight: 400;">This International Standard, known as the Interchange Standard for Multimedia Interactive Documents or ISMID, facilitates the interchange of Multimedia Interactive Documents (MIDs) among heterogeneous interactive document development and delivery systems by providing the architecture from which common interchange languages can be created. ISMID is a client architecture of International Standard ISO/IEC 10744:1997, Information technology -- Hypermedia/Time-based Structuring Language (HyTime) and is an SGML application conforming to International Standard ISO 8879 -- Standard Generalized Markup Language.</p><p style="font-weight: 400;"></p><p style="font-weight: 400;">ISMID also specifies use of the DSSSL expression language described in clause 8 of ISO/IEC 10179:1996, Information technology -- Processing languages -- Document Style Semantics and Specification Language (DSSSL).</p><p style="font-weight: 400;"></p><p style="font-weight: 400;">In general, the rendering of a Multimedia Interactive Document (MID) requires three major components:</p>
-
-    Content: the information that the document author intended to communicate to the user of the MID;<br /><br />
-    Behavior: the instructions that govern what, when, where, and how content is presented, and how the MID responds to stimuli from various sources; and<br /><br />
-    Software: the application that interprets behavior, retrieves the content, and presents the information to the user.<p style="font-weight: 400;"></p><p style="font-weight: 400;">Various vendors, standards bodies, and other groups define the notations (such as SGML for text, CGM for graphics, MPEG for video, and WAV for audio) with which the information in the content component is represented. It is up to software vendors to determine the most effective way to implement the software component. Therefore, the ISMID standard addresses only the behavior component.</p>
+- content: '<p style="font-weight: 400;">This International Standard, known as the
+    Interchange Standard for Multimedia Interactive Documents or ISMID, facilitates
+    the interchange of Multimedia Interactive Documents (MIDs) among heterogeneous
+    interactive document development and delivery systems by providing the architecture
+    from which common interchange languages can be created. ISMID is a client architecture
+    of International Standard ISO/IEC 10744:1997, Information technology -- Hypermedia/Time-based
+    Structuring Language (HyTime) and is an SGML application conforming to International
+    Standard ISO 8879 -- Standard Generalized Markup Language.</p><p style="font-weight:
+    400;"></p><p style="font-weight: 400;">ISMID also specifies use of the DSSSL expression
+    language described in clause 8 of ISO/IEC 10179:1996, Information technology --
+    Processing languages -- Document Style Semantics and Specification Language (DSSSL).</p><p
+    style="font-weight: 400;"></p><p style="font-weight: 400;">In general, the rendering
+    of a Multimedia Interactive Document (MID) requires three major components:</p><ul
+    style="font-weight: 400;"><li>Content: the information that the document author
+    intended to communicate to the user of the MID;<br /><br /></li><li>Behavior:
+    the instructions that govern what, when, where, and how content is presented,
+    and how the MID responds to stimuli from various sources; and<br /><br /></li><li>Software:
+    the application that interprets behavior, retrieves the content, and presents
+    the information to the user.</li></ul><p style="font-weight: 400;"></p><p style="font-weight:
+    400;">Various vendors, standards bodies, and other groups define the notations
+    (such as SGML for text, CGM for graphics, MPEG for video, and WAV for audio) with
+    which the information in the content component is represented. It is up to software
+    vendors to determine the most effective way to implement the software component.
+    Therefore, the ISMID standard addresses only the behavior component.</p>'
   language:
   - en
   script:
@@ -102,19 +120,19 @@ copyright:
   from: '2001'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 34
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
-structuredidentifier:
-  project_number: '13240'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 34
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  structuredidentifier:
+    project_number: '13240'
+    type: IEC
+  price_code: iso:B

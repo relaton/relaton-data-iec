@@ -71,13 +71,29 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Within the context of the Sharable Content Object Reference Model (SCORM®), ISO/IEC TR 29163-2:2009 describes the components used in a learning experience, how to package those components for exchange from system to system, how to describe those components to enable search and discovery and how to define sequencing information for the components. ISO/IEC TR 29163-2:2009 promotes the consistent storage, labeling, packaging, exchange and discovery of learning content.</p><p>ISO/IEC TR 29163-2:2009 describes responsibilities and requirements for building content and content organizations (e.g., course, lessons, modules, etc.). It contains information on creating content packages, applying metadata to the components in the content package and applying sequencing and navigation details in the context of a content package. SCORM® Content Packaging, as described in ISO/IEC TR 29163-2:2009, provides a consistent form for describing content structures, learning content, the metadata that describes the various components of the content structures and sequencing and navigation rules. This consistency facilitates search and discovery of content packages and their resources (helping facilitate reuse of SCORM® conformant content), building of content organizations that will behave in a similar manner from system to system and standard understanding of the contents of the content package. General subjects discussed include the following:</p>
-
-    Content Model: Definition of common terminology used throughout the CAM book;
-    Content Packaging: Descriptions and requirements for aggregating and bundling learning content;
-    Metadata: Descriptions and requirements for describing SCORM® components;
-    Sequencing and Navigation: Descriptions and requirements for defining sequencing and navigation information.
+- content: "<p>Within the context of the Sharable Content Object Reference Model (SCORM®),
+    ISO/IEC TR 29163-2:2009 describes the components used in a learning experience,
+    how to package those components for exchange from system to system, how to describe
+    those components to enable search and discovery and how to define sequencing information
+    for the components. ISO/IEC TR 29163-2:2009 promotes the consistent storage, labeling,
+    packaging, exchange and discovery of learning content.</p><p>ISO/IEC TR 29163-2:2009
+    describes responsibilities and requirements for building content and content organizations
+    (e.g., course, lessons, modules, etc.). It contains information on creating content
+    packages, applying metadata to the components in the content package and applying
+    sequencing and navigation details in the context of a content package. SCORM®
+    Content Packaging, as described in ISO/IEC TR 29163-2:2009, provides a consistent
+    form for describing content structures, learning content, the metadata that describes
+    the various components of the content structures and sequencing and navigation
+    rules. This consistency facilitates search and discovery of content packages and
+    their resources (helping facilitate reuse of SCORM® conformant content), building
+    of content organizations that will behave in a similar manner from system to system
+    and standard understanding of the contents of the content package. General subjects
+    discussed include the following:</p><ul><li>Content Model: Definition of common
+    terminology used throughout the CAM book;</li><li>Content Packaging: Descriptions
+    and requirements for aggregating and bundling learning content;</li><li>Metadata:
+    Descriptions and requirements for describing SCORM® components;</li><li>Sequencing
+    and Navigation: Descriptions and requirements for defining sequencing and navigation
+    information.</li></ul>"
   language:
   - en
   script:
@@ -101,21 +117,21 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 36
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 03.100.30
-  text: Management of human resources
-- code: 35.240.90
-  text: IT applications in education
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 36
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 03.100.30
+    text: Management of human resources
+  - code: 35.240.90
+    text: IT applications in education
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:H

@@ -75,11 +75,51 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24730 defines two air interface protocols and a single application program interface (API) for real-time locating systems (RTLS) for use in asset management and is intended to allow for compatibility and to encourage interoperability of products for the growing RTLS market. ISO/IEC 24730-1:2006, the RTLS API, establishes a technical standard for RTLS. To be fully compliant with this standard, RTLS must comply with ISO/IEC 24730-1:2006 and at least one air interface protocol defined in ISO/IEC 24730. RTLS are wireless systems with the ability to locate the position of an item anywhere in a defined space (local/campus, wide area/regional, global) at a point in time that is, or is close to, real time. Position is derived by measurements of the physical properties of the radio link.</p><p>Conceptually there are four classifications of RTLS:</p>
-    Locating an asset via satellite (requires line-of-sight) - accuracy to 10 m.Locating an asset in a controlled area, e.g. warehouse, campus, airport (area of interest is instrumented) - accuracy to 3 m. Locating an asset in a more confined area (area of interest is instrumented) - accuracy to tens of centimetres. Locating an asset over a terrestrial area using a terrestrial mounted receiver over a wide area, e.g. cell phone towers - accuracy to 200 m.<p>There are a further two methods of locating an object which are really RFID rather than RTLS:</p>
-    Locating an asset by virtue of the fact that the asset has passed point A at a certain time and has not passed point B.Locating an asset by virtue of providing a homing beacon whereby a person with a handheld can find an asset.<p>The method of location is through identification and location, generally through multi-lateration. The different types are</p>
-    Time of Flight Ranging Systems,Amplitude Triangulation,Time Difference of Arrival (TDOA),Cellular Triangulation,Satellite Multi-lateration,Angle of Arrival.<p>ISO/IEC 24730-1:2006 defines an API needed for utilizing an RTLS.</p><p>An API is a boundary across which application software uses facilities of programming languages to invoke services. These facilities may include procedures or operations, shared data objects and resolution of identifiers. A wide range of services may be required at an API to support applications. Different methods may be appropriate for documenting API specifications for different types of services.</p><p>The information flow across the API boundary is defined by the syntax and semantics of a particular programming language, such that the user of that language may access the services provided by the application platform on the other side of the boundary. This implies the specification of a mapping of the functions being made available by the application platform into the syntax and semantics of the programming language. An API specification documents a service and/or service access method that is available at an interface between the application and an application platform.</p><p>This API describes the RTLS service and its access methods, to enable client applications to interface with the RTLS. This RTLS service is the minimum service that must be provided by an RTLS to be API compatible with this standard.</p><p>ISO/IEC 24730-1:2006 enables software applications to utilize an RTLS infrastructure to locate assets with RTLS transmitters attached to them. It defines a boundary across which application software uses facilities of programming languages to collect information contained in RTLS tag blinks received by the RTLS infrastructure.</p>
+- content: "<p>ISO/IEC 24730 defines two air interface protocols and a single application
+    program interface (API) for real-time locating systems (RTLS) for use in asset
+    management and is intended to allow for compatibility and to encourage interoperability
+    of products for the growing RTLS market. ISO/IEC 24730-1:2006, the RTLS API, establishes
+    a technical standard for RTLS. To be fully compliant with this standard, RTLS
+    must comply with ISO/IEC 24730-1:2006 and at least one air interface protocol
+    defined in ISO/IEC 24730. RTLS are wireless systems with the ability to locate
+    the position of an item anywhere in a defined space (local/campus, wide area/regional,
+    global) at a point in time that is, or is close to, real time. Position is derived
+    by measurements of the physical properties of the radio link.</p><p>Conceptually
+    there are four classifications of RTLS:</p><ul><li>Locating an asset via satellite
+    (requires line-of-sight) - accuracy to 10 m.</li><li>Locating an asset in a controlled
+    area, e.g. warehouse, campus, airport (area of interest is instrumented) - accuracy
+    to 3 m.</li><li>Locating an asset in a more confined area (area of interest is
+    instrumented) - accuracy to tens of centimetres.</li><li>Locating an asset over
+    a terrestrial area using a terrestrial mounted receiver over a wide area, e.g.
+    cell phone towers - accuracy to 200 m.</li></ul><p>There are a further two methods
+    of locating an object which are really RFID rather than RTLS:</p><ul><li>Locating
+    an asset by virtue of the fact that the asset has passed point A at a certain
+    time and has not passed point B.</li><li>Locating an asset by virtue of providing
+    a homing beacon whereby a person with a handheld can find an asset.</li></ul><p>The
+    method of location is through identification and location, generally through multi-lateration.
+    The different types are</p><ul><li>Time of Flight Ranging Systems,</li><li>Amplitude
+    Triangulation,</li><li>Time Difference of Arrival (TDOA),</li><li>Cellular Triangulation,</li><li>Satellite
+    Multi-lateration,</li><li>Angle of Arrival.</li></ul><p>ISO/IEC 24730-1:2006 defines
+    an API needed for utilizing an RTLS.</p><p>An API is a boundary across which application
+    software uses facilities of programming languages to invoke services. These facilities
+    may include procedures or operations, shared data objects and resolution of identifiers.
+    A wide range of services may be required at an API to support applications. Different
+    methods may be appropriate for documenting API specifications for different types
+    of services.</p><p>The information flow across the API boundary is defined by
+    the syntax and semantics of a particular programming language, such that the user
+    of that language may access the services provided by the application platform
+    on the other side of the boundary. This implies the specification of a mapping
+    of the functions being made available by the application platform into the syntax
+    and semantics of the programming language. An API specification documents a service
+    and/or service access method that is available at an interface between the application
+    and an application platform.</p><p>This API describes the RTLS service and its
+    access methods, to enable client applications to interface with the RTLS. This
+    RTLS service is the minimum service that must be provided by an RTLS to be API
+    compatible with this standard.</p><p>ISO/IEC 24730-1:2006 enables software applications
+    to utilize an RTLS infrastructure to locate assets with RTLS transmitters attached
+    to them. It defines a boundary across which application software uses facilities
+    of programming languages to collect information contained in RTLS tag blinks received
+    by the RTLS infrastructure.</p>"
   language:
   - en
   script:
@@ -103,20 +143,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '24730'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '24730'
+    part: '1'
+    type: IEC
+  price_code: iso:B

@@ -63,15 +63,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19761:2011 specifies the set of definitions, conventions and activities of the COSMIC Functional Size Measurement Method. It is applicable to software from the following functional domains:</p>
-
-    application software;
-    real-time software;
-    hybrids of the above.<p>ISO/IEC 19761:2011 has not been designed for measuring the functional size of a piece of software, or its parts, which</p>
-
-    is characterized by complex mathematical algorithms or other specialized and complex rules, such as can be found in expert systems, simulation software, self-learning software and weather forecasting systems, or
-    processes continuous variables such as audio sounds or video images, such as can be found in computer game software, musical instruments and the like.
+- content: "<p>ISO/IEC 19761:2011 specifies the set of definitions, conventions and
+    activities of the COSMIC Functional Size Measurement Method. It is applicable
+    to software from the following functional domains:</p><ol><li>application software;</li><li>real-time
+    software;</li><li>hybrids of the above.</li></ol><p>ISO/IEC 19761:2011 has not
+    been designed for measuring the functional size of a piece of software, or its
+    parts, which</p><ul><li>is characterized by complex mathematical algorithms or
+    other specialized and complex rules, such as can be found in expert systems, simulation
+    software, self-learning software and weather forecasting systems, or</li><li>processes
+    continuous variables such as audio sounds or video images, such as can be found
+    in computer game software, musical instruments and the like.</li></ul>"
   language:
   - en
   script:
@@ -95,19 +96,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '19761'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '19761'
+    type: IEC
+  price_code: iso:C

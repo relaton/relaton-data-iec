@@ -73,9 +73,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15050:2003 specifies the signalling protocol for the support of the Advice Of Charge supplementary services (SS-AOC) at the Q reference point between Private Integrated services Network eXchanges (PINX) connected together within a Private Integrated Services Network (PISN).</p><p>SS-AOC is a set of supplementary services which enable a user to receive information about the charging of its calls that leave the PISN and enter another network.</p><p>The three AOC supplementary services are:</p>
-    Charging information at call set-up time (AOC-S): SS-AOC-S enables the user to receive information about the charging rates at call set-up time and also to receive further information during the call if there is a change of charging rates.Charging information during the call (AOC-D): SS-AOC-D enables a user to receive information on the recorded charges for a call during the active phase of the call.Charging information at the end of the call (AOC-E): SS-AOC-E enables a user to receive information on the recorded charges for a call when the call is terminated.<p>The Q reference point is defined in ISO/IEC 11579-1.</p>
+- content: "<p>ISO/IEC 15050:2003 specifies the signalling protocol for the support
+    of the Advice Of Charge supplementary services (SS-AOC) at the Q reference point
+    between Private Integrated services Network eXchanges (PINX) connected together
+    within a Private Integrated Services Network (PISN).</p><p>SS-AOC is a set of
+    supplementary services which enable a user to receive information about the charging
+    of its calls that leave the PISN and enter another network.</p><p>The three AOC
+    supplementary services are:</p><ol><li>Charging information at call set-up time
+    (AOC-S): SS-AOC-S enables the user to receive information about the charging rates
+    at call set-up time and also to receive further information during the call if
+    there is a change of charging rates.</li><li>Charging information during the call
+    (AOC-D): SS-AOC-D enables a user to receive information on the recorded charges
+    for a call during the active phase of the call.</li><li>Charging information at
+    the end of the call (AOC-E): SS-AOC-E enables a user to receive information on
+    the recorded charges for a call when the call is terminated.</li></ol><p>The Q
+    reference point is defined in ISO/IEC 11579-1.</p>"
   language:
   - en
   script:
@@ -99,19 +111,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 33.040.35
-  text: Telephone networks
-structuredidentifier:
-  project_number: '15050'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  structuredidentifier:
+    project_number: '15050'
+    type: IEC
+  price_code: iso:ZZ

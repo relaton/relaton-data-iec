@@ -71,14 +71,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23000-9:2008 specifies a file format that pertains to both terrestrial digital multimedia broadcasting (T-DMB) and satellite digital multimedia broadcasting (S-DMB) contents and services. It integrates the existing DMB contents with appropriate additional information to facilitate storage, interchange, management, editing, and presentation of the contents in protected, governed, and interoperable ways.</p><p>ISO/IEC 23000-9:2008 is applicable both to storage and playback of DMB contents and to acquisition and consumption through communication networks and removable storages. Application examples of this specification include but are not limited to</p>
-
-    scheduled storage and time-shifted playback of DMB contents,
-    file casting through DMB data channel,
-    IP media service such as DMB content portal,
-    rightful interchange of DMB contents between terminals, and
-    user editing or creation from DMB contents.
+- content: "<p>ISO/IEC 23000-9:2008 specifies a file format that pertains to both
+    terrestrial digital multimedia broadcasting (T-DMB) and satellite digital multimedia
+    broadcasting (S-DMB) contents and services. It integrates the existing DMB contents
+    with appropriate additional information to facilitate storage, interchange, management,
+    editing, and presentation of the contents in protected, governed, and interoperable
+    ways.</p><p>ISO/IEC 23000-9:2008 is applicable both to storage and playback of
+    DMB contents and to acquisition and consumption through communication networks
+    and removable storages. Application examples of this specification include but
+    are not limited to</p><ul><li>scheduled storage and time-shifted playback of DMB
+    contents,</li><li>file casting through DMB data channel,</li><li>IP media service
+    such as DMB content portal,</li><li>rightful interchange of DMB contents between
+    terminals, and</li><li>user editing or creation from DMB contents.</li></ul>"
   language:
   - en
   script:
@@ -102,20 +106,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23000'
-  part: '9'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23000'
+    part: '9'
+    type: IEC
+  price_code: iso:F

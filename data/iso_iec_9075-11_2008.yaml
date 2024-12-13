@@ -75,13 +75,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9075 defines the SQL language. The scope of the SQL language is the definition of data structure and the operations on data stored in that structure. ISO/IEC 9075-1:2008, ISO/IEC 9075-2:2008 and ISO/IEC 9075-11:2008 encompass the minimum requirements of the language. Other parts define extensions.</p><p>ISO/IEC 9075-11:2008 specifies an Information Schema and a Definition Schema that describe:</p>
-
-    the structure and integrity constraints of SQL-data;
-    the security and authorization specifications relating to SQL-data;
-    the features, subfeatures, and packages of ISO/IEC 9075, and the support that each of these has in an SQL implementation;
-    the SQL-implementation information and sizing items of ISO/IEC 9075 and the values supported by an SQL-implementation.
+- content: "<p>ISO/IEC 9075 defines the SQL language. The scope of the SQL language
+    is the definition of data structure and the operations on data stored in that
+    structure. ISO/IEC 9075-1:2008, ISO/IEC 9075-2:2008 and ISO/IEC 9075-11:2008 encompass
+    the minimum requirements of the language. Other parts define extensions.</p><p>ISO/IEC
+    9075-11:2008 specifies an Information Schema and a Definition Schema that describe:</p><ul><li>the
+    structure and integrity constraints of SQL-data;</li><li>the security and authorization
+    specifications relating to SQL-data;</li><li>the features, subfeatures, and packages
+    of ISO/IEC 9075, and the support that each of these has in an SQL implementation;</li><li>the
+    SQL-implementation information and sizing items of ISO/IEC 9075 and the values
+    supported by an SQL-implementation.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +108,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '9075'
-  part: '11'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '9075'
+    part: '11'
+    type: IEC
+  price_code: iso:B

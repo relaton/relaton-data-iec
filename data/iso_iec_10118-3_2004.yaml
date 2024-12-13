@@ -75,9 +75,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10118-3:2004 specifies the following seven dedicated hash-functions, i.e. specially-designed hash-functions:</p>
-    the first hash-function (RIPEMD-160) in Clause 7 provides hash-codes of lengths up to 160 bits; the second hash-function (RIPEMD-128) in Clause 8 provides hash-codes of lengths up to 128 bits; the third hash-function (SHA-1) in Clause 9 provides hash-codes of lengths up to 160 bits;the fourth hash-function (SHA-256) in Clause 10 provides hash-codes of lengths up to 256 bits; the fifth hash-function (SHA-512) in Clause 11 provides hash-codes of lengths up to 512 bits;the sixth hash-function (SHA-384) in Clause 12 provides hash-codes of a fixed length, 384 bits; andthe seventh hash-function (WHIRLPOOL) in Clause 13 provides hash-codes of lengths up to 512 bits.<p>For each of these dedicated hash-functions, ISO/IEC 10118-3:2004 specifies a round-function that consists of a sequence of sub-functions, a padding method, initializing values, parameters, constants, and an object identifier as normative information, and also specifies several computation examples as informative information.</p>
+- content: "<p>ISO/IEC 10118-3:2004 specifies the following seven dedicated hash-functions,
+    i.e. specially-designed hash-functions:</p><ul><li>the first hash-function (RIPEMD-160)
+    in Clause 7 provides hash-codes of lengths up to 160 bits;</li><li>the second
+    hash-function (RIPEMD-128) in Clause 8 provides hash-codes of lengths up to 128
+    bits;</li><li>the third hash-function (SHA-1) in Clause 9 provides hash-codes
+    of lengths up to 160 bits;</li><li>the fourth hash-function (SHA-256) in Clause
+    10 provides hash-codes of lengths up to 256 bits;</li><li>the fifth hash-function
+    (SHA-512) in Clause 11 provides hash-codes of lengths up to 512 bits;</li><li>the
+    sixth hash-function (SHA-384) in Clause 12 provides hash-codes of a fixed length,
+    384 bits; and</li><li>the seventh hash-function (WHIRLPOOL) in Clause 13 provides
+    hash-codes of lengths up to 512 bits.</li></ul><p>For each of these dedicated
+    hash-functions, ISO/IEC 10118-3:2004 specifies a round-function that consists
+    of a sequence of sub-functions, a padding method, initializing values, parameters,
+    constants, and an object identifier as normative information, and also specifies
+    several computation examples as informative information.</p>"
   language:
   - en
   script:
@@ -101,20 +113,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '10118'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '10118'
+    part: '3'
+    type: IEC
+  price_code: iso:B

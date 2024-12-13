@@ -71,13 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 29181-3:2013 contains the problem statement and requirements for switching and routing in the Future Network, in particular:</p>
-
-    description of the requirements for carrying data over digital networks;
-    description of the ways in which these requirements are not satisfied by current networks;
-    functional architecture for switching and routing in the Future Network; and
-    requirements for control plane information flows for finding, setting up, and tearing down routes.<p>The requirements in 4. include support for both current ("legacy") and future ("new") switching technologies, to aid the transition between them.</p>
+- content: <p>ISO/IEC TR 29181-3:2013 contains the problem statement and requirements
+    for switching and routing in the Future Network, in particular:</p><ol><li>description
+    of the requirements for carrying data over digital networks;</li><li>description
+    of the ways in which these requirements are not satisfied by current networks;</li><li>functional
+    architecture for switching and routing in the Future Network; and</li><li>requirements
+    for control plane information flows for finding, setting up, and tearing down
+    routes.</li></ol><p>The requirements in 4. include support for both current ("legacy")
+    and future ("new") switching technologies, to aid the transition between them.</p>
   language:
   - en
   script:
@@ -101,19 +102,19 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.30
-  text: Network layer
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.30
+    text: Network layer
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:E

@@ -71,9 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7816-4 defines how to use an application identifier to ascertain the presence of and/or perform the retrieval of an application in a card.</p><p>ISO/IEC 7816-5:2004 shows how to grant the uniqueness of application identifiers through the international registration of a part of this identifier, and defines</p>
-    the registration procedure,the authorities in charge thereof,the availability of the register which links the registered parts of the identifiers and the relevant application providers.
+- content: "<p>ISO/IEC 7816-4 defines how to use an application identifier to ascertain
+    the presence of and/or perform the retrieval of an application in a card.</p><p>ISO/IEC
+    7816-5:2004 shows how to grant the uniqueness of application identifiers through
+    the international registration of a part of this identifier, and defines</p><ul><li>the
+    registration procedure,</li><li>the authorities in charge thereof,</li><li>the
+    availability of the register which links the registered parts of the identifiers
+    and the relevant application providers.</li></ul>"
   language:
   - en
   script:
@@ -97,20 +101,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '5'
+    type: IEC
+  price_code: iso:B

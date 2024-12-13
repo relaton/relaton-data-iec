@@ -75,13 +75,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 8825-3:2008 defines Encoding Control Notation (ECN): a notation for specifying encodings of ASN.1 types or of parts of types. It provides several mechanisms for such specification, including:</p>
-
-    direct specification of the encoding using standardized notation;
-    specification of the encoding by reference to standardized encoding rules;
-    specification of the encoding of an ASN.1 type by reference to an encoding structure;
-    specification of the encoding using non-ECN notation.<p>It also provides the means to link the specification of encodings to the type definitions to which they are to be applied.</p><p>ECN does not currently provide any support for specifications using the object identifier (OID) internationalized resource identifier type or the relative OID internationalized resource identifier type (see ISO/IEC 8824-1).</p>
+- content: "<p>ISO/IEC 8825-3:2008 defines Encoding Control Notation (ECN): a notation
+    for specifying encodings of ASN.1 types or of parts of types. It provides several
+    mechanisms for such specification, including:</p><ul><li>direct specification
+    of the encoding using standardized notation;</li><li>specification of the encoding
+    by reference to standardized encoding rules;</li><li>specification of the encoding
+    of an ASN.1 type by reference to an encoding structure;</li><li>specification
+    of the encoding using non-ECN notation.</li></ul><p>It also provides the means
+    to link the specification of encodings to the type definitions to which they are
+    to be applied.</p><p>ECN does not currently provide any support for specifications
+    using the object identifier (OID) internationalized resource identifier type or
+    the relative OID internationalized resource identifier type (see ISO/IEC 8824-1).</p>"
   language:
   - en
   script:
@@ -105,20 +109,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.60
-  text: Presentation layer
-structuredidentifier:
-  project_number: '8825'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  structuredidentifier:
+    project_number: '8825'
+    part: '3'
+    type: IEC
+  price_code: iso:B

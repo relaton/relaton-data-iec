@@ -75,11 +75,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15938-12:2008 describes the query format tools which may be used independently or in combination with other parts of ISO/IEC 15938. Each query format tool is described in two normative sections:</p>
-
-    Syntax (normative specification of the query and management format);
-    Semantic: (normative definition of the semantics of all the components of the corresponding query format specification).<p>The query format provides a standardized interface for multimedia content information retrieval systems (e.g. MPEG-7 databases) in three aspects which are input query format, output query format, and query managements. The input query format specifies the interface through which the users can describe their search criteria with a set of precise input parameters in addition to a set of preferred output parameters to depict the return result sets. The output query format specifies the interface format for the result set. The query management provides means for selecting services (e.g. MPEG-7 database) or aggregated services (e.g. service provider that administers a set of different services) based on service properties (e.g. supported query format).</p>
+- content: "<p>ISO/IEC 15938-12:2008 describes the query format tools which may be
+    used independently or in combination with other parts of ISO/IEC 15938. Each query
+    format tool is described in two normative sections:</p><ul><li>Syntax (normative
+    specification of the query and management format);</li><li>Semantic: (normative
+    definition of the semantics of all the components of the corresponding query format
+    specification).</li></ul><p>The query format provides a standardized interface
+    for multimedia content information retrieval systems (e.g. MPEG-7 databases) in
+    three aspects which are input query format, output query format, and query managements.
+    The input query format specifies the interface through which the users can describe
+    their search criteria with a set of precise input parameters in addition to a
+    set of preferred output parameters to depict the return result sets. The output
+    query format specifies the interface format for the result set. The query management
+    provides means for selecting services (e.g. MPEG-7 database) or aggregated services
+    (e.g. service provider that administers a set of different services) based on
+    service properties (e.g. supported query format).</p>"
   language:
   - en
   script:
@@ -103,20 +113,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '15938'
-  part: '12'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '15938'
+    part: '12'
+    type: IEC
+  price_code: iso:B

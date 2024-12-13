@@ -74,14 +74,14 @@ script:
 abstract:
 - content: "<p>ISO/IEC 20008-2:2013 specifies anonymous digital signature mechanisms,
     in which a verifier makes use of a group public key to verify a digital signature.</p><p>It
-    provides</p>\n\na general description of an anonymous digital signature mechanism
-    using a group public key;\na variety of mechanisms that provide such anonymous
-    digital signatures.<p>For each mechanism, ISO/IEC 20008-2:2013 specifies</p>\n\nthe
-    process for generating group member signature keys and a group public key;\nthe
-    process for producing signatures; \nthe process for verifying signatures;\nthe
-    process for opening signatures (if the mechanism supports opening);\nthe process
-    for linking signatures (if the mechanism supports linking);\nthe process for revoking
-    group members."
+    provides</p><ul><li>a general description of an anonymous digital signature mechanism
+    using a group public key;</li><li>a variety of mechanisms that provide such anonymous
+    digital signatures.</li></ul><p>For each mechanism, ISO/IEC 20008-2:2013 specifies</p><ul><li>the
+    process for generating group member signature keys and a group public key;</li><li>the
+    process for producing signatures;</li><li>the process for verifying signatures;</li><li>the
+    process for opening signatures (if the mechanism supports opening);</li><li>the
+    process for linking signatures (if the mechanism supports linking);</li><li>the
+    process for revoking group members.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +105,20 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '20008'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '20008'
+    part: '2'
+    type: IEC
+  price_code: iso:H

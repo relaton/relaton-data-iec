@@ -75,15 +75,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 13818-1:2013 specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports six basic functions:</p>
-
-     the synchronization of multiple compressed streams on decoding;
-     the interleaving of multiple compressed streams into a single stream;
-     the initialization of buffering for decoding start up;
-     continuous buffer management;
-     time identification;
-     multiplexing and signalling of various components in a system stream.
+- content: "<p>ISO/IEC 13818-1:2013 specifies the system layer of the coding. It was
+    developed principally to support the combination of the video and audio coding
+    methods defined in ISO/IEC 13818-2 and ISO/IEC 13818-3. The system layer supports
+    six basic functions:</p><ol><li> the synchronization of multiple compressed streams
+    on decoding;</li><li> the interleaving of multiple compressed streams into a single
+    stream;</li><li> the initialization of buffering for decoding start up;</li><li>
+    continuous buffer management;</li><li> time identification;</li><li> multiplexing
+    and signalling of various components in a system stream.</li></ol>"
   language:
   - en
   script:
@@ -107,20 +106,20 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '13818'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '13818'
+    part: '1'
+    type: IEC
+  price_code: iso:B

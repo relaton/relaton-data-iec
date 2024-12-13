@@ -75,12 +75,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24800-2:2011 specifies a series of interfaces to allow disparate systems an interoperable management of image repositories. It also specifies the general rules which govern the usage of metadata in JPSearch and provides a specification which</p>
-
-    provides rules for the representation of image metadata descriptions, consisting of the definition of the JPSearch Core Metadata Schema,
-    provides rules for the publication of machine-readable translations between metadata terms belonging to proprietary metadata schemas and metadata terms in the JPSearch Core Metadata Schema, and
-    provides rules for the registration and request of metadata schemas and its translation rules or links to them.<p>JPSearch is an extensible standard. The normative method of extending the structures and rules beyond the JPSearch Core Metadata Schema is provided in ISO/IEC 24800-2:2011.</p>
+- content: "<p>ISO/IEC 24800-2:2011 specifies a series of interfaces to allow disparate
+    systems an interoperable management of image repositories. It also specifies the
+    general rules which govern the usage of metadata in JPSearch and provides a specification
+    which</p><ul><li>provides rules for the representation of image metadata descriptions,
+    consisting of the definition of the JPSearch Core Metadata Schema,</li><li>provides
+    rules for the publication of machine-readable translations between metadata terms
+    belonging to proprietary metadata schemas and metadata terms in the JPSearch Core
+    Metadata Schema, and</li><li>provides rules for the registration and request of
+    metadata schemas and its translation rules or links to them.</li></ul><p>JPSearch
+    is an extensible standard. The normative method of extending the structures and
+    rules beyond the JPSearch Core Metadata Schema is provided in ISO/IEC 24800-2:2011.</p>"
   language:
   - en
   script:
@@ -104,20 +109,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '24800'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '24800'
+    part: '2'
+    type: IEC
+  price_code: iso:B

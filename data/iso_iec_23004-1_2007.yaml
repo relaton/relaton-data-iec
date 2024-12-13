@@ -70,38 +70,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23004-1:2007 specifies the architecture of the MPEG Multimedia Middleware technology. Multimedia Middleware (M3W) allows application software to execute multimedia functions with a minimum knowledge of the inner workings of the multimedia middleware as well as to support a structured way of updating, upgrading and/or extending the multimedia middleware. The architecture consists of the following.</p>
-
-    M3W API:
-
-    multimedia API (specified in detail in ISO/IEC 23004-2);
-    interfaces for audio broadcast decoding, processing and rendering;
-    interfaces for video broadcast decoding, processing and rendering;
-    IPMP interfaces;
-    governance interfaces.
-
-
-    Support API (specified in detail in ISO/IEC 23004-3 to ISO/IEC 23004-7):
-
-    interfaces for instantiation of services (Runtime Environment and Service Manager);
-    interfaces for interaction with remote services (REMI-P and REMI-R, REMI stands for Remote Method Invocator);
-    interfaces for Resource Management;
-    interfaces for Component Download;
-    interfaces for Fault Management;
-    interfaces for Integrity Management.
-
-
-    Realization technology (specified in detail in ISO/IEC 23004-3):
-
-    Unit of Trading;
-    Unit of Loading;
-    Unit of Instantiation;
-    standard interfaces:
-
-    navigation between interfaces,
-    binding,
-    access to public attributes.
+- content: "<p>ISO/IEC 23004-1:2007 specifies the architecture of the MPEG Multimedia
+    Middleware technology. Multimedia Middleware (M3W) allows application software
+    to execute multimedia functions with a minimum knowledge of the inner workings
+    of the multimedia middleware as well as to support a structured way of updating,
+    upgrading and/or extending the multimedia middleware. The architecture consists
+    of the following.</p><ul><li>M3W API:<ul><li>multimedia API (specified in detail
+    in ISO/IEC 23004-2);</li><li>interfaces for audio broadcast decoding, processing
+    and rendering;</li><li>interfaces for video broadcast decoding, processing and
+    rendering;</li><li>IPMP interfaces;</li><li>governance interfaces.</li></ul></li><li>Support
+    API (specified in detail in ISO/IEC 23004-3 to ISO/IEC 23004-7):<ul><li>interfaces
+    for instantiation of services (Runtime Environment and Service Manager);</li><li>interfaces
+    for interaction with remote services (REMI-P and REMI-R, REMI stands for Remote
+    Method Invocator);</li><li>interfaces for Resource Management;</li><li>interfaces
+    for Component Download;</li><li>interfaces for Fault Management;</li><li>interfaces
+    for Integrity Management.</li></ul></li><li>Realization technology (specified
+    in detail in ISO/IEC 23004-3):<ul><li>Unit of Trading;</li><li>Unit of Loading;</li><li>Unit
+    of Instantiation;</li><li>standard interfaces:<ul><li>navigation between interfaces,</li><li>binding,</li><li>access
+    to public attributes.</li></ul></li></ul></li></ul>"
   language:
   - en
   script:
@@ -125,20 +111,20 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23004'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23004'
+    part: '1'
+    type: IEC
+  price_code: iso:H

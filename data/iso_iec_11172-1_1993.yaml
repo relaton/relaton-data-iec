@@ -104,18 +104,14 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente partie de l'ISO/CEI 11172 spécifie la Couche Système du codage.
-    Elle est principalement destinée à prendre en charge la combinaison des méthodes
-    de codage vidéo et audio définies dans l'ISO/CEI 11172-2 et l'ISO/CEI 11172-3.
-    La Couche Système assure cinq fonctions de base: \na) la synchronisation, lors
-    de la restitution de plusieurs trains binaires comprimés; \nb) l'entrelacement
-    de plusieurs trains binaires comprimés en un même train binaire; \nc) l'initialisation
-    du tamponnage au début de la restitution; \nd) la gestion permanente des tampons;
-    \ne) la détermination du temps.\n\nUn train binaire multiplexé ISO/CEI 11172 est
-    structuré en deux\ncouches: une couche externe, la Couche Système; une couche
-    interne:\nla Couche Compression. La Couche Système assure les fonctions nécessaires\npour
-    l'utilisation d'un ou plusieurs trains binaires de données comprimées\ndans un
-    système. Les parties audio et vidéo de la présente\nnorme définiss"
+- content: |-
+    La présente partie de l'ISO/CEI 11172 spécifie la Couche Système du codage. Elle est principalement destinée à prendre en charge la combinaison des méthodes de codage vidéo et audio définies dans l'ISO/CEI 11172-2 et l'ISO/CEI 11172-3. La Couche Système assure cinq fonctions de base:<ul><li>a) la synchronisation, lors de la restitution de plusieurs trains binaires comprimés;</li><li>b) l'entrelacement de plusieurs trains binaires comprimés en un même train binaire;</li><li>c) l'initialisation du tamponnage au début de la restitution;</li><li>d) la gestion permanente des tampons;</li><li>e) la détermination du temps.</li></ul>
+    Un train binaire multiplexé ISO/CEI 11172 est structuré en deux
+    couches: une couche externe, la Couche Système; une couche interne:
+    la Couche Compression. La Couche Système assure les fonctions nécessaires
+    pour l'utilisation d'un ou plusieurs trains binaires de données comprimées
+    dans un système. Les parties audio et vidéo de la présente
+    norme définiss
   language:
   - fr
   script:
@@ -139,20 +135,20 @@ copyright:
   from: '1993'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '11172'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '11172'
+    part: '1'
+    type: IEC
+  price_code: iso:G

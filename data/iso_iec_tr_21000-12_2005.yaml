@@ -71,10 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 21000-12:2005 specifies a test bed that is designed to assist in performance assessment of MPEG-21, Scalable Video Codec (SVC) for streaming applications, and for the evaluation of resource delivery technologies over unreliable packet-switched networks. The streaming protocols used in the test bed are based on RTSP and RTP. The Network Adaptation QoS mechanism of MPEG-21 Digital Item Adaptation (DIA) is used for bandwidth-scalable streaming. A subset of MPEG-4 IPMP is also included in the test bed so that encrypted streaming and layered access functionality of a DRM system can be tested for different SVC designs.</p><p>The test bed includes a network emulator GUI that interfaces with a Linux-based network emulator, NistNet, for real-time emulation of channel characteristics of various networks. Therefore:</p>
-    Various scalable codec (audio, video, scene composition) technologies can be evaluated.Various packetization methods and file formats can be evaluated.Various multimedia streaming rate control and error control mechanisms can be plugged into the test bed and evaluated.<p>In summary, the following MPEG technologies are demonstrated by the test bed:</p>
-    MPEG scalable audio and video codecs;MPEG-4 on IP;MPEG-4 IPMP (a small subset); andMPEG-21 DIA Network Adaptation QoS.<p>The architecture and the API are not tied to any particular media codecs. However, currently only the MPEG-4 FGS video and MPEG-4 BSAC audio are officially supported by the software. The support for ISO/IEC 21000-13 (MPEG-21 part 13) SVC will be included when that International Standard is ready.</p>
+- content: "<p>ISO/IEC TR 21000-12:2005 specifies a test bed that is designed to assist
+    in performance assessment of MPEG-21, Scalable Video Codec (SVC) for streaming
+    applications, and for the evaluation of resource delivery technologies over unreliable
+    packet-switched networks. The streaming protocols used in the test bed are based
+    on RTSP and RTP. The Network Adaptation QoS mechanism of MPEG-21 Digital Item
+    Adaptation (DIA) is used for bandwidth-scalable streaming. A subset of MPEG-4
+    IPMP is also included in the test bed so that encrypted streaming and layered
+    access functionality of a DRM system can be tested for different SVC designs.</p><p>The
+    test bed includes a network emulator GUI that interfaces with a Linux-based network
+    emulator, NistNet, for real-time emulation of channel characteristics of various
+    networks. Therefore:</p><ul><li>Various scalable codec (audio, video, scene composition)
+    technologies can be evaluated.</li><li>Various packetization methods and file
+    formats can be evaluated.</li><li>Various multimedia streaming rate control and
+    error control mechanisms can be plugged into the test bed and evaluated.</li></ul><p>In
+    summary, the following MPEG technologies are demonstrated by the test bed:</p><ul><li>MPEG
+    scalable audio and video codecs;</li><li>MPEG-4 on IP;</li><li>MPEG-4 IPMP (a
+    small subset); and</li><li>MPEG-21 DIA Network Adaptation QoS.</li></ul><p>The
+    architecture and the API are not tied to any particular media codecs. However,
+    currently only the MPEG-4 FGS video and MPEG-4 BSAC audio are officially supported
+    by the software. The support for ISO/IEC 21000-13 (MPEG-21 part 13) SVC will be
+    included when that International Standard is ready.</p>"
   language:
   - en
   script:
@@ -98,19 +115,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:D

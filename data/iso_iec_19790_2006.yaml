@@ -75,9 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19790:2006 specifies the security requirements for a cryptographic module utilized within a security system protecting sensitive information in computer and telecommunication systems.</p><p>ISO/IEC 19790:2006 specifies the following.</p>
-    Four levels of increasing security for cryptographic modules. Each level offers an increase in security over the preceding level. The following functional security objectives:module specification;ports and interfaces;roles, services and authentication;finite state model;physical security; operational environment;cryptographic key management;self-tests; design assurance;mitigation of other attacks.<p>ISO/IEC 19790:2006 will be complemented by a future International Standard defining the associated evaluation and test methods.</p><p>ISO/IEC 19790:2006 is derived from NIST Federal Information Processing Standard PUB 140-2 May 25, 2001.</p>
+- content: "<p>ISO/IEC 19790:2006 specifies the security requirements for a cryptographic
+    module utilized within a security system protecting sensitive information in computer
+    and telecommunication systems.</p><p>ISO/IEC 19790:2006 specifies the following.</p><ul><li>Four
+    levels of increasing security for cryptographic modules. Each level offers an
+    increase in security over the preceding level.</li><li>The following functional
+    security objectives:<ul><li>module specification;</li><li>ports and interfaces;</li><li>roles,
+    services and authentication;</li><li>finite state model;</li><li>physical security;</li><li>operational
+    environment;</li><li>cryptographic key management;</li><li>self-tests;</li><li>design
+    assurance;</li><li>mitigation of other attacks.</li></ul></li></ul><p>ISO/IEC
+    19790:2006 will be complemented by a future International Standard defining the
+    associated evaluation and test methods.</p><p>ISO/IEC 19790:2006 is derived from
+    NIST Federal Information Processing Standard PUB 140-2 May 25, 2001.</p>"
   language:
   - en
   script:
@@ -101,19 +110,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '19790'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '19790'
+    type: IEC
+  price_code: iso:B

@@ -75,9 +75,28 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18000-2:2004 defines the air interface for radio-frequency identification (RFID) devices operating below 135 kHz used in item management applications. Its purpose is to provide a common technical specification for RFID devices to allow for compatibility and to encourage inter-operability of products for the growing RFID market in the international marketplace. ISO/IEC 18000-2:2004 defines the forward and return link parameters for technical attributes including, but not limited to, operating frequency, operating channel accuracy, occupied channel bandwidth, spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy, bit transmission order. It further defines the communications protocol used in the air interface.</p><p>ISO/IEC 18000-2:2004 contains two types. The detailed technical differences between the types are shown in the parameter tables.</p><p>ISO/IEC 18000-2:2004 specifies</p>
-    the physical layer that is used for communication between the interrogator and the tag;the protocol and the commands;the method to detect and communicate with one tag among several tags ("anti-collision").<p>It specifies two types of tags: Type A (FDX) and Type B (HDX). These two types differ only by their physical layer. Both types support the same anti-collision and protocol.</p><p>FDX tags are permanently powered by the interrogator, including during the tag-to-interrogator transmission. They operate at 125 kHz.</p><p>HDX tags are powered by the interrogator, except during the tag-to-interrogator transmission. They operate at 134,2 kHz. An alternative operating frequency is described.</p><p>An optional anti-collision mechanism is also described.</p>
+- content: '<p>ISO/IEC 18000-2:2004 defines the air interface for radio-frequency
+    identification (RFID) devices operating below 135 kHz used in item management
+    applications. Its purpose is to provide a common technical specification for RFID
+    devices to allow for compatibility and to encourage inter-operability of products
+    for the growing RFID market in the international marketplace. ISO/IEC 18000-2:2004
+    defines the forward and return link parameters for technical attributes including,
+    but not limited to, operating frequency, operating channel accuracy, occupied
+    channel bandwidth, spurious emissions, modulation, duty cycle, data coding, bit
+    rate, bit rate accuracy, bit transmission order. It further defines the communications
+    protocol used in the air interface.</p><p>ISO/IEC 18000-2:2004 contains two types.
+    The detailed technical differences between the types are shown in the parameter
+    tables.</p><p>ISO/IEC 18000-2:2004 specifies</p><ul><li>the physical layer that
+    is used for communication between the interrogator and the tag;</li><li>the protocol
+    and the commands;</li><li>the method to detect and communicate with one tag among
+    several tags ("anti-collision").</li></ul><p>It specifies two types of tags: Type
+    A (FDX) and Type B (HDX). These two types differ only by their physical layer.
+    Both types support the same anti-collision and protocol.</p><p>FDX tags are permanently
+    powered by the interrogator, including during the tag-to-interrogator transmission.
+    They operate at 125 kHz.</p><p>HDX tags are powered by the interrogator, except
+    during the tag-to-interrogator transmission. They operate at 134,2 kHz. An alternative
+    operating frequency is described.</p><p>An optional anti-collision mechanism is
+    also described.</p>'
   language:
   - en
   script:
@@ -101,20 +120,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '18000'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '18000'
+    part: '2'
+    type: IEC
+  price_code: iso:B

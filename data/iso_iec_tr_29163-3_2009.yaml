@@ -71,12 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Within the context of the Sharable Content Object Reference Model (SCORM®), ISO/IEC TR 29163-3:2009 describes the Learning Management System (LMS) requirements in managing the run-time environment (i.e., content launch process, standardized communication between content and LMSs and standardized data model elements used for passing information relevant to the learner's experience with the content). It also covers the requirements of Sharable Content Objects (SCOs) and their use of a common Application Programming Interface (API) and the SCORM® Run-Time Environment (RTE) Data Model.</p><p>ISO/IEC TR 29163-3:2009 covers the essential LMS responsibilities for sequencing content objects (SCOs or Assets) during run-time and allowing SCOs to indicate navigation requests. In addition, guidance is offered for providing navigation controls to learners. General subjects discussed include the following:</p>
-
-    RTE Management: Launching of content objects – SCOs and Assets, Management of communications with a SCO, Run-time environment data model management;
-    Application Programming Interface (API): LMS API requirements, SCORM® communication requirements, communication error conditions;
-    SCORM® Run-Time Environment Data Model: Data model management and behavior requirements, Data type requirements.
+- content: "<p>Within the context of the Sharable Content Object Reference Model (SCORM®),
+    ISO/IEC TR 29163-3:2009 describes the Learning Management System (LMS) requirements
+    in managing the run-time environment (i.e., content launch process, standardized
+    communication between content and LMSs and standardized data model elements used
+    for passing information relevant to the learner's experience with the content).
+    It also covers the requirements of Sharable Content Objects (SCOs) and their use
+    of a common Application Programming Interface (API) and the SCORM® Run-Time Environment
+    (RTE) Data Model.</p><p>ISO/IEC TR 29163-3:2009 covers the essential LMS responsibilities
+    for sequencing content objects (SCOs or Assets) during run-time and allowing SCOs
+    to indicate navigation requests. In addition, guidance is offered for providing
+    navigation controls to learners. General subjects discussed include the following:</p><ul><li>RTE
+    Management: Launching of content objects – SCOs and Assets, Management of communications
+    with a SCO, Run-time environment data model management;</li><li>Application Programming
+    Interface (API): LMS API requirements, SCORM® communication requirements, communication
+    error conditions;</li><li>SCORM® Run-Time Environment Data Model: Data model management
+    and behavior requirements, Data type requirements.</li></ul>"
   language:
   - en
   script:
@@ -100,21 +110,21 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 36
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 03.100.30
-  text: Management of human resources
-- code: 35.240.90
-  text: IT applications in education
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 36
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 03.100.30
+    text: Management of human resources
+  - code: 35.240.90
+    text: IT applications in education
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:H

@@ -75,12 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 8824-1:2008 specifies a standard notation called Abstract Syntax Notation One (ASN.1) that is used for the definition of data types, values, and constraints on data types.</p><p>ISO/IEC 8824-1:2008</p>
-
-    defines a number of simple types, with their tags, and specifies a notation for referencing these types and for specifying values of these types;
-    defines mechanisms for constructing new types from more basic types, and specifies a notation for defining such types and assigning them tags, and for specifying values of these types;
-    defines character sets (by reference to other ITU-T Recommendations and International Standards) for use within ASN.1.<p>ISO/IEC 8824-1:2008 can be applied whenever it is necessary to define the abstract syntax of information.</p><p>ISO/IEC 8824-1:2008 is referenced by other standards which define encoding rules for the ASN.1 types.</p>
+- content: "<p>ISO/IEC 8824-1:2008 specifies a standard notation called Abstract Syntax
+    Notation One (ASN.1) that is used for the definition of data types, values, and
+    constraints on data types.</p><p>ISO/IEC 8824-1:2008</p><ul><li>defines a number
+    of simple types, with their tags, and specifies a notation for referencing these
+    types and for specifying values of these types;</li><li>defines mechanisms for
+    constructing new types from more basic types, and specifies a notation for defining
+    such types and assigning them tags, and for specifying values of these types;</li><li>defines
+    character sets (by reference to other ITU-T Recommendations and International
+    Standards) for use within ASN.1.</li></ul><p>ISO/IEC 8824-1:2008 can be applied
+    whenever it is necessary to define the abstract syntax of information.</p><p>ISO/IEC
+    8824-1:2008 is referenced by other standards which define encoding rules for the
+    ASN.1 types.</p>"
   language:
   - en
   script:
@@ -104,20 +110,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.60
-  text: Presentation layer
-structuredidentifier:
-  project_number: '8824'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  structuredidentifier:
+    project_number: '8824'
+    part: '1'
+    type: IEC
+  price_code: iso:B

@@ -71,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23000-16:2018 specifies four formats that are used by parties communicating using the Publish/Subscribe (PubSub) communication model for their multimedia communication purposes.</p><p>The PubSub parties are: Publisher, Subscriber, Match Service Provider (MSP) and Consumer and the formats employed are Resource Information (RI), Publication Information (PI), Subscription Information (SI) and Notification Information (NI).</p><p>ISO/IEC 23000-16:2018 specifies RI, PI, SI and NI in such a way that typical multimedia communication requirements can be supported. The following is a non-exhaustive list of such requirements.</p><p>- The Publisher can</p>
-
-    - describe the Resource for consumption purposes,
-    - define the contract that will bind the Publisher and a Consumer,
-    - request a device to report use of the Resource,
-    - describe the Resource for distribution purposes,
-    - define the contract that will bind the Publisher and a Match Service Provider (MSP) of a match involving the Publication, and
-    - request the MSP to notify/not to notify a list of users.<p>- The Subscriber can</p>
-
-    - query the Resource,
-    - define the contract that will bind the Subscriber and a Match Service Provider (MSP), and
-    - request the MSP to notify/not to notify a list of users of a match involving the Subscription.<p>ISO/IEC 23000-16:2018 does not specify the protocols used to carry these payloads.</p>
+- content: "<p>ISO/IEC 23000-16:2018 specifies four formats that are used by parties
+    communicating using the Publish/Subscribe (PubSub) communication model for their
+    multimedia communication purposes.</p><p>The PubSub parties are: Publisher, Subscriber,
+    Match Service Provider (MSP) and Consumer and the formats employed are Resource
+    Information (RI), Publication Information (PI), Subscription Information (SI)
+    and Notification Information (NI).</p><p>ISO/IEC 23000-16:2018 specifies RI, PI,
+    SI and NI in such a way that typical multimedia communication requirements can
+    be supported. The following is a non-exhaustive list of such requirements.</p><p>-
+    The Publisher can</p><ul><li>- describe the Resource for consumption purposes,</li><li>-
+    define the contract that will bind the Publisher and a Consumer,</li><li>- request
+    a device to report use of the Resource,</li><li>- describe the Resource for distribution
+    purposes,</li><li>- define the contract that will bind the Publisher and a Match
+    Service Provider (MSP) of a match involving the Publication, and</li><li>- request
+    the MSP to notify/not to notify a list of users.</li></ul><p>- The Subscriber
+    can</p><ul><li>- query the Resource,</li><li>- define the contract that will bind
+    the Subscriber and a Match Service Provider (MSP), and</li><li>- request the MSP
+    to notify/not to notify a list of users of a match involving the Subscription.</li></ul><p>ISO/IEC
+    23000-16:2018 does not specify the protocols used to carry these payloads.</p>"
   language:
   - en
   script:
@@ -107,20 +112,20 @@ copyright:
   from: '2018'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23000'
-  part: '16'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23000'
+    part: '16'
+    type: IEC
+  price_code: iso:E

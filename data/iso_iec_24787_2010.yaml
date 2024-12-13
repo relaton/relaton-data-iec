@@ -74,15 +74,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24787:2010 establishes</p>
-
-    requirements for performing comparisons of biometric samples and returning decisions on an integrated circuit card, and
-    security policies for on-card biometric comparison.<p>It also establishes commands and rules to permit pre-comparison computations to be done off-card.</p><p>ISO/IEC 24787:2010 does not establish</p>
-
-    requirements for off-card comparison implementations,
-    requirements for system-on-card implementations, or
-    modality-specific requirements for storage and comparison.
+- content: "<p>ISO/IEC 24787:2010 establishes</p><ul><li>requirements for performing
+    comparisons of biometric samples and returning decisions on an integrated circuit
+    card, and</li><li>security policies for on-card biometric comparison.</li></ul><p>It
+    also establishes commands and rules to permit pre-comparison computations to be
+    done off-card.</p><p>ISO/IEC 24787:2010 does not establish</p><ul><li>requirements
+    for off-card comparison implementations,</li><li>requirements for system-on-card
+    implementations, or</li><li>modality-specific requirements for storage and comparison.</li></ul>"
   language:
   - en
   script:
@@ -106,19 +104,19 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '24787'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '24787'
+    type: IEC
+  price_code: iso:B

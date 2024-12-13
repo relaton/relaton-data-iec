@@ -74,9 +74,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-1:2004 specifies system-level functionalities for the communication of interactive audio-visual scenes. It specifies the following tools:</p>
-    a terminal model for time and buffer management; a coded representation of metadata for the identification, description and logical dependencies of the elementary streams; a coded representation object content information, a descriptive audio-visual content information;an interface to intellectual property management and protection systems;a coded representation of synchronization information; anda multiplexed representation of individual elementary streams in a single stream.
+- content: "<p>ISO/IEC 14496-1:2004 specifies system-level functionalities for the
+    communication of interactive audio-visual scenes. It specifies the following tools:</p><ul><li>a
+    terminal model for time and buffer management;</li><li>a coded representation
+    of metadata for the identification, description and logical dependencies of the
+    elementary streams;</li><li>a coded representation object content information,
+    a descriptive audio-visual content information;</li><li>an interface to intellectual
+    property management and protection systems;</li><li>a coded representation of
+    synchronization information; and</li><li>a multiplexed representation of individual
+    elementary streams in a single stream.</li></ul>"
   language:
   - en
   script:
@@ -100,20 +106,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '14496'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '14496'
+    part: '1'
+    type: IEC
+  price_code: iso:B

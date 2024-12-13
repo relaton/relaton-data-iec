@@ -71,12 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The OCF Core specifications are divided into a set of documents:</p>
-
-    Core specification (this document): The Core specification document specifies the Framework, i.e., the OCF core architecture, interfaces, protocols and services to enable OCF profiles implementation for Internet of Things (IoT) usages and ecosystems. This document is mandatory for all Devices to implement.
-    Core optional specification: The Core optional specification document specifies the Framework, i.e., the OCF core architecture, interfaces, protocols and services to enable OCF profiles implementation for Internet of Things (IoT) usages and ecosystems that can optionally be implemented by any Device.
-    Core extension specification(s): The Core extension specification(s) document(s) specifies optional OCF Core functionality that are significant in scope (e.g., Wi-Fi easy setup, Cloud).
+- content: "<p>The OCF Core specifications are divided into a set of documents:</p><ul><li>Core
+    specification (this document): The Core specification document specifies the Framework,
+    i.e., the OCF core architecture, interfaces, protocols and services to enable
+    OCF profiles implementation for Internet of Things (IoT) usages and ecosystems.
+    This document is mandatory for all Devices to implement.</li><li>Core optional
+    specification: The Core optional specification document specifies the Framework,
+    i.e., the OCF core architecture, interfaces, protocols and services to enable
+    OCF profiles implementation for Internet of Things (IoT) usages and ecosystems
+    that can optionally be implemented by any Device.</li><li>Core extension specification(s):
+    The Core extension specification(s) document(s) specifies optional OCF Core functionality
+    that are significant in scope (e.g., Wi-Fi easy setup, Cloud).</li></ul>"
   language:
   - en
   script:
@@ -100,20 +105,20 @@ copyright:
   from: '2021'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
-structuredidentifier:
-  project_number: '30118'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '30118'
+    part: '1'
+    type: IEC
+  price_code: iso:ZZ

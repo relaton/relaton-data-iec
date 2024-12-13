@@ -83,12 +83,13 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>A secure device identifier (DevID) is a cryptographic identity bound to a device used for assertion of the device's identity. ISO/IEC/IEEE 8802-1AR:2014 specifies</p>
-
-    globally unique per-device identifiers and the management and cryptographic binding of a device to its identifiers,
-    the relationship between an initially installed identity and subsequent locally significant identities, and
-    interfaces and methods for use of DevIDs with existing and new provisioning and authentication protocols.
+- content: "<p>A secure device identifier (DevID) is a cryptographic identity bound
+    to a device used for assertion of the device's identity. ISO/IEC/IEEE 8802-1AR:2014
+    specifies</p><ul><li>globally unique per-device identifiers and the management
+    and cryptographic binding of a device to its identifiers,</li><li>the relationship
+    between an initially installed identity and subsequent locally significant identities,
+    and</li><li>interfaces and methods for use of DevIDs with existing and new provisioning
+    and authentication protocols.</li></ul>"
   language:
   - en
   script:
@@ -117,20 +118,20 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.110'
-  text: Networking
-structuredidentifier:
-  project_number: '8802'
-  part: 1AR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    project_number: '8802'
+    part: 1AR
+    type: IEC
+  price_code: iso:B

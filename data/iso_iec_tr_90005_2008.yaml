@@ -68,14 +68,19 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 90005:2008 provides guidance for organizations in the application of ISO 9001:2000 to the acquisition, supply, development, operation and maintenance of systems and related support services. It does not add to or otherwise change the requirements of ISO 9001:2000. The guidelines provided in ISO/IEC TR 90005:2008 are not intended to be used as assessment criteria in quality management system registration or certification.</p><p>ISO/IEC TR 90005:2008 adopts ISO/IEC 15288 systems life cycle processes as a starting point for system development, operation or maintenance and identifies those equivalent requirements in ISO 9001:2000 that have a bearing on the implementation of ISO/IEC 15288.</p><p>ISO/IEC TR 90005:2008 is appropriate to systems that are</p>
-
-    part of a commercial contract with another organization,
-    a product available for a market sector,
-    used to support the processes of an organization,
-    embedded in a hardware product, or
-    related to software services.
+- content: "<p>ISO/IEC TR 90005:2008 provides guidance for organizations in the application
+    of ISO 9001:2000 to the acquisition, supply, development, operation and maintenance
+    of systems and related support services. It does not add to or otherwise change
+    the requirements of ISO 9001:2000. The guidelines provided in ISO/IEC TR 90005:2008
+    are not intended to be used as assessment criteria in quality management system
+    registration or certification.</p><p>ISO/IEC TR 90005:2008 adopts ISO/IEC 15288
+    systems life cycle processes as a starting point for system development, operation
+    or maintenance and identifies those equivalent requirements in ISO 9001:2000 that
+    have a bearing on the implementation of ISO/IEC 15288.</p><p>ISO/IEC TR 90005:2008
+    is appropriate to systems that are</p><ul><li>part of a commercial contract with
+    another organization,</li><li>a product available for a market sector,</li><li>used
+    to support the processes of an organization,</li><li>embedded in a hardware product,
+    or</li><li>related to software services.</li></ul>"
   language:
   - en
   script:
@@ -99,21 +104,21 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 03.100.70
-  text: Management systems
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 03.100.70
+    text: Management systems
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

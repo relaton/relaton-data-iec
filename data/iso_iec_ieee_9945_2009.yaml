@@ -73,19 +73,30 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC/IEEE 9945:2009 defines a standard operating system interface and environment, including a command interpreter (or "shell"), and common utility programs to support applications portability at the source code level. ISO/IEC/IEEE 9945:2009 is intended to be used by both application developers and system implementers and comprises four major components (each in an associated volume).</p>
-
-    General terms, concepts, and interfaces common to all volumes of this standard, including utility conventions and C-language header definitions, are included in the Base Definitions volume.
-    Definitions for system service functions and subroutines, language-specific system services for the C programming language, function issues, including portability, error handling, and error recovery, are included in the System Interfaces volume.
-    Definitions for a standard source code-level interface to command interpretation services (a "shell") and common utility programs for application programs are included in the Shell and Utilities volume.
-    Extended rationale that did not fit well into the rest of the document structure, which contains historical information concerning the contents of ISO/IEC/IEEE 9945:2009 and why features were included or discarded by the ISO/IEC/IEEE 9945:2009 developers, is included in the Rationale (Informative) volume.<p>The following areas are outside the scope of ISO/IEC/IEEE 9945:2009:</p>
-
-    graphics interfaces;
-    database management system interfaces;
-    record I/O considerations;
-    object or binary code portability;
-    system configuration and resource availability.<p>ISO/IEC/IEEE 9945:2009 describes the external characteristics and facilities that are of importance to application developers, rather than the internal construction techniques employed to achieve these capabilities. Special emphasis is placed on those functions and facilities that are needed in a wide variety of commercial applications.</p>
+- content: <p>ISO/IEC/IEEE 9945:2009 defines a standard operating system interface
+    and environment, including a command interpreter (or "shell"), and common utility
+    programs to support applications portability at the source code level. ISO/IEC/IEEE
+    9945:2009 is intended to be used by both application developers and system implementers
+    and comprises four major components (each in an associated volume).</p><ul><li>General
+    terms, concepts, and interfaces common to all volumes of this standard, including
+    utility conventions and C-language header definitions, are included in the Base
+    Definitions volume.</li><li>Definitions for system service functions and subroutines,
+    language-specific system services for the C programming language, function issues,
+    including portability, error handling, and error recovery, are included in the
+    System Interfaces volume.</li><li>Definitions for a standard source code-level
+    interface to command interpretation services (a "shell") and common utility programs
+    for application programs are included in the Shell and Utilities volume.</li><li>Extended
+    rationale that did not fit well into the rest of the document structure, which
+    contains historical information concerning the contents of ISO/IEC/IEEE 9945:2009
+    and why features were included or discarded by the ISO/IEC/IEEE 9945:2009 developers,
+    is included in the Rationale (Informative) volume.</li></ul><p>The following areas
+    are outside the scope of ISO/IEC/IEEE 9945:2009:</p><ul><li>graphics interfaces;</li><li>database
+    management system interfaces;</li><li>record I/O considerations;</li><li>object
+    or binary code portability;</li><li>system configuration and resource availability.</li></ul><p>ISO/IEC/IEEE
+    9945:2009 describes the external characteristics and facilities that are of importance
+    to application developers, rather than the internal construction techniques employed
+    to achieve these capabilities. Special emphasis is placed on those functions and
+    facilities that are needed in a wide variety of commercial applications.</p>
   language:
   - en
   script:
@@ -114,19 +125,19 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '9945'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '9945'
+    type: IEC
+  price_code: iso:H

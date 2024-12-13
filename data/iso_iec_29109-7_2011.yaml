@@ -73,15 +73,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29109-7:2011 specifies elements of conformance testing methodology, test assertions, and test procedures as applicable to ISO/IEC 19794-7. ISO/IEC 19794-7 defines two data interchange formats for signature/sign time series data, one for general use and one compact format for use with smart cards and other tokens.</p><p>ISO/IEC 29109-7:2011 establishes</p>
-
-    test assertions of the structure of both signature/sign time series data formats as specified in ISO/IEC 19794-7 (Type A Level 1 as defined in ISO/IEC 29109-1),
-    test assertions of internal consistency by checking the types of values that may be contained within each field (Type A Level 2 as defined in ISO/IEC 29109-1), and
-    test assertions on the contents of data records in the signature/sign time series data formats as specified in ISO/IEC 19794-7 (Type A Level 3 as defined in ISO/IEC 29109-1).<p>ISO/IEC 29109-7:2011 does not establish</p>
-
-    tests of other characteristics of biometric products or other types of testing of biometric products (e.g. acceptance, performance, robustness, security), and
-    tests of conformance of systems that do not produce ISO/IEC 19794-7 records.
+- content: "<p>ISO/IEC 29109-7:2011 specifies elements of conformance testing methodology,
+    test assertions, and test procedures as applicable to ISO/IEC 19794-7. ISO/IEC
+    19794-7 defines two data interchange formats for signature/sign time series data,
+    one for general use and one compact format for use with smart cards and other
+    tokens.</p><p>ISO/IEC 29109-7:2011 establishes</p><ul><li>test assertions of the
+    structure of both signature/sign time series data formats as specified in ISO/IEC
+    19794-7 (Type A Level 1 as defined in ISO/IEC 29109-1),</li><li>test assertions
+    of internal consistency by checking the types of values that may be contained
+    within each field (Type A Level 2 as defined in ISO/IEC 29109-1), and</li><li>test
+    assertions on the contents of data records in the signature/sign time series data
+    formats as specified in ISO/IEC 19794-7 (Type A Level 3 as defined in ISO/IEC
+    29109-1).</li></ul><p>ISO/IEC 29109-7:2011 does not establish</p><ul><li>tests
+    of other characteristics of biometric products or other types of testing of biometric
+    products (e.g. acceptance, performance, robustness, security), and</li><li>tests
+    of conformance of systems that do not produce ISO/IEC 19794-7 records.</li></ul>"
   language:
   - en
   script:
@@ -105,20 +111,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 37
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '29109'
-  part: '7'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 37
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '29109'
+    part: '7'
+    type: IEC
+  price_code: iso:E

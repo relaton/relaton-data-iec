@@ -75,16 +75,36 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23003-2:2010 specifies the reference model of MPEG Spatial Audio Object Coding (SAOC): an efficient parametric coding technology designed to encode, transmit, and interactively render multiple audio objects for playback with various kinds of channel configurations (mono, stereo, 5.1, headphones/binaural). Rather than performing a discrete coding of the individual audio input signals, MPEG SAOC captures the perceptually relevant properties of audio signals into a compact set of parameters that are used to synthesize a flexibly rendered audio scene from a transmitted downmix signal.</p><p>MPEG SAOC extends MPEG Surround in a way that provides several significant advantages in terms of additional functionality available to users. It allows the user on the decoding side to interactively control the multi-channel rendering of each individual audio object on different kinds of sound reproduction setup. In addition, MPEG SAOC inherits many advantages of MPEG Surround technology, like transmission (in a backward compatible way) of complex multi-object audio content at bitrates not much higher than what is required for its mono or stereo downmix. MPEG SAOC processing effectively reuses the multi-channel rendering functionality of MPEG Surround in a computationally efficient manner. Therefore, MPEG SAOC technology can be directly used to extend MPEG Surround and upgrade existing distribution infrastructures for stereo or mono audio content (teleconferencing systems, music downloads, Internet streaming, etc.) towards the delivery of audio content while retaining full compatibility with existing receivers. Rendering can be interactively controlled by the end-user and is independent of the playback system setup.</p><p>Key features of MPEG SAOC are:</p>
-
-    interactive rendering of audio objects on the decoder/receiver side;
-    transmitted SAOC bit stream is independent of loudspeaker (or headphones) configuration;
-    low-power processing mode (e.g. for applications on portable devices);
-    low-delay processing mode (e.g. for communication applications);
-    flexibly selectable bitrate overhead, allowing scalability from low bitrate applications such as Internet streaming to high-quality applications such as custom remix of music;
-    it can be applied upon audio using any coding scheme;
-    backward compatibility: the default downmix is always available for legacy playback devices.
+- content: "<p>ISO/IEC 23003-2:2010 specifies the reference model of MPEG Spatial
+    Audio Object Coding (SAOC): an efficient parametric coding technology designed
+    to encode, transmit, and interactively render multiple audio objects for playback
+    with various kinds of channel configurations (mono, stereo, 5.1, headphones/binaural).
+    Rather than performing a discrete coding of the individual audio input signals,
+    MPEG SAOC captures the perceptually relevant properties of audio signals into
+    a compact set of parameters that are used to synthesize a flexibly rendered audio
+    scene from a transmitted downmix signal.</p><p>MPEG SAOC extends MPEG Surround
+    in a way that provides several significant advantages in terms of additional functionality
+    available to users. It allows the user on the decoding side to interactively control
+    the multi-channel rendering of each individual audio object on different kinds
+    of sound reproduction setup. In addition, MPEG SAOC inherits many advantages of
+    MPEG Surround technology, like transmission (in a backward compatible way) of
+    complex multi-object audio content at bitrates not much higher than what is required
+    for its mono or stereo downmix. MPEG SAOC processing effectively reuses the multi-channel
+    rendering functionality of MPEG Surround in a computationally efficient manner.
+    Therefore, MPEG SAOC technology can be directly used to extend MPEG Surround and
+    upgrade existing distribution infrastructures for stereo or mono audio content
+    (teleconferencing systems, music downloads, Internet streaming, etc.) towards
+    the delivery of audio content while retaining full compatibility with existing
+    receivers. Rendering can be interactively controlled by the end-user and is independent
+    of the playback system setup.</p><p>Key features of MPEG SAOC are:</p><ul><li>interactive
+    rendering of audio objects on the decoder/receiver side;</li><li>transmitted SAOC
+    bit stream is independent of loudspeaker (or headphones) configuration;</li><li>low-power
+    processing mode (e.g. for applications on portable devices);</li><li>low-delay
+    processing mode (e.g. for communication applications);</li><li>flexibly selectable
+    bitrate overhead, allowing scalability from low bitrate applications such as Internet
+    streaming to high-quality applications such as custom remix of music;</li><li>it
+    can be applied upon audio using any coding scheme;</li><li>backward compatibility:
+    the default downmix is always available for legacy playback devices.</li></ul>"
   language:
   - en
   script:
@@ -108,20 +128,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23003'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23003'
+    part: '2'
+    type: IEC
+  price_code: iso:B

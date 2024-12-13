@@ -83,19 +83,19 @@ abstract:
     transmission and processing flexibility. ISO/IEC 23001-1:2006 also defines means
     to compile and transmit schema knowledge information to enable the decoding of
     compressed XML documents without a priori schema knowledge at the receiving terminal.</p><p>The
-    binary MPEG format for XML is described in four main sections:</p><em>System Architecture</em>
-    presents the architecture of an ISO/IEC 23001-1-compliant terminal and general
-    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour.<em>Binary
+    binary MPEG format for XML is described in four main sections:</p><ul><li><em>System
+    Architecture</em> presents the architecture of an ISO/IEC 23001-1-compliant terminal
+    and general characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour.</li><li><em>Binary
     Format</em> specifies binary syntax and associated semantics of the structural
     elements. In particular, this section describes the structure of a binary access
-    unit.<em>Binary Fragment Update Payload</em> specifies binary syntax and associated
-    semantics of the payload content. In particular, this section describes the decoding
-    process of complex Type content using finite state automaton decoders.<em>Advanced
+    unit.</li><li><em>Binary Fragment Update Payload</em> specifies binary syntax
+    and associated semantics of the payload content. In particular, this section describes
+    the decoding process of complex Type content using finite state automaton decoders.</li><li><em>Advanced
     Optimized Decoders</em> describes the mechanisms for decoding simple types of
-    an XML document using advanced optimised decoders.<p>The binary format for XML
-    described in this specification can be used for encoding MPEG-7 and MPEG-21 descriptions,
-    as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary
-    Format), respectively.</p>"
+    an XML document using advanced optimised decoders.</li></ul><p>The binary format
+    for XML described in this specification can be used for encoding MPEG-7 and MPEG-21
+    descriptions, as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21
+    Binary Format), respectively.</p>"
   language:
   - en
   script:
@@ -119,20 +119,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23001'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23001'
+    part: '1'
+    type: IEC
+  price_code: iso:H

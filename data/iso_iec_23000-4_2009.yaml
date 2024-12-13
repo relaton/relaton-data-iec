@@ -71,12 +71,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23000-4:2009 specifies signaling of content governance and protection of musical slide show application format based on MPEG-21 Part 4: Intellectual Property Management and Protection (IPMP) Components Base Profile and MPEG-21 Part 5: Rights Expression Language (REL) Mobile And optical Media (MAM) Profile.</p><p>It may be used to protect any content of musical slide show application format: MPEG-1 Audio Layer 3 (ISO/IEC 11172-3), JPEG images (ISO/IEC 10918-1), MPEG-4 LASeR (ISO/IEC 14496-20) animation script and 3GPP timed text (3GPP TS 26.245) in any combinations of content protection.</p><p>ISO/IEC 23000-4:2009 specifies</p>
-
-    the file structure, metadata, and synchronization of contents as in ISO/IEC 23000-4,
-    the use of file format (ISO/IEC 14496-14) in using content governance and protection,
-    the metadata for governance and protection using MPEG-21 Part 4: IPMP Components Base Profile and MPEG-21 Part 5: REL MAM Profile, encapsulated in MPEG-21 Part 2: Digital Item Declaration (DID).<p>It does not specify certain protection tools to be used in content protection, therefore it ensures a simple and flexible protection scheme.</p>
+- content: "<p>ISO/IEC 23000-4:2009 specifies signaling of content governance and
+    protection of musical slide show application format based on MPEG-21 Part 4: Intellectual
+    Property Management and Protection (IPMP) Components Base Profile and MPEG-21
+    Part 5: Rights Expression Language (REL) Mobile And optical Media (MAM) Profile.</p><p>It
+    may be used to protect any content of musical slide show application format: MPEG-1
+    Audio Layer 3 (ISO/IEC 11172-3), JPEG images (ISO/IEC 10918-1), MPEG-4 LASeR (ISO/IEC
+    14496-20) animation script and 3GPP timed text (3GPP TS 26.245) in any combinations
+    of content protection.</p><p>ISO/IEC 23000-4:2009 specifies</p><ul><li>the file
+    structure, metadata, and synchronization of contents as in ISO/IEC 23000-4,</li><li>the
+    use of file format (ISO/IEC 14496-14) in using content governance and protection,</li><li>the
+    metadata for governance and protection using MPEG-21 Part 4: IPMP Components Base
+    Profile and MPEG-21 Part 5: REL MAM Profile, encapsulated in MPEG-21 Part 2: Digital
+    Item Declaration (DID).</li></ul><p>It does not specify certain protection tools
+    to be used in content protection, therefore it ensures a simple and flexible protection
+    scheme.</p>"
   language:
   - en
   script:
@@ -100,20 +109,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23000'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23000'
+    part: '4'
+    type: IEC
+  price_code: iso:G

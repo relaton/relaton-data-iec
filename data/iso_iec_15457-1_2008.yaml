@@ -70,11 +70,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Thin flexible cards (TFC), the subject of ISO/IEC 15457, are used to automate the controls for access to goods or services such as mass transit, highway toll systems, car parks, vouchers, stored value, etc.</p><p>For these applications, data can be written and/or read by machines using various recording techniques such as magnetic stripe, optical character recognition (OCR), bar code, contactless, etc.</p><p>ISO/IEC 15457-1:2008 specifies the physical characteristics of thin flexible cards at two points in the card life cycle:</p>
-
-    at the point of loading into the card issuing equipment;
-    at the point of issue to the public.<p>It takes into consideration both human and machine aspects and states the minimum requirements.</p><p>The principal card sizes are identified and the characteristics and dimensions are specified.</p><p>Guidance concerning the storage and use of cards under various environmental conditions is given.</p>
+- content: "<p>Thin flexible cards (TFC), the subject of ISO/IEC 15457, are used to
+    automate the controls for access to goods or services such as mass transit, highway
+    toll systems, car parks, vouchers, stored value, etc.</p><p>For these applications,
+    data can be written and/or read by machines using various recording techniques
+    such as magnetic stripe, optical character recognition (OCR), bar code, contactless,
+    etc.</p><p>ISO/IEC 15457-1:2008 specifies the physical characteristics of thin
+    flexible cards at two points in the card life cycle:</p><ol><li>at the point of
+    loading into the card issuing equipment;</li><li>at the point of issue to the
+    public.</li></ol><p>It takes into consideration both human and machine aspects
+    and states the minimum requirements.</p><p>The principal card sizes are identified
+    and the characteristics and dimensions are specified.</p><p>Guidance concerning
+    the storage and use of cards under various environmental conditions is given.</p>"
   language:
   - en
   script:
@@ -98,20 +105,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '15457'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '15457'
+    part: '1'
+    type: IEC
+  price_code: iso:E

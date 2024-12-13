@@ -75,19 +75,24 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>The data protocol used to exchange information in a radio frequency identification (RFID) system for item management is specified in ISO/IEC 15961 and in ISO/IEC 15962:2013. Both International Standards are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:</p>
-
-    ISO/IEC 15961 addresses the interface with the application system.
-    ISO/IEC 15962:2013 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.<p>ISO/IEC 15962:2013 focuses on encoding the transfer syntax, as defined in ISO/IEC 15961 according to the application commands defined in ISO/IEC 15961. The encodation is in a Logical Memory as a software analogue of the physical memory of the RFID tag being addressed by the interrogator.</p><p>ISO/IEC 15962:2013</p>
-
-    defines the encoded structure of object identifiers;
-    specifies the data compaction rules that apply to the encoded data;
-    specifies a Precursor for encoding syntax features efficiently;
-    specifies formatting rules for the data, e.g. depending on whether a directory is used or not;
-    defines how application commands, e.g. to lock data, are transferred to the Tag Driver;
-    specifies processes associated with sensory information and the transfers to the Tag Driver;
-    defines other communication to the application.
+- content: "<p>The data protocol used to exchange information in a radio frequency
+    identification (RFID) system for item management is specified in ISO/IEC 15961
+    and in ISO/IEC 15962:2013. Both International Standards are required for a complete
+    understanding of the data protocol in its entirety; but each focuses on one particular
+    interface:</p><ul><li>ISO/IEC 15961 addresses the interface with the application
+    system.</li><li>ISO/IEC 15962:2013 deals with the processing of data and its presentation
+    to the RF tag, and the initial processing of data captured from the RF tag.</li></ul><p>ISO/IEC
+    15962:2013 focuses on encoding the transfer syntax, as defined in ISO/IEC 15961
+    according to the application commands defined in ISO/IEC 15961. The encodation
+    is in a Logical Memory as a software analogue of the physical memory of the RFID
+    tag being addressed by the interrogator.</p><p>ISO/IEC 15962:2013</p><ul><li>defines
+    the encoded structure of object identifiers;</li><li>specifies the data compaction
+    rules that apply to the encoded data;</li><li>specifies a Precursor for encoding
+    syntax features efficiently;</li><li>specifies formatting rules for the data,
+    e.g. depending on whether a directory is used or not;</li><li>defines how application
+    commands, e.g. to lock data, are transferred to the Tag Driver;</li><li>specifies
+    processes associated with sensory information and the transfers to the Tag Driver;</li><li>defines
+    other communication to the application.</li></ul>"
   language:
   - en
   script:
@@ -111,19 +116,19 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '15962'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '15962'
+    type: IEC
+  price_code: iso:B

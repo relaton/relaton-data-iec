@@ -70,21 +70,21 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 23004-5:2008 specifies the interfaces of the support application
+- content: <p>ISO/IEC 23004-5:2008 specifies the interfaces of the support application
     programming interface (API) and the realization technology used for Component
     Download in MPEG Multimedia Middleware (M3W). Component Download is an optional
     framework for M3W Platforms. The goal of this realization technology is to enable
     controlled download of software components to a device. In this context controlled
     means that before the actual transfer of the component we are able to assess whether
-    the component actually \"fits\".</p><p>ISO/IEC 23004-5:2008 specifies the following
-    entities.</p>\n\nRepository - contains components that can be downloaded. \nTarget
-    - enables receiving components. \nLocator - responsible for locating all the entities
-    (realization of the roles) that participate in a particular download. \nDecider
+    the component actually "fits".</p><p>ISO/IEC 23004-5:2008 specifies the following
+    entities.</p><ul><li>Repository - contains components that can be downloaded.</li><li>Target
+    - enables receiving components.</li><li>Locator - responsible for locating all
+    the entities (realization of the roles) that participate in a particular download.</li><li>Decider
     - assesses the feasibility of a particular download (this can include technical
-    fit, business fit, etc.). \nInitiator - initiates and coordinates the download
-    process.<p>These entities together enable through different deployments a large
-    number of component download and upload scenarios, varying from point-to-point
-    transfer to broadcast of components.</p>"
+    fit, business fit, etc.).</li><li>Initiator - initiates and coordinates the download
+    process.</li></ul><p>These entities together enable through different deployments
+    a large number of component download and upload scenarios, varying from point-to-point
+    transfer to broadcast of components.</p>
   language:
   - en
   script:
@@ -108,20 +108,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23004'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23004'
+    part: '5'
+    type: IEC
+  price_code: iso:G

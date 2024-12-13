@@ -75,9 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15963:2004 describes numbering systems that are available for the identification of RF tags.</p><p>A unique ID is required as part of the write operation to RFID tags. The unique ID guarantees that the information written to a tag is unambiguously written to the correct data carrier (tag). A unique ID is also required in many read situations where the contents of the tag are tied to a specific item and that item needs to be unambiguously identified.</p><p>The unique ID may also be used</p>
-    for the traceability of the integrated circuit itself for quality control in their manufacturing process;for the traceability of the RF tag during its manufacturing process and along its lifetime;for the completion of the reading in a multi-antenna configuration; by the anti-collision mechanism, to inventory multiple tags in the reader's field of view;for the traceability of the item to which the RF tag is attached.
+- content: "<p>ISO/IEC 15963:2004 describes numbering systems that are available for
+    the identification of RF tags.</p><p>A unique ID is required as part of the write
+    operation to RFID tags. The unique ID guarantees that the information written
+    to a tag is unambiguously written to the correct data carrier (tag). A unique
+    ID is also required in many read situations where the contents of the tag are
+    tied to a specific item and that item needs to be unambiguously identified.</p><p>The
+    unique ID may also be used</p><ul><li>for the traceability of the integrated circuit
+    itself for quality control in their manufacturing process;</li><li>for the traceability
+    of the RF tag during its manufacturing process and along its lifetime;</li><li>for
+    the completion of the reading in a multi-antenna configuration;</li><li>by the
+    anti-collision mechanism, to inventory multiple tags in the reader's field of
+    view;</li><li>for the traceability of the item to which the RF tag is attached.</li></ul>"
   language:
   - en
   script:
@@ -101,19 +110,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '15963'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '15963'
+    type: IEC
+  price_code: iso:B

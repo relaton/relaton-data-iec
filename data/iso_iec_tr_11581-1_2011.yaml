@@ -73,10 +73,10 @@ script:
 abstract:
 - content: "<p>ISO/IEC TR 11581-1:2011 introduces the ISO/IEC 11581 series and provides
     developers and other icon standards users with an overview of currently available
-    and future anticipated icon standards.</p><p>ISO/IEC TR 11581-1:2011:</p>\n\ndescribes
+    and future anticipated icon standards.</p><p>ISO/IEC TR 11581-1:2011:</p><ul><li>describes
     the structure of parts that will be used to encompass all present and future icon
-    standards; \nintroduces currently existing icon standards, whether they are parts
-    of ISO/IEC 11581 or they have their own separate numbers"
+    standards;</li><li>introduces currently existing icon standards, whether they
+    are parts of ISO/IEC 11581 or they have their own separate numbers</li></ul>"
   language:
   - en
   script:
@@ -100,19 +100,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 35
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.20
-  text: IT applications in office work
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 35
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.20
+    text: IT applications in office work
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

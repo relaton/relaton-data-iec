@@ -75,19 +75,38 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 25010:2011 defines:</p>
-
-    A quality in use model composed of five characteristics (some of which are further subdivided into subcharacteristics) that relate to the outcome of interaction when a product is used in a particular context of use. This system model is applicable to the complete human-computer system, including both computer systems in use and software products in use.
-    A product quality model composed of eight characteristics (which are further subdivided into subcharacteristics) that relate to static properties of software and dynamic properties of the computer system. The model is applicable to both computer systems and software products.<p>The characteristics defined by both models are relevant to all software products and computer systems. The characteristics and subcharacteristics provide consistent terminology for specifying, measuring and evaluating system and software product quality. They also provide a set of quality characteristics against which stated quality requirements can be compared for completeness.</p><p>Although the scope of the product quality model is intended to be software and computer systems, many of the characteristics are also relevant to wider systems and services.</p><p>ISO/IEC 25012 contains a model for data quality that is complementary to this model.</p><p>The scope of the models excludes purely functional properties, but it does include functional suitability.</p><p>The scope of application of the quality models includes supporting specification and evaluation of software and software-intensive computer systems from different perspectives by those associated with their acquisition, requirements, development, use, evaluation, support, maintenance, quality assurance and control, and audit. The models can, for example, be used by developers, acquirers, quality assurance and control staff and independent evaluators, particularly those responsible for specifying and evaluating software product quality. Activities during product development that can benefit from the use of the quality models include:</p>
-
-    identifying software and system requirements;
-    validating the comprehensiveness of a requirements definition;
-    identifying software and system design objectives;
-    identifying software and system testing objectives;
-    identifying quality control criteria as part of quality assurance;
-    identifying acceptance criteria for a software product and/or software-intensive computer system;
-    establishing measures of quality characteristics in support of these activities.
+- content: "<p>ISO/IEC 25010:2011 defines:</p><ol><li>A quality in use model composed
+    of five characteristics (some of which are further subdivided into subcharacteristics)
+    that relate to the outcome of interaction when a product is used in a particular
+    context of use. This system model is applicable to the complete human-computer
+    system, including both computer systems in use and software products in use.</li><li>A
+    product quality model composed of eight characteristics (which are further subdivided
+    into subcharacteristics) that relate to static properties of software and dynamic
+    properties of the computer system. The model is applicable to both computer systems
+    and software products.</li></ol><p>The characteristics defined by both models
+    are relevant to all software products and computer systems. The characteristics
+    and subcharacteristics provide consistent terminology for specifying, measuring
+    and evaluating system and software product quality. They also provide a set of
+    quality characteristics against which stated quality requirements can be compared
+    for completeness.</p><p>Although the scope of the product quality model is intended
+    to be software and computer systems, many of the characteristics are also relevant
+    to wider systems and services.</p><p>ISO/IEC 25012 contains a model for data quality
+    that is complementary to this model.</p><p>The scope of the models excludes purely
+    functional properties, but it does include functional suitability.</p><p>The scope
+    of application of the quality models includes supporting specification and evaluation
+    of software and software-intensive computer systems from different perspectives
+    by those associated with their acquisition, requirements, development, use, evaluation,
+    support, maintenance, quality assurance and control, and audit. The models can,
+    for example, be used by developers, acquirers, quality assurance and control staff
+    and independent evaluators, particularly those responsible for specifying and
+    evaluating software product quality. Activities during product development that
+    can benefit from the use of the quality models include:</p><ul><li>identifying
+    software and system requirements;</li><li>validating the comprehensiveness of
+    a requirements definition;</li><li>identifying software and system design objectives;</li><li>identifying
+    software and system testing objectives;</li><li>identifying quality control criteria
+    as part of quality assurance;</li><li>identifying acceptance criteria for a software
+    product and/or software-intensive computer system;</li><li>establishing measures
+    of quality characteristics in support of these activities.</li></ul>"
   language:
   - en
   script:
@@ -111,19 +130,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '25010'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '25010'
+    type: IEC
+  price_code: iso:B

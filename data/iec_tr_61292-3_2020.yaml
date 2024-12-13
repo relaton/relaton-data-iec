@@ -57,17 +57,17 @@ language:
 script:
 - Latn
 abstract:
-- content: "IEC TR 61292-3:2020 which is a Technical Report, establishes the classification
+- content: IEC TR 61292-3:2020 which is a Technical Report, establishes the classification
     of optical amplifiers (OAs). It also includes a brief description of each amplifier,
     its general properties, performance, configurations and applications. This second
     edition cancels and replaces the first edition published in 2003. This edition
     constitutes a technical revision. This edition includes the following significant
-    technical changes with respect to the previous edition:\r\n\r\n\tdocument architecture
-    now focuses on EDFA, FRA and SOA;\r\n\tthe description of PDFA and TDFA has been
-    moved to the annexes;\r\n\tthe EDWA description has been deleted;\r\n\tinformation
-    on single channel amplification, multi-channel amplification, configuration and
-    control method for EDFA, FRA and SOA has been added;\r\n\tinformation on future
-    amplifiers, arrayed amplifiers and SDM amplifiers has been added."
+    technical changes with respect to the previous edition:<ol style="list-style-type:lower-alpha"><li>document
+    architecture now focuses on EDFA, FRA and SOA;</li><li>the description of PDFA
+    and TDFA has been moved to the annexes;</li><li>the EDWA description has been
+    deleted;</li><li>information on single channel amplification, multi-channel amplification,
+    configuration and control method for EDFA, FRA and SOA has been added;</li><li>information
+    on future amplifiers, arrayed amplifiers and SDM amplifiers has been added.</li></ol>
   language:
   - en
   script:
@@ -86,21 +86,21 @@ copyright:
   from: '2020'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: TC 86/SC 86C
-    number: 86
-    type: technicalCommittee
-ics:
-- code: 33.180.30
-  text: Optic amplifiers
-- code: 33.160.10
-  text: Amplifiers
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:G
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: TC 86/SC 86C
+      number: 86
+      type: technicalCommittee
+  ics:
+  - code: 33.180.30
+    text: Optic amplifiers
+  - code: 33.160.10
+    text: Amplifiers
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iec:G

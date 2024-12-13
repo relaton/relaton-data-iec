@@ -71,13 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18014-3:2009</p>
-
-    describes a general model for time-stamping services producing linked tokens,
-    describes the basic components used to construct a time-stamping service producing linked tokens,
-    defines the data structures used to interact with a time-stamping service producing linked tokens,
-    describes specific instances of time-stamping services producing linked tokens, and<p>defines a protocol to be utilized by time-stamping services producing linked tokens for the purpose of extending linked tokens to published values.</p>
+- content: "<p>ISO/IEC 18014-3:2009</p><ul><li>describes a general model for time-stamping
+    services producing linked tokens,</li><li>describes the basic components used
+    to construct a time-stamping service producing linked tokens,</li><li>defines
+    the data structures used to interact with a time-stamping service producing linked
+    tokens,</li><li>describes specific instances of time-stamping services producing
+    linked tokens, and</li></ul><p>defines a protocol to be utilized by time-stamping
+    services producing linked tokens for the purpose of extending linked tokens to
+    published values.</p>"
   language:
   - en
   script:
@@ -101,20 +102,20 @@ copyright:
   from: '2009'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18014'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18014'
+    part: '3'
+    type: IEC
+  price_code: iso:F

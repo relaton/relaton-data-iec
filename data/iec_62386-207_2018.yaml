@@ -88,17 +88,18 @@ abstract:
     61347 (all parts), with the addition of DC supplies.<br />\r\nThis second edition
     cancels and replaces the first edition published in 2009. This edition constitutes
     a technical revision.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:\r\n\r\n\tfast fade time
-    has been redefined;\r\n\tshort circuit and open circuit have been deleted;\r\n\tphysical
-    selection has been deleted;\r\n\tdimming curve selection has been moved to a separate
-    part;\r\n\tload increase, load decrease and reference measurement have been moved
-    to a separate part;\r\n\tthermal gear and lamp protection have been moved to separate
-    parts;\r\n\tLED module integrated has been moved to a separate part;\r\n\tlink
-    to IEC 62386-102 error bits has been clarified;\r\n\tthe following commands have
-    been deleted:\r\n\r\n\r\n\r\n\tENABLE CURRENT PROTECTOR\r\n\tDISABLE CURRENT PROTECTOR\r\n\tQUERY
-    POSSIBLE OPERATING MODES\r\n\tQUERY SHORT CIRCUIT\r\n\tQUERY OPEN CIRCUIT\r\n\tQUERY
-    CURRENT PROTECTOR ACTIVE\r\n\tQUERY CURRENT PROTECTOR ENABLED\r\n\tQUERY OPERATING
-    MODE"
+    technical changes with respect to the previous edition:<ol style=\"list-style-type:lower-alpha\"><li>fast
+    fade time has been redefined;</li><li>short circuit and open circuit have been
+    deleted;</li><li>physical selection has been deleted;</li><li>dimming curve selection
+    has been moved to a separate part;</li><li>load increase, load decrease and reference
+    measurement have been moved to a separate part;</li><li>thermal gear and lamp
+    protection have been moved to separate parts;</li><li>LED module integrated has
+    been moved to a separate part;</li><li>link to IEC 62386-102 error bits has been
+    clarified;</li><li>the following commands have been deleted:</li></ol><ul><li>ENABLE
+    CURRENT PROTECTOR</li><li>DISABLE CURRENT PROTECTOR</li><li>QUERY POSSIBLE OPERATING
+    MODES</li><li>QUERY SHORT CIRCUIT</li><li>QUERY OPEN CIRCUIT</li><li>QUERY CURRENT
+    PROTECTOR ACTIVE</li><li>QUERY CURRENT PROTECTOR ENABLED</li><li>QUERY OPERATING
+    MODE</li></ul>"
   language:
   - en
   script:
@@ -110,18 +111,19 @@ abstract:
     continu.<br />\r\nCette deuxième édition annule et remplace la première édition
     parue en 2009. Cette édition constitue une révision technique.<br />\r\nCette
     édition inclut les modifications techniques majeures suivantes par rapport à l'édition
-    précédente:\r\n\r\n\tle temps de variation rapide a été redéfini;\r\n\tles courts-circuits
-    et les circuits ouverts ont été supprimés;\r\n\tla sélection physique a été supprimée;\r\n\tla
-    sélection de la courbe de gradation a été déplacée dans une autre partie;\r\n\tl’augmentation
+    précédente:<ol style=\"list-style-type:lower-alpha\"><li>le temps de variation
+    rapide a été redéfini;</li><li>les courts-circuits et les circuits ouverts ont
+    été supprimés;</li><li>la sélection physique a été supprimée;</li><li>la sélection
+    de la courbe de gradation a été déplacée dans une autre partie;</li><li>l’augmentation
     de charge, la chute de charge et le mesurage de référence ont été déplacés dans
-    une autre partie;\r\n\tla protection thermique de l'appareillage et la protection
-    thermique de la lampe ont été déplacées dans d’autres parties;\r\n\tles modules
-    de LED intégrés ont été déplacés dans une autre partie;\r\n\tle lien avec les
-    bits d’erreur décrits dans l’IEC 62386-102 a été clarifié;\r\n\tles commandes
-    suivantes ont été supprimées:\r\n\r\n\r\n\r\n\tENABLE CURRENT PROTECTOR\r\n\tDISABLE
-    CURRENT PROTECTOR\r\n\tQUERY POSSIBLE OPERATING MODES\r\n\tQUERY SHORT CIRCUIT\r\n\tQUERY
-    OPEN CIRCUIT\r\n\tQUERY CURRENT PROTECTOR ACTIVE\r\n\tQUERY CURRENT PROTECTOR
-    ENABLED\r\n\tQUERY OPERATING MODE"
+    une autre partie;</li><li>la protection thermique de l'appareillage et la protection
+    thermique de la lampe ont été déplacées dans d’autres parties;</li><li>les modules
+    de LED intégrés ont été déplacés dans une autre partie;</li><li>le lien avec les
+    bits d’erreur décrits dans l’IEC 62386-102 a été clarifié;</li><li>les commandes
+    suivantes ont été supprimées:</li></ol><ul><li>ENABLE CURRENT PROTECTOR</li><li>DISABLE
+    CURRENT PROTECTOR</li><li>QUERY POSSIBLE OPERATING MODES</li><li>QUERY SHORT CIRCUIT</li><li>QUERY
+    OPEN CIRCUIT</li><li>QUERY CURRENT PROTECTOR ACTIVE</li><li>QUERY CURRENT PROTECTOR
+    ENABLED</li><li>QUERY OPERATING MODE</li></ul>"
   language:
   - fr
   script:
@@ -140,22 +142,22 @@ copyright:
   from: '2018'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: TC 34
-    number: 34
-    type: technicalCommittee
-ics:
-- code: 29.140.50
-  text: Lighting installation systems
-- code: 29.140.99
-  text: Other standards related to lamps
-structuredidentifier:
-  project_number: '62386'
-  part: '207'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iec:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 34
+      number: 34
+      type: technicalCommittee
+  ics:
+  - code: 29.140.50
+    text: Lighting installation systems
+  - code: 29.140.99
+    text: Other standards related to lamps
+  structuredidentifier:
+    project_number: '62386'
+    part: '207'
+    type: IEC
+  price_code: iec:F

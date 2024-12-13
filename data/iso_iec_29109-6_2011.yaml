@@ -74,16 +74,17 @@ script:
 abstract:
 - content: "<p>ISO/IEC 29109-6:2011 specifies elements of conformance testing methodology,
     test assertions, and test procedures as applicable to ISO/IEC 19794-6:2005.</p><p>ISO/IEC
-    29109-6:2011 establishes</p>\n\ntest assertions of the structure of the iris image
-    data format as specified in ISO/IEC 19794-6:2005 (Type A Level 1 as defined in
-    ISO/IEC 29109-1:2009), \ntest asssertions of internal consistency by checking
-    the types of values that may be contained within each field (Type A Level 2 as
-    defined in ISO/IEC 29109-1:2009), \ntests of semantic assertions (Type A Level
-    3 as defined in ISO/IEC 29109-1:2009).<p>ISO/IEC 29109-6:2010 does not establish</p>\n\ntests
-    of conformance of CBEFF structures required by ISO/IEC 19794-6:2005, \ntests of
-    other characteristics of biometric products or other types of testing of biometric
-    products (e.g. acceptance, performance, robustness, security), \ntests of conformance
-    of systems that do not produce ISO/IEC 19794-6:2005 records."
+    29109-6:2011 establishes</p><ul><li>test assertions of the structure of the iris
+    image data format as specified in ISO/IEC 19794-6:2005 (Type A Level 1 as defined
+    in ISO/IEC 29109-1:2009),</li><li>test asssertions of internal consistency by
+    checking the types of values that may be contained within each field (Type A Level
+    2 as defined in ISO/IEC 29109-1:2009),</li><li>tests of semantic assertions (Type
+    A Level 3 as defined in ISO/IEC 29109-1:2009).</li></ul><p>ISO/IEC 29109-6:2010
+    does not establish</p><ul><li>tests of conformance of CBEFF structures required
+    by ISO/IEC 19794-6:2005,</li><li>tests of other characteristics of biometric products
+    or other types of testing of biometric products (e.g. acceptance, performance,
+    robustness, security),</li><li>tests of conformance of systems that do not produce
+    ISO/IEC 19794-6:2005 records.</li></ul>"
   language:
   - en
   script:
@@ -107,20 +108,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 37
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '29109'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 37
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '29109'
+    part: '6'
+    type: IEC
+  price_code: iso:B

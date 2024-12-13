@@ -72,14 +72,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24753:2011 defines a minimum application protocol to support sensors and the monitoring of batteries in conjunction with RFID tags utilizing the air interface as defined in the ISO/IEC 18000 series.</p><p>It provides common encoding rules for identifying sensors, their functions, and their delivered measurements. It also defines the process rules to support the following functions:</p>
-
-    selecting and de-selecting a particular sensory function when more than one is supported by the RFID tag;
-    setting sensor parameters both initially and ongoing;
-    starting and stopping the monitoring function of a sensor;
-    accessing sensor data; and
-    carrying out basic processing of sensor data and interpreting this into a format that is meaningful for an application.
+- content: "<p>ISO/IEC 24753:2011 defines a minimum application protocol to support
+    sensors and the monitoring of batteries in conjunction with RFID tags utilizing
+    the air interface as defined in the ISO/IEC 18000 series.</p><p>It provides common
+    encoding rules for identifying sensors, their functions, and their delivered measurements.
+    It also defines the process rules to support the following functions:</p><ul><li>selecting
+    and de-selecting a particular sensory function when more than one is supported
+    by the RFID tag;</li><li>setting sensor parameters both initially and ongoing;</li><li>starting
+    and stopping the monitoring function of a sensor;</li><li>accessing sensor data;
+    and</li><li>carrying out basic processing of sensor data and interpreting this
+    into a format that is meaningful for an application.</li></ul>"
   language:
   - en
   script:
@@ -103,19 +105,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '24753'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '24753'
+    type: IEC
+  price_code: iso:G

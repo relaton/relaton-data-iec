@@ -72,13 +72,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9797-3:2011 specifies the following Message Authentication Code (MAC) algorithms that use a secret key and a universal hash-function with an<em>n</em>-bit result to calculate an<em>m</em>-bit MAC based on the block ciphers specified in ISO/IEC 18033-3 and the stream ciphers specified in ISO/IEC 18033-4:</p>
-
-     UMAC;
-     Badger;
-     Poly1305-AES;
-     GMAC.
+- content: "<p>ISO/IEC 9797-3:2011 specifies the following Message Authentication
+    Code (MAC) algorithms that use a secret key and a universal hash-function with
+    an<em>n</em>-bit result to calculate an<em>m</em>-bit MAC based on the block ciphers
+    specified in ISO/IEC 18033-3 and the stream ciphers specified in ISO/IEC 18033-4:</p><ol><li>
+    UMAC;</li><li> Badger;</li><li> Poly1305-AES;</li><li> GMAC.</li></ol>"
   language:
   - en
   script:
@@ -102,20 +100,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '9797'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '9797'
+    part: '3'
+    type: IEC
+  price_code: iso:D

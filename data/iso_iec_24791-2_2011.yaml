@@ -71,14 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24791-2:2011 defines the interface(s) that provide operations on radio frequency identification (RFID) tag data including, but not limited to, reading, writing, collection, filtering, grouping, and event subscription and notification within the Software System Infrastructure (SSI).</p><p>Specifically, the interface(s) defined by ISO/IEC 24791-2:2011 provide the following features:</p>
-
-     full support for the commands and responses for air protocols supported by ISO/IEC 24791-2:2011 at an abstraction level appropriate for Data Management's position in the SSI architecture defined in ISO/IEC 24791-1;
-     an abstract definition of commands and operations that can be applied to different network bindings and encoding mechanisms;
-     support for the encoding mechanisms defined in ISO/IEC 15962;
-     volume reduction, format or structure modification, data analysis, and data access appropriate for Data Management's position in the SSI architecture defined in ISO/IEC 24791-1;
-     reporting of data to support application or data managing in formats controlled by the client, either inside or outside of SSI.<p>ISO/IEC 24791-2:2011 is composed of the EPCglobal<em>Application Level Events Standard</em>, in its entirety, with extensions to further support operation with ISO/IEC 15962 and the air protocols defined by ISO/IEC 18000.</p>
+- content: "<p>ISO/IEC 24791-2:2011 defines the interface(s) that provide operations
+    on radio frequency identification (RFID) tag data including, but not limited to,
+    reading, writing, collection, filtering, grouping, and event subscription and
+    notification within the Software System Infrastructure (SSI).</p><p>Specifically,
+    the interface(s) defined by ISO/IEC 24791-2:2011 provide the following features:</p><ul><li>
+    full support for the commands and responses for air protocols supported by ISO/IEC
+    24791-2:2011 at an abstraction level appropriate for Data Management's position
+    in the SSI architecture defined in ISO/IEC 24791-1;</li><li> an abstract definition
+    of commands and operations that can be applied to different network bindings and
+    encoding mechanisms;</li><li> support for the encoding mechanisms defined in ISO/IEC
+    15962;</li><li> volume reduction, format or structure modification, data analysis,
+    and data access appropriate for Data Management's position in the SSI architecture
+    defined in ISO/IEC 24791-1;</li><li> reporting of data to support application
+    or data managing in formats controlled by the client, either inside or outside
+    of SSI.</li></ul><p>ISO/IEC 24791-2:2011 is composed of the EPCglobal<em>Application
+    Level Events Standard</em>, in its entirety, with extensions to further support
+    operation with ISO/IEC 15962 and the air protocols defined by ISO/IEC 18000.</p>"
   language:
   - en
   script:
@@ -102,20 +111,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '24791'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '24791'
+    part: '2'
+    type: IEC
+  price_code: iso:D

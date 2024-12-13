@@ -75,12 +75,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Encoding instructions are a means of modifying the encodings of ASN.1 types for some specified encoding rule. They can be inserted in an ASN.1 specification in square brackets (much like a tag in the Basic Encoding Rules, BER) immediately before the type that they affect (type prefixes), or they can be collected together at the end of an ASN.1 module (an encoding control section).</p><p>ISO/IEC 8825-6:2008</p>
-
-    specifies the information needed and the format to be used for specifying encoding instructions for Packed Encoding Rules (PER);
-    specifies the mechanisms for approving new PER encoding instructions from time to time and the operation of the Registration Authority for PER encoding instructions;
-    specifies the means of associating a PER encoding instruction with an ASN.1 type using both type prefixes and an encoding control section.
+- content: "<p>Encoding instructions are a means of modifying the encodings of ASN.1
+    types for some specified encoding rule. They can be inserted in an ASN.1 specification
+    in square brackets (much like a tag in the Basic Encoding Rules, BER) immediately
+    before the type that they affect (type prefixes), or they can be collected together
+    at the end of an ASN.1 module (an encoding control section).</p><p>ISO/IEC 8825-6:2008</p><ul><li>specifies
+    the information needed and the format to be used for specifying encoding instructions
+    for Packed Encoding Rules (PER);</li><li>specifies the mechanisms for approving
+    new PER encoding instructions from time to time and the operation of the Registration
+    Authority for PER encoding instructions;</li><li>specifies the means of associating
+    a PER encoding instruction with an ASN.1 type using both type prefixes and an
+    encoding control section.</li></ul>"
   language:
   - en
   script:
@@ -104,20 +109,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 6
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.100.60
-  text: Presentation layer
-structuredidentifier:
-  project_number: '8825'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  structuredidentifier:
+    project_number: '8825'
+    part: '6'
+    type: IEC
+  price_code: iso:B

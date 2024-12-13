@@ -75,11 +75,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP.</p>
-
-     The Media Presentation Description (MPD) is an XML-formatted document and describes a Media Presentation, i.e. a bounded or unbounded presentation of media content. In particular, it defines formats to announce resource identifiers for Segments and to provide the context for these identified resources within a Media Presentation. These resource identifiers are HTTP-URLs possibly combined with a byte range.
-     The Segment formats specify the formats of the HTTP requests. Segments typically contain efficiently coded media data and metadata according to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies ISO/IEC 23009 focuses on Segment formats based on MPEG container formats. Specifically, Segment formats are described for use with Media Segments based on the ISO Base Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport Stream as defined in ISO/IEC 13818-2.<p>ISO/IEC 23009-1:2012 is applicable to streaming services over the Internet.</p>
+- content: "<p>ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation
+    Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG
+    media over HTTP.</p><ul><li> The Media Presentation Description (MPD) is an XML-formatted
+    document and describes a Media Presentation, i.e. a bounded or unbounded presentation
+    of media content. In particular, it defines formats to announce resource identifiers
+    for Segments and to provide the context for these identified resources within
+    a Media Presentation. These resource identifiers are HTTP-URLs possibly combined
+    with a byte range.</li><li> The Segment formats specify the formats of the HTTP
+    requests. Segments typically contain efficiently coded media data and metadata
+    according to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies
+    ISO/IEC 23009 focuses on Segment formats based on MPEG container formats. Specifically,
+    Segment formats are described for use with Media Segments based on the ISO Base
+    Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport
+    Stream as defined in ISO/IEC 13818-2.</li></ul><p>ISO/IEC 23009-1:2012 is applicable
+    to streaming services over the Internet.</p>"
   language:
   - en
   script:
@@ -103,20 +113,20 @@ copyright:
   from: '2012'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23009'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23009'
+    part: '1'
+    type: IEC
+  price_code: iso:B

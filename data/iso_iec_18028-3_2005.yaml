@@ -74,9 +74,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18028-3:2005 provides an overview of security gateways through a description of different architectures.</p><p>It outlines the techniques for security gateways to analyse network traffic. The techniques discussed are as follows:</p>
-    packet filtering,stateful packet inspection,application proxy,network address translation,content analysing and filtering.<p>Additionally, ISO/IEC 18028-3:2005 provides guidelines for the selection and configuration of security gateways. It gives guidance to choose the right type of architecture for a security gateway, which best meets the security requirements of an organization.</p>
+- content: "<p>ISO/IEC 18028-3:2005 provides an overview of security gateways through
+    a description of different architectures.</p><p>It outlines the techniques for
+    security gateways to analyse network traffic. The techniques discussed are as
+    follows:</p><ul><li>packet filtering,</li><li>stateful packet inspection,</li><li>application
+    proxy,</li><li>network address translation,</li><li>content analysing and filtering.</li></ul><p>Additionally,
+    ISO/IEC 18028-3:2005 provides guidelines for the selection and configuration of
+    security gateways. It gives guidance to choose the right type of architecture
+    for a security gateway, which best meets the security requirements of an organization.</p>"
   language:
   - en
   script:
@@ -100,20 +105,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18028'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18028'
+    part: '3'
+    type: IEC
+  price_code: iso:B

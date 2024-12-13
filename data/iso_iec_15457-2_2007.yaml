@@ -71,9 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Thin flexible cards are used to automate the controls for access to goods or services such as mass transit, highway toll systems, car parks, vouchers and stored value.</p><p>For these applications, data can be written and/or read by machines using various recording techniques: magnetic stripe, optical character recognition, bar code, etc.</p><p>ISO/IEC 15457-2:2007 specifies the magnetic stripe and encoding characteristics of thin flexible cards at two points in the card's life cycle:</p>
-    at the point of loading into the card-issuing equipment;at the point of issue to the public.
+- content: "<p>Thin flexible cards are used to automate the controls for access to
+    goods or services such as mass transit, highway toll systems, car parks, vouchers
+    and stored value.</p><p>For these applications, data can be written and/or read
+    by machines using various recording techniques: magnetic stripe, optical character
+    recognition, bar code, etc.</p><p>ISO/IEC 15457-2:2007 specifies the magnetic
+    stripe and encoding characteristics of thin flexible cards at two points in the
+    card's life cycle:</p><ul><li>at the point of loading into the card-issuing equipment;</li><li>at
+    the point of issue to the public.</li></ul>"
   language:
   - en
   script:
@@ -97,20 +102,20 @@ copyright:
   from: '2007'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '15457'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:D
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '15457'
+    part: '2'
+    type: IEC
+  price_code: iso:D

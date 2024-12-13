@@ -75,11 +75,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 29199-5:2010 provides reference software for ITU-T Rec. T.832 | ISO/IEC 29199-2 (<em>Information technology – JPEG XR image coding system – Image coding specification</em>) as an electronic attachment. The reference software is an integral part of ISO/IEC 29199-5:2010.</p><p>The purpose of ISO/IEC 29199-5:2010 is to provide the following.</p>
-
-    Reference decoder software capable of decoding codestreams (or files) that conform to ITU-T Rec. T.832 | ISO/IEC 29199-2 in a manner that conforms to the decoding process specified in ITU-T Rec. T.832 | ISO/IEC 29199-2.
-    Sample encoder software capable of producing codestreams (or files) that conform to ITU-T Rec. T.832 | ISO/IEC 29199-2.<p>The use of this reference software is not required for making an implementation of an encoder or decoder in conformance to ITU-T Rec. T.832 | ISO/IEC 29199-2, and conforming implementations of ITU-T Rec. T.832 | ISO/IEC 29199-2 are not expected to follow the algorithms or programming techniques used therein. Conformance requirements established in ITU-T Rec. T.832 | ISO/IEC 29199-2 take precedence over the behaviour of the reference software.</p>
+- content: "<p>ISO/IEC 29199-5:2010 provides reference software for ITU-T Rec. T.832
+    | ISO/IEC 29199-2 (<em>Information technology – JPEG XR image coding system –
+    Image coding specification</em>) as an electronic attachment. The reference software
+    is an integral part of ISO/IEC 29199-5:2010.</p><p>The purpose of ISO/IEC 29199-5:2010
+    is to provide the following.</p><ul><li>Reference decoder software capable of
+    decoding codestreams (or files) that conform to ITU-T Rec. T.832 | ISO/IEC 29199-2
+    in a manner that conforms to the decoding process specified in ITU-T Rec. T.832
+    | ISO/IEC 29199-2.</li><li>Sample encoder software capable of producing codestreams
+    (or files) that conform to ITU-T Rec. T.832 | ISO/IEC 29199-2.</li></ul><p>The
+    use of this reference software is not required for making an implementation of
+    an encoder or decoder in conformance to ITU-T Rec. T.832 | ISO/IEC 29199-2, and
+    conforming implementations of ITU-T Rec. T.832 | ISO/IEC 29199-2 are not expected
+    to follow the algorithms or programming techniques used therein. Conformance requirements
+    established in ITU-T Rec. T.832 | ISO/IEC 29199-2 take precedence over the behaviour
+    of the reference software.</p>"
   language:
   - en
   script:
@@ -103,20 +113,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '29199'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '29199'
+    part: '5'
+    type: IEC
+  price_code: iso:B

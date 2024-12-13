@@ -75,9 +75,12 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 19757-2:2003 specifies RELAX NG, a schema language for XML. A RELAX NG schema specifies a pattern for the structure and content of an XML document. The pattern is specified by using a regular tree grammar. A RELAX NG schema is itself an XML document.</p><p>ISO/IEC 19757-2:2003 specifies:</p>
-    when an XML document is a correct RELAX NG schema; andwhen an XML document is valid with respect to a correct RELAX NG schema.
+- content: "<p>ISO/IEC 19757-2:2003 specifies RELAX NG, a schema language for XML.
+    A RELAX NG schema specifies a pattern for the structure and content of an XML
+    document. The pattern is specified by using a regular tree grammar. A RELAX NG
+    schema is itself an XML document.</p><p>ISO/IEC 19757-2:2003 specifies:</p><ul><li>when
+    an XML document is a correct RELAX NG schema; and</li><li>when an XML document
+    is valid with respect to a correct RELAX NG schema.</li></ul>"
   language:
   - en
   script:
@@ -101,20 +104,20 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 34
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
-structuredidentifier:
-  project_number: '19757'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 34
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  structuredidentifier:
+    project_number: '19757'
+    part: '2'
+    type: IEC
+  price_code: iso:B

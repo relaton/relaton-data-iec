@@ -72,12 +72,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18013 establishes guidelines for the design format and data content of an ISO-compliant driving licence (IDL) with regard to human-readable features (ISO/IEC 18013‑1), machine-readable technologies (ISO/IEC 18013‑2), and access control, authentication and integrity validation (ISO/IEC 18013‑3). It creates a common basis for international use and mutual recognition of the IDL without impeding individual countries/states to apply their privacy rules and national/community/regional motor vehicle authorities in taking care of their specific needs.</p><p>ISO 18013-3:2017</p><p>- is based on the machine-readable data content specified in ISO/IEC 18013‑2;</p><p>- specifies mechanisms and rules available to issuing authorities (IAs) for:</p>
-
-    - access control (i.e. limiting access to the machine-readable data recorded on the IDL),
-    - document authentication (i.e. confirming that the document was issued by the claimed IA), and
-    - data integrity validation (i.e. confirming that the data has not been changed since issuing).<p>ISO 1813-3:2017 does not address issues related to the subsequent use of data obtained from the IDL, e.g. privacy issues.</p>
+- content: "<p>ISO/IEC 18013 establishes guidelines for the design format and data
+    content of an ISO-compliant driving licence (IDL) with regard to human-readable
+    features (ISO/IEC 18013‑1), machine-readable technologies (ISO/IEC 18013‑2), and
+    access control, authentication and integrity validation (ISO/IEC 18013‑3). It
+    creates a common basis for international use and mutual recognition of the IDL
+    without impeding individual countries/states to apply their privacy rules and
+    national/community/regional motor vehicle authorities in taking care of their
+    specific needs.</p><p>ISO 18013-3:2017</p><p>- is based on the machine-readable
+    data content specified in ISO/IEC 18013‑2;</p><p>- specifies mechanisms and rules
+    available to issuing authorities (IAs) for:</p><ul><li>- access control (i.e.
+    limiting access to the machine-readable data recorded on the IDL),</li><li>- document
+    authentication (i.e. confirming that the document was issued by the claimed IA),
+    and</li><li>- data integrity validation (i.e. confirming that the data has not
+    been changed since issuing).</li></ul><p>ISO 1813-3:2017 does not address issues
+    related to the subsequent use of data obtained from the IDL, e.g. privacy issues.</p>"
   language:
   - en
   script:
@@ -101,20 +110,20 @@ copyright:
   from: '2017'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '18013'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '18013'
+    part: '3'
+    type: IEC
+  price_code: iso:G

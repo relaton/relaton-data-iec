@@ -86,17 +86,74 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10646:2003 specifies the Universal Multiple-Octet Coded Character Set (UCS). It is applicable to the representation, transmission, interchange, processing, storage, input and presentation of the written form of the languages of the world as well as additional symbols.</p><p>ISO/IEC 10646:2003</p>
-    specifies the architecture of ISO/IEC 10646:2003; defines terms used in ISO/IEC 10646:2003;describes the general structure of the coded character set;specifies the Basic Multilingual Plane (BMP) of the UCS;specifies supplementary planes of the UCS: the Supplementary Multilingual Plane (SMP), the Supplementary Ideographic Plane (SIP) and the Supplementary Special-purpose Plane (SSP); defines a set of graphic characters used in scripts and the written form of languages on a world-wide scale;specifies the names for the graphic characters of the BMP, SMP, SIP, SSP and their coded representations; specifies the four-octet (32-bit) canonical form of the UCS: UCS-4;specifies a two-octet (16-bit) BMP form of the UCS: UCS-2;specifies a multiple byte (one to four) byte transformation UTF-8 for use with ISO 646 (ASCII) byte-oriented environments;specifies a two 16-bit form and associated transformation UTF-16 for supplementary characters;specifies collection identifiers for selected set of character subsets;specifies the coded representations for control functions;specifies the management of future additions to this coded character set;incorporates the Unicode bi-directional algorithm and normalization forms by reference.<p>The UCS is a coding system different from that specified in ISO/IEC 2022. A graphic character will be assigned only one code position in ISO/IEC 10646:2003, located either in the BMP or in one of the supplementary planes.</p><p>NOTE - The Unicode Standard, Version 4.0 includes a set of characters, names, and coded representations that are identical with those in ISO/IEC 10646:2003. It additionally provides details of character properties, processing algorithms, and definitions that are useful to implementers. Version 4.0 strengthens Unicode support for worldwide communication, software availability, and publishing.</p><p>By defining a consistent way of encoding multilingual text ISO/IEC 10646:2003 enables the exchange of data internationally. The information technology industry gains data stability, greater global interoperability and data interchange. ISO/IEC 10646:2003 has been widely adopted in new Internet and W3C protocols and mark up languages such as XML and HTML, and implemented in modern operating systems and computer programming languages. This edition covers over 96 000 characters from the world's scripts.</p>
+- content: "<p>ISO/IEC 10646:2003 specifies the Universal Multiple-Octet Coded Character
+    Set (UCS). It is applicable to the representation, transmission, interchange,
+    processing, storage, input and presentation of the written form of the languages
+    of the world as well as additional symbols.</p><p>ISO/IEC 10646:2003</p><ul><li>specifies
+    the architecture of ISO/IEC 10646:2003;</li><li>defines terms used in ISO/IEC
+    10646:2003;</li><li>describes the general structure of the coded character set;</li><li>specifies
+    the Basic Multilingual Plane (BMP) of the UCS;</li><li>specifies supplementary
+    planes of the UCS: the Supplementary Multilingual Plane (SMP), the Supplementary
+    Ideographic Plane (SIP) and the Supplementary Special-purpose Plane (SSP);</li><li>defines
+    a set of graphic characters used in scripts and the written form of languages
+    on a world-wide scale;</li><li>specifies the names for the graphic characters
+    of the BMP, SMP, SIP, SSP and their coded representations;</li><li>specifies the
+    four-octet (32-bit) canonical form of the UCS: UCS-4;</li><li>specifies a two-octet
+    (16-bit) BMP form of the UCS: UCS-2;</li><li>specifies a multiple byte (one to
+    four) byte transformation UTF-8 for use with ISO 646 (ASCII) byte-oriented environments;</li><li>specifies
+    a two 16-bit form and associated transformation UTF-16 for supplementary characters;</li><li>specifies
+    collection identifiers for selected set of character subsets;</li><li>specifies
+    the coded representations for control functions;</li><li>specifies the management
+    of future additions to this coded character set;</li><li>incorporates the Unicode
+    bi-directional algorithm and normalization forms by reference.</li></ul><p>The
+    UCS is a coding system different from that specified in ISO/IEC 2022. A graphic
+    character will be assigned only one code position in ISO/IEC 10646:2003, located
+    either in the BMP or in one of the supplementary planes.</p><p>NOTE - The Unicode
+    Standard, Version 4.0 includes a set of characters, names, and coded representations
+    that are identical with those in ISO/IEC 10646:2003. It additionally provides
+    details of character properties, processing algorithms, and definitions that are
+    useful to implementers. Version 4.0 strengthens Unicode support for worldwide
+    communication, software availability, and publishing.</p><p>By defining a consistent
+    way of encoding multilingual text ISO/IEC 10646:2003 enables the exchange of data
+    internationally. The information technology industry gains data stability, greater
+    global interoperability and data interchange. ISO/IEC 10646:2003 has been widely
+    adopted in new Internet and W3C protocols and mark up languages such as XML and
+    HTML, and implemented in modern operating systems and computer programming languages.
+    This edition covers over 96 000 characters from the world's scripts.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    <p>L'ISO/CEI 10646:2003 normalise le jeu universel de caractères codés sur plusieurs octets (JUC). Elle s'applique à la représentation, à la transmission, à l'échange, au traitement, au stockage, à la saisie et à la présentation des langues du monde sous forme écrite et de symboles complémentaires.</p><p>L'ISO/CEI 10646:2003</p>
-    décrit l'architecture de l'ISO/CEI 10646:2003,définit les termes utilisés dans l'ISO/CEI 10646:2003,décrit la structure générale du jeu de caractères codés,décrit le plan multilingue de base (PMB) du JUC,décrit les plans complémentaires du JUC: le Plan multilingue complémentaire (PMC), le Plan idéographique complémentaire (PIC) et le Plan complémentaire spécialisé (PCS),définit un ensemble de caractères graphiques utilisés dans la forme écrite des langues à l'échelle mondiale,nomme et établit la représentation codée des caractères graphiques du PMB, du PMC, du PIC et du PCS,prescrit la forme canonique à quatre octets (32 bits) du JUC: UCS-4,précise une forme du PMB à deux octets (16 bits) pour le JUC: UCS-2,établit la représentation codée des fonctions de commandes, etétablit la gestion de tout développement ultérieur du présent jeu de caractères codés.<p>Le JUC est un système de codage différent de celui décrit dans l'ISO/CEI 2022. Un caractère graphique donné ne sera affecté qu'à une seule position de code dans l'ISO/CEI 10646:2003, située soit dans le PMB, soit dans un des plans complémentaires.</p><p>NOTE - La version 4.0 d'Unicode définit un ensemble de caractères, de noms et de représentations codées identiques à l'ensemble de l'ISO/CEI 10646:2003. Elle fournit, de surcroît, des informations supplémentaires relatives aux propriétés de ces caractères, aux algorithmes de traitement ainsi que des définitions utiles aux développeurs.</p><p>En définissant une manière cohérente de coder du texte multilingue, l'ISO/CEI 10646:2003 permet l'échange de données au niveau international. L'industrie des technologies de l'information y gagne en stabilité des données et en une meilleure interopérabilité mondiale. L'ISO/CEI 10646:2003 a été adoptée par de nouveaux protocoles Internet et mise en oeuvre dans des systèmes d'exploitation et des langages informatiques. Cette édition contient plus de 95 000 caractères des écritures du monde entier.</p>
+- content: "<p>L'ISO/CEI 10646:2003 normalise le jeu universel de caractères codés
+    sur plusieurs octets (JUC). Elle s'applique à la représentation, à la transmission,
+    à l'échange, au traitement, au stockage, à la saisie et à la présentation des
+    langues du monde sous forme écrite et de symboles complémentaires.</p><p>L'ISO/CEI
+    10646:2003</p><ul><li>décrit l'architecture de l'ISO/CEI 10646:2003,</li><li>définit
+    les termes utilisés dans l'ISO/CEI 10646:2003,</li><li>décrit la structure générale
+    du jeu de caractères codés,</li><li>décrit le plan multilingue de base (PMB) du
+    JUC,</li><li>décrit les plans complémentaires du JUC: le Plan multilingue complémentaire
+    (PMC), le Plan idéographique complémentaire (PIC) et le Plan complémentaire spécialisé
+    (PCS),</li><li>définit un ensemble de caractères graphiques utilisés dans la forme
+    écrite des langues à l'échelle mondiale,</li><li>nomme et établit la représentation
+    codée des caractères graphiques du PMB, du PMC, du PIC et du PCS,</li><li>prescrit
+    la forme canonique à quatre octets (32 bits) du JUC: UCS-4,</li><li>précise une
+    forme du PMB à deux octets (16 bits) pour le JUC: UCS-2,</li><li>établit la représentation
+    codée des fonctions de commandes, et</li><li>établit la gestion de tout développement
+    ultérieur du présent jeu de caractères codés.</li></ul><p>Le JUC est un système
+    de codage différent de celui décrit dans l'ISO/CEI 2022. Un caractère graphique
+    donné ne sera affecté qu'à une seule position de code dans l'ISO/CEI 10646:2003,
+    située soit dans le PMB, soit dans un des plans complémentaires.</p><p>NOTE -
+    La version 4.0 d'Unicode définit un ensemble de caractères, de noms et de représentations
+    codées identiques à l'ensemble de l'ISO/CEI 10646:2003. Elle fournit, de surcroît,
+    des informations supplémentaires relatives aux propriétés de ces caractères, aux
+    algorithmes de traitement ainsi que des définitions utiles aux développeurs.</p><p>En
+    définissant une manière cohérente de coder du texte multilingue, l'ISO/CEI 10646:2003
+    permet l'échange de données au niveau international. L'industrie des technologies
+    de l'information y gagne en stabilité des données et en une meilleure interopérabilité
+    mondiale. L'ISO/CEI 10646:2003 a été adoptée par de nouveaux protocoles Internet
+    et mise en oeuvre dans des systèmes d'exploitation et des langages informatiques.
+    Cette édition contient plus de 95 000 caractères des écritures du monde entier.</p>"
   language:
   - fr
   script:
@@ -120,19 +177,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 2
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.10
-  text: Coding of character sets
-structuredidentifier:
-  project_number: '10646'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 2
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.10
+    text: Coding of character sets
+  structuredidentifier:
+    project_number: '10646'
+    type: IEC
+  price_code: iso:B

@@ -75,9 +75,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 9798-6:2005 specifies four entity authentication mechanisms based on manual data transfer between authenticating devices. Such mechanisms may be appropriate in a variety of circumstances. One such application occurs in Personal Area Networks, where the owner of two personal devices capable of wireless communications wishes them to perform an entity authentication procedure as part of the process of preparing them for use in the network. These mechanisms may also be used to support key management functions.</p><p>ISO/IEC 9798-6:2005 specifies mechanisms in which entity authentication is achieved by</p>
-    manually transferring short data strings from one device to the other, ormanually comparing short data strings output by the two devices.<p>In ISO/IEC 9798-6:2005, the meaning of the term entity authentication is different to the meaning applied in other parts of ISO/IEC 9798. Instead of one device verifying that the other device has a claimed identity (and vice versa), both devices in possession of a user verify that they correctly share a data string with the other device at the time of execution of the mechanism. Of course, this data string could contain identifiers for one or both of the devices.</p>
+- content: "<p>ISO/IEC 9798-6:2005 specifies four entity authentication mechanisms
+    based on manual data transfer between authenticating devices. Such mechanisms
+    may be appropriate in a variety of circumstances. One such application occurs
+    in Personal Area Networks, where the owner of two personal devices capable of
+    wireless communications wishes them to perform an entity authentication procedure
+    as part of the process of preparing them for use in the network. These mechanisms
+    may also be used to support key management functions.</p><p>ISO/IEC 9798-6:2005
+    specifies mechanisms in which entity authentication is achieved by</p><ul><li>manually
+    transferring short data strings from one device to the other, or</li><li>manually
+    comparing short data strings output by the two devices.</li></ul><p>In ISO/IEC
+    9798-6:2005, the meaning of the term entity authentication is different to the
+    meaning applied in other parts of ISO/IEC 9798. Instead of one device verifying
+    that the other device has a claimed identity (and vice versa), both devices in
+    possession of a user verify that they correctly share a data string with the other
+    device at the time of execution of the mechanism. Of course, this data string
+    could contain identifiers for one or both of the devices.</p>"
   language:
   - en
   script:
@@ -101,20 +114,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '9798'
-  part: '6'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '9798'
+    part: '6'
+    type: IEC
+  price_code: iso:B

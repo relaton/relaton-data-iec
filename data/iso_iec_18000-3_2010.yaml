@@ -71,21 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 18000 has been developed in order to:</p>\n\nprovide a framework
-    to define common communications protocols for Internationally useable frequencies
-    for radio frequency identification (RFID), and, where possible, to determine the
-    use of the same protocols for all frequencies such that the problems of migrating
-    from one to another are diminished; \nminimize software and implementation costs;
-    \nenable system management and control and information exchange to be common as
-    far as is possible.<p>ISO/IEC 18000-1 provides explanation of the concepts behind
-    ISO/IEC 18000-3:2010.</p><p>ISO/IEC 18000-3:2010 has 3 MODES of operation, intended
-    to address different applications. The detailed technical differences between
-    the modes are shown in parameter tables.</p><p>ISO/IEC 18000-3:2010 provides physical
-    layer, collision management system and protocol values for RFID systems for item
-    identification operating at 13,56 MHz in accordance with the requirements of ISO/IEC
-    18000-1.</p><p>It provides definitions for systems for each MODE determined in
-    ISO/IEC 18000-3:2010.</p><p>It defines three non-interfering MODES.</p>\n\nThe
-    MODES are not interoperable.\nThe MODES, whilst not interoperable, are non-interfering."
+- content: "<p>ISO/IEC 18000 has been developed in order to:</p><ul><li>provide a
+    framework to define common communications protocols for Internationally useable
+    frequencies for radio frequency identification (RFID), and, where possible, to
+    determine the use of the same protocols for all frequencies such that the problems
+    of migrating from one to another are diminished;</li><li>minimize software and
+    implementation costs;</li><li>enable system management and control and information
+    exchange to be common as far as is possible.</li></ul><p>ISO/IEC 18000-1 provides
+    explanation of the concepts behind ISO/IEC 18000-3:2010.</p><p>ISO/IEC 18000-3:2010
+    has 3 MODES of operation, intended to address different applications. The detailed
+    technical differences between the modes are shown in parameter tables.</p><p>ISO/IEC
+    18000-3:2010 provides physical layer, collision management system and protocol
+    values for RFID systems for item identification operating at 13,56 MHz in accordance
+    with the requirements of ISO/IEC 18000-1.</p><p>It provides definitions for systems
+    for each MODE determined in ISO/IEC 18000-3:2010.</p><p>It defines three non-interfering
+    MODES.</p><ul><li>The MODES are not interoperable.</li><li>The MODES, whilst not
+    interoperable, are non-interfering.</li></ul>"
   language:
   - en
   script:
@@ -109,20 +110,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '18000'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '18000'
+    part: '3'
+    type: IEC
+  price_code: iso:H

@@ -68,9 +68,17 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 15440:2005 is aimed at both the users and manufacturers, and intends to present the user requirements regarding keyboards and associated devices and methods, at time of its publication.</p><p>ISO/IEC TR 15440:2005 covers</p>
-    the different input requirements catering for national and international practices and support of cultural and linguistic diversity;the recognition of requirements regarding comfort of use (for any user, including children, elderly and disabled people), and improved user productivity related to inputting data;enhancements of keyboards and related input devices and methods required for new emerging phenomena such as Internet, multimedia, virtual reality;virtual input requirements;labelling issues (soft [LCD] and hard, permanent and temporary labels), function symbols and icons.
+- content: "<p>ISO/IEC TR 15440:2005 is aimed at both the users and manufacturers,
+    and intends to present the user requirements regarding keyboards and associated
+    devices and methods, at time of its publication.</p><p>ISO/IEC TR 15440:2005 covers</p><ul><li>the
+    different input requirements catering for national and international practices
+    and support of cultural and linguistic diversity;</li><li>the recognition of requirements
+    regarding comfort of use (for any user, including children, elderly and disabled
+    people), and improved user productivity related to inputting data;</li><li>enhancements
+    of keyboards and related input devices and methods required for new emerging phenomena
+    such as Internet, multimedia, virtual reality;</li><li>virtual input requirements;</li><li>labelling
+    issues (soft [LCD] and hard, permanent and temporary labels), function symbols
+    and icons.</li></ul>"
   language:
   - en
   script:
@@ -94,19 +102,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 35
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 35
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

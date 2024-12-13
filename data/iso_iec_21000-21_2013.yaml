@@ -75,26 +75,29 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 21000-21:2013 specifies MPEG-21 Media Contract Ontology (MCO).</p><p>The MCO may be used to represent contracts for content directly or for services on content based on MPEG-21 technologies. This is implemented by using some of the classes and properties defined in ISO/IEC 21000-19 (Media Value Chain Ontology) and by extending its ontology.</p><p>Media Contract Ontology is able to represent the most common rights in contracts in the media field and the conditions appearing the most in those documents.</p><p>It is made of a contract core ontology, for implementing the most general entities, and of an extension including specific elements to address the most relevant information found in contracts for permitting the exploitation of intellectual property rights. A mechanism for defining further future extensions is in place.</p><p>A contract expressed with MCO may provide:</p>
-
-    the identification of the contract itself;
-    possible relationships with other contracts;
-    the parties;
-    a textual version of the contract;
-    the object of the contract (content or service);
-    the deontic-expression (permissions, obligations, prohibitions), with possible reference to textual clauses.<p>There is support for:</p>
-
-    encryption of the whole contract or any sub-part of it;
-    inclusion of metadata to be associated to contract entities, as annotation properties.<p>A document instance created according to MCO specification can be:</p>
-
-    a contract template;
-    a contract offer;
-    a signed contract (binding the parties).<p>The MCO can also be used for representing:</p>
-
-    exploitation contexts (as deontic expressions);
-    rights situation related to specified content or service, also derived from multiple contracts;
-    any subset of knowledge about rights on content or service.
+- content: "<p>ISO/IEC 21000-21:2013 specifies MPEG-21 Media Contract Ontology (MCO).</p><p>The
+    MCO may be used to represent contracts for content directly or for services on
+    content based on MPEG-21 technologies. This is implemented by using some of the
+    classes and properties defined in ISO/IEC 21000-19 (Media Value Chain Ontology)
+    and by extending its ontology.</p><p>Media Contract Ontology is able to represent
+    the most common rights in contracts in the media field and the conditions appearing
+    the most in those documents.</p><p>It is made of a contract core ontology, for
+    implementing the most general entities, and of an extension including specific
+    elements to address the most relevant information found in contracts for permitting
+    the exploitation of intellectual property rights. A mechanism for defining further
+    future extensions is in place.</p><p>A contract expressed with MCO may provide:</p><ul><li>the
+    identification of the contract itself;</li><li>possible relationships with other
+    contracts;</li><li>the parties;</li><li>a textual version of the contract;</li><li>the
+    object of the contract (content or service);</li><li>the deontic-expression (permissions,
+    obligations, prohibitions), with possible reference to textual clauses.</li></ul><p>There
+    is support for:</p><ul><li>encryption of the whole contract or any sub-part of
+    it;</li><li>inclusion of metadata to be associated to contract entities, as annotation
+    properties.</li></ul><p>A document instance created according to MCO specification
+    can be:</p><ul><li>a contract template;</li><li>a contract offer;</li><li>a signed
+    contract (binding the parties).</li></ul><p>The MCO can also be used for representing:</p><ul><li>exploitation
+    contexts (as deontic expressions);</li><li>rights situation related to specified
+    content or service, also derived from multiple contracts;</li><li>any subset of
+    knowledge about rights on content or service.</li></ul>"
   language:
   - en
   script:
@@ -118,20 +121,20 @@ copyright:
   from: '2013'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '21000'
-  part: '21'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '21000'
+    part: '21'
+    type: IEC
+  price_code: iso:B

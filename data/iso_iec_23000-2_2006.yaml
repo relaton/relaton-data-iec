@@ -101,9 +101,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23000-2:2006 specifies a method to import MPEG-1 Layer III coded media files (i.e. MP3) that may contain ID3V1 meta-data into the framework of MPEG-4 as an MPEG-4 file. Optionally, the media file can have an associated JPEG image (e.g. album cover art). The major components of the specification are:</p>
-    a method to convert the Layer III bitstream into a series of MPEG-4 Access Units suitable for storage in an MPEG-4 file;a method to represent the ID3V1 meta-data using a concise set of MPEG-7 constructs, and place that MPEG-7 description into the MPEG-4 file;a method to encapsulate a JPEG compressed image into the MPEG-4 file.<p>Additional components permit using the MPEG-21 file format, which supports a more precise association of coded audio, meta-data and image information, and also permits the creation of a music album via encapsulation of a set of MPEG-4 files (i.e. songs) within a single MPEG-21 file.</p>
+- content: "<p>ISO/IEC 23000-2:2006 specifies a method to import MPEG-1 Layer III
+    coded media files (i.e. MP3) that may contain ID3V1 meta-data into the framework
+    of MPEG-4 as an MPEG-4 file. Optionally, the media file can have an associated
+    JPEG image (e.g. album cover art). The major components of the specification are:</p><ul><li>a
+    method to convert the Layer III bitstream into a series of MPEG-4 Access Units
+    suitable for storage in an MPEG-4 file;</li><li>a method to represent the ID3V1
+    meta-data using a concise set of MPEG-7 constructs, and place that MPEG-7 description
+    into the MPEG-4 file;</li><li>a method to encapsulate a JPEG compressed image
+    into the MPEG-4 file.</li></ul><p>Additional components permit using the MPEG-21
+    file format, which supports a more precise association of coded audio, meta-data
+    and image information, and also permits the creation of a music album via encapsulation
+    of a set of MPEG-4 files (i.e. songs) within a single MPEG-21 file.</p>"
   language:
   - en
   script:
@@ -127,20 +136,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23000'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23000'
+    part: '2'
+    type: IEC
+  price_code: iso:B

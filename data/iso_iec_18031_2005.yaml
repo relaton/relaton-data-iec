@@ -74,9 +74,14 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 18031:2005 specifies a conceptual model for a random bit generator for cryptographic purposes, together with the elements of this model.</p><p>ISO/IEC 18031:2005 also includes</p>
-    the description of the main elements required for a non-deterministic random bit generator;the description of the main elements required for a deterministic random bit generator;their characteristics; their security requirements.<p>Techniques for statistical testing of random bit generators for the purposes of independent verification or validation, and detailed designs for such generators, are outside the scope of ISO/IEC 18031:2005.</p>
+- content: "<p>ISO/IEC 18031:2005 specifies a conceptual model for a random bit generator
+    for cryptographic purposes, together with the elements of this model.</p><p>ISO/IEC
+    18031:2005 also includes</p><ul><li>the description of the main elements required
+    for a non-deterministic random bit generator;</li><li>the description of the main
+    elements required for a deterministic random bit generator;</li><li>their characteristics;</li><li>their
+    security requirements.</li></ul><p>Techniques for statistical testing of random
+    bit generators for the purposes of independent verification or validation, and
+    detailed designs for such generators, are outside the scope of ISO/IEC 18031:2005.</p>"
   language:
   - en
   script:
@@ -100,19 +105,19 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '18031'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '18031'
+    type: IEC
+  price_code: iso:B

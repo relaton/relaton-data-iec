@@ -71,12 +71,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15415:2011</p>
-
-    specifies two methodologies for the measurement of specific attributes of two-dimensional bar code symbols, one of these being applicable to multi-row bar code symbologies and the other to two-dimensional matrix symbologies;
-    defines methods for evaluating and grading these measurements and deriving an overall assessment of symbol quality;
-    gives information on possible causes of deviation from optimum grades to assist users in taking appropriate corrective action.<p>ISO/IEC 15415:2011 applies to those two-dimensional symbologies for which a reference decode algorithm has been defined, but its methodologies can be applied partially or wholly to other similar symbologies.</p><p>While ISO/IEC 15415:2011 can be applied to direct part marks, it is possible that better correlation between measurement results and scanning performance will be obtained with ISO/IEC TR 29158 in combination with ISO/IEC 15415:2011.</p>
+- content: "<p>ISO/IEC 15415:2011</p><ul><li>specifies two methodologies for the measurement
+    of specific attributes of two-dimensional bar code symbols, one of these being
+    applicable to multi-row bar code symbologies and the other to two-dimensional
+    matrix symbologies;</li><li>defines methods for evaluating and grading these measurements
+    and deriving an overall assessment of symbol quality;</li><li>gives information
+    on possible causes of deviation from optimum grades to assist users in taking
+    appropriate corrective action.</li></ul><p>ISO/IEC 15415:2011 applies to those
+    two-dimensional symbologies for which a reference decode algorithm has been defined,
+    but its methodologies can be applied partially or wholly to other similar symbologies.</p><p>While
+    ISO/IEC 15415:2011 can be applied to direct part marks, it is possible that better
+    correlation between measurement results and scanning performance will be obtained
+    with ISO/IEC TR 29158 in combination with ISO/IEC 15415:2011.</p>"
   language:
   - en
   script:
@@ -100,19 +106,19 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '15415'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '15415'
+    type: IEC
+  price_code: iso:F

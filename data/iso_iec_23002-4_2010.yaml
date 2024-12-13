@@ -75,11 +75,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23002-4:2010 defines the description of the MPEG video tool library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This tool library defines the specification of FUs, which are sufficient to build complete decoding solutions according to the following coding standards:</p>
-
-    ISO/IEC 14496-2 (MPEG-4 Simple Profile), and
-    ISO/IEC 14496-10<em></em>(MPEG-4 AVC Constrained Baseline Profile).<p>The objective of ISO/IEC 23001-4 is to define the general framework principles, and ISO/IEC 23002-4:2009 defines the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG coding standards. Each FU is defined in the form of a textual description. The conventions for the input and output behavior are also described.</p><p>Implementations compliant with ISO/IEC 23002-4:2009 can be designed using any software or hardware language and components. The reference software for the textual specification of FUs is written in RVC-CAL language of which a formal syntax is provided in ISO/IEC 23001-4, and which will be defined in Amendment 1 to ISO/IEC 23002-4.</p>
+- content: "<p>ISO/IEC 23002-4:2010 defines the description of the MPEG video tool
+    library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This
+    tool library defines the specification of FUs, which are sufficient to build complete
+    decoding solutions according to the following coding standards:</p><ul><li>ISO/IEC
+    14496-2 (MPEG-4 Simple Profile), and</li><li>ISO/IEC 14496-10<em></em>(MPEG-4
+    AVC Constrained Baseline Profile).</li></ul><p>The objective of ISO/IEC 23001-4
+    is to define the general framework principles, and ISO/IEC 23002-4:2009 defines
+    the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG coding
+    standards. Each FU is defined in the form of a textual description. The conventions
+    for the input and output behavior are also described.</p><p>Implementations compliant
+    with ISO/IEC 23002-4:2009 can be designed using any software or hardware language
+    and components. The reference software for the textual specification of FUs is
+    written in RVC-CAL language of which a formal syntax is provided in ISO/IEC 23001-4,
+    and which will be defined in Amendment 1 to ISO/IEC 23002-4.</p>"
   language:
   - en
   script:
@@ -103,20 +112,20 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23002'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23002'
+    part: '4'
+    type: IEC
+  price_code: iso:B

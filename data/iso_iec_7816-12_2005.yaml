@@ -72,9 +72,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7816-12:2005 specifies the operating conditions of an integrated circuit card that provides a USB interface. An integrated circuit card with a USB interface is named USB-ICC.</p><p>ISO/IEC 7816-12:2005 specifies</p>
-    the electrical conditions when a USB-ICC is operated by an interface device - for those contact fields that are not used, when the USB interface is applied;the USB standard descriptors and the USB-ICC class specific descriptor;the data transfer between host and USB-ICC using bulk transfers or control transfers;the control transfers which allow two different protocols named version A and version B;the (optional) interrupt transfers to indicate asynchronous events;status and error conditions.<p>ISO/IEC 7816-12:2005 provides two protocols for control transfers. This is to support the protocol T=0 (version A) or to use the transfer on APDU level (version B). ISO/IEC 7816-12:2005 provides the state diagrams for the USB-ICC for each of the transfers (bulk transfers, control transfers version A and version B). Examples of possible sequences which the USB-ICC must be able to handle are given in an informative annex.</p>
+- content: "<p>ISO/IEC 7816-12:2005 specifies the operating conditions of an integrated
+    circuit card that provides a USB interface. An integrated circuit card with a
+    USB interface is named USB-ICC.</p><p>ISO/IEC 7816-12:2005 specifies</p><ul><li>the
+    electrical conditions when a USB-ICC is operated by an interface device - for
+    those contact fields that are not used, when the USB interface is applied;</li><li>the
+    USB standard descriptors and the USB-ICC class specific descriptor;</li><li>the
+    data transfer between host and USB-ICC using bulk transfers or control transfers;</li><li>the
+    control transfers which allow two different protocols named version A and version
+    B;</li><li>the (optional) interrupt transfers to indicate asynchronous events;</li><li>status
+    and error conditions.</li></ul><p>ISO/IEC 7816-12:2005 provides two protocols
+    for control transfers. This is to support the protocol T=0 (version A) or to use
+    the transfer on APDU level (version B). ISO/IEC 7816-12:2005 provides the state
+    diagrams for the USB-ICC for each of the transfers (bulk transfers, control transfers
+    version A and version B). Examples of possible sequences which the USB-ICC must
+    be able to handle are given in an informative annex.</p>"
   language:
   - en
   script:
@@ -98,20 +110,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '12'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:F
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '12'
+    type: IEC
+  price_code: iso:F

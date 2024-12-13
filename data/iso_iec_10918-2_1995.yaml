@@ -95,24 +95,18 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente Recommandation | Norme internationale traite des tests de
-    conformité applicables aux procédés de codage et de décodage des images fixes
-    à modelé continu ainsi qu'aux formats de données comprimées spécifiés dans la
-    Rec. UIT-T T.81 | ISO/CEI 10918-1. La présente Spécification: \nspécifie les tests
-    de conformité applicables aux formats de données comprimées indiqués dans la Rec.
-    UIT-T T.81 | ISO/CEI 10918-1; \nspécifie les tests de conformité applicables aux
-    procédés de codage indiqués dans la Rec. UIT-T T.81 | ISO/CEI 10918-1; \nspécifie
-    les tests de conformité applicables aux procédés de décodage indiqués dans la
-    Rec. UIT-T T.81 | ISO/CEI 10918-1; \nspécifie une méthode pour établir des tests
-    de conformité propres à une application; \ndonne des lignes directrices et des
-    exemples sur la manière de mettre en oeuvre ces tests dans la pratique.\n\nLa
-    présente Spécification spécifie des tests normalisés\nde conformité génériques
-    applicables aux procédés\nde codage et de décodage de la Rec. UIT-T T.81 | ISO/CEI
-    10918-1. Ces tests\ns'appliquent aux réalisations génériques «autonomes»\nd'un
-    ou de plusieurs des procédés de codage ou de décodage\nspécifiés dans la Rec.
-    UIT-T 279 T.81 | ISO/CEI 10918-1. Ces tests\nont notamment pour objectif de vérifier
-    que les réalisations de\ncodeurs (et de décodeurs) génériques calculent la transformée\ndiscrète
-    en cosinus (DCT) et les fonctions de quantification avec une précision\nsuffisante."
+- content: |-
+    La présente Recommandation | Norme internationale traite des tests de conformité applicables aux procédés de codage et de décodage des images fixes à modelé continu ainsi qu'aux formats de données comprimées spécifiés dans la Rec. UIT-T T.81 | ISO/CEI 10918-1. La présente Spécification:<ul><li>spécifie les tests de conformité applicables aux formats de données comprimées indiqués dans la Rec. UIT-T T.81 | ISO/CEI 10918-1;</li><li>spécifie les tests de conformité applicables aux procédés de codage indiqués dans la Rec. UIT-T T.81 | ISO/CEI 10918-1;</li><li>spécifie les tests de conformité applicables aux procédés de décodage indiqués dans la Rec. UIT-T T.81 | ISO/CEI 10918-1;</li><li>spécifie une méthode pour établir des tests de conformité propres à une application;</li><li>donne des lignes directrices et des exemples sur la manière de mettre en oeuvre ces tests dans la pratique.</li></ul>
+    La présente Spécification spécifie des tests normalisés
+    de conformité génériques applicables aux procédés
+    de codage et de décodage de la Rec. UIT-T T.81 | ISO/CEI 10918-1. Ces tests
+    s'appliquent aux réalisations génériques «autonomes»
+    d'un ou de plusieurs des procédés de codage ou de décodage
+    spécifiés dans la Rec. UIT-T 279 T.81 | ISO/CEI 10918-1. Ces tests
+    ont notamment pour objectif de vérifier que les réalisations de
+    codeurs (et de décodeurs) génériques calculent la transformée
+    discrète en cosinus (DCT) et les fonctions de quantification avec une précision
+    suffisante.
   language:
   - fr
   script:
@@ -136,20 +130,20 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '10918'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:G
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '10918'
+    part: '2'
+    type: IEC
+  price_code: iso:G

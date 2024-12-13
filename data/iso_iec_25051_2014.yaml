@@ -75,12 +75,15 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 25051:2014 establishes:</p>
-
-    quality requirements for Ready to Use Software Product (RUSP);
-    requirements for test documentation for the testing of RUSP, including test plan, test description, and test results;
-    instructions for conformity evaluation of RUSP.<p>It includes also recommendations for safety or business critical RUSP.</p><p>ISO/IEC 25051:2014 deals only with providing the user with confidence that the RUSP will perform as offered and delivered. It does not deal with the production realization (including activities and intermediate products, e.g. specifications). The quality system of a supplier is outside the scope of ISO/IEC 25051:2014.</p>
+- content: "<p>ISO/IEC 25051:2014 establishes:</p><ul><li>quality requirements for
+    Ready to Use Software Product (RUSP);</li><li>requirements for test documentation
+    for the testing of RUSP, including test plan, test description, and test results;</li><li>instructions
+    for conformity evaluation of RUSP.</li></ul><p>It includes also recommendations
+    for safety or business critical RUSP.</p><p>ISO/IEC 25051:2014 deals only with
+    providing the user with confidence that the RUSP will perform as offered and delivered.
+    It does not deal with the production realization (including activities and intermediate
+    products, e.g. specifications). The quality system of a supplier is outside the
+    scope of ISO/IEC 25051:2014.</p>"
   language:
   - en
   script:
@@ -119,19 +122,19 @@ copyright:
   from: '2014'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '25051'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '25051'
+    type: IEC
+  price_code: iso:E

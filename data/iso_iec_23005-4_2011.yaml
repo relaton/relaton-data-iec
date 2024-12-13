@@ -75,12 +75,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 23005-4:2011 provides syntax and semantics of description schemes and descriptors used to characterize a virtual world object related metadata to provide the interoperability between virtual worlds and/or control a virtual world object in a virtual world by real world devices, which are various types of user interaction devices, including sensors.</p><p>ISO/IEC 23005-4:2011 includes an XML Schema, called Virtual World Object Characteristics XSD, for describing an object by considering three main requirements:</p>
-
-    it should be possible to easily create importers/exporters from various VE implementations;
-    it should be easy to control an object within a VE; and
-    it should be possible to modify a proprietary template (specific to the virtual world) of the object by using data contained in Virtual World Object Characteristics file.<p>The schema of ISO/IEC 23005-4:2011 deals only with metadata and does not include representations of geometry, sound, scent, animation or texture. To represent the latter, references to media resources are used.</p>
+- content: "<p>ISO/IEC 23005-4:2011 provides syntax and semantics of description schemes
+    and descriptors used to characterize a virtual world object related metadata to
+    provide the interoperability between virtual worlds and/or control a virtual world
+    object in a virtual world by real world devices, which are various types of user
+    interaction devices, including sensors.</p><p>ISO/IEC 23005-4:2011 includes an
+    XML Schema, called Virtual World Object Characteristics XSD, for describing an
+    object by considering three main requirements:</p><ul><li>it should be possible
+    to easily create importers/exporters from various VE implementations;</li><li>it
+    should be easy to control an object within a VE; and</li><li>it should be possible
+    to modify a proprietary template (specific to the virtual world) of the object
+    by using data contained in Virtual World Object Characteristics file.</li></ul><p>The
+    schema of ISO/IEC 23005-4:2011 deals only with metadata and does not include representations
+    of geometry, sound, scent, animation or texture. To represent the latter, references
+    to media resources are used.</p>"
   language:
   - en
   script:
@@ -104,20 +112,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '23005'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '23005'
+    part: '4'
+    type: IEC
+  price_code: iso:B

@@ -67,9 +67,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14662:2004 specifies the framework for coordinating the integration of existing International Standards and the development of future International Standards for the inter-working of Open-edi Parties via Open-edi and provides a reference for those International Standards. As such, it serves to guide the work necessary to accomplish Open-edi by providing the context to be used by developers of International Standards to ensure the coherence and integration of related standardized modelling and descriptive techniques, services, service interfaces and protocols.</p><p>This International Standard describes, through two perspectives of business transactions, significant aspects relevant to the interoperability of information technology systems used by Open-edi Parties engaging in Open-edi. The perspectives are:</p>
-    business aspects such as business information, business conventions, agreements and rules among Open-edi Parties; andinformation technology aspects which are necessary in the Open-edi systems to support the execution of business transactions.<p>This International Standard is not an implementation specification nor is it a basis for appraising the conformance of implementations.</p>
+- content: "<p>ISO/IEC 14662:2004 specifies the framework for coordinating the integration
+    of existing International Standards and the development of future International
+    Standards for the inter-working of Open-edi Parties via Open-edi and provides
+    a reference for those International Standards. As such, it serves to guide the
+    work necessary to accomplish Open-edi by providing the context to be used by developers
+    of International Standards to ensure the coherence and integration of related
+    standardized modelling and descriptive techniques, services, service interfaces
+    and protocols.</p><p>This International Standard describes, through two perspectives
+    of business transactions, significant aspects relevant to the interoperability
+    of information technology systems used by Open-edi Parties engaging in Open-edi.
+    The perspectives are:</p><ul><li>business aspects such as business information,
+    business conventions, agreements and rules among Open-edi Parties; and</li><li>information
+    technology aspects which are necessary in the Open-edi systems to support the
+    execution of business transactions.</li></ul><p>This International Standard is
+    not an implementation specification nor is it a basis for appraising the conformance
+    of implementations.</p>"
   language:
   - en
   script:
@@ -93,19 +106,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.60
-  text: IT applications in transport
-structuredidentifier:
-  project_number: '14662'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  structuredidentifier:
+    project_number: '14662'
+    type: IEC
+  price_code: iso:B

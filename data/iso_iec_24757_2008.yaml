@@ -112,30 +112,63 @@ abstract:
     process (e.g. in the BIOS), but can also be used for other purposes, such as reporting
     from the hardware of a keyboard to help the operating system configuring the keyboard
     driver, or to present the keyboard on screen with a user-friendly picture.</p><p>The
-    keyboard definition format is described in four sections:</p>\n\na keyboard identification
-    and general features section, including make and model, serial number, country
-    or region and language to which the keyboard applies, engraving language identification,
-    and distinctive features, such as relief, or presence of lights on keys. \nthe
-    hardware geometry layout, which indicates a largely known geometry layout, such
-    as a 102-key PC keyboard. This section also gives physical information such as
-    size of keys, and amount of pressure needed to activate keys. \nthe keyboard layout,
-    which gives the actual assignment of characters to each key. \nkey combinations
-    which gives combinations of keys, such as those of characters affected by dead
-    keys.<p>A number of existing keyboard definition formats are described, together
-    with a mapping between these description formats and the format defined in ISO/IEC
-    24757:2008.</p>"
+    keyboard definition format is described in four sections:</p><ol><li>a keyboard
+    identification and general features section, including make and model, serial
+    number, country or region and language to which the keyboard applies, engraving
+    language identification, and distinctive features, such as relief, or presence
+    of lights on keys.</li><li>the hardware geometry layout, which indicates a largely
+    known geometry layout, such as a 102-key PC keyboard. This section also gives
+    physical information such as size of keys, and amount of pressure needed to activate
+    keys.</li><li>the keyboard layout, which gives the actual assignment of characters
+    to each key.</li><li>key combinations which gives combinations of keys, such as
+    those of characters affected by dead keys.</li></ol><p>A number of existing keyboard
+    definition formats are described, together with a mapping between these description
+    formats and the format defined in ISO/IEC 24757:2008.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    <p>L'ISO/CEI 24757:2008 a pour but d'harmoniser les pratiques de l'industrie en matière de description machine des claviers (PC, assistants numériques, divers systèmes de fonctionnement, etc.) Elle vise finalement à faciliter la production de pilotes interopérables pour les utilisateurs et à permettre une meilleure assistance à l'utilisateur en offrant une correspondance plus précise entre le clavier matériel tel que gravé et géométriquement configuré, et l'interface conceptuelle dont dispose le système d'exploitation et ses applications.</p><p>L'ISO/CEI 24757:2008 a pour but de procurer un format de description qui peut décrire non seulement entièrement les Normes internationales de clavier, mais aussi les possibilités des claviers du marché actuel et envisageable dans un avenir prévisible, de même que leur fonctionnement avec des systèmes d'exploitation correspondants. Elle décrit les interactions possibles entre les touches d'un clavier et normalise la description des claviers pour qu'elle soit lisible à la machine tout en restant interprétable par des humains de manière relativement facile.</p><p>Le format de description de clavier est destiné à rendre possible la description des capacités des claviers matériels et des logiciels qui leur sont associés, plus des extensions prévisibles. Il est donc souhaitable de définir ce format dans un langage international extensible comme le langage SGML de l'ISO, dans la forme connue sous le nom de RELAX NG de l'ISO, aisément convertible au standard de l'industrie XML. Des fonctionnalités additionnelles sont couvertes, comme les claviers avec touches programmables et les claviers avec attributions multiples tels que les pavés téléphoniques.</p><p>Le format de description de clavier est destiné au départ à l'usage des systèmes d'exploitation, et lors de son processus d'amorçage (par exemple dans le BIOS), mais il peut aussi être utilisé à d'autres fins, telles que la communication automatique du matériel au logiciel pour aider le système d'exploitation à configurer le pilote de clavier, ou pour présenter à l'écran le clavier à l'aide d'une image conviviale.</p><p>Le format de description de clavier est décrit en 4 sections:</p>
-
-    une section sur l'identification du clavier et ses caractéristiques générales, incluant la marque et le modèle, le numéro de série, le pays ou la région et la langue auxquels le clavier s'applique, l'identification de la langue de gravure, et certaines particularités distinctives, comme le relief ou la présence de voyants lumineux sur les touches.
-    la disposition géométrique matérielle, qui indique une disposition géométrique généralement reconnue telle que celle d'un clavier à 102 touches de PC. Cette section renseigne aussi sur les caractéristiques physiques du clavier, comme la taille des touches, et la force de pression requise pour activer les touches.
-    la disposition de clavier, qui donne l'attribution exacte des caractères aux touches..
-    les combinaisons de touches, qui donnent les combinaisons telles que celles les caractères affectés les touches mortes.<p>Quelques formats de définitions de claviers sont donnés, avec une correspondance entre ces formats et celui défini dans l'ISO/CEI 24757:2008.</p>
+- content: "<p>L'ISO/CEI 24757:2008 a pour but d'harmoniser les pratiques de l'industrie
+    en matière de description machine des claviers (PC, assistants numériques, divers
+    systèmes de fonctionnement, etc.) Elle vise finalement à faciliter la production
+    de pilotes interopérables pour les utilisateurs et à permettre une meilleure assistance
+    à l'utilisateur en offrant une correspondance plus précise entre le clavier matériel
+    tel que gravé et géométriquement configuré, et l'interface conceptuelle dont dispose
+    le système d'exploitation et ses applications.</p><p>L'ISO/CEI 24757:2008 a pour
+    but de procurer un format de description qui peut décrire non seulement entièrement
+    les Normes internationales de clavier, mais aussi les possibilités des claviers
+    du marché actuel et envisageable dans un avenir prévisible, de même que leur fonctionnement
+    avec des systèmes d'exploitation correspondants. Elle décrit les interactions
+    possibles entre les touches d'un clavier et normalise la description des claviers
+    pour qu'elle soit lisible à la machine tout en restant interprétable par des humains
+    de manière relativement facile.</p><p>Le format de description de clavier est
+    destiné à rendre possible la description des capacités des claviers matériels
+    et des logiciels qui leur sont associés, plus des extensions prévisibles. Il est
+    donc souhaitable de définir ce format dans un langage international extensible
+    comme le langage SGML de l'ISO, dans la forme connue sous le nom de RELAX NG de
+    l'ISO, aisément convertible au standard de l'industrie XML. Des fonctionnalités
+    additionnelles sont couvertes, comme les claviers avec touches programmables et
+    les claviers avec attributions multiples tels que les pavés téléphoniques.</p><p>Le
+    format de description de clavier est destiné au départ à l'usage des systèmes
+    d'exploitation, et lors de son processus d'amorçage (par exemple dans le BIOS),
+    mais il peut aussi être utilisé à d'autres fins, telles que la communication automatique
+    du matériel au logiciel pour aider le système d'exploitation à configurer le pilote
+    de clavier, ou pour présenter à l'écran le clavier à l'aide d'une image conviviale.</p><p>Le
+    format de description de clavier est décrit en 4 sections:</p><ol><li>une section
+    sur l'identification du clavier et ses caractéristiques générales, incluant la
+    marque et le modèle, le numéro de série, le pays ou la région et la langue auxquels
+    le clavier s'applique, l'identification de la langue de gravure, et certaines
+    particularités distinctives, comme le relief ou la présence de voyants lumineux
+    sur les touches.</li><li>la disposition géométrique matérielle, qui indique une
+    disposition géométrique généralement reconnue telle que celle d'un clavier à 102
+    touches de PC. Cette section renseigne aussi sur les caractéristiques physiques
+    du clavier, comme la taille des touches, et la force de pression requise pour
+    activer les touches.</li><li>la disposition de clavier, qui donne l'attribution
+    exacte des caractères aux touches..</li><li>les combinaisons de touches, qui donnent
+    les combinaisons telles que celles les caractères affectés les touches mortes.</li></ol><p>Quelques
+    formats de définitions de claviers sont donnés, avec une correspondance entre
+    ces formats et celui défini dans l'ISO/CEI 24757:2008.</p>"
   language:
   - fr
   script:
@@ -159,19 +192,19 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 35
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
-structuredidentifier:
-  project_number: '24757'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 35
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  structuredidentifier:
+    project_number: '24757'
+    type: IEC
+  price_code: iso:H

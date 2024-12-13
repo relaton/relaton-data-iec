@@ -71,10 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 14496-18:2004 is part of the MPEG-4 suite of International Standards. It specifies font data representation, compression and streaming, providing an efficient mechanism to embed font data in MPEG-4 encoded presentations. It also defines MPEG-4 Text profiles and levels.</p><p>The ISO/IEC 14496 (MPEG-4) series has been developed by MPEG (Motion Picture Experts Group) and defines the set of technologies for compression, encoding and delivery of complex audio-visual scenes composed of different media objects:</p>
-    video objects (natural or synthetic video);audio objects;still images;text and vector graphics;computer-animated images.<p>MPEG-4 provides a standardized way to:</p>
-    represent the content of audio-visual objects;describe the composition of these objects in compound media scenes;encode, multiplex and synchronize the data associated with the media objects;transport the media presentation over different channels;interact with the audio-visual scene at the receiver's end.<p>An essential part of almost any media presentation involves text objects that are created using specific or custom fonts. Font selection determines the appearance of text in multimedia content and also plays a critical role in the overall scene composition, since the metric properties of a font are used for textual parts of multimedia content layout. Many thousands of fonts are available today for use in content creation. In order to assure the readability and legibility of text as well as the correct appearance and layout of content, the font data must be included (embedded) with the text objects as part of the multimedia presentation.</p>
+- content: "<p>ISO/IEC 14496-18:2004 is part of the MPEG-4 suite of International
+    Standards. It specifies font data representation, compression and streaming, providing
+    an efficient mechanism to embed font data in MPEG-4 encoded presentations. It
+    also defines MPEG-4 Text profiles and levels.</p><p>The ISO/IEC 14496 (MPEG-4)
+    series has been developed by MPEG (Motion Picture Experts Group) and defines the
+    set of technologies for compression, encoding and delivery of complex audio-visual
+    scenes composed of different media objects:</p><ul><li>video objects (natural
+    or synthetic video);</li><li>audio objects;</li><li>still images;</li><li>text
+    and vector graphics;</li><li>computer-animated images.</li></ul><p>MPEG-4 provides
+    a standardized way to:</p><ul><li>represent the content of audio-visual objects;</li><li>describe
+    the composition of these objects in compound media scenes;</li><li>encode, multiplex
+    and synchronize the data associated with the media objects;</li><li>transport
+    the media presentation over different channels;</li><li>interact with the audio-visual
+    scene at the receiver's end.</li></ul><p>An essential part of almost any media
+    presentation involves text objects that are created using specific or custom fonts.
+    Font selection determines the appearance of text in multimedia content and also
+    plays a critical role in the overall scene composition, since the metric properties
+    of a font are used for textual parts of multimedia content layout. Many thousands
+    of fonts are available today for use in content creation. In order to assure the
+    readability and legibility of text as well as the correct appearance and layout
+    of content, the font data must be included (embedded) with the text objects as
+    part of the multimedia presentation.</p>"
   language:
   - en
   script:
@@ -98,20 +116,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: '14496'
-  part: '18'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    project_number: '14496'
+    part: '18'
+    type: IEC
+  price_code: iso:C

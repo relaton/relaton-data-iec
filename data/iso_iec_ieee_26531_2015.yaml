@@ -77,16 +77,30 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC/IEEE 26531:2015 states requirements for efficient development and management of content produced</p>
-
-    throughout the life-cycle of a system and software product;
-    for the provision of user documentation for systems and software;
-    for the management of IT services.<p>ISO/IEC/IEEE 26531:2015 is independent of the tools, protocols, and systems used for content management. It does not address configuration management of software assets.</p><p>The content to be managed with this standard includes</p>
-
-    user information such as topic collections, manuals, guides, embedded user assistance, style guides, videos and other media, and other content that supports the effective use of a system or software product;
-    product life cycle information such as design documents, use cases, personas, project management plans, feature requests, models, scripts, testing plans, test scripts, defect reports;
-    service management items such as service-level agreements, records, policies, procedures, and other documents.<p>The purpose of ISO/IEC/IEEE 26531:2015 is to define a process for content management and the requirements of a component content management system through which content is gathered, managed, and published, including the requirements of a system that is supported by an electronic database. Such a database should support documents or topics and content units that may be assembled to produce complete documents for print, electronic output, or content collections published through electronic media. This database is defined as a Component Content Management System (CCMS), which differs from a document management system. The objective of component content management is to create content objects once and use them through linking mechanisms in multiple output formats, including but not limited to documents.</p>
+- content: "<p>ISO/IEC/IEEE 26531:2015 states requirements for efficient development
+    and management of content produced</p><ul><li>throughout the life-cycle of a system
+    and software product;</li><li>for the provision of user documentation for systems
+    and software;</li><li>for the management of IT services.</li></ul><p>ISO/IEC/IEEE
+    26531:2015 is independent of the tools, protocols, and systems used for content
+    management. It does not address configuration management of software assets.</p><p>The
+    content to be managed with this standard includes</p><ul><li>user information
+    such as topic collections, manuals, guides, embedded user assistance, style guides,
+    videos and other media, and other content that supports the effective use of a
+    system or software product;</li><li>product life cycle information such as design
+    documents, use cases, personas, project management plans, feature requests, models,
+    scripts, testing plans, test scripts, defect reports;</li><li>service management
+    items such as service-level agreements, records, policies, procedures, and other
+    documents.</li></ul><p>The purpose of ISO/IEC/IEEE 26531:2015 is to define a process
+    for content management and the requirements of a component content management
+    system through which content is gathered, managed, and published, including the
+    requirements of a system that is supported by an electronic database. Such a database
+    should support documents or topics and content units that may be assembled to
+    produce complete documents for print, electronic output, or content collections
+    published through electronic media. This database is defined as a Component Content
+    Management System (CCMS), which differs from a document management system. The
+    objective of component content management is to create content objects once and
+    use them through linking mechanisms in multiple output formats, including but
+    not limited to documents.</p>"
   language:
   - en
   script:
@@ -115,19 +129,19 @@ copyright:
   from: '2015'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 7
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: '26531'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 7
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    project_number: '26531'
+    type: IEC
+  price_code: iso:B

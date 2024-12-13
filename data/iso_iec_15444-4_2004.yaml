@@ -94,19 +94,49 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15444-4:2004 specifies the framework, concepts, methodology for testing, and criteria to be achieved to claim compliance with ISO/IEC 15444-1. It provides a framework for specifying abstract test suites and for defining the procedures to be followed during compliance testing.</p><p>ISO/IEC 15444-4:2004:</p>
-    Specifies compliance testing procedures for encoding and decoding using JPEG 2000 Part 1 (ISO/IEC 15444-1);Specifies codestreams, decoded images and error metrics to be used with the testing procedures;Specifies abstract test suites; andProvides guidance for creating an encoder compliance test.<p>ISO/IEC 15444-4:2004 does not include the following tests:</p>
-    Acceptance testing: the process of determining whether an implementation satisfies acceptance criteria and enables the user to determine whether or not to accept the implementation. This includes the planning and execution of several kinds of tests (e.g. functionality, quality and speed performance testing) that demonstrate the implementation satisfies the user requirements.Performance testing: measuring the performance characteristics of an Implementation Under Test (IUT), such as its throughput, responsiveness, etc., under various conditions.Robustness testing: the process of determining how well an implementation processes data which contains errors.
+- content: "<p>ISO/IEC 15444-4:2004 specifies the framework, concepts, methodology
+    for testing, and criteria to be achieved to claim compliance with ISO/IEC 15444-1.
+    It provides a framework for specifying abstract test suites and for defining the
+    procedures to be followed during compliance testing.</p><p>ISO/IEC 15444-4:2004:</p><ul><li>Specifies
+    compliance testing procedures for encoding and decoding using JPEG 2000 Part 1
+    (ISO/IEC 15444-1);</li><li>Specifies codestreams, decoded images and error metrics
+    to be used with the testing procedures;</li><li>Specifies abstract test suites;
+    and</li><li>Provides guidance for creating an encoder compliance test.</li></ul><p>ISO/IEC
+    15444-4:2004 does not include the following tests:</p><ul><li>Acceptance testing:
+    the process of determining whether an implementation satisfies acceptance criteria
+    and enables the user to determine whether or not to accept the implementation.
+    This includes the planning and execution of several kinds of tests (e.g. functionality,
+    quality and speed performance testing) that demonstrate the implementation satisfies
+    the user requirements.</li><li>Performance testing: measuring the performance
+    characteristics of an Implementation Under Test (IUT), such as its throughput,
+    responsiveness, etc., under various conditions.</li><li>Robustness testing: the
+    process of determining how well an implementation processes data which contains
+    errors.</li></ul>"
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: |-
-    <p>L'ISO/CEI 15444-4:2004 décrit le cadre général, les concepts et la méthodologie applicables aux tests ainsi que les critères à respecter pour revendiquer la conformité à l'ISO/CEI 15444-1. Elle offre un cadre général permettant de spécifier des suites de tests abstraites et de définir les procédures à suivre pendant les tests de conformité.</p><p>L'ISO/CEI 15444-4:2004 spécifie les aspects suivants:</p>
-     des procédures de test de conformité pour le codage et le décodage à l'aide du système JPEG 2000, Partie 1 (ISO/CEI 15444-1), des flux codés, des images décodées et des mesures d'erreur à utiliser avec les procédures de test, des suites de tests abstraites, et fournit des directives pour la création d'un test de conformité applicable à un décodeur.<p>L'ISO/CEI 15444-4:2004 ne comprend pas les tests suivants:</p>
-     test d'acceptation: processus consistant à déterminer si une implémentation satisfait aux critères d'acceptation et permet à l'utilisateur de déterminer s'il doit ou non accepter l'implémentation. Ce processus comprend la planification et l'exécution de plusieurs types de tests (tests de performance des fonctionnalités, de la qualité et de la vitesse, par exemple) qui démontrent que l'implémentation satisfait aux besoins de l'utilisateur; test de performance: mesure les caractéristiques de performance d'une implémentation sous test (IUT) (débit, rapidité de réaction, etc.) dans différentes conditions; test de robustesse: processus consistant à déterminer la capacité d'une implémentation de traiter correctement des données qui contiennent des erreurs.
+- content: "<p>L'ISO/CEI 15444-4:2004 décrit le cadre général, les concepts et la
+    méthodologie applicables aux tests ainsi que les critères à respecter pour revendiquer
+    la conformité à l'ISO/CEI 15444-1. Elle offre un cadre général permettant de spécifier
+    des suites de tests abstraites et de définir les procédures à suivre pendant les
+    tests de conformité.</p><p>L'ISO/CEI 15444-4:2004 spécifie les aspects suivants:</p><ul><li>
+    des procédures de test de conformité pour le codage et le décodage à l'aide du
+    système JPEG 2000, Partie 1 (ISO/CEI 15444-1),</li><li> des flux codés, des images
+    décodées et des mesures d'erreur à utiliser avec les procédures de test,</li><li>
+    des suites de tests abstraites,</li><li> et fournit des directives pour la création
+    d'un test de conformité applicable à un décodeur.</li></ul><p>L'ISO/CEI 15444-4:2004
+    ne comprend pas les tests suivants:</p><ul><li> test d'acceptation: processus
+    consistant à déterminer si une implémentation satisfait aux critères d'acceptation
+    et permet à l'utilisateur de déterminer s'il doit ou non accepter l'implémentation.
+    Ce processus comprend la planification et l'exécution de plusieurs types de tests
+    (tests de performance des fonctionnalités, de la qualité et de la vitesse, par
+    exemple) qui démontrent que l'implémentation satisfait aux besoins de l'utilisateur;</li><li>
+    test de performance: mesure les caractéristiques de performance d'une implémentation
+    sous test (IUT) (débit, rapidité de réaction, etc.) dans différentes conditions;</li><li>
+    test de robustesse: processus consistant à déterminer la capacité d'une implémentation
+    de traiter correctement des données qui contiennent des erreurs.</li></ul>"
   language:
   - fr
   script:
@@ -130,20 +160,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '15444'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '15444'
+    part: '4'
+    type: IEC
+  price_code: iso:B

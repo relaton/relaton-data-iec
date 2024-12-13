@@ -74,13 +74,38 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>Unique identification can occur at many different levels in the supply chain, at the transport unit, at the item level, and elsewhere. Such distinct entities are often handled by several parties: the sender, the receiver, one or more carriers, customs authorities, etc. Each of these parties must be able to identify and trace the item so that reference can be made to associated information such as configuration, maintenance history, address, order number, contents of the item, weight, sender, batch or lot number, etc.</p><p>The information is often held on computer systems, and may be exchanged between parties involved via EDI (Electronic Data Interchange) and XML (eXtensible Markup Language) messages.</p><p>There are considerable benefits if the identity of the item is represented in bar code format, or other AIDC (Automatic Identification and Data Capture) media and attached to or made a constituent part of that which is being uniquely identified so that</p>
-
-    it can be read electronically, thus minimising errors;
-    one identity can be used by all parties;
-    each party can use the identity to look up its computer files to find the data associated with the item;
-    the identifier is unique within the class and cannot appear on any other item of the class during the lifetime of the item.<p>The unique identifier for individual items defined in ISO/IEC 15459-4:2008 and represented in a bar code label, two-dimensional symbol, radio-frequency identification tag, or other AIDC media attached to the item meets these needs.</p><p>All AIDC technologies have the potential to encode a unique identifier. It is expected that application standards for items, using various automatic identification technologies, will be developed based upon the unique identifier as a prime key. These application standards may be made available from the Issuing Agency.</p><p>ISO/IEC 15459-4:2008 specifies a unique, non-significant string of characters for the unique identifier for individual items. The character string is intended to be represented in a bar code label or other AIDC media attached to the item to meet supply chain needs. To address management needs, different classes of items are recognized in the various parts of ISO/IEC 15459, which allows different requirements to be met by the unique identifiers associated with each class. The rules are defined for the individual items to identify the unique occurrence of an item, understood to mean the layers zero and one as will be defined in two future International Standards (ISO 17367 and ISO 17366, respectively).</p>
+- content: "<p>Unique identification can occur at many different levels in the supply
+    chain, at the transport unit, at the item level, and elsewhere. Such distinct
+    entities are often handled by several parties: the sender, the receiver, one or
+    more carriers, customs authorities, etc. Each of these parties must be able to
+    identify and trace the item so that reference can be made to associated information
+    such as configuration, maintenance history, address, order number, contents of
+    the item, weight, sender, batch or lot number, etc.</p><p>The information is often
+    held on computer systems, and may be exchanged between parties involved via EDI
+    (Electronic Data Interchange) and XML (eXtensible Markup Language) messages.</p><p>There
+    are considerable benefits if the identity of the item is represented in bar code
+    format, or other AIDC (Automatic Identification and Data Capture) media and attached
+    to or made a constituent part of that which is being uniquely identified so that</p><ul><li>it
+    can be read electronically, thus minimising errors;</li><li>one identity can be
+    used by all parties;</li><li>each party can use the identity to look up its computer
+    files to find the data associated with the item;</li><li>the identifier is unique
+    within the class and cannot appear on any other item of the class during the lifetime
+    of the item.</li></ul><p>The unique identifier for individual items defined in
+    ISO/IEC 15459-4:2008 and represented in a bar code label, two-dimensional symbol,
+    radio-frequency identification tag, or other AIDC media attached to the item meets
+    these needs.</p><p>All AIDC technologies have the potential to encode a unique
+    identifier. It is expected that application standards for items, using various
+    automatic identification technologies, will be developed based upon the unique
+    identifier as a prime key. These application standards may be made available from
+    the Issuing Agency.</p><p>ISO/IEC 15459-4:2008 specifies a unique, non-significant
+    string of characters for the unique identifier for individual items. The character
+    string is intended to be represented in a bar code label or other AIDC media attached
+    to the item to meet supply chain needs. To address management needs, different
+    classes of items are recognized in the various parts of ISO/IEC 15459, which allows
+    different requirements to be met by the unique identifiers associated with each
+    class. The rules are defined for the individual items to identify the unique occurrence
+    of an item, understood to mean the layers zero and one as will be defined in two
+    future International Standards (ISO 17367 and ISO 17366, respectively).</p>"
   language:
   - en
   script:
@@ -104,20 +129,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: '15459'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: '15459'
+    part: '4'
+    type: IEC
+  price_code: iso:B

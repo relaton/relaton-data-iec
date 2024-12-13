@@ -71,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24727-2:2008 defines a generic card interface for integrated circuit cards. This interface is presented as:</p>
-
-    command-response pairs for interoperability,
-    card and application capability description and determination.<p>ISO/IEC 24727-2:2008 is based on ISO/IEC 7816-4, ISO/IEC 7816-8, ISO/IEC 7816-9, and ISO/IEC 7816-15.</p>
+- content: "<p>ISO/IEC 24727-2:2008 defines a generic card interface for integrated
+    circuit cards. This interface is presented as:</p><ul><li>command-response pairs
+    for interoperability,</li><li>card and application capability description and
+    determination.</li></ul><p>ISO/IEC 24727-2:2008 is based on ISO/IEC 7816-4, ISO/IEC
+    7816-8, ISO/IEC 7816-9, and ISO/IEC 7816-15.</p>"
   language:
   - en
   script:
@@ -99,20 +99,20 @@ copyright:
   from: '2008'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '24727'
-  part: '2'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:E
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '24727'
+    part: '2'
+    type: IEC
+  price_code: iso:E

@@ -70,13 +70,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 20060:2010 provides the specifications for the standard Open Terminal Architecture (OTA) kernel in several layers:</p>
-
-    definition of the virtual machine (VM);
-    description of the services provided by the VM to terminal programmers;
-    specification of a set of tokens representing the native machine language of the VM;
-    specification of the format in which token modules are delivered to an OTA kernel for processing.<p>OTA defines a standard software kernel whose functions and programming interface are common across all terminal types. This kernel is based on a standard VM, which is implemented on each CPU type and which provides drivers for the terminal's I/O and all low-level CPU-specific logical and arithmetic functions. High-level libraries, terminal programs and payment applications may be developed using these standard kernel functions.</p>
+- content: "<p>ISO/IEC 20060:2010 provides the specifications for the standard Open
+    Terminal Architecture (OTA) kernel in several layers:</p><ul><li>definition of
+    the virtual machine (VM);</li><li>description of the services provided by the
+    VM to terminal programmers;</li><li>specification of a set of tokens representing
+    the native machine language of the VM;</li><li>specification of the format in
+    which token modules are delivered to an OTA kernel for processing.</li></ul><p>OTA
+    defines a standard software kernel whose functions and programming interface are
+    common across all terminal types. This kernel is based on a standard VM, which
+    is implemented on each CPU type and which provides drivers for the terminal's
+    I/O and all low-level CPU-specific logical and arithmetic functions. High-level
+    libraries, terminal programs and payment applications may be developed using these
+    standard kernel functions.</p>"
   language:
   - en
   script:
@@ -100,19 +105,19 @@ copyright:
   from: '2010'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '20060'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '20060'
+    type: IEC
+  price_code: iso:H

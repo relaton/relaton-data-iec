@@ -70,12 +70,30 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7064:2002 specifies a set of check character systems capable of protecting strings against errors which occur when people copy or key data. The strings may be of fixed or variable length and may have character sets which are</p>
-    numeric (10 digits: 0 to 9);alphabetic (26 letters: A to Z);alphanumeric (letters and digits).<p>Embedded spaces and special characters are ignored.</p><p>ISO/IEC 7064:2002 specifies conformance requirements for products described as generating check characters or checking strings using the systems given in this International Standard.</p><p>ISO/IEC 7064:2002 is for use in information interchange between organizations; it is also strongly recommended as good practice for internal information systems.</p><p>The check character systems specified in ISO/IEC 7064:2002 can detect:</p>
-    all single substitution errors (the substitution of a single character for another, for example 4234 for 1234);all or nearly all single (local) transposition errors (the transposition of two single characters, either adjacent or with one character between them, for example 12354 or 12543 for 12345);all or nearly all shift errors (shifts of the whole string to the left or right);a high proportion of double substitution errors (two separate single substitution errors in the same string, for example 7234587 for 1234567);a high proportion of all other errors.<p>ISO/IEC 7064:2002 excludes systems designed specifically to:</p>
-    permit both error detection and automatic correction;detect deliberate falsification;check strings interchanged solely between machines.<p>ISO/IEC 7064:2002 specifies two types of systems:</p>
-    pure systems;hybrid systems.<p>The pure systems use a single modulus for all stages of the calculation.</p>
+- content: "<p>ISO/IEC 7064:2002 specifies a set of check character systems capable
+    of protecting strings against errors which occur when people copy or key data.
+    The strings may be of fixed or variable length and may have character sets which
+    are</p><ul><li>numeric (10 digits: 0 to 9);</li><li>alphabetic (26 letters: A
+    to Z);</li><li>alphanumeric (letters and digits).</li></ul><p>Embedded spaces
+    and special characters are ignored.</p><p>ISO/IEC 7064:2002 specifies conformance
+    requirements for products described as generating check characters or checking
+    strings using the systems given in this International Standard.</p><p>ISO/IEC
+    7064:2002 is for use in information interchange between organizations; it is also
+    strongly recommended as good practice for internal information systems.</p><p>The
+    check character systems specified in ISO/IEC 7064:2002 can detect:</p><ul><li>all
+    single substitution errors (the substitution of a single character for another,
+    for example 4234 for 1234);</li><li>all or nearly all single (local) transposition
+    errors (the transposition of two single characters, either adjacent or with one
+    character between them, for example 12354 or 12543 for 12345);</li><li>all or
+    nearly all shift errors (shifts of the whole string to the left or right);</li><li>a
+    high proportion of double substitution errors (two separate single substitution
+    errors in the same string, for example 7234587 for 1234567);</li><li>a high proportion
+    of all other errors.</li></ul><p>ISO/IEC 7064:2002 excludes systems designed specifically
+    to:</p><ul><li>permit both error detection and automatic correction;</li><li>detect
+    deliberate falsification;</li><li>check strings interchanged solely between machines.</li></ul><p>ISO/IEC
+    7064:2002 specifies two types of systems:</p><ul><li>pure systems;</li><li>hybrid
+    systems.</li></ul><p>The pure systems use a single modulus for all stages of the
+    calculation.</p>"
   language:
   - en
   script:
@@ -99,19 +117,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '7064'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:C
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '7064'
+    type: IEC
+  price_code: iso:C

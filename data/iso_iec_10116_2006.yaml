@@ -75,9 +75,18 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10116:2006 specifies modes of operation for an<em>n</em>-bit block cipher. These modes provide methods for encrypting and decrypting data where the bit length of the data may exceed the size of the block cipher. The modes specified in ISO/IEC 10116:2006 only provide protection of data confidentiality. Protection of data integrity and requirements for padding the data are not within the scope of ISO/IEC 10116:2006.</p><p>ISO/IEC 10116:2006 specifies five modes of operation:</p>
-    Electronic Codebook (ECB);Cipher Block Chaining (CBC), with optional interleaving;Cipher Feedback (CFB);Output Feedback (OFB); and Counter (CTR).<p>The Annexes of ISO/IEC 10166:2006 provide object identifiers (according to ISO/IEC 9834) for each mode, a description of the properties of each mode, and diagrams and examples of each mode.</p><p>Block ciphers are specified in ISO/IEC 18033-3.</p>
+- content: "<p>ISO/IEC 10116:2006 specifies modes of operation for an<em>n</em>-bit
+    block cipher. These modes provide methods for encrypting and decrypting data where
+    the bit length of the data may exceed the size of the block cipher. The modes
+    specified in ISO/IEC 10116:2006 only provide protection of data confidentiality.
+    Protection of data integrity and requirements for padding the data are not within
+    the scope of ISO/IEC 10116:2006.</p><p>ISO/IEC 10116:2006 specifies five modes
+    of operation:</p><ol><li>Electronic Codebook (ECB);</li><li>Cipher Block Chaining
+    (CBC), with optional interleaving;</li><li>Cipher Feedback (CFB);</li><li>Output
+    Feedback (OFB); and</li><li>Counter (CTR).</li></ol><p>The Annexes of ISO/IEC
+    10166:2006 provide object identifiers (according to ISO/IEC 9834) for each mode,
+    a description of the properties of each mode, and diagrams and examples of each
+    mode.</p><p>Block ciphers are specified in ISO/IEC 18033-3.</p>"
   language:
   - en
   script:
@@ -101,19 +110,19 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '10116'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '10116'
+    type: IEC
+  price_code: iso:B

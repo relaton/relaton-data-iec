@@ -72,9 +72,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 10967-3:2005 is based on ISO/IEC 10967-2 and ISO/IEC 10967-1, as well as IEC 60559.</p><p>ISO/IEC 10967-3:2005 specifies the properties of complex and imaginary integer datatypes and floating point datatypes, basic operations on values of these datatypes as well as some numerical functions for which operand or result values are of imaginary or complex integer datatypes or imaginary or complex floating point datatypes constructed from integer and floating point datatypes satisfying the requirements of ISO/IEC 10967-1. These operations and functions are available in a variety of programming languages in common use for mathematical and numerical applications.</p><p>The specification includes:</p>
-    Basic imaginary integer and complex integer operations;Non-transcendental imaginary floating point and Cartesian complex floating point operations;Exponentiation, logarithm, radian trigonometric, and hyperbolic operations for imaginary floating point and Cartesian complex floating point;The results produced by an included floating point operation when one or more operand values include IEC 60559 special values; andProgram-visible parameters that characterize certain aspects of the operations.
+- content: "<p>ISO/IEC 10967-3:2005 is based on ISO/IEC 10967-2 and ISO/IEC 10967-1,
+    as well as IEC 60559.</p><p>ISO/IEC 10967-3:2005 specifies the properties of complex
+    and imaginary integer datatypes and floating point datatypes, basic operations
+    on values of these datatypes as well as some numerical functions for which operand
+    or result values are of imaginary or complex integer datatypes or imaginary or
+    complex floating point datatypes constructed from integer and floating point datatypes
+    satisfying the requirements of ISO/IEC 10967-1. These operations and functions
+    are available in a variety of programming languages in common use for mathematical
+    and numerical applications.</p><p>The specification includes:</p><ul><li>Basic
+    imaginary integer and complex integer operations;</li><li>Non-transcendental imaginary
+    floating point and Cartesian complex floating point operations;</li><li>Exponentiation,
+    logarithm, radian trigonometric, and hyperbolic operations for imaginary floating
+    point and Cartesian complex floating point;</li><li>The results produced by an
+    included floating point operation when one or more operand values include IEC
+    60559 special values; and</li><li>Program-visible parameters that characterize
+    certain aspects of the operations.</li></ul>"
   language:
   - en
   script:
@@ -98,20 +111,20 @@ copyright:
   from: '2006'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '10967'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:ZZ
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '10967'
+    part: '3'
+    type: IEC
+  price_code: iso:ZZ

@@ -95,18 +95,13 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente Recommandation | Norme internationale est applicable aux données
-    d'images fixes numériques de nature photographique, en niveaux de gris ou en couleurs.
-    Elle est applicable à une large gamme d'applications nécessitant l'utilisation
-    d'images comprimées. Elle ne s'applique pas aux données d'images en deux tons.
-    La présente Spécification \nspécifie les processus de conversion de données d'image
-    source en données d'image comprimées; \nspécifie les processus de conversion de
-    données d'image comprimées en données d'image reconstruite; \ndonne des directives
-    de réalisation pratique de ces processus; \nspécifie des représentations codées
-    de données d'image comprimées.\n\nNOTE - La présente Spécification ne définit
-    pas une représentation\ncomplète des images codées - qui devrait inclure des paramètres\ndépendant
-    de l'application, tels que le facteur d'aspect, la disposition\ndes échantillons
-    de chaque composante et la définition de l'espace\ndes couleurs."
+- content: |-
+    La présente Recommandation | Norme internationale est applicable aux données d'images fixes numériques de nature photographique, en niveaux de gris ou en couleurs. Elle est applicable à une large gamme d'applications nécessitant l'utilisation d'images comprimées. Elle ne s'applique pas aux données d'images en deux tons. La présente Spécification<ul><li>spécifie les processus de conversion de données d'image source en données d'image comprimées;</li><li>spécifie les processus de conversion de données d'image comprimées en données d'image reconstruite;</li><li>donne des directives de réalisation pratique de ces processus;</li><li>spécifie des représentations codées de données d'image comprimées.</li></ul>
+    NOTE - La présente Spécification ne définit pas une représentation
+    complète des images codées - qui devrait inclure des paramètres
+    dépendant de l'application, tels que le facteur d'aspect, la disposition
+    des échantillons de chaque composante et la définition de l'espace
+    des couleurs.
   language:
   - fr
   script:
@@ -130,20 +125,20 @@ copyright:
   from: '1994'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '10918'
-  part: '1'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '10918'
+    part: '1'
+    type: IEC
+  price_code: iso:H

@@ -104,9 +104,20 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 15946-4:2004 specifically addresses the digital signatures giving message recovery based on elliptic curves. The scope of ISO/IEC 15946-4:2004 is restricted to cryptographic techniques based on elliptic curves defined over finite fields of prime power order (including the special cases of prime order and characteristic two). The representation of elements of the underlying finite fields (i.e. which basis is used) is outside the scope of ISO/IEC 15946-4:2004.</p><p>ISO/IEC 15946-4:2004 specifies:</p>
-    the digital signatures giving message recovery with each type of redundancy: natural redundancy, added redundancy, or both.the general model for digital signatures giving partial or total message recovery aiming at reducing storage and transmission overhead.<p>Together with the general model, it provides five mechanisms to realize the digital signatures giving message recovery based on elliptic curves.</p><p>The mathematical background and general techniques necessary for implementing the mechanisms are described in ISO/IEC 15946-1.</p>
+- content: "<p>ISO/IEC 15946-4:2004 specifically addresses the digital signatures
+    giving message recovery based on elliptic curves. The scope of ISO/IEC 15946-4:2004
+    is restricted to cryptographic techniques based on elliptic curves defined over
+    finite fields of prime power order (including the special cases of prime order
+    and characteristic two). The representation of elements of the underlying finite
+    fields (i.e. which basis is used) is outside the scope of ISO/IEC 15946-4:2004.</p><p>ISO/IEC
+    15946-4:2004 specifies:</p><ul><li>the digital signatures giving message recovery
+    with each type of redundancy: natural redundancy, added redundancy, or both.</li><li>the
+    general model for digital signatures giving partial or total message recovery
+    aiming at reducing storage and transmission overhead.</li></ul><p>Together with
+    the general model, it provides five mechanisms to realize the digital signatures
+    giving message recovery based on elliptic curves.</p><p>The mathematical background
+    and general techniques necessary for implementing the mechanisms are described
+    in ISO/IEC 15946-1.</p>"
   language:
   - en
   script:
@@ -130,20 +141,20 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 27
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: '15946'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 27
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    project_number: '15946'
+    part: '4'
+    type: IEC
+  price_code: iso:B

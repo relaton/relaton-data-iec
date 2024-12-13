@@ -71,9 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 18001:2004 provides:</p>
-    the result of three surveys identifying the applications for radio frequency identification (RFID) in an item management environment, and the resultant classification of these applications based on various operational parameters, including operating range and memory size;an explanation of some of the issues associated with the parameters of distance and number of tags within an RFID interrogator's field-of-view;a means by which classification of RF tags may be accomplished based on the application requirements defined in the survey results;recommendations for areas of standardization to the parent committee (ISO/IEC JTC 1/SC 31/WG 4) based on the results of these surveys.
+- content: "<p>ISO/IEC TR 18001:2004 provides:</p><ul><li>the result of three surveys
+    identifying the applications for radio frequency identification (RFID) in an item
+    management environment, and the resultant classification of these applications
+    based on various operational parameters, including operating range and memory
+    size;</li><li>an explanation of some of the issues associated with the parameters
+    of distance and number of tags within an RFID interrogator's field-of-view;</li><li>a
+    means by which classification of RF tags may be accomplished based on the application
+    requirements defined in the survey results;</li><li>recommendations for areas
+    of standardization to the parent committee (ISO/IEC JTC 1/SC 31/WG 4) based on
+    the results of these surveys.</li></ul>"
   language:
   - en
   script:
@@ -97,19 +104,19 @@ copyright:
   from: '2004'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 31
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:H
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 31
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:H

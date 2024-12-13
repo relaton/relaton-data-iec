@@ -75,9 +75,19 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 7816-4:2005 specifies:</p>
-    contents of command-response pairs exchanged at the interface,means of retrieval of data elements and data objects in the card,structures and contents of historical bytes to describe operating characteristics of the card,structures for applications and data in the card, as seen at the interface when processing commands,access methods to files and data in the card,a security architecture defining access rights to files and data in the card,means and mechanisms for identifying and addressing applications in the card,methods for secure messaging,access methods to the algorithms processed by the card. It does not describe these algorithms.<p>It does not cover the internal implementation within the card or the outside world.</p><p>ISO/IEC 7816-4:2005 is independent from the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling, and radio frequency.</p>
+- content: "<p>ISO/IEC 7816-4:2005 specifies:</p><ul><li>contents of command-response
+    pairs exchanged at the interface,</li><li>means of retrieval of data elements
+    and data objects in the card,</li><li>structures and contents of historical bytes
+    to describe operating characteristics of the card,</li><li>structures for applications
+    and data in the card, as seen at the interface when processing commands,</li><li>access
+    methods to files and data in the card,</li><li>a security architecture defining
+    access rights to files and data in the card,</li><li>means and mechanisms for
+    identifying and addressing applications in the card,</li><li>methods for secure
+    messaging,</li><li>access methods to the algorithms processed by the card. It
+    does not describe these algorithms.</li></ul><p>It does not cover the internal
+    implementation within the card or the outside world.</p><p>ISO/IEC 7816-4:2005
+    is independent from the physical interface technology. It applies to cards accessed
+    by one or more of the following methods: contacts, close coupling, and radio frequency.</p>"
   language:
   - en
   script:
@@ -101,20 +111,20 @@ copyright:
   from: '2005'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '4'
+    type: IEC
+  price_code: iso:B

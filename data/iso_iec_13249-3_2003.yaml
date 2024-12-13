@@ -101,10 +101,21 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 13249-3:2003:</p>
-    introduces the Spatial part of ISO/IEC 13249 (all parts);gives the references necessary for ISO/IEC 13249-3:2003;defines notations and conventions specific to ISO/IEC 13249-3:2003;defines concepts specific to ISO/IEC 13249-3:2003;defines spatial user-defined types and their associated routines.<p>The spatial user-defined types defined in ISO/IEC 13249-3:2003 adhere to the following.</p>
-    A spatial user-defined type is generic to spatial data handling. It addresses the need to store, manage and retrieve information based on aspects of spatial data such as geometry, location and topology.A spatial user-defined type does not redefine the database language SQL directly or in combination with another spatial data type.<p>Implementations of ISO/IEC 13249-3:2003 may exist in environments that also support geographic information, decision support, data mining and data warehousing systems.</p><p>Application areas addressed by implementations of ISO/IEC 13249-3:2003 include, but are not restricted to, automated mapping, desktop mapping, facilities management, geoengineering, graphics, multimedia and resource management applications.</p>
+- content: "<p>ISO/IEC 13249-3:2003:</p><ul><li>introduces the Spatial part of ISO/IEC
+    13249 (all parts);</li><li>gives the references necessary for ISO/IEC 13249-3:2003;</li><li>defines
+    notations and conventions specific to ISO/IEC 13249-3:2003;</li><li>defines concepts
+    specific to ISO/IEC 13249-3:2003;</li><li>defines spatial user-defined types and
+    their associated routines.</li></ul><p>The spatial user-defined types defined
+    in ISO/IEC 13249-3:2003 adhere to the following.</p><ul><li>A spatial user-defined
+    type is generic to spatial data handling. It addresses the need to store, manage
+    and retrieve information based on aspects of spatial data such as geometry, location
+    and topology.</li><li>A spatial user-defined type does not redefine the database
+    language SQL directly or in combination with another spatial data type.</li></ul><p>Implementations
+    of ISO/IEC 13249-3:2003 may exist in environments that also support geographic
+    information, decision support, data mining and data warehousing systems.</p><p>Application
+    areas addressed by implementations of ISO/IEC 13249-3:2003 include, but are not
+    restricted to, automated mapping, desktop mapping, facilities management, geoengineering,
+    graphics, multimedia and resource management applications.</p>"
   language:
   - en
   script:
@@ -128,20 +139,20 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 32
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: '13249'
-  part: '3'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 32
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: '13249'
+    part: '3'
+    type: IEC
+  price_code: iso:B

@@ -113,18 +113,12 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "La présente partie de l'ISO/CEI 7816 spécifie \nle contenu des messages,
-    commandes et réponses, transmis par le dispositif d'interface à la carte et vice
-    versa, \nla structure et le contenu des octets historiques émis par la carte lors
-    de la réponse à la remise à zéro, \nla structure de fichiers et de données, telle
-    qu'elle est visible à l'interface lors du traitement de commandes intersectorielles
-    pour les échanges, \ndes méthodes d'accès à des fichiers et à des données dans
-    la carte, \nune architecture de sécurité définissant des droits d'accès à des
-    fichiers et à des données dans la carte, \ndes méthodes de messagerie de sécurité,
-    \ndes méthodes d'accès aux algorithmes traités par la carte.\n\nCes algorithmes
-    ne sont pas décrits. Elle ne décrit pas la mise\nen oeuvre dans la carte et/ou
-    dans le monde extérieur. Elle permet encore\nla normalisation d'autres commandes
-    intersectorielles et d'autres architectures\nde sécurité."
+- content: |-
+    La présente partie de l'ISO/CEI 7816 spécifie<ul><li>le contenu des messages, commandes et réponses, transmis par le dispositif d'interface à la carte et vice versa,</li><li>la structure et le contenu des octets historiques émis par la carte lors de la réponse à la remise à zéro,</li><li>la structure de fichiers et de données, telle qu'elle est visible à l'interface lors du traitement de commandes intersectorielles pour les échanges,</li><li>des méthodes d'accès à des fichiers et à des données dans la carte,</li><li>une architecture de sécurité définissant des droits d'accès à des fichiers et à des données dans la carte,</li><li>des méthodes de messagerie de sécurité,</li><li>des méthodes d'accès aux algorithmes traités par la carte.</li></ul>
+    Ces algorithmes ne sont pas décrits. Elle ne décrit pas la mise
+    en oeuvre dans la carte et/ou dans le monde extérieur. Elle permet encore
+    la normalisation d'autres commandes intersectorielles et d'autres architectures
+    de sécurité.
   language:
   - fr
   script:
@@ -148,20 +142,20 @@ copyright:
   from: '1995'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 17
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: '7816'
-  part: '4'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 17
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    project_number: '7816'
+    part: '4'
+    type: IEC
+  price_code: iso:B

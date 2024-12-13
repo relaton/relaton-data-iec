@@ -101,9 +101,22 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC TR 23272:2003 is intended as an aid for understanding the libraries specified in ISO/IEC 23271, Partition IV: Profiles and Libraries. That Partition includes a machine-readable specification, in XML, of the types that comprise the standard libraries. ISO/IEC TR 23272:2003, in companion files, provides the following items which help to form a traceable chain from the normative XML specification to a portable, printable representation of its contents:</p>
-     Tool Source Code. A program written in the C# programming language, XML Style-sheet Language (XSL), and using the facilities of the Microsoft.NE Framework and Microsoft Office to convert the XML into files viewable using Microsoft Word. This program, provided by Intel Corporation, can be modified to produce other views of the XML. Microsoft Word Files. These are the files produced by running the tool mentioned above on the XML from Partition IV. PDF Files. These files are produced from the Microsoft Word files using the Adobe Acrobat program. They are viewable on a wide range of computer systems and printable on a range of computer output devices. In most cases, they will appear visually identical regardless of the means used to render them.
+- content: "<p>ISO/IEC TR 23272:2003 is intended as an aid for understanding the libraries
+    specified in ISO/IEC 23271, Partition IV: Profiles and Libraries. That Partition
+    includes a machine-readable specification, in XML, of the types that comprise
+    the standard libraries. ISO/IEC TR 23272:2003, in companion files, provides the
+    following items which help to form a traceable chain from the normative XML specification
+    to a portable, printable representation of its contents:</p><ol><li> Tool Source
+    Code. A program written in the C# programming language, XML Style-sheet Language
+    (XSL), and using the facilities of the Microsoft.NE Framework and Microsoft Office
+    to convert the XML into files viewable using Microsoft Word. This program, provided
+    by Intel Corporation, can be modified to produce other views of the XML.</li><li>
+    Microsoft Word Files. These are the files produced by running the tool mentioned
+    above on the XML from Partition IV.</li><li> PDF Files. These files are produced
+    from the Microsoft Word files using the Adobe Acrobat program. They are viewable
+    on a wide range of computer systems and printable on a range of computer output
+    devices. In most cases, they will appear visually identical regardless of the
+    means used to render them.</li></ol>"
   language:
   - en
   script:
@@ -127,19 +140,19 @@ copyright:
   from: '2003'
 place:
 - Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 22
-    number: 1
-    type: technicalCommittee
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: TR
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: technical-report
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 22
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    project_number: TR
+    type: IEC
+  price_code: iso:B

@@ -71,14 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
-    <p>ISO/IEC 24800-5:2011 specifies a data interchange format for the exchange of image collections and respective metadata between ISO/IEC 24800 (JPSearch) compliant repositories. It enables the synchronization of repositories across different devices and platforms by providing an easy and reliable data transfer mechanism. In particular, it provides the following functionalities:</p>
-
-     exchange of data between JPSearch repositories on different devices and platforms;
-     consolidation of metadata generated on different systems;
-     transferral of data to a newer and better system;
-     consolidation of selected data to a centralized repository;
-     archive of data in a format which will survive current products.
+- content: "<p>ISO/IEC 24800-5:2011 specifies a data interchange format for the exchange
+    of image collections and respective metadata between ISO/IEC 24800 (JPSearch)
+    compliant repositories. It enables the synchronization of repositories across
+    different devices and platforms by providing an easy and reliable data transfer
+    mechanism. In particular, it provides the following functionalities:</p><ul><li>
+    exchange of data between JPSearch repositories on different devices and platforms;</li><li>
+    consolidation of metadata generated on different systems;</li><li> transferral
+    of data to a newer and better system;</li><li> consolidation of selected data
+    to a centralized repository;</li><li> archive of data in a format which will survive
+    current products.</li></ul>"
   language:
   - en
   script:
@@ -102,20 +104,20 @@ copyright:
   from: '2011'
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: ISO/IEC JTC 1/SC 29
-    number: 1
-    type: technicalCommittee
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-structuredidentifier:
-  project_number: '24800'
-  part: '5'
-  type: IEC
 ext:
   schema-version: v1.0.0
-price_code: iso:B
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 29
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  structuredidentifier:
+    project_number: '24800'
+    part: '5'
+    type: IEC
+  price_code: iso:B
