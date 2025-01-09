@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC15434-2019
+id: ISO/IEC15434-2025
 title:
 - content: Information technology
   language:
@@ -31,22 +31,47 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Techniques automatiques d'identification et de capture des données
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Syntaxe pour supports de CAD à haute capacité
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technologies de l'information - Techniques automatiques d'identification
+    et de capture des données - Syntaxe pour supports de CAD à haute capacité
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/64755
+- content: https://webstore.iec.ch/publication/104764
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec15434{ed4.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 15434:2019
+- id: ISO/IEC 15434:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:15434:2019-02:::'
+- id: 'urn:iec:std:iso-iec:15434:2025-01:::'
   type: URN
 date:
 - type: published
-  value: '2019-02-27'
-- type: obsoleted
   value: '2025-01-09'
 contributor:
 - organization:
@@ -66,27 +91,17 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '4'
-revdate: '2019-02-27'
+  content: '5'
+revdate: '2025-01-09'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies a transfer structure, syntax, and coding of
-    messages and data formats when using high-capacity ADC media between trading partners
-    (specifically between suppliers and recipients) and, where applicable, in support
-    of carrier applications, such as bills of lading, and carrier sortation and tracking.</p><p>The
-    data encoded according to this document include:</p><p>— data which can be used
-    in the shipping, receiving and inventory of transport units;</p><p>— data which
-    can be contained within supporting documentation, in paper or electronic form,
-    related to unit loads or transport packages;</p><p>— data which can be used in
-    the sortation and tracking of transport units.</p><p>This document describes the
-    ISO/IEC 646 characters used for automatic data capture; it is not the controlling
-    specification for data structures (e.g. CII) referenced in this International
-    Standard.</p><p>This document does not supersede or replace any applicable safety
-    or other marking or labelling requirements. It is intended to be applied in addition
-    to any other mandated labelling requirements.</p>"
+- content: <p class="MsoBodyText">This document specifies a transfer structure, syntax,
+    coding of messages and data formats when using high-capacity automatic data capture
+    (ADC) media.</p>
   language:
   - en
   script:
@@ -94,7 +109,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -107,7 +122,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2019'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -122,4 +137,4 @@ ext:
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
-  price_code: iso:B
+  price_code: iso:E
