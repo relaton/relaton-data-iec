@@ -1,66 +1,83 @@
 ---
 schema-version: v1.2.9
-id: IEC62415-2010
+id: IEC62305-2025SER
 title:
-- content: Semiconductor devices
+- content: Protection against lightning
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-intro
-- content: Constant current electromigration test
+- content: ALL PARTS
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Semiconductor devices - Constant current electromigration test
+- content: Protection against lightning - ALL PARTS
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Dispositifs à semiconducteurs
+- content: Protection contre la foudre
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-intro
-- content: Essai d'électromigration en courant constant
+- content: Toutes les parties
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Dispositifs à semiconducteurs - Essai d'électromigration en courant constant
+- content: Protection contre la foudre - Toutes les parties
   language:
   - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Protection against lightning
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: ALL PARTS
+  language:
+  - es
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Protection against lightning - ALL PARTS
+  language:
+  - es
   script:
   - Latn
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/6990
+- content: https://webstore.iec.ch/publication/6797
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62415{ed1.0}b.pdf
-  type: obp
 type: standard
 docid:
-- id: IEC 62415:2010
+- id: IEC 62305:2025 SER
   type: IEC
   primary: true
-- id: 'urn:iec:std:iec:62415:2010-05:::'
+- id: urn:iec:std:iec:62305::ser
   type: URN
 date:
 - type: published
-  value: '2010-05-19'
-- type: stable-until
-  value: '2031-12-31'
+  value: '2025-01-20'
 contributor:
 - organization:
     name:
@@ -71,24 +88,24 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2010-05-19'
+  content: '2'
+revdate: '2025-01-20'
 language:
 - en
 - fr
+- es
 script:
 - Latn
 abstract:
-- content: IEC 62415:2010 describes a method for conventional constant current electromigration
-    testing of metal lines, via string and contacts.
+- content: A 15% discount of the total catalogue price is included.This pack contains
+    the following:IEC 62305-1:2024IEC 62305-2:2024IEC 62305-3:2024IEC 62305-4:2024
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: La CEI 62415:2010 décrit une méthode pour des essais conventionnels d'électromigration
-    en courant constant de lignes métalliques, de chaînes de trous de liaison et de
-    contacts de trous de liaison.
+- content: Ce pack contient les parties suivantes:IEC 62305-1:2024IEC 62305-2:2024IEC
+    62305-3:2024IEC 62305-4:2024
   language:
   - fr
   script:
@@ -104,7 +121,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2010'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -113,13 +130,12 @@ ext:
     type: international-standard
   editorialgroup:
     technical_committee:
-    - name: TC 47
-      number: 47
+    - name: TC 81
+      number: 81
       type: technicalCommittee
   ics:
-  - code: 31.080.01
-    text: Semiconductor devices in general
-  structuredidentifier:
-    project_number: '14170'
-    type: IEC
-  price_code: iec:C
+  - code: '29.020'
+    text: Electrical engineering in general
+  - code: 91.120.40
+    text: Lightning protection
+  price_code: iec:SN
