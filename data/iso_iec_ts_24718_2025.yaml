@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC23090-25-2025
+id: ISO/IECTS24718-2025
 title:
 - content: Information technology
   language:
@@ -9,24 +9,22 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Coded representation of immersive media
+- content: Programming languages
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 25: Conformance and reference software for carriage of visual volumetric
-    video-based coding data'
+- content: Guidance for the use of the Ada Ravenscar Profile in high integrity systems
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - Coded representation of immersive media - Part
-    25: Conformance and reference software for carriage of visual volumetric video-based
-    coding data'
+- content: Information technology - Programming languages - Guidance for the use of
+    the Ada Ravenscar Profile in high integrity systems
   language:
   - en
   script:
@@ -40,24 +38,23 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Représentation codée de média immersifs
+- content: Langages de programmation
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Partie 25: Conformité et logiciel de référence pour le transport de données
-    de codage basé sur la vidéo volumétrique'
+- content: Guide pour l'usage du profil "Ada Ravenscar" dans les systèmes de haute
+    intégrité
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Technologies de l''information - Représentation codée de média immersifs
-    - Partie 25: Conformité et logiciel de référence pour le transport de données
-    de codage basé sur la vidéo volumétrique'
+- content: Technologies de l'information - Langages de programmation - Guide pour
+    l'usage du profil "Ada Ravenscar" dans les systèmes de haute intégrité
   language:
   - fr
   script:
@@ -65,16 +62,14 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/105204
+- content: https://webstore.iec.ch/publication/105234
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec23090-25{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 23090-25:2025
+- id: ISO/IEC TS 24718:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:23090-25:2025-01:::'
+- id: 'urn:iec:std:iso-iec:24718:2025-01:ts::'
   type: URN
 date:
 - type: published
@@ -105,11 +100,17 @@ language:
 script:
 - Latn
 abstract:
-- content: <p class="MsoBodyText">This document specifies the reference software for
-    carriage of V3C data as specified in ISO/IEC 23090-10. The information provided
-    describes the reference software modules and the features that it supports. It
-    also provides a description of how the reference software can be utilized. Finally,
-    it also provides a description of conformance test vectors.</p>
+- content: '<p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
+    none;">This document provides guidance on the use of the Ravenscar profile for
+    concurrent Ada software intended for verification up to, and including, the very
+    highest levels of integrity.</p><p class="MsoBodyText" style="mso-layout-grid-align:
+    none; text-autospace: none;">To this end, this document provides a complete description
+    of the motivations behind the Ravenscar profile, to show how conformant programs
+    can be analysed, and to give examples of usage.</p><p class="MsoBodyText" style="mso-layout-grid-align:
+    none; text-autospace: none;">This document is aimed at a broad audience, including
+    application programmers, implementers of run-time systems, those responsible for
+    defining company or project guidelines, and academics. Familiarity with the Ada
+    language is assumed.</p>'
   language:
   - en
   script:
@@ -136,13 +137,13 @@ place:
 ext:
   schema-version: v1.0.0
   doctype:
-    type: international-standard
+    type: technical-specification
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1/SC 29
+    - name: ISO/IEC JTC 1/SC 22
       number: 1
       type: technicalCommittee
   ics:
-  - code: 35.040.40
-    text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:C
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:G
