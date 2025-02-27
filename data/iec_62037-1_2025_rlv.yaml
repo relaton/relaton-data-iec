@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: IEC62037-1-2021RLV
+id: IEC62037-1-2025RLV
 title:
 - content: Passive RF and microwave devices, intermodulation level measurement
   language:
@@ -25,24 +25,22 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/72270
+- content: https://webstore.iec.ch/publication/105968
   type: src
-- content: https://webstore.iec.ch/preview/info_iec62037-1{ed2.0.RLV}en.pdf
+- content: https://webstore.iec.ch/preview/info_iec62037-1{ed3.0.RLV}en.pdf
   type: obp
 type: standard
 docid:
-- id: IEC 62037-1:2021 RLV
+- id: IEC 62037-1:2025 RLV
   type: IEC
   primary: true
 - id: urn:iec:std:iec:62037-1::rlv
   type: URN
 date:
 - type: published
-  value: '2021-11-19'
+  value: '2025-02-26'
 - type: stable-until
-  value: '2025-02-26'
-- type: obsoleted
-  value: '2025-02-26'
+  value: '2028-12-31'
 contributor:
 - organization:
     name:
@@ -53,31 +51,35 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2021-11-19'
+  content: '3'
+revdate: '2025-02-26'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "IEC 62037-1:2021 RLV contains both the official IEC International Standard
+- content: "IEC 62037-1:2025 RLV contains both the official IEC International Standard
     and its Redline version. The Redline version is available in English only and
     provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62037-1:2021
+    official IEC Standard and its previous edition.<br /><br />\r\nIEC 62037-1:2025
     deals with the general requirements and measuring methods for intermodulation
     (IM) level measurement of passive RF and microwave components, which can be caused
     by the presence of two or more transmitting signals. The test procedures given
     in this document give the general requirements and measurement methods required
     to characterize the level of unwanted IM signals using two transmitting signals.
-    The IEC 62037 series addresses the measurement of PIM, but does not cover the
-    long-term reliability of a product with reference to its performance. This second
-    edition cancels and replaces the first edition published in 2012. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na. clarification added that test equipment may utilize pulsed
-    generators to reduce power consumption;<br />\r\nb. heating effect differences
-    in the device under test noted in Annex B for tests conducted using pulsed generators;<br
-    />\r\nc. guidance added in Annex B to improve probability of detection of short
-    duration PIM events while dynamic testing."
+    The IEC 62037 series addresses the measurement of PIM but does not cover the long-term
+    reliability of a product with reference to its performance. This third edition
+    cancels and replaces the second edition published in 2021. This edition constitutes
+    a technical revision.<br />\r\nThis edition includes the following significant
+    technical changes with respect to the previous edition:<br />\r\na) added clarification
+    that PIM generation is typically frequency dependent and noted that testing with
+    swept or multiple fixed frequencies often provides more accurate results;<br />\r\nb)
+    identified multi-port PIM analyzers as a possible test set-up topography;<br />\r\nc)
+    added specification that test power level does not exceed the power handling capability
+    of the DUT;<br />\r\nd) updated test specification to include missing parameters
+    needed to properly define a PIM test;<br />\r\ne) added clarification that PIM
+    test reports include the maximum PIM value measured over the test duration;<br
+    />\r\nf) corrected error in Figure 3 that was erroneously changed in IEC 62037-1:2021."
   language:
   - en
   script:
@@ -85,7 +87,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -93,7 +95,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2021'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -109,6 +111,6 @@ ext:
   - code: 33.040.20
     text: Transmission systems
   structuredidentifier:
-    project_number: '103906'
+    project_number: '116552'
     type: IEC
-  price_code: iec:RN
+  price_code: iec:RP
