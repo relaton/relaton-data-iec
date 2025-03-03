@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC23090-5-2023
+id: ISO/IEC23090-5-2025
 title:
 - content: Information technology
   language:
@@ -33,22 +33,49 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologie de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Représentation codée de média immersifs
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de
+    nuage de points basée sur la vidéo (V-PCC)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologie de l''information - Représentation codée de média immersifs
+    - Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de nuage
+    de points basée sur la vidéo (V-PCC)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/89912
+- content: https://webstore.iec.ch/publication/105985
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec23090-5{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 23090-5:2023
+- id: ISO/IEC 23090-5:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:23090-5:2023-11:::'
+- id: 'urn:iec:std:iso-iec:23090-5:2025-03:::'
   type: URN
 date:
 - type: published
-  value: '2023-11-10'
-- type: obsoleted
   value: '2025-03-03'
 contributor:
 - organization:
@@ -68,18 +95,19 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2023-11-10'
+  content: '3'
+revdate: '2025-03-03'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies the syntax, semantics and decoding for visual
-    volumetric media using video‑based coding methods. This document also specifies
-    processes that can be needed for reconstruction of visual volumetric media, which
-    can also include additional processes such as post‑decoding, pre-reconstruction,
-    post‑reconstruction and adaptation.</p>"
+- content: <p class="MsoBodyText">This document specifies the syntax, semantics, and
+    decoding for visual volumetric media using video‑based coding methods. Furthermore,
+    this document specifies processes that may be needed for reconstruction of visual
+    volumetric media, and may also include additional processes such as post‑decoding,
+    pre-reconstruction, post‑reconstruction, and adaptation.</p>
   language:
   - en
   script:
@@ -87,7 +115,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -100,7 +128,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2023'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -115,4 +143,4 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:B
+  price_code: iso:H
