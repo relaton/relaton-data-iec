@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IECTR19768-2007
+id: ISO/IECTS33060-2025
 title:
 - content: Information technology
   language:
@@ -9,22 +9,22 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Programming languages
+- content: Process assessment
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Technical Report on C++ Library Extensions
+- content: Process assessment model for system life cycle processes
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Information technology - Programming languages - Technical Report on C++
-    Library Extensions
+- content: Information technology - Process assessment - Process assessment model
+    for system life cycle processes
   language:
   - en
   script:
@@ -38,22 +38,23 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Langages de programmation
+- content: Évaluation du processus
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Rapport technique sur l'extensions des librairies C++
+- content: Modèle d'évaluation du processus pour les processus du cycle de vie du
+    système
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Technologies de l'information - Langages de programmation - Rapport technique
-    sur l'extensions des librairies C++
+- content: Technologies de l'information - Évaluation du processus - Modèle d'évaluation
+    du processus pour les processus du cycle de vie du système
   language:
   - fr
   script:
@@ -61,18 +62,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/98247
+- content: https://webstore.iec.ch/publication/106738
   type: src
 type: standard
 docid:
-- id: ISO/IEC TR 19768:2007
+- id: ISO/IEC TS 33060:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:19768:2007-11:tr::'
+- id: 'urn:iec:std:iso-iec:33060:2025-04:ts::'
   type: URN
 date:
 - type: published
-  value: '2007-11-15'
+  value: '2025-04-09'
 contributor:
 - organization:
     name:
@@ -92,23 +93,17 @@ contributor:
   - type: publisher
 edition:
   content: '2'
-revdate: '2007-11-15'
+revdate: '2025-04-09'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC TR 19768:2007 specifies a series of extensions to the standard
-    library for the programming language C++, as specified by ISO/IEC 14882, in order
-    to build more widespread existing practice for an expanded C++ standard library.
-    Some of the components in ISO/IEC TR 19768:2007 could be considered for standardization
-    in a future version of C++.</p><p>The specific classes of extensions specified
-    in ISO/IEC TR 19768:2007 are as follows:</p><ul><li>general utilities such as
-    reference-counted pointers;</li><li>functional programming;</li><li>facilities
-    for compile-time type queries;</li><li>enhanced support for numerical computation;</li><li>hash
-    tables and other additional container classes;</li><li>regular expression processing;</li><li>improved
-    capability with the programming language C, as specified by ISO/IEC 9899.</li></ul>"
+- content: '<p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
+    none;">This document defines a process assessment model for system life cycle
+    processes, conformant with the requirements of ISO/IEC 33004, for use in performing
+    a conformant assessment in accordance with the requirements of ISO/IEC 33002.</p>'
   language:
   - en
   script:
@@ -129,19 +124,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2007'
+  from: '2025'
 place:
 - Geneva
 ext:
   schema-version: v1.0.0
   doctype:
-    type: technical-report
+    type: technical-specification
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1/SC 22
+    - name: ISO/IEC JTC 1/SC 7
       number: 1
       type: technicalCommittee
   ics:
-  - code: '35.060'
-    text: Languages used in information technology
-  price_code: iso:H
+  - code: '35.080'
+    text: Software
+  price_code: iso:G
