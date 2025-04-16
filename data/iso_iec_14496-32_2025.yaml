@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC14496-32-2021
+id: ISO/IEC14496-32-2025
 title:
 - content: Information technology
   language:
@@ -31,22 +31,47 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Codage des objets audiovisuels
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 32: Titre manque'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
+    32: Titre manque'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/68359
+- content: https://webstore.iec.ch/publication/106959
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec14496-32{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 14496-32:2021
+- id: ISO/IEC 14496-32:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:14496-32:2021-01:::'
+- id: 'urn:iec:std:iso-iec:14496-32:2025-04:::'
   type: URN
 date:
 - type: published
-  value: '2021-01-05'
-- type: obsoleted
   value: '2025-04-16'
 contributor:
 - organization:
@@ -66,21 +91,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2021-01-05'
+  content: '2'
+revdate: '2025-04-16'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the reference software and conformance suite
-    for the file format documents in MPEG-4 and MPEG-H. Since these documents share
-    a lot of technology, their reference software and conformance program are being
-    handled together. These documents are: ISO/IEC 14496-12, ISO/IEC 14496-14, ISO/IEC
-    14496-15, ISO/IEC 14496-30 and ISO/IEC 23008-12.</p><p>The purpose of the conformance
-    suite is to cover the set of valid features that can be exercised in the file
-    format. Media conformance is not covered, though of course in order to exercise
-    the file format features, media will be stored.</p>"
+- content: '<p class="MsoBodyText">This document describes the reference software
+    and conformance suite for the file format documents in multiple standards. Since
+    these standards share a lot of technology, their reference software and conformance
+    program are being handled together. These standards are: ISO/IEC 14496-12, ISO/IEC
+    14496-14, ISO/IEC 14496-15, ISO/IEC 14496-30 and ISO/IEC 23008-12.</p><p class="MsoBodyText">The
+    purpose of the conformance suite is to cover the set of valid features that can
+    be exercised in the file format. Media conformance is not covered, though of course
+    to exercise the file format features, media will be stored.</p>'
   language:
   - en
   script:
@@ -88,7 +114,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -101,7 +127,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2021'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -116,4 +142,4 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:B
+  price_code: iso:D
