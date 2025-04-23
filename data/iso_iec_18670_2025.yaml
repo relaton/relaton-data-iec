@@ -1,0 +1,129 @@
+---
+schema-version: v1.2.9
+id: ISO/IEC18670-2025
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: SoftWare Hash IDentifier (SWHID) Specification V1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Information technology - SoftWare Hash IDentifier (SWHID) Specification
+    V1.2
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Titre manque
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Titre manque
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/107118
+  type: src
+type: standard
+docid:
+- id: ISO/IEC 18670:2025
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:18670:2025-04:::'
+  type: URN
+date:
+- type: published
+  value: '2025-04-23'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2025-04-23'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: <p class="MsoBodyText">This specification defines a standard data format
+    for referencing software artifacts that match the data model of modern distributed
+    version control systems.</p><p class="MsoBodyText">This format includes the typical
+    tree-like structure of a filesystem hierarchy, but also, special nodes to track
+    revisions and releases, as well as the full status of a version control system,
+    with all its development branches.</p><p class="MsoBodyText">A key property of
+    SWHIDs is that they can be computed using cryptographically strong functions directly
+    from the digital objects they refer to, by anyone that has access to a copy of
+    those objects. This enables decentralised and independent verification of integrity,
+    without relying on a registry or a central authority.</p><p class="MsoBodyText">The
+    computation of the SWHID identifiers is based on Merkle Acyclic Directed Graphs,
+    a natural generalization of Merkle trees.</p><p class="MsoBodyText">The resolution
+    of SWHIDs, that is, the process of obtaining a copy of a digital artifact corresponding
+    to a given SWHID, is outside the scope of this specification.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2025'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.040.10
+    text: Coding of character sets
+  price_code: iso:C
