@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC25390-2025
+id: ISO/IEC21122-4-2025
 title:
 - content: Information technology
   language:
@@ -9,36 +9,51 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Financial information exchange
+- content: JPEG XS low-latency lightweight image coding system
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Simple binary encoding
+- content: 'Part 4: Conformance testing'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Information technology - Financial information exchange - Simple binary
-    encoding
+- content: 'Information technology - JPEG XS low-latency lightweight image coding
+    system - Part 4: Conformance testing'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
-- content: Titre manque
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Système de codage d'images léger à faible latence JPEG XS
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Titre manque
+- content: 'Partie 4: Essais de conformité'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Système de codage d''images léger à faible
+    latence JPEG XS - Partie 4: Essais de conformité'
   language:
   - fr
   script:
@@ -46,20 +61,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/107119
+- content: https://webstore.iec.ch/publication/107142
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec25390{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 25390:2025
+- id: ISO/IEC 21122-4:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:25390:2025-04:::'
+- id: 'urn:iec:std:iso-iec:21122-4:2025-04:::'
   type: URN
 date:
 - type: published
-  value: '2025-04-23'
+  value: '2025-04-24'
 contributor:
 - organization:
     name:
@@ -78,18 +91,17 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2025-04-23'
+  content: '3'
+revdate: '2025-04-24'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: <p class="FirstParagraph">This document provides the normative specification
-    of Simple Binary Encoding (SBE), which is one of the possible syntaxes for FIX
-    messages, but not limited to FIX messages. The scope comprises the encoding (wire
-    format) and the message schema for SBE.</p>
+- content: <p class="MsoBodyText">This document specifies the framework, concepts,
+    methodology for testing, and criteria to be achieved to claim conformance to multiple
+    parts of the ISO/IEC 21122 series. It lists the conformance testing procedures.</p>
   language:
   - en
   script:
@@ -119,10 +131,10 @@ ext:
     type: international-standard
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1
+    - name: ISO/IEC JTC 1/SC 29
       number: 1
       type: technicalCommittee
   ics:
-  - code: 35.240.40
-    text: IT applications in banking
-  price_code: iso:G
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:D
