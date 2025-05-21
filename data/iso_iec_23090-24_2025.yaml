@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IECTR14496-24-2008
+id: ISO/IEC23090-24-2025
 title:
 - content: Information technology
   language:
@@ -9,43 +9,71 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Coding of audio-visual objects
+- content: Coded representation of immersive media
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 24: Audio and systems interaction'
+- content: 'Part 24: Conformance and reference software for scene description'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - Coding of audio-visual objects - Part 24: Audio
-    and systems interaction'
+- content: 'Information technology - Coded representation of immersive media - Part
+    24: Conformance and reference software for scene description'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Représentation codée de média immersifs
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 24: Conformité et logiciel de référence pour la description de
+    scènes'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Représentation codée de média immersifs
+    - Partie 24: Conformité et logiciel de référence pour la description de scènes'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/9993
+- content: https://webstore.iec.ch/publication/107572
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiectr14496-24{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC TR 14496-24:2008
+- id: ISO/IEC 23090-24:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:14496-24:2008-01:tr::'
+- id: 'urn:iec:std:iso-iec:23090-24:2025-05:::'
   type: URN
 date:
 - type: published
-  value: '2008-01-17'
+  value: '2025-05-20'
 contributor:
 - organization:
     name:
@@ -65,20 +93,15 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2008-01-17'
+revdate: '2025-05-20'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC TR 14496-24:2008 describes the desired joint behavior of MPEG-4
-    Systems (MPEG-4 File Format) and MPEG-4 Audio codecs. It is desired that MPEG-4
-    Audio encoders and decoders permit finite length signals to be encoded to a file
-    (particularly MPEG-4 files) and decoded again to obtain the identical signal,
-    subject to codec distortions. This will allow the use of audio in systems implementations
-    (particularly MPEG-4 Systems), perhaps with other media such as video, in a deterministic
-    fashion. Most importantly, the decoded signal will have nothing “extra” at the
-    beginning or “missing” at the end.</p>"
+- content: <p class="MsoBodyText">This document specifies the conformance and reference
+    software for ISO/IEC 23090-14.</p>
   language:
   - en
   script:
@@ -86,7 +109,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -99,13 +122,13 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2008'
+  from: '2025'
 place:
 - Geneva
 ext:
   schema-version: v1.0.0
   doctype:
-    type: technical-report
+    type: international-standard
   editorialgroup:
     technical_committee:
     - name: ISO/IEC JTC 1/SC 29
@@ -114,4 +137,4 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:B
+  price_code: iso:C
