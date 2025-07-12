@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC14496-10-2025
+id: ISO/IEC18012-4-2025
 title:
 - content: Information technology
   language:
@@ -9,72 +9,45 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Coding of audio-visual objects
+- content: Home electronic system (HES)
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 10: Advanced video coding'
+- content: 'Guidelines for product interoperability -- Part 4: Event encoding'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Information technology - Coding of audio-visual objects - Part 10: Advanced
-    video coding'
+- content: 'Information technology - Home electronic system (HES) - Guidelines for
+    product interoperability -- Part 4: Event encoding'
   language:
   - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codage des objets audiovisuels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 10: Codage visuel avancé'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
-    10: Codage visuel avancé'
-  language:
-  - fr
   script:
   - Latn
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/108558
+- content: https://webstore.iec.ch/publication/68549
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec14496-10{ed11.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec18012-4{ed1.0}en.pdf
   type: obp
 type: standard
 docid:
-- id: ISO/IEC 14496-10:2025
+- id: ISO/IEC 18012-4:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:14496-10:2025-07:::'
+- id: 'urn:iec:std:iso-iec:18012-4:2025-07:::'
   type: URN
 date:
 - type: published
   value: '2025-07-11'
+- type: stable-until
+  value: '2029-12-31'
 contributor:
 - organization:
     name:
@@ -93,16 +66,17 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '11'
+  content: '1'
 revdate: '2025-07-11'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies advanced video coding for coding of audio-visual
-    objects.</p>"
+- content: ISO/IEC 18012-4:2025 specifies an event exchange format that defines the
+    encoding of individual events in the interoperability domain. This event format
+    is used to encode events for exchange across the “event bus” within the interoperability
+    domain.
   language:
   - en
   script:
@@ -132,10 +106,13 @@ ext:
     type: international-standard
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1/SC 29
+    - name: ISO/IEC JTC 1/SC 25
       number: 1
       type: technicalCommittee
   ics:
-  - code: 35.040.40
-    text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:H
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    project_number: '105182'
+    type: IEC
+  price_code: iso:F
