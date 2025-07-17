@@ -1,30 +1,23 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC30129-2015/AMD1-2019
+id: ISO/IEC30129-2015+AMD1-2019+AMD2-2025CSV
 title:
-- content: Amendment 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
 - content: Information technology
   language:
   - en
   script:
   - Latn
   format: text/plain
-  type: title-main
+  type: title-intro
 - content: Telecommunications bonding networks for buildings and other structures
   language:
   - en
   script:
   - Latn
   format: text/plain
-  type: title-part
-- content: Amendment 1 - Information technology - Telecommunications bonding networks
-    for buildings and other structures
+  type: title-main
+- content: Information technology - Telecommunications bonding networks for buildings
+    and other structures
   language:
   - en
   script:
@@ -32,18 +25,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/61947
+- content: https://webstore.iec.ch/publication/108663
   type: src
+- content: https://webstore.iec.ch/preview/info_isoiec30129{ed1.2}en.pdf
+  type: obp
 type: standard
 docid:
-- id: ISO/IEC 30129:2015/AMD1:2019
+- id: ISO/IEC 30129:2015+AMD1:2019+AMD2:2025 CSV
   type: IEC
   primary: true
-- id: urn:iec:std:iso-iec:30129:2015-10:::||amd:1:2019-02
+- id: urn:iec:std:iso-iec:30129:2015-10::csv:+amd:1:2019-02+amd:2:2025-07
   type: URN
 date:
 - type: published
-  value: '2019-02-22'
+  value: '2025-07-16'
 - type: stable-until
   value: '2030-12-31'
 contributor:
@@ -64,12 +59,27 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2019-02-22'
+  content: '1.2'
+revdate: '2025-07-16'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: "ISO/IEC 30129:2015+AMD1:2019+AMD2:2025 CSV specifies requirements and
+    recommendations for the design and installation of connections (bonds) between
+    various electrically conductive elements in buildings and other structures, during
+    their construction or refurbishment, in which information technology (IT) and,
+    more generally, telecommunications equipment is intended to be installed in order
+    to:<br />\r\na) minimise the risk to the correct function of that equipment and
+    interconnecting cabling from electrical hazards and<br />\r\nb) provide the telecommunications
+    installation with a reliable signal reference - which may improve immunity from
+    electromagnetic interference (EMI)."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 docstatus:
   stage:
     value: PUBLISHED
@@ -101,6 +111,6 @@ ext:
   - code: '35.200'
     text: Interface and interconnection equipment
   structuredidentifier:
-    project_number: '101554'
+    project_number: '21081'
     type: IEC
-  price_code: iso:A
+  price_code: iso:CB
