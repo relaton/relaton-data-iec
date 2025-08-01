@@ -1,7 +1,14 @@
 ---
 schema-version: v1.2.9
-id: ISO80000-4-2019
+id: ISO80000-5-2019/AMD1-2025
 title:
+- content: Amendment 1
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
 - content: Quantities and units
   language:
   - en
@@ -9,20 +16,27 @@ title:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 4: Mechanics'
+- content: 'Part 5: Thermodynamics'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Quantities and units - Part 4: Mechanics'
+- content: 'Amendment 1 - Quantities and units - Part 5: Thermodynamics'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: main
+- content: Amendement 1
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
 - content: Grandeurs et unités
   language:
   - fr
@@ -30,14 +44,14 @@ title:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Partie 4: Mécanique'
+- content: 'Partie 5: Thermodynamique'
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: 'Grandeurs et unités - Partie 4: Mécanique'
+- content: 'Amendement 1 - Grandeurs et unités - Partie 5: Thermodynamique'
   language:
   - fr
   script:
@@ -45,22 +59,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/29595
+- content: https://webstore.iec.ch/publication/99216
   type: src
-- content: https://webstore.iec.ch/preview/info_iso80000-4{ed2.0}en.pdf
-  type: obp
-- content: https://webstore.iec.ch/preview/info_iso80000-4{ed2.0}fr.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO 80000-4:2019
+- id: ISO 80000-5:2019/AMD1:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso:80000-4:2019-08:::'
+- id: urn:iec:std:iso:80000-5:2019-08:::||amd:1:2025-07
   type: URN
 date:
 - type: published
-  value: '2019-08-26'
+  value: '2025-07-24'
 - type: stable-until
   value: '2027-12-31'
 contributor:
@@ -74,28 +84,12 @@ contributor:
   - type: publisher
 edition:
   content: '2'
-revdate: '2019-08-26'
+revdate: '2025-07-24'
 language:
 - en
 - fr
 script:
 - Latn
-abstract:
-- content: This document gives names, symbols, definitions and units for quantities
-    of mechanics. Where appropriate, conversion factors are also given.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-- content: Le présent document donne les noms, les symboles, les définitions et les
-    unités des grandeurs de la mécanique. Des facteurs de conversion sont également
-    indiqués, s'il y a lieu.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
 docstatus:
   stage:
     value: PUBLISHED
@@ -122,6 +116,6 @@ ext:
   - code: '01.060'
     text: Quantities and units
   structuredidentifier:
-    project_number: '23853'
+    project_number: '127874'
     type: IEC
-  price_code: iso:C
+  price_code: iso:XZ
