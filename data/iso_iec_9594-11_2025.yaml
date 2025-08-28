@@ -1,0 +1,150 @@
+---
+schema-version: v1.2.9
+id: ISO/IEC9594-11-2025
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open systems interconnection directory
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 11: Protocol specifications for secure operations'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Open systems interconnection directory - Part
+    11: Protocol specifications for secure operations'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interconnexion de systèmes ouverts (OSI)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 11: Titre manque'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 11: Titre manque'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/109398
+  type: src
+type: standard
+docid:
+- id: ISO/IEC 9594-11:2025
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iso-iec:9594-11:2025-08:::'
+  type: URN
+date:
+- type: published
+  value: '2025-08-27'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2025-08-27'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: <p class="MsoNormal">This document provides guidance on how to prepare
+    new and old protocols for cryptographic algorithm migration and defines auxiliary
+    cryptographic algorithms to be used for migration purposes.</p><p class="MsoNormal">This
+    document specifies a general wrapper protocol that provides authentication, integrity
+    and confidentiality (encryption) protection for other protocols. This wrapper
+    protocol includes a migration path for cryptographic algorithms allowing for smooth
+    migration to stronger cryptographic algorithms as such requirements evolve. This
+    will allow migration to quantum-safe cryptographic algorithms. Protected protocols
+    can then be developed without taking security and cryptographic algorithms into
+    consideration.</p><p class="MsoNormal">This document also includes some protocols
+    to be protected by the wrapper protocol primarily for support of public-key infrastructure
+    (PKI). Other specifications, e.g., Recommendations or International Standards,
+    may also develop protocols designed to be protected by the wrapper protocol.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2025'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: ISO/IEC JTC 1/SC 6
+      number: 1
+      type: technicalCommittee
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:H
