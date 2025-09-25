@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IEC29167-11-2023
+id: ISO/IEC29167-11-2025
 title:
 - content: Information technology
   language:
@@ -31,22 +31,49 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Identification et capture automatique de données
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 11: Services de sécurité par suite cryptographique PRESENT-80 pour
+    communications par interface radio'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Identification et capture automatique
+    de données - Partie 11: Services de sécurité par suite cryptographique PRESENT-80
+    pour communications par interface radio'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
-- content: https://webstore.iec.ch/publication/83526
+- content: https://webstore.iec.ch/publication/109942
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec29167-11{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC 29167-11:2023
+- id: ISO/IEC 29167-11:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:29167-11:2023-02:::'
+- id: 'urn:iec:std:iso-iec:29167-11:2025-09:::'
   type: URN
 date:
 - type: published
-  value: '2023-02-20'
-- type: obsoleted
   value: '2025-09-25'
 contributor:
 - organization:
@@ -66,26 +93,23 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2023-02-20'
+  content: '3'
+revdate: '2025-09-25'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
-- content: '<p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
-    none;">This document defines the crypto suite for PRESENT-80 for the ISO/IEC 18000
-    series of air interfaces standards for radio frequency identification (RFID) devices.
-    This document provides a common crypto suite for security for RFID devices for
-    air interface standards and application standards. The crypto suite is defined
-    in alignment with existing air interfaces.</p><p class="MsoBodyText" style="mso-layout-grid-align:
-    none; text-autospace: none;">This document specifies basic security services that
-    are use the lightweight block cipher PRESENT-80. The variant of PRESENT that takes
-    128-bit keys is also considered in this document.</p><p class="MsoBodyText" style="mso-layout-grid-align:
-    none; text-autospace: none;">This document defines various methods of use for
-    the cipher.</p><p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
-    none;">A Tag and an Interrogator can support one, a subset, or all of the specified
-    options, clearly stating what is supported.</p>'
+- content: <p class="MsoBodyText">This document defines the crypto suite for PRESENT-80
+    for the ISO/IEC 18000 series of air interfaces standards for radio frequency identification
+    (RFID) devices. This document provides a common crypto suite for security for
+    RFID devices for air interface standards and application standards. The crypto
+    suite is defined in alignment with existing air interfaces.</p><p class="MsoBodyText">This
+    document specifies basic security services that are use the lightweight block
+    cipher PRESENT-80. The variant of PRESENT that takes 128-bit keys is also considered
+    in this document.</p><p class="MsoBodyText">This document defines various methods
+    of use for the cipher.</p>
   language:
   - en
   script:
@@ -93,7 +117,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -106,7 +130,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2023'
+  from: '2025'
 place:
 - Geneva
 ext:
@@ -121,4 +145,4 @@ ext:
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
-  price_code: iso:B
+  price_code: iso:E
