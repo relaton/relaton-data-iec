@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IECTR19768-2007
+id: ISO/IEC23093-2-2025
 title:
 - content: Information technology
   language:
@@ -9,22 +9,23 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Programming languages
+- content: Internet of media things
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Technical Report on C++ Library Extensions
+- content: 'Part 2: Discovery and communication application programming interface
+    (API)'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Information technology - Programming languages - Technical Report on C++
-    Library Extensions
+- content: 'Information technology - Internet of media things - Part 2: Discovery
+    and communication application programming interface (API)'
   language:
   - en
   script:
@@ -38,22 +39,22 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Langages de programmation
+- content: Internet des objets media
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Rapport technique sur l'extensions des librairies C++
+- content: 'Partie 2: API pour la decouverte et la communication'
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Technologies de l'information - Langages de programmation - Rapport technique
-    sur l'extensions des librairies C++
+- content: 'Technologies de l''information - Internet des objets media - Partie 2:
+    API pour la decouverte et la communication'
   language:
   - fr
   script:
@@ -61,18 +62,20 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/98247
+- content: https://webstore.iec.ch/publication/110959
   type: src
+- content: https://webstore.iec.ch/preview/info_isoiec23093-2{ed3.0}en.pdf
+  type: obp
 type: standard
 docid:
-- id: ISO/IEC TR 19768:2007
+- id: ISO/IEC 23093-2:2025
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:19768:2007-11:tr::'
+- id: 'urn:iec:std:iso-iec:23093-2:2025-12:::'
   type: URN
 date:
 - type: published
-  value: '2007-11-15'
+  value: '2025-12-17'
 contributor:
 - organization:
     name:
@@ -91,24 +94,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2007-11-15'
+  content: '3'
+revdate: '2025-12-17'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC TR 19768:2007 specifies a series of extensions to the standard
-    library for the programming language C++, as specified by ISO/IEC 14882, in order
-    to build more widespread existing practice for an expanded C++ standard library.
-    Some of the components in ISO/IEC TR 19768:2007 could be considered for standardization
-    in a future version of C++.</p><p>The specific classes of extensions specified
-    in ISO/IEC TR 19768:2007 are as follows:</p><ul><li>general utilities such as
-    reference-counted pointers;</li><li>functional programming;</li><li>facilities
-    for compile-time type queries;</li><li>enhanced support for numerical computation;</li><li>hash
-    tables and other additional container classes;</li><li>regular expression processing;</li><li>improved
-    capability with the programming language C, as specified by ISO/IEC 9899.</li></ul>"
+- content: '<p class="MsoBodyText">This document specifies the abstract class of a
+    media thing (MThing), a basic component to construct the Internet of media things.
+    The MThing class contains the basic APIs to:</p><p class="ListContinue1" style="mso-list:
+    l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->discover other MThing(s)
+    in the network;</p><p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!--
+    [if!supportLists]-->—<!--[endif]-->connect/disconnect MThing(s); and,</p><p class="ListContinue1"
+    style="mso-list: l0 level1 lfo1;"><!-- [if!supportLists]-->—<!--[endif]-->support
+    transactions (e.g. payments) using media tokens between MThings.</p>'
   language:
   - en
   script:
@@ -129,19 +130,19 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2007'
+  from: '2025'
 place:
 - Geneva
 ext:
   schema-version: v1.0.0
   doctype:
-    type: technical-report
+    type: international-standard
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1/SC 22
+    - name: ISO/IEC JTC 1/SC 29
       number: 1
       type: technicalCommittee
   ics:
-  - code: '35.060'
-    text: Languages used in information technology
-  price_code: iso:H
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:C
