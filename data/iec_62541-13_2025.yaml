@@ -77,97 +77,92 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW! -->IEC 62541-13:2025 is available as IEC 62541-13:2025 RLV which
-    contains the International Standard and its Redline version, showing all changes
-    of the technical content compared to the previous edition.IEC 62541-13:2025 defines
-    the information model associated with Aggregates. Programmatically produced aggregate
-    examples are listed in Annex A. This third edition cancels and replaces the second
-    edition published in 2020. This edition constitutes a technical revision.<br />\r\nThis
-    edition includes the following technical changes with respect to the previous
-    edition:<br />\r\na) Multiple fixes for the computation of aggregates<br />\r\n•
-    The Raw status bit is always set for non-bad StatusCodes for the Start and End
-    aggregates.<br />\r\n• Entries in the Interpolative examples Tables A2.2 Historian1,
-    Historian2, and Historian3 have been changed from Good to Good, Raw status codes
-    when the timestamp matches with the timestamp of the data source.<br />\r\n• Missing
-    tables have been added for DurationInStateZero and DurationInStateNonZero.<br
-    />\r\n• The value of zero has been removed for results with a StatusCode of bad.<br
-    />\r\n• Data Type was listed as \"Status Code\" when it is \"Double\" for both
-    Standard Deviation and both Variance Aggregates.<br />\r\n• Rounding Error in
-    TimeAverage and TimeAverage2 have been corrected.<br />\r\n• The status codes
-    have been corrected for the last two intervals and the value has been corrected
-    in the last interval.<br />\r\n• The wording has been changed to be more consistent
-    with the certification testing tool.<br />\r\n• UsedSlopedExtrapolation set to
-    true for Historian2 and all examples locations needed new values or status' are
-    modified.<br />\r\n• Values affected by percent good and percent bad have been
-    updated.<br />\r\n• PercentGood/PercentBad are now accounted for in the calculation.<br
-    />\r\n• TimeAverage uses SlopedInterpolation but the Time aggregate is incorrectly
-    allowed to used Stepped Interpolation.<br />\r\n• Partial bit is now correctly
-    calculated.<br />\r\n• Unclear sentence was removed.<br />\r\n• Examples have
-    been moved to a CSV.<br />\r\n• The value and status code for Historian 3 have
-    been updated.<br />\r\n• TimeAverage2 Historian1 now takes uncertain regions into
-    account when calculating StatusCodes.<br />\r\n• TimeAverage2 Historian2 now takes
-    uncertain regions into account when calculating StatusCodes.<br />\r\n• Total2
-    Historian1 now takes uncertain regions into account when calculating StatusCodes<br
-    />\r\n• Total2 Historian2 now takes uncertain regions into account when calculating
-    StatusCodes<br />\r\n• Maximum2 Historian1 now takes uncertain regions into account
-    when calculating StatusCodes<br />\r\n• MaximumActualTime2 Historian1 now takes
-    uncertain regions into account when calculating StatusCodes<br />\r\n• Minimum2
-    Historian1 now takes uncertain regions into account when calculating StatusCodes<br
-    />\r\n• MinimumActualTime2 Historian1 now has the StatusCodes calculated while
-    using the TreatUncertainAsBad flag.<br />\r\n• Range2 Historian1 now looks at
-    TreatUncertainAsBad in the calculation of the StatusCodes.<br />\r\n• Clarifications
-    have been made to the text defining how PercentGood/PercentBad are used. The table
-    values and StatusCodes of the TimeAverage2 and Total2 aggregates have been corrected."
+- content: "IEC 62541-13:2025 defines the information model associated with Aggregates.
+    Programmatically produced aggregate examples are listed in Annex A. This third
+    edition cancels and replaces the second edition published in 2020. This edition
+    constitutes a technical revision.<br />\r\nThis edition includes the following
+    technical changes with respect to the previous edition:<br />\r\na) Multiple fixes
+    for the computation of aggregates<br />\r\n• The Raw status bit is always set
+    for non-bad StatusCodes for the Start and End aggregates.<br />\r\n• Entries in
+    the Interpolative examples Tables A2.2 Historian1, Historian2, and Historian3
+    have been changed from Good to Good, Raw status codes when the timestamp matches
+    with the timestamp of the data source.<br />\r\n• Missing tables have been added
+    for DurationInStateZero and DurationInStateNonZero.<br />\r\n• The value of zero
+    has been removed for results with a StatusCode of bad.<br />\r\n• Data Type was
+    listed as \"Status Code\" when it is \"Double\" for both Standard Deviation and
+    both Variance Aggregates.<br />\r\n• Rounding Error in TimeAverage and TimeAverage2
+    have been corrected.<br />\r\n• The status codes have been corrected for the last
+    two intervals and the value has been corrected in the last interval.<br />\r\n•
+    The wording has been changed to be more consistent with the certification testing
+    tool.<br />\r\n• UsedSlopedExtrapolation set to true for Historian2 and all examples
+    locations needed new values or status' are modified.<br />\r\n• Values affected
+    by percent good and percent bad have been updated.<br />\r\n• PercentGood/PercentBad
+    are now accounted for in the calculation.<br />\r\n• TimeAverage uses SlopedInterpolation
+    but the Time aggregate is incorrectly allowed to used Stepped Interpolation.<br
+    />\r\n• Partial bit is now correctly calculated.<br />\r\n• Unclear sentence was
+    removed.<br />\r\n• Examples have been moved to a CSV.<br />\r\n• The value and
+    status code for Historian 3 have been updated.<br />\r\n• TimeAverage2 Historian1
+    now takes uncertain regions into account when calculating StatusCodes.<br />\r\n•
+    TimeAverage2 Historian2 now takes uncertain regions into account when calculating
+    StatusCodes.<br />\r\n• Total2 Historian1 now takes uncertain regions into account
+    when calculating StatusCodes<br />\r\n• Total2 Historian2 now takes uncertain
+    regions into account when calculating StatusCodes<br />\r\n• Maximum2 Historian1
+    now takes uncertain regions into account when calculating StatusCodes<br />\r\n•
+    MaximumActualTime2 Historian1 now takes uncertain regions into account when calculating
+    StatusCodes<br />\r\n• Minimum2 Historian1 now takes uncertain regions into account
+    when calculating StatusCodes<br />\r\n• MinimumActualTime2 Historian1 now has
+    the StatusCodes calculated while using the TreatUncertainAsBad flag.<br />\r\n•
+    Range2 Historian1 now looks at TreatUncertainAsBad in the calculation of the StatusCodes.<br
+    />\r\n• Clarifications have been made to the text defining how PercentGood/PercentBad
+    are used. The table values and StatusCodes of the TimeAverage2 and Total2 aggregates
+    have been corrected."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW! -->IEC 62541-13:2025 est disponible sous forme de IEC 62541-13:2025
-    RLV qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.L'IEC 62541-13:2025
-    définit le modèle d'information associé aux Agrégats. Des exemples d'agrégats
-    produits par programme sont répertoriés à l'Annexe A. Cette troisième édition
-    annule et remplace la deuxième édition parue en 2020. Cette édition constitue
-    une révision technique.<br />\r\nCette édition inclut les modifications techniques
-    suivantes par rapport à l'édition précédente:<br />\r\na) corrections multiples
-    pour le calcul des agrégats<br />\r\n• le bit de statut \"Raw\" est toujours défini
-    pour les StatusCodes autres que \"bad\" des agrégats de Début et de Fin;<br />\r\n•
-    les entrées des tableaux d'exemples pour \"Interpolative\" en A2.2 Historique
-    1, Historique 2 et Historique 3 ont été modifiées pour passer du code de statut
-    \"Good\" au code de statut \"Good, Raw\" lorsque l'horodatage correspond à l'horodatage
-    de la source de données;<br />\r\n• des tableaux manquants ont été ajoutés pour
-    DurationInStateZero et DurationInStateNonZero;<br />\r\n• la valeur zéro a été
-    supprimée pour les résultats avec un StatusCode \"bad\";<br />\r\n• le type de
-    données était indiqué comme étant \"Code de statut\" alors qu'il est \"Double\"
-    pour les deux Agrégats d'Écart type et les deux Agrégats de Variance;<br />\r\n•
-    les erreurs d'arrondi dans TimeAverage et TimeAverage2 ont été corrigées;<br />\r\n•
-    les codes de statut ont été corrigés pour les deux derniers intervalles et la
-    valeur a été corrigée dans le dernier intervalle;<br />\r\n• la formulation a
-    été modifiée pour plus de cohérence avec l'outil d'essai de certification;<br
-    />\r\n• UsedSlopedExtrapolation mis à \"true\" pour Historian2 et tous les emplacements
-    d'exemples nécessitant de nouvelles valeurs ou de nouveaux statuts ont été modifiés,<br
-    />\r\n• les valeurs influencées par PercentGood et PercentBad ont été mises à
-    jour;<br />\r\n• PercentGood/PercentBad sont désormais pris en compte dans le
-    calcul;<br />\r\n• TimeAverage utilise SlopedInterpolation, mais l'agrégat \"Time\"
-    est autorisé à tort à utiliser SteppedInterpolation;<br />\r\n• le bit Partial
-    est désormais calculé correctement;<br />\r\n• la phrase peu claire a été supprimée;<br
-    />\r\n• les exemples ont été déplacés dans un fichier CSV;<br />\r\n• la valeur
-    et le code de statut d'Historique 3 ont été mis à jour;<br />\r\n• TimeAverage2
+- content: "L'IEC 62541-13:2025 définit le modèle d'information associé aux Agrégats.
+    Des exemples d'agrégats produits par programme sont répertoriés à l'Annexe A.
+    Cette troisième édition annule et remplace la deuxième édition parue en 2020.
+    Cette édition constitue une révision technique.<br />\r\nCette édition inclut
+    les modifications techniques suivantes par rapport à l'édition précédente:<br
+    />\r\na) corrections multiples pour le calcul des agrégats<br />\r\n• le bit de
+    statut \"Raw\" est toujours défini pour les StatusCodes autres que \"bad\" des
+    agrégats de Début et de Fin;<br />\r\n• les entrées des tableaux d'exemples pour
+    \"Interpolative\" en A2.2 Historique 1, Historique 2 et Historique 3 ont été modifiées
+    pour passer du code de statut \"Good\" au code de statut \"Good, Raw\" lorsque
+    l'horodatage correspond à l'horodatage de la source de données;<br />\r\n• des
+    tableaux manquants ont été ajoutés pour DurationInStateZero et DurationInStateNonZero;<br
+    />\r\n• la valeur zéro a été supprimée pour les résultats avec un StatusCode \"bad\";<br
+    />\r\n• le type de données était indiqué comme étant \"Code de statut\" alors
+    qu'il est \"Double\" pour les deux Agrégats d'Écart type et les deux Agrégats
+    de Variance;<br />\r\n• les erreurs d'arrondi dans TimeAverage et TimeAverage2
+    ont été corrigées;<br />\r\n• les codes de statut ont été corrigés pour les deux
+    derniers intervalles et la valeur a été corrigée dans le dernier intervalle;<br
+    />\r\n• la formulation a été modifiée pour plus de cohérence avec l'outil d'essai
+    de certification;<br />\r\n• UsedSlopedExtrapolation mis à \"true\" pour Historian2
+    et tous les emplacements d'exemples nécessitant de nouvelles valeurs ou de nouveaux
+    statuts ont été modifiés,<br />\r\n• les valeurs influencées par PercentGood et
+    PercentBad ont été mises à jour;<br />\r\n• PercentGood/PercentBad sont désormais
+    pris en compte dans le calcul;<br />\r\n• TimeAverage utilise SlopedInterpolation,
+    mais l'agrégat \"Time\" est autorisé à tort à utiliser SteppedInterpolation;<br
+    />\r\n• le bit Partial est désormais calculé correctement;<br />\r\n• la phrase
+    peu claire a été supprimée;<br />\r\n• les exemples ont été déplacés dans un fichier
+    CSV;<br />\r\n• la valeur et le code de statut d'Historique 3 ont été mis à jour;<br
+    />\r\n• TimeAverage2 (Historique 1) prend désormais en compte les régions incertaines
+    dans le calcul des StatusCodes;<br />\r\n• TimeAverage2 (Historique 2) prend désormais
+    en compte les régions incertaines dans le calcul des StatusCodes;<br />\r\n• Total2
     (Historique 1) prend désormais en compte les régions incertaines dans le calcul
-    des StatusCodes;<br />\r\n• TimeAverage2 (Historique 2) prend désormais en compte
-    les régions incertaines dans le calcul des StatusCodes;<br />\r\n• Total2 (Historique
+    des StatusCodes;<br />\r\n• Total2 (Historique 2) prend désormais en compte les
+    régions incertaines dans le calcul des StatusCodes;<br />\r\n• Maximum2 (Historique
     1) prend désormais en compte les régions incertaines dans le calcul des StatusCodes;<br
-    />\r\n• Total2 (Historique 2) prend désormais en compte les régions incertaines
-    dans le calcul des StatusCodes;<br />\r\n• Maximum2 (Historique 1) prend désormais
-    en compte les régions incertaines dans le calcul des StatusCodes;<br />\r\n• MaximumActualTime2
-    (Historique 1) prend désormais en compte les régions incertaines dans le calcul
-    des StatusCodes;<br />\r\n• Minimum2 (Historique 1) prend désormais en compte
-    les régions incertaines dans le calcul des StatusCodes;<br />\r\n• MinimumActualTime2
-    (Historique 1) présente désormais les StatusCodes calculés en utilisant le fanion
-    TreatUncertainAsBad;<br />\r\n• Range2 (Historique 1) prend désormais en compte
-    TreatUncertainAsBad dans le calcul des StatusCodes;<br />\r\n• des clarifications
-    ont été apportées au texte définissant l'utilisation de PercentGood/PercentBad;
+    />\r\n• MaximumActualTime2 (Historique 1) prend désormais en compte les régions
+    incertaines dans le calcul des StatusCodes;<br />\r\n• Minimum2 (Historique 1)
+    prend désormais en compte les régions incertaines dans le calcul des StatusCodes;<br
+    />\r\n• MinimumActualTime2 (Historique 1) présente désormais les StatusCodes calculés
+    en utilisant le fanion TreatUncertainAsBad;<br />\r\n• Range2 (Historique 1) prend
+    désormais en compte TreatUncertainAsBad dans le calcul des StatusCodes;<br />\r\n•
+    des clarifications ont été apportées au texte définissant l'utilisation de PercentGood/PercentBad;
     les valeurs des tableaux et les StatusCodes des agrégats TimeAverage2 et Total2
     ont été corrigés."
   language:

@@ -79,74 +79,70 @@ language:
 script:
 - Latn
 abstract:
-- content: "<!-- NEW! -->IEC 62541-4:2025 is available as IEC 62541-4:2025 RLV which
-    contains the International Standard and its Redline version, showing all changes
-    of the technical content compared to the previous edition.IEC 62541-4:2025 defines
-    the OPC Unified Architecture (OPC UA) Services. The Services defined are the collection
-    of abstract Remote Procedure Calls (RPC) that are implemented by OPC UA Servers
-    and called by OPC UA Clients. All interactions between OPC UA Clients and Servers
-    occur via these Services. The defined Services are considered abstract because
-    no particular RPC mechanism for implementation is defined in this document. IEC
-    62541‑6 specifies one or more concrete mappings supported for implementation.
-    For example, one mapping in IEC 62541‑6 is to UA-TCP UA-SC UA-Binary. In that
-    case the Services described in this document appear as OPC UA Binary encoded payload,
-    secured with OPC UA Secure Conversation and transported via OPC UA TCP. Not all
-    OPC UA Servers implement all of the defined Services. IEC 62541‑7 defines the
-    Profiles that dictate which Services must be implemented in order to be compliant
-    with a particular Profile. A BNF (Backus-Naur form) for browse path names is described
-    in Annex A. This fourth edition cancels and replaces the third edition published
-    in 2020. This edition constitutes a technical revision.<br />\r\nThis edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na) addition of new definitions to Method Call Service to allow
-    optional Method arguments;<br />\r\nb)addition of reference to SystemStatusChangeEventType
-    for event monitored item error scenarios;<br />\r\nc) enhancement of the general
-    description of how determining if a Certificate is trusted;<br />\r\nd) addition
-    of support for ECC;<br />\r\ne) addition of revisedAggregateConfiguration to AggregateFilterResult
-    structure;<br />\r\nf) addition of INVALID to the BrowseDirection enumeration
-    data type;<br />\r\ng) addition of INVALID to the TimestampsToReturn enumeration
-    data type;<br />\r\nh) addition of definitions that make sure the subscription
-    functionality works if retransmission queues are optional;<br />\r\ni) addition
-    of client checks has been added to be symmetric to the Server Certificate check
-    has been added;<br />\r\nj) clarification that ‘local’ top level domain is not
-    appended by server into certificate and not checked by client when returned from
-    LDS-ME;<br />\r\nk) addition of a definition for expiration behaviour of IssuedIdentityTokens;<br
-    />\r\nl) addition of status code Good_PasswordChangeRequired to ActivateSession;<br
-    />\r\nm) restriction of AdditionalInfo to servers in debug mode;<br />\r\nn) addition
-    of new status code Bad_ServerTooBusy;<br />\r\no) addition of definition for cases
-    where server certificate must be contained in GetEndpoints response."
+- content: "IEC 62541-4:2025 defines the OPC Unified Architecture (OPC UA) Services.
+    The Services defined are the collection of abstract Remote Procedure Calls (RPC)
+    that are implemented by OPC UA Servers and called by OPC UA Clients. All interactions
+    between OPC UA Clients and Servers occur via these Services. The defined Services
+    are considered abstract because no particular RPC mechanism for implementation
+    is defined in this document. IEC 62541‑6 specifies one or more concrete mappings
+    supported for implementation. For example, one mapping in IEC 62541‑6 is to UA-TCP
+    UA-SC UA-Binary. In that case the Services described in this document appear as
+    OPC UA Binary encoded payload, secured with OPC UA Secure Conversation and transported
+    via OPC UA TCP. Not all OPC UA Servers implement all of the defined Services.
+    IEC 62541‑7 defines the Profiles that dictate which Services must be implemented
+    in order to be compliant with a particular Profile. A BNF (Backus-Naur form) for
+    browse path names is described in Annex A. This fourth edition cancels and replaces
+    the third edition published in 2020. This edition constitutes a technical revision.<br
+    />\r\nThis edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\na) addition of new definitions to Method Call
+    Service to allow optional Method arguments;<br />\r\nb)addition of reference to
+    SystemStatusChangeEventType for event monitored item error scenarios;<br />\r\nc)
+    enhancement of the general description of how determining if a Certificate is
+    trusted;<br />\r\nd) addition of support for ECC;<br />\r\ne) addition of revisedAggregateConfiguration
+    to AggregateFilterResult structure;<br />\r\nf) addition of INVALID to the BrowseDirection
+    enumeration data type;<br />\r\ng) addition of INVALID to the TimestampsToReturn
+    enumeration data type;<br />\r\nh) addition of definitions that make sure the
+    subscription functionality works if retransmission queues are optional;<br />\r\ni)
+    addition of client checks has been added to be symmetric to the Server Certificate
+    check has been added;<br />\r\nj) clarification that ‘local’ top level domain
+    is not appended by server into certificate and not checked by client when returned
+    from LDS-ME;<br />\r\nk) addition of a definition for expiration behaviour of
+    IssuedIdentityTokens;<br />\r\nl) addition of status code Good_PasswordChangeRequired
+    to ActivateSession;<br />\r\nm) restriction of AdditionalInfo to servers in debug
+    mode;<br />\r\nn) addition of new status code Bad_ServerTooBusy;<br />\r\no) addition
+    of definition for cases where server certificate must be contained in GetEndpoints
+    response."
   language:
   - en
   script:
   - Latn
   format: text/html
-- content: "<!-- NEW! -->IEC 62541-4:2025 est disponible sous forme de IEC 62541-4:2025
-    RLV qui contient la Norme internationale et sa version Redline, illustrant les
-    modifications du contenu technique depuis l'édition précédente.L'IEC 62541-4:2025
-    définit les Services de l'Architecture unifiée OPC (OPC UA). Les Services définis
-    sont le recueil d'appels de procédures abstraites distantes (RPC, Remote Procedure
-    Call) qui sont mises en œuvre par les Serveurs OPC UA et qui sont appelées par
-    les Clients OPC UA. Toutes les interactions entre Clients et Serveurs OPC UA ont
-    lieu par le biais de ces Services. Les Services définis sont dits abstraits, car
-    aucun mécanisme RPC particulier n'est spécifié dans le présent document pour leur
-    mise en œuvre. L'IEC 62541‑6 spécifie un ou plusieurs mécanismes concrets de mapping
-    pour la mise en œuvre. Par exemple, dans l'IEC 62541‑6, l'un des mécanismes de
-    mapping repose sur l'utilisation du profil UA-TCP UA-SC UA-Binary. Dans ce cas,
-    les Services décrits dans le présent document apparaissent comme une charge utile
-    à codage OPC UA Binaire, sécurisé par une Conversation OPC UA sécurisée et transporté
-    par le protocole TPC d'OPC UA. Tous les Serveurs OPC UA ne mettent pas en œuvre
-    tous les Services définis. L'IEC 62541‑7 définit les Profils qui dictent les Services
-    qui doivent être mis en œuvre afin d'être conforme à un Profil particulier. Une
-    BNF (Backus-Naur Form, forme de Backus-Naur) pour les noms de chemins de navigation
-    est décrite à l'Annexe A. Cette quatrième édition annule et remplace la troisième
-    édition parue en 2020. Cette édition constitue une révision technique.<br />\r\nCette
-    édition inclut les modifications techniques majeures suivantes par rapport à l'édition
-    précédente:<br />\r\na) ajout de nouvelles définitions au Service d'Appel de Méthode
-    pour autoriser des arguments de Méthode facultatifs;<br />\r\nb) ajout d'une référence
-    au SystemStatusChangeEventType pour les scénarios d'erreur d'élément surveillé
-    par un événement;<br />\r\nc) amélioration de la description générale de la manière
-    de déterminer si un Certificat est fiable;<br />\r\nd) ajout de la prise en charge
-    d'ECC;<br />\r\ne) ajout de revisedAggregateConfiguration à la structure AggregateFilterResult;<br
-    />\r\nf) ajout de la valeur INVALID au type de données d'énumération BrowseDirection;<br
+- content: "L'IEC 62541-4:2025 définit les Services de l'Architecture unifiée OPC
+    (OPC UA). Les Services définis sont le recueil d'appels de procédures abstraites
+    distantes (RPC, Remote Procedure Call) qui sont mises en œuvre par les Serveurs
+    OPC UA et qui sont appelées par les Clients OPC UA. Toutes les interactions entre
+    Clients et Serveurs OPC UA ont lieu par le biais de ces Services. Les Services
+    définis sont dits abstraits, car aucun mécanisme RPC particulier n'est spécifié
+    dans le présent document pour leur mise en œuvre. L'IEC 62541‑6 spécifie un ou
+    plusieurs mécanismes concrets de mapping pour la mise en œuvre. Par exemple, dans
+    l'IEC 62541‑6, l'un des mécanismes de mapping repose sur l'utilisation du profil
+    UA-TCP UA-SC UA-Binary. Dans ce cas, les Services décrits dans le présent document
+    apparaissent comme une charge utile à codage OPC UA Binaire, sécurisé par une
+    Conversation OPC UA sécurisée et transporté par le protocole TPC d'OPC UA. Tous
+    les Serveurs OPC UA ne mettent pas en œuvre tous les Services définis. L'IEC 62541‑7
+    définit les Profils qui dictent les Services qui doivent être mis en œuvre afin
+    d'être conforme à un Profil particulier. Une BNF (Backus-Naur Form, forme de Backus-Naur)
+    pour les noms de chemins de navigation est décrite à l'Annexe A. Cette quatrième
+    édition annule et remplace la troisième édition parue en 2020. Cette édition constitue
+    une révision technique.<br />\r\nCette édition inclut les modifications techniques
+    majeures suivantes par rapport à l'édition précédente:<br />\r\na) ajout de nouvelles
+    définitions au Service d'Appel de Méthode pour autoriser des arguments de Méthode
+    facultatifs;<br />\r\nb) ajout d'une référence au SystemStatusChangeEventType
+    pour les scénarios d'erreur d'élément surveillé par un événement;<br />\r\nc)
+    amélioration de la description générale de la manière de déterminer si un Certificat
+    est fiable;<br />\r\nd) ajout de la prise en charge d'ECC;<br />\r\ne) ajout de
+    revisedAggregateConfiguration à la structure AggregateFilterResult;<br />\r\nf)
+    ajout de la valeur INVALID au type de données d'énumération BrowseDirection;<br
     />\r\ng) ajout de la valeur INVALID au type de données d'énumération TimestampsToReturn;<br
     />\r\nh) ajout de définitions qui permettent de s'assurer que la fonctionnalité
     d'abonnement fonctionne si les files d'attente de retransmission sont facultatives;<br
