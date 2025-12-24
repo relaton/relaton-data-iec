@@ -1,0 +1,162 @@
+---
+schema-version: v1.2.9
+id: IEC62541-6-2025
+title:
+- content: OPC unified architecture
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 6: Mappings'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'OPC unified architecture - Part 6: Mappings'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Architecture unifiée OPC
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 6: Mappings'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Architecture unifiée OPC - Partie 6: Mappings'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/82274
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62541-6{ed4.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62541-6:2025
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62541-6:2025-12:::'
+  type: URN
+date:
+- type: published
+  value: '2025-12-23'
+- type: stable-until
+  value: '2028-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '4'
+revdate: '2025-12-23'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 62541-6:2025 specifies the mapping between the security model described
+    in IEC 62541‑2, the abstract service definitions specified in IEC 62541‑4, the
+    data structures defined in IEC 62541‑5 and the physical network protocols that
+    can be used to implement the OPC UA specification.<br />\r\nThis fourth edition
+    cancels and replaces the third edition published in 2020. This edition constitutes
+    a technical revision.<br />\r\nThis edition includes the following significant
+    technical changes with respect to the previous edition:<br />\r\na) addition of
+    support for ECC to UA Secure Conversation;<br />\r\nb) use of the AuthorityKeyIdentifier
+    extension in Certificate Revocation Lists;<br />\r\nc) enhancement of JSON mapping
+    of Unions;<br />\r\nd) addition of Decimal data type encoding.<br />\r\ne) description
+    of ECC keyUsage rules;<br />\r\nf) addition of Media assigned by IANA to UANodeSet
+    definition;<br />\r\ng) addition of requirements for user and issuer Certificates;<br
+    />\r\nh) addition of rules which specify what happens when DateTime precision
+    is lost;<br />\r\ni) addition of rules to allow for the truncation of strings
+    containing embedded nulls.<br />\r\nJ) definition of a normative string representation
+    for NodeId, ExpandedNodeId and QualifiedName for JSON mapping.<br />\r\nk) requirement
+    that TAI times be converted to UTC;<br />\r\nl) new possibility to omit Symbol
+    if unknown in JSON encoding;<br />\r\nm) addition of fields needed to support
+    RolePermissions to the UANodeSet"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 62541-6:2025 spécifie le mapping entre le modèle de sécurité décrit
+    dans l'IEC 62541‑2, les définitions de services abstraits spécifiées dans l'IEC
+    62541‑4, les structures de données définies dans l'IEC 62541‑5 et les protocoles
+    de réseaux physiques qui peuvent être utilisés pour mettre en œuvre la spécification
+    OPC UA.<br />\r\nCette quatrième édition annule et remplace la troisième édition
+    parue en 2020. Cette édition constitue une révision technique.<br />\r\nCette
+    édition inclut les modifications techniques majeures suivantes par rapport à l'édition
+    précédente:<br />\r\na) ajout de la prise en charge de la Conversation sécurisée
+    ECC vers UA;<br />\r\nb) utilisation de l'extension AutoritéKeyIdentifier dans
+    les Listes de révocation de certificat;<br />\r\nc) amélioration du mapping JSON
+    des Unions;<br />\r\nd) ajout du codage du type de données Décimal;<br />\r\ne)
+    description des règles de KeyUsage ECC;<br />\r\nf) ajout des médias attribués
+    par l'IANA à la définition de UANodeSet;<br />\r\ng) ajout d'exigences pour les
+    Certificats d'utilisateur et d'émetteur;<br />\r\nh) ajout de règles qui spécifient
+    ce qu'il se passe lorsque la précision DateTime est perdue;<br />\r\ni) ajout
+    de règles pour permettre la troncature de chaînes contenant des valeurs nulles
+    imbriquées;<br />\r\nj) définition d'une représentation de chaîne normative pour
+    NodeId, ExpandedNodeId et QualifiedName pour le mapping JSON;<br />\r\nk) exigence
+    de conversion des temps TAI en UTC;<br />\r\nl) nouvelle possibilité d'omission
+    du symbole s'il est inconnu dans le codage JSON;<br />\r\nm) ajout des champs
+    nécessaires à la prise en charge des RolePermissions pour le UANodeSet."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2025'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 65/SC 65E
+      number: 65
+      type: technicalCommittee
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    project_number: '115402'
+    type: IEC
+  price_code: iec:N

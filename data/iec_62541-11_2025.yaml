@@ -1,0 +1,176 @@
+---
+schema-version: v1.2.9
+id: IEC62541-11-2025
+title:
+- content: OPC Unified Architecture
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 11: Historical Access'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'OPC Unified Architecture - Part 11: Historical Access'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Architecture unifiée OPC
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 11: Accès à l''historique'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Architecture unifiée OPC - Partie 11: Accès à l''historique'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/82280
+  type: src
+type: standard
+docid:
+- id: IEC 62541-11:2025
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62541-11:2025-12:::'
+  type: URN
+date:
+- type: published
+  value: '2025-12-23'
+- type: stable-until
+  value: '2028-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2025-12-23'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 62541-11: 2025 defines the Information Model associated with Historical
+    Access (HA). It particularly includes additional and complementary descriptions
+    of the NodeClasses and Attributes needed for Historical Access, additional standard
+    Properties, and other information and behaviour. The complete AddressSpace Model
+    including all NodeClasses and Attributes is specified in IEC 62541‑3. The predefined
+    Information Model is defined in IEC 62541‑5. The Services to detect and access
+    historical data and events, and description of the ExtensibleParameter types are
+    specified in IEC 62541‑4. This document includes functionality to compute and
+    return Aggregates like minimum, maximum, average etc. The Information Model and
+    the concrete working of Aggregates are defined in IEC 62541‑13. Conventions for
+    Historical Access Clients are informatively provided in Annex A.<br />\r\nThis
+    fourth edition cancels and replaces the third edition published in 2020. This
+    edition constitutes a technical revision.<br />\r\nThis edition includes the following
+    significant technical changes with respect to the previous edition:<br />\r\na)
+    a functionality has been added to support retrieving of modified events;<br />\r\nb)
+    an Event has been added to indicate when a backfill occurred;<br />\r\nc) a new
+    ReferenceType that can be used to indicate an external node has been defined;<br
+    />\r\nd) the text has been improved to better explain the concept of annotation
+    and remove conflicting explanations;<br />\r\ne) a default historian configuration
+    (and where to find it) has been defined;<br />\r\nf) HistoricalEventConfigurationType,
+    which provides general configuration information about the historical Event storage,
+    has been added;<br />\r\ng) the text has been updated and optional fields have
+    been added to HA configuration object to allow configuration to be defined for
+    periodic data collection, not just for exception-based collection;<br />\r\nh)
+    an ObjectType that can be used for external event collection has been provided
+    as well as an example how historians can be configured."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 62541-11: 2025 définit le Modèle d'Information associé à l'Accès à
+    l'historique (HA, Historical Access). Elle inclut en particulier des descriptions
+    supplémentaires et complémentaires des NodeClasses et des Attributs nécessaires
+    pour l'Accès à l'historique, des Propriétés normalisées supplémentaires et d'autres
+    informations et comportements. Le Modèle complet de l'AddressSpace comprenant
+    toutes les NodeClasses et tous les Attributs est spécifié dans l'IEC 62541‑3.
+    Le Modèle d'information prédéfini est défini dans l'IEC 62541‑5. Les Services
+    permettant de détecter et d'accéder aux données et événements historiques, ainsi
+    qu'une description des types ExtensibleParameter, sont spécifiés dans l'IEC 62541‑4.
+    Le présent document inclut une fonctionnalité permettant de calculer et de renvoyer
+    des Agrégats (minimum, maximum, moyenne, etc.). Le Modèle d'information et la
+    fonction concrète des Agrégats sont définis dans l'IEC 62541‑13. Les conventions
+    pour les Clients d'Accès à l'historique sont données, à titre informatif, à l'Annexe
+    A. Cette quatrième édition annule et remplace la troisième édition parue en 2020.
+    Cette édition constitue une révision technique.<br />\r\nCette édition inclut
+    les modifications techniques majeures suivantes par rapport à l'édition précédente:<br
+    />\r\na) une fonctionnalité qui permet de récupérer les événements modifiés a
+    été ajoutée;<br />\r\nb) un Événement qui indique quand un remplissage a eu lieu
+    a été ajouté;<br />\r\nc) un nouveau ReferenceType qui peut être utilisé pour
+    indiquer un nœud externe a été défini;<br />\r\nd) le texte a été amélioré afin
+    de mieux expliquer le concept d'annotation et de supprimer les explications contradictoires;<br
+    />\r\ne) une configuration d'historique par défaut (et l'endroit où la trouver)
+    a été définie;<br />\r\nf) l'HistoricalEventConfigurationType, qui fournit des
+    informations de configuration générale sur le stockage des Événements historiques,
+    a été ajouté;<br />\r\ng) le texte a été mis à jour et des champs facultatifs
+    ont été ajoutés à l'objet de configuration HA afin de permettre la définition
+    de la configuration pour la collecte de données périodique, et pas seulement pour
+    la collecte fondée sur les exceptions;<br />\r\nh) un ObjectType qui peut être
+    utilisé pour la collecte d'événements externes a été prévu, ainsi qu'un exemple
+    de la façon dont les historiques peuvent être configurés."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2025'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 65/SC 65E
+      number: 65
+      type: technicalCommittee
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    project_number: '115408'
+    type: IEC
+  price_code: iec:L
