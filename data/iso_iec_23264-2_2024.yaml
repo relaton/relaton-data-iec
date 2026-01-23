@@ -63,8 +63,6 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/99496
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec23264-2{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
 - id: ISO/IEC 23264-2:2024
@@ -101,34 +99,35 @@ language:
 script:
 - Latn
 abstract:
-- content: '<p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
-    none;">This document specifies cryptographic mechanisms to redact authentic data.
-    The mechanisms described in this document offer different combinations of the
-    security properties defined and described in ISO/IEC 23264-1. For all mechanisms,
-    this document describes the processes for key generation, generating the redactable
-    attestation, carrying out redactions and verifying redactable attestations.</p><p
-    class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;">This
-    document contains mechanisms that are based on asymmetric cryptography using three
-    related transformations:</p><p class="MsoBodyText" style="margin-left: 36.0pt;
+- content: 'CORRECTED VERSION 2026-01<br /><br /><p class="MsoBodyText" style="mso-layout-grid-align:
+    none; text-autospace: none;">This document specifies cryptographic mechanisms
+    to redact authentic data. The mechanisms described in this document offer different
+    combinations of the security properties defined and described in ISO/IEC 23264-1.
+    For all mechanisms, this document describes the processes for key generation,
+    generating the redactable attestation, carrying out redactions and verifying redactable
+    attestations.</p><p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace:
+    none;">This document contains mechanisms that are based on asymmetric cryptography
+    using three related transformations:</p><p class="MsoBodyText" style="margin-left:
+    36.0pt; text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align:
+    none; text-autospace: none;"><!-- [if!supportLists]-->¾<!--[endif]-->a public
+    transformation defined by a verification key (verification process for verifying
+    a redactable attestation),</p><p class="MsoBodyText" style="margin-left: 36.0pt;
     text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align: none; text-autospace:
-    none;"><!-- [if!supportLists]-->¾<!--[endif]-->a public transformation defined
-    by a verification key (verification process for verifying a redactable attestation),</p><p
-    class="MsoBodyText" style="margin-left: 36.0pt; text-indent: -36.0pt; mso-list:
-    l0 level1 lfo1; mso-layout-grid-align: none; text-autospace: none;"><!-- [if!supportLists]-->¾<!--[endif]-->a
-    private transformation defined by a private attestation key (redactable attestation
-    process for generating a redactable attestation), and</p><p class="MsoBodyText"
-    style="margin-left: 36.0pt; text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align:
-    none; text-autospace: none;"><!-- [if!supportLists]-->¾<!--[endif]-->a third transformation
-    defined by the redaction key (redaction process) allowing to redact authentic
-    information within the constraints set forth during generation of the attestation
-    such that redacted information cannot be reconstructed.</p><p class="MsoBodyText"
-    style="mso-layout-grid-align: none; text-autospace: none;">This document contains
-    mechanisms which, after a successful redaction, allow the attestation to remain
-    verifiable using the verification transformation and attest that non-redacted
-    fields of the attested message are unmodified. This document further details that
-    the three transformations have the property whereby it is computationally infeasible
-    to derive the private attestation transformation, given the redaction and or the
-    verification transformation and key(s).</p>'
+    none;"><!-- [if!supportLists]-->¾<!--[endif]-->a private transformation defined
+    by a private attestation key (redactable attestation process for generating a
+    redactable attestation), and</p><p class="MsoBodyText" style="margin-left: 36.0pt;
+    text-indent: -36.0pt; mso-list: l0 level1 lfo1; mso-layout-grid-align: none; text-autospace:
+    none;"><!-- [if!supportLists]-->¾<!--[endif]-->a third transformation defined
+    by the redaction key (redaction process) allowing to redact authentic information
+    within the constraints set forth during generation of the attestation such that
+    redacted information cannot be reconstructed.</p><p class="MsoBodyText" style="mso-layout-grid-align:
+    none; text-autospace: none;">This document contains mechanisms which, after a
+    successful redaction, allow the attestation to remain verifiable using the verification
+    transformation and attest that non-redacted fields of the attested message are
+    unmodified. This document further details that the three transformations have
+    the property whereby it is computationally infeasible to derive the private attestation
+    transformation, given the redaction and or the verification transformation and
+    key(s).</p>'
   language:
   - en
   script:

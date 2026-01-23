@@ -71,28 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC 14772-1, the Virtual Reality Modeling Language (VRML), defines
-    a file format that integrates 3D graphics and multimedia. Conceptually, each VRML
-    file is a 3D time-based space that contains graphic and aural objects that can
-    be dynamically modified through a variety of mechanisms. This part of ISO/IEC
-    14772 defines the interface that applications external to the VRML browser may
-    use to access and manipulate the objects defined in ISO/IEC 14772-1.</p><p>The
-    interface described here is designed to allow an external environment to access
-    nodes in a VRML scene using the existing VRML event model. In this model, an eventOut
-    of a given node can be routed to an eventIn of another node. When the eventOut
-    generates an event, the eventIn is notified and its node processes that event.
-    Additionally, if a script in a Script node has a reference to a given node it
-    can send events directly to any eventIn of that node and it can read the last
-    value sent from any of its eventOuts.</p><p>The scope of this standard is to cover
-    all forms of access to a VRML browser from external applications. It is equally
-    valid for a database with a object interface to access a standalone browser in
-    a presentation slide as it is for a Java applet operating within a web browser
-    and the available services do not vary.</p><p>This standard does not provide a
-    byte level protocol description as there can be many valid ways of expressing
-    an interaction with a browser. Instead, it represents the interface in terms of
-    the services provided and the parameters that are passed to access these services.
-    Individual language and protocol bindings to these services are available as annexes
-    to this part of ISO/IEC 14772.</p>"
+- content: CORRECTED VERSION 2026-01<br /><br /><p>ISO/IEC 14772-1, the Virtual Reality
+    Modeling Language (VRML), defines a file format that integrates 3D graphics and
+    multimedia. Conceptually, each VRML file is a 3D time-based space that contains
+    graphic and aural objects that can be dynamically modified through a variety of
+    mechanisms. This part of ISO/IEC 14772 defines the interface that applications
+    external to the VRML browser may use to access and manipulate the objects defined
+    in ISO/IEC 14772-1.</p><p>The interface described here is designed to allow an
+    external environment to access nodes in a VRML scene using the existing VRML event
+    model. In this model, an eventOut of a given node can be routed to an eventIn
+    of another node. When the eventOut generates an event, the eventIn is notified
+    and its node processes that event. Additionally, if a script in a Script node
+    has a reference to a given node it can send events directly to any eventIn of
+    that node and it can read the last value sent from any of its eventOuts.</p><p>The
+    scope of this standard is to cover all forms of access to a VRML browser from
+    external applications. It is equally valid for a database with a object interface
+    to access a standalone browser in a presentation slide as it is for a Java applet
+    operating within a web browser and the available services do not vary.</p><p>This
+    standard does not provide a byte level protocol description as there can be many
+    valid ways of expressing an interaction with a browser. Instead, it represents
+    the interface in terms of the services provided and the parameters that are passed
+    to access these services. Individual language and protocol bindings to these services
+    are available as annexes to this part of ISO/IEC 14772.</p>
   language:
   - en
   script:
