@@ -69,55 +69,55 @@ language:
 script:
 - Latn
 abstract:
-- content: 'CORRECTED VERSION 2026-01<br /><br /><p>This part of ISO/IEC 1539 defines
-    facilities in Fortran for the manipulation of character strings of dynamically
-    variable length. This part of ISO/IEC 1539 provides an auxiliary standard for
-    the version of the Fortran language specified by ISO/IEC 1539-1: 1997 and informally
-    known as Fortran 95.</p><p>A program that conforms with 1539-2: 1994 also conforms
-    with this standard.</p><p>This part of ISO/IEC 1539 is an auxiliary standard to
-    that defining Fortran 95 in that it defines additional facilities to those defined
-    intrinsically in the primary language standard. A processor conforming to the
-    Fortran 95 standard is not required also to conform to this part of ISO/IEC 1539.
-    However, conformance to this part of ISO/IEC 1539 assumes conformance to the primary
-    Fortran 95 standard.</p><p>This part of ISO/IEC 1539 prescribes the name of a
-    Fortran module, the name of a derived data type to be used to represent varying-length
-    strings, the interfaces for the procedures and operators to be provided to manipulate
-    objects of this type, and the semantics that are required for each of the entities
-    made accessible by this module.</p><p>This part of ISO/IEC 1539 does not prescribe
-    the details of any implementation. Neither the method used to represent the data
-    entities of the defined type nor the algorithms used to implement the procedures
-    or operators whose interfaces are defined by this part of ISO/IEC 1539 are prescribed.
-    A conformant implementation may use any representation and any algorithms, subject
-    only to the requirement that the publicly accessible names and interfaces conform
-    to this part of ISO/IEC 1539, and that the semantics are as required by this part
-    of ISO/IEC 1539 and those of ISO/IEC 1539-1: 1997.</p><p>It should be noted that
-    a processor is not required to implement this part of ISO/IEC 1539 in order to
-    be a standard conforming Fortran processor, but if a processor implements facilities
-    for manipulating varying length character strings, it is recommended that this
-    be done in a manner that is conformant with this part of ISO/IEC 1539.</p><p>A
-    processor conforming to this part of ISO/IEC 1539 may extend the facilities provided
-    for the manipulation of varying length character strings as long as such extensions
-    do not conflict with this part of ISO/IEC 1539 or with ISO/IEC 1539-1: 1997.</p><p>A
-    module, written in standard conforming Fortran, is referenced in Annex A. This
-    module illustrates one way in which the facilities described in this part of ISO/IEC
-    1539 could be provided. This module is both conformant with the requirements of
-    this part of ISO/IEC 1539 and, because it is written in standard conforming Fortran,
-    it provides a portable implementation of the required facilities. This module
-    is referenced for information only and is not intended to constrain implementations
-    in any way. This module is a demonstration that at least one implementation, in
-    standard conforming and hence portable Fortran, is possible.</p><p>It should be
-    noted that this part of ISO/IEC 1539 defines facilities for dynamically varying
-    length strings of characters of default kind only. Throughout this part of ISO/IEC
-    1539 all references to intrinsic type CHARACTER should be read as meaning characters
-    of default kind. Similar facilities could be defined for non-default kind characters
-    by a separate, if similar, module for each such character kind.</p><p>This part
-    of ISO/IEC 1539 has been designed, as far as is reasonable, to provide for varying
-    length character strings the facilities that are available for intrinsic fixed
-    length character strings. All the intrinsic operations and functions that apply
-    to fixed length character strings have extended meanings defined by this part
-    of ISO/IEC 1539 for varying length character strings. Also a small number of additional
-    facilities are defined that are appropriate because of the essential differences
-    between the intrinsic type and the varying length derived data type.</p>'
+- content: "<p>This part of ISO/IEC 1539 defines facilities in Fortran for the manipulation
+    of character strings of dynamically variable length. This part of ISO/IEC 1539
+    provides an auxiliary standard for the version of the Fortran language specified
+    by ISO/IEC 1539-1: 1997 and informally known as Fortran 95.</p><p>A program that
+    conforms with 1539-2: 1994 also conforms with this standard.</p><p>This part of
+    ISO/IEC 1539 is an auxiliary standard to that defining Fortran 95 in that it defines
+    additional facilities to those defined intrinsically in the primary language standard.
+    A processor conforming to the Fortran 95 standard is not required also to conform
+    to this part of ISO/IEC 1539. However, conformance to this part of ISO/IEC 1539
+    assumes conformance to the primary Fortran 95 standard.</p><p>This part of ISO/IEC
+    1539 prescribes the name of a Fortran module, the name of a derived data type
+    to be used to represent varying-length strings, the interfaces for the procedures
+    and operators to be provided to manipulate objects of this type, and the semantics
+    that are required for each of the entities made accessible by this module.</p><p>This
+    part of ISO/IEC 1539 does not prescribe the details of any implementation. Neither
+    the method used to represent the data entities of the defined type nor the algorithms
+    used to implement the procedures or operators whose interfaces are defined by
+    this part of ISO/IEC 1539 are prescribed. A conformant implementation may use
+    any representation and any algorithms, subject only to the requirement that the
+    publicly accessible names and interfaces conform to this part of ISO/IEC 1539,
+    and that the semantics are as required by this part of ISO/IEC 1539 and those
+    of ISO/IEC 1539-1: 1997.</p><p>It should be noted that a processor is not required
+    to implement this part of ISO/IEC 1539 in order to be a standard conforming Fortran
+    processor, but if a processor implements facilities for manipulating varying length
+    character strings, it is recommended that this be done in a manner that is conformant
+    with this part of ISO/IEC 1539.</p><p>A processor conforming to this part of ISO/IEC
+    1539 may extend the facilities provided for the manipulation of varying length
+    character strings as long as such extensions do not conflict with this part of
+    ISO/IEC 1539 or with ISO/IEC 1539-1: 1997.</p><p>A module, written in standard
+    conforming Fortran, is referenced in Annex A. This module illustrates one way
+    in which the facilities described in this part of ISO/IEC 1539 could be provided.
+    This module is both conformant with the requirements of this part of ISO/IEC 1539
+    and, because it is written in standard conforming Fortran, it provides a portable
+    implementation of the required facilities. This module is referenced for information
+    only and is not intended to constrain implementations in any way. This module
+    is a demonstration that at least one implementation, in standard conforming and
+    hence portable Fortran, is possible.</p><p>It should be noted that this part of
+    ISO/IEC 1539 defines facilities for dynamically varying length strings of characters
+    of default kind only. Throughout this part of ISO/IEC 1539 all references to intrinsic
+    type CHARACTER should be read as meaning characters of default kind. Similar facilities
+    could be defined for non-default kind characters by a separate, if similar, module
+    for each such character kind.</p><p>This part of ISO/IEC 1539 has been designed,
+    as far as is reasonable, to provide for varying length character strings the facilities
+    that are available for intrinsic fixed length character strings. All the intrinsic
+    operations and functions that apply to fixed length character strings have extended
+    meanings defined by this part of ISO/IEC 1539 for varying length character strings.
+    Also a small number of additional facilities are defined that are appropriate
+    because of the essential differences between the intrinsic type and the varying
+    length derived data type.</p>"
   language:
   - en
   script:
