@@ -26,8 +26,6 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/68171
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec18032{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
 - id: ISO/IEC 18032:2020
@@ -63,22 +61,23 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document specifies methods for generating and testing prime numbers
-    as required in cryptographic protocols and algorithms.</p><p>Firstly, this document
-    specifies methods for testing whether a given number is prime. The testing methods
-    included in this document are divided into two groups:</p><p>— probabilistic primality
-    tests, which have a small error probability. All probabilistic tests described
-    here can declare a composite to be a prime;</p><p>— deterministic methods, which
-    are guaranteed to give the right verdict. These methods use so-called primality
-    certificates.</p><p>Secondly, this document specifies methods to generate prime
-    numbers. Again, both probabilistic and deterministic methods are presented.</p><p>NOTE
-    It is possible that readers with a background in algorithm theory have already
-    had previous encounters with probabilistic and deterministic algorithms. The deterministic
-    methods in this document internally still make use of random bits (to be generated
-    via methods described in ISO/IEC 18031), and "deterministic" only refers to the
-    fact that the output is correct with probability one.</p><p>Annex A provides error
-    probabilities that are utilized by the Miller-Rabin primality test.</p><p>Annex
-    B describes variants of the methods for generating primes so that particular cryptographic
+- content: CORRECTED VERSION 2026-01<br /><br /><p>This document specifies methods
+    for generating and testing prime numbers as required in cryptographic protocols
+    and algorithms.</p><p>Firstly, this document specifies methods for testing whether
+    a given number is prime. The testing methods included in this document are divided
+    into two groups:</p><p>— probabilistic primality tests, which have a small error
+    probability. All probabilistic tests described here can declare a composite to
+    be a prime;</p><p>— deterministic methods, which are guaranteed to give the right
+    verdict. These methods use so-called primality certificates.</p><p>Secondly, this
+    document specifies methods to generate prime numbers. Again, both probabilistic
+    and deterministic methods are presented.</p><p>NOTE It is possible that readers
+    with a background in algorithm theory have already had previous encounters with
+    probabilistic and deterministic algorithms. The deterministic methods in this
+    document internally still make use of random bits (to be generated via methods
+    described in ISO/IEC 18031), and "deterministic" only refers to the fact that
+    the output is correct with probability one.</p><p>Annex A provides error probabilities
+    that are utilized by the Miller-Rabin primality test.</p><p>Annex B describes
+    variants of the methods for generating primes so that particular cryptographic
     requirements can be met.</p><p>Annex C defines primitives utilized by the prime
     generation and verification methods.</p>
   language:

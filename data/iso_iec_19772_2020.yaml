@@ -26,8 +26,6 @@ title:
 link:
 - content: https://webstore.iec.ch/publication/68124
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec19772{ed2.0}en.pdf
-  type: obp
 type: standard
 docid:
 - id: ISO/IEC 19772:2020
@@ -63,26 +61,26 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies five methods for authenticated encryption,
-    i.e. defined ways of processing a data string with the following security objectives:</p><p>—
-    data confidentiality, i.e. protection against unauthorized disclosure of data;</p><p>—
-    data integrity, i.e. protection that enables the recipient of data to verify that
-    it has not been modified;</p><p>— data origin authentication, i.e. protection
-    that enables the recipient of data to verify the identity of the data originator.</p><p>All
-    five methods specified in this document are based on a block cipher algorithm,
-    and require the originator and the recipient of the protected data to share a
-    secret key for this block cipher.</p><p>Key management is outside the scope of
-    this document. Key management techniques are defined in ISO/IEC 11770 (all parts).</p><p>Four
-    of the mechanisms in this document, namely mechanisms 3, 4, 5 (AAD variant only)
-    and 6, allow data to be authenticated which is not encrypted. That is, these mechanisms
-    allow a data string that is to be protected to be divided into two parts,<em>D</em>,
-    the data string that is to be encrypted and integrity-protected, and<em>A</em>
-    (the additional authenticated data) that is integrity-protected but not encrypted.
-    In all cases, the string<em>A</em> can be empty.</p><p>NOTE Examples of types
-    of data that can need to be sent in unencrypted form, but whose integrity is to
-    be protected, include addresses, port numbers, sequence numbers, protocol version
-    numbers and other network protocol fields that indicate how the plaintext is to
-    be handled, forwarded or processed.</p>"
+- content: CORRECTED VERSION 2026-01<br /><br /><p>This document specifies five methods
+    for authenticated encryption, i.e. defined ways of processing a data string with
+    the following security objectives:</p><p>— data confidentiality, i.e. protection
+    against unauthorized disclosure of data;</p><p>— data integrity, i.e. protection
+    that enables the recipient of data to verify that it has not been modified;</p><p>—
+    data origin authentication, i.e. protection that enables the recipient of data
+    to verify the identity of the data originator.</p><p>All five methods specified
+    in this document are based on a block cipher algorithm, and require the originator
+    and the recipient of the protected data to share a secret key for this block cipher.</p><p>Key
+    management is outside the scope of this document. Key management techniques are
+    defined in ISO/IEC 11770 (all parts).</p><p>Four of the mechanisms in this document,
+    namely mechanisms 3, 4, 5 (AAD variant only) and 6, allow data to be authenticated
+    which is not encrypted. That is, these mechanisms allow a data string that is
+    to be protected to be divided into two parts,<em>D</em>, the data string that
+    is to be encrypted and integrity-protected, and<em>A</em> (the additional authenticated
+    data) that is integrity-protected but not encrypted. In all cases, the string<em>A</em>
+    can be empty.</p><p>NOTE Examples of types of data that can need to be sent in
+    unencrypted form, but whose integrity is to be protected, include addresses, port
+    numbers, sequence numbers, protocol version numbers and other network protocol
+    fields that indicate how the plaintext is to be handled, forwarded or processed.</p>
   language:
   - en
   script:
