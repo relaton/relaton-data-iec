@@ -71,20 +71,19 @@ language:
 script:
 - Latn
 abstract:
-- content: CORRECTED VERSION 2026-01<br /><br /><p>This document introduces security
-    properties and provides best practices on the test and evaluation of white box
-    cryptography (WBC). WBC is a cryptographic algorithm specialized for a key or
-    secret, but where the said key cannot be extracted.</p><p>The WBC implementation
-    can consist of plain source code for the cryptographic algorithm and/or of a device
-    implementing the algorithm. In both cases, security functions are implemented
-    to deter an attacker from uncovering the key or secret.</p><p>Security properties
-    consist in the secrecy of security parameters concealed within the implementation
-    of the white box cryptography. Best practices for the test and evaluation includes
-    mathematical and practical analyses, static and dynamic analyses, non-invasive
-    and invasive analyses.</p><p>This document is related to ISO/IEC 19790 which specifies
-    security requirements for cryptographic modules. In those modules, critical security
-    parameters (CSPs) and public security parameters (PSPs) are the assets to protect.
-    WBC is one solution to conceal CSPs inside of the implementation.</p>
+- content: "<p>This document introduces security properties and provides best practices
+    on the test and evaluation of white box cryptography (WBC). WBC is a cryptographic
+    algorithm specialized for a key or secret, but where the said key cannot be extracted.</p><p>The
+    WBC implementation can consist of plain source code for the cryptographic algorithm
+    and/or of a device implementing the algorithm. In both cases, security functions
+    are implemented to deter an attacker from uncovering the key or secret.</p><p>Security
+    properties consist in the secrecy of security parameters concealed within the
+    implementation of the white box cryptography. Best practices for the test and
+    evaluation includes mathematical and practical analyses, static and dynamic analyses,
+    non-invasive and invasive analyses.</p><p>This document is related to ISO/IEC
+    19790 which specifies security requirements for cryptographic modules. In those
+    modules, critical security parameters (CSPs) and public security parameters (PSPs)
+    are the assets to protect. WBC is one solution to conceal CSPs inside of the implementation.</p>"
   language:
   - en
   script:
