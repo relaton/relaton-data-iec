@@ -1,0 +1,128 @@
+---
+id: IEC6254172020RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Profiles'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 7: Profiles'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67243
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-7{ed3.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62541-7:2020 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62541-7::rlv
+  type: URN
+date:
+- type: published
+  at: '2020-06-22'
+- type: stable-until
+  at: '2025-12-16'
+- type: obsoleted
+  at: '2025-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-7:2020 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\nIEC 62541-7:2020 defines
+    the OPC Unified Architecture (OPC UA) Profiles. The Profiles in this document
+    are used to segregate features with regard to testing of OPC UA products and the
+    nature of the testing (tool based or lab based). This includes the testing performed
+    by the OPC Foundation provided OPC UA CTT (a self-test tool) and by the OPC Foundation
+    provided Independent certification test labs. This could equally as well refer
+    to test tools provided by another organization or a test lab provided by another
+    organization. What is important is the concept of automated tool-based testing
+    versus lab-based testing. The scope of this standard includes defining functionality
+    that can only be tested in a lab and defining the grouping of functionality that
+    is to be used when testing OPC UA products either in a lab or using automated
+    tools. The definition of actual TestCases is not within the scope of this document,
+    but the general categories of TestCases are within the scope of this document.<br
+    />\r\nMost OPC UA applications will conform to several, but not all, of the Profiles.<br
+    />\r\nThis third edition cancels and replaces the second edition published in
+    2015. This edition constitutes a technical revision.<br />\r\nThis edition includes
+    the following significant technical changes with respect to the previous edition:<br
+    />\r\na) new functional Profiles:<br />\r\n• profiles for global discovery and
+    global certificate management;<br />\r\n• profiles for global KeyCredential management
+    and global access token management;<br />\r\n• facet for durable subscriptions;<br
+    />\r\n• standard UA Client Profile;<br />\r\n• profiles for administration of
+    user roles and permissions.<br />\r\nb) new transport Profiles:<br />\r\n• HTTPS
+    with JSON encoding;<br />\r\n• secure WebSockets (WSS) with binary or JSON encoding;<br
+    />\r\n• reverse connectivity.<br />\r\nc) new security Profiles:<br />\r\n• transportSecurity
+    – TLS 1.2 with PFS (with perfect forward secrecy);<br />\r\n• securityPolicy [A]
+    – Aes128-Sha256-RsaOaep (replaces Base128Rsa15);<br />\r\n• securityPolicy – Aes256-Sha256-RsaPss
+    adds perfect forward secrecy for UA TCP);<br />\r\n• user Token JWT (Jason Web
+    Token).<br />\r\nd) deprecated Security Profiles (due to broken algorithms):<br
+    />\r\n• securityPolicy – Basic128Rsa15 (broken algorithm Sha1);<br />\r\n• securityPolicy
+    – Basic256 (broken algorithm Sha1);<br />\r\n• transportSecurity – TLS 1.0 (broken
+    algorithm RC4);<br />\r\n• transportSecurity – TLS 1.1 (broken algorithm RC4).<br
+    />\r\ne) deprecated Transport (missing support on most platforms):<br />\r\n•
+    SOAP/HTTP with WS-SecureConversation (all encodings)."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '101128'
+  price_code: iec:RG

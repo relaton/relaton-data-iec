@@ -1,0 +1,246 @@
+---
+id: IEC619704572024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 457: Dynamics profile'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part
+    457: Dynamics profile'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d’application pour système de gestion d’énergie
+    (EMS-API)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 457: Profil de régimes dynamiques'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d’application pour système de gestion d’énergie
+    (EMS-API) - Partie 457: Profil de régimes dynamiques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68910
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61970-457{ed2.0}b.pdf
+docidentifier:
+- content: IEC 61970-457:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61970-457:2024-02:::'
+  type: URN
+date:
+- type: published
+  at: '2024-02-09'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61970-457:2024 specifies a standard interface for exchanging dynamic
+    model information needed to support the analysis of the steady state stability
+    (small-signal stability) and/or transient stability of a power system or parts
+    of it. The schema(s) for expressing the dynamic model information are derived
+    directly from the CIM, more specifically from IEC 61970-302.<br />\r\nThe scope
+    of this document includes only the dynamic model information that needs to be
+    exchanged as part of a dynamic study, namely the type, description and parameters
+    of each control equipment associated with a piece of power system equipment included
+    in the steady state solution of a complete power system network model. Therefore,
+    this profile is dependent upon other standard profiles for the equipment as specified
+    in IEC 61970-452: CIM static transmission network model profiles, the topology,
+    the steady state hypothesis and the steady state solution (as specified in IEC
+    61970-456: Solved power system state profiles) of the power system, which bounds
+    the scope of the exchange. The profile information described by this document
+    needs to be exchanged in conjunction with IEC 61970-452 and IEC 61970-456 profiles’
+    information to support the data requirements of transient analysis tools. IEC
+    61970-456 provides a detailed description of how different profile standards can
+    be combined to form various types of power system network model exchanges.<br
+    />\r\nThis document supports the exchange of the following types of dynamic models:<br
+    />\r\n• standard models: a simplified approach to exchange, where models are contained
+    in predefined libraries of classes interconnected in a standard manner that represent
+    dynamic behaviour of elements of the power system. The exchange only indicates
+    the name of the model along with the attributes needed to describe its behaviour.<br
+    />\r\n• proprietary user-defined models: an exchange that would provide users
+    the ability to exchange the parameters of a model representing a vendor or user
+    proprietary device where an explicit description of the model is not described
+    in this document. The connections between the proprietary models and standard
+    models are the same as described for the standard models exchange. Recipient of
+    the data exchange will need to contact the sender for the behavioural details
+    of the model.<br />\r\nThis document builds on IEC 61970-302, CIM for dynamics
+    which defines the descriptions of the standard dynamic models, their function
+    block diagrams, and how they are interconnected and associated with the static
+    network model. This type of model information is assumed to be pre-stored by all
+    software applications hence it is not necessary to be exchanged in real-time or
+    as part of a dynamics model exchange.<br />\r\nThis second edition cancels and
+    replaces the first edition published in 2021. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) The majority of issues detected
+    in IEC 61970-302:2018 and fixed in IEC 61970-302:2022 led to update of this document;<br
+    />\r\nb) IEEE 421.5-2016 on Excitation systems is fully covered;<br />\r\nc) IEEE
+    turbine report from 2013 was considered and as a result a number of gas, steam
+    and hydro turbines/governors are added;<br />\r\nd) IEC 61400-27-1:2020 on wind
+    turbines is fully incorporated;<br />\r\ne) WECC Inverter-Based Resource (IBR)
+    models, Hybrid STATCOM models and storage models are added;<br />\r\nf) The user
+    defined models approach was enhanced in IEC 61970-302:2022 adding a model which
+    enables modelling of a detailed dynamic model. This results in the creation of
+    two additional profiles in this document. These are the Detailed Model Configuration
+    profile and Detailed Model Parameterisation profile;<br />\r\ng) A model to enable
+    exchange of simulation results was added in IEC 61970-302:2022. This results in
+    the creation of two additional profiles in this document. These are the Simulation
+    Settings profile and Simulation Results profile;<br />\r\nh) The work on the HVDC
+    models is not complete. The HVDC dynamics models are a complex domain in which
+    there are no models that are approved or widely recognised on international level,
+    i.e. there are only project-based models. At this stage IEC 61970-302:2022 only
+    specifies some general classes. However, it is recognised that better coverage
+    of HVDC will require a further edition of this document as well as next edition
+    of IEC 61970-302;<br />\r\ni) Models from IEEE 1547-2018 \"IEEE Standard for Interconnection
+    and Interoperability of Distributed Energy Resources with Associated Electric
+    Power Systems Interfaces\" are added.<br />\r\nj) Statements have been added to
+    certain figures, tables, schemas, and enumerations throughout the document that
+    indicate that they are reproduced with the permission of the UCA International
+    User Group (UCAIug). These items are derived from the Common Information Model
+    (CIM)."
+- language: fr
+  script: Latn
+  content: "IEC 61970-457:2024 spécifie une interface normalisée pour l’échange des
+    informations de modèles dynamiques, nécessaires pour soutenir l’analyse de la
+    stabilité en régime établi (stabilité en petits signaux) et/ou la stabilité transitoire
+    d’un système électrique ou des parties de celui ci. Le ou les schémas d’expression
+    des informations de modèles dynamiques sont déduits directement du CIM, plus spécifiquement
+    de l’IEC 61970-302.<br />\r\nLe domaine d’application du présent document inclut
+    uniquement les informations des modèles dynamiques qu’il est nécessaire d’échanger
+    comme partie intégrante d’une étude des régimes dynamiques, à savoir le type,
+    la description et les paramètres de chaque équipement de commande associé à un
+    équipement de système électrique inclus dans la solution permanente d’un modèle
+    exhaustif de réseau électrique. Par conséquent, ce profil dépend des autres profils
+    normalisés pour les équipements comme cela est spécifié dans l’IEC 61970-452:
+    Profils du modèle de réseau de transport statique CIM, la topologie, l’hypothèse
+    en régime établi et la solution en régime établi (comme cela est spécifié dans
+    l'IEC 61970-456: Profils d'état de réseaux électriques résolus) du système électrique,
+    ce qui limite la portée de l’échange. Il est nécessaire d’échanger les informations
+    de profils décrites par le présent document conjointement avec les informations
+    de profils spécifiées dans l’IEC 61970-452 et l’IEC 61970-456 afin de venir à
+    l’appui des exigences relatives aux données des outils d’analyse transitoire.
+    L’IEC 61970-456 donne une description détaillée du mode selon lequel les différentes
+    normes de profils peuvent être combinées afin de former différents types d’échanges
+    de modèles de réseaux électriques.<br />\r\nLe présent document soutient l’échange
+    des types suivants de modèles dynamiques:<br />\r\n• modèles normalisés: une approche
+    simplifiée d’échange, avec laquelle les modèles sont contenus dans des bibliothèques
+    prédéfinies de classes interconnectées de manière normalisée, qui représentent
+    le comportement dynamique des éléments du système électrique. L’échange indique
+    uniquement le nom du modèle, ainsi que les attributs nécessaires pour décrire
+    son comportement.<br />\r\n• modèles propriétaires définis par l'utilisateur:
+    échange qui offre la possibilité aux utilisateurs d’échanger les paramètres d’un
+    modèle qui représente le dispositif propriétaire d’un fournisseur ou d’un utilisateur,
+    lorsque le présent document ne donne pas de description explicite du modèle. Les
+    connexions entre les modèles propriétaires et les modèles normalisés sont les
+    mêmes que celles décrites pour l’échange de modèles normalisés. Il est nécessaire
+    que le destinataire de l’échange de données contacte l’émetteur afin d’obtenir
+    les informations détaillées du comportement du modèle.<br />\r\nLa structure du
+    présent document suit le CIM pour régimes dynamiques de l’IEC 61970-302, qui définit
+    les descriptions des modèles dynamiques normalisés et de leurs diagrammes de blocs
+    fonctionnels, ainsi que leur mode d'interconnexion et d’association avec le modèle
+    de réseau statique. Par hypothèse, ce type d’information de modèle est réputé
+    être pré mémorisé par toutes les applications logicielles et il n’est ainsi pas
+    nécessaire de l'échanger en temps réel ou comme partie intégrante d’un échange
+    de modèles de régimes dynamiques<br />\r\nCette seconde édition annule et remplace
+    la première édition parue en 2021. Cette édition constitue une révision technique.<br
+    />\r\nCette édition inclut les modifications techniques majeures suivantes par
+    rapport à l’édition précédente:<br />\r\na) La majorité des problèmes identifiés
+    dans l’IEC 61970-302:2018 et réglés dans l’IEC 61970-302:2022 ont conduit à la
+    mise à jour du présent document.<br />\r\nb) La norme IEEE 421.5-2016 sur les
+    systèmes d’excitation est entièrement couverte.<br />\r\nc) La prise en considération
+    du rapport IEEE de 2013 sur les turbines a contribué à l’ajout d’un certain nombre
+    de turbines/régulateurs à gaz, à vapeur et hydrauliques.<br />\r\nd) L’IEC 61400-27-1:2020
+    concernant les éoliennes est entièrement intégrée.<br />\r\ne) Des modèles d’éoliennes
+    de type WECC à ressource fondée sur l’onduleur (IBR inverter based resource),
+    de type Hybrid STATCOM et de stockage ont été ajoutés.<br />\r\nf) L’approche
+    des modèles définis par l’utilisateur spécifiée dans l’IEC 61970-302:2022 a été
+    améliorée par l’ajout d’un modèle qui permet la modélisation du modèle dynamique
+    détaillé. Cette situation entraîne la création de deux profils supplémentaires
+    dans le présent document. Il s’agit du profil de configuration de modèle détaillé
+    et du profil de paramétrage de modèle détaillé.<br />\r\ng) Un modèle qui permet
+    l’échange des résultats de simulation a été ajouté dans l’IEC 61970-302:2022.
+    Cette situation entraîne la création de deux profils supplémentaires dans le présent
+    document. Il s’agit du profil de paramètres de simulation et du profil de résultats
+    de simulation.<br />\r\nh) Les travaux concernant les modèles HVDC ne sont pas
+    achevés. Les modèles de régimes dynamiques HVDC constituent un domaine complexe
+    qui ne comprend aucun modèle agréé ou reconnu à grande échelle au niveau international,
+    c’est à dire qu’il n’existe que des modèles fondés sur un projet. À ce stade,
+    seule l’IEC 61970-302:2022 spécifie certaines classes générales. Il est toutefois
+    admis qu’une meilleure couverture des modèles VDC exige une prochaine édition
+    du présent document, ainsi que de l’IEC 61970-302.<br />\r\ni) Les modèles définis
+    dans l’IEEE 1547-2018 \"IEEE Standard for Interconnection and Interoperability
+    of Distributed Energy Resources with Associated Electric Power Systems Interfaces\"
+    sont ajoutés.<br />\r\nj) Les experts de l’IEC et les experts techniques procèdent
+    actuellement à la clarification des droits à la propriété intellectuelle dans
+    les normes. Les anciens documents (auxquels il peut être fait référence) ne comportent
+    pas ces clarifications. Des énoncés ont été ajoutés à certaines figures et énumérations
+    et à certains tableaux et schémas et indiquent que ceux ci ont été reproduits
+    avec l’autorisation de l’UCA International User Group (UCAIug). Ces éléments sont
+    déduits du modèle d’information commun (CIM)."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '105375'
+  price_code: iec:P

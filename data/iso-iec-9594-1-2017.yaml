@@ -1,0 +1,121 @@
+---
+id: ISOIEC959412017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'The Directory -- Part 1: Overview of concepts, models and services'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Systems Interconnection - The Directory
+    -- Part 1: Overview of concepts, models and services'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/60657
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9594-1{ed8.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9594-1:2017
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9594-1:2017-05:::'
+  type: URN
+date:
+- type: published
+  at: '2017-05-05'
+- type: stable-until
+  at: '2020-12-01'
+- type: obsoleted
+  at: '2020-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '8'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 9594-1:2017 provides the directory capabilities required by OSI applications, OSI management processes, other OSI layer entities, and telecommunications services. Among the capabilities which it provides are those of "user-friendly naming", whereby objects can be referred to by names which are suitable for citing by human users (though not all objects need have user-friendly names); and "name-to-address mapping" which allows the binding between objects and their locations to be dynamic. The latter capability allows OSI networks, for example, to be "self-configuring" in the sense that addition, removal and the changes of object location do not affect OSI network operation.  </p>
+    <p>ISO/IEC 9594-1:2017 is not intended to be a general-purpose database system, although it may be built on such systems. It is assumed, for instance, that, as is typical with communications directories, there is a considerably higher frequency of "queries" than of updates. The rate of updates is expected to be governed by the dynamics of people and organizations, rather than, for example, the dynamics of networks. There is also no need for instantaneous global commitment of updates; transient conditions, where both old and new versions of the same information are available, are quite acceptable.  </p>
+    <p>It is a characteristic of the Directory that, except as a consequence of differing access rights or un-propagated updates, the results of directory queries will not be dependent on the identity or location of the inquirer. This characteristic renders the Directory unsuitable for some telecommunications applications, for example some types of routing. For cases where the results are dependent on the identity of the inquirer, access to directory information and updates of the Directory may be denied.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:B

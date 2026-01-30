@@ -1,0 +1,138 @@
+---
+id: ISOIEC2911612008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Supplemental media technologies
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Media streaming application format protocols'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Supplemental media technologies - Part 1: Media
+    streaming application format protocols'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21474
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29116-1{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29116-1:2008
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29116-1:2008-05:::'
+  type: URN
+date:
+- type: published
+  at: '2008-05-22'
+- type: obsoleted
+  at: '2010-11-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 29116-1:2008 specifies a set of protocols to be used in conjunction with ISO/IEC 23000-5, in applications where governed audio and video information is streamed to an end-user device, named the Media Streaming Player. </p>
+    <p>Media Streaming Players can interact with a number of Media Streaming Devices:</p>
+    <ul>
+    <li><i>Content Provider Device, </i>a device capable of interacting with a Media Streaming Player to provide content;</li>
+    <li><i>Licence Provider Device, </i>a device capable of interacting with a Media Streaming Player to provide licences;</li>
+    <li><i>IPMP Tool Provider Device, </i>a device capable of interacting with a Media Streaming Player to provide IPMP Tools, i.e. modules performing one or more functions such as encryption, watermarking, etc.;</li>
+    <li><i>Domain Management Device, </i>a device capable of managing various functions needed for a proper functioning of a domain.</li>
+    </ul>
+    <p>Two types of protocols are the target of ISO/IEC 29116-1:2008: the Access Protocols and the Domain Management Protocols. </p>
+    <p>The Access Protocols specify how a Media Streaming Player can obtain from another Media Streaming Device the following information:</p>
+    <ul>
+    <li>a content item or any of its parts, either streamed to an end-user device by means of existing protocols such as MPEG-2 Transport Stream or Real Time Protocol over Internet Protocol (RTP/IP) or stored in an MPEG-21 file;</li>
+    <li>a licence, which can grant the Media Streaming Player or its user(s) some rights over a content item or any of its parts, possibly under some conditions;</li>
+    <li>executable code implementing security functions</li>
+    </ul>
+    <p>The Domain Management Protocols specify how a number of devices and/or users can be grouped in a domain, groups of devices or users sharing some common properties. By using domains it becomes possible to implement more flexible licensing modalities, e.g. to license content to all devices or users in a domain. Domain Management Protocols include the specification of technologies for achieving the following goals:</p>
+    <ul>
+    <li>creating, renewing or deleting a domain; </li>
+    <li>issuing domain membership licences for devices and users;</li>
+    <li>managing devices and users memberships of a domain, i.e. joining, renewing and leaving a domain;</li>
+    <li>verifying that domain-bound content has been used within the domain according to licence terms.</li>
+    </ul>
+status:
+  stage:
+    content: REPLACED
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

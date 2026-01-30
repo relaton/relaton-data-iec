@@ -1,0 +1,141 @@
+---
+id: ISOIEC1381812025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Generic coding of moving pictures and associated audio information
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Generic coding of moving pictures and associated
+    audio information - Part 1: Systems'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Codage générique des images animées et du son associé
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Systèmes'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Codage générique des images animées et
+    du son associé - Partie 1: Systèmes'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/109223
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec13818-1{ed10.0}en.pdf
+docidentifier:
+- content: ISO/IEC 13818-1:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:13818-1:2025-08:::'
+  type: URN
+date:
+- type: published
+  at: '2025-08-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '10'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoNormal"><span lang="EN-GB">This document specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in Parts 2 and 3 of ISO/IEC 13818. The system layer supports six basic functions:</span></p>
+    <p class="enumlev1"><span lang="EN-GB">1)<span style="mso-tab-count: 1;">     </span>the synchronization of multiple compressed streams on decoding;</span></p>
+    <p class="enumlev1"><span lang="EN-GB">2)<span style="mso-tab-count: 1;">     </span>the interleaving of multiple compressed streams into a single stream;</span></p>
+    <p class="enumlev1"><span lang="EN-GB">3)<span style="mso-tab-count: 1;">     </span>the initialization of buffering for decoding start up;</span></p>
+    <p class="enumlev1"><span lang="EN-GB">4)<span style="mso-tab-count: 1;">     </span>continuous buffer management;</span></p>
+    <p class="enumlev1"><span lang="EN-GB">5)<span style="mso-tab-count: 1;">     </span>time identification;</span></p>
+    <p class="enumlev1"><span lang="EN-GB">6)<span style="mso-tab-count: 1;">     </span>multiplexing and signalling of various components in a system stream.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream is either a transport stream or a program stream. Both streams are constructed from PES packets and packets containing other necessary information. Both stream types support multiplexing of video and audio compressed streams from one program with a common time base. The transport stream additionally supports the multiplexing of video and audio compressed streams from multiple programs with independent time bases. For almost error-free environments the program stream is generally more appropriate, supporting software processing of program information. The transport stream is more suitable for use in environments where errors are likely.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream, whether a transport stream or a program stream, is constructed in two layers: the outermost layer is the system layer, and the innermost is the compression layer. The system layer provides the functions necessary for using one or more compressed data streams in a system. The video and audio parts of this Specification define the compression coding layer for audio and video data. Coding of other types of data is not defined by this Specification, but is supported by the system layer provided that the other types of data adhere to the constraints defined in </span><span lang="EN-GB" style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi;">2.7</span><span lang="EN-GB">.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:H

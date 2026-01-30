@@ -1,0 +1,126 @@
+---
+id: ISOIEC979841999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Entity authentication -- Part 4: Mechanisms using a cryptographic check
+    function'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Entity authentication --
+    Part 4: Mechanisms using a cryptographic check function'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11900
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9798-4{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9798-4:1999
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9798-4:1999-12:::'
+  type: URN
+date:
+- type: published
+  at: '1999-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This part of ISO/IEC 9798 specifies entity authentication mechanisms using a cryptographic check function. Two</p>
+    <p>mechanisms are concerned with the authentication of a single entity (unilateral authentication), while the remaining</p>
+    <p>are mechanisms for mutual authentication of two entities.</p>
+    <p>The mechanisms specified in this part of ISO/IEC 9798 use time variant parameters such as time stamps,</p>
+    <p>sequence numbers, or random numbers, to prevent valid authentication information from being accepted at a later</p>
+    <p>time or more than once.</p>
+    <p>If a time stamp or sequence number is used, one pass is needed for unilateral authentication, while two passes are</p>
+    <p>needed to achieve mutual authentication. If a challenge and response method employing random numbers is</p>
+    <p>used, two passes are needed for unilateral authentication, while three passes are required to achieve mutual</p>
+    <p>authentication.</p>
+    <p>Examples of cryptographic check functions are given in ISO/IEC 9797.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:B

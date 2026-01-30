@@ -1,0 +1,120 @@
+---
+id: ISOIEC1801432004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Time-stamping services -- Part 3: Mechanisms producing linked tokens'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Time-stamping services
+    -- Part 3: Mechanisms producing linked tokens'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21330
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec18014-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 18014-3:2004
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:18014-3:2004-02:::'
+  type: URN
+date:
+- type: published
+  at: '2004-02-09'
+- type: stable-until
+  at: '2009-12-15'
+- type: obsoleted
+  at: '2009-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18014-3:2004 describes time-stamping services producing linked tokens, that is, tokens that are cryptographically bound to other tokens produced by these time-stamping services. It describes a general model for time-stamping services of this type and the basic components used to construct a time-stamping service of this type, it defines the data structures and protocols used to interact with a time-stamping service of this type, and it describes specific instances of such time-stamping services. </p>
+    <p>The usage of linking operations reduces the level of trust required in the time-stamping service. The trustworthiness of linked tokens depends on the integrity of the linking operations carried out by the time-stamping service. The integrity of the linking operations performed by the time-stamping service can be verified algorithmically. A time-stamping service producing linked tokens may publish values derived from the linking operations into widely available media to further bind the issued tokens to widely-witnessed events and provide additional assurance of integrity. A time-stamping service producing linked tokens may also use aggregation operations to bind multiple token requests together, thus providing higher throughput through the use of co-operating processes. Algorithms applicable to linking, aggregation and publishing operations are covered.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:B

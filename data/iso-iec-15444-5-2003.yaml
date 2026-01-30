@@ -1,0 +1,147 @@
+---
+id: ISOIEC1544452003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'JPEG 2000 image coding system: Reference software'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG 2000 image coding system: Reference software
+    - Part 5:'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Système de codage d''images JPEG 2000:
+    Logiciel de référence'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Système de codage d''images JPEG 2000:
+    Logiciel de référence'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10315
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed1.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 15444-5:2003
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15444-5:2003-11:::'
+  type: URN
+date:
+- type: published
+  at: '2003-11-20'
+- type: stable-until
+  at: '2015-10-14'
+- type: obsoleted
+  at: '2015-10-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 15444-5:2003 provides two independently created software reference implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC 15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set of lossless and lossy compression methods for coding continuous-tone, bi-level, greyscale or colour digital still images.</p>
+    <p>The reference software is informative only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000 image coding system.</p>
+    <p>Each version of the reference software contains source code, which may be compiled to provide the following functionality: </p>
+    <ul><li>transcoding from selected, widely available image formats into a JPEG 2000 codestream; </li><li>transcoding from selected, widely available image formats into the JP2 file format;</li><li>selection of a wide range of JPEG 2000 encoding options (as documented in each reference software);</li><li>decoding from a JPEG 2000 codestream to a range of selected widely available image formats;</li><li>partial processing of a JP2 file to extract a JPEG 2000 codestream for decoding to a range of selected widely available image formats (Note that the reference software does not implement a conforming JP2 file reader.);</li><li>some additional tools to help with evaluation and testing.</li></ul>
+- language: fr
+  script: Latn
+  content: |-
+    <p>L'ISO/CEI 15444-5:2003 contient deux implémentations de référence de l'ISO/CEI 15444-1 sous forme de logiciels créés indépendamment l'un de l'autre, afin d'aider les personnes chargées de l'implémentation de l'ISO/CEI 15444-1 à tester et à comprendre son contenu. L'ISO/CEI 15444-1 définit un ensemble de méthodes de compression sans perte et avec perte pour le codage d'images numériques fixes à modelé continu, monochromes, en échelle de gris ou en couleur.</p>
+    <p>Les logiciels de référence ne sont donnés qu'à titre indicatif. L'ISO/CEI 15444-5:2003 ne définit pas d'autres parties du système de codage d'images JPEG 2000.</p>
+    <p>Chaque version des logiciels de référence contient un code source, qui peut être compilé pour offrir les fonctionnalités suivantes:</p>
+    <p>-- transcodage de formats d'images courants en un flux codé JPEG 2000;</p>
+    <p>-- transcodage de formats d'images courants en un format de fichier JP2;</p>
+    <p>-- choix d'une large gamme d'options de codage JPEG 2000 (telles qu'indiquées dans chaque logiciel de référence);</p>
+    <p>-- décodage d'un flux codé JPEG 2000 en une série de formats d'images courants;</p>
+    <p>-- traitement partiel d'un fichier JP2 en vue de l'extraction d'un flux codé JPEG 2000 nécessaire au décodage d'une série de formats d'images courants (noter que les logiciels de référence n'implémentent pas un lecteur de fichier JP2 conforme);</p>
+    <p>-- d'autres outils permettant de procéder à une évaluation et à des essais.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:B

@@ -1,0 +1,129 @@
+---
+id: IECTR6185090112020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-11: Methodologies for modelling of logics for IEC 61850 based
+    applications'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part
+    90-11: Methodologies for modelling of logics for IEC 61850 based applications'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/32080
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iectr61850-90-11{ed1.0}en.pdf
+docidentifier:
+- content: IEC TR 61850-90-11:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-90-11:2020-09:tr::'
+  type: URN
+date:
+- type: published
+  at: '2020-09-22'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC TR 61850-90-11:2020(E), which is a Technical Report, describes the
+    methodologies for the modelling of logics for IEC 61850 based applications in
+    power utility automation. In particular, it describes the functional view of logic
+    based on existing logical nodes for generic process automation and the operational
+    modes of the logic. Furthermore it includes the specification of the standard
+    language to be applied to specific the logic as well as the related data exchange
+    format between engineering tools and their application as well as the mapping
+    of logic elements to IEC 61850 data types.<br />\r\nThe examples or use cases
+    given in this document are based on the class model introduced in IEC 61850-7-1
+    and defined in IEC 61850-7-3. The logical node and data names used in this document
+    are defined in IEC 61850-7-4, the services applied in IEC 61850-7-2. The naming
+    conventions of IEC 61850-7-2 are applied in this document also.<br />\r\nIf extensions
+    are needed in the application examples, the normative naming rules for multiple
+    instances and private, compatible extensions of Logical Node (LN) Classes and
+    Data Object Names defined in IEC 61850-7-1 are considered.<br />\r\nThis document
+    describes the use of IEC 61850 extensions for modelling logics, therefore it implies
+    some tutorial material. However it is advisable to read IEC 61850-6 and IEC 61850-7-1
+    in conjunction with IEC 61850-7-3 and IEC 61850-7-2 first and IEC 61131-3 as reference
+    for the programming language of logic.<br />\r\nThe different logics included
+    in any IED in an IEC 61850 based system can be classified into two groups:<br
+    />\r\n• Fixed Logic: These logics are predefined mostly for critical and complex
+    functions. They are typically included in the IED´s defined application, potentially
+    implemented in software, firmware or hardware, and are not modifiable with IEC
+    61850 tools and services. These logics are implementation specific. Fixed logic
+    is out of the scope of this document.<br />\r\n• Editable Logic: These are user
+    configurable / programmable logics which shall be modelled through IEC 61850 configuration
+    tools and be accessible by IEC 61850 services. These logics can be application
+    specific.<br />\r\nThe major goal of this document is to adopt the given functionality
+    of an IED to fit to specific application function demands. This is to provide
+    a definition of the methodology for describing and exchanging logics using an
+    IEC 61850 compatible solution. As a benefit the same logic description will be
+    valid and vendor-independent, so it could be used for different IEDs. It is up
+    to the tools to understand this standard description in order to be able to manipulate
+    the logics and to properly configure the IEDs.<br />\r\nGraphical representation
+    of logic is currently out-of-scope of the IEC 61850 series, even if it is part
+    of the PLCopen XML specification. The representation is subject to the engineering
+    tools.<br />\r\nModelling logics requires some extension of the currently defined
+    data model and / or an extension of the content in the SCL files which is described
+    and which needs to be considered in later editions of IEC 61850-6 and IEC 61850-7-4."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '21549'
+  price_code: iec:M

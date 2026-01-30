@@ -1,0 +1,253 @@
+---
+id: IEC6056512020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Underwater acoustics
+  type: title-intro
+- language: en
+  script: Latn
+  content: Hydrophones
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Calibration of hydrophones -- Part 1: Procedures for free-field calibration
+    of hydrophones'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Underwater acoustics - Hydrophones - Calibration of hydrophones -- Part
+    1: Procedures for free-field calibration of hydrophones'
+  type: main
+- language: fr
+  script: Latn
+  content: Acoustique sous-marine
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Hydrophones
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Étalonnage des hydrophones -- Partie 1: Procédures d''étalonnage en champ
+    libre des hydrophones'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Acoustique sous-marine - Hydrophones - Étalonnage des hydrophones -- Partie
+    1: Procédures d''étalonnage en champ libre des hydrophones'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/32074
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec60565-1{ed1.0}b.pdf
+docidentifier:
+- content: IEC 60565-1:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:60565-1:2020-04:::'
+  type: URN
+date:
+- type: published
+  at: '2020-04-24'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 60565-1:2020 specifies methods and procedures for free-field calibration
+    of hydrophones, as well as individual electroacoustic transducers that can be
+    used as hydrophones (receivers) and/or projectors (source transducers). Two general
+    types of calibration are covered within this document: absolute calibration using
+    the method of three-transducer spherical-wave reciprocity, and relative calibration
+    by comparison with a reference device which has already been the subject of an
+    absolute calibration.<br />\r\nThe maximum frequency range of the methods specified
+    in this document is from 200 Hz to 1 MHz. The lowest acoustic frequency of application
+    will depend on a number of factors, and will typically be in the range 200 Hz
+    to 5 kHz depending mainly on the dimensions of the chosen test facility, The highest
+    frequency of application for the methods described here is 1 MHz.<br />\r\nProcedures
+    for pressure hydrophone calibration at low frequencies can be found in IEC 60565
+    2 [1] . Procedures for hydrophone calibration at acoustic frequencies greater
+    than 1 MHz are covered by IEC 62127-2 [2].<br />\r\nExcluded from the scope of
+    this document are low-frequency pressure calibrations of hydrophones, which are
+    described in IEC 60565-2 [1]. Also excluded are calibrations of digital hydrophones
+    and systems, calibration of marine autonomous acoustic recorders, calibration
+    of acoustic vector sensors such as particle velocity sensors and pressure gradient
+    hydrophones, calibration of passive sonar arrays consisting of multiple hydrophones,
+    and calibration of active sonar arrays consisting of projectors and hydrophones.<br
+    />\r\nThis document presents a description of the requirements for free-field
+    calibration in terms of test facility, equipment and instrumentation, signal processing,
+    and frequency limitations. A description of achievable uncertainty and rules for
+    the presentation of the calibration data are provided. Also included are informative
+    annexes that provide additional guidance on<br />\r\n• measurement of directional
+    response of a hydrophone or projector,<br />\r\n• measurement of electrical impedance
+    of hydrophones and projectors,<br />\r\n• electrical loading corrections,<br />\r\n•
+    acoustic far-field criteria in underwater acoustic calibration,<br />\r\n• pulsed
+    techniques in free-field calibrations,<br />\r\n• assessment of uncertainty in
+    the free-field calibration of hydrophones and projectors,<br />\r\n• derivation
+    of the formulae for three-transducer spherical-wave reciprocity calibrations,<br
+    />\r\n• calibration using travelling-wave tubes,<br />\r\n• calibration of hydrophones
+    using optical interferometry, and<br />\r\n• calibrations in reverberant water
+    tanks using continuous signals.<br />\r\nIEC 60565-1:2020 together with IEC 60565-2:2019,
+    cancels and replaces the second edition of IEC 60565 published in 2006. This edition
+    constitutes a technical revision.<br />\r\nThis edition includes the following
+    significant technical changes with respect to the previous edition:<br />\r\n1)
+    removal of all descriptions of methods for pressure calibrations of hydrophones
+    – these are now included in Part 2;<br />\r\n2) removal of the derivations of
+    formulae for free-field reciprocity calibration (both amplitude sensitivity and
+    phase sensitivity) and placement of these into an informative annex;<br />\r\n3)
+    inclusion within the scope of the calibration of the transmitting response of
+    individual source transducers and hydrophones (but not sonar arrays);<br />\r\n4)
+    re-ordering of the sections within the document such that the more general procedures
+    for calibration such as guidance on obtaining conditions of acoustic free-field,
+    far-field, and steady-state, appear before the descriptions of procedures for
+    absolute or relative calibrations;<br />\r\n5) revision of informative Annex A
+    to include guidance on measurement of directional response of a hydrophone or
+    projector;<br />\r\n6) addition of a new informative Annex B on measurement of
+    electrical impedance of hydrophones and projectors;<br />\r\n7) revision of the
+    previous informative annex on electrical loading corrections to include corrections
+    to account for electrical loading by added cables (now Annex C);<br />\r\n8) addition
+    of a new informative Annex D on acoustic far-field criteria in underwater acoustic
+    calibration;<br />\r\n9) revision of the previous informative annex on pulsed
+    techniques in free-field calibrations (now Annex E);<br />\r\n10) revision of
+    the previous informative annex on assessment of uncertainty in the calibration
+    of hydrophones (now Annex F);<br />\r\n11) deletion of the previous informative
+    annex on equivalent circuit of the excitation system for calibration with a vibrating
+    column;<br />\r\n12) addition of a new informative Annex G on derivation of the
+    formulae for three-transducer spherical-wave reciprocity calibration;<br />\r\n13)
+    addition of a new informative Annex H on calibration using travelling-wave tubes;<br
+    />\r\n14) addition of a new informative Annex I on calibration of hydrophones
+    using optical interferometry.<br />\r\n15) addition of a new informative Annex
+    J on calibration in reverberant water tanks using continuous signals."
+- language: fr
+  script: Latn
+  content: "L'IEC 60565-1:2020 spécifie les méthodes et procédures d'étalonnage en
+    champ libre des hydrophones, ainsi que des transducteurs électroacoustiques individuels
+    qui peuvent être utilisés comme hydrophones (récepteurs) et/ou projecteurs (transducteurs
+    sources). Deux grands types d'étalonnage sont couverts par le présent document:
+    l'étalonnage absolu utilisant la méthode par réciprocité d’onde sphérique à trois
+    transducteurs, et l'étalonnage relatif par comparaison avec un dispositif de référence
+    qui a déjà fait l'objet d'un étalonnage absolu.<br />\r\nLa plage de fréquences
+    maximale des méthodes spécifiées dans le présent document est comprise entre 200
+    Hz et 1 MHz. La fréquence acoustique la plus faible de l'application dépend d'un
+    certain nombre de facteurs, et est en général comprise entre 200 Hz et 5 kHz selon
+    les dimensions de l'installation d'essai choisie. La fréquence la plus élevée
+    de l'application pour les méthodes décrites ici est de 1 MHz.<br />\r\nLes procédures
+    d'étalonnage de l'hydrophone à pression aux basses fréquences peuvent être consultées
+    dans l'IEC 60565-2 [1] . Les procédures d'étalonnage de l'hydrophone aux fréquences
+    acoustiques supérieures à 1 MHz sont couvertes par l'IEC 62127-2 [2].<br />\r\nLes
+    étalonnages en pression basse fréquence des hydrophones sont exclus du domaine
+    d'application du présent document. Ils sont décrits dans l'IEC 60565-2 [1]. Sont
+    également exclus les étalonnages des hydrophones et systèmes numériques, des enregistreurs
+    acoustiques marins autonomes, des capteurs vectoriels acoustiques (capteurs de
+    vitesse de particules et hydrophones à gradient de pression, par exemple), des
+    réseaux sonars passifs composés de plusieurs hydrophones et des réseaux sonars
+    actifs composés de projecteurs et d'hydrophones.<br />\r\nLe présent document
+    donne une description des exigences relatives à l'étalonnage en champ libre en
+    ce qui concerne l'installation, le matériel et les appareils d'essai, le traitement
+    du signal et les limites de fréquence. Une description de l'incertitude pouvant
+    être obtenue et les règles de présentation des données d'étalonnage sont fournies.
+    Sont également incluses des annexes informatives donnant des recommandations supplémentaires<br
+    />\r\n• relatives au mesurage de la réponse directionnelle d'un hydrophone ou
+    d'un projecteur,<br />\r\n• relatives au mesurage de l'impédance électrique des
+    hydrophones et des projecteurs,<br />\r\n• sur les corrections de charge électrique,<br
+    />\r\n• relatives aux critères de champ acoustique lointain dans l'étalonnage
+    acoustique sous-marin,<br />\r\n• relatives aux techniques par impulsions dans
+    les étalonnages en champ libre,<br />\r\n• relatives à l'évaluation de l'incertitude
+    dans l'étalonnage en champ libre des hydrophones et des projecteurs,<br />\r\n•
+    sur la déduction des formules pour les étalonnages par réciprocité d'onde sphérique
+    à trois transducteurs,<br />\r\n• relatives à l'étalonnage à l'aide de tubes à
+    ondes progressives,<br />\r\n• relatives à l'étalonnage des hydrophones par interférométrie
+    optique, et<br />\r\n• relatives à l'étalonnage dans des cuves d'eau réverbérées
+    à l'aide de signaux continus.<br />\r\nL'IEC 60565-1:2020 avec l’IEC 60565-2:2019,
+    annule et remplace la deuxième édition de l’IEC 60565 parue en 2006. Cette édition
+    constitue une révision technique.<br />\r\nCette édition inclut les modifications
+    techniques majeures suivantes par rapport à l'édition précédente:<br />\r\n1)
+    suppression de toutes les descriptions des méthodes d'étalonnages en pression
+    des hydrophones – elles sont désormais incluses dans la Partie 2;<br />\r\n2)
+    suppression des dérivées de formules d'étalonnage par réciprocité en champ libre
+    (amplitude de sensibilité et sensibilité de phase) et leur intégration dans une
+    Annexe informative;<br />\r\n3) inclusion dans le domaine d'application de l'étalonnage
+    de la réponse à l’émission des transducteurs sources individuels et des hydrophones
+    (mais pas des réseaux sonar);<br />\r\n4) réorganisation des sections du document
+    de manière à faire apparaître les procédures d'étalonnage les plus générales (recommandations
+    relatives à l'obtention des conditions de champ acoustique libre, de champ lointain
+    et de régime permanent, par exemple) avant les descriptions des procédures d'étalonnage
+    absolu ou d'étalonnage relatif;<br />\r\n5) révision de l'Annexe A informative
+    pour inclure des recommandations relatives au mesurage de la réponse directionnelle
+    d'un hydrophone ou d'un projecteur;<br />\r\n6) ajout d'une nouvelle Annexe B
+    informative relative au mesurage de l'impédance électrique des hydrophones et
+    des projecteurs;<br />\r\n7) révision de la précédente Annexe informative relative
+    aux corrections de la charge électrique pour inclure les corrections et tenir
+    compte de la charge électrique des câbles ajoutés (à présent Annexe C);<br />\r\n8)
+    ajout d'une nouvelle Annexe D informative relative aux critères de champ acoustique
+    lointain dans le cadre d'un étalonnage acoustique sous-marin;<br />\r\n9) révision
+    de la précédente Annexe informative relative aux techniques par impulsions dans
+    les étalonnages en champ libre (à présent Annexe E);<br />\r\n10) révision de
+    la précédente Annexe informative relative à l'évaluation de l’incertitude dans
+    l’étalonnage des hydrophones (à présent Annexe F);<br />\r\n11) suppression de
+    la précédente Annexe informative relative au circuit équivalent du système d’excitation
+    pour l’étalonnage avec une colonne vibrante;<br />\r\n12) ajout d'une nouvelle
+    Annexe G informative relative à la déduction des formules pour l'étalonnage par
+    réciprocité d'onde sphérique à trois transducteurs;<br />\r\n13) ajout d'une nouvelle
+    Annexe H informative relative à l'étalonnage à l'aide de tubes à ondes progressives;<br
+    />\r\n14) ajout d'une nouvelle Annexe I informative relative à l'étalonnage des
+    hydrophones par interférométrie optique.<br />\r\n15) ajout d'une nouvelle Annexe
+    J informative relative à l'étalonnage dans des cuves d'eau réverbérées à l'aide
+    de signaux continus."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.140.50
+    text: Electroacoustics
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '23018'
+  price_code: iec:M

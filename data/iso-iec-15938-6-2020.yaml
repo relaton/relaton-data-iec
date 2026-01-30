@@ -1,0 +1,124 @@
+---
+id: ISOIEC1593862020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia content description interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Reference software'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia content description interface - Part
+    6: Reference software'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67160
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15938-6{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15938-6:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15938-6:2020-06:::'
+  type: URN
+date:
+- type: published
+  at: '2020-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>The ISO/IEC 15938 series operates on and generates conformant bitstreams. This document provides a specific implementation that behaves in a conformant manner. </p>
+    <p>NOTE 1    Other implementations that conform to the ISO/IEC 15938 series are possible, which do not necessarily use the algorithms or the programming techniques of the reference software.</p>
+    <p>The software contained in this document is known as eXperimentation Model (XM) and is divided into five categories:</p>
+    <p>a)    Binary format for MPEG-7 (BiM). This software converts DDL (XML) based descriptions to binary format and vice versa as explained in Clause 5.</p>
+    <p>b)   DDL parser and DDL validation parser. The components of this software module are specified in Clause 6.</p>
+    <p>c)   Visual descriptors. This software creates standard visual descriptions from associated (visual) media content as explained in Clause 7. </p>
+    <p>NOTE 2    The techniques used for extracting descriptors are informative, and the quality and complexity of these extraction tools has not been optimized.</p>
+    <p>d)   Audio descriptors. This software creates standard descriptions from associated (audio) media content as explained in Clause 8. </p>
+    <p>NOTE 3    The techniques used for extracting descriptors are informative, and the quality and complexity of these extraction tools has not been optimized.</p>
+    <p>e)   Multimedia description schemes. This software modules provide standard descriptions of multimedia description schemes as specified in Clause 9.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:D

@@ -1,0 +1,137 @@
+---
+id: ISOIEC107361995
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Transport layer security protocol
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Transport layer security protocol
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Télécommunications et échange d'information
+    entre systèmes -- Protocole de sécurité de la couche transport
+  type: title-main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Télécommunications et échange d'information
+    entre systèmes -- Protocole de sécurité de la couche transport
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9538
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10736{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10736{ed1.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 10736:1995
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:10736:1995-03:::'
+  type: URN
+date:
+- type: published
+  at: '1995-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "<p>Defines the transport layer security protocol. Does not specify the
+    management functions and protocols needed to support this security protocol. Defines
+    a protocol which may be used for Security Association establishment. Specifies
+    one algorithm for authentification and key distribution which is based on public
+    key crypto systems.</p>"
+- language: fr
+  script: Latn
+  content: |-
+    <p>
+    Les procédures spécifiées dans la présente Recommandation | Norme internationale représentent des extensions des procédures définies par la Rec. UIT-T X.224 | ISO/CEI 8073 et la Rec. UIT-T X.234 |ISO 8602; elles n'interdisent en rien la communication d'informations non protégées entre des entités de transport mettant en oeuvre les dispositions de la Rec. UIT-T X.224 | ISO/CEI 8073 ou de la Rec. UIT-T X.234 |ISO 8602. La protection assurée par le protocole de sécurité défini dans la présente Recommandation | Norme internationale dépend du bon fonctionnement de la gestion de la sécurité, y compris de la gestion des clés de chiffrement. Toutefois, la présente Recommandation | Norme internationale ne spécifie pas les fonctions et protocoles de gestion nécessaires pour prendre en charge ce protocole de sécurité. Ce protocole peut prendre en charge tous les services d'intégrité, de confidentialité, d'authentification et de contrôle d'accès identifiés dans la Rec. X.800 du CCITT/ISO 7498-2 en ce qui concerne la couche transport. Le protocole prend en charge ces services au moyen de mécanismes cryptographiques, d'étiquettes et d'attributs de sécurité, clés de chiffrement et identités authentifiées par exemple, préétablis par la gestion de la sécurité ou établis à l'aide du protocole d'association de sécurité (SA-P). La protection ne peut être assurée que dans le cadre d'une politique de sécurité. Ce protocole prend en charge l'authentification d 1786es entités homologues au moment de l'établissement de la connexion. En outre, la modification des clés de chiffrement est assurée, dans ce protocole, par le protocole SA-P ou par d'autres moyens qui sortent du cadre de ce protocole. Les associations de sécurité ne peuvent être établies que dans le cadre d'une politique de sécurité. Il incombe aux utilisateurs d'établir leur propre politique de sécurité à laquelle certaines contraintes peuvent être imposées par
+    </p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.40
+    text: Transport layer
+  price_code: iso:F

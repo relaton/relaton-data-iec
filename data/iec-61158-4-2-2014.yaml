@@ -1,0 +1,155 @@
+---
+id: IEC61158422014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-2: Data-link layer protocol specification -- Type 2 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-2:
+    Data-link layer protocol specification -- Type 2 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-2: Spécification du protocole de la couche liaison de données
+    -- Eléments de type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-2: Spécification du protocole de la couche liaison de données -- Eléments
+    de type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/4653
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed3.0}b.pdf
+docidentifier:
+- content: IEC 61158-4-2:2014
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-4-2:2014-08:::'
+  type: URN
+date:
+- type: published
+  at: '2014-08-15'
+- type: stable-until
+  at: '2019-04-18'
+- type: obsoleted
+  at: '2019-04-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-4-2:2014 specifies procedures for the timely transfer of data
+    and control information from one data-link user entity to a peer user entity,
+    and among the data-link entities forming the distributed data-link service provider
+    and the structure of the fieldbus DLPDUs used for the transfer of data and control
+    information by the protocol of this standard, and their representation as physical
+    interface data units. This third edition cancels and replaces the second edition
+    published in 2010 and constitutes a technical revision. The main changes are:<br
+    />\r\n- Addition of conventions in 3.6;<br />\r\n- Updates of ControlNet object
+    in 7.2;<br />\r\n- Addition of missing V/NV attribute characteristic in 7.5, 7.6,
+    7.7;<br />\r\n- Extensions and clarifications of TCP/IP interface object in 7.5;<br
+    />\r\n- Extensions and clarifications of Ethernet Link object in 7.6;<br />\r\n-
+    Extensions and clarifications of CCO object in 7.8;<br />\r\n- Extensions and
+    updates of DLR object in 7.9;<br />\r\n- Updates of QoS object in 7.10;<br />\r\n-
+    Addition of Port object in 7.11;<br />\r\n- Updates to DL state machines in 8.1
+    and 9.2;<br />\r\n- Extensions and updates of DLR protocol in Clause 10;<br />\r\n-
+    Update of indicator behavior in A.2.2 and A.2.3."
+- language: fr
+  script: Latn
+  content: "L'IEC 61158-4-2:2014 spécifie les procédures pour le transfert en temps
+    utile de données et d'informations de commande d'une entité d'utilisateur de liaison
+    de données vers une entité d'utilisateur homologue, et parmi les entités de liaison
+    de données formant le fournisseur de service de liaison de données distribué et
+    la structure des DLPDU du bus de terrain utilisée pour le transfert de données
+    et d'informations de commande par le protocole de la présente norme, et leur représentation
+    comme unités de données d'interface physique. Cette troisième édition annule et
+    remplace la deuxième édition, parue en 2010. Elle constitue une révision technique.
+    Les modification sont:<br />\r\n- Addition de conventions en 3.6;<br />\r\n- Mises
+    à jour de l'objet ControlNet en 7.2;<br />\r\n- Addition de caractéristique d'attribut
+    V/NV manquante en 7.5, 7.6 et 7.7;<br />\r\n- Extensions et clarifications de
+    l'objet d'interface TCP/IP en 7.5;<br />\r\n- Extensions et clarifications de
+    l'objet Ethernet Link en 7.6;<br />\r\n- Extensions et clarifications de l'objet
+    CCO en 7.8;<br />\r\n- Extensions et mises à jour de l'objet DLR en 7.9;<br />\r\n-
+    Mises à jour de l'objet QoS en 7.10;<br />\r\n- Addition de l'objet de port en
+    7.11;<br />\r\n- Mises à jour des diagrammes d'états DL en 8.1 et en 9.2;<br />\r\n-
+    Extensions et mises à jour du protocole DLR à l'Article 10;<br />\r\n- Mise à
+    jour du comportement des indicateurs en A.2.2 et A.2.3."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '22088'
+  price_code: iec:P

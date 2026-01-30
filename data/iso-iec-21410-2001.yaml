@@ -1,0 +1,166 @@
+---
+id: ISOIEC214102001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Corporate telecommunication networks -- Signalling interworking between
+    QSIG and H.323 -- Call transfer supplementary services
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Corporate telecommunication networks -- Signalling interworking between
+    QSIG and H.323 -- Call transfer supplementary services
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10924
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec21410{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 21410:2001
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21410:2001-08:::'
+  type: URN
+date:
+- type: published
+  at: '2001-08-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard specifies signalling interworking between "QSIG" and "H.323" in support of the call transfer</p>
+    <p>supplementary services within a Corporate telecommunication Network (CN).</p>
+    <p>"QSIG" is a signalling protocol that operates at the Q reference point between Private Integrated Services eXchanges (PINX)</p>
+    <p>within a Private Integrated Services Network (PISN). The Q reference point is defined in ISO/IEC 11579-1. A PISN provides</p>
+    <p>circuit-switched basic services and supplementary services to its users. QSIG is specified in other Standards, in particular</p>
+    <p>ISO/IEC 11572 (call control in support of basic services), ISO/IEC 11582 (generic functional protocol for the support of</p>
+    <p>supplementary services) and a number of standards specifying individual supplementary services. ISO/IEC 13869 specifies the</p>
+    <p>QSIG protocol in support of call transfer by consultation and ISO/IEC 19460 specifies the QSIG protocol in support of single</p>
+    <p>step call transfer.</p>
+    <p>"H.323" is a set of signalling protocols for the support of voice or multimedia communication within a packet network, in</p>
+    <p>particular a packet network that uses the Internet Protocol (IP) as its network layer protocol (IP network). H.323 signalling</p>
+    <p>protocols operate between endpoints in an IP network, either indirectly via one or more gatekeepers, or directly. An endpoint</p>
+    <p>can be a terminal or a gateway to another network. H.323 is an "umbrella" recommendation referring to various ITU-T</p>
+    <p>recommendations, in particular Recommendations H.225.0 and H.245 (basic communication capabilities) and</p>
+    <p>Recommendation H.450.1 (generic functional protocol for the support of supplementary services). Recommendation H.450.2</p>
+    <p>specifies the H.323 protocol in support of call transfer.</p>
+    <p>NOTE - H.450.2 applies only to the 1998 version of H.323 (also known as H.323 version 2) and to later versions.</p>
+    <p>Call transfer by consultation, as supported by ISO/IEC 13869, is a supplementary service that enables a user (user A) to</p>
+    <p>transform two of that user's calls (at least one of which must be answered) into a new call between the two other users in the two</p>
+    <p>calls (users B and C).</p>
+    <p>Single step call transfer, as supported by ISO/IEC 19460, is a supplementary service that enables a user (user A) to transform</p>
+    <p>an existing call between user A and user B into a new call between user B and user C without user A needing to establish a call</p>
+    <p>with user C prior to transfer.</p>
+    <p>Call transfer, as supported by H.450.2, is a supplementary service that enables the served user (user A) to transform an existing</p>
+    <p>call with a second user (user B) into a new call between user B and a third user (user C) selected by user A. User A may or may</p>
+    <p>not have a call established with user C prior to call transfer. If a call is already established between user A and user C, this is</p>
+    <p>known as transfer by consultation and is equivalent to call transfer as supported by ISO/IEC 13869. If a call is not already</p>
+    <p>established between user A and user C, this is known as single step call transfer and is equivalent to call transfer as supported</p>
+    <p>by ISO/IEC 19460.</p>
+    <p>Interworking between QSIG and H.323 permits a call originating at a user of a PISN to terminate at a user of an IP network, or</p>
+    <p>a call originating at a user of an IP network to terminate at a user of a PISN. This International Standard provides the following</p>
+    <p>additional capabilities:</p>
+    <p>_ a PISN user with two calls established, at least one of which being to or from a user in an IP network, to be able to</p>
+    <p>transform those two calls into a new call between the other two users involved;</p>
+    <p>_ a PISN user with a call established to or from a user in an IP network to be able to transform that call into a new call</p>
+    <p>between the IP network user and a third user selected by the PISN user, that third user being either in the IP network or in</p>
+    <p>the PISN;</p>
+    <p>_ a PISN user with a call established to a second PISN user to be able to transfer that call into a new call between the second</p>
+    <p>user and a third user selected by the first user, that third user being in an IP network;</p>
+    <p>_ an IP network user with two calls established, at least one of which being to or from a user in a PISN, to be able to</p>
+    <p>transform those two calls into a new call between the other two users involved;</p>
+    <p>_ an IP network user with a call established to or from a user in a PISN to be able to transform that call into a new call</p>
+    <p>between the PISN user and a third user selected by the IP network user, that third user being either in the IP network or in</p>
+    <p>the PISN; and</p>
+    <p><b>ISO/IEC 21410:2001(E)</b></p>
+    <p><b>2 </b>© ISO/IEC 2001 ? All rights reserved</p>
+    <p>_ an IP network user with a call established to a second user in the IP network to be able to transfer that call into a new call</p>
+    <p>between the second user and a third user selected by the first user, that third user being in a PISN.</p>
+    <p>This International Standard is applicable to any interworking unit that can act as a gateway between a PISN employing QSIG</p>
+    <p>and an IP network employing H.323.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  price_code: iso:ZZ

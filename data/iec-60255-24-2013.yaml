@@ -1,0 +1,136 @@
+---
+id: IEC60255242013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measuring relays and protection equipment
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 24: Common format for transient data exchange (COMTRADE) for power
+    systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Measuring relays and protection equipment - Part 24: Common format for
+    transient data exchange (COMTRADE) for power systems'
+  type: main
+- language: fr
+  script: Latn
+  content: Relais de mesure et dispositifs de protection
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 24: Format commun pour l''échange de données transitoires (COMTRADE)
+    dans les réseaux électriques'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Relais de mesure et dispositifs de protection - Partie 24: Format commun
+    pour l''échange de données transitoires (COMTRADE) dans les réseaux électriques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/1170
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec60255-24{ed2.0}b.pdf
+docidentifier:
+- content: IEC 60255-24:2013
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:60255-24:2013-04:::'
+  type: URN
+date:
+- type: published
+  at: '2013-04-30'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 60255-24:2013 defines a format for files containing transient waveform
+    and event data collected from power systems or power system models. The format
+    is intended to provide an easily interpretable form for use in exchanging data.
+    The standard is for files stored on currently used physical media such as portable
+    external hard drives, USB drives, flash drives, CD, and DVD. This standard defines
+    a common format for the data files and exchange medium needed for the interchange
+    of various types of fault, test, and simulation data. The main changes with respect
+    to the previous edition are as follows:<br />\r\n- this new edition allows single
+    file format (with extension .CFF) in lieu of four separate files;<br />\r\n- the
+    single file with .CFF extension contains four sections of information corresponding
+    to .CFG, .INF, .HDR, and .DAT. The DAT section is either in ASCII or Binary;<br
+    />\r\n- the following additional data file types are also supported: binary32
+    and float32."
+- language: fr
+  script: Latn
+  content: "La CEI 60255-24:2013 établit un format pour les fichiers contenant des
+    données sur les événements et les formes d'ondes des transitoires obtenus à partir
+    des réseaux électriques ou de leur modélisation. Le format est destiné à fournir
+    une forme facilement interprétable pour une utilisation dans l'échange de données.
+    La norme est destinée aux fichiers stockés sur des supports physiques actuellement
+    utilisés tels que des disques durs externes portables, des clés USB, des disques
+    à mémoire flash, des CD et des DVD. La présente norme établit un format commun
+    pour les fichiers de données et le support d'échange nécessaire pour échanger
+    des données de différents types sur les défauts, les essais et la simulation.
+    Les principales différences par rapport à l'édition précédente sont les suivantes:<br
+    />\r\n- cette nouvelle édition autorise un seul format de fichier (avec extension
+    .CFF) à la place de quatre fichiers séparés;<br />\r\n- l'unique fichier avec
+    extension .CFF contient quatre sections d'information correspondant à .CFG, .INF,
+    .HDR, et .DAT. La section DAT est en codage ASCII ou Binaire;<br />\r\n- les types
+    de fichiers de données complémentaires suivants sont également pris en charge:
+    binary32 et float32."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18630'
+  price_code: iec:L

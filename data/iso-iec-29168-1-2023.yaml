@@ -1,0 +1,122 @@
+---
+id: ISOIEC2916812023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open systems interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Object identifier resolution system'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open systems interconnection - Part 1: Object
+    identifier resolution system'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/91754
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29168-1{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29168-1:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29168-1:2023-03:::'
+  type: URN
+date:
+- type: published
+  at: '2023-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoNormal"><span lang="EN-GB">This document specifies the </span><span lang="EN-GB" style="mso-fareast-language: KO;">OID </span><span lang="EN-GB">resolution system</span><span lang="EN-GB" style="mso-fareast-language: KO;">,</span><span lang="EN-GB"> including the overall architecture and a DNS-based resolution mechanism.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">It specifies the means for inserting any application-defined information associated with an OID node into the DNS (see clause 6) and the means of retrieval of that information using the ORS (see clause 7).</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">It does not restrict the number of applications it can support.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">It specifies the required operation of an ORS client (see clause 7), including the mapping of an OID-IRI value by the ORS client into a DNS name to produce a DNS query for the specified application information and the processing of any returned information. The ORS has no role in the allocation or registration of OID nodes.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">The required behaviour of an ORS client is specified, but the interfaces to it are specified only in terms of the semantics of the interaction. A bit-level application program interface is platform and software dependent, and is not in the scope of this document. </span></p>
+    <p class="MsoNormal"><span lang="EN-GB">A special behaviour of an ORS client is specified to cache OID information in order to reduce the response time of OID resolution. This document also specifies a mechanism to resolve an OID node when one of its superior OID nodes is not ORS-supported.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">It does not include a tutorial or complete specification on the management of DNS zone files (for that, see IETF RFC 1035 and IETF RFC 3403); it specifies (only) the DNS resource records (see 6.3) that need to be inserted in the zone files in order to support ORS access to the information associated with an OID node.</span></p>
+    <p class="MsoNormal"><span lang="EN-GB">This document specifies required DNS zone file resource records, and prohibits the use of other resource records of a similar form but with different semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise restrict the general use of DNS zone files.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  price_code: iso:D

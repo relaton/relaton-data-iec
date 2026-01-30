@@ -1,0 +1,128 @@
+---
+id: IEC6254162015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Mappings'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 6: Mappings'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6: Correspondances'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 6: Correspondances'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21993
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-6{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62541-6:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-6:2015-03:::'
+  type: URN
+date:
+- type: published
+  at: '2015-03-25'
+- type: stable-until
+  at: '2020-07-13'
+- type: obsoleted
+  at: '2020-07-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-6:2015 specifies the OPC Unified Architecture (OPC UA) mapping
+    between the security model described in IEC TR 62541-2, the abstract service definitions,
+    described in IEC 62541-4, the data structures defined in IEC 62541-5 and the physical
+    network protocols that can be used to implement the OPC UA specification. This
+    second edition cancels and replaces the first edition published in 2011 and constitutes
+    a technical revision. This edition includes the following changes:<br />\r\n-
+    A new HTTPS transport has been defined;<br />\r\n- Added an additional padding
+    byte to handle asymmetric key sizes larger than 2048 bits. Fixed errors in SOAP
+    action URIs;<br />\r\n- Needed a standard way to serialize nodes in an address
+    space. Added the UANodeSet schema defined in Annex F."
+- language: fr
+  script: Latn
+  content: "L'IEC 62541-6:2015 spécifie les correspondances de l'architecture unifiée
+    OPC (OPC UA) entre le modèle de sécurité décrit dans l'IEC TR 62541-2, les définitions
+    de services abstraits décrites dans l'IEC 62541-4, les structures de données définies
+    dans l'IEC 62541-5 et les protocoles de réseaux physiques qui peuvent être utilisés
+    pour mettre en oeuvre la spécification OPC UA. Cette deuxième édition annule et
+    remplace la première édition parue en 2011. Elle constitue une révision technique.
+    Elle inclut les modifications suivantes:<br />\r\n- Un nouveau protocole de transport
+    HTTPS;<br />\r\n- Ajout d'un octet de remplissage supplémentaire pour gérer les
+    tailles des clés asymétriques de longueur supérieure à 2048 bits. Définition des
+    erreurs fixes dans les URI d'action SOAP;<br />\r\n- Ajout du schéma de l'Ensemble
+    de Noeuds UA (UANodeSet) défini à l'Annexe F."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '21052'
+  price_code: iec:L

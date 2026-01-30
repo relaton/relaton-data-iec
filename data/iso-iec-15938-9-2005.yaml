@@ -1,0 +1,119 @@
+---
+id: ISOIEC1593892005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia content description interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Profiles and levels'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia content description interface - Part
+    9: Profiles and levels'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10452
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15938-9{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15938-9:2005
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15938-9:2005-04:::'
+  type: URN
+date:
+- type: published
+  at: '2005-04-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 15938-9:2005 collects standard profiles and levels for MPEG-7, specified across all parts of ISO/IEC 15938. While all parts are potential candidates for profiling, current profiles concentrate on the Description definition language [ISO/IEC 15938-2], Visual [ISO/IEC 15938-3], Audio [ISO/IEC 15938-4], Multimedia description schemes [ISO/IEC 15938-5], which are based on the namespace versioning defined in Schema definition [ISO/IEC 15938-10].</p>
+    <p>ISO/IEC 15938-9:2005 provides a set of well-defined definitions and processing rules for description profile and description level, where: </p>
+    <ul><li>A description profile provides a means of selecting and constraining description tools from the MPEG-7 schema, thereby constraining conforming descriptions in their content. A description profile generally limits the use of description tools to subsets of the description tools defined in MPEG-7. The description tools in a description profile support a set of functionalities for a certain class of applications.</li><li>A description level defines further constraints to limit the complexity of conforming descriptions, for a given description profile. Such constraints may be restrictions on the syntax and/or semantics of the selected description tools. For example, a particular element within a data type may be excluded from occurring in descriptions. Description levels may mandate the usage of a data type in descriptions, and may also limit the size of conforming descriptions.</li></ul>
+    <p>Currently, ISO/IEC 15938-9:2005 standardizes the following profiles:</p>
+    <ul><li>Simple Metadata Profile (SMP) - describes simple metadata tagging for single instances of multimedia clips. This profile can be used in the areas such as music, images and mobile applications, just to name a few.</li><li>User Description Profile (UDP) - describes the personal preferences and usage patterns of users of multimedia content. Descriptions of users' preferences enable automatic discovery, selection and recommendation or recording of multimedia content. Preferences can be automatically inferred from the user's prior viewing and listening habits, which can in turn be derived from a usage history. The goal is to support improved usability of a variety of multimedia devices through personalization: personalized multimedia services offered to the consumer, personalized multimedia content discovery, filtering and selection, and personalized consumption of multimedia content.</li><li>Core Description Profile (CDP) - describes general multimedia content such as images, videos, audio, and collections. Furthermore, content collections spanning various media types can also be described. As such, this profile provides a core set of tools that can be used to describe common multimedia content for a broad range of applications, such as general multimedia creation, consumption and distribution, broadcast television programming and educational courseware, just to name a few.</li></ul>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:D

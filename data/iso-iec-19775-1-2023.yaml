@@ -1,0 +1,124 @@
+---
+id: ISOIEC1977512023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Computer graphics, image processing and environmental data representation
+  type: title-intro
+- language: en
+  script: Latn
+  content: Extensible 3D (X3D)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Architecture and base components'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Computer graphics, image processing and environmental data representation
+    - Extensible 3D (X3D) - Part 1: Architecture and base components'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/90755
+docidentifier:
+- content: ISO/IEC 19775-1:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19775-1:2023-12:::'
+  type: URN
+date:
+- type: published
+  at: '2023-12-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 19775 Extensible 3D (X3D) defines a software system that integrates network-enabled 3D graphics and multimedia. Conceptually, each X3D application is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. This document defines the architecture and base components of X3D.</p>
+    <p>The semantics of X3D describe an abstract functional behaviour of time-based, interactive 3D, multimedia information. This document does not define physical devices or any other implementation-dependent concepts ( <em>e.g.</em>, screen resolution and input devices). This document is intended for a wide variety of devices and applications, and provides wide latitude in interpretation and implementation of the functionality. For example, this document does not assume the existence of a mouse or 2D display device.</p>
+    <p>Each X3D application:</p>
+    <ol start="1" type="a">
+    <li>implicitly establishes a world coordinate space for all objects defined, as well as all objects included by the application,</li>
+    <li>explicitly defines and composes a set of 3D and multimedia objects,</li>
+    <li>can specify hyperlinks to other files and applications,</li>
+    <li>can define programmatic or data-driven object behaviours,</li>
+    <li>can connect to external modules or applications via programming and scripting languages,</li>
+    <li>explicitly declares its functional requirements by specifying a profile, and</li>
+    <li>can declare additional functional requirements by specifying components.</li>
+    </ol>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  price_code: iso:ZZ

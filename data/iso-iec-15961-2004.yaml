@@ -1,0 +1,124 @@
+---
+id: ISOIEC159612004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Radio frequency identification (RFID) for item management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Data protocol: application interface'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Radio frequency identification (RFID) for item
+    management - Data protocol: application interface'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10475
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15961{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15961:2004
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15961:2004-10:::'
+  type: URN
+date:
+- type: published
+  at: '2004-10-18'
+- type: stable-until
+  at: '2019-08-08'
+- type: obsoleted
+  at: '2019-08-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>The data protocol used to exchange information in a radio-frequency identification (RFID) system for item management is specified in ISO/IEC 15961:2004 and in ISO/IEC 15962:2004. Both are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:</p>
+    <ul><li>ISO/IEC 15961:2004 addresses the information interface with the application system.</li><li>ISO/IEC 15962:2004 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.</li></ul>
+    <p>ISO/IEC 15961:2004 focuses on the interface between the application and the data protocol processor, and includes the specification of the transfer syntax and definition of application commands and responses. It allows data and commands to be specified in a standardized way, independent of the particular air interface of ISO/IEC 18000.</p>
+    <p>ISO/IEC 15961:2004</p>
+    <ul><li>provides guidelines on how data shall be presented as objects;</li><li>defines the structure of object identifiers, based on ISO/IEC 9834-1;</li><li>specifies the commands that are supported for transferring data between the application and the RF tag;</li><li>specifies the responses that are supported for transferring data between the RF tag and the application;</li><li>provides a formal description of all the processes using ASN.1, as specified in ISO/IEC 8824-1;</li><li>specifies the transfer syntax, based on the Basic Encoding Rules of ISO/IEC 8825-1, for data to be transferred from and to the application.</li></ul>
+    <p>It is expected that ISO/IEC 15961:2004 will be used as a reference to develop software appropriate for particular applications, or for particular RF equipment.</p>
+status:
+  stage:
+    content: REPLACED
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:B

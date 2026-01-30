@@ -1,0 +1,123 @@
+---
+id: ISOIEC2300062012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia application format (MPEG-A)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Professional archival application format'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia application format (MPEG-A) - Part
+    6: Professional archival application format'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10967
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23000-6{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23000-6:2012
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23000-6:2012-09:::'
+  type: URN
+date:
+- type: published
+  at: '2012-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>The purpose of ISO/IEC 23000-6 Professional archival application format (PA-AF) is to provide a standardized packaging format for digital files. This packaging format can also serve as an implementation of the information package specified by the Reference Model of Open Archival Information System (OAIS). The OAIS Reference Model is a framework for understanding and applying concepts necessary for long-term digital information preservation (where "long-term" is long enough to be concerned about changing technologies). In addition, PA-AF can also be used as an intermediate or exchange packaging format for any kind of multimedia content.</p>
+
+    <p>PA-AF specifies the following: a metadata format to describe the original structure of digital files archived in a PA-AF file; a metadata format to describe context information related to a PA-AF file and digital files archived in it; a metadata format to describe necessary information to reverse the pre-processing processes applied to digital files prior to archiving them in a PA-AF file; and a file format for carriage of the metadata formats and digital files.</p>
+
+    <p>While a general archival process may include processes ranging from creation, delivery to the archival system, to dissemination to consumers, PA-AF is limited in scope as follows. PA-AF specifies neither how to create input content nor any agreement on how the content should be handled and delivered to the archiving process. PA-AF assumes that input content for the archiving process is available in an appropriate digital format. PA-AF specifies the format of a digital archive produced by the archival process. It does not specify how the archive output by the archival process is disseminated to end-users.</p>
+
+    <p>Note that the archiving policy and agreements are not included in the scope of PA-AF. PA-AF is independent from any kind of compression scheme or any kind of metadata format. PA-AF provides a mechanism for identifying the pre-processing tools applied to the archived content files. Any kind of compression tool or encryption tool can be specified as an external pre-processing tool. In addition, though PA-AF optionally provides a predefined minimum set of descriptive metadata for its archived contents, any kind of application- specific meta-information can be stored in the PA-AF package as a content file or files if the archive's policy or agreements require it. For this purpose, PA-AF provides a mechanism for linking that meta-information to the archived content file. </p>
+
+    <p>In the second edition, the maximum number of files that can be packed in a PA-AF file is extended to more than 65535. The latest reference software and conformance bitstreams are also included.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:H

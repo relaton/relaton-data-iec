@@ -1,0 +1,154 @@
+---
+id: IEC61158422007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-2: Data-link layer protocol specification -- Type 2 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-2:
+    Data-link layer protocol specification -- Type 2 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-2: Spécification du protocole de la couche liaison de données
+    -- Eléments de type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-2: Spécification du protocole de la couche liaison de données -- Eléments
+    de type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19191
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed1.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-2{ed1.0}en.pdf
+docidentifier:
+- content: IEC 61158-4-2:2007
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-4-2:2007-12:::'
+  type: URN
+date:
+- type: published
+  at: '2007-12-14'
+- type: stable-until
+  at: '2010-08-06'
+- type: obsoleted
+  at: '2010-08-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-4-2:2007 describes the protocol that provides communication
+    opportunities to all participating data-link entities, sequentially and in a cyclic
+    synchronous manner. Foreground scheduled access is available for time-critical
+    activities together with background unscheduled access for less critical activities.
+    This protocol optimizes each access opportunity by concatenating multiple DLSDUs
+    and associated DLPCI into a single DLPDU, thereby improving data transfer efficiency
+    for data-link entities that actively source multiple streams of data. This first
+    edition and its companion parts of the IEC 61158-4 subseries cancel and replace
+    IEC 61158-4:2003. This edition of this part constitutes a minor revision. This
+    part and its companion Type 2 parts also cancel and replace IEC/PAS 62413, published
+    in 2005. This edition of IEC 61158-4 includes the following changes:<br />\r\n-
+    deletion of the former Type 6 fieldbus, and the placeholder for a Type 5 fieldbus
+    data link layer, for lack of market relevance;<br />\r\n- addition of new types
+    of fieldbuses;<br />\r\n- division of this part into multiple parts numbered -4
+    1, -4 2, , -4-19. This bilingual version (2014-07) corresponds to the English
+    version, published in 2007-12."
+- language: fr
+  script: Latn
+  content: "L'IEC 61158-4-2:2007 décrit un protocole qui offre des opportunités de
+    communication séquentielle et synchrone cyclique à toutes les entités de liaison
+    de données participantes. Un accès planifié de premier plan est proposé à toutes
+    les activités à contrainte de temps, un accès non planifié l'étant aux activités
+    moins critiques. Ce protocole permet d'optimiser chaque opportunité d'accès en
+    concaténant plusieurs DLSDU et DLPCI associés en une seule DLPDU, améliorant le
+    transfert de données des entités de liaison de données qui émettent activement
+    plusieurs flux de données. Cette première édition et ses parties d'accompagnement
+    de la sous-série CEI 61158-4 annulent et remplacent la CEI 61158-4:2003. Elle
+    constitue une révision mineure. Cette partie et ses parties d'accompagnement pour
+    le Type 2 annulent et remplacent également la CEI/PAS 62413, publiée en 2005.
+    Elle inclut les modifications suivantes:<br />\r\n- suppression du précédent bus
+    de terrain de Type 6 et de la référence à une couche de liaison de données de
+    bus de terrain de Type 5, en raison du manque d'adéquation au marché;<br />\r\n-
+    ajout de nouveaux types de bus de terrain; division de cette partie en parties
+    multiples numérotées -4 1, -4 2, , -4-19. La présente version bilingue (2014-07)
+    correspond à la version anglaise monolingue publiée en 2007-12."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '16018'
+  price_code: iec:P

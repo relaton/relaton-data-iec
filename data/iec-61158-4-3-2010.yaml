@@ -1,0 +1,152 @@
+---
+id: IEC61158432010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-3: Data-link layer protocol specification -- Type 3 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-3:
+    Data-link layer protocol specification -- Type 3 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-3: Spécification du protocole de la couche de liaison de données
+    -- Eléments de Type 3'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-3: Spécification du protocole de la couche de liaison de données --
+    Eléments de Type 3'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19195
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-3{ed2.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-3{ed2.0}en.pdf
+docidentifier:
+- content: IEC 61158-4-3:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-4-3:2010-08:::'
+  type: URN
+date:
+- type: published
+  at: '2010-08-05'
+- type: stable-until
+  at: '2014-08-15'
+- type: obsoleted
+  at: '2014-08-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-4-3:2010 describes the protocol that provides communication
+    opportunities to a pre-selected \"master\" subset of data-link entities in a cyclic
+    asynchronous manner, sequentially to each of those data-link entities. Other data-link
+    entities communicate only as permitted and delegated by those master data-link
+    entities. For a given master, its communications with other data-link entities
+    can be cyclic, or acyclic with prioritized access, or a combination of the two.
+    This protocol provides a means of sharing the available communication resources
+    in a fair manner. There are provisions for time synchronization and for isochronous
+    operation. This second edition cancels and replaces the first edition published
+    in 2007 and constitutes a technical revision. The main changes with respect to
+    the previous edition are:<br />\r\n- Corrections in Table A.15 and Table A.16;<br
+    />\r\n- Expired patent removed and added new patents. This bilingual version (2012-07)
+    corresponds to the monolingual English version, published in 2010-08."
+- language: fr
+  script: Latn
+  content: "La CEI 61158-4-3:2010 spécifie un protocole qui donne les moyens de communiquer
+    à un sous-ensemble \"maître\" présélectionné d'entités de liaison de données de
+    manière asynchrone cyclique, séquentiellement pour chacune de ces entités de liaison
+    de données. D'autres entités de liaison de données communiquent uniquement si
+    elles sont autorisées et déléguées par ces entités de liaison de données \"maîtres\".
+    Les communications d'un maître avec d'autres entités de liaison de données peuvent
+    être cycliques ou acycliques avec accès selon un ordre de priorité, ou une combinaison
+    des deux. Ce protocole est un moyen de partager de manière équitable les ressources
+    de communication disponibles. Il comporte des dispositions de fonctionnement synchrone
+    et isochrone. Cette deuxième édition annule et remplace la première édition publiée
+    en 2007. Elle constitue une révision technique. Les principales modifications
+    effectuées par rapport à l'édition antérieure sont:<br />\r\n- Des corrections
+    ont été apportées au Tableau A.15 et au Tableau A.16;<br />\r\n- Les brevets qui
+    ont expiré ont été retirés et de nouveaux brevets ont été ajoutés. La présente
+    version bilingue (2012-07) correspond à la version anglaise monolingue publiée
+    en 2010-08."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18634'
+  price_code: iec:P

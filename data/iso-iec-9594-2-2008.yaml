@@ -1,0 +1,137 @@
+---
+id: ISOIEC959422008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'The Directory: Models -- Part 2:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Systems Interconnection - The Directory:
+    Models -- Part 2:'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21627
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9594-2{ed6.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9594-2:2008
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9594-2:2008-12:::'
+  type: URN
+date:
+- type: published
+  at: '2008-12-15'
+- type: stable-until
+  at: '2014-02-25'
+- type: obsoleted
+  at: '2014-02-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '6'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>The models defined in ISO/IEC 9594-2:2008 provide a conceptual and terminological framework for the other parts of ISO/IEC 9594, which define various aspects of the Directory.</p>
+    <p>The functional and administrative authority models define ways in which the Directory can be distributed, both functionally and administratively. Generic DSA and DSA information models and an Operational Framework are also provided to support Directory distribution.</p>
+    <p>The generic Directory Information Models describe the logical structure of the DIB from the perspective of Directory and Administrative Users. In these models, the fact that the Directory is distributed, rather than centralized, is not visible.</p>
+    <p>ISO/IEC 9594-2:2008 provides a specialization of the generic Directory Information Models to support Directory Schema administration.</p>
+    <p>Other parts of ISO/IEC 9594 make use of the concepts defined in ISO/IEC 9594-2:2008 to define specializations of the generic information and DSA models to provide specific information, DSA and operational models supporting particular directory capabilities (e.g. Replication):</p>
+    <ol>
+    <li>the service provided by the Directory is described (ISO/IEC 9594-3) in terms of the concepts of the information framework: this allows the service provided to be somewhat independent of the physical distribution of the DIB;</li>
+    <li>the distributed operation of the Directory is specified (ISO/IEC 9594-4) so as to provide that service, and therefore maintain that logical information structure, given that the DIB is in fact highly distributed;</li>
+    <li>replication capabilities offered by the component parts of the Directory to improve overall Directory performance are specified (ISO/IEC 9594-9).</li>
+    </ol>
+    <p>The security model establishes a framework for the specification of access control mechanisms. It provides a mechanism for identifying the access control scheme in effect in a particular portion of the DIT, and it defines three flexible, specific access control schemes which are suitable for a wide variety of applications and styles of use. The security model also provides a framework for protecting the confidentiality and integrity of directory operations using mechanisms such as encryption and digital signatures. This makes use of the framework for authentication defined in ISO/IEC 9594-8 as well as generic upper layers security tools defined in ISO/IEC 11586-1.</p>
+    <p>DSA models establish a framework for the specification of the operation of the components of the Directory.</p>
+    <p>Specifically:</p>
+    <ol>
+    <li>the Directory functional model describes how the Directory is manifested as a set of one or more components, each being a DSA;</li>
+    <li>the Directory distribution model describes the principals according to which the DIB entries and entry-copies may be distributed among DSAs;</li>
+    <li>the DSA information model describes the structure of the Directory user and operational information held in a DSA;</li>
+    <li>the DSA operational framework describes the means by which the definition of specific forms of cooperation between DSAs to achieve particular objectives (e.g. shadowing) is structured.</li>
+    </ol>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:B

@@ -1,0 +1,123 @@
+---
+id: ISOIEC882572015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: ASN.1 encoding rules
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Specification of Octet Encoding Rules (OER)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - ASN.1 encoding rules - Part 7: Specification
+    of Octet Encoding Rules (OER)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23722
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec8825-7{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 8825-7:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:8825-7:2015-11:::'
+  type: URN
+date:
+- type: published
+  at: '2015-11-12'
+- type: stable-until
+  at: '2021-06-30'
+- type: obsoleted
+  at: '2021-06-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 8825-7:2015 specifies a set of Basic Octet Encoding Rules (BASIC-OER) that may be used to derive a transfer syntax for values of the types defined in Rec. ITU-T X.680 | ISO/IEC 8824-1, Rec. ITU‑T X.681 | ISO/IEC 8824-2, Rec. ITU-T X.682 | ISO/IEC 8824-3, Rec. ITU-T X.683 | ISO/IEC 8824-4. This Recommendation | International Standard also specifies a set of Canonical Octet Encoding Rules (CANONICAL-OER) which provides constraints on the Basic Octet Encoding Rules and produces a unique encoding for any given ASN.1 value. It is implicit in the specification of these encoding rules that they are also to be used for decoding.</p>
+    <p>The encoding rules specified in this Recommendation | International Standard:</p>
+    <p>-      are used at the time of communication;</p>
+    <p>-      are intended for use in circumstances where encoding/decoding speed is the major concern in the choice of encoding rules;</p>
+    <p>-      allow the extension of an abstract syntax by addition of extra values for all forms of extensibility described in Rec. ITU-T X.680 | ISO/IEC 8824‑1.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  price_code: iso:B

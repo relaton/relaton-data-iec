@@ -1,0 +1,163 @@
+---
+id: IEC611586192019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-19: Application layer protocol specification -- Type 19 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-19:
+    Application layer protocol specification -- Type 19 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-19: Spécification du protocole de la couche application -- Éléments
+    de type 19'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 6-19: Spécification du protocole de la couche application -- Éléments
+    de type 19'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/65173
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-6-19{ed4.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-6-19{ed4.0}b.pdf
+docidentifier:
+- content: IEC 61158-6-19:2019
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-6-19:2019-06:::'
+  type: URN
+date:
+- type: published
+  at: '2019-06-20'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-6-19:2019 provides common elements for basic time-critical and
+    non-time-critical messaging communications between application programs in an
+    automation environment and material specific to Type 2 fieldbus. The term “time-critical”
+    is used to represent the presence of a time-window, within which one or more specified
+    actions are required to be completed with some defined level of certainty. Failure
+    to complete specified actions within the time window risks failure of the applications
+    requesting the actions, with attendant risk to equipment, plant and possibly human
+    life.<br />\r\nThis International Standard specifies interactions between remote
+    applications and defines the externally visible behavior provided by the Type
+    2 fieldbus application layer. The purpose of this document is to define the protocol
+    provided to<br />\r\na) define the wire-representation of the service primitives
+    defined in this document, and<br />\r\nb) define the externally visible behavior
+    associated with their transfer. This document specifies the protocol of the Type
+    2 fieldbus application layer, in conformance with the OSI Basic Reference Model
+    (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br />\r\nThis
+    fourth edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\n- improving the hotplug and redundancy features;<br
+    />\r\n- improving the phase switching and the error handling;<br />\r\n- editorial
+    improvements."
+- language: fr
+  script: Latn
+  content: "L’IEC 611586-19:2019 fournit des éléments communs pour les communications
+    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
+    d’application des environnements d’automatisation et le matériel spécifique au
+    bus de terrain de type 19. On utilise le terme \"prioritaire\" pour traduire la
+    présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une
+    ou plusieurs actions spécifiées soient terminées avec un niveau de certitude défini.
+    Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les
+    applications demandant les actions risquent de connaître une défaillance, avec
+    les risques que cela comporte pour les équipements, les installations et éventuellement
+    la vie humaine.<br />\r\nLa présente norme définit de manière abstraite le service,
+    visible par un observateur externe, assuré par les différents Types de la couche
+    Application de bus de terrain, en termes<br />\r\na) de modèle abstrait visant
+    à la définition des ressources d’application (objets) qui peuvent être manipulées
+    par des utilisateurs utilisant un service FAL;<br />\r\nb) d’événements et d’actions
+    liés aux primitives du service;<br />\r\nc) de paramètres associés à chaque événement
+    et action de primitive, ainsi que de forme prise par ces paramètres; et<br />\r\nd)
+    d’interaction entre ces événements et ces actions, ainsi que de séquences valides
+    desdits événements et actions.<br />\r\nLe but du présent document est de définir
+    les services fournis à:<br />\r\na) l’utilisateur de FAL à la frontière entre
+    l’utilisateur et la Couche application du Modèle de référence de bus de terrain;
+    et<br />\r\nb) la Gestion des systèmes au niveau de la frontière entre la Couche
+    application et la Gestion des systèmes selon le Modèle de référence de bus de
+    terrain."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '103282'
+  price_code: iec:F

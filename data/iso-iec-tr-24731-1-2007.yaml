@@ -1,0 +1,136 @@
+---
+id: ISOIECTR2473112007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Programming languages, their environments and system software interfaces
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Extensions to the C library -- Part 1: Bounds-checking interfaces'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Programming languages, their environments and
+    system software interfaces - Extensions to the C library -- Part 1: Bounds-checking
+    interfaces'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Langages de programmation, leurs environnements et leurs systèmes d'interface
+    de logiciel
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Extensions à la bibliothèque C -- Partie 1: Interfaces des contrôles des
+    bornes'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Langages de programmation, leurs environnements
+    et leurs systèmes d''interface de logiciel - Extensions à la bibliothèque C --
+    Partie 1: Interfaces des contrôles des bornes'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/98245
+docidentifier:
+- content: ISO/IEC TR 24731-1:2007
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24731-1:2007-08:tr::'
+  type: URN
+date:
+- type: published
+  at: '2007-08-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC TR 24731-1:2007 provides alternative functions for the C Library (as defined in ISO/IEC 9899:1999) that promote safer, more secure programming. The functions verify that output buffers are large enough for the intended result, and return a failure indicator if they are not. Optionally, failing functions call a "runtime-constraint handler" to report the error. Data is never written past the end of an array. All string results are null terminated. In addition, the functions in ISO/IEC TR 24731-1:2007 are re-entrant: they never return pointers to static objects owned by the function.</p>
+    <p>ISO/IEC TR 24731-1:2007 also contains functions that address insecurities with the C input-output facilities.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:H

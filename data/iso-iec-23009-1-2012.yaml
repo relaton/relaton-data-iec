@@ -1,0 +1,124 @@
+---
+id: ISOIEC2300912012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Dynamic adaptive streaming over HTTP (DASH)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Media presentation description and segment formats'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Dynamic adaptive streaming over HTTP (DASH) -
+    Part 1: Media presentation description and segment formats'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21424
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23009-1{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23009-1:2012
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23009-1:2012-04:::'
+  type: URN
+date:
+- type: published
+  at: '2012-04-03'
+- type: stable-until
+  at: '2014-05-12'
+- type: obsoleted
+  at: '2014-05-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP.</p>
+    <ul>
+    <li>       The Media Presentation Description (MPD) is an XML-formatted document and describes a Media Presentation, i.e. a bounded or unbounded presentation of media content. In particular, it defines formats to announce resource identifiers for Segments and to provide the context for these identified resources within a Media Presentation. These resource identifiers are HTTP-URLs possibly combined with a byte range.</li>
+    <li>       The Segment formats specify the formats of the HTTP requests. Segments typically contain efficiently coded media data and metadata according to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies ISO/IEC 23009 focuses on Segment formats based on MPEG container formats. Specifically, Segment formats are described for use with Media Segments based on the ISO Base Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport Stream as defined in ISO/IEC 13818-2.</li>
+    </ul>
+    <p>ISO/IEC 23009-1:2012 is applicable to streaming services over the Internet.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

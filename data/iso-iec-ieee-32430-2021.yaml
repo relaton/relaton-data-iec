@@ -1,0 +1,143 @@
+---
+id: ISOIECIEEE324302021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Trial use standard for software non-functional sizing measurements
+  type: title-main
+- language: en
+  script: Latn
+  content: Software engineering - Trial use standard for software non-functional sizing
+    measurements
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/71513
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecieee32430{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC/IEEE 32430:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec-ieee:32430:2021-10:::'
+  type: URN
+date:
+- type: published
+  at: '2021-10-12'
+- type: obsoleted
+  at: '2025-02-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines a method for the sizing of non-functional software requirements. It complements ISO/ IEC 20926:2009, which defines a method for the sizing of functional user requirements (FUR).1</p>
+    <p>This document also describes the complementarity of functional and non-functional sizes, so that sizing both functional and non-functional requirements (NFR) do not overlap. It also describes how non-functional size, together with functional size, should be used for measuring the performance of software projects, setting benchmarks, and estimating the cost and duration of software projects.</p>
+    <p>In general, there are many types of non-functional software requirements. Moreover, non-functional aspects evolve over time and may include additional aspects in the as technology advances. This standard does not intend to define the type of NFR for a given context. Users may choose ISO 25010:2011 or any other standard for the definition of NFR. It is assumed that users will size the NFR based on the definitions they use.</p>
+    <p>This document covers a subset of non-functional types. It is expected that, with time, the state of the art can improve and that potential future versions of this standard can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that may be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional size would then correspond to the total size necessary to bring the software into existence.</p>
+    <p>Calculating the effort and duration of the implementation of the NFR is outside the scope of this standard.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:B

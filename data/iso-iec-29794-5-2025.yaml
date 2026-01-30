@@ -1,0 +1,144 @@
+---
+id: ISOIEC2979452025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Biometric sample quality
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Face image data'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Biometric sample quality - Part 5: Face image
+    data'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Qualité d'échantillon biométrique
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Données d''image de face'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Qualité d''échantillon biométrique -
+    Partie 5: Données d''image de face'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/106958
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29794-5{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29794-5:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29794-5:2025-04:::'
+  type: URN
+date:
+- type: published
+  at: '2025-04-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document establishes requirements on implementations that quantify how a face image’s properties conform with those of canonical face images, for example those specified in ISO/IEC 39794-5:2019, Clause D.1, for three use-cases: </span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">1)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">collection of reference samples for ID documents;</span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">2)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">sample system enrolment; and </span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">3)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">probes for instantaneous response.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document also establishes terms and definitions for quantifying face image quality and specifies methods for quantifying the quality of face images.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document does not establish requirements on:</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">assessing the quality of pairs or sequences of images;</span></p>
+    <p class="Noteindent"><span lang="EN-GB">NOTE<span style="mso-tab-count: 1;">            </span>This document establishes requirements for software that inspects exactly one image. This document does not establish requirements for software that compares two or more images (such as biometric recognition). However, the computations of this document can be applied separately to each image in a pair or sequence.</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">assessing the quality of 3D captures;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">encodings of face image quality data;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">performance evaluation of face image quality assessment algorithms.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">The use cases within scope of this document primarily address the assessment of images from data capture subjects who consent to processing of their biometric data, or for whom biometric capture is operationally authorized.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:G

@@ -1,0 +1,116 @@
+---
+id: ISOIEC1177072021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security
+  type: title-intro
+- language: en
+  script: Latn
+  content: Key management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Cross-domain password-based authenticated key exchange'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information security - Key management - Part 7: Cross-domain password-based
+    authenticated key exchange'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/69892
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11770-7{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11770-7:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11770-7:2021-07:::'
+  type: URN
+date:
+- type: published
+  at: '2021-07-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies mechanisms for cross-domain password-based authenticated key exchange, all of which are four-party password-based authenticated key exchange (4PAKE) protocols. Such protocols let two communicating entities establish a shared session key using just the login passwords that they share with their respective domain authentication servers. The authentication servers, assumed to be part of a standard public key infrastructure (PKI), act as ephemeral certification authorities (CAs) that certify key materials that the users can subsequently use to exchange and agree on as a session key.</p>
+    <p>This document does not specify the means to be used to establish a shared password between an entity and its corresponding domain server. This document also does not define the implementation of a PKI and the means for two distinct domain servers to exchange or verify their respective public key certificates.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:D

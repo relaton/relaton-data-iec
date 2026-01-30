@@ -1,0 +1,124 @@
+---
+id: ISOIEC2934124112017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: UPnP Device Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 24-11: Internet gateway device control protocol -- Level 2 -- Wide
+    area network internet protocol v6 -- Firewall control service'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - UPnP Device Architecture - Part 24-11: Internet
+    gateway device control protocol -- Level 2 -- Wide area network internet protocol
+    v6 -- Firewall control service'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/61495
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29341-24-11{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29341-24-11:2017
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29341-24-11:2017-09:::'
+  type: URN
+date:
+- type: published
+  at: '2017-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 29341-24-11:2017 specifies the characteristics of the UPnP networked service named WANIPv6FirewallControl, version 1. This service definition is compliant with UPnP Service Architecture 1.0 [1]. </p>
+    <p>This service supports the management IPv6 firewall pinholes in Internet gateway devices independent of the WAN access type (PPP, DHCP, ?). It also supports access control to restrict operations to authorized control points and users. It enables UPnP control points to:</p>
+    <p>-           create and delete pinholes of limited duration that allow external communication from the WAN side of the gateway to reach devices on the LAN side</p>
+    <p>-           determine operational status of a pinhole</p>
+    <p>This service does not support:</p>
+    <p>-           retrieving detailed information about pinholes (such as associated external port or remaining lease duration)</p>
+    <p>-           outbound packet filtering</p>
+    <p>-           modification of security policies of a gateway device</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  price_code: iso:ZZ

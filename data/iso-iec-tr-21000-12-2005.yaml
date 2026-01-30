@@ -1,0 +1,120 @@
+---
+id: ISOIECTR21000122005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia framework (MPEG-21)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 12: Test Bed for MPEG-21 Resource Delivery'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia framework (MPEG-21) - Part 12: Test
+    Bed for MPEG-21 Resource Delivery'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10882
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr21000-12{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 21000-12:2005
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21000-12:2005-04:tr::'
+  type: URN
+date:
+- type: published
+  at: '2005-04-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC TR 21000-12:2005 specifies a test bed that is designed to assist in performance assessment of MPEG-21, Scalable Video Codec (SVC) for streaming applications, and for the evaluation of resource delivery technologies over unreliable packet-switched networks. The streaming protocols used in the test bed are based on RTSP and RTP. The Network Adaptation QoS mechanism of MPEG-21 Digital Item Adaptation (DIA) is used for bandwidth-scalable streaming. A subset of MPEG-4 IPMP is also included in the test bed so that encrypted streaming and layered access functionality of a DRM system can be tested for different SVC designs.</p>
+    <p>The test bed includes a network emulator GUI that interfaces with a Linux-based network emulator, NistNet, for real-time emulation of channel characteristics of various networks. Therefore:</p>
+    <ul><li>Various scalable codec (audio, video, scene composition) technologies can be evaluated.</li><li>Various packetization methods and file formats can be evaluated.</li><li>Various multimedia streaming rate control and error control mechanisms can be plugged into the test bed and evaluated.</li></ul>
+    <p>In summary, the following MPEG technologies are demonstrated by the test bed:</p>
+    <ul><li>MPEG scalable audio and video codecs;</li><li>MPEG-4 on IP;</li><li>MPEG-4 IPMP (a small subset); and</li><li>MPEG-21 DIA Network Adaptation QoS.</li></ul>
+    <p>The architecture and the API are not tied to any particular media codecs. However, currently only the MPEG-4 FGS video and MPEG-4 BSAC audio are officially supported by the software. The support for ISO/IEC 21000-13 (MPEG-21 part 13) SVC will be included when that International Standard is ready.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:D

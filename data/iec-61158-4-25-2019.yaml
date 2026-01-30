@@ -1,0 +1,137 @@
+---
+id: IEC611584252019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-25: Data-link layer protocol specification -- Type 25 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-25:
+    Data-link layer protocol specification -- Type 25 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-25: Spécification du protocole de la couche liaison de données
+    -- Eléments de type 25'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-25: Spécification du protocole de la couche liaison de données -- Eléments
+    de type 25'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/59892
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-25{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-25{ed1.0}b.pdf
+docidentifier:
+- content: IEC 61158-4-25:2019
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-4-25:2019-04:::'
+  type: URN
+date:
+- type: published
+  at: '2019-04-10'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 61158-4-25:2019 specifies procedures for the timely transfer of data
+    and control information from one data-link user entity to a peer user entity,
+    and among the data-link entities forming the distributed data-link service provider,
+    and the communication and interworking of sensors, effectors and other automation
+    devices. By using this document together with other standards positioned within
+    the OSI or fieldbus reference models, otherwise incompatible systems may work
+    together in any combination
+- language: fr
+  script: Latn
+  content: "IEC 61158-4-25:2019 La couche de liaison de données assure les communications
+    de messagerie prioritaires de base entre les appareils d’un environnement d’automatisation.<br
+    />\r\nCe protocole offre des opportunités de communication à toutes les entités
+    de liaison de données participantes<br />\r\na) des opportunités de communication
+    cyclique à démarrage synchrone, selon un ordre préétabli, et<br />\r\nb) de manière
+    cyclique ou acyclique asynchrone, comme demandé par chaque cycle de chacune de
+    ces entités de liaison de données.<br />\r\nPar conséquent, ce protocole peut
+    se caractériser comme assurant un accès cyclique et acyclique asynchrone, mais
+    avec un redémarrage synchrone de chaque cycle."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '100314'
+  price_code: iec:L

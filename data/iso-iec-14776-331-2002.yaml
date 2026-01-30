@@ -1,0 +1,133 @@
+---
+id: ISOIEC147763312002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Small computer system interface (SCSI)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 331: Stream commands (SSC)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Small computer system interface (SCSI) - Part
+    331: Stream commands (SSC)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10178
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14776-331{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14776-331:2002
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14776-331:2002-09:::'
+  type: URN
+date:
+- type: published
+  at: '2002-09-27'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The SCSI command set is designed to provide efficient peer-to-peer operation
+    of input&#x2F;output devices (disks, tapes, printers, etc.) by an operating system.
+    The SCSI command set assumes a command-response protocol. Action on SCSI commands
+    shall not be deemed completed until a response is received. The response shall
+    include a status that indicates the final disposition of the command. The SCSI
+    command set provides multiple operating systems concurrent control over one or
+    more input&#x2F;output devices. However, the multiple operating systems must properly
+    coordinate their actions or data corruption will result. This standard specifies
+    functional requirements for SCSI-3 Stream commands (SSC). SSC permits SCSI streaming
+    devices such as tape and printer devices to attach to computers and provides the
+    definitions for their use. This standard specifies the external behavior of a
+    device server that defines itself as either a Sequential-access device or a Printer
+    device; together, these device types are known as Stream Devices. The SSC standard
+    conforms to SCSI-3 Architectural Model (ISO&#x2F;IEC 14776-411:1999) standard.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '12117'
+  price_code: iso:H

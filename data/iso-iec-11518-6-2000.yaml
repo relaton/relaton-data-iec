@@ -1,0 +1,135 @@
+---
+id: ISOIEC1151862000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: High-Performance Parallel Interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Physical Switch Control (HIPPI-SC)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - High-Performance Parallel Interface - Part 6:
+    Physical Switch Control (HIPPI-SC)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9610
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11518-6{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11518-6:2000
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11518-6:2000-10:::'
+  type: URN
+date:
+- type: published
+  at: '2000-10-25'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This part of ISO&#x2F;IEC 11518 defines the control for HIPPI physical
+    layer switches. HIPPI by itself is an efficient simplex high-performance point-to-point
+    interface. The physical switch control allows the interconnection of multiple
+    HIPPI based equipments with HIPPI physical layer switches. Characteristics of
+    this HIPPI physical switch control protocol include: - support for both source
+    routing and destination addresses; - I-Fields and CCIs can span multiple physical
+    layer switches within a fabric; - when a Destination end-point receives a packet,
+    it can easily manipulate the I-Field received to return a reply packet to the
+    Source; - support for physical layer switches with differing numbers of ports,
+    all within the same fabric; - specified reserved addresses to aid address self-discovery,
+    switch management, and switch control. The purpose of this part of ISO&#x2F;IEC
+    11518 is to facilitate the development and use of the HIPPI in computer systems
+    by providing common physical switch control. It provides switch control structures
+    for physical layer switches interconnecting computers, high-performance display
+    systems, and high-performance, intelligent block-transfer peripherals. This part
+    of ISO&#x2F;IEC 11518 also applies to point-to-point HIPPI topologies.'
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '10655'
+  price_code: iso:D

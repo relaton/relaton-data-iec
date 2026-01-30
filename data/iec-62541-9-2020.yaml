@@ -1,0 +1,145 @@
+---
+id: IEC6254192020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Alarms and Conditions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 9: Alarms and Conditions'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 9: Alarmes et Conditions'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 9: Alarmes et Conditions'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/61118
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-9{ed3.0}b.pdf
+docidentifier:
+- content: IEC 62541-9:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-9:2020-06:::'
+  type: URN
+date:
+- type: published
+  at: '2020-06-18'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-9:2020 specifies the representation of Alarms and Conditions
+    in the OPC Unified Architecture. Included is the Information Model representation
+    of Alarms and Conditions in the OPC UA address space. Other aspects of alarm systems
+    such as alarm philosophy, life cycle, alarm response times, alarm types and many
+    other details are captured in documents such as IEC 62682 and ISA 18.2. The Alarms
+    and Conditions Information Model in this specification is designed in accordance
+    with IEC 62682 and ISA 18.2.<br />\r\nThis third edition cancels and replaces
+    the second edition published in 2015. This edition constitutes a technical revision.<br
+    />\r\nThis edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\na) added optional engineering units to the definition
+    of RateOfChange alarms;<br />\r\nb) to fulfill the IEC 62682 model, the following
+    elements have been added:<br />\r\n- AlarmConditionType States: Suppression, Silence,
+    OutOfService, Latched;<br />\r\n- AlarmConditionType Properties: OnDelay, OffDelay,
+    FirstInGroup, ReAlarmTime;<br />\r\n- New alarm types: DiscrepencyAlarm, DeviationAlarm,
+    InstrumentDiagnosticAlarm, SystemDiagnosticAlarm.<br />\r\nc) added Annex that
+    specifies how the concepts of this OPC UA part maps to IEC 62682 and ISA 18.2;<br
+    />\r\nd) added new ConditionClasses: Safety, HighlyManaged, Statistical, Testing,
+    Training;<br />\r\ne) added CertificateExpiration AlarmType;<br />\r\nf) added
+    Alarm Metrics model."
+- language: fr
+  script: Latn
+  content: "L'IEC 62541-9:2020 spécifie la représentation des Alarmes et des Conditions
+    dans l'Architecture unifiée OPC. Il comprend la représentation par le Modèle d'information
+    des Alarmes et des Conditions dans l'espace d'adressage OPC UA. Les autres aspects
+    des systèmes d'alarme tels que la philosophie d'alarme, le cycle de vie, le temps
+    de réponse de l'alarme, les types d'alarmes et de nombreux autres détails figurent
+    dans des documents tels que l'IEC 62682 et l'ISA 18.2. Le Modèle d'information
+    sur les Alarmes et les Conditions de la présente spécification est conçu conformément
+    à l'IEC 62682 et à l'ISA 18.2. Cette troisième édition annule et remplace la deuxième
+    édition parue en 2015. Cette édition constitue une révision technique. Cette édition
+    inclut les modifications techniques majeures suivantes par rapport à l'édition
+    précédente:<br />\r\na) des unités techniques facultatives ont été ajoutées à
+    la définition des alarmes RateOfChange;<br />\r\nb) afin de respecter le modèle
+    IEC 62682, les éléments suivants ont été ajoutés:<br />\r\n- états d'AlarmConditionType:
+    Suppression, Silence, OutOfService, Latched;<br />\r\n- Propriétés d'AlarmConditionType:
+    OnDelay, OffDelay, FirstInGroup, ReAlarmTime;<br />\r\n- nouveaux types d'alarmes:
+    DiscrepencyAlarm, DeviationAlarm, InstrumentDiagnosticAlarm, SystemDiagnosticAlarm;<br
+    />\r\nc) ajout d'une annexe qui spécifie la manière dont les concepts de cette
+    partie d'OPC UA assurent la correspondance avec l'IEC 62682 et l'ISA 18.2;<br
+    />\r\nd) nouvelles ConditionClasses ajoutées: Safety, HighlyManaged, Statistical,
+    Testing, Training;<br />\r\ne) ajout de l'AlarmType CertificateExpiration;<br
+    />\r\nf) ajout d'un modèle de Mesures d'Alarme."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '101130'
+  price_code: iec:N

@@ -1,0 +1,127 @@
+---
+id: IEC608221988
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: VSB
+  type: title-intro
+- language: en
+  script: Latn
+  content: Parallel Sub-system Bus of the IEC 60821 VMEbus
+  type: title-main
+- language: en
+  script: Latn
+  content: VSB - Parallel Sub-system Bus of the IEC 60821 VMEbus
+  type: main
+- language: fr
+  script: Latn
+  content: VSB
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Bus parallèle de sous-système du bus CEI 60821 VMEbus
+  type: title-main
+- language: fr
+  script: Latn
+  content: VSB - Bus parallèle de sous-système du bus CEI 60821 VMEbus
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/3585
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec60822{ed1.0}b.img.pdf
+docidentifier:
+- content: IEC 60822:1988
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:60822:1988-12:::'
+  type: URN
+date:
+- type: published
+  at: '1988-12-30'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The VSB bus was designed to meet the needs of multiprocessor systems based
+    on high-performance 32-bit microprocessors built up from board assemblies. lt
+    includes a high-speed asynchronous data transfer bus allowing masters to direct
+    the transfer of binary data to and from slaves according to 4 kinds of cycles:
+    address-only, single-transfer, block-transfer and interrupt-acknowledge cycles.
+    It also includes an arbitration bus enabling arbiter modules and&#x2F;or requester
+    modules to coordinate the use of the data-transfer bus according to two arbitration
+    methods (series or parallel). Note: -For the price of this publication, please
+    consult the ISO&#x2F;IEC price-code list.'
+- language: fr
+  script: Latn
+  content: 'Le bus VSB a été conçu pour répondre au besoin de systèmes multiprocesseurs
+    basés sur des microprocesseurs 32 bits de hautes performances et construits à
+    partir d&#x27;ensembles de cartes. Inclut un bus asynchrone de transfert de données
+    à haute vitesse qui permet à des maîtres de diriger des transferts de données
+    binaires vers, ou depuis, des esclaves selon quatre types de cycles: uniquement
+    d&#x27;adressage, de transfert unique, de transfert par bloc et de reconnaissance
+    d&#x27;interruption. Inclut également un bus d&#x27;arbitrage qui permet à des
+    modules arbitres et&#x2F;ou à des modules demandeurs de coordonner l&#x27;usage
+    du bus de transfert de données selon deux méthodes d&#x27;arbitrage (série ou
+    parallèle). Note - Pour le prix de cette publication, veuillez consulter la liste
+    du code-prix ISO&#x2F;CEI.'
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 31.080.01
+    text: Semiconductor devices in general
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  - code: '35.160'
+    text: Microprocessor systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '5739'
+  price_code: iec:N

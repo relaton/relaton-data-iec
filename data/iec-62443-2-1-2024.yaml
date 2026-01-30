@@ -1,0 +1,155 @@
+---
+id: IEC62443212024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Security for industrial automation and control systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-1: Security program requirements for IACS asset owners'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Security for industrial automation and control systems - Part 2-1: Security
+    program requirements for IACS asset owners'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité des systèmes d’automatisation et de commande industrielles
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 2-1: Exigences de programme de sécurité pour les propriétaires
+    d’actif IACS'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Sécurité des systèmes d’automatisation et de commande industrielles -
+    Partie 2-1: Exigences de programme de sécurité pour les propriétaires d’actif
+    IACS'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/62883
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62443-2-1{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62443-2-1:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62443-2-1:2024-08:::'
+  type: URN
+date:
+- type: published
+  at: '2024-08-07'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62443-2-1:2024 specifies asset owner security program (SP) policy
+    and procedure requirements for an industrial automation and control system (IACS)
+    in operation. This document uses the broad definition and scope of what constitutes
+    an IACS as described in IEC TS 62443‑1‑1. In the context of this document, asset
+    owner also includes the operator of the IACS.<br />\r\nThis document recognizes
+    that the lifespan of an IACS can exceed twenty years, and that many legacy systems
+    contain hardware and software that are no longer supported. Therefore, the SP
+    for most legacy systems addresses only a subset of the requirements defined in
+    this document. For example, if IACS or component software is no longer supported,
+    security patching requirements cannot be met. Similarly, backup software for many
+    older systems is not available for all components of the IACS. This document does
+    not specify that an IACS has these technical requirements. This document states
+    that the asset owner needs to have policies and procedures around these types
+    of requirements. In the case where an asset owner has legacy systems that do not
+    have the native technical capabilities, compensating security measures can be
+    part of the policies and procedures specified in this document.<br />\r\nThis
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) revised requirement structure into SP elements (SPEs),<br
+    />\r\nb) revised requirements to eliminate duplication of an information security
+    management system (ISMS), and<br />\r\nc) defined a maturity model for evaluating
+    requirements."
+- language: fr
+  script: Latn
+  content: "IEC 62443-2-1:2024 spécifie les exigences de politiques et de procédures
+    du programme de sécurité (SP) du propriétaire d’actif pour un système d’automatisation
+    et de commande industrielle (IACS) opérationnel. Le présent document utilise,
+    au sens large, la définition et le domaine d’application de ce qui constitue un
+    IACS décrit dans l’IEC TS 62443‑1-1. Dans le contexte du présent document, le
+    propriétaire d’actif inclut également l’opérateur de l’IACS.<br />\r\nLe présent
+    document reconnaît que la durée de vie d’un IACS peut dépasser vingt ans et que
+    de nombreux systèmes patrimoniaux contiennent du matériel et du logiciel qui ne
+    sont plus pris en charge. Par conséquent, le SP de la plupart des systèmes patrimoniaux
+    ne concerne qu’un sous-ensemble des exigences définies dans le présent document.
+    Les exigences en matière de correctifs de sécurité, par exemple, ne peuvent pas
+    être satisfaites si l’IACS ou le logiciel composant n’est plus pris en charge.
+    De même, le logiciel de sauvegarde de la plupart des systèmes plus anciens n’est
+    pas disponible pour tous les composants de l’IACS. Le présent document ne précise
+    pas qu'un IACS doit satisfaire à ces exigences techniques. Il indique qu’il est
+    nécessaire que le propriétaire d’actif dispose de politiques et de procédures
+    relatives à ces types d'exigences. Dans le cas où le propriétaire d'actif possède
+    des systèmes patrimoniaux qui ne comportent pas des capacités techniques natives,
+    des mesures de sécurité compensatoires peuvent faire partie des politiques et
+    procédures spécifiées dans le présent document.<br />\r\nCette édition inclut
+    les modifications techniques majeures suivantes par rapport à l'édition précédente:<br
+    />\r\na) la structure des exigences a été révisée en éléments SP (SPE – SP element);<br
+    />\r\nb) les exigences ont été révisées pour éliminer la répétition d'un système
+    de management de la sécurité de l'information (SMSI); et<br />\r\nc) un modèle
+    de stabilisation a été défini pour l'évaluation des exigences."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '102021'
+  price_code: iec:M

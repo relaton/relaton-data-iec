@@ -1,0 +1,232 @@
+---
+id: IEC6229022025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Railway applications
+  type: title-intro
+- language: en
+  script: Latn
+  content: Urban guided transport management and command/control systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Functional requirements specification'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Railway applications - Urban guided transport management and command/control
+    systems - Part 2: Functional requirements specification'
+  type: main
+- language: fr
+  script: Latn
+  content: Applications ferroviaires
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Systèmes de contrôle/commande et de gestion des transports guidés urbains
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Spécification des exigences fonctionnelles'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Applications ferroviaires - Systèmes de contrôle/commande et de gestion
+    des transports guidés urbains - Partie 2: Spécification des exigences fonctionnelles'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/83774
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62290-2{ed3.0}b.pdf
+docidentifier:
+- content: IEC 62290-2:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62290-2:2025-04:::'
+  type: URN
+date:
+- type: published
+  at: '2025-04-11'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62290-2:2025 specifies the functional requirements of UGTMS (urban
+    guided transport management and command/control systems) for use in urban guided
+    passenger transport lines and networks. This document is applicable for new lines
+    or for upgrading existing signalling and command control systems.<br />\r\nThe
+    IEC 62290 series specifies the functional, system and interface requirements for
+    the command, control, and management systems intended to be used on urban, guided
+    passenger transport lines and networks.<br />\r\nThese systems are designated
+    herein as urban guided transport management and command/control systems (UGTMS).
+    UGTMS cover a wide range of operations needs from non-automated (GOA1) to unattended
+    (GOA4) operation. A line may be equipped with UGTMS on its full length or only
+    partly equipped.<br />\r\nThe IEC 62290 series does not specifically address security
+    issues. However, aspects of safety requirements may apply to ensuring security
+    within the urban guided transit system.<br />\r\nThe main objectives of this series
+    are as follows:<br />\r\n* to provide a baseline system description and functional
+    requirements specification for a transport authority to use in a request for proposal,<br
+    />\r\n* to provide recommendations for those transport authorities wishing to
+    acquire an interoperable or interchangeable system.<br />\r\nIt is the responsibility
+    of the transport authority concerned to decide on how to apply the IEC 62290 series
+    and to take into account their particular needs.<br />\r\nThis document is applicable
+    to applications using<br />\r\n* continuous data transmission,<br />\r\n* continuous
+    supervision of train movements by train protection profile, and<br />\r\n* localisation
+    of trains by onboard UGTMS equipment (reporting trains), and optionally by external
+    wayside (and optionally onboard) device.<br />\r\nIn this document, the functional
+    requirements set the framework to which detailed functions are added to define
+    any generic or specific application.<br />\r\nBecause of that, although this document
+    is applicable as a basis to define SRS, FIS and FFFIS, elements can be added for
+    a generic or specific application.<br />\r\nThis third edition cancels and replaces
+    the second edition published in 2014. This edition constitutes a technical revision.<br
+    />\r\nThis edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\na) the functions 5.1.4.5 Stopping a train en
+    route, 5.1.5.4 Monitor speed limit at discrete location, 5.5.5 Manage UGTMS transfer
+    tracks, 5.6.4.1 Monitor passenger emergency calls and 6.2.4 Ensure connecting
+    services have been deleted;<br />\r\nb) the functions 5.5.11 Manage train washing,
+    5.5.12 Manage non-stopping areas and 6.3.4 Perform progressive shutdown have been
+    added;<br />\r\nc) many of the requirements have been reworded: changes in their
+    wording could be only minor and editorial, or it could have technical consequences;<br
+    />\r\nd) some requirements of the second edition have been moved from one function/subfunction
+    to another;<br />\r\ne) some requirements have been deleted;<br />\r\nf) some
+    new requirements have been added in the existing functions;<br />\r\ng) an informative
+    annex giving the reader some user’s recommendations about this document has been
+    added;<br />\r\nh) another informative annex giving some typical performance-related
+    criteria has been also added.<br />\r\ni) an informative annex providing a summary
+    of applicability of functions and subfunctions (mandatory or optional) depending
+    on GOA has been added.<br />\r\nIn order to avoid any disturbance in the use of
+    the document, when functions or requirements of IEC 62290‑2:2014 have been deleted,
+    their numberings have been kept on purpose in this document. The expression \"Deleted\"
+    is indicated at the place of the former headlines of the deleted functions, or
+    at the place of the wording of the deleted requirements. Therefore, the impacts
+    on any existing references or traceability matrices defined previously to this
+    third edition is limited as much as possible.<br />\r\nFor readability of the
+    text, just below the headline of functions and subfunctions describing requirements,
+    the description of applicability of this function depending on GOAs is given in
+    bold characters.<br />\r\nFor the same reason of readability, some elements of
+    Annex A are in italic and bold characters, when some extracts of the main part
+    of the document are considered for providing additional information to the reader,
+    oriented for the proper use of the document."
+- language: fr
+  script: Latn
+  content: "La IEC 62290-2:2025 spécifie les exigences fonctionnelles des systèmes
+    de gestion et de contrôle-commande des transports guidés urbains (UGTMS) destinés
+    à être utilisés dans les lignes et les réseaux de transport guidé urbain de voyageurs.
+    Ce document s'applique aux nouvelles lignes ou à l'amélioration des systèmes de
+    signalisation et de contrôle-commande existants.<br />\r\nLa série IEC 62290 spécifie
+    les exigences fonctionnelles, de système et d'interface pour les systèmes de commande,
+    de contrôle et de gestion destinés à être utilisés sur les lignes et les réseaux
+    de transport guidé urbain de passagers.<br />\r\nCes systèmes sont désignés dans
+    le présent document comme des systèmes de gestion et de commande/contrôle des
+    transports guidés urbains (UGTMS). Les UGTMS couvrent un large éventail de besoins
+    d'exploitation, de l'exploitation non automatisée (GOA1) à l'exploitation sans
+    surveillance (GOA4). Une ligne peut être équipée d'UGTMS sur toute sa longueur
+    ou seulement en partie.<br />\r\nLa série IEC 62290 ne traite pas spécifiquement
+    des questions de sécurité. Cependant, certains aspects des exigences de sécurité
+    peuvent s'appliquer pour assurer la sécurité au sein du système de transport guidé
+    urbain.<br />\r\nLes principaux objectifs de cette série sont les suivants<br
+    />\r\n* fournir une description de base du système et une spécification des exigences
+    fonctionnelles qu'une autorité de transport peut utiliser dans le cadre d'un appel
+    d'offres,<br />\r\n* fournir des recommandations aux autorités de transport qui
+    souhaitent acquérir un système interopérable ou interchangeable.<br />\r\nIl est
+    de la responsabilité de l'autorité de transport concernée de décider comment appliquer
+    la série CEI 62290 et de prendre en compte ses besoins particuliers.<br />\r\nCe
+    document s'applique aux applications utilisant<br />\r\n* la transmission continue
+    de données,<br />\r\n* la supervision continue des mouvements de trains par le
+    profil de protection des trains, et<br />\r\n* la localisation des trains par
+    l'équipement UGTMS embarqué (trains rapporteurs), et éventuellement par un dispositif
+    externe en voie (et éventuellement embarqué).<br />\r\nDans le présent document,
+    les exigences fonctionnelles définissent le cadre auquel des fonctions détaillées
+    sont ajoutées pour définir toute application générique ou spécifique.<br />\r\nC'est
+    pourquoi, bien que ce document soit applicable comme base pour définir les SRS,
+    FIS et FFFIS, des éléments peuvent être ajoutés pour une application générique
+    ou spécifique.<br />\r\nCette troisième édition annule et remplace la deuxième
+    édition publiée en 2014. Cette édition constitue une révision technique.<br />\r\nCette
+    édition comprend les modifications techniques significatives suivantes par rapport
+    à l'édition précédente :<br />\r\na) les fonctions 5.1.4.5 Arrêter un train en
+    cours de route, 5.1.5.4 Contrôler la limitation de vitesse à un endroit discret,
+    5.5.5 Gérer les voies de transfert UGTMS, 5.6.4.1 Contrôler les appels d'urgence
+    des voyageurs et 6.2.4 Assurer les services de correspondance ont été supprimées
+    ;<br />\r\nb) les fonctions 5.5.11 Gérer le lavage des trains, 5.5.12 Gérer les
+    zones de non-arrêt et 6.3.4 Effectuer un arrêt progressif ont été ajoutées ;<br
+    />\r\nc) de nombreuses exigences ont été reformulées : les changements dans leur
+    formulation peuvent être mineurs et d'ordre rédactionnel, ou avoir des conséquences
+    techniques ;<br />\r\nd) certaines exigences de la deuxième édition ont été déplacées
+    d'une fonction/sous-fonction à une autre ;<br />\r\ne) certaines exigences ont
+    été supprimées ;<br />\r\nf) de nouvelles exigences ont été ajoutées aux fonctions
+    existantes ;<br />\r\ng) une annexe informative donnant au lecteur quelques recommandations
+    d'utilisation de ce document a été ajoutée ;<br />\r\nh) une autre annexe informative
+    donnant quelques critères typiques liés à la performance a également été ajoutée.<br
+    />\r\ni) une annexe informative résumant l'applicabilité des fonctions et sous-fonctions
+    (obligatoires ou facultatives) en fonction des GOA a été ajoutée.<br />\r\nAfin
+    d'éviter toute perturbation dans l'utilisation du document, lorsque des fonctions
+    ou des exigences de la CEI 62290-2:2014 ont été supprimées, leur numérotation
+    a été conservée dans le présent document. L'expression « Supprimé » est indiquée
+    à la place des anciens titres des fonctions supprimées, ou à la place du libellé
+    des exigences supprimées. Par conséquent, l'impact sur les références existantes
+    ou les matrices de traçabilité définies antérieurement à cette troisième édition
+    est limité autant que possible.<br />\r\nPour faciliter la lecture du texte, la
+    description de l'applicabilité de cette fonction en fonction des GOA est indiquée
+    en caractères gras juste en dessous du titre des fonctions et sous-fonctions décrivant
+    les exigences.<br />\r\nPour la même raison de lisibilité, certains éléments de
+    l'annexe A sont en caractères italiques et gras, lorsque certains extraits de
+    la partie principale du document sont considérés comme fournissant des informations
+    supplémentaires au lecteur, orientées vers l'utilisation correcte du document."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 45.060.01
+    text: Railway rolling stock in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '116613'
+  price_code: iec:M

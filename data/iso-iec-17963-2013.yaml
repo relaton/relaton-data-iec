@@ -1,0 +1,120 @@
+---
+id: ISOIEC179632013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Services for Management (WS-Management) Specification
+  type: title-main
+- language: en
+  script: Latn
+  content: Web Services for Management (WS-Management) Specification
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10579
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec17963{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 17963:2013
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:17963:2013-01:::'
+  type: URN
+date:
+- type: published
+  at: '2013-01-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 17963:2013<i> </i>describes a Web services protocol based on SOAP for use in management‑specific domains. These domains include the management of entities such as PCs, servers, devices, Web services and other applications manageable entities. Services can expose only a WS-Management interface or compose the WS-Management service interface with some of the many other Web service specifications. </p>
+
+    <p>A crucial application for these services is in the area of systems management. To promote interoperability between management applications and managed resources, ISO/IEC PAS 17963:2012 identifies a core set of Web service specifications and usage requirements that expose a common set of operations central to all systems management. This includes the ability to do the following:</p>
+    <p>a) get, put (update), create, and delete individual resource instances, such as settings and dynamic values;</p>
+    <p>b) enumerate the contents of containers and collections, such as large tables and logs;</p>
+    <p>c) subscribe to events emitted by managed resources;</p>
+    <p>d) execute specific management methods with strongly typed input and output parameters.</p>
+
+    <p>In each of these areas of scope, ISO/IEC 17963:2013 defines minimal implementation requirements for conformant Web service implementations. An implementation is free to extend beyond this set of operations, and to choose not to support one or more of the preceding areas of functionality if that functionality is not appropriate to the target device or system. </p>
+
+    <p>ISO/IEC 17963:2013 intends to meet the following requirements: </p>
+    <p>a) constrain Web services protocols and formats so that Web services can be implemented with a small footprint in both hardware and software management services;</p>
+    <p>b) define minimum requirements for compliance without constraining richer implementations;</p>
+    <p>c) ensure backward compatibility and interoperability with WS-Management version 1.0;</p>
+    <p>d) ensure composability with other Web services specifications.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  price_code: iso:H

@@ -1,0 +1,132 @@
+---
+id: IEC6254182015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 8: Data Access'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 8: Data Access'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 8: Accès aux données'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 8: Accès aux données'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21991
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-8{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62541-8:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-8:2015-03:::'
+  type: URN
+date:
+- type: published
+  at: '2015-03-25'
+- type: stable-until
+  at: '2020-06-22'
+- type: obsoleted
+  at: '2020-06-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62451-8:2015 is part of the overall OPC Unified Architecture (OPC
+    UA) standard series and defines the information model associated with Data Access
+    (DA). It particularly includes additional VariableTypes and complementary descriptions
+    of the NodeClasses and Attributes needed for Data Access, additional Properties,
+    and other information and behaviour. This second edition cancels and replaces
+    the first edition published in 2011 and constitutes a technical revision. This
+    edition includes the following changes:<br />\r\n- Clarified that deadband has
+    to be between 0.0 and 100.0. Violations result in error Bad_DeadbandFilterInvalid;<br
+    />\r\n- Added VariableTypes handling ArrayItems and DataTypes supporting this,
+    including complex number types."
+- language: fr
+  script: Latn
+  content: "L'IEC 62541-8:2015 fait partie intégrante de la série de normes générales
+    sur l'Architecture Unifiée OPC (OPC UA). Elle définit le modèle d'informations
+    associé à l'Accès aux Données (DA). Elle comporte notamment des Types de Variables
+    (VariableTypes) supplémentaires et des descriptions complémentaires des Classes
+    de Noeuds (NodeClasses) et des Attributs (Attributes), nécessaires pour l'Accès
+    aux Données, des Propriétés (Properties) supplémentaires ainsi que d'autres paramètres
+    relatifs aux informations et au comportement. Cette deuxième édition annule et
+    remplace la première édition parue en 2011. Elle constitue une révision technique.
+    Cette édition inclut les modifications suivantes:<br />\r\n- Clarification précisant
+    qu'il faut que la bande morte soit comprise entre 0,0 et 100,0. Les violations
+    génèrent l'erreur Bad_DeadbandFilterInvalid;<br />\r\n- Ajout de VariableTypes
+    (Types de Variables) gérant les ArrayItems (éléments de matrices) et les DataTypes
+    (Types de Données) les prenant en charge, y compris les types de nombres complexes.
+    Ces types de données sont exigés pour les dispositifs d'analyses complexes mais
+    semblent également utiles."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '21054'
+  price_code: iec:G

@@ -1,0 +1,130 @@
+---
+id: ISO1511842018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+- language: en
+  script: Latn
+  content: Vehicle to grid communication interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Network and application protocol conformance test'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Road vehicles - Vehicle to grid communication interface - Part 4: Network
+    and application protocol conformance test'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/32348
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iso15118-4{ed1.0}en.pdf
+docidentifier:
+- content: ISO 15118-4:2018
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso:15118-4:2018-03:::'
+  type: URN
+date:
+- type: published
+  at: '2018-03-07'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "ISO 15118-4:2018 specifies conformance tests in the form of an Abstract
+    Test Suite (ATS) for a System Under Test (SUT) implementing an EVCC or SECC according
+    to ISO 15118-2. These conformance tests specify the testing of capabilities and
+    behaviors of an SUT as well as checking what is observed against the conformance
+    requirements specified in ISO 15118-2 and against what the supplier states the
+    SUT implementation's capabilities are.<br />\r\nThe capability tests within the
+    ATS check that the observable capabilities of the SUT are in accordance with the
+    static conformance requirements defined in ISO 15118-2. The behavior tests of
+    the ATS examine an implementation as thoroughly as is practical over the full
+    range of dynamic conformance requirements defined in ISO 15118-2 and within the
+    capabilities of the SUT (see NOTE).<br />\r\nA test architecture is described
+    in correspondence to the ATS. The conformance test cases in this document are
+    described leveraging this test architecture and are specified in TTCN-3 Core Language
+    for ISO/OSI Network Layer (Layer 3) and above. The conformance test cases for
+    the Data Link Layer (Layer 2) and Physical Layer (Layer 1) are described in ISO
+    15118-5. Test cases with overlapping scopes are explicitly detailed.<br />\r\nThis
+    document does not include specific tests of other standards referenced within
+    ISO 15118-2, e.g. IETF RFCs. Furthermore, the conformance tests specified in this
+    document do not include the assessment of performance nor robustness or reliability
+    of an implementation. They cannot provide judgments on the physical realization
+    of abstract service primitives, how a system is implemented, how it provides any
+    requested service, nor the environment of the protocol implementation. Furthermore,
+    the test cases defined in this document only consider the communication protocol
+    defined ISO 15118-2. Power flow between the EVSE and the EV is not considered.<br
+    />\r\nNOTE 1 Practical limitations make it impossible to define an exhaustive
+    test suite, and economic considerations can restrict testing even further. Hence,
+    the purpose of this document is to increase the probability that different implementations
+    are able to interwork. This is achieved by verifying them by means of a protocol
+    test suite, thereby increasing the confidence that each implementation conforms
+    to the protocol specification. However, the specified protocol test suite cannot
+    guarantee conformance to the specification since it detects errors rather than
+    their absence. Thus conformance to a test suite alone cannot guarantee interworking.
+    What it does do is give confidence that an implementation has the required capabilities
+    and that its behavior conforms consistently in representative instances of communication.<br
+    />\r\nNOTE 2 This document has some interdependencies to the conformance tests
+    defined in ISO 15118-5 which result from ISO/OSI cross layer dependencies in the
+    underlying protocol specification (e.g. for sleep mode)"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '21933'
+  price_code: iso:H

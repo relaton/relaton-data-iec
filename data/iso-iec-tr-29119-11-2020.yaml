@@ -1,0 +1,118 @@
+---
+id: ISOIECTR29119112020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software and systems engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Software testing
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 11: Guidelines on the testing of AI-based systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Software and systems engineering - Software testing - Part 11: Guidelines
+    on the testing of AI-based systems'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68129
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr29119-11{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 29119-11:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29119-11:2020-11:tr::'
+  type: URN
+date:
+- type: published
+  at: '2020-11-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document provides an introduction to AI-based systems. These systems are typically complex (e.g. deep neural nets), are sometimes based on big data, can be poorly specified and can be non-deterministic, which creates new challenges and opportunities for testing them.</p>
+    <p>This document explains those characteristics which are specific to AI-based systems and explains the corresponding difficulties of specifying the acceptance criteria for such systems.</p>
+    <p>This document presents the challenges of testing AI-based systems, the main challenge being the test oracle problem, whereby testers find it difficult to determine expected results for testing and therefore whether tests have passed or failed. It covers testing of these systems across the life cycle and gives guidelines on how AI-based systems in general can be tested using black-box approaches and introduces white-box testing specifically for neural networks. It describes options for the test environments and test scenarios used for testing AI-based systems.</p>
+    <p>In this document an AI-based system is a system that includes at least one AI component.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:ZZ

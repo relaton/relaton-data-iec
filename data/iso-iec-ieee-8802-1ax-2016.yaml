@@ -1,0 +1,150 @@
+---
+id: ISOIECIEEE88021AX2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Local and metropolitan area networks -- Specific requirements -- Part
+    1AX: Link aggregation'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Telecommunications and information exchange between
+    systems - Local and metropolitan area networks -- Specific requirements -- Part
+    1AX: Link aggregation'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/24048
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecieee8802-1AX{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC/IEEE 8802-1AX:2016
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec-ieee:8802-1AX:2016-01:::'
+  type: URN
+date:
+- type: published
+  at: '2016-01-14'
+- type: stable-until
+  at: '2021-09-13'
+- type: obsoleted
+  at: '2021-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>Link Aggregation provides protocols, procedures, and managed objects that allow the following:</p>
+    <p>- One or more parallel instances of full-duplex point-to-point links to be aggregated together to form a Link Aggregation Group (LAG), such that a MAC Client can treat the LAG as if it were a single link.</p>
+    <p>- A resilient interconnect using multiple full-duplex point-to-point links among one to three nodes in a network and one to three nodes in another, separately administered, network, along with a means to ensure that frames belonging to any given service will use the same physical path in both directions between the two networks.</p>
+    <p>ISO/IEC/IEEE 8802-1AX:2015 defines the MAC-independent Link Aggregation capability and general information relevant to specific MAC types that support Link Aggregation. The capabilities defined are compatible with previous versions of this standard.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  price_code: iso:B

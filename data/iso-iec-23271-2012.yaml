@@ -1,0 +1,118 @@
+---
+id: ISOIEC232712012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Common Language Infrastructure (CLI)
+  type: title-main
+- language: en
+  script: Latn
+  content: Information technology - Common Language Infrastructure (CLI)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11053
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23271{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23271:2012
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23271:2012-02:::'
+  type: URN
+date:
+- type: published
+  at: '2012-02-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23271:2012 defines the Common Language Infrastructure (CLI) in which applications written in multiple high-level languages can be executed in different system environments without the need to rewrite those applications to take into consideration the unique characteristics of those environments. It consists of six partitions.</p>
+    <ul>
+    <li>Partition I describes the overall architecture of the CLI, and provides the normative description of the Common Type System (CTS), the Virtual Execution System (VES), and the Common Language Specification (CLS). It also provides an informative description of the metadata.</li>
+    <li>Partition II provides the normative description of the metadata: its physical layout (as a file format), its logical contents (as a set of tables and their relationships), and its semantics (as seen from a hypothetical assembler, ILAsm).</li>
+    <li>Partition III describes the Common Intermediate Language (CIL) instruction set.</li>
+    <li>Partition IV provides an overview of the CLI Libraries, and a specification of their factoring into Profiles and Libraries. A companion file, CLILibrary.xml, considered to be part of this partition, but distributed in XML format, provides details of each class, value type, and interface in the CLI Libraries.</li>
+    <li>Partition V describes a standard way to interchange debugging information between CLI producers and consumers.</li>
+    <li>Partition VI contains some sample programs written in CIL Assembly Language (ILAsm), information about a particular implementation of an assembler, a machine-readable description of the CIL instruction set which can be used to derive parts of the grammar used by this assembler as well as other tools that manipulate CIL, a set of guidelines used in the design of the libraries of Partition IV, and portability considerations.</li>
+    </ul>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:ZZ

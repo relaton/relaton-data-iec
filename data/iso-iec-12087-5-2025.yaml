@@ -1,0 +1,144 @@
+---
+id: ISOIEC1208752025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Image processing and interchange (IPI) functional specification
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Basic image interchange format (BIIF)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Image processing and interchange (IPI) functional
+    specification - Part 5: Basic image interchange format (BIIF)'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l’information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécification fonctionnelle pour le traitement de l’image et l’échange
+    (IPI)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Format d’échange de l’image de base (BIIF)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l’information - Spécification fonctionnelle pour le traitement
+    de l’image et l’échange (IPI) - Partie 5: Format d’échange de l’image de base
+    (BIIF)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/109224
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec12087-5{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 12087-5:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:12087-5:2025-08:::'
+  type: URN
+date:
+- type: published
+  at: '2025-08-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document establishes the specification of the Basic image interchange format (BIIF). This document provides a foundation for interoperability in the interchange of imagery and imagery-related data among applications. It also provides a detailed description of the overall structure of the format, as well as specification of the valid data and format for all fields defined with BIIF. Annex C contains a Model Profile of BIIF in tables to assist in profile development.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">The scope and field of application of this document includes the capability to perpetuate a proven interchange capability in support of commercial and government imagery, Programmer’s Imaging Kernel System (PIKS) data, and other imagery technology domains in that priority order.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document provides a data format container for image, symbol, and text, along with a mechanism for including image-related support data.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document:</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">provides a means whereby diverse applications can share imagery and associated information;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">allows an application to exchange comprehensive information to users with diverse needs or capabilities, allowing each user to select only those data items that correspond to their needs and capabilities;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">minimizes preprocessing and postprocessing of data;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">minimizes formatting overhead, particularly for those applications exchanging only a small amount of data and for bandwidth-limited systems;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">provides a mechanism (Transportable File Structure, TFS) to interchange PIKS image and image-related objects;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">provides extensibility to accommodate future data, including objects.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  price_code: iso:H

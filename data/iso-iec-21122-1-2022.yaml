@@ -1,0 +1,121 @@
+---
+id: ISOIEC2112212022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: JPEG XS low-latency lightweight image coding system
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Core coding system'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG XS low-latency lightweight image coding
+    system - Part 1: Core coding system'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/75213
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec21122-1{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 21122-1:2022
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21122-1:2022-03:::'
+  type: URN
+date:
+- type: published
+  at: '2022-03-29'
+- type: obsoleted
+  at: '2024-07-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines the syntax and an accompanying decompression process that is capable to represent continuous-tone grey-scale, or continuous-tone colour digital images without visual loss at moderate compression rates. Typical compression rates are between 2:1 and 6:1 but can also be higher depending on the nature of the image. In particular, the syntax and the decoding process specified in this document allow lightweight encoder and decoder implementations that limit the end-to-end latency to a fraction of the frame size. However, the definition of transmission channel buffer models necessary to ensure such latency is beyond the scope of this document.</p>
+    <p>This document:</p>
+    <p>—    specifies decoding processes for converting compressed image data to reconstructed image data;</p>
+    <p>—    specifies a codestream syntax containing information for interpreting the compressed image data;</p>
+    <p>—    provides guidance on encoding processes for converting source image data to compressed image data.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:B

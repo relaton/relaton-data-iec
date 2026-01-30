@@ -1,0 +1,122 @@
+---
+id: ISOIEC1803332010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Encryption algorithms -- Part 3: Block ciphers'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Encryption algorithms --
+    Part 3: Block ciphers'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10634
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec18033-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 18033-3:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:18033-3:2010-12:::'
+  type: URN
+date:
+- type: published
+  at: '2010-12-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18033 specifies encryption systems (ciphers) for the purpose of data confidentiality. </p>
+    <p>ISO/IEC 18033-3:2010 specifies block ciphers. A block cipher is a symmetric encipherment system with the property that the encryption algorithm operates on a block of plaintext, i.e. a string of bits of a defined length, to yield a block of ciphertext.</p>
+    <p>ISO/IEC 18033-3:2010 specifies following algorithms:</p>
+    <ul>
+    <li>64-bit block ciphers: TDEA, MISTY1, CAST-128, HIGHT; </li>
+    <li>128-bit block ciphers: AES, Camellia, SEED. </li>
+    </ul>
+    <p>NOTE   The primary purpose of encryption (or encipherment) techniques is to protect the confidentiality of stored or transmitted data. An encryption algorithm is applied to data (often called plaintext or cleartext) to yield encrypted data (or ciphertext); this process is known as encryption. The encryption algorithm needs to be designed so that the ciphertext yields no information about the plaintext except, perhaps, its length. Associated with every encryption algorithm is a corresponding decryption algorithm, which transforms ciphertext back into its original plaintext.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:G

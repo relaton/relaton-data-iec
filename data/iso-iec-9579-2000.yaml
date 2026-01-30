@@ -1,0 +1,148 @@
+---
+id: ISOIEC95792000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Remote database access for SQL with security enhancement
+  type: title-main
+- language: en
+  script: Latn
+  content: Information technology - Remote database access for SQL with security enhancement
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11832
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9579{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9579:2000
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9579:2000-02:::'
+  type: URN
+date:
+- type: published
+  at: '2000-02-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard, Remote Database Access for SQL (RDA), defines a model for the remote</p>
+    <p>interaction of an SQL-client and one or more SQL-servers through communication media, and defines</p>
+    <p>the encoding of messages, the semantics of messages and associated facilities for mediating the</p>
+    <p>interaction between one SQL-client and one SQL-server.</p>
+    <p>This International Standard also defines a mapping of the RDA Protocol to the specific communication</p>
+    <p>inhastructures TCPIIP and Transport Layer Security (TLS).</p>
+    <p>This International Standard relies upon the facilities provided by ISOIIEC 9075 (SQL) and</p>
+    <p>ISOIIEC 9075-3 (SQLICLI).</p>
+    <p>This International Standard also:</p>
+    <p>- identifies potential security vulnerabilities in remote database access using RDA,</p>
+    <p>- defines RDA facilities which protect against the potential vulnerabilities.</p>
+    <p>Normative annexes provide:</p>
+    <p>- a Conformance Proforma,</p>
+    <p>- an optional language independent Application Programming Interface defined in the notational</p>
+    <p>conventions of ISOIIEC 9075-3 (SQLICLI) for invoking RDA Operations,</p>
+    <p>- an optional mapping of ISOIIEC 9075-3 (SQLICLI) functions to RDA Operations,</p>
+    <p>- definitions of optional SQL-servers, the RDA Location Server and the RDA Support Server, to</p>
+    <p>facilitate interoperation and data distribution in a heterogeneous environment,</p>
+    <p>- a set of security profiles that identify which RDA facilities and other security facilities are required</p>
+    <p>for different levels of protection against potential vulnerabilities.</p>
+    <p>Informative annexes provide:</p>
+    <p>- an analysis of security service requirements,</p>
+    <p>- an ASN. 1 specification for the RDA Protocol,</p>
+    <p>- an ASN. 1 specification for the encoding of multiple rows.</p>
+    <p>This International Standard does not constrain:</p>
+    <p>- conforming RDA-client environments to be implemented using any particular processor</p>
+    <p>decomposition,</p>
+    <p>- conforming RDA-server environments to be implemented using any particular processor</p>
+    <p>decomposition.</p>
+    <p>This International Standard refers to but does not define:</p>
+    <p>- protocols and security mechanisms for communication confidentiality, integrity and authentication</p>
+    <p>of communicating peers,</p>
+    <p>- digital signature and authentication mechanisms supported by protocol elements of RDA.</p>
+    <p>This International Standard does not define:</p>
+    <p>? algorithms for query decomposition or for the combining of results in a distributed database</p>
+    <p>environment,</p>
+    <p>? mechanisms for recovery in the event that transaction co-ordination fails,</p>
+    <p>? mechanisms for storage integrity and confidentiality using cryptography,</p>
+    <p>? mechanisms to counter Denial of Service attacks.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:H

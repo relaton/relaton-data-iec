@@ -1,0 +1,125 @@
+---
+id: ISOIEC202482022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Automatic identification and data capture techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: Digital signature data structure schema
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Automatic identification and data capture techniques
+    - Digital signature data structure schema
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/76753
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec20248{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 20248:2022
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:20248:2022-06:::'
+  type: URN
+date:
+- type: published
+  at: '2022-06-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document is an ISO/IEC 9594‑8 [public key infrastructure (PKI) digital signatures and certificates] application specification for automated identification services. It specifies a method whereby data stored within a barcode and/or RFID tag are structured, encoded and digitally signed. ISO/IEC 9594‑8 is used to provide a standard method for key and data description management and distribution. The data capacity and/or data transfer capacity of automated identification data carriers are restricted. This restricts the normal use of a digital signature as specified in ISO/IEC 9594‑8 within automated identification services.</p>
+    <p>The purpose of this document is to provide an open and interoperable method, between automated identification services and data carriers, to read data, verify data originality and data integrity in an offline use case.</p>
+    <p>This document specifies</p>
+    <p>—    the meta data structure, the DigSig, which contains the digital signature and encoded structured data,</p>
+    <p>—    the public key certificate parameter and extension use, the DigSig certificate, which contains the certified associated public key, the structured data description, the read methods, and private containers,</p>
+    <p>—    the method to specify, read, describe, sign, verify, encode, and decode the structured data, the DigSig Data Description,</p>
+    <p>—    the DigSig EncoderGenerator which generates the relevant asymmetric key pairs, keeps the private key secret, and generates the DigSigs, and</p>
+    <p>—    the DigSig DecoderVerifier which, by using to the DigSig certificate, reads the DigSig from the set of data carriers, verifies the DigSig and extracts the structured data from the DigSig.</p>
+    <p>This document does not specify</p>
+    <p>—    cryptographic methods, or</p>
+    <p>—    key management methods.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:H

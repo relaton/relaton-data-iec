@@ -1,0 +1,158 @@
+---
+id: IEC625411002025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 100: Devices'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 100: Devices'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 100: Appareils'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 100: Appareils'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/82255
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-100{ed2.0}en.pdf
+docidentifier:
+- content: IEC 62541-100:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-100:2025-12:::'
+  type: URN
+date:
+- type: published
+  at: '2025-12-17'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-100:2025 defines the information model associated with Devices.
+    This document describes three models which build upon each other as follows:<br
+    />\r\n• The (base) Device Model is intended to provide a unified view of devices
+    and their hardware and software parts irrespective of the underlying device protocols.<br
+    />\r\n• The Device Communication Model adds Network and Connection information
+    elements so that communication topologies can be created.<br />\r\n• The Device
+    Integration Host Model finally adds additional elements and rules required for
+    host systems to manage integration for a complete system. It enables reflecting
+    the topology of the automation system with the devices as well as the connecting
+    communication networks.<br />\r\nThis document also defines AddIns that can be
+    used for the models in this document but also for models in other information
+    models. They are:<br />\r\n• Locking model – a generic AddIn to control concurrent
+    access,<br />\r\n• Software update model – an AddIn to manage software in a Device.<br
+    />\r\nThis second edition cancels and replaces the first edition published in
+    2015. This edition constitutes a technical revision. This edition includes the
+    following significant technical changes with respect to the previous edition:<br
+    />\r\na) a ComponentType that can be used to model any HW or SW element of a device
+    has been defined and a SoftwareType has been added as subtype of ComponentType;<br
+    />\r\nb) the new OPC UA interface concept and defined interfaces for Nameplate,
+    DeviceHealth, and SupportInfo has been added.<br />\r\nc) a new model for Software
+    Update (Firmware Update) has been added;<br />\r\nd) a new entry point for documents
+    where each document is represented by a FileType instance has been specified;<br
+    />\r\ne) a model that provides information about the lifetime, related limits
+    and semantic of the lifetime of things like tools, material or machines has been
+    added."
+- language: fr
+  script: Latn
+  content: "IEC 62541-100:2025 définit le modèle d'information associé aux Appareils.
+    Le présent document décrit trois modèles qui s'appuient les uns sur les autres,
+    comme suit:<br />\r\n• le Modèle d'appareil (de base) vise à fournir une vue unifiée
+    des appareils et de leurs parties matérielles et logicielles, et ce, indépendamment
+    des protocoles d'appareils sous-jacents;<br />\r\n• le Modèle de communication
+    d'appareil ajoute des éléments d'information de Réseau et de Connexion afin de
+    pouvoir créer les topologies de communication;<br />\r\n• enfin, le Modèle d'hôte
+    d'intégration d'appareil ajoute des éléments et des règles supplémentaires exigés
+    pour que les systèmes hôtes gèrent l'intégration pour un système complet. Il permet
+    également de refléter la topologie du système d'automatisation avec les appareils
+    ainsi qu'avec les réseaux de communication connectés.<br />\r\nLe présent document
+    définit également les AddIns qui peuvent être utilisés pour les modèles de ce
+    document, mais également pour ceux d'autres modèles d'information. À savoir:<br
+    />\r\n• Modèle de verrouillage – AddIn générique pour contrôler l'accès simultané;<br
+    />\r\n• Modèle de mise à jour logicielle – AddIn pour gérer le logiciel dans un
+    Appareil.<br />\r\nCette deuxième édition annule et remplace la première édition
+    parue en 2015. Cette édition constitue une révision technique. Cette édition inclut
+    les modifications techniques majeures suivantes par rapport à l'édition précédente:<br
+    />\r\na) un ComponentType qui peut être utilisé pour modéliser tout élément matériel
+    ou logiciel d'un appareil a été ajouté, ainsi qu'un SoftwareType en tant que sous-type
+    de ComponentType;<br />\r\nb) le nouveau concept d'interface OPC UA et des interfaces
+    définies pour Nameplate, DeviceHealth et SupportInfo ont été ajoutés;<br />\r\nc)
+    un nouveau modèle pour la mise à jour logicielle (mise à jour du micrologiciel)
+    a été ajouté;<br />\r\nd) un nouveau point d'entrée pour les documents où chacun
+    d'entre eux est représenté par une instance de FileType a été spécifié;<br />\r\ne)
+    un modèle qui fournit des informations relatives à la durée de vie, aux limites
+    associées et à la sémantique de la durée de vie d'éléments tels que des outils,
+    du matériel ou des machines a été ajouté."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '115396'
+  price_code: iec:P

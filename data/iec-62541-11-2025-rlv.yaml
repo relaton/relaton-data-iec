@@ -1,0 +1,120 @@
+---
+id: IEC62541112025RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 11: Historical Access'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 11: Historical Access'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/111262
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-11{ed3.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62541-11:2025 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62541-11::rlv
+  type: URN
+date:
+- type: published
+  at: '2025-12-23'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-11:2025 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62541-11:
+    2025 defines the Information Model associated with Historical Access (HA). It
+    particularly includes additional and complementary descriptions of the NodeClasses
+    and Attributes needed for Historical Access, additional standard Properties, and
+    other information and behaviour. The complete AddressSpace Model including all
+    NodeClasses and Attributes is specified in IEC 62541‑3. The predefined Information
+    Model is defined in IEC 62541‑5. The Services to detect and access historical
+    data and events, and description of the ExtensibleParameter types are specified
+    in IEC 62541‑4. This document includes functionality to compute and return Aggregates
+    like minimum, maximum, average etc. The Information Model and the concrete working
+    of Aggregates are defined in IEC 62541‑13. Conventions for Historical Access Clients
+    are informatively provided in Annex A.<br />\r\nThis fourth edition cancels and
+    replaces the third edition published in 2020. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) a functionality has been added
+    to support retrieving of modified events;<br />\r\nb) an Event has been added
+    to indicate when a backfill occurred;<br />\r\nc) a new ReferenceType that can
+    be used to indicate an external node has been defined;<br />\r\nd) the text has
+    been improved to better explain the concept of annotation and remove conflicting
+    explanations;<br />\r\ne) a default historian configuration (and where to find
+    it) has been defined;<br />\r\nf) HistoricalEventConfigurationType, which provides
+    general configuration information about the historical Event storage, has been
+    added;<br />\r\ng) the text has been updated and optional fields have been added
+    to HA configuration object to allow configuration to be defined for periodic data
+    collection, not just for exception-based collection;<br />\r\nh) an ObjectType
+    that can be used for external event collection has been provided as well as an
+    example how historians can be configured."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '115408'
+  price_code: iec:RF

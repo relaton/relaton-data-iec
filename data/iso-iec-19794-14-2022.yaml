@@ -1,0 +1,123 @@
+---
+id: ISOIEC19794142022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Biometric data interchange formats
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 14: DNA data'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Biometric data interchange formats - Part 14:
+    DNA data'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/79564
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec19794-14{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 19794-14:2022
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19794-14:2022-10:::'
+  type: URN
+date:
+- type: published
+  at: '2022-10-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies a data interchange format for the exchange of deoxyribonucleic acid (DNA) data for person identification or verification technologies that utilize human DNA. Consideration of laboratory procedures is out of scope of this document.</p>
+    <p>This document provides the ability for DNA profile data to be exchanged and used for comparison (subject to privacy regulations) with DNA profile data produced by any other system that is based on a compatible DNA profiling technique and where the data format conforms to this document.</p>
+    <p>This document is intended to cover current forensic DNA profiling or typing techniques that are based on short tandem repeats (STRs), including STRs on the X chromosome (X-STRs) the Y chromosome (Y-STRs), as well as mitochondrial DNA. A single DNA profile for a subject can contain data resulting from more than one of these different DNA techniques. This document enables data from multiple DNA techniques to be presented in a single DNA profile for a given subject.</p>
+    <p>This document has been prepared in light of ongoing efforts to reduce human involvement in the processing (enrolment and comparison) of DNA. In anticipation of the data format requirements for automated DNA techniques, this document describes a format for both processed and raw (electrophoretic) DNA data. A normative XML schema definition (XSD) is provided in Clause A.1 for the syntax of DNA data XML documents. In Clause A.2, there is a sample DNA data XML document.</p>
+    <p>This document is not intended for any other purposes than exchange of DNA for biometric verification and identification of individuals. In particular, it is not intended for the exchange of medical and other health-related information.</p>
+    <p>This document also specifies elements of conformance testing methodology, test assertions and test procedures as applicable to this document. It establishes test assertions pertaining to the structure of the DNA data format (Type A Level 1 as defined in ISO/IEC 19794-1:2011/Amd. 1:2013) and test assertions pertaining to internal consistency of the values contained within each field (Type A,ind Level 2 as defined in ISO/IEC 19794-1:2011/Amd. 1:2013). This document also specifies test assertions pertaining to the content of DNA data XML documents (Level 3 as defined in ISO/IEC 19794-1:2011/Amd. 1:2013). The successful completion of Level 1 and Level 2 is a prerequisite for carrying out the tests at Level 3.</p>
+    <p>The conformance testing methodology specified in this document does not establish:</p>
+    <p>—    tests of other characteristics of biometric products or other types of testing of biometric products (e.g. acceptance, performance, robustness, security);</p>
+    <p>—    tests of systems not claimed to conform to the requirements of this document.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:H

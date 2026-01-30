@@ -1,0 +1,155 @@
+---
+id: ISOIEC144741998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Private Integrated Services Network -- Functional requirements for static
+    circuit-mode inter-PINX connections
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Functional requirements for static
+    circuit-mode inter-PINX connections
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9921
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14474{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14474:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14474:1998-12:::'
+  type: URN
+date:
+- type: published
+  at: '1998-12-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard is a part of the functional requirements for the Private Integrated Services Network (PISN)</p>
+    <p>and defines the functions and procedures that are required by Private Integrated Services Network exchanges (PINXs)</p>
+    <p>and the intervening network (IVN) in order to establish Inter-PINX Connections (IPC). The IPC is used for the transfer</p>
+    <p>of signalling and user information between PINXs.</p>
+    <p>The Private Signalling System No.1 (PSS1) as defined in ISO/IEC 11572 and 11574 defines the signalling procedures</p>
+    <p>and protocol for call control between PINXs at the Q reference point. These procedures are independent of the types of</p>
+    <p>IVNs, called scenarios used to interconnect the PINXs. ISO/IEC TR14475 describes the use of various types of IVNs</p>
+    <p>which provide the interconnections of PINXs.</p>
+    <p>In order to connect a PINX to another PINX, mapping functions are required to adapt the specific interfaces at the C</p>
+    <p>reference point to the application at the Q reference point. As such, mapping functions provide for physical adaptation</p>
+    <p>to the interface at the C reference point. Mapping functions also provide for the mapping of user channels and</p>
+    <p>signalling information at the Q reference point to the appropriate channels or time-slots at the C reference point. The C</p>
+    <p>and Q reference points are defined in ISO/IEC 11579-1.</p>
+    <p>The types of interfaces at the C reference point covered by this International Standard are:</p>
+    <p>[1] 1544 kbit/s unstructured digital leased line</p>
+    <p>[2] 1544 kbit/s structured digital leased line</p>
+    <p>[3] 2048 kbit/s unstructured digital leased line</p>
+    <p>[4] 2048 kbit/s structured digital leased line</p>
+    <p>[5] 64 kbit/s unrestricted digital leased line</p>
+    <p>[6] 1544 kbit/s ISDN Primary Rate user-network layer 1 interface</p>
+    <p>[7] 2048 kbit/s ISDN Primary Rate user-network layer 1 interface</p>
+    <p>[8] ISDN Basic Rate user-network layer 1 interface</p>
+    <p>At the Q reference point the mappings provide a 64 kbit/s service for user channels and a packet mode service for the</p>
+    <p>signalling channel. The applied mapping is a static mapping, i.e. there is a fixed relationship between user and</p>
+    <p>signalling channels at the Q reference point and the timeslots of the interface at the C reference point. Any changes are</p>
+    <p>subject to administrative actions.</p>
+    <p>This International Standard specifies PINX mapping functions between the Q reference point and the C reference point</p>
+    <p>for IVNs which provide either dedicated or semi-permanent, non-user activation, circuit-mode IPCs. The dedicated IPC</p>
+    <p>is the connection permanently established, usually for the duration of a contractual period. The semi-permanent IPC is</p>
+    <p>the connection whose resources are reserved for specified times during a contractual period. The semi-permanent IPC is</p>
+    <p>established by management control with or without user activations. In this International Standard, the semi-permanent</p>
+    <p>IPC established by management control with user activation is outside the scope.</p>
+    <p>The IVN can be a dedicated physical link, dedicated transmission system or a cross connect system, or semi-permanent</p>
+    <p>connection system. IVNs which include inverse mulitlexer techniques (e.g. channel aggregation in accordance with</p>
+    <p>ISO/IEC 13871) are covered by this International Standard so far as they support one of the interfaces listed above.</p>
+    <p>This International Standard also specifies mapping information. At both sides of the PINX, mapping information is</p>
+    <p>required to administer the scenarios.</p>
+    <p>This International Standard is applicable to PINXs which can be interconnected to form a Private Integrated Services</p>
+    <p>Network (PISN) and which support signalling protocols at the Q reference point.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  price_code: iso:ZZ

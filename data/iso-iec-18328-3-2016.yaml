@@ -1,0 +1,118 @@
+---
+id: ISOIEC1832832016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Identification cards
+  type: title-intro
+- language: en
+  script: Latn
+  content: ICC-managed devices
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Organization, security and commands for interchange'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Identification cards - ICC-managed devices - Part 3: Organization, security
+    and commands for interchange'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/26060
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec18328-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 18328-3:2016
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:18328-3:2016-10:::'
+  type: URN
+date:
+- type: published
+  at: '2016-10-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18328-3:2016 specifies the logical interface of an application supporting the necessary security features in a card-IC which communicates with the external world by a physical interface supporting APDUs. This application supports the usage of electronic devices.</p>
+    <p>This involves the design of commands, data structures and security mechanisms which are required to handle the data and handling the additional devices itself. The handling of the additional devices is always controlled by the card-IC. External inputs or outputs shall be managed by the existing interfaces. This document deals not with physical characteristics of the card and interface technology, but only with the logical aspects. Management of data for additional devices that is not subdued by the COS or application control is out of the scope of this document.</p>
+    <p>Definitions of coding requirement for "trust assessment" of the managed data like warning, font, colour etc. is in the scope of this document. A description of the logical internal interface functionality used by the COS or by device drivers, if any, is also part of this document.</p>
+    <p>Due to the fact that relevant technologies may evolve or be adopted very fast, this document defines commands and structures supporting extensions and adaptations.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:F

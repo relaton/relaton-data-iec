@@ -1,0 +1,135 @@
+---
+id: ISOIEC19892023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Programming languages, their environments and system software interfaces
+  type: title-main
+- language: en
+  script: Latn
+  content: Programming language COBOL
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Programming languages, their environments and
+    system software interfaces - Programming language COBOL
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/82522
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec1989{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 1989:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:1989:2023-01:::'
+  type: URN
+date:
+- type: published
+  at: '2023-01-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies the syntax and semantics of COBOL. Its purpose is to promote a high degree of machine independence to permit the use of COBOL on a variety of data processing systems.</p>
+    <p>This document specifies:</p>
+    <ul>
+    <li>The form of a compilation group written in COBOL.</li>
+    <li>The effect of compiling a compilation group.</li>
+    <li> The effect of executing run units.</li>
+    <li>The elements of the language for which a conforming implementation is required to supply  a definition.</li>
+    <li>The elements of the language for which meaning is explicitly undefined.</li>
+    <li>The elements of the language that are dependent on the capabilities of the processor.</li>
+    </ul>
+    <p>This document does not specify:</p>
+    <ul>
+    <li>The means whereby a compilation group written in COBOL is compiled into code executable by a processor.</li>
+    <li>The time at which method, function, or program runtime modules are linked or bound to an activating statement, except that runtime binding occurs of necessity when the identification of the appropriate program or method is not known at compile time.</li>
+    <li>The time at which parameterized classes and interfaces are expanded.</li>
+    <li>The mechanism by which locales are defined and made available on a processor.</li>
+    <li>The form or content of error, flagging, or warning messages.</li>
+    <li>The form and content of listings produced during compilation, if any.</li>
+    <li>The form of documentation produced by an implementor of products conforming to this document.</li>
+    <li>The sharing of objects and resources other than files among run units.</li>
+    </ul>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:H

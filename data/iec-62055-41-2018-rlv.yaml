@@ -1,0 +1,127 @@
+---
+id: IEC62055412018RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Payment systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 41: Standard transfer specification (STS) -- Application layer protocol
+    for one-way token carrier systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Payment systems - Part 41: Standard transfer specification
+    (STS) -- Application layer protocol for one-way token carrier systems'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/62907
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62055-41{ed3.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62055-41:2018 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62055-41::rlv
+  type: URN
+date:
+- type: published
+  at: '2018-03-28'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62055-41:2018 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62055-41:2018
+    specifies the application layer protocol of the standard transfer specification
+    (STS) used for transferring units of credit and other management information from
+    a point of sale (POS) system to an STS-compliant payment meter in a one-way token
+    carrier system. It is primarily intended for application with electricity payment
+    meters without a tariff employing energy-based tokens, but may also have application
+    with currency-based token systems and for services other than electricity. It
+    is intended for use by manufacturers of payment meters that have to accept tokens
+    that comply with the STS and also by manufacturers of POS systems that have to
+    produce STS-compliant tokens and is to be read in conjunction with IEC 62055-5x
+    series. This third edition cancels and replaces the second edition of IEC 62055-41,
+    issued in 2014. It constitutes a technical revision. The main technical changes
+    with regard to the previous edition are as follows:<br />\r\n- currency transfer
+    tokens for electricity, water, gas and time metering;<br />\r\n- finer resolution
+    for gas and time credit transfer;<br />\r\n- common code PAN for 2 and 4 digit
+    manufacturer codes;<br />\r\n- reserved MfrCode values for certification and testing
+    purposes;<br />\r\n- provision for DLMS/COSEM as a virtual token carrier type;<br
+    />\r\n- addition of DKGA04, an advanced key derivation function from 160-bit VendingKey;<br
+    />\r\n- withdrawal of DES for EA09 and TDES for DKGA03 cryptographic algorithms,
+    but DES for DKGA02 remains in use;<br />\r\n- addition of MISTY1 cryptographic
+    algorithm using a 128-bit DecoderKey with supporting key change tokens;<br />\r\n-
+    transfer of SGC values to the meter via key change tokens;<br />\r\n- revision
+    of the test/display token requirements;<br />\r\n- revision of the KMS to reflect
+    current best practice;<br />\r\n- revision of the TID roll over management guidelines;<br
+    />\r\n- definition of BaseDate is referenced to Coordinated Universal Time;<br
+    />\r\n- some clarifications and additional examples have been added."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 35.100.70
+    text: Application layer
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '22586'
+  price_code: iec:RG

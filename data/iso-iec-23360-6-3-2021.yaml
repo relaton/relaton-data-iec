@@ -1,0 +1,117 @@
+---
+id: ISOIEC23360632021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Linux Standard Base (LSB)
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 6-3: Desktop specification for PowerPC 64 architecture'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Linux Standard Base (LSB) - Part 6-3: Desktop specification for PowerPC
+    64 architecture'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/71493
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23360-6-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23360-6-3:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23360-6-3:2021-10:::'
+  type: URN
+date:
+- type: published
+  at: '2021-10-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines a system interface for compiled applications and a minimal environment for support of installation scripts. Its purpose is to enable a uniform industry standard environment for high-volume applications conforming to the LSB.</p>
+    <p>These specifications are composed of two basic parts: a common part describing those parts of the interface that remain constant across all implementations of the LSB, and an architecture-specific part describing the parts of the interface that vary by processor architecture. Together, the common part and the relevant architecture-specific part for a single hardware architecture provide a complete interface specification for compiled application programs on systems that share a common hardware architecture.</p>
+    <p>The LSB contains both a set of Application Program Interfaces (APIs) and Application Binary Interfaces (ABIs). APIs may appear in the source code of portable applications, while the compiled binary of that application may use the larger set of ABIs. A conforming implementation provides all of the ABIs listed here. The compilation system may replace (e.g. by macro definition) certain APIs with calls to one or more of the underlying binary interfaces, and may insert calls to binary interfaces as needed.</p>
+    <p>The LSB is primarily a binary interface definition. Not all of the source level APIs available to applications may be contained in this specification.</p>
+    <p>This is the PPC64 architecture specific part of the Desktop module of the Linux Standard Base (LSB). This part supplements the common part of the LSB Desktop module with those interfaces that differ between architectures.</p>
+    <p>This part should be used in conjunction with the common part of LSB Desktop. Whenever a section of the common part is supplemented by architecture-specific information, the common part includes a reference to the architecture-specific part. This part may also contain additional information that is not referenced in the common part.</p>
+    <p>Interfaces described in this part of LSB Desktop are mandatory except where explicitly listed otherwise. Interfaces described in the LSB Desktop module supplement those described in the LSB Core module. They do not depend on other LSB modules.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:ZZ

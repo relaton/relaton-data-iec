@@ -1,0 +1,117 @@
+---
+id: ISOIEC1011832018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: IT Security techniques
+  type: title-intro
+- language: en
+  script: Latn
+  content: Hash-functions
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Dedicated hash-functions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'IT Security techniques - Hash-functions - Part 3: Dedicated hash-functions'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/64134
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10118-3{ed4.0}en.pdf
+docidentifier:
+- content: ISO/IEC 10118-3:2018
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:10118-3:2018-10:::'
+  type: URN
+date:
+- type: published
+  at: '2018-10-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies dedicated hash-functions, i.e. specially designed hash-functions. The hash-functions in this document are based on the iterative use of a round-function. Distinct round-functions are specified, giving rise to distinct dedicated hash-functions.</p>
+    <p>The use of Dedicated Hash-Functions 1, 2 and 3 in new digital signature implementations is deprecated.</p>
+    <p>NOTE       As a result of their short hash-code length and/or cryptanalytic results, Dedicated Hash-Functions 1, 2 and 3 do not provide a sufficient level of collision resistance for future digital signature applications and they are therefore, only usable for legacy applications. However, for applications where collision resistance is not required, such as in hash-functions as specified in ISO/IEC 9797‑2, or in key derivation functions specified in ISO/IEC 11770‑6, their use is not deprecated.</p>
+    <p>Numerical examples for dedicated hash-functions specified in this document are given in Annex B as additional information. For information purposes, SHA-3 extendable-output functions are specified in Annex C.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:H

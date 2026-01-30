@@ -1,0 +1,119 @@
+---
+id: ISOIEC152911999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+- language: en
+  script: Latn
+  content: Ada Semantic Interface Specification (ASIS)
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - Ada Semantic Interface
+    Specification (ASIS)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10246
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15291{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15291:1999
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15291:1999-04:::'
+  type: URN
+date:
+- type: published
+  at: '1999-04-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <div id="MathJax_Message" style="display: none;"></div>
+    <p>The Ada Semantic Interface Specification (ASIS) is an interface between an Ada environment (as defined by ISO/IEC 8652:1995) and any tool requiring information from this environment. An Ada environment includes valuable semantic and syntactic information. ASIS is an open and published callable interface which gives CASE tool and application developers access to this information. ASIS has been designed to be independent of underlying Ada environment implementations, thus supporting portability of software engineering tools while relieving tool developers from needing to understand the complexities of an Ada environment’s proprietary internal representation.</p>
+    <p>Examples of tools that benefit from the ASIS interface include: automated code monitors, browsers, call tree tools, code reformators, coding standards compliance tools, correctness verifiers, debuggers, dependency tree analysis tools, design tools, document generators, metrics tools, quality assessment tools, reverse engineering tools, re-engineering tools, safety and security tools, style checkers, test tools, timing estimators, and translators.</p>
+    <p>This International Standard specifies the form and meaning of the ASIS interface to the Ada compilation environment.</p>
+    <p>This International Standard is applicable to tools and applications needing syntactic and semantic information in the Ada compilation environment.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:H

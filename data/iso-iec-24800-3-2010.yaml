@@ -1,0 +1,119 @@
+---
+id: ISOIEC2480032010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: JPSearch
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Query format'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - JPSearch - Part 3: Query format'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11234
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24800-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 24800-3:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24800-3:2010-04:::'
+  type: URN
+date:
+- type: published
+  at: '2010-04-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”, provides a standardized interface for image search and retrieval systems in three aspects - input query format, output result format and query management - as a specialization of ISO/IEC 15938-12:2008 for images and accompanying metadata.</p>
+    <p>The top-level tools defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult and Management. Both InputQuery and FetchResult tools belong to input query format. </p>
+    <p>The input query format provides users/systems with a set of precise input parameters to describe their search criteria in addition to a set of preferred output parameters to depict the return result sets through InputQuery. Through InputQuery, users can use queries of various types, such as query by media, query by description, query by free text, and combine them using algebraic or logical expressions. Through FetchResult, users can retrieve search results of a query from the past. When a query request is issued using the asynchronous mode, the FetchResult element is used to indicate the preparedness of the user to receive results. When a query request is issued using the synchronous mode, the FetchResult element is used to receive individual pages of the result set (if paging is activated).</p>
+    <p>The OutputResult, which is the output result format, provides users/systems with a set of output parameters to describe the aggregated return result sets for user presentation or machine consumption. </p>
+    <p>The Management tool, which is the query management tool set, provides a means for selecting services (e.g. MPEG-7 database or Core Metadata services) or aggregated services (e.g. service provider that administers a set of different services) based on service properties (e.g. supported query format, supported metadata standard). </p>
+    <p>The goal is to define a query language that provides the industry with a standardized format to accept and respond to user/system specification for image searches. In the framework of JPSearch, the JPSearch Query Format is designed to be used as an interface between querying client and answering servers, as well as between aggregation service agent and individual service providers.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:D

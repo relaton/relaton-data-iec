@@ -1,0 +1,182 @@
+---
+id: ISOIEC964621994
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Conformance testing methodology and framework -- Part 2: Abstract Test
+    Suite specification'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Systems Interconnection - Conformance testing
+    methodology and framework -- Part 2: Abstract Test Suite specification'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Interconnexion de systèmes ouverts (OSI)
+    -- Cadre général et méthodologie des tests de conformité -- Partie 2: Spécification
+    des suites de tests abstraites'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Interconnexion de systèmes ouverts (OSI)
+    -- Cadre général et méthodologie des tests de conformité -- Partie 2: Spécification
+    des suites de tests abstraites'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11875
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9646-2{ed2.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9646-2{ed2.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 9646-2:1994
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9646-2:1994-12:::'
+  type: URN
+date:
+- type: published
+  at: '1994-12-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "<p>Cancels and replaces the first edition (1991). Specifies the requirements
+    and gives guidance for the production of system-independent conformance test suites
+    for one or more OSI specifications. Applicable to the production of all OSI conformance
+    testing specifications including all draft version of such conformance testing
+    specifications. Applicable to the production of abstract test cases which check
+    the conformance of an implementation to the relevant static and/or dynamic conformance
+    requirements by controlling and observing protocol behaviour.</p>"
+- language: fr
+  script: Latn
+  content: |-
+    <p> 1.1 La présente partie de l'ISO/CEI 9646 spécifie les conditions
+      et donne des conseils s'appliquant à la production, indépendante
+      des systèmes réels, de spécifications d'essais et de suites
+      de tests de conformité pour une ou plusieurs spécifications relatives
+      à l'OSI. Elle est applicable, en particulier, à la production
+      de toutes les spécifications d'essai de conformité pour des protocoles
+      OSI, y compris les projets de ces spécifications.</p>
+    <p> 1.2 La présente partie de l'ISO/CEI 9646 s'applique à la production
+      de tests élémentaires qui vérifient qu'une mise en oeuvre
+      satisfait aux conditions de conformité statique et/ou dynamique en contrôlant
+      et en observant le comportement du protocole. Les méthodes de test abstraites
+      définies dans la présente partie de l'ISO/CEI 9646 peuvent être
+      utilisées pour spécifier tout test élémentaire qui
+      peut être exprimé de manière abstraite en termes de contrôle
+      et d'observation d'unités de données de protocole (PDU) et de
+      primitives de service abstrait (ASP). Néanmoins, pour certains protocoles,
+      des tests élémentaires ne pouvant pas être exprimés
+      ainsi peuvent être nécessaires. La spécification de ces
+      tests élémentaires n'entre pas dans le cadre de la présente
+      partie de l'ISO/CEI 9646, bien qu'il puisse être nécessaire d'inclure
+      ces tests dans une spécification d'essai de conformité. <br/>
+      <br/>
+      NOTE -- Par exemple, certaines conditions de conformité statique relatives
+      à un élément de service d'application peuvent exiger des
+      techniques de tests spécifiques à l'application. </p>
+    <p>La présente partie de l'ISO/CEI 9646 s'applique à la production
+      de suites de tests qui testent une mise en oeuvre d'un seul ou de plusieurs
+      protocoles adjacents, que ceux-ci soient encastrés sous d'autres protocoles
+      ou non. </p>
+    <p>1.3 Les points suivants n'entrent pas dans le cadre de la présente partie
+      de l'ISO/CEI 9646 : </p>
+    <ul>
+      <li>a) la relation entre spécification de suites de tests abstraites
+        (ATS) et techniques de description formelle (FDT) ; </li>
+      <li>b) le test par des méthodes de test spécifiques à des
+        applications, des protocoles ou des systèmes particuliers, y compris
+        le test de conditions de conformité utilisant d&#x92;autres moyens
+        que les échanges d&#x92;unités de données de protocole
+        (PDU). NOTE - La présente partie de I&#x92;ISO/CEI 9646 s&#x92;applique
+        entièrement à certains protocoles de la couche Physique mais
+        pas à tous. Néanmoins, beaucoup des concepts définis
+        ici s&#x92;appliquent à tous les protocoles.</li>
+    </ul>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  price_code: iso:E

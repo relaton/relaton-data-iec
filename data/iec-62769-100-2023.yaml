@@ -1,0 +1,124 @@
+---
+id: IEC627691002023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Field device integration (FDI®)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 100: Profiles -- Generic protocols'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Field device integration (FDI®) - Part 100: Profiles -- Generic protocols'
+  type: main
+- language: fr
+  script: Latn
+  content: Intégration des appareils de terrain (FDI®)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 100: Profils -- Protocoles génériques'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration des appareils de terrain (FDI®) - Partie 100: Profils -- Protocoles
+    génériques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/71579
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62769-100{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62769-100:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62769-100:2023-04:::'
+  type: URN
+date:
+- type: published
+  at: '2023-04-11'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62769-100:2023 specifies an FDI®[1] profile of IEC 62769 for Generic
+    Protocols. That means that all interfaces are defined and a host can add support
+    for more protocols without changing its implementation. Nevertheless, there are
+    some protocol specific definitions (PSD) that need to be specified per protocol
+    using this profile. Annex C specifies what PSD need to be defined per protocol
+    so that FDI® Device Packages, FDI® Communication Packages for Gateways and FDI®
+    Communication Servers, FDI® Communication Server, Gateways and Devices supporting
+    such a protocol can work together in a host not aware about this specific protocol.
+- language: fr
+  script: Latn
+  content: L'IEC 62769-100:2023 spécifie un profil FDI®[1] de l'IEC 62769 pour les
+    Protocoles Génériques. Cela signifie que toutes les interfaces sont définies,
+    et qu'un hôte peut ajouter une prise en charge pour davantage de protocoles sans
+    modifier la mise en œuvre. Néanmoins, certaines définitions spécifiques au protocole
+    (PSD) nécessitent d'être spécifiées à l'aide de ce profil. L'Annexe C spécifie
+    les PSD qu'il est nécessaire de définir par protocole, de sorte que les Paquetages
+    d'Appareils FDI®, les Paquetages de Communication FDI® pour les Passerelles et
+    les Serveurs de Communication FDI®, le Serveur de Communication FDI®, les Passerelles
+    et les Appareils qui prennent en charge ce type de protocole puissent fonctionner
+    ensemble dans un hôte, quel que soit ce protocole spécifique.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '107204'
+  price_code: iec:H

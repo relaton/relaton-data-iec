@@ -1,0 +1,139 @@
+---
+id: IEC61784332010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Profiles
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-3: Functional safety fieldbuses -- Additional specifications for
+    CPF 3'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Profiles - Part 3-3: Functional safety
+    fieldbuses -- Additional specifications for CPF 3'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profils
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-3: Bus de terrain de sécurité fonctionnelle -- Spécifications
+    supplémentaires pour CPF 3'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Profils - Partie 3-3: Bus de terrain
+    de sécurité fonctionnelle -- Spécifications supplémentaires pour CPF 3'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/5886
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61784-3-3{ed2.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61784-3-3{ed2.0}en.pdf
+docidentifier:
+- content: IEC 61784-3-3:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61784-3-3:2010-06:::'
+  type: URN
+date:
+- type: published
+  at: '2010-06-29'
+- type: stable-until
+  at: '2016-07-12'
+- type: obsoleted
+  at: '2016-07-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61784-3-3:2010 specifies a safety communication layer (services and protocol) based on CPF 3 of IEC 61784-1, IEC 61784-2 (CP 3/1, CP 3/2, CP 3/4, CP 3/5 and CP 3/6) and IEC 61158 Types 3 and 10. It identifies the principles for functional safety communications defined in IEC 61784-3 that are relevant for this safety communication layer. This second edition cancels and replaces the first edition published in 2007. This edition constitutes a technical revision. The main changes with respect to the previous edition are:<br />
+    - updates in relation with changes in IEC 61784-3;<br />
+    - introduction of a secondary watchdog timer (F_WD_Time_2) to cover the use cases 'configuration-in-run', or 'maintenance of fault tolerance systems', or both (7.1.3, 7.2.3, 7.2.6, 8.1.1, 8.1.4, 8.1.6.2);<br />
+    - missing GSDL definitions conveyed from other approved documents (8.3.2.1);<br />
+    - missing CRC signature calculation for a GSD conveyed from other approved documents (8.3.3.3);<br />
+    - constraints for the parameter value assignment of the primary watchdog timer 'F_WD_Time' (9.3.3);<br />
+    - identification of the safety parameterization state of an F-Device or F-Module via field IM4 (signature) within the I&M functions (9.6.2);<br />
+    - updated documents in bibliography. This bilingual version (2012-02) corresponds to the monolingual English version, published in 2010-06.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61784-3-3:2010 spécifie une couche de communication relative à la sécurité (services et protocole) fondée sur la CPF 3 de la CEI 61784-1 et les Types 3 et 10 de la CEI 61784-2 (CP 3/1, CP 3/2, CP 3/4, CP 3/5 et CP 3/6) et de la CEI 61158. Elle identifie les principes applicables aux communications de sécurité fonctionnelle définies dans la CEI 61784-3, et appropriés à cette couche de communication de sécurité. Cette seconde édition annule et remplace la première édition parue en 2007, dont elle constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont énumérées ci-dessous:<br />
+    - mises à jour par rapport aux changements apportés à la CEI 61784-3;<br />
+    - présentation d'un temporisateur secondaire (F_WD_Time_2) couvrant l'utilisation des cas de "configuration en cours" et/ou de "maintenance des systèmes de tolérance aux pannes" (7.1.3, 7.2.3, 7.2.6, 8.1.1, 8.1.4, 8.1.6.2);<br />
+    - définitions GSDL manquantes provenant d'autres documents approuvés (8.3.2.1);<br />
+    - calcul de signature CRC manquant pour un GSD provenant d'autres documents approuvés (8.3.3.3);<br />
+    - contraintes d'attribution de valeur de paramètre du temporisateur principal F_WD_Time (9.3.3);<br />
+    - identification de l'état de paramétrage de sécurité d'un dispositif F ou d'un module F grâce au champ IM4 (signature) des fonctions I&M (9.6.2);<br />
+    - documents mis à jour dans la bibliographie. La présente version bilingue (2012-02) correspond à la version anglaise monolingue publiée en 2010-06.
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18479'
+  price_code: iec:N

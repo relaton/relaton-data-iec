@@ -1,0 +1,120 @@
+---
+id: IECTR6185075102021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-510: Basic communication structure'
+  type: title-main
+- language: en
+  script: Latn
+  content: Hydroelectric power plants, steam and gas turbines -- Modelling concepts
+    and guidelines
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part
+    7-510: Basic communication structure - Hydroelectric power plants, steam and gas
+    turbines -- Modelling concepts and guidelines'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67697
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iectr61850-7-510{ed2.0}en.pdf
+docidentifier:
+- content: IEC TR 61850-7-510:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-7-510:2021-12:tr::'
+  type: URN
+date:
+- type: published
+  at: '2021-12-16'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC TR 61850-7-510:2021(E), which is a technical report, is intended to
+    provide explanations on how to use the Logical Nodes defined in IEC 61850-7-410
+    as well as other documents in the IEC 61850 series to model complex control functions
+    in power plants, including variable speed pumped storage power plants.<br />\r\nIEC
+    61850-7-410 introduced the general modelling concepts of IEC 61850 for power plants.
+    It is however not obvious from the standard how the modelling concepts can be
+    implemented in actual power plants.<br />\r\nThis document explains how the data
+    model and the concepts defined in the IEC 61850 standard can be applied in Hydro;
+    both directly at the process control level, but also for data structuring and
+    data exchange at a higher level. Application of the data model for Thermal is
+    limited to power evacuation (in principle the extraction of the generated electrical
+    power) and the prime mover shaft and bearing system. The interfaces of the fuel
+    and steam valves are modelled for the purpose of process control.<br />\r\nCommunication
+    services, and description of the use of mappings of the IEC 61850 data model to
+    different communication protocols, are outside the scope of this document.<br
+    />\r\nThis second edition cancels and replaces the first edition published in
+    2012. This edition constitutes a technical revision.<br />\r\nThis edition includes
+    the following significant technical changes with respect to the previous edition:<br
+    />\r\na) Process modelling according to IEC 61850-6:2009, including IEC 61850-6:2009/AMD1:2018.<br
+    />\r\nb) Examples of application of Reference Designation System together with
+    the process modelling, in particular application of IEC/ISO 81346.<br />\r\nc)
+    Description of modelling related to Steam- and Gas turbines.<br />\r\nd) Annexes
+    with examples of application of SCL according to the examples in the Technical
+    Report.<br />\r\ne) The dynamic exchange of values by using polling, GOOSE, Reporting
+    or Sampled Values is no longer included in the Technical Report."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104635'
+  price_code: iec:P

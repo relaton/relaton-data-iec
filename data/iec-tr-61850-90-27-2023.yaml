@@ -1,0 +1,119 @@
+---
+id: IECTR6185090272023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-27: Use of IEC 61850 for thermal energy systems connected to electric
+    power grid'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part
+    90-27: Use of IEC 61850 for thermal energy systems connected to electric power
+    grid'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/71400
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iectr61850-90-27{ed1.0}en.pdf
+docidentifier:
+- content: IEC TR 61850-90-27:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-90-27:2023-08:tr::'
+  type: URN
+date:
+- type: published
+  at: '2023-08-16'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC TR 61850-90-27:2023, which is a Technical Report, is to provide basic
+    aspects that need to be considered when using IEC 61850 for information exchange
+    between systems and components to support applications for thermal systems connected
+    to electric power networks. Thermal systems isolated from electric power networks
+    are outside the scope of this document.<br />\r\nFrom the perspective of category,
+    this document considers thermal systems that provide thermal energy services for
+    residential and/or commercial buildings and districts. In other words, industrial
+    thermal systems are outside the scope of this document.<br />\r\nFrom the perspective
+    of energy transformation, this document deals with ones between electricity and
+    thermal energy. Other types of energy such as gas will be documented in a future
+    report.<br />\r\nFrom the perspective of resource, this document considers generic
+    aspects of thermal energy generators, storage, and loads that may contribute to
+    the operations and management of electric power networks. It also deals with specific
+    types of resources that have electric parts such as power to heat (P2H) that is
+    a kind of electric load, and combined heat and power (CHP) that is an electric
+    generator. This document models the characteristics for such specific units of
+    resources including alarms and ratings. On the other hand, it does not deal with
+    other types of specific units according to the scope of this document. For example,
+    gas boilers, thermal energy tanks, heat exchangers, HVAC, auxiliary devices for
+    thermal systems are not modelled as logical nodes in this document.<br />\r\nAs
+    a summary, this document<br />\r\n- gives an overview of thermal energy resources
+    connected to electric power networks.<br />\r\n- provides use cases for typical
+    operations of thermal system and deducts exchanged information necessary for information
+    modelling.<br />\r\n- provides mapping of requirements on LNs based on the use
+    cases.<br />\r\n- defines generic logical nodes for resources in thermal systems.<br
+    />\r\n- defines logical nodes for specific unit types of P2H and CHP.<br />\r\n-
+    defines logical nodes for operations that may contribute to the operations of
+    electric power networks."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '107052'
+  price_code: iec:P

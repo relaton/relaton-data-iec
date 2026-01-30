@@ -1,0 +1,134 @@
+---
+id: ISOIEC105892002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Intermediate System to Intermediate System intra-domain routeing information
+    exchange protocol for use in conjunction with the protocol for providing the connectionless-mode
+    network service (ISO 8473)
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Intermediate System to Intermediate System intra-domain routeing information
+    exchange protocol for use in conjunction with the protocol for providing the connectionless-mode
+    network service (ISO 8473)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9526
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10589{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 10589:2002
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:10589:2002-11:::'
+  type: URN
+date:
+- type: published
+  at: '2002-11-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard specifies a protocol which is used by Network Layer entities operating the protocol specified in</p>
+    <p>ISO 8473 in Intermediate Systems to maintain routeing information for the purpose of routeing within a single routeing</p>
+    <p>domain. The protocol specified in this International Standard relies upon the provision of a connectionless-mode underlying</p>
+    <p>service.1)</p>
+    <p>This International Standard specifies:</p>
+    <p>a) procedures for the transmission of configuration and routeing information between network entities residing in</p>
+    <p>Intermediate Systems within a single routeing domain;</p>
+    <p>b) the encoding of the protocol data units used for the transmission of the configuration and routeing information;</p>
+    <p>c) procedures for the correct interpretation of protocol control information; and</p>
+    <p>d) the functional requirements for implementations claiming conformance to this International Standard.</p>
+    <p>The procedures are defined in terms of</p>
+    <p>a) the interactions between Intermediate system Network entities through the exchange of protocol data units;</p>
+    <p>b) the interactions between a Network entity and an underlying service provider through the exchange of subnetwork service</p>
+    <p>primitives; and</p>
+    <p>c) the constraints on route determination which must be observed by each Intermediate system when each has a routeing</p>
+    <p>information base which is consistent with the others.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.30
+    text: Network layer
+  price_code: iso:ZZ

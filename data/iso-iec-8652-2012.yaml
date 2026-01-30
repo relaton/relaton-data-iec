@@ -1,0 +1,122 @@
+---
+id: ISOIEC86522012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+- language: en
+  script: Latn
+  content: Ada
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - Ada
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11692
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec8652{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 8652:2012
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:8652:2012-12:::'
+  type: URN
+date:
+- type: published
+  at: '2012-12-10'
+- type: stable-until
+  at: '2023-05-02'
+- type: obsoleted
+  at: '2023-05-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 8652:2012 specifies the form and meaning of programs written in the programming language Ada. Its purpose is to promote the portability of Ada programs to a variety of computing systems.</p>
+    <p>This third edition of ISO/IEC 8652 focuses on improvements in those user domains where safety and criticality are prime concerns. It enhances the functionality of containers, improves the ability to write and enforce contracts for Ada entities (for instance, via preconditions), and adds to the capabilities of Ada to perform on multicore and multithreaded architectures.</p>
+    <p>Ada is designed to support the construction of long‐lived, highly reliable software systems. The language includes facilities to define packages of related types, objects, and operations. The packages may be parameterized and the types may be extended to support the construction of libraries of reusable, adaptable software components. The operations may be implemented as subprograms using conventional sequential control structures, or as entries that include synchronization of concurrent threads of control as part of their invocation. Ada supports object‐oriented programming by providing classes and interfaces, inheritance, polymorphism of variables and methods, and generic units. The language treats modularity in the physical sense as well, with a facility to support separate compilation.</p>
+    <p>The language provides rich support for real‐time, concurrent programming, and includes facilities for multicore and multiprocessor programming. Errors can be signaled as exceptions and handled explicitly. The language also covers systems programming; this requires precise control over the representation of data and access to system‐dependent properties. Finally, a predefined environment of standard packages is provided, including facilities for, among others, input‐output, string manipulation, numeric elementary functions, random number generation, and definition and use of containers.</p>
+    <p>Foremost in the design of Ada is the intent to increase the reliability of programs by compiletime checking and rejection of unsafe programs.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:B

@@ -1,0 +1,123 @@
+---
+id: IEC629422019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: File format for professional transfer and exchange of digital audio data
+  type: title-main
+- language: en
+  script: Latn
+  content: File format for professional transfer and exchange of digital audio data
+  type: main
+- language: fr
+  script: Latn
+  content: Format de fichier pour le transfert et l'échange professionnels de données
+    audionumériques
+  type: title-main
+- language: fr
+  script: Latn
+  content: Format de fichier pour le transfert et l'échange professionnels de données
+    audionumériques
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/31655
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62942{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62942{ed1.0}b.pdf
+docidentifier:
+- content: IEC 62942:2019
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62942:2019-12:::'
+  type: URN
+date:
+- type: published
+  at: '2019-12-12'
+- type: stable-until
+  at: '2031-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62942:2019 specifies a file format for interchanging audio data between
+    compliant equipment. It is primarily intended for audio applications in professional
+    recording, production, post-production, and archiving.<br />\r\nIt is derived
+    from the AES31-2 [2] but is also compatible with variant specifications including
+    EBU Tech 3285 [3] to [10], ITU-R BR.1352-3-2007 [11] to [14], and the Japan Post
+    Production Association's BWF-J [15].<br />\r\nThis document contains the specification
+    of the broadcast audio extension chunk and its use with PCM-coded audio data.
+    Basic information on the RIFF format and how it can be extended to other types
+    of audio data is given in Annex E. Details of the PCM WAVE format are also given
+    in Annex A.<br />\r\nAn optional extended format, BWF-E, supports 64-bit addressing
+    to permit file sizes greater than 4 GB."
+- language: fr
+  script: Latn
+  content: "L'IEC 62942:2019 spécifie un format de fichier qui permet d'échanger des
+    données audio entre des équipements conformes. Il vise principalement les applications
+    audio en ce qui concerne l'enregistrement, la production, la postproduction et
+    l'archivage professionnels.<br />\r\nIl est obtenu à partir de l'AES31-2, mais
+    est également compatible avec des spécifications proches, notamment l'EBU Tech
+    3285, l'ITU-R BR.1352-3-2007, et le BWF-J de la Japan Post Production Association.<br
+    />\r\nLe présent document contient la spécification du fragment d'extension audio
+    pour diffusion et de son utilisation avec des données audio codées MIC. Des informations
+    de base sur le format RIFF et sur la façon dont il peut être étendu à d'autres
+    types de données audio sont données à l'Annexe E. Des détails sur le format WAVE
+    MIC sont également donnés à l'Annexe A.<br />\r\nUn format étendu facultatif,
+    BWF-E, prend en charge l'adressage 64 bits pour permettre l'utilisation de fichiers
+    dont la taille est supérieure à 4 Go."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.160.30
+    text: Audio systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '21417'
+  price_code: iec:J

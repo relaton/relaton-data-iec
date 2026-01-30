@@ -1,0 +1,168 @@
+---
+id: ISOIECIEEE88021AE2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Telecommunications and exchange between information technology systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Requirements for local and metropolitan area networks
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1AE: Media access control (MAC) security'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Telecommunications and exchange between information technology systems
+    - Requirements for local and metropolitan area networks - Part 1AE: Media access
+    control (MAC) security'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67506
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecieee8802-1AE{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC/IEEE 8802-1AE:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec-ieee:8802-1AE:2020-08:::'
+  type: URN
+date:
+- type: published
+  at: '2020-08-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies provision of connectionless user data confidentiality, frame data integrity, and data origin authenticity by media access independent protocols and entities that operate transparently to MAC Clients.</p>
+    <p>NOTE—The MAC Clients are as specified in IEEE Std 802®, IEEE Std 802.1Q?, and IEEE Std 802.1X.2</p>
+    <p>To this end, it</p>
+    <p>a) Specifies the requirements to be satisfied by equipment claiming conformance to this standard.</p>
+    <p>b) Specifies the requirements for MACsec in terms of provision of the MAC Service and the</p>
+    <p>preservation of the semantics and parameters of service requests and indications.</p>
+    <p>c) Describes the threats, both intentional and accidental, to correct provision of the service.</p>
+    <p>d) Specifies security services that prevent, or restrict, the effect of attacks that exploit these threats.</p>
+    <p>e) Examines the potential impact of both the threats and the use of MACsec on the Quality of Service</p>
+    <p>(QoS), specifying constraints on the design and operation of MAC Security entities and protocols.</p>
+    <p>f) Models support of the secure MAC Service in terms of the operation of media access control method</p>
+    <p>independent MAC Security Entities (SecYs) within the MAC Sublayer.</p>
+    <p>g) Specifies the format of the MACsec Protocol Data Unit (MPDUs) used to provide secure service.</p>
+    <p>h) Identifies the functions to be performed by each SecY, and provides an architectural model of its</p>
+    <p>internal operation in terms of Processes and Entities that provide those functions.</p>
+    <p>i) Specifies each SecY's use of an associated and collocated Port Access Entity (PAE,</p>
+    <p>IEEE Std 802.1X) to discover and authenticate MACsec protocol peers and its use of that PAE's</p>
+    <p>Key Agreement Entity (KaY) to agree and update cryptographic keys.</p>
+    <p>j) Specifies performance requirements and recommends default values and applicable ranges for the</p>
+    <p>operational parameters of a SecY.</p>
+    <p>k) Specifies how SecYs are incorporated within the architecture of end stations, bridges, and two-port</p>
+    <p>Ethernet Data Encryption devices (EDEs).</p>
+    <p>l) Establishes the requirements for management of MAC Security, identifying the managed objects</p>
+    <p>and defining the management operations for SecYs.</p>
+    <p>m) Specifies the Management Information Base (MIB) module for managing the operation of MAC</p>
+    <p>Security in TCP/IP networks.</p>
+    <p>n) Specifies requirements, criteria, and choices of Cipher Suites for use with this standard.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  price_code: iso:H

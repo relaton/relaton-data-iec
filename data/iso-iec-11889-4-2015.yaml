@@ -1,0 +1,118 @@
+---
+id: ISOIEC1188942015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Trusted Platform Module Library
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Supporting Routines'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Trusted Platform Module Library - Part 4: Supporting
+    Routines'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23965
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11889-4{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11889-4:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11889-4:2015-12:::'
+  type: URN
+date:
+- type: published
+  at: '2015-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 11889-4:2015 contains C code that describes the algorithms and methods used by the command code in ISO/IEC 11889-3. The code in ISO/IEC 11889-4:2015 augments ISO/IEC 11889-2 and ISO/IEC 11889-3 to provide a complete description of a TPM, including the supporting framework for the code that performs the command actions. </p>
+    <p>Any code in ISO/IEC 11889-4:2015 may be replaced by code that provides similar results when interfacing to the action code in ISO/IEC 11889-3. The behavior of code in this ISO/IEC 11889-4:2015 that is not included in an annex is <i>normative</i>, as observed at the interfaces with ISO/IEC 11889-3 code. Code in an annex is provided for completeness, that is, to allow a full implementation of ISO/IEC 11889 from the provided code.</p>
+    <p>The code in ISO/IEC 11889-3 and this ISO/IEC 11889-4:2015 is written to define the behavior of a compliant TPM. In some cases (e.g., firmware update), it is not possible to provide a compliant implementation. In those cases, any implementation provided by the vendor that meets the general description of the function provided in ISO/IEC 11889-3 would be compliant.</p>
+    <p>The code in ISO/IEC 11889-3 and this ISO/IEC 11889-4:2015 is not written to meet any particular level of conformance nor does ISO/IEC 11889 require that a TPM meet any particular level of conformance.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:ZZ

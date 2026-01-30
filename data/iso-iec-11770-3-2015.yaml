@@ -1,0 +1,123 @@
+---
+id: ISOIEC1177032015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Key management -- Part 3: Mechanisms using asymmetric techniques'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Key management -- Part
+    3: Mechanisms using asymmetric techniques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23086
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11770-3{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11770-3:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11770-3:2015-08:::'
+  type: URN
+date:
+- type: published
+  at: '2015-08-04'
+- type: stable-until
+  at: '2021-10-22'
+- type: obsoleted
+  at: '2021-10-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 11770-3:2015 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals: a) establish a shared secret key for use in a symmetric cryptographic technique between two entities <i>A</i> and <i>B</i> by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities <i>A</i> and <i>B</i>. Neither of them should be able to predetermine the value of the shared secret key; b) establish a shared secret key for use in a symmetric cryptographic technique between two entities <i>A</i> and <i>B</i> via key transport. In a secret key transport mechanism, the secret key is chosen by one entity <i>A</i> and is transferred to another entity <i>B</i>, suitably protected by asymmetric techniques; and c) make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity <i>A</i> shall be transferred to other entities in an authenticated way, but not requiring secrecy.</p>
+    <p>Some of the mechanisms of ISO/IEC 11770-3:2015 are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.</p>
+    <p>ISO/IEC 11770-3:2015 does not cover certain aspects of key management, such as key lifecycle management, mechanisms to generate or validate asymmetric key pairs, and mechanisms to store, archive, delete, destroy, etc. keys.</p>
+    <p>While ISO/IEC 11770-3:2015 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.</p>
+    <p>ISO/IEC 11770-3:2015 does not specify the transformations used in the key management mechanisms.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:B

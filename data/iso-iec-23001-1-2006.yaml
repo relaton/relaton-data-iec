@@ -1,0 +1,120 @@
+---
+id: ISOIEC2300112006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Binary MPEG format for XML'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 1: Binary MPEG
+    format for XML'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10979
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23001-1{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23001-1:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23001-1:2006-03:::'
+  type: URN
+date:
+- type: published
+  at: '2006-03-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23001-1:2006 provides a standardized set of generic technologies for encoding XML documents. It addresses a broad spectrum of applications and requirements by providing generic methods for transmitting and compressing XML documents. </p>
+    <p>ISO/IEC 23001-1:2006 provides a specification which gives rules for the preparation of XML documents for efficient transport and storage, and enables the development of ISO/IEC 23001-1 terminals to receive, decode and assemble possibly partitioned and compressed XML documents. </p>
+    <p>The binary MPEG format for XML relies on schema knowledge between encoder and decoder in order to reach high compression efficiency, while providing fragmentation mechanisms for ensuring transmission and processing flexibility. ISO/IEC 23001-1:2006 also defines means to compile and transmit schema knowledge information to enable the decoding of compressed XML documents without a priori schema knowledge at the receiving terminal. </p>
+    <p>The binary MPEG format for XML is described in four main sections:</p>
+    <ul><li><i>System Architecture</i> presents the architecture of an ISO/IEC 23001-1-compliant terminal and general characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour. </li><li><i>Binary Format</i> specifies binary syntax and associated semantics of the structural elements. In particular, this section describes the structure of a binary access unit.</li><li><i>Binary Fragment Update Payload</i> specifies binary syntax and associated semantics of the payload content. In particular, this section describes the decoding process of complex Type content using finite state automaton decoders. </li><li><i>Advanced Optimized Decoders</i> describes the mechanisms for decoding simple types of an XML document using advanced optimised decoders. </li></ul>
+    <p>The binary format for XML described in this specification can be used for encoding MPEG-7 and MPEG-21 descriptions, as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary Format), respectively. </p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:H

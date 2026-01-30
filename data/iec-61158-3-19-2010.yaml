@@ -1,0 +1,145 @@
+---
+id: IEC611583192010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-19: Data-link layer service definition -- Type 19 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 3-19:
+    Data-link layer service definition -- Type 19 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-19: Définition des services de couche liaison de données -- Éléments
+    de Type 19'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 3-19: Définition des services de couche liaison de données -- Éléments
+    de Type 19'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19171
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-3-19{ed2.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-3-19{ed2.0}en.pdf
+docidentifier:
+- content: IEC 61158-3-19:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-3-19:2010-08:::'
+  type: URN
+date:
+- type: published
+  at: '2010-08-05'
+- type: stable-until
+  at: '2014-08-13'
+- type: obsoleted
+  at: '2014-08-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-3-19:2010 defines in an abstract way the externally visible service provided by the Type 19 fieldbus data-link layer in terms of the primitive actions and events of the service; the parameters associated with each primitive action and event, and the form which they take and the interrelationship between these actions and events, and their valid sequences. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are:<br />
+    - increasing the number of supported devices (511 instead of 254);<br />
+    - introducing a communication version identification;<br />
+    - adding a mechanism for remote address allocation;<br />
+    - introducing enhanced parameter addressing (32 bit instead of 16 bit);<br />
+    - restructuring control and status word;<br />
+    - improving the redundancy and hotplug features;<br />
+    - improving the error handling;<br />
+    - adding a multiplexing protocol (SMP: Type 19 Messaging Protocol).
+    This bilingual version published in 2012-01 corresponds to the English version published in 2010-08.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61158-3-19:2010 définit de manière abstraite le service visible de l'extérieur fourni par la couche liaison de données de bus de terrain Type 19 en termes des actions et événements primitifs du service; des paramètres associés à chaque action primitive et événement primitif, et la forme qu'ils prennent; et de l'interrelation entre ces actions et événements, et leurs séquences valides. Cette seconde édition annule et remplace la première édition, parue en 2007. Cette édition constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont:<br />
+    - augmentation du nombre de dispositifs pris en charge (511 au lieu de 254);<br />
+    - introduction d'une identification de version de communication;<br />
+    - ajout d'un mécanisme pour l'allocation d'adresse à distance;<br />
+    - introduction d'un adressage amélioré des paramètres (32 bits au lieu de 16 bits);<br />
+    - restructuration du mot de contrôle et de statut;<br />
+    - amélioration des caractéristiques de redondance et de connexion à chaud;<br />
+    - amélioration de la gestion des erreurs;<br />
+    - ajout d'un protocole de multiplexage (SMP: Protocole de messagerie du Type 19).
+    La présente version bilingue publiée en 2012-01 correspond à la version anglaise monolingue publiée en 2010-08.
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18628'
+  price_code: iec:F

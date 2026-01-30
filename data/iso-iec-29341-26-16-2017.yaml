@@ -1,0 +1,122 @@
+---
+id: ISOIEC2934126162017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: UPnP Device Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 26-16: Telephony device control protocol -- Level 2 -- Presence service'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - UPnP Device Architecture - Part 26-16: Telephony
+    device control protocol -- Level 2 -- Presence service'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/61505
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29341-26-16{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29341-26-16:2017
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29341-26-16:2017-09:::'
+  type: URN
+date:
+- type: published
+  at: '2017-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 29341-26-16:2017 is compliant with the [1]. It defines a service type referred to herein as Presence service. </p>
+    <p>The Presence service is a UPnP service that allows control points, or better known as Telephony Control Points (TelCP), to manage presence information through a Telephony Server (TS) device or a Telephony Client (TC) device (in the role of UPnP server device for Presence service). This service provides control points with the following functionality:</p>
+    <p>-           Presence of contacts, access the presence information of contacts, as provided by the UPnP Telephony Server device. Contacts referenced by the Presence service may be managed via PhoneManagement service and the Phone Data Model.</p>
+    <p>-           Managing presence information, update the presence status stored in the TS;</p>
+    <p>This service does not provide the following functionality:</p>
+    <p>-           To update the presence status of the local UPnP network, from the UPnP server device to remote presence servers (i.e. outside the local UPnP network).</p>
+    <p>-           To retrieve the presence information of contacts from remote presence servers (i.e. outside the local UPnP network).</p>
+    <p>When the features provided by the Presence service are associated to the PhoneManagement features, then an integrated management of the address book and the presence of contacts in the address book can be delivered.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  price_code: iso:ZZ

@@ -1,0 +1,143 @@
+---
+id: IEC62056311999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data exchange for meter reading, tariff and load control
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 31: Use of local area networks on twisted pair with carrier signalling'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Data exchange for meter reading, tariff and load
+    control - Part 31: Use of local area networks on twisted pair with carrier signalling'
+  type: main
+- language: fr
+  script: Latn
+  content: Comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Echange de données pour la lecture des compteurs, le contrôle des tarifs
+    et de la charge
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 31: Utilisation des réseaux locaux sur paire torsadée avec signal
+    de porteuse'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Comptage de l''électricité - Echange de données pour la lecture des compteurs,
+    le contrôle des tarifs et de la charge - Partie 31: Utilisation des réseaux locaux
+    sur paire torsadée avec signal de porteuse'
+  type: main
+- language: es
+  script: Latn
+  content: Versión Oficial en Español
+  type: title-intro
+- language: es
+  script: Latn
+  content: 'Medidas de la energía eléctrica. Intercambio de datos para la lectura
+    de contadores, control de tarifas y de la carga. Parte 31: Utilización de redes
+    locales sobre par trenzado con señal portadora.'
+  type: title-main
+- language: es
+  script: Latn
+  content: 'Versión Oficial en Español - Medidas de la energía eléctrica. Intercambio
+    de datos para la lectura de contadores, control de tarifas y de la carga. Parte
+    31: Utilización de redes locales sobre par trenzado con señal portadora.'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20273
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62056-31{ed1.0}b.pdf
+docidentifier:
+- content: IEC 62056-31:1999
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62056-31:1999-11:::'
+  type: URN
+date:
+- type: published
+  at: '1999-11-30'
+- type: stable-until
+  at: '2013-08-20'
+- type: obsoleted
+  at: '2013-08-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+- es
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Describes two new architectures for local bus data exchange with stations either energized or not. For non-energized stations, the bus supplies energy for data exchange. The first architecture completes the base protocol (IEC 61142) with remote transfer services. The second architecture allows operation of DLMS services using the same physical medium and the same physical layer. This complete compatibility guarantees the possibility of using IEC 61142 and IEC 62056-31 equipment on the same bus. This standard replaces IEC 61142 (1993).
+    <br /><br />This publication is of high relevance for Smart Grid</a>.
+- language: fr
+  script: Latn
+  content: |-
+    Décrit deux nouvelles architectures d'échange de données par bus en local avec des stations alimentées ou non en énergie. Pour les stations télé-alimentées, c'est le bus qui fournit l'énergie pour l'échange des données. La première architecture complète le protocole de base (CEI 61142) par des services de téléprogrammation simplifiée. La seconde architecture permet de mettre en oeuvre les services DLMS sur le même support physique et avec la même couche physique. Cette totale compatibilité quarantit qu'il est possible d'utiliser des équipements de type CEI 61142 et CEI 62056-31 sur le même bus.
+    Cette norme remplace la CEI 61142 (1993).
+status:
+  stage:
+    content: REPLACED
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '8657'
+  price_code: iec:L

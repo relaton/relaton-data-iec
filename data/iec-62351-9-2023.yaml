@@ -1,0 +1,208 @@
+---
+id: IEC6235192023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Cyber security key management for power system equipment'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and
+    communications security - Part 9: Cyber security key management for power system
+    equipment'
+  type: main
+- language: fr
+  script: Latn
+  content: Gestion des systèmes de puissance et échanges d'informations associés
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité des communications et des données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 9: Gestion de clé de cybersécurité des équipements de système de
+    puissance'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d''informations associés
+    - Sécurité des communications et des données - Partie 9: Gestion de clé de cybersécurité
+    des équipements de système de puissance'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/66864
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62351-9{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62351-9:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62351-9:2023-06:::'
+  type: URN
+date:
+- type: published
+  at: '2023-06-06'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62351-9:2023 specifies cryptographic key management, primarily focused
+    on the management of long-term keys, which are most often asymmetric key pairs,
+    such as public-key certificates and corresponding private keys. As certificates
+    build the base this document builds a foundation for many IEC 62351 services (see
+    also Annex A). Symmetric key management is also considered but only with respect
+    to session keys for group-based communication as applied in IEC 62351-6. The objective
+    of this document is to define requirements and technologies to achieve interoperability
+    of key management by specifying or limiting key management options to be used.<br
+    />\r\nThis document assumes that an organization (or group of organizations) has
+    defined a security policy to select the type of keys and cryptographic algorithms
+    that will be utilized, which may have to align with other standards or regulatory
+    requirements. This document therefore specifies only the management techniques
+    for these selected key and cryptography infrastructures. This document assumes
+    that the reader has a basic understanding of cryptography and key management principles.<br
+    />\r\nThe requirements for the management of pairwise symmetric (session) keys
+    in the context of communication protocols is specified in the parts of IEC 62351
+    utilizing or specifying pairwise communication such as:<br />\r\n• IEC 62351-3
+    for TLS by profiling the TLS options<br />\r\n• IEC 62351-4 for the application
+    layer end-to-end security<br />\r\n• IEC TS 62351-5 for the application layer
+    security mechanism for IEC 60870-5-101/104 and IEEE 1815 (DNP3)<br />\r\nThe requirements
+    for the management of symmetric group keys in the context of power system communication
+    protocols is specified in IEC 62351-6 for utilizing group security to protect
+    GOOSE and SV communication. IEC 62351-9 utilizes GDOI as already IETF specified
+    group-based key management protocol to manage the group security parameter and
+    enhances this protocol to carry the security parameter for GOOSE, SV, and PTP.<br
+    />\r\nThis document also defines security events for specific conditions which
+    could identify issues which might require error handling. However, the actions
+    of the organisation in response to these error conditions are beyond the scope
+    of this document and are expected to be defined by the organizations security
+    policy.<br />\r\nIn the future, as public-key cryptography becomes endangered
+    by the evolution of quantum computers, this document will also consider post-quantum
+    cryptography to a certain extent. Note that at this time being no specific measures
+    are provided.<br />\r\nThis second edition cancels and replaces the first edition
+    published in 2017. This edition constitutes a technical revision.<br />\r\nThis
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) Certificate components and verification of the certificate
+    components have been added;<br />\r\nb) GDOI has been updated to include findings
+    from interop tests;<br />\r\nc) GDOI operation considerations have been added;<br
+    />\r\nd) GDOI support for PTP (IEEE 1588) support has been added as specified
+    by IEC/IEEE 61850-9-3 Power Profile;<br />\r\ne) Cyber security event logging
+    has been added as well as the mapping to IEC 62351-14;<br />\r\nf) Annex B with
+    background on utilized cryptographic algorithms and mechanisms has been added."
+- language: fr
+  script: Latn
+  content: "IEC 62351-9:2023 spécifie la gestion des clés cryptographiques, principalement
+    axée sur la gestion des clés à long terme, qui sont le plus souvent des paires
+    de clés asymétriques, telles que des certificats de clés publiques et les clés
+    privées correspondantes. Comme les certificats constituent la base, le présent
+    document établit une fondation pour de nombreux services de l’IEC 62351 (voir
+    également Annex A). La gestion des clés symétriques est également prise en compte,
+    mais uniquement en ce qui concerne les clés de session pour les communications
+    de groupe, telles qu’elles sont appliquées dans l’IEC 62351-6. L’objectif du présent
+    document est de définir les exigences et les technologies permettant d’assurer
+    l’interopérabilité de la gestion des clés en spécifiant ou en limitant les options
+    de gestion de clés à utiliser.<br />\r\nLe présent document présume qu’une organisation
+    (ou un groupe d’organisations) a défini une politique de sécurité pour sélectionner
+    le type de clés et d’algorithmes cryptographiques qui seront utilisés, qui peuvent
+    être à aligner sur d’autres normes ou exigences réglementaires. Le présent document
+    spécifie donc uniquement les techniques de gestion de ces infrastructures de clé
+    et de cryptographie sélectionnées. Le présent document présume que le lecteur
+    a des notions de base en cryptographie et sur les principes de gestion des clés.<br
+    />\r\nLes exigences relatives à la gestion des paires de clés (de session) symétriques
+    dans le contexte des protocoles de communication sont spécifiées dans les parties
+    de l’IEC 62351 qui utilisent ou spécifient une communication par paire, telles
+    que:<br />\r\n• l’IEC 62351-3 pour TLS en profilant les options TLS;<br />\r\n•
+    l’IEC 62351-4 pour la sécurité de bout en bout de la couche application;<br />\r\n•
+    l’IEC 62351-5 pour le mécanisme de sécurité de la couche application pour l’IEC
+    60870-5-101/104 et l’IEEE 1815 (DNP3).<br />\r\nLes exigences relatives à la gestion
+    des clés de groupe symétriques dans le contexte des protocoles de communication
+    des systèmes de puissance sont spécifiées dans l’IEC 62351-6 pour l’utilisation
+    de sécurité de groupe pour protéger les communications GOOSE et SV. L’IEC 62351-9
+    utilise GDOI comme protocole de gestion de clés par groupe déjà spécifié par l’IETF
+    (Internet Engineering Task Force) pour gérer le paramètre de sécurité de groupe
+    et améliore ce protocole pour transporter le paramètre de sécurité pour les communications
+    GOOSE, SV et PTP.<br />\r\nLe présent document définit également les événements
+    de sécurité pour des conditions spécifiques susceptibles d’identifier des problèmes
+    pouvant exiger un traitement des erreurs. Cependant, les actions de l’organisation
+    en réponse à ces conditions d’erreur ne relèvent pas du domaine d’application
+    du présent document et sont censées être définies par la politique de sécurité
+    des organisations.<br />\r\nÀ l’avenir, lorsque la cryptographie à clé publique
+    sera mise en danger par l’évolution des ordinateurs quantiques, le présent document
+    examinera également la cryptographie post-quantique dans une certaine mesure.
+    Il est à noter qu’à l’heure actuelle, aucune mesure spécifique n’est prévue.<br
+    />\r\nCette deuxième édition annule et remplace la première édition parue en 2017.
+    Cette édition constitue une révision technique.<br />\r\nCette édition inclut
+    les modifications techniques majeures suivantes par rapport à l’édition précédente:<br
+    />\r\na) des composants de certificats et leur vérification ont été ajoutés;<br
+    />\r\nb) le GDOI a été mis à jour pour inclure les résultats des essais d’interopérabilité;<br
+    />\r\nc) des aspects liés au fonctionnement du GDOI ont été ajoutés;<br />\r\nd)
+    la prise en charge du GDOI pour PTP (IEEE 1588) a été ajoutée comme spécifié par
+    le profil de puissance de l’IEC/IEEE 61850-9-3;<br />\r\ne) l’enregistrement des
+    événements de cybersécurité a été ajouté, ainsi que la mise en correspondance
+    avec l’IEC 62351-14;<br />\r\nf) l’Annex B qui fournit des informations sur les
+    algorithmes et mécanismes cryptographiques utilisés a été ajoutée."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104224'
+  price_code: iec:N

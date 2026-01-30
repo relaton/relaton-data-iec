@@ -1,0 +1,117 @@
+---
+id: ISOIEC254372012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: WS-Session -- Web services for application session services
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - WS-Session -- Web services for application session services
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11261
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec25437{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 25437:2012
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:25437:2012-11:::'
+  type: URN
+date:
+- type: published
+  at: '2012-11-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 25437:2012 specifies Web Services (in WSDL, in Clause 5) and SOAP bindings (in Clause 6) for the Application Session Services defined in ISO/IEC 22534. The Application Session Services allow Applications to create and maintain a relationship with Servers termed Application Session. The Web services specified herein, allow Service Requesters (Applications in ISO/IEC 22534) and Service Providers (Servers in ISO/IEC 22534) to create and maintain such Application Sessions. </p>
+    <p>ISO/IEC 25437:2012 builds upon and imports the XML schema definitions from ISO/IEC 22534. The method of making the WSDL description of the specified services available to Service Provider and Requester is out of the scope of ISO/IEC 25437:2012.</p>
+    <p>The Notification WSDL specifies the ApplicationSessionTerminated operation. The operation specifies one input message for the event notification that Service Requesters receive from the Service Provider. Service Requesters may also receive the event notifications from web services, e.g. ECMA-348, that use ISO/IEC 25437:2012 for session management.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  price_code: iso:ZZ

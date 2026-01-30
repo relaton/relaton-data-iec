@@ -1,0 +1,143 @@
+---
+id: ISOIEC147761152004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Small computer system interface (SCSI)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 115: Parallel Interface-5 (SPI-5)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Small computer system interface (SCSI) - Part
+    115: Parallel Interface-5 (SPI-5)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10165
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14776-115{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14776-115:2004
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14776-115:2004-11:::'
+  type: URN
+date:
+- type: published
+  at: '2004-11-17'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The SCSI protocol is designed to provide an efficient peer-to-peer I&#x2F;O
+    bus with the maximum number of hosts and peripherals determined by the bus width
+    (8 or 16). Data may be transferred asynchronously or synchronously at rates that
+    depend primarily on device implementation and cable length. This part of ISO&#x2F;IEC
+    14776 defines mechanical, electrical, timing requirements, command sets, and the
+    task management delivery protocol requirements to transfer commands and data between
+    SCSI devices attached to an SCSI parallel interface. The resulting interface facilitates
+    the interconnection of computers and intelligent peripherals and thus provides
+    a common interface standard for both system integrators and suppliers of intelligent
+    peripherals. This standard defines the physical attributes of an input&#x2F;output
+    bus for interconnecting computers and peripheral devices. The SCSI parallel interface
+    is a local I&#x2F;O bus that may be operated over a wide range of transfer rates.
+    The objectives of the SCSI parallel interface are: a) To provide host computers
+    with device independence within a class of devices. Thus, different disk drives,
+    tape drives, printers, optical media drives, and other SCSI devices may be added
+    to the host computers without requiring modifications to generic system hardware.
+    Provision is made for the addition of special features and functions through the
+    use of vendor-specific options. Reserved areas are provided for future standardization.
+    b) To provide compatibility such that conforming SPI-2, SPI-3 devices may interoperate
+    with SPI-5 devices given that the systems engineering is correctly done. Conforming
+    SPI-2, SPI-3, and SPI-5 devices should respond in an acceptable manner to reject
+    SPI-5 protocol extensions. SPI-5 protocol extensions are designed to be permissive
+    of such rejections and thus allow SPI-2 and SPI-3 devices to continue operation
+    without requiring the use of the extensions.'
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '13655'
+  price_code: iso:H

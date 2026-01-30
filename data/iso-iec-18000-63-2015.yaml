@@ -1,0 +1,131 @@
+---
+id: ISOIEC18000632015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Radio frequency identification for item management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 63: Parameters for air interface communications at 860 MHz to 960
+    MHz Type C'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Radio frequency identification for item management
+    - Part 63: Parameters for air interface communications at 860 MHz to 960 MHz Type
+    C'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23602
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec18000-63{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 18000-63:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:18000-63:2015-10:::'
+  type: URN
+date:
+- type: published
+  at: '2015-10-20'
+- type: stable-until
+  at: '2021-11-17'
+- type: obsoleted
+  at: '2021-11-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18000-3:2015 defines the air interface for radio frequency identification (RFID) devices operating in the 860 MHz to 960 MHz Industrial, Scientific, and Medical (ISM) band used in item management applications. It provides a common technical specification for RFID devices that can be used by ISO committees developing RFID application standards. This part of ISO/IEC 18000 is intended to allow for compatibility and to encourage inter-operability of products for the growing RFID market in the international marketplace. It defines the forward and return link parameters for technical attributes including, but not limited to, operating frequency, operating channel accuracy, occupied channel bandwidth, maximum effective isotropic radiated power (EIRP), spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy, bit transmission order, and, where appropriate, operating channels, frequency hop rate, hop sequence, spreading sequence, and chip rate. It further defines the communications protocol used in the air interface.</p>
+    <p>ISO/IEC 18000-3:2015 specifies the physical and logical requirements for a passive-backscatter, Interrogator-Talks-First (ITF) systems. The system comprises Interrogators, also known as readers, and tags, also known as labels. An Interrogator receives information from a tag by transmitting a continuous-wave (CW) RF signal to the tag; the tag responds by modulating the reflection coefficient of its antenna, thereby backscattering an information signal to the Interrogator. The system is ITF, meaning that a tag modulates its antenna reflection coefficient with an information signal only after being directed to do so by an Interrogator.</p>
+    <p>In detail, ISO/IEC 18000-3:2015 contains Type C.</p>
+    <p>Type C uses PIE in the forward link and a random slotted collision-arbitration algorithm.</p>
+    <p>ISO/IEC 18000-3:2015 specifies</p>
+    <ul>
+    <li>       physical interactions (the signalling layer of the communication link) between Interrogators and tags,</li>
+    <li>       logical operating procedures and commands between Interrogators and Tags,</li>
+    <li>       the collision arbitration scheme used to identify a specific tag in a multiple-tag environment,</li>
+    <li>       optional security commands that allow the use of crypto suites of ISO/IEC 29167.</li>
+    </ul>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:B

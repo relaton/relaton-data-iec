@@ -1,0 +1,110 @@
+---
+id: IEC611586202007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-20: Application layer protocol specification -- Type 20 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-20:
+    Application layer protocol specification -- Type 20 elements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19239
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-6-20{ed1.0}en.pdf
+docidentifier:
+- content: IEC 61158-6-20:2007
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-6-20:2007-12:::'
+  type: URN
+date:
+- type: published
+  at: '2007-12-14'
+- type: stable-until
+  at: '2010-08-06'
+- type: obsoleted
+  at: '2010-08-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: It provides user programs with a means to access the fieldbus communication
+    environment. In this respect, the FAL can be viewed as a "window between corresponding
+    application programs." This standard provides common elements for basic time-critical
+    and non-time-critical messaging communications between application programs in
+    an automation environment and material specific to Type 2 fieldbus. The term "time-critical"
+    is used to represent the presence of a time-window, within which one or more specified
+    actions are required to be completed with some defined level of certainty. Failure
+    to complete specified actions within the time window risks failure of the applications
+    requesting the actions, with attendant risk to equipment, plant and possibly human
+    life. It includes the following significant changes from the previous edition
+    deletion of the former Type 6 fieldbus for lack of market relevance; addition
+    of new types of fieldbuses; partition of part 6 of the third edition into multiple
+    parts numbered.
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '16068'
+  price_code: iec:K

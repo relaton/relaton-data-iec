@@ -1,0 +1,140 @@
+---
+id: ISOIEC2476022025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security, cybersecurity and privacy protection
+  type: title-intro
+- language: en
+  script: Latn
+  content: A framework for identity management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Reference architecture and requirements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information security, cybersecurity and privacy protection - A framework
+    for identity management - Part 2: Reference architecture and requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité de l'information, cybersécurité et protection de la vie privée
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Cadre pour la gestion de l'identité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Architecture de référence et exigences'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité de l''information, cybersécurité et protection de la vie privée
+    - Cadre pour la gestion de l''identité - Partie 2: Architecture de référence et
+    exigences'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/109819
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24760-2{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 24760-2:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24760-2:2025-09:::'
+  type: URN
+date:
+- type: published
+  at: '2025-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">This document:</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">    </span>provides guidelines for the implementation of systems for the management of identity information;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">    </span>specifies requirements for the implementation and operation of a framework for identity management;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">— <span style="mso-tab-count: 1;">   </span>is applicable to any information system where information relating to identity is processed or stored;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">    </span>is considered to be a horizontal document for the following reasons:</span></p>
+    <p class="ListContinue2-" style="margin-left: 55.5pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1; tab-stops: 19.85pt 40.3pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">¾<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">it applies concepts such as distinguishing the term “identity” from the term “identifier” on the implementation of systems for the management of identity information and on the requirements for the implementation and operation of a framework for identity management, </span></p>
+    <p class="ListContinue2-" style="margin-left: 55.5pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1; tab-stops: 19.85pt 40.3pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">¾<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">it provides an important contribution to assess identity management systems with regard to their privacy-friendliness and their ability to assure the relevant attributes of an identity, and consequently it provides a foundation and a common understanding for any other standard addressing identity, identity information, and identity management.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:F

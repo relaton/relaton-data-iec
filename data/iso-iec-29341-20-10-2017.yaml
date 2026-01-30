@@ -1,0 +1,119 @@
+---
+id: ISOIEC2934120102017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: UPnP Device Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 20-10: Audio video device control protocol -- Level 4 -- Audio video
+    transport service'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - UPnP Device Architecture - Part 20-10: Audio
+    video device control protocol -- Level 4 -- Audio video transport service'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/61483
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29341-20-10{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29341-20-10:2017
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29341-20-10:2017-09:::'
+  type: URN
+date:
+- type: published
+  at: '2017-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 29341-20-10:2017 is compliant with UPnP Device Architecture version 1.0 [14]. </p>
+    <p>This service type enables control over the transport of audio and video streams. The service type defines a common model for A/V transport control suitable for a generic user interface. It can be used to control a wide variety of disc, tape and solid-state based media devices such as CD players, VCRs and MP3 players. A minimal implementation of this service can be used to control tuners. </p>
+    <p>The service type is related to the ConnectionManager service type, which describes A/V connection setup procedures, and the ContentDirectory service, which offers meta-information about the resource stored on the media. AVTransport also offers an action to retrieve any metadata embedded in the resource itself. </p>
+    <p>This service type does not offer scheduled recording.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  price_code: iso:ZZ

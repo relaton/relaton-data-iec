@@ -1,0 +1,122 @@
+---
+id: ISOIEC1651222011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Relayed multicast protocol: Specification for simplex group applications'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Relayed multicast protocol: Specification for
+    simplex group applications - Part 2:'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10510
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec16512-2{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 16512-2:2011
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:16512-2:2011-11:::'
+  type: URN
+date:
+- type: published
+  at: '2011-11-23'
+- type: stable-until
+  at: '2016-03-21'
+- type: obsoleted
+  at: '2016-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 16512-2:2011 specifies the relayed multicast protocol for simplex group applications (RMCP-2), an application-layer protocol, which constructs a multicast tree for data delivery from one sender to multiple receivers over the Internet where IP multicast is not fully deployed.</p>
+    <p>It defines a basic RMCP-2 protocol without security features, and a secure RMCP-2 protocol that adds security features to the basic protocol. Both protocols specify a series of functions and procedures for multicast agents to construct a one-to-many relayed data path and to relay simplex data. They also specify the operations of the session manager to manage multicast sessions.</p>
+    <p>These protocols can be used for applications that require one-to-many data delivery services, such as multimedia streaming services or file dissemination services.</p>
+    <p>ISO/IEC 16512-2:2011 also defines a membership authentication procedure for use with the secure RMCP-2 protocol and provides informative material related to the protocols.  </p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:B

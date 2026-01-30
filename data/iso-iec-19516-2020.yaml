@@ -1,0 +1,120 @@
+---
+id: ISOIEC195162020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Object management group
+  type: title-main
+- language: en
+  script: Latn
+  content: Interface definition language (IDL) 4.2
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Object management group - Interface definition
+    language (IDL) 4.2
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/66604
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec19516{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 19516:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19516:2020-02:::'
+  type: URN
+date:
+- type: published
+  at: '2020-02-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard specifies the OMG Interface Definition Language (IDL). IDL is a descriptive language used to define data types and interfaces in a way that is independent of the programming language or operating system/processor platform.</p>
+    <p>The IDL specifies only the syntax used to define the data types and interfaces. It is normally used in connection with other standards that further define how these types/interfaces are utilized in specific contexts and platforms:</p>
+    <p>?   Separate "language mapping" standards define how the IDL-defined constructs map to specific programming languages, such as, C/C++, Java, C#, etc.</p>
+    <p>?   Separate "serialization" standards define how data objects and method invocations are serialized into a format suitable for network transmission.</p>
+    <p>?   Separate "middleware" standards, such as, DDS or CORBA leverage the IDL to define data-types, services, and interfaces.</p>
+    <p>The description of IDL grammar uses a syntax notation that is similar to Extended Backus-Naur Format (EBNF).</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:H

@@ -1,0 +1,136 @@
+---
+id: ISOIEC1449652001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Coding of audio-visual objects
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Reference software'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Coding of audio-visual objects - Part 5: Reference
+    software'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10101
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14496-5{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14496-5:2001
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14496-5:2001-12:::'
+  type: URN
+date:
+- type: published
+  at: '2001-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>Reference software is normative in the sense that any conforming implementation of the software, taking the same</p>
+    <p>conformant bitstreams, using the same output file format, will output the same file. Complying ISO/IEC 14496</p>
+    <p>implementations are not expected to follow the algorithms or the programming techniques used by the reference</p>
+    <p>software. Although the decoding software is considered normative, it cannot add anything to the textual technical</p>
+    <p>description included in parts 1, 2, 3 and 6 of ISO/IEC 14496.</p>
+    <p>The software contained in this part of ISO/IEC 14496 is divided into three categories:</p>
+    <p>a) <b>Elementary stream decoding software </b>is catalogued in clauses 3, 4 and 5. This software accepts</p>
+    <p>elementary streams encoded according to the normative specification in parts 1, 2, 3 and 6 of ISO/IEC 14496</p>
+    <p>and decodes the streams into the media types associated with each elementary stream. While this software</p>
+    <p>appears in the normative part of this specification, attention is drawn to the fact that the implementation</p>
+    <p>techniques used in this software are not considered normative ? several different implementations could</p>
+    <p>produce the same result ? but the software is considered normative in that it correctly implements the decoding</p>
+    <p>processes described in parts 1, 2, 3 and 6 of ISO/IEC 14496.</p>
+    <p>b) <b>Elementary stream encoding software </b>is catalogued in Annex A (informative). This software creates</p>
+    <p>elementary streams from associated media types. The encoders are provided as a means to obtain</p>
+    <p>elementary streams with the normative syntax described in parts 1, 2 and 3 of ISO/IEC 14496. The techniques</p>
+    <p>used for encoding are not specified by this specification, and the quality and complexity of these encoders has</p>
+    <p>not been optimized.</p>
+    <p>c) <b>Utility software </b>is catalogued in Annex B (informative). This software was found useful by the developers of</p>
+    <p>the standard, but may not conform to the normative specifications given in parts 1, 2, 3 and 6 of</p>
+    <p>ISO/IEC 14496.</p>
+    <p>File locations given in this part of ISO/IEC 14496 are expressed relative to its location in the source tree.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:ZZ

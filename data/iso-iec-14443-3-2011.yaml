@@ -1,0 +1,129 @@
+---
+id: ISOIEC1444332011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Identification cards
+  type: title-intro
+- language: en
+  script: Latn
+  content: Contactless integrated circuit cards
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Proximity cards -- Part 3: Initialization and anticollision'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Identification cards - Contactless integrated circuit cards - Proximity
+    cards -- Part 3: Initialization and anticollision'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9913
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14443-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14443-3:2011
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14443-3:2011-04:::'
+  type: URN
+date:
+- type: published
+  at: '2011-04-12'
+- type: stable-until
+  at: '2016-05-27'
+- type: obsoleted
+  at: '2016-05-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 14443-3:2011 describes:</p>
+    <ul>
+    <li>polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);</li>
+    <li>the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;</li>
+    <li>the initial Request and Answer to Request command content;</li>
+    <li>methods to detect and communicate with one PICC among several PICCs (anticollision);</li>
+    <li>other parameters required to initialize communications between a PICC and PCD;</li>
+    <li>optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria.</li>
+    </ul>
+    <p>Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443-4.</p>
+    <p>ISO/IEC 14443-3:2011 is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443-2).</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:B

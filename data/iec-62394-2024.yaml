@@ -1,0 +1,118 @@
+---
+id: IEC623942024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Service diagnostic interface for consumer electronics products and networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Implementation for ECHONET
+  type: title-main
+- language: en
+  script: Latn
+  content: Service diagnostic interface for consumer electronics products and networks
+    - Implementation for ECHONET
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/80737
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62394{ed5.0}en.pdf
+docidentifier:
+- content: IEC 62394:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62394:2024-10:::'
+  type: URN
+date:
+- type: published
+  at: '2024-10-30'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '5'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62394:2024 specifies requirements for service diagnostic software
+    to be implemented in products that incorporate a digital interface. It does not
+    specify requirements for carrying out remote diagnosis or for manufacturer-dependent
+    software.<br />\r\nThe Service Diagnostic Interface (SDI) requires an external
+    controller (exclusive or general-purpose/PC) into which service diagnostic software
+    can be loaded. Parts of the controller software are standardized while other parts
+    are proprietary to the manufacturers.<br />\r\nTo reach a common approach in servicing
+    all products from all manufacturers, it is necessary to standardize specific items
+    to be tested in products and certain aspects of controllers' diagnostic software.<br
+    />\r\nThe SDI is based upon ECHONET specification version 2.11, ECHONET Lite specification
+    version 1.13, and APPENDIX Detailed Requirements for ECHONET Device objects Release
+    Q rev. 1, because this interface will be used in future products. The use of this
+    connection and existing communication protocols enable implementation in products
+    at a low cost, with maximum flexibility and efficiency.<br />\r\nThe SDI consists
+    of<br />\r\n• specific hardware and software requirements of the device under
+    test (DUT);<br />\r\n• specific requirements of the controller:<br />\r\n– the
+    service software;<br />\r\n– an ECHONET interface;<br />\r\n• the connection between
+    the controller and the DUT.<br />\r\nThis document provides the minimal requirements
+    necessary to carry out computerized diagnosis. It covers the standardized software
+    of the controller as well as the standardized software and provisions in the DUT.<br
+    />\r\nIEC 62394:2024 cancels and replaces the fourth edition published in 2022.
+    This edition constitutes a technical revision.<br />\r\nThis edition includes
+    the following significant technical changes with respect to the previous edition:<br
+    />\r\na) updates of the device object super class specifications for the property
+    configurations shared by all device objects;<br />\r\nb) modification and addition
+    of the property configurations defined by each object;<br />\r\nc) addition of
+    new device objects and their property configurations;<br />\r\nd) updates to Bibliography."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.160.99
+    text: Other audio, video and audiovisual equipment
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '114372'
+  price_code: iec:P

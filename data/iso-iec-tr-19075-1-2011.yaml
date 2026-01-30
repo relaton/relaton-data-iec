@@ -1,0 +1,125 @@
+---
+id: ISOIECTR1907512011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Database languages
+  type: title-main
+- language: en
+  script: Latn
+  content: 'SQL Technical Reports -- Part 1: XQuery Regular Expression Support in
+    SQL'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Database languages - SQL Technical Reports --
+    Part 1: XQuery Regular Expression Support in SQL'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10676
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr19075-1{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 19075-1:2011
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19075-1:2011-07:tr::'
+  type: URN
+date:
+- type: published
+  at: '2011-07-06'
+- type: obsoleted
+  at: '2021-08-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC TR 19075-1:2011 describes the regular expression support in SQL adopted from the regular expression syntax of <i>XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)</i>, which is derived from Perl. It discusses five operators using this regular expression syntax:</p>
+    <ul>
+    <li>LIKE_REGEX predicate, to determine the existence of a match to a regular expression.</li>
+    <li>OCCURRENCES_REGEX numeric function, to determine the number of matches to a regular expression.</li>
+    <li>POSITION_REGEX function, to determine the position of a match.</li>
+    <li>SUBSTRING_REGEX function, to extract a substring matching a regular  expression.</li>
+    <li>TRANSLATE_REGEX function, to perform replacements using a regular  expression.</li>
+    </ul>
+status:
+  stage:
+    content: REPLACED
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:B

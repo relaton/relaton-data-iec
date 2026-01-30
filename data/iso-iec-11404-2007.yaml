@@ -1,0 +1,119 @@
+---
+id: ISOIEC114042007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: General-Purpose Datatypes (GPD)
+  type: title-main
+- language: en
+  script: Latn
+  content: Information technology - General-Purpose Datatypes (GPD)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9602
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11404{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11404:2007
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11404:2007-12:::'
+  type: URN
+date:
+- type: published
+  at: '2007-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 11404:2007 specifies the nomenclature and shared semantics for a collection of datatypes commonly occurring in programming languages and software interfaces, referred to as the General-Purpose Datatypes (GPD). It specifies both primitive datatypes, in the sense of being defined <i>ab initio</i> without reference to other datatypes, and non-primitive datatypes, in the sense of being wholly or partly defined in terms of other datatypes. The specification of datatypes in ISO/IEC 11404:2007 is "general-purpose" in the sense that the datatypes specified are classes of datatype of which the actual datatypes used in programming languages and other entities requiring the concept "datatype" are particular instances. These datatypes are general in nature; thus, they serve a wide variety of information processing applications.</p>
+    <p>ISO/IEC 11404:2007 expressly distinguishes three notions of datatype:</p>
+    <ul>
+    <li>the conceptual, or abstract, notion of a datatype, which characterizes the datatype by its nominal values and properties;</li>
+    <li>the structural notion of a datatype, which characterizes the datatype as a conceptual organization of specific component datatypes with specific functionalities; and</li>
+    <li>the implementation notion of a datatype, which characterizes the datatype by defining  the rules for representation of the datatype in a given environment.</li>
+    </ul>
+    <p>ISO/IEC 11404:2007 defines the abstract notions of many commonly used primitive and non-primitive datatypes which possess the structural notion of atomicity. ISO/IEC 11404:2007 does not define all atomic datatypes; it defines only those which are common in programming languages and software interfaces. ISO/IEC 11404:2007 defines structural notions for the specification of other non-primitive datatypes, and provides a means by which datatypes not defined herein can be defined structurally in terms of the GPDs defined herein.</p>
+    <p>ISO/IEC 11404:2007 defines a partial terminology for implementation notions of datatypes and provides for the use of this terminology in the definition of datatypes. The primary purpose of this terminology is to identify common implementation notions associated with datatypes and to distinguish them from conceptual notions.</p>
+    <p>ISO/IEC 11404:2007 specifies the required elements of mappings between the GPDs and the datatypes of some other language. ISO/IEC 11404:2007 does not specify the precise form of a mapping, but rather the required information content of a mapping.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:ZZ

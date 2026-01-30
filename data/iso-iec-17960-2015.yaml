@@ -1,0 +1,130 @@
+---
+id: ISOIEC179602015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Programming languages, their environments and system software interfaces
+  type: title-main
+- language: en
+  script: Latn
+  content: Code signing for source code
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Programming languages, their environments and
+    system software interfaces - Code signing for source code
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23359
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec17960{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 17960:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:17960:2015-09:::'
+  type: URN
+date:
+- type: published
+  at: '2015-09-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard specifies a language-neutral and environment-neutral description to define the methodology needed to support the signing of software source code, to enable it to be uniquely identified, and to enable roll-back to signed previous versions. It is intended to be used by originators of software source code and the recipients of their signed source code. This International Standard is designed for transfers of source code among disparate entities.</p>
+    <p>The following areas are outside the scope of this International Standard:</p>
+    <p>-      Determination of the trust level of a certification authority;</p>
+    <p>-      Format used to track revisions of source code files;</p>
+    <p>-      Digital signing of object or binary code;</p>
+    <p>-      System configuration and resource availability;</p>
+    <p>-      Metadata</p>
+    <ul>
+    <li>-      This is partially addressed by ISO/IEC 19770‑2;</li>
+    </ul>
+    <p>-      Transmission and representation issues</p>
+    <ul>
+    <li>-      Though this could be an issue in implementation, there are techniques such as Portable Document Format (PDF)[1] that can be used to mitigate these issues. This applies in particular to the transmission of digital signatures.</li>
+    </ul>
+
+    <p>[1] ISO 32000-1:2008 Document management ? Portable document format ? Part 1: PDF 1 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:B

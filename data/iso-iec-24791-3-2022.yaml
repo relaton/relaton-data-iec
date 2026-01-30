@@ -1,0 +1,123 @@
+---
+id: ISOIEC2479132022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Radio frequency identification (RFID) for item management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Software system infrastructure -- Part 3: Device management'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Radio frequency identification (RFID) for item
+    management - Software system infrastructure -- Part 3: Device management'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/80759
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24791-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 24791-3:2022
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24791-3:2022-12:::'
+  type: URN
+date:
+- type: published
+  at: '2022-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">This document defines interfaces for device management of RFID systems. Interfaces are defined that provide for discovery, configuration, initialization and monitoring of RFID systems within the software system infrastructure (SSI).</span></p>
+    <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">This document only deals with devices that provide RFID related services. It does not distinguish the form factor of such RFID devices.</span></p>
+    <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">This document provides two distinct <em style="mso-bidi-font-style: normal;">interface sets</em>, one based on the GS1 EPCglobal DCI standard and the IETF SNMP RFCs and the other based on the Organization for the Advancement of Structured Information Standards (OASIS) DPWS standard. The definition of the Device Profile for RFID is referred to in this document as the RFID Device Management Profile, or RDMP.</span></p>
+    <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">Each interface option set provides interface definitions that provide <span class="stdpublisher"><span style="color: black; mso-color-alt: windowtext; border: none;"><span style="border: none;">ISO/IEC</span></span></span> <span class="stddocNumber"><span style="color: black; mso-color-alt: windowtext; border: none;"><span style="border: none;">2<span style="border: none;">4791</span></span></span></span>-<span class="stddocPartNumber"><span style="color: black; mso-color-alt: windowtext; border: none;"><span style="border: none;">3</span></span></span> Client Endpoints and Services Endpoints with the mechanisms for:</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">  </span>the discovery of the RFID devices and services on a local or remote subnet;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">  </span>a firmware upgrade service;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">  </span>a management service that implements configuration related functions;</span></p>
+    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">—<span style="mso-tab-count: 1;">  </span>a monitoring service for reporting alerts, diagnostics, and performance information.</span></p>
+    <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;"><span lang="EN-GB" style="mso-bidi-font-size: 12.0pt;">The two interface set definitions provided by this document allow for clients and services endpoints to implement and provide the services based on the specific characteristics of the RFID system to be implemented. <span class="citesec"><span style="color: black; mso-color-alt: windowtext; border: none;"><span style="border: none;">Subc<span style="border: none;">lause <span style="border: none;">1.<span style="border: none;">2</span></span></span></span></span></span> defines the Conformance requirements for systems that implement components of one or both of the interface sets.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:F

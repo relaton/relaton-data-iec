@@ -1,0 +1,224 @@
+---
+id: IEC6196832021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Application integration at electric utilities
+  type: title-intro
+- language: en
+  script: Latn
+  content: System interfaces for distribution management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Interface for network operations'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Application integration at electric utilities - System interfaces for
+    distribution management - Part 3: Interface for network operations'
+  type: main
+- language: fr
+  script: Latn
+  content: Intégration d'applications pour les services électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces système pour la gestion de la distribution
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Interface pour l''exploitation du réseau'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration d''applications pour les services électriques - Interfaces
+    système pour la gestion de la distribution - Partie 3: Interface pour l''exploitation
+    du réseau'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67251
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61968-3{ed3.0}b.pdf
+docidentifier:
+- content: IEC 61968-3:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61968-3:2021-04:::'
+  type: URN
+date:
+- type: published
+  at: '2021-04-27'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61968-3:2021 provides utilities with the means to supervise main substation
+    topology (breaker and switch state), feeder topology and control equipment status
+    through SCADA, AMI and other data sources. It also provides the means for handling
+    network connectivity and loading conditions. Finally, it makes it possible for
+    utilities to locate customer telephone complaints and coordinate activities of
+    field crews with respect to planned and unplanned outages.<br />\r\nIEC 61968-3
+    specifies the information content of a set of message payloads that can be used
+    to support many of the business functions related to network operations. Typical
+    uses of the message payloads defined in IEC 61968-3 include data acquisition by
+    external systems, fault isolation, fault restoration, trouble management and coordination
+    of the real-time state of the network.<br />\r\nThe scope illustrates the possibility
+    of implementing IEC 61968-3 functionality as either a single integrated advanced
+    distribution management system or as a set of separate functions – OMS, DMS and
+    SCADA. Utilities may choose to buy these systems from different vendors and integrate
+    them using the IEC 61968-3 messages. Alternatively, a single vendor could provide
+    two or all of these components as a single integrated system. In the case of more
+    than one system being provided by the same vendor, the vendor may choose to use
+    either extensions of the IEC 61968 messages or a proprietary integration mechanism
+    to provide enhanced functionality over and above what is required/supported by
+    the IEC 61968-3 specification. While this is a possible implementation, Subclause
+    4.3 defines the scope in terms of business functions that are implemented in common
+    vendor offerings.<br />\r\nAnnexes in this document detail integration scenarios
+    or use cases, which are informative examples showing typical ways of using the
+    message payloads defined in this document as well as message payloads to be defined
+    in other parts of the IEC 61968 series<br />\r\nThis third edition cancels and
+    replaces the second edition published in 2017. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) major rework of Switch Order
+    related profiles and Outage related profiles;<br />\r\nb) documented profiles
+    in more detail as a result of the analysis of end-to-end use cases;<br />\r\nc)
+    separated Measurement and Control profile into two profiles: PSRMeasurements and
+    PSRControls;<br />\r\nd) replaced Temporary Network Change profile with SwitchingEvents
+    profile;<br />\r\ne) added MeasurementAction, ControlAction, GenericAction and
+    VerificationAction to SwitchingPlans profile. Added examples;<br />\r\nf) added
+    SwitchingActions profile to support the coordination of SwitchingPlan execution
+    between control room and the field crew;<br />\r\ng) added ClampAction to SwitchingPlan,
+    SwitchingAction and SwitchingEvent profiles, to allow clamps to be placed and
+    removed independently of jumpers;<br />\r\nh) separated OutagesAndFaults profile
+    into UnplannedOutages, PlannedOutages, EquipmentFaults, LineFaults;<br />\r\ni)
+    added list of energized and de-energized UsagePoints to the UnplannedOutages profile;<br
+    />\r\nj) added PlannedOutages profile;<br />\r\nk) added PlannedOutageNotifications
+    profile;<br />\r\nl) added SwitchingPlanRequest profile to replace OutageSchedules
+    profile;<br />\r\nm) expanded TroubleOrders profile to include UnplannedOutages
+    and TroubleTickets and to allow crews to be scheduled to individual tasks within
+    the TroubleOrder;<br />\r\nn) expanded use cases and sequence diagrams;<br />\r\no)
+    sequence diagrams updated to use IEC 61968-100 message patterns;<br />\r\np) use
+    cases in IEC 62559-2 use case template;<br />\r\nq) added example XML for profiles;<br
+    />\r\nr) replaced xsd in Annex with tables to document the profiles in a serialisation-independent
+    form;<br />\r\ns) clarified FLISR use case to include interactions between DSO
+    and TSO per review comments from Edition 2.<br />\r\nt) removed OperationalTags
+    since it is now part of the TagAction in the SwitchingEvents payload"
+- language: fr
+  script: Latn
+  content: "IEC 61968-3:2021 donne aux entreprises de distribution les moyens de surveiller
+    la topologie de poste principale (état du disjoncteur et de l'organe de coupure),
+    la topologie de lignes d'alimentation et le statut de l'équipement de commande
+    avec SCADA, AMI et d'autres sources de données. Elle fournit également les moyens
+    pour gérer l’état de charge et de connectivité du réseau. Enfin, elle rend possibles
+    la localisation des plaintes téléphoniques des clients et la coordination des
+    activités des équipes sur le terrain en ce qui concerne les interruptions planifiées
+    et non planifiées.<br />\r\nL'IEC 61968-3 spécifie le contenu d'informations d'un
+    ensemble de charges utiles de messages qui peuvent être utilisées pour prendre
+    en charge la plupart des fonctions métier liées à l'exploitation du réseau. Les
+    utilisations classiques des charges utiles de messages définies dans l'IEC 61968-3
+    incluent l'acquisition de données par des systèmes externes, l'isolement du défaut,
+    le traitement des défauts, la gestion des dysfonctionnements et la coordination
+    de l'état en temps réel du réseau.<br />\r\nLa domaine d'application permet la
+    possibilité de mise en œuvre de la fonctionnalité de l'IEC 61968-3 soit comme
+    un seul système de gestion de la distribution avancé intégré, soit comme un ensemble
+    de fonctions distinctes (OMS, DMS et SCADA). Les entreprises de distribution peuvent
+    choisir d'acheter ces systèmes auprès de différents fournisseurs et de les intégrer
+    à l'aide des messages de l'IEC 61968-3. D'autre part, un seul fournisseur peut
+    fournir au moins deux de ces composants dans un seul système intégré. Si plusieurs
+    systèmes sont fournis par le même fournisseur, ce dernier peut choisir d'utiliser
+    soit des extensions des messages de l'IEC 61968-3 soit un mécanisme d'intégration
+    propriétaire pour améliorer la fonctionnalité par rapport à ce que la spécification
+    de l’IEC 61968-3 exige/prend en charge. Bien qu'il s'agisse d'une mise en œuvre
+    possible, le paragraphe 4.3 définit le domaine d'application en ce qui concerne
+    les fonctions métier qui sont mises en œuvre dans les offres habituelles du fournisseur.<br
+    />\r\nLes annexes du présent document précisent les scénarii d'intégration ou
+    les cas d'utilisation, afin de représenter les différents moyens d'utiliser les
+    charges utiles de messages définies dans le présent document, ainsi que les charges
+    utiles de messages à définir dans d'autres parties de la série IEC 61968.<br />\r\nCette
+    troisième édition annule et remplace la deuxième édition parue en 2017. Elle constitue
+    une révision technique.<br />\r\nCette édition inclut les modifications techniques
+    majeures suivantes par rapport à l'édition précédente:<br />\r\na) important remaniement
+    des profils relatifs à Switch Order et à Outage;<br />\r\nb) profils documentés
+    plus détaillés après l'analyse des cas d'utilisation de bout en bout;<br />\r\nc)
+    profil Measurement et Control séparés en deux profils: PSRMeasurements et PSRControls;<br
+    />\r\nd) profil Temporary Network Change remplacé par le profil SwitchingEvents;<br
+    />\r\ne) profils MeasurementAction, ControlAction, GenericAction et VerificationAction
+    ajoutés au profil SwitchingPlans. Exemples ajoutés;<br />\r\nf) profil SwitchingActions
+    ajouté pour prendre en charge la coordination de l'exécution SwitchingPlan entre
+    la salle de commande et l'équipe sur le terrain;<br />\r\ng) ClampAction ajouté
+    aux profils SwitchingPlan, SwitchingAction et SwitchingEvent pour permettre la
+    pose et le retrait des pinces indépendamment des raccordements;<br />\r\nh) profil
+    OutagesAndFaults séparé en UnplannedOutages, PlannedOutages, EquipmentFaults,
+    LineFaults;<br />\r\ni) liste ajoutée des UsagePoints sous tension et hors tension
+    au profil UnplannedOutages;<br />\r\nj) profil PlannedOutages ajouté;<br />\r\nk)
+    profil PlannedOutageNotifications ajouté;<br />\r\nl) profil SwitchingPlanRequest
+    ajouté pour remplacer le profil OutageSchedules;<br />\r\nm) profil TroubleOrders
+    étendu pour inclure UnplannedOutages et TroubleTickets et permettre aux équipes
+    d'être planifiées en fonction des tâches individuelles dans TroubleOrder;<br />\r\nn)
+    cas d'utilisation et diagrammes de séquence étendus;<br />\r\no) diagrammes de
+    séquence mis à jour pour utiliser les modèles de message IEC 61968-100;<br />\r\np)
+    les cas d'utilisations de l'IEC 62559-2 utilisent un modèle de cas;<br />\r\nq)
+    exemple XML ajouté pour les profils;<br />\r\nr) xsd remplacé dans l'Annexe par
+    des tableaux pour documenter les profils sous une forme indépendante de la sérialisation;<br
+    />\r\ns) cas d'utilisation FLISR clarifié pour inclure les interactions entre
+    DSO et TSO selon le réexamen des commentaires de l'Édition 2;<br />\r\nt) OperationalTags
+    supprimé, car il fait désormais partie intégrante de TagAction dans la charge
+    utile SwitchingEvents."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104404'
+  price_code: iec:P

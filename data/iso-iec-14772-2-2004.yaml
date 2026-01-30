@@ -1,0 +1,120 @@
+---
+id: ISOIEC1477222004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Computer graphics and image processing
+  type: title-main
+- language: en
+  script: Latn
+  content: 'The Virtual Reality Modeling Language (VRML) -- Part 2: External authoring
+    interface (EAI)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Computer graphics and image processing - The
+    Virtual Reality Modeling Language (VRML) -- Part 2: External authoring interface
+    (EAI)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10162
+docidentifier:
+- content: ISO/IEC 14772-2:2004
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14772-2:2004-03:::'
+  type: URN
+date:
+- type: published
+  at: '2004-03-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 14772-1, the Virtual Reality Modeling Language (VRML), defines a file format that integrates 3D graphics and multimedia. Conceptually, each VRML file is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. This part of ISO/IEC 14772 defines the interface that applications external to the VRML browser may use to access and manipulate the objects defined in ISO/IEC 14772-1.</p>
+    <p>The interface described here is designed to allow an external environment to access nodes in a VRML scene using the existing VRML event model. In this model, an eventOut of a given node can be routed to an eventIn of another node. When the eventOut generates an event, the eventIn is notified and its node processes that event. Additionally, if a script in a Script node has a reference to a given node it can send events directly to any eventIn of that node and it can read the last value sent from any of its eventOuts. </p>
+    <p>The scope of this standard is to cover all forms of access to a VRML browser from external applications. It is equally valid for a database with a object interface to access a standalone browser in a presentation slide as it is for a Java applet operating within a web browser and the available services do not vary. </p>
+    <p>This standard does not provide a byte level protocol description as there can be many valid ways of expressing an interaction with a browser. Instead, it represents the interface in terms of the services provided and the parameters that are passed to access these services. Individual language and protocol bindings to these services are available as annexes to this part of ISO/IEC 14772. </p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:ZZ

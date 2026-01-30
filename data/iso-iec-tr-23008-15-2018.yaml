@@ -1,0 +1,119 @@
+---
+id: ISOIECTR23008152018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: High efficiency coding and media delivery in heterogeneous environments
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 15: Signalling, backward compatibility and display adaptation for
+    HDR/WCG video'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - High efficiency coding and media delivery in
+    heterogeneous environments - Part 15: Signalling, backward compatibility and display
+    adaptation for HDR/WCG video'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/63735
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr23008-15{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 23008-15:2018
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23008-15:2018-08:tr::'
+  type: URN
+date:
+- type: published
+  at: '2018-08-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document reviews approaches for processing and coding of HDR/WCG video content. The purpose of this document is to provide a set of publicly-referenceable methods for the operation of AVC or HEVC video coding systems adapted for compressing HDR/WCG video for consumer distribution applications. </p>
+    <p>This document first includes a review of the video usability information (VUI) indicators and supplemental enhancement information (SEI) messages applicable for HDR/WCG video. It provides a description of processing steps for converting from 4:4:4 RGB linear light representation video signals into video signals with ICTCP colour representation and perceptual quantizer (PQ) transfer function, or with Y′CbCr colour representation and HLG transfer function (ICTCP, PQ and HLG are defined in Rec. ITU-R BT.2100-1). Some high-level approaches for compressing these signals using either Rec. ITU-T H.264 | ISO/IEC 14496-10 or Rec. ITU-T H.265 | ISO/IEC 23008-2 are provided. A description of post-decoding processing steps is also included for converting back to a linear light, 4:4:4 RGB representation. The document also addresses the standard dynamic range (SDR) backward compatibility, that is, the compatibility with legacy decoding systems that are not able to detect and properly display HDR/WCG video content. It describes example implementations of this feature using three different solutions: using HLG as a backward compatible transfer function, using CRI and TMI SEI messages, using dual-layer approach with the Scalable Main 10 profile of HEVC and an SDR compatible base layer. Finally, the document illustrates the usage of CRI SEI messages to convey metadata enabling the dynamic range and colour gamut adaptation at the display side of the decoded video to the display capabilities.</p>
+    <p>NOTE       The document complements the material provided in ITU-T H.Sup15 | ISO/IEC TR 23008-14, which is focused on conversion and coding practices for non-constant luminance (NCL) Y′CbCr video signals using the PQ transfer function.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:F

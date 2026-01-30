@@ -1,0 +1,136 @@
+---
+id: ISOIEC863211999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Computer graphics
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Metafile for the storage and transfer of picture description information
+    -- Part 1: Functional specification'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Computer graphics - Metafile for the storage
+    and transfer of picture description information -- Part 1: Functional specification'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11687
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec8632-1{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 8632-1:1999
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:8632-1:1999-12:::'
+  type: URN
+date:
+- type: published
+  at: '1999-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 8632 provides a file format suitable for the storage and retrieval of picture description information. The file</p>
+    <p>format consists of an ordered set of elements that may be used to describe pictures in a way that is compatible</p>
+    <p>between systems of different architectures, compatible with devices of differing capabilities and design, and</p>
+    <p>meaningful to application constituencies. This picture description includes the capability for describing static</p>
+    <p>images.</p>
+    <p>The elements specified provide for the representation of a wide range of pictures on a wide range of graphical</p>
+    <p>devices. The elements are organized into groups that delimit major structures (metafiles, pictures, and application</p>
+    <p>structures), that specify the representations used within the metafile, that control the display of the picture, that</p>
+    <p>perform basic drawing actions, that control the attributes of the basic drawing actions, that allow application-specific</p>
+    <p>structuring to be overlaid on the graphical content, and that provide access to non-standard device capabilities.</p>
+    <p>The metafile is defined in such a way that, in addition to sequential access to the whole metafile, random access to</p>
+    <p>individual pictures and individual context-independent application structures is well-defined. Applications which</p>
+    <p>require random access to pictures and/or context-independent application structures within pictures may, within the</p>
+    <p>metafile, define directories to these pictures and/or context-independent application structures. The metafile may</p>
+    <p>then be opened and randomly accessed without interpreting the entire metafile.</p>
+    <p>In addition to a functional specification, two standard encodings of the metafile syntax are specified. These</p>
+    <p>encodings address the needs of applications that require small metafile size plus minimum effort to generate and</p>
+    <p>interpret, and maximum flexibility for a human reader or editor of the metafile.</p>
+    <p>This part of ISO/IEC 8632 describes the format using an abstract syntax. The remaining parts of ISO 8632 specify</p>
+    <p>standardized encodings that conform to this syntax: ISO/IEC 8632-3 specifies a binary encoding; ISO/IEC 8632-4</p>
+    <p>specifies a clear text encoding.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  price_code: iso:ZZ

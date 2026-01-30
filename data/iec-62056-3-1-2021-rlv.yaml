@@ -1,0 +1,129 @@
+---
+id: IEC62056312021RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-1: Use of local area networks on twisted pair with carrier signalling'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 3-1:
+    Use of local area networks on twisted pair with carrier signalling'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/69731
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62056-3-1{ed2.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62056-3-1:2021 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62056-3-1::rlv
+  type: URN
+date:
+- type: published
+  at: '2021-07-07'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62056-3-1:2021 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62056-3-1:2021
+    describes two sets of profiles: the first set of profiles allows a bidirectional
+    communication between a client and a server. This set of profiles is made of three
+    profiles allowing local bus data exchange with stations either energized or not.
+    For non-energized stations, the bus supplies energy for data exchange. Three different
+    profiles are supported:<br />\r\n• base profile: this three-layer profile provides
+    remote communication services;<br />\r\nNOTE 1 This first profile was published
+    in IEC 61142:1993 and became known as the Euridis standard.<br />\r\n• profile
+    with DLMS: this profile allows using DLMS services as specified in IEC 61334 4
+    41;<br />\r\nNOTE 2 This second profile was published in IEC 62056-31:1999.<br
+    />\r\n• profile with DLMS/COSEM: this profile allows using the DLMS/COSEM Application
+    layer and the COSEM object model as specified in IEC 62056 5 3 and in IEC 62056
+    6 2 respectively.<br />\r\nThe three profiles use the same physical layer and
+    they are fully compatible, meaning that devices implementing any of these profiles
+    can be operated on the same bus. The transmission medium is twisted pair using
+    carrier signalling and it is known as the Euridis Bus.<br />\r\nThe second set
+    of profiles allows unidirectional communication between a given Energy Metering
+    device and a Customer Energy Management System. This second set is made up of
+    three profiles.<br />\r\nSubclause 4.2.1 to Clause 8 included specify the bidirectional
+    communication using twisted pair signalling and Clause 9 to 9.5 the unidirectional
+    communication using twisted pair signalling.<br />\r\nThis second edition cancels
+    and replaces the first edition of IEC 62056-3-1, issued in 2013, and constitutes
+    a technical revision.<br />\r\nThe main technical changes with regard to the previous
+    edition are as follows:<br />\r\n• addition of a profile which makes use of the
+    IEC 62056 DLMS/COSEM Application layer and COSEM object model;<br />\r\n• review
+    of the data link layer which is split into two parts:<br />\r\n– a pure Data Link
+    layer;<br />\r\n– a \"Support Manager\" entity managing the communication media;<br
+    />\r\n• ability to negotiate the communication speed, bringing baud rate up to
+    9 600 bauds."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '22362'
+  price_code: iec:RG

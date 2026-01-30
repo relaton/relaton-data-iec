@@ -1,0 +1,145 @@
+---
+id: ISOIECTR144752001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Private Integrated Services Network -- Architecture and scenarios for Private
+    Integrated Services Networking
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Architecture and scenarios for
+    Private Integrated Services Networking
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9922
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr14475{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 14475:2001
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14475:2001-07:tr::'
+  type: URN
+date:
+- type: published
+  at: '2001-07-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>A Private Integrated Service Network (PISN) is a network comprising either one PINX or more than</p>
+    <p>one PINX interconnected by Inter-PINX connections. This Technical Report is concerned with inter-</p>
+    <p>PINX connections (IPC) that are provided by Intervening Networks (IVN), and the way in which these</p>
+    <p>are handled by PINXs to provide a platform for inter-PINX communication. Different types of IVNs</p>
+    <p>can be used to provide IPCs, in accordance with the scenarios indicated in ISO/IEC 11579-1. These</p>
+    <p>are Overlay Scenarios in that they enable the services of the PISN to operate transparently across</p>
+    <p>an IVN.</p>
+    <p>Connected PINXs need to co-ordinate their use of IVNs, and appropriate standardisation is needed</p>
+    <p>to allow networks to be created employing PINXs and IVNs from multiple vendors. The following</p>
+    <p>points need to be considered:</p>
+    <p>_ In general but depending on the type of IVN, procedures and signalling protocols between the</p>
+    <p>PINXs are needed for the establishment, maintenance and release of IPCs. Appropriate</p>
+    <p>standardisation of these procedures and signalling protocols is necessary.</p>
+    <p>_ At the Q reference point (a conceptual point within a PINX) channels and PISN call control</p>
+    <p>signalling (QSIG) are defined independently of the type of IVN. However, at the C reference</p>
+    <p>point (where the PINX is connected to the IVN), the representation of the channels and of</p>
+    <p>signalling is dependent on the type of IVN, and on how the PINXs use the IPCs. Appropriate</p>
+    <p>standardisation of these aspects at the C reference point is necessary.</p>
+    <p>_ In general the relationship between a channel at the Q reference point and its representation at</p>
+    <p>the C reference point is not static, and procedures and signalling between the PINXs are needed</p>
+    <p>for the co-ordination of these relationships. Appropriate standardisation of these procedures and</p>
+    <p>signalling is necessary.</p>
+    <p>_ Appropriate mechanisms need to be standardised for conveying inter-PINX signalling through</p>
+    <p>the IVN. These will depend on the characteristics of the IPC used.</p>
+    <p>The aim of this Technical Report is to identify:</p>
+    <p>1. In addition to PISN call control signalling (QSIG), what needs to be standardised, in order to be</p>
+    <p>able to inter-connect PINXs;</p>
+    <p>2. General techniques, procedures, protocols etc., that apply to of all (or at least very many) types</p>
+    <p>of IVNs.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  price_code: iso:ZZ

@@ -1,0 +1,129 @@
+---
+id: ISOIEC59652021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Swordfish Scalable Storage Management API Specification
+  type: title-main
+- language: en
+  script: Latn
+  content: Information technology - Swordfish Scalable Storage Management API Specification
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/70994
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec5965{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 5965:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:5965:2021-08:::'
+  type: URN
+date:
+- type: published
+  at: '2021-08-24'
+- type: stable-until
+  at: '2023-05-11'
+- type: obsoleted
+  at: '2023-05-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines the Swordfish Scalable Storage Management API.</p>
+    <p>Swordfish extends the Redfish Scalable Platforms Management API Specification, as defined by ISO 30115. It defines a comprehensive, RESTful API for storage management that addresses block storage, file systems, object storage, and storage network infrastructure. It is centered around common operational and business concerns of storage management, including:</p>
+    <ul>
+    <li>Configuration and provisioning</li>
+    <li>Monitoring</li>
+    <li>Event and log management</li>
+    <li>Performance assessment</li>
+    <li>Diagnostics</li>
+    <li>Fault detection and remediation</li>
+    <li>Security</li>
+    <li>Accounting and resource consumption</li>
+    </ul>
+    <p>Swordfish’s storage model is built around well-defined classes of service, which provide a means to map high-level business goals and objectives to specific, storage-based actions and requirements, in a clear and consistent way that can be applied uniformly across a broad spectrum of storage configurations and storage types (e.g., block storage, file systems, object stores). Common storage management functionality covered by class of service includes snapshots, replication, mapping and masking, and provisioning.</p>
+    <p>The Redfish specification provides the protocols and a core set of data models and behaviors for the management of systems. It defines the elements and behaviors that are mandatory for all Redfish implementations. Additionally it defines additional elements and behaviors that can be chosen by system vendors or manufacturers. The specifications also defines points at which OEM (system vendor) extensions can be provided by a given implementation. The specifications specifies normative requirements for Redfish Services and associated materials, such as Redfish Schema files. The Redfish specifications does not set requirements for Redfish clients, but willindicate what a Redfish client should do in order to access and utilize a Redfish Service successfully and effectively.</p>
+    <p>The Swordfish specification defines additional data models and behaviors for the management of storage systems and storage infrastructure. A Swordfish implementation shall conform to all requirements specified in the Redfish specifications.</p>
+    <p>Swordfish is suitable for a wide range of storage, from small-scale object drives, integrated RAID cards or RBODs providing storage services, to external disk arrays or file servers, to infrastructure providing storage services for converged, hyperscale and large scale cloud environments.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  price_code: iso:B

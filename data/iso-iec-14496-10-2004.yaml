@@ -1,0 +1,135 @@
+---
+id: ISOIEC14496102004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Coding of audio-visual objects
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 10: Advanced Video Coding'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Coding of audio-visual objects - Part 10: Advanced
+    Video Coding'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Codage des objets audiovisuels
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 10: Codage visuel avancé'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
+    10: Codage visuel avancé'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/98184
+docidentifier:
+- content: ISO/IEC 14496-10:2004
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14496-10:2004-09:::'
+  type: URN
+date:
+- type: published
+  at: '2004-09-28'
+- type: obsoleted
+  at: '2005-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 14496-10:2004 was developed jointly with ITU-T in response to the growing need for higher compression of moving pictures for various applications such as digital storage media, television broadcasting, Internet streaming and real-time audiovisual communication. It is also designed to enable the use of the coded video representation in a flexible manner for a wide variety of network environments. It is designed to be generic in the sense that it serves a wide range of applications, bit rates, resolutions, qualities and services. The use of ISO/IEC 14496-10:2004 allows motion video to be manipulated as a form of computer data and to be stored on various storage media, transmitted and received over existing and future networks and distributed on existing and future broadcasting channels. In the course of creating ISO/IEC 14496-10:2004, requirements from a wide variety of applications have been considered, necessary algorithmic elements have been developed, and these have been integrated into a single syntax. Hence, ISO/IEC 14496-10:2004 will facilitate video data interchange among different applications.</p>
+    <p>The coded representation specified in the syntax is designed to enable a high-compression capability with minimal degradation of image quality. The algorithm is not ordinarily lossless, as the exact source sample values are typically not preserved through the encoding and decoding processes. A number of syntactical features with associated decoding processes are defined that can be used to achieve highly efficient compression, and individual selected regions can be sent without loss. The expected encoding algorithm (not specified in ISO/IEC 14496-10:2004) selects between inter and intra coding for block-shaped regions of each picture. Inter coding uses motion vectors for block-based inter prediction to exploit temporal statistical dependencies between different pictures. Intra coding uses various spatial prediction modes to exploit spatial statistical dependencies in the source signal within a single picture. Motion vectors and intra prediction modes may be specified for a variety of block sizes in the picture. The residual signal remaining after intra or inter prediction is then further compressed using a transform to remove spatial correlation inside each transform block. The transformed blocks are then quantised. The quantisation is an irreversible process that typically discards less important visual information while forming a close approximation to the source samples. Finally, the motion vectors or intra prediction modes are combined with the quantised transform coefficient information and encoded using either context-adaptive variable length codes or context-adaptive arithmetic coding.</p>
+    <p>ISO/IEC 14496-10:2004 is the second edition of the ISO/IEC 14496-10 specification. It includes the same technical material specified in the first edition (ISO/IEC 14496-10:2003), plus integrated errata corrections that were specified in a 2004 corrigendum.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

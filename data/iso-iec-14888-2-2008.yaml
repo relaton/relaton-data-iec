@@ -1,0 +1,132 @@
+---
+id: ISOIEC1488822008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Digital signatures with appendix -- Part 2: Integer factorization based
+    mechanisms'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Digital signatures with
+    appendix -- Part 2: Integer factorization based mechanisms'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10204
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14888-2{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14888-2:2008
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14888-2:2008-04:::'
+  type: URN
+date:
+- type: published
+  at: '2008-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 14888 specifies digital signature with appendix. As no part of the message is recovered from the signature (the recoverable part of the message is empty), the signed message consists of the signature and the whole message.</p>
+    <p>NOTE          ISO/IEC 9796 specifies digital signature giving message recovery. As all or part of the message is recovered from the signature, the recoverable part of the message is not empty. The signed message consists of either the signature only (when the non-recoverable part of the message is empty), or both the signature and the non-recoverable part.</p>
+    <p>ISO/IEC 14888-2:2008 specifies digital signatures with appendix whose security is based on the difficulty of factoring the modulus in use. For each signature scheme, it specifies:</p>
+    <ul>
+    <li>the relationships and constraints between all the data elements required for signing and verifying;</li>
+    <li>a signature mechanism, i.e. how to produce a signature of a message with the data elements required for signing;</li>
+    <li>a verification mechanism, i.e. how to verify a signature of a message with the data elements required for verifying.</li>
+    </ul>
+    <p>The title of ISO/IEC 14888-2 has changed from <i>Identity-based mechanisms </i>(first edition) to <i>Integer factorization based mechanisms </i>(second edition).</p>
+    <ol>
+    <li>ISO/IEC 14888-2:2008 includes the identity-based scheme specified in ISO/IEC 14888-2:1999, namely the GQ1 scheme. This scheme has been revised due to the withdrawal of ISO/IEC 9796:1991 in 1999.</li>
+    <li>Among the certificate-based schemes specified in ISO/IEC 14888-3:1998, it includes all the schemes based on the difficulty of factoring the modulus in use, namely, the RSA, RW and ESIGN schemes.  These schemes have been revised due to the withdrawal of ISO/IEC 9796:1991 in 1999.</li>
+    <li>It takes into account ISO/IEC 14888-3:1998/Cor.1:2001, technical corrigendum of the ESIGN scheme.</li>
+    <li>It includes a format mechanism, namely the PSS mechanism, also specified in ISO/IEC 9796-2:2002, and details of how to use it in each of the RSA, RW, GQ1 and ESIGN schemes.</li>
+    <li>It includes new certificate-based schemes that use no format mechanism, namely, the GQ2, GPS1 and GPS2 schemes.</li>
+    <li>For each scheme and its options, as needed, it provides an object identifier.</li>
+    </ol>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:G

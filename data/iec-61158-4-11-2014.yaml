@@ -1,0 +1,158 @@
+---
+id: IEC611584112014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-11: Data-link layer protocol specificationn -- Type 11 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-11:
+    Data-link layer protocol specificationn -- Type 11 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-11: Spécification du protocole de la couche liaison de données
+    -- Eléments de type 11'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 4-11: Spécification du protocole de la couche liaison de données -- Eléments
+    de type 11'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/4645
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-4-11{ed3.0}b.pdf
+docidentifier:
+- content: IEC 61158-4-11:2014
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-4-11:2014-08:::'
+  type: URN
+date:
+- type: published
+  at: '2014-08-15'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEC 61158-4-11:2014 specifies procedures for: the timely transfer of data
+    and control information from one data-link user entity to a peer user entity,
+    and among the data-link entities forming the distributed data-link service provider;
+    procedures for giving communications opportunities to all participating DL entities,
+    sequentially and in a cyclic manner for deterministic and synchronized transfer
+    at cyclic intervals up to one millisecond; procedures for giving communication
+    opportunities available for time-critical data transmission together with non-time-critical
+    data transmission without prejudice to the time-critical data transmission; procedures
+    for giving cyclic and acyclic communication opportunities for time-critical data
+    transmission with prioritized access; procedures for giving communication opportunities
+    based on standard ISO/IEC 8802-3 medium access control, with provisions for nodes
+    to be added or removed during normal operation and the structure of the fieldbus
+    DLPDUs used for the transfer of data and control information by the protocol of
+    this standard, and their representation as physical interface data units. This
+    third edition cancels and replaces the second edition published in 2010 and constitutes
+    a technical revision. The main changes are: Subclauses 4.6.1, 4.6.4 and 5.4.6,
+    Clause 6 and 7.2 for the loop-architecture are modified to cover the additional
+    specifications for the higher data rate in the loop-architecture.'
+- language: fr
+  script: Latn
+  content: 'L''IEC 61158-4-11:2014 spécifie les procédures pour le transfert en temps
+    utile de données et d''informations de commande d''une entité d''utilisateur de
+    liaison de données vers une entité d''utilisateur homologue, et parmi les entités
+    de liaison de données formant le fournisseur de service de liaison de données
+    distribué; les procédures permettant à toutes les entités DL participantes de
+    communiquer, de manière séquentielle et cyclique dans le cadre d''un transfert
+    déterministe et synchronisé, à intervalles cycliques d''une milliseconde au maximum;
+    les procédures permettant à la transmission de données prioritaires de communiquer
+    avec une transmission de données non prioritaires, sans préjudice pour la première;
+    les procédures permettant à la transmission de données prioritaires de communiquer
+    de manière cyclique et acyclique, avec un accès en priorité; les procédures permettant
+    d''assurer la communication en fonction du contrôle d''accès au support ISO/CEI
+    8802-3, avec des dispositions relatives aux n uds à ajouter ou retirer pendant
+    le fonctionnement normal; et la structure des DLPDU du bus de terrain utilisée
+    pour le transfert de données et d''informations de commande par le protocole de
+    la présente norme, et leur représentation comme unités de données d''interface
+    physique. Cette troisième édition annule et remplace la deuxième édition, parue
+    en 2010. Elle constitue une révision technique. Les modifications principales
+    sont: les Paragraphes 4.6.1, 4.6.4 et 5.4.6, l''Article 6 et 7.2 pour l''architecture
+    en boucle ont été modifiés pour couvrir les spécifications supplémentaires relatives
+    au débit de données plus élevé dans l''architecture en boucle.'
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '22091'
+  price_code: iec:P

@@ -1,0 +1,137 @@
+---
+id: ISOIEC173102000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Private Integrated Services Network -- Mapping functions for the employment
+    of 64 kbit/s circuit mode connections with 16 kbit/s sub-multiplexing
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Private Integrated Services Network -- Mapping functions for the employment
+    of 64 kbit/s circuit mode connections with 16 kbit/s sub-multiplexing
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10553
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec17310{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 17310:2000
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:17310:2000-10:::'
+  type: URN
+date:
+- type: published
+  at: '2000-10-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard defines the mapping functions in exchanges of Private Integrated Services Networks (PISNs)</p>
+    <p>required for the utilization of scenarios in which 64 kbit/s circuit mode connections are sub-multiplexed into 4 x 16 kbit/s</p>
+    <p>channels for carrying inter-PINX signalling and user information.</p>
+    <p>NOTE 1 - This International Standard has been prepared to meet the specific needs of an application for a particular user organisation.</p>
+    <p>However, it may also be applicable elsewhere. The requirements contained in this International Standard will be incorporated in any future</p>
+    <p>standard specifying a more generic approach to bearer conditioning.</p>
+    <p>In order to connect a Private Integrated Services Network Exchange (PINX) to another PINX, mapping functions are required</p>
+    <p>to adapt the specific interfaces at the C reference point to the application at the Q reference point. As such, mapping functions</p>
+    <p>provide for physical adaptation to the interface at the C reference point. Mapping functions also provide for the mapping of</p>
+    <p>user channels and signalling information at the Q reference point to the appropriate channels or timeslots at the C reference</p>
+    <p>point.</p>
+    <p>The C and Q reference points are defined in ISO/IEC 11579-1.</p>
+    <p>The type of interface at the C reference point covered by this International Standard is the 64 kbit/s Unrestricted Digital Leased</p>
+    <p>Line (D64U) Terminal Equipment Interface, in accordance with ITU-T Rec. G.703.</p>
+    <p>At the Q reference point the mapping provides a 16 kbit/s service for user channels to support the transfer of unrestricted</p>
+    <p>digital information and to support the transfer of speech, and a packet mode service for the signalling channel. The applied</p>
+    <p>mapping is a static mapping, i.e. there is a fixed relationship between user and signalling channels at the Q reference point and</p>
+    <p>the interface at the C reference point.</p>
+    <p>Management functions relating to failure management are outside the scope of this International Standard.</p>
+    <p>This International Standard is applicable to PINXs that can be interconnected to form a Private Integrated Services Network</p>
+    <p>(PISN) and that support signalling protocols at the Q reference point.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  price_code: iso:ZZ

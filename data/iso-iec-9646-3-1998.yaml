@@ -1,0 +1,132 @@
+---
+id: ISOIEC964631998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Conformance testing methodology and framework -- Part 3: The Tree and
+    Tabular Combined Notation (TTCN)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Systems Interconnection - Conformance testing
+    methodology and framework -- Part 3: The Tree and Tabular Combined Notation (TTCN)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11876
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9646-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9646-3:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9646-3:1998-11:::'
+  type: URN
+date:
+- type: published
+  at: '1998-11-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>1.1  This part of l[SO/lEC 9646 defines an informal test notation, called the Tree and Tabular Combined Notation (TTCN), for OS1 conformance test suites, which is independent of test methods, layers and protocols, and which reflects the abstract testing methodology defined in ISO/IEC 9646-l and ISWIEC 9646-2.</p>
+    <p>1.2  It also specifies requirements and provides guidance for using TTCN in the specification of system-independent conformance test suites for one or more OS1 standards. It specifies two forms of the notation: one, a human-readable form, applicable to the production of conformance test suite standards for OS1 protocols; and the other, a machine-processable form, applicable to processing within and between computer systems.</p>
+    <p>1.3  This part of ISO/IEC 9646 applies to the specification of conformance test cases which can be expressed abstractly in terms of control and observation of protocol data units and abstract service primitives. Nevertheless, for some protocols, test cases may be needed which cannot be expressed in these terms. The specification of such test cases is outside the scope of this part of ISO/IEC 9646, although those test cases may need to be included in a conformance test suite standard.</p>
+    <p>For example. some static conformance requirements related to an application service may require testing techniques which are specific to that particular application.</p>
+    <p>The specification of test cases in which more than one behavior description is to be run in parallel is dealt with by the concurrency features (particularly involving the definition of Test Components and Test Component Configurations).</p>
+    <p>1.4  This part of ISO/IEC 9646 specifies requirements on what a test suite standard may specify about a conforming realization of the test suite, including the operational semantics of TTCN test suites.</p>
+    <p>1.5  This part of ISO/IEC 9646 applies to the specification of conformance test suites for OS1 protocols in OS1 layers 2 to 7, specifically including Abstract Syntax Notation One (ASN. 1) based protocols. The following are outside the scope of this part of ISOIIEC 9646:</p>
+    <p>a) the specification of conformance test suites for Physical layer protocols; </p>
+    <p>b) the relationship between TTCN and formal description techniques;</p>
+    <p>c) the means of realization of executable test suites (ETS) from abstract test suites.</p>
+
+    <p>1.6  This part of ISO/IEC 9646 defines mechanisms for using concurrency in the specification of abstract test cases. Concurrency in TTCN is applicable to the specification of test cases:</p>
+    <p>a) in a multi-party testing context; </p>
+    <p>b) which handle multiplexing and demultiplexing in either a single-party or multi-party testing context;</p>
+    <p>c) which handle splitting and recombining in either a single-party or multi-party testing context;</p>
+    <p>d) in a single-party testing context when the complexity of the protocol or set of protocols handled by the IUT is such that concurrency can simplify the specification of the test case</p>
+    <p>1.7 TTCN modules are defined to allow sharing of common TTCN specifications between test suites.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  price_code: iso:H

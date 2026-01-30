@@ -1,0 +1,119 @@
+---
+id: ISOIEC1371911998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Portable Common Tool Environment (PCTE)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Abstract specification'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Portable Common Tool Environment (PCTE) - Part
+    1: Abstract specification'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9805
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec13719-1{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 13719-1:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:13719-1:1998-10:::'
+  type: URN
+date:
+- type: published
+  at: '1998-10-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This part of ISO/IEC 13719 specifies PCTE in abstract, programming-language-independent, terms. It specifies the interface supported by any conforming implementation as a set of abstract operation specifications, together with the types of their parameters and results. It is supported by a number of standard bindings, i.e. representations of the interface in standard programming languages.</p>
+    <p>The scope of this part of ISO/IEC 13719 is restricted to a single PCTE installation. It does not specify the means of communication between PCTE installations, nor between a PCTE installation and another system.</p>
+    <p> A number of features are not completely defined in this part of ISO/IEC 13719, some freedom being allowed to the implementor. Some of these are implementation limits, for which constraints are defined (see clause 24). The other implementation-dependent and implementation-defined features are specified in the appropriate places in this Standard.</p>
+    <p>PCTE is an interface to a set of facilities that forms the basis for constructing environments supporting systems engineering projects. These facilities are designed particularly to provide an infrastructure for programs which may be part of such environments. Such programs, which are used as aids to systems development, are often referred to as tools.</p>
+    <p>This part of ISO/IEC 13719 also includes (in annex B) a language standard for the PCTE Data Description Language (DDL), suitable for writing PCTE schema definition sets.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:H

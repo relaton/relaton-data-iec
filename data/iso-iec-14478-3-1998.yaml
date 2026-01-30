@@ -1,0 +1,129 @@
+---
+id: ISOIEC1447831998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Computer graphics and image processing
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Presentation Environment for Multimedia Objects (PREMO) -- Part 3: Multimedia
+    Systems Services'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Computer graphics and image processing - Presentation
+    Environment for Multimedia Objects (PREMO) -- Part 3: Multimedia Systems Services'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9933
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14478-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 14478-3:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14478-3:1998-12:::'
+  type: URN
+date:
+- type: published
+  at: '1998-12-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This part of ISO/IEC 14478 defines a standard set of multimedia system services that can be used by multimedia application de­velopers in a variety of computing environments. The focus is on enabling multimedia applications in a heterogeneous, distrib­uted computing environment. Throughout this part of ISO/IEC 14478, this component will also be referred to as "Multimedia Systems Services", and abbreviated as MSS. </p>
+    <p>The Multimedia Systems Services constitutes a framework of "middleware" - system software components lying in the region between the generic operating system and specific applications. As middleware, the Multimedia Systems Services marshals low­er-level system resources to the task of supporting multimedia processing, providing a set of common services which can be used by multimedia application developers. </p>
+    <p>The Multimedia Systems Services encompasses the following characteristics:</p>
+    <p>a)         provision of an abstract type for a media processing node, extensible through subtyping to support abstractions of real media processing hardware or software;</p>
+    <p>b)         provision of an abstract type for the data flow path or the connection between media processing nodes, encapsulating low-level connection and transport semantics;</p>
+    <p>c)         grouping of multiple processing nodes and connections into a single unit for purposes of resource reservation and stream control;</p>
+    <p>d)         provision or a media dataflow abstraction. with support for a variety of position, time and/or synchronization capabili­ties;</p>
+    <p>e)         separation of the media format abstractions from the dataflow abstraction;</p>
+    <p>f)          synchronous exceptions and asynchronous events;</p>
+    <p>g)         application visible characterization of object capabilities;</p>
+    <p>h)         registration of objects in a distributed environment by location and capabilities;</p>
+    <p>i)          retrieval of objects in a distributed environment by location and constraints;</p>
+    <p>j)          definition of a Media Stream Protocol to support media independent transport and synchronization.</p>
+    <p>The Multimedia Systems Services rely on the object model of ISO/IEC 14478-1 (Fundamentals of PREMO) and the object types and non-object data types defined in TSO/IEC 14478-2 (PREMO Foundation Component).</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  price_code: iso:G

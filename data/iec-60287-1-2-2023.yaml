@@ -1,0 +1,114 @@
+---
+id: IEC60287122023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electric cables
+  type: title-intro
+- language: en
+  script: Latn
+  content: Calculation of the current rating
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1-2: Current rating equations (100 % load factor) and calculations
+    of losses -- Sheath eddy current loss factors for two circuits in flat formation'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electric cables - Calculation of the current rating - Part 1-2: Current
+    rating equations (100 % load factor) and calculations of losses -- Sheath eddy
+    current loss factors for two circuits in flat formation'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68120
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec60287-1-2{ed2.0}en.pdf
+docidentifier:
+- content: IEC 60287-1-2:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:60287-1-2:2023-05:::'
+  type: URN
+date:
+- type: published
+  at: '2023-05-12'
+- type: stable-until
+  at: '2030-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 60287-1-2:2023 provides a method for calculating the eddy current
+    losses in the metallic sheaths of single-core cables arranged as a three-phase
+    double circuit in flat formation. The sheaths are bonded at one point or are cross-bonded
+    so that there are no significant sheath circulating currents. Where metallic sheaths
+    are bonded at both ends there are significant circulating currents which result
+    in a lower current-carrying capacity. A method of calculating circulating current
+    losses for double circuits is provided in IEC 60287-1-3.<br />\r\nThe method descibed
+    in this document provides coefficients which are applied as corrections to the
+    loss factors for the sheaths of one isolated three-phase circuit. These corrections
+    are negligible for cables where the parameter m is less than approximately 0,1
+    (m = ω/(Rs · 107)), which corresponds to a sheath longitudinal resistance higher
+    than 314 µΩ/m at 50 Hz.<br />\r\nConsequently, the method is used for most sizes
+    of aluminium-sheathed cables, but is not required for lead-sheathed cables unless
+    they are unusually large.<br />\r\nThe coefficients are provided in tabular form
+    and have been computed from fundamental formulae for sheath losses, the evaluation
+    of which calls for expertise in computer programming which will possibly not be
+    readily available in general commercial situations. The development of simplified
+    formulae for some of the tabulated coefficients is under consideration.<br />\r\nLosses
+    for cables in a single circuit is covered in IEC 60287-1-1."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 29.060.20
+    text: Cables
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104907'
+  price_code: iec:G

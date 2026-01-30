@@ -1,0 +1,145 @@
+---
+id: ISOIEC2000832024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security
+  type: title-intro
+- language: en
+  script: Latn
+  content: Anonymous digital signatures
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Mechanisms using multiple public keys'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information security - Anonymous digital signatures - Part 3: Mechanisms
+    using multiple public keys'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité de l’information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Signatures numériques anonymes
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Mécanismes utilisant plusieurs clés publiques'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité de l’information - Signatures numériques anonymes - Partie 3:
+    Mécanismes utilisant plusieurs clés publiques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103971
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec20008-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 20008-3:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:20008-3:2024-12:::'
+  type: URN
+date:
+- type: published
+  at: '2024-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document specifies anonymous digital signature mechanisms in which a verifier uses multiple public keys to verify a digital signature.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document provides:</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">a general description of an anonymous digital signature mechanism using multiple public keys;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">a variety of mechanisms that provide such anonymous digital signatures.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">For each mechanism, this document specifies the process for:</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">generating the private key and public key of each user;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">producing signatures;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">verifying signatures;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">linking signatures (if the mechanism supports linking);</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">tracing signatures (if the mechanism supports tracing);</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">producing signatures with threshold capability (if the mechanism supports a threshold capability);</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">verifying signatures with threshold capability (if the mechanism supports a threshold capability).</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document does not define the implementation of a public key infrastructure (PKI) and the means for distinct entities to exchange, extract and verify their respective public key certificates.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:D

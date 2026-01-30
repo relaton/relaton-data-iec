@@ -1,0 +1,170 @@
+---
+id: IEC611232019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reliability testing
+  type: title-intro
+- language: en
+  script: Latn
+  content: Compliance test plans for success ratio
+  type: title-main
+- language: en
+  script: Latn
+  content: Reliability testing - Compliance test plans for success ratio
+  type: main
+- language: fr
+  script: Latn
+  content: Essais de fiabilité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Plans d'essai de conformité pour une proportion de succès
+  type: title-main
+- language: fr
+  script: Latn
+  content: Essais de fiabilité - Plans d'essai de conformité pour une proportion de
+    succès
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/61933
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61123{ed2.0}b.pdf
+docidentifier:
+- content: IEC 61123:2019
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61123:2019-11:::'
+  type: URN
+date:
+- type: published
+  at: '2019-11-22'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61123:2019 is intended to define a procedure to verify if a reliability
+    of an item/system complies with the stated requirements. The requirement is assumed
+    to be specified as the percentage of success (success ratio) or the percentage
+    of failures (failure ratio). This document can be used where a number of items
+    are tested (number of trials performed) and classified as passed or failed. It
+    can also be used where one or a number of items are tested repeatedly. The procedures
+    are based on the assumption that the probability of success or failure is the
+    same from trial to trial (statistically independent events). Plans for fixed trial/failure
+    terminated tests as well as truncated sequential probability ratio tests (SPRTs)
+    are included. This document contains extensive tables with ready-to-use SPRT plans
+    and their characteristics for equal and non-equal risks for supplier and customer.
+    In the case of the reliability compliance tests for constant failure rate/intensity,
+    IEC 61124 applies. This second edition cancels and replaces the first edition
+    published in 1991. This edition constitutes a technical revision. This edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\nThe sequential probability ratio test (SPRT) [1, 2][1] has been
+    significantly developed in recent years [3, 4, 5]. This edition contains shorter
+    and accurate tests, a wide range of test plans, and significant additional characteristic
+    data, as follows:<br />\r\nthe tests are significantly truncated (the maximum
+    trial numbers are low) without substantially increasing the expected number of
+    trials to decision (ENT);<br />\r\nthe true producer’s and consumer’s risks (<em>α</em>',
+    <em>β</em>') are given and very close to the nominal (<em>α</em>, <em>β</em>);<br
+    />\r\nthe range of the test parameters is wide (failure ratio, risks and discrimination
+    ratio);<br />\r\nthe test plans include various risk ratios (not restricted to
+    equal risks only);<br />\r\nthe values of ENT are accurate and given in the relevant
+    region (for practical use);<br />\r\nguidelines for extension of the test sets
+    (interpolation and extrapolation) are included.<br />\r\nIn Annex C, the use of
+    the cumulative binomial distribution function of Excel that simplifies the procedure
+    of designing has been added (Clause C.3).<br />\r\nKeywords: verify if a reliability
+    of an item/system complies with the stated requirements"
+- language: fr
+  script: Latn
+  content: "IEC 61123:2019 vise à définir une procédure pour vérifier si la fiabilité
+    d'une entité/d'un système satisfait aux exigences spécifiées. L'exigence est admise
+    comme étant spécifiée sous forme de pourcentage de succès (proportion de succès)
+    ou de pourcentage de défaillances (proportion de défaillances). Le présent document
+    peut être utilisé lorsqu'un certain nombre d'entités sont soumises à l'essai (nombre
+    d'épreuves réalisées) et classées comme ayant satisfait ou échoué à l'essai. Il
+    peut également être utilisé lorsqu'une ou plusieurs entités sont soumises à l'essai
+    de façon répétée. Les procédures sont fondées sur l'hypothèse que la probabilité
+    de succès ou de défaillance est identique d'une épreuve à l'autre (événements
+    statistiquement indépendants). Le présent document inclut des plans d'essais à
+    nombre fixé d'épreuves et de défaillances, ainsi que des essais de rapport de
+    probabilité progressifs (SPRT). Il contient des tableaux complets décrivant des
+    plans de SPRT prêts à l'emploi et leurs caractéristiques associées, les risques
+    pour le fournisseur et le client étant égaux ou non. Dans le cas d'essais de conformité
+    de fiabilité relatifs à un taux/une intensité constant(e) de défaillance, l'IEC
+    61124 s'applique. Cette deuxième édition annule et remplace la première édition
+    parue en 1991. Cette édition constitue une révision technique.<br />\r\nCette
+    édition inclut les modifications techniques majeures suivantes par rapport à l'édition
+    précédente:<br />\r\nles essais sont considérablement tronqués (le nombre maximal
+    d'épreuves est faible) sans pour autant augmenter substantiellement le nombre
+    prévu d'épreuves pour décision (ENT – expected number of trials);<br />\r\nles
+    risques vrais du fournisseur et du client (<em>α</em>', <em>β</em>') sont connus
+    et très proches des valeurs nominales (<em>α</em>, <em>β</em>);<br />\r\nla plage
+    des paramètres d'essai est étendue (proportion de défaillance, risques et rapport
+    de discrimination);<br />\r\nles plans d'essai intègrent différents rapports de
+    risque (qui ne se limitent pas uniquement à des risques égaux);<br />\r\nles valeurs
+    de l'ENT sont précises et données dans la région pertinente (à des fins d'utilisation
+    pratique);<br />\r\ndes lignes directrices sont fournies en vue d'étendre les
+    séries d'essais (interpolation et extrapolation);<br />\r\nen Annexe C, l'utilisation
+    de la fonction de distribution binomiale cumulative d'Excel pour simplifier la
+    procédure de calcul a été ajoutée (Article C.3).<br />\r\nMots clés: vérifier
+    si la fiabilité d'une entité/d'un système satisfait aux exigences spécifiées"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 03.120.01
+    text: Quality in general
+  - code: 03.120.30
+    text: Application of statistical methods
+  - code: '21.020'
+    text: Characteristics and design of machines, apparatus, equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '101542'
+  price_code: iec:J

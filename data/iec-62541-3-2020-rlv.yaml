@@ -1,0 +1,109 @@
+---
+id: IEC6254132020RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Address Space Model'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 3: Address Space Model'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67301
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-3{ed3.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62541-3:2020 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62541-3::rlv
+  type: URN
+date:
+- type: published
+  at: '2020-07-08'
+- type: stable-until
+  at: '2025-12-22'
+- type: obsoleted
+  at: '2025-12-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-3:2020 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\nIEC 62541-3:2020 defines
+    the OPC Unified Architecture (OPC UA) AddressSpace and its Objects. This document
+    is the OPC UA meta model on which OPC UA information models are based. This third
+    edition cancels and replaces the second edition published in 2015. This edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\na) Added new improved approach for exposing structure definitions.
+    An Attribute on the DataType Node now simply contains a binary description.<br
+    />\r\nb) Added new flags for Variables to indicate atomicity when reading or writing.<br
+    />\r\nc) Added Roles and Permissions to allow configuration of a role-based authorization.<br
+    />\r\nd) Added new data types: “Union”, “Decimal”, “OptionSet”, “DateString”,
+    “TimeString”, “DurationString”, NormalizedString”, “DecimalString”, and “AudioDataType”.<br
+    />\r\ne) Added definition on how to use the ModellingRules OptionalPlaceHolder
+    and MandatoryPlaceHolder for Methods.<br />\r\nf) Added optional Properties “MaxCharacters”
+    and “MaxByteStringLength” to Variable Nodes."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '101124'
+  price_code: iec:RG

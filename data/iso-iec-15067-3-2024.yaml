@@ -1,0 +1,154 @@
+---
+id: ISOIEC1506732024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Home Electronic System (HES) application model
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Model of an energy management system for HES'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Home Electronic System (HES) application model
+    - Part 3: Model of an energy management system for HES'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/86714
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15067-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15067-3:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15067-3:2024-09:::'
+  type: URN
+date:
+- type: published
+  at: '2024-09-12'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "ISO/IEC 15067-3:2024 focuses on a model of a system in homes and buildings
+    that can manage energy consumption and generation of electricity by devices on
+    premises dynamically in response to electricity availability from:<br />\r\n–
+    sources within the home or building such as solar panels, wind turbines, or storage
+    (stationary or mobile),<br />\r\n– neighbourhood microgrids,<br />\r\n– transactive
+    energy,<br />\r\n– energy aggregators, and<br />\r\n– public utilities.<br />\r\nThis
+    document specifies a model including a framework and methods for energy management
+    consisting of interconnected elements that can be configured to support various
+    methods for a Home Electronic System (HES) energy management system. The methods
+    specified are intended to be generic and representative of a wide range of situations.
+    This document applies to the customer grid-edge portion of the electricity grid
+    (within a home or building) and applies even if the consumer has sufficient local
+    power generation to operate without connecting to a public utility.<br />\r\nThis
+    document includes an energy management model that balances power supplied from
+    internal and external sources with demand from appliances and electric vehicle
+    chargers. The model offers flexibility for locating the energy management equipment
+    in a stand-alone product, embedded in consumer electronics, or hosted in a gateway.
+    This gateway can be a generic communications interface between a home network
+    and an external network, an energy management gateway designed for handling energy-related
+    data, or the HES gateway specified in the ISO/IEC 15045 series.<br />\r\nThis
+    model specifies a local controller that achieves the allocation of power in accordance
+    with available supplies, consumer preferences for appliance operation, and power
+    requirements of these appliances within constraints set by the consumer. Such
+    constraints are typically financial (a budget for electricity) but can also include
+    goals such as using green sources and minimizing their impact on climate change.
+    This controller is called the energy management agent (EMA) since it acts as an
+    agent for the consumer. This model accommodates an EMA with technology of artificial
+    intelligence to facilitate energy management.<br />\r\nThis second edition cancels
+    and replaces the first edition published in 2012. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) This edition revises ISO/IEC
+    15067-3:2012 by expanding beyond demand response to include a balance between
+    multiple sources of power and appliance demands for this power.<br />\r\nb) This
+    edition specifies a system framework that addresses the need for user-centric
+    energy management by providing control options for consumers."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '118773'
+  price_code: iso:F

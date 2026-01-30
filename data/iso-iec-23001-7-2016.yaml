@@ -1,0 +1,122 @@
+---
+id: ISOIEC2300172016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Common encryption in ISO base media file format files'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 7: Common encryption
+    in ISO base media file format files'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/24226
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23001-7{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23001-7:2016
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23001-7:2016-02:::'
+  type: URN
+date:
+- type: published
+  at: '2016-02-15'
+- type: stable-until
+  at: '2023-08-08'
+- type: obsoleted
+  at: '2023-08-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23001-7:2016 specifies common encryption formats for use in any file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This part of ISO/IEC 23001 does not define a DRM system.</p>
+    <p>The AES-128 symmetric block cipher is incorporated by reference to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, Initialization Vector storage and processing is specified for each scheme.</p>
+    <p>Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption.</p>
+    <p>An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

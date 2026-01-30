@@ -1,0 +1,117 @@
+---
+id: ISOIEC247612019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: Authentication context for biometrics
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Security techniques - Authentication context for
+    biometrics
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/65968
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24761{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 24761:2019
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24761:2019-10:::'
+  type: URN
+date:
+- type: published
+  at: '2019-10-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines the structure and the data elements of Authentication Context for Biometrics (ACBio), which is used for checking the validity of the result of a biometric enrolment and verification process executed at a remote site. This document allows any ACBio instance to accompany any biometric processes related to enrolment and verification. The specification of ACBio is applicable not only to single modal biometric enrolment and verification but also to multimodal fusion. The real-time information of presentation attack detection is not provided in this document. Only the assurance information of presentation attack detection (PAD) mechanism can be contained in the BPU report.</p>
+    <p>Biometric identification is out of the scope of this document.</p>
+    <p>This document specifies the cryptographic syntax of an ACBio instance. The cryptographic syntax of an ACBio instance is defined in this document applying a data structure specified in Cryptographic Message Syntax (CMS) schema whose concrete values can be represented using a compact binary encoding. This document does not define protocols to be used between entities such as BPUs, claimant, and validator. Its concern is entirely with the content and encoding of the ACBio instances for the various processing activities.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:G

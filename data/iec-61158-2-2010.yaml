@@ -1,0 +1,153 @@
+---
+id: IEC6115822010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Physical layer specification and service definition'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 2:
+    Physical layer specification and service definition'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Spécification de couche physique et définition des services'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 2: Spécification de couche physique et définition des services'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19163
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-2{ed5.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-2{ed5.0}en.pdf
+docidentifier:
+- content: IEC 61158-2:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-2:2010-07:::'
+  type: URN
+date:
+- type: published
+  at: '2010-07-22'
+- type: stable-until
+  at: '2014-07-17'
+- type: obsoleted
+  at: '2014-07-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '5'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-2:2010 specifies the requirements for fieldbus component parts.
+    It also specifies the media and network configuration requirements necessary to
+    ensure agreed levels of:<br />\r\na) data integrity before data-link layer error
+    checking;<br />\r\nb) interoperability between devices at the physical layer.
+    The fieldbus physical layer conforms to layer 1 of the OSI 7-layer model as defined
+    by ISO 7498 with the exception that, for some types, frame delimiters are in the
+    physical layer while for other types they are in the data-link layer. This fifth
+    edition cancels and replaces the fourth edition published in 2007 and constitutes
+    a technical revision. This edition includes the following significant technical
+    changes with respect to the previous edition:<br />\r\n- for Type 18, Table 157
+    reduced tolerance to 5 %;<br />\r\n- for Type 18, in 32.5.3.1 removed minimum
+    cable length;<br />\r\n- for Type 18, in 32.5.4. and R.2.2 cable reference removed;<br
+    />\r\n- for Type 18, Table 160 and 161 terminating resistor value changed to 680
+    Ω. This bilingual version published in 2011-12, corresponds to the English version
+    published in 2010-07."
+- language: fr
+  script: Latn
+  content: "La CEI 61158-2:2010 spécifie les exigences applicables aux composants
+    de bus de terrain. Elle spécifie également les exigences de configuration des
+    supports et des réseaux requises pour garantir un niveau d'intégrité des données:<br
+    />\r\na) avant vérification d'erreur de la couche liaison de données;<br />\r\nb)
+    interopérabilité entre dispositifs au niveau de la couche physique. La couche
+    physique des bus de terrain est conforme à la couche 1 du modèle OSI à 7 couches,
+    telle que définie dans l'ISO 7498, à l'exception du fait que, pour certains types,
+    les délimiteurs de trame se trouvent dans la couche physique tandis que pour d'autres
+    types, ils se trouvent dans la couche liaison de données. Cette cinquième édition
+    annule et remplace la quatrième édition parue en 2007 et constitue une révision
+    technique. Cette édition inclut les modifications techniques majeures suivantes:<br
+    />\r\n- Pour le Type 18, Tableau 157, tolérance réduite à 5 %;<br />\r\n- Pour
+    le Type 18, en 32.5.3.1, la longueur minimale du câble a été retirée;<br />\r\n-
+    Pour le Type 18, en 32.5.4 et R.2.2, la référence du câble a été retirée;<br />\r\n-
+    Pour le Type 18, Tableaux 160 et 161, la valeur de la résistance de terminaison
+    a été modifiée à 680 Ω. La présente version bilingue, correspond à la version
+    anglaise monolingue publiée en 2010-07."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.240.50
+    text: IT applications in industry
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '17797'
+  price_code: iec:P

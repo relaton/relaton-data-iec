@@ -1,0 +1,121 @@
+---
+id: ISOIEC979632006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Digital signature schemes giving message recovery -- Part 3: Discrete
+    logarithm based mechanisms'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Digital signature schemes
+    giving message recovery -- Part 3: Discrete logarithm based mechanisms'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11885
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9796-3{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 9796-3:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9796-3:2006-09:::'
+  type: URN
+date:
+- type: published
+  at: '2006-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>A digital signature in electronic exchange of information provides the same kind of facilities that are expected from a handwritten signature in paper-based mail. Hence it is applicable to providing entity authentication, data origin authentication, non-repudiation, and integrity of data. </p>
+    <p>ISO/IEC 9796-3:2006 specifies digital signature mechanisms giving partial or total message recovery aiming at reducing storage and transmission overhead. </p>
+    <p>ISO/IEC 9796-3:2006 specifies mechanisms based on the discrete logarithm problem of a finite field or an elliptic curve over a finite field. </p>
+    <p>ISO/IEC 9796-3:2006 defines types of redundancy: natural redundancy, added redundancy, or both.</p>
+    <p>ISO/IEC 9796-3:2006 gives the general model for digital signatures giving partial or total message recovery aiming at reducing storage and transmission overhead.</p>
+    <p>ISO/IEC 9796-3:2006 specifies six digital signature schemes giving data recovery: NR, ECNR, ECMR, ECAO, ECPV, and ECKNR. NR is defined on a prime field; ECNR, ECMR, ECAO, ECPV, and ECKNR are defined on an elliptic curve over a finite field.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:G

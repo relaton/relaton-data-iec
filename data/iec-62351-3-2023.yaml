@@ -1,0 +1,206 @@
+---
+id: IEC6235132023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Communication network and system security -- Profiles including
+    TCP/IP'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and
+    communications security - Part 3: Communication network and system security --
+    Profiles including TCP/IP'
+  type: main
+- language: fr
+  script: Latn
+  content: Gestion des systèmes de puissance et échanges d'informations associés
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité des communications et des données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Sécurité des réseaux et des systèmes de communication -- Profils
+    comprenant TCP/IP'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d''informations associés
+    - Sécurité des communications et des données - Partie 3: Sécurité des réseaux
+    et des systèmes de communication -- Profils comprenant TCP/IP'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68410
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62351-3{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62351-3:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62351-3:2023-06:::'
+  type: URN
+date:
+- type: published
+  at: '2023-06-06'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62351-3:2023 specifies how to provide confidentiality, integrity protection,
+    and message level authentication for protocols that make use of TCP/IP as a message
+    transport layer and utilize Transport Layer Security when cyber-security is required.
+    This may relate to SCADA and telecontrol protocols, but also to additional protocols
+    if they meet the requirements in this document.<br />\r\nIEC 62351-3 specifies
+    how to secure TCP/IP-based protocols through constraints on the specification
+    of the messages, procedures, and algorithms of Transport Layer Security (TLS)
+    (TLSv1.2 defined in RFC 5246, TLSv1.3 defined in RFC 8446). In the specific clauses,
+    there will be subclauses to note the differences and commonalities in the application
+    depending on the target TLS version. The use and specification of intervening
+    external security devices (e.g., \"bump-in-the-wire\") are considered out-of-scope.<br
+    />\r\nIn contrast to previous editions of this document, this edition is self-contained
+    in terms of completely defining a profile of TLS. Hence, it can be applied directly,
+    without the need to specify further TLS parameters, except the port number, over
+    which the communication will be performed. Therefore, this part can be directly
+    utilized from a referencing standard and can be combined with further security
+    measures on other layers. Providing the profiling of TLS without the need for
+    further specifying TLS parameters allows declaring conformity to the described
+    functionality without the need to involve further IEC 62351 documents.<br />\r\nThis
+    document is intended to be referenced as a normative part of other IEC standards
+    that have the need for providing security for their TCP/IP-based protocol exchanges
+    under similar boundary conditions. However, it is up to the individual protocol
+    security initiatives to decide if this document is to be referenced.<br />\r\nThe
+    document also defines security events for specific conditions, which support error
+    handling, security audit trails, intrusion detection, and conformance testing.
+    Any action of an organization in response to events to an error condition described
+    in this document are beyond the scope of this document and are expected to be
+    defined by the organization’s security policy.<br />\r\nThis document reflects
+    the security requirements of the IEC power systems management protocols. Should
+    other standards bring forward new requirements, this document may need to be revised.<br
+    />\r\nThis second edition cancels and replaces the first edition published in
+    2014, Amendment 1:2018 and Amendment 2:2020. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) Inclusion of the TLSv1.2 related
+    parameter required in IEC 62351-3 Ed.1.2 to be specified by the referencing standard.
+    This comprises the following parameter:<br />\r\n• Mandatory TLSv1.2 cipher suites
+    to be supported.<br />\r\n• Specification of session resumption parameters.<br
+    />\r\n• Specification of session renegotiation parameters.<br />\r\n• Revocation
+    handling using CRL and OCSP.<br />\r\n• Handling of security events.<br />\r\nb)
+    Inclusion of a TLSv1.3 profile to be applicable for the power system domain in
+    a similar way as for TLSv1.2 session."
+- language: fr
+  script: Latn
+  content: "IEC 62351-3:2023 spécifie comment assurer la confidentialité, la protection
+    de l’intégrité et l’authentification des niveaux des messages pour les protocoles
+    qui utilisent les protocoles TCP/IP comme couche transport des messages et utilisent
+    la sécurité de la couche transport lorsque la cybersécurité est exigée. Ceci peut
+    concerner les protocoles SCADA/téléconduite, protection, automation et contrôles.<br
+    />\r\nL’IEC 62351-3 spécifie une méthode permettant de sécuriser les protocoles
+    TCP/IP par l’intermédiaire de contraintes sur la spécification des messages, procédures
+    et algorithmes de sécurité de la couche transport (TLS) (version 1.2 de TLS définie
+    dans la RFC 5246 et version 1.3 définie dans la RFC 8446). Des articles spécifiques
+    contiennent des paragraphes indiquant les différences et les points communs d’application
+    en fonction de la version TLS cible. L’utilisation et la spécification des dispositifs
+    de sécurité externe concernés (par exemple \"bump-in-the-wire\") sont considérées
+    comme ne relevant pas du domaine d’application du présent document.<br />\r\nContrairement
+    aux précédentes éditions du présent document, la présente édition est autosuffisante,
+    car elle définit entièrement un profil de TLS. De ce fait, elle peut être appliquée
+    directement, sans nécessiter de spécifier de paramètres TLS supplémentaires, à
+    l’exception du numéro du port par lequel la communication est effectuée. Par conséquent,
+    la présente partie peut être directement utilisée à partir d’une norme de référence
+    et peut être combinée avec des mesures de sécurité supplémentaires sur d’autres
+    couches. La définition du profil de TLS sans nécessiter de spécifier de paramètres
+    TLS supplémentaires permet de déclarer la conformité à la fonctionnalité décrite
+    sans nécessiter de recourir à d’autres documents IEC 62351.<br />\r\nLe présent
+    document est destiné à être référencé comme partie normative des autres normes
+    IEC qui traitent de la nécessité d’assurer la sécurité de leurs échanges protocolaires
+    basés sur TCP/IP dans des conditions limites similaires. Cependant, il revient
+    aux initiatives individuelles en matière de sécurité des protocoles de décider
+    si le présent document est à référencer.<br />\r\nLe présent document définit
+    également des événements de sécurité pour des conditions spécifiques, qui prennent
+    en charge la gestion des erreurs, les pistes d’audit de sécurité, la détection
+    d’intrusion et les essais de conformité. Toute action d’un organisme en réponse
+    à des événements dus à une condition d’erreur décrite dans le présent document
+    ne relève pas du domaine d’application du présent document et est susceptible
+    d’être définie par la politique de sécurité de l’organisme.<br />\r\nLe présent
+    document présente les exigences de sécurité des protocoles de gestion des systèmes
+    de puissance de l’IEC. Une révision du présent document pourrait s’avérer nécessaire
+    en cas d’ajout de nouvelles exigences dans d’autres normes.<br />\r\nCette seconde
+    édition annule et remplace la première édition parue en 2014, l’Amendement 1:2018
+    et l’Amendement 2:2020. Cette édition constitue une révision technique.<br />\r\nCette
+    édition inclut les modifications techniques majeures suivantes par rapport à l’édition
+    précédente:<br />\r\na) inclusion du paramètre lié à la TLSv1.2 exigé dans l’IEC
+    62351-3 Éd.1.2 à spécifier par la norme de référence. Ce paramètre comprend les
+    éléments suivants:<br />\r\n• les suites chiffrées TLSv1.2 obligatoires à prendre
+    en charge;<br />\r\n• la spécification des paramètres de reprise de session;<br
+    />\r\n• la spécification des paramètres de renégociation de session;<br />\r\n•
+    la gestion des révocations à l’aide de la CRL et du protocole OCSP;<br />\r\n•
+    la gestion des événements de sécurité;<br />\r\nb) inclusion d’un profil TLSv1.3
+    applicable au domaine des systèmes de puissance d’une manière similaire à celle
+    de la session TLSv1.2"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '105100'
+  price_code: iec:K

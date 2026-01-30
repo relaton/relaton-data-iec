@@ -1,0 +1,149 @@
+---
+id: ISOIEC214112001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Corporate telecommunication networks -- Signalling interworking between
+    QSIG and H.323 -- Call diversion supplementary services
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Corporate telecommunication networks -- Signalling interworking between
+    QSIG and H.323 -- Call diversion supplementary services
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10925
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec21411{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 21411:2001
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21411:2001-08:::'
+  type: URN
+date:
+- type: published
+  at: '2001-08-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This International Standard specifies signalling interworking between "QSIG" and "H.323" in support of call diversion</p>
+    <p>supplementary services within a Corporate telecommunication Network (CN).</p>
+    <p>"QSIG" is a signalling protocol that operates at the Q reference point between Private Integrated Services eXchanges (PINX)</p>
+    <p>within a Private Integrated Services Network (PISN). The Q reference point is defined in ISO/IEC 11579-1. A PISN provides</p>
+    <p>circuit-switched basic services and supplementary services to its users. QSIG is specified in other Standards, in particular</p>
+    <p>ISO/IEC 11572 (call control in support of basic services), ISO/IEC 11582 (generic functional protocol for the support of</p>
+    <p>supplementary services) and a number of standards specifying individual supplementary services. ISO/IEC 13873 specifies the</p>
+    <p>QSIG protocol in support of call diversion services.</p>
+    <p>"H.323" is a set of signalling protocols for the support of voice or multimedia communication within a packet network, in</p>
+    <p>particular a packet network that uses the Internet Protocol (IP) as its network layer protocol (IP network). H.323 signalling</p>
+    <p>protocols operate between endpoints in an IP network, either indirectly via one or more gatekeepers, or directly. An endpoint</p>
+    <p>can be a terminal or a gateway to another network. H.323 is an "umbrella" recommendation referring to various ITU-T</p>
+    <p>recommendations, in particular Recommendations H.225.0 and H.245 (basic communication capabilities) and</p>
+    <p>Recommendation H.450.1 (generic functional protocol for the support of supplementary services). Recommendation H.450.3</p>
+    <p>specifies the H.323 protocol in support of call diversion services.</p>
+    <p>NOTE - H.450.3 applies only to the 1998 version of H.323 (also known as H.323 version 2) and to later versions.</p>
+    <p>In both ISO/IEC 13873 (QSIG) and ITU-Recommendation H.450.3 (H.323), the call diversion supplementary services are Call</p>
+    <p>Forwarding Unconditional (SS-CFU), Call Forwarding Busy (SS-CFB), Call Forwarding No Reply (SS-CFNR) and Call</p>
+    <p>Deflection (SS-CD). These supplementary services apply during call establishment and provide diversion of an incoming call to</p>
+    <p>another destination.</p>
+    <p>Interworking between QSIG and H.323 permits a call originating at a user of a PISN to terminate at a user of an IP network, or</p>
+    <p>a call originating at a user of an IP network to terminate at a user of a PISN. This International Standard provides the following</p>
+    <p>additional capabilities:</p>
+    <p>_ a call originating from a PISN and destined for a user of an H.323 network to be diverted by the H.323 network to an</p>
+    <p>alternative destination;</p>
+    <p>_ a call originating from an H.323 network and destined for a user of a PISN to be diverted by the PISN to an alternative</p>
+    <p>destination;</p>
+    <p>_ a call destined for a user of a PISN to be diverted to an alternative destination where that alternative destination is in an</p>
+    <p>H.323 network;</p>
+    <p>_ a call destined for a user of an H.323 network to be diverted to an alternative destination where that alternative destination</p>
+    <p>is in a PISN.</p>
+    <p>This International Standard is applicable to any interworking unit that can act as a gateway between a PISN employing QSIG</p>
+    <p>and an IP network employing H.323.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 33.040.35
+    text: Telephone networks
+  price_code: iso:ZZ

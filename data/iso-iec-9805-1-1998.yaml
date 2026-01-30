@@ -1,0 +1,152 @@
+---
+id: ISOIEC980511998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Protocol for the Commitment, Concurrency and Recovery service element:
+    Protocol specification -- Part 1:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Systems Interconnection - Protocol for the
+    Commitment, Concurrency and Recovery service element: Protocol specification --
+    Part 1:'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Interconnexion de systèmes ouverts (OSI)
+    -- Protocole pour l''élément de service d''engagement, de concomitance et de rétablissement:
+    Spécification du protocole'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Interconnexion de systèmes ouverts (OSI)
+    -- Protocole pour l''élément de service d''engagement, de concomitance et de rétablissement:
+    Spécification du protocole'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11905
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9805-1{ed3.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec9805-1{ed3.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 9805-1:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:9805-1:1998-12:::'
+  type: URN
+date:
+- type: published
+  at: '1998-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This Recommendation | International Standard is to be applied by reference from other specifications. This is done</p>
+    <p>within such specifications by reference to the CCR services defined in ITU-T Rec. X.851 | ISO/IEC 9804. A reference to</p>
+    <p>a CCR service invokes the procedures of this Recommendation | International Standard to cause external effects.</p>
+    <p>This Recommendation | International Standard specifies, in clause 9, a use of the ACSE, Presentation and Session</p>
+    <p>services to carry the CCR semantics. This "reference" mapping can be used whenever the use of these services does not</p>
+    <p>conflict with the user made by other ASEs or ASOs that are using the same association. Annex B defines how a different</p>
+    <p>use of supporting services may be specified, for use where the reference mapping is inappropriate.</p>
+    <p>This Recommendation | International Standard specifies the static and dynamic conformance requirements for systems</p>
+    <p>implementing these procedures. It does not contain tests which can be used to demonstrate conformance.</p>
+    <p>This edition of this Recommendation | International Standard specifies CCR protocol Version 2, which makes use of the</p>
+    <p>Session Data Separation functional unit to protect data not belonging to the CCR atomic action. The 1990 edition of</p>
+    <p>ISO/IEC 9805 specified CCR protocol Version 1. The 1993/1994 edition of this Recommendation | International</p>
+    <p>Standard specified both CCR protocol Version 1 and CCR protocol Version 2, for the static commitment functional unit</p>
+    <p>only.</p>
+    <p>This International Standard specifies the protocol elements that support the following functional units:</p>
+    <p>a) static commitment;</p>
+    <p>b) dynamic commitment;</p>
+    <p>c) read only;</p>
+    <p>d) one-phase commitment;</p>
+    <p>e) cancel; and</p>
+    <p>f) overlapped recovery.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  price_code: iso:G

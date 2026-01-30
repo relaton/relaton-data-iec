@@ -1,0 +1,117 @@
+---
+id: ISOIEC250452010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systems and software engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Systems and software Quality Requirements and Evaluation (SQuaRE)
+  type: title-main
+- language: en
+  script: Latn
+  content: Evaluation module for recoverability
+  type: title-part
+- language: en
+  script: Latn
+  content: Systems and software engineering - Systems and software Quality Requirements
+    and Evaluation (SQuaRE) - Evaluation module for recoverability
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11252
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec25045{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 25045:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:25045:2010-08:::'
+  type: URN
+date:
+- type: published
+  at: '2010-08-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 25045:2010 is one of the SQuaRE series of International Standards, which provides a framework for software products quality requirements and evaluation including the requirements for methods of software product measurement and evaluation. </p>
+    <p>ISO/IEC 25045:2010 uses a methodology involving two types of evaluation for recoverability. One part of the method makes use of the disturbance injection methodology and a list of disturbances based on common categories of operational faults and events to evaluate the quality measure of resiliency. The second quality measure is based on a set of questions that is defined for each disturbance to evaluate the quality measure of autonomic recovery index by assessing how well the system detects, analyses, and resolves the disturbance without human intervention. </p>
+    <p>ISO/IEC 25045:2010 is applicable to information systems executing transactions in a system supporting single or multiple concurrent users, where speedy recovery and ease of managing recovery is important to the acquirer, owner/operator, and the developer.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:F

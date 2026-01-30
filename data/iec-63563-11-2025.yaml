@@ -1,0 +1,139 @@
+---
+id: IEC63563112025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Qi Specification version 2.0
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 11: MPP Communications Protocol'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Qi Specification version 2.0 - Part 11: MPP Communications Protocol'
+  type: main
+- language: fr
+  script: Latn
+  content: Spécification Qi version 2.0
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 11 : Spécification du système MPP'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Spécification Qi version 2.0 - Partie 11 : Spécification du système MPP'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/92904
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec63563-11{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec63563-11{ed1.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec63563-11{ed1.0}fr.pdf
+docidentifier:
+- content: IEC 63563-11:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63563-11:2025-02:::'
+  type: URN
+date:
+- type: published
+  at: '2025-02-10'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 63563-11:2025 describes Magnetic power profile (MPP) which is a protocol
+    extension that provides additional messages, new power states/modes, new power
+    transfer contract elements, and aims to provide the following functionalities:<br
+    />\r\n• Operating Frequency Negotiation<br />\r\n• Cloaking (Power Pause)<br />\r\n•
+    Generic Information Exchange<br />\r\n• Simultaneous Data Stream Transactions<br
+    />\r\n• Fast PTx to PRx communication<br />\r\n• Maximum Power and Power Control
+    Profiles Determination<br />\r\n• Extended Power Negotiation<br />\r\n• Extended
+    PTx/PRx Identification and Capabilities<br />\r\n• Extended Control Error Packets
+    and Received Power Packets<br />\r\n• Power Transmitter Battery Level Reporting<br
+    />\r\n• Ecosystem Scalability<br />\r\nMPP extension allows devices to operate
+    under Restricted mode (no PTx communication) at 360kHz without performing any
+    explicit negotiation with the Power Transmitter. This flexibility enables devices
+    with limited resources (e.g., devices with no FSK support) to take advantage of
+    the frequency change feature."
+- language: fr
+  script: Latn
+  content: "IEC 63563-11:2025 fournit une extension de protocole qui fournit des messages
+    supplémentaires, de nouveaux états/modes de puissance, de nouveaux éléments de
+    contrat de transfert de puissance, et vise à fournir les fonctionnalités suivantes:<br
+    />\r\n• Négociation de la fréquence de fonctionnement<br />\r\n• Occultation (pause
+    de puissance)<br />\r\n• Échange d'informations génériques<br />\r\n• Transactions
+    simultanées de flux de données<br />\r\n• Communication rapide de PTx à PRx<br
+    />\r\n• Détermination de la puissance maximale et des profils de contrôle de la
+    puissance<br />\r\n• Négociation de pouvoir élargie<br />\r\n• Identification
+    et capacités PTx/PRx étendues<br />\r\n• Paquets d'erreurs de contrôle étendus
+    et paquets de puissance reçus<br />\r\n• Rapport sur le niveau de la batterie
+    de l'émetteur de puissance<br />\r\n• Évolutivité de l'écosystème<br />\r\nL'extension
+    MPP permet aux appareils de fonctionner en mode restreint (pas de communication
+    PTx) à 360 kHz sans effectuer de négociation explicite avec l'émetteur de puissance.
+    Cette flexibilité permet aux appareils disposant de ressources limitées (par exemple,
+    les appareils ne prenant pas en charge la MDF) de tirer parti du phénomène de
+    changement de fréquence."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  - code: 35.240.99
+    text: IT applications in other fields
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '124162'
+  price_code: iec:M

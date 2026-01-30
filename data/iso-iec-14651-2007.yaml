@@ -1,0 +1,184 @@
+---
+id: ISOIEC146512007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: International string ordering and comparison
+  type: title-main
+- language: en
+  script: Latn
+  content: Method for comparing character strings and description of the common template
+    tailorable ordering
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - International string ordering and comparison -
+    Method for comparing character strings and description of the common template
+    tailorable ordering
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Classement international et comparaison
+    de chaînes de caractères -- Méthode de comparaison de chaînes de caractères et
+    description du modèle commun et adaptable d'ordre de classement
+  type: title-main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Classement international et comparaison
+    de chaînes de caractères -- Méthode de comparaison de chaînes de caractères et
+    description du modèle commun et adaptable d'ordre de classement
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21229
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14651{ed2.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec14651{ed2.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 14651:2007
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:14651:2007-11:::'
+  type: URN
+date:
+- type: published
+  at: '2007-11-26'
+- type: stable-until
+  at: '2011-08-10'
+- type: obsoleted
+  at: '2011-08-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 14651:2007 defines the following. </p>
+    <ul>
+    <li>A reference comparison method. This method is applicable to two character strings to determine their collating order in a sorted list. The method can be applied to strings containing characters from the full repertoire of ISO/IEC 10646. This method is also applicable to subsets of that repertoire, such as those of the different ISO/IEC 8-bit standard character sets, or any other character set, standardised or not, to produce ordering results valid (after tailoring) for a given set of languages for each script. This method uses collation tables derived either from the Common Template Table defined in ISO/IEC 14651 or from one of its tailorings. This method provides a reference format. The format is described using the Backus-Naur Form (BNF). This format is used to describe the Common Template Table. The format is used normatively within ISO/IEC 14651:2007. </li>
+    <li>A Common Template Table. A given tailoring of the Common Template Table is used by the reference comparison method. The Common Template Table describes an order for all characters encoded in ISO/IEC 10646:2003 up to Amendment 2, plus characters DEVANAGARI LETTER GGA, DEVANAGARI LETTER JJA, DEVANAGARI LETTER DDDA and DEVANAGARI LETTER BBA (characters U097B, U097C, U097E and U097F, respectively). It allows for a specification of a fully deterministic ordering. This table enables the specification of a string ordering adapted to local ordering rules, without requiring an implementer to have knowledge of all the different scripts already encoded in the UCS.</li>
+    </ul>
+    <p>NOTE 1       This Common Template Table is to be modified to suit the needs of a local environment. The main worldwide benefit is that, for other scripts, often no modification is required and the order will remain as consistent as possible and predictable from an international point of view.</p>
+    <p>NOTE 2       The character repertoire used in ISO/IEC 14651:2007 is equivalent to that of the Unicode Standard version 5.0.</p>
+    <ul>
+    <li>A reference name. The reference name refers to this particular version of the Common Template Table, for use as a reference when tailoring. In particular, this name implies that the table is linked to a particular stage of development of the ISO/IEC 10646 Universal multiple-octet coded character set.</li>
+    <li>Requirements for a declaration of the differences (delta) between the collation table and the Common Template Table.</li>
+    </ul>
+    <p>ISO/IEC 14651:2007 does not mandate the following. </p>
+    <ul>
+    <li>A specific comparison method; any equivalent method giving the same results is acceptable.</li>
+    <li>A specific format for describing or tailoring tables in a given implementation.</li>
+    <li>Specific symbols to be used by implementations, except for the name of the Common Template Table.</li>
+    <li>Any specific user interface for choosing options.</li>
+    <li>Any specific internal format for intermediate keys used when comparing, nor for the table used. The use of numeric keys is not mandated either.</li>
+    <li>A context-dependent ordering.</li>
+    <li>Any particular preparation of character strings prior to comparison.</li>
+    </ul>
+    <p>NOTE 1       It is normally necessary to do preparation of character strings prior to comparison even if it is not prescribed by ISO/IEC 14651:2007 (see informative Annex C).</p>
+    <p>NOTE 2       Although no user interface is required to choose options or to specify tailoring of the Common Template Table, conformance requires always declaring the applicable delta, a declaration of differences with this table. It is recommended that processes present available tailoring options to users.</p>
+- language: fr
+  script: Latn
+  content: |-
+    <p>L'ISO/CEI 14651:2007 définit ce qui suit.</p>
+    <ul>
+    <li>une méthode de référence pour la comparaison de deux chaînes de caractères ayant pour but de déterminer leur ordre de classement dans une liste triée. La méthode s'applique à des chaînes utilisant le répertoire complet de l'ISO/CEI 10646, des sous-répertoires tels que ceux des divers jeux normalisés ISO/CEI à 8 bits ou tout autre jeu de caractères, et permet de produire des résultats de tri valables (après adaptation) pour un ensemble de langues de chaque système d'écriture. Cette méthode de référence utilise des tables de tri dérivées soit de la table-modèle commune de classement définie dans l'ISO/CEI 14651, soit d'une de ses adaptations. La méthode procure un format de référence de la table-modèle commune. Ce format est décrit en notation BNF (forme de Backus-Naur). Son emploi est normatif dans l'ISO/CEI 14651:2007.</li>
+    <li>une table-modèle commune de classement utilisée par la méthode de référence. Cette table décrit un ordre de base pour tous les caractères de l'ISO/CEI 10646:2003 jusqu'à son Amendement 2, plus les caractères LETTRE DÉVANÂGARÎ GGA, LETTRE DÉVANÂGARÎ DJDJA, LETTRE DÉVANÂGARÎ DDDA et LETTRE DÉVANÂGARÎ BBA (les caractères U097B, U097C, U097E et U097F, respectivement). Tout cela permet de spécifier un ordre complètement déterministe. Cette table constitue le point de départ permettant de préciser un ordre de classement adapté aux règles de classement locales, sans qu'il soit nécessaire de connaître tous les systèmes d'écriture repris dans le JUC.</li>
+    </ul>
+    <p>         NOTE 1    Cette table-modèle commune de classement est destinée à être modifiée pour satisfaire les besoins d'environnements locaux.  L'avantage principal de cette pratique, sur le plan mondial, réside dans le fait que pour d'autres systèmes d'écriture que celui de l'utilisateur, aucune modification n'est nécessaire et que cet ordre demeurera aussi cohérent que possible et prévisible dans un contexte international.</p>
+    <p>         NOTE 2    Le répertoire de caractères utilisé dans l'ISO/CEI 14651:2007 est équivalent à celui du standard Unicode, version 5.0.</p>
+    <ul>
+    <li>un nom de référence représentant cette version particulière de la table-modèle commune, à utiliser comme point de départ à toute adaptation. Ce nom implique notamment que la table est liée à un stade de développement particulier du jeu universel de caractères codés sur plusieurs octets (ISO/CEI 10646).</li>
+    <li>des exigences pour la déclaration de différences (delta) entre une table de tri et la table-modèle commune.</li>
+    </ul>
+    <p>L'ISO/CEI 14651:2007 <i>ne</i> prescrit <i>pas</i> ce qui suit.</p>
+    <ul>
+    <li>de méthode particulière de comparaison; toute méthode équivalente conduisant aux mêmes résultats est acceptable;</li>
+    <li>de format précis pour décrire ou pour adapter les tables dans une mise en oeuvre donnée;</li>
+    <li>de symboles précis à utiliser par les mise en oeuvre, sauf pour ce qui est du nom de la table-modèle commune de classement;</li>
+    <li>d'interface utilisateur particulière destinée à choisir les options;</li>
+    <li>de format interne particulier pour les clés intermédiaires utilisées dans les comparaisons ou pour la table de tri. L'utilisation de clés numériques n'est pas prescrite non plus;</li>
+    <li>d'ordre dépendant du contexte;</li>
+    <li>de prétraitement particulier des chaînes de caractères avant comparaison.</li>
+    </ul>
+    <p>NOTE 1       Bien que ceci ne soit pas prescrit par l'ISO/CEI 14651:2007, il s'avère souvent nécessaire de préparer les chaînes de caractères avant leur comparaison (cf. l'Annexe C).</p>
+    <p>NOTE 2       Bien que l'on ne prescrive aucune interface utilisateur destinée à choisir les options ou à adapter la table-modèle commune, la clause de conformité exige de toujours déclarer un delta, c'est-à-dire l'ensemble des différences par rapport à cette table. Il est fortement recommandé que l'application présente à l'utilisateur les options et adaptations disponibles.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.10
+    text: Coding of character sets
+  price_code: iso:B

@@ -1,0 +1,149 @@
+---
+id: IEC6243952016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: High availability automation networks
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Beacon Redundancy Protocol (BRP)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - High availability automation networks
+    - Part 5: Beacon Redundancy Protocol (BRP)'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseaux d'automatisme à haute disponibilité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Protocole de redondance à balise (BRP)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Réseaux d''automatisme à haute
+    disponibilité - Partie 5: Protocole de redondance à balise (BRP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/24435
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62439-5{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62439-5:2016
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62439-5:2016-03:::'
+  type: URN
+date:
+- type: published
+  at: '2016-03-30'
+- type: stable-until
+  at: '2019-11-29'
+- type: obsoleted
+  at: '2019-11-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62439-5:2016 is applicable to high-availability automation networks
+    based on the ISO/IEC/IEEE 8802-3 (IEEE 802.3) Ethernet technology. This part of
+    the IEC 62439 series specifies a redundancy protocol that is based on the duplication
+    of the network, the redundancy protocol being executed within the end nodes, as
+    opposed to a redundancy protocol built in the switches. Fast error detection is
+    provided by two beacon nodes, the switchover decision is taken in every node individually.
+    The cross-network connection capability enables singly attached end nodes to be
+    connected on either of the two networks. This second edition cancels and replaces
+    the first edition published in 2010. This edition constitutes a technical revision.
+    This edition includes the following significant technical changes with respect
+    to the previous edition:<br />\r\n- The protocol is now independent of application
+    (Path_Check_Request is sent periodically);<br />\r\n- Failure_Notify message has
+    been removed;<br />\r\n- Frame format had been changed;<br />\r\n- New MAC address
+    had been added.<br />\r\n<br />\r\nThis publication is to be read in conjunction
+    with <a href=\"https://webstore.iec.ch/publication/24248\">IEC 62439-1:2010</a>."
+- language: fr
+  script: Latn
+  content: "IEC 62439-5:2016 concerne les réseaux de haute disponibilité pour l'automation
+    qui reposent sur la technologie Ethernet ISO/IEC/IEEE 8802-3 (IEEE 802.3). La
+    présente partie de la série IEC 62439 porte sur un protocole de redondance qui
+    repose sur la duplication du réseau; ce protocole est exécuté dans les noeuds
+    d'extrémité, par opposition à un protocole de redondance intégré aux commutateurs.
+    La détection rapide des erreurs est assurée par deux noeuds Beacon; la décision
+    de basculement est prise dans chaque noeud individuellement. La capacité de connexion
+    interréseau permet à des noeuds d'extrémité à une seule association d'être connectés
+    sur l'un ou l'autre des deux réseaux. Cette deuxième édition annule et remplace
+    la première édition parue en 2010. Cette édition constitue une révision technique.
+    Cette édition inclut les modifications techniques majeures suivantes par rapport
+    à l'édition précédente:<br />\r\n- le protocole est maintenant indépendant de
+    l'application (Path_Check_Request est périodiquement envoyé);<br />\r\n- le message
+    Failure_Notify a été supprimé;<br />\r\n- le format de trame a été modifié;<br
+    />\r\n- la nouvelle adresse MAC a été ajoutée.<br />\r\n<br />\r\nCette publication
+    doit être lue conjointement avec la <a href=\"https://webstore.iec.ch/publication/24248\">IEC
+    62439-1:2010</a>."
+status:
+  stage:
+    content: WITHDRAWN
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '23274'
+  price_code: iec:K

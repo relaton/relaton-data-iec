@@ -1,0 +1,123 @@
+---
+id: ISOIEC21000152006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia framework (MPEG-21)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 15: Event Reporting'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia framework (MPEG-21) - Part 15: Event
+    Reporting'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10886
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec21000-15{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 21000-15:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21000-15:2006-07:::'
+  type: URN
+date:
+- type: published
+  at: '2006-07-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 21000-15:2006 specifies a mechanism to monitor events associated with the manipulation and usage of Digital Items, as defined in ISO/IEC 21000-2, and Peers. Monitoring the usage of audio-visual digital material and gaining insight into the state or capacity of a Peer is an important functionality for many content creation, delivery, adaptation and consumption applications.</p>
+    <p>ISO/IEC 21000-15:2006 specifies a dynamic mechanism which allows Users to create an Event Report Request within a Digital Item which can then be processed by a Peer. Such an Event Report Request specifies the conditions when an Event Report will be first generated and then sent to a (set of) recipient Peer(s). </p>
+    <p>ISO/IEC 21000-15:2006 specifies the syntax and semantics of Event Report Requests (ER-R) and of Event Reports.</p>
+    <h3>Syntax and semantics of Event Report Requests (ER-R)</h3>
+    <p>Event Report Requests unambiguously specify the nature and conditions under which Event Reports must be sent to the specified recipients, as well as the recipients of the resulting Event Reports. The main parts of an ER-R are</p>
+    <ul><li>Event Report Request Descriptors that provides descriptive information about the Event Report Request itself;</li><li>an Event Condition Descriptor that specifies a set of conditions that relate to either a Peer (e.g. it's internal time, status, technical capacity) or a Digital Item (if they have been acted upon by, for example, the use of Digital Item Processing) and that trigger the creation of Event Reports;</li><li>an Event Report Specification that defines how the resulting Event Report should be structured and what information it should contain.</li></ul>
+    <h3>Syntax and semantics of Event Reports</h3>
+    <p>Upon the occurrence of the Event (as defined by the Event Report Request), a Peer will generate an Event Report, based on details contained within the Event Report Specification. The Event Report can then be sent to the recipient(s) as specified in the ER-R.</p>
+    <p>ISO/IEC 21000-15:2006 further specifies mechanisms to automate the exchange of Event Reports. Event Reports may for instance, embed Event Report Requests that are to be processed upon reception of the Event Report by a Peer. This mechanism allows for Event Reports to be automatically forwarded to another Peer, or for sending back an Acknowledgment of Receipt to the Event Report's originating Peer.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:F

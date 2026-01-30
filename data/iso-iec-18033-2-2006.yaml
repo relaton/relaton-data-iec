@@ -1,0 +1,118 @@
+---
+id: ISOIEC1803322006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Encryption algorithms -- Part 2: Asymmetric ciphers'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Encryption algorithms --
+    Part 2: Asymmetric ciphers'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10633
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec18033-2{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 18033-2:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:18033-2:2006-05:::'
+  type: URN
+date:
+- type: published
+  at: '2006-05-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18033-2:2006 specifies encryption systems (ciphers) for the purpose of data confidentiality. The primary purpose of encryption (or <i>encipherment</i>) techniques is to protect the confidentiality of stored or transmitted data. An encryption algorithm is applied to data (often called <i>plaintext</i> or <i>cleartext</i>) to yield encrypted data (or <i>ciphertext</i>); this process is known as <i>encryption</i>. The encryption algorithm should be designed so that the ciphertext yields no information about the plaintext except, perhaps, its length. Associated with every encryption algorithm is a corresponding <i>decryption algorithm</i>, which transforms ciphertext back into its original plaintext.</p>
+    <p>An asymmetric, i.e. public-key, encryption scheme allows a sender to use a recipient's public key to transmit an encryption of a message to the receiver, who can use his secret key to decrypt the given ciphertext, thereby obtaining the original message. </p>
+    <p>Such a scheme should be secure in the sense that no information about the message should be leaked to a (resource-bounded) attacker, even if that attacker mounts a so-called 'chosen ciphertext' attack, in which he may obtain decryptions of other ciphertexts. This is the strongest type of attack that has been proposed for a public-key encryption scheme. </p>
+    <p>ISO/IEC 18033-2:2006 specifies the functional interface of such a scheme, and in addition specifies a number of particular schemes that appear to be secure against chosen ciphertext attack. The different schemes offer different trade-offs between security properties and efficiency.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:H

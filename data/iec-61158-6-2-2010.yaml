@@ -1,0 +1,162 @@
+---
+id: IEC61158622010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-2: Application layer protocol specification -- Type 2 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-2:
+    Application layer protocol specification -- Type 2 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-2: Spécification de protocole de la couche application -- Eléments
+    de Type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 6-2: Spécification de protocole de la couche application -- Eléments
+    de Type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19238
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-6-2{ed2.0}b.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-6-2{ed2.0}en.pdf
+docidentifier:
+- content: IEC 61158-6-2:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-6-2:2010-08:::'
+  type: URN
+date:
+- type: published
+  at: '2010-08-06'
+- type: stable-until
+  at: '2014-08-19'
+- type: obsoleted
+  at: '2014-08-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61158-6-2:2010 provides common elements for basic time-critical and
+    non-time-critical messaging communications between application programs in an
+    automation environment and material specific to Type 2 fieldbus. The term \"time-critical\"
+    is used to represent the presence of a time-window, within which one or more specified
+    actions are required to be completed with some defined level of certainty. Failure
+    to complete specified actions within the time window risks failure of the applications
+    requesting the actions, with attendant risk to equipment, plant and possibly human
+    life. It specifies interactions between remote applications and defines the externally
+    visible behavior provided by the Type 2 fieldbus application layer. This second
+    edition cancels and replaces the first edition published in 2007 and constitutes
+    a technical revision. The main changes with respect to the previous edition are:<br
+    />\r\n- update of normative and bibliographic references;<br />\r\n- update of
+    abbreviations;<br />\r\n- update list of service request/response PDUs (Time Sync
+    and Parameter ASEs/objects);<br />\r\n- update of Time Sync ASE/object;<br />\r\n-
+    new Parameter ASE/object;<br />\r\n- update/add object and services codes for
+    Time Sync and Parameter ASEs;<br />\r\n- new QoS specification.<br />\r\nThis
+    bilingual version published in 2012-07 corresponds to the English version published
+    in 2010-08."
+- language: fr
+  script: Latn
+  content: "La IEC 61158-6-2:2010 fournit les éléments communs pour les communications
+    de messagerie de base à temps critique et à temps non critique entre des programmes
+    d'application dans un environnement d'automatisation et le matériau spécifique
+    au bus de terrain de Type 2. Le terme \"à temps critique\" sert à représenter
+    la présence d'une fenêtre temporelle, dans les limites de laquelle une ou plusieurs
+    actions spécifiées sont tenues d'être parachevées avec un certain niveau défini
+    de certitude. Le manquement à parachever les actions spécifiées dans les limites
+    de la fenêtre temporelle risque d'entraîner la défaillance des applications qui
+    demandent ces actions, avec le risque concomitant pour l'équipement, l'installation
+    et éventuellement pour la vie humaine. Elle spécifie les interactions entre les
+    applications distantes et définit le comportement visible de l'extérieur fourni
+    par la couche application de bus de terrain de Type 2. Cette deuxième édition
+    annule et remplace la première édition, parue en 2007. Elle constitue une révision
+    technique. Les principales modifications par rapport à l'édition précédente sont:<br
+    />\r\n- mise à jour des références normatives et bibliographiques;<br />\r\n-
+    mise à jour des abréviations;<br />\r\n- liste de mise à jour pour les PDU de
+    demande/réponse de service (ASE/objets Time Sync et Parameter);<br />\r\n- mise
+    à jour d'ASE/objet Time Sync;<br />\r\n- nouvel ASE/objet Parameter;<br />\r\n-
+    mise à jour/ajout de codes d'objet et de services pour les ASE Time Sync et Parameter;<br
+    />\r\n- nouvelle spécification de QoS.<br />\r\nLa présente version bilingue (2012-07)
+    correspond à la version anglaise monolingue publiée en 2010-08."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '17545'
+  price_code: iec:P

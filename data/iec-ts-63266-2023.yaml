@@ -1,0 +1,127 @@
+---
+id: IECTS632662023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Representation of communication in power utility automation
+  type: title-main
+- language: en
+  script: Latn
+  content: Representation of communication in power utility automation
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68270
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iects63266{ed1.0}en.pdf
+docidentifier:
+- content: IEC TS 63266:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63266:2023-09:ts::'
+  type: URN
+date:
+- type: published
+  at: '2023-09-15'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC TS 63266:2023 specifies a structure for representation of exchanged
+    information that is essential for testing and maintenance of the devices in power
+    utility automation systems. It is mainly intended to be applied to communication
+    equipment that communicate information in accordance with IEC 61850 (all parts)
+    in at least one part of their communication flow.<br />\r\nThe following communication
+    equipment is included within the scope:<br />\r\n– optical instrument transformer;<br
+    />\r\n– conventional instrument transformers related to IEC 61850 traffic;<br
+    />\r\n– merging unit;<br />\r\n– stand-alone merging unit;<br />\r\n– protection,
+    control and measuring devices with at least one IEC 61850 interface;<br />\r\n–
+    switchgear control unit (breaker IED);<br />\r\n– switchgear providing IEC 61850
+    interface;<br />\r\n– IEC 61850 time synchronization device;<br />\r\n– IEC 61850
+    gateway (RTU) and station HMI;<br />\r\n– digital disturbance recorder / digital
+    fault recorder;<br />\r\n– digital communication protocol gateways with at least
+    one IEC 61850 interface;<br />\r\n– protection, control and measuring devices
+    that utilise a proprietary protocol for communication with devices that have at
+    least one IEC 61850 interface.<br />\r\nThe following communication equipment,
+    scheme and protocols are excluded from the scope:<br />\r\n– IEC 61850 Ethernet
+    switches and network topology;<br />\r\n– PMU phasor measurement unit with at
+    least one IEC 61850 interface;<br />\r\n– the full path of substation-to-substation
+    communication;<br />\r\nEXAMPLE 1: The description of R­GOOSE Publisher in substation
+    A does not include the description of R GOOSE Subscriber in substation B.<br />\r\n–
+    functions with only hardwired communication, e.g. direct analogue copper wired
+    connection;<br />\r\nEXAMPLE 2: A current transformer connected to a protection
+    relay with hardwired tripping of a circuit breaker.<br />\r\n– functions using
+    only proprietary communication protocol systems;<br />\r\nEXAMPLE 3: A dedicated
+    system for collecting disturbance recorder files with courier protocol or path
+    from IEC 60870­5­103 to IEC 60870-5-101 will not be presented in this document.<br
+    />\r\n– protocol mappings to XMPP (IEC 61850-8-2).<br />\r\nThis document forms
+    a supplement to other documentation standards in power utility automation.<br
+    />\r\nIt also harmonizes the representation of the logical data flow structures
+    based on IEC 61850 communication among different devices in order to provide a
+    reference document that can be created for any IEC 61850 substation.<br />\r\nThis
+    document focuses in principle on the visualization of the digital information
+    exchanged between IEDs and control or measurement devices in a power utility automation
+    system. The information visualization does not refer to any graphical modelling
+    but to a tabular format of presentation. The data in tabular format can be used
+    as a basis for other kinds of visual presentation outside the scope of this document.<br
+    />\r\nFor representing all kinds of substation information, a single suitable
+    tabular form is not possible to find. This document instead presents a limited
+    number of high visual performance representation formats.<br />\r\nPresentation
+    formats described in this document provide interactive visualization that assists
+    users in analysing data and identifying some important and essential information
+    in a more efficient way."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-specification
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104992'
+  price_code: iec:H

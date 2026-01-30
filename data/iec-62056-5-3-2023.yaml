@@ -1,0 +1,168 @@
+---
+id: IEC62056532023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS®/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-3: DLMS®/COSEM application layer'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS®/COSEM suite - Part 5-3:
+    DLMS®/COSEM application layer'
+  type: main
+- language: fr
+  script: Latn
+  content: Échange des données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS®/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5-3: Couche application DLMS®/COSEM'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Échange des données de comptage de l''électricité - La suite DLMS®/COSEM
+    - Partie 5-3: Couche application DLMS®/COSEM'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67915
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62056-5-3{ed4.0}b.pdf
+docidentifier:
+- content: IEC 62056-5-3:2023
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62056-5-3:2023-09:::'
+  type: URN
+date:
+- type: published
+  at: '2023-09-28'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62056-5-3:2023 specifies the DLMS®/COSEM application layer in terms
+    of structure, services and protocols for DLMS®/COSEM clients and servers, and
+    defines rules to specify the DLMS®/COSEM communication profiles.<br />\r\nIt defines
+    services for establishing and releasing application associations, and data communication
+    services for accessing the methods and attributes of COSEM interface objects,
+    defined in IEC 62056-6-2:2021 using either logical name (LN) or short name (SN)
+    referencing.<br />\r\nAnnex A (normative) defines how to use the COSEM application
+    layer in various communication profiles. It specifies how various communication
+    profiles can be constructed for exchanging data with metering equipment using
+    the COSEM interface model, and what are the necessary elements to specify in each
+    communication profile. The actual, media-specific communication profiles are specified
+    in separate parts of the IEC 62056 series.<br />\r\nAnnex B (normative) specifies
+    the SMS short wrapper.<br />\r\nAnnex C (normative) specifies the gateway protocol.<br
+    />\r\nAnnex D, Annex E and Annex F (informative) include encoding examples for
+    APDUs.<br />\r\nAnnex G (normative) provides NSA Suite B elliptic curves and domain
+    parameters.<br />\r\nAnnex H (informative) provides an example of an End entity
+    signature certificate using P-256 signed with P-256.<br />\r\nAnnex I (normative)
+    specifies the use of key agreement schemes in DLMS®/COSEM.<br />\r\nAnnex J (informative)
+    provides examples of exchanging protected xDLMS APDUs between a third party and
+    a server.<br />\r\nThis fourth edition cancels and replaces the third edition
+    published in 2017. This edition constitutes a technical revision.<br />\r\nThe
+    significant technical changes with respect to the previous edition are listed
+    in Annex K (Informative)."
+- language: fr
+  script: Latn
+  content: "IEC 62056-5-3:2023 spécifie la couche application DLMS®/COSEM concernant
+    la structure, les services et les protocoles pour les clients et serveurs DLMS®/COSEM,
+    et définit les règles de spécification des profils de communication DLMS®/COSEM.<br
+    />\r\nElle définit les services permettant d’établir et de libérer des associations
+    d’applications, ainsi que les services de communication de données permettant
+    d’accéder aux méthodes et aux attributs des objets d’interface COSEM, définis
+    dans l’IEC 62056-6-2:2021, à l’aide du référencement par nom logique (LN, Logical
+    Name) ou par nom abrégé (SN, Short Name).<br />\r\nL’Annexe A (normative) définit
+    comment utiliser la couche application COSEM dans différents profils de communication.
+    Elle indique comment différents profils de communication peuvent être construits
+    de sorte à échanger des données avec le matériel de comptage à l’aide du modèle
+    d’interface COSEM, ainsi que les éléments nécessaires à indiquer dans chaque profil
+    de communication. Les profils de communication réels, spécifiques au support,
+    sont spécifiés dans des parties distinctes de la série IEC 62056.<br />\r\nL’Annexe
+    B (normative) spécifie la couche d’adaptation réduite pour le système de messages
+    courts (SMS, Short Message Service).<br />\r\nL’Annexe C (normative) spécifie
+    le protocole de passerelle.<br />\r\nL’Annexe D, l’Annexe E et l’Annexe F (informatives)
+    incluent des exemples de codage d’APDU.<br />\r\nL’Annexe G (normative) spécifie
+    des courbes elliptiques et des paramètres de domaine de la Suite B de la NSA.<br
+    />\r\nL’Annexe H (informative) donne un exemple de certificat de signature d’entité
+    finale utilisant P-256 signé avec P-256.<br />\r\nL’Annexe I (normative) spécifie
+    l’utilisation de mécanismes d’agrément de clé dans DLMS®/COSEM.<br />\r\nL’Annexe
+    J (informative) donne des exemples d’échanges d’APDU xDLMS protégés entre une
+    tierce partie et un serveur.<br />\r\nL’Annexe K (informative) énumère les modifications
+    techniques majeures contenues dans cette quatrième édition.<br />\r\nCette quatrième
+    édition annule et remplace la troisième édition parue en 2017. Cette édition constitue
+    une révision technique.<br />\r\nLes modifications techniques majeures par rapport
+    à l’édition précédente sont énumérées à l’Annexe K (informative)"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '17.220'
+    text: Electricity. Magnetism. Electrical and magnetic measurements
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104763'
+  price_code: iec:P

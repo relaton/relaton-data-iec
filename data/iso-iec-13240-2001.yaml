@@ -1,0 +1,128 @@
+---
+id: ISOIEC132402001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Document description and processing languages
+  type: title-main
+- language: en
+  script: Latn
+  content: Interchange Standard for Multimedia Interactive Documents (ISMID)
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Document description and processing languages
+    - Interchange Standard for Multimedia Interactive Documents (ISMID)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9743
+docidentifier:
+- content: ISO/IEC 13240:2001
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:13240:2001-12:::'
+  type: URN
+date:
+- type: published
+  at: '2001-12-20'
+- type: stable-until
+  at: '2020-12-02'
+- type: obsoleted
+  at: '2020-12-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p style="font-weight: 400;">This International Standard, known as the Interchange Standard for Multimedia Interactive Documents or ISMID, facilitates the interchange of Multimedia Interactive Documents (MIDs) among heterogeneous interactive document development and delivery systems by providing the architecture from which common interchange languages can be created. ISMID is a client architecture of International Standard ISO/IEC 10744:1997, Information technology -- Hypermedia/Time-based Structuring Language (HyTime) and is an SGML application conforming to International Standard ISO 8879 -- Standard Generalized Markup Language.</p>
+    <p style="font-weight: 400;"> </p>
+    <p style="font-weight: 400;">ISMID also specifies use of the DSSSL expression language described in clause 8 of ISO/IEC 10179:1996, Information technology -- Processing languages -- Document Style Semantics and Specification Language (DSSSL).</p>
+    <p style="font-weight: 400;"> </p>
+    <p style="font-weight: 400;">In general, the rendering of a Multimedia Interactive Document (MID) requires three major components:</p>
+    <ul style="font-weight: 400;">
+    <li>Content: the information that the document author intended to communicate to the user of the MID;<br /><br /></li>
+    <li>Behavior: the instructions that govern what, when, where, and how content is presented, and how the MID responds to stimuli from various sources; and<br /><br /></li>
+    <li>Software: the application that interprets behavior, retrieves the content, and presents the information to the user.</li>
+    </ul>
+    <p style="font-weight: 400;"> </p>
+    <p style="font-weight: 400;">Various vendors, standards bodies, and other groups define the notations (such as SGML for text, CGM for graphics, MPEG for video, and WAV for audio) with which the information in the content component is represented. It is up to software vendors to determine the most effective way to implement the software component. Therefore, the ISMID standard addresses only the behavior component.</p>
+status:
+  stage:
+    content: WITHDRAWN
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  price_code: iso:B

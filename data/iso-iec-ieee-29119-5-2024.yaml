@@ -1,0 +1,167 @@
+---
+id: ISOIECIEEE2911952024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software and systems engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Software testing
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Keyword-driven testing'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Software and systems engineering - Software testing - Part 5: Keyword-driven
+    testing'
+  type: main
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel et des systèmes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Essais du logiciel
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Essais axés sur des mots-clés'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Ingénierie du logiciel et des systèmes - Essais du logiciel - Partie 5:
+    Essais axés sur des mots-clés'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104399
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecieee29119-5{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC/IEEE 29119-5:2024
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec-ieee:29119-5:2024-12:::'
+  type: URN
+date:
+- type: published
+  at: '2024-12-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document defines an efficient and consistent solution for keyword-driven testing by:</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">giving an introduction to keyword-driven testing;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">providing a reference approach to implement keyword-driven testing;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">defining requirements on frameworks for keyword-driven testing to enable testers to share their work items, such as test cases, test data, keywords, or complete test specifications;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">defining requirements for tools that support keyword-driven testing; these requirements are applicable to any tool that supports the keyword-driven approach (e.g. test automation, test design and test management tools);</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">defining interfaces and a common data exchange format to ensure that tools from different vendors can exchange their data (e.g. test cases, test data and test results);</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">defining levels of hierarchical keywords, and advising use of hierarchical keywords; this includes describing specific types of keywords (e.g. keywords for navigation or for checking a value) and when to use "flat" structured keywords;</span></p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">providing an initial list of example generic technical (low-level) keywords, such as "inputData" or "checkValue"; these keywords can be used to specify test cases on a technical level and can be combined to create business-level keywords as required.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document is applicable to all those who want to create keyword-driven test specifications, create corresponding frameworks, or build test automation based on keywords.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:G

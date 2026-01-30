@@ -1,0 +1,148 @@
+---
+id: ISOIEC21000212013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia framework (MPEG-21)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 21: Media Contract Ontology'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia framework (MPEG-21) - Part 21: Media
+    Contract Ontology'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10895
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec21000-21{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 21000-21:2013
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:21000-21:2013-07:::'
+  type: URN
+date:
+- type: published
+  at: '2013-07-12'
+- type: stable-until
+  at: '2017-05-23'
+- type: obsoleted
+  at: '2017-05-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 21000-21:2013 specifies MPEG-21 Media Contract Ontology (MCO).</p>
+    <p>The MCO may be used to represent contracts for content directly or for services on content based on MPEG-21 technologies. This is implemented by using some of the classes and properties defined in ISO/IEC 21000-19 (Media Value Chain Ontology) and by extending its ontology.</p>
+    <p>Media Contract Ontology is able to represent the most common rights in contracts in the media field and the conditions appearing the most in those documents.</p>
+    <p>It is made of a contract core ontology, for implementing the most general entities, and of an extension including specific elements to address the most relevant information found in contracts for permitting the exploitation of intellectual property rights. A mechanism for defining further future extensions is in place.</p>
+    <p>A contract expressed with MCO may provide:</p>
+    <ul>
+    <li>the identification of the contract itself;</li>
+    <li>possible relationships with other contracts;</li>
+    <li>the parties;</li>
+    <li>a textual version of the contract;</li>
+    <li>the object of the contract (content or service);</li>
+    <li>the deontic-expression (permissions, obligations, prohibitions), with possible reference to textual clauses.</li>
+    </ul>
+    <p>There is support for:</p>
+    <ul>
+    <li>encryption of the whole contract or any sub-part of it;</li>
+    <li>inclusion of metadata to be associated to contract entities, as annotation properties.</li>
+    </ul>
+    <p>A document instance created according to MCO specification can be:</p>
+    <ul>
+    <li>a contract template;</li>
+    <li>a contract offer;</li>
+    <li>a signed contract (binding the parties).</li>
+    </ul>
+    <p>The MCO can also be used for representing:</p>
+    <ul>
+    <li>exploitation contexts (as deontic expressions);</li>
+    <li>rights situation related to specified content or service, also derived from multiple contracts;</li>
+    <li>any subset of knowledge about rights on content or service.</li>
+    </ul>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

@@ -1,0 +1,125 @@
+---
+id: ISOIEC23000192018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Multimedia application format (MPEG-A)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 19: Common media application format (CMAF) for segmented media'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia application format (MPEG-A) - Part
+    19: Common media application format (CMAF) for segmented media'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/62521
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23000-19{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23000-19:2018
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23000-19:2018-01:::'
+  type: URN
+date:
+- type: published
+  at: '2018-01-17'
+- type: stable-until
+  at: '2020-03-19'
+- type: obsoleted
+  at: '2020-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23000-19:2018 specifies the CMAF multimedia format, which contains segmented media objects optimized for streaming delivery and decoding on end user devices in adaptive multimedia presentations.</p>
+    <p>CMAF specifies a track format derived from the ISO Base Media File Format, then derives addressable media objects from CMAF tracks that can be used for storage and delivery.</p>
+    <p>CMAF specifies sets of tracks that share encoding and packaging constraints that enable the selection of multiple tracks to form a multimedia presentation and allow seamless switching of alternative encodings of the same content at different bit rates, frame rates, resolution, etc.</p>
+    <p>CMAF specifies a hypothetical application model that determines how tracks in a CMAF presentation are intended to be combined and synchronized to form a multimedia presentation. The model abstracts delivery to allow any delivery method. The hypothetical application model assumes a manifest and player, but CMAF does not specify a manifest, player, or delivery protocol, with the intent that any that support the hypothetical application model can be used.</p>
+    <p>CMAF specifies media profiles and brands that constrain media encoding and packaging of CMAF tracks to enable seamless adaptive switching of tracks and allow devices to identify compatible content by its brand.</p>
+    <p>CMAF specifies presentation profiles that conditionally require sets of CMAF tracks conforming to specified media profiles and allow content creators and devices to identify compatible multimedia presentations.</p>
+    <p>CMAF enables extensibility by specifying how new media profiles and presentation profiles can be specified and identified and includes guidelines for those specifications.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

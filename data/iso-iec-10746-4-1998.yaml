@@ -1,0 +1,236 @@
+---
+id: ISOIEC1074641998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Distributed Processing
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Reference Model: Architectural semantics -- Part 4:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Open Distributed Processing - Reference Model:
+    Architectural semantics -- Part 4:'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Traitement réparti ouvert -- Modèle
+    de référence: Sémantique architecturale'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Traitement réparti ouvert -- Modèle
+    de référence: Sémantique architecturale'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9553
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10746-4{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec10746-4{ed1.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 10746-4:1998
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:10746-4:1998-12:::'
+  type: URN
+date:
+- type: published
+  at: '1998-12-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>The rapid growth of distributed processing has lead to a need for a coordinating framework for the standardization of</p>
+    <p>Open Distributed Processing (ODP). This Reference Model of ODP provides such a framework. It creates an</p>
+    <p>architecture within which support of distribution, interworking, interoperability and portability can be integrated.</p>
+    <p>The Basic Reference Model of Open Distributed Processing (RM-ODP), (see ITU-T Recs. X.901 to X.904 | ISO/IEC</p>
+    <p>10746), is based on precise concepts derived from current distributed processing developments and, as far as possible,</p>
+    <p>on the use of formal description techniques for specification of the architecture.</p>
+    <p>The RM-ODP consists of:</p>
+    <p>? ITU-T Rec. X.901 | ISO/IEC 10746-1: 2YHUYLHZ:_ Contains a motivational overview of ODP giving</p>
+    <p>scooping, justification and explanation of key concepts, and an outline of ODP architecture. This part is</p>
+    <p>not normative.</p>
+    <p>? ITU-T Rec. X.902 | ISO/IEC 10746-2: )RXQGDWLRQV:_ Contains the definition of the concepts and</p>
+    <p>analytical framework and notation for normalized description of (arbitrary) distributed processing</p>
+    <p>systems. This is only to a level of detail sufficient to support ITU-T Rec. X.903 | ISO/IEC 10746-3 and to</p>
+    <p>establish requirements for new specification techniques. This part is normative.</p>
+    <p>? ITU-T Rec. X.903 | ISO/IEC 10746-3: $UFKLWHFWXUH: Contains_ the specification of the required</p>
+    <p>characteristics that qualify distributed processing as open. These are the constraints to which ODP</p>
+    <p>standards must conform. It uses the descriptive techniques from ITU-T Rec. X.902 | ISO/IEC 10746-2.</p>
+    <p>This part is normative.</p>
+    <p>? ITU-T Rec. X.904 | ISO/IEC 10746-4: $UFKLWHFWXUDO_6HPDQWLFV:_Contains a formalisation of the ODP</p>
+    <p>modeling concepts defined in ITU-T Rec. X.902 | ISO/IEC 10746-2, clauses 8 and 9, and a formalisation</p>
+    <p>of the viewpoint languages of ITU-T Rec. X.903 | ISO/IEC 10746-3. The formalisation is achieved by</p>
+    <p>interpreting each concept in terms of the constructs of the different standardized formal description</p>
+    <p>techniques. This part is normative.</p>
+    <p>The purpose of this Recommendation | International Standard is to provide an architectural semantics for ODP. This</p>
+    <p>essentially takes the form of an interpretation of the basic modeling and specification concepts of ITU-T Rec. X.902 |</p>
+    <p>ISO/IEC 10746-2 and viewpoint languages of ITU-T Rec. X.903 | ISO/IEC 10746-3, using the various features of</p>
+    <p>different formal specification languages. An architectural semantics is developed in four different formal specification</p>
+    <p>languages: LOTOS, ESTELLE, SDL and Z. The result is a formalization of ODP's architecture. Through a process of</p>
+    <p>iterative development and feedback, this has improved the consistency of ITU-T Rec. X.902 | ISO/IEC 10746-2 and</p>
+    <p>ITU-T Rec. X.903 | ISO/IEC 10746-3.</p>
+    <p>An architectural semantics provides the additional benefits of:</p>
+    <p>? assisting the sound and uniform development of formal descriptions of ODP systems; and</p>
+    <p>? of permitting uniform and consistent comparison of formal descriptions of the same standard in different</p>
+    <p>formal specification languages.</p>
+    <p>Rather than provide a mapping from all the concepts of ITU-T Rec. X.902 | ISO/IEC 10746-2, this Recommendation |</p>
+    <p>International Standard focuses on the most basic. A semantics for the higher level architectural concepts is provided</p>
+    <p>indirectly through their definition in terms of the basic ODP concepts.</p>
+    <p>Examples of the use of some of the formal specification languages in this report can be found in TR 10167 (Guidelines</p>
+    <p>for the Application of ESTELLE, LOTOS and SDL).</p>
+    <p>In the following clauses, the concepts are numbered in accordance with the scheme used in ITU-T Rec. X.902 |</p>
+    <p>ISO/IEC 10746-2.</p>
+    <p>This Recommendation | International Standard specifies an architectural semantics for ODP. This is required to:</p>
+    <p>? provide formalisation of the ODP modelling concepts;</p>
+    <p>? assist sound and uniform development of formal descriptions of standards for distributed systems;</p>
+    <p>? act as a bridge between the ODP modelling concepts and the semantic models of the specification</p>
+    <p>languages: LOTOS, SDL, ESTELLE and Z;</p>
+    <p>? provide a basis for uniform and consistent comparison between formal descriptions of the same standard</p>
+    <p>in specification languages that are used to develop an architectural semantics.</p>
+    <p>This part is normative.</p>
+- language: fr
+  script: Latn
+  content: |-
+    <p>La croissance rapide des applications réparties a fait naître le besoin d'un cadre pour coordonner la normalisation du</p>
+    <p>traitement réparti ouvert (ODP, <i>RSHQ_GLVWULEXWHG_SURFHVVLQJ</i>). Le modèle de référence du traitement réparti ouvert fournit</p>
+    <p>ce cadre. Il établit une architecture qui permet d'intégrer la répartition, l'interfonctionnement, l'interopérabilité et la</p>
+    <p>portabilité.</p>
+    <p>Le modèle de référence de base du traitement réparti ouvert (RM-ODP, <i>UHIHUHQFH_PRGHO_RI_RSHQ_GLVWULEXWHG_SURFHVVLQJ</i>)</p>
+    <p>(voir les Rec. UIT-T X.901 à X.904 | ISO/CEI 10746) repose sur des concepts précis issus des développements récents</p>
+    <p>dans le domaine du traitement réparti et s'appuie, dans la mesure du possible, sur l'utilisation des techniques de</p>
+    <p>description formelle pour la spécification de l'architecture.</p>
+    <p>Le modèle RM-ODP se compose:</p>
+    <p>? de la Rec. UIT-T X.901 | ISO/CEI 10746-1: 9XH_GHQVHPEOH_ elle contient un aperçu général du modèle</p>
+    <p>RM-ODP, en précise les motivations, le champ d'application et la justification, et propose une explication</p>
+    <p>des concepts clés, ainsi qu'une présentation de l'architecture des systèmes ODP. Ce texte n'est pas</p>
+    <p>normatif;</p>
+    <p>? de la Rec. UIT-T X.902 | ISO/CEI 10746-2: )RQGHPHQWV_ elle contient la définition des concepts ainsi</p>
+    <p>que le cadre analytique et la notation à utiliser pour la description normalisée de systèmes de traitement</p>
+    <p>réparti (arbitraires). Elle s'en tient à un niveau de détail suffisant pour étayer la Rec. UIT-T X.903 |</p>
+    <p>ISO/CEI 10746-3 et pour établir les prescriptions applicables à de nouvelles techniques de spécification.</p>
+    <p>Ce texte est normatif;</p>
+    <p>? de la Rec. UIT-T X.903 | ISO/CEI 10746-3: $UFKLWHFWXUH_ elle contient la spécification des</p>
+    <p>caractéristiques requises pour qu'un système de traitement réparti puisse être qualifié d'ouvert. Il s'agit des</p>
+    <p>contraintes que les normes ODP doivent respecter. Ce texte, qui utilise les techniques descriptives de la</p>
+    <p>Rec. UIT-T X.902 | ISO/CEI 10746-2. Ce texte est normatif;</p>
+    <p>? de la Rec. UIT-T X.904 | ISO/CEI 10746-4: 6pPDQWLTXH_DUFKLWHFWXUDOH_ elle contient une formalisation</p>
+    <p>des concepts de modélisation ODP définis dans les articles 8 et 9 de la Rec. UIT-T X.902 |</p>
+    <p>ISO/CEI 10746-2 et une formalisation des langages de point de vue définis dans la Rec. UIT-T X.903 |</p>
+    <p>ISO/CEI 10746-3. La formalisation est obtenue par l'interprétation de chaque concept en fonction des</p>
+    <p>constructions des différentes techniques de description formelle normalisées. Ce texte est normatif.</p>
+    <p>La présente Recommandation | Norme internationale a pour objet de fournir une sémantique architecturale pour les</p>
+    <p>systèmes ODP, ce qui se traduit par une interprétation des concepts de modélisation de base et de spécification définis</p>
+    <p>dans la Rec. UIT-T X.902 | ISO/CEI 10746-2 et des langages de point de vue définis dans la Rec. UIT-T X.903 |</p>
+    <p>ISO/CEI 10746-3; elle utilise les diverses caractéristiques de différents langages de spécification formelle. Une</p>
+    <p>sémantique architecturale est élaborée pour quatre différents langages de spécification formelle: LOTOS, ESTELLE,</p>
+    <p>SDL et Z, ce qui conduit à une formalisation de l'architecture des systèmes ODP. Un processus d'élaboration itérative et</p>
+    <p>de retour a permis d'améliorer la cohérence des Rec. UIT-T X.902 | ISO/CEI 10746-2 et UIT-T X.903 |</p>
+    <p>ISO/CEI 10746-3.</p>
+    <p>La mise au point d'une sémantique architecturale présente les avantages supplémentaires suivants:</p>
+    <p>? favoriser l'élaboration harmonieuse et uniforme des descriptions formelles de systèmes ODP;</p>
+    <p>? permettre une comparaison uniforme et cohérente des descriptions formelles de la même norme dans</p>
+    <p>différents langages de spécification formelle.</p>
+    <p>La présente Recommandation | Norme internationale contient une interprétation, non pas de tous les concepts définis</p>
+    <p>dans la Rec. UIT-T X.902 | ISO/CEI 10746-2, mais uniquement des concepts les plus fondamentaux. Pour les concepts</p>
+    <p>architecturaux de niveau supérieur, une sémantique est fournie indirectement par la définition de ces concepts en</p>
+    <p>fonction des concepts ODP fondamentaux.</p>
+    <p>Des exemples d'utilisation de certains des langages de spécification formelle dont il est question dans la présente</p>
+    <p>Spécification sont donnés dans TR 10167 (Principes directeurs pour l'application d'ESTELLE, LOTOS et SDL).</p>
+    <p>Dans les articles suivants, la numérotation des paragraphes relatifs aux concepts est conforme à la numérotation utilisée</p>
+    <p>dans la Rec. UIT-T X.902 | ISO/CEI 10746-2.</p>
+    <p>La présente Recommandation | Norme internationale, qui contient la définition d'une sémantique architecturale pour les</p>
+    <p>systèmes ODP, permet:</p>
+    <p>? de fournir une formalisation des concepts de modélisation ODP;</p>
+    <p>? de favoriser une élaboration harmonieuse et uniforme des descriptions formelles des normes applicables</p>
+    <p>aux systèmes répartis;</p>
+    <p>? de relier les concepts de modélisation ODP et les modèles sémantiques des langages de spécification</p>
+    <p>LOTOS, SDL, ESTELLE et Z;</p>
+    <p>? de constituer une base pour une comparaison uniforme et cohérente des descriptions formelles de la même</p>
+    <p>norme dans les langages de spécification utilisés pour élaborer une sémantique architecturale.</p>
+    <p>Ce texte est normatif.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:ZZ

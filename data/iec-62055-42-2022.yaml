@@ -1,0 +1,164 @@
+---
+id: IEC62055422022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Payment systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 42: Transaction Reference Numbers (TRN)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Payment systems - Part 42: Transaction Reference
+    Numbers (TRN)'
+  type: main
+- language: fr
+  script: Latn
+  content: Comptage de l’électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Systèmes de paiement
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 42: Numéros de référence des transactions (TRN)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Comptage de l’électricité - Systèmes de paiement - Partie 42: Numéros
+    de référence des transactions (TRN)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/65029
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62055-42{ed1.0}b.pdf
+docidentifier:
+- content: IEC 62055-42:2022
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62055-42:2022-07:::'
+  type: URN
+date:
+- type: published
+  at: '2022-07-13'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62055-42:2022, specifies a token generation mechanism and token structure
+    for smart prepayment functionality in markets where IEC 62055-41 compliant systems
+    are not used, and where a different security mechanism is required by project-specific
+    or national requirements. This document specifies token structure, authentication
+    and an anti-replay mechanism, token operating model, and protocol.<br />\r\nThis
+    document is informed by the STS Association key management services, and by the
+    key management mechanisms used within the DLMS/COSEM security model within IEC
+    62056‑6‑2. Reference is made to the international STS token standards (IEC 62055-41,
+    IEC 62055-51 and IEC 62055-52) for payment metering systems, and interworking
+    has been considered where appropriate in terms of token carrier ranges in the
+    decimal domain. IEC 62055-41 tokens and those described in this document are not
+    interoperable, however their domains are designed to be mutually exclusive to
+    ensure the two kinds of tokens do not interfere with each other.<br />\r\nMetering
+    application processing and functionality, HAN interface commands and attributes,
+    WAN interface commands and attributes are outside the scope of this document;
+    however, reference is made to other standards in this regard.<br />\r\nThe mechanism
+    for auditing and retrieving data from the meter relating to tariffication, meter
+    readings, profile data and other legal metrology information is outside the scope
+    of this document; however, this is defined as part of any overall metering solution.
+    Such interfaces for retrieving data from a meter may be defined using suitable
+    protocols such as DLMS/COSEM as defined in the IEC 62056 series."
+- language: fr
+  script: Latn
+  content: "IEC 62055-42:2022, spécifie un mécanisme de génération de jetons ainsi
+    que la structure de jetons associée à la fonctionnalité de prépaiement intelligent,
+    destinée aux marchés où les systèmes conformes à l’IEC 62055-41 ne sont pas utilisés
+    et lorsque les exigences nationales ou spécifiques à un projet imposent l’utilisation
+    d’un autre mécanisme de sécurité. Le présent document spécifie la structure des
+    jetons, leur authentification, un mécanisme antirediffusion, le modèle d’exploitation
+    des jetons et le protocole associé.<br />\r\nLe présent document est informé par
+    les services de gestion de clés de la STS Association ainsi que par les mécanismes
+    de gestion de clés utilisés dans le modèle de sécurité DLMS/COSEM spécifié dans
+    l’IEC 62056-6-2. Une référence est faite aux normes internationales relatives
+    aux jetons STS (IEC 62055-41, IEC 62055-51 et IEC 62055-52) pour les systèmes
+    de comptage à paiement, et l’interconnexion a été envisagée le cas échéant en
+    ce qui concerne les plages des supports de jetons dans le domaine décimal. Les
+    jetons conformes à l’IEC 62055-41 et ceux décrits dans le présent document ne
+    sont pas interopérables, mais leurs domaines sont conçus pour être mutuellement
+    exclusifs afin d’assurer que les deux types de jetons n’interfèrent pas l’un avec
+    l’autre.<br />\r\nLe traitement et la fonctionnalité des applications de comptage
+    ainsi que les commandes et attributs des interfaces HAN et WAN ne relèvent pas
+    du domaine d’application du présent document. Une référence est toutefois faite
+    à d’autres normes traitant de ces aspects.<br />\r\nLe mécanisme d’audit et de
+    récupération des données du compteur relatives à la tarification, des relevés
+    de compteurs, des données sur les profils et autres informations métrologiques
+    légales ne relève pas du domaine d’application du présent document. Il est cependant
+    défini dans le cadre de toute solution de comptage globale. Il est permis de définir
+    de telles interfaces pour la récupération des données d’un compteur en utilisant
+    des protocoles adaptés, tels que DLMS/COSEM défini dans la série IEC 62056."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 35.100.70
+    text: Application layer
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '103220'
+  price_code: iec:L

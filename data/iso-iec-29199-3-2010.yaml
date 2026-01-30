@@ -1,0 +1,118 @@
+---
+id: ISOIEC2919932010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: JPEG XR image coding system
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Motion JPEG XR'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG XR image coding system - Part 3: Motion
+    JPEG XR'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11428
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29199-3{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29199-3:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29199-3:2010-10:::'
+  type: URN
+date:
+- type: published
+  at: '2010-10-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 29199-3:2010 specifies the use of JPEG XR coding for timed sequences of images (motion sequences) within files based on the ISO base media file format (ISO/IEC 15444-12).</p>
+    <p>The Motion JPEG XR file format is designed to contain one or more motion sequences of JPEG XR images, with their timing. It is intended as a ‘building block', specifying only the video format. An application would be expected to combine Motion JPEG XR with suitable audio, metadata, etc. for a complete application specification; that specification would normally select profiles and levels of Motion JPEG XR, and could also specify application profiles and levels that apply to the integration. </p>
+    <p>Motion JPEG XR is expected to be used in a variety of applications, particularly where JPEG XR coding technology is already available for other reasons, or where the high-quality frame-based approach, with no inter-frame coding, is appropriate. </p>
+    <p>Motion JPEG XR is a flexible format, permitting a wide variety of usages, such as editing, display, interchange, and streaming.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:A

@@ -1,0 +1,117 @@
+---
+id: ISOIEC197722020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security
+  type: title-intro
+- language: en
+  script: Latn
+  content: Authenticated encryption
+  type: title-main
+- language: en
+  script: Latn
+  content: Information security - Authenticated encryption
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68124
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec19772{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 19772:2020
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19772:2020-11:::'
+  type: URN
+date:
+- type: published
+  at: '2020-11-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies five methods for authenticated encryption, i.e. defined ways of processing a data string with the following security objectives:</p>
+    <p>—     data confidentiality, i.e. protection against unauthorized disclosure of data;</p>
+    <p>—     data integrity, i.e. protection that enables the recipient of data to verify that it has not been modified;</p>
+    <p>—     data origin authentication, i.e. protection that enables the recipient of data to verify the identity of the data originator.</p>
+    <p>All five methods specified in this document are based on a block cipher algorithm, and require the originator and the recipient of the protected data to share a secret key for this block cipher. </p>
+    <p>Key management is outside the scope of this document. Key management techniques are defined in ISO/IEC 11770 (all parts).</p>
+    <p>Four of the mechanisms in this document, namely mechanisms 3, 4, 5 (AAD variant only) and 6, allow data to be authenticated which is not encrypted. That is, these mechanisms allow a data string that is to be protected to be divided into two parts, <i>D</i>, the data string that is to be encrypted and integrity-protected, and <i>A</i> (the additional authenticated data) that is integrity-protected but not encrypted. In all cases, the string <i>A</i> can be empty.</p>
+    <p>NOTE     Examples of types of data that can need to be sent in unencrypted form, but whose integrity is to be protected, include addresses, port numbers, sequence numbers, protocol version numbers and other network protocol fields that indicate how the plaintext is to be handled, forwarded or processed.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:D

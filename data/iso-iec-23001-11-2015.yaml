@@ -1,0 +1,123 @@
+---
+id: ISOIEC23001112015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 11: Energy-efficient media consumption (green metadata)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 11: Energy-efficient
+    media consumption (green metadata)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22869
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23001-11{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23001-11:2015
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23001-11:2015-07:::'
+  type: URN
+date:
+- type: published
+  at: '2015-07-07'
+- type: stable-until
+  at: '2019-03-20'
+- type: obsoleted
+  at: '2019-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23001-11:2015 specifies metadata for energy-efficient decoding, encoding, presentation, and selection of media.</p>
+    <p>The metadata for energy-efficient decoding specifies two sets of information: Complexity Metrics (CM) metadata and Decoding Operation Reduction Request (DOR-Req) metadata. A decoder uses CM metadata to vary operating frequency and thus reduce decoder power consumption. In a point-to-point video conferencing application, the remote encoder uses the DOR-Req metadata to modify the decoding complexity of the bitstream and thus reduce local decoder power consumption.</p>
+    <p>The metadata for energy-efficient encoding specifies a quality metric that is used by a decoder to reduce the quality loss from low-power encoding.</p>
+    <p>The metadata for energy-efficient presentation specifies RGB-component statistics and quality levels. A presentation subsystem uses this metadata to reduce power by adjusting display parameters, based on the statistics, to provide a desired quality level from those provided in the metadata.</p>
+    <p>The metadata for energy-efficient media selection specifies Decoder Operation Reduction Ratios (DOR-Ratios), RGB-component statistics and quality levels. The client in an adaptive streaming session uses this metadata to determine decoder and display power-saving characteristics of available video Representations and to select the Representation with the optimal quality for a given power-saving.</p>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

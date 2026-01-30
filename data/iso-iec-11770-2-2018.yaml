@@ -1,0 +1,118 @@
+---
+id: ISOIEC1177022018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: IT Security techniques
+  type: title-intro
+- language: en
+  script: Latn
+  content: Key management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Mechanisms using symmetric techniques'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'IT Security techniques - Key management - Part 2: Mechanisms using symmetric
+    techniques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/63948
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11770-2{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11770-2:2018
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11770-2:2018-09:::'
+  type: URN
+date:
+- type: published
+  at: '2018-09-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document defines key establishment mechanisms using symmetric cryptographic techniques.</p>
+    <p>This document addresses three environments for the establishment of keys: Point-to-Point, Key Distribution Centre (KDC), and Key Translation Centre (KTC). It describes the required content of messages which carry keying material or are necessary to set up the conditions under which the keying material can be established.</p>
+    <p>This document does not indicate other information which can be contained in the messages or specify other messages such as error messages. The explicit format of messages is not within the scope of this document.</p>
+    <p>This document does not specify the means to be used to establish initial secret keys; that is, all the mechanisms specified in this document require an entity to share a secret key with at least one other entity (e.g. a TTP). For general guidance on the key lifecycle, see ISO/IEC 11770-1. This document does not explicitly address the issue of inter-domain key management. This document also does not define the implementation of key management mechanisms; products complying with this document are not necessarily compatible.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:E

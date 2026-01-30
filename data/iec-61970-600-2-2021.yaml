@@ -1,0 +1,160 @@
+---
+id: IEC6197060022021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 600-2: Common Grid Model Exchange Standard (CGMES)'
+  type: title-main
+- language: en
+  script: Latn
+  content: Exchange profiles specification
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part
+    600-2: Common Grid Model Exchange Standard (CGMES) - Exchange profiles specification'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d'application pour système de gestion d'énergie
+    (EMS-API)
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 600-2: Norme pour l''échange de modèle de réseau commun (CGMES)'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Spécification des profils d'échange
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d''application pour système de gestion d''énergie
+    (EMS-API) - Partie 600-2: Norme pour l''échange de modèle de réseau commun (CGMES)
+    - Spécification des profils d''échange'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/63867
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61970-600-2{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61970-600-2{ed1.0}b.pdf
+docidentifier:
+- content: IEC 61970-600-2:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61970-600-2:2021-06:::'
+  type: URN
+date:
+- type: published
+  at: '2021-06-04'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61970-600-2:2021 defines the profiles included in the Common Grid
+    Model Exchange Standard (CGMES) that are based on IEC 61970-450-series and IEC
+    61968-13 profiles. This document refers to the IEC 61970-450-series and IEC 61968-13
+    profiles only in cases where they are identical. If the referenced profile is
+    not yet published, this document includes the profile definition and related constraints’
+    definitions. In the case where a CGMES profile makes restriction on the referenced
+    profile, the restriction is defined in this document.<br />\r\nThe equipment boundary
+    profile (EQBD) is the only profile that is not part of IEC 61970-450-series and
+    IEC 61968-13 profiles. This profile is deprecated as modifications have been made
+    to align between EQBP and the equipment profile (EQ). Although the updated EQBD
+    is addressing the requirement that boundary also can be located inside a substation,
+    which will be the case for many Distribution System Operators (DSOs), additional
+    information would need to be exchanged. For instance, system integrity protection
+    schemes, that can be shared by multiple utility would require another way of boundary
+    handling. In this document EQBD is included in CGMES only to create better backwards
+    compatibility with previous version of the CGMES.<br />\r\nThe machine-readable
+    documentation that supports model driven development of the profiles defined in
+    this part are generated as Resource Description Framework Schema (RDFS) according
+    to IEC 61970-501:2006 (with some extension) and IEC 61970-501:ED2 when published."
+- language: fr
+  script: Latn
+  content: "IEC 61970-600-2:2021 définit les profils inclus dans la Norme pour l'échange
+    de modèle de réseau commun (CGMES) et qui reposent sur les profils de la série
+    IEC 61970- 450 et de l'IEC 61968-13. Le présent document fait référence aux profils
+    de la série IEC 61970-450 et de l'IEC 61968-13 uniquement lorsqu'ils sont identiques.
+    Si le profil référencé n'est pas encore publié, le présent document inclut sa
+    définition et les définitions des contraintes associées. Lorsqu'un profil de la
+    CGMES impose une restriction sur le profil référencé, cette restriction est définie
+    dans le présent document.<br />\r\nLe profil d'équipement frontière (EQBD) est
+    le seul profil qui ne fait pas partie des profils de la série IEC 61970-450 et
+    de l'IEC 61968-13. Ce profil est déconseillé, des modifications ayant été apportées
+    pour aligner l'EQBP sur le profil d'équipement (EQ). Bien que l'EQBD mis à jour
+    réponde à l'exigence selon laquelle la frontière peut également se trouver à l'intérieur
+    d'un poste, ce qui est le cas pour de nombreux opérateurs de réseaux de distribution
+    (DSO), il est nécessaire d'échanger des informations supplémentaires. Par exemple,
+    les plans de protection de l'intégrité système, qui peuvent être partagés par
+    plusieurs entreprises de services publics, exigent une autre manière de gérer
+    les frontières. Dans le présent document, l'EQBD n'est inclus dans la CGMES que
+    pour améliorer la rétrocompatibilité avec la version antérieure de la CGMES.<br
+    />\r\nLa documentation lisible par une machine qui vient à l'appui du développement
+    piloté par modèle des profils définis dans la présente partie est produite sous
+    forme de schéma RDF (RDFS) selon l'IEC 61970-501:2006 (avec des extensions) et
+    l'IEC 61970-501:ED2 après publication.<br />\r\nCette première édition annule
+    et remplace l'IEC TS 61970-600-2 parue en 2017. Cette édition constitue une révision
+    technique"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '102545'
+  price_code: iec:P

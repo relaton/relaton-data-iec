@@ -1,0 +1,138 @@
+---
+id: ISOIEC2482422006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Generic applications of ASN.1: Fast Web Services'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2:'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Generic applications of ASN.1: Fast Web Services
+    - Part 2:'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Applications génériques de l''ASN.1:
+    Services web rapides'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information -- Applications génériques de l''ASN.1:
+    Services web rapides'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11241
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24824-2{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec24824-2{ed1.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 24824-2:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24824-2:2006-07:::'
+  type: URN
+date:
+- type: published
+  at: '2006-07-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 24824-2:2006 specifies the messages required for Fast Web Services. It provides the specification of ASN.1 SOAP messages which carry the same semantics as W3C SOAP messages. The exchange of ASN.1 SOAP messages provides Fast Web Services.</p>
+    <p>ISO/IEC 24824-2:2006 references other ASN.1 International Standards and the Web services specification W3C SOAP 1.2 to fully define application exchanges that use Web protocols and W3C SOAP functionality. This is an extension to the provision of Web services using W3C SOAP messages, without any change to the functionality of W3C SOAP and service description languages. The main change is to the use of compact and easily-processed binary encodings of XML data, rather than character encodings.</p>
+    <p>The use of ISO/IEC 24824-2:2006 (with the ASN.1 SOAP messages encoded using the ASN.1 Packed Encoding Rules, PER) allows applications to provide Web services using messages that require less network bandwidth and less processing power (and hence provide a higher transaction processing rate) than use of the character encoding of XML data.</p>
+    <p>ISO/IEC 24824-2:2006 also specifies a Multipurpose Internet Mail Extensions (MIME) media type that identifies an ASN.1 SOAP message encoded in PER. It also specifies a MIME media type that identifies a W3C SOAP message infoset encoded as a fast infoset document (see ISO/IEC 24824-1). Both of these encodings are used by ISO/IEC 24824-2:2006.</p>
+- language: fr
+  script: Latn
+  content: |-
+    <p>L'ISO/CEI 24824-2:2006 spécifie les messages nécessaires pour les services web rapides. Elle spécifie les messages SOAP en ASN.1 qui portent la même sémantique que les messages SOAP du W3C. L'échange de messages SOAP en ASN.1 donne les services web rapides.</p>
+    <p>L'ISO/CEI 24824-2:2006 fait référence à d'autres Normes internationales de l'ASN.1 et à la spécification des services web SOAP 1.2 du W3C pour définir complètement les échanges d'application qui utilisent les protocoles web et les fonctionnalités SOAP du W3C. Elle est une extension de la fourniture des services web en utilisant les messages SOAP du W3C, sans aucun changement aux fonctionnalités du protocole SOAP du W3C et des langages de description de service. Le principal changement est l'utilisation de codages binaires compacts et faciles à traiter de données XML, plutôt que les codages de caractères.</p>
+    <p>L'utilisation de l'ISO/CEI 24824-2:2006 [avec les messages SOAP en ASN.1 codés en utilisant les règles de codage compact ASN.1 (PER, packed encoding rules)] permet aux applications de fournir des services web en utilisant des messages qui exigent moins de bande passante réseau et moins de puissance de traitement (et donc de fournir un débit de traitement de transaction plus élevé) que le codage de caractère des données XML.</p>
+    <p>L'ISO/CEI 24824-2:2006 spécifie aussi un type de support d'extensions de messagerie Internet multi-objet (MIME, multipurpose Internet mail extensions) qui identifie un message SOAP en ASN.1 codé en PER. Elle spécifie aussi un type de support MIME qui identifie un infoset de message SOAP du W3C codé comme un document fast infoset (voir l'ISO/CEI 24824-1). Ces deux types MIME sont utilisés par l'ISO/CEI 24824-2:2006.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  price_code: iso:ZZ

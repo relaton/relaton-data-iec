@@ -1,0 +1,115 @@
+---
+id: IEC619703012016RLV
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 301: Common information model (CIM) base'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part
+    301: Common information model (CIM) base'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/59669
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61970-301{ed6.0.RLV}en.pdf
+docidentifier:
+- content: IEC 61970-301:2016 RLV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:61970-301::rlv
+  type: URN
+date:
+- type: published
+  at: '2016-12-16'
+- type: stable-until
+  at: '2020-06-26'
+- type: obsoleted
+  at: '2020-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '6'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 61970-301:2016 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61970-301:2016
+    lays down the common information model (CIM), which is an abstract model that
+    represents all the major objects in an electric utility enterprise typically involved
+    in utility operations. By providing a standard way of representing power system
+    resources as object classes and attributes, along with their relationships, the
+    CIM facilitates the integration of network applications developed independently
+    by different vendors, between entire systems running network applications developed
+    independently, or between a system running network applications and other systems
+    concerned with different aspects of power system operations, such as generation
+    or distribution management. SCADA is modeled to the extent necessary to support
+    power system simulation and inter-control centre communication. The CIM facilitates
+    integration by defining a common language (i.e. semantics) based on the CIM to
+    enable these applications or systems to access public data and exchange information
+    independent of how such information is represented internally. This new edition
+    includes the following significant technical changes with respect to the previous
+    edition:<br />\r\n- new model for grounding including Petersen coils;<br />\r\n-
+    models for HVDC; addition of Static Var Compensation models;<br />\r\n- phase
+    shift transformer updates;<br />\r\n- short circuit calculations based on IEC
+    60909;<br />\r\n- addition of non-linear shunt compensator;<br />\r\n- addition
+    of model for steady state calculation inputs, Steady State Hypothesis;<br />\r\n-
+    addition of base frequency model;<br />\r\n- Annex A with custom extensions added."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '22691'
+  price_code: iec:RV

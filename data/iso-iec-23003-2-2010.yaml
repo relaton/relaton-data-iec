@@ -1,0 +1,130 @@
+---
+id: ISOIEC2300322010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: MPEG audio technologies
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Spatial Audio Object Coding (SAOC)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG audio technologies - Part 2: Spatial Audio
+    Object Coding (SAOC)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11014
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23003-2{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23003-2:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23003-2:2010-10:::'
+  type: URN
+date:
+- type: published
+  at: '2010-10-06'
+- type: stable-until
+  at: '2018-12-12'
+- type: obsoleted
+  at: '2018-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 23003-2:2010 specifies the reference model of MPEG Spatial Audio Object Coding (SAOC): an efficient parametric coding technology designed to encode, transmit, and interactively render multiple audio objects for playback with various kinds of channel configurations (mono, stereo, 5.1, headphones/binaural). Rather than performing a discrete coding of the individual audio input signals, MPEG SAOC captures the perceptually relevant properties of audio signals into a compact set of parameters that are used to synthesize a flexibly rendered audio scene from a transmitted downmix signal.</p>
+    <p>MPEG SAOC extends MPEG Surround in a way that provides several significant advantages in terms of additional functionality available to users. It allows the user on the decoding side to interactively control the multi-channel rendering of each individual audio object on different kinds of sound reproduction setup. In addition, MPEG SAOC inherits many advantages of MPEG Surround technology, like transmission (in a backward compatible way) of complex multi-object audio content at bitrates not much higher than what is required for its mono or stereo downmix. MPEG SAOC processing effectively reuses the multi-channel rendering functionality of MPEG Surround in a computationally efficient manner. Therefore, MPEG SAOC technology can be directly used to extend MPEG Surround and upgrade existing distribution infrastructures for stereo or mono audio content (teleconferencing systems, music downloads, Internet streaming, etc.) towards the delivery of audio content while retaining full compatibility with existing receivers. Rendering can be interactively controlled by the end-user and is independent of the playback system setup.</p>
+    <p>Key features of MPEG SAOC are:</p>
+    <ul>
+    <li>interactive rendering of audio objects on the decoder/receiver side;</li>
+    <li>transmitted SAOC bit stream is independent of loudspeaker (or headphones) configuration;</li>
+    <li>low-power processing mode (e.g. for applications on portable devices);</li>
+    <li>low-delay processing mode (e.g. for communication applications);</li>
+    <li>flexibly selectable bitrate overhead, allowing scalability from low bitrate applications such as Internet streaming to high-quality applications such as custom remix of music;</li>
+    <li>it can be applied upon audio using any coding scheme;</li>
+    <li>backward compatibility: the default downmix is always available for legacy playback devices.</li>
+    </ul>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:B

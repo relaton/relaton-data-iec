@@ -1,0 +1,118 @@
+---
+id: ISOIECGUIDE983SP12008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty of measurement
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Guide to the expression of uncertainty in measurement (GUM:1995)
+    -- Supplement 1: Propagation of distributions using a Monte Carlo method'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Uncertainty of measurement - Part 3: Guide to the expression of uncertainty
+    in measurement (GUM:1995) -- Supplement 1: Propagation of distributions using
+    a Monte Carlo method'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11958
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecguide98-3-sup1{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC GUIDE 98-3-SP1:2008
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:98-3-SP1:2008-11:guide::'
+  type: URN
+date:
+- type: published
+  at: '2008-11-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC Guide 98-3/Suppl.1:2008 provides a general numerical approach, consistent with the broad principles of the <i>Guide to the expression of uncertainty in measurement (GUM)</i>, for carrying out the calculations required as part of an evaluation of measurement uncertainty. The approach applies to arbitrary models having a single output quantity where the input quantities are characterized by any specified probability density functions (PDFs).</p>
+    <p>ISO/IEC Guide 98-3/Suppl.1:2008 is primarily concerned with the expression of uncertainty in the measurement of a well-defined physical quantity—the measurand—that can be characterized by an essentially unique value. It provides guidance in situations where the conditions for the GUM uncertainty frameworkare not fulfilled, or it is unclear whether they are fulfilled. It can be used when it is difficult to apply the GUM uncertainty framework, because of the complexity of the model, for example. Guidance is given in a form suitable for computer implementation.</p>
+    <p>ISO/IEC Guide 98-3/Suppl.1:2008 can be used to provide (a representation of) the PDF for the output quantity from which (a) an estimate of the output quantity, (b) the standard uncertainty associated with this estimate, and (c) a coverage interval for that quantity, corresponding to a specified coverage probability, can be obtained.</p>
+    <p>For a prescribed coverage probability, it can be used to provide any required coverage interval, including the probabilistically symmetric coverage interval and the shortest coverage interval.</p>
+    <p>ISO/IEC Guide 98-3/Suppl.1:2008 applies to input quantities that are independent, where each such quantity is assigned an appropriate PDF, or not independent, i.e. when some or all of these quantities are assigned a joint PDF.</p>
+    <p>Detailed examples illustrate the guidance provided.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: guide
+  ics:
+  - code: '17.020'
+    text: Metrology and measurement in general
+  price_code: iso:H

@@ -1,0 +1,171 @@
+---
+id: ISOIEC115771995
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+- language: en
+  script: Latn
+  content: Network layer security protocol
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Open Systems Interconnection - Network layer security
+    protocol
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Interconnexion de systèmes ouverts (OSI)
+    -- Protocole de sécurité de la couche réseau
+  type: title-main
+- language: fr
+  script: Latn
+  content: Technologies de l'information -- Interconnexion de systèmes ouverts (OSI)
+    -- Protocole de sécurité de la couche réseau
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9627
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11577{ed1.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11577{ed1.0}fr.pdf
+docidentifier:
+- content: ISO/IEC 11577:1995
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11577:1995-05:::'
+  type: URN
+date:
+- type: published
+  at: '1995-05-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "<p>Specifies a protocol to be used by End Systems and Intermediate Systems
+    in order to provide security services in the Network layer, which is defined by
+    CCITT Rec. X.213, ISO/IEC 8348 and ISO 8648. The protocol defined herein is called
+    the Network Layer Security Protocol (NLSP).</p>"
+- language: fr
+  script: Latn
+  content: |-
+    La présente Recommandation de l'UIT-T | Norme internationale spécifie un protocole qui doit être utilisé par les systèmes d'extrémité et les systèmes intermédiaires pour assurer des services de sécurité dans la couche réseau définie par la Rec. X.213 du CCITT | ISO 8348 ainsi que par ISO 8348 AD2 et ISO 8648. Le protocole défini dans la présente Recommandation de l'UIT-T | Norme internationale est appelé protocole de sécurité de couche réseau (NLSP). La présente Recommandation de l'UIT-T | Norme internationale spécifie: <ul>
+    <li>1) La mise en oeuvre des services de sécurité suivants définis dans la Rec. X.800 du CCITT | ISO 7498-2: <ul>
+    <li>a) authentification de l'entité homologue; </li>
+    <li>b) authentification de l'origine des données; </li>
+    <li>c) contrôle d'accès; </li>
+    <li>d) confidentialité des données en mode connexion; </li>
+    <li>e) confidentialité des données en mode sans connexion; </li>
+    <li>f) confidentialité du flux de trafic; </li>
+    <li>g) intégrité en mode connexion sans reprise (y compris intégrité des unités de données, dans laquelle l'intégrité de chaque SDU est protégée au cours d'une connexion); </li>
+    <li>h) intégrité en mode sans connexion.</li>
+    </ul>
+    </li>
+    <li>2) Les caractéristiques fonctionnelles requises pour les applications déclarées conformes à la présente Recommandation de l'UIT-T | Norme internationale. Les procédures du présent protocole sont définies en termes de: <ul>
+          <li>a) conditions requises pour les techniques cryptographiques qui peuvent être
+            utilisées dans une instance de ce protocole; </li>
+    <li>b) conditions requises pour les informations acheminées dans l'association de sécurité utilisée dans une instance de communication.</li>
+    </ul>
+    </li>
+    </ul>
+    <p>Bien que le degré de protection offert par certains mécanismes
+      de sécurité dépende de l'utilisation de certaines techniques
+      cryptographiques, la mise en oeuvre correcte du présent protocole ne
+      dépend pas du choix d'un algorithme de codage ou de décodage particulier.
+      Ce choix doit faire l&#x92;objet d&#x92;une décision locale au niveau
+      des systèmes de communication.</p>
+    <p>En outre, ni le choix ni l&#x92;application d&#x92;une politique de sécurité
+      particulière n&#x92;entrent dans le cadre de la présente Recommandation
+      de I&#x92;UIT-T | Norme internationale. Il incombe aux autorités locales
+      de choisir une politique de sécurité particulière, donc
+      le degré de protection qui sera assuré, parmi les systèmes
+      qui utilisent une seule instance de communication sûre. La présente
+      Recommandation de l'UIT-T | Norme internationale n&#x92;implique nullement que
+      demultiples instances de communication sûres faisant intervenir un seul
+      système ouvert doivent utiliser le même protocole<br/>
+      de sécurité.</p>
+    <p>L&#x92;Annexe D décrit le formulaire PICS pour le protocole de sécurité
+      de couche réseau conformément aux directives pertinentes données
+      dans ISO/CEI 9646-2.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.100.30
+    text: Network layer
+  price_code: iso:H

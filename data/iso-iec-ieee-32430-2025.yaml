@@ -1,0 +1,155 @@
+---
+id: ISOIECIEEE324302025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Software non-functional size measurement
+  type: title-main
+- language: en
+  script: Latn
+  content: Software engineering - Software non-functional size measurement
+  type: main
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Norme pour la quantification des caractéristiques non fonctionnelles des
+    logiciels
+  type: title-main
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel - Norme pour la quantification des caractéristiques
+    non fonctionnelles des logiciels
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105414
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiecieee32430{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC/IEEE 32430:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec-ieee:32430:2025-02:::'
+  type: URN
+date:
+- type: published
+  at: '2025-02-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document defines a method for measuring the non-functional size of the software. It complements ISO/IEC 20926:2009, which defines a method for measuring the functional size of the software.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document also describes the complementarity of functional and non-functional sizes, so that deriving the sizes from the functional and the non-functional requirements does not result in duplication in the distinct functional and non-functional sizes.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">In general, there are many types of non-functional requirements. Moreover, non-functional requirements and their classification evolve over time as the technology advances. This document does not intend to define the type of NFR for a given context. Users can choose ISO 25010 or any other standard for the definition of NFR. It is assumed that users size the NFR based on the definitions they use.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document covers a subset of non-functional requirements. It is expected that, with time, the state of the art can improve and that potential future versions of this document can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that can be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional sizes would then correspond to the total size necessary to bring the software into existence.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">Estimating the cost, effort and duration of the implementation of the NFR is outside the scope of this document.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.080'
+    text: Software
+  price_code: iso:G

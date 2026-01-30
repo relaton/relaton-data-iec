@@ -1,0 +1,195 @@
+---
+id: IEC6235172025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Network and System Management (NSM) data object models'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and
+    communications security - Part 7: Network and System Management (NSM) data object
+    models'
+  type: main
+- language: fr
+  script: Latn
+  content: Gestion des systèmes de puissance et échanges d'informations associés
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité des communications et des données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7: Modèles d’objets de données de gestion de réseaux et de systèmes
+    (NSM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d''informations associés
+    - Sécurité des communications et des données - Partie 7: Modèles d’objets de données
+    de gestion de réseaux et de systèmes (NSM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/76108
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62351-7{ed2.0}en.pdf
+docidentifier:
+- content: IEC 62351-7:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62351-7:2025-12:::'
+  type: URN
+date:
+- type: published
+  at: '2025-12-03'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62351-7:2025 defines network and system management (NSM) data object
+    models that are specific to power system operations. These NSM data objects will
+    be used to monitor the health of networks and systems, to detect possible security
+    intrusions, and to manage the performance and reliability of the information infrastructure.
+    The goal is to define a set of abstract objects that will allow the remote monitoring
+    of the health and condition of IEDs (Intelligent Electronic Devices), RTUs (Remote
+    Terminal Units), DERs (Distributed Energy Resources) systems and other systems
+    that are important to power system operations.<br />\r\nPower systems operations
+    are increasingly reliant on information infrastructures, including communication
+    networks, IEDs, and self-defining communication protocols. Therefore, management
+    of the information infrastructure has become crucial to providing the necessary
+    high levels of security and reliability in power system operations.<br />\r\nThe
+    telecommunication infrastructure that is in use for the transport of telecontrol
+    and automation protocols is already subject to health and condition monitoring
+    control, using the concepts developed in the IETF Simple Network Management Protocol
+    (SNMP) standards for network management. However, power system specific devices
+    (like teleprotection, telecontrol, substation automation, synchrophasors, inverters
+    and protections) need instead a specific solution for monitoring their health.<br
+    />\r\nThe NSM objects provide monitoring data for IEC protocols used for power
+    systems (IEC 61850, IEC 60870-5-104) and device specific environmental and security
+    status. As a derivative of IEC 60870-5-104, IEEE 1815 DNP3 is also included in
+    the list of monitored protocols. The NSM data objects use the naming conventions
+    developed for IEC 61850, expanded to address NSM issues. For the sake of generality
+    these data objects, and the data types of which they are comprised, are defined
+    as abstract models of data objects.<br />\r\nIn addition to the abstract model,
+    in order to allow the integration of the monitoring of power system devices within
+    the NSM environment in this part of IEC 62351, a mapping of objects to the SNMP
+    protocol of Management Information Base (MIBs) is provided.<br />\r\nThe objects
+    that are already covered by existing MIBs are not defined here but are expected
+    to be compliant with existing MIB standards. For example protocols including EST,
+    SCEP, RADIUS, LDAP, GDOI are not in scope.<br />\r\nThis edition of IEC 62351-7
+    cancels and replaces IEC 62351-7 published in 2017. This new edition constitutes
+    a technical revision and includes the following significant technical changes
+    with respect to IEC 62351-7:<br />\r\na) Reviewed and enriched the NSM object
+    data model;<br />\r\nb) UML model adopted for NSM objects description;<br />\r\nc)
+    SNMP protocol MIBs translation included as Code Components"
+- language: fr
+  script: Latn
+  content: "IEC 62351-7:2025 définit des modèles d'objets de données de gestion de
+    réseaux et de systèmes (NSM) spécifiques aux opérations des systèmes de puissance.
+    Ces objets de données NSM servent à surveiller la bonne santé des réseaux et des
+    systèmes afin de détecter les intrusions de sécurité potentielles, et de gérer
+    les performances et la fiabilité de l'infrastructure d'information. L'objectif
+    est de définir un ensemble d'objets abstraits qui permet de surveiller à distance
+    la bonne santé des appareils électroniques intelligents (IED), des terminaux à
+    distance (RTU), des systèmes de ressources énergétiques décentralisées (DER) et
+    des autres systèmes importants pour les opérations des systèmes de puissance.<br
+    />\r\nLes opérations des systèmes de puissance reposent de plus en plus sur les
+    infrastructures d'information, y compris les réseaux de communication, les IED
+    et les protocoles de communication autodéfinis. Par conséquent, la gestion de
+    l'infrastructure d'information est essentielle pour fournir les niveaux élevés
+    nécessaires de sécurité et de fiabilité dans les opérations des systèmes de puissance.<br
+    />\r\nL'infrastructure de télécommunication utilisée pour le transport des protocoles
+    de téléconduite et d'automatisation est déjà soumise à la conduite de la surveillance
+    de la bonne santé, en appliquant les concepts développés dans les normes de l'IETF
+    concernant le protocole simple de gestion de réseau (SNMP, Simple Network Management
+    Protocol), spécifiques à la gestion de réseau. Toutefois, une solution spécifique
+    est nécessaire pour surveiller la bonne santé des dispositifs spécifiques aux
+    systèmes de puissance (comme la téléprotection, la téléconduite, l'automatisation
+    des postes, les synchrophaseurs, les onduleurs et les protections).<br />\r\nLes
+    objets NSM fournissent des données de surveillance pour les protocoles IEC utilisés
+    pour les systèmes de puissance (IEC 61850, IEC 60870-5-104), ainsi que des données
+    d'environnement et d'état de sécurité spécifiques aux dispositifs. Dérivée de
+    l'IEC 60870 5 104, l'IEEE 1815 DNP3 est également intégrée dans la liste des protocoles
+    surveillés. Les objets de données NSM utilisent les conventions d'appellation
+    développées pour l'IEC 61850, étendues pour traiter les questions liées à la NSM.
+    À des fins de généralité, ces objets de données et les types de données dont ils
+    sont constitués, sont définis comme modèles abstraits d'objets de données.<br
+    />\r\nOutre le modèle abstrait, la présente partie de l'IEC 62351 fournit une
+    mise en correspondance des objets pour la base d'informations de gestion (MIB)
+    associée au protocole SNMP, afin de permettre l'intégration de la surveillance
+    des dispositifs de puissance dans l'environnement NSM.<br />\r\nLes objets déjà
+    couverts par les MIB existantes ne sont pas définis ici, mais sont réputés être
+    conformes aux normes MIB existantes. Par exemple, les protocoles comprenant EST,
+    SCEP, RADIUS, LDAP, GDOI, ne relèvent pas du domaine d'application de la présente
+    partie de l'IEC 62351<br />\r\nCette édition de l'IEC 62351-7 annule et remplace
+    l'IEC 62351-7 parue en 2017. Cette nouvelle édition constitue une révision technique
+    et inclut les modifications techniques majeures suivantes par rapport à l'IEC
+    62351-7:<br />\r\na) revue et enrichissement du modèle de données d'objets NSM;<br
+    />\r\nb) adoption du modèle UML pour la description des objets NSM;<br />\r\nc)
+    traduction des MIB de protocole SNMP inclus comme composantes de code"
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '111032'
+  price_code: iec:N

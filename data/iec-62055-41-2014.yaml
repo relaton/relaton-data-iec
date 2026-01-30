@@ -1,0 +1,162 @@
+---
+id: IEC62055412014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Payment systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 41: Standard transfer specification (STS) -- Application layer protocol
+    for one-way token carrier systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Payment systems - Part 41: Standard transfer specification
+    (STS) -- Application layer protocol for one-way token carrier systems'
+  type: main
+- language: fr
+  script: Latn
+  content: Comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Systèmes de paiement
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 41: Spécification de transfert normalisé (STS) -- Protocole de
+    couche application pour les systèmes de supports de jeton unidirectionnel'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Comptage de l''électricité - Systèmes de paiement - Partie 41: Spécification
+    de transfert normalisé (STS) -- Protocole de couche application pour les systèmes
+    de supports de jeton unidirectionnel'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/6394
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62055-41{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62055-41:2014
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62055-41:2014-05:::'
+  type: URN
+date:
+- type: published
+  at: '2014-05-14'
+- type: stable-until
+  at: '2018-03-28'
+- type: obsoleted
+  at: '2018-03-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62055-41:2014 specifies the application layer protocol of the STS
+    for transferring units of credit and other management information from a point
+    of sale (POS) system to an STS-compliant payment meter in a one-way token carrier
+    system. It is primarily intended for application with electricity payment meters
+    without a tariff employing energy-based tokens, but may also have application
+    with currency-based token systems and for services other than electricity. It
+    is intended for use by manufacturers of payment meters that have to accept tokens
+    that comply with the STS and also by manufacturers of POS systems that have to
+    produce STS-compliant tokens and is to be read in conjunction with IEC 62055-5x
+    series. This second edition cancels and replaces the first edition issued in 2007.
+    It constitutes a technical revision. The main technical changes are:<br />\r\n-
+    Class 2 token is extended to include credit transfer for gas and water with associated
+    extensions in the display/test tokens.<br />\r\n- MfrCode is extended from 2 to
+    4 digits.<br />\r\n- Three token identifier base dates are defined to provide
+    for more frequent key changes with TID roll-over procedures.<br />\r\n- A code
+    of practice for the management of TID roll-over key changes in association with
+    the revised set of base dates.<br />\r\n- Some clarifications and additional examples
+    have been added."
+- language: fr
+  script: Latn
+  content: "IEC 62055-41:2014 spécifie le protocole de couche application de la STS
+    pour transférer des unités de crédit et autres informations de gestion, et ce,
+    d'un système de point de vente (POS) vers un compteur à paiement conforme à la
+    STS dans un système de support de jeton unidirectionnel. À l'origine, elle est
+    destinée à être appliquée avec les compteurs à paiement d'électricité simple tarif
+    utilisant des jetons basés sur l'énergie. Mais elle peut également être appliquée
+    aux systèmes de jeton basés sur la monnaie et pour les services autres que l'électricité.
+    Elle est destinée à être utilisée par les constructeurs de compteurs à paiement
+    tenus d'accepter les jetons conformes à la STS et aussi par les constructeurs
+    de systèmes POS tenus de produire des jetons conformes à la STS. Elle est à lire
+    conjointement avec la série IEC 62055-5x. Cette deuxième édition annule et remplace
+    la première édition, parue en 2007. Cette édition constitue une révision technique.
+    Cette édition inclut les modifications techniques suivantes:<br />\r\n- Le jeton
+    de Classe 2 est étendu de façon à inclure le transfert de crédit pour le gaz et
+    l'eau et les extensions associées dans les jetons display/test.<br />\r\n- MfrCode
+    est étendu de 2 à 4 chiffres.<br />\r\n- Trois dates de référence d'identificateur
+    de jeton sont définies pour des changements de clé plus fréquents avec des procédures
+    de passage par zéro de l'identificateur de jeton (TID).<br />\r\n- Un code de
+    bonnes pratiques pour la gestion des changements de clé par passage par zéro de
+    l'identificateur de jeton (TID) en association avec l'ensemble révisé de dates
+    de référence.<br />\r\n- Des clarifications et des exemples supplémentaires ont
+    été introduits."
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 35.100.70
+    text: Application layer
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '20942'
+  price_code: iec:M

@@ -1,0 +1,137 @@
+---
+id: IEC62056312013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-1: Use of local area networks on twisted pair with carrier signalling'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 3-1:
+    Use of local area networks on twisted pair with carrier signalling'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange des données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-1: Utilisation des réseaux locaux sur paire torsadée avec signal
+    de porteuse'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange des données de comptage de l''électricité - La suite DLMS/COSEM
+    - Partie 3-1: Utilisation des réseaux locaux sur paire torsadée avec signal de
+    porteuse'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/6399
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62056-3-1{ed1.0}b.pdf
+docidentifier:
+- content: IEC 62056-3-1:2013
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62056-3-1:2013-08:::'
+  type: URN
+date:
+- type: published
+  at: '2013-08-20'
+- type: stable-until
+  at: '2021-07-07'
+- type: obsoleted
+  at: '2021-07-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62056-3-1:2013 describes three profiles for local bus data exchange with stations either energized or not. For non-energized stations, the bus supplies energy for data exchange. Three different profiles are supported:<br />
+    - base profile;<br />
+    - profile with DLMS;<br />
+    - profile with DLMS/COSEM. The three profiles use the same physical layer and they are fully compatible, meaning that devices implementing any of these profiles can be operated on the same bus. The transmission medium is twisted pair using carrier signalling and it is known as the Euridis Bus. This first edition cancels and replaces the first edition of IEC 62056-31, issued in 1999, and constitutes a technical revision. The main technical changes are:<br />
+    - addition of a profile which makes use of the IEC 62056 DLMS/COSEM Application layer and COSEM object model,<br />
+    - review of the data link layer which is split into two parts: a pure Data Link layer; a "Support Manager" entity managing the communication media;<br />
+    - ability to negotiate the communication speed, bringing baud rate up to 9 600 bauds.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62056-3-1:2013 décrit trois profils pour échange de données par bus en local avec des stations alimentées ou non en énergie. Pour les stations télé-alimentées, le bus fournit l'énergie pour l'échange des données. Trois différents profils sont supportés:<br />
+    - Profil de base;<br />
+    - Profil avec DLMS;<br />
+    - Profil avec DLMS/COSEM. Les trois profils utilisent la même couche physique et ils sont entièrement compatibles, c'est-à-dire que des équipements ayant implémenté l'un de ces profils peuvent opérer sur le même bus. Le moyen de transmission est la paire torsadée par signal de porteuse et connue sous le nom de Bus Euridis. Cette première édition annule et remplace la première édition de la CEI 62056-31, parue en 1999, dont elle constitue une révision technique. Les modifications techniques sont:<br />
+    - Ajout d'un profil qui permet l'utilisation de la couche Application et la modélisation objet DLMS/COSEM de la CEI 62056,<br />
+    - Révision de la couche liaison de données qui est maintenant scindée en deux parties: la première est intégralement une couche de liaison de données; la dernière, nommée "Gestion du Support", gère le média de communication;<br />
+    - Capacité de négocier la vitesse de communication, portant la vitesse maximale jusqu'à 9 600 bauds.
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '17592'
+  price_code: iec:M

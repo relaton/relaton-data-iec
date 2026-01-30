@@ -1,0 +1,129 @@
+---
+id: ISOIECTR247102005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Radio frequency identification for item management
+  type: title-main
+- language: en
+  script: Latn
+  content: Elementary tag licence plate functionality for ISO/IEC 18000 air interface
+    definitions
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - Radio frequency identification for item management
+    - Elementary tag licence plate functionality for ISO/IEC 18000 air interface definitions
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11110
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr24710{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC TR 24710:2005
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:24710:2005-10:tr::'
+  type: URN
+date:
+- type: published
+  at: '2005-10-27'
+- type: stable-until
+  at: '2017-11-30'
+- type: obsoleted
+  at: '2017-11-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 18000 defines the operation of radio frequency identification (RFID) air interfaces for item identification and management. </p>
+    <p>ISO/IEC 18000 has been designed to encompass a full range of data capture and carrier functionality. Both read and write operations are enabled, and the interfaces can efficiently support both simple and complex data transactions. </p>
+    <p>This approach facilitates user implementation by providing consistency between differing types of RFID data transactions. Equally it provides architecture to guide future RFID development whilst maintaining the backward compatibility necessary to sustain market confidence.</p>
+    <p>Recent developments in the design and management of distributed databases holding item level information have focused attention on 'identification data element' operation of RFID systems. In this application, the RFID tag carries only sufficient data to permit reference to attribute information held elsewhere. Typically this data does not change during the validity of the 'licence' and is of relatively low bit count.</p>
+    <p>ISO/IEC TR 24710:2005 has been prepared to assist users intending to implement ISO/IEC 18000 RFID air interface standards, with particular focus on so-called elementary tags, i.e. tags possessing limited memory - typically but not exclusively 256 bits or less - and lacking write capability (but not excluding WORM devices).</p>
+    <p>The annexes to ISO/IEC TR 24710:2005 describe the implementation of ISO/IEC 18000-2, -3, -4, -6 and -7 in such an application. </p>
+    <p>Users are strongly advised to refer to ISO/IEC 15961 and ISO/IEC 15962 for a full exposition of the management issues relating to data strings used for identification data element purposes. </p>
+    <p>Bodies external to ISO also specify identification data element length and structure for particular applications.</p>
+    <p>ISO/IEC TR 24710:2005 defines for each of ISO/IEC 18000-2, -3, -4, -6 and -7, and, where relevant, for each Mode within each part, a transaction that achieves an elementary tag 'identification data element' for item identification and management. </p>
+    <p>The transaction uses the existing air interface protocols defined in the corresponding parts of ISO/IEC 18000 or a subset thereof.</p>
+status:
+  stage:
+    content: WITHDRAWN
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technical-report
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:B

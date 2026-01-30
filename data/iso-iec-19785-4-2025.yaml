@@ -1,0 +1,139 @@
+---
+id: ISOIEC1978542025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Common Biometric Exchange Formats Framework
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Security block format specifications'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Common Biometric Exchange Formats Framework -
+    Part 4: Security block format specifications'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Cadre de formats d'échange biométriques communs
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4: Spécifications de format de bloc de sécurité'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Cadre de formats d''échange biométriques
+    communs - Partie 4: Spécifications de format de bloc de sécurité'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/108768
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec19785-4{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 19785-4:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19785-4:2025-07:::'
+  type: URN
+date:
+- type: published
+  at: '2025-07-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document specifies security block (SB) formats (see ISO/IEC 19785-1) registered in accordance with ISO/IEC 19785-2 as formats defined by the Common Biometric Exchange Formats Framework (CBEFF) biometric organization ISO/IEC JTC 1/SC 37. This document also specifies registered SB format identifiers.</span></p>
+    <p class="Note"><span lang="EN-GB">NOTE<span style="mso-tab-count: 1;">            </span>The SB format identifier is recorded in the standard biometric header (SBH) of a patron format (or defined by that patron format as the only available SB format).</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">The general-purpose SB format specifies whether the biometric data block (BDB) is encrypted or the SBH and BDB have integrity applied (or both). The general-purpose SB format can include ACBio instances (see ISO/IEC 24761). This SB provides all necessary security parameters, including those used for encryption or integrity.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document does not restrict the algorithms and parameters used for encryption or integrity, but it provides for the recording of such algorithms and parameter values.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document does not cover profiling to determine what algorithms and parameter ranges can be used by the generator of an SB for a particular application area, and hence what algorithms and parameter ranges have to be supported by the user of an SB.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">The second SB format is more limited but simpler. In particular, it cannot contain ACBio instances and does not support encryption of the BDB.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">The general-purpose SB format in XML provides for specification of whether the BDB is encrypted or the SBH and BDB have integrity applied (or both).</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:D

@@ -1,0 +1,147 @@
+---
+id: ISOIEC2300992025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Dynamic adaptive streaming over HTTP (DASH)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Redundant encoding and packaging for segmented live media (REaP)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Dynamic adaptive streaming over HTTP (DASH) -
+    Part 9: Redundant encoding and packaging for segmented live media (REaP)'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Diffusion adaptative dynamique sur HTTP (DASH)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 9: Encodage et empaquetage redondant des segments médias en direct
+    (REaP)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Diffusion adaptative dynamique sur HTTP
+    (DASH) - Partie 9: Encodage et empaquetage redondant des segments médias en direct
+    (REaP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/107438
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec23009-9{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 23009-9:2025
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23009-9:2025-05:::'
+  type: URN
+date:
+- type: published
+  at: '2025-05-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p class="MsoBodyText"><span lang="EN-GB">This document specifies formats for redundant encoding and packaging of live segmented media (REaP).</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document specifies:</span></p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">a)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">formats for Interchangeable Live Media Ingest and stream announcement;</span></p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">b)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">format and segmentation strategy to generate interchangeable segments;</span></p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">c)<span style="font: 7.0pt 'Times New Roman';">        </span></span></span><!--[endif]--><span lang="EN-GB">formats for generating interchangeable media presentation descriptions or playlists;</span></p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">d)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">formats for efficient cloud storage access and archiving of live segmented media.</span></p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">e)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">a protocol for communicating media descriptor files and fragmented media between encoders and packagers.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">REaP enables the following:</span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">1)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">failover support and rejoining of distributed components in the workflow (see Annex E);</span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">2)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">workflows for live with dynamic ad insertion (DAI) with a decisioning system.</span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">3)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">workflows with digital rights management (DRM) and content protection.</span></p>
+    <p class="ListNumber1" style="mso-list: l1 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">4)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">Mixing file and live inputs.</span></p>
+    <p class="MsoBodyText"><span lang="EN-GB">This document specifies additional constraint to formats defined in ISO/IEC 14496-12, ISO/IEC 23009-1, ISO/IEC 23000-19 and IETF RFC 8216.</span></p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:E

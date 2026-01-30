@@ -1,0 +1,144 @@
+---
+id: IEC611585182010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-18: Application layer service definition -- Type 18 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 5-18:
+    Application layer service definition -- Type 18 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5-18: Définition des services des couches d’application -- Eléments
+    de type 18'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain
+    - Partie 5-18: Définition des services des couches d’application -- Eléments de
+    type 18'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/4671
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-5-18{ed2.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61158-5-18{ed2.0}b.pdf
+docidentifier:
+- content: IEC 61158-5-18:2010
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61158-5-18:2010-08:::'
+  type: URN
+date:
+- type: published
+  at: '2010-08-05'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 61158-5-18:2010 specifies the structure and services of the type 18
+    IEC fieldbus Application Layer, in conformance with the OSI Basic Reference Model
+    (ISO/IEC 7498) and the OSI Application Layer Structure (ISO/IEC 9545). This second
+    edition cancels and replaces the first edition published in 2007 and constitutes
+    a technical revision. The main change with respect to the previous edition are
+    Editorial corrections and Addition of cyclic data segmenting.
+- language: fr
+  script: Latn
+  content: "L'IEC 61158-5-18:2010 fournit des éléments communs pour les communications
+    en temps critique ou non entre des programmes d’application dans un environnement
+    et avec un matériel d’automatisation propres aux bus de terrain de type 18. On
+    utilise le terme \"prioritaire\" pour traduire la présence d’une fenêtre temporelle,
+    à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées
+    soient terminées avec un niveau de certitude défini. Si les actions spécifiées
+    ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les
+    actions risquent de connaître une défaillance, avec les risques que cela comporte
+    pour les équipements, les installations et éventuellement la vie humaine.<br />\r\nLa
+    présente partie de la norme IEC 61158 définit de manière abstraite le service,
+    visible par un observateur externe, assuré par la couche Application de bus de
+    terrain de type 18, en termes<br />\r\na) d’un modèle abstrait pour la définition
+    des ressources d’application (objets) qui peuvent être manipulées par les utilisateurs
+    par l’intermédiaire de l’utilisation du service FAL,<br />\r\nb) des actions primitives
+    et des événements du service;<br />\r\nc) des paramètres associés à chaque action
+    et événement primitif, et de la forme qu’ils peuvent prendre; et<br />\r\nd) des
+    interrelations entre ces actions et événements, et de leurs séquences valides."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18656'
+  price_code: iec:H

@@ -1,0 +1,135 @@
+---
+id: ISOIEC1544452021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: JPEG 2000 image coding system
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Reference software'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG 2000 image coding system - Part 5: Reference
+    software'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/71828
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec15444-5{ed3.0}en.pdf
+docidentifier:
+- content: ISO/IEC 15444-5:2021
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:15444-5:2021-10:::'
+  type: URN
+date:
+- type: published
+  at: '2021-10-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>Rec. ITU-T T.800 | ISO/IEC 15444-1 defines a set of lossless and lossy compression methods for coding continuous-tone, bi-level, greyscale or colour digital still images. This Recommendation | International Standard provides three independently created software reference implementations of Rec. ITU-T T.800 | ISO/IEC 15444-1, in order to assist implementers of Rec. ITU-T T.800 | ISO/IEC 15444-1 in testing and understanding its content. The packages are JASPER, JJ2000 and OPENJPEG.</p>
+    <p>This Recommendation | International Standard also provides an independently created software reference implementation of Rec. ITU-T T.814 | ISO/IEC 15444-15, which specifies a high-throughput (HT) block coding algorithm that can be used in place of the block coding algorithm of Rec. ITU-T T.800 | ISO/IEC 15444-1, in order to assist implementers of Rec. ITU-T T.814 | ISO/IEC 15444-15 in testing and understanding its content. The package is TT.</p>
+    <p>This Recommendation | International Standard additionally provides an independently created software reference implementation for parsing of a JP2 file format specified in Rec. ITU-T T.800 | ISO/IEC 15444-1 and a JPH file format specified in Rec. ITU-T T.814 | ISO/IEC 15444-15, The package is Codestream-parser.</p>
+    <p>This Recommendation | International Standard does not define any additional part of the JPEG 2000 image coding system.</p>
+    <p>Each version of the J2K reference software contains source code, which can be compiled to provide the following functionality:</p>
+    <p>–      Transcoding from selected, widely available image formats into a JPEG 2000 codestream.</p>
+    <p>–      Transcoding from selected, widely available image formats into the JP2 file format.</p>
+    <p>–      Selection of a wide range of JPEG 2000 encoding options (as documented in each reference software).</p>
+    <p>–      Decoding from a JPEG 2000 codestream to a range of selected widely available image formats.</p>
+    <p>–      Processing of a JP2 file to extract a JPEG 2000 codestream for decoding and conversion to a range of selected widely available image formats.</p>
+    <p>–      The ability to extract metadata from a JP2 file, including the contents of the Image Header box and the colour space.</p>
+    <p>–      The decoding of JP2 files that use the three-component matrix-based form of the restricted ICC method for the specification of colour space and the conversion of the decoded image data to the sRGB colour space for display, including limited upsampling of all decoded components to the same resolution.</p>
+    <p>–      The decoding of JP2 files that use the monochrome form of the restricted ICC method for the specification of colour space and the conversion of the decoded image data to the sRGB based greyscale space as defined within the JP2 file format.</p>
+    <p>–      The decoding of JP2 files that use the sYCC colour space and the conversion of the decoded image data to the sRGB colour space for display, including upsampling of all decoded components to the same resolution.</p>
+    <p>–      Some additional tools to help with evaluation and testing.</p>
+    <p>The TT HTJ2K reference software contains source code, which can be compiled to provide the following functionality:</p>
+    <p>–      Decoding from a HTJ2K codestream to a range of selected widely available image formats.</p>
+    <p>The codestream-parser reference software contains source code, which can provide the following functionality:</p>
+    <p>–      Parsing of JP2 file format;</p>
+    <p>–      Parsing of JPH file format.</p>
+    <p>The reference software is intended for use as a testing and validation tool for other implementations of JPEG 2000, and to help in the understanding of Rec. ITU-T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.814 | ISO/IEC 15444-15.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:ZZ

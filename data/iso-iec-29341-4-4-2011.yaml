@@ -1,0 +1,132 @@
+---
+id: ISOIEC29341442011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: UPnP Device Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-4: Audio Video Device Control Protocol -- Level 2 -- Audio Video
+    Data Structures'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - UPnP Device Architecture - Part 4-4: Audio Video
+    Device Control Protocol -- Level 2 -- Audio Video Data Structures'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11484
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29341-4-4{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29341-4-4:2011
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29341-4-4:2011-09:::'
+  type: URN
+date:
+- type: published
+  at: '2011-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: ISO/IEC 29341-4-4:2011(E) defines the layout of the AV Datastructure Template
+    (AVDT) XML document. An AVDT document describes the format requirements and restrictions
+    of various data structures used within the UPnP AV specifications. Its purpose
+    is to enable each device to describe (at run-time) its particular variation of
+    these AV data structures. AVDT documents allow users of AV data structures (e.g.
+    UPnP control points) to reduce the number of instances of those data structures
+    that comply with the service specification but are not compatible with the device's
+    particular capabilities. The ultimate goal of an AVDT document is to reduce those
+    error conditions that are caused by control points creating instances of a data
+    structure that exceed the static (known) capabilities of the device. Unfortunately,
+    the AVDT mechanism will never eliminate all preventable error conditions, but
+    it will help to reduce them by giving the client more information about the device's
+    particular capabilities. This International Standard replaces ISO/IEC 29341-4-4,
+    first edition, published in 2008, and constitutes a technical revision.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '18796'
+  price_code: iso:ZZ

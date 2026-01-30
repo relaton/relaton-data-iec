@@ -1,0 +1,154 @@
+---
+id: IEC6232545142017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Framework for energy market communications
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 451-4: Settlement and reconciliation business process, contextual
+    and assembly models for European market'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Framework for energy market communications - Part 451-4: Settlement and
+    reconciliation business process, contextual and assembly models for European market'
+  type: main
+- language: fr
+  script: Latn
+  content: Cadre pour les communications pour le marché de l'énergie
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 451-4: Processus métier de règlement des écarts et de réconciliation,
+    modèles contextuels et modèles d’assemblage pour le marché européen'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Cadre pour les communications pour le marché de l''énergie - Partie 451-4:
+    Processus métier de règlement des écarts et de réconciliation, modèles contextuels
+    et modèles d’assemblage pour le marché européen'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/29116
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62325-451-4{ed2.0}en.pdf
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62325-451-4{ed2.0}b.pdf
+docidentifier:
+- content: IEC 62325-451-4:2017
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62325-451-4:2017-04:::'
+  type: URN
+date:
+- type: published
+  at: '2017-04-11'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62325-451-4:2017 specifies a package for the settlement and reconciliation
+    business process and the associated document contextual model, assembly model
+    and XML schema for use within European style markets. The relevant aggregate core
+    components (ACCs) defined in IEC 62325-351 have been contextualised into aggregated
+    business information entities (ABIEs) to satisfy the requirements of this business
+    process. The contextualised ABIEs have been assembled into the relevant document
+    contextual models. Related assembly models and XML schema for the exchange of
+    information between market participants are automatically generated from the assembled
+    document contextual models.<br />\r\nThis part of IEC 62325 provides a uniform
+    layout for the transmission of aggregated data in order to settle the electricity
+    market. It is however not the purpose of this document to define the formula to
+    be taken into account to settle or reconcile a market. The purpose of this document
+    is only to enable the information exchange necessary to carry out the computation
+    of settlement and reconciliation.<br />\r\nThe settlement process or reconciliation
+    process is the way to compute the final position of each market participant as
+    well as its imbalance amounts.<br />\r\nThis new edition includes the following
+    significant technical changes with respect to the previous edition:<br />\r\n-
+    removal of the attributes “quantity” and “secondary quantity” of the class “Point”;<br
+    />\r\n- introduction of the classes “Quantity” and \"Reason\" from IEC 62351-351
+    UML package."
+- language: fr
+  script: Latn
+  content: "IEC 62325-451-4:2017 spécifie un paquetage pour les processus métier de
+    règlement des écarts et de réconciliation et le modèle contextuel de document,
+    modèle d'assemblage et schéma XML associés à utiliser sur les marchés de style
+    européen.<br />\r\nLes composants de base agrégés (ACC, Aggregate core components)
+    pertinents définis dans l’IEC 62325-351 ont été contextualisés en entités d’information
+    métier agrégées (ABIE – aggregated business information entities) afin de satisfaire
+    aux exigences de ce processus métier. Les ABIE contextualisées ont été assemblées
+    dans les modèles contextuels de document pertinents. Des modèles d'assemblage
+    et un schéma XML associés pour l'échange d’informations entre les participants
+    au marché sont générés automatiquement à partir des modèles contextuels de document
+    assemblés.<br />\r\nLa présente partie de l’IEC 62325 fournit un format uniforme
+    pour la transmission des données agrégées en vue de régler le marché de l’électricité.
+    Le présent document n'a cependant pas pour objet de définir les formules à prendre
+    en compte pour le règlement des écarts ou la réconciliation d’un marché. Il a
+    seulement pour objet de permettre l’échange d’informations nécessaires au calcul
+    relatif au règlement des écarts et de réconciliation.<br />\r\nLe processus de
+    règlement des écarts ou le processus de réconciliation permet de calculer la position
+    finale de chaque participant au marché ainsi que ses montants de déséquilibre.<br
+    />\r\nCette deuxième édition annule et remplace la première édition parue en 2014.
+    Cette édition constitue une révision technique.<br />\r\nCette édition inclut
+    les modifications techniques majeures suivantes par rapport à l'édition précédente:<br
+    />\r\n- Retrait des attributs « quantity » et « secondary quantity » de la classe
+    « Point »;<br />\r\n- Introduction de la classe « Quantity » et « Reason » du
+    paquetage UML de l’IEC 62351-351."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '23572'
+  price_code: iec:K

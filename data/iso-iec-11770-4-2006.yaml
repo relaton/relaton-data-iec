@@ -1,0 +1,120 @@
+---
+id: ISOIEC1177042006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Key management -- Part 4: Mechanisms based on weak secrets'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Key management -- Part
+    4: Mechanisms based on weak secrets'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9670
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec11770-4{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 11770-4:2006
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:11770-4:2006-05:::'
+  type: URN
+date:
+- type: published
+  at: '2006-05-04'
+- type: stable-until
+  at: '2017-11-17'
+- type: obsoleted
+  at: '2017-11-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>ISO/IEC 11770-4:2006 defines key establishment mechanisms based on weak secrets, i.e., secrets that can be readily memorized by a human, and hence secrets that will be chosen from a relatively small set of possibilities. It specifies cryptographic techniques specifically designed to establish one or more secret keys based on a weak secret derived from a memorized password, while preventing off-line brute-force attacks associated with the weak secret. More specifically, these mechanisms are designed to achieve one of the following three goals.</p>
+    <ul><li><b>Balanced password-authenticated key agreement: </b>Establish one or more shared secret keys between two entities that share a common weak secret. In a balanced password-authenticated key agreement mechanism, the shared secret keys are the result of a data exchange between the two entities, the shared secret keys are established if and only if the two entities have used the same weak secret, and neither of the two entities can predetermine the values of the shared secret keys.</li><li><b>Augmented password-authenticated key agreement:</b> Establish one or more shared secret keys between two entities <i>A</i> and <i>B</i>, where <i>A</i> has a weak secret and <i>B</i> has verification data derived from a one-way function of <i>A</i>'s weak secret. In an augmented password-authenticated key agreement mechanism, the shared secret keys are the result of a data exchange between the two entities, the shared secret keys are established if and only if the two entities have used the weak secret and the corresponding verification data, and neither of the two entities can predetermine the values of the shared secret keys. </li><li><b>Password-authenticated key retrieval:</b> Establish one or more secret keys for an entity, <i>A</i>, associated with another entity, <i>B</i>, where <i>A</i> has a weak secret and <i>B</i> has a strong secret associated with <i>A</i>'s weak secret. In an authenticated key retrieval mechanism, the secret keys, retrievable by <i>A </i>(not necessarily derivable by <i>B</i>), are the result of a data exchange between the two entities, and the secret keys are established if and only if the two entities have used the weak secret and the associated strong secret. However, although <i>B</i>'s strong secret is associated with <i>A</i>'s weak secret, the strong secret does not (in itself) contain sufficient information to permit either the weak secret or the secret keys established in the mechanism to be determined.</li></ul>
+status:
+  stage:
+    content: REVISED
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: international-standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  price_code: iso:B
