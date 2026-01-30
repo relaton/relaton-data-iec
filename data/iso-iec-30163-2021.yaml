@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -70,16 +91,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 30163:2021 specifies
-    the system requirements of an Internet of Things (IoT)&#x2F;Sensor Network (SN)
-    technology-based platform for chattel asset monitoring supporting financial services,
-    including:</br>\r\n- System infrastructure that describes functional components;</br>\r\n-
-    System and functional requirements during the entire chattel asset management
-    process, including chattel assets in transition, in&#x2F;out of warehouse, storage,
-    mortgage, etc.;</br>\r\n- Performance requirements and performance specifications
-    of each functional component;</br>\r\n- Interface definition of the integrated
-    platform system.</br>\r\nThis document is applicable to the design and development
-    of IoT&#x2F;SN system for chattel asset monitoring supporting financial services."
+  content: "ISO/IEC 30163:2021 specifies the system requirements of an Internet of
+    Things (IoT)/Sensor Network (SN) technology-based platform for chattel asset monitoring
+    supporting financial services, including:<br />\r\n- System infrastructure that
+    describes functional components;<br />\r\n- System and functional requirements
+    during the entire chattel asset management process, including chattel assets in
+    transition, in/out of warehouse, storage, mortgage, etc.;<br />\r\n- Performance
+    requirements and performance specifications of each functional component;<br />\r\n-
+    Interface definition of the integrated platform system.<br />\r\nThis document
+    is applicable to the design and development of IoT/SN system for chattel asset
+    monitoring supporting financial services."
 status:
   stage:
     content: PUBLISHED
@@ -116,6 +137,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -70,12 +91,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 30179:2023 specifies
-    the Internet of Things system for ecological environment monitoring in terms of
-    the following:</br>\r\n– system infrastructure and system entities of the IoT
-    system for ecological environment monitoring for natural entities such as air,
-    water, soil, living organisms; and</br>\r\n– the general requirements of the IoT
-    system for ecological environment monitoring"
+  content: "ISO/IEC 30179:2023 specifies the Internet of Things system for ecological
+    environment monitoring in terms of the following:<br />\r\n– system infrastructure
+    and system entities of the IoT system for ecological environment monitoring for
+    natural entities such as air, water, soil, living organisms; and<br />\r\n– the
+    general requirements of the IoT system for ecological environment monitoring"
 status:
   stage:
     content: PUBLISHED
@@ -112,6 +132,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

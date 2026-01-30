@@ -43,6 +43,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 113
+      identifier:
+      - content: '113'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -52,11 +73,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO TS 22292:2021 This document provides
-    guidance for sample preparation, data acquisition by transmission electron microscopy,
-    data processing, and three-dimensional image reconstruction to measure size and
-    shape parameters of nano-objects on rod-shaped supports. The method is applicable
-    to samples dispersed on or within an electron-transparent rod-shaped support.
+  content: ISO TS 22292:2021 This document provides guidance for sample preparation,
+    data acquisition by transmission electron microscopy, data processing, and three-dimensional
+    image reconstruction to measure size and shape parameters of nano-objects on rod-shaped
+    supports. The method is applicable to samples dispersed on or within an electron-transparent
+    rod-shaped support.
 status:
   stage:
     content: PUBLISHED
@@ -81,6 +102,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-specification
+  flavor: iec
   ics:
   - code: '07.120'
     text: Nanotechnologies

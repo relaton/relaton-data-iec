@@ -57,6 +57,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -66,10 +87,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 30161-2:2023 specifies
-    the following items for the transport interoperability between nodal points in
-    the IoT data exchange platform (IoT DEP):</br>\r\n– requirements;</br>\r\n– functional
-    blocks;</br>\r\n– operation mechanism."
+  content: "ISO/IEC 30161-2:2023 specifies the following items for the transport interoperability
+    between nodal points in the IoT data exchange platform (IoT DEP):<br />\r\n– requirements;<br
+    />\r\n– functional blocks;<br />\r\n– operation mechanism."
 status:
   stage:
     content: PUBLISHED
@@ -106,6 +126,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

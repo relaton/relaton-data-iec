@@ -63,6 +63,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -72,10 +93,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 30100-2:2016(E) specifies
-    the general information model and architecture for managing the resources in a
-    home network. Home network resources are managed objects that provide home network
-    services. Essential home resources include device, network and service resources.
+  content: ISO/IEC 30100-2:2016(E) specifies the general information model and architecture
+    for managing the resources in a home network. Home network resources are managed
+    objects that provide home network services. Essential home resources include device,
+    network and service resources.
 status:
   stage:
     content: PUBLISHED
@@ -112,6 +133,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

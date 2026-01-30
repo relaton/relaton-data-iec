@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1.2'
 language:
@@ -70,13 +91,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO/IEC TS 29125:2017+AMD1:2020+AMD2:2024
-    CSV This document specifies the use of generic balanced cabling for customer premises,
-    as specified in the ISO/IEC 11801 series, for remote powering of terminal equipment.
-    It provides guidance on new cabling installations and renovations. The customer
-    premises may encompass one of more buildings or may be within a building that
-    contains more than one organization. The cabling may be installed prior to the
-    selection of remote powering equipment or powered terminal equipment.
+  content: ISO/IEC TS 29125:2017+AMD1:2020+AMD2:2024 CSV This document specifies the
+    use of generic balanced cabling for customer premises, as specified in the ISO/IEC
+    11801 series, for remote powering of terminal equipment. It provides guidance
+    on new cabling installations and renovations. The customer premises may encompass
+    one of more buildings or may be within a building that contains more than one
+    organization. The cabling may be installed prior to the selection of remote powering
+    equipment or powered terminal equipment.
 status:
   stage:
     content: PUBLISHED
@@ -113,6 +134,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-specification
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

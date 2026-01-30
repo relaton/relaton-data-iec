@@ -55,6 +55,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/TC 262
+      identifier:
+      - content: '262'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -65,21 +86,29 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    CORRECTED VERSION 2026-01<br /><br />ISO Guide 73:2009 provides the definitions of generic terms related to risk management. It aims to encourage a mutual and consistent understanding of, and a coherent approach to, the description of activities relating to the management of risk, and the use of uniform risk management terminology in processes and frameworks dealing with the management of risk.
-    ISO Guide 73:2009 is intended to be used by:<br />
-    - those engaged in managing risks, <br />
-    - those who are involved in activities of ISO and IEC, and <br />
-    - developers of national or sector-specific standards, guides, procedures and codes of practice relating to the management of risk. For principles and guidelines on risk management, reference is made to ISO 31000:2009.
+  content: "ISO Guide 73:2009 provides the definitions of generic terms related to
+    risk management. It aims to encourage a mutual and consistent understanding of,
+    and a coherent approach to, the description of activities relating to the management
+    of risk, and the use of uniform risk management terminology in processes and frameworks
+    dealing with the management of risk. ISO Guide 73:2009 is intended to be used
+    by:<br />\r\n- those engaged in managing risks,<br />\r\n- those who are involved
+    in activities of ISO and IEC, and<br />\r\n- developers of national or sector-specific
+    standards, guides, procedures and codes of practice relating to the management
+    of risk. For principles and guidelines on risk management, reference is made to
+    ISO 31000:2009."
 - language: fr
   script: Latn
-  content: |-
-    VERSION CORRIGEE 2026-01<br /><br />L'ISO Guide 73:2009 fournit les définitions de termes génériques relatifs au management du risque. Son but est d'encourager une compréhension commune homogène et une approche cohérente de la description des activités relatives au management du risque, ainsi qu'une utilisation uniforme de la terminologie du management du risque dans les processus et cadres organisationnels en rapport avec ce domaine.
-    L'ISO Guide 73:2009 est à l'usage:<br />
-    - des personnes chargées du management des risques,<br />
-    - des personnes impliquées dans les activités de l'ISO et de la CEI, et<br />
-    - des personnes chargées de rédiger des normes, guides, procédures et codes de bonne pratique relatifs au management du risque, soit spécifiques d'un secteur, soit à l'échelle nationale.
-    Concernant les principes et lignes directrices du management du risque, il est fait référence à l'ISO 31000:2009.
+  content: "L'ISO Guide 73:2009 fournit les définitions de termes génériques relatifs
+    au management du risque. Son but est d'encourager une compréhension commune homogène
+    et une approche cohérente de la description des activités relatives au management
+    du risque, ainsi qu'une utilisation uniforme de la terminologie du management
+    du risque dans les processus et cadres organisationnels en rapport avec ce domaine.
+    L'ISO Guide 73:2009 est à l'usage:<br />\r\n- des personnes chargées du management
+    des risques,<br />\r\n- des personnes impliquées dans les activités de l'ISO et
+    de la CEI, et<br />\r\n- des personnes chargées de rédiger des normes, guides,
+    procédures et codes de bonne pratique relatifs au management du risque, soit spécifiques
+    d'un secteur, soit à l'échelle nationale. Concernant les principes et lignes directrices
+    du management du risque, il est fait référence à l'ISO 31000:2009."
 status:
   stage:
     content: PUBLISHED
@@ -104,6 +133,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: guide
+  flavor: iec
   ics:
   - code: '01.120'
     text: Standardization. General rules

@@ -47,6 +47,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 113
+      identifier:
+      - content: '113'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -56,11 +77,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO TS 23302:2021 This document specifies
-    requirements and recommendations for the identification of measurands to characterize
-    nano-objects and their agglomerates and aggregates, and to assess specific properties
-    relevant to the performance of materials that contain them. It provides recommendations
-    for relevant measurement.
+  content: ISO TS 23302:2021 This document specifies requirements and recommendations
+    for the identification of measurands to characterize nano-objects and their agglomerates
+    and aggregates, and to assess specific properties relevant to the performance
+    of materials that contain them. It provides recommendations for relevant measurement.
 status:
   stage:
     content: PUBLISHED
@@ -85,6 +105,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-specification
+  flavor: iec
   ics:
   - code: '07.120'
     text: Nanotechnologies

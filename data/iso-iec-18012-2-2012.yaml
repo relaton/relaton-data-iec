@@ -66,6 +66,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -75,17 +96,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 18012-2:2012(E) specifies
-    a taxonomy and application interoperability model for the interoperability of
-    products in the area of home systems. It also specifies an interoperability framework
-    to allow products from multiple manufacturers to work together in order to provide
-    a specific application. It describes an application process that exists above
-    the OSI reference model (ISO&#x2F;IEC 7498-1) stack, with sufficient detail needed
-    to establish interoperable applications in this domain. It is applicable to: single
-    implementation home electronic system networks, connected devices and applications,
-    multiple implementation home electronic system networks, connected devices and
-    applications, automatically configured devices, manually configured devices and
-    manually configured groups&#x2F;clusters of devices.'
+  content: 'ISO/IEC 18012-2:2012(E) specifies a taxonomy and application interoperability
+    model for the interoperability of products in the area of home systems. It also
+    specifies an interoperability framework to allow products from multiple manufacturers
+    to work together in order to provide a specific application. It describes an application
+    process that exists above the OSI reference model (ISO/IEC 7498-1) stack, with
+    sufficient detail needed to establish interoperable applications in this domain.
+    It is applicable to: single implementation home electronic system networks, connected
+    devices and applications, multiple implementation home electronic system networks,
+    connected devices and applications, automatically configured devices, manually
+    configured devices and manually configured groups/clusters of devices.'
 status:
   stage:
     content: PUBLISHED
@@ -122,6 +142,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

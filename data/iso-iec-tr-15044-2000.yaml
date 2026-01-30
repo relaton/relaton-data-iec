@@ -59,6 +59,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -68,12 +89,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />The home electronic system (HES) provides
-    a common method for interfacing equipment with a variety of home control systems
-    (HCS) such as sensors, actuators, appliances, user interfaces, controllers, switches
-    etc. An HCS is a local area network specialized for residential communications,
-    commonly called home automation. This terminology is applicable to all standards
-    and technical reports dealing with HES.
+  content: The home electronic system (HES) provides a common method for interfacing
+    equipment with a variety of home control systems (HCS) such as sensors, actuators,
+    appliances, user interfaces, controllers, switches etc. An HCS is a local area
+    network specialized for residential communications, commonly called home automation.
+    This terminology is applicable to all standards and technical reports dealing
+    with HES.
 status:
   stage:
     content: PUBLISHED
@@ -110,6 +131,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

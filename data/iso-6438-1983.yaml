@@ -59,6 +59,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 2
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -69,11 +90,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />Contains a set of 60 African graphic
-    characters with their coded representations. Consists of a code table, a legend
-    giving for each character its name and its use, and explanatory notes. The list
-    of African languages in Annex A is for information only and is not part of this
-    document.
+  content: Contains a set of 60 African graphic characters with their coded representations.
+    Consists of a code table, a legend giving for each character its name and its
+    use, and explanatory notes. The list of African languages in Annex A is for information
+    only and is not part of this document.
 status:
   stage:
     content: PUBLISHED
@@ -98,6 +118,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: 35.040.10
     text: Coding of character sets

@@ -64,6 +64,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -73,10 +94,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />This Technical Report acts as an introduction
-    to the concepts used to develop the MICE environmental classification system used
-    in cabling standards developed by ISO&#x2F;IEC. It also gives the sources used
-    to define the boundaries of MICE classifications.
+  content: This Technical Report acts as an introduction to the concepts used to develop
+    the MICE environmental classification system used in cabling standards developed
+    by ISO/IEC. It also gives the sources used to define the boundaries of MICE classifications.
 status:
   stage:
     content: PUBLISHED
@@ -113,6 +133,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

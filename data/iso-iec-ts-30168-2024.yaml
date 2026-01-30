@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -70,10 +91,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO/IEC TS 30168:2024 specifies a
-    generic programming interface for the integration of secure elements within Industrial
-    IoT devices. This includes requirements from industrial usage scenarios and applications.
-    This document also provides guidance for implementation and testing.
+  content: ISO/IEC TS 30168:2024 specifies a generic programming interface for the
+    integration of secure elements within Industrial IoT devices. This includes requirements
+    from industrial usage scenarios and applications. This document also provides
+    guidance for implementation and testing.
 status:
   stage:
     content: PUBLISHED
@@ -110,6 +131,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-specification
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

@@ -58,6 +58,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 22
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '4'
 language:
@@ -120,6 +141,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.060'
     text: Languages used in information technology

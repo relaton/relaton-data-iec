@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -70,12 +91,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO/IEC TR 22417:2017(E) This technical
-    report identifies IoT scenarios and use cases based on real-world applications
-    and requirements. The use cases provide a practical context for considerations
-    on interoperability and standards based on user experience. They also clarify
-    where existing standards can be applied and highlight where standardization work
-    is needed.
+  content: ISO/IEC TR 22417:2017(E) This technical report identifies IoT scenarios
+    and use cases based on real-world applications and requirements. The use cases
+    provide a practical context for considerations on interoperability and standards
+    based on user experience. They also clarify where existing standards can be applied
+    and highlight where standardization work is needed.
 status:
   stage:
     content: PUBLISHED
@@ -112,6 +132,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

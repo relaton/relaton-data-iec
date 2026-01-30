@@ -57,6 +57,25 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SMB
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -66,10 +85,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />This Guide provides strategic principles,
-    derived from market experience, for use by IEC and ISO technical committees and
-    subcommittees working in the industrial automation sector, as well as other bodies
-    within IEC and ISO with interests in the work of these committees.
+  content: This Guide provides strategic principles, derived from market experience,
+    for use by IEC and ISO technical committees and subcommittees working in the industrial
+    automation sector, as well as other bodies within IEC and ISO with interests in
+    the work of these committees.
 status:
   stage:
     content: PUBLISHED
@@ -106,6 +125,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: guide
+  flavor: iec
   ics:
   - code: 25.040.01
     text: Industrial automation systems in general

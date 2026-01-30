@@ -48,6 +48,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 32/SC 32B
+      identifier:
+      - content: '32'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -78,6 +99,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: 29.120.50
     text: Fuses and other overcurrent protection devices

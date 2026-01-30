@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -70,14 +91,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO/IEC TS 30180:2025 specifies the
-    functional requirements of the following items to determine the status of self-quarantine
-    through IoT data interfaces working over a set of hand-held devices, monitoring
-    tag, and a management system:<br />\r\n- functional requirements for monitoring
-    entity and monitoring tag at a self-quarantine place;<br />\r\n- functional requirements
-    for managing entity and proxy managing entity at the management side; and<br />\r\n-
-    functional requirements for the protection of the self-quarantine status and the
-    privacy information."
+  content: "ISO/IEC TS 30180:2025 specifies the functional requirements of the following
+    items to determine the status of self-quarantine through IoT data interfaces working
+    over a set of hand-held devices, monitoring tag, and a management system:<br />\r\n-
+    functional requirements for monitoring entity and monitoring tag at a self-quarantine
+    place;<br />\r\n- functional requirements for managing entity and proxy managing
+    entity at the management side; and<br />\r\n- functional requirements for the
+    protection of the self-quarantine status and the privacy information."
 status:
   stage:
     content: PUBLISHED
@@ -114,6 +134,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-specification
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

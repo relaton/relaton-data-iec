@@ -45,6 +45,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 76
+      identifier:
+      - content: '76'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -54,12 +75,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO 11553-2:2007 specifies the requirements
-    for laser processing devices, as defined in ISO 11553-1, which are hand-held or
-    hand-operated. The purpose of ISO 11553-2:2007 is to draw attention to the particular
-    hazards related to the use of hand-held laser and hand-operated laser processing
-    devices and to prevent personal injury. This includes both the areas of hazard
-    analysis and risk assessment as well as protective measures.
+  content: ISO 11553-2:2007 specifies the requirements for laser processing devices,
+    as defined in ISO 11553-1, which are hand-held or hand-operated. The purpose of
+    ISO 11553-2:2007 is to draw attention to the particular hazards related to the
+    use of hand-held laser and hand-operated laser processing devices and to prevent
+    personal injury. This includes both the areas of hazard analysis and risk assessment
+    as well as protective measures.
 status:
   stage:
     content: PUBLISHED
@@ -84,6 +105,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '13.110'
     text: Safety of machinery

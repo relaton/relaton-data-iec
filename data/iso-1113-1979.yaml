@@ -59,6 +59,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 2
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -69,9 +90,8 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />Provides representation of 7-bit coded
-    character set on punched tape 25,4 mm (1 in) in width. Applicable in conjunction
-    with ISO 646, 1154, 1729.
+  content: Provides representation of 7-bit coded character set on punched tape 25,4
+    mm (1 in) in width. Applicable in conjunction with ISO 646, 1154, 1729.
 status:
   stage:
     content: PUBLISHED
@@ -96,6 +116,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: 35.220.10
     text: Paper cards and tapes

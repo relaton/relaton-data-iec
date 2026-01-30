@@ -54,6 +54,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 48/SC 48B
+      identifier:
+      - content: '48'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -103,6 +124,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: publicly-available-specification
+  flavor: iec
   ics:
   - code: 31.220.10
     text: Plug-and-socket devices. Connectors

@@ -63,6 +63,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -72,11 +93,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO/IEC TR 30172:2023 provides a
-    collection of representative use cases of digital twin applications in a variety
-    of domains, for example, smart manufacturing and smart cities.<br />\r\nThis document
-    is applicable to all types of organization (for example, commercial enterprises,
-    government agencies, and not-for-profit organizations)."
+  content: "ISO/IEC TR 30172:2023 provides a collection of representative use cases
+    of digital twin applications in a variety of domains, for example, smart manufacturing
+    and smart cities.<br />\r\nThis document is applicable to all types of organization
+    (for example, commercial enterprises, government agencies, and not-for-profit
+    organizations)."
 status:
   stage:
     content: PUBLISHED
@@ -113,6 +134,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

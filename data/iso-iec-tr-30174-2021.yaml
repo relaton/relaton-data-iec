@@ -60,6 +60,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -69,13 +90,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC TR 30174:2021(E) describes:</br>\r\n•
-    key features of the socialized IoT systems, e.g. sensing the external physical
-    world, resolving the uncertainties of targets, satisfying users&#x27; demand and
-    providing quality service, etc.;</br>\r\n• socialized attributes, i.e. socialized
-    network, socialized collaboration, and socialized services, which are derived
-    from the key features; and</br>\r\n• guidelines on how to use or apply the socialized
-    attributes in the design and development of IoT systems."
+  content: "ISO/IEC TR 30174:2021(E) describes:<br />\r\n• key features of the socialized
+    IoT systems, e.g. sensing the external physical world, resolving the uncertainties
+    of targets, satisfying users' demand and providing quality service, etc.;<br />\r\n•
+    socialized attributes, i.e. socialized network, socialized collaboration, and
+    socialized services, which are derived from the key features; and<br />\r\n• guidelines
+    on how to use or apply the socialized attributes in the design and development
+    of IoT systems."
 status:
   stage:
     content: PUBLISHED
@@ -112,6 +133,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '33.020'
     text: Telecommunications in general

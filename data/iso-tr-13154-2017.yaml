@@ -47,6 +47,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62D
+      identifier:
+      - content: '62'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -56,11 +77,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO/TR 13154:2017(E) provides general
-    guidelines for the deployment, implementation and operation of a screening thermograph
-    intended to be used for non-invasive febrile temperature screening of individuals
-    under indoor environmental conditions to prevent the spread of infection.<br />\r\nNOTE
-    The equipment standard for screening thermographs is found in IEC 80601-2-59."
+  content: "ISO/TR 13154:2017(E) provides general guidelines for the deployment, implementation
+    and operation of a screening thermograph intended to be used for non-invasive
+    febrile temperature screening of individuals under indoor environmental conditions
+    to prevent the spread of infection.<br />\r\nNOTE The equipment standard for screening
+    thermographs is found in IEC 80601-2-59."
 status:
   stage:
     content: PUBLISHED
@@ -85,6 +106,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: 11.040.55
     text: Diagnostic equipment

@@ -53,6 +53,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62A
+      identifier:
+      - content: '62'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -63,15 +84,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />This document provides guidance on
-    the development, implementation and maintenance of a risk management system for
-    medical devices according to ISO 14971:2019.<br />\r\nThe risk management process
-    can be part of a quality management system, for example one that is based on ISO
-    13485:2016[24], but this is not required by ISO 14971:2019. Some requirements
-    in ISO 13485:2016 (Clause 7 on product realization and 8.2.1 on feedback during
-    monitoring and measurement) are related to risk management and can be fulfilled
-    by applying ISO 14971:2019. See also the ISO Handbook: ISO 13485:2016 - Medical
-    devices - A practical guide."
+  content: "This document provides guidance on the development, implementation and
+    maintenance of a risk management system for medical devices according to ISO 14971:2019.<br
+    />\r\nThe risk management process can be part of a quality management system,
+    for example one that is based on ISO 13485:2016[24], but this is not required
+    by ISO 14971:2019. Some requirements in ISO 13485:2016 (Clause 7 on product realization
+    and 8.2.1 on feedback during monitoring and measurement) are related to risk management
+    and can be fulfilled by applying ISO 14971:2019. See also the ISO Handbook: ISO
+    13485:2016 - Medical devices - A practical guide."
 status:
   stage:
     content: PUBLISHED
@@ -96,6 +116,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: 11.040.01
     text: Medical equipment in general

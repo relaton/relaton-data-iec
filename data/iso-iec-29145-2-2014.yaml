@@ -65,6 +65,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -74,10 +95,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 29145-2:2014(E) specifies
-    the MAC of the WiBEEM (Wireless beacon-enabled energy efficient mesh network)
-    protocol for wireless home network services that supports a low power-consuming
-    wireless mesh network as well as device mobility and QoS.
+  content: ISO/IEC 29145-2:2014(E) specifies the MAC of the WiBEEM (Wireless beacon-enabled
+    energy efficient mesh network) protocol for wireless home network services that
+    supports a low power-consuming wireless mesh network as well as device mobility
+    and QoS.
 status:
   stage:
     content: PUBLISHED
@@ -114,6 +135,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.110'
     text: Networking

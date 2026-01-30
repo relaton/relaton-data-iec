@@ -59,6 +59,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -68,15 +89,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC TR 30167:2021 describes
-    the enabling and driving technologies of underwater communication such as acoustic
-    communication, optical communication, Very Low Frequency (VLF)&#x2F;Extremely,
-    Low Frequency (ELF) communication, and Magnetic Fusion Communication (MFC). This
-    document also highlights:</br>\r\n– technical overview of different communication
-    technologies;</br>\r\n– characteristics of different communication technologies;</br>\r\n–
-    trends of different communication technologies;</br>\r\n– applications of each
-    communication technology;</br>\r\n– benefits and challenges of each communication
-    technology."
+  content: "ISO/IEC TR 30167:2021 describes the enabling and driving technologies
+    of underwater communication such as acoustic communication, optical communication,
+    Very Low Frequency (VLF)/Extremely, Low Frequency (ELF) communication, and Magnetic
+    Fusion Communication (MFC). This document also highlights:<br />\r\n– technical
+    overview of different communication technologies;<br />\r\n– characteristics of
+    different communication technologies;<br />\r\n– trends of different communication
+    technologies;<br />\r\n– applications of each communication technology;<br />\r\n–
+    benefits and challenges of each communication technology."
 status:
   stage:
     content: PUBLISHED
@@ -113,6 +133,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '33.020'
     text: Telecommunications in general

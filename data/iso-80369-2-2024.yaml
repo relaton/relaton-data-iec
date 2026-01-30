@@ -62,6 +62,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62D
+      identifier:
+      - content: '62'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -72,43 +93,42 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />This document specifies the design
-    and dimensions for two small-bore connectors intended to be used for connections
-    in respiratory applications of medical devices and accessories. One connector
-    (R1) is intended for use on medical devices and accessories subjected to pressures
-    up to 15 kPa (e.g. a breathing system). The other connector (R2) is intended for
-    use on medical devices and accessories subjected to higher pressures between 15
-    kPa and 600 kPa (e.g. oxygen therapy tubing).<br />\r\nNOTE 1 The pressure is
-    related to pressure available at the source to which the medical device is connected.<br
-    />\r\nNOTE 2 The intended application does not preclude the use of other connectors
-    on medical devices or accessories within this application.<br />\r\nNOTE 3 Requirements
-    for alternative connectors for this intended application are specified in ISO
-    80369-1.<br />\r\nThis document does not specify requirements for the medical
-    devices or accessories that use these connectors. Such requirements are given
-    in device-specific standards.<br />\r\nNOTE 4 If a device-specific standard does
-    not exist, the performance and material requirements specified in ISO 80369-1
-    can be used as guidance."
+  content: "This document specifies the design and dimensions for two small-bore connectors
+    intended to be used for connections in respiratory applications of medical devices
+    and accessories. One connector (R1) is intended for use on medical devices and
+    accessories subjected to pressures up to 15 kPa (e.g. a breathing system). The
+    other connector (R2) is intended for use on medical devices and accessories subjected
+    to higher pressures between 15 kPa and 600 kPa (e.g. oxygen therapy tubing).<br
+    />\r\nNOTE 1 The pressure is related to pressure available at the source to which
+    the medical device is connected.<br />\r\nNOTE 2 The intended application does
+    not preclude the use of other connectors on medical devices or accessories within
+    this application.<br />\r\nNOTE 3 Requirements for alternative connectors for
+    this intended application are specified in ISO 80369-1.<br />\r\nThis document
+    does not specify requirements for the medical devices or accessories that use
+    these connectors. Such requirements are given in device-specific standards.<br
+    />\r\nNOTE 4 If a device-specific standard does not exist, the performance and
+    material requirements specified in ISO 80369-1 can be used as guidance."
 - language: fr
   script: Latn
-  content: "VERSION CORRIGEE 2026-01<br /><br />ISO 80369-2:2024 Le présent document
-    spécifie la conception et les dimensions de deux raccords de petite taille destinés
-    à être utilisés pour des raccordements de dispositifs médicaux et d'accessoires
-    dans le cadre d'applications respiratoires. Le premier raccord (R1) est destiné
-    à être utilisé sur des dispositifs médicaux et des accessoires soumis à des pressions
-    allant jusqu'à 15 kPa (par exemple, système respiratoire). Le second raccord (R2)
-    est destiné à être utilisé sur des dispositifs médicaux et des accessoires soumis
-    à des pressions plus élevées comprises entre 15 kPa et 600 kPa (par exemple, des
-    tuyaux d'oxygénothérapie).<br />\r\nNOTE 1 La pression est fonction de la pression
-    disponible au niveau de la source à laquelle le dispositif médical est raccordé.<br
-    />\r\nNOTE 2 L'application prévue n'exclut pas l'utilisation d'autres raccords
-    sur les dispositifs médicaux ou les accessoires relevant de cette application.<br
-    />\r\nNOTE 3 Les exigences relatives aux raccords alternatifs pour cette application
-    prévue sont spécifiées dans l'ISO 80369-1.<br />\r\nLe présent document ne spécifie
-    pas d'exigences quant aux dispositifs médicaux ou aux accessoires sur lesquels
-    ces raccords sont utilisés. Ces exigences sont précisées dans les normes spécifiques
-    aux dispositifs.<br />\r\nNOTE 4 S'il n'existe pas de norme spécifique au dispositif,
-    les exigences relatives aux performances et aux matériaux spécifiées dans l'ISO
-    80369-1 peuvent être utilisées à titre de recommandations."
+  content: "ISO 80369-2:2024 Le présent document spécifie la conception et les dimensions
+    de deux raccords de petite taille destinés à être utilisés pour des raccordements
+    de dispositifs médicaux et d'accessoires dans le cadre d'applications respiratoires.
+    Le premier raccord (R1) est destiné à être utilisé sur des dispositifs médicaux
+    et des accessoires soumis à des pressions allant jusqu'à 15 kPa (par exemple,
+    système respiratoire). Le second raccord (R2) est destiné à être utilisé sur des
+    dispositifs médicaux et des accessoires soumis à des pressions plus élevées comprises
+    entre 15 kPa et 600 kPa (par exemple, des tuyaux d'oxygénothérapie).<br />\r\nNOTE
+    1 La pression est fonction de la pression disponible au niveau de la source à
+    laquelle le dispositif médical est raccordé.<br />\r\nNOTE 2 L'application prévue
+    n'exclut pas l'utilisation d'autres raccords sur les dispositifs médicaux ou les
+    accessoires relevant de cette application.<br />\r\nNOTE 3 Les exigences relatives
+    aux raccords alternatifs pour cette application prévue sont spécifiées dans l'ISO
+    80369-1.<br />\r\nLe présent document ne spécifie pas d'exigences quant aux dispositifs
+    médicaux ou aux accessoires sur lesquels ces raccords sont utilisés. Ces exigences
+    sont précisées dans les normes spécifiques aux dispositifs.<br />\r\nNOTE 4 S'il
+    n'existe pas de norme spécifique au dispositif, les exigences relatives aux performances
+    et aux matériaux spécifiées dans l'ISO 80369-1 peuvent être utilisées à titre
+    de recommandations."
 status:
   stage:
     content: PUBLISHED
@@ -133,6 +153,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: 11.040.10
     text: Anaesthetic, respiratory and reanimation equipment

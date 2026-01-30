@@ -64,6 +64,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1.1'
 language:
@@ -73,12 +94,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO/IEC/TR 29106:2007+A1:2012(E) This
-    Technical Report acts as an introduction to the concepts used to develop the MICE
-    environmental classification system used in cabling standards developed by ISO/IEC.
-    It also gives the sources used to define the boundaries of MICE classifications.
-    This consolidated version consists of the first edition (2007) and its amendment
-    1 (2012). Therefore, no need to order amendment in addition to this publication.
+  content: ISO/IEC/TR 29106:2007+A1:2012(E) This Technical Report acts as an introduction
+    to the concepts used to develop the MICE environmental classification system used
+    in cabling standards developed by ISO/IEC. It also gives the sources used to define
+    the boundaries of MICE classifications. This consolidated version consists of
+    the first edition (2007) and its amendment 1 (2012). Therefore, no need to order
+    amendment in addition to this publication.
 status:
   stage:
     content: PUBLISHED
@@ -115,6 +136,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

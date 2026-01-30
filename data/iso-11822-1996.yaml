@@ -45,6 +45,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 2
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -54,12 +75,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />Specifies a set of 90 graphic characters.
-    Consists of a code table and a legend with explanatory notes containing character
-    codes, graphics and character names. The character set is primarily intended for
-    the interchange of information among data processing systems and within message
-    transmission systems. The sets may be used in a 7-bit or an 8-bit environment
-    in accordance with ISO/IEC 2022.
+  content: Specifies a set of 90 graphic characters. Consists of a code table and
+    a legend with explanatory notes containing character codes, graphics and character
+    names. The character set is primarily intended for the interchange of information
+    among data processing systems and within message transmission systems. The sets
+    may be used in a 7-bit or an 8-bit environment in accordance with ISO/IEC 2022.
 status:
   stage:
     content: PUBLISHED
@@ -84,6 +104,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: 35.040.10
     text: Coding of character sets

@@ -48,6 +48,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 56
+      identifier:
+      - content: '56'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -88,6 +109,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: publicly-available-specification
+  flavor: iec
   ics:
   - code: 03.120.01
     text: Quality in general

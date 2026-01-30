@@ -45,6 +45,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 32
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -54,11 +75,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />This Technical Report type 3 contains
-    the fundamental concepts and terminology for the conceptual schema, the information
-    base, and the mechanisms involved in manipulating them. The approaches and associated
-    languages described in the appendices A through H are intended to be explanatory
-    only.
+  content: This Technical Report type 3 contains the fundamental concepts and terminology
+    for the conceptual schema, the information base, and the mechanisms involved in
+    manipulating them. The approaches and associated languages described in the appendices
+    A through H are intended to be explanatory only.
 status:
   stage:
     content: PUBLISHED
@@ -83,6 +103,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: 35.100.01
     text: Open systems interconnection in general

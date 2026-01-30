@@ -60,6 +60,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -69,14 +90,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO/IEC TR 30194:2024 (E) describes
-    best practices for use case projects in terms of projects, templates and plans,
-    with the objective to improve the consistency of content across different use
-    case projects and enable sharing of knowledge between projects. A long-term goal
-    is to foster interoperability between tools supporting the collection and maintenance
-    of use cases.<br />\r\nThis document is intended for developers of use case projects,
-    including in the context of standardization.<br />\r\nThe document can be used
-    to complement existing methodology standards such as IEC 62559."
+  content: "ISO/IEC TR 30194:2024 (E) describes best practices for use case projects
+    in terms of projects, templates and plans, with the objective to improve the consistency
+    of content across different use case projects and enable sharing of knowledge
+    between projects. A long-term goal is to foster interoperability between tools
+    supporting the collection and maintenance of use cases.<br />\r\nThis document
+    is intended for developers of use case projects, including in the context of standardization.<br
+    />\r\nThe document can be used to complement existing methodology standards such
+    as IEC 62559."
 status:
   stage:
     content: PUBLISHED
@@ -113,6 +134,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

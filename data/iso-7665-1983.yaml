@@ -61,6 +61,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -71,13 +92,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'CORRECTED VERSION 2026-01<br /><br />Specifies requirements for file structure
-    and labelling of flexible disk cartridges for information interchange between
-    users of different information processing systems, i.e. recorded labels to identify
-    files, file sections and volumes of lexible disk cartridges; basic blocks characteristics
-    containing the record constituting the file; and the file structures. It determines
-    three nested levels of interchange: BASIC INTERCHANGE, EXTENDED INTERCHANGE LEVEL
-    1, EXTENDED INTERCHANGE LEVEL 2.'
+  content: 'Specifies requirements for file structure and labelling of flexible disk
+    cartridges for information interchange between users of different information
+    processing systems, i.e. recorded labels to identify files, file sections and
+    volumes of lexible disk cartridges; basic blocks characteristics containing the
+    record constituting the file; and the file structures. It determines three nested
+    levels of interchange: BASIC INTERCHANGE, EXTENDED INTERCHANGE LEVEL 1, EXTENDED
+    INTERCHANGE LEVEL 2.'
 status:
   stage:
     content: PUBLISHED
@@ -102,6 +123,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: 35.220.21
     text: Magnetic disks

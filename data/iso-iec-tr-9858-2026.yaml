@@ -32,6 +32,8 @@ title:
 source:
 - type: src
   content: https://webstore.iec.ch/publication/111819
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiectr9858{ed1.0}en.pdf
 docidentifier:
 - content: ISO/IEC TR 9858:2026
   type: IEC
@@ -66,6 +68,27 @@ contributor:
     - language: en
       script: Latn
       content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 36
+      identifier:
+      - content: '1'
+      type: technical-committee
     abbreviation:
       language: en
       script: Latn
@@ -119,6 +142,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: 35.240.90
     text: IT applications in education

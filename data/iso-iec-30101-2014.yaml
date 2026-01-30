@@ -57,6 +57,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -66,21 +87,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 30101:2014 is for sensor
-    networks in order to support smart grid technologies for power generation, distribution,
-    networks, energy storage, load efficiency, control and communications, and associated
-    environmental challenges. This International Standard characterizes the requirements
-    for sensor networks to support the aforementioned applications and challenges.
-    Data from sensors in smart grid systems is collected, transmitted, published,
-    and acted upon to ensure efficient coordination of the various systems and subsystems.
-    The intelligence derived through the sensor networks supports synchronization,
-    monitoring and responding, command and control, data&#x2F;information processing,
-    security, information routing, and human-grid display&#x2F;graphical interfaces.
-    This International standard specifies: - interfaces between the sensor networks
-    and other networks for smart grid system applications, - sensor network architecture
-    to support smart grid systems, - interface between sensor networks with smart
-    grid systems, and - sensor network based emerging applications and services to
-    support smart grid systems.'
+  content: 'ISO/IEC 30101:2014 is for sensor networks in order to support smart grid
+    technologies for power generation, distribution, networks, energy storage, load
+    efficiency, control and communications, and associated environmental challenges.
+    This International Standard characterizes the requirements for sensor networks
+    to support the aforementioned applications and challenges. Data from sensors in
+    smart grid systems is collected, transmitted, published, and acted upon to ensure
+    efficient coordination of the various systems and subsystems. The intelligence
+    derived through the sensor networks supports synchronization, monitoring and responding,
+    command and control, data/information processing, security, information routing,
+    and human-grid display/graphical interfaces. This International standard specifies:
+    - interfaces between the sensor networks and other networks for smart grid system
+    applications, - sensor network architecture to support smart grid systems, - interface
+    between sensor networks with smart grid systems, and - sensor network based emerging
+    applications and services to support smart grid systems.'
 status:
   stage:
     content: PUBLISHED
@@ -117,6 +137,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.110'
     text: Networking

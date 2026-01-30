@@ -59,6 +59,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 41
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '1'
 language:
@@ -68,12 +89,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC TR 30164:2020 describes
-    the common concepts, terminologies, characteristics, use cases and technologies
-    (including data management, coordination, processing, network functionality, heterogeneous
-    computing, security, hardware&#x2F;software optimization) of edge computing for
-    IoT systems applications. This document is also meant to assist in the identification
-    of potential areas for standardization in edge computing for IoT.
+  content: ISO/IEC TR 30164:2020 describes the common concepts, terminologies, characteristics,
+    use cases and technologies (including data management, coordination, processing,
+    network functionality, heterogeneous computing, security, hardware/software optimization)
+    of edge computing for IoT systems applications. This document is also meant to
+    assist in the identification of potential areas for standardization in edge computing
+    for IoT.
 status:
   stage:
     content: PUBLISHED
@@ -110,6 +131,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: technical-report
+  flavor: iec
   ics:
   - code: '35.020'
     text: Information technology (IT) in general

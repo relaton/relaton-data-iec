@@ -43,6 +43,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/TC 104/SC 4
+      identifier:
+      - content: '104'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -52,23 +73,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />ISO 17363:2013 defines the usage
-    of read/write radio-frequency identification technology (RFID) cargo shipment-specific
-    tags associated with containerized freight for supply chain management purposes
-    (\"manifest tags\"). ISO 17363:2013 defines the air interface communications,
-    a common set of required data structures, and a commonly organized, through common
-    syntax and semantics, set of optional data requirements.<br />\r\n<br />\r\nISO
-    17363:2013:<br />\r\na) makes recommendations about a second generation supply
-    chain tag intended to monitor the condition and security of the freight resident
-    within a freight container;<br />\r\nb) specifies the implementation of sensors
-    for freight resident in a freight container;<br />\r\nc) makes specific recommendations
-    about mandatory non-reprogrammable information on the shipment tag;<br />\r\nd)
-    makes specific recommendations about optional, re-programmable information on
-    the shipment tag;<br />\r\ne) makes specific recommendations about the data link
-    interface for GPS or GLS services;<br />\r\nf) specifies the reuse and recyclability
-    of the RF tag;<br />\r\ng) specifies the means by which the data in a compliant
-    RF tag is \"backed-up\" by bar codes and two-dimensional symbols, as well as human-readable
-    information."
+  content: "ISO 17363:2013 defines the usage of read/write radio-frequency identification
+    technology (RFID) cargo shipment-specific tags associated with containerized freight
+    for supply chain management purposes (\"manifest tags\"). ISO 17363:2013 defines
+    the air interface communications, a common set of required data structures, and
+    a commonly organized, through common syntax and semantics, set of optional data
+    requirements.<br />\r\n<br />\r\nISO 17363:2013:<br />\r\na) makes recommendations
+    about a second generation supply chain tag intended to monitor the condition and
+    security of the freight resident within a freight container;<br />\r\nb) specifies
+    the implementation of sensors for freight resident in a freight container;<br
+    />\r\nc) makes specific recommendations about mandatory non-reprogrammable information
+    on the shipment tag;<br />\r\nd) makes specific recommendations about optional,
+    re-programmable information on the shipment tag;<br />\r\ne) makes specific recommendations
+    about the data link interface for GPS or GLS services;<br />\r\nf) specifies the
+    reuse and recyclability of the RF tag;<br />\r\ng) specifies the means by which
+    the data in a compliant RF tag is \"backed-up\" by bar codes and two-dimensional
+    symbols, as well as human-readable information."
 status:
   stage:
     content: PUBLISHED
@@ -93,6 +113,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '55.020'
     text: Packaging and distribution of goods in general

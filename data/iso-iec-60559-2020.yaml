@@ -55,6 +55,27 @@ contributor:
       language: en
       script: Latn
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -64,18 +85,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: CORRECTED VERSION 2026-01<br /><br />ISO&#x2F;IEC 60559:2020(E) specifies
-    formats and methods for floating-point arithmetic in computer systems - standard
-    and extended functions with single, double, extended, and extendable precision
-    - and recommends formats for data interchange. Exception conditions are defined
-    and standard handling of these conditions is specified. It provides a method for
-    computation with floating-point numbers that will yield the same result whether
-    the processing is done in hardware, software, or a combination of the two. The
-    results of the computation will be identical, independent of implementation, given
-    the same input data. Errors, and error conditions, in the mathematical processing
-    will be reported in a consistent manner regardless of implementation. This second
-    edition, published as ISO&#x2F;IEC 60559, replaces the first edition ISO&#x2F;IEC&#x2F;IEEE
-    60559:2011.
+  content: ISO/IEC 60559:2020(E) specifies formats and methods for floating-point
+    arithmetic in computer systems - standard and extended functions with single,
+    double, extended, and extendable precision - and recommends formats for data interchange.
+    Exception conditions are defined and standard handling of these conditions is
+    specified. It provides a method for computation with floating-point numbers that
+    will yield the same result whether the processing is done in hardware, software,
+    or a combination of the two. The results of the computation will be identical,
+    independent of implementation, given the same input data. Errors, and error conditions,
+    in the mathematical processing will be reported in a consistent manner regardless
+    of implementation. This second edition, published as ISO/IEC 60559, replaces the
+    first edition ISO/IEC/IEEE 60559:2011.
 status:
   stage:
     content: PUBLISHED
@@ -112,6 +132,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment

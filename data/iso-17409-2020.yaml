@@ -67,6 +67,27 @@ contributor:
       language: en
       script: Latn
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      identifier:
+      - content: '69'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
 edition:
   content: '2'
 language:
@@ -77,43 +98,42 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CORRECTED VERSION 2026-01<br /><br />This document specifies electric
-    safety requirements for conductive connection of electrically propelled road vehicles
-    to external electric circuits. External electric circuits include external electric
-    power supplies and external electric loads. This document provides requirements
-    for the charging modes 2, 3, 4, as defined in IEC 61851-1, and reverse power transfer.
-    For mode 4, this document provides requirements regarding the connection to an
-    isolated DC EV charging station according to IEC 61851-23.<br />\r\nNOTE 1 This
-    edition does not provide requirements for mode 1.<br />\r\nNOTE 2 External electric
-    circuits are not part of the vehicle.<br />\r\nThis document applies to the on-board
-    sections of vehicle power supply circuits. It applies also to dedicated power
-    supply control functions used for the connection of the vehicle to an external
-    electric circuit.<br />\r\nIt does not provide comprehensive safety information
-    for manufacturing, maintenance and repair personnel.<br />\r\nNOTE 3 ISO 6469-3
-    provides general electrical safety requirements for electrically propelled road
-    vehicles.<br />\r\nNOTE 4 With this edition of this document the limitation of
-    y-capacitance for protection against electric shock under single failure conditions
-    is no longer applicable as a fault protection provision when the vehicle has a
-    conductive DC connection to an external electric circuit."
+  content: "This document specifies electric safety requirements for conductive connection
+    of electrically propelled road vehicles to external electric circuits. External
+    electric circuits include external electric power supplies and external electric
+    loads. This document provides requirements for the charging modes 2, 3, 4, as
+    defined in IEC 61851-1, and reverse power transfer. For mode 4, this document
+    provides requirements regarding the connection to an isolated DC EV charging station
+    according to IEC 61851-23.<br />\r\nNOTE 1 This edition does not provide requirements
+    for mode 1.<br />\r\nNOTE 2 External electric circuits are not part of the vehicle.<br
+    />\r\nThis document applies to the on-board sections of vehicle power supply circuits.
+    It applies also to dedicated power supply control functions used for the connection
+    of the vehicle to an external electric circuit.<br />\r\nIt does not provide comprehensive
+    safety information for manufacturing, maintenance and repair personnel.<br />\r\nNOTE
+    3 ISO 6469-3 provides general electrical safety requirements for electrically
+    propelled road vehicles.<br />\r\nNOTE 4 With this edition of this document the
+    limitation of y-capacitance for protection against electric shock under single
+    failure conditions is no longer applicable as a fault protection provision when
+    the vehicle has a conductive DC connection to an external electric circuit."
 - language: fr
   script: Latn
-  content: "VERSION CORRIGEE 2026-01<br /><br />Le présent document spécifie les exigences
-    de sécurité électrique relatives à la connexion par conduction des véhicules routiers
-    à propulsion électrique à des circuits électriques externes. Les circuits électriques
-    externes englobent les sources d'alimentation électrique externes et les charges
-    électriques externes. Le présent document définit les exigences pour la recharge
-    des modes 2, 3 et 4, tel que défini dans l'IEC 61851‑1, et pour le transfert de
-    puissance réversible. Pour le mode 4, le présent document fournit les exigences
-    concernant la connexion à une borne de charge CC isolée, conformément à l'IEC
-    61851‑23.<br />\r\nNOTE 1 Cette édition ne définit pas les exigences relatives
-    au mode 1.<br />\r\nNOTE 2 Les circuits électriques extérieurs ne font pas partie
-    du véhicule.<br />\r\nLe présent document s'applique aux parties embarquées des
-    circuits d'alimentation des véhicules. Elle s'applique également aux fonctions
-    dédiées de contrôle de l'alimentation électrique utilisées pour la connexion du
-    véhicule à un circuit électrique externe.<br />\r\nLe présent document ne fournit
-    pas d'informations complètes concernant la sécurité pour le personnel de fabrication,
-    de maintenance et de réparation.<br />\r\nNOTE 3 L'ISO 6469‑3 fournit les exigences
-    générales de sécurité électrique pour les véhicules routiers à propulsion électrique.<br
+  content: "Le présent document spécifie les exigences de sécurité électrique relatives
+    à la connexion par conduction des véhicules routiers à propulsion électrique à
+    des circuits électriques externes. Les circuits électriques externes englobent
+    les sources d'alimentation électrique externes et les charges électriques externes.
+    Le présent document définit les exigences pour la recharge des modes 2, 3 et 4,
+    tel que défini dans l'IEC 61851‑1, et pour le transfert de puissance réversible.
+    Pour le mode 4, le présent document fournit les exigences concernant la connexion
+    à une borne de charge CC isolée, conformément à l'IEC 61851‑23.<br />\r\nNOTE
+    1 Cette édition ne définit pas les exigences relatives au mode 1.<br />\r\nNOTE
+    2 Les circuits électriques extérieurs ne font pas partie du véhicule.<br />\r\nLe
+    présent document s'applique aux parties embarquées des circuits d'alimentation
+    des véhicules. Elle s'applique également aux fonctions dédiées de contrôle de
+    l'alimentation électrique utilisées pour la connexion du véhicule à un circuit
+    électrique externe.<br />\r\nLe présent document ne fournit pas d'informations
+    complètes concernant la sécurité pour le personnel de fabrication, de maintenance
+    et de réparation.<br />\r\nNOTE 3 L'ISO 6469‑3 fournit les exigences générales
+    de sécurité électrique pour les véhicules routiers à propulsion électrique.<br
     />\r\nNOTE 4 Avec l'édition du présent document, la limitation de la capacité
     y pour la protection contre les chocs électriques dans des conditions de défaillance
     unique ne s'applique plus en tant que disposition de protection contre les défaillances,
@@ -143,6 +163,7 @@ ext:
   schema_version: v1.0.0
   doctype:
     content: international-standard
+  flavor: iec
   ics:
   - code: '43.120'
     text: Electric road vehicles
