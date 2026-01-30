@@ -99,34 +99,34 @@ language:
 script:
 - Latn
 abstract:
-- content: "CORRECTED VERSION 2026-01<br /><br />ISO 15118-9:2022 This document specifies
-    conformance tests in the form of an abstract test suite (ATS) for a system under
-    test (SUT) implementing an electric-vehicle or supply-equipment communication
-    controller (EVCC or SECC) with support for WLAN-based high-level communication
-    (HLC) according to ISO 15118‑8 and against the background of ISO 15118-1. These
-    conformance tests specify the testing of capabilities and behaviours of an SUT,
-    as well as checking what is observed against the conformance requirements specified
-    in ISO 15118‑8 and against what the implementer states the SUT implementation's
-    capabilities are.<br />\r\nThe capability tests within the ATS check that the
-    observable capabilities of the SUT are in accordance with the static conformance
-    requirements defined in ISO 15118‑8. The behaviour tests of the ATS examine an
-    implementation as thoroughly as practical over the full range of dynamic conformance
-    requirements defined in ISO 15118‑8 and within the capabilities of the SUT (see
-    NOTE below).<br />\r\nA test architecture is described in correspondence to the
-    ATS. The abstract test cases in this document are described leveraging this test
-    architecture and are specified in descriptive tabular format for the ISO/OSI physical
-    and data link layers (layers 1 and 2).<br />\r\nIn terms of coverage, this document
-    only covers normative sections and requirements in ISO 15118‑8. This document
-    can additionally refer to specific tests for requirements on referenced standards
-    (e.g. IEEE, or industry consortia standards, like WiFi Alliance) as long as they
-    are relevant in terms of conformance for implementations according to ISO 15118‑8.
-    However, it is explicitly not intended to widen the scope of this conformance
-    specification to such external standards, if it is not technically necessary for
-    the purpose of conformance testing for ISO 15118‑8. Furthermore, the conformance
-    tests specified in this document do not include the assessment of performance
-    nor robustness or reliability of an implementation. They cannot provide judgments
-    on the physical realization of abstract service primitives, how a system is implemented,
-    how it provides any requested service, nor the environment of the protocol implementation.
+- content: "ISO 15118-9:2022 This document specifies conformance tests in the form
+    of an abstract test suite (ATS) for a system under test (SUT) implementing an
+    electric-vehicle or supply-equipment communication controller (EVCC or SECC) with
+    support for WLAN-based high-level communication (HLC) according to ISO 15118‑8
+    and against the background of ISO 15118-1. These conformance tests specify the
+    testing of capabilities and behaviours of an SUT, as well as checking what is
+    observed against the conformance requirements specified in ISO 15118‑8 and against
+    what the implementer states the SUT implementation's capabilities are.<br />\r\nThe
+    capability tests within the ATS check that the observable capabilities of the
+    SUT are in accordance with the static conformance requirements defined in ISO
+    15118‑8. The behaviour tests of the ATS examine an implementation as thoroughly
+    as practical over the full range of dynamic conformance requirements defined in
+    ISO 15118‑8 and within the capabilities of the SUT (see NOTE below).<br />\r\nA
+    test architecture is described in correspondence to the ATS. The abstract test
+    cases in this document are described leveraging this test architecture and are
+    specified in descriptive tabular format for the ISO/OSI physical and data link
+    layers (layers 1 and 2).<br />\r\nIn terms of coverage, this document only covers
+    normative sections and requirements in ISO 15118‑8. This document can additionally
+    refer to specific tests for requirements on referenced standards (e.g. IEEE, or
+    industry consortia standards, like WiFi Alliance) as long as they are relevant
+    in terms of conformance for implementations according to ISO 15118‑8. However,
+    it is explicitly not intended to widen the scope of this conformance specification
+    to such external standards, if it is not technically necessary for the purpose
+    of conformance testing for ISO 15118‑8. Furthermore, the conformance tests specified
+    in this document do not include the assessment of performance nor robustness or
+    reliability of an implementation. They cannot provide judgments on the physical
+    realization of abstract service primitives, how a system is implemented, how it
+    provides any requested service, nor the environment of the protocol implementation.
     Furthermore, the abstract test cases defined in this document only consider the
     communication protocol and the system's behaviour defined ISO 15118‑8. The power
     flow between the EVSE and the EV is not considered.<br />\r\nNOTE Practical limitations
@@ -145,56 +145,55 @@ abstract:
   script:
   - Latn
   format: text/html
-- content: "VERSION CORRIGEE 2026-01<br /><br />ISO 15118-9:2022 Le présent document
-    spécifie les tests de conformité sous la forme d'une suite de tests abstraite
-    (ATS) pour un système sous test (SUT) implémentant un contrôleur de communication
-    de véhicule électrique (CCVE) ou d'infrastructure de recharge (CCIR) qui prend
-    en charge la communication de haut niveau (CHN) basée sur un réseau local sans
-    fil (WLAN) conformément à l'ISO 15118-8 et sur la base de l'ISO 15118-1. Ces tests
-    de conformité spécifient les tests de capacités et de comportements d'un SUT,
-    puis vérifient les résultats obtenus par rapport aux exigences de conformité définies
-    dans l'ISO 15118-8 et aux capacités d'implémentation du SUT définies par l'implémenteur.<br
-    />\r\nLes tests de capacités définis dans la suite de tests abstraite (ATS) vérifient
-    que les capacités observables sur le SUT respectent les conditions de conformité
-    statique définies dans l'ISO 15118-8. Les tests de comportement de la suite de
-    tests abstraite (ATS) examinent en détail une implémentation donnée dans l'ensemble
-    des conditions de conformité dynamique définies dans l'ISO 15118-8, ainsi que
-    dans les limites des capacités du SUT (voir NOTE ci-après).<br />\r\nUne architecture
-    de test est décrite sur la base de la suite de tests abstraite (ATS). Les tests
-    élémentaires abstraits définis dans le présent document sont décrits sur la base
-    de cette architecture de test et sont spécifiés sous la forme de tableaux descriptifs
-    pour la couche ISO/OSI physique (couche 1) et la couche ISO/OSI liaison de données
-    (couche 2).<br />\r\nLe présent document ne couvre que les sections normatives
-    et les exigences de l'ISO 15118-8. Le présent document peut également renvoyer
-    vers des tests spécifiques pour les exigences relatives aux normes citées (par
-    exemple, les normes de l'IEEE ou des normes établies par des consortiums industriels,
-    comme la Wi-Fi Alliance) sous réserve que ces tests présentent un intérêt pour
-    la conformité des implémentations conformément à l'ISO 15118-8. Toutefois, le
-    présent document n'a pas pour objet d'élargir le domaine d'application de cette
-    spécification de conformité à de telles normes externes, si cela n'est pas techniquement
-    nécessaire pour les tests de conformité conformément à l'ISO 15118-8. En outre,
-    les tests de conformité spécifiés dans le présent document n'incluent pas l'évaluation
-    des performances, de la robustesse ou de la fiabilité d'une implémentation. Ces
-    tests ne peuvent pas évaluer l'implémentation physique des primitives de services
-    abstraites, la manière dont est implémenté un système, la manière dont celui-ci
-    fournit un service demandé, ni l'environnement d'implémentation du protocole.
-    Par ailleurs, les tests élémentaires abstraits définis dans le présent document
-    couvrent uniquement le protocole de communication et le comportement du système
-    définis par l'ISO 15118-8. Le flux de puissance transitant entre l'IRVE et le
-    VE n'est pas pris en compte.<br />\r\nNOTE En raison de limites techniques, il
-    n'est pas possible de définir une suite de tests exhaustive, à cela s'ajoutent
-    des motifs d'ordre budgétaire qui peuvent également restreindre les tests. Le
-    présent document a donc pour but d'augmenter la probabilité que différentes implémentations
-    puissent fonctionner de manière interopérable. Pour vérifier ces implémentations,
-    une suite de tests de protocole est ainsi spécifiée afin de garantir la conformité
-    de chaque implémentation à la spécification du protocole. Cependant, la suite
-    de tests de protocole spécifiée ne peut pas garantir la conformité d'une implémentation
-    à la spécification, car ces tests visent davantage à détecter les erreurs potentielles
-    que leur absence. La conformité à une seule suite de tests ne permet donc pas
-    de garantir l'interopérabilité des implémentations. Néanmoins, ces tests permettent
-    de s'assurer qu'une implémentation possède les capacités requises et que son comportement
-    est conforme et cohérent dans toutes les instances de communication représentatives
-    des conditions réelles."
+- content: "ISO 15118-9:2022 Le présent document spécifie les tests de conformité
+    sous la forme d'une suite de tests abstraite (ATS) pour un système sous test (SUT)
+    implémentant un contrôleur de communication de véhicule électrique (CCVE) ou d'infrastructure
+    de recharge (CCIR) qui prend en charge la communication de haut niveau (CHN) basée
+    sur un réseau local sans fil (WLAN) conformément à l'ISO 15118-8 et sur la base
+    de l'ISO 15118-1. Ces tests de conformité spécifient les tests de capacités et
+    de comportements d'un SUT, puis vérifient les résultats obtenus par rapport aux
+    exigences de conformité définies dans l'ISO 15118-8 et aux capacités d'implémentation
+    du SUT définies par l'implémenteur.<br />\r\nLes tests de capacités définis dans
+    la suite de tests abstraite (ATS) vérifient que les capacités observables sur
+    le SUT respectent les conditions de conformité statique définies dans l'ISO 15118-8.
+    Les tests de comportement de la suite de tests abstraite (ATS) examinent en détail
+    une implémentation donnée dans l'ensemble des conditions de conformité dynamique
+    définies dans l'ISO 15118-8, ainsi que dans les limites des capacités du SUT (voir
+    NOTE ci-après).<br />\r\nUne architecture de test est décrite sur la base de la
+    suite de tests abstraite (ATS). Les tests élémentaires abstraits définis dans
+    le présent document sont décrits sur la base de cette architecture de test et
+    sont spécifiés sous la forme de tableaux descriptifs pour la couche ISO/OSI physique
+    (couche 1) et la couche ISO/OSI liaison de données (couche 2).<br />\r\nLe présent
+    document ne couvre que les sections normatives et les exigences de l'ISO 15118-8.
+    Le présent document peut également renvoyer vers des tests spécifiques pour les
+    exigences relatives aux normes citées (par exemple, les normes de l'IEEE ou des
+    normes établies par des consortiums industriels, comme la Wi-Fi Alliance) sous
+    réserve que ces tests présentent un intérêt pour la conformité des implémentations
+    conformément à l'ISO 15118-8. Toutefois, le présent document n'a pas pour objet
+    d'élargir le domaine d'application de cette spécification de conformité à de telles
+    normes externes, si cela n'est pas techniquement nécessaire pour les tests de
+    conformité conformément à l'ISO 15118-8. En outre, les tests de conformité spécifiés
+    dans le présent document n'incluent pas l'évaluation des performances, de la robustesse
+    ou de la fiabilité d'une implémentation. Ces tests ne peuvent pas évaluer l'implémentation
+    physique des primitives de services abstraites, la manière dont est implémenté
+    un système, la manière dont celui-ci fournit un service demandé, ni l'environnement
+    d'implémentation du protocole. Par ailleurs, les tests élémentaires abstraits
+    définis dans le présent document couvrent uniquement le protocole de communication
+    et le comportement du système définis par l'ISO 15118-8. Le flux de puissance
+    transitant entre l'IRVE et le VE n'est pas pris en compte.<br />\r\nNOTE En raison
+    de limites techniques, il n'est pas possible de définir une suite de tests exhaustive,
+    à cela s'ajoutent des motifs d'ordre budgétaire qui peuvent également restreindre
+    les tests. Le présent document a donc pour but d'augmenter la probabilité que
+    différentes implémentations puissent fonctionner de manière interopérable. Pour
+    vérifier ces implémentations, une suite de tests de protocole est ainsi spécifiée
+    afin de garantir la conformité de chaque implémentation à la spécification du
+    protocole. Cependant, la suite de tests de protocole spécifiée ne peut pas garantir
+    la conformité d'une implémentation à la spécification, car ces tests visent davantage
+    à détecter les erreurs potentielles que leur absence. La conformité à une seule
+    suite de tests ne permet donc pas de garantir l'interopérabilité des implémentations.
+    Néanmoins, ces tests permettent de s'assurer qu'une implémentation possède les
+    capacités requises et que son comportement est conforme et cohérent dans toutes
+    les instances de communication représentatives des conditions réelles."
   language:
   - fr
   script:
