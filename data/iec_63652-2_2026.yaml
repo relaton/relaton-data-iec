@@ -1,0 +1,108 @@
+---
+schema-version: v1.2.9
+id: IEC63652-2-2026
+title:
+- content: NFC Forum Specifications
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 2: NFC Data Exchange Format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'NFC Forum Specifications - Part 2: NFC Data Exchange Format'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/106859
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec63652-2{ed1.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 63652-2:2026
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:63652-2:2026-02:::'
+  type: URN
+date:
+- type: published
+  value: '2026-02-05'
+- type: stable-until
+  value: '2028-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: '2026-02-05'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: IEC 62652-2:2026, the NFC Data Exchange Format (NDEF) specification, is
+    a common data format for NFC Forum Devices. The NFC Data Exchange Format specification
+    defines the NDEF data structure format as well as rules to construct a valid NDEF
+    Message as an ordered and unbroken collection of NDEF Records. Furthermore, it
+    defines the mechanism for specifying the types of application data encapsulated
+    in NDEF Records. The NDEF specification defines only the data structure format
+    to exchange application or service specific data in an interoperable way, and
+    it does not define any NDEF Record Types in detail - NDEF Record Types are defined
+    in separate specifications. This NDEF specification assumes a reliable underlying
+    protocol and therefore this specification does not specify the data exchange between
+    two NFC Forum Devices. An NFC Forum Device can process the NDEF information independently
+    of the way it has received the NDEF Message. Because of the large number of existing
+    message encapsulation formats, record marking protocols, and multiplexing protocols,
+    it is best to be explicit about the design goals of NDEF and, in particular, about
+    what is outside the scope of NDEF.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2026'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 100/TA 15
+      number: 100
+      type: technicalCommittee
+  ics:
+  - code: 33.160.60
+    text: Multimedia systems and teleconferencing equipment
+  structuredidentifier:
+    project_number: '133068'
+    type: IEC
+  price_code: iec:F

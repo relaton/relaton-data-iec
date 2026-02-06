@@ -33,6 +33,37 @@ title:
   - Latn
   format: text/plain
   type: main
+- content: Véhicules routiers
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interface de communication entre véhicule et réseau électrique
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 21: Plan de test de conformité aux exigences communes de la couche
+    réseau et de la couche application de 2ème génération'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
+    électrique - Partie 21: Plan de test de conformité aux exigences communes de la
+    couche réseau et de la couche application de 2ème génération'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
 link:
 - content: https://webstore.iec.ch/publication/72952
   type: src
@@ -64,6 +95,7 @@ edition:
 revdate: '2025-09-19'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
@@ -100,6 +132,47 @@ abstract:
     in this document."
   language:
   - en
+  script:
+  - Latn
+  format: text/html
+- content: "Le présent document spécifie les tests de conformité sous la forme d'une
+    suite de tests abstraite (ATS) pour un système sous test (SUT) comportant un contrôleur
+    de communication de véhicule électrique (CCVE) ou un contrôleur de communication
+    de l'infrastructure de recharge (CCIR), pour toutes les exigences communes spécifiées
+    dans l'ISO 15118-20 qui sont indépendantes d'un type de charge particulier (CA,
+    CC, DCA, TPSF). Ces tests de conformité spécifient les tests de capacités et de
+    comportements d'un SUT, puis vérifient les résultats obtenus par rapport aux conditions
+    de conformité définies dans l'ISO 15118-20 et aux capacités d'implémentation du
+    SUT définies par l'implémenteur.<br />\r\nLes tests de capacités définis dans
+    la suite de tests abstraite (ATS) vérifient que les capacités observables sur
+    le SUT respectent les conditions de conformité statique spécifiées dans la norme
+    ISO 15118-20. Les tests de comportement de la suite de tests abstraite (ATS) examinent
+    en détail une implémentation donnée dans l'ensemble des conditions de conformité
+    dynamique spécifiées dans la norme ISO 15118-20, ainsi que dans les limites des
+    capacités du SUT.<br />\r\nUne architecture de test est décrite sur la base de
+    la suite de tests abstraite (ATS). Les tests élémentaires abstraits définis dans
+    le présent document sont décrits sur la base de cette architecture de test et
+    sont spécifiés sous la forme de tableaux descriptifs couvrant les couches ISO/OSI
+    3 à 7 (couches réseau/application).<br />\r\nLe présent document ne couvre que
+    les sections normatives et les exigences de l'ISO 15118-20. Le présent document
+    renvoie également vers des tests spécifiques pour les exigences relatives aux
+    normes citées (par exemple, les RFC de l'IETF, les recommandations W3C) si ces
+    tests présentent un intérêt pour la conformité des implémentations conformément
+    à l'ISO 15118-20. Toutefois, le présent document n'a pas pour objet d'élargir
+    le domaine d'application de cette spécification de conformité à de telles normes
+    externes, si cela n'est pas techniquement nécessaire pour les tests de conformité
+    conformément à l'ISO 15118-20. En outre, les tests de conformité spécifiés dans
+    le présent document n'incluent pas l'évaluation des performances, de la robustesse
+    ou de la fiabilité d'une implémentation. Ces tests ne peuvent pas évaluer l'implémentation
+    physique des primitives de services abstraites, la manière dont est implémenté
+    un système, la manière dont celui-ci fournit un service demandé, ou l'environnement
+    d'implémentation du protocole. Par ailleurs, les tests élémentaires abstraits
+    spécifiés dans le présent document couvrent uniquement le protocole de communication
+    et le comportement du système spécifiés par l'ISO 15118-20. Le flux de puissance
+    entre l'IRVE et le VE n'est pas un prérequis pour les tests spécifiés dans le
+    présent document."
+  language:
+  - fr
   script:
   - Latn
   format: text/html
