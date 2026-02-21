@@ -1,0 +1,223 @@
+---
+schema-version: v1.2.9
+id: IEC61512-1-2026
+title:
+- content: Batch control
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Models and terminology'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Batch control - Part 1: Models and terminology'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Contrôle-commande des processus de fabrication par lots (batch)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1: Modèles et terminologie'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Contrôle-commande des processus de fabrication par lots (batch) - Partie
+    1: Modèles et terminologie'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/75287
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec61512-1{ed2.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 61512-1:2026
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:61512-1:2026-02:::'
+  type: URN
+date:
+- type: published
+  value: '2026-02-20'
+- type: stable-until
+  value: '2025-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: '2026-02-20'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 61512-1:2026 applies to systems, specifications, and their use for
+    implementing batch and related procedure-oriented manufacturing controls in the
+    process industries. This document establishes a reference model framework for
+    procedure-oriented control, defines terms to help explain the model relationships
+    and usage, and describes general criteria for evaluating conformance. This follows
+    the principle of separation between recipe procedural elements and equipment procedural
+    elements enabling operations to define recipes without the need of changes in
+    equipment procedures.<br />\r\nThis second edition cancels and replaces the first
+    edition published in 1997. This edition constitutes a technical revision.<br />\r\nThis
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) Models and text are modified to provide more detail
+    and clarity. Key clarifications are:<br />\r\n1) Two types of equipment modules
+    are defined: generic and recipe-aware. All recipe-aware equipment modules contain
+    procedural control and can be used as phases in the recipe.<br />\r\n2) Execution
+    of all procedural control contained directly in units is part of the Unit Supervision
+    activity.<br />\r\n3) The relationships between types of recipes, recipe components,
+    and equipment control are more fully described and illustrated.<br />\r\n4) Entity
+    relationship diagrams have been replaced with more intuitive UML instance diagrams,
+    except for the equipment entity model.<br />\r\n5) The transition diagram for
+    the procedural states example has been updated with a more intuitive and complete
+    UML state diagram.<br />\r\n6) References to other standards in the series and
+    to IEC 62264 are included to provide direction for further clarification of selected
+    topics.<br />\r\n7) Activity names are capitalised to help prevent confusion with
+    similar terms, such as their underlying functions.<br />\r\nb) Previous Clauses
+    4 through 6 (now Clauses 4 through 8) were rearranged to provide a clearer top-down
+    organisation of the document. Key changes are:<br />\r\n1) Removing the lower
+    levels of the physical (role-based equipment) model (see 4.4.2) to eliminate redundancy
+    because their groupings are defined by the associated functionality in the equipment
+    entity model and are not meaningful for batch control without those associations.<br
+    />\r\n2) Describing equipment control and the equipment entity model immediately
+    after the physical (role-based equipment) model and describing each level as completely
+    as possible without excessive use of forward references (see 4.4.3).<br />\r\n3)
+    Combining the descriptions of basic, procedural, and coordination control with
+    their usage in each type of equipment entity, providing a single consolidated
+    discussion of each type of control (see Clause 5)<br />\r\n4) Additional considerations
+    to support application of the models have been grouped in Clause 7 to clarify
+    their supporting relationship to the core models.<br />\r\nc) Clause 9 was added
+    to define completeness, compliance, and conformance in relation to this document.<br
+    />\r\nd) Annex B was added to provide a more expansive procedural state reference
+    model. The model found in Clause 7 can be considered a collapsed version of this
+    more general model.<br />\r\ne) Annex C was added to clarify a number of points
+    concerning the models, their application, and the new Clause 9 on conformance
+    and compliance.<br />\r\nf) Annex E was added to more fully describe the changes
+    in this update to IEC 61512-1:1997."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 61512-1:2026 s'applique aux systèmes, aux spécifications et à leur
+    utilisation pour la mise en œuvre de commandes de fabrication orientées lots et
+    vers les procédures connexes dans les industries de transformation. Le présent
+    document établit un cadre de modèle de référence pour les commandes orientées
+    procédures, définit des termes pour expliquer plus facilement les relations et
+    l'utilisation du modèle, et décrit des critères généraux pour l'évaluation de
+    la conformité de l'application. Cela suit le principe de séparation entre les
+    éléments de procédure de recette et les éléments de procédure d'équipement, ce
+    qui permet aux opérations de définir des recettes sans qu'il soit nécessaire de
+    modifier les procédures d'équipement.<br />\r\nCette deuxième édition annule et
+    remplace la première édition parue en 1997. Cette édition constitue une révision
+    technique.<br />\r\nCette édition inclut les modifications techniques majeures
+    suivantes par rapport à l'édition précédente:<br />\r\na) Les modèles et le texte
+    sont modifiés afin de fournir plus de détails et de clarté. Les principales clarifications
+    suivantes ont été effectuées:<br />\r\n1) Deux types de modules d'équipement sont
+    définis: modules d'équipement génériques et modules d'équipement spécifiques aux
+    recettes. Tous les modules d'équipement spécifiques aux recettes comportent une
+    automatisation de procédure et peuvent être utilisés comme des phases dans la
+    recette.<br />\r\n2) L'exécution de toutes les automatisations de procédures contenues
+    directement dans les unités relève de l'activité Supervision d'unité.<br />\r\n3)
+    Les relations entre les types de recettes, les composants des recettes et la commande
+    d'équipement sont décrites et représentées de manière plus détaillée.<br />\r\n4)
+    Les schémas entité-relation ont été remplacés par des diagrammes d'instance UML
+    plus intuitifs, à l'exception du modèle d'entités d'équipement.<br />\r\n5) Le
+    schéma de transition d'états pour l'exemple d'états de procédure a été mis à jour
+    avec un schéma d'états UML plus intuitif et complet.<br />\r\n6) Des références
+    à d'autres normes de la série et à l'IEC 62264 sont incluses afin de fournir des
+    indications permettant de clarifier certains sujets.<br />\r\n7) La première lettre
+    des noms d'activités est écrite en majuscule pour éviter toute confusion avec
+    des termes similaires, comme leurs fonctions sous-jacentes.<br />\r\nb) Les Articles
+    4 à 6 de la version précédente (désormais numérotés Articles 4 à 8) ont été réorganisés
+    afin de fournir une organisation descendante plus claire du document. Les principales
+    modifications suivantes ont été apportées:<br />\r\n1) Suppression des niveaux
+    inférieurs du modèle physique (équipements fondés sur les rôles) (voir le 4.4.2)
+    pour éliminer la redondance, car leurs regroupements sont définis par la fonctionnalité
+    associée dans le modèle d'entités d'équipement et ne sont pas pertinents pour
+    le contrôle-commande des processus de fabrication par lots sans ces associations.<br
+    />\r\n2) Description de la commande d'équipement et du modèle d'entités d'équipement
+    immédiatement après le modèle physique (équipements fondés sur les rôles) et description
+    la plus complète possible de chaque niveau sans abuser des références directes
+    (voir le 4.4.3).<br />\r\n3) Association des descriptions concernant les commandes
+    de base, les automatisations des procédures et les automatismes de coordination,
+    à leur utilisation dans chaque type d'entité d'équipement, permettant ainsi une
+    discussion consolidée unique sur chaque type de commande (voir l'Article 5).<br
+    />\r\n4) Des considérations supplémentaires sur l'usage des modèles ont été regroupées
+    à l'Article 7 afin de clarifier leurs relations connexes avec les modèles fondamentaux.<br
+    />\r\nc) L'Article 9 a été ajouté pour définir la complétude, la conformité des
+    spécifications et la conformité de l'application par rapport au présent document.<br
+    />\r\nd) L'Annexe B a été ajoutée pour fournir un modèle de référence d'état de
+    procédure plus vaste. Le modèle décrit à l'Article 7 peut être considéré comme
+    une version réduite de ce modèle plus général.<br />\r\ne) L'Annexe C a été ajoutée
+    pour clarifier un certain nombre de points sur les modèles et leur application,
+    ainsi que sur le nouvel Article 9 relatif à la conformité de l'application et
+    la conformité des spécifications.<br />\r\nf) L'Annexe E a été ajoutée pour décrire
+    de manière plus détaillée les modifications apportées par la présente mise à jour
+    de l'IEC 61512-1:1997."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2026'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 65/SC 65A
+      number: 65
+      type: technicalCommittee
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
+  structuredidentifier:
+    project_number: '110392'
+    type: IEC
+  price_code: iec:N
