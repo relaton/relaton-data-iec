@@ -1,0 +1,231 @@
+---
+schema-version: v1.2.9
+id: IEC62264-2-2026
+title:
+- content: Enterprise-Control System Integration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 2: Object models and relationships for interfaces between manufacturing
+    operations and business functions'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Enterprise-Control System Integration - Part 2: Object models and relationships
+    for interfaces between manufacturing operations and business functions'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Intégration des systèmes entreprise-contrôle
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 2: Modèles d''objets et relations pour les interfaces entre les
+    opérations de fabrication et les fonctions métier'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Intégration des systèmes entreprise-contrôle - Partie 2: Modèles d''objets
+    et relations pour les interfaces entre les opérations de fabrication et les fonctions
+    métier'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://webstore.iec.ch/publication/75127
+  type: src
+- content: https://webstore.iec.ch/preview/info_iec62264-2{ed3.0}en.pdf
+  type: obp
+type: standard
+docid:
+- id: IEC 62264-2:2026
+  type: IEC
+  primary: true
+- id: 'urn:iec:std:iec:62264-2:2026-03:::'
+  type: URN
+date:
+- type: published
+  value: '2026-03-06'
+- type: stable-until
+  value: '2029-12-31'
+contributor:
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: '2026-03-06'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "IEC 62264-2:2026 specifies interface content exchanged between manufacturing
+    control functions and other enterprise functions as interrelated information models.
+    The information models are represented as an interrelated collection of conceptual
+    object models which can be used for the implementation of applications with logical
+    data and physical data models. The data exchanges in interfaces are scoped as
+    between Level 3 manufacturing operations and Level 4 business systems in the hierarchical
+    model defined in IEC 62264-1. The purpose of this document is to reduce the risk,
+    cost, and errors associated with interface implementation.<br />\r\nSince this
+    document covers many manufacturing operations and enterprise domains and there
+    are many different standards for those domains, the semantics of this data exchange
+    standard are described at a conceptual level intended to enable the other standards
+    to be mapped to these semantics. To this end, this document defines a set of elements
+    contained in the generic interface, together with a mechanism for extending the
+    interface content for implementations.<br />\r\nThe scope is limited to the definition
+    of object models and attributes of the exchanged information defined in the IEC
+    62264-1.<br />\r\nThis third edition cancels and replaces the second edition published
+    in 2013. It is published as a double logo standard. This edition constitutes a
+    technical revision. Due to the extent of the changes and updates, this document
+    cannot ensure backward compatibility to implementations based on older editions.
+    This edition includes the following significant technical changes with respect
+    to the previous edition and ANSI/ISA 95.00.02-2018 (ED3):<br />\r\na) object models
+    are added for the use of interactive communications to notify subscribers about
+    the occurrence of events and to provide context information about the event, making
+    the information exchange more efficient and consistent. The added object models
+    were the operations event model and operations record model.<br />\r\nb) operations
+    location model and spatial definition attribute added to allow the description
+    of operation locations.<br />\r\nc) operations test model added to define how
+    test specifications and test results are related to testable objects, operations
+    test requirements, actual resource, and work definitions.<br />\r\nd) definition
+    of possible measurement uncertainty sub-attributes for all value, quantity and
+    duration attributes defined in this document.<br />\r\ne) updated hierarchy scope
+    model.<br />\r\nf) removed as separate models in this edition were the models
+    for product definition, production schedule, production performance, and production
+    capability. Their content is covered for all manufacturing operations management
+    categories under operations models.<br />\r\ng) object model was added for the
+    operations segment capability as a collection of resources related to other operations
+    models.<br />\r\nh) updated relationship name and role name conventions established
+    in 3.3.4 and implemented across all models and associated tables.<br />\r\ni)
+    updated all objects’ relationship role table with explicit source and target names.<br
+    />\r\nj) updated common header attributes for objects and property objects established
+    in 4.5 and implemented across all models and associated tables.<br />\r\nk) updated
+    explanation of the ‘relationships between resource reference objects in operations
+    management information models and resource models. These additional resource relationships
+    are added to all operations management models.<br />\r\nl) added an annex explanation
+    for implementation options for specifying values in unit of measurement attribute.<br
+    />\r\nm) added an annex explanation for implementation considerations for inheritance
+    and persistence of data exchange object models."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+- content: "IEC 62264-2:2026 spécifie le contenu de l'interface échangé entre les
+    fonctions de commande de fabrication et d'autres fonctions d'entreprise sous la
+    forme de modèles d'informations interdépendants. Les modèles d'informations sont
+    représentés sous la forme d'une collection interdépendante de modèles d'objets
+    conceptuels qui peuvent être utilisés pour la mise en œuvre d'applications avec
+    des modèles de données logiques et de données physiques. Les échanges de données
+    dans les interfaces sont compris entre les opérations de fabrication de niveau
+    3 et les systèmes métier de niveau 4 du modèle hiérarchique défini dans l'IEC
+    62264-1. L'objet du présent document est de réduire les risques, les coûts et
+    les erreurs liés à la mise en œuvre des interfaces.<br />\r\nDans la mesure où
+    le présent document couvre de nombreuses opérations de fabrication et de nombreux
+    domaines d'entreprise, et où il existe de nombreuses normes différentes dans lesdits
+    domaines, la sémantique de la présente norme d'échange de données est décrite
+    à un niveau conceptuel qui permet d'adapter les autres normes à cette sémantique.
+    Le présent document définit ainsi un ensemble d'éléments contenus dans l'interface
+    générique, ainsi qu'un mécanisme d'extension du contenu de l'interface en vue
+    de leurs différentes mises en œuvre.<br />\r\nLe domaine d'application se limite
+    à la définition des modèles d'objets et des attributs des informations échangées
+    définis dans l'IEC 62264-1.<br />\r\nCette troisième édition annule et remplace
+    la deuxième édition parue en 2013. Cette édition constitue une révision technique.
+    Elle est publiée comme norme double logo. En raison de l'ampleur des modifications
+    et des mises à jour, le présent document ne peut assurer la rétrocompatibilité
+    avec les mises en œuvre fondées sur des éditions antérieures. Cette édition inclut
+    les modifications techniques majeures suivantes par rapport à la précédente édition
+    et à l'ANSI/ISA 95.00.02-2018 (ED3):<br />\r\na) ajout de modèles d'objets pour
+    l'utilisation de communications interactives afin d'informer les abonnés de la
+    survenance d'événements et de fournir des informations de contexte sur l'événement,
+    de manière à rendre l'échange d'informations plus efficace et cohérent. Les modèles
+    d'objets ajoutés sont le modèle d'événements opérationnels et le modèle de registre
+    des opérations;<br />\r\nb) ajout du modèle d'emplacements opérationnels et de
+    l'attribut définition spatiale pour permettre la description des emplacements
+    opérationnels;<br />\r\nc) ajout d'un modèle d'essai des opérations pour définir
+    la manière dont les spécifications d'essai et les résultats d'essai se rapportent
+    aux objets vérifiables, aux exigences d'essai des opérations, aux ressources réelles
+    et aux définitions de travail;<br />\r\nd) définition des sous-attributs d'incertitude
+    de mesure possibles pour tous les attributs de valeur, de grandeur et de durée
+    définis dans le présent document;<br />\r\ne) mise à jour du modèle de domaine
+    d'application de la hiérarchie;<br />\r\nf) suppression des modèles de définition
+    du produit, de calendrier de production, de performances de production et de capabilité
+    de production en tant que modèles distincts dans la présente édition. Leur contenu
+    est traité pour toutes les catégories de gestion des opérations de fabrication
+    dans le cadre de modèles d'opérations;<br />\r\ng) ajout d'un modèle d'objet pour
+    la capabilité de segment opérations sous la forme d'un ensemble de ressources
+    liées à d'autres modèles d'opérations;<br />\r\nh) mise à jour des conventions
+    de dénomination des relations et des rôles établies au 3.3.4 et mises en œuvre
+    dans tous les modèles et les tables associées;<br />\r\ni) mise à jour de la table
+    de rôles relationnels de tous les objets avec des noms de source et de cible explicites;<br
+    />\r\nj) mise à jour des attributs d'en-tête communs pour les objets et les objets
+    de propriété établis au 4.5 et mis en œuvre dans tous les modèles et les tables
+    associées;<br />\r\nk) mise à jour de l'explication des relations entre les objets
+    de référence de ressource dans les modèles d'informations de gestion des opérations
+    et les modèles de ressources. Ces relations de ressources supplémentaires sont
+    ajoutées à tous les modèles de gestion des opérations;<br />\r\nl) ajout d'une
+    explication à l'annexe des options de mise en œuvre pour la spécification des
+    valeurs dans l'attribut unité de mesure;<br />\r\nm) ajout d'une explication à
+    l'annexe des considérations relatives à la mise en œuvre pour l'héritage et la
+    persistance des modèles d'objets d'échange de données."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/html
+docstatus:
+  stage:
+    value: PUBLISHED
+copyright:
+- owner:
+  - name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  from: '2026'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: TC 65/SC 65E
+      number: 65
+      type: technicalCommittee
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
+  structuredidentifier:
+    project_number: '110212'
+    type: IEC
+  price_code: iec:P
