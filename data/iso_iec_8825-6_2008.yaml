@@ -32,24 +32,24 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/21562
+- content: https://webstore.iec.ch/publication/11729
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiec8825-6{ed1.0}en.pdf
+- content: https://webstore.iec.ch/preview/info_isoiec8825-6{ed2.0}en.pdf
   type: obp
 type: standard
 docid:
 - id: ISO/IEC 8825-6:2008
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:8825-6:2008-03:::'
+- id: 'urn:iec:std:iso-iec:8825-6:2008-12:::'
   type: URN
 date:
 - type: published
-  value: '2008-03-31'
-- type: stable-until
   value: '2008-12-15'
+- type: stable-until
+  value: '2015-11-12'
 - type: obsoleted
-  value: '2009-12-15'
+  value: '2015-11-12'
 contributor:
 - organization:
     name:
@@ -68,24 +68,19 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: '2008-03-31'
+  content: '2'
+revdate: '2008-12-15'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>Encoding instructions are a means of modifying the encodings of ASN.1
-    types for some specified encoding rule. They can be inserted in an ASN.1 specification
-    in square brackets (much like a tag in the Basic Encoding Rules, BER) immediately
-    before the type that they affect (type prefixes), or they can be collected together
-    at the end of an ASN.1 module (an encoding control section).</p><p>ISO/IEC 8825-6:2008</p><ul><li>specifies
-    the information needed and the format to be used for specifying encoding instructions
-    for Packed Encoding Rules (PER);</li><li>specifies the mechanisms for approving
-    new PER encoding instructions from time to time and the operation of the Registration
-    Authority for PER encoding instructions;</li><li>specifies the means of associating
-    a PER encoding instruction with an ASN.1 type using both type prefixes and an
-    encoding control section.</li></ul>"
+- content: "<p>ISO/IEC 8825-6:2008:</p><ul><li>specifies the information needed and
+    the format to be used for specifying PER encoding instructions;</li><li>specifies
+    the mechanisms for approving new PER encoding instructions from time to time and
+    the operation of the Registration Authority for PER encoding instructions;</li><li>specifies
+    the means of associating a PER encoding instruction with an ASN.1 type using both
+    type prefixes and an encoding control section.</li></ul>"
   language:
   - en
   script:
