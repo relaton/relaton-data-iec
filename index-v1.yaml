@@ -29133,6 +29133,20 @@
 - :id:
     :publisher: IEC
     :number: '60245'
+    :part: '1'
+    :year: 2026
+  :file: data/iec_60245-1_2026.yaml
+- :id:
+    :vap:
+    - RLV
+    :publisher: IEC
+    :number: '60245'
+    :part: '1'
+    :year: 2026
+  :file: data/iec_60245-1_2026_rlv.yaml
+- :id:
+    :publisher: IEC
+    :number: '60245'
     :part: '2'
     :year: 1980
   :file: data/iec_60245-2_1980.yaml
@@ -92274,6 +92288,15 @@
     :year: 2015
   :file: data/iec_60862-1_2015.yaml
 - :id:
+    :corrigendums:
+    - :number: 1
+      :year: 2026
+    :publisher: IEC
+    :number: '60862'
+    :part: '1'
+    :year: 2015
+  :file: data/iec_60862-1_2015_cor1_2026.yaml
+- :id:
     :publisher: IEC
     :number: '60862'
     :part: '2'
@@ -97468,6 +97491,15 @@
     :year: 2023
   :file: data/iec_60947-4-1_2023.yaml
 - :id:
+    :corrigendums:
+    - :number: 1
+      :year: 2026
+    :publisher: IEC
+    :number: '60947'
+    :part: 4-1
+    :year: 2023
+  :file: data/iec_60947-4-1_2023_cor1_2026.yaml
+- :id:
     :publisher: IEC
     :number: '60947'
     :part: 4-2
@@ -97604,6 +97636,18 @@
     :part: 4-2
     :year: 2020
   :file: data/iec_60947-4-2_2020_amd1_2024.yaml
+- :id:
+    :amendments:
+    - :number: 1
+      :year: 2024
+    :corrigendums:
+    - :number: 1
+      :year: 2026
+    :publisher: IEC
+    :number: '60947'
+    :part: 4-2
+    :year: 2020
+  :file: data/iec_60947-4-2_2020_amd1_2024_cor1_2026.yaml
 - :id:
     :vap:
     - CSV
@@ -157912,6 +157956,11 @@
   :file: data/iec_63412-1_2024.yaml
 - :id:
     :publisher: IEC
+    :number: '63413'
+    :year: 2026
+  :file: data/iec_63413_2026.yaml
+- :id:
+    :publisher: IEC
     :number: '63423'
     :year: 2026
   :file: data/iec_63423_2026.yaml
@@ -158025,6 +158074,11 @@
     :part: 2-1
     :year: 2026
   :file: data/iec_63494-2-1_2026.yaml
+- :id:
+    :publisher: IEC
+    :number: '63497'
+    :year: 2026
+  :file: data/iec_63497_2026.yaml
 - :id:
     :publisher: IEC
     :number: '63501'
@@ -172393,12 +172447,34 @@
     :type: TS
   :file: data/iec_ts_60904-1-2_2019.yaml
 - :id:
+    :vap:
+    - CSV
+    :amendments:
+    - :number: 1
+      :year: 2026
+    :publisher: IEC
+    :number: '60904'
+    :part: 1-2
+    :year: 2024
+    :type: TS
+  :file: data/iec_ts_60904-1-2_2024+amd1_2026_csv.yaml
+- :id:
     :publisher: IEC
     :number: '60904'
     :part: 1-2
     :year: 2024
     :type: TS
   :file: data/iec_ts_60904-1-2_2024.yaml
+- :id:
+    :amendments:
+    - :number: 1
+      :year: 2026
+    :publisher: IEC
+    :number: '60904'
+    :part: 1-2
+    :year: 2024
+    :type: TS
+  :file: data/iec_ts_60904-1-2_2024_amd1_2026.yaml
 - :id:
     :publisher: IEC
     :number: '60904'
@@ -234323,6 +234399,14 @@
     - IEEE
     :year: 2009
   :file: data/iso_iec_ieee_9945_2009_cor2_2017.yaml
+- :id:
+    :publisher: ISO
+    :number: '9945'
+    :copublisher:
+    - IEC
+    - IEEE
+    :year: 2026
+  :file: data/iso_iec_ieee_9945_2026.yaml
 - :id:
     :publisher: ISO
     :number: '16898'
