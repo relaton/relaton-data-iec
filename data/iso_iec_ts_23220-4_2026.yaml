@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IECTS23220-2-2024
+id: ISO/IECTS23220-4-2026
 title:
 - content: Cards and security devices for personal identification
   language:
@@ -16,7 +16,7 @@ title:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Part 2: Data objects and encoding rules for generic eID systems'
+- content: 'Part 4: Protocols and services for operational phase'
   language:
   - en
   script:
@@ -24,8 +24,8 @@ title:
   format: text/plain
   type: title-part
 - content: 'Cards and security devices for personal identification - Building blocks
-    for identity management via mobile devices - Part 2: Data objects and encoding
-    rules for generic eID systems'
+    for identity management via mobile devices - Part 4: Protocols and services for
+    operational phase'
   language:
   - en
   script:
@@ -46,8 +46,7 @@ title:
   - Latn
   format: text/plain
   type: title-main
-- content: 'Partie 2: Objets de données et règles d''encodage pour les systèmes eID
-    génériques'
+- content: 'Partie 4: Protocoles et services pour la phase opérationnelle'
   language:
   - fr
   script:
@@ -56,7 +55,7 @@ title:
   type: title-part
 - content: 'Cartes et dispositifs de sécurité pour l’identification des personnes
     - Blocs fonctionnels pour la gestion des identités via les dispositifs mobiles
-    - Partie 2: Objets de données et règles d''encodage pour les systèmes eID génériques'
+    - Partie 4: Protocoles et services pour la phase opérationnelle'
   language:
   - fr
   script:
@@ -64,21 +63,17 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/102903
+- content: https://webstore.iec.ch/publication/113036
   type: src
-- content: https://webstore.iec.ch/preview/info_isoiects23220-2{ed1.0}en.pdf
-  type: obp
 type: standard
 docid:
-- id: ISO/IEC TS 23220-2:2024
+- id: ISO/IEC TS 23220-4:2026
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:23220-2:2024-11:ts::'
+- id: 'urn:iec:std:iso-iec:23220-4:2026-04:ts::'
   type: URN
 date:
 - type: published
-  value: '2024-11-01'
-- type: obsoleted
   value: '2026-04-10'
 contributor:
 - organization:
@@ -99,20 +94,31 @@ contributor:
   - type: publisher
 edition:
   content: '1'
-revdate: '2024-11-01'
+revdate: '2026-04-10'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: <p class="MsoBodyText">This document specifies data objects and encoding
-    rules of generic eID-Systems in terms of building blocks for mobile document system
-    infrastructures, and standardizes generic data models for data exchanges between
-    mdoc apps and verification applications.</p><p class="MsoBodyText">This document
-    is applicable to entities involved in specifying, architecting, designing, testing,
-    maintaining, administering, and operating a mobile eID-System in parts or as a
-    whole.</p>
+- content: "<p>This document specifies building blocks for the implementation of the
+    operational phase of mobile eID systems and any other mdoc for national bodies
+    or document-specific standards to create profiles according to their needs.</p><p>This
+    document specifies the interface between the mdoc app and mdoc reader and the
+    interface between the mdoc reader and the issuing authority infrastructure.</p><p>More
+    specifically, this document defines transport protocols for various RF solutions
+    and for over the internet. It defines the application layers, such as the request-response
+    protocols between an mdoc app and mdoc reader and between an mdoc reader and issuing
+    authority.</p><p>It further defines the security mechanism for issuer authentication,
+    mdoc authentication and credential holder verification.</p><p>This document also
+    specifies mechanisms enabling parties other than the issuing authority to:</p><ul><li>use
+    a machine to obtain the mdoc data;</li><li>bind the mdoc to the mdoc holder;</li><li>authenticate
+    the origin of the mdoc data;</li><li>verify the integrity of the mdoc data.</li></ul><p>The
+    following items are out of scope for this document:</p><ul><li>provisioning of
+    the mdoc data (this is covered by ISO/IEC TS 23220-3);</li><li>how holder’s consent
+    to share data is obtained;</li><li>requirements on storage of mdoc data and mdoc
+    private keys.</li></ul><p>Finally, it provides information to create a conformant
+    profile.</p>"
   language:
   - en
   script:
@@ -120,7 +126,7 @@ abstract:
   format: text/html
 docstatus:
   stage:
-    value: REVISED
+    value: PUBLISHED
 copyright:
 - owner:
   - name:
@@ -133,7 +139,7 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2024'
+  from: '2026'
 place:
 - city: Geneva
 ext:
@@ -148,4 +154,4 @@ ext:
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
-  price_code: iso:B
+  price_code: iso:H
