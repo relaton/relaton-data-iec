@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.9
-id: ISO/IECTR19768-2007
+id: ISO/IECTS19770-13-2026
 title:
 - content: Information technology
   language:
@@ -9,22 +9,23 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Programming languages
+- content: IT asset management
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Technical Report on C++ Library Extensions
+- content: 'Part 13: Guidance on the incorporation of sustainability aspects in an
+    IT asset management system'
   language:
   - en
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Information technology - Programming languages - Technical Report on C++
-    Library Extensions
+- content: 'Information technology - IT asset management - Part 13: Guidance on the
+    incorporation of sustainability aspects in an IT asset management system'
   language:
   - en
   script:
@@ -38,22 +39,24 @@ title:
   - Latn
   format: text/plain
   type: title-intro
-- content: Langages de programmation
+- content: Gestion de biens de logiciel
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-main
-- content: Rapport technique sur l'extensions des librairies C++
+- content: 'Partie 13: Recommandations pour l''intégration d''aspects de durabilité
+    dans un système de gestion de biens de logiciel'
   language:
   - fr
   script:
   - Latn
   format: text/plain
   type: title-part
-- content: Technologies de l'information - Langages de programmation - Rapport technique
-    sur l'extensions des librairies C++
+- content: 'Technologies de l''information - Gestion de biens de logiciel - Partie
+    13: Recommandations pour l''intégration d''aspects de durabilité dans un système
+    de gestion de biens de logiciel'
   language:
   - fr
   script:
@@ -61,18 +64,18 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://webstore.iec.ch/publication/98247
+- content: https://webstore.iec.ch/publication/113078
   type: src
 type: standard
 docid:
-- id: ISO/IEC TR 19768:2007
+- id: ISO/IEC TS 19770-13:2026
   type: IEC
   primary: true
-- id: 'urn:iec:std:iso-iec:19768:2007-11:tr::'
+- id: 'urn:iec:std:iso-iec:19770-13:2026-04:ts::'
   type: URN
 date:
 - type: published
-  value: '2007-11-15'
+  value: '2026-04-13'
 contributor:
 - organization:
     name:
@@ -91,24 +94,22 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '2'
-revdate: '2007-11-15'
+  content: '1'
+revdate: '2026-04-13'
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "<p>ISO/IEC TR 19768:2007 specifies a series of extensions to the standard
-    library for the programming language C++, as specified by ISO/IEC 14882, in order
-    to build more widespread existing practice for an expanded C++ standard library.
-    Some of the components in ISO/IEC TR 19768:2007 could be considered for standardization
-    in a future version of C++.</p><p>The specific classes of extensions specified
-    in ISO/IEC TR 19768:2007 are as follows:</p><ul><li>general utilities such as
-    reference-counted pointers;</li><li>functional programming;</li><li>facilities
-    for compile-time type queries;</li><li>enhanced support for numerical computation;</li><li>hash
-    tables and other additional container classes;</li><li>regular expression processing;</li><li>improved
-    capability with the programming language C, as specified by ISO/IEC 9899.</li></ul>"
+- content: <p class="MsoBodyText">The document gives guidance to organizations on
+    the incorporation of sustainability aspects for IT asset management (ITAM).</p><p
+    class="MsoBodyText">This document is applicable to any organization, regardless
+    of size, type and nature, and applies to the sustainability aspects that an organization
+    has implemented or will implement in its IT asset management system (ITAMS) in
+    accordance with the scope definition of ISO/IEC 19770-1.</p><p class="MsoBodyText">This
+    document also addresses what is material from the perspective of the organization
+    and of its stakeholders.</p>
   language:
   - en
   script:
@@ -129,19 +130,21 @@ copyright:
     abbreviation:
       content: IEC
     url: www.iec.ch
-  from: '2007'
+  from: '2026'
 place:
 - city: Geneva
 ext:
   schema-version: v1.0.0
   doctype:
-    type: technical-report
+    type: technical-specification
   editorialgroup:
     technical_committee:
-    - name: ISO/IEC JTC 1/SC 22
+    - name: ISO/IEC JTC 1/SC 7
       number: 1
       type: technicalCommittee
   ics:
-  - code: '35.060'
-    text: Languages used in information technology
-  price_code: iso:H
+  - code: 13.020.20
+    text: Environmental economics. Sustainability
+  - code: '35.080'
+    text: Software
+  price_code: iso:G
