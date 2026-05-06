@@ -1,7 +1,7 @@
 ---
 id: IEC6040441995AMD12000CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -40,7 +40,7 @@ docidentifier:
 - content: IEC 60404-4:1995+AMD1:2000 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60404-4:1995-02::csv:+amd:1:2000-07
+- content: 'urn:iec:std:iec:60404-4:1995:csv::amd:2000:v1:'
   type: URN
 date:
 - type: published
@@ -93,19 +93,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    Describes the terminology and two measuring methods, namely: the ring method and the permeameter method. Both methods use a test specimen in a closed magnetic circuit. Description of the test equipment and the electric circuits is given.
-
-    <b>This consolidated version consists of the second edition (1995) and its amendment 1 (2000). Therefore, no need to order amendment in
-    addition to this publication.</b>
-- language: fr
-  script: Latn
-  content: "Describes the terminology and two measuring methods, namely: the ring
+  content: 'Describes the terminology and two measuring methods, namely: the ring
     method and the permeameter method. Both methods use a test specimen in a closed
     magnetic circuit. Description of the test equipment and the electric circuits
-    is given.\n\n<b> Cette version consolidée comprend la deuxième édition (1995)
-    et\nson amendement 1 (2000). Il n'est donc pas nécessaire de commander \nl'amendement
-    avec cette publication.</b>"
+    is given. This consolidated version consists of the second edition (1995) and
+    its amendment 1 (2000). Therefore, no need to order amendment in addition to this
+    publication.'
+- language: fr
+  script: Latn
+  content: 'Describes the terminology and two measuring methods, namely: the ring
+    method and the permeameter method. Both methods use a test specimen in a closed
+    magnetic circuit. Description of the test equipment and the electric circuits
+    is given. Cette version consolidée comprend la deuxième édition (1995) et son
+    amendement 1 (2000). Il n''est donc pas nécessaire de commander l''amendement
+    avec cette publication.'
 status:
   stage:
     content: PUBLISHED
@@ -127,7 +128,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

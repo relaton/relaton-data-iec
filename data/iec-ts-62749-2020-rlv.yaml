@@ -1,7 +1,7 @@
 ---
 id: IECTS627492020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,13 +25,15 @@ docidentifier:
 - content: IEC TS 62749:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62749:ts:rlv
+- content: 'urn:iec:std:iec:ts:62749:2020:rlv::'
   type: URN
 date:
 - type: published
   at: '2020-02-11'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-03-30'
+- type: obsoleted
+  at: '2026-03-30'
 contributor:
 - role:
   - type: publisher
@@ -102,7 +104,7 @@ abstract:
     62749."
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2020'
   owner:
@@ -121,7 +123,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

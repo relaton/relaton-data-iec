@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE188802015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,11 +24,13 @@ docidentifier:
 - content: ISO/IEC/IEEE 18880:2015
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec-ieee:18880:2015-04:::'
+- content: 'urn:iec:std:iso-["iec"@16, "ieee"@20]:18880:2015:::'
   type: URN
 date:
 - type: published
   at: '2015-04-20'
+- type: obsoleted
+  at: '2026-03-24'
 contributor:
 - role:
   - type: publisher
@@ -112,7 +114,7 @@ abstract:
     energy saving, environmental monitoring, and alarm notification systems.</p>"
 status:
   stage:
-    content: PUBLISHED
+    content: WITHDRAWN
 copyright:
 - from: '2015'
   owner:
@@ -155,11 +157,11 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
   ics:
   - code: '35.110'
     text: Networking
-  price_code: iso:G
+  price_code: iso:B

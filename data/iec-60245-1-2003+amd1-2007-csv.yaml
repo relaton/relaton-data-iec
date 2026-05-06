@@ -1,7 +1,7 @@
 ---
 id: IEC6024512003AMD12007CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,13 +46,15 @@ docidentifier:
 - content: IEC 60245-1:2003+AMD1:2007 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60245-1:2003-12::csv:+amd:1:2007-10
+- content: 'urn:iec:std:iec:60245-1:2003:csv::amd:2007:v1:'
   type: URN
 date:
 - type: published
   at: '2008-01-30'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-03-16'
+- type: obsoleted
+  at: '2026-03-16'
 contributor:
 - role:
   - type: publisher
@@ -118,7 +120,7 @@ abstract:
     remplacement de l'isolation IE 1 par IE 4.
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2003'
   owner:
@@ -137,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

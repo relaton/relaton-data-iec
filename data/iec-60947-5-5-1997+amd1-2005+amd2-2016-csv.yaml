@@ -1,7 +1,7 @@
 ---
 id: IEC60947551997AMD12005AMD22016CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -48,13 +48,15 @@ docidentifier:
 - content: IEC 60947-5-5:1997+AMD1:2005+AMD2:2016 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60947-5-5:1997-11::csv:+amd:1:2005-01+amd:2:2016-02
+- content: 'urn:iec:std:iec:60947-5-5:1997:csv::amd:2005:v1:amd:2016:v2:'
   type: URN
 date:
 - type: published
   at: '2016-02-29'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-02-18'
+- type: obsoleted
+  at: '2026-02-18'
 contributor:
 - role:
   - type: publisher
@@ -118,7 +120,7 @@ abstract:
     n'est donc pas nécessaire de commander les amendements avec cette publication.</strong>
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '1997'
   owner:
@@ -137,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

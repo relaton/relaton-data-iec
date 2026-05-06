@@ -1,0 +1,182 @@
+---
+id: IEC6254192026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Alarms and Conditions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 9: Alarms and Conditions'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 9: Alarmes et conditions'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 9: Alarmes et conditions'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/82277
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-9{ed4.0}en.pdf
+docidentifier:
+- content: IEC 62541-9:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-9:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-04-16'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      identifier:
+      - content: '65'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-9:2026 specifies the representation of Alarms and Conditions
+    in the OPC Unified Architecture. Included is the Information Model representation
+    of Alarms and Conditions in the OPC UA address space. Other aspects of alarm systems
+    like alarm philosophy, life cycle, alarm response times, alarm types and many
+    other details are captured in standards such as IEC 62682 and ISA 18.2. The Alarms
+    and Conditions Information Model in this document, is designed in accordance with
+    IEC 62682 and ISA 18.2. Annex C specifies a recommended mapping between OPC Classic
+    Alarm & Events (A&E) servers to the model described in this document. Annex A
+    describes recommended localized names for Alarm states. Annex B describes examples
+    (e.g. Event sequences, Alarm areas in AddressSpace). This fourth edition cancels
+    and replaces the third edition published in 2020. This edition constitutes a technical
+    revision.<br />\r\nThis edition includes the following significant technical changes
+    with respect to the previous edition:<br />\r\na) addition of \"Comment\" parameter
+    to Alarm shelving methods;<br />\r\nb) addition of method that allows a client
+    to get the members of a group, since it is possible that the AddressSpace does
+    not expose instances of alarms;<br />\r\nc) addition of deadband properties for
+    all limits in the limit AlarmType (from which all other types described in this
+    issue are derived);<br />\r\nd) addition of text explaining the disabling of alarms
+    is no longer supported in ISA 18.2 and that it is maintained in this document
+    for backward compatibility, but that it is recommended that Alarm not be disabled;<br
+    />\r\ne) addition of optional severities for limit alarms;<br />\r\nf) addition
+    of new AlarmState variable type that can be used to collect alarm information
+    for displays on graphics;<br />\r\ng) addition of SupportsFilterRetain property
+    to improve Client filtering;<br />\r\nh) removal of ConditionSubClassId and ConditionSubClassNames
+    from the conditiontype definition since they are now defined in BaseEventType."
+- language: fr
+  script: Latn
+  content: "IEC 62541-9:2026 spécifie la représentation des Alarmes et des Conditions
+    dans l'Architecture unifiée OPC. Il comprend la représentation par le Modèle d'information
+    des Alarmes et des Conditions dans l'espace d'adressage OPC UA. Les autres aspects
+    des systèmes d'alarme tels que la philosophie d'alarme, le cycle de vie, le temps
+    de réponse de l'alarme, les types d'alarme et de nombreux autres détails figurent
+    dans des normes telles que l'IEC 62682 et l'ISA 18.2. Le Modèle d'information
+    des Alarmes et Conditions du présent document est conçu conformément à l'IEC 62682
+    et à l'ISA 18.2. L'Annexe C spécifie un mapping recommandé entre les serveurs
+    d'Alarme et Événements (A&E) OPC classiques et le modèle décrit dans le présent
+    document. L'Annexe A décrit les noms localisés recommandés pour les états d'Alarme.
+    L'Annexe B décrit des exemples (séquences d'Événement, zones d'Alarme dans l'AddressSpace,
+    par exemple). Cette quatrième édition annule et remplace la troisième édition
+    parue en 2020. Cette édition constitue une révision technique.<br />\r\nCette
+    édition inclut les modifications techniques majeures suivantes par rapport à l'édition
+    précédente:<br />\r\na) ajout du paramètre \"Commentaire\" aux méthodes de suspension
+    d'Alarme;<br />\r\nb) ajout d'une méthode permettant à un client d'obtenir les
+    membres d'un groupe, puisque l'AddressSpace peut ne pas présenter d'instances
+    d'alarmes;<br />\r\nc) ajout de propriétés de bande morte pour toutes les limites
+    de l'AlarmType limite (à partir duquel tous les autres types décrits dans ce problèmes
+    sont dérivés);<br />\r\nd) ajout d'un texte expliquant que la désactivation des
+    alarmes n'est plus prise en charge dans l'ISA 18.2 et qu'elle est maintenue dans
+    le présent document pour des raisons de rétrocompatibilité, mais qu'il est recommandé
+    de ne pas désactiver l'Alarme;<br />\r\ne) ajout de sévérités facultatives pour
+    les alarmes limites;<br />\r\nf) ajout d'un nouveau type de variable AlarmState
+    qui peut être utilisé pour recueillir des informations d'alarme à afficher sur
+    les graphiques;<br />\r\ng) ajout de de la propriété SupportsFilterRetain pour
+    améliorer le filtrage des Clients;<br />\r\nh) suppression de ConditionSubClassId
+    et ConditionSubClassNames de la définition de conditiontype, car ils sont désormais
+    définis dans BaseEventType."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '115405'
+  price_code: iec:P

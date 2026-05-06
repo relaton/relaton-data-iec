@@ -1,7 +1,7 @@
 ---
 id: IEC6033521052016AMD12019CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,13 +46,15 @@ docidentifier:
 - content: IEC 60335-2-105:2016+AMD1:2019 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60335-2-105:2016-11::csv:+amd:1:2019-09
+- content: 'urn:iec:std:iec:60335-2-105:2016:csv::amd:2019:v1:'
   type: URN
 date:
 - type: published
   at: '2019-09-20'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-02-23'
+- type: obsoleted
+  at: '2026-02-23'
 contributor:
 - role:
   - type: publisher
@@ -167,7 +169,7 @@ abstract:
     Il n'est donc pas nécessaire de commander l'amendement avec cette publication.</strong>"
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2016'
   owner:
@@ -186,7 +188,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC625902019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -20,6 +20,23 @@ title:
   content: Railway applications - Fixed installations - Electronic power converters
     for substations
   type: main
+- language: fr
+  script: Latn
+  content: Applications ferroviaires
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Installations fixes
+  type: title-main
+- language: fr
+  script: Latn
+  content: Convertisseurs électroniques de puissance pour sous-stations
+  type: title-part
+- language: fr
+  script: Latn
+  content: Applications ferroviaires - Installations fixes - Convertisseurs électroniques
+    de puissance pour sous-stations
+  type: main
 source:
 - type: src
   content: https://webstore.iec.ch/publication/63050
@@ -29,7 +46,7 @@ docidentifier:
 - content: IEC 62590:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62590:2019-08:::'
+- content: 'urn:iec:std:iec:62590:2019:::'
   type: URN
 date:
 - type: published
@@ -76,6 +93,7 @@ edition:
   content: '2'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
@@ -95,6 +113,32 @@ abstract:
     />\r\nb) Correction of the clearances and withstand voltages due to erroneous
     use of PD in former edition.<br />\r\nc) adaption of structure, adaption of vocabulary,
     removal of unused term and abbreviations."
+- language: fr
+  script: Latn
+  content: "IEC 62590:2019 Cette édition constitue une révision technique.<br />\r\nCette
+    édition inclut également les modifications techniques majeures suivantes par rapport
+    à l'édition précédente :<br />\r\na) Inclusion des convertisseurs continu/continu<br
+    />\r\nb) Correction des distances d'isolement et tensions de tenue suite à l’utilisation
+    erronée de PD dans l’édition précédente<br />\r\nc) Adaptation à la directive
+    ISO/IEC actuelle partie 2, adaptation de la structure, adaptation du vocabulaire,
+    suppression des termes et abréviations non utilisés<br />\r\nCette deuxième édition
+    annule et remplace la première édition publiée en 2010.<br />\r\nLe présent document
+    spécifie les exigences de performance de tous les convertisseurs électroniques
+    de puissance pour les installations fixes, utilisant des valves électroniques
+    commandables et/ou non commandables et destinées à l'alimentation de traction.<br
+    />\r\nLes appareils peuvent être commandés par un courant, une tension ou un feu.
+    Les appareils non bistables fonctionnent, par hypothèse, en mode commuté.<br />\r\nLe
+    présent document s'applique aux installations fixes des systèmes de traction électrique
+    suivants :<br />\r\n• les chemins de fer ;<br />\r\n• les systèmes guidés de transport
+    de masse tels que : tramways, métros légers, chemins de fer aériens et souterrains,
+    chemins de fer de montagne, trolleybus.<br />\r\nLe présent document ne s'applique
+    pas aux :<br />\r\n• grues, plateformes transportables et autres matériels de
+    transport similaires sur rails ;<br />\r\n• téléphériques, télécabines,<br />\r\n•
+    funiculaires.<br />\r\nLe présent document s'applique aux redresseurs à diodes,
+    redresseurs commandés, convertisseurs continu/continu, onduleurs et convertisseurs
+    de fréquence.<br />\r\nL'équipement traité dans le présent document est le convertisseur
+    même.<br />\r\nLa présente version bilingue (2026-02) correspond à la version
+    anglaise monolingue publiée en 2019-08."
 status:
   stage:
     content: PUBLISHED
@@ -116,7 +160,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC60939212004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,13 +31,13 @@ docidentifier:
 - content: IEC 60939-2-1:2004
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60939-2-1:2004-11:::'
+- content: 'urn:iec:std:iec:60939-2-1:2004:::'
   type: URN
 date:
 - type: published
   at: '2004-11-08'
 - type: stable-until
-  at: '2029-12-31'
+  at: '2034-12-31'
 contributor:
 - role:
   - type: publisher
@@ -83,9 +83,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    is a supplementary document to the sectional specification and contains requirements for style and layout and minimum content of detail specifications. In the preparation of detail specifications, the content of 1.4 of the sectional specification shall be taken into account.
-    The use of IEC 60939-2-2 may be more appropriate for components where approval and requalification tests contribute considerably to the cost of the product, whereas the employment of this specification may be necessary for components manufactured in mass production. This specification offers the assessment levels D and DZ (Zero defect).
+  content: is a supplementary document to the sectional specification and contains
+    requirements for style and layout and minimum content of detail specifications.
+    In the preparation of detail specifications, the content of 1.4 of the sectional
+    specification shall be taken into account. The use of IEC 60939-2-2 may be more
+    appropriate for components where approval and requalification tests contribute
+    considerably to the cost of the product, whereas the employment of this specification
+    may be necessary for components manufactured in mass production. This specification
+    offers the assessment levels D and DZ (Zero defect).
 status:
   stage:
     content: PUBLISHED
@@ -107,7 +112,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

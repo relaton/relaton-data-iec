@@ -1,7 +1,7 @@
 ---
 id: IEC6107621042014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,13 +50,15 @@ docidentifier:
 - content: IEC 61076-2-104:2014
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61076-2-104:2014-09:::'
+- content: 'urn:iec:std:iec:61076-2-104:2014:::'
   type: URN
 date:
 - type: published
   at: '2014-09-09'
 - type: stable-until
-  at: '2030-12-31'
+  at: '2026-02-09'
+- type: obsoleted
+  at: '2026-02-09'
 contributor:
 - role:
   - type: publisher
@@ -128,7 +130,7 @@ abstract:
     connecteurs, connecteurs circulaires, transmission de données"
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2014'
   owner:
@@ -147,7 +149,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

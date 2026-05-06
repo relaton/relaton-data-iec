@@ -1,7 +1,7 @@
 ---
 id: IEC612541993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -51,13 +51,15 @@ docidentifier:
 - content: IEC 61254:1993
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61254:1993-12:::'
+- content: 'urn:iec:std:iec:61254:1993:::'
   type: URN
 date:
 - type: published
   at: '1993-12-09'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-03-18'
+- type: obsoleted
+  at: '2026-03-18'
 contributor:
 - role:
   - type: publisher
@@ -115,7 +117,7 @@ abstract:
     de mesure normalisées de ces caractéristiques.
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '1993'
   owner:
@@ -134,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

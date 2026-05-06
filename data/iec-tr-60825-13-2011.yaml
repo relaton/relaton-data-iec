@@ -1,7 +1,7 @@
 ---
 id: IECTR60825132011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,13 +25,15 @@ docidentifier:
 - content: IEC TR 60825-13:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60825-13:2011-10:tr::'
+- content: 'urn:iec:std:iec:tr:60825-13:2011:::'
   type: URN
 date:
 - type: published
   at: '2011-10-19'
 - type: stable-until
   at: '2026-12-31'
+- type: obsoleted
+  at: '2026-02-03'
 contributor:
 - role:
   - type: publisher
@@ -96,7 +98,7 @@ abstract:
     in conjunction with IEC 60825-1:2007."
 status:
   stage:
-    content: PUBLISHED
+    content: REPLACED
 copyright:
 - from: '2011'
   owner:
@@ -115,7 +117,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

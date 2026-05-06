@@ -1,7 +1,7 @@
 ---
 id: ISOIEC19823222019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,11 +29,13 @@ docidentifier:
 - content: ISO/IEC 19823-22:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19823-22:2019-05:::'
+- content: 'urn:iec:std:iso-iec:19823-22:2019:::'
   type: URN
 date:
 - type: published
   at: '2019-05-21'
+- type: obsoleted
+  at: '2026-03-06'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +105,7 @@ abstract:
     <p>Unless otherwise specified, the tests in this document are intended to be applied exclusively to RFID tags and interrogators defined in the ISO/IEC 18000‑ series using ISO/IEC 29167‑22.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2019'
   owner:
@@ -134,11 +136,11 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
   ics:
   - code: '35.030'
     text: IT Security
-  price_code: iso:D
+  price_code: iso:B

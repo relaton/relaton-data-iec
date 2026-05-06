@@ -1,7 +1,7 @@
 ---
 id: IEC6309392020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -47,13 +47,15 @@ docidentifier:
 - content: IEC 63093-9:2020
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63093-9:2020-04:::'
+- content: 'urn:iec:std:iec:63093-9:2020:::'
   type: URN
 date:
 - type: published
   at: '2020-04-16'
 - type: stable-until
-  at: '2028-12-31'
+  at: '2026-02-06'
+- type: obsoleted
+  at: '2026-02-06'
 contributor:
 - role:
   - type: publisher
@@ -136,7 +138,7 @@ abstract:
     corrigés;<br />\r\nd) le Tableau 6 est modifié sur la base de l’IEC 60205."
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2020'
   owner:
@@ -155,7 +157,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC604131972
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -32,13 +32,15 @@ docidentifier:
 - content: IEC 60413:1972
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60413:1972-01:::'
+- content: 'urn:iec:std:iec:60413:1972:::'
   type: URN
 date:
 - type: published
   at: '1972-01-01'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-03-13'
+- type: obsoleted
+  at: '2026-03-13'
 contributor:
 - role:
   - type: publisher
@@ -94,7 +96,7 @@ abstract:
     les matières de balais.
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '1972'
   owner:
@@ -113,7 +115,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

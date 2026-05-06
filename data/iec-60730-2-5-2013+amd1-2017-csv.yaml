@@ -1,7 +1,7 @@
 ---
 id: IEC60730252013AMD12017CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -42,13 +42,15 @@ docidentifier:
 - content: IEC 60730-2-5:2013+AMD1:2017 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60730-2-5:2013-11::csv:+amd:1:2017-08
+- content: 'urn:iec:std:iec:60730-2-5:2013:csv::amd:2017:v1:'
   type: URN
 date:
 - type: published
   at: '2017-08-31'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-04-24'
+- type: obsoleted
+  at: '2026-04-24'
 contributor:
 - role:
   - type: publisher
@@ -154,7 +156,7 @@ abstract:
     commande de brûleur"
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2013'
   owner:
@@ -173,7 +175,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

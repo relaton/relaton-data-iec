@@ -1,7 +1,7 @@
 ---
 id: ISOIEC29167222018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,11 +29,13 @@ docidentifier:
 - content: ISO/IEC 29167-22:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29167-22:2018-11:::'
+- content: 'urn:iec:std:iso-iec:29167-22:2018:::'
   type: URN
 date:
 - type: published
   at: '2018-11-06'
+- type: obsoleted
+  at: '2026-03-06'
 contributor:
 - role:
   - type: publisher
@@ -100,7 +102,7 @@ abstract:
     <p>A Tag and an Interrogator can support one, a subset, or all of the specified options, clearly stating what is supported.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2018'
   owner:
@@ -131,11 +133,11 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
-  price_code: iso:F
+  price_code: iso:B
