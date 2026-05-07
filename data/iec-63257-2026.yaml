@@ -1,0 +1,150 @@
+---
+id: IEC632572026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Power line communication for DC shutdown equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: Communication signal, physical layer
+  type: title-main
+- language: en
+  script: Latn
+  content: Power line communication for DC shutdown equipment - Communication signal,
+    physical layer
+  type: main
+- language: fr
+  script: Latn
+  content: Communication de ligne électrique pour les équipements d’arrêt du courant
+    continu
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Signaux de communication, couche physique
+  type: title-main
+- language: fr
+  script: Latn
+  content: Communication de ligne électrique pour les équipements d’arrêt du courant
+    continu - Signaux de communication, couche physique
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/64941
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec63257{ed1.0}en.pdf
+docidentifier:
+- content: IEC 63257:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63257:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-05-06'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 82
+      identifier:
+      - content: '82'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 63257:2026 applies to photovoltaic (PV) system components and communication
+    networks supporting the communication of the DC shutdown equipment using power
+    line communication.<br />\r\nThis document defines how to propagate the operational
+    state of the entire PV system (normal / shutdown) to the individual power production
+    components comprising the PV system. The document also describes requirements
+    and constraints associated with power line communication networks that are used
+    to support this application.<br />\r\nThis document defines the communication
+    requirements for reducing the output voltage of the DC cables that leave a PV
+    array. This output voltage reduction function can support emergency responders
+    during firefighting operations. For this function, communication is necessary
+    from the inverter / initiator to the PV-modules."
+- language: fr
+  script: Latn
+  content: "IEC 63257:2026 s’applique aux composants d’un système photovoltaïque (PV)
+    et aux réseaux de communication qui soutiennent la communication de l’équipement
+    d’arrêt du courant continu au moyen d’une communication de ligne électrique.<br
+    />\r\nLe présent document définit comment diffuser l’état de fonctionnement de
+    tout le système photovoltaïque (normal/arrêt) vers chacun de ses composants de
+    production de puissance. Il décrit également les exigences et les contraintes
+    associées aux réseaux de communication de ligne électrique utilisés pour soutenir
+    cette application. Le présent document définit les exigences de communication
+    qui permettent de réduire la tension des câbles de courant continu en sortie d’un
+    groupe photovoltaïque."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '103188'
+  price_code: iec:K
