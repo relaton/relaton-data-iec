@@ -4,7 +4,11 @@ name: keep-alive
 on:
   schedule:
   - cron: "0 0 1 * *" # on the first day-of-month
+  workflow_dispatch:
+
+permissions:
+  actions: write
 
 jobs:
   keep-alive:
-    uses: metanorma/ci/.github/workflows/keep-alive.yml@main
+    uses: relaton/support/.github/workflows/keep-alive.yml@main
