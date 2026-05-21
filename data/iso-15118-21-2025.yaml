@@ -103,75 +103,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This document specifies conformance tests in the form of an abstract test
-    suite (ATS) for a system under test (SUT) that implements an electric-vehicle
-    communication controller (EVCC) or a supply-equipment communication controller
-    (SECC) for all common requirements specified in ISO 15118-20 that are independent
-    of a particular charging type (AC, DC, ACD, WPT charging). These conformance tests
-    specify the testing of capabilities and behaviours of an SUT, as well as checking
-    what is observed against the conformance requirements specified in ISO 15118-20
-    and against what the implementer states the SUT implementation's capabilities
-    are.<br />\r\nThe capability tests within the ATS check that the observable capabilities
-    of the SUT are in accordance with the static conformance requirements specified
-    in ISO 15118-20. The behaviour tests of the ATS examine an implementation as thoroughly
-    as practical over the full range of dynamic conformance requirements specified
-    in ISO 15118-20 and within the capabilities of the SUT.<br />\r\nA test architecture
-    is described in correspondence to the ATS. The abstract test cases in this document
-    are described leveraging this test architecture and are specified in descriptive
-    tabular format covering the ISO/OSI layer 3 to 7 (network to application layers).<br
-    />\r\nIn terms of coverage, this document only covers normative sections and requirements
-    in ISO 15118-20. This document additionally refers to specific tests for requirements
-    on referenced standards (e.g. IETF RFCs, W3C Recommendation, etc.) if they are
-    relevant in terms of conformance for implementations according to ISO 15118-20.
-    However, it is explicitly not intended to widen the scope of this conformance
-    specification to such external standards, if it is not technically necessary for
-    the purpose of conformance testing for ISO 15118-20. Furthermore, the conformance
-    tests specified in this document do not include the assessment of performance
-    nor robustness or reliability of an implementation. They cannot provide judgments
-    on the physical realization of abstract service primitives, how a system is implemented,
-    how it provides any requested service, or the environment of the protocol implementation.
-    Furthermore, the abstract test cases specified in this document only consider
-    the communication protocol and the system's behaviour specified in ISO 15118-20.
-    Power flow between the EVSE and the EV is no prerequisite for the test cases specified
-    in this document."
+  content: |-
+    This document specifies conformance tests in the form of an abstract test suite (ATS) for a system under test (SUT) that implements an electric-vehicle communication controller (EVCC) or a supply-equipment communication controller (SECC) for all common requirements specified in ISO 15118-20 that are independent of a particular charging type (AC, DC, ACD, WPT charging). These conformance tests specify the testing of capabilities and behaviours of an SUT, as well as checking what is observed against the conformance requirements specified in ISO 15118-20 and against what the implementer states the SUT implementation's capabilities are.<br/>
+    The capability tests within the ATS check that the observable capabilities of the SUT are in accordance with the static conformance requirements specified in ISO 15118-20. The behaviour tests of the ATS examine an implementation as thoroughly as practical over the full range of dynamic conformance requirements specified in ISO 15118-20 and within the capabilities of the SUT.<br/>
+    A test architecture is described in correspondence to the ATS. The abstract test cases in this document are described leveraging this test architecture and are specified in descriptive tabular format covering the ISO/OSI layer 3 to 7 (network to application layers).<br/>
+    In terms of coverage, this document only covers normative sections and requirements in ISO 15118-20. This document additionally refers to specific tests for requirements on referenced standards (e.g. IETF RFCs, W3C Recommendation, etc.) if they are relevant in terms of conformance for implementations according to ISO 15118-20. However, it is explicitly not intended to widen the scope of this conformance specification to such external standards, if it is not technically necessary for the purpose of conformance testing for ISO 15118-20. Furthermore, the conformance tests specified in this document do not include the assessment of performance nor robustness or reliability of an implementation. They cannot provide judgments on the physical realization of abstract service primitives, how a system is implemented, how it provides any requested service, or the environment of the protocol implementation. Furthermore, the abstract test cases specified in this document only consider the communication protocol and the system's behaviour specified in ISO 15118-20. Power flow between the EVSE and the EV is no prerequisite for the test cases specified in this document.
 - language: fr
   script: Latn
-  content: "Le présent document spécifie les tests de conformité sous la forme d'une
-    suite de tests abstraite (ATS) pour un système sous test (SUT) comportant un contrôleur
-    de communication de véhicule électrique (CCVE) ou un contrôleur de communication
-    de l'infrastructure de recharge (CCIR), pour toutes les exigences communes spécifiées
-    dans l'ISO 15118-20 qui sont indépendantes d'un type de charge particulier (CA,
-    CC, DCA, TPSF). Ces tests de conformité spécifient les tests de capacités et de
-    comportements d'un SUT, puis vérifient les résultats obtenus par rapport aux conditions
-    de conformité définies dans l'ISO 15118-20 et aux capacités d'implémentation du
-    SUT définies par l'implémenteur.<br />\r\nLes tests de capacités définis dans
-    la suite de tests abstraite (ATS) vérifient que les capacités observables sur
-    le SUT respectent les conditions de conformité statique spécifiées dans la norme
-    ISO 15118-20. Les tests de comportement de la suite de tests abstraite (ATS) examinent
-    en détail une implémentation donnée dans l'ensemble des conditions de conformité
-    dynamique spécifiées dans la norme ISO 15118-20, ainsi que dans les limites des
-    capacités du SUT.<br />\r\nUne architecture de test est décrite sur la base de
-    la suite de tests abstraite (ATS). Les tests élémentaires abstraits définis dans
-    le présent document sont décrits sur la base de cette architecture de test et
-    sont spécifiés sous la forme de tableaux descriptifs couvrant les couches ISO/OSI
-    3 à 7 (couches réseau/application).<br />\r\nLe présent document ne couvre que
-    les sections normatives et les exigences de l'ISO 15118-20. Le présent document
-    renvoie également vers des tests spécifiques pour les exigences relatives aux
-    normes citées (par exemple, les RFC de l'IETF, les recommandations W3C) si ces
-    tests présentent un intérêt pour la conformité des implémentations conformément
-    à l'ISO 15118-20. Toutefois, le présent document n'a pas pour objet d'élargir
-    le domaine d'application de cette spécification de conformité à de telles normes
-    externes, si cela n'est pas techniquement nécessaire pour les tests de conformité
-    conformément à l'ISO 15118-20. En outre, les tests de conformité spécifiés dans
-    le présent document n'incluent pas l'évaluation des performances, de la robustesse
-    ou de la fiabilité d'une implémentation. Ces tests ne peuvent pas évaluer l'implémentation
-    physique des primitives de services abstraites, la manière dont est implémenté
-    un système, la manière dont celui-ci fournit un service demandé, ou l'environnement
-    d'implémentation du protocole. Par ailleurs, les tests élémentaires abstraits
-    spécifiés dans le présent document couvrent uniquement le protocole de communication
-    et le comportement du système spécifiés par l'ISO 15118-20. Le flux de puissance
-    entre l'IRVE et le VE n'est pas un prérequis pour les tests spécifiés dans le
-    présent document."
+  content: |-
+    Le présent document spécifie les tests de conformité sous la forme d'une suite de tests abstraite (ATS) pour un système sous test (SUT) comportant un contrôleur de communication de véhicule électrique (CCVE) ou un contrôleur de communication de l'infrastructure de recharge (CCIR), pour toutes les exigences communes spécifiées dans l'ISO 15118-20 qui sont indépendantes d'un type de charge particulier (CA, CC, DCA, TPSF). Ces tests de conformité spécifient les tests de capacités et de comportements d'un SUT, puis vérifient les résultats obtenus par rapport aux conditions de conformité définies dans l'ISO 15118-20 et aux capacités d'implémentation du SUT définies par l'implémenteur.<br/>
+    Les tests de capacités définis dans la suite de tests abstraite (ATS) vérifient que les capacités observables sur le SUT respectent les conditions de conformité statique spécifiées dans la norme ISO 15118-20. Les tests de comportement de la suite de tests abstraite (ATS) examinent en détail une implémentation donnée dans l'ensemble des conditions de conformité dynamique spécifiées dans la norme ISO 15118-20, ainsi que dans les limites des capacités du SUT.<br/>
+    Une architecture de test est décrite sur la base de la suite de tests abstraite (ATS). Les tests élémentaires abstraits définis dans le présent document sont décrits sur la base de cette architecture de test et sont spécifiés sous la forme de tableaux descriptifs couvrant les couches ISO/OSI 3 à 7 (couches réseau/application).<br/>
+    Le présent document ne couvre que les sections normatives et les exigences de l'ISO 15118-20. Le présent document renvoie également vers des tests spécifiques pour les exigences relatives aux normes citées (par exemple, les RFC de l'IETF, les recommandations W3C) si ces tests présentent un intérêt pour la conformité des implémentations conformément à l'ISO 15118-20. Toutefois, le présent document n'a pas pour objet d'élargir le domaine d'application de cette spécification de conformité à de telles normes externes, si cela n'est pas techniquement nécessaire pour les tests de conformité conformément à l'ISO 15118-20. En outre, les tests de conformité spécifiés dans le présent document n'incluent pas l'évaluation des performances, de la robustesse ou de la fiabilité d'une implémentation. Ces tests ne peuvent pas évaluer l'implémentation physique des primitives de services abstraites, la manière dont est implémenté un système, la manière dont celui-ci fournit un service demandé, ou l'environnement d'implémentation du protocole. Par ailleurs, les tests élémentaires abstraits spécifiés dans le présent document couvrent uniquement le protocole de communication et le comportement du système spécifiés par l'ISO 15118-20. Le flux de puissance entre l'IRVE et le VE n'est pas un prérequis pour les tests spécifiés dans le présent document.
 status:
   stage:
     content: PUBLISHED

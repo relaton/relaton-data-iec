@@ -83,22 +83,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62106-3:2018 defines the Open Data Application (ODA) feature of the
-    Radio Data System (RDS). The ODA feature in essence allows raw data to be transmitted
-    via a transparent data channel from a service provider to a suitably equipped
-    receiver without there being any prior knowledge of the data content by the IEC
-    62106 standard. This document defines the method of packaging the data within
-    the RDS group structure and the identification of the data (using the Application
-    Identification, AID) such that it can be addressed by an appropriate decoder on
-    the receiver.<br />\r\nIEC 62106-3:2018 together with IEC 62106-1, IEC 62106-2,
-    IEC 62106-4, IEC 62106-5 and IEC 62106-6, cancels and replaces IEC 62106:2015,
-    and constitutes a technical revision.<br />\r\nThis edition includes the following
-    significant technical changes with respect to IEC 62106:2015:<br />\r\n•    Provision
-    has been made to carry RDS on multiple data-streams (RDS2).<br />\r\n•    For
-    Open Data Applications, in addition to the already existing 37-bit and 21-bit
-    data group structures a new 56-bit or 7-byte data group structure has been added.<br
-    />\r\n•    New are AF coding below 87,6 MHz (down to 64,1 MHz) using ODA-AID.
-    RT+ can now be used with RT and eRT, 0x6365, see IEC 62106-6."
+  content: |-
+    IEC 62106-3:2018 defines the Open Data Application (ODA) feature of the Radio Data System (RDS). The ODA feature in essence allows raw data to be transmitted via a transparent data channel from a service provider to a suitably equipped receiver without there being any prior knowledge of the data content by the IEC 62106 standard. This document defines the method of packaging the data within the RDS group structure and the identification of the data (using the Application Identification, AID) such that it can be addressed by an appropriate decoder on the receiver.<br/>
+    IEC 62106-3:2018 together with IEC 62106-1, IEC 62106-2, IEC 62106-4, IEC 62106-5 and IEC 62106-6, cancels and replaces IEC 62106:2015, and constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to IEC 62106:2015:<br/>
+    •    Provision has been made to carry RDS on multiple data-streams (RDS2).<br/>
+    •    For Open Data Applications, in addition to the already existing 37-bit and 21-bit data group structures a new 56-bit or 7-byte data group structure has been added.<br/>
+    •    New are AF coding below 87,6 MHz (down to 64,1 MHz) using ODA-AID. RT+ can now be used with RT and eRT, 0x6365, see IEC 62106-6.
 status:
   stage:
     content: PUBLISHED

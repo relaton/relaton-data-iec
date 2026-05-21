@@ -78,28 +78,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-9:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nIEC 62541-9:2020 specifies
-    the representation of Alarms and Conditions in the OPC Unified Architecture. Included
-    is the Information Model representation of Alarms and Conditions in the OPC UA
-    address space. Other aspects of alarm systems such as alarm philosophy, life cycle,
-    alarm response times, alarm types and many other details are captured in documents
-    such as IEC 62682 and ISA 18.2. The Alarms and Conditions Information Model in
-    this specification is designed in accordance with IEC 62682 and ISA 18.2.<br />\r\nThis
-    third edition cancels and replaces the second edition published in 2015. This
-    edition constitutes a technical revision.<br />\r\nThis edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\na)
-    added optional engineering units to the definition of RateOfChange alarms;<br
-    />\r\nb) to fulfill the IEC 62682 model, the following elements have been added:<br
-    />\r\n- AlarmConditionType States: Suppression, Silence, OutOfService, Latched;<br
-    />\r\n- AlarmConditionType Properties: OnDelay, OffDelay, FirstInGroup, ReAlarmTime;<br
-    />\r\n- New alarm types: DiscrepencyAlarm, DeviationAlarm, InstrumentDiagnosticAlarm,
-    SystemDiagnosticAlarm.<br />\r\nc) added Annex that specifies how the concepts
-    of this OPC UA part maps to IEC 62682 and ISA 18.2;<br />\r\nd) added new ConditionClasses:
-    Safety, HighlyManaged, Statistical, Testing, Training;<br />\r\ne) added CertificateExpiration
-    AlarmType;<br />\r\nf) added Alarm Metrics model."
+  content: |-
+    IEC 62541-9:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    IEC 62541-9:2020 specifies the representation of Alarms and Conditions in the OPC Unified Architecture. Included is the Information Model representation of Alarms and Conditions in the OPC UA address space. Other aspects of alarm systems such as alarm philosophy, life cycle, alarm response times, alarm types and many other details are captured in documents such as IEC 62682 and ISA 18.2. The Alarms and Conditions Information Model in this specification is designed in accordance with IEC 62682 and ISA 18.2.<br/>
+    This third edition cancels and replaces the second edition published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) added optional engineering units to the definition of RateOfChange alarms;<br/>
+    b) to fulfill the IEC 62682 model, the following elements have been added:<br/>
+    - AlarmConditionType States: Suppression, Silence, OutOfService, Latched;<br/>
+    - AlarmConditionType Properties: OnDelay, OffDelay, FirstInGroup, ReAlarmTime;<br/>
+    - New alarm types: DiscrepencyAlarm, DeviationAlarm, InstrumentDiagnosticAlarm, SystemDiagnosticAlarm.<br/>
+    c) added Annex that specifies how the concepts of this OPC UA part maps to IEC 62682 and ISA 18.2;<br/>
+    d) added new ConditionClasses: Safety, HighlyManaged, Statistical, Testing, Training;<br/>
+    e) added CertificateExpiration AlarmType;<br/>
+    f) added Alarm Metrics model.
 status:
   stage:
     content: REVISED

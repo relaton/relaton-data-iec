@@ -100,150 +100,52 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63316:2026 prescribes safeguards, test methods and compliance requirements
-    intended to reduce the risk of electrical shock and fire associated with voltage
-    and current at voltages greater than 60 V DC and 60 V AC.<br />\r\nThis document
-    applies to equipment ports intended to supply and receive operating power from
-    communications equipment ports using communication wires and cables. It covers
-    particular requirements for circuits that are designed to transfer AC or DC power
-    from a power sourcing equipment (PSE) (3.1.2) to a powered device (PD) (3.1.3),
-    including repeaters, amplifiers, Optical Network Units, Remote DSLAMs, service
-    provider terminating equipment, remote telecommunications cabinets and equipment,
-    and midspan passive equipment connected to the PSE (3.1.2) and PD (3.1.3).<br
-    />\r\nThe power transfer of equipment ports covered by this document uses non-mains
-    AC voltage or non-mains DC voltage above 60 V DC classified as ES2 according to
-    5.2.1.2 of IEC 62368-1:2023 or, in some very controlled cases, classified as ES3
-    according to IEC 62368-1:2023.<br />\r\nEXAMPLES<br />\r\n- DC power transfer
-    using voltages above 60 V DC but ≤ 120 V DC, classified as ES2;<br />\r\n- Some
-    telecommunications networks where the voltage was formerly called TNV-3 (see IEC
-    62368-1:2023, Table W.3), typically used for line, span or express powering outside
-    North America, Long Range Reverse Power Feeding, HDSLx line powering ISDN, Line
-    Powering Primary Rate E1;<br />\r\n- Some North American telecommunications networks
-    between the utility service providers´ PSE (3.1.2) and service providers side
-    of the PD (3.1.3) at the PNI (3.1.8);<br />\r\n- For DC power transfer using voltages
-    ≥ 120 V DC at ES3: RFT circuits and the associated telecommunications network
-    equipment and cabling used by communications service providers and communications
-    utilities (for example, line powered E1/T1, HDSLx, SHDSLx, xDSL, repeaters, and
-    telecommunications line powering up or line powering down converters as applicable),
-    Optical Network Units, remote DSLAMs, etc. These RFT circuits are used between
-    the utility service providers PSE (3.1.2) and service providers side of the PD
-    (3.1.3) at the PNI (3.1.8). The customer facing ports of this equipment are at
-    voltage not exceeding 60 V DC and are covered by IEC 62368-1:2023, see Annex A
-    for deployment topologies;<br />\r\n- For AC/DC remote powering voltage above
-    ES1 over coaxial cable in circuits used by cable television utility service providers
-    for repeaters, amplifiers, Optical Network Units. The customer facing ports of
-    this equipment are at voltage not exceeding 60 V DC that are covered by IEC 62368-1:2023.<br
-    />\r\nNOTE 1 Any communications cable that permits power transfer between communication
-    equipment is considered a communication cable even if communication does not take
-    place. For example, a line powering up or line powering down converters as applicable
-    used to power remote telecommunications equipment, can provide limited communications
-    RFT power and not necessarily any superimposed data or signalling.<br />\r\nThis
-    document does not cover equipment interfaces within the scope of IEC 63315.<br
-    />\r\nNOTE 2 IEC 63315 covers equipment intended to either supply or receive charging,
-    or operating power from ICT interfaces using ICT wires and cables such as PoE,
-    USB, HDMI, etc, or any of these combined.<br />\r\nThis document does not cover
-    ringing signals that are in the scope of IEC 62368-1 or in the scope of IEC 62949:2017.<br
-    />\r\nThis document does not cover traditional telecommunications technologies
-    which operate at voltages not exceeding 60 V DC (circuits classified as ES1 according
-    to 5.2.1.1 of IEC 62368-1:2023 and Table ID1a, 1b, or 1c in Table 13 of IEC 62368-1:2023)
-    with or without ringing signals (classified as ES2 according to 5.2.1.1 of IEC
-    62368-1:2023 and external circuit ID1a, 1b, or 1c in Table 13 of IEC 62368-1:2023).
-    Examples of traditional telecommunications technologies include Analogue Telephony,
-    ISDN, T1, E1, VDSL, SHDSL, DDS, etc.<br />\r\nThis document does not cover communications
-    over mains and high-voltage power transmission and distribution lines.<br />\r\nThis
-    first edition cancels and replaces Clause 6 of IEC 62368-3 published in 2017.
-    This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to Clause 6 of IEC 62368-3
-    published in 2017:<br />\r\na) DC power transfer at voltages above 60 V DC but
-    ≤ 120 V DC (ES2), including telecommunications networks formerly known as TNV-3;<br
-    />\r\nb) DC power transfer at voltages ≥ 120 V DC at ES3, such as RFT circuits
-    and associated telecommunications equipment;<br />\r\nc) AC/DC remote powering
-    above ES1 over coaxial cable in cable television utility service provider circuits
-    for repeaters, amplifiers, and ONUs;<br />\r\nd) clarification on communication
-    cable permitting power transfer, regardless of data transmission presence."
+  content: |-
+    IEC 63316:2026 prescribes safeguards, test methods and compliance requirements intended to reduce the risk of electrical shock and fire associated with voltage and current at voltages greater than 60 V DC and 60 V AC.<br/>
+    This document applies to equipment ports intended to supply and receive operating power from communications equipment ports using communication wires and cables. It covers particular requirements for circuits that are designed to transfer AC or DC power from a power sourcing equipment (PSE) (3.1.2) to a powered device (PD) (3.1.3), including repeaters, amplifiers, Optical Network Units, Remote DSLAMs, service provider terminating equipment, remote telecommunications cabinets and equipment, and midspan passive equipment connected to the PSE (3.1.2) and PD (3.1.3).<br/>
+    The power transfer of equipment ports covered by this document uses non-mains AC voltage or non-mains DC voltage above 60 V DC classified as ES2 according to 5.2.1.2 of IEC 62368-1:2023 or, in some very controlled cases, classified as ES3 according to IEC 62368-1:2023.<br/>
+    EXAMPLES<br/>
+    - DC power transfer using voltages above 60 V DC but ≤ 120 V DC, classified as ES2;<br/>
+    - Some telecommunications networks where the voltage was formerly called TNV-3 (see IEC 62368-1:2023, Table W.3), typically used for line, span or express powering outside North America, Long Range Reverse Power Feeding, HDSLx line powering ISDN, Line Powering Primary Rate E1;<br/>
+    - Some North American telecommunications networks between the utility service providers´ PSE (3.1.2) and service providers side of the PD (3.1.3) at the PNI (3.1.8);<br/>
+    - For DC power transfer using voltages ≥ 120 V DC at ES3: RFT circuits and the associated telecommunications network equipment and cabling used by communications service providers and communications utilities (for example, line powered E1/T1, HDSLx, SHDSLx, xDSL, repeaters, and telecommunications line powering up or line powering down converters as applicable), Optical Network Units, remote DSLAMs, etc. These RFT circuits are used between the utility service providers PSE (3.1.2) and service providers side of the PD (3.1.3) at the PNI (3.1.8). The customer facing ports of this equipment are at voltage not exceeding 60 V DC and are covered by IEC 62368-1:2023, see Annex A for deployment topologies;<br/>
+    - For AC/DC remote powering voltage above ES1 over coaxial cable in circuits used by cable television utility service providers for repeaters, amplifiers, Optical Network Units. The customer facing ports of this equipment are at voltage not exceeding 60 V DC that are covered by IEC 62368-1:2023.<br/>
+    NOTE 1 Any communications cable that permits power transfer between communication equipment is considered a communication cable even if communication does not take place. For example, a line powering up or line powering down converters as applicable used to power remote telecommunications equipment, can provide limited communications RFT power and not necessarily any superimposed data or signalling.<br/>
+    This document does not cover equipment interfaces within the scope of IEC 63315.<br/>
+    NOTE 2 IEC 63315 covers equipment intended to either supply or receive charging, or operating power from ICT interfaces using ICT wires and cables such as PoE, USB, HDMI, etc, or any of these combined.<br/>
+    This document does not cover ringing signals that are in the scope of IEC 62368-1 or in the scope of IEC 62949:2017.<br/>
+    This document does not cover traditional telecommunications technologies which operate at voltages not exceeding 60 V DC (circuits classified as ES1 according to 5.2.1.1 of IEC 62368-1:2023 and Table ID1a, 1b, or 1c in Table 13 of IEC 62368-1:2023) with or without ringing signals (classified as ES2 according to 5.2.1.1 of IEC 62368-1:2023 and external circuit ID1a, 1b, or 1c in Table 13 of IEC 62368-1:2023). Examples of traditional telecommunications technologies include Analogue Telephony, ISDN, T1, E1, VDSL, SHDSL, DDS, etc.<br/>
+    This document does not cover communications over mains and high-voltage power transmission and distribution lines.<br/>
+    This first edition cancels and replaces Clause 6 of IEC 62368-3 published in 2017. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to Clause 6 of IEC 62368-3 published in 2017:<br/>
+    a) DC power transfer at voltages above 60 V DC but ≤ 120 V DC (ES2), including telecommunications networks formerly known as TNV-3;<br/>
+    b) DC power transfer at voltages ≥ 120 V DC at ES3, such as RFT circuits and associated telecommunications equipment;<br/>
+    c) AC/DC remote powering above ES1 over coaxial cable in cable television utility service provider circuits for repeaters, amplifiers, and ONUs;<br/>
+    d) clarification on communication cable permitting power transfer, regardless of data transmission presence.
 - language: fr
   script: Latn
-  content: "IEC 63316:2026 spécifie les protections, les méthodes d'essai et les exigences
-    de conformité destinées à réduire le risque de choc électrique et d'incendie associé
-    aux tensions et aux courants à des tensions supérieures à 60 V en courant continu
-    et à 60 V en courant alternatif.<br />\r\nLe présent document s'applique aux accès
-    d'équipements destinés à fournir et à recevoir la puissance de fonctionnement
-    par des accès d'équipements de communication au moyen de fils et câbles de communication.
-    Il couvre les exigences particulières relatives aux circuits conçus pour transférer
-    la puissance en courant alternatif ou continu d'un équipement source d'alimentation
-    (PSE, Power Sourcing Equipment) (3.1.2) vers un dispositif alimenté (PD, Powered
-    Device) (3.1.3), y compris les répéteurs, amplificateurs, unités de réseaux optiques,
-    multiplexeurs d'accès de ligne d'abonné (DSLAM, Digital Subscriber Line Access
-    Multiplexer) à distance, équipements de terminaison des fournisseurs de services,
-    armoires et équipements de télécommunication à distance, ainsi que les équipements
-    passifs de jonction connectés au PSE (3.1.2) et au PD (3.1.3).<br />\r\nLe transfert
-    de puissance des accès d'équipements couverts par le présent document utilise
-    une tension alternative qui ne provient pas du réseau d'alimentation ou une tension
-    continue qui ne provient pas du réseau d'alimentation supérieure à 60 V en courant
-    continu, classée ES2 conformément au 5.2.1.2 de l'IEC 62368‑1:2023 ou, dans certains
-    cas très contrôlés, classée ES3 conformément à l'IEC 62368‑1:2023.<br />\r\nEXEMPLES<br
-    />\r\n− Transfert de puissance en courant continu à des tensions supérieures à
-    60 V en courant continu, mais ≤ 120 V en courant continu, classé ES2.<br />\r\n−
-    Certains réseaux de télécommunication où la tension était auparavant appelée TRT-3
-    (voir l'IEC 62368‑1:2023, Tableau W.3), couramment utilisés pour l'alimentation
-    en ligne, de tronçon ou expresse en dehors de l'Amérique du Nord, l'alimentation
-    inverse (RPF, Reverse Power Feeding) longue distance, l'alimentation en ligne
-    HDSLx RNIS, l'alimentation en ligne à débit primaire E1.<br />\r\n− Certains réseaux
-    de télécommunication en Amérique du Nord entre le PSE (3.1.2) du fournisseur de
-    services publics et le côté fournisseur de services du PD (3.1.3) à l'interface
-    du réseau public (PNI) (3.1.8).<br />\r\n− Pour le transfert de puissance en courant
-    continu à des tensions ≥ 120 V en courant continu à ES3: circuits RFT et équipements
-    et câblages de réseau de télécommunication associés utilisés par les fournisseurs
-    de services de communication et les services publics de communication (par exemple,
-    E1/T1, HDSLx, SHDSLx, xDSL, répéteurs et convertisseurs abaisseurs d'alimentation
-    ou élévateurs d'alimentation de télécommunication, selon le cas), unités de réseaux
-    optiques, DSLAM à distance, etc. Ces circuits RFT sont utilisés entre le PSE (3.1.2)
-    du fournisseur de services publics et le côté fournisseur de services du PD (3.1.3)
-    à la PNI (3.1.8). Les accès orientés clients de ces équipements sont à une tension
-    qui ne dépasse pas 60 V en courant continu et sont couverts par l'IEC 62368-1:2023,
-    voir l'Annexe A pour les topologies de déploiement.<br />\r\n− Pour une tension
-    de téléalimentation en courant alternatif/en courant continu supérieure à ES1
-    sur un câble coaxial dans les circuits utilisés par les fournisseurs de services
-    publics de télévision par câble pour les répéteurs, les amplificateurs, les unités
-    de réseaux optiques. Les accès orientés clients de ces équipements sont à une
-    tension qui ne dépasse pas 60 V en courant continu et sont couverts par l'IEC
-    62368-1:2023.<br />\r\nNOTE 1 Tout câble de communication qui permet le transfert
-    de puissance entre des équipements de communication est considéré comme un câble
-    de communication, même si la communication n'a pas lieu. Par exemple, un convertisseur
-    abaisseur d'alimentation ou élévateur d'alimentation, selon le cas, utilisé pour
-    alimenter des équipements de télécommunication à distance peut fournir une puissance
-    RFT de communication limitée et pas nécessairement des données ou signalisations
-    superposées.<br />\r\nLe présent document ne couvre pas les interfaces d'équipements
-    relevant du domaine d'application de l'IEC 63315.<br />\r\nNOTE 2 L'IEC 63315
-    traite des équipements destinés à fournir ou à recevoir une puissance de charge
-    ou de fonctionnement à partir d'interfaces ICT utilisant des fils et des câbles
-    ICT, tels que PoE, USB, HDMI, etc., ou l'un quelconque de ces éléments combinés.<br
-    />\r\nLe présent document ne couvre pas les signaux de sonnerie relevant du domaine
-    d'application de l'IEC 62368-1 ou du domaine d'application de l'IEC 62949:2017.<br
-    />\r\nLe présent document ne couvre pas les technologies de télécommunication
-    traditionnelles qui fonctionnent à des tensions ne dépassant pas 60 V en courant
-    continu (circuits classés ES1 conformément au 5.2.1.1 de l'IEC 62368‑1:2023 et
-    identifiés ID 1a, 1b, ou 1c dans le Tableau 13 de l'IEC 62368-1:2023) avec ou
-    sans signaux de sonnerie (classés ES2 conformément au 5.2.1.1 de l'IEC 62368-1:2023
-    et circuits externes identifiés ID 1a, 1b, ou 1c dans le Tableau 13 de l'IEC 62368-1:2023).
-    La téléphonie analogique, RNIS, T1, E1, VDSL, SHDSL, DDS, etc. sont des exemples
-    de technologies de communication traditionnelles.<br />\r\nLe présent document
-    ne couvre pas les communications sur les lignes du réseau d'alimentation et les
-    lignes de transmission et de distribution d'énergie à haute tension.<br />\r\nCette
-    première édition annule et remplace l'Article 6 de l'IEC 62368-3 parue en 2017.
-    Cette édition constitue une révision technique.<br />\r\nCette édition inclut
-    les modifications techniques majeures suivantes par rapport à l'Article 6 de l'IEC
-    62368-3 parue en 2017:<br />\r\na) transfert de puissance en courant continu à
-    des tensions supérieures à 60 V mais ≤ 120 V en courant continu (ES2), y compris
-    les réseaux de télécommunication anciennement désignés par TRT-3;<br />\r\nb)
-    transfert de puissance en courant continu à des tensions ≥ 120 V en courant continu
-    (ES3), comme les circuits RFT et les équipements de télécommunication associés;<br
-    />\r\nc) téléalimentation en courant alternatif/en courant continu supérieure
-    à ES1 sur un câble coaxial dans les circuits de fournisseurs de services publics
-    de télévision par câble pour les répéteurs, les amplificateurs et les unités de
-    réseaux optiques (ONU, Optical Network Unit);<br />\r\nd) clarification concernant
-    le câble de communication permettant le transfert de puissance, indépendamment
-    de la présence d'une transmission de données."
+  content: |-
+    IEC 63316:2026 spécifie les protections, les méthodes d'essai et les exigences de conformité destinées à réduire le risque de choc électrique et d'incendie associé aux tensions et aux courants à des tensions supérieures à 60 V en courant continu et à 60 V en courant alternatif.<br/>
+    Le présent document s'applique aux accès d'équipements destinés à fournir et à recevoir la puissance de fonctionnement par des accès d'équipements de communication au moyen de fils et câbles de communication. Il couvre les exigences particulières relatives aux circuits conçus pour transférer la puissance en courant alternatif ou continu d'un équipement source d'alimentation (PSE, Power Sourcing Equipment) (3.1.2) vers un dispositif alimenté (PD, Powered Device) (3.1.3), y compris les répéteurs, amplificateurs, unités de réseaux optiques, multiplexeurs d'accès de ligne d'abonné (DSLAM, Digital Subscriber Line Access Multiplexer) à distance, équipements de terminaison des fournisseurs de services, armoires et équipements de télécommunication à distance, ainsi que les équipements passifs de jonction connectés au PSE (3.1.2) et au PD (3.1.3).<br/>
+    Le transfert de puissance des accès d'équipements couverts par le présent document utilise une tension alternative qui ne provient pas du réseau d'alimentation ou une tension continue qui ne provient pas du réseau d'alimentation supérieure à 60 V en courant continu, classée ES2 conformément au 5.2.1.2 de l'IEC 62368‑1:2023 ou, dans certains cas très contrôlés, classée ES3 conformément à l'IEC 62368‑1:2023.<br/>
+    EXEMPLES<br/>
+    − Transfert de puissance en courant continu à des tensions supérieures à 60 V en courant continu, mais ≤ 120 V en courant continu, classé ES2.<br/>
+    − Certains réseaux de télécommunication où la tension était auparavant appelée TRT-3 (voir l'IEC 62368‑1:2023, Tableau W.3), couramment utilisés pour l'alimentation en ligne, de tronçon ou expresse en dehors de l'Amérique du Nord, l'alimentation inverse (RPF, Reverse Power Feeding) longue distance, l'alimentation en ligne HDSLx RNIS, l'alimentation en ligne à débit primaire E1.<br/>
+    − Certains réseaux de télécommunication en Amérique du Nord entre le PSE (3.1.2) du fournisseur de services publics et le côté fournisseur de services du PD (3.1.3) à l'interface du réseau public (PNI) (3.1.8).<br/>
+    − Pour le transfert de puissance en courant continu à des tensions ≥ 120 V en courant continu à ES3: circuits RFT et équipements et câblages de réseau de télécommunication associés utilisés par les fournisseurs de services de communication et les services publics de communication (par exemple, E1/T1, HDSLx, SHDSLx, xDSL, répéteurs et convertisseurs abaisseurs d'alimentation ou élévateurs d'alimentation de télécommunication, selon le cas), unités de réseaux optiques, DSLAM à distance, etc. Ces circuits RFT sont utilisés entre le PSE (3.1.2) du fournisseur de services publics et le côté fournisseur de services du PD (3.1.3) à la PNI (3.1.8). Les accès orientés clients de ces équipements sont à une tension qui ne dépasse pas 60 V en courant continu et sont couverts par l'IEC 62368-1:2023, voir l'Annexe A pour les topologies de déploiement.<br/>
+    − Pour une tension de téléalimentation en courant alternatif/en courant continu supérieure à ES1 sur un câble coaxial dans les circuits utilisés par les fournisseurs de services publics de télévision par câble pour les répéteurs, les amplificateurs, les unités de réseaux optiques. Les accès orientés clients de ces équipements sont à une tension qui ne dépasse pas 60 V en courant continu et sont couverts par l'IEC 62368-1:2023.<br/>
+    NOTE 1 Tout câble de communication qui permet le transfert de puissance entre des équipements de communication est considéré comme un câble de communication, même si la communication n'a pas lieu. Par exemple, un convertisseur abaisseur d'alimentation ou élévateur d'alimentation, selon le cas, utilisé pour alimenter des équipements de télécommunication à distance peut fournir une puissance RFT de communication limitée et pas nécessairement des données ou signalisations superposées.<br/>
+    Le présent document ne couvre pas les interfaces d'équipements relevant du domaine d'application de l'IEC 63315.<br/>
+    NOTE 2 L'IEC 63315 traite des équipements destinés à fournir ou à recevoir une puissance de charge ou de fonctionnement à partir d'interfaces ICT utilisant des fils et des câbles ICT, tels que PoE, USB, HDMI, etc., ou l'un quelconque de ces éléments combinés.<br/>
+    Le présent document ne couvre pas les signaux de sonnerie relevant du domaine d'application de l'IEC 62368-1 ou du domaine d'application de l'IEC 62949:2017.<br/>
+    Le présent document ne couvre pas les technologies de télécommunication traditionnelles qui fonctionnent à des tensions ne dépassant pas 60 V en courant continu (circuits classés ES1 conformément au 5.2.1.1 de l'IEC 62368‑1:2023 et identifiés ID 1a, 1b, ou 1c dans le Tableau 13 de l'IEC 62368-1:2023) avec ou sans signaux de sonnerie (classés ES2 conformément au 5.2.1.1 de l'IEC 62368-1:2023 et circuits externes identifiés ID 1a, 1b, ou 1c dans le Tableau 13 de l'IEC 62368-1:2023). La téléphonie analogique, RNIS, T1, E1, VDSL, SHDSL, DDS, etc. sont des exemples de technologies de communication traditionnelles.<br/>
+    Le présent document ne couvre pas les communications sur les lignes du réseau d'alimentation et les lignes de transmission et de distribution d'énergie à haute tension.<br/>
+    Cette première édition annule et remplace l'Article 6 de l'IEC 62368-3 parue en 2017. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'Article 6 de l'IEC 62368-3 parue en 2017:<br/>
+    a) transfert de puissance en courant continu à des tensions supérieures à 60 V mais ≤ 120 V en courant continu (ES2), y compris les réseaux de télécommunication anciennement désignés par TRT-3;<br/>
+    b) transfert de puissance en courant continu à des tensions ≥ 120 V en courant continu (ES3), comme les circuits RFT et les équipements de télécommunication associés;<br/>
+    c) téléalimentation en courant alternatif/en courant continu supérieure à ES1 sur un câble coaxial dans les circuits de fournisseurs de services publics de télévision par câble pour les répéteurs, les amplificateurs et les unités de réseaux optiques (ONU, Optical Network Unit);<br/>
+    d) clarification concernant le câble de communication permettant le transfert de puissance, indépendamment de la présence d'une transmission de données.
 status:
   stage:
     content: PUBLISHED
