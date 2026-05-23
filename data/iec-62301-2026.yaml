@@ -1,0 +1,150 @@
+---
+id: IEC623012026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Measurement of standby power for appliances and equipment
+  type: title-main
+- language: en
+  script: Latn
+  content: Measurement of standby power for appliances and equipment
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/90194
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62301{ed3.0}en.pdf
+docidentifier:
+- content: IEC 62301:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62301:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-05-22'
+- type: stable-until
+  at: '2031-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 59
+      identifier:
+      - content: '59'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62301:2026 specifies methods of measurement of electrical power in standby mode(s) and other non-active modes (such as off mode) and the reporting of the results. The measurement of power and energy use in networked standby mode, is covered by IEC 63474:2026.<br/>
+    This document applies to electronic and electrical equipment powered by:<br/>
+    - low voltage AC power (LV ≤ 1 000 V AC), or<br/>
+    - low voltage DC power (LV ≤ 1 500 V DC) that is ripple-free, measured between conductors or between a conductor and earth, or<br/>
+    - extra low voltage AC power (ELV ≤ 50 V AC), or<br/>
+    - extra low voltage DC power (ELV ≤ 120 V DC) that is ripple-free, measured between conductors or between a conductor and earth, or<br/>
+    - an external power supply that provides low voltage or extra low voltage AC or DC power, or<br/>
+    - a separate source of extra low voltage DC power, or<br/>
+    - an internal main battery.<br/>
+    Conditions that are out of scope:<br/>
+    - active modes (primary function)<br/>
+    - networked standby mode (which is covered by IEC 63474:2026)<br/>
+    - conditions where main batteries are being charged other than in maintenance mode<br/>
+    - disconnected condition of the equipment.<br/>
+    This document applies to the following product groups where a non-active mode is present:<br/>
+    - household appliances, electrical and electronic equipment such as information technology equipment, audio, video and multimedia systems and equipment,<br/>
+    - gas burning equipment with electrical components.<br/>
+    The measurement of power, energy use and performance of products during their intended use (when performing their primary functions) are generally specified in product standards and are not covered by this document.<br/>
+    Where this document is referenced by performance standards or procedures, these are to define and name the relevant non-active mode to which this test procedure is applied.<br/>
+    Non-active modes for lighting equipment and the measurement of power is specified in IEC 63103.<br/>
+    Edge equipment can also include auxiliary batteries.<br/>
+    Annex A shows the conceptual framework of power modes and functions.<br/>
+    This document does not specify safety requirements. It does not specify minimum performance requirements nor does it set maximum limits on power or energy use.<br/>
+    This document has the status of a group energy efficiency publication in accordance with IEC Guide 118.<br/>
+    This third edition cancels and replaces the second edition published in 2011. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) expansion of the scope in line with the approved horizontal application of this standard;<br/>
+    b) inclusion of battery powered and DC powered devices;<br/>
+    c) complete revision and expansion of the definitions (this has been done in conjunction with TC 100/TA19 JWG2 and the definitions in this document and IEC 63734:2026 for networked standby are fully aligned);<br/>
+    d) clarification that this document covers all non-active modes except for networked standby mode(s), which is covered by IEC 63734:2026;<br/>
+    e) reiteration that a wide range of product committees and their standards can reference this document and that they are free to define modes relevant for their products and to some extent measurement conditions that may be product specific, while using the broad methodology set out in this document;<br/>
+    f) more precise specification of room illuminance requirements has been added, where required;<br/>
+    g) mandatory requirements for data logging of test data;<br/>
+    h) requirement that no data loss or out of range records occur within the data set being used to assess product performance;<br/>
+    i) removal of the Average reading method and Direct meter reading method as valid measurement methods;<br/>
+    j) greater detail in set-up procedures;<br/>
+    k) revision of stability requirements, including the refinement of linear regression validity requirements and cyclic load validity requirements, and the introduction of a new alternative approach called the moving average method to ensure that results are as representative and accurate as possible;<br/>
+    l) further refinement of measurement uncertainty requirements for power measuring instruments, especially for more difficult loads with high crest factor and/or low power factor, so that these are more in line with changes in the performance of measuring instruments typically used in laboratories;<br/>
+    m) inclusion of explicit requirements in the assessment of large data sets against uncertainty requirements;<br/>
+    n) updated guidance on product configuration, instrumentation settings and calculation of measurement uncertainty;<br/>
+    o) inclusion of definitions for all relevant non-active modes and use of these new definitions and more rigorous terminology throughout the document.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '97.030'
+    text: Domestic electrical appliances in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '121812'
+  price_code: iec:K
