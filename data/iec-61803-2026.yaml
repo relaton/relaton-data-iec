@@ -1,0 +1,134 @@
+---
+id: IEC618032026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Determination of power losses in high-voltage direct current (HVDC) converter
+    stations
+  type: title-main
+- language: en
+  script: Latn
+  content: Determination of power losses in high-voltage direct current (HVDC) converter
+    stations
+  type: main
+- language: fr
+  script: Latn
+  content: Détermination des pertes en puissance dans les stations de conversion en
+    courant continu à haute tension (CCHT)
+  type: title-main
+- language: fr
+  script: Latn
+  content: Détermination des pertes en puissance dans les stations de conversion en
+    courant continu à haute tension (CCHT)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/90419
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61803{ed3.0}en.pdf
+docidentifier:
+- content: IEC 61803:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61803:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-05-26'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 22/SC 22F
+      identifier:
+      - content: '22'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61803:2026 applies to all high-voltage direct current (HVDC) converter stations with line-commutated converters (LCC) as well with voltage-sourced converters (VSC) used for power exchange (power transmission or back-to-back installation) in utility systems. For line-commutated converters (LCC), this document presumes the use of 12-pulse thyristor converters but can, with due care, also be used for 6-pulse thyristor converters. Where VSC is referred to in this document, it is assumed to be of the MMC-type or similar, with very low harmonic generation. It is important to treat other types of VSC as appropriate. In some applications, synchronous compensators, static var compensators (SVC), or static synchronous compensator (STATCOM) are connected to the AC bus of the HVDC converter station. The loss determination procedures for such equipment are not included in this document. This document presents a set of standard procedures for determining the total losses of an HVDC converter station, except for VSC valves which are covered by the IEC 62751 series. The procedures cover all parts, except as noted above, and address no-load operation and operating losses together with their methods of calculation which use, wherever possible, measured parameters. Converter station designs employing novel components or circuit configurations compared to the typical design assumed in this document, or designs equipped with unusual auxiliary circuits that can affect the losses, are assessed on their own merits.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) HVDC stations with voltage-sourced converters (VSC) technology have been included;<br/>
+    b) to facilitate the application of this document and to ensure its quality remains consistent, 5.1.8 and 5.8 have been reviewed, taking into consideration that the present thyristor production technology provides considerably less thyristor parameters dispersion comparing with the situation in 1999 when the first edition of IEC 61803 was developed; therefore, the production records of thyristors can be used for the power losses calculation;<br/>
+    c) the calculation of the total station load losses (cases D1 and D2 in Annex C) has been corrected.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61803:2026 s'applique à toutes les stations de conversion en courant continu à haute tension (CCHT) avec convertisseurs commutés par le réseau (LCC, Line‑Commutated Converters) et avec convertisseurs de source de tension (VSC, Voltage‑Sourced Converters), utilisées pour l'échange de puissance (transmission de puissance ou installation dos à dos) dans des systèmes de distribution d'énergie. Pour les convertisseurs commutés par le réseau (LCC), le présent document présuppose l'utilisation de convertisseurs à thyristors à 12 pulsations, mais peut également, en prenant les précautions appropriées, s'appliquer à des convertisseurs à thyristors à 6 pulsations. Lorsqu'il est fait référence à un VSC dans le présent document, il est admis par hypothèse qu'il s'agit d'un VSC de type MMC ou similaire, avec une très faible génération d'harmoniques. Il est important de traiter d'autres types de VSC selon le cas. Dans certaines applications, des compensateurs synchrones, des compensateurs var statiques (CVS) ou des compensateurs statiques synchrones (STATCOM) sont connectés au bus en courant alternatif de la station de conversion en courant continu à haute tension (CCHT). Les procédures de détermination de pertes pour ce type de matériel ne figurent pas dans le présent document. Le présent document décrit un ensemble de procédures types qui permettent de déterminer l'ensemble des pertes d'une station de conversion CCHT, à l'exception des valves VSC qui sont couvertes par la série IEC 62751. Les procédures s'appliquent à toutes les pièces, à l'exception de celles susmentionnées, et prennent en compte les pertes en fonctionnement à vide et les pertes en fonctionnement ainsi que leurs méthodes de calcul qui utilisent, dans la mesure du possible, des paramètres mesurés. Les conceptions de station de conversion qui utilisent des composants ou des configurations de circuit originaux par rapport à la conception type prise pour hypothèse dans le présent document, ou des conceptions équipées de circuits auxiliaires inhabituels susceptibles de modifier les pertes, sont évaluées selon leurs propres mérites.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) les stations CCHT qui disposent de la technologie des convertisseurs de source de tension (VSC) ont été incluses;<br/>
+    b) en vue de faciliter l'application de la norme sans en détériorer la qualité, le 5.1.8 et le 5.8 ont été revus en tenant compte du fait que la technologie de production de thyristors actuelle occasionne considérablement moins de dispersion dans les paramètres des thyristors par rapport à la situation de 1999, lorsque la première édition de l'IEC 61803 a été élaborée; ainsi, les données enregistrées de production de thyristors peuvent être utilisées pour les calculs de pertes en puissance;<br/>
+    c) le calcul des pertes totales d'une station en charge (cas D1 et D2 à l'Annexe C) a été corrigé.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '121979'
+  price_code: iec:J
