@@ -1,56 +1,38 @@
 ---
-id: IEC6008612021COR12022
+id: IECTR616433332026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Corrigendum 1
-  type: title-intro
-- language: en
-  script: Latn
-  content: Primary batteries
+  content: Components for low-voltage surge protection
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 1: General'
+  content: 'Part 333: characteristic equations and life evaluation for metal oxide
+    varistors (MOV)'
   type: title-part
 - language: en
   script: Latn
-  content: 'Corrigendum 1 - Primary batteries - Part 1: General'
-  type: main
-- language: fr
-  script: Latn
-  content: Corrigendum 1
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Piles électriques
-  type: title-main
-- language: fr
-  script: Latn
-  content: 'Partie 1: Généralités'
-  type: title-part
-- language: fr
-  script: Latn
-  content: 'Corrigendum 1 - Piles électriques - Partie 1: Généralités'
+  content: 'Components for low-voltage surge protection - Part 333: characteristic
+    equations and life evaluation for metal oxide varistors (MOV)'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/76127
+  content: https://webstore.iec.ch/publication/82193
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iectr61643-333{ed1.0}en.pdf
 docidentifier:
-- content: IEC 60086-1:2021/COR1:2022
+- content: IEC TR 61643-333:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60086-1:2021:::cor:2022:v1:'
+- content: 'urn:iec:std:iec:tr:61643-333:2026:::'
   type: URN
 date:
 - type: published
-  at: '2022-06-17'
+  at: '2026-06-02'
 - type: stable-until
-  at: '2026-06-02'
-- type: obsoleted
-  at: '2026-06-02'
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -79,26 +61,31 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 35
+        content: TC 37/SC 37B
       identifier:
-      - content: '35'
+      - content: '37'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '13'
+  content: '1'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 61643-333:2026 presents the U-I/R-I characteristic equations and the life evaluation method for MOVs, which are used for applications up to 1 000 V AC or 1 500 V DC in power line, or telecommunication, or signalling circuits. They are designed to protect apparatus or personnel, or both, from high transient voltages.<br/>
+    This document specifically addresses the zinc-oxide type of MOVs.
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2021'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -117,13 +104,13 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-report
   flavor: iec
   ics:
-  - code: 29.220.10
-    text: Primary cells and batteries
+  - code: 29.240.10
+    text: Substations. Surge arresters
   structuredidentifier:
     type: IEC
     project_number:
-      content: '111052'
-  price_code: iec:ZZ
+      content: '115372'
+  price_code: iec:H

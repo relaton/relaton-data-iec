@@ -1,7 +1,7 @@
 ---
 id: IEC6003482007AMD12014CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -38,13 +38,15 @@ docidentifier:
 - content: IEC 60034-8:2007+AMD1:2014 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60034-8:2007-06::csv:+amd:1:2014-03
+- content: 'urn:iec:std:iec:60034-8:2007:csv::amd:2014:v1:'
   type: URN
 date:
 - type: published
   at: '2014-03-20'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-06-02'
+- type: obsoleted
+  at: '2026-06-02'
 contributor:
 - role:
   - type: publisher
@@ -91,30 +93,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60034-8:2007+A1:2014 Applies to a.c. and d.c. machines and specifies:<br
-    />\r\n- rules for the identification of winding connection points;<br />\r\n-
-    marking of winding terminals;<br />\r\n- direction of rotation;<br />\r\n- relationship
-    between terminal markings and direction of rotation;<br />\r\n- terminal marking
-    of auxiliary devices;<br />\r\n- connection diagrams of machines for common applications.
-    The main change with respect to the previous edition consists of changed terminal
-    markings for d.c. machines. This consolidated version consists of the third edition
-    (2007) and its amendment 1 (2014). Therefore, no need to order amendment in addition
-    to this publication."
+  content: |-
+    IEC 60034-8:2007+A1:2014 Applies to a.c. and d.c. machines and specifies:<br/>
+    - rules for the identification of winding connection points;<br/>
+    - marking of winding terminals;<br/>
+    - direction of rotation;<br/>
+    - relationship between terminal markings and direction of rotation;<br/>
+    - terminal marking of auxiliary devices;<br/>
+    - connection diagrams of machines for common applications. The main change with respect to the previous edition consists of changed terminal markings for d.c. machines. This consolidated version consists of the third edition (2007) and its amendment 1 (2014). Therefore, no need to order amendment in addition to this publication.
 - language: fr
   script: Latn
-  content: "L'IEC 60034-8:2007+A1:2014 S'applique aux machines à courant continu et
-    à courant alternatif et spécifie:<br />\r\n- les règles d'identification des points
-    de couplage;<br />\r\n- le marquage des bornes d'enroulement;<br />\r\n- le sens
-    de rotation;<br />\r\n- la relation entre les marques d'extrémité et le sens de
-    rotation;<br />\r\n- les marques d'extrémité des appareils auxiliaires;<br />\r\n-
-    les schémas de connexion des machines pour applications communes. La modification
-    principale par rapport à l'édition précédente consiste du marquage des extrémités
-    modifié pour les machines à courant continu. Cette version consolidée comprend
-    la troisième édition (2007) et son amendement 1 (2014). Il n'est donc pas nécessaire
-    de commander l'amendement avec cette publication."
+  content: |-
+    L'IEC 60034-8:2007+A1:2014 S'applique aux machines à courant continu et à courant alternatif et spécifie:<br/>
+    - les règles d'identification des points de couplage;<br/>
+    - le marquage des bornes d'enroulement;<br/>
+    - le sens de rotation;<br/>
+    - la relation entre les marques d'extrémité et le sens de rotation;<br/>
+    - les marques d'extrémité des appareils auxiliaires;<br/>
+    - les schémas de connexion des machines pour applications communes. La modification principale par rapport à l'édition précédente consiste du marquage des extrémités modifié pour les machines à courant continu. Cette version consolidée comprend la troisième édition (2007) et son amendement 1 (2014). Il n'est donc pas nécessaire de commander l'amendement avec cette publication.
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2007'
   owner:
@@ -133,7 +132,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
