@@ -1,7 +1,7 @@
 ---
 id: IEC6101020912019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 61010-2-091:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61010-2-091::rlv
+- content: 'urn:iec:std:iec:61010-2-091::rlv::'
   type: URN
 date:
 - type: published
@@ -78,43 +78,28 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61010-2-091:2019 RLV contains both the official IEC International
-    Standard and its Redline version. The Redline version is available in English
-    only and provides you with a quick and easy way to compare all the changes between
-    the official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61010-2-091:2019
-    specifies particular safety requirements for cabinet X-ray systems, which fall
-    under any of categories a), b) or c) below.<br />\r\na) Electrical test and measurement
-    equipment<br />\r\nThis is equipment which by electromagnetic means tests, measures,
-    indicates or records one or more electrical or physical quantities, also non-measuring
-    equipment such as signal generators, measurement standards, power supplies for
-    laboratory use, transducers, transmitters, etc.<br />\r\nNOTE 1 This includes
-    bench-top power supplies intended to aid a testing or measuring operation on another
-    piece of equipment. Power supplies intended to power equipment are within the
-    scope of IEC 61558 (see 1.1.2 h)).<br />\r\nThis standard also applies to test
-    equipment integrated into manufacturing processes and intended for testing manufactured
-    devices.<br />\r\nNOTE 2 Manufacturing test equipment is likely to be installed
-    adjacent to and interconnected with industrial machinery in this application.<br
-    />\r\nb) Electrical industrial process-control equipment<br />\r\nThis is equipment
-    which controls one or more output quantities to specific values, with each value
-    determined by manual setting, by local or remote programming, or by one or more
-    input variables.<br />\r\nc) Electrical laboratory equipment<br />\r\nThis is
-    equipment which measures, indicates, monitors, inspects or analyses materials,
-    or is used to prepare materials, and includes in vitro diagnostic (IVD) equipment.
-    This equipment may also be used in areas other than laboratories; examples include
-    selftest IVD equipment to be used in the home and inspection equipment to be used
-    to check people or material during transportation. This second edition cancels
-    and replaces the first edition published in 2012. It constitutes a technical revision.
-    This edition includes the following significant changes from the first edition,
-    as well as numerous other changes:<br />\r\n- The scope of the document has been
-    clarified and limited to equipment up to 500 kV.<br />\r\n- Additional marking
-    requirements for X-ray generating assemblies have been added. (5.1)<br />\r\n-
-    Requirements for high-voltage cables used in the X-ray assembly have been added.
-    (6.5)<br />\r\n- Insulation requirements have been added. (6.7)<br />\r\n- Temperature
-    requirements for beam-limiting devices have been added. (10.3)<br />\r\n- Clarification
-    has been provided on and , and test methods. (12)<br />\r\n- Requirements for
-    have been modified, taking into account functional safety standards. (15)<br />\r\n-
-    Requirements for reasonably foreseeable misuse have been clarified. (16)<br />\r\n-
-    Risk assessment has been made mandatory for specific aspects. (17)"
+  content: |-
+    IEC 61010-2-091:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61010-2-091:2019 specifies particular safety requirements for cabinet X-ray systems, which fall under any of categories a), b) or c) below.<br/>
+    a) Electrical test and measurement equipment<br/>
+    This is equipment which by electromagnetic means tests, measures, indicates or records one or more electrical or physical quantities, also non-measuring equipment such as signal generators, measurement standards, power supplies for laboratory use, transducers, transmitters, etc.<br/>
+    NOTE 1 This includes bench-top power supplies intended to aid a testing or measuring operation on another piece of equipment. Power supplies intended to power equipment are within the scope of IEC 61558 (see 1.1.2 h)).<br/>
+    This standard also applies to test equipment integrated into manufacturing processes and intended for testing manufactured devices.<br/>
+    NOTE 2 Manufacturing test equipment is likely to be installed adjacent to and interconnected with industrial machinery in this application.<br/>
+    b) Electrical industrial process-control equipment<br/>
+    This is equipment which controls one or more output quantities to specific values, with each value determined by manual setting, by local or remote programming, or by one or more input variables.<br/>
+    c) Electrical laboratory equipment<br/>
+    This is equipment which measures, indicates, monitors, inspects or analyses materials, or is used to prepare materials, and includes in vitro diagnostic (IVD) equipment. This equipment may also be used in areas other than laboratories; examples include selftest IVD equipment to be used in the home and inspection equipment to be used to check people or material during transportation. This second edition cancels and replaces the first edition published in 2012. It constitutes a technical revision. This edition includes the following significant changes from the first edition, as well as numerous other changes:<br/>
+    - The scope of the document has been clarified and limited to equipment up to 500 kV.<br/>
+    - Additional marking requirements for X-ray generating assemblies have been added. (5.1)<br/>
+    - Requirements for high-voltage cables used in the X-ray assembly have been added. (6.5)<br/>
+    - Insulation requirements have been added. (6.7)<br/>
+    - Temperature requirements for beam-limiting devices have been added. (10.3)<br/>
+    - Clarification has been provided on and , and test methods. (12)<br/>
+    - Requirements for have been modified, taking into account functional safety standards. (15)<br/>
+    - Requirements for reasonably foreseeable misuse have been clarified. (16)<br/>
+    - Risk assessment has been made mandatory for specific aspects. (17)
 status:
   stage:
     content: PUBLISHED
@@ -136,7 +121,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -145,6 +130,8 @@ ext:
     text: Electrical and electronic testing
   - code: 71.040.10
     text: Chemical laboratories. Laboratory equipment
+  - code: 71.040.50
+    text: Physicochemical methods of analysis
   structuredidentifier:
     type: IEC
     project_number:
