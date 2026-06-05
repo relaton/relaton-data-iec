@@ -1,56 +1,41 @@
 ---
-id: IEC6124332014COR22015
+id: IEC6289940282026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Corrigendum 2
+  content: Printed electronics
   type: title-intro
 - language: en
   script: Latn
-  content: Live working
+  content: 'Part 402-8: Printability'
   type: title-main
 - language: en
   script: Latn
-  content: 'Voltage detectors -- Part 3: Two-pole low-voltage type'
+  content: Measurement of qualities -- Shape pattern dimension
   type: title-part
 - language: en
   script: Latn
-  content: 'Corrigendum 2 - Live working - Voltage detectors -- Part 3: Two-pole low-voltage
-    type'
-  type: main
-- language: fr
-  script: Latn
-  content: Corrigendum 2
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Travaux sous tension
-  type: title-main
-- language: fr
-  script: Latn
-  content: 'Détecteurs de tension -- Partie 3: Type bipolaire basse tension'
-  type: title-part
-- language: fr
-  script: Latn
-  content: 'Corrigendum 2 - Travaux sous tension - Détecteurs de tension -- Partie
-    3: Type bipolaire basse tension'
+  content: 'Printed electronics - Part 402-8: Printability - Measurement of qualities
+    -- Shape pattern dimension'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/22397
+  content: https://webstore.iec.ch/publication/79775
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62899-402-8{ed1.0}en.pdf
 docidentifier:
-- content: IEC 61243-3:2014/COR2:2015
+- content: IEC 62899-402-8:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61243-3:2014:::cor:2015:v2:'
+- content: 'urn:iec:std:iec:62899-402-8:2026:::'
   type: URN
 date:
 - type: published
-  at: '2015-05-07'
+  at: '2026-06-04'
 - type: stable-until
-  at: '2027-12-31'
+  at: '2030-12-31'
 contributor:
 - role:
   - type: publisher
@@ -79,26 +64,31 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 78
+        content: TC 119
       identifier:
-      - content: '78'
+      - content: '119'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '1'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62899-402-8:2026 specifies the measurement methods of the dimensions of the shape patterns in printed electronics. These printed patterns are treated as two-dimensional on a substrate. When the patterns are definitely affected by three-dimensional configurations, these are specified in measurement methods for vertical variance in IEC TR 62899‑402‑4 in printed electronics.<br/>
+    NOTE The measurement methods of dimensions of the shape patterns considering three-dimensional characteristics can be developed later after the measurement methods for vertical variance are established.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2014'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -120,14 +110,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '13.260'
-    text: Protection against electric shock.  Live working
-  - code: 29.240.20
-    text: Power transmission and distribution lines
-  - code: 29.260.99
-    text: Other electrical equipment for working in special conditions
+  - code: '31.180'
+    text: Printed circuits and boards
   structuredidentifier:
     type: IEC
     project_number:
-      content: '22746'
-  price_code: iec:ZZ
+      content: '113575'
+  price_code: iec:G
