@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+#
+# Legacy index-v1 generation — see crawler_legacy.rb. pubid-iec is pubid v1 and
+# cannot coexist with the unified pubid v2 used for index-v2, so it runs in a
+# separate process with this Gemfile. Pinned to the published versions that
+# originally produced the flat index-v1.
+
+source "https://rubygems.org"
+
+gem "pubid-iec",      "~> 1.15.19"
+gem "relaton-index",  "~> 0.2.22"
+gem "relaton-logger", "~> 0.2.4"
