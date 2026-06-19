@@ -1,7 +1,7 @@
 ---
 id: IEC6210662018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -32,7 +32,7 @@ docidentifier:
 - content: IEC 62106-6:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62106-6:2018-09:::'
+- content: 'urn:iec:std:iec:62106-6:2018:::'
   type: URN
 date:
 - type: published
@@ -86,24 +86,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62106-6:2018 contains the technical specifications for Open Data Applications
-    in the public domain. This document is maintained by the RDS Forum Office. The
-    RDS Forum Office applies an easy procedure for registering new Open Data Applications,
-    to ensure that they can be used without the need to change the RDS standard. The
-    ODA feature permits defining new applications that can be decoded on a receiver.
-    The receiver needs to the adequate software handler for the specific AID, which
-    identifies the application. Receivers that have not implemented the software handler
-    needed for decoding are not affected by ODA data received for any of the applications
-    already defined and specified.<br />\r\nThe procedure for registering a new ODA
-    is described in IEC 62106-3.<br />\r\nIEC 62106-6:2018 together with IEC 62106-1,
-    IEC 62106-2, IEC 62106-3, IEC 62106-4 and IEC 62106-5, cancels and replaces IEC
-    62106:2015, and constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to IEC 62106:2015:<br
-    />\r\n•    Provision has been made to carry RDS on multiple data-streams (RDS2);<br
-    />\r\n•    New are AF coding below 87,5 MHz (down to 64,0 MHz) using ODA-AID 0x6365;<br
-    />\r\n•    RT+ can now be used simultaneously for RT and eRT, each having its
-    own RT+ ODA;<br />\r\n•    Data-streams 1, 2 and 3 are exclusively UTF-8 coded.
-    For backwards compatibility, UCS-2 encoded eRT on data-stream 0 is retained."
+  content: |-
+    IEC 62106-6:2018 contains the technical specifications for Open Data Applications in the public domain. This document is maintained by the RDS Forum Office. The RDS Forum Office applies an easy procedure for registering new Open Data Applications, to ensure that they can be used without the need to change the RDS standard. The ODA feature permits defining new applications that can be decoded on a receiver. The receiver needs to the adequate software handler for the specific AID, which identifies the application. Receivers that have not implemented the software handler needed for decoding are not affected by ODA data received for any of the applications already defined and specified.<br/>
+    The procedure for registering a new ODA is described in IEC 62106-3.<br/>
+    IEC 62106-6:2018 together with IEC 62106-1, IEC 62106-2, IEC 62106-3, IEC 62106-4 and IEC 62106-5, cancels and replaces IEC 62106:2015, and constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to IEC 62106:2015:<br/>
+    •    Provision has been made to carry RDS on multiple data-streams (RDS2);<br/>
+    •    New are AF coding below 87,5 MHz (down to 64,0 MHz) using ODA-AID 0x6365;<br/>
+    •    RT+ can now be used simultaneously for RT and eRT, each having its own RT+ ODA;<br/>
+    •    Data-streams 1, 2 and 3 are exclusively UTF-8 coded. For backwards compatibility, UCS-2 encoded eRT on data-stream 0 is retained.
 status:
   stage:
     content: REVISED
@@ -125,7 +116,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

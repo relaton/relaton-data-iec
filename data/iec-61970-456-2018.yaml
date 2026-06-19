@@ -1,7 +1,7 @@
 ---
 id: IEC619704562018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -35,7 +35,7 @@ docidentifier:
 - content: IEC 61970-456:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61970-456:2018-03:::'
+- content: 'urn:iec:std:iec:61970-456:2018:::'
   type: URN
 date:
 - type: published
@@ -90,17 +90,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61970-456:2018 rigorously defines the subset of classes, class attributes,
-    and roles from the CIM necessary to describe the result of state estimation, power
-    flow and other similar applications that produce a steady-state solution of a
-    power network, under a set of use cases which are included informatively in this
-    standard. This document is intended for two distinct audiences, data producers
-    and data recipients, and may be read from those two perspectives.<br />\r\nThis
-    new edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\n- Addition of the Steady State Hypothesis (SSH)
-    profile.<br />\r\n- Better description of the relation between different profiles
-    and alignment with the current nomenclature used with profiles, e.g. \"data set\"
-    and \"network part\".<br />\r\n- Extension of the description of the use cases."
+  content: |-
+    IEC 61970-456:2018 rigorously defines the subset of classes, class attributes, and roles from the CIM necessary to describe the result of state estimation, power flow and other similar applications that produce a steady-state solution of a power network, under a set of use cases which are included informatively in this standard. This document is intended for two distinct audiences, data producers and data recipients, and may be read from those two perspectives.<br/>
+    This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - Addition of the Steady State Hypothesis (SSH) profile.<br/>
+    - Better description of the relation between different profiles and alignment with the current nomenclature used with profiles, e.g. "data set" and "network part".<br/>
+    - Extension of the description of the use cases.
 - language: fr
   script: Latn
   content: "L'IEC 61970-456:2018(en-fr) définit de façon rigoureuse le sous-ensemble
@@ -109,13 +104,12 @@ abstract:
     analogues produisant une solution en régime établi d'un réseau électrique dans
     un ensemble de cas d'utilisation inclus à titre informatif dans la présente norme.
     Le présent document s'adresse à deux destinataires distincts, les producteurs
-    de données et les destinataires de données.<br />\r\n <br />\r\nCette nouvelle
-    édition inclut les modifications techniques majeures suivantes par rapport à l’édition
-    précédente:<br />\r\n \r\n<ul>\r\n\t<li>Ajout du profil Steady State Hypothesis
-    (SSH) (Hypothèse en régime établi).</li>\r\n\t<li>Meilleure description de la
-    relation entre les différents profils et alignement sur la nomenclature actuelle
-    utilisée avec les profils tels que “dataset” et “partie de réseau”.</li>\r\n\t<li>Extension
-    de la description des cas d’utilisation.</li>\r\n</ul>"
+    de données et les destinataires de données.<br/>\n <br/>\nCette nouvelle édition
+    inclut les modifications techniques majeures suivantes par rapport à l’édition
+    précédente:<br/>\n \n\n\tAjout du profil Steady State Hypothesis (SSH) (Hypothèse
+    en régime établi).\n\tMeilleure description de la relation entre les différents
+    profils et alignement sur la nomenclature actuelle utilisée avec les profils tels
+    que “dataset” et “partie de réseau”.\n\tExtension de la description des cas d’utilisation.\n"
 status:
   stage:
     content: REVISED
@@ -137,7 +131,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

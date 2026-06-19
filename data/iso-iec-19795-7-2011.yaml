@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1979572011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 19795-7:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19795-7:2011-01:::'
+- content: 'urn:iec:std:iso-iec:19795-7:2011:::'
   type: URN
 date:
 - type: published
@@ -93,28 +93,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 19795-7:2011 establishes a mechanism for measuring the core algorithmic capabilities of biometric comparison algorithms running on ISO/IEC 7816 integrated circuit cards. Specifically, ISO/IEC 19795-7:2011</p>
-    <ul>
-    <li>instantiates a mechanism for on-card biometric comparison testing;</li>
-    <li>standardizes procedures for the measurement of the accuracy of on-card biometric comparison implementations running on object-based, test-specific sample cards;</li>
-    <li>standardizes procedures for the measurement of durations of the various operations;</li>
-    <li>gives examples for matching ISO/IEC 19794-2:2005 compact card minutiae templates.</li>
-    </ul>
+
+    instantiates a mechanism for on-card biometric comparison testing;
+    standardizes procedures for the measurement of the accuracy of on-card biometric comparison implementations running on object-based, test-specific sample cards;
+    standardizes procedures for the measurement of durations of the various operations;
+    gives examples for matching ISO/IEC 19794-2:2005 compact card minutiae templates.
+
     <p>The following are specifically not within the scope of ISO/IEC 19795-7:2011:</p>
-    <ul>
-    <li>procedures for securing the communications channel, including cryptographic protection of the biometric templates;</li>
-    <li>procedures for protection of sample or template integrity using digital signatures;</li>
-    <li>authentication of the card and reader;</li>
-    <li>selection or use of transmission protocols (e.g. contactless);</li>
-    <li>profiles of specific data interchange standards;</li>
-    <li>procedures for evaluation of readers, including performance, conformance and interoperability;</li>
-    <li>procedures for evaluation of ruggedness or durability of the card;</li>
-    <li>on-card template generation (e.g. extraction of minutiae from images);</li>
-    <li>template update or adaptation;</li>
-    <li>formal conformance tests of ISO/IEC 7816-4 and ISO/IEC 7816-11;</li>
-    <li>testing of devices not conforming to ISO/IEC 7816, including all system-on-card devices.</li>
-    </ul>
+
+    procedures for securing the communications channel, including cryptographic protection of the biometric templates;
+    procedures for protection of sample or template integrity using digital signatures;
+    authentication of the card and reader;
+    selection or use of transmission protocols (e.g. contactless);
+    profiles of specific data interchange standards;
+    procedures for evaluation of readers, including performance, conformance and interoperability;
+    procedures for evaluation of ruggedness or durability of the card;
+    on-card template generation (e.g. extraction of minutiae from images);
+    template update or adaptation;
+    formal conformance tests of ISO/IEC 7816-4 and ISO/IEC 7816-11;
+    testing of devices not conforming to ISO/IEC 7816, including all system-on-card devices.
 status:
   stage:
     content: PUBLISHED
@@ -148,7 +147,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

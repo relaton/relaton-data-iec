@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1954012022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 19540-1:2022
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19540-1:2022-03:::'
+- content: 'urn:iec:std:iso-iec:19540-1:2022:::'
   type: URN
 date:
 - type: published
@@ -93,17 +93,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>There are four parts to this specification, two are normative and two informative. The normative parts are:</p>
-    <ol>
-    <li>The UAF Domain Metamodel (DMM) (this document) that provides the definition of concepts, relationships and viewpoints for the framework. The UAF DMM is the basis for any implementation of UAF including non-UML/SysML implementations.</li>
-    <li>The UAF Profile (UAFP) (see document dtc/19-06-15) is a UML/SysML implementation of the UAF DMM</li>
-    </ol>
+
+    The UAF Domain Metamodel (DMM) (this document) that provides the definition of concepts, relationships and viewpoints for the framework. The UAF DMM is the basis for any implementation of UAF including non-UML/SysML implementations.
+    The UAF Profile (UAFP) (see document dtc/19-06-15) is a UML/SysML implementation of the UAF DMM
+
     <p>The informative parts are:</p>
-    <ol start="3">
-    <li>The UAF Traceability, Annex A (see document dtc/19-06-17), which details the mappings between the UAF and the various frameworks and languages that contribute to the UAF.</li>
-    <li>The UAF Example Model, Annex B (see document dtc/19-06-18), which illustrates a practical usage of UAF.</li>
-    </ol>
+
+    The UAF Traceability, Annex A (see document dtc/19-06-17), which details the mappings between the UAF and the various frameworks and languages that contribute to the UAF.
+    The UAF Example Model, Annex B (see document dtc/19-06-18), which illustrates a practical usage of UAF.
 status:
   stage:
     content: PUBLISHED
@@ -137,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC61347232011AMD12016CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -41,7 +41,7 @@ docidentifier:
 - content: IEC 61347-2-3:2011+AMD1:2016 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61347-2-3:2011-05::csv:+amd:1:2016-07
+- content: urn:iec:std:iec:61347-2-3:2011::csv::plus:amd:1:2016
   type: URN
 date:
 - type: published
@@ -96,21 +96,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61347-2-3:2011+A1:2016 specifies particular safety requirements for
-    electronic control gear for use on a.c. and d.c. supplies up to 1 000 V at 50
-    Hz or 60 Hz with operating frequencies deviating fromthe supply frequency, associated
-    with fluorescent lamps as specified in IEC 60081 and IEC 60901, and other fluorescent
-    lamps for high-frequency operation. This second edition constitutes a technical
-    revision. The significant revisions with respect to the first edition are:<br
-    />\r\n- rectifying test conditions when dimming;<br />\r\n- construction requirements;<br
-    />\r\n- measurement circuits and limits for HF leakage currents;<br />\r\n- modification
-    of the structure to become a standard exclusively for a.c. and d.c. central supplied
-    electronic control gear for general lighting and Annex J cover centrally- supplied
-    emergency control gear.<br />\r\n<br />\r\nThis publication is to be read in conjunction
-    with <a href=\"https://webstore.iec.ch/en/publication/5354\">IEC 61347-1:2007</a>.
-    The contents of the corrigendum of September 2011 have been included in this copy.
-    This consolidated version consists of the second edition (2011) and its amendment
-    1 (2016)."
+  content: |-
+    IEC 61347-2-3:2011+A1:2016 specifies particular safety requirements for electronic control gear for use on a.c. and d.c. supplies up to 1 000 V at 50 Hz or 60 Hz with operating frequencies deviating fromthe supply frequency, associated with fluorescent lamps as specified in IEC 60081 and IEC 60901, and other fluorescent lamps for high-frequency operation. This second edition constitutes a technical revision. The significant revisions with respect to the first edition are:<br/>
+    - rectifying test conditions when dimming;<br/>
+    - construction requirements;<br/>
+    - measurement circuits and limits for HF leakage currents;<br/>
+    - modification of the structure to become a standard exclusively for a.c. and d.c. central supplied electronic control gear for general lighting and Annex J cover centrally- supplied emergency control gear.<br/>
+    <br/>
+    This publication is to be read in conjunction with IEC 61347-1:2007. The contents of the corrigendum of September 2011 have been included in this copy. This consolidated version consists of the second edition (2011) and its amendment 1 (2016).
 - language: fr
   script: Latn
   content: "L'IEC 61347-2-3:2011+A1:2016 spécifie les exigences particulières desécurité
@@ -151,7 +144,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

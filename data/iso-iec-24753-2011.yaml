@@ -1,7 +1,7 @@
 ---
 id: ISOIEC247532011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 24753:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:24753:2011-08:::'
+- content: 'urn:iec:std:iso-iec:24753:2011:::'
   type: URN
 date:
 - type: published
@@ -94,16 +94,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 24753:2011 defines a minimum application protocol to support sensors and the monitoring of batteries in conjunction with RFID tags utilizing the air interface as defined in the ISO/IEC 18000 series.</p>
     <p>It provides common encoding rules for identifying sensors, their functions, and their delivered measurements. It also defines the process rules to support the following functions: </p>
-    <ul>
-    <li>selecting and de-selecting a particular sensory function when more than one is supported by the RFID tag;</li>
-    <li>setting sensor parameters both initially and ongoing;</li>
-    <li>starting and stopping the monitoring function of a sensor;</li>
-    <li>accessing sensor data; and</li>
-    <li>carrying out basic processing of sensor data and interpreting this into a format that is meaningful for an application.</li>
-    </ul>
+
+    selecting and de-selecting a particular sensory function when more than one is supported by the RFID tag;
+    setting sensor parameters both initially and ongoing;
+    starting and stopping the monitoring function of a sensor;
+    accessing sensor data; and
+    carrying out basic processing of sensor data and interpreting this into a format that is meaningful for an application.
 status:
   stage:
     content: PUBLISHED
@@ -137,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300242018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23002-4:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23002-4:2018-03:::'
+- content: 'urn:iec:std:iso-iec:23002-4:2018:::'
   type: URN
 date:
 - type: published
@@ -93,16 +93,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 23002-4:2018 defines the description of the MPEG video tool library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This tool library defines the specification of FUs, which are sufficient to build complete decoding solutions according to the following coding standards:</p>
-    <ul>
-    <li>-      ISO/IEC 14496-2 (MPEG-4 Simple Profile), </li>
-    <li>-      ISO/IEC 14496-10<i> </i>(MPEG-4 AVC Constrained Baseline Profile and Progressive High Profile),</li>
-    <li>-      ISO/IEC 14496-16 (MPEG-4 SC3DMC), and</li>
-    <li>-      ISO/IEC 23008-2 (HEVC Main Profile).</li>
-    </ul>
-    <p>The objective of ISO/IEC 23001-4 is to define the general framework principles, and this document defines the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG coding standards. Each FU is defined in the form of a textual description, which can be found in 4.1. The input and output behaviour follows the conventions described in Clause 5, Clause 6, and Clause 7.</p>
-    <p>ISO/IEC 23002-4:2018 compliant implementations can be designed using any software or hardware language and components. The reference software for the textual specification of FUs is written in RVC-CAL language of which a formal syntax is provided in ISO/IEC 23001-4.</p>
+  content: "<p>ISO/IEC 23002-4:2018 defines the description of the MPEG video tool
+    library (VTL) based on the decoder description specified in ISO/IEC 23001-4. This
+    tool library defines the specification of FUs, which are sufficient to build complete
+    decoding solutions according to the following coding standards:</p>\n\n-      ISO/IEC
+    14496-2 (MPEG-4 Simple Profile), \n-      ISO/IEC 14496-10 (MPEG-4 AVC Constrained
+    Baseline Profile and Progressive High Profile),\n-      ISO/IEC 14496-16 (MPEG-4
+    SC3DMC), and\n-      ISO/IEC 23008-2 (HEVC Main Profile).\n\n<p>The objective
+    of ISO/IEC 23001-4 is to define the general framework principles, and this document
+    defines the MPEG VTL that includes relevant tools (or FUs) from the existing MPEG
+    coding standards. Each FU is defined in the form of a textual description, which
+    can be found in 4.1. The input and output behaviour follows the conventions described
+    in Clause 5, Clause 6, and Clause 7.</p>\n<p>ISO/IEC 23002-4:2018 compliant implementations
+    can be designed using any software or hardware language and components. The reference
+    software for the textual specification of FUs is written in RVC-CAL language of
+    which a formal syntax is provided in ISO/IEC 23001-4.</p>"
 status:
   stage:
     content: PUBLISHED
@@ -136,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2910982011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: ISO/IEC 29109-8:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29109-8:2011-12:::'
+- content: 'urn:iec:std:iso-iec:29109-8:2011:::'
   type: URN
 date:
 - type: published
@@ -95,20 +95,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 29109-8:2011 specifies elements of conformance testing methodology, test assertions, and test procedures as applicable to ISO/IEC 19794-8:2006.</p>
     <p>It establishes</p>
-    <ul>
-    <li>test assertions of the structure of the finger pattern skeletal data format as specified in ISO/IEC 19794-8:2006 (Type A Level 1 as defined in ISO/IEC 29109-1:2009),</li>
-    <li>test asssertions of internal consistency by checking the types of values that may be contained within each field (Type A Level 2 as defined in ISO/IEC 29109-1:2009).</li>
-    </ul>
+
+    test assertions of the structure of the finger pattern skeletal data format as specified in ISO/IEC 19794-8:2006 (Type A Level 1 as defined in ISO/IEC 29109-1:2009),
+    test asssertions of internal consistency by checking the types of values that may be contained within each field (Type A Level 2 as defined in ISO/IEC 29109-1:2009).
+
     <p>It does not establish</p>
-    <ul>
-    <li>test of conformance of Common Biometric Exchange Formats Framework (CBEFF) structures required by ISO/IEC 19794-8:2006,</li>
-    <li>test of consistency with input biometric data record (Level 3),</li>
-    <li>test of other characteristics of biometric products or other types of testing of biometric products (e.g. acceptance, performance, robustness, security),</li>
-    <li>test of conformance of systems that do not produce ISO/IEC 19794-8:2006 records.</li>
-    </ul>
+
+    test of conformance of Common Biometric Exchange Formats Framework (CBEFF) structures required by ISO/IEC 19794-8:2006,
+    test of consistency with input biometric data record (Level 3),
+    test of other characteristics of biometric products or other types of testing of biometric products (e.g. acceptance, performance, robustness, security),
+    test of conformance of systems that do not produce ISO/IEC 19794-8:2006 records.
 status:
   stage:
     content: PUBLISHED
@@ -142,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

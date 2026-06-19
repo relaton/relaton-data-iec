@@ -1,7 +1,7 @@
 ---
 id: IECTR618509062018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC TR 61850-90-6:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-90-6:2018-09:tr::'
+- content: 'urn:iec:std:iec:61850-90-6:2018:tr::'
   type: URN
 date:
 - type: published
@@ -77,21 +77,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 61850-90-6:2018, which is a technical report, provides basic aspects
-    that need to be considered when using IEC 61850 for information exchange between
-    systems and components to support Distribution Automation applications, within
-    MV network automation, as presented in Annex B.<br />\r\nThe contents of Distribution
-    Automation (DA) vary between different countries, regions, even between different
-    utilities in the same country. DA may cover HV/MV substations, MV networks, LV
-    networks, distributed energy resources, as well as demand sides. In particular,
-    this document:<br />\r\n• defines use cases for typical DA applications that require
-    information exchange between two or more components/systems<br />\r\n• provides
-    modelling of components commonly used in DA applications<br />\r\n• proposes new
-    logical nodes and the extensions to the existing logical nodes that can be used
-    in typical DA applications.<br />\r\n• provides guidelines for the communication
-    architecture and services to be used in DA applications<br />\r\n• provides configuration
-    methods for IEDs to be used in DA systems.<br />\r\nNOTE - The corrigendum 1 of
-    January 2020 is available in the ZIP file."
+  content: |-
+    IEC TR 61850-90-6:2018, which is a technical report, provides basic aspects that need to be considered when using IEC 61850 for information exchange between systems and components to support Distribution Automation applications, within MV network automation, as presented in Annex B.<br/>
+    The contents of Distribution Automation (DA) vary between different countries, regions, even between different utilities in the same country. DA may cover HV/MV substations, MV networks, LV networks, distributed energy resources, as well as demand sides. In particular, this document:<br/>
+    • defines use cases for typical DA applications that require information exchange between two or more components/systems<br/>
+    • provides modelling of components commonly used in DA applications<br/>
+    • proposes new logical nodes and the extensions to the existing logical nodes that can be used in typical DA applications.<br/>
+    • provides guidelines for the communication architecture and services to be used in DA applications<br/>
+    • provides configuration methods for IEDs to be used in DA systems.<br/>
+    NOTE - The corrigendum 1 of January 2020 is available in the ZIP file.
 status:
   stage:
     content: PUBLISHED
@@ -113,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

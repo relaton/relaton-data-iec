@@ -1,7 +1,7 @@
 ---
 id: IECTR625432022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -22,7 +22,7 @@ docidentifier:
 - content: IEC TR 62543:2022
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62543:2022-03:tr::'
+- content: 'urn:iec:std:iec:62543:2022:tr::'
   type: URN
 date:
 - type: published
@@ -74,29 +74,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 62543:2022 gives general guidance on the subject of voltage sourced
-    converters (VSC) used for transmission of power by high voltage direct current
-    (HVDC). It describes converters that are not only voltage sourced (containing
-    a capacitive energy storage medium and where the polarity of DC voltage remains
-    fixed) but also self-commutated, using semiconductor devices which can both be
-    turned on and turned off by control action. The scope includes 2‑level and 3-level
-    converters with pulse-width modulation (PWM), along with multi-level converters,
-    modular multi-level converters and cascaded two-level converters, but excludes
-    2‑level and 3-level converters operated without PWM, in square-wave output mode.
-    HVDC power transmission using voltage sourced converters is known as \"VSC transmission\".
-    The various types of circuit that can be used for VSC transmission are described
-    in this document, along with their principal operational characteristics and typical
-    applications. The overall aim is to provide a guide for purchasers to assist with
-    the task of specifying a VSC transmission scheme. Line-commutated and current-sourced
-    converters are specifically excluded from this document. This edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\n- in Clause 3, some redundant definitions which were identical to those
-    listed in IEC 62747 have been deleted;<br />\r\n- in 4.3.4, description and diagrams
-    have been added for the cases of a bipole with dedicated metallic return and a
-    rigid bipole;<br />\r\n- in 4.4, mention is made of the bi-mode insulated gate
-    transistor (BiGT) and injection enhanced gate transistor (IEGT) as possible alternatives
-    to the IGBT;<br />\r\n- in 5.6, the reference to common-mode blocking reactors
-    has been deleted since these are very rarely used nowadays."
+  content: |-
+    IEC TR 62543:2022 gives general guidance on the subject of voltage sourced converters (VSC) used for transmission of power by high voltage direct current (HVDC). It describes converters that are not only voltage sourced (containing a capacitive energy storage medium and where the polarity of DC voltage remains fixed) but also self-commutated, using semiconductor devices which can both be turned on and turned off by control action. The scope includes 2‑level and 3-level converters with pulse-width modulation (PWM), along with multi-level converters, modular multi-level converters and cascaded two-level converters, but excludes 2‑level and 3-level converters operated without PWM, in square-wave output mode. HVDC power transmission using voltage sourced converters is known as "VSC transmission". The various types of circuit that can be used for VSC transmission are described in this document, along with their principal operational characteristics and typical applications. The overall aim is to provide a guide for purchasers to assist with the task of specifying a VSC transmission scheme. Line-commutated and current-sourced converters are specifically excluded from this document. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - in Clause 3, some redundant definitions which were identical to those listed in IEC 62747 have been deleted;<br/>
+    - in 4.3.4, description and diagrams have been added for the cases of a bipole with dedicated metallic return and a rigid bipole;<br/>
+    - in 4.4, mention is made of the bi-mode insulated gate transistor (BiGT) and injection enhanced gate transistor (IEGT) as possible alternatives to the IGBT;<br/>
+    - in 5.6, the reference to common-mode blocking reactors has been deleted since these are very rarely used nowadays.
 status:
   stage:
     content: PUBLISHED
@@ -118,7 +101,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

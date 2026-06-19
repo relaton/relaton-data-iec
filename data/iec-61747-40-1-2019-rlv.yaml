@@ -1,7 +1,7 @@
 ---
 id: IEC617474012019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61747-40-1:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61747-40-1::rlv
+- content: 'urn:iec:std:iec:61747-40-1:2019::rlv:'
   type: URN
 date:
 - type: published
@@ -81,20 +81,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61747-40-1:2019 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 61747-40-1:2019 provides
-    mechanical performance testing guidelines for cover glass used in electronic flat
-    panel displays in mobile devices. This document focuses on key mechanical testing
-    performance parameters and covers mainly strength and damage resistance attributes.
-    The test methods focus on the cover glass level testing only. This edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\n- withdrawal of test methods unsuitable for mobile display cover,<br />\r\n-
-    revision of test methods based on newly developed market relevance,<br />\r\n-
-    addition of test method for abraded strength,<br />\r\n- addition of explanations
-    about the relevance between the test methods and the fracture mode, and<br />\r\n-
-    revision of terms and definitions.</p>\r\n\r\n<ol style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 61747-40-1:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 61747-40-1:2019 provides mechanical performance testing guidelines for cover glass used in electronic flat panel displays in mobile devices. This document focuses on key mechanical testing performance parameters and covers mainly strength and damage resistance attributes. The test methods focus on the cover glass level testing only. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - withdrawal of test methods unsuitable for mobile display cover,<br/>
+    - revision of test methods based on newly developed market relevance,<br/>
+    - addition of test method for abraded strength,<br/>
+    - addition of explanations about the relevance between the test methods and the fracture mode, and<br/>
+    - revision of terms and definitions.</p>
+
+
 status:
   stage:
     content: PUBLISHED
@@ -116,7 +112,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -128,3 +124,4 @@ ext:
     project_number:
       content: '101864'
   price_code: iec:RL
+...

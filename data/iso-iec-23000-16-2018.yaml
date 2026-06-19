@@ -1,7 +1,7 @@
 ---
 id: ISOIEC23000162018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23000-16:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23000-16:2018-01:::'
+- content: 'urn:iec:std:iso-iec:23000-16:2018:::'
   type: URN
 date:
 - type: published
@@ -98,20 +98,20 @@ abstract:
     <p>The PubSub parties are: Publisher, Subscriber, Match Service Provider (MSP) and Consumer and the formats employed are Resource Information (RI), Publication Information (PI), Subscription Information (SI) and Notification Information (NI).</p>
     <p>ISO/IEC 23000-16:2018 specifies RI, PI, SI and NI in such a way that typical multimedia communication requirements can be supported. The following is a non-exhaustive list of such requirements.</p>
     <p>-      The Publisher can</p>
-    <ul>
-    <li>-     describe the Resource for consumption purposes,</li>
-    <li>-     define the contract that will bind the Publisher and a Consumer,</li>
-    <li>-     request a device to report use of the Resource,</li>
-    <li>-     describe the Resource for distribution purposes,</li>
-    <li>-     define the contract that will bind the Publisher and a Match Service Provider (MSP) of a match involving the Publication, and</li>
-    <li>-     request the MSP to notify/not to notify a list of users.</li>
-    </ul>
+
+    -     describe the Resource for consumption purposes,
+    -     define the contract that will bind the Publisher and a Consumer,
+    -     request a device to report use of the Resource,
+    -     describe the Resource for distribution purposes,
+    -     define the contract that will bind the Publisher and a Match Service Provider (MSP) of a match involving the Publication, and
+    -     request the MSP to notify/not to notify a list of users.
+
     <p>-      The Subscriber can</p>
-    <ul>
-    <li>-     query the Resource,</li>
-    <li>-     define the contract that will bind the Subscriber and a Match Service Provider (MSP), and</li>
-    <li>-     request the MSP to notify/not to notify a list of users of a match involving the Subscription.</li>
-    </ul>
+
+    -     query the Resource,
+    -     define the contract that will bind the Subscriber and a Match Service Provider (MSP), and
+    -     request the MSP to notify/not to notify a list of users of a match involving the Subscription.
+
     <p>ISO/IEC 23000-16:2018 does not specify the protocols used to carry these payloads.</p>
 status:
   stage:
@@ -146,7 +146,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

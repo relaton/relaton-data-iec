@@ -1,7 +1,7 @@
 ---
 id: IEC61158342023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-3-4:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-3-4:2023-03:::'
+- content: 'urn:iec:std:iec:61158-3-4:2023:::'
   type: URN
 date:
 - type: published
@@ -103,42 +103,26 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-3-4:2023 provides common elements for basic time-critical messaging
-    communications between devices in an automation environment. The term \"time-critical\"
-    is used to represent the presence of a time-window, within which one or more specified
-    actions are required to be completed with some defined level of certainty. Failure
-    to complete specified actions within the time window risks failure of the applications
-    requesting the actions, with attendant risk to equipment, plant and possibly human
-    life.<br />\r\nThis document defines in an abstract way the externally visible
-    services provided by the Type 4 fieldbus data-link layer in terms of<br />\r\nthe
-    primitive actions and events of the services;<br />\r\nthe parameters associated
-    with each primitive action and event, and the form which they take; and<br />\r\nthe
-    interrelationship between these actions and events, and their valid sequences.<br
-    />\r\nThe purpose of this document is to define the services provided to<br />\r\nthe
-    Type 4 fieldbus application layer at the boundary between the application and
-    data-link layers of the fieldbus reference model;<br />\r\nsystems management
-    at the boundary between the data-link layer and systems management of the fieldbus
-    reference model."
+  content: |-
+    IEC 61158-3-4:2023 provides common elements for basic time-critical messaging communications between devices in an automation environment. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This document defines in an abstract way the externally visible services provided by the Type 4 fieldbus data-link layer in terms of<br/>
+    the primitive actions and events of the services;<br/>
+    the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    the interrelationship between these actions and events, and their valid sequences.<br/>
+    The purpose of this document is to define the services provided to<br/>
+    the Type 4 fieldbus application layer at the boundary between the application and data-link layers of the fieldbus reference model;<br/>
+    systems management at the boundary between the data-link layer and systems management of the fieldbus reference model.
 - language: fr
   script: Latn
-  content: "L’IEC 61158-3-4:2023 fournit les éléments communs pour les communications
-    de messagerie prioritaires entre les appareils d’un environnement d’automatisation.
-    Le terme \"prioritaire\" est utilisé pour indiquer la présence d’une fenêtre temporelle,
-    dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon
-    un niveau défini de certitude. La non‑réalisation des actions spécifiées dans
-    la fenêtre temporelle induit un risque de défaillance des applications qui demandent
-    ces actions, avec les risques qui en découlent pour l’équipement, les installations
-    et éventuellement la vie humaine.<br />\r\nLe présent document définit de manière
-    abstraite les services visibles externes fournis par la couche liaison de données
-    de bus de terrain de type 4, concernant:<br />\r\nles actions et événements liés
-    aux primitives du service;<br />\r\nles paramètres associés à chaque action et
-    événement de primitive, ainsi que la forme prise par ces paramètres; et<br />\r\nl’interrelation
-    entre ces actions et événements, et leurs séquences valides.<br />\r\nLe présent
-    document a pour objet de définir les services fournis:<br />\r\nla couche application
-    de bus de terrain de type 4 à la limite entre les couches application et liaison
-    de données du modèle de référence de bus de terrain;<br />\r\nla gestion-système
-    à la frontière entre la couche liaison de données et la gestion-système du modèle
-    de référence de bus de terrain."
+  content: |-
+    L’IEC 61158-3-4:2023 fournit les éléments communs pour les communications de messagerie prioritaires entre les appareils d’un environnement d’automatisation. Le terme "prioritaire" est utilisé pour indiquer la présence d’une fenêtre temporelle, dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon un niveau défini de certitude. La non‑réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui demandent ces actions, avec les risques qui en découlent pour l’équipement, les installations et éventuellement la vie humaine.<br/>
+    Le présent document définit de manière abstraite les services visibles externes fournis par la couche liaison de données de bus de terrain de type 4, concernant:<br/>
+    les actions et événements liés aux primitives du service;<br/>
+    les paramètres associés à chaque action et événement de primitive, ainsi que la forme prise par ces paramètres; et<br/>
+    l’interrelation entre ces actions et événements, et leurs séquences valides.<br/>
+    Le présent document a pour objet de définir les services fournis:<br/>
+    la couche application de bus de terrain de type 4 à la limite entre les couches application et liaison de données du modèle de référence de bus de terrain;<br/>
+    la gestion-système à la frontière entre la couche liaison de données et la gestion-système du modèle de référence de bus de terrain.
 status:
   stage:
     content: PUBLISHED
@@ -160,7 +144,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

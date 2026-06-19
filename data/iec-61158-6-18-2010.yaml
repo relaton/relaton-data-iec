@@ -1,7 +1,7 @@
 ---
 id: IEC611586182010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-6-18:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-6-18:2010-08:::'
+- content: 'urn:iec:std:iec:61158-6-18:2010:::'
   type: URN
 date:
 - type: published
@@ -103,35 +103,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-6-18:2010 specifies the protocol of the Type 18 fieldbus application
-    layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and
-    the OSI application layer structure (ISO/IEC 9545). It defines the protocol provided
-    to define the wire-representation of the service primitives defined in IEC 61158-5-18:2010,
-    and the externally visible behavior associated with their transfer. This second
-    edition cancels and replaces the first edition published in 2007 and constitutes
-    a technical revision. The main changes with respect to the previous edition are:<br
-    />\r\n- editorial corrections;<br />\r\n- addition of cyclic data segmenting."
+  content: |-
+    IEC 61158-6-18:2010 specifies the protocol of the Type 18 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545). It defines the protocol provided to define the wire-representation of the service primitives defined in IEC 61158-5-18:2010, and the externally visible behavior associated with their transfer. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are:<br/>
+    - editorial corrections;<br/>
+    - addition of cyclic data segmenting.
 - language: fr
   script: Latn
-  content: "L'IEC 61158-6-18:2010 fournit des éléments communs pour les communications
-    en temps critique ou non entre des programmes d'application dans un environnement
-    et avec un matériel d'automatisation propres aux bus de terrain de type 18. Le
-    terme \"en temps critique\" signale l'existence d'une fenêtre temporelle dans
-    laquelle est exigée la réalisation d'une ou de plusieurs actions spécifiées, avec
-    un niveau de certitude défini. La non-réalisation des actions spécifiées dans
-    la fenêtre temporelle induit un risque de défaillance des applications qui exigent
-    ces actions, avec les risques afférents pour l'équipement, les installations et
-    éventuellement la vie humaine.<br />\r\nLa présente norme définit les interactions
-    entre les applications distantes ainsi que le comportement, visible par un observateur
-    externe, assuré par la couche Application de bus de terrain de type 18, en termes<br
-    />\r\na) de syntaxe abstraite formelle définissant les unités de données de protocole
-    de couche application, acheminées entre les entités d'application en communication;<br
-    />\r\nb) de syntaxe de transfert définissant les règles de codage qui s'appliquent
-    aux unités de données de protocole de couche application;<br />\r\nc) de la machine
-    à état de contexte application définissant le comportement de service application
-    visible entre des entités d'application engagées dans une communication;<br />\r\nd)
-    de machines à état de relations d'applications définissant le comportement de
-    communication visible entre les entités d'application en communication."
+  content: |-
+    L'IEC 61158-6-18:2010 fournit des éléments communs pour les communications en temps critique ou non entre des programmes d'application dans un environnement et avec un matériel d'automatisation propres aux bus de terrain de type 18. Le terme "en temps critique" signale l'existence d'une fenêtre temporelle dans laquelle est exigée la réalisation d'une ou de plusieurs actions spécifiées, avec un niveau de certitude défini. La non-réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui exigent ces actions, avec les risques afférents pour l'équipement, les installations et éventuellement la vie humaine.<br/>
+    La présente norme définit les interactions entre les applications distantes ainsi que le comportement, visible par un observateur externe, assuré par la couche Application de bus de terrain de type 18, en termes<br/>
+    a) de syntaxe abstraite formelle définissant les unités de données de protocole de couche application, acheminées entre les entités d'application en communication;<br/>
+    b) de syntaxe de transfert définissant les règles de codage qui s'appliquent aux unités de données de protocole de couche application;<br/>
+    c) de la machine à état de contexte application définissant le comportement de service application visible entre des entités d'application engagées dans une communication;<br/>
+    d) de machines à état de relations d'applications définissant le comportement de communication visible entre les entités d'application en communication.
 status:
   stage:
     content: PUBLISHED
@@ -153,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

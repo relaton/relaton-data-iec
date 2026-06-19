@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300472008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23004-7:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23004-7:2008-02:::'
+- content: 'urn:iec:std:iso-iec:23004-7:2008:::'
   type: URN
 date:
 - type: published
@@ -93,14 +93,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 23004-7:2008 specifies the interfaces of the support application programming interface (API) and the realization technology used for Integrity Management in MPEG Multimedia Middleware (M3W). Integrity Management is an optional framework for M3W Platforms. The goal is to have controlled upgrading and extension. Basically this means reducing the chance of breaking the system during an upgrade/extension and giving the ability to restore a consistent configuration when things have gone wrong. </p>
-    <p>ISO/IEC 23004-7:2008 specifies entities and interfaces for the following. </p>
-    <ul>
-    <li>Monitoring: This is basically extraction of the model that describes the software and hardware configuration of the terminal (self model). </li>
-    <li>Diagnosis: Based on the self model framework, this will need to determine whether there is a fault in the configuration. </li>
-    <li>Repair: The faults that have been identified during diagnosis will need to be removed when this is possible using the facilities for upgrading and extension offered by M3W. </li>
-    </ul>
+  content: "<p>ISO/IEC 23004-7:2008 specifies the interfaces of the support application
+    programming interface (API) and the realization technology used for Integrity
+    Management in MPEG Multimedia Middleware (M3W). Integrity Management is an optional
+    framework for M3W Platforms. The goal is to have controlled upgrading and extension.
+    Basically this means reducing the chance of breaking the system during an upgrade/extension
+    and giving the ability to restore a consistent configuration when things have
+    gone wrong. </p>\n<p>ISO/IEC 23004-7:2008 specifies entities and interfaces for
+    the following. </p>\n\nMonitoring: This is basically extraction of the model that
+    describes the software and hardware configuration of the terminal (self model).
+    \nDiagnosis: Based on the self model framework, this will need to determine whether
+    there is a fault in the configuration. \nRepair: The faults that have been identified
+    during diagnosis will need to be removed when this is possible using the facilities
+    for upgrading and extension offered by M3W. \n"
 status:
   stage:
     content: PUBLISHED
@@ -134,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

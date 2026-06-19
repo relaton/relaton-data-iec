@@ -1,7 +1,7 @@
 ---
 id: IECTS6349312025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC TS 63493-1:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63493-1:2025-12:ts::'
+- content: 'urn:iec:std:iec:63493-1:2025:ts::'
   type: URN
 date:
 - type: published
@@ -80,18 +80,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 63493-1:2025 specifies the main parameters to facilitate interchangeability
-    or at least to define some frame conditions of MV bushings:<br />\r\n- with Um
-    from 12 kV up to and including 52 kV;<br />\r\n- Ir from 630 A up to and including
-    3 150 A.<br />\r\nThis document deals with non-capacitance graded bushings for
-    Power Transformers, according to the IEC 60076 series (usually for transformer
-    with conservator).<br />\r\nIn this document only liquid to air bushings are considered.
-    Bushings of liquid-to-liquid and air-to-air type and bushings for transformers
-    with air-cushion in tank are not considered.<br />\r\nMV is considered up to 52
-    kV; this value is used to cover specific insulation levels or for high pollution
-    levels, even if the field of application is very restricted.<br />\r\nBoth solutions
-    with external insulation in porcelain and polymeric can be used and need to enable
-    interchangeability (in terms of mechanical and electrical performance)."
+  content: |-
+    IEC TS 63493-1:2025 specifies the main parameters to facilitate interchangeability or at least to define some frame conditions of MV bushings:<br/>
+    - with Um from 12 kV up to and including 52 kV;<br/>
+    - Ir from 630 A up to and including 3 150 A.<br/>
+    This document deals with non-capacitance graded bushings for Power Transformers, according to the IEC 60076 series (usually for transformer with conservator).<br/>
+    In this document only liquid to air bushings are considered. Bushings of liquid-to-liquid and air-to-air type and bushings for transformers with air-cushion in tank are not considered.<br/>
+    MV is considered up to 52 kV; this value is used to cover specific insulation levels or for high pollution levels, even if the field of application is very restricted.<br/>
+    Both solutions with external insulation in porcelain and polymeric can be used and need to enable interchangeability (in terms of mechanical and electrical performance).
 status:
   stage:
     content: PUBLISHED
@@ -113,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1325042009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: ISO/IEC 13250-4:2009
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:13250-4:2009-02:::'
+- content: 'urn:iec:std:iso-iec:13250-4:2009:::'
   type: URN
 date:
 - type: published
@@ -93,8 +93,8 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p>ISO/IEC 13250-4:2009 defines a format known as Canonical XTM, or CXTM for short. The format is an XML format, and has the property that it guarantees that two equivalent Topic Maps Data Model instances (ISO/IEC 13250-2) will always produce byte-by-byte identical serializations, and that non-equivalent instances will always produce different serializations. CXTM thus enables direct comparison of two topic maps to determine equality by comparison of their canonical serializations. The purpose of CXTM is to allow the creation of test suites for various Topic Maps-related technologies that are easily portable between different Topic Maps implementations, so long as these support CXTM. CXTM is not<i> </i>intended to be used for the interchange of topic maps, although this is possible. The standard format for interchange of topic maps is XTM (ISO/IEC 13250-3).</p>
-    <p>ISO/IEC 13250-4:2009 specifies how CXTM files are produced from topic maps by means of a transformation from the Topic Maps Data Model (ISO/IEC 13250-2)<i> </i>to the XML Infoset.</p>
+    <p>ISO/IEC 13250-4:2009 defines a format known as Canonical XTM, or CXTM for short. The format is an XML format, and has the property that it guarantees that two equivalent Topic Maps Data Model instances (ISO/IEC 13250-2) will always produce byte-by-byte identical serializations, and that non-equivalent instances will always produce different serializations. CXTM thus enables direct comparison of two topic maps to determine equality by comparison of their canonical serializations. The purpose of CXTM is to allow the creation of test suites for various Topic Maps-related technologies that are easily portable between different Topic Maps implementations, so long as these support CXTM. CXTM is not intended to be used for the interchange of topic maps, although this is possible. The standard format for interchange of topic maps is XTM (ISO/IEC 13250-3).</p>
+    <p>ISO/IEC 13250-4:2009 specifies how CXTM files are produced from topic maps by means of a transformation from the Topic Maps Data Model (ISO/IEC 13250-2) to the XML Infoset.</p>
 status:
   stage:
     content: PUBLISHED
@@ -128,7 +128,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC60966282025RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: IEC 60966-2-8:2025 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60966-2-8::rlv
+- content: 'urn:iec:std:iec:60966-2-8:2025::rlv:'
   type: URN
 date:
 - type: published
@@ -82,23 +82,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60966-2-8:2025 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 60966-2-8:2025
-    is a detail specification that applies to cable assemblies with F-Quick connectors
-    (see IEC 61169-47) and requires quad-shield screening class A++ (see IEC 61196-6-5).
-    This document applies to the cable assemblies for radio and TV receivers. This
-    second edition cancels and replaces the first edition published in 2022. This
-    edition constitutes a technical revision.<br />\r\nThis edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\na)
-    in item [5], drawing expanded by right angled connectors;<br />\r\nb) in item
-    [12], female F-connectors cancelled (not standardized by IEC 61169-47);<br />\r\nc)
-    in item [14] Reflection properties (return loss): different values for straight
-    and right-angled connectors;<br />\r\nd) in item [14] Insertion loss: different
-    factors for insertion loss calculation for straight and right-angled connectors;<br
-    />\r\ne) in item [14] Loop resistance: loop resistance was set to 1 Ω max. value
-    for the complete length."
+  content: |-
+    IEC 60966-2-8:2025 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 60966-2-8:2025 is a detail specification that applies to cable assemblies with F-Quick connectors (see IEC 61169-47) and requires quad-shield screening class A++ (see IEC 61196-6-5). This document applies to the cable assemblies for radio and TV receivers. This second edition cancels and replaces the first edition published in 2022. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) in item [5], drawing expanded by right angled connectors;<br/>
+    b) in item [12], female F-connectors cancelled (not standardized by IEC 61169-47);<br/>
+    c) in item [14] Reflection properties (return loss): different values for straight and right-angled connectors;<br/>
+    d) in item [14] Insertion loss: different factors for insertion loss calculation for straight and right-angled connectors;<br/>
+    e) in item [14] Loop resistance: loop resistance was set to 1 Ω max. value for the complete length.
 status:
   stage:
     content: PUBLISHED
@@ -120,7 +113,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

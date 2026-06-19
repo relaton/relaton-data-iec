@@ -1,7 +1,7 @@
 ---
 id: IEC60079112023ISH42025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,11 +27,13 @@ docidentifier:
 - content: IEC 60079-11:2023/ISH4:2025
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60079-11:2023-01::||ISH4:2025-09
+- content: urn:iec:std:iec:60079-11:2023:::::ish:4:2025
   type: URN
 date:
 - type: published
   at: '2025-09-05'
+- type: stable-until
+  at: '2026-12-31'
 contributor:
 - role:
   - type: publisher
@@ -74,6 +76,10 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: CORRECTED VERSION 2026-05
 status:
   stage:
     content: PUBLISHED
@@ -95,7 +101,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

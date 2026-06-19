@@ -1,7 +1,7 @@
 ---
 id: IEC61158522019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-5-2:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-5-2:2019-04:::'
+- content: 'urn:iec:std:iec:61158-5-2:2019:::'
   type: URN
 date:
 - type: published
@@ -105,24 +105,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-5-2:2019 defines the services provided to the FAL user at the
-    boundary between the user and the application layer of the fieldbus reference
-    model, and Systems Management at the boundary between the application layer and
-    Systems Management of the fieldbus reference model. This standard specifies the
-    structure and services of the Type 2 fieldbus application layer, in conformance
-    with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer
-    structure (ISO/IEC 9545) This fourth edition cancels and replaces the third edition
-    published in 2014. This edition constitutes a technical revision. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\n- addition of a data type in 5.3.2;<br />\r\n- clarifications
-    of Object management ASE in 6.2.1;<br />\r\n- extensions of General ASE in 6.2.1.2.1;<br
-    />\r\n- extensions/clarifications of Identity ASE in 6.2.1.2.2;<br />\r\n- update
-    of Message Router ASE in 6.2.1.2.4;<br />\r\n- extensions/clarifications of Time
-    Sync ASE in 6.2.1.2.6;<br />\r\n- updates of Parameter ASE in 6.2.1.2.7;<br />\r\n-
-    updates of FAL ASE service specification in 6.2.1.3;<br />\r\n- extensions/clarifications
-    of Connection manager ASE in 6.2.2;<br />\r\n- extensions/clarifications of Connection
-    ASE in 6.2.3;<br />\r\n- extensions/clarifications of Application type in 6.3.1.4.5.<br
-    />\r\n- miscellaneous editorial corrections."
+  content: |-
+    IEC 61158-5-2:2019 defines the services provided to the FAL user at the boundary between the user and the application layer of the fieldbus reference model, and Systems Management at the boundary between the application layer and Systems Management of the fieldbus reference model. This standard specifies the structure and services of the Type 2 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545) This fourth edition cancels and replaces the third edition published in 2014. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - addition of a data type in 5.3.2;<br/>
+    - clarifications of Object management ASE in 6.2.1;<br/>
+    - extensions of General ASE in 6.2.1.2.1;<br/>
+    - extensions/clarifications of Identity ASE in 6.2.1.2.2;<br/>
+    - update of Message Router ASE in 6.2.1.2.4;<br/>
+    - extensions/clarifications of Time Sync ASE in 6.2.1.2.6;<br/>
+    - updates of Parameter ASE in 6.2.1.2.7;<br/>
+    - updates of FAL ASE service specification in 6.2.1.3;<br/>
+    - extensions/clarifications of Connection manager ASE in 6.2.2;<br/>
+    - extensions/clarifications of Connection ASE in 6.2.3;<br/>
+    - extensions/clarifications of Application type in 6.3.1.4.5.<br/>
+    - miscellaneous editorial corrections.
 - language: fr
   script: Latn
   content: L’IEC 61158-5-2:2019 fournit des éléments communs pour les communications
@@ -155,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

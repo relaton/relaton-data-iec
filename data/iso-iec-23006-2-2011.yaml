@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300622011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23006-2:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23006-2:2011-06:::'
+- content: 'urn:iec:std:iso-iec:23006-2:2011:::'
   type: URN
 date:
 - type: published
@@ -97,15 +97,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 23006-2:2011 specifies a set of Application Programming Interfaces (APIs) so that MXM Applications executing on an MXM Device can access the standard multimedia technologies contained in its Middleware as MXM Engines, as specified by ISO/IEC 23006-1.</p>
 
     <p>The APIs belong to the following two classes:</p>
 
-    <ul>
-    <li>       the MXM Engine APIs, i.e. the collection of the individual MXM Engine APIs providing access to a single MPEG technology (e.g. video coding) or to a group of MPEG technologies where this is convenient;</li>
-    <li>       the MXM Orchestrator API, i.e. the API of the special MXM Engine that is capable of creating chains of MXM engines to execute a high-level application call such as Play, as opposed to the typically low-level MXM Engine API calls.</li>
-    </ul>
+
+           the MXM Engine APIs, i.e. the collection of the individual MXM Engine APIs providing access to a single MPEG technology (e.g. video coding) or to a group of MPEG technologies where this is convenient;
+           the MXM Orchestrator API, i.e. the API of the special MXM Engine that is capable of creating chains of MXM engines to execute a high-level application call such as Play, as opposed to the typically low-level MXM Engine API calls.
 status:
   stage:
     content: REVISED
@@ -139,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

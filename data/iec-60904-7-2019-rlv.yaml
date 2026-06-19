@@ -1,7 +1,7 @@
 ---
 id: IEC6090472019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 60904-7:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60904-7::rlv
+- content: 'urn:iec:std:iec:60904-7:2019::rlv:'
   type: URN
 date:
 - type: published
@@ -78,31 +78,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60904-7:2019 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 60904-7:2019 describes
-    the procedure for correcting the spectral mismatch error introduced in the testing
-    of a photovoltaic device, caused by the mismatch between the test spectrum and
-    the reference spectrum (e.g. AM1.5 spectrum) and by the mismatch between the spectral
-    responsivities (SR) of the reference device and of the device under test and therewith
-    reduce the systematic uncertainty. This procedure is valid for single-junction
-    devices but the principle may be extended to cover multi-junction devices. The
-    purpose of this document is to give guidelines for the correction of the spectral
-    mismatch error, should there be a spectral mismatch between the test spectrum
-    and the reference spectrum as well as between the reference device SR and the
-    device under test SR. The calculated spectral mismatch correction is only valid
-    for the specific combination of test and reference devices measured with a particular
-    test spectrum. This fourth edition cancels and replaces the third edition published
-    in 2008. The main technical changes with respect to the previous edition are as
-    follows:<br />\r\n- For better compatibility and less redundancy, the clause “Determination
-    of test spectrum” refers to IEC 60904-9.<br />\r\n- The spectral mismatch factor
-    is called SMM instead of MM to enable differentiation to the angular mismatch
-    factor AMM and spectral angular mismatch factor SAMM.<br />\r\n- Formulae for
-    the derivation and application of the spectral mismatch factor SMM are added.<br
-    />\r\n- Links to new standards are given, e.g. concerning multi-junction devices.<br
-    />\r\n- Corrected wording (responsivity instead of response and irradiance instead
-    of intensity).</p>"
+  content: |-
+    IEC 60904-7:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 60904-7:2019 describes the procedure for correcting the spectral mismatch error introduced in the testing of a photovoltaic device, caused by the mismatch between the test spectrum and the reference spectrum (e.g. AM1.5 spectrum) and by the mismatch between the spectral responsivities (SR) of the reference device and of the device under test and therewith reduce the systematic uncertainty. This procedure is valid for single-junction devices but the principle may be extended to cover multi-junction devices. The purpose of this document is to give guidelines for the correction of the spectral mismatch error, should there be a spectral mismatch between the test spectrum and the reference spectrum as well as between the reference device SR and the device under test SR. The calculated spectral mismatch correction is only valid for the specific combination of test and reference devices measured with a particular test spectrum. This fourth edition cancels and replaces the third edition published in 2008. The main technical changes with respect to the previous edition are as follows:<br/>
+    - For better compatibility and less redundancy, the clause “Determination of test spectrum” refers to IEC 60904-9.<br/>
+    - The spectral mismatch factor is called SMM instead of MM to enable differentiation to the angular mismatch factor AMM and spectral angular mismatch factor SAMM.<br/>
+    - Formulae for the derivation and application of the spectral mismatch factor SMM are added.<br/>
+    - Links to new standards are given, e.g. concerning multi-junction devices.<br/>
+    - Corrected wording (responsivity instead of response and irradiance instead of intensity).</p>
 status:
   stage:
     content: PUBLISHED
@@ -124,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

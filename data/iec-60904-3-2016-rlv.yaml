@@ -1,7 +1,7 @@
 ---
 id: IEC6090432016RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 60904-3:2016 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60904-3::rlv
+- content: 'urn:iec:std:iec:60904-3:2016::rlv:'
   type: URN
 date:
 - type: published
@@ -80,22 +80,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60904-3:2016 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nIEC 60904-3:2016 describes
-    basic measurement principles for determining the electrical output of PV devices.
-    The principles given in this standard are designed to relate the performance rating
-    of PV devices to a common reference terrestrial solar spectral irradiance distribution.
-    The reference terrestrial solar spectral irradiance distribution is given in this
-    standard in order to classify solar simulators according to the spectral performance
-    requirements contained in IEC 60904-9. The principles contained in this standard
-    cover testing in both natural and simulated sunlight. This new edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\n- the direct beam irradiance corresponding to the global irradiance was
-    included;<br />\r\n- the term \"Global photon irradiance\" was changed to \"Global
-    photon flux\";<br />\r\n- the titles of some clauses have been changed (others
-    have been added) in accordance with the usual structure of IEC standards."
+  content: |-
+    IEC 60904-3:2016 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    IEC 60904-3:2016 describes basic measurement principles for determining the electrical output of PV devices. The principles given in this standard are designed to relate the performance rating of PV devices to a common reference terrestrial solar spectral irradiance distribution. The reference terrestrial solar spectral irradiance distribution is given in this standard in order to classify solar simulators according to the spectral performance requirements contained in IEC 60904-9. The principles contained in this standard cover testing in both natural and simulated sunlight. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - the direct beam irradiance corresponding to the global irradiance was included;<br/>
+    - the term "Global photon irradiance" was changed to "Global photon flux";<br/>
+    - the titles of some clauses have been changed (others have been added) in accordance with the usual structure of IEC standards.
 status:
   stage:
     content: REVISED
@@ -117,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC6228712017RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: IEC 62287-1:2017 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62287-1::rlv
+- content: 'urn:iec:std:iec:62287-1:2017::rlv:'
   type: URN
 date:
 - type: published
@@ -82,21 +82,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62287-1:2017 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62287-1:2017
-    specifies the minimum operational and performance requirements, methods of testing
-    and required test results for Class B shipborne automatic identification system
-    (AIS) equipment using carrier-sense time division multiple access (CSTDMA) techniques.
-    This document takes into account other associated IEC International Standards
-    and existing national standards, as applicable.<br />\r\nIt is applicable for
-    AIS equipment used on craft that are not covered by the mandatory carriage requirement
-    of AIS under SOLAS Chapter V.<br />\r\nAn AIS station intended to operate in receive-only
-    mode is not considered a Class B shipborne mobile AIS station.<br />\r\nThis edition
-    includes the following significant technical change with respect to the previous
-    edition: in the synchronisation method, addition of a direct method for synchronisation
-    from an internal UTC source."
+  content: |-
+    IEC 62287-1:2017 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62287-1:2017 specifies the minimum operational and performance requirements, methods of testing and required test results for Class B shipborne automatic identification system (AIS) equipment using carrier-sense time division multiple access (CSTDMA) techniques. This document takes into account other associated IEC International Standards and existing national standards, as applicable.<br/>
+    It is applicable for AIS equipment used on craft that are not covered by the mandatory carriage requirement of AIS under SOLAS Chapter V.<br/>
+    An AIS station intended to operate in receive-only mode is not considered a Class B shipborne mobile AIS station.<br/>
+    This edition includes the following significant technical change with respect to the previous edition: in the synchronisation method, addition of a direct method for synchronisation from an internal UTC source.
 status:
   stage:
     content: PUBLISHED
@@ -118,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2000822013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 20008-2:2013
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:20008-2:2013-11:::'
+- content: 'urn:iec:std:iso-iec:20008-2:2013:::'
   type: URN
 date:
 - type: published
@@ -94,22 +94,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 20008-2:2013 specifies anonymous digital signature mechanisms, in which a verifier makes use of a group public key to verify a digital signature.</p>
-    <p>It provides</p>
-    <ul>
-    <li>a general description of an anonymous digital signature mechanism using a group public key;</li>
-    <li>a variety of mechanisms that provide such anonymous digital signatures.</li>
-    </ul>
-    <p>For each mechanism, ISO/IEC 20008-2:2013 specifies</p>
-    <ul>
-    <li>the process for generating group member signature keys and a group public key;</li>
-    <li>the process for producing signatures; </li>
-    <li>the process for verifying signatures;</li>
-    <li>the process for opening signatures (if the mechanism supports opening);</li>
-    <li>the process for linking signatures (if the mechanism supports linking);</li>
-    <li>the process for revoking group members.</li>
-    </ul>
+  content: "<p>ISO/IEC 20008-2:2013 specifies anonymous digital signature mechanisms,
+    in which a verifier makes use of a group public key to verify a digital signature.</p>\n<p>It
+    provides</p>\n\na general description of an anonymous digital signature mechanism
+    using a group public key;\na variety of mechanisms that provide such anonymous
+    digital signatures.\n\n<p>For each mechanism, ISO/IEC 20008-2:2013 specifies</p>\n\nthe
+    process for generating group member signature keys and a group public key;\nthe
+    process for producing signatures; \nthe process for verifying signatures;\nthe
+    process for opening signatures (if the mechanism supports opening);\nthe process
+    for linking signatures (if the mechanism supports linking);\nthe process for revoking
+    group members.\n"
 status:
   stage:
     content: PUBLISHED
@@ -143,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

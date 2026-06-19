@@ -1,7 +1,7 @@
 ---
 id: IEC6180032017RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 61800-3:2017 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61800-3::rlv
+- content: 'urn:iec:std:iec:61800-3:2017::rlv:'
   type: URN
 date:
 - type: published
@@ -79,22 +79,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61800-3:2017 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61800-3:2017
-    specifies electromagnetic compatibility (EMC) requirements for power drive systems
-    (PDSs, defined in 3.1). These are adjustable speed AC or DC motor drives. Requirements
-    are stated for PDSs with converter input and/or output voltages (line-to-line
-    voltage), up to 35 kV AC RMS.<br />\r\nThis third edition cancels and replaces
-    the second edition published in 2004 and Amendment 1:2011. This edition constitutes
-    a technical revision.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\na) clarification
-    of requirements for the test report, particularly when a number of alternative
-    test methods exist;<br />\r\nb) introduction of a more detailed test setup for
-    radiated emission measurements, along with the introduction of a 3 m measurement
-    distance for small size equipment;<br />\r\nc) general updates in the informative
-    annexes."
+  content: |-
+    IEC 61800-3:2017 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61800-3:2017 specifies electromagnetic compatibility (EMC) requirements for power drive systems (PDSs, defined in 3.1). These are adjustable speed AC or DC motor drives. Requirements are stated for PDSs with converter input and/or output voltages (line-to-line voltage), up to 35 kV AC RMS.<br/>
+    This third edition cancels and replaces the second edition published in 2004 and Amendment 1:2011. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) clarification of requirements for the test report, particularly when a number of alternative test methods exist;<br/>
+    b) introduction of a more detailed test setup for radiated emission measurements, along with the introduction of a 3 m measurement distance for small size equipment;<br/>
+    c) general updates in the informative annexes.
 status:
   stage:
     content: REVISED
@@ -116,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

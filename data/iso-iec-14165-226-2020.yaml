@@ -1,7 +1,7 @@
 ---
 id: ISOIEC141652262020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 14165-226:2020
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:14165-226:2020-01:::'
+- content: 'urn:iec:std:iso-iec:14165-226:2020:::'
   type: URN
 date:
 - type: published
@@ -93,20 +93,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This standard describes a communication interface between a channel and
-    I/O control units that utilize the Single-Byte Command Code Sets (SBCCS) as implemented
-    in a wide range of data processing systems. It employs information formats and
-    signaling protocols that provide a uniform means for communicating with various
-    types of I/O control units, facilitating a high bandwidth, high performance, and
-    long distance information exchange environment. The signaling protocols and information
-    exchanges are defined at a layer (FC-4) to compatibly utilize the link services
-    and other functions provided by the INCITS Fibre Channel Framing and Signaling
-    (FC-FS-4) and the INCITS Fibre Channel Link Services (FC-LS-3) specifications.
-    This FC-4 Upper Level Protocol is referred to as the Fibre Channel-Single-Byte-6
-    Command Code Sets Mapping Protocol (FC-SB-6).<br />\r\nThis standard modifies
-    the FC-SB-5 standard to specify enhancements and clarifications to the command-mode
-    and transport-mode protocols to increase the efficiency and expand the capabilities
-    of operations."
+  content: |-
+    This standard describes a communication interface between a channel and I/O control units that utilize the Single-Byte Command Code Sets (SBCCS) as implemented in a wide range of data processing systems. It employs information formats and signaling protocols that provide a uniform means for communicating with various types of I/O control units, facilitating a high bandwidth, high performance, and long distance information exchange environment. The signaling protocols and information exchanges are defined at a layer (FC-4) to compatibly utilize the link services and other functions provided by the INCITS Fibre Channel Framing and Signaling (FC-FS-4) and the INCITS Fibre Channel Link Services (FC-LS-3) specifications. This FC-4 Upper Level Protocol is referred to as the Fibre Channel-Single-Byte-6 Command Code Sets Mapping Protocol (FC-SB-6).<br/>
+    This standard modifies the FC-SB-5 standard to specify enhancements and clarifications to the command-mode and transport-mode protocols to increase the efficiency and expand the capabilities of operations.
 status:
   stage:
     content: PUBLISHED
@@ -140,7 +129,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

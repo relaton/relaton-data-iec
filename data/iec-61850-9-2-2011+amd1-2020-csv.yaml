@@ -1,7 +1,7 @@
 ---
 id: IEC61850922011AMD12020CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: IEC 61850-9-2:2011+AMD1:2020 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61850-9-2:2011-09::csv:+amd:1:2020-02
+- content: urn:iec:std:iec:61850-9-2:2011::csv::plus:amd:1:2020
   type: URN
 date:
 - type: published
@@ -82,17 +82,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61850-9-2:2011+A1:2020 defines the specific communication service
-    mapping for the transmission of sampled values according to the abstract specification
-    in IEC 61850-7-2. The mapping is that of the abstract model on a mixed stack using
-    direct access to an ISO/IEC 8802-3 link for the transmission of the samples in
-    combination with IEC 61850-8-1. Main changes with respect to the first edition
-    are:<br />\r\n- addition of an optional link redundancy layer;<br />\r\n- redefinition
-    of \"reserved\" fields in link layer;<br />\r\n- evolution of USVCB and MSVCB
-    components;<br />\r\n- evolution of encoding for the transmission of the sampled
-    value buffer.<br />\r\n<strong>This consolidated version consists of the second
-    edition (2010) and its amendment 1 (2020). Therefore, no need to order amendment
-    in addition to this publication.</strong>"
+  content: |-
+    IEC 61850-9-2:2011+A1:2020 defines the specific communication service mapping for the transmission of sampled values according to the abstract specification in IEC 61850-7-2. The mapping is that of the abstract model on a mixed stack using direct access to an ISO/IEC 8802-3 link for the transmission of the samples in combination with IEC 61850-8-1. Main changes with respect to the first edition are:<br/>
+    - addition of an optional link redundancy layer;<br/>
+    - redefinition of "reserved" fields in link layer;<br/>
+    - evolution of USVCB and MSVCB components;<br/>
+    - evolution of encoding for the transmission of the sampled value buffer.<br/>
+    <strong>This consolidated version consists of the second edition (2010) and its amendment 1 (2020). Therefore, no need to order amendment in addition to this publication.</strong>
 status:
   stage:
     content: PUBLISHED
@@ -114,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

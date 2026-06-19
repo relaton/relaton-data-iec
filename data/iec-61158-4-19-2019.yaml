@@ -1,7 +1,7 @@
 ---
 id: IEC611584192019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-4-19:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-4-19:2019-04:::'
+- content: 'urn:iec:std:iec:61158-4-19:2019:::'
   type: URN
 date:
 - type: published
@@ -103,26 +103,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-4-19:2019 specifies procedures for the timely transfer of data
-    and control information from one data-link user entity to a peer user entity,
-    and among the data-link entities forming the distributed data-link service provider
-    and the structure of the fieldbus DLPDUs used for the transfer of data and control
-    information by the protocol of this standard, and their representation as physical
-    interface data units. This fourth edition cancels and replaces the third edition
-    published in 2014 and constitutes a technical revision.<br />\r\nThe main changes
-    are:<br />\r\n•improving the hotplug and redundancy features;<br />\r\n•improving
-    the phase switching and the error handling;<br />\r\n•editorial improvements"
+  content: |-
+    IEC 61158-4-19:2019 specifies procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This fourth edition cancels and replaces the third edition published in 2014 and constitutes a technical revision.<br/>
+    The main changes are:<br/>
+    •improving the hotplug and redundancy features;<br/>
+    •improving the phase switching and the error handling;<br/>
+    •editorial improvements
 - language: fr
   script: Latn
-  content: "IEC 61158-4-19:2019 La couche liaison de données assure les communications
-    de messagerie prioritaires de base entre les appareils d’un environnement d’automatisation.<br
-    />\r\nCe protocole offre à toutes les entités de liaison de données participantes<br
-    />\r\na) des opportunités de communication cyclique à démarrage synchrone, selon
-    un ordre préétabli, et<br />\r\nb) de manière asynchrone cyclique ou acyclique,
-    tel que requis à chaque cycle par chacune de ces entités de liaison de données.<br
-    />\r\nAinsi, ce protocole peut être caractérisé comme un protocole qui offre un
-    accès cyclique et acyclique asynchrone, mais avec un redémarrage synchrone de
-    chaque cycle."
+  content: |-
+    IEC 61158-4-19:2019 La couche liaison de données assure les communications de messagerie prioritaires de base entre les appareils d’un environnement d’automatisation.<br/>
+    Ce protocole offre à toutes les entités de liaison de données participantes<br/>
+    a) des opportunités de communication cyclique à démarrage synchrone, selon un ordre préétabli, et<br/>
+    b) de manière asynchrone cyclique ou acyclique, tel que requis à chaque cycle par chacune de ces entités de liaison de données.<br/>
+    Ainsi, ce protocole peut être caractérisé comme un protocole qui offre un accès cyclique et acyclique asynchrone, mais avec un redémarrage synchrone de chaque cycle.
 status:
   stage:
     content: PUBLISHED
@@ -144,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

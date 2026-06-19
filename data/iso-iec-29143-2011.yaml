@@ -1,7 +1,7 @@
 ---
 id: ISOIEC291432011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 29143:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29143:2011-01:::'
+- content: 'urn:iec:std:iso-iec:29143:2011:::'
   type: URN
 date:
 - type: published
@@ -104,18 +104,18 @@ abstract:
     <p>An application is considered a consumer application if at least one of two interacting entities is a private individual (consumer) and the interaction is taking place in the public domain. Consequently, a Mobile RFID consumer application is defined as Mobile RFID equipment (e.g. mobile phones equipped with an RFID interrogator) being used in a consumer application.</p>
     <p>NOTE          As there is currently no active contribution on Mobile HF interrogators, ISO/IEC 29143:2011 covers only UHF.</p>
     <p>ISO/IEC 29143:2011 specifies</p>
-    <ul>
-    <li>Mobile RFID interrogator media access control,</li>
-    <li>interrogator to interrogator and multiple interrogator to tag collision arbitration scheme including interrogator requirements,</li>
-    <li>interrogator to interrogator and multiple interrogator to tag collision avoidance scheme, and</li>
-    <li>tag memory use for Mobile RFID applications.</li>
-    </ul>
+
+    Mobile RFID interrogator media access control,
+    interrogator to interrogator and multiple interrogator to tag collision arbitration scheme including interrogator requirements,
+    interrogator to interrogator and multiple interrogator to tag collision avoidance scheme, and
+    tag memory use for Mobile RFID applications.
+
     <p>ISO/IEC 29143:2011 does not specify</p>
-    <ul>
-    <li>physical interactions (the signaling layer of the communication link) between interrogators and tags,</li>
-    <li>interrogator and tag operating procedures and commands, and</li>
-    <li>the collision arbitration algorithm used to singulate (separate to the current response slot) a specific tag in a multiple-tag environment.</li>
-    </ul>
+
+    physical interactions (the signaling layer of the communication link) between interrogators and tags,
+    interrogator and tag operating procedures and commands, and
+    the collision arbitration algorithm used to singulate (separate to the current response slot) a specific tag in a multiple-tag environment.
+
     <p>In particular, ISO/IEC 29143:2011 does not replace any existing RFID air interface specification issued by ISO/IEC but extends the existing methodologies for fixed RFID interrogators with mechanisms addressing the special challenges of Mobile RFID. The concepts and mechanisms described in ISO/IEC 29143:2011 can be integrated in any existing RFID protocol approved by ISO/IEC for the given frequency range of 860 MHz to 960 MHz (unless explicitly prohibited by such protocol) regardless of the actual command set.</p>
     <p>The mechanisms defined by ISO/IEC 29143:2011 can be used for Mobile RFID interrogators used in consumer applications and compliant to ISO/IEC 18000-6.</p>
 status:
@@ -151,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC619661222014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -41,7 +41,7 @@ docidentifier:
 - content: IEC 61966-12-2:2014
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61966-12-2:2014-04:::'
+- content: 'urn:iec:std:iec:61966-12-2:2014:::'
   type: URN
 date:
 - type: published
@@ -103,21 +103,11 @@ abstract:
     It is fundamentally based on the conventional VESA-EDID format.
 - language: fr
   script: Latn
-  content: "L'IEC 61966-12:2014 spécifie le format des métadonnées des gammes de couleurs
-    pour les systèmes vidéo destinés à être utilisés dans les dispositifs électroniques
-    grand public (EGP). Les métadonnées spécifiées dans la présente partie de l'IEC
-    61966 se limitent à la description des gammes de couleurs des écrans à trois couleurs
-    primaires additives dont les points blancs et noirs ont la même chromaticité.
-    Elles reposent essentiellement sur le format conventionnel VESA-EDID.<br />\r\nLorsqu'il
-    est associé au contenu, le format simple des métadonnées définit la gamme de couleurs
-    pour laquelle le contenu a été créé. Celles-ci peuvent être utilisées par l'écran
-    pour contrôler la reproduction des couleurs, même si la gamme de couleurs de l'écran
-    est différente de celle du contenu.<br />\r\nLorsqu'il est associé à un écran,
-    le format simple des métadonnées définit la gamme de couleurs de l'écran. Celles-ci
-    peuvent servir pendant la création du contenu, pour permettre une meilleure reproduction
-    des couleurs.<br />\r\nLa présente norme fournit la solution la plus simple, mais
-    sans ambiguïté, pour les dispositifs EGP types qui reposent sur la communication
-    d'informations de gamme de couleurs."
+  content: |-
+    L'IEC 61966-12:2014 spécifie le format des métadonnées des gammes de couleurs pour les systèmes vidéo destinés à être utilisés dans les dispositifs électroniques grand public (EGP). Les métadonnées spécifiées dans la présente partie de l'IEC 61966 se limitent à la description des gammes de couleurs des écrans à trois couleurs primaires additives dont les points blancs et noirs ont la même chromaticité. Elles reposent essentiellement sur le format conventionnel VESA-EDID.<br/>
+    Lorsqu'il est associé au contenu, le format simple des métadonnées définit la gamme de couleurs pour laquelle le contenu a été créé. Celles-ci peuvent être utilisées par l'écran pour contrôler la reproduction des couleurs, même si la gamme de couleurs de l'écran est différente de celle du contenu.<br/>
+    Lorsqu'il est associé à un écran, le format simple des métadonnées définit la gamme de couleurs de l'écran. Celles-ci peuvent servir pendant la création du contenu, pour permettre une meilleure reproduction des couleurs.<br/>
+    La présente norme fournit la solution la plus simple, mais sans ambiguïté, pour les dispositifs EGP types qui reposent sur la communication d'informations de gamme de couleurs.
 status:
   stage:
     content: REVISED
@@ -139,7 +129,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

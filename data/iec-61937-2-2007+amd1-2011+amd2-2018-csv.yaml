@@ -1,7 +1,7 @@
 ---
 id: IEC6193722007AMD12011AMD22018CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61937-2:2007+AMD1:2011+AMD2:2018 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61937-2:2007-05::csv:+amd:1:2011-10+amd:2:2018-03
+- content: urn:iec:std:iec:61937-2:2007::csv::plus:amd:1:2011:plus:amd:2:2018
   type: URN
 date:
 - type: published
@@ -83,18 +83,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61937-2:2007+A1:2011+A2:2018 specifies the digital audio interface
-    to convey non-linear PCM encoded audio bitstreams applying IEC 60958-1 and IEC
-    60958-3. This standard specifies burst-info which defines content information
-    about the data contained in the burst payload. This second edition cancels and
-    replaces the first edition published in 2000. This edition contains the following
-    significant technical changes with respect to the previous edition:<br />\r\na)
-    New audio data-types of enhanced AC-3 data, MPEG-2 AAC low sampling frequency,
-    MPEG-4 AAC, DTS type IV, ATRAC-X, WMA professional and MAT are added.<br />\r\nb)
-    Data-type field in Pc is expanded from bit 0-4 to 0-6. <strong>This consolidated
-    version consists of the second edition (2007), its amendment 1 (2011) and its
-    amendment 2 (2018). Therefore, no need to order amendment in addition to this
-    publication.</strong>"
+  content: |-
+    IEC 61937-2:2007+A1:2011+A2:2018 specifies the digital audio interface to convey non-linear PCM encoded audio bitstreams applying IEC 60958-1 and IEC 60958-3. This standard specifies burst-info which defines content information about the data contained in the burst payload. This second edition cancels and replaces the first edition published in 2000. This edition contains the following significant technical changes with respect to the previous edition:<br/>
+    a) New audio data-types of enhanced AC-3 data, MPEG-2 AAC low sampling frequency, MPEG-4 AAC, DTS type IV, ATRAC-X, WMA professional and MAT are added.<br/>
+    b) Data-type field in Pc is expanded from bit 0-4 to 0-6. <strong>This consolidated version consists of the second edition (2007), its amendment 1 (2011) and its amendment 2 (2018). Therefore, no need to order amendment in addition to this publication.</strong>
 status:
   stage:
     content: REVISED
@@ -116,7 +108,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

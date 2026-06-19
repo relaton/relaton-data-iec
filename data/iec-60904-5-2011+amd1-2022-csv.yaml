@@ -1,7 +1,7 @@
 ---
 id: IEC6090452011AMD12022CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -41,7 +41,7 @@ docidentifier:
 - content: IEC 60904-5:2011+AMD1:2022 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60904-5:2011-02::csv:+amd:1:2022-11
+- content: urn:iec:std:iec:60904-5:2011::csv::plus:amd:1:2022
   type: URN
 date:
 - type: published
@@ -94,26 +94,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60904-5:2011+AMD1:2022 describes the preferred method for determining
-    the equivalent cell temperature (ECT) of PV devices (cells, modules and arrays
-    of one type of module), for the purposes of comparing their thermal characteristics,
-    determining NOCT (nominal operating cell temperature) and translating measured
-    I-V characteristics to other temperatures. The main technical changes with regard
-    to the previous edition are as follows:<br />\r\n- added method on how to extract
-    the input parameters;<br />\r\n- rewritten method on how to calculate ECT;<br
-    />\r\n- reworked formulae to be in line with IEC 60891."
+  content: |-
+    IEC 60904-5:2011+AMD1:2022 describes the preferred method for determining the equivalent cell temperature (ECT) of PV devices (cells, modules and arrays of one type of module), for the purposes of comparing their thermal characteristics, determining NOCT (nominal operating cell temperature) and translating measured I-V characteristics to other temperatures. The main technical changes with regard to the previous edition are as follows:<br/>
+    - added method on how to extract the input parameters;<br/>
+    - rewritten method on how to calculate ECT;<br/>
+    - reworked formulae to be in line with IEC 60891.
 - language: fr
   script: Latn
-  content: "L'IEC 60904-5:2011+AMD1:2022 décrit la méthode préférentielle pour déterminer
-    la température de cellule équivalente (ECT) des dispositifs photovoltaïques (cellules,
-    modules et champs d'un type de module), dans les buts de comparer leurs caractéristiques
-    thermiques, de déterminer leur NOCT (température nominale d'utilisation des cellules)
-    et de transposer les caractéristiques I-V mesurées à d'autres températures que
-    celles de leur mesure. Les principaux changements techniques par rapport à l'édition
-    précédente sont les suivants:<br />\r\n- ajout d'une méthode explicitant comment
-    extraire les paramètres d'entrée;<br />\r\n- réécriture de la méthode explicitant
-    comment calculer ECT;<br />\r\n- travail sur les formules pour qu'elles soient
-    cohérentes avec l'IEC 60891."
+  content: |-
+    L'IEC 60904-5:2011+AMD1:2022 décrit la méthode préférentielle pour déterminer la température de cellule équivalente (ECT) des dispositifs photovoltaïques (cellules, modules et champs d'un type de module), dans les buts de comparer leurs caractéristiques thermiques, de déterminer leur NOCT (température nominale d'utilisation des cellules) et de transposer les caractéristiques I-V mesurées à d'autres températures que celles de leur mesure. Les principaux changements techniques par rapport à l'édition précédente sont les suivants:<br/>
+    - ajout d'une méthode explicitant comment extraire les paramètres d'entrée;<br/>
+    - réécriture de la méthode explicitant comment calculer ECT;<br/>
+    - travail sur les formules pour qu'elles soient cohérentes avec l'IEC 60891.
 status:
   stage:
     content: PUBLISHED
@@ -135,7 +127,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

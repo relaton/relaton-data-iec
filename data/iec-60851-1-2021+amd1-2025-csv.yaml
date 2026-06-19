@@ -1,7 +1,7 @@
 ---
 id: IEC6085112021AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC 60851-1:2021+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60851-1:2021-06::csv:+amd:1:2025-01
+- content: urn:iec:std:iec:60851-1:2021::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -80,17 +80,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60851-1:2021+AMD1:2025 CSV specifies the general notes on methods
-    of test for winding wires. It also gives the definitions for terms used in IEC
-    60851 (all parts). A survey of the contents of IEC 60851-2 to IEC 60851-6 is given
-    in Annex A. This third edition cancels and replaces the second edition published
-    in 1996, and its amendment 1:2003 and amendment 2:2009. This edition constitutes
-    a technical revision. This edition includes the following significant technical
-    changes with respect to the previous edition:<br />\r\n- revision to Clause 2
-    to update the list of normative references;<br />\r\n- revision to 3.2 atmospheric
-    conditions for testing;<br />\r\n- addition to 3.2 with remarks concerning frequency
-    and management of tests;<br />\r\n- revision to Annex A to update the contents
-    list of IEC 60851 series of tests."
+  content: |-
+    IEC 60851-1:2021+AMD1:2025 CSV specifies the general notes on methods of test for winding wires. It also gives the definitions for terms used in IEC 60851 (all parts). A survey of the contents of IEC 60851-2 to IEC 60851-6 is given in Annex A. This third edition cancels and replaces the second edition published in 1996, and its amendment 1:2003 and amendment 2:2009. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - revision to Clause 2 to update the list of normative references;<br/>
+    - revision to 3.2 atmospheric conditions for testing;<br/>
+    - addition to 3.2 with remarks concerning frequency and management of tests;<br/>
+    - revision to Annex A to update the contents list of IEC 60851 series of tests.
 status:
   stage:
     content: PUBLISHED
@@ -112,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

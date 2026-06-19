@@ -1,7 +1,7 @@
 ---
 id: IEC603352702002AMD12007AMD22013CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,7 +46,7 @@ docidentifier:
 - content: IEC 60335-2-70:2002+AMD1:2007+AMD2:2013 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60335-2-70:2002-03::csv:+amd:1:2007-03+amd:2:2013-03
+- content: urn:iec:std:iec:60335-2-70:2002::csv::plus:amd:1:2007:plus:amd:2:2013
   type: URN
 date:
 - type: published
@@ -99,28 +99,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60335-2-70:2002+A1:2007+A2:2013 Deals with milking machines for milking
-    farm animals, for use in stalls or in the open. Examples are bucket and direct-to-can
-    milking machines, milking pipeline machines, recorder milking machines. The rated
-    voltage is less than 250 V for single-phase operation and 480 V for other operations.
-    <strong>This consolidated version consists of the second edition (2002), its amendment
-    1 (2007) and its amendment 2 (2013). Therefore, no need to order amendments in
-    addition to this publication.</strong><br />\r\n<br />\r\nThis publication is
-    to be read in conjunction with <a href=\"http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/44013\">IEC
-    60335-1:2010</a>."
+  content: |-
+    IEC 60335-2-70:2002+A1:2007+A2:2013 Deals with milking machines for milking farm animals, for use in stalls or in the open. Examples are bucket and direct-to-can milking machines, milking pipeline machines, recorder milking machines. The rated voltage is less than 250 V for single-phase operation and 480 V for other operations. <strong>This consolidated version consists of the second edition (2002), its amendment 1 (2007) and its amendment 2 (2013). Therefore, no need to order amendments in addition to this publication.</strong><br/>
+    <br/>
+    This publication is to be read in conjunction with IEC 60335-1:2010.
 - language: fr
   script: Latn
-  content: "La CEI 60335-2-70:2002+A1:2007+A2:2013 Traite de la sécurité des machines
-    à traire à utiliser dans les étables et à l'extérieur, conçues pour traire les
-    animaux de la ferme. Telles que les machines à traire à pot trayeur, les machines
-    à traire directement en bidon, les machines à traire avec lactoduc de traite,
-    les machines à traire avec récipient de contrôle. La tension assignée des machines
-    à traire n'étant pas supérieure à 250 V pour les installations monophasées et
-    à 480 V pour les autres installations. <strong> Cette version consolidée comprend
-    la deuxième édition (2002), son amendement 1 (2007) et son amendement 2 (2013).
-    Il n'est donc pas nécessaire de commander les amendements avec cette publication.</strong><br
-    />\r\n<br />\r\nCette publication doit être lue conjointement avec la <a href=\"http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/44013\">CEI
-    60335-1:2010</a>."
+  content: |-
+    La CEI 60335-2-70:2002+A1:2007+A2:2013 Traite de la sécurité des machines à traire à utiliser dans les étables et à l'extérieur, conçues pour traire les animaux de la ferme. Telles que les machines à traire à pot trayeur, les machines à traire directement en bidon, les machines à traire avec lactoduc de traite, les machines à traire avec récipient de contrôle. La tension assignée des machines à traire n'étant pas supérieure à 250 V pour les installations monophasées et à 480 V pour les autres installations. <strong> Cette version consolidée comprend la deuxième édition (2002), son amendement 1 (2007) et son amendement 2 (2013). Il n'est donc pas nécessaire de commander les amendements avec cette publication.</strong><br/>
+    <br/>
+    Cette publication doit être lue conjointement avec la CEI 60335-1:2010.
 status:
   stage:
     content: PUBLISHED
@@ -142,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

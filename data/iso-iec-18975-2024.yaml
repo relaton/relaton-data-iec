@@ -1,7 +1,7 @@
 ---
 id: ISOIEC189752024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,7 +46,7 @@ docidentifier:
 - content: ISO/IEC 18975:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:18975:2024-11:::'
+- content: 'urn:iec:std:iso-iec:18975:2024:::'
   type: URN
 date:
 - type: published
@@ -112,11 +112,11 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document specifies the different approaches for using HTTP URIs to encode globally unique identifiers. It specifies a dual use data structure. It is both an HTTP URI and a composition of structured item identification properties and optionally descriptive attributes. These can be decomposed and interpreted on their own and/or be used as a pointer to additional information.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">Methods are described to enable identification uniqueness in the context of AIDC. These rely on either:</span></p>
-    <p class="ListNumber1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">a)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">identifiers, such as described in the ISO/IEC 15459 series<sup>[</sup><sup>7</sup><sup>]</sup>, in the path or query string independent of the internet domain name; or,</span></p>
-    <p class="ListNumber1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">b)<span style="font: 7.0pt 'Times New Roman';">       </span></span></span><!--[endif]--><span lang="EN-GB">the internet domain name.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The document further defines a basic common API for querying online services for information about identified items.</span></p>
+    <p class="MsoBodyText">This document specifies the different approaches for using HTTP URIs to encode globally unique identifiers. It specifies a dual use data structure. It is both an HTTP URI and a composition of structured item identification properties and optionally descriptive attributes. These can be decomposed and interpreted on their own and/or be used as a pointer to additional information.</p>
+    <p class="MsoBodyText">Methods are described to enable identification uniqueness in the context of AIDC. These rely on either:</p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->a)       <!--[endif]-->identifiers, such as described in the ISO/IEC 15459 series<sup>[</sup><sup>7</sup><sup>]</sup>, in the path or query string independent of the internet domain name; or,</p>
+    <p class="ListNumber1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->b)       <!--[endif]-->the internet domain name.</p>
+    <p class="MsoBodyText">The document further defines a basic common API for querying online services for information about identified items.</p>
 status:
   stage:
     content: PUBLISHED
@@ -150,7 +150,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

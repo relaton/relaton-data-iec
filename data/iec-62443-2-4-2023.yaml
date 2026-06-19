@@ -1,7 +1,7 @@
 ---
 id: IEC62443242023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -39,7 +39,7 @@ docidentifier:
 - content: IEC 62443-2-4:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62443-2-4:2023-12:::'
+- content: 'urn:iec:std:iec:62443-2-4:2023:::'
   type: URN
 date:
 - type: published
@@ -92,28 +92,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62443-2:2023 specifies a comprehensive set of requirements for security-related
-    processes that IACS service providers can offer to the asset owner during integration
-    and maintenance activities of an Automation Solution. Because not all requirements
-    apply to all industry groups and organizations, Subclause 4.1.4 provides for the
-    development of \"profiles\" that allow for the subsetting of these requirements.
-    Profiles are used to adapt this document to specific environments, including environments
-    not based on an IACS.<br />\r\nNOTE 1 The term \"Automation Solution\" is used
-    as a proper noun (and therefore capitalized) in this document to prevent confusion
-    with other uses of this term. Collectively, the security processes offered by
-    an IACS service provider are referred to as its Security Program (SP) for IACS
-    asset owners. In a related specification, IEC 62443-2-1 describes requirements
-    for the Security Management System of the asset owner.<br />\r\nNOTE 2 In general,
-    these security capabilities are policy, procedure, practice and personnel related.
-    Figure 1 illustrates the integration and maintenance security processes of the
-    asset owner, service provider(s), and product supplier(s) of an IACS and their
-    relationships to each other and to the Automation Solution. Some of the requirements
-    of this document relating to the safety program are associated with security requirements
-    described in IEC 62443-3-3 and IEC 62443-4-2.<br />\r\nNOTE 3 The IACS is a combination
-    of the Automation Solution and the organizational measures necessary for its design,
-    deployment, operation, and maintenance.<br />\r\nNOTE 4 Maintenance of legacy
-    system with insufficient security technical capabilities, implementation of policies,
-    processes and procedures can be addressed through risk mitigation."
+  content: |-
+    IEC 62443-2:2023 specifies a comprehensive set of requirements for security-related processes that IACS service providers can offer to the asset owner during integration and maintenance activities of an Automation Solution. Because not all requirements apply to all industry groups and organizations, Subclause 4.1.4 provides for the development of "profiles" that allow for the subsetting of these requirements. Profiles are used to adapt this document to specific environments, including environments not based on an IACS.<br/>
+    NOTE 1 The term "Automation Solution" is used as a proper noun (and therefore capitalized) in this document to prevent confusion with other uses of this term. Collectively, the security processes offered by an IACS service provider are referred to as its Security Program (SP) for IACS asset owners. In a related specification, IEC 62443-2-1 describes requirements for the Security Management System of the asset owner.<br/>
+    NOTE 2 In general, these security capabilities are policy, procedure, practice and personnel related. Figure 1 illustrates the integration and maintenance security processes of the asset owner, service provider(s), and product supplier(s) of an IACS and their relationships to each other and to the Automation Solution. Some of the requirements of this document relating to the safety program are associated with security requirements described in IEC 62443-3-3 and IEC 62443-4-2.<br/>
+    NOTE 3 The IACS is a combination of the Automation Solution and the organizational measures necessary for its design, deployment, operation, and maintenance.<br/>
+    NOTE 4 Maintenance of legacy system with insufficient security technical capabilities, implementation of policies, processes and procedures can be addressed through risk mitigation.
 - language: fr
   script: Latn
   content: L’IEC 62453-2:2023 fournit des informations sur l’intégration de la technologie
@@ -168,7 +152,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

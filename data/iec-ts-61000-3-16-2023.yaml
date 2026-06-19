@@ -1,7 +1,7 @@
 ---
 id: IECTS610003162023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -33,7 +33,7 @@ docidentifier:
 - content: IEC TS 61000-3-16:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61000-3-16:2023-11:ts::'
+- content: 'urn:iec:std:iec:61000-3-16:2023:ts::'
   type: URN
 date:
 - type: published
@@ -85,27 +85,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 61300-3-16:2023 which is a technical specification, deals with
-    the limits for harmonic (including grouped interharmonic) currents produced by
-    the inverter of inverter-type electrical energy-supplying equipment (ESE) as defined
-    in 3.2, but which does not include energy storage. The limits given in this document
-    are applicable to inverters with a reference current as defined in 3.3 (see also
-    5.2.3) less than or equal to 75 A per phase, intended to be connected to public
-    low-voltage AC distribution systems of the following types:<br />\r\n- single-phase,
-    two or three wires; nominal voltage up to 240 V<br />\r\n- three-phase, three
-    or four wires; nominal voltage up to 690 V<br />\r\n- nominal frequency of 50
-    Hz or 60 Hz.<br />\r\nThis document specifies:<br />\r\na) requirements and emission
-    limits for equipment;<br />\r\nb) methods for type tests and simulations.<br />\r\nTests
-    in accordance with this document are type tests of complete pieces of equipment.<br
-    />\r\nEquipment which mainly absorbs energy but which is capable of supplying
-    energy to the public supply as a secondary function is out of the scope of this
-    document.<br />\r\nEXAMPLE An elevator motor drive returning energy during braking.<br
-    />\r\nThis document provides limits and testing procedures for equipment in the
-    range up to harmonic order 40 (h40), i.e. 2 000 Hz or 2 400 Hz depending on line
-    frequency.<br />\r\nNOTE 1 It is possible that limits for frequencies in the range
-    from 2 kHz to 9 kHz will be added in a future edition of this document.<br />\r\nNOTE
-    2 It is possible that limits and procedures for storage systems will be added
-    in a future edition of this document."
+  content: |-
+    IEC TS 61300-3-16:2023 which is a technical specification, deals with the limits for harmonic (including grouped interharmonic) currents produced by the inverter of inverter-type electrical energy-supplying equipment (ESE) as defined in 3.2, but which does not include energy storage. The limits given in this document are applicable to inverters with a reference current as defined in 3.3 (see also 5.2.3) less than or equal to 75 A per phase, intended to be connected to public low-voltage AC distribution systems of the following types:<br/>
+    - single-phase, two or three wires; nominal voltage up to 240 V<br/>
+    - three-phase, three or four wires; nominal voltage up to 690 V<br/>
+    - nominal frequency of 50 Hz or 60 Hz.<br/>
+    This document specifies:<br/>
+    a) requirements and emission limits for equipment;<br/>
+    b) methods for type tests and simulations.<br/>
+    Tests in accordance with this document are type tests of complete pieces of equipment.<br/>
+    Equipment which mainly absorbs energy but which is capable of supplying energy to the public supply as a secondary function is out of the scope of this document.<br/>
+    EXAMPLE An elevator motor drive returning energy during braking.<br/>
+    This document provides limits and testing procedures for equipment in the range up to harmonic order 40 (h40), i.e. 2 000 Hz or 2 400 Hz depending on line frequency.<br/>
+    NOTE 1 It is possible that limits for frequencies in the range from 2 kHz to 9 kHz will be added in a future edition of this document.<br/>
+    NOTE 2 It is possible that limits and procedures for storage systems will be added in a future edition of this document.
 status:
   stage:
     content: PUBLISHED
@@ -127,7 +120,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

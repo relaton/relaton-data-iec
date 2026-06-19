@@ -1,7 +1,7 @@
 ---
 id: IEC6199322018RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -33,7 +33,7 @@ docidentifier:
 - content: IEC 61993-2:2018 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61993-2::rlv
+- content: 'urn:iec:std:iec:61993-2:2018::rlv:'
   type: URN
 date:
 - type: published
@@ -85,31 +85,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61993-2:2018 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\n<br />\r\nIEC
-    61993-2:2018 specifies the minimum operational and performance requirements, methods
-    of testing and required test results conforming to performance standards adopted
-    by IMO in Resolution MSC.74(69):1998, Annex 3. This document incorporates the
-    applicable technical characteristics of Class A shipborne equipment included in
-    Recommendation ITU-R M.1371 and takes into account the ITU Radio Regulations,
-    where applicable. In addition, it takes account of IMO Resolution A.694(17) to
-    which IEC 60945 is associated. When a requirement in this document is different
-    from IEC 60945, the requirement of this document takes precedence. This document
-    also specifies the minimum requirements both for the means to input and display
-    data and for the interfaces to other equipment suitable to be used as means of
-    input and display data. This third edition cancels and replaces the second edition
-    published in 2012. This edition constitutes a technical revision. This edition
-    includes the following technical changes with respect to the previous edition:<br
-    />\r\na) it incorporates the technical characteristics included in Recommendation
-    ITU R M.1371-5:2014;<br />\r\nb) it introduces the concept of locating device
-    groups in order to include EPIRB AIS and MOB AIS in addition to AIS SART;<br />\r\nc)
-    it adds security features for configuration input by introducing a new sentence
-    SSA;<br />\r\nd) it adds optional implementation of IEC 61162-450/460 interfaces;<br
-    />\r\ne) it adds requirements for bridge alert management (BAM);<br />\r\nf) it
-    introduces extended dimension values used by towing vessels;<br />\r\ng) it adds
-    a software update requirement."
+  content: |-
+    IEC 61993-2:2018 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    <br/>
+    IEC 61993-2:2018 specifies the minimum operational and performance requirements, methods of testing and required test results conforming to performance standards adopted by IMO in Resolution MSC.74(69):1998, Annex 3. This document incorporates the applicable technical characteristics of Class A shipborne equipment included in Recommendation ITU-R M.1371 and takes into account the ITU Radio Regulations, where applicable. In addition, it takes account of IMO Resolution A.694(17) to which IEC 60945 is associated. When a requirement in this document is different from IEC 60945, the requirement of this document takes precedence. This document also specifies the minimum requirements both for the means to input and display data and for the interfaces to other equipment suitable to be used as means of input and display data. This third edition cancels and replaces the second edition published in 2012. This edition constitutes a technical revision. This edition includes the following technical changes with respect to the previous edition:<br/>
+    a) it incorporates the technical characteristics included in Recommendation ITU R M.1371-5:2014;<br/>
+    b) it introduces the concept of locating device groups in order to include EPIRB AIS and MOB AIS in addition to AIS SART;<br/>
+    c) it adds security features for configuration input by introducing a new sentence SSA;<br/>
+    d) it adds optional implementation of IEC 61162-450/460 interfaces;<br/>
+    e) it adds requirements for bridge alert management (BAM);<br/>
+    f) it introduces extended dimension values used by towing vessels;<br/>
+    g) it adds a software update requirement.
 status:
   stage:
     content: PUBLISHED
@@ -131,7 +118,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

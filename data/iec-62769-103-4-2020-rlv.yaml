@@ -1,7 +1,7 @@
 ---
 id: IEC6276910342020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC 62769-103-4:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62769-103-4::rlv
+- content: 'urn:iec:std:iec:62769-103-4:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -82,18 +82,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62769-103-4:2020 RLV contains both the official IEC International
-    Standard and its Redline version. The Redline version is available in English
-    only and provides you with a quick and easy way to compare all the changes between
-    the official IEC Standard and its previous edition.\r\n<div>IEC 62769-103-4:2020
-    specifies an FDI profile of IEC 62769 for IEC 61784-2_CP 3/4, IEC 61784-2_CP3/5
-    and IEC 61784-2_CP3/6 (PROFINET). This second edition cancels and replaces the
-    first edition published in 2015. This edition constitutes a technical revision.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na) support for generic protocol extension for
-    faster adoption of other technologies;<br />\r\nb) support for Package Developers
-    to build EDDs targeted for today’s EDD bases system under a single development
-    tool.</div>"
+  content: |-
+    IEC 62769-103-4:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    IEC 62769-103-4:2020 specifies an FDI profile of IEC 62769 for IEC 61784-2_CP 3/4, IEC 61784-2_CP3/5 and IEC 61784-2_CP3/6 (PROFINET). This second edition cancels and replaces the first edition published in 2015. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) support for generic protocol extension for faster adoption of other technologies;<br/>
+    b) support for Package Developers to build EDDs targeted for today’s EDD bases system under a single development tool.
 status:
   stage:
     content: REVISED
@@ -115,7 +108,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

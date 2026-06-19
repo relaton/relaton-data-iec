@@ -1,7 +1,7 @@
 ---
 id: IECTS62898322024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC TS 62898-3-2:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62898-3-2:2024-01:ts::'
+- content: 'urn:iec:std:iec:62898-3-2:2024:ts::'
   type: URN
 date:
 - type: published
@@ -80,38 +80,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 62898-3-2:2024 provides technical requirements for the operation
-    of energy management systems of microgrids. This document applies to utility-interconnected
-    or islanded microgrids. This document describes specific recommendations for low-voltage
-    (LV) and medium-voltage (MV) systems.<br />\r\nThis document focuses on developing
-    standards of energy management systems aimed for microgrids integrated in decentralized
-    energy systems or public distribution grids. It concerns some particularities
-    that are not totally covered by the existing conventional energy system. The microgrid
-    energy management systems are being studied by various actors (utilities, manufacturers,
-    and energy providers) on actual demonstration projects and application use case.
-    The aims of this document are to make the state of the art of existing energy
-    management systems used in actual microgrids projects, to classify the relevant
-    functions which can be accomplished by microgrid energy management systems, and
-    to recommend necessary technical requirements for energy management systems of
-    future microgrids.<br />\r\nThis document includes the following items:<br />\r\n•
-    main performances of key components of microgrid: decentralized energy resources,
-    energy storages and controllable loads),<br />\r\n• description of main functions
-    and topological blocks of microgrid energy management systems (MEMS),<br />\r\n•
-    specification of information exchange protocol between main function blocks, linked
-    to microgrid monitoring and control systems (MMCS).<br />\r\nMain functions of
-    MEMS:<br />\r\n• power and energy management among different resources within
-    microgrid including active and reactive power flows with different time scales,<br
-    />\r\n• power and energy forecasts of microgrid,<br />\r\n• energy balancing between
-    upstream grid and microgrid energy resources according to power and energy forecast
-    and upstream and local constraints,<br />\r\n• economic and environmental optimization,<br
-    />\r\n• possible service capacities such as capacity market auctions and resiliency
-    anticipation: new business models,<br />\r\n• data archiving, trending, reporting
-    and evaluation of operation capacities in various operation modes.<br />\r\nMEMS
-    can have some other additional functions according to microgrid size and actual
-    application cases:<br />\r\n• tariff and market trading management,<br />\r\n•
-    utility ancillary services such as frequency regulation, voltage regulation, power
-    quality and reliability improvement, demand response possibilities, change of
-    operation modes linked to MMCS."
+  content: |-
+    IEC TS 62898-3-2:2024 provides technical requirements for the operation of energy management systems of microgrids. This document applies to utility-interconnected or islanded microgrids. This document describes specific recommendations for low-voltage (LV) and medium-voltage (MV) systems.<br/>
+    This document focuses on developing standards of energy management systems aimed for microgrids integrated in decentralized energy systems or public distribution grids. It concerns some particularities that are not totally covered by the existing conventional energy system. The microgrid energy management systems are being studied by various actors (utilities, manufacturers, and energy providers) on actual demonstration projects and application use case. The aims of this document are to make the state of the art of existing energy management systems used in actual microgrids projects, to classify the relevant functions which can be accomplished by microgrid energy management systems, and to recommend necessary technical requirements for energy management systems of future microgrids.<br/>
+    This document includes the following items:<br/>
+    • main performances of key components of microgrid: decentralized energy resources, energy storages and controllable loads),<br/>
+    • description of main functions and topological blocks of microgrid energy management systems (MEMS),<br/>
+    • specification of information exchange protocol between main function blocks, linked to microgrid monitoring and control systems (MMCS).<br/>
+    Main functions of MEMS:<br/>
+    • power and energy management among different resources within microgrid including active and reactive power flows with different time scales,<br/>
+    • power and energy forecasts of microgrid,<br/>
+    • energy balancing between upstream grid and microgrid energy resources according to power and energy forecast and upstream and local constraints,<br/>
+    • economic and environmental optimization,<br/>
+    • possible service capacities such as capacity market auctions and resiliency anticipation: new business models,<br/>
+    • data archiving, trending, reporting and evaluation of operation capacities in various operation modes.<br/>
+    MEMS can have some other additional functions according to microgrid size and actual application cases:<br/>
+    • tariff and market trading management,<br/>
+    • utility ancillary services such as frequency regulation, voltage regulation, power quality and reliability improvement, demand response possibilities, change of operation modes linked to MMCS.
 status:
   stage:
     content: PUBLISHED
@@ -133,7 +118,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

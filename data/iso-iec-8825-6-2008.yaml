@@ -1,7 +1,7 @@
 ---
 id: ISOIEC882562008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 8825-6:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:8825-6:2008-03:::'
+- content: 'urn:iec:std:iso-iec:8825-6:2008:::'
   type: URN
 date:
 - type: published
@@ -97,14 +97,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>Encoding instructions are a means of modifying the encodings of ASN.1 types for some specified encoding rule. They can be inserted in an ASN.1 specification in square brackets (much like a tag in the Basic Encoding Rules, BER) immediately before the type that they affect (type prefixes), or they can be collected together at the end of an ASN.1 module (an encoding control section).</p>
     <p>ISO/IEC 8825-6:2008</p>
-    <ul>
-    <li>specifies the information needed and the format to be used for specifying encoding instructions for Packed Encoding Rules (PER);</li>
-    <li>specifies the mechanisms for approving new PER encoding instructions from time to time and the operation of the Registration Authority for PER encoding instructions;</li>
-    <li>specifies the means of associating a PER encoding instruction with an ASN.1 type using both type prefixes and an encoding control section.</li>
-    </ul>
+
+    specifies the information needed and the format to be used for specifying encoding instructions for Packed Encoding Rules (PER);
+    specifies the mechanisms for approving new PER encoding instructions from time to time and the operation of the Registration Authority for PER encoding instructions;
+    specifies the means of associating a PER encoding instruction with an ASN.1 type using both type prefixes and an encoding control section.
 status:
   stage:
     content: REVISED
@@ -138,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

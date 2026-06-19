@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1352272001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 13522-7:2001
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:13522-7:2001-04:::'
+- content: 'urn:iec:std:iso-iec:13522-7:2001:::'
   type: URN
 date:
 - type: published
@@ -94,7 +94,7 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p><b>1.1 Context of the scope</b></p>
+    <p>1.1 Context of the scope</p>
     <p>ISO/IEC 13522 specifies the coded representation of multimedia/hypermedia information objects (MHEG objects)</p>
     <p>for interchange as final form units within or across services and applications, by any means of interchange</p>
     <p>including local area networks, wide area telecommunication or broadcast networks, storage media, etc.</p>
@@ -104,16 +104,16 @@ abstract:
     <p>Annex F of ISO/IEC 13522-5:1997 specifies the features that need to be defined by a specific MHEG-5 application</p>
     <p>domain. The informative annexes of this part of ISO/IEC 13522-5:1997 give illustrative examples of profiles of</p>
     <p>some common application domains.</p>
-    <p><b>1.2 Scope</b></p>
+    <p>1.2 Scope</p>
     <p>MHEG-5 engines are system or application components that handle, interpret and present MHEG-5 objects. The</p>
     <p>scope of this part of ISO/IEC 13522 is to define a test suite that can be used to test an MHEG-5 engine's</p>
     <p>conformance to a specific application domain. It also defines a format for test cases that can be used to extend the</p>
     <p>test suite, either for more detailed testing or for extensions defined by the application domain.</p>
     <p>It is beyond the scope of this part of ISO/IEC 13522 to define tests for engine performance, engine memory usage</p>
     <p>or for MHEG-5 applications that run on these engines.</p>
-    <p>This part of the ISO/IEC 13522 specifies test cases for <i>all </i>features of ISO/IEC 13522-5:1997. Application domains</p>
-    <p>define a <i>subset </i>of MHEG-5 features that must be supported. In order to test conformance to a specific application</p>
-    <p>domain, a corresponding <i>subset </i>of the test cases must be defined. This subset of the test suite is then used to test</p>
+    <p>This part of the ISO/IEC 13522 specifies test cases for all features of ISO/IEC 13522-5:1997. Application domains</p>
+    <p>define a subset of MHEG-5 features that must be supported. In order to test conformance to a specific application</p>
+    <p>domain, a corresponding subset of the test cases must be defined. This subset of the test suite is then used to test</p>
     <p>the conformance of the engine.</p>
     <p>This part of ISO/IEC 13522 tests conformance of the behaviour of an MHEG engine. It does not validate the</p>
     <p>physical presentation of MHEG-5 objects.</p>
@@ -122,7 +122,7 @@ abstract:
     <p>_ test purpose;</p>
     <p>_ objects and procedures which are to be used to test one or more MHEG-5 features;</p>
     <p>_ expected result.</p>
-    <p><b>ISO/IEC 13522-7:2001(E)</b></p>
+    <p>ISO/IEC 13522-7:2001(E)</p>
     <p>A set of content data will be provided for the test objects. These content data are intended as a guide for</p>
     <p>generating a test suite and should be converted or replaced by content formats appropriate to the Application</p>
     <p>Domain.</p>
@@ -161,7 +161,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

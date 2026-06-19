@@ -1,7 +1,7 @@
 ---
 id: CISPRTR1812017RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: CISPR TR 18-1:2017 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:cispr:18-1:tr:rlv
+- content: 'urn:iec:std:cispr:18-1:2017:tr:rlv:'
   type: URN
 date:
 - type: published
@@ -76,26 +76,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CISPR TR 18-1:2017 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nCISPR TR 18-1:2017
-    which is a Technical Report, applies to radio noise from overhead power lines,
-    associated equipment, and high-voltage equipment which may cause interference
-    to radio reception. The scope of this document includes the causes, measurement
-    and effects of radio interference, design aspects in relation to this interference,
-    methods and examples for establishing limits and prediction of tolerable levels
-    of interference from high voltage overhead power lines and associated equipment,
-    to the reception of radio signals and services. The frequency range covered is
-    0,15 MHz to 3 GHz. Radio frequency interference caused by the pantograph of overhead
-    railway traction systems is not considered in this document. This third edition
-    cancels and replaces the second edition published in 2010. This edition constitutes
-    a technical revision. This edition includes the following significant technical
-    changes with respect to the previous edition:<br />\r\n- updated description of
-    the RF characteristics of spark discharges which might contain spectral radio
-    noise components up to the GHz frequency range;<br />\r\n- addition of state of
-    the art in HVDC converter technology<br />\r\nKeywords: radio noise from overhead
-    power lines and high-voltage equipment"
+  content: |-
+    CISPR TR 18-1:2017 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    CISPR TR 18-1:2017 which is a Technical Report, applies to radio noise from overhead power lines, associated equipment, and high-voltage equipment which may cause interference to radio reception. The scope of this document includes the causes, measurement and effects of radio interference, design aspects in relation to this interference, methods and examples for establishing limits and prediction of tolerable levels of interference from high voltage overhead power lines and associated equipment, to the reception of radio signals and services. The frequency range covered is 0,15 MHz to 3 GHz. Radio frequency interference caused by the pantograph of overhead railway traction systems is not considered in this document. This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - updated description of the RF characteristics of spark discharges which might contain spectral radio noise components up to the GHz frequency range;<br/>
+    - addition of state of the art in HVDC converter technology<br/>
+    Keywords: radio noise from overhead power lines and high-voltage equipment
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +104,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

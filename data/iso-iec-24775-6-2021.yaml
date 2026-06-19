@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2477562021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: ISO/IEC 24775-6:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:24775-6:2021-04:::'
+- content: 'urn:iec:std:iso-iec:24775-6:2021:::'
   type: URN
 date:
 - type: published
@@ -92,13 +92,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>The Storage Management Technical Specification, Part 6 Fabric defines management profiles for Autonomous (top level) profiles for programs and devices whose central function is providing support for storage networking. This version of Storage Management Technical Specification, Part 6 Fabric includes these autonomous profiles:</p>
-    <ul>
-    <li>Fabric<br />This profile defines the model and functions of a storage network including topology and zoning control.</li>
-    <li>Switch<br />This profile defines the model and functions of a Fibre Channel Switch including state, status, and control of the device and it’s connections and product information,</li>
-    <li>Extender<br />This profile defines the model and functions of a networking device that allows for fibre channel to be extended over other networks, and specifically over IP (FCIP).</li>
-    </ul>
+
+    Fabric<br/>This profile defines the model and functions of a storage network including topology and zoning control.
+    Switch<br/>This profile defines the model and functions of a Fibre Channel Switch including state, status, and control of the device and it’s connections and product information,
+    Extender<br/>This profile defines the model and functions of a networking device that allows for fibre channel to be extended over other networks, and specifically over IP (FCIP).
 status:
   stage:
     content: PUBLISHED
@@ -132,7 +131,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

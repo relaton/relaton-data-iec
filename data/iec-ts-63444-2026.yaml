@@ -1,0 +1,127 @@
+---
+id: IECTS634442026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Ethernet-APL port profile / Ethernet-SPE profile specification
+  type: title-main
+- language: en
+  script: Latn
+  content: Industrial networks - Ethernet-APL port profile / Ethernet-SPE profile
+    specification
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101814
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iects63444{ed2.0}en.pdf
+docidentifier:
+- content: IEC TS 63444:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63444:2026:ts::'
+  type: URN
+date:
+- type: published
+  at: '2026-06-04'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      identifier:
+      - content: '65'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 63444:2026 is applicable to process automation equipment using a 10BASE-T1L compliant Physical Layer (PHY). Ethernet-APL intrinsically safe profiles with different predefined entity or limitation parameters (for example voltage, current, power, capacitance, inductance, cable length) simplify the examination of the interconnection of different Ethernet-APL ports. Furthermore, this document is also applicable to factory and building automation and control equipment using a 10BASE-T1L compliant, and Power over Data Lines (PoDL) compliant Physical Layer (PHY) for non-intrinsically safe Ethernet installations.<br/>
+    NOTE In this document the term Ethernet-SPE is used for PoDL compliant PHY.<br/>
+    The following technical features are part of this document:<br/>
+    - topology with trunk and spur installation capability;<br/>
+    - 2-wire technology (full-duplex communication data rate of 10 Mbit/s);<br/>
+    - long distance (refers to cable lengths of several hundred meters, with spans up to 1 000 m);<br/>
+    - intrinsic safety (installation of Ethernet-capable field devices in hazardous areas);<br/>
+    - power supply to field devices over the same 2-wire cable used for data communication;<br/>
+    - non-intrinsically safe Ethernet installation in factory and building automation.<br/>
+    This second edition cancels and replaces the first edition published in 2023. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) new power class for Ethernet-APL;<br/>
+    b) addition of Ethernet-SPE;<br/>
+    c) clarification of usability of Ethernet-APL in non-hazardous locations.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '29.240'
+    text: Power transmission and distribution networks
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '129372'
+  price_code: iec:K

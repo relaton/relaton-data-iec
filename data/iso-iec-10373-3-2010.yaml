@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1037332010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 10373-3:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:10373-3:2010-09:::'
+- content: 'urn:iec:std:iso-iec:10373-3:2010:::'
   type: URN
 date:
 - type: published
@@ -97,16 +97,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 10373-3:2010 defines test methods for characteristics of integrated circuit cards with contacts and related interface devices according to the definition given in ISO/IEC 7816. Each test method is cross‑referenced to one or more base standards, which can be ISO/IEC 7810 or one or more of the supplementary International Standards that define the information storage technologies employed in identification card applications.</p>
     <p>ISO/IEC 10373-3:2010 defines test methods which are specific to integrated circuit technology with contacts. ISO/IEC 10373-1 defines test methods which are common to one or more card technologies and other parts define other technology‑specific tests.</p>
     <p>Test methods defined in ISO/IEC 10373-3:2010 are intended to be performed separately and independently. A given card is not required to pass through all the tests sequentially. The test methods defined in ISO/IEC 10373-3:2010 are based on ISO/IEC 7816-3.</p>
     <p>Conformance of cards and IFDs determined using the test methods defined in ISO/IEC 10373-3:2010 does not preclude failures in the field. Reliability testing is outside the scope of ISO/IEC 10373-3:2010.</p>
     <p>ISO/IEC 10373-3:2010 does not define any test to establish the complete functioning of integrated circuit cards. The test methods require only that the minimum functionality be verified. Minimum functionality is defined as follows.</p>
-    <ul>
-    <li>Any integrated circuit present in the card continues to show an Answer to Reset response which conforms to the base standard.</li>
-    <li>Any contacts associated with any integrated circuit present in the card continue to show electrical resistance which conforms to the base standard.</li>
-    </ul>
+
+    Any integrated circuit present in the card continues to show an Answer to Reset response which conforms to the base standard.
+    Any contacts associated with any integrated circuit present in the card continue to show electrical resistance which conforms to the base standard.
 status:
   stage:
     content: REVISED
@@ -140,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

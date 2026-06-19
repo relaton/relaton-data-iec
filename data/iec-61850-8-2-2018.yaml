@@ -1,7 +1,7 @@
 ---
 id: IEC61850822018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -49,7 +49,7 @@ docidentifier:
 - content: IEC 61850-8-2:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-8-2:2018-12:::'
+- content: 'urn:iec:std:iec:61850-8-2:2018:::'
   type: URN
 date:
 - type: published
@@ -102,34 +102,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "EC 61850-8-2:2018 specifies a method of exchanging data through any kinds
-    of network, including public networks. Among the various kinds of services specified
-    in IEC 61850-7-2, only the client/server and time synchronization services are
-    considered so far.<br />\r\nNOTE Client/server services of GOOSE and SMV models
-    are mapped as well.<br />\r\nFor the client/server services, the principle is
-    to map the objects and services of the ACSI (Abstract Communication Service Interface
-    defined in IEC 61850-7-2) to XML messages transported over XMPP. The mapping description
-    includes mainly three aspects:<br />\r\n• The usage of the XMPP protocol itself,
-    describing in details which features are really used and how they are used by
-    the mapping.<br />\r\n• How to achieve end-to-end secured communications.<br />\r\n•
-    The description of the XML payloads corresponding to each ACSI service thanks
-    in particular to the XML Schema and XML message examples."
+  content: |-
+    EC 61850-8-2:2018 specifies a method of exchanging data through any kinds of network, including public networks. Among the various kinds of services specified in IEC 61850-7-2, only the client/server and time synchronization services are considered so far.<br/>
+    NOTE Client/server services of GOOSE and SMV models are mapped as well.<br/>
+    For the client/server services, the principle is to map the objects and services of the ACSI (Abstract Communication Service Interface defined in IEC 61850-7-2) to XML messages transported over XMPP. The mapping description includes mainly three aspects:<br/>
+    • The usage of the XMPP protocol itself, describing in details which features are really used and how they are used by the mapping.<br/>
+    • How to achieve end-to-end secured communications.<br/>
+    • The description of the XML payloads corresponding to each ACSI service thanks in particular to the XML Schema and XML message examples.
 - language: fr
   script: Latn
-  content: "IEC 61850-8-2:2018 spécifie une méthode d'échange de données par tous
-    types de réseaux, y compris les réseaux publics. Parmi les différents types de
-    services spécifiés dans l'IEC 61850-7-2, seuls les services client/serveur et
-    les services de synchronisation temporelle sont pris en considération.<br />\r\nNOTE
-    Les services client/serveur des modèles GOOSE et SMV sont également mappés.<br
-    />\r\nPour les services client/serveur, le principe consiste à mapper les objets
-    et les services de l'interface abstraite des services de communication (ACSI –
-    Abstract Communication Service Interface) définie dans l'IEC 61850-7-2) aux messages
-    XML transportés sur XMPP. La description du mapping inclut trois principaux aspects:<br
-    />\r\n• L'utilisation du protocole XMPP lui-même, décrivant en détail les fonctions
-    réellement utilisées et la manière dont le mapping les utilise.<br />\r\n• La
-    manière d'obtenir des communications sécurisées de bout en bout.<br />\r\n• La
-    description des données utiles XML correspondant à chaque service ACSI au moyen,
-    en particulier, du schéma XML et des exemples de message XML."
+  content: |-
+    IEC 61850-8-2:2018 spécifie une méthode d'échange de données par tous types de réseaux, y compris les réseaux publics. Parmi les différents types de services spécifiés dans l'IEC 61850-7-2, seuls les services client/serveur et les services de synchronisation temporelle sont pris en considération.<br/>
+    NOTE Les services client/serveur des modèles GOOSE et SMV sont également mappés.<br/>
+    Pour les services client/serveur, le principe consiste à mapper les objets et les services de l'interface abstraite des services de communication (ACSI – Abstract Communication Service Interface) définie dans l'IEC 61850-7-2) aux messages XML transportés sur XMPP. La description du mapping inclut trois principaux aspects:<br/>
+    • L'utilisation du protocole XMPP lui-même, décrivant en détail les fonctions réellement utilisées et la manière dont le mapping les utilise.<br/>
+    • La manière d'obtenir des communications sécurisées de bout en bout.<br/>
+    • La description des données utiles XML correspondant à chaque service ACSI au moyen, en particulier, du schéma XML et des exemples de message XML.
 status:
   stage:
     content: PUBLISHED
@@ -151,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

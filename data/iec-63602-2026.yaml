@@ -72,22 +72,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63602:2026 specifies how to correctly display essential parameters
-    of SiC-based PECS devices having a gate dielectric region biased to turn devices
-    on and off. This typically refers to MOS devices such as MOSFETs and IGBTs. In
-    this document, only NMOS devices are discussed as these are dominant for power
-    device applications; however, the procedures apply to PMOS devices as well. In
-    contrast to silicon power MOSFETs certain aspects of SiC power MOSFETs require
-    a dedicated approach in order to represent device parameters correctly in the
-    datasheet. Details are explained in the following paragraphs, among others the
-    most important topics are:<br />\r\n- substantially higher switching speeds ad
-    high VDS;<br />\r\n- strong impact of test setup (see Clause 5);<br />\r\n- impact
-    of body diode as a function of the applied negative gate bias ant the limitations
-    arising for the VG(off) values depending on the actual device.<br />\r\nThis document
-    does not define device failure criteria, acceptable use conditions or acceptable
-    lifetime targets. That is up to the device manufacturers and users. However, it
-    provides stress procedures such that the threshold voltage stability over time
-    as affected by gate bias and temperature can be demonstrated and evaluated."
+  content: |-
+    IEC 63602:2026 specifies how to correctly display essential parameters of SiC-based PECS devices having a gate dielectric region biased to turn devices on and off. This typically refers to MOS devices such as MOSFETs and IGBTs. In this document, only NMOS devices are discussed as these are dominant for power device applications; however, the procedures apply to PMOS devices as well. In contrast to silicon power MOSFETs certain aspects of SiC power MOSFETs require a dedicated approach in order to represent device parameters correctly in the datasheet. Details are explained in the following paragraphs, among others the most important topics are:<br/>
+    - substantially higher switching speeds ad high VDS;<br/>
+    - strong impact of test setup (see Clause 5);<br/>
+    - impact of body diode as a function of the applied negative gate bias ant the limitations arising for the VG(off) values depending on the actual device.<br/>
+    This document does not define device failure criteria, acceptable use conditions or acceptable lifetime targets. That is up to the device manufacturers and users. However, it provides stress procedures such that the threshold voltage stability over time as affected by gate bias and temperature can be demonstrated and evaluated.
 status:
   stage:
     content: PUBLISHED

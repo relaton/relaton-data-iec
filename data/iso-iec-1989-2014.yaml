@@ -1,7 +1,7 @@
 ---
 id: ISOIEC19892014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 1989:2014
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:1989:2014-05:::'
+- content: 'urn:iec:std:iso-iec:1989:2014:::'
   type: URN
 date:
 - type: published
@@ -97,28 +97,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 1989:2014 specifies the syntax and semantics of COBOL. Its purpose is to promote a high degree of machine independence to permit the use of COBOL on a variety of data processing systems.</p>
     <p>ISO/IEC 1989:2014 specifies:</p>
-    <ul>
-    <li>the form of a compilation group written in COBOL;</li>
-    <li>the effect of compiling a compilation group;</li>
-    <li>the effect of executing run units;</li>
-    <li>the elements of the language for which a conforming implementation is required to supply a definition;</li>
-    <li>the elements of the language for which meaning is explicitly undefined;</li>
-    <li>the elements of the language that are dependent on the capabilities of the processor.</li>
-    </ul>
+
+    the form of a compilation group written in COBOL;
+    the effect of compiling a compilation group;
+    the effect of executing run units;
+    the elements of the language for which a conforming implementation is required to supply a definition;
+    the elements of the language for which meaning is explicitly undefined;
+    the elements of the language that are dependent on the capabilities of the processor.
+
     <p>ISO/IEC 1989:2014 does not specify:</p>
-    <ul>
-    <li>the means whereby a compilation group written in COBOL is compiled into code executable by a processor;</li>
-    <li>the time at which method, function, or program runtime modules are linked or bound to an activating statement, except that runtime binding occurs of necessity when the identification of the appropriate program or method is not known at compile time;</li>
-    <li>the time at which parameterized classes and interfaces are expanded;</li>
-    <li>the mechanism by which locales are defined and made available on a processor;</li>
-    <li>the form or content of error, flagging, or warning messages;</li>
-    <li>the form and content of listings produced during compilation, if any;</li>
-    <li>the form of documentation produced by an implementor of products conforming to this International Standard;</li>
-    <li>the sharing of resources other than files among run units.</li>
-    </ul>
+
+    the means whereby a compilation group written in COBOL is compiled into code executable by a processor;
+    the time at which method, function, or program runtime modules are linked or bound to an activating statement, except that runtime binding occurs of necessity when the identification of the appropriate program or method is not known at compile time;
+    the time at which parameterized classes and interfaces are expanded;
+    the mechanism by which locales are defined and made available on a processor;
+    the form or content of error, flagging, or warning messages;
+    the form and content of listings produced during compilation, if any;
+    the form of documentation produced by an implementor of products conforming to this International Standard;
+    the sharing of resources other than files among run units.
 status:
   stage:
     content: REVISED
@@ -152,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

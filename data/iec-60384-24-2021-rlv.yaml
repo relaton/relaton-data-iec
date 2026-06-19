@@ -1,7 +1,7 @@
 ---
 id: IEC60384242021RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,7 +27,7 @@ docidentifier:
 - content: IEC 60384-24:2021 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60384-24::rlv
+- content: 'urn:iec:std:iec:60384-24:2021::rlv:'
   type: URN
 date:
 - type: published
@@ -79,21 +79,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60384-24:2021 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 60384-24:2021 applies
-    to fixed tantalum electrolytic surface mount capacitors with conductive polymer
-    solid electrolyte, which are primarily intended for DC applications for use in
-    electronic equipment. The object of this document is to prescribe preferred ratings
-    and characteristics and to select from IEC 60384-1:2016 the appropriate quality
-    assessment procedures, tests and measuring methods and to give general performance
-    requirements for this type of capacitor. This edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\n- Revision of
-    the structure in accordance with ISO/IEC Directives, Part 2:2018, to the extent
-    practicable, and harmonization between other similar kinds of documents.<br />\r\n-
-    In addition, Clause 5 and all the tables have been reviewed in order to prevent
-    duplications and contradictions.</p>\r\n\r\n<ol style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 60384-24:2021 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 60384-24:2021 applies to fixed tantalum electrolytic surface mount capacitors with conductive polymer solid electrolyte, which are primarily intended for DC applications for use in electronic equipment. The object of this document is to prescribe preferred ratings and characteristics and to select from IEC 60384-1:2016 the appropriate quality assessment procedures, tests and measuring methods and to give general performance requirements for this type of capacitor. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - Revision of the structure in accordance with ISO/IEC Directives, Part 2:2018, to the extent practicable, and harmonization between other similar kinds of documents.<br/>
+    - In addition, Clause 5 and all the tables have been reviewed in order to prevent duplications and contradictions.</p>
+
+
 status:
   stage:
     content: PUBLISHED
@@ -115,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -129,3 +121,4 @@ ext:
     project_number:
       content: '102863'
   price_code: iec:RC
+...

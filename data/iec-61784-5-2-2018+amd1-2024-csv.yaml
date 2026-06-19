@@ -1,7 +1,7 @@
 ---
 id: IEC61784522018AMD12024CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: IEC 61784-5-2:2018+AMD1:2024 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61784-5-2:2018-08::csv:+amd:1:2024-03
+- content: urn:iec:std:iec:61784-5-2:2018::csv::plus:amd:1:2024
   type: URN
 date:
 - type: published
@@ -82,21 +82,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61784-5-2:2018+AMD1:2024 CSV specifies the installation profiles for
-    CPF 2 (CIP™ ). This contribution contains a number of related files covering the
-    communication profiles to be used in conjunction with IEC 61918. The installation
-    profile documents contained herewith provide the installation profiles of the
-    communication profiles (CP) of a specific communication profile family (CPF) by
-    stating which requirements of IEC 61918 fully apply and, where necessary, by supplementing,
-    modifying, or replacing the other requirements. The installation profiles are
-    specified in the annexes. These annexes are read in conjunction with IEC 61918.
-    This fourth edition cancels and replaces the third edition published in 2013.
-    This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) references to ISO/IEC 24702 have been replaced with references to ISO/IEC
-    11801-3 in Table B.1;<br />\r\nb) errors have been corrected;<br />\r\nc) Tables
-    B11 and B13 have been added in support of 1,000 Mb/s 4 Pair Ethernet;<br />\r\nd)
-    Clarification of dual power supplies for Annex C."
+  content: |-
+    IEC 61784-5-2:2018+AMD1:2024 CSV specifies the installation profiles for CPF 2 (CIP™ ). This contribution contains a number of related files covering the communication profiles to be used in conjunction with IEC 61918. The installation profile documents contained herewith provide the installation profiles of the communication profiles (CP) of a specific communication profile family (CPF) by stating which requirements of IEC 61918 fully apply and, where necessary, by supplementing, modifying, or replacing the other requirements. The installation profiles are specified in the annexes. These annexes are read in conjunction with IEC 61918. This fourth edition cancels and replaces the third edition published in 2013. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) references to ISO/IEC 24702 have been replaced with references to ISO/IEC 11801-3 in Table B.1;<br/>
+    b) errors have been corrected;<br/>
+    c) Tables B11 and B13 have been added in support of 1,000 Mb/s 4 Pair Ethernet;<br/>
+    d) Clarification of dual power supplies for Annex C.
 status:
   stage:
     content: PUBLISHED
@@ -118,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

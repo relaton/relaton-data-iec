@@ -1,7 +1,7 @@
 ---
 id: IEC6119112018RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,7 +27,7 @@ docidentifier:
 - content: IEC 61191-1:2018 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61191-1::rlv
+- content: 'urn:iec:std:iec:61191-1:2018::rlv:'
   type: URN
 date:
 - type: published
@@ -79,20 +79,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61191-1:2018 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61191-1:2018
-    prescribes requirements for materials, methods and verification criteria for producing
-    quality soldered interconnections and assemblies using surface mount and related
-    assembly technologies. This part of IEC 61191 also includes recommendations for
-    good manufacturing processes. This edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\n- the requirements
-    have been updated to be compliant with the acceptance criteria in IPC‑A-610F;<br
-    />\r\n- the term \"assembly drawing\" has been changed to \"assembly documentation\"
-    throughout;<br />\r\n- references to IEC standards have been corrected;<br />\r\n-
-    Clause 9 was completely rewritten;<br />\r\n- Annex B was removed because there
-    are already procedures for circuit board assemblies."
+  content: |-
+    IEC 61191-1:2018 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61191-1:2018 prescribes requirements for materials, methods and verification criteria for producing quality soldered interconnections and assemblies using surface mount and related assembly technologies. This part of IEC 61191 also includes recommendations for good manufacturing processes. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - the requirements have been updated to be compliant with the acceptance criteria in IPC‑A-610F;<br/>
+    - the term "assembly drawing" has been changed to "assembly documentation" throughout;<br/>
+    - references to IEC standards have been corrected;<br/>
+    - Clause 9 was completely rewritten;<br/>
+    - Annex B was removed because there are already procedures for circuit board assemblies.
 status:
   stage:
     content: PUBLISHED
@@ -114,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

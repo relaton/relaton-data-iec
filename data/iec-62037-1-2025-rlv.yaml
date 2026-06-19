@@ -1,7 +1,7 @@
 ---
 id: IEC6203712025RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 62037-1:2025 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62037-1::rlv
+- content: 'urn:iec:std:iec:62037-1:2025::rlv:'
   type: URN
 date:
 - type: published
@@ -77,28 +77,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62037-1:2025 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62037-1:2025
-    deals with the general requirements and measuring methods for intermodulation
-    (IM) level measurement of passive RF and microwave components, which can be caused
-    by the presence of two or more transmitting signals. The test procedures given
-    in this document give the general requirements and measurement methods required
-    to characterize the level of unwanted IM signals using two transmitting signals.
-    The IEC 62037 series addresses the measurement of PIM but does not cover the long-term
-    reliability of a product with reference to its performance. This third edition
-    cancels and replaces the second edition published in 2021. This edition constitutes
-    a technical revision.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\na) added clarification
-    that PIM generation is typically frequency dependent and noted that testing with
-    swept or multiple fixed frequencies often provides more accurate results;<br />\r\nb)
-    identified multi-port PIM analyzers as a possible test set-up topography;<br />\r\nc)
-    added specification that test power level does not exceed the power handling capability
-    of the DUT;<br />\r\nd) updated test specification to include missing parameters
-    needed to properly define a PIM test;<br />\r\ne) added clarification that PIM
-    test reports include the maximum PIM value measured over the test duration;<br
-    />\r\nf) corrected error in Figure 3 that was erroneously changed in IEC 62037-1:2021."
+  content: |-
+    IEC 62037-1:2025 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62037-1:2025 deals with the general requirements and measuring methods for intermodulation (IM) level measurement of passive RF and microwave components, which can be caused by the presence of two or more transmitting signals. The test procedures given in this document give the general requirements and measurement methods required to characterize the level of unwanted IM signals using two transmitting signals. The IEC 62037 series addresses the measurement of PIM but does not cover the long-term reliability of a product with reference to its performance. This third edition cancels and replaces the second edition published in 2021. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) added clarification that PIM generation is typically frequency dependent and noted that testing with swept or multiple fixed frequencies often provides more accurate results;<br/>
+    b) identified multi-port PIM analyzers as a possible test set-up topography;<br/>
+    c) added specification that test power level does not exceed the power handling capability of the DUT;<br/>
+    d) updated test specification to include missing parameters needed to properly define a PIM test;<br/>
+    e) added clarification that PIM test reports include the maximum PIM value measured over the test duration;<br/>
+    f) corrected error in Figure 3 that was erroneously changed in IEC 62037-1:2021.
 status:
   stage:
     content: PUBLISHED
@@ -120,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

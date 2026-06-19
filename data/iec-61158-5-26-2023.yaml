@@ -1,7 +1,7 @@
 ---
 id: IEC611585262023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-5-26:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-5-26:2023-03:::'
+- content: 'urn:iec:std:iec:61158-5-26:2023:::'
   type: URN
 date:
 - type: published
@@ -103,39 +103,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-5-26:2023 provides common elements for basic time-critical and
-    non-time-critical messaging communications between application programs in an
-    automation environment and material specific to Type 26 fieldbus. The term \"time-critical\"
-    is used to represent the presence of a time-window, within which one or more specified
-    actions are required to be completed with some defined level of certainty. Failure
-    to complete specified actions within the time window risks failure of the applications
-    requesting the actions, with attendant risk to equipment, plant and possibly human
-    life.<br />\r\nThis document defines in an abstract way the externally visible
-    service provided by the Type26 fieldbus application layer in terms of:<br />\r\nan
-    abstract model for defining application resources (objects) capable of being manipulated
-    by users via the use of the FAL service;<br />\r\nthe primitive actions and events
-    of the service;<br />\r\nthe parameters associated with each primitive action
-    and event, and the form which they take; and<br />\r\nthe interrelationship between
-    these actions and events, and their valid sequences."
+  content: |-
+    IEC 61158-5-26:2023 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 26 fieldbus. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This document defines in an abstract way the externally visible service provided by the Type26 fieldbus application layer in terms of:<br/>
+    an abstract model for defining application resources (objects) capable of being manipulated by users via the use of the FAL service;<br/>
+    the primitive actions and events of the service;<br/>
+    the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    the interrelationship between these actions and events, and their valid sequences.
 - language: fr
   script: Latn
-  content: "L'IEC 61158-5-26:2023 fournit des éléments communs pour les communications
-    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
-    d’application des environnements d’automatisation et le matériel spécifique au
-    bus de terrain de type 26. Le terme \"prioritaire\" signale l’existence d’une
-    fenêtre temporelle dans laquelle une ou plusieurs actions spécifiées doivent être
-    réalisées, avec un niveau de certitude défini. Si les actions spécifiées ne sont
-    pas réalisées dans la fenêtre temporelle, les demandes d’action risquent d’être
-    rejetées, avec les risques que cela comporte pour les équipements, les installations
-    et éventuellement la vie humaine.<br />\r\nLe présent document définit de manière
-    abstraite le service, visible par un observateur extérieur, assuré par la couche
-    application de bus de terrain de type 26, en matière:<br />\r\nde modèle abstrait
-    visant à la définition des ressources d’application (objets) qui peuvent être
-    manipulées par des utilisateurs utilisant un service FAL;<br />\r\nd’événements
-    et d’actions liés aux primitives du service;<br />\r\nde paramètres associés à
-    chaque événement et action de primitive, ainsi que de forme prise par ces paramètres;
-    et<br />\r\nd’interaction entre ces événements et ces actions, ainsi que de séquences
-    valides desdits événements et actions."
+  content: |-
+    L'IEC 61158-5-26:2023 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 26. Le terme "prioritaire" signale l’existence d’une fenêtre temporelle dans laquelle une ou plusieurs actions spécifiées doivent être réalisées, avec un niveau de certitude défini. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les demandes d’action risquent d’être rejetées, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.<br/>
+    Le présent document définit de manière abstraite le service, visible par un observateur extérieur, assuré par la couche application de bus de terrain de type 26, en matière:<br/>
+    de modèle abstrait visant à la définition des ressources d’application (objets) qui peuvent être manipulées par des utilisateurs utilisant un service FAL;<br/>
+    d’événements et d’actions liés aux primitives du service;<br/>
+    de paramètres associés à chaque événement et action de primitive, ainsi que de forme prise par ces paramètres; et<br/>
+    d’interaction entre ces événements et ces actions, ainsi que de séquences valides desdits événements et actions.
 status:
   stage:
     content: PUBLISHED
@@ -157,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

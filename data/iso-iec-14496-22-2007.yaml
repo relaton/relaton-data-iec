@@ -1,7 +1,7 @@
 ---
 id: ISOIEC14496222007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 14496-22:2007
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:14496-22:2007-03:::'
+- content: 'urn:iec:std:iso-iec:14496-22:2007:::'
   type: URN
 date:
 - type: published
@@ -97,19 +97,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 14496-22:2007, "Open Font Format Specification", defines the extensible font data format representation for interchange of digital font information in different multimedia applications.</p>
     <p>Historically, scalable digital fonts have come in two basic flavours: PostScript (registered trademark of Adobe Systems Incorporated) Type 1 and TrueType (trademark of Apple Computer Incorporated). Both of them are multi-platform outline font standards. OpenType (registered trademark of Microsoft Corporation) is the unification of these two most powerful and widely used font formats, PostScript and TrueType, into a single font format. Designed to handle languages with complex typographic requirements, such as Arabic, it supports alternate glyphs and contextual ligature substitution.</p>
     <p>ISO/IEC 14496-22:2007 defines the data format for scalable digital fonts that is based on the OpenType specification, version 1.4.</p>
     <p>ISO/IEC 14496-22 addresses the following goals:</p>
-    <ul>
-    <li>high-quality scaling of glyphs, based on the advanced TrueType hinting capabilities;</li>
-    <li>broader multi-platform support;</li>
-    <li>better support for international character sets and the Unicode standard;</li>
-    <li>better protection for font data using digital signatures in font files;</li>
-    <li>smaller file sizes to make font distribution more efficient;</li>
-    <li>broader support for advanced typographic features and text layout.</li>
-    </ul>
+
+    high-quality scaling of glyphs, based on the advanced TrueType hinting capabilities;
+    broader multi-platform support;
+    better support for international character sets and the Unicode standard;
+    better protection for font data using digital signatures in font files;
+    smaller file sizes to make font distribution more efficient;
+    broader support for advanced typographic features and text layout.
 status:
   stage:
     content: REVISED
@@ -143,7 +142,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

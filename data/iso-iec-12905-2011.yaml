@@ -1,7 +1,7 @@
 ---
 id: ISOIEC129052011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: ISO/IEC 12905:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:12905:2011-07:::'
+- content: 'urn:iec:std:iso-iec:12905:2011:::'
   type: URN
 date:
 - type: published
@@ -89,17 +89,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 12905:2011 specifies a set of data elements to be personalized into an integrated circuit card, encoding cardholder preferences. These data elements are to be retrieved from the card and to be used to indicate to the terminal that the user has special needs regarding the user interface. It is not intended to standardize the actual application programming interface or other terminal-specific software allowing the functionality, nor does it cover the actual alignment of the card to the card-reader slot. </p>
-    <p>ISO/IEC 12905:2011 is independent of the physical interface and is applicable to situations where the cardholder operates the card-accepting equipment (e.g. a cash dispenser, ticket machine, vending machine). It applies not only to ID-1 type cards, but also to SIM/UIM (ID-000) on mobile phones and form-factor-free contactless integrated circuit cards which are specified in ISO/IEC 14443.</p>
-    <p>ISO/IEC 12905:2011 comprises: </p>
-    <ul>
-    <li>data elements containing the user preferences,</li>
-    <li>the storage/retrieval formats for input and output of these data elements, </li>
-    <li>security related to the information contained in these data elements,</li>
-    <li>the access method to these data elements, and</li>
-    <li>protection of cardholder information.</li>
-    </ul>
+  content: "<p>ISO/IEC 12905:2011 specifies a set of data elements to be personalized
+    into an integrated circuit card, encoding cardholder preferences. These data elements
+    are to be retrieved from the card and to be used to indicate to the terminal that
+    the user has special needs regarding the user interface. It is not intended to
+    standardize the actual application programming interface or other terminal-specific
+    software allowing the functionality, nor does it cover the actual alignment of
+    the card to the card-reader slot. </p>\n<p>ISO/IEC 12905:2011 is independent of
+    the physical interface and is applicable to situations where the cardholder operates
+    the card-accepting equipment (e.g. a cash dispenser, ticket machine, vending machine).
+    It applies not only to ID-1 type cards, but also to SIM/UIM (ID-000) on mobile
+    phones and form-factor-free contactless integrated circuit cards which are specified
+    in ISO/IEC 14443.</p>\n<p>ISO/IEC 12905:2011 comprises: </p>\n\ndata elements
+    containing the user preferences,\nthe storage/retrieval formats for input and
+    output of these data elements, \nsecurity related to the information contained
+    in these data elements,\nthe access method to these data elements, and\nprotection
+    of cardholder information.\n"
 status:
   stage:
     content: PUBLISHED
@@ -133,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

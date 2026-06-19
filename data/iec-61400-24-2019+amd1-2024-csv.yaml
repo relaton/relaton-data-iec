@@ -1,7 +1,7 @@
 ---
 id: IEC61400242019AMD12024CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,13 +24,13 @@ docidentifier:
 - content: IEC 61400-24:2019+AMD1:2024 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61400-24:2019-07::csv:+amd:1:2024-11
+- content: urn:iec:std:iec:61400-24:2019::csv::plus:amd:1:2024
   type: URN
 date:
 - type: published
   at: '2024-11-13'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2027-12-31'
 contributor:
 - role:
   - type: publisher
@@ -76,18 +76,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61400-24:2019+AMD1:2024 CSV applies to lightning protection of wind
-    turbine generators and wind power systems. Refer to guidelines for small wind
-    turbines in annex. This document defines the lightning environment for wind turbines
-    and risk assessment for wind turbines in that environment. It defines requirements
-    for protection of blades, other structural components and electrical and control
-    systems against both direct and indirect effects of lightning. Test methods to
-    validate compliance are included. Guidance on the use of applicable lightning
-    protection, industrial electrical and EMC standards including earthing is provided.<br
-    />\r\nThis second edition cancels and replaces the first edition, published in
-    2010. This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na) it is restructured with a main normative
-    part, while informative information is placed in annexes."
+  content: |-
+    IEC 61400-24:2019+AMD1:2024 CSV applies to lightning protection of wind turbine generators and wind power systems. Refer to guidelines for small wind turbines in annex. This document defines the lightning environment for wind turbines and risk assessment for wind turbines in that environment. It defines requirements for protection of blades, other structural components and electrical and control systems against both direct and indirect effects of lightning. Test methods to validate compliance are included. Guidance on the use of applicable lightning protection, industrial electrical and EMC standards including earthing is provided.<br/>
+    This second edition cancels and replaces the first edition, published in 2010. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) it is restructured with a main normative part, while informative information is placed in annexes.
 status:
   stage:
     content: PUBLISHED
@@ -109,7 +101,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

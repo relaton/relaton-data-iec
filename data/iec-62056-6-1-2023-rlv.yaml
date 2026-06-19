@@ -1,7 +1,7 @@
 ---
 id: IEC62056612023RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 62056-6-1:2023 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62056-6-1::rlv
+- content: 'urn:iec:std:iec:62056-6-1:2023::rlv:'
   type: URN
 date:
 - type: published
@@ -81,31 +81,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62056-6-1:2023 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62056-6-1:2023
-    specifies the overall structure of the OBject Identification System (OBIS) and
-    the mapping of all commonly used data items in metering equipment to their identification
-    codes.OBIS provides a unique identifier for all data within the metering equipment,
-    including not only measurement values, but also abstract values used for configuration
-    or obtaining information about the behaviour of the metering equipment. The ID
-    codes defined in this document are used for the identification of:<br />\r\n-
-    logical names of the various instances of the ICs, or objects, as defined in IEC
-    62056‑6‑2:2023;<br />\r\n- data transmitted through communication lines;<br />\r\n-
-    data displayed on the metering equipment, see Clause A.2 in Annex A.<br />\r\nThis
-    document applies to all types of metering equipment, such as fully integrated
-    meters, modular meters, tariff attachments, data concentrators, etc.<br />\r\nTo
-    cover metering equipment measuring energy types other than electricity, combined
-    metering equipment measuring more than one type of energy or metering equipment
-    with several physical measurement channels, the concepts of medium and channels
-    are introduced. This allows meter data originating from different sources to be
-    identified. While this document fully defines the structure of the identification
-    system for other media, the mapping of non-electrical energy related data items
-    to ID codes is completed separately<br />\r\nThis fourth edition cancels and replaces
-    the third edition of IEC 62056-6-1, published in 2017. This edition constitutes
-    a technical revision. The main technical changes with respect to the previous
-    edition are listed in Annex B (informative)."
+  content: |-
+    IEC 62056-6-1:2023 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62056-6-1:2023 specifies the overall structure of the OBject Identification System (OBIS) and the mapping of all commonly used data items in metering equipment to their identification codes.OBIS provides a unique identifier for all data within the metering equipment, including not only measurement values, but also abstract values used for configuration or obtaining information about the behaviour of the metering equipment. The ID codes defined in this document are used for the identification of:<br/>
+    - logical names of the various instances of the ICs, or objects, as defined in IEC 62056‑6‑2:2023;<br/>
+    - data transmitted through communication lines;<br/>
+    - data displayed on the metering equipment, see Clause A.2 in Annex A.<br/>
+    This document applies to all types of metering equipment, such as fully integrated meters, modular meters, tariff attachments, data concentrators, etc.<br/>
+    To cover metering equipment measuring energy types other than electricity, combined metering equipment measuring more than one type of energy or metering equipment with several physical measurement channels, the concepts of medium and channels are introduced. This allows meter data originating from different sources to be identified. While this document fully defines the structure of the identification system for other media, the mapping of non-electrical energy related data items to ID codes is completed separately<br/>
+    This fourth edition cancels and replaces the third edition of IEC 62056-6-1, published in 2017. This edition constitutes a technical revision. The main technical changes with respect to the previous edition are listed in Annex B (informative).
 status:
   stage:
     content: PUBLISHED
@@ -127,7 +112,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

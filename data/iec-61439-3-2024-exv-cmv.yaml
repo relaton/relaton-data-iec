@@ -1,7 +1,7 @@
 ---
 id: IEC6143932024EXVCMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,8 +24,6 @@ docidentifier:
 - content: IEC 61439-3:2024 EXV-CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61439-3:2024-03::exv-cmv
-  type: URN
 date:
 - type: published
   at: '2024-03-26'
@@ -76,32 +74,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This pack contains IEC 61439-3:2024 EXV and IEC 61439-3:2024 CMV.<br />\r\n<br
-    />\r\nIEC 61439-3:2024 defines the specific requirements for distribution boards
-    intended to be operated by ordinary persons (abbreviated DBO throughout this document,
-    see 3.1.101) as follows:<br />\r\n- assemblies intended to be operated by ordinary
-    persons (e.g. switching operations and replacing fuse-links), e.g. in domestic
-    (household) applications;<br />\r\n- assemblies containing outgoing circuits with
-    protective devices intended to be operated by ordinary persons, complying e.g.
-    with IEC 60898-1, the IEC 61008 series, the IEC 61009 series, IEC 62606, IEC 62423
-    and IEC 60269-3;<br />\r\n- assemblies for applications where the nominal voltage
-    to earth does not exceed 300 V AC (see Table G.1 of IEC 61439-1:2020);<br />\r\nNOTE The
-    voltage limits for DC applications are under consideration.<br />\r\n- assemblies
-    with a rated current (Inc) of the outgoing circuits not exceeding 125 A and a
-    rated current (InA) not exceeding 250 A;<br />\r\n- assemblies intended for use
-    in connection with the generation, transmission, distribution and conversion of
-    electrical energy, and for the control of equipment consuming electrical energy
-    and for associated data processing;<br />\r\n- enclosed, stationary assemblies;<br
-    />\r\n- assemblies for indoor or outdoor use.<br />\r\nThis second edition cancels
-    and replaces the first edition published in 2012. This edition constitutes a technical
-    revision.<br />\r\nThis edition includes the following significant technical changes
-    with respect to the previous edition:<br />\r\na) alignment with the structure
-    of IEC 61439-1:2020;<br />\r\nb) inclusion in the scope of more examples of the
-    type of protection and control devices;<br />\r\nc) deletion of type A and Type
-    B DBOs;<br />\r\nd) addition of a new Annex BB related to DBOs used in a prosumer’s
-    electrical installation (PEI);<br />\r\ne) addition of a new Annex CC related
-    to rated current of a DBO with additional source of supply in parallel/simultaneously
-    with another source that is connected to the DBO e.g. PV."
+  content: |-
+    This pack contains IEC 61439-3:2024 EXV and IEC 61439-3:2024 CMV.<br/>
+    <br/>
+    IEC 61439-3:2024 defines the specific requirements for distribution boards intended to be operated by ordinary persons (abbreviated DBO throughout this document, see 3.1.101) as follows:<br/>
+    - assemblies intended to be operated by ordinary persons (e.g. switching operations and replacing fuse-links), e.g. in domestic (household) applications;<br/>
+    - assemblies containing outgoing circuits with protective devices intended to be operated by ordinary persons, complying e.g. with IEC 60898-1, the IEC 61008 series, the IEC 61009 series, IEC 62606, IEC 62423 and IEC 60269-3;<br/>
+    - assemblies for applications where the nominal voltage to earth does not exceed 300 V AC (see Table G.1 of IEC 61439-1:2020);<br/>
+    NOTE The voltage limits for DC applications are under consideration.<br/>
+    - assemblies with a rated current (Inc) of the outgoing circuits not exceeding 125 A and a rated current (InA) not exceeding 250 A;<br/>
+    - assemblies intended for use in connection with the generation, transmission, distribution and conversion of electrical energy, and for the control of equipment consuming electrical energy and for associated data processing;<br/>
+    - enclosed, stationary assemblies;<br/>
+    - assemblies for indoor or outdoor use.<br/>
+    This second edition cancels and replaces the first edition published in 2012. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) alignment with the structure of IEC 61439-1:2020;<br/>
+    b) inclusion in the scope of more examples of the type of protection and control devices;<br/>
+    c) deletion of type A and Type B DBOs;<br/>
+    d) addition of a new Annex BB related to DBOs used in a prosumer’s electrical installation (PEI);<br/>
+    e) addition of a new Annex CC related to rated current of a DBO with additional source of supply in parallel/simultaneously with another source that is connected to the DBO e.g. PV.
 status:
   stage:
     content: PUBLISHED
@@ -123,7 +114,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

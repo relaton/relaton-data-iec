@@ -1,7 +1,7 @@
 ---
 id: IEC6304432017AMD12021CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 63044-3:2017+AMD1:2021 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:63044-3:2017-01::csv:+amd:1:2021-05
+- content: urn:iec:std:iec:63044-3:2017::csv::plus:amd:1:2021
   type: URN
 date:
 - type: published
@@ -78,16 +78,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63044-3:2017+A1:2021 specifies the electrical safety requirements
-    for HBES/BACS. In addition, it defines safety requirements for the interface of
-    equipment intended to be connected to an HBES/BACS. It does not apply to interfaces
-    to other networks.<br />\r\nNOTE An example of other networks is a dedicated ICT
-    network covered by IEC 62949.<br />\r\nThis document covers the following requirements
-    and compliance criteria:<br />\r\n- protection against hazards from the device;<br
-    />\r\n- protection against overvoltages on the network;<br />\r\n- protection
-    against touch current;<br />\r\n- protection against hazards caused by different
-    types of network;<br />\r\n- protection of the communication wiring against overheating
-    caused by excessive current."
+  content: |-
+    IEC 63044-3:2017+A1:2021 specifies the electrical safety requirements for HBES/BACS. In addition, it defines safety requirements for the interface of equipment intended to be connected to an HBES/BACS. It does not apply to interfaces to other networks.<br/>
+    NOTE An example of other networks is a dedicated ICT network covered by IEC 62949.<br/>
+    This document covers the following requirements and compliance criteria:<br/>
+    - protection against hazards from the device;<br/>
+    - protection against overvoltages on the network;<br/>
+    - protection against touch current;<br/>
+    - protection against hazards caused by different types of network;<br/>
+    - protection of the communication wiring against overheating caused by excessive current.
 status:
   stage:
     content: PUBLISHED
@@ -109,7 +108,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

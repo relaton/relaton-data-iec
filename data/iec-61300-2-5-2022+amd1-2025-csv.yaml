@@ -1,7 +1,7 @@
 ---
 id: IEC61300252022AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61300-2-5:2022+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61300-2-5:2022-09::csv:+amd:1:2025-07
+- content: urn:iec:std:iec:61300-2-5:2022::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -81,16 +81,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61300-2-5:2022+AMD1:2025 CSV determines the ability of the cable attachment
-    element of the device under test (DUT) to withstand torsional loads that can be
-    experienced during installation and normal service. This fourth edition cancels
-    and replaces the third edition published in 2009. This edition constitutes a technical
-    revision.<br />\r\nThis edition includes the following significant technical changes
-    with respect to the previous edition:<br />\r\n- the terms and definitions clause
-    was added;<br />\r\n- the procedure description was modified;<br />\r\n- new subsections
-    are included in Clause 6 for a better sequence description;<br />\r\n- Figure
-    1 was improved and Figure 2 was updated in text descriptions;<br />\r\n- the severity
-    of the test was updated according to the component and operation conditions."
+  content: |-
+    IEC 61300-2-5:2022+AMD1:2025 CSV determines the ability of the cable attachment element of the device under test (DUT) to withstand torsional loads that can be experienced during installation and normal service. This fourth edition cancels and replaces the third edition published in 2009. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - the terms and definitions clause was added;<br/>
+    - the procedure description was modified;<br/>
+    - new subsections are included in Clause 6 for a better sequence description;<br/>
+    - Figure 1 was improved and Figure 2 was updated in text descriptions;<br/>
+    - the severity of the test was updated according to the component and operation conditions.
 status:
   stage:
     content: PUBLISHED
@@ -112,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

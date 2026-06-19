@@ -1,7 +1,7 @@
 ---
 id: IEC611624602018RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC 61162-460:2018 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61162-460::rlv
+- content: 'urn:iec:std:iec:61162-460:2018::rlv:'
   type: URN
 date:
 - type: published
@@ -85,27 +85,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61162-460:2018 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61162-460:2018
-    is an add-on to IEC 61162-450 where higher safety and security standards are needed,
-    for example due to higher exposure to external threats or to improve network integrity.
-    This document provides requirements and test methods for equipment to be used
-    in an IEC 61162-460 compliant network as well as requirements for the network
-    itself and requirements for interconnection from the network to other networks.
-    This document also contains requirements for a redundant IEC 61162-460 compliant
-    network.<br />\r\nThis document does not introduce new application level protocol
-    requirements to those that are defined in IEC 61162-450.<br />\r\nThis second
-    edition of IEC 61162-460 cancels and replaces the first edition published in 2015.
-    This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) 460-Switches and 460-Forwarders are required to implement IGMP snooping;<br
-    />\r\nb) connection between secure and non-secure areas requires a 460-Forwarder
-    as an isolation element;<br />\r\nc) SFI collision detection added as function
-    of network monitoring;<br />\r\nd) 460-Gateway and 460-Wireless gateway are no
-    longer required to report to the network monitoring;<br />\r\ne) all alerts from
-    network monitoring have standardized alert identifiers."
+  content: |-
+    IEC 61162-460:2018 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61162-460:2018 is an add-on to IEC 61162-450 where higher safety and security standards are needed, for example due to higher exposure to external threats or to improve network integrity. This document provides requirements and test methods for equipment to be used in an IEC 61162-460 compliant network as well as requirements for the network itself and requirements for interconnection from the network to other networks. This document also contains requirements for a redundant IEC 61162-460 compliant network.<br/>
+    This document does not introduce new application level protocol requirements to those that are defined in IEC 61162-450.<br/>
+    This second edition of IEC 61162-460 cancels and replaces the first edition published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) 460-Switches and 460-Forwarders are required to implement IGMP snooping;<br/>
+    b) connection between secure and non-secure areas requires a 460-Forwarder as an isolation element;<br/>
+    c) SFI collision detection added as function of network monitoring;<br/>
+    d) 460-Gateway and 460-Wireless gateway are no longer required to report to the network monitoring;<br/>
+    e) all alerts from network monitoring have standardized alert identifiers.
 status:
   stage:
     content: REVISED
@@ -127,7 +118,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

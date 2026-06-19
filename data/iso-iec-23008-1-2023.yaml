@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300812023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23008-1:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23008-1:2023-01:::'
+- content: 'urn:iec:std:iso-iec:23008-1:2023:::'
   type: URN
 date:
 - type: published
@@ -94,11 +94,11 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document specifies MPEG media transport (MMT) technologies, which include a single encapsulation format, delivery protocols and signalling messages for transport and delivery of multimedia data over heterogeneous packet-switched networks for multimedia services. Types of packet-switched networks supported by this document include bidirectional networks such as Internet Protocol (IP) networks and unidirectional networks such as digital broadcast networks (which may or may not use the IP).</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The technologies specified by this document belong to one of three functional areas of MMT: media processing unit (MPU) format, signalling messages and delivery protocol.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The MPU format specifies the “</span><span class="Courier"><span lang="EN-GB" style="mso-bidi-font-family: 'Times New Roman';">mpuf</span></span><span lang="EN-GB">” branded ISO-based media file format (ISOBMFF) encapsulating both timed and non-timed media contents. The MPU format is a self-contained ISOBMFF structure enabling independent consumption of media data, which hides codec-specific details from the delivery function.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The signalling functional area specifies the formats of signalling messages carrying information for managing media content delivery and consumption, e.g. specific media locations and delivery configuration of media contents.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The delivery functional area specifies the payload formats that are independent of media and codec types, which allow fragmentation and aggregation of contents encapsulated as specified by this document for delivery using packet-switched oriented transport protocols. The delivery functional area also provides an application layer transport protocol that allows for advanced delivery of media contents.</span></p>
+    <p class="MsoBodyText">This document specifies MPEG media transport (MMT) technologies, which include a single encapsulation format, delivery protocols and signalling messages for transport and delivery of multimedia data over heterogeneous packet-switched networks for multimedia services. Types of packet-switched networks supported by this document include bidirectional networks such as Internet Protocol (IP) networks and unidirectional networks such as digital broadcast networks (which may or may not use the IP).</p>
+    <p class="MsoBodyText">The technologies specified by this document belong to one of three functional areas of MMT: media processing unit (MPU) format, signalling messages and delivery protocol.</p>
+    <p class="MsoBodyText">The MPU format specifies the “mpuf” branded ISO-based media file format (ISOBMFF) encapsulating both timed and non-timed media contents. The MPU format is a self-contained ISOBMFF structure enabling independent consumption of media data, which hides codec-specific details from the delivery function.</p>
+    <p class="MsoBodyText">The signalling functional area specifies the formats of signalling messages carrying information for managing media content delivery and consumption, e.g. specific media locations and delivery configuration of media contents.</p>
+    <p class="MsoBodyText">The delivery functional area specifies the payload formats that are independent of media and codec types, which allow fragmentation and aggregation of contents encapsulated as specified by this document for delivery using packet-switched oriented transport protocols. The delivery functional area also provides an application layer transport protocol that allows for advanced delivery of media contents.</p>
 status:
   stage:
     content: PUBLISHED
@@ -132,7 +132,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

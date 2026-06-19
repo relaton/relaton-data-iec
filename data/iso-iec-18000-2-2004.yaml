@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1800022004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 18000-2:2004
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:18000-2:2004-09:::'
+- content: 'urn:iec:std:iso-iec:18000-2:2004:::'
   type: URN
 date:
 - type: published
@@ -101,7 +101,7 @@ abstract:
     <p>ISO/IEC 18000-2:2004 defines the air interface for radio-frequency identification (RFID) devices operating below 135 kHz used in item management applications. Its purpose is to provide a common technical specification for RFID devices to allow for compatibility and to encourage inter-operability of products for the growing RFID market in the international marketplace. ISO/IEC 18000-2:2004 defines the forward and return link parameters for technical attributes including, but not limited to, operating frequency, operating channel accuracy, occupied channel bandwidth, spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy, bit transmission order. It further defines the communications protocol used in the air interface.</p>
     <p>ISO/IEC 18000-2:2004 contains two types. The detailed technical differences between the types are shown in the parameter tables.</p>
     <p>ISO/IEC 18000-2:2004 specifies</p>
-    <ul><li>the physical layer that is used for communication between the interrogator and the tag;</li><li>the protocol and the commands;</li><li>the method to detect and communicate with one tag among several tags ("anti-collision").</li></ul>
+    the physical layer that is used for communication between the interrogator and the tag;the protocol and the commands;the method to detect and communicate with one tag among several tags ("anti-collision").
     <p>It specifies two types of tags: Type A (FDX) and Type B (HDX). These two types differ only by their physical layer. Both types support the same anti-collision and protocol.</p>
     <p>FDX tags are permanently powered by the interrogator, including during the tag-to-interrogator transmission. They operate at 125 kHz. </p>
     <p>HDX tags are powered by the interrogator, except during the tag-to-interrogator transmission. They operate at 134,2 kHz. An alternative operating frequency is described. </p>
@@ -139,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

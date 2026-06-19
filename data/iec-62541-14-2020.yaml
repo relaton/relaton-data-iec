@@ -1,7 +1,7 @@
 ---
 id: IEC62541142020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-14:2020
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-14:2020-07:::'
+- content: 'urn:iec:std:iec:62541-14:2020:::'
   type: URN
 date:
 - type: published
@@ -91,36 +91,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-14:2020 defines the OPC Unified Architecture (OPC UA) PubSub
-    communication model. It defines an OPC UA publish subscribe pattern which complements
-    the client server pattern defined by the Services in IEC 62541-4. IEC TR 62541-1
-    gives an overview of the two models and their distinct uses.<br />\r\nPubSub allows
-    the distribution of data and events from an OPC UA information source to interested
-    observers inside a device network as well as in IT and analytics cloud systems.<br
-    />\r\nThis document consists of<br />\r\n• a general introduction of the PubSub
-    concepts,<br />\r\n• a definition of the PubSub configuration parameters,<br />\r\n•
-    mapping of PubSub concepts and configuration parameters to messages and transport
-    protocols, and<br />\r\n• a PubSub configuration model.<br />\r\nNot all OPC UA
-    Applications will need to implement all defined message and transport protocol
-    mappings. IEC 62541-7 defines the Profile that dictates which mappings need to
-    be implemented in order to be compliant with a particular Profile."
+  content: |-
+    IEC 62541-14:2020 defines the OPC Unified Architecture (OPC UA) PubSub communication model. It defines an OPC UA publish subscribe pattern which complements the client server pattern defined by the Services in IEC 62541-4. IEC TR 62541-1 gives an overview of the two models and their distinct uses.<br/>
+    PubSub allows the distribution of data and events from an OPC UA information source to interested observers inside a device network as well as in IT and analytics cloud systems.<br/>
+    This document consists of<br/>
+    • a general introduction of the PubSub concepts,<br/>
+    • a definition of the PubSub configuration parameters,<br/>
+    • mapping of PubSub concepts and configuration parameters to messages and transport protocols, and<br/>
+    • a PubSub configuration model.<br/>
+    Not all OPC UA Applications will need to implement all defined message and transport protocol mappings. IEC 62541-7 defines the Profile that dictates which mappings need to be implemented in order to be compliant with a particular Profile.
 - language: fr
   script: Latn
-  content: "IEC 62541-14:2020 définit le modèle de communication PubSub de l'architecture
-    unifiée OPC (OPC UA). Elle définit un modèle publication/abonnement OPC UA qui
-    vient compléter le modèle client/serveur défini par les Services dans l'IEC 62541-4.<br
-    />\r\nUne présentation des deux modèles et de leurs utilisations est donnée dans
-    l'IEC TR 62541-1.<br />\r\nPubSub permet de distribuer des données et des événements
-    provenant d'une source d'informations OPC UA aux observateurs d'intérêt à l'intérieur
-    d'un réseau de dispositifs ainsi que dans les systèmes Cloud informatiques et
-    d'analyse.<br />\r\nLe présent document se compose:<br />\r\n• d'une présentation
-    générale des concepts PubSub;<br />\r\n• d'une définition des paramètres de configuration
-    PubSub;<br />\r\n• d'un mapping des concepts et des paramètres de configuration
-    PubSub avec les messages et les protocoles de transport; et<br />\r\n• d'un modèle
-    de configuration PubSub.<br />\r\nIl n'est pas nécessaire que l'ensemble des Applications
-    OPC UA mettent en œuvre tous les mappings avec les messages et les protocoles
-    de transport. L'IEC 62541-7 définit le Profil qui dicte les mappings qu'il est
-    nécessaire de mettre en œuvre afin d'être conforme à un Profil particulier."
+  content: |-
+    IEC 62541-14:2020 définit le modèle de communication PubSub de l'architecture unifiée OPC (OPC UA). Elle définit un modèle publication/abonnement OPC UA qui vient compléter le modèle client/serveur défini par les Services dans l'IEC 62541-4.<br/>
+    Une présentation des deux modèles et de leurs utilisations est donnée dans l'IEC TR 62541-1.<br/>
+    PubSub permet de distribuer des données et des événements provenant d'une source d'informations OPC UA aux observateurs d'intérêt à l'intérieur d'un réseau de dispositifs ainsi que dans les systèmes Cloud informatiques et d'analyse.<br/>
+    Le présent document se compose:<br/>
+    • d'une présentation générale des concepts PubSub;<br/>
+    • d'une définition des paramètres de configuration PubSub;<br/>
+    • d'un mapping des concepts et des paramètres de configuration PubSub avec les messages et les protocoles de transport; et<br/>
+    • d'un modèle de configuration PubSub.<br/>
+    Il n'est pas nécessaire que l'ensemble des Applications OPC UA mettent en œuvre tous les mappings avec les messages et les protocoles de transport. L'IEC 62541-7 définit le Profil qui dicte les mappings qu'il est nécessaire de mettre en œuvre afin d'être conforme à un Profil particulier.
 status:
   stage:
     content: REVISED
@@ -142,7 +133,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

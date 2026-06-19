@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1977622008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,7 +27,7 @@ docidentifier:
 - content: ISO/IEC 19776-2:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19776-2:2008-10:::'
+- content: 'urn:iec:std:iso-iec:19776-2:2008:::'
   type: URN
 date:
 - type: published
@@ -96,12 +96,12 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p>ISO/IEC 19775, Extensible 3D (X3D), defines a system that integrates three-dimensional (3D) graphics and multimedia. Conceptually, each X3D file is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. ISO/IEC 19776-2:2008 defines a mapping of the abstract objects in X3D to a specific encoding using the technique defined in ISO/IEC 14772, <i>Information technology - Computer graphics and image processing - The Virtual Reality Modeling Language (VRML)</i>.</p>
+    <p>ISO/IEC 19775, Extensible 3D (X3D), defines a system that integrates three-dimensional (3D) graphics and multimedia. Conceptually, each X3D file is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. ISO/IEC 19776-2:2008 defines a mapping of the abstract objects in X3D to a specific encoding using the technique defined in ISO/IEC 14772, Information technology - Computer graphics and image processing - The Virtual Reality Modeling Language (VRML).</p>
     <p>Each Classic VRML-encoded X3D file</p>
-    <ul>
-    <li>supports all of the purposes of X3D files defined in ISO/IEC 19775, and</li>
-    <li>encodes X3D constructs in Classic VRML format.</li>
-    </ul>
+
+    supports all of the purposes of X3D files defined in ISO/IEC 19775, and
+    encodes X3D constructs in Classic VRML format.
+
     <p>A Classic VRML-encoded X3D file may be referenced from files using other encodings and may itself reference X3D files encoded using other encodings. Such files can only be processed by browsers which conform to all of the utilized encodings.</p>
 status:
   stage:
@@ -136,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC6121522021RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61215-2:2021 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61215-2::rlv
+- content: 'urn:iec:std:iec:61215-2:2021::rlv:'
   type: URN
 date:
 - type: published
@@ -81,31 +81,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61215-2:2021 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61215-2:2021
-    lays down requirements for the design qualification of terrestrial photovoltaic
-    modules suitable for long-term operation in open-air climates. This document is
-    intended to apply to all terrestrial flat plate module materials such as crystalline
-    silicon module types as well as thin-film modules. The objective of this test
-    sequence is to determine the electrical characteristics of the module and to show,
-    as far as possible within reasonable constraints of cost and time, that the module
-    is capable of withstanding prolonged exposure outdoors. This second edition of
-    IEC 61215-2 cancels and replaces the first edition of IEC 61215-2 issued in 2016.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na. Addition of cyclic (dynamic) mechanical load
-    testing (MQT 20).<br />\r\nb. Addition of a test for detection of potential-induced
-    degradation (MQT 21).<br />\r\nc. Addition of test methods required for bifacial
-    PV modules.<br />\r\nd. Addition of test methods required for flexible modules.
-    This includes the addition of the bending test (MQT 22).<br />\r\ne. Revision
-    of simulator requirements to ensure uncertainty is both well-defined and minimized.<br
-    />\r\nf. Correction to the hot spot endurance test, where the procedure for monolithically
-    integrated (MLI) thin film technologies (MQT 09.2) previously included two sections
-    describing a procedure only appropriate for silicon modules.<br />\r\ng. Selection
-    of three diodes, rather than all, for testing in the bypass diode thermal test
-    (MQT 18).<br />\r\nh. Removal of the nominal module operating test (NMOT), and
-    associated test of performance at NMOT, from the IEC 61215 series."
+  content: |-
+    IEC 61215-2:2021 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61215-2:2021 lays down requirements for the design qualification of terrestrial photovoltaic modules suitable for long-term operation in open-air climates. This document is intended to apply to all terrestrial flat plate module materials such as crystalline silicon module types as well as thin-film modules. The objective of this test sequence is to determine the electrical characteristics of the module and to show, as far as possible within reasonable constraints of cost and time, that the module is capable of withstanding prolonged exposure outdoors. This second edition of IEC 61215-2 cancels and replaces the first edition of IEC 61215-2 issued in 2016. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a. Addition of cyclic (dynamic) mechanical load testing (MQT 20).<br/>
+    b. Addition of a test for detection of potential-induced degradation (MQT 21).<br/>
+    c. Addition of test methods required for bifacial PV modules.<br/>
+    d. Addition of test methods required for flexible modules. This includes the addition of the bending test (MQT 22).<br/>
+    e. Revision of simulator requirements to ensure uncertainty is both well-defined and minimized.<br/>
+    f. Correction to the hot spot endurance test, where the procedure for monolithically integrated (MLI) thin film technologies (MQT 09.2) previously included two sections describing a procedure only appropriate for silicon modules.<br/>
+    g. Selection of three diodes, rather than all, for testing in the bypass diode thermal test (MQT 18).<br/>
+    h. Removal of the nominal module operating test (NMOT), and associated test of performance at NMOT, from the IEC 61215 series.
 status:
   stage:
     content: PUBLISHED
@@ -127,7 +114,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

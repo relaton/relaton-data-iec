@@ -1,7 +1,7 @@
 ---
 id: IECTS630502019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC TS 63050:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63050:2019-10:ts::'
+- content: 'urn:iec:std:iec:63050:2019:ts::'
   type: URN
 date:
 - type: published
@@ -81,24 +81,15 @@ abstract:
     the type of radiation intended to be measured. Tests according to this document
     determine whether a single radiation pulse can be measured correctly even if the
     dosemeter is in the internal state relevant for measuring background or environmental
-    radiation.<br />\r\nThe annex in the document gives some parameter values for
-    typical workplaces where pulsed radiation occurs.<br />\r\nThis document considers
-    the pulsation of the radiation field as an additional influence quantity like
-    particle energy and direction of radiation incidence. Therefore, the tests described
-    are additional to all the tests in the instrument specific standards. This document
-    describes methods to determine the following characteristic parameters of the
-    dosemeters:\r\n<ul>\r\n\t<li>the maximum measurable dose rate in the pulse, <span
-    style=\"background-color:#ffffff; color:#333333; font-family:sans-serif,Arial,Verdana,&quot;Trebuchet
-    MS&quot;; font-size:13px\">H</span><span style=\"color:#333333; font-family:&quot;Arial&quot;,sans-serif;
-    font-size:8pt\">meas,max</span></li>\r\n\t<li>the maximum measurable dose in the
-    pulse, H<span style=\"color:#333333; font-family:&quot;Arial&quot;,sans-serif;
-    font-size:8pt\">meas,max</span></li>\r\n\t<li>the minimal pulse duration, <span
-    style=\"font-size:10.0pt\">t</span><span style=\"font-family:&quot;Arial&quot;,sans-serif;
-    font-size:8.0pt\">meas,min</span> and</li>\r\n\t<li>the range for the pulse repetition
-    frequency, <span style=\"font-size:10.0pt\">f</span><span style=\"font-family:&quot;Arial&quot;,sans-serif;
-    font-size:8.0pt\">meas,min</span><span style=\"font-family:&quot;Arial&quot;,sans-serif;
-    font-size:10.0pt\"> </span> to <span style=\"font-size:10.0pt\">f</span><span
-    style=\"font-family:&quot;Arial&quot;,sans-serif; font-size:8.0pt\">meas,max</span></li>\r\n</ul>"
+    radiation.<br/>\nThe annex in the document gives some parameter values for typical
+    workplaces where pulsed radiation occurs.<br/>\nThis document considers the pulsation
+    of the radiation field as an additional influence quantity like particle energy
+    and direction of radiation incidence. Therefore, the tests described are additional
+    to all the tests in the instrument specific standards. This document describes
+    methods to determine the following characteristic parameters of the dosemeters:\n\n\tthe
+    maximum measurable dose rate in the pulse, Hmeas,max\n\tthe maximum measurable
+    dose in the pulse, Hmeas,max\n\tthe minimal pulse duration, tmeas,min and\n\tthe
+    range for the pulse repetition frequency, fmeas,min  to fmeas,max\n"
 status:
   stage:
     content: PUBLISHED
@@ -120,7 +111,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

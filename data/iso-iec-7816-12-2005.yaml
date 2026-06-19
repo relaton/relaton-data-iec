@@ -1,7 +1,7 @@
 ---
 id: ISOIEC7816122005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 7816-12:2005
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:7816-12:2005-10:::'
+- content: 'urn:iec:std:iso-iec:7816-12:2005:::'
   type: URN
 date:
 - type: published
@@ -97,7 +97,7 @@ abstract:
   content: |-
     <p>ISO/IEC 7816-12:2005 specifies the operating conditions of an integrated circuit card that provides a USB interface. An integrated circuit card with a USB interface is named USB-ICC.</p>
     <p>ISO/IEC 7816-12:2005 specifies</p>
-    <ul><li>the electrical conditions when a USB-ICC is operated by an interface device - for those contact fields that are not used, when the USB interface is applied;</li><li>the USB standard descriptors and the USB-ICC class specific descriptor;</li><li>the data transfer between host and USB-ICC using bulk transfers or control transfers;</li><li>the control transfers which allow two different protocols named version A and version B;</li><li>the (optional) interrupt transfers to indicate asynchronous events;</li><li>status and error conditions.</li></ul>
+    the electrical conditions when a USB-ICC is operated by an interface device - for those contact fields that are not used, when the USB interface is applied;the USB standard descriptors and the USB-ICC class specific descriptor;the data transfer between host and USB-ICC using bulk transfers or control transfers;the control transfers which allow two different protocols named version A and version B;the (optional) interrupt transfers to indicate asynchronous events;status and error conditions.
     <p>ISO/IEC 7816-12:2005 provides two protocols for control transfers. This is to support the protocol T=0 (version A) or to use the transfer on APDU level (version B). ISO/IEC 7816-12:2005 provides the state diagrams for the USB-ICC for each of the transfers (bulk transfers, control transfers version A and version B). Examples of possible sequences which the USB-ICC must be able to handle are given in an informative annex.</p>
 status:
   stage:
@@ -132,7 +132,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

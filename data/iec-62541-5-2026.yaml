@@ -1,7 +1,7 @@
 ---
 id: IEC6254152026
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-5:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-5:2026-01:::'
+- content: 'urn:iec:std:iec:62541-5:2026:::'
   type: URN
 date:
 - type: published
@@ -89,53 +89,49 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-5:2026 This edition includes the following significant technical
-    changes with respect to the previous edition:<br />\r\na) Annex B has been removed
-    and used to create IEC 62451-16;<br />\r\nb) Annex C has been removed and used
-    to create IEC 62451-20;<br />\r\nc) currency information model has been added;<br
-    />\r\nd) information model for Interfaces and AddIns has been added;<br />\r\ne)
-    information model for Method Metadata has been added;<br />\r\nf) MaxSessions,
-    MaxSubscriptions, and MaxMonitoredItems have been added to capabilities;<br />\r\ng)
-    information model for ordered list of objects has been added;<br />\r\nh) PortableQualifiedName
-    and PortableNodeId DataTypes have been added;<br />\r\ni) UriString DataType has
-    been added;<br />\r\nj) SemanticVersionString DataType has been added;<br />\r\nk)
-    AssociatedWith Reference Type has been added;<br />\r\nl) ConfigurationVersion
-    Property has been added to NamespaceMetadataType;<br />\r\nm) AuditClientEventType
-    and AuditClientUpdateMethodResultEventType have been added;<br />\r\nn) ModelVersion
-    has been added to NamespaceMetadataType;<br />\r\no) NoTransparentBackupRedundancyType
-    has been added to support a Primary/Standby use case;<br />\r\np) BitFieldType
-    and BitFieldDefinitionType have been added.<br />\r\nThis fourth edition cancels
-    and replaces the third edition published in 2020. This edition constitutes a technical
-    revision."
+  content: |-
+    IEC 62541-5:2026 This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Annex B has been removed and used to create IEC 62451-16;<br/>
+    b) Annex C has been removed and used to create IEC 62451-20;<br/>
+    c) currency information model has been added;<br/>
+    d) information model for Interfaces and AddIns has been added;<br/>
+    e) information model for Method Metadata has been added;<br/>
+    f) MaxSessions, MaxSubscriptions, and MaxMonitoredItems have been added to capabilities;<br/>
+    g) information model for ordered list of objects has been added;<br/>
+    h) PortableQualifiedName and PortableNodeId DataTypes have been added;<br/>
+    i) UriString DataType has been added;<br/>
+    j) SemanticVersionString DataType has been added;<br/>
+    k) AssociatedWith Reference Type has been added;<br/>
+    l) ConfigurationVersion Property has been added to NamespaceMetadataType;<br/>
+    m) AuditClientEventType and AuditClientUpdateMethodResultEventType have been added;<br/>
+    n) ModelVersion has been added to NamespaceMetadataType;<br/>
+    o) NoTransparentBackupRedundancyType has been added to support a Primary/Standby use case;<br/>
+    p) BitFieldType and BitFieldDefinitionType have been added.<br/>
+    This fourth edition cancels and replaces the third edition published in 2020. This edition constitutes a technical revision.
 - language: fr
   script: Latn
-  content: "IEC 62541-5:2026 définit le Modèle d'information. Le Modèle d'information
-    décrit des Nœuds normalisés de l'AddressSpace d'un Serveur. Ces Nœuds sont des
-    types normalisés ainsi que des instances normalisées utilisés pour le diagnostic
-    ou comme des points d'entrée à des Nœuds spécifiques au serveur. Ainsi, le Modèle
-    d'information définit l'AddressSpace d'un Serveur OPC UA vide. Cependant, tous
-    les Serveurs ne sont pas supposés fournir la totalité de ces Nœuds.<br />\r\nL'Annexe
-    C normative définit le Système de description de Type OPC Binary.<br />\r\nL'Annexe
-    B fait référence aux informations d'encodage pour les DataTypes personnalisés
-    dans les versions précédentes du présent document.<br />\r\nCette quatrième édition
-    annule et remplace la troisième édition parue en 2020. Cette édition constitue
-    une révision technique.<br />\r\nCette édition inclut les modifications techniques
-    majeures suivantes par rapport à l'édition précédente:<br />\r\na) l'Annexe B
-    a été supprimée et utilisée afin de créer l'IEC 62451-16;<br />\r\nb) l'Annexe
-    C a été supprimée et utilisée afin de créer l'IEC 62451-20;<br />\r\nc) un modèle
-    d'information a été ajouté pour les Devises;<br />\r\nd) un modèle d'information
-    a été ajouté pour les Interfaces et les AddIns;<br />\r\ne) un modèle d'information
-    a été ajouté pour les Métadonnées de Méthode;<br />\r\nf) les capacités MaxSessions,
-    MaxSubscriptions et MaxMonitoredItems ont été ajoutées;<br />\r\ng) un modèle
-    d'information a été ajouté pour la liste ordonnée d'objets;<br />\r\nh) les DataTypes
-    PortableQualifiedName et PortableNodeId ont été ajoutés;<br />\r\ni) le DataType
-    UriString a été jouté;<br />\r\nj) le DataType SemanticVersionString a été ajouté;<br
-    />\r\nk) le Type de Référence AssociatedWith a été ajouté;<br />\r\nl) la Propriété
-    ConfigurationVersion a été ajoutée au NamespaceMetadataType;<br />\r\nm) l'AuditClientEventType
-    et l'AuditClientUpdateMethodResultEventType ont été ajoutés;<br />\r\nn) la ModelVersion
-    a été ajoutée au NamespaceMetadataType;<br />\r\no) le NoTransparentBackupRedundancyType
-    a été ajouté pour prendre en charge un cas d'utilisation primaire/de secours;<br
-    />\r\np) le BitFieldType et le BitFieldDefinitionType ont été ajoutés."
+  content: |-
+    IEC 62541-5:2026 définit le Modèle d'information. Le Modèle d'information décrit des Nœuds normalisés de l'AddressSpace d'un Serveur. Ces Nœuds sont des types normalisés ainsi que des instances normalisées utilisés pour le diagnostic ou comme des points d'entrée à des Nœuds spécifiques au serveur. Ainsi, le Modèle d'information définit l'AddressSpace d'un Serveur OPC UA vide. Cependant, tous les Serveurs ne sont pas supposés fournir la totalité de ces Nœuds.<br/>
+    L'Annexe C normative définit le Système de description de Type OPC Binary.<br/>
+    L'Annexe B fait référence aux informations d'encodage pour les DataTypes personnalisés dans les versions précédentes du présent document.<br/>
+    Cette quatrième édition annule et remplace la troisième édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) l'Annexe B a été supprimée et utilisée afin de créer l'IEC 62451-16;<br/>
+    b) l'Annexe C a été supprimée et utilisée afin de créer l'IEC 62451-20;<br/>
+    c) un modèle d'information a été ajouté pour les Devises;<br/>
+    d) un modèle d'information a été ajouté pour les Interfaces et les AddIns;<br/>
+    e) un modèle d'information a été ajouté pour les Métadonnées de Méthode;<br/>
+    f) les capacités MaxSessions, MaxSubscriptions et MaxMonitoredItems ont été ajoutées;<br/>
+    g) un modèle d'information a été ajouté pour la liste ordonnée d'objets;<br/>
+    h) les DataTypes PortableQualifiedName et PortableNodeId ont été ajoutés;<br/>
+    i) le DataType UriString a été jouté;<br/>
+    j) le DataType SemanticVersionString a été ajouté;<br/>
+    k) le Type de Référence AssociatedWith a été ajouté;<br/>
+    l) la Propriété ConfigurationVersion a été ajoutée au NamespaceMetadataType;<br/>
+    m) l'AuditClientEventType et l'AuditClientUpdateMethodResultEventType ont été ajoutés;<br/>
+    n) la ModelVersion a été ajoutée au NamespaceMetadataType;<br/>
+    o) le NoTransparentBackupRedundancyType a été ajouté pour prendre en charge un cas d'utilisation primaire/de secours;<br/>
+    p) le BitFieldType et le BitFieldDefinitionType ont été ajoutés.
 status:
   stage:
     content: PUBLISHED
@@ -157,7 +153,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

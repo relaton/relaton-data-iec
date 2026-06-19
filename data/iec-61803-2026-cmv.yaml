@@ -1,0 +1,117 @@
+---
+id: IEC618032026CMV
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Determination of power losses in high-voltage direct current (HVDC) converter
+    stations
+  type: title-main
+- language: en
+  script: Latn
+  content: Determination of power losses in high-voltage direct current (HVDC) converter
+    stations
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113778
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61803{ed3.0.CMV}en.pdf
+docidentifier:
+- content: IEC 61803:2026 CMV
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61803:2026::cmv:'
+  type: URN
+date:
+- type: published
+  at: '2026-05-26'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 22/SC 22F
+      identifier:
+      - content: '22'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61803:2026 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 61803:2026 edition 3.0 and the previous IEC 61803:2020 edition 2.0. Furthermore, comments from IEC SC 22F experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
+    <br/>
+    IEC 61803:2026 applies to all high-voltage direct current (HVDC) converter stations with line-commutated converters (LCC) as well with voltage-sourced converters (VSC) used for power exchange (power transmission or back-to-back installation) in utility systems. For line-commutated converters (LCC), this document presumes the use of 12-pulse thyristor converters but can, with due care, also be used for 6-pulse thyristor converters. Where VSC is referred to in this document, it is assumed to be of the MMC-type or similar, with very low harmonic generation. It is important to treat other types of VSC as appropriate. In some applications, synchronous compensators, static var compensators (SVC), or static synchronous compensator (STATCOM) are connected to the AC bus of the HVDC converter station. The loss determination procedures for such equipment are not included in this document. This document presents a set of standard procedures for determining the total losses of an HVDC converter station, except for VSC valves which are covered by the IEC 62751 series. The procedures cover all parts, except as noted above, and address no-load operation and operating losses together with their methods of calculation which use, wherever possible, measured parameters. Converter station designs employing novel components or circuit configurations compared to the typical design assumed in this document, or designs equipped with unusual auxiliary circuits that can affect the losses, are assessed on their own merits.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) HVDC stations with voltage-sourced converters (VSC) technology have been included;<br/>
+    b) to facilitate the application of this document and to ensure its quality remains consistent, 5.1.8 and 5.8 have been reviewed, taking into consideration that the present thyristor production technology provides considerably less thyristor parameters dispersion comparing with the situation in 1999 when the first edition of IEC 61803 was developed; therefore, the production records of thyristors can be used for the power losses calculation;<br/>
+    c) the calculation of the total station load losses (cases D1 and D2 in Annex C) has been corrected.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '121979'
+  price_code: iec:MS

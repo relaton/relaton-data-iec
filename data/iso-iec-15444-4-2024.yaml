@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1544442024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 15444-4:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:15444-4:2024-05:::'
+- content: 'urn:iec:std:iso-iec:15444-4:2024:::'
   type: URN
 date:
 - type: published
@@ -93,22 +93,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p class="MsoNormal"><span lang="EN-GB">This document</span><span class="MsoFootnoteReference"><span lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt;">1</span></span><span lang="EN-GB"> specifies the framework, concepts, methodology for testing, and criteria to be achieved to claim compliance to Rec. </span><span lang="FR-CH" style="mso-ansi-language: FR-CH;">ITU-T T.800 | ISO/IEC 15444-1 or Rec. ITU-T T.814 | ISO/IEC 15444-15. </span><span lang="EN-GB">It provides a framework for specifying abstract test suites (ATSs) and for defining the procedures to be followed during compliance testing.</span></p>
-    <p class="MsoNormal"><span lang="EN-GB">This document:</span></p>
-    <p class="enumlev1"><span lang="EN-GB">‒<span style="mso-tab-count: 1;">      </span>specifies compliance testing procedures for encoding and decoding using Rec. </span><span lang="FR-CH" style="mso-ansi-language: FR-CH;">ITU-T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.814 | ISO/IEC 15444-15;</span></p>
-    <p class="enumlev1"><span lang="EN-GB">‒<span style="mso-tab-count: 1;">      </span>specifies codestreams, decoded images, and error metrics to be used with the testing procedures;</span></p>
-    <p class="enumlev1"><span lang="EN-GB">‒<span style="mso-tab-count: 1;">      </span>specifies ATSs;</span></p>
-    <p class="enumlev1"><span lang="EN-GB">‒<span style="mso-tab-count: 1;">      </span>provides guidance for creating an encoder compliance test.</span></p>
-    <p class="MsoNormal"><span lang="EN-GB">This document does not include the following tests:</span></p>
-    <p class="MsoNormal"><span lang="EN-GB">Acceptance testing: the process of determining whether an implementation satisfies acceptance criteria and enables the user to determine whether or not to accept the implementation. This includes the planning and execution of several kinds of tests (e.g., functionality, quality, and speed performance testing) that demonstrate that the implementation satisfies the user requirements.</span></p>
-    <p class="MsoNormal"><span lang="EN-GB">Performance testing: measures the performance characteristics of an implementation under test (IUT) such as its throughput and responsiveness, under various conditions.</span></p>
-    <p><span lang="EN-GB" style="font-size: 10.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Robustness testing: the process of determining how well an implementation processes data which contains errors.</span></p>
-    <div style="mso-element: footnote-list;"><!--[endif]-->
-    <div id="ftn1" style="mso-element: footnote;">
-    <p class="MsoFootnoteText" style="margin-left: 12.8pt; text-indent: -12.8pt;"><span class="MsoFootnoteReference"><span lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt;">1</span></span><span lang="EN-GB"> <span style="mso-tab-count: 1;">   </span>This document includes an e<span style="color: black; mso-themecolor: text1;">lectronic attachment with the c</span>odestreams used in the application of the procedures described the Specification.</span></p>
-    </div>
-    </div>
+  content: |+
+    <p class="MsoNormal">This document1 specifies the framework, concepts, methodology for testing, and criteria to be achieved to claim compliance to Rec. ITU-T T.800 | ISO/IEC 15444-1 or Rec. ITU-T T.814 | ISO/IEC 15444-15. It provides a framework for specifying abstract test suites (ATSs) and for defining the procedures to be followed during compliance testing.</p>
+    <p class="MsoNormal">This document:</p>
+    <p class="enumlev1">‒      specifies compliance testing procedures for encoding and decoding using Rec. ITU-T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.814 | ISO/IEC 15444-15;</p>
+    <p class="enumlev1">‒      specifies codestreams, decoded images, and error metrics to be used with the testing procedures;</p>
+    <p class="enumlev1">‒      specifies ATSs;</p>
+    <p class="enumlev1">‒      provides guidance for creating an encoder compliance test.</p>
+    <p class="MsoNormal">This document does not include the following tests:</p>
+    <p class="MsoNormal">Acceptance testing: the process of determining whether an implementation satisfies acceptance criteria and enables the user to determine whether or not to accept the implementation. This includes the planning and execution of several kinds of tests (e.g., functionality, quality, and speed performance testing) that demonstrate that the implementation satisfies the user requirements.</p>
+    <p class="MsoNormal">Performance testing: measures the performance characteristics of an implementation under test (IUT) such as its throughput and responsiveness, under various conditions.</p>
+    <p>Robustness testing: the process of determining how well an implementation processes data which contains errors.</p>
+    <!--[endif]-->
+
+    <p class="MsoFootnoteText" style="margin-left: 12.8pt; text-indent: -12.8pt;">1    This document includes an electronic attachment with the codestreams used in the application of the procedures described the Specification.</p>
+
 status:
   stage:
     content: PUBLISHED
@@ -142,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -150,3 +149,4 @@ ext:
   - code: 35.040.30
     text: Coding of graphical and photographical information
   price_code: iso:F
+...

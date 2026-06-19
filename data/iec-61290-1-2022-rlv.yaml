@@ -1,7 +1,7 @@
 ---
 id: IEC6129012022RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC 61290-1:2022 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61290-1::rlv
+- content: 'urn:iec:std:iec:61290-1:2022::rlv:'
   type: URN
 date:
 - type: published
@@ -80,34 +80,29 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61290-1:2022 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61290-1:2022
-    applies to all commercially available optical amplifiers (OAs) and optically amplified
-    subsystems. It applies to OAs using optically pumped fibres (optical fibre amplifiers
-    (OFAs) based on either rare-earth doped fibres or on the Raman effect), semiconductors
-    (semiconductor optical amplifiers (SOAs)), and aveguides (planar optical waveguide
-    amplifiers (POWAs)). It is specifically directed to single-channel amplifiers.
-    Test methods for multichannel amplifiers are defined in the IEC 61290-10 series.
-    This document establishes uniform requirements for accurate and reliable measurements
-    of the following OA parameters, as defined in IEC 61291-1:2018, Clause 3:<br />\r\na)
-    nominal output signal power;<br />\r\nb) gain;<br />\r\nc) reverse gain;<br />\r\nd)
-    maximum gain;<br />\r\ne) maximum gain wavelength;<br />\r\nf) maximum gain variation
-    with temperature;<br />\r\ng) gain wavelength band;<br />\r\nh) gain wavelength
-    variation;<br />\r\ni) gain stability;<br />\r\nj) polarization-dependent gain;<br
-    />\r\nk) gain ripple (SOA only);<br />\r\nl) large-signal output stability;<br
-    />\r\nm) saturation output power;<br />\r\nn) maximum output signal power;<br
-    />\r\no) maximum total output power.<br />\r\nNOTE 1 The applicability of the
-    test methods described in this document to distributed Raman amplifiers is still
-    under study. NOTE 2 All numerical values followed by (‡) are suggested values
-    for which the measurement is assured. Other values are acceptable if verified.
-    This second edition cancels and replaces the first edition published in 2014.
-    This edition constitutes a technical revision. This edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\n-
-    specification of gain ripple as a new parameter;<br />\r\n- specification of test
-    method and test report for gain ripple measurements;<br />\r\n- use of the term
-    “measurement uncertainty” instead of “measurement accuracy”."
+  content: |-
+    IEC 61290-1:2022 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61290-1:2022 applies to all commercially available optical amplifiers (OAs) and optically amplified subsystems. It applies to OAs using optically pumped fibres (optical fibre amplifiers (OFAs) based on either rare-earth doped fibres or on the Raman effect), semiconductors (semiconductor optical amplifiers (SOAs)), and aveguides (planar optical waveguide amplifiers (POWAs)). It is specifically directed to single-channel amplifiers. Test methods for multichannel amplifiers are defined in the IEC 61290-10 series. This document establishes uniform requirements for accurate and reliable measurements of the following OA parameters, as defined in IEC 61291-1:2018, Clause 3:<br/>
+    a) nominal output signal power;<br/>
+    b) gain;<br/>
+    c) reverse gain;<br/>
+    d) maximum gain;<br/>
+    e) maximum gain wavelength;<br/>
+    f) maximum gain variation with temperature;<br/>
+    g) gain wavelength band;<br/>
+    h) gain wavelength variation;<br/>
+    i) gain stability;<br/>
+    j) polarization-dependent gain;<br/>
+    k) gain ripple (SOA only);<br/>
+    l) large-signal output stability;<br/>
+    m) saturation output power;<br/>
+    n) maximum output signal power;<br/>
+    o) maximum total output power.<br/>
+    NOTE 1 The applicability of the test methods described in this document to distributed Raman amplifiers is still under study. NOTE 2 All numerical values followed by (‡) are suggested values for which the measurement is assured. Other values are acceptable if verified. This second edition cancels and replaces the first edition published in 2014. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - specification of gain ripple as a new parameter;<br/>
+    - specification of test method and test report for gain ripple measurements;<br/>
+    - use of the term “measurement uncertainty” instead of “measurement accuracy”.
 status:
   stage:
     content: PUBLISHED
@@ -129,7 +124,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

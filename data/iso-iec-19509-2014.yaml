@@ -1,7 +1,7 @@
 ---
 id: ISOIEC195092014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: ISO/IEC 19509:2014
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19509:2014-04:::'
+- content: 'urn:iec:std:iso-iec:19509:2014:::'
   type: URN
 date:
 - type: published
@@ -91,12 +91,12 @@ abstract:
   script: Latn
   content: |-
     <p>ISO/IEC 19509:2014 supports the Meta Object Facility (MOF) Core defined in ISO/IEC 19508. MOF is the foundation technology for describing metamodels. It covers a wide range of domains, and is based on a constrained subset of UML. XMI is widely used XML interchange format. It defines the following aspects involved in describing objects in XML:</p>
-    <ul>
-    <li>the representation of objects in terms of XML elements and attributes;</li>
-    <li>the standard mechanisms to link objects within the same file or across files;</li>
-    <li>the validation of XMI documents using XML Schemas;</li>
-    <li>object identity, which allows objects to be referenced from other objects in terms of IDs and UUIDs.</li>
-    </ul>
+
+    the representation of objects in terms of XML elements and attributes;
+    the standard mechanisms to link objects within the same file or across files;
+    the validation of XMI documents using XML Schemas;
+    object identity, which allows objects to be referenced from other objects in terms of IDs and UUIDs.
+
     <p>XMI describes solutions to the above issues by specifying EBNF production rules to create XML documents and Schemas that share objects consistently.</p>
 status:
   stage:
@@ -131,7 +131,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

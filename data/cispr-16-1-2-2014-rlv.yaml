@@ -1,7 +1,7 @@
 ---
 id: CISPR16122014RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: CISPR 16-1-2:2014 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:cispr:16-1-2::rlv
+- content: 'urn:iec:std:cispr:16-1-2:2014::rlv:'
   type: URN
 date:
 - type: published
@@ -81,26 +81,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CISPR 16-1-2:2014 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nCISPR 16-1-2:2014 specifies
-    the characteristics and performance of equipment for the measurement of radio
-    disturbance voltages and currents in the frequency range 9 kHz to 1 GHz. It has
-    the status of a basic EMC publication. Specifications for ancillary apparatus
-    are included for artificial mains networks, current and voltage probes and coupling
-    units for current injection on cables. It is intended that the requirements of
-    this publication are fulfilled at all frequencies and for all levels of radio
-    disturbance voltages and currents within the CISPR indicating range of the measuring
-    equipment. Methods of measurement are covered in the CISPR 16-2 series, and further
-    information on radio disturbance is given in CISPR 16-3, while uncertainties,
-    statistics and limit modelling are covered in the CISPR 16-4 series. This second
-    edition cancels and replaces the first edition published in 2003 and its Amendment
-    1 (2004) and Amendment 2 (2006). This edition constitutes a technical revision
-    which includes the following significant technical changes with respect to the
-    previous edition:<br />\r\n- requirements from CISPR 22 for the AAN have been
-    copied to this standard;<br />\r\n- and the CDNE for measurement of disturbance
-    voltage in the frequency range 30 MHz to 300 MHz is added."
+  content: |-
+    CISPR 16-1-2:2014 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    CISPR 16-1-2:2014 specifies the characteristics and performance of equipment for the measurement of radio disturbance voltages and currents in the frequency range 9 kHz to 1 GHz. It has the status of a basic EMC publication. Specifications for ancillary apparatus are included for artificial mains networks, current and voltage probes and coupling units for current injection on cables. It is intended that the requirements of this publication are fulfilled at all frequencies and for all levels of radio disturbance voltages and currents within the CISPR indicating range of the measuring equipment. Methods of measurement are covered in the CISPR 16-2 series, and further information on radio disturbance is given in CISPR 16-3, while uncertainties, statistics and limit modelling are covered in the CISPR 16-4 series. This second edition cancels and replaces the first edition published in 2003 and its Amendment 1 (2004) and Amendment 2 (2006). This edition constitutes a technical revision which includes the following significant technical changes with respect to the previous edition:<br/>
+    - requirements from CISPR 22 for the AAN have been copied to this standard;<br/>
+    - and the CDNE for measurement of disturbance voltage in the frequency range 30 MHz to 300 MHz is added.
 status:
   stage:
     content: PUBLISHED
@@ -122,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

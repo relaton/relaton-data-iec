@@ -1,7 +1,7 @@
 ---
 id: IEC6113922022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,7 +46,7 @@ docidentifier:
 - content: IEC 61139-2:2022
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61139-2:2022-08:::'
+- content: 'urn:iec:std:iec:61139-2:2022:::'
   type: URN
 date:
 - type: published
@@ -99,38 +99,34 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61139-2:2022 specifies the extensions to SDCI in IEC 61131-9 for functional
-    safety. This comprises:<br />\r\n• a standardized OSSDe interface for redundant
-    switching signals based on IEC 61131-2,<br />\r\n• minor modifications/extensions
-    to state machines of SDCI to support the safety operations,<br />\r\n• a lean
-    functional safety communication protocol on top of the standard SDCI communication
-    which is a black channel according to IEC 61784-3:2021,<br />\r\n• protocol management
-    functions for configuration, parameterization, and commissioning,<br />\r\n• IODD
-    extensions for functional safety,<br />\r\n• a Device tool interface to support
-    Dedicated Tools according to functional safety standards.<br />\r\nThis document
-    does not cover:<br />\r\n• communication interfaces or systems including multi-point
-    or multi-drop linkages,<br />\r\n• communication interfaces or systems including
-    multi-channel or encrypted linkages,<br />\r\n• wireless communication interfaces
-    or systems,<br />\r\n• integration of SDCI-FS into upper-level systems such as
-    fieldbuses/FSCPs."
+  content: |-
+    IEC 61139-2:2022 specifies the extensions to SDCI in IEC 61131-9 for functional safety. This comprises:<br/>
+    • a standardized OSSDe interface for redundant switching signals based on IEC 61131-2,<br/>
+    • minor modifications/extensions to state machines of SDCI to support the safety operations,<br/>
+    • a lean functional safety communication protocol on top of the standard SDCI communication which is a black channel according to IEC 61784-3:2021,<br/>
+    • protocol management functions for configuration, parameterization, and commissioning,<br/>
+    • IODD extensions for functional safety,<br/>
+    • a Device tool interface to support Dedicated Tools according to functional safety standards.<br/>
+    This document does not cover:<br/>
+    • communication interfaces or systems including multi-point or multi-drop linkages,<br/>
+    • communication interfaces or systems including multi-channel or encrypted linkages,<br/>
+    • wireless communication interfaces or systems,<br/>
+    • integration of SDCI-FS into upper-level systems such as fieldbuses/FSCPs.
 - language: fr
   script: Latn
-  content: "L'IEC 61139-2:2022 spécifie les extensions de la SDCI de l'IEC 61131-9
-    pour la sécurité fonctionnelle. Elle comprend:<br />\r\n• une interface OSSDe
-    normalisée pour les signaux de commutation redondants, fondée sur l'IEC 61131-2;<br
-    />\r\n• des modifications/extensions mineures des diagrammes d'états de la SDCI
-    afin de prendre en charge les opérations de sécurité;<br />\r\n• un protocole
-    de communication de sécurité fonctionnelle affiné en plus de la communication
-    SDCI normalisée, qui constitue un canal noir selon l'IEC 61784-3:2021;<br />\r\n•
-    des fonctions de gestion de protocole pour la configuration, le paramétrage et
-    la mise en service;<br />\r\n• des extensions de l'IODD pour la sécurité fonctionnelle;<br
-    />\r\n• une interface d'outil d'Appareil pour prendre en charge les outils dédiés,
-    conformément aux normes de sécurité fonctionnelle.<br />\r\nLe présent document
-    ne couvre pas:<br />\r\n• les interfaces ou systèmes de communication qui incluent
-    des liaisons multipoints;<br />\r\n• les interfaces ou systèmes de communication
-    qui incluent des liaisons chiffrées ou multicanaux;<br />\r\n• les interfaces
-    ou systèmes de communication sans fil;<br />\r\n• l'intégration de la SDCI-FS
-    aux systèmes de niveau supérieur, tels que les bus de terrain/FSCP."
+  content: |-
+    L'IEC 61139-2:2022 spécifie les extensions de la SDCI de l'IEC 61131-9 pour la sécurité fonctionnelle. Elle comprend:<br/>
+    • une interface OSSDe normalisée pour les signaux de commutation redondants, fondée sur l'IEC 61131-2;<br/>
+    • des modifications/extensions mineures des diagrammes d'états de la SDCI afin de prendre en charge les opérations de sécurité;<br/>
+    • un protocole de communication de sécurité fonctionnelle affiné en plus de la communication SDCI normalisée, qui constitue un canal noir selon l'IEC 61784-3:2021;<br/>
+    • des fonctions de gestion de protocole pour la configuration, le paramétrage et la mise en service;<br/>
+    • des extensions de l'IODD pour la sécurité fonctionnelle;<br/>
+    • une interface d'outil d'Appareil pour prendre en charge les outils dédiés, conformément aux normes de sécurité fonctionnelle.<br/>
+    Le présent document ne couvre pas:<br/>
+    • les interfaces ou systèmes de communication qui incluent des liaisons multipoints;<br/>
+    • les interfaces ou systèmes de communication qui incluent des liaisons chiffrées ou multicanaux;<br/>
+    • les interfaces ou systèmes de communication sans fil;<br/>
+    • l'intégration de la SDCI-FS aux systèmes de niveau supérieur, tels que les bus de terrain/FSCP.
 status:
   stage:
     content: PUBLISHED
@@ -152,7 +148,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC101162006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 10116:2006
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:10116:2006-02:::'
+- content: 'urn:iec:std:iso-iec:10116:2006:::'
   type: URN
 date:
 - type: published
@@ -98,9 +98,9 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p>ISO/IEC 10116:2006 specifies modes of operation for an <i>n</i>-bit block cipher. These modes provide methods for encrypting and decrypting data where the bit length of the data may exceed the size of the block cipher. The modes specified in ISO/IEC 10116:2006 only provide protection of data confidentiality. Protection of data integrity and requirements for padding the data are not within the scope of ISO/IEC 10116:2006.</p>
+    <p>ISO/IEC 10116:2006 specifies modes of operation for an n-bit block cipher. These modes provide methods for encrypting and decrypting data where the bit length of the data may exceed the size of the block cipher. The modes specified in ISO/IEC 10116:2006 only provide protection of data confidentiality. Protection of data integrity and requirements for padding the data are not within the scope of ISO/IEC 10116:2006.</p>
     <p>ISO/IEC 10116:2006 specifies five modes of operation:</p>
-    <ol><li>Electronic Codebook (ECB);</li><li>Cipher Block Chaining (CBC), with optional interleaving;</li><li>Cipher Feedback (CFB);</li><li>Output Feedback (OFB); and </li><li>Counter (CTR).</li></ol>
+    Electronic Codebook (ECB);Cipher Block Chaining (CBC), with optional interleaving;Cipher Feedback (CFB);Output Feedback (OFB); and Counter (CTR).
     <p>The Annexes of ISO/IEC 10166:2006 provide object identifiers (according to ISO/IEC 9834) for each mode, a description of the properties of each mode, and diagrams and examples of each mode.</p>
     <p>Block ciphers are specified in ISO/IEC 18033-3. </p>
 status:
@@ -136,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

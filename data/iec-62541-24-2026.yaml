@@ -1,7 +1,7 @@
 ---
 id: IEC62541242026
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-24:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-24:2026-01:::'
+- content: 'urn:iec:std:iec:62541-24:2026:::'
   type: URN
 date:
 - type: published
@@ -89,27 +89,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-24:2026 specifies an OPC UA information model to expose information,
-    at what dates and times specific actions are executed by the OPC UA Server. Those
-    schedules can optionally also be manipulated via the information model.<br />\r\nThe
-    schedule defines on which dates they are active, and can also reference global
-    calendars representing specific dates, for example public holidays. In addition,
-    the schedule defines times and actions that will be executed at that time. The
-    model defines writing Variables and calling Methods but can be extended to other
-    actions as well.<br />\r\nThe NamespaceUri for all NodeIds defined in this document
-    is defined in Annex A."
+  content: |-
+    IEC 62541-24:2026 specifies an OPC UA information model to expose information, at what dates and times specific actions are executed by the OPC UA Server. Those schedules can optionally also be manipulated via the information model.<br/>
+    The schedule defines on which dates they are active, and can also reference global calendars representing specific dates, for example public holidays. In addition, the schedule defines times and actions that will be executed at that time. The model defines writing Variables and calling Methods but can be extended to other actions as well.<br/>
+    The NamespaceUri for all NodeIds defined in this document is defined in Annex A.
 - language: fr
   script: Latn
-  content: "IEC 62541-24:2026 spécifie un Modèle d'information OPC UA pour présenter
-    des informations, aux dates et heures auxquelles des actions spécifiques sont
-    exécutées par le Serveur OPC UA. Ces programmes peuvent aussi être éventuellement
-    manipulés au travers du modèle d'information.<br />\r\nLe programme définit les
-    dates auxquelles les actions ont lieu, et peut également référencer des calendriers
-    globaux indiquant des dates spécifiques, comme les jours fériés. De plus, le programme
-    définit les heures et les actions exécutées au moment indiqué. Le modèle définit
-    l'écriture de Variables et l'appel de Méthodes, mais peut également être étendu
-    à d'autres actions.<br />\r\nLe NamespaceUri pour tous les NodeIds définis dans
-    le présent document est défini à l'Annexe A."
+  content: |-
+    IEC 62541-24:2026 spécifie un Modèle d'information OPC UA pour présenter des informations, aux dates et heures auxquelles des actions spécifiques sont exécutées par le Serveur OPC UA. Ces programmes peuvent aussi être éventuellement manipulés au travers du modèle d'information.<br/>
+    Le programme définit les dates auxquelles les actions ont lieu, et peut également référencer des calendriers globaux indiquant des dates spécifiques, comme les jours fériés. De plus, le programme définit les heures et les actions exécutées au moment indiqué. Le modèle définit l'écriture de Variables et l'appel de Méthodes, mais peut également être étendu à d'autres actions.<br/>
+    Le NamespaceUri pour tous les NodeIds définis dans le présent document est défini à l'Annexe A.
 status:
   stage:
     content: PUBLISHED
@@ -131,7 +120,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

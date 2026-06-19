@@ -1,7 +1,7 @@
 ---
 id: IEC6254182026RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC 62541-8:2026 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62541-8::rlv
+- content: 'urn:iec:std:iec:62541-8:2026::rlv:'
   type: URN
 date:
 - type: published
@@ -76,26 +76,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-8:2026 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62541-8:2025
-    defines the information model associated with Data Access (DA). It particularly
-    includes additional VariableTypes and complementary descriptions of the NodeClasses
-    and Attributes needed for Data Access, additional Properties, and other information
-    and behaviour. The complete address space model, including all NodeClasses and
-    Attributes is specified in IEC 62541‑3. The services to detect and access data
-    are specified in IEC 62541‑4. Annex A specifies how the information received from
-    OPC COM Data Access (DA) Servers is mapped to the Data Access model. This fourth
-    edition cancels and replaces the third edition published in 2020. This edition
-    constitutes a technical revision.<br />\r\nThis edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\na)
-    addition of a \"Quantity Model\" which can be referenced from EngineeringUnit
-    Properties. The model defines quantities and assigned units. In addition it provides
-    alternative units and the conversion to them.<br />\r\nb) addition of rules for
-    ValuePrecision Property:<br />\r\n- can also be used for other subtypes like Duration
-    and Decimal.<br />\r\n- rules have been added when ValuePrecision has negative
-    values."
+  content: |-
+    IEC 62541-8:2026 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62541-8:2025 defines the information model associated with Data Access (DA). It particularly includes additional VariableTypes and complementary descriptions of the NodeClasses and Attributes needed for Data Access, additional Properties, and other information and behaviour. The complete address space model, including all NodeClasses and Attributes is specified in IEC 62541‑3. The services to detect and access data are specified in IEC 62541‑4. Annex A specifies how the information received from OPC COM Data Access (DA) Servers is mapped to the Data Access model. This fourth edition cancels and replaces the third edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) addition of a "Quantity Model" which can be referenced from EngineeringUnit Properties. The model defines quantities and assigned units. In addition it provides alternative units and the conversion to them.<br/>
+    b) addition of rules for ValuePrecision Property:<br/>
+    - can also be used for other subtypes like Duration and Decimal.<br/>
+    - rules have been added when ValuePrecision has negative values.
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

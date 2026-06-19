@@ -1,0 +1,175 @@
+---
+id: ISOIECTS2322042026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Cards and security devices for personal identification
+  type: title-intro
+- language: en
+  script: Latn
+  content: Building blocks for identity management via mobile devices
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Protocols and services for operational phase'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Cards and security devices for personal identification - Building blocks
+    for identity management via mobile devices - Part 4: Protocols and services for
+    operational phase'
+  type: main
+- language: fr
+  script: Latn
+  content: Cartes et dispositifs de sécurité pour l’identification des personnes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Blocs fonctionnels pour la gestion des identités via les dispositifs mobiles
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4: Protocoles et services pour la phase opérationnelle'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Cartes et dispositifs de sécurité pour l’identification des personnes
+    - Blocs fonctionnels pour la gestion des identités via les dispositifs mobiles
+    - Partie 4: Protocoles et services pour la phase opérationnelle'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113036
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiects23220-4{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC TS 23220-4:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:23220-4:2026:ts::'
+  type: URN
+date:
+- type: published
+  at: '2026-04-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 17
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies building blocks for the implementation of the operational phase of mobile eID systems and any other mdoc for national bodies or document-specific standards to create profiles according to their needs.</p>
+    <p>This document specifies the interface between the mdoc app and mdoc reader and the interface between the mdoc reader and the issuing authority infrastructure.</p>
+    <p>More specifically, this document defines transport protocols for various RF solutions and for over the internet. It defines the application layers, such as the request-response protocols between an mdoc app and mdoc reader and between an mdoc reader and issuing authority.</p>
+    <p>It further defines the security mechanism for issuer authentication, mdoc authentication and credential holder verification.</p>
+    <p>This document also specifies mechanisms enabling parties other than the issuing authority to:</p>
+
+    use a machine to obtain the mdoc data;
+    bind the mdoc to the mdoc holder;
+    authenticate the origin of the mdoc data;
+    verify the integrity of the mdoc data.
+
+    <p>The following items are out of scope for this document:</p>
+
+    provisioning of the mdoc data (this is covered by ISO/IEC TS 23220-3);
+    how holder’s consent to share data is obtained;
+    requirements on storage of mdoc data and mdoc private keys.
+
+    <p>Finally, it provides information to create a conformant profile.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  price_code: iso:H

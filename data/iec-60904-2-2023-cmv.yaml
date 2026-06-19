@@ -1,7 +1,7 @@
 ---
 id: IEC6090422023CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 60904-2:2023 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60904-2::cmv
+- content: 'urn:iec:std:iec:60904-2:2023::cmv:'
   type: URN
 date:
 - type: published
@@ -77,25 +77,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60904-2:2023 CMV contains both the official standard and its commented
-    version. The commented version provides you with a quick and easy way to compare
-    all the changes between IEC 60904-2:2023 edition 4.0 and the previous IEC 60904-2:2015
-    edition 3.0. Furthermore, comments from IEC TC 82 experts are provided to explain
-    the reasons of the most relevant changes, or to clarify any part of the content.<br
-    />\r\n<br />\r\nIEC 60904-2:2023 gives requirements for the classification, selection,
-    packaging, marking, calibration and care of photovoltaic reference devices. This
-    document applies to photovoltaic (PV) reference devices that are used to measure
-    the irradiance of natural or simulated sunlight for the purpose of quantifying
-    the electrical performance of photovoltaic devices (cells, modules and arrays).
-    It does not cover photovoltaic reference devices for use under concentrated sunlight.
-    This fourth edition cancels and replaces the third edition published in 2015.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na) added calibration procedures for calibrating
-    PV devices at maximum power by extending the respective Clauses 12 and 13;<br
-    />\r\nb) revised requirements for mandatory measurement of spectral responsivity,
-    temperature coefficients and linearity, depending on usage and allowing some measurements
-    on equivalent devices;<br />\r\nc) revised requirements for built-in shunt resistor;<br
-    />\r\nd) added requirements for traceability of calibration explicitly."
+  content: |-
+    IEC 60904-2:2023 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 60904-2:2023 edition 4.0 and the previous IEC 60904-2:2015 edition 3.0. Furthermore, comments from IEC TC 82 experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
+    <br/>
+    IEC 60904-2:2023 gives requirements for the classification, selection, packaging, marking, calibration and care of photovoltaic reference devices. This document applies to photovoltaic (PV) reference devices that are used to measure the irradiance of natural or simulated sunlight for the purpose of quantifying the electrical performance of photovoltaic devices (cells, modules and arrays). It does not cover photovoltaic reference devices for use under concentrated sunlight. This fourth edition cancels and replaces the third edition published in 2015. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) added calibration procedures for calibrating PV devices at maximum power by extending the respective Clauses 12 and 13;<br/>
+    b) revised requirements for mandatory measurement of spectral responsivity, temperature coefficients and linearity, depending on usage and allowing some measurements on equivalent devices;<br/>
+    c) revised requirements for built-in shunt resistor;<br/>
+    d) added requirements for traceability of calibration explicitly.
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

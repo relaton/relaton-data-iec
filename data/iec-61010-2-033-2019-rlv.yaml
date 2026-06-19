@@ -1,7 +1,7 @@
 ---
 id: IEC6101020332019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61010-2-033:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61010-2-033::rlv
+- content: 'urn:iec:std:iec:61010-2-033:2019::rlv:'
   type: URN
 date:
 - type: published
@@ -83,33 +83,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61010-2-033:2019 RLV contains both the official IEC International
-    Standard and its Redline version. The Redline version is available in English
-    only and provides you with a quick and easy way to compare all the changes between
-    the official IEC Standard and its previous edition.\r\n<p>IEC 61010-2-033:2019
-    specifies safety requirements for hand-held multimeters for domestic and professional
-    use, capable of measuring mains. Hand-held multimeters are multi-range multifunction
-    measuring instruments intended to measure voltage and other electrical quantities
-    such as resistance or current. Their primary purpose is to measure voltage on
-    a live mains. They are suitable to be supported by one hand during normal use.
-    This second edition cancels and replaces the first edition published in 2012.
-    This edition constitutes a technical revision. This edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\n-
-    The scope has been reduced to hand-held multimeters. Voltmeters and clamp multimeters
-    have been removed. They are addressed respectively by IEC 61010-2-030 and IEC
-    61010-2-032. The relevant definitions have been removed.<br />\r\n- Subclause
-    4.4.2.101 has been relocated into Clause 102.<br />\r\n- Clearances and creepage
-    distances for wet locations and for measuring circuit terminals exceeding 1 000
-    V a.c. or 1 414 V d.c. have been specified.<br />\r\n- Subclause 14.101 related
-    to \"Circuits or components used as transient overvoltage limiting devices in
-    measuring circuits used to measure mains\" has been removed.<br />\r\n- References
-    to IEC 61010-031 for probe assemblies and IEC 61010-2-032 for current sensors
-    have been added.<br />\r\n- Requirements for protection against mains overvoltage
-    measuring circuits have been added.<br />\r\n- Clause 102 has been rewritten.<br
-    />\r\n- Requirements for measuring circuits from 1 000 V to 3 000 V have been
-    added.<br />\r\n- An informative Annex CC about dimensions of 4-mm banana terminals
-    has been added.<br />\r\n- A flowchart for insulation according to the type of
-    circuit has been added in a new Annex DD.</p>\r\n\r\n<ol style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 61010-2-033:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 61010-2-033:2019 specifies safety requirements for hand-held multimeters for domestic and professional use, capable of measuring mains. Hand-held multimeters are multi-range multifunction measuring instruments intended to measure voltage and other electrical quantities such as resistance or current. Their primary purpose is to measure voltage on a live mains. They are suitable to be supported by one hand during normal use. This second edition cancels and replaces the first edition published in 2012. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - The scope has been reduced to hand-held multimeters. Voltmeters and clamp multimeters have been removed. They are addressed respectively by IEC 61010-2-030 and IEC 61010-2-032. The relevant definitions have been removed.<br/>
+    - Subclause 4.4.2.101 has been relocated into Clause 102.<br/>
+    - Clearances and creepage distances for wet locations and for measuring circuit terminals exceeding 1 000 V a.c. or 1 414 V d.c. have been specified.<br/>
+    - Subclause 14.101 related to "Circuits or components used as transient overvoltage limiting devices in measuring circuits used to measure mains" has been removed.<br/>
+    - References to IEC 61010-031 for probe assemblies and IEC 61010-2-032 for current sensors have been added.<br/>
+    - Requirements for protection against mains overvoltage measuring circuits have been added.<br/>
+    - Clause 102 has been rewritten.<br/>
+    - Requirements for measuring circuits from 1 000 V to 3 000 V have been added.<br/>
+    - An informative Annex CC about dimensions of 4-mm banana terminals has been added.<br/>
+    - A flowchart for insulation according to the type of circuit has been added in a new Annex DD.</p>
+
+
 status:
   stage:
     content: REVISED
@@ -131,7 +119,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -145,3 +133,4 @@ ext:
     project_number:
       content: '100995'
   price_code: iec:RD
+...

@@ -1,7 +1,7 @@
 ---
 id: IEC611583122019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-3-12:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-3-12:2019-04:::'
+- content: 'urn:iec:std:iec:61158-3-12:2019:::'
   type: URN
 date:
 - type: published
@@ -103,29 +103,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-3-12:2019 defines the services provided to the Type 12 fieldbus
-    application layer at the boundary between the application and data-link layers
-    of the fieldbus reference model and systems management at the boundary between
-    the data-link layer and systems management of the fieldbus reference model. This
-    fourth edition cancels and replaces the third edition published in 2014. It constitutes
-    a technical revision. The main changes are:<br />\r\n- Technical corrections in
-    the communication services<br />\r\n- Editorial improvements for clarification."
+  content: |-
+    IEC 61158-3-12:2019 defines the services provided to the Type 12 fieldbus application layer at the boundary between the application and data-link layers of the fieldbus reference model and systems management at the boundary between the data-link layer and systems management of the fieldbus reference model. This fourth edition cancels and replaces the third edition published in 2014. It constitutes a technical revision. The main changes are:<br/>
+    - Technical corrections in the communication services<br/>
+    - Editorial improvements for clarification.
 - language: fr
   script: Latn
-  content: "L’IEC 61158-3-12:2019 fournit les éléments communs pour les communications
-    de messagerie de base à temps critique entre des appareils dans un environnement
-    d’automation. Le terme \"à temps critique\" sert à représenter la présence d'une
-    fenêtre temporelle, dans les limites de laquelle une ou plusieurs actions spécifiées
-    sont tenues d'être parachevées avec un certain niveau défini de certitude. Le
-    manquement à parachever les actions spécifiées dans les limites de la fenêtre
-    temporelle risque d'entraîner la défaillance des applications qui demandent ces
-    actions, avec le risque concomitant pour l'équipement, l'installation et éventuellement
-    pour la vie humaine.<br />\r\nLa présente Norme internationale définit de manière
-    abstraite le service visible de l'extérieur fourni par la couche liaison de données
-    de réseau de terrain type 12 en termes:<br />\r\na) des actions et événements
-    primitifs du service;<br />\r\nb) des paramètres associés à chaque action primitive
-    et événement primitif, et la forme qu'ils prennent;<br />\r\nc) de l'interrelation
-    entre ces actions et événements, et leurs séquences valides."
+  content: |-
+    L’IEC 61158-3-12:2019 fournit les éléments communs pour les communications de messagerie de base à temps critique entre des appareils dans un environnement d’automation. Le terme "à temps critique" sert à représenter la présence d'une fenêtre temporelle, dans les limites de laquelle une ou plusieurs actions spécifiées sont tenues d'être parachevées avec un certain niveau défini de certitude. Le manquement à parachever les actions spécifiées dans les limites de la fenêtre temporelle risque d'entraîner la défaillance des applications qui demandent ces actions, avec le risque concomitant pour l'équipement, l'installation et éventuellement pour la vie humaine.<br/>
+    La présente Norme internationale définit de manière abstraite le service visible de l'extérieur fourni par la couche liaison de données de réseau de terrain type 12 en termes:<br/>
+    a) des actions et événements primitifs du service;<br/>
+    b) des paramètres associés à chaque action primitive et événement primitif, et la forme qu'ils prennent;<br/>
+    c) de l'interrelation entre ces actions et événements, et leurs séquences valides.
 status:
   stage:
     content: PUBLISHED
@@ -147,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

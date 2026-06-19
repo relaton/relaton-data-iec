@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300432007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: ISO/IEC 23004-3:2007
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23004-3:2007-09:::'
+- content: 'urn:iec:std:iso-iec:23004-3:2007:::'
   type: URN
 date:
 - type: published
@@ -92,23 +92,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <div id="MathJax_Message" style="display: none;"></div>
+  content: |2+
+
     <p>ISO/IEC 23004-3:2007 specifies the component model which is the realization technology of the MPEG Multimedia Middleware. In addition, the interfaces of the support application programming interface needed for instantiation and interaction with components and services are specified.</p>
     <p>ISO/IEC 23004-3 specifies the following:</p>
-    <ul>
-    <li>component model (what constitutes a component);</li>
-    <li>Unit of Trading (M3W component);</li>
-    <li>Unit of Loading (executable component);</li>
-    <li>Unit of Instantiation (Service);</li>
-    <li>standard interfaces:
-    <ul>
-    <li>navigation between interfaces (rcIUnknown, rcIServiceGeneric);</li>
-    <li>binding (rcIServiceGeneric);</li>
-    <li>access to public attributes (rcIServiceGeneric);</li>
-    </ul>
-    </li>
-    </ul>
+
+    component model (what constitutes a component);
+    Unit of Trading (M3W component);
+    Unit of Loading (executable component);
+    Unit of Instantiation (Service);
+    standard interfaces:
+
+    navigation between interfaces (rcIUnknown, rcIServiceGeneric);
+    binding (rcIServiceGeneric);
+    access to public attributes (rcIServiceGeneric);
+
+
 status:
   stage:
     content: PUBLISHED
@@ -142,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -150,3 +149,4 @@ ext:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   price_code: iso:H
+...

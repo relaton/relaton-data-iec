@@ -1,7 +1,7 @@
 ---
 id: IEC6066412020AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 60664-1:2020+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60664-1:2020-05::csv:+amd:1:2025-05
+- content: urn:iec:std:iec:60664-1:2020::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -77,24 +77,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60664-1:2020+AMD1:2025 CSV deals with insulation coordination for
-    equipment having a rated voltage up to AC 1 000 V or DC 1 500 V connected to low-voltage
-    supply systems. This document applies to frequencies up to 30 kHz. It applies
-    to equipment for use up to 2 000 m above sea level and provides guidance for use
-    at higher altitudes. It provides requirements for technical committees to determine
-    clearances, creepage distances and criteria for solid insulation. It includes
-    methods of electrical testing with respect to insulation coordination. The minimum
-    clearances specified in this document do not apply where ionized gases are present.
-    Special requirements for such situations can be specified at the discretion of
-    the relevant technical committee. This document does not deal with distances:<br
-    />\r\n– through liquid insulation;<br />\r\n– through gases other than air;<br
-    />\r\n– through compressed air.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\nupdate of the
-    Scope, Clauses 2 and 3,<br />\r\naddition of 1 500 V DC into tables,<br />\r\nnew
-    structure for Clauses 4 and 5,<br />\r\naddition of Annex G with a flowchart for
-    clearances,<br />\r\naddition of Annex H with a flowchart for creepage distances,<br
-    />\r\nupdate of distances altitude correction in a new Table F.10.<br />\r\nIt
-    has the status of a basic safety publication in accordance with IEC Guide 104."
+  content: |-
+    IEC 60664-1:2020+AMD1:2025 CSV deals with insulation coordination for equipment having a rated voltage up to AC 1 000 V or DC 1 500 V connected to low-voltage supply systems. This document applies to frequencies up to 30 kHz. It applies to equipment for use up to 2 000 m above sea level and provides guidance for use at higher altitudes. It provides requirements for technical committees to determine clearances, creepage distances and criteria for solid insulation. It includes methods of electrical testing with respect to insulation coordination. The minimum clearances specified in this document do not apply where ionized gases are present. Special requirements for such situations can be specified at the discretion of the relevant technical committee. This document does not deal with distances:<br/>
+    – through liquid insulation;<br/>
+    – through gases other than air;<br/>
+    – through compressed air.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    update of the Scope, Clauses 2 and 3,<br/>
+    addition of 1 500 V DC into tables,<br/>
+    new structure for Clauses 4 and 5,<br/>
+    addition of Annex G with a flowchart for clearances,<br/>
+    addition of Annex H with a flowchart for creepage distances,<br/>
+    update of distances altitude correction in a new Table F.10.<br/>
+    It has the status of a basic safety publication in accordance with IEC Guide 104.
 status:
   stage:
     content: PUBLISHED
@@ -116,7 +111,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

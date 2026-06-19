@@ -1,7 +1,7 @@
 ---
 id: IEC611585182010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-5-18:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-5-18:2010-08:::'
+- content: 'urn:iec:std:iec:61158-5-18:2010:::'
   type: URN
 date:
 - type: published
@@ -111,23 +111,13 @@ abstract:
     Editorial corrections and Addition of cyclic data segmenting.
 - language: fr
   script: Latn
-  content: "L'IEC 61158-5-18:2010 fournit des éléments communs pour les communications
-    en temps critique ou non entre des programmes d’application dans un environnement
-    et avec un matériel d’automatisation propres aux bus de terrain de type 18. On
-    utilise le terme \"prioritaire\" pour traduire la présence d’une fenêtre temporelle,
-    à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées
-    soient terminées avec un niveau de certitude défini. Si les actions spécifiées
-    ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les
-    actions risquent de connaître une défaillance, avec les risques que cela comporte
-    pour les équipements, les installations et éventuellement la vie humaine.<br />\r\nLa
-    présente partie de la norme IEC 61158 définit de manière abstraite le service,
-    visible par un observateur externe, assuré par la couche Application de bus de
-    terrain de type 18, en termes<br />\r\na) d’un modèle abstrait pour la définition
-    des ressources d’application (objets) qui peuvent être manipulées par les utilisateurs
-    par l’intermédiaire de l’utilisation du service FAL,<br />\r\nb) des actions primitives
-    et des événements du service;<br />\r\nc) des paramètres associés à chaque action
-    et événement primitif, et de la forme qu’ils peuvent prendre; et<br />\r\nd) des
-    interrelations entre ces actions et événements, et de leurs séquences valides."
+  content: |-
+    L'IEC 61158-5-18:2010 fournit des éléments communs pour les communications en temps critique ou non entre des programmes d’application dans un environnement et avec un matériel d’automatisation propres aux bus de terrain de type 18. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées soient terminées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les actions risquent de connaître une défaillance, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.<br/>
+    La présente partie de la norme IEC 61158 définit de manière abstraite le service, visible par un observateur externe, assuré par la couche Application de bus de terrain de type 18, en termes<br/>
+    a) d’un modèle abstrait pour la définition des ressources d’application (objets) qui peuvent être manipulées par les utilisateurs par l’intermédiaire de l’utilisation du service FAL,<br/>
+    b) des actions primitives et des événements du service;<br/>
+    c) des paramètres associés à chaque action et événement primitif, et de la forme qu’ils peuvent prendre; et<br/>
+    d) des interrelations entre ces actions et événements, et de leurs séquences valides.
 status:
   stage:
     content: PUBLISHED
@@ -149,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

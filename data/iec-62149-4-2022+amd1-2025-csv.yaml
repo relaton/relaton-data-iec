@@ -1,7 +1,7 @@
 ---
 id: IEC6214942022AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 62149-4:2022+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62149-4:2022-12::csv:+amd:1:2025-05
+- content: urn:iec:std:iec:62149-4:2022::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -81,25 +81,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62149-4:2022+AMD1:2025 CSV defines performance specifications for
-    1 300 nm fibre optic transceiver modules used for the ISO/IEC/IEEE 8802-3 Gigabit
-    Ethernet application. This document contains definitions for product performance
-    requirements as well as a series of tests and measurements, for which clearly
-    defined conditions, severities and pass/fail criteria are provided. The tests
-    are intended to be run on a \"once-off\" basis to prove any product’s ability
-    to satisfy the performance standard’s requirements. A product that has been shown
-    to meet all the requirements of a performance standard can be declared as complying
-    with the performance standard but will then be controlled by a quality assurance/quality
-    conformance program. This third edition cancels and replaces the second edition
-    published in 2010. This edition constitutes a technical revision. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\n- the normative references are updated;<br />\r\n- the condition
-    \"for short periods\" in 4.1 is removed;<br />\r\n- the absolute limiting rating
-    for soldering temperature in Table 1 is modified;<br />\r\n- the maximal optical
-    output power (multimode fibre) in Table 4 is increased from −3,5 dBm to −3 dBm,
-    to align value with the referenced document;<br />\r\n- a note is added to Table
-    7 to clarify that out-of-specification products are not allowed to pass the performance
-    tests."
+  content: |-
+    IEC 62149-4:2022+AMD1:2025 CSV defines performance specifications for 1 300 nm fibre optic transceiver modules used for the ISO/IEC/IEEE 8802-3 Gigabit Ethernet application. This document contains definitions for product performance requirements as well as a series of tests and measurements, for which clearly defined conditions, severities and pass/fail criteria are provided. The tests are intended to be run on a "once-off" basis to prove any product’s ability to satisfy the performance standard’s requirements. A product that has been shown to meet all the requirements of a performance standard can be declared as complying with the performance standard but will then be controlled by a quality assurance/quality conformance program. This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - the normative references are updated;<br/>
+    - the condition "for short periods" in 4.1 is removed;<br/>
+    - the absolute limiting rating for soldering temperature in Table 1 is modified;<br/>
+    - the maximal optical output power (multimode fibre) in Table 4 is increased from −3,5 dBm to −3 dBm, to align value with the referenced document;<br/>
+    - a note is added to Table 7 to clarify that out-of-specification products are not allowed to pass the performance tests.
 status:
   stage:
     content: PUBLISHED
@@ -121,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

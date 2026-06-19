@@ -1,7 +1,7 @@
 ---
 id: IEC6254152015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-5:2015
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-5:2015-03:::'
+- content: 'urn:iec:std:iec:62541-5:2015:::'
   type: URN
 date:
 - type: published
@@ -91,50 +91,37 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-5.2015 defines the Information Model of the OPC Unified Architecture.
-    The Information Model describes standardised Nodes of a Server's AddressSpace.
-    These Nodes are standardised types as well as standardised instances used for
-    diagnostics or as entry points to server-specific Nodes. This second edition cancels
-    and replaces the first edition published in 2011 and constitutes a technical revision.
-    This edition includes the following changes:<br />\r\n- Defined ProgressEventType;<br
-    />\r\n- Defined DataType called BitFieldMaskDataType;<br />\r\n- Delete Property
-    SamplingRateCount in ServerDiagnosticSummaryDataType;<br />\r\n- Added the Property
-    \"EffectiveTransitionTime\" to TransitionVariableType;<br />\r\n- Introduced VariableType
-    OptionSetType;<br />\r\n- Added a new EventType called SystemStatusChangeEventType;<br
-    />\r\n- Added properties to ServerCapabilitiesType. Added an object for operation
-    limits. Added type OperationLimitsType containing that information;<br />\r\n-
-    Added SecureChannelId to AuditActivateSessionEventType;<br />\r\n- Added normative
-    Annex C defining FileType and Methods;<br />\r\n- Added a Method GetMonitoredItems
-    on ServerType;<br />\r\n- Removed the concept of ModelParent. Added meta data
-    for namespaces in ServerType and created types for managing that. Added representations
-    for ModellingRules OptionalPlaceholder and MandatoryPlaceholder;<br />\r\n- Added
-    new types NonTransparentNetworkRedundancyType, NetworkGroupDataType and EndpointUrlListDataType."
+  content: |-
+    IEC 62541-5.2015 defines the Information Model of the OPC Unified Architecture. The Information Model describes standardised Nodes of a Server's AddressSpace. These Nodes are standardised types as well as standardised instances used for diagnostics or as entry points to server-specific Nodes. This second edition cancels and replaces the first edition published in 2011 and constitutes a technical revision. This edition includes the following changes:<br/>
+    - Defined ProgressEventType;<br/>
+    - Defined DataType called BitFieldMaskDataType;<br/>
+    - Delete Property SamplingRateCount in ServerDiagnosticSummaryDataType;<br/>
+    - Added the Property "EffectiveTransitionTime" to TransitionVariableType;<br/>
+    - Introduced VariableType OptionSetType;<br/>
+    - Added a new EventType called SystemStatusChangeEventType;<br/>
+    - Added properties to ServerCapabilitiesType. Added an object for operation limits. Added type OperationLimitsType containing that information;<br/>
+    - Added SecureChannelId to AuditActivateSessionEventType;<br/>
+    - Added normative Annex C defining FileType and Methods;<br/>
+    - Added a Method GetMonitoredItems on ServerType;<br/>
+    - Removed the concept of ModelParent. Added meta data for namespaces in ServerType and created types for managing that. Added representations for ModellingRules OptionalPlaceholder and MandatoryPlaceholder;<br/>
+    - Added new types NonTransparentNetworkRedundancyType, NetworkGroupDataType and EndpointUrlListDataType.
 - language: fr
   script: Latn
-  content: "L'IEC 62541-5:2015 définit le Modèle d'informations de l'Architecture
-    unifiée OPC. Le Modèle d'informations décrit des Noeuds (Nodes) normalisés d'un
-    Espace d'Adresses (AddressSpace) d'un Serveur (Server). Ces Noeuds sont des types
-    normalisés ainsi que des instances normalisées utilisés pour le diagnostic ou
-    comme des points d'entrée à des Noeuds spécifiques au serveur. Cette deuxième
-    édition annule et remplace la première édition parue en 2011. Elle constitue une
-    révision technique. Cette édition inclut les modifications suivantes:<br />\r\n-
-    ProgressEventType identifiant l'avancement d'une opération telle que l'appel d'un
-    service;<br />\r\n- DataType appelé BitFieldMaskDataType;<br />\r\n- Propriété
-    SamplingRateCount supprimée dans le ServerDiagnosticSummaryDataType;<br />\r\n-
-    Ajout de la propriété \"EffectiveTransitionTime\" au TransitionVariableType;<br
-    />\r\n- Introduction du VariableType OptionSetType;<br />\r\n- Ajout d'un nouveau
-    EventType appelé SystemStatusChangeEventType;<br />\r\n- Ajout de propriétés à
-    ServerCapabilitiesType, de même qu'ajout d'un objet pour les limites de fonctionnement.
-    Ajout du type OperationLimitsType;<br />\r\n- Ajout de SecureChannelId à AuditActivateSession-EventType;<br
-    />\r\n- Ajout d'une Annexe C normative définissant le FileType et les Méthodes
-    utilisés pour le transfert de fichiers;<br />\r\n- Ajout d'une Méthode GetMonitoredItems
-    à ServerType;<br />\r\n- Suppression du concept de ModelParent;<br />\r\n- Ajout
-    de métadonnées pour les espaces de noms dans ServerType. Ajout des représentations
-    pour les ModellingRules OptionalPlaceholder et MandatoryPlaceholder;<br />\r\n-
-    Ajout des nouveaux types NonTransparentNetworkRedundancyType, NetworkGroupDataType
-    et EndpointUrlListDataType afin de gérer la redondance HotAndMiorrored. Ajout
-    d'une description supplémentaire de la redondance et mise à jour de l'énumération
-    RedundancySupport en 12.5."
+  content: |-
+    L'IEC 62541-5:2015 définit le Modèle d'informations de l'Architecture unifiée OPC. Le Modèle d'informations décrit des Noeuds (Nodes) normalisés d'un Espace d'Adresses (AddressSpace) d'un Serveur (Server). Ces Noeuds sont des types normalisés ainsi que des instances normalisées utilisés pour le diagnostic ou comme des points d'entrée à des Noeuds spécifiques au serveur. Cette deuxième édition annule et remplace la première édition parue en 2011. Elle constitue une révision technique. Cette édition inclut les modifications suivantes:<br/>
+    - ProgressEventType identifiant l'avancement d'une opération telle que l'appel d'un service;<br/>
+    - DataType appelé BitFieldMaskDataType;<br/>
+    - Propriété SamplingRateCount supprimée dans le ServerDiagnosticSummaryDataType;<br/>
+    - Ajout de la propriété "EffectiveTransitionTime" au TransitionVariableType;<br/>
+    - Introduction du VariableType OptionSetType;<br/>
+    - Ajout d'un nouveau EventType appelé SystemStatusChangeEventType;<br/>
+    - Ajout de propriétés à ServerCapabilitiesType, de même qu'ajout d'un objet pour les limites de fonctionnement. Ajout du type OperationLimitsType;<br/>
+    - Ajout de SecureChannelId à AuditActivateSession-EventType;<br/>
+    - Ajout d'une Annexe C normative définissant le FileType et les Méthodes utilisés pour le transfert de fichiers;<br/>
+    - Ajout d'une Méthode GetMonitoredItems à ServerType;<br/>
+    - Suppression du concept de ModelParent;<br/>
+    - Ajout de métadonnées pour les espaces de noms dans ServerType. Ajout des représentations pour les ModellingRules OptionalPlaceholder et MandatoryPlaceholder;<br/>
+    - Ajout des nouveaux types NonTransparentNetworkRedundancyType, NetworkGroupDataType et EndpointUrlListDataType afin de gérer la redondance HotAndMiorrored. Ajout d'une description supplémentaire de la redondance et mise à jour de l'énumération RedundancySupport en 12.5.
 status:
   stage:
     content: REVISED
@@ -156,7 +143,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

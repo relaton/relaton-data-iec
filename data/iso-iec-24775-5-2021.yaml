@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2477552021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: ISO/IEC 24775-5:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:24775-5:2021-04:::'
+- content: 'urn:iec:std:iso-iec:24775-5:2021:::'
   type: URN
 date:
 - type: published
@@ -92,18 +92,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>Storage Management Technical Specification, Part 2 Common Architecture, 1.8.0 Rev 4 defines the core architecture and protocols in SMI-S. The components of SMI-S architecture include:</p>
-    <ul>
-    <li>Transport - communicating management information between constituents of the management system</li>
-    <li>Health and fault management - detecting failures through monitoring the state of storage components</li>
-    <li>General information about the object model</li>
-    <li>Names - how SMI-S uses names to allow applications to correlate across SMI-S and to other standards</li>
-    <li>Standard messages - how exceptions are presented to client applications</li>
-    <li>Service discovery - techniques clients use to discover SMI-S services</li>
-    <li>Installation and upgrade - recommendations for implementations</li>
-    <li>Compliance - requirement for compliance to the standard</li>
-    </ul>
+
+    Transport - communicating management information between constituents of the management system
+    Health and fault management - detecting failures through monitoring the state of storage components
+    General information about the object model
+    Names - how SMI-S uses names to allow applications to correlate across SMI-S and to other standards
+    Standard messages - how exceptions are presented to client applications
+    Service discovery - techniques clients use to discover SMI-S services
+    Installation and upgrade - recommendations for implementations
+    Compliance - requirement for compliance to the standard
 status:
   stage:
     content: PUBLISHED
@@ -137,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

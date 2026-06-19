@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1177032015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 11770-3:2015
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:11770-3:2015-08:::'
+- content: 'urn:iec:std:iso-iec:11770-3:2015:::'
   type: URN
 date:
 - type: published
@@ -98,7 +98,7 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p>ISO/IEC 11770-3:2015 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals: a) establish a shared secret key for use in a symmetric cryptographic technique between two entities <i>A</i> and <i>B</i> by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities <i>A</i> and <i>B</i>. Neither of them should be able to predetermine the value of the shared secret key; b) establish a shared secret key for use in a symmetric cryptographic technique between two entities <i>A</i> and <i>B</i> via key transport. In a secret key transport mechanism, the secret key is chosen by one entity <i>A</i> and is transferred to another entity <i>B</i>, suitably protected by asymmetric techniques; and c) make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity <i>A</i> shall be transferred to other entities in an authenticated way, but not requiring secrecy.</p>
+    <p>ISO/IEC 11770-3:2015 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals: a) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities A and B. Neither of them should be able to predetermine the value of the shared secret key; b) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B via key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques; and c) make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity A shall be transferred to other entities in an authenticated way, but not requiring secrecy.</p>
     <p>Some of the mechanisms of ISO/IEC 11770-3:2015 are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.</p>
     <p>ISO/IEC 11770-3:2015 does not cover certain aspects of key management, such as key lifecycle management, mechanisms to generate or validate asymmetric key pairs, and mechanisms to store, archive, delete, destroy, etc. keys.</p>
     <p>While ISO/IEC 11770-3:2015 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.</p>
@@ -136,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

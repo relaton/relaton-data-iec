@@ -1,7 +1,7 @@
 ---
 id: IEC6254812023AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC 62548-1:2023+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62548-1:2023-12::csv:+amd:1:2025-12
+- content: urn:iec:std:iec:62548-1:2023::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -76,25 +76,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62548-1:2023+AMD1:2025 CSV sets out design requirements for photovoltaic
-    (PV) arrays including DC array wiring, electrical protection devices, switching
-    and earthing provisions. The scope includes all parts of the PV array and final
-    power conversion equipment (PCE), but not including energy storage devices, loads
-    or AC or DC distribution network supplying loads. The object of this document
-    is to address the design safety requirements arising from the particular characteristics
-    of photovoltaic systems. This document also includes extra protection requirements
-    of PV arrays when they are directly connected with batteries at the DC level.<br
-    />\r\nThis first edition cancels and replaces IEC 62548 published in 2016. This
-    edition includes the following significant technical changes with respect to the
-    previous edition:<br />\r\na) Revised provisions for systems including DC to DC
-    conditioning units.<br />\r\nb) Revision of mounting structure requirements.<br
-    />\r\nc) Revised cable requirements.<br />\r\nd) Revision of Clause 6 on safety
-    issues which includes provisions for protection against electric shock including
-    array insulation monitoring and earth fault detection.<br />\r\ne) Revision of
-    7.2.7 and 7.3 with respect to isolation means.<br />\r\nf) Provisions for use
-    of bifacial modules and modules mounted in non-optimal orientations.<br />\r\ng)
-    New Annex F containing: KI factor calculations for bifacial and non-optimally
-    oriented systems; anti-PID equipment and arc flash."
+  content: |-
+    IEC 62548-1:2023+AMD1:2025 CSV sets out design requirements for photovoltaic (PV) arrays including DC array wiring, electrical protection devices, switching and earthing provisions. The scope includes all parts of the PV array and final power conversion equipment (PCE), but not including energy storage devices, loads or AC or DC distribution network supplying loads. The object of this document is to address the design safety requirements arising from the particular characteristics of photovoltaic systems. This document also includes extra protection requirements of PV arrays when they are directly connected with batteries at the DC level.<br/>
+    This first edition cancels and replaces IEC 62548 published in 2016. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Revised provisions for systems including DC to DC conditioning units.<br/>
+    b) Revision of mounting structure requirements.<br/>
+    c) Revised cable requirements.<br/>
+    d) Revision of Clause 6 on safety issues which includes provisions for protection against electric shock including array insulation monitoring and earth fault detection.<br/>
+    e) Revision of 7.2.7 and 7.3 with respect to isolation means.<br/>
+    f) Provisions for use of bifacial modules and modules mounted in non-optimal orientations.<br/>
+    g) New Annex F containing: KI factor calculations for bifacial and non-optimally oriented systems; anti-PID equipment and arc flash.
 status:
   stage:
     content: PUBLISHED
@@ -116,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

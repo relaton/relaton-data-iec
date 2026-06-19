@@ -1,7 +1,7 @@
 ---
 id: IEC6254142015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-4:2015
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-4:2015-03:::'
+- content: 'urn:iec:std:iec:62541-4:2015:::'
   type: URN
 date:
 - type: published
@@ -91,29 +91,24 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-4:2015 defines the OPC Unified Architecture (OPC UA) Services.
-    The Services described are the collection of abstract Remote Procedure Calls (RPC)
-    that are implemented by OPC UA Servers and called by OPC UA Clients. This second
-    edition cancels and replaces the first edition published in 2011. It constitutes
-    a technical revision. It includes the following changes:<br />\r\n- Update for
-    6.4 Redundancy.<br />\r\n- Clarifications for Publish and Reconnect scenarios.<br
-    />\r\n- Handling of MonitoredItem changes in short network interruption scenarios.<br
-    />\r\n- Update for 6.1.3 Determining if a Certificate is Trusted.<br />\r\n- Revised
-    definition of parameters semaphoreFile and isOnline in Service RegisterServer.<br
-    />\r\n- Services ModifySubscription and ModifyMonitoredItems."
+  content: |-
+    IEC 62541-4:2015 defines the OPC Unified Architecture (OPC UA) Services. The Services described are the collection of abstract Remote Procedure Calls (RPC) that are implemented by OPC UA Servers and called by OPC UA Clients. This second edition cancels and replaces the first edition published in 2011. It constitutes a technical revision. It includes the following changes:<br/>
+    - Update for 6.4 Redundancy.<br/>
+    - Clarifications for Publish and Reconnect scenarios.<br/>
+    - Handling of MonitoredItem changes in short network interruption scenarios.<br/>
+    - Update for 6.1.3 Determining if a Certificate is Trusted.<br/>
+    - Revised definition of parameters semaphoreFile and isOnline in Service RegisterServer.<br/>
+    - Services ModifySubscription and ModifyMonitoredItems.
 - language: fr
   script: Latn
-  content: "L'IEC 62541-4:2015 définit les Services de l'Architecture Unifiée OPC
-    (OPC UA). Les Services décrits sont le recueil d'appels de procédures abstraites
-    distantes (RPC - Remote Procedure Calls) qui sont mises en oeuvre par les Serveurs
-    OPC UA et qui sont appelées par les Clients OPC UA. Cette deuxième édition annule
-    et remplace la première édition parue en 2011. Elle constitue une révision technique.
-    Cette édition inclut les modifications suivantes:<br />\r\n- Mise à jour de 6.4
-    Redondance.<br />\r\n- Clarifications pour les scénarios Publish et Reconnect.<br
-    />\r\n- Gestion des modifications de MonitoredItem dans les scénarios de courte
-    interruption du réseau.<br />\r\n- Mise à jour de 6.1.3 Déterminer si un Certificat
-    est fiable.<br />\r\n- Révision de la définition des paramètres semaphoreFile
-    et isOnline dans le Service.<br />\r\n- Services ModifySubscription et ModifyMonitoredItems."
+  content: |-
+    L'IEC 62541-4:2015 définit les Services de l'Architecture Unifiée OPC (OPC UA). Les Services décrits sont le recueil d'appels de procédures abstraites distantes (RPC - Remote Procedure Calls) qui sont mises en oeuvre par les Serveurs OPC UA et qui sont appelées par les Clients OPC UA. Cette deuxième édition annule et remplace la première édition parue en 2011. Elle constitue une révision technique. Cette édition inclut les modifications suivantes:<br/>
+    - Mise à jour de 6.4 Redondance.<br/>
+    - Clarifications pour les scénarios Publish et Reconnect.<br/>
+    - Gestion des modifications de MonitoredItem dans les scénarios de courte interruption du réseau.<br/>
+    - Mise à jour de 6.1.3 Déterminer si un Certificat est fiable.<br/>
+    - Révision de la définition des paramètres semaphoreFile et isOnline dans le Service.<br/>
+    - Services ModifySubscription et ModifyMonitoredItems.
 status:
   stage:
     content: REVISED
@@ -135,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

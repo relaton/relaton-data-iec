@@ -1,7 +1,7 @@
 ---
 id: ISOIEC23000122010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23000-12:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23000-12:2010-07:::'
+- content: 'urn:iec:std:iso-iec:23000-12:2010:::'
   type: URN
 date:
 - type: published
@@ -93,19 +93,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 23000-12:2010 specifies a file format designed for interactive music services. It integrates the multiple audio tracks with appropriate additional information for enabling users to experience various preset mixes and to make their own mixes complying with interactivity rules imposed by the producer.</p>
     <p>It specifies</p>
-    <ul>
-    <li>a file type brand regarding relevant application area, and</li>
-    <li>a file structure, which is capable of storage with multiple audio tracks with the following:</li>
-    </ul>
-    <ul>
-    <li>group information on hierarchical structure of audio tracks;</li>
-    <li>preset which is predefined mixing information on multiple audio tracks;</li>
-    <li>rule which introduces specific data related to user's interaction;</li>
-    <li>timed text, image and metadata.</li>
-    </ul>
+
+    a file type brand regarding relevant application area, and
+    a file structure, which is capable of storage with multiple audio tracks with the following:
+
+
+    group information on hierarchical structure of audio tracks;
+    preset which is predefined mixing information on multiple audio tracks;
+    rule which introduces specific data related to user's interaction;
+    timed text, image and metadata.
 status:
   stage:
     content: PUBLISHED
@@ -139,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

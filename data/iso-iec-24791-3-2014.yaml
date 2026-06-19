@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2479132014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 24791-3:2014
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:24791-3:2014-02:::'
+- content: 'urn:iec:std:iso-iec:24791-3:2014:::'
   type: URN
 date:
 - type: published
@@ -102,12 +102,12 @@ abstract:
     <p>It only deals with devices that provide RFID related services. It does not distinguish the form factor of such RFID devices.</p>
     <p>ISO/IEC 24791-3:2014 provides two distinct interface sets, one based on the EPCglobal Discovery, Configuration, and Initialization (DCI) standard and the IETF SNMP RFCs and the other based on the Organization for the Advancement of Structured Information Standards (OASIS) Device Profile for Web Services (DPWS) standard. The definition of the Device Profile for RFID is referred to in ISO/IEC 24791-3:2014 as the RFID Device Management Profile, or RDMP. </p>
     <p>Each interface option set provides interface definitions that provide ISO/IEC 24791-3 Client Endpoints and Services Endpoints with the mechanisms for:</p>
-    <ul>
-    <li>discovery of the RFID devices and services on a local or remote subnet;</li>
-    <li>a firmware upgrade service;</li>
-    <li>a management service that implements configuration related functions;</li>
-    <li>a monitoring service for reporting alerts, diagnostics, and performance information.</li>
-    </ul>
+
+    discovery of the RFID devices and services on a local or remote subnet;
+    a firmware upgrade service;
+    a management service that implements configuration related functions;
+    a monitoring service for reporting alerts, diagnostics, and performance information.
+
     <p>The two interface set definitions provided by ISO/IEC 24791-3:2014 allow for clients and services endpoints to implement and provide the services based on the specific characteristics of the RFID system to be implemented.</p>
 status:
   stage:
@@ -142,7 +142,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

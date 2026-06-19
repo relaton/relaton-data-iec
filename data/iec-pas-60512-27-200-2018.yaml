@@ -1,7 +1,7 @@
 ---
 id: IECPAS60512272002018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC PAS 60512-27-200:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60512-27-200:2018-10:pas::'
+- content: 'urn:iec:std:iec:60512-27-200:2018:pas::'
   type: URN
 date:
 - type: published
@@ -85,22 +85,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC/PAS 60512-27-200:2018 covers additional, supplemental specifications
-    for signal integrity and transmission performance test methods of IEC 60512-27-100,
-    for connectors using de-embedded crosstalk measurements, which are specified in
-    respective parts of IEC 60603-7 standards for connecting hardware applications
-    up to 2 000 MHz.<br />\r\nThese additional specifications are also applicable
-    for testing the related lower frequency connectors. However, the test methodology
-    specified in the detail specification for any given connector remains the reference
-    conformance test for that connector.<br />\r\nTest procedures of IEC 60512-27-100
-    affected by these supplemental methods and procedures are:<br />\r\n• insertion
-    loss, test 27a;<br />\r\n• return loss, test 27b;<br />\r\n• near-end crosstalk
-    (NEXT) test 27c;<br />\r\n• far-end crosstalk (FEXT), test 27d;<br />\r\n• transverse
-    conversion loss (TCL), test 27f;<br />\r\n• transverse conversion transfer loss
-    (TCTL), test 27g.<br />\r\nOther test procedures referenced here are:<br />\r\n<em>•
-    transfer impedance (ZT), see test procedures in IEC 62153-4-6 or IEC 62153-4-7.</em><br
-    />\r\n<em>• for coupling attenuation (aC), see test procedures in IEC 62153-4-7
-    or IEC 62153-4-12.</em><br />\r\nKeywords: Connector, Signal Integrity"
+  content: |-
+    IEC/PAS 60512-27-200:2018 covers additional, supplemental specifications for signal integrity and transmission performance test methods of IEC 60512-27-100, for connectors using de-embedded crosstalk measurements, which are specified in respective parts of IEC 60603-7 standards for connecting hardware applications up to 2 000 MHz.<br/>
+    These additional specifications are also applicable for testing the related lower frequency connectors. However, the test methodology specified in the detail specification for any given connector remains the reference conformance test for that connector.<br/>
+    Test procedures of IEC 60512-27-100 affected by these supplemental methods and procedures are:<br/>
+    • insertion loss, test 27a;<br/>
+    • return loss, test 27b;<br/>
+    • near-end crosstalk (NEXT) test 27c;<br/>
+    • far-end crosstalk (FEXT), test 27d;<br/>
+    • transverse conversion loss (TCL), test 27f;<br/>
+    • transverse conversion transfer loss (TCTL), test 27g.<br/>
+    Other test procedures referenced here are:<br/>
+    <em>• transfer impedance (ZT), see test procedures in IEC 62153-4-6 or IEC 62153-4-7.</em><br/>
+    <em>• for coupling attenuation (aC), see test procedures in IEC 62153-4-7 or IEC 62153-4-12.</em><br/>
+    Keywords: Connector, Signal Integrity
 status:
   stage:
     content: REPLACED
@@ -122,7 +120,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: publicly-available-specification
   flavor: iec

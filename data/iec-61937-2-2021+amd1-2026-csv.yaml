@@ -1,0 +1,120 @@
+---
+id: IEC6193722021AMD12026CSV
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital audio
+  type: title-intro
+- language: en
+  script: Latn
+  content: Interface for non-linear PCM encoded audio bitstreams applying IEC 60958
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Burst-info'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital audio - Interface for non-linear PCM encoded audio bitstreams
+    applying IEC 60958 - Part 2: Burst-info'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112261
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61937-2{ed3.1}en.pdf
+docidentifier:
+- content: IEC 61937-2:2021+AMD1:2026 CSV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:61937-2:2021::csv::plus:amd:1:2026
+  type: URN
+date:
+- type: published
+  at: '2026-02-19'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      identifier:
+      - content: '100'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3.1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61937-2:2021+AMD1:2026 CSV specifies the digital audio interface to convey non-linear PCM encoded audio bitstreams applying IEC 60958-1 and IEC 60958-3. This document specifies burst-info, which defines content information about the data contained in the burst-payload. IEC 61937-2:2021 cancels and replaces the second edition published in 2007, Amendment 1:2011 and Amendment 2:2018. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) new audio data-types of MPEG-D USAC, ACX, ACX HBR2, ACX HBR4 and ACX HBR8 have been added;<br/>
+    b) extended data-type field in Pe has been activated.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.160.30
+    text: Audio systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '103894'
+  price_code: iec:CG

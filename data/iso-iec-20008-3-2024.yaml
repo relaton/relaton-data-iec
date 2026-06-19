@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2000832024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,7 +46,7 @@ docidentifier:
 - content: ISO/IEC 20008-3:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:20008-3:2024-12:::'
+- content: 'urn:iec:std:iso-iec:20008-3:2024:::'
   type: URN
 date:
 - type: published
@@ -112,19 +112,19 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document specifies anonymous digital signature mechanisms in which a verifier uses multiple public keys to verify a digital signature.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document provides:</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">a general description of an anonymous digital signature mechanism using multiple public keys;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">a variety of mechanisms that provide such anonymous digital signatures.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">For each mechanism, this document specifies the process for:</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">generating the private key and public key of each user;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">producing signatures;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">verifying signatures;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">linking signatures (if the mechanism supports linking);</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">tracing signatures (if the mechanism supports tracing);</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">producing signatures with threshold capability (if the mechanism supports a threshold capability);</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">verifying signatures with threshold capability (if the mechanism supports a threshold capability).</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document does not define the implementation of a public key infrastructure (PKI) and the means for distinct entities to exchange, extract and verify their respective public key certificates.</span></p>
+    <p class="MsoBodyText">This document specifies anonymous digital signature mechanisms in which a verifier uses multiple public keys to verify a digital signature.</p>
+    <p class="MsoBodyText">This document provides:</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->a general description of an anonymous digital signature mechanism using multiple public keys;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->a variety of mechanisms that provide such anonymous digital signatures.</p>
+    <p class="MsoBodyText">For each mechanism, this document specifies the process for:</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->generating the private key and public key of each user;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->producing signatures;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->verifying signatures;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->linking signatures (if the mechanism supports linking);</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->tracing signatures (if the mechanism supports tracing);</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->producing signatures with threshold capability (if the mechanism supports a threshold capability);</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->verifying signatures with threshold capability (if the mechanism supports a threshold capability).</p>
+    <p class="MsoBodyText">This document does not define the implementation of a public key infrastructure (PKI) and the means for distinct entities to exchange, extract and verify their respective public key certificates.</p>
 status:
   stage:
     content: PUBLISHED
@@ -158,7 +158,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

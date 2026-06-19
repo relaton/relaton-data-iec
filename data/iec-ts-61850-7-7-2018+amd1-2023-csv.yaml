@@ -1,7 +1,7 @@
 ---
 id: IECTS61850772018AMD12023CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC TS 61850-7-7:2018+AMD1:2023 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61850-7-7:2018-03:ts:csv:+amd:1:2023-01
+- content: urn:iec:std:iec:61850-7-7:2018:ts:csv::plus:amd:1:2023
   type: URN
 date:
 - type: published
@@ -78,13 +78,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 61850-7-7:2018+AMD1:2023 specifies a way to model the code components
-    of IEC 61850 data model (e.g., the tables describing logical nodes, common data
-    classes, structured data attributes, and enumerations) in an XML format that can
-    be imported and interpreted by tools. The purpose of this document is limited
-    to the publication of the XML format which should support the data model part
-    of any IEC 61850 related standard.<br />\r\nThe content of the corrigendum 1 (2025-05)
-    has been included in this copy."
+  content: |-
+    IEC TS 61850-7-7:2018+AMD1:2023 specifies a way to model the code components of IEC 61850 data model (e.g., the tables describing logical nodes, common data classes, structured data attributes, and enumerations) in an XML format that can be imported and interpreted by tools. The purpose of this document is limited to the publication of the XML format which should support the data model part of any IEC 61850 related standard.<br/>
+    The content of the corrigendum 1 (2025-05) has been included in this copy.
 status:
   stage:
     content: PUBLISHED
@@ -106,7 +102,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

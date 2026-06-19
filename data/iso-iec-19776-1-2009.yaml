@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1977612009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 19776-1:2009
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19776-1:2009-10:::'
+- content: 'urn:iec:std:iso-iec:19776-1:2009:::'
   type: URN
 date:
 - type: published
@@ -97,14 +97,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 19775, Extensible 3D (X3D), defines a system that integrates 3D graphics and multimedia. Conceptually, each X3D file is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. ISO/IEC 19776-1:2009 defines a mapping of the abstract objects in X3D to a specific X3D encoding using the Extensible Markup Language (XML).</p>
-    <p>Each XML-encoded X3D file:</p>
-    <ol>
-    <li>supports all of the purposes of X3D files defined in the X3D abstract specification ISO/IEC 19775; </li>
-    <li>encodes X3D constructs in an XML format. </li>
-    </ol>
-    <p>An XML-encoded X3D file may be referenced from files using other X3D encodings and may itself reference other X3D files encoded using other X3D encodings. Such files can only be processed by browsers that conform to all of the utilized X3D encodings.</p>
+  content: "<p>ISO/IEC 19775, Extensible 3D (X3D), defines a system that integrates
+    3D graphics and multimedia. Conceptually, each X3D file is a 3D time-based space
+    that contains graphic and aural objects that can be dynamically modified through
+    a variety of mechanisms. ISO/IEC 19776-1:2009 defines a mapping of the abstract
+    objects in X3D to a specific X3D encoding using the Extensible Markup Language
+    (XML).</p>\n<p>Each XML-encoded X3D file:</p>\n\nsupports all of the purposes
+    of X3D files defined in the X3D abstract specification ISO/IEC 19775; \nencodes
+    X3D constructs in an XML format. \n\n<p>An XML-encoded X3D file may be referenced
+    from files using other X3D encodings and may itself reference other X3D files
+    encoded using other X3D encodings. Such files can only be processed by browsers
+    that conform to all of the utilized X3D encodings.</p>"
 status:
   stage:
     content: REVISED
@@ -138,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

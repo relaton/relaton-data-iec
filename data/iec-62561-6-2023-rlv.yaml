@@ -1,7 +1,7 @@
 ---
 id: IEC6256162023RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 62561-6:2023 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62561-6::rlv
+- content: 'urn:iec:std:iec:62561-6:2023::rlv:'
   type: URN
 date:
 - type: published
@@ -77,21 +77,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62561-6:2023 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62561-6:2023
-    specifies the requirements and tests for devices intended to count the number
-    of lightning strikes based on the current flowing in a conductor. This conductor
-    can be part of a lightning protection system (LPS) or connected to an SPD installation
-    or other conductors, which are not intended to conduct a significant portion of
-    lightning currents. This third edition cancels and replaces the second edition
-    published in 2018. This edition constitutes a technical revision. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na) a new classification according to the internal circuit of
-    LSCs has been added;<br />\r\nb) the tests flowchart in Annex C has been updated
-    to reflect this new classification;<br />\r\nc) the applicability of previous
-    tests has been added (Annex D)."
+  content: |-
+    IEC 62561-6:2023 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62561-6:2023 specifies the requirements and tests for devices intended to count the number of lightning strikes based on the current flowing in a conductor. This conductor can be part of a lightning protection system (LPS) or connected to an SPD installation or other conductors, which are not intended to conduct a significant portion of lightning currents. This third edition cancels and replaces the second edition published in 2018. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) a new classification according to the internal circuit of LSCs has been added;<br/>
+    b) the tests flowchart in Annex C has been updated to reflect this new classification;<br/>
+    c) the applicability of previous tests has been added (Annex D).
 status:
   stage:
     content: PUBLISHED
@@ -113,7 +105,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

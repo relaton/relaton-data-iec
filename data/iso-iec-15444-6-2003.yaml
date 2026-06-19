@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1544462003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 15444-6:2003
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:15444-6:2003-10:::'
+- content: 'urn:iec:std:iso-iec:15444-6:2003:::'
   type: URN
 date:
 - type: published
@@ -103,7 +103,7 @@ abstract:
     <p>ISO/IEC 15444-6:2003 is useful for applications that store multiple pages, images with mixed content, and/or images that need more structure than provided in JP2. A JPM file stores a compound image document as a sequence of pages, each of which consists of a sequence of layout objects, each of which in turn consists of an MRC mask-image object pair. A JPM file can support MRC-encoded data, binary-only objects and pages, JPEG 2000-compressed objects and pages, or a mixture of all. Each of these elements (page, layout object, mask/image object) may have a label and associated metadata.</p>
     <p>In addition, a JPM file contains a main page collection, which is used to organize and navigate the pages in a compound image document. A key feature of JPM is its support of fragmented JPEG 2000 codestreams to enable progressive and interactive rendering in web applications. A JPM file may be self-contained in that it contains all the data needed to composite the page or pages in the file. A JPM file may also reference images and data in external files. The JPM web profile supports JPEG 2000 and JPEG for continuous tone compression, and G4, JBIG2 and JPEG 2000 for bi-level compression.</p>
     <p>In summary, ISO/IEC 15444-6:2003 specifies:</p>
-    <ul><li>a binary container for multiple bi-level and continuous-tone images used to represent a compound image,</li><li>a mechanism by which multiple images can be combined into a single compound image, based on the Mixed Raster Content model,</li><li>a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page collections,</li><li>a mechanism for storing JPEG 2000 and other compressed image data formats,</li><li>a mechanism by which metadata can be included in files specified by ISO/IEC 15444-6:2003.</li></ul>
+    a binary container for multiple bi-level and continuous-tone images used to represent a compound image,a mechanism by which multiple images can be combined into a single compound image, based on the Mixed Raster Content model,a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page collections,a mechanism for storing JPEG 2000 and other compressed image data formats,a mechanism by which metadata can be included in files specified by ISO/IEC 15444-6:2003.
 status:
   stage:
     content: REVISED
@@ -137,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

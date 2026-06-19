@@ -1,7 +1,7 @@
 ---
 id: ISOIECTS1801362025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -47,7 +47,7 @@ docidentifier:
 - content: ISO/IEC TS 18013-6:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:18013-6:2025-11:ts::'
+- content: 'urn:iec:std:iso-iec:18013-6:2025:ts::'
   type: URN
 date:
 - type: published
@@ -113,16 +113,16 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document specifies test methods for testing conformity of a mobile driving licence (mDL) or an mDL reader to ISO/IEC 18013-5. This document specifies test methods for:</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">mDL on its interface to an mDL reader;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">mDL reader on its interface to an mDL;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">mDL reader on its (optional) interface to an issuing authority infrastructure.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">Test cases for an issuing authority infrastructure on its interface to an mDL reader are not included in this document.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">Test cases for the use of OpenID Connect (OIDC) by an mDL reader on its interface to an issuing authority infrastructure are not included in this document. This document only provides test cases for the use of WebAPI on this interface.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document only addresses the functional behaviour of an implementation under test (IUT) on its interface(s) in scope. It does not address:</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">the internal implementation of an IUT, such as a secure area in an mDL;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">any functional requirements to an IUT not specified in ISO/IEC 18013-5, for example, requirements of a particular issuing authority;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">non-functional aspects of the IUT, nor IUT interfaces not listed above, such as the interface from an issuing authority infrastructure to an mDL, used to provision mDL data.</span></p>
+    <p class="MsoBodyText">This document specifies test methods for testing conformity of a mobile driving licence (mDL) or an mDL reader to ISO/IEC 18013-5. This document specifies test methods for:</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->mDL on its interface to an mDL reader;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->mDL reader on its interface to an mDL;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->mDL reader on its (optional) interface to an issuing authority infrastructure.</p>
+    <p class="MsoBodyText">Test cases for an issuing authority infrastructure on its interface to an mDL reader are not included in this document.</p>
+    <p class="MsoBodyText">Test cases for the use of OpenID Connect (OIDC) by an mDL reader on its interface to an issuing authority infrastructure are not included in this document. This document only provides test cases for the use of WebAPI on this interface.</p>
+    <p class="MsoBodyText">This document only addresses the functional behaviour of an implementation under test (IUT) on its interface(s) in scope. It does not address:</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->the internal implementation of an IUT, such as a secure area in an mDL;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->any functional requirements to an IUT not specified in ISO/IEC 18013-5, for example, requirements of a particular issuing authority;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->non-functional aspects of the IUT, nor IUT interfaces not listed above, such as the interface from an issuing authority infrastructure to an mDL, used to provision mDL data.</p>
 status:
   stage:
     content: PUBLISHED
@@ -156,7 +156,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC60749282022RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC 60749-28:2022 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60749-28::rlv
+- content: 'urn:iec:std:iec:60749-28:2022::rlv:'
   type: URN
 date:
 - type: published
@@ -83,29 +83,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60749-28:2022 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 60749-28:2022
-    establishes the procedure for testing, evaluating, and classifying devices and
-    microcircuits according to their susceptibility (sensitivity) to damage or degradation
-    by exposure to a defined field-induced charged device model (CDM) electrostatic
-    discharge (ESD). All packaged semiconductor devices, thin film circuits, surface
-    acoustic wave (SAW) devices, opto-electronic devices, hybrid integrated circuits
-    (HICs), and multi-chip modules (MCMs) containing any of these devices are to be
-    evaluated according to this document. To perform the tests, the devices are assembled
-    into a package similar to that expected in the final application. This CDM document
-    does not apply to socketed discharge model testers. This document describes the
-    field-induced (FI) method. An alternative, the direct contact (DC) method, is
-    described in Annex J. The purpose of this document is to establish a test method
-    that will replicate CDM failures and provide reliable, repeatable CDM ESD test
-    results from tester to tester, regardless of device type. Repeatable data will
-    allow accurate classifications and comparisons of CDM ESD sensitivity levels.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\n- a new subclause and annex relating to the
-    problems associated with CDM testing of integrated circuits and discrete semiconductors
-    in very small packages;<br />\r\n- changes to clarify cleaning of devices and
-    testers."
+  content: |-
+    IEC 60749-28:2022 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 60749-28:2022 establishes the procedure for testing, evaluating, and classifying devices and microcircuits according to their susceptibility (sensitivity) to damage or degradation by exposure to a defined field-induced charged device model (CDM) electrostatic discharge (ESD). All packaged semiconductor devices, thin film circuits, surface acoustic wave (SAW) devices, opto-electronic devices, hybrid integrated circuits (HICs), and multi-chip modules (MCMs) containing any of these devices are to be evaluated according to this document. To perform the tests, the devices are assembled into a package similar to that expected in the final application. This CDM document does not apply to socketed discharge model testers. This document describes the field-induced (FI) method. An alternative, the direct contact (DC) method, is described in Annex J. The purpose of this document is to establish a test method that will replicate CDM failures and provide reliable, repeatable CDM ESD test results from tester to tester, regardless of device type. Repeatable data will allow accurate classifications and comparisons of CDM ESD sensitivity levels. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - a new subclause and annex relating to the problems associated with CDM testing of integrated circuits and discrete semiconductors in very small packages;<br/>
+    - changes to clarify cleaning of devices and testers.
 status:
   stage:
     content: PUBLISHED
@@ -127,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

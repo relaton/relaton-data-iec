@@ -1,7 +1,7 @@
 ---
 id: IEC6116212010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -48,7 +48,7 @@ docidentifier:
 - content: IEC 61162-1:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61162-1:2010-11:::'
+- content: 'urn:iec:std:iec:61162-1:2010:::'
   type: URN
 date:
 - type: published
@@ -103,22 +103,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61162-1:2010 contains the requirements for data communication between
-    maritime electronic instruments, navigation and radiocommunication equipment when
-    interconnected via an appropriate system. Is intended to support one-way serial
-    data transmission from a single talker to one or more listeners. This data is
-    in printable ASCII form and may include information such as position, speed, depth,
-    frequency allocation, etc. Typical messages may be from about 11 to a maximum
-    of 79 characters in length and generally require transmission no more rapidly
-    than one message per second. For applications where a faster transmission rate
-    is necessary, reference should be made to IEC 61162-2. The main changes with respect
-    to the previous edition are listed below:<br />\r\n- certain sentences have been
-    removed as they are not used by other standards prepared by technical committee
-    80;<br />\r\n- new sentences have been added; corrections have been made to certain
-    sentences (ABK, BBM, DOR, FIR, SSD, TUT, and VTG);<br />\r\n- new fields have
-    been added to certain sentences;<br />\r\n- three additional tests have been added
-    to Annex B. The contents of the corrigendum of December 2013 have been included
-    in this copy."
+  content: |-
+    IEC 61162-1:2010 contains the requirements for data communication between maritime electronic instruments, navigation and radiocommunication equipment when interconnected via an appropriate system. Is intended to support one-way serial data transmission from a single talker to one or more listeners. This data is in printable ASCII form and may include information such as position, speed, depth, frequency allocation, etc. Typical messages may be from about 11 to a maximum of 79 characters in length and generally require transmission no more rapidly than one message per second. For applications where a faster transmission rate is necessary, reference should be made to IEC 61162-2. The main changes with respect to the previous edition are listed below:<br/>
+    - certain sentences have been removed as they are not used by other standards prepared by technical committee 80;<br/>
+    - new sentences have been added; corrections have been made to certain sentences (ABK, BBM, DOR, FIR, SSD, TUT, and VTG);<br/>
+    - new fields have been added to certain sentences;<br/>
+    - three additional tests have been added to Annex B. The contents of the corrigendum of December 2013 have been included in this copy.
 - language: fr
   script: Latn
   content: La CEI 61162-1:2010 contient les exigences pour la communication des données
@@ -158,7 +148,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

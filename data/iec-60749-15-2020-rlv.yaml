@@ -1,7 +1,7 @@
 ---
 id: IEC60749152020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: IEC 60749-15:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60749-15::rlv
+- content: 'urn:iec:std:iec:60749-15:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -82,26 +82,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60749-15:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 60749-15:2020 describes
-    a test used to determine whether encapsulated solid state devices used for through-hole
-    mounting can withstand the effects of the temperature to which they are subjected
-    during soldering of their leads by using wave soldering. In order to establish
-    a standard test procedure for the most reproducible methods, the solder dip method
-    is used because of its more controllable conditions. This procedure determines
-    whether devices are capable of withstanding the soldering temperature encountered
-    in printed wiring board assembly operations, without degrading their electrical
-    characteristics or internal connections. This test is destructive and may be used
-    for qualification, lot acceptance and as a product monitor. The heat is conducted
-    through the leads into the device package from solder heat at the reverse side
-    of the board. This procedure does not simulate wave soldering or reflow heat exposure
-    on the same side of the board as the package body. This edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\n-
-    inclusion of new Clause 3, Terms and definitions;<br />\r\n- clarification of
-    the use of a soldering iron for producing the heating effect;<br />\r\n- inclusion
-    an option to use accelerated ageing.</p>\r\n\r\n<ol style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 60749-15:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 60749-15:2020 describes a test used to determine whether encapsulated solid state devices used for through-hole mounting can withstand the effects of the temperature to which they are subjected during soldering of their leads by using wave soldering. In order to establish a standard test procedure for the most reproducible methods, the solder dip method is used because of its more controllable conditions. This procedure determines whether devices are capable of withstanding the soldering temperature encountered in printed wiring board assembly operations, without degrading their electrical characteristics or internal connections. This test is destructive and may be used for qualification, lot acceptance and as a product monitor. The heat is conducted through the leads into the device package from solder heat at the reverse side of the board. This procedure does not simulate wave soldering or reflow heat exposure on the same side of the board as the package body. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - inclusion of new Clause 3, Terms and definitions;<br/>
+    - clarification of the use of a soldering iron for producing the heating effect;<br/>
+    - inclusion an option to use accelerated ageing.</p>
+
+
 status:
   stage:
     content: PUBLISHED
@@ -123,7 +111,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -135,3 +123,4 @@ ext:
     project_number:
       content: '103229'
   price_code: iec:RL
+...

@@ -1,7 +1,7 @@
 ---
 id: IEC6284022025CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC 62840-2:2025 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62840-2::cmv
+- content: 'urn:iec:std:iec:62840-2:2025::cmv:'
   type: URN
 date:
 - type: published
@@ -76,44 +76,32 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62840-2:2025 CMV contains both the official standard and its commented
-    version. The commented version provides you with a quick and easy way to compare
-    all the changes between IEC 62840-2:2025 edition 2.0 and the previous IEC 62840-2:2016
-    edition 1.0. Furthermore, comments from IEC TC 69 experts are provided to explain
-    the reasons of the most relevant changes, or to clarify any part of the content.<br
-    />\r\n<br />\r\nIEC 62840-2:2025 provides the safety requirements for a battery
-    swap system, for the purposes of swapping swappable battery system (SBS)/handheld-swappable
-    battery system (HBS) of electric vehicles. The battery swap system is intended
-    to be connected to the supply network. The power supply is up to 1 000 V AC or
-    up to 1 500 V DC in accordance with IEC 60038. This document also applies to battery
-    swap systems supplied from on-site storage systems (e.g. buffer batteries).<br
-    />\r\nAspects covered in this document:<br />\r\n• safety requirements of the
-    battery swap system and its systems;<br />\r\n• security requirements for communication;<br
-    />\r\n• electromagnetic compatibility (EMC);<br />\r\n• marking and instructions;<br
-    />\r\n• protection against electric shock and other hazards.<br />\r\nThis document
-    is applicable to battery swap systems for EV equipped with one or more SBS/HBS.<br
-    />\r\nThis document is not applicable to<br />\r\n• aspects related to maintenance
-    and service of the battery swap station (BSS),<br />\r\n• trolley buses, rail
-    vehicles and vehicles designed primarily for use off-road, and<br />\r\n• maintenance
-    and service of EVs.<br />\r\nRequirements for bidirectional energy transfer are
-    under consideration<br />\r\nThis second edition cancels and replaces the first
-    edition published in 2016. This edition constitutes a technical revision.<br />\r\nThis
-    edition includes the following significant technical changes with respect to the
-    previous edition:<br />\r\na) expands the scope to encompass both swappable battery
-    systems (SBS) and handheld swappable battery systems (HBS);<br />\r\nb) introduces
-    stricter interoperability requirements through detailed system interface specifications
-    and defined state transition protocols;<br />\r\nc) enhances data security by
-    defining safety message transmission protocols and integrating telecom network
-    requirements;<br />\r\nd) increases electrical safety protection levels for battery
-    swap stations (BSS) with specified capacitor discharge time limits to mitigate
-    electric shock risks;<br />\r\ne) introduces enhanced mechanical safety requirements
-    for automated battery handling systems, with technical alignment to ISO 10218-1
-    and ISO 10218-2;<br />\r\nf) strengthens overload and short-circuit protection
-    for BSS through standardized testing methods and overcurrent protection specifications;<br
-    />\r\ng) defines upgraded electromagnetic compatibility (EMC) standards to ensure
-    system resilience against external interference, supplemented with EMC-related
-    functional safety measures.<br />\r\nThis document is to be read in conjunction
-    with IEC 62840-1:2025."
+  content: |-
+    IEC 62840-2:2025 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 62840-2:2025 edition 2.0 and the previous IEC 62840-2:2016 edition 1.0. Furthermore, comments from IEC TC 69 experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
+    <br/>
+    IEC 62840-2:2025 provides the safety requirements for a battery swap system, for the purposes of swapping swappable battery system (SBS)/handheld-swappable battery system (HBS) of electric vehicles. The battery swap system is intended to be connected to the supply network. The power supply is up to 1 000 V AC or up to 1 500 V DC in accordance with IEC 60038. This document also applies to battery swap systems supplied from on-site storage systems (e.g. buffer batteries).<br/>
+    Aspects covered in this document:<br/>
+    • safety requirements of the battery swap system and its systems;<br/>
+    • security requirements for communication;<br/>
+    • electromagnetic compatibility (EMC);<br/>
+    • marking and instructions;<br/>
+    • protection against electric shock and other hazards.<br/>
+    This document is applicable to battery swap systems for EV equipped with one or more SBS/HBS.<br/>
+    This document is not applicable to<br/>
+    • aspects related to maintenance and service of the battery swap station (BSS),<br/>
+    • trolley buses, rail vehicles and vehicles designed primarily for use off-road, and<br/>
+    • maintenance and service of EVs.<br/>
+    Requirements for bidirectional energy transfer are under consideration<br/>
+    This second edition cancels and replaces the first edition published in 2016. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) expands the scope to encompass both swappable battery systems (SBS) and handheld swappable battery systems (HBS);<br/>
+    b) introduces stricter interoperability requirements through detailed system interface specifications and defined state transition protocols;<br/>
+    c) enhances data security by defining safety message transmission protocols and integrating telecom network requirements;<br/>
+    d) increases electrical safety protection levels for battery swap stations (BSS) with specified capacitor discharge time limits to mitigate electric shock risks;<br/>
+    e) introduces enhanced mechanical safety requirements for automated battery handling systems, with technical alignment to ISO 10218-1 and ISO 10218-2;<br/>
+    f) strengthens overload and short-circuit protection for BSS through standardized testing methods and overcurrent protection specifications;<br/>
+    g) defines upgraded electromagnetic compatibility (EMC) standards to ensure system resilience against external interference, supplemented with EMC-related functional safety measures.<br/>
+    This document is to be read in conjunction with IEC 62840-1:2025.
 status:
   stage:
     content: PUBLISHED
@@ -135,7 +123,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

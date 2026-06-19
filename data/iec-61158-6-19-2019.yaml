@@ -1,7 +1,7 @@
 ---
 id: IEC611586192019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-6-19:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-6-19:2019-06:::'
+- content: 'urn:iec:std:iec:61158-6-19:2019:::'
   type: URN
 date:
 - type: published
@@ -103,50 +103,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-6-19:2019 provides common elements for basic time-critical and
-    non-time-critical messaging communications between application programs in an
-    automation environment and material specific to Type 2 fieldbus. The term “time-critical”
-    is used to represent the presence of a time-window, within which one or more specified
-    actions are required to be completed with some defined level of certainty. Failure
-    to complete specified actions within the time window risks failure of the applications
-    requesting the actions, with attendant risk to equipment, plant and possibly human
-    life.<br />\r\nThis International Standard specifies interactions between remote
-    applications and defines the externally visible behavior provided by the Type
-    2 fieldbus application layer. The purpose of this document is to define the protocol
-    provided to<br />\r\na) define the wire-representation of the service primitives
-    defined in this document, and<br />\r\nb) define the externally visible behavior
-    associated with their transfer. This document specifies the protocol of the Type
-    2 fieldbus application layer, in conformance with the OSI Basic Reference Model
-    (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br />\r\nThis
-    fourth edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\n- improving the hotplug and redundancy features;<br
-    />\r\n- improving the phase switching and the error handling;<br />\r\n- editorial
-    improvements."
+  content: |-
+    IEC 61158-6-19:2019 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 2 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This International Standard specifies interactions between remote applications and defines the externally visible behavior provided by the Type 2 fieldbus application layer. The purpose of this document is to define the protocol provided to<br/>
+    a) define the wire-representation of the service primitives defined in this document, and<br/>
+    b) define the externally visible behavior associated with their transfer. This document specifies the protocol of the Type 2 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br/>
+    This fourth edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - improving the hotplug and redundancy features;<br/>
+    - improving the phase switching and the error handling;<br/>
+    - editorial improvements.
 - language: fr
   script: Latn
-  content: "L’IEC 611586-19:2019 fournit des éléments communs pour les communications
-    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
-    d’application des environnements d’automatisation et le matériel spécifique au
-    bus de terrain de type 19. On utilise le terme \"prioritaire\" pour traduire la
-    présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une
-    ou plusieurs actions spécifiées soient terminées avec un niveau de certitude défini.
-    Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les
-    applications demandant les actions risquent de connaître une défaillance, avec
-    les risques que cela comporte pour les équipements, les installations et éventuellement
-    la vie humaine.<br />\r\nLa présente norme définit de manière abstraite le service,
-    visible par un observateur externe, assuré par les différents Types de la couche
-    Application de bus de terrain, en termes<br />\r\na) de modèle abstrait visant
-    à la définition des ressources d’application (objets) qui peuvent être manipulées
-    par des utilisateurs utilisant un service FAL;<br />\r\nb) d’événements et d’actions
-    liés aux primitives du service;<br />\r\nc) de paramètres associés à chaque événement
-    et action de primitive, ainsi que de forme prise par ces paramètres; et<br />\r\nd)
-    d’interaction entre ces événements et ces actions, ainsi que de séquences valides
-    desdits événements et actions.<br />\r\nLe but du présent document est de définir
-    les services fournis à:<br />\r\na) l’utilisateur de FAL à la frontière entre
-    l’utilisateur et la Couche application du Modèle de référence de bus de terrain;
-    et<br />\r\nb) la Gestion des systèmes au niveau de la frontière entre la Couche
-    application et la Gestion des systèmes selon le Modèle de référence de bus de
-    terrain."
+  content: |-
+    L’IEC 611586-19:2019 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 19. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées soient terminées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les actions risquent de connaître une défaillance, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.<br/>
+    La présente norme définit de manière abstraite le service, visible par un observateur externe, assuré par les différents Types de la couche Application de bus de terrain, en termes<br/>
+    a) de modèle abstrait visant à la définition des ressources d’application (objets) qui peuvent être manipulées par des utilisateurs utilisant un service FAL;<br/>
+    b) d’événements et d’actions liés aux primitives du service;<br/>
+    c) de paramètres associés à chaque événement et action de primitive, ainsi que de forme prise par ces paramètres; et<br/>
+    d) d’interaction entre ces événements et ces actions, ainsi que de séquences valides desdits événements et actions.<br/>
+    Le but du présent document est de définir les services fournis à:<br/>
+    a) l’utilisateur de FAL à la frontière entre l’utilisateur et la Couche application du Modèle de référence de bus de terrain; et<br/>
+    b) la Gestion des systèmes au niveau de la frontière entre la Couche application et la Gestion des systèmes selon le Modèle de référence de bus de terrain.
 status:
   stage:
     content: PUBLISHED
@@ -168,7 +145,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

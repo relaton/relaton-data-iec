@@ -1,7 +1,7 @@
 ---
 id: ISOIEC882532008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 8825-3:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:8825-3:2008-12:::'
+- content: 'urn:iec:std:iso-iec:8825-3:2008:::'
   type: URN
 date:
 - type: published
@@ -99,12 +99,12 @@ abstract:
   script: Latn
   content: |-
     <p>ISO/IEC 8825-3:2008 defines Encoding Control Notation (ECN): a notation for specifying encodings of ASN.1 types or of parts of types. It provides several mechanisms for such specification, including:</p>
-    <ul>
-    <li>direct specification of the encoding using standardized notation;</li>
-    <li>specification of the encoding by reference to standardized encoding rules;</li>
-    <li>specification of the encoding of an ASN.1 type by reference to an encoding structure;</li>
-    <li>specification of the encoding using non-ECN notation.</li>
-    </ul>
+
+    direct specification of the encoding using standardized notation;
+    specification of the encoding by reference to standardized encoding rules;
+    specification of the encoding of an ASN.1 type by reference to an encoding structure;
+    specification of the encoding using non-ECN notation.
+
     <p>It also provides the means to link the specification of encodings to the type definitions to which they are to be applied.</p>
     <p>ECN does not currently provide any support for specifications using the object identifier (OID) internationalized resource identifier type or the relative OID internationalized resource identifier type (see ISO/IEC 8824-1).</p>
 status:
@@ -140,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

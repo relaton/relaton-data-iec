@@ -1,7 +1,7 @@
 ---
 id: ISOIEC979732011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 9797-3:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:9797-3:2011-11:::'
+- content: 'urn:iec:std:iso-iec:9797-3:2011:::'
   type: URN
 date:
 - type: published
@@ -94,14 +94,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 9797-3:2011 specifies the following Message Authentication Code (MAC) algorithms that use a secret key and a universal hash-function with an <i>n</i>-bit result to calculate an <i>m</i>-bit MAC based on the block ciphers specified in ISO/IEC 18033-3 and the stream ciphers specified in ISO/IEC 18033-4:</p>
-    <ol>
-    <li>       UMAC;</li>
-    <li>       Badger;</li>
-    <li>       Poly1305-AES;</li>
-    <li>       GMAC.</li>
-    </ol>
+  content: |
+    <p>ISO/IEC 9797-3:2011 specifies the following Message Authentication Code (MAC) algorithms that use a secret key and a universal hash-function with an n-bit result to calculate an m-bit MAC based on the block ciphers specified in ISO/IEC 18033-3 and the stream ciphers specified in ISO/IEC 18033-4:</p>
+
+           UMAC;
+           Badger;
+           Poly1305-AES;
+           GMAC.
 status:
   stage:
     content: PUBLISHED
@@ -135,7 +134,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

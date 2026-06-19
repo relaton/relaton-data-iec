@@ -1,7 +1,7 @@
 ---
 id: ISOIEC979862005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 9798-6:2005
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:9798-6:2005-07:::'
+- content: 'urn:iec:std:iso-iec:9798-6:2005:::'
   type: URN
 date:
 - type: published
@@ -100,7 +100,7 @@ abstract:
   content: |-
     <p>ISO/IEC 9798-6:2005 specifies four entity authentication mechanisms based on manual data transfer between authenticating devices. Such mechanisms may be appropriate in a variety of circumstances. One such application occurs in Personal Area Networks, where the owner of two personal devices capable of wireless communications wishes them to perform an entity authentication procedure as part of the process of preparing them for use in the network. These mechanisms may also be used to support key management functions.</p>
     <p>ISO/IEC 9798-6:2005 specifies mechanisms in which entity authentication is achieved by</p>
-    <ul><li>manually transferring short data strings from one device to the other, or</li><li>manually comparing short data strings output by the two devices.</li></ul>
+    manually transferring short data strings from one device to the other, ormanually comparing short data strings output by the two devices.
     <p>In ISO/IEC 9798-6:2005, the meaning of the term entity authentication is different to the meaning applied in other parts of ISO/IEC 9798. Instead of one device verifying that the other device has a claimed identity (and vice versa), both devices in possession of a user verify that they correctly share a data string with the other device at the time of execution of the mechanism. Of course, this data string could contain identifiers for one or both of the devices.</p>
 status:
   stage:
@@ -135,7 +135,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

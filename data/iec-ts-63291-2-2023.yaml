@@ -1,7 +1,7 @@
 ---
 id: IECTS6329122023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC TS 63291-2:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63291-2:2023-09:ts::'
+- content: 'urn:iec:std:iec:63291-2:2023:ts::'
   type: URN
 date:
 - type: published
@@ -83,28 +83,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 63291-2:2023 defines aspects on planning, specification, and execution
-    of multi-vendor HVDC grid systems also referred to as HVDC grids. The terms \"HVDC
-    grid systems\" or \"HVDC grids\" are used in this document to describe HVDC systems
-    for power transmission having more than two HVDC stations connected to a common
-    DC circuit. The DC circuit can be of radial or meshed topology or a combination
-    thereof. In this document, the term \"HVDC grids\" is used.<br />\r\nWhile this
-    document focuses on requirements specific for HVDC grids, some requirements are
-    considered applicable to all HVDC systems in general, i.e., including point-to-point
-    HVDC systems. Existing IEC (e.g., IEC TR 63363-1 [1]), Cigre or other relevant
-    documents have been used for reference as far as possible.<br />\r\nCorresponding
-    to electric power transmission applications, this document is applicable to high
-    voltage systems, i.e., those having typically nominal DC voltages higher than
-    50 kV with respect to earth are considered in this document.<br />\r\nNOTE While
-    the physical principles of DC networks are basically voltage independent, the
-    technical options for designing equipment get much wider with lower DC voltage
-    levels, e.g. in the case of converters or switchgear.<br />\r\nThis document covers
-    technical aspects of:<br />\r\n- coordination of HVDC grid and AC systems,<br
-    />\r\n- HVDC grid characteristics,<br />\r\n- HVDC grid control,<br />\r\n- HVDC
-    grid protection,<br />\r\n- AC/DC converter stations,<br />\r\n- HVDC grid installations,
-    including DC switching stations and HVDC transmission lines,<br />\r\n- studies
-    and associated models,<br />\r\n- testing.<br />\r\nBeyond the scope of this document,
-    the following content is proposed for future work:<br />\r\nDC/DC converter stations."
+  content: |-
+    IEC TS 63291-2:2023 defines aspects on planning, specification, and execution of multi-vendor HVDC grid systems also referred to as HVDC grids. The terms "HVDC grid systems" or "HVDC grids" are used in this document to describe HVDC systems for power transmission having more than two HVDC stations connected to a common DC circuit. The DC circuit can be of radial or meshed topology or a combination thereof. In this document, the term "HVDC grids" is used.<br/>
+    While this document focuses on requirements specific for HVDC grids, some requirements are considered applicable to all HVDC systems in general, i.e., including point-to-point HVDC systems. Existing IEC (e.g., IEC TR 63363-1 [1]), Cigre or other relevant documents have been used for reference as far as possible.<br/>
+    Corresponding to electric power transmission applications, this document is applicable to high voltage systems, i.e., those having typically nominal DC voltages higher than 50 kV with respect to earth are considered in this document.<br/>
+    NOTE While the physical principles of DC networks are basically voltage independent, the technical options for designing equipment get much wider with lower DC voltage levels, e.g. in the case of converters or switchgear.<br/>
+    This document covers technical aspects of:<br/>
+    - coordination of HVDC grid and AC systems,<br/>
+    - HVDC grid characteristics,<br/>
+    - HVDC grid control,<br/>
+    - HVDC grid protection,<br/>
+    - AC/DC converter stations,<br/>
+    - HVDC grid installations, including DC switching stations and HVDC transmission lines,<br/>
+    - studies and associated models,<br/>
+    - testing.<br/>
+    Beyond the scope of this document, the following content is proposed for future work:<br/>
+    DC/DC converter stations.
 status:
   stage:
     content: PUBLISHED
@@ -126,7 +120,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

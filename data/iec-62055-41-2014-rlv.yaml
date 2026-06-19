@@ -1,7 +1,7 @@
 ---
 id: IEC62055412014RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -34,7 +34,7 @@ docidentifier:
 - content: IEC 62055-41:2014 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62055-41::rlv
+- content: 'urn:iec:std:iec:62055-41:2014::rlv:'
   type: URN
 date:
 - type: published
@@ -89,27 +89,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62055-41:2014 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nIEC 62055-41:2014-05(en-fr)
-    specifies the application layer protocol of the STS for transferring units of
-    credit and other management information from a point of sale (POS) system to an
-    STS-compliant payment meter in a one-way token carrier system. It is primarily
-    intended for application with electricity payment meters without a tariff employing
-    energy-based tokens, but may also have application with currency-based token systems
-    and for services other than electricity. It is intended for use by manufacturers
-    of payment meters that have to accept tokens that comply with the STS and also
-    by manufacturers of POS systems that have to produce STS-compliant tokens and
-    is to be read in conjunction with IEC 62055-5x series. This second edition cancels
-    and replaces the first edition issued in 2007. It constitutes a technical revision.
-    The main technical changes are:<br />\r\n- Class 2 token is extended to include
-    credit transfer for gas and water with associated extensions in the display/test
-    tokens.<br />\r\n- MfrCode is extended from 2 to 4 digits.<br />\r\n- Three token
-    identifier base dates are defined to provide for more frequent key changes with
-    TID roll-over procedures.<br />\r\n- A code of practice for the management of
-    TID roll-over key changes in association with the revised set of base dates.<br
-    />\r\n- Some clarifications and additional examples have been added."
+  content: |-
+    IEC 62055-41:2014 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    IEC 62055-41:2014-05(en-fr) specifies the application layer protocol of the STS for transferring units of credit and other management information from a point of sale (POS) system to an STS-compliant payment meter in a one-way token carrier system. It is primarily intended for application with electricity payment meters without a tariff employing energy-based tokens, but may also have application with currency-based token systems and for services other than electricity. It is intended for use by manufacturers of payment meters that have to accept tokens that comply with the STS and also by manufacturers of POS systems that have to produce STS-compliant tokens and is to be read in conjunction with IEC 62055-5x series. This second edition cancels and replaces the first edition issued in 2007. It constitutes a technical revision. The main technical changes are:<br/>
+    - Class 2 token is extended to include credit transfer for gas and water with associated extensions in the display/test tokens.<br/>
+    - MfrCode is extended from 2 to 4 digits.<br/>
+    - Three token identifier base dates are defined to provide for more frequent key changes with TID roll-over procedures.<br/>
+    - A code of practice for the management of TID roll-over key changes in association with the revised set of base dates.<br/>
+    - Some clarifications and additional examples have been added.
 status:
   stage:
     content: REVISED
@@ -131,7 +118,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

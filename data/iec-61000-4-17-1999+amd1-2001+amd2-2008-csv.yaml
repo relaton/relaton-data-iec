@@ -1,7 +1,7 @@
 ---
 id: IEC610004171999AMD12001AMD22008CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -48,7 +48,7 @@ docidentifier:
 - content: IEC 61000-4-17:1999+AMD1:2001+AMD2:2008 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61000-4-17:1999-06::csv:+amd:1:2001-07+amd:2:2008-11
+- content: urn:iec:std:iec:61000-4-17:1999::csv::plus:amd:1:2001:plus:amd:2:2008
   type: URN
 date:
 - type: published
@@ -101,14 +101,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "Defines test methods for immunity to ripple at the d.c. input power port
-    of electrical or electronic equipment. Applies to low-voltage d.c. power ports
-    of equipment supplied by external rectifier systems, or batteries which are being
-    charged. This standard defines<br />\r\n- test voltage waveform;<br />\r\n- range
-    of test levels;<br />\r\n- test generator;<br />\r\n- test set-up;<br />\r\n-
-    test procedure.<br />\r\nThis consolidated version consists of the first edition
-    (1999), its amendment 1 (2001) and its amendment 2 (2008). Therefore, no need
-    to order amendments in addition to this publication."
+  content: |-
+    Defines test methods for immunity to ripple at the d.c. input power port of electrical or electronic equipment. Applies to low-voltage d.c. power ports of equipment supplied by external rectifier systems, or batteries which are being charged. This standard defines<br/>
+    - test voltage waveform;<br/>
+    - range of test levels;<br/>
+    - test generator;<br/>
+    - test set-up;<br/>
+    - test procedure.<br/>
+    This consolidated version consists of the first edition (1999), its amendment 1 (2001) and its amendment 2 (2008). Therefore, no need to order amendments in addition to this publication.
 - language: fr
   script: Latn
   content: Définit les méthodes d'essai d'immunité aux ondulations résiduelles appliquées
@@ -141,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IECTS62898332023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC TS 62898-3-3:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62898-3-3:2023-08:ts::'
+- content: 'urn:iec:std:iec:62898-3-3:2023:ts::'
   type: URN
 date:
 - type: published
@@ -81,22 +81,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 62898-3-3:2023 deals with frequency and voltage stabilization of
-    AC microgrids by dispatchable loads, which react autonomously on variations of
-    frequency and voltage with a change in active power consumption. Both 50 Hz and
-    60 Hz electric power systems are covered. This document gives requirements to
-    emulate the self-regulation effect of loads including synthetic inertia.<br />\r\nThe
-    loads recommended for this approach are noncritical loads, this means their power
-    modulation will not significantly affect the user as some kind of energy storage
-    is involved which effectively decouples end energy use from the electricity supply
-    by the electric network. The self-regulation of loads is beneficial both in island
-    mode and grid-connected mode. This document gives the details of the self-regulation
-    behaviour but does not stipulate which loads shall participate in this approach
-    as an optional function.<br />\r\nThis document covers both continuously controllable
-    loads with droop control and ON/OFF switchable loads with staged settings. The
-    scope of this document is limited to loads connected to the voltage level up to
-    35 kV. Reactive power for voltage stabilization and DC microgrids are excluded
-    in this document."
+  content: |-
+    IEC TS 62898-3-3:2023 deals with frequency and voltage stabilization of AC microgrids by dispatchable loads, which react autonomously on variations of frequency and voltage with a change in active power consumption. Both 50 Hz and 60 Hz electric power systems are covered. This document gives requirements to emulate the self-regulation effect of loads including synthetic inertia.<br/>
+    The loads recommended for this approach are noncritical loads, this means their power modulation will not significantly affect the user as some kind of energy storage is involved which effectively decouples end energy use from the electricity supply by the electric network. The self-regulation of loads is beneficial both in island mode and grid-connected mode. This document gives the details of the self-regulation behaviour but does not stipulate which loads shall participate in this approach as an optional function.<br/>
+    This document covers both continuously controllable loads with droop control and ON/OFF switchable loads with staged settings. The scope of this document is limited to loads connected to the voltage level up to 35 kV. Reactive power for voltage stabilization and DC microgrids are excluded in this document.
 status:
   stage:
     content: PUBLISHED
@@ -118,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

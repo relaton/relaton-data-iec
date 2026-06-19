@@ -1,7 +1,7 @@
 ---
 id: ISOIECTR2225012002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC TR 22250-1:2002
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:22250-1:2002-03:tr::'
+- content: 'urn:iec:std:iso-iec:22250-1:2002:tr::'
   type: URN
 date:
 - type: published
@@ -104,16 +104,16 @@ abstract:
     <p>- Specification in RELAX uses XML instance (i.e., document) syntax,</p>
     <p>- RELAX provides rich datatypes, and</p>
     <p>- RELAX is namespace-aware.</p>
-    <p>The RELAX specification consists of two parts, <i>RELAX Core </i>and <i>RELAX Namespace</i>. This part of the Technical</p>
-    <p>Report gives <i>RELAX Core, </i>which may be used to describe markup languages containing a single XML namespace.</p>
-    <p>Part 2 of this Technical Report gives <i>RELAX Namespace</i>, which may be used to describe markup languages</p>
-    <p>containing more than a single XML namespace, consisting of more than one <i>RELAX Core </i>document.</p>
-    <p>Given a sequence of elements, a software module called the <i>RELAX Core </i>processor compares it against a</p>
-    <p>specification in <i>RELAX Core </i>and reports the result. The <i>RELAX Core </i>processor can be directly invoked by the</p>
-    <p>user, and can also be invoked by another software module called the <i>RELAX Namespace </i>processor.</p>
+    <p>The RELAX specification consists of two parts, RELAX Core and RELAX Namespace. This part of the Technical</p>
+    <p>Report gives RELAX Core, which may be used to describe markup languages containing a single XML namespace.</p>
+    <p>Part 2 of this Technical Report gives RELAX Namespace, which may be used to describe markup languages</p>
+    <p>containing more than a single XML namespace, consisting of more than one RELAX Core document.</p>
+    <p>Given a sequence of elements, a software module called the RELAX Core processor compares it against a</p>
+    <p>specification in RELAX Core and reports the result. The RELAX Core processor can be directly invoked by the</p>
+    <p>user, and can also be invoked by another software module called the RELAX Namespace processor.</p>
     <p>RELAX may be used in conjunction with DTDs. In particular, notations and entities declared by DTDs can be</p>
     <p>constrained by RELAX.</p>
-    <p>This part of the Technical Report also gives a subset of <i>RELAX Core</i>, which is restricted to DTD features plus</p>
+    <p>This part of the Technical Report also gives a subset of RELAX Core, which is restricted to DTD features plus</p>
     <p>datatypes. This subset is very easy to implement, and with the exception of datatype information, conversion</p>
     <p>between this subset and XML DTDs results in no information loss.</p>
     <p>NOTE 1 Since XML is a subset of WebSGML (TC2 of ISO 8879), RELAX is applicable to SGML.</p>
@@ -151,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

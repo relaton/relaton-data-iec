@@ -1,7 +1,7 @@
 ---
 id: IEC611584252019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-4-25:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-4-25:2019-04:::'
+- content: 'urn:iec:std:iec:61158-4-25:2019:::'
   type: URN
 date:
 - type: published
@@ -112,15 +112,12 @@ abstract:
     together in any combination
 - language: fr
   script: Latn
-  content: "IEC 61158-4-25:2019 La couche de liaison de données assure les communications
-    de messagerie prioritaires de base entre les appareils d’un environnement d’automatisation.<br
-    />\r\nCe protocole offre des opportunités de communication à toutes les entités
-    de liaison de données participantes<br />\r\na) des opportunités de communication
-    cyclique à démarrage synchrone, selon un ordre préétabli, et<br />\r\nb) de manière
-    cyclique ou acyclique asynchrone, comme demandé par chaque cycle de chacune de
-    ces entités de liaison de données.<br />\r\nPar conséquent, ce protocole peut
-    se caractériser comme assurant un accès cyclique et acyclique asynchrone, mais
-    avec un redémarrage synchrone de chaque cycle."
+  content: |-
+    IEC 61158-4-25:2019 La couche de liaison de données assure les communications de messagerie prioritaires de base entre les appareils d’un environnement d’automatisation.<br/>
+    Ce protocole offre des opportunités de communication à toutes les entités de liaison de données participantes<br/>
+    a) des opportunités de communication cyclique à démarrage synchrone, selon un ordre préétabli, et<br/>
+    b) de manière cyclique ou acyclique asynchrone, comme demandé par chaque cycle de chacune de ces entités de liaison de données.<br/>
+    Par conséquent, ce protocole peut se caractériser comme assurant un accès cyclique et acyclique asynchrone, mais avec un redémarrage synchrone de chaque cycle.
 status:
   stage:
     content: PUBLISHED
@@ -142,7 +139,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

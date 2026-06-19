@@ -1,7 +1,7 @@
 ---
 id: IEC61340472025CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61340-4-7:2025 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61340-4-7::cmv
+- content: 'urn:iec:std:iec:61340-4-7:2025::cmv:'
   type: URN
 date:
 - type: published
@@ -81,28 +81,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61340-4-7:2025 CMV contains both the official standard and its commented
-    version. The commented version provides you with a quick and easy way to compare
-    all the changes between IEC 61340-4-7:2025 edition 3.0 and the previous IEC 61340-4-7:2017
-    edition 2.0. Furthermore, comments from IEC TC 101 experts are provided to explain
-    the reasons of the most relevant changes, or to clarify any part of the content.<br
-    />\r\n<br />\r\nIEC 61340-4-7:2025 provides test methods and procedures for evaluating
-    and selecting air ionization equipment and systems (ionizers). This document establishes
-    measurement techniques, under specified conditions, to determine offset voltage
-    (ion balance) and decay (charge neutralization) time for ionizers. This document
-    does not include measurements of electromagnetic interference (EMI), or the use
-    of ionizers in connection with ordnance, flammables, explosive items or electrically
-    initiated explosive devices. As contained in this document, the test methods and
-    test conditions can be used by manufacturers of ionizers to provide performance
-    data describing their products. Users of ionizers are urged to modify the test
-    methods and test conditions for their specific application in order to qualify
-    ionizers for use, or to make periodic verifications of ionizer performance. The
-    user will decide the extent of the data required for each application.<br />\r\nThis
-    edition includes the following significant technical changes with respect to the
-    previous edition:<br />\r\na) in Figure 5, a NOTE 3 was added to clarify that
-    for AC bars and grids, a single emitter alternating between +/− polarity is used;<br
-    />\r\nb) in Annex B, the relative error for measurement equipment was updated
-    to include the consideration for the resolution of the voltmeter."
+  content: |-
+    IEC 61340-4-7:2025 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 61340-4-7:2025 edition 3.0 and the previous IEC 61340-4-7:2017 edition 2.0. Furthermore, comments from IEC TC 101 experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
+    <br/>
+    IEC 61340-4-7:2025 provides test methods and procedures for evaluating and selecting air ionization equipment and systems (ionizers). This document establishes measurement techniques, under specified conditions, to determine offset voltage (ion balance) and decay (charge neutralization) time for ionizers. This document does not include measurements of electromagnetic interference (EMI), or the use of ionizers in connection with ordnance, flammables, explosive items or electrically initiated explosive devices. As contained in this document, the test methods and test conditions can be used by manufacturers of ionizers to provide performance data describing their products. Users of ionizers are urged to modify the test methods and test conditions for their specific application in order to qualify ionizers for use, or to make periodic verifications of ionizer performance. The user will decide the extent of the data required for each application.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) in Figure 5, a NOTE 3 was added to clarify that for AC bars and grids, a single emitter alternating between +/− polarity is used;<br/>
+    b) in Annex B, the relative error for measurement equipment was updated to include the consideration for the resolution of the voltmeter.
 status:
   stage:
     content: PUBLISHED
@@ -124,7 +109,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

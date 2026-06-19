@@ -1,0 +1,157 @@
+---
+id: ISOIEC19583262026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Concepts and usage of metadata
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 26: XML for representation of ISO/IEC 11179-3:2013 content'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Concepts and usage of metadata - Part 26: XML
+    for representation of ISO/IEC 11179-3:2013 content'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Concepts et utilisation des métadonnées
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 26: Titre manque'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Concepts et utilisation des métadonnées
+    - Partie 26: Titre manque'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113298
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec19583-26{ed1.0}en.pdf
+docidentifier:
+- content: ISO/IEC 19583-26:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:19583-26:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-04-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 32
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies the structure of ISO/IEC 11179-3:2013 representation in W3C XML Schema suitable for communication of content between compliant registries. The schema described in this document will implement a class and attribute vocabulary that matches the conceptual model presented in ISO/IEC 11179-3:2013 in W3C XML Schema format. The purpose of the schema is for the exchange of compliant metadata, and to support the validation of messages exchanged between registries. It is not intended for the communication of data element metadata alongside the data to which the metadata refers.</p>
+    <p>The document specifes the schema and the principles and conventions that were followed to map classes, attributes, and associations of the conceptual model into an acyclic, directed graph suitable for an unambiguous document-based representation.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:F

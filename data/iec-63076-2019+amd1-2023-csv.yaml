@@ -1,7 +1,7 @@
 ---
 id: IEC630762019AMD12023CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -48,7 +48,7 @@ docidentifier:
 - content: IEC 63076:2019+AMD1:2023 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:63076:2019-09::csv:+amd:1:2023-02
+- content: urn:iec:std:iec:63076:2019::csv::plus:amd:1:2023
   type: URN
 date:
 - type: published
@@ -101,32 +101,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63076:2019+AMD1:2023 applies to electrical systems aboard vehicles
-    of the trolley bus type, as defined in 3.1, fed with a nominal line voltage (Un)
-    between 600 V DC and 750 V DC. This document defines the requirements and constructional
-    advice, especially to avoid electrical danger to the public and to staff. Where
-    special requirements exist for trolley buses, advice is given for mechanical and
-    functional safety, as well as for protection against fire. This publication is
-    based on EN 50502:2015. This document covers vehicles intended for public transportation.
-    This document applies to:<br />\r\n- trolley buses without on-board isolation
-    interface from the contact line,<br />\r\n- buses with a current rail for guidance
-    in the road surface,<br />\r\n- guided buses with bipolar roof current collectors."
+  content: |-
+    IEC 63076:2019+AMD1:2023 applies to electrical systems aboard vehicles of the trolley bus type, as defined in 3.1, fed with a nominal line voltage (Un) between 600 V DC and 750 V DC. This document defines the requirements and constructional advice, especially to avoid electrical danger to the public and to staff. Where special requirements exist for trolley buses, advice is given for mechanical and functional safety, as well as for protection against fire. This publication is based on EN 50502:2015. This document covers vehicles intended for public transportation. This document applies to:<br/>
+    - trolley buses without on-board isolation interface from the contact line,<br/>
+    - buses with a current rail for guidance in the road surface,<br/>
+    - guided buses with bipolar roof current collectors.
 - language: fr
   script: Latn
-  content: "L'IEC 63076:2019+AMD1:2023 s'applique aux systèmes électriques à bord
-    des véhicules de type trolleybus, tels que définis en 3.1, alimentés par une tension
-    d'alimentation nominale (Un) comprise entre 600 V en courant continu et 750 V
-    en courant continu. Le présent document définit les exigences et les recommandations
-    de construction, notamment pour éviter les dangers de type électrique pour le
-    public et le personnel. Lorsque les trolleybus sont soumis à des exigences particulières,
-    des recommandations sont dispensées, concernant aussi bien la sécurité mécanique
-    et fonctionnelle que la protection contre les incendies. La présente publication
-    est basée sur l'EN 50502:2015. Le présent document concerne les équipements de
-    transport public. Le présent document s'applique aux:<br />\r\n- trolleybus sans
-    interface d'isolation embarquée par rapport à la ligne de contact,<br />\r\n-
-    autobus équipés d'un rail d'alimentation en courant pour le guidage sur la surface
-    de roulement,<br />\r\n- autobus guidés par un système de captage de courant bipolaire
-    sur la toiture."
+  content: |-
+    L'IEC 63076:2019+AMD1:2023 s'applique aux systèmes électriques à bord des véhicules de type trolleybus, tels que définis en 3.1, alimentés par une tension d'alimentation nominale (Un) comprise entre 600 V en courant continu et 750 V en courant continu. Le présent document définit les exigences et les recommandations de construction, notamment pour éviter les dangers de type électrique pour le public et le personnel. Lorsque les trolleybus sont soumis à des exigences particulières, des recommandations sont dispensées, concernant aussi bien la sécurité mécanique et fonctionnelle que la protection contre les incendies. La présente publication est basée sur l'EN 50502:2015. Le présent document concerne les équipements de transport public. Le présent document s'applique aux:<br/>
+    - trolleybus sans interface d'isolation embarquée par rapport à la ligne de contact,<br/>
+    - autobus équipés d'un rail d'alimentation en courant pour le guidage sur la surface de roulement,<br/>
+    - autobus guidés par un système de captage de courant bipolaire sur la toiture.
 status:
   stage:
     content: PUBLISHED
@@ -148,7 +134,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

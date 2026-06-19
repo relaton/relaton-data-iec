@@ -1,7 +1,7 @@
 ---
 id: IEC6090432019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 60904-3:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60904-3::rlv
+- content: 'urn:iec:std:iec:60904-3:2019::rlv:'
   type: URN
 date:
 - type: published
@@ -78,22 +78,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60904-3:2019 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 60904-3:2019 describes
-    basic measurement principles for determining the electrical output of PV devices.
-    The principles given in this document are designed to relate the performance rating
-    of PV devices to a common reference terrestrial solar spectral irradiance distribution.
-    The reference terrestrial solar spectral irradiance distribution is given in this
-    document in order to classify solar simulators according to the spectral performance
-    requirements contained in IEC 60904-9. The principles contained in this standard
-    cover testing in both natural and simulated sunlight. This new edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) all spectral data were recalculated due to some minor calculation and
-    rounding errors in the third edition; the global spectral irradiance returned
-    to exactly the data of the second edition;<br />\r\nb) the angular distribution
-    of the irradiance was clarified.</p>"
+  content: |-
+    IEC 60904-3:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 60904-3:2019 describes basic measurement principles for determining the electrical output of PV devices. The principles given in this document are designed to relate the performance rating of PV devices to a common reference terrestrial solar spectral irradiance distribution. The reference terrestrial solar spectral irradiance distribution is given in this document in order to classify solar simulators according to the spectral performance requirements contained in IEC 60904-9. The principles contained in this standard cover testing in both natural and simulated sunlight. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) all spectral data were recalculated due to some minor calculation and rounding errors in the third edition; the global spectral irradiance returned to exactly the data of the second edition;<br/>
+    b) the angular distribution of the irradiance was clarified.</p>
 status:
   stage:
     content: PUBLISHED
@@ -115,7 +104,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

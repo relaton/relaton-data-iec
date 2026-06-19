@@ -1,7 +1,7 @@
 ---
 id: IEC626062013AMD12017CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC 62606:2013+AMD1:2017 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62606:2013-07::csv:+amd:1:2017-02
+- content: urn:iec:std:iec:62606:2013::csv::plus:amd:1:2017
   type: URN
 date:
 - type: published
@@ -81,27 +81,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62606:2013+A1:2017 applies to arc fault detection devices (AFDD) for
-    household and similar uses in a.c. circuits. An AFDD is designed by the manufacturer:<br
-    />\r\n- either as a single device having opening means able to open the protected
-    circuit in specified conditions; or<br />\r\n- as a single device integrating
-    a protective device; or<br />\r\n- as a separate unit, according to Annex D assembled
-    on site with a declared protective device. The contents of the corrigendum of
-    November 2013 have been included in this copy. This consolidated version consists
-    of the first edition (2013) and its amendment 1 (2017). Therefore, no need to
-    order amendment in addition to this publication."
+  content: |-
+    IEC 62606:2013+A1:2017 applies to arc fault detection devices (AFDD) for household and similar uses in a.c. circuits. An AFDD is designed by the manufacturer:<br/>
+    - either as a single device having opening means able to open the protected circuit in specified conditions; or<br/>
+    - as a single device integrating a protective device; or<br/>
+    - as a separate unit, according to Annex D assembled on site with a declared protective device. The contents of the corrigendum of November 2013 have been included in this copy. This consolidated version consists of the first edition (2013) and its amendment 1 (2017). Therefore, no need to order amendment in addition to this publication.
 - language: fr
   script: Latn
-  content: "L'IEC 62606:2013+A1:2017 s'applique aux dispositifs pour la détection
-    de défaut d'arc (DPDA) utilisés à des fins domestiques et analogues dans des circuits
-    en courant alternatif (AC). Un DPDA est conçu par le constructeur:<br />\r\n-
-    comme un dispositif unique doté d'un système d'ouverture pouvant ouvrir le circuit
-    protégé dans les conditions spécifiées; ou<br />\r\n- comme un dispositif unique
-    doté d'un dispositif de protection; ou<br />\r\n- comme une unité séparée, conformément
-    à l'Annexe D, assemblée sur site avec un dispositif de protection déclaré. Le
-    contenu du corrigendum de novembre 2013 a été pris en considération dans cet exemplaire.
-    Cette version consolidée comprend la première édition (2013) et son amendement
-    1 (2017). Il n'est donc pas nécessaire de commander l'amendement avec cette publication."
+  content: |-
+    L'IEC 62606:2013+A1:2017 s'applique aux dispositifs pour la détection de défaut d'arc (DPDA) utilisés à des fins domestiques et analogues dans des circuits en courant alternatif (AC). Un DPDA est conçu par le constructeur:<br/>
+    - comme un dispositif unique doté d'un système d'ouverture pouvant ouvrir le circuit protégé dans les conditions spécifiées; ou<br/>
+    - comme un dispositif unique doté d'un dispositif de protection; ou<br/>
+    - comme une unité séparée, conformément à l'Annexe D, assemblée sur site avec un dispositif de protection déclaré. Le contenu du corrigendum de novembre 2013 a été pris en considération dans cet exemplaire. Cette version consolidée comprend la première édition (2013) et son amendement 1 (2017). Il n'est donc pas nécessaire de commander l'amendement avec cette publication.
 status:
   stage:
     content: PUBLISHED
@@ -123,7 +114,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

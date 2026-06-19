@@ -1,7 +1,7 @@
 ---
 id: IEC623842020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 62384:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62384::rlv
+- content: 'urn:iec:std:iec:62384:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -77,25 +77,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62384:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 62384:2020 specifies
-    performance requirements for electronic controlgear for use on DC or AC supplies
-    up to 1 000 V (alternating current at 50 Hz or 60 Hz) and with an output frequency
-    which can deviate from the supply frequency, associated with LED modules according
-    to IEC 62031. Controlgear for LED modules specified in this document are designed
-    to provide constant voltage or current. Deviations from the pure voltage and current
-    types do not exclude the gear from this document. This second edition cancels
-    and replaces the first edition published in 2006 and Amendment 1:2009. This edition
-    constitutes a technical revision. This edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\n- scope extension
-    (direct current from 250 V to 1 000 V);<br />\r\n- new specifications for measuring
-    the power factor for controlgear with settable/non-constant output (for instance,
-    to allow for constant light output);<br />\r\n- deletion of audio frequency requirements;<br
-    />\r\n- selection of current test circuit by module capacitance (instead of selecting
-    by having or not having logic circuitry) plus test circuit setup changes.</p>\r\n\r\n<ol
-    style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 62384:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 62384:2020 specifies performance requirements for electronic controlgear for use on DC or AC supplies up to 1 000 V (alternating current at 50 Hz or 60 Hz) and with an output frequency which can deviate from the supply frequency, associated with LED modules according to IEC 62031. Controlgear for LED modules specified in this document are designed to provide constant voltage or current. Deviations from the pure voltage and current types do not exclude the gear from this document. This second edition cancels and replaces the first edition published in 2006 and Amendment 1:2009. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - scope extension (direct current from 250 V to 1 000 V);<br/>
+    - new specifications for measuring the power factor for controlgear with settable/non-constant output (for instance, to allow for constant light output);<br/>
+    - deletion of audio frequency requirements;<br/>
+    - selection of current test circuit by module capacitance (instead of selecting by having or not having logic circuitry) plus test circuit setup changes.</p>
+
+
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -131,3 +121,4 @@ ext:
     project_number:
       content: '23576'
   price_code: iec:RN
+...

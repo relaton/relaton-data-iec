@@ -1,7 +1,7 @@
 ---
 id: IEC61158432019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-4-3:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-4-3:2019-04:::'
+- content: 'urn:iec:std:iec:61158-4-3:2019:::'
   type: URN
 date:
 - type: published
@@ -103,30 +103,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-4-3:2019 specifies procedures for the timely transfer of data
-    and control information from one data-link user entity to a peer user entity,
-    and among the data-link entities forming the distributed data-link service provider
-    and the structure of the fieldbus DLPDUs used for the transfer of data and control
-    information by the protocol of this standard, and their representation as physical
-    interface data units. This fourth edition cancels and replaces the third edition
-    published in 2014 and constitutes a technical revision.<br />\r\nThe main changes
-    are:<br />\r\nThis edition includes the following significant technical changes
-    with respect to the previous edition:<br />\r\n•corrections in Table 3;<br />\r\n•corrections
-    in Table A.15;<br />\r\n•spelling and grammar."
+  content: |-
+    IEC 61158-4-3:2019 specifies procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This fourth edition cancels and replaces the third edition published in 2014 and constitutes a technical revision.<br/>
+    The main changes are:<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    •corrections in Table 3;<br/>
+    •corrections in Table A.15;<br/>
+    •spelling and grammar.
 - language: fr
   script: Latn
-  content: "L'IEC 61158-4-3:2019 la couche liaison de données permet la communication
-    de messages de base, critiques du point de vue temporel, entre appareils dans
-    un environnement d'automatisation.<br />\r\nCe protocole donne les moyens de communiquer
-    à un sous-ensemble “maître” présélectionné d'entités de liaison de données de
-    manière asynchrone cyclique, séquentiellement pour chacune de ces entités de liaison
-    de données. D'autres entités de liaison de données communiquent uniquement si
-    elles sont autorisées et déléguées par ces entités de liaison de données \"maîtres\".<br
-    />\r\nLes communications d'un maître avec d'autres entités de liaison de données
-    peuvent être cycliques ou acycliques avec accès selon un ordre de priorité, ou
-    une combinaison des deux.<br />\r\nCe protocole est un moyen de partager de manière
-    équitable les ressources de communication disponibles. Il comporte des dispositions
-    de fonctionnement synchrone et isochrone."
+  content: |-
+    L'IEC 61158-4-3:2019 la couche liaison de données permet la communication de messages de base, critiques du point de vue temporel, entre appareils dans un environnement d'automatisation.<br/>
+    Ce protocole donne les moyens de communiquer à un sous-ensemble “maître” présélectionné d'entités de liaison de données de manière asynchrone cyclique, séquentiellement pour chacune de ces entités de liaison de données. D'autres entités de liaison de données communiquent uniquement si elles sont autorisées et déléguées par ces entités de liaison de données "maîtres".<br/>
+    Les communications d'un maître avec d'autres entités de liaison de données peuvent être cycliques ou acycliques avec accès selon un ordre de priorité, ou une combinaison des deux.<br/>
+    Ce protocole est un moyen de partager de manière équitable les ressources de communication disponibles. Il comporte des dispositions de fonctionnement synchrone et isochrone.
 status:
   stage:
     content: PUBLISHED
@@ -148,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

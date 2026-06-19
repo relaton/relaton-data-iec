@@ -1,7 +1,7 @@
 ---
 id: IEC6152312023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 61523-1:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61523-1:2023-10:::'
+- content: 'urn:iec:std:iec:61523-1:2023:::'
   type: URN
 date:
 - type: published
@@ -77,16 +77,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61523-1:2023 focuses on delay and power calculation for integrated
-    circuit design with support for modeling logical behavior and signal integrity.<br
-    />\r\nThe standard specifications covered in this document are as follows:<br
-    />\r\n- Description language for timing and power modeling, called the “delay
-    calculation language” (DCL)<br />\r\n- Software procedural interface (PI) for
-    communications between EDA applications and compiled libraries of DCL descriptions<br
-    />\r\n- Standard file exchange format for parasitic information about the chip
-    design: Standard Parasitic Exchange Format (SPEF)<br />\r\n- Informative usage
-    examples<br />\r\n- Informative notes.<br />\r\nThis is an IEC/IEEE dual logo
-    standard."
+  content: |-
+    IEC 61523-1:2023 focuses on delay and power calculation for integrated circuit design with support for modeling logical behavior and signal integrity.<br/>
+    The standard specifications covered in this document are as follows:<br/>
+    - Description language for timing and power modeling, called the “delay calculation language” (DCL)<br/>
+    - Software procedural interface (PI) for communications between EDA applications and compiled libraries of DCL descriptions<br/>
+    - Standard file exchange format for parasitic information about the chip design: Standard Parasitic Exchange Format (SPEF)<br/>
+    - Informative usage examples<br/>
+    - Informative notes.<br/>
+    This is an IEC/IEEE dual logo standard.
 status:
   stage:
     content: PUBLISHED
@@ -108,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

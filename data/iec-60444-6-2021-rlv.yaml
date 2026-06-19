@@ -1,7 +1,7 @@
 ---
 id: IEC6044462021RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 60444-6:2021 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60444-6::rlv
+- content: 'urn:iec:std:iec:60444-6:2021::rlv:'
   type: URN
 date:
 - type: published
@@ -77,26 +77,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60444-6:2021 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 60444-6:2021
-    applies to the measurements of drive level dependence (DLD) of quartz crystal
-    units. Two test methods (A and C) and one referential method (B) are described.
-    “Method A”, based on the p-network according to IEC 60444-5, can be used in the
-    complete frequency range covered by this part of IEC 60444. “Reference Method
-    B”, based on the p-network or reflection method according to IEC 60444-5 or IEC
-    60444-8 can be used in the complete frequency range covered by this part of IEC
-    60444. “Method C”, an oscillator method, is suitable for measurements of fundamental
-    mode crystal units in larger quantities with fixed conditions.<br />\r\nNOTE The
-    measurement methods specified in this document are not only applicable to AT-cut,
-    but also to other crystal cuts and vibration modes, such as doubly rotated cuts
-    (IT,SC) and to tuning fork crystal units (by using a high impedance test fixture).
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\n- some equations have been removed and corrected;<br
-    />\r\n- it has been specified in the note of the Scope that the measurement methods
-    specified in this document are not only applicable to AT-cut but also to other
-    crystal cuts and vibration modes."
+  content: |-
+    IEC 60444-6:2021 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 60444-6:2021 applies to the measurements of drive level dependence (DLD) of quartz crystal units. Two test methods (A and C) and one referential method (B) are described. “Method A”, based on the p-network according to IEC 60444-5, can be used in the complete frequency range covered by this part of IEC 60444. “Reference Method B”, based on the p-network or reflection method according to IEC 60444-5 or IEC 60444-8 can be used in the complete frequency range covered by this part of IEC 60444. “Method C”, an oscillator method, is suitable for measurements of fundamental mode crystal units in larger quantities with fixed conditions.<br/>
+    NOTE The measurement methods specified in this document are not only applicable to AT-cut, but also to other crystal cuts and vibration modes, such as doubly rotated cuts (IT,SC) and to tuning fork crystal units (by using a high impedance test fixture). This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - some equations have been removed and corrected;<br/>
+    - it has been specified in the note of the Scope that the measurement methods specified in this document are not only applicable to AT-cut but also to other crystal cuts and vibration modes.
 status:
   stage:
     content: PUBLISHED
@@ -118,7 +105,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

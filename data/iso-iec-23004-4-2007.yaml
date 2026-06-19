@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300442007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23004-4:2007
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23004-4:2007-09:::'
+- content: 'urn:iec:std:iso-iec:23004-4:2007:::'
   type: URN
 date:
 - type: published
@@ -93,15 +93,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 23004-4:2007 specifies the interfaces of the support application programming interface and the realization technology used for resource management in MPEG Multimedia Middleware (M3W). Resource management is an optional framework for M3W platforms. </p>
-    <p>ISO/IEC 23004-4:2007 specifies </p>
-    <ul>
-    <li>entities and interfaces for resource budget creation, assignment and removal, </li>
-    <li>entity and interfaces for assessing the feasibility and selecting resource configurations (resource configuration = set of assigned budgets), </li>
-    <li>interfaces implemented by quality-aware entities (Quality-aware entities can provide multiple quality levels and know the resource needed to provide each quality level.), </li>
-    <li>entity and interfaces for coordination of the "budget--quality level" negotiation (includes interfaces for registration and setting priorities).</li>
-    </ul>
+  content: "<p>ISO/IEC 23004-4:2007 specifies the interfaces of the support application
+    programming interface and the realization technology used for resource management
+    in MPEG Multimedia Middleware (M3W). Resource management is an optional framework
+    for M3W platforms. </p>\n<p>ISO/IEC 23004-4:2007 specifies </p>\n\nentities and
+    interfaces for resource budget creation, assignment and removal, \nentity and
+    interfaces for assessing the feasibility and selecting resource configurations
+    (resource configuration = set of assigned budgets), \ninterfaces implemented by
+    quality-aware entities (Quality-aware entities can provide multiple quality levels
+    and know the resource needed to provide each quality level.), \nentity and interfaces
+    for coordination of the \"budget--quality level\" negotiation (includes interfaces
+    for registration and setting priorities).\n"
 status:
   stage:
     content: PUBLISHED
@@ -135,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

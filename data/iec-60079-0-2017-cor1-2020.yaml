@@ -1,7 +1,7 @@
 ---
 id: IEC6007902017COR12020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -43,13 +43,15 @@ docidentifier:
 - content: IEC 60079-0:2017/COR1:2020
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60079-0:2017-12:::||cor:1:2020-01
+- content: urn:iec:std:iec:60079-0:2017:::::cor:1:2020
   type: URN
 date:
 - type: published
   at: '2020-01-20'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-06-16'
+- type: obsoleted
+  at: '2026-06-16'
 contributor:
 - role:
   - type: publisher
@@ -102,7 +104,7 @@ abstract:
   content: "<!-- NEW -->"
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2017'
   owner:
@@ -121,7 +123,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

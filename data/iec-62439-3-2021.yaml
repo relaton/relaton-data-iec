@@ -1,7 +1,7 @@
 ---
 id: IEC6243932021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 62439-3:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62439-3:2021-12:::'
+- content: 'urn:iec:std:iec:62439-3:2021:::'
   type: URN
 date:
 - type: published
@@ -103,25 +103,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62439-3:2021 specifies two related redundancy protocols that, in the
-    event of failure of any network element, provide seamless switchover with zero
-    recovery time:<br />\r\n• PRP (Parallel Redundancy Protocol), which allows attaching
-    nodes to two separate networks while allowing attachment of nodes to one network
-    only; and<br />\r\n• HSR (High-availability Seamless Redundancy), which allows
-    threading two-port nodes in a ring or multi-port nodes in a meshed network.<br
-    />\r\nThe contents of the corrigendum of April 2023 have been included in this
-    copy."
+  content: |-
+    IEC 62439-3:2021 specifies two related redundancy protocols that, in the event of failure of any network element, provide seamless switchover with zero recovery time:<br/>
+    • PRP (Parallel Redundancy Protocol), which allows attaching nodes to two separate networks while allowing attachment of nodes to one network only; and<br/>
+    • HSR (High-availability Seamless Redundancy), which allows threading two-port nodes in a ring or multi-port nodes in a meshed network.<br/>
+    The contents of the corrigendum of April 2023 have been included in this copy.
 - language: fr
   script: Latn
-  content: "IEC 62469-3:2021 spécifie deux protocoles de redondance associés qui assurent
-    une commutation transparente avec un temps de reprise nul en cas de défaillance
-    d'un élément de réseau:<br />\r\n• le protocole de redondance en parallèle PRP
-    (Parallel Redundancy Protocol) qui permet d'associer des nœuds à deux réseaux
-    tout en permettant d'associer des nœuds à un seul réseau; et<br />\r\n• la redondance
-    transparente de haute disponibilité HSR (High-availability Seamless Redundancy)
-    qui permet de lier des nœuds à deux ports dans un anneau ou des nœuds à plusieurs
-    ports dans un réseau maillé.<br />\r\nLe contenu du corrigendum d'avril 2023 a
-    été pris en considération dans cet exemplaire."
+  content: |-
+    IEC 62469-3:2021 spécifie deux protocoles de redondance associés qui assurent une commutation transparente avec un temps de reprise nul en cas de défaillance d'un élément de réseau:<br/>
+    • le protocole de redondance en parallèle PRP (Parallel Redundancy Protocol) qui permet d'associer des nœuds à deux réseaux tout en permettant d'associer des nœuds à un seul réseau; et<br/>
+    • la redondance transparente de haute disponibilité HSR (High-availability Seamless Redundancy) qui permet de lier des nœuds à deux ports dans un anneau ou des nœuds à plusieurs ports dans un réseau maillé.<br/>
+    Le contenu du corrigendum d'avril 2023 a été pris en considération dans cet exemplaire.
 status:
   stage:
     content: PUBLISHED
@@ -143,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC62153432013AMD12024CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 62153-4-3:2013+AMD1:2024 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62153-4-3:2013-10::csv:+amd:1:2024-05
+- content: urn:iec:std:iec:62153-4-3:2013::csv::plus:amd:1:2024
   type: URN
 date:
 - type: published
@@ -81,16 +81,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62153-4-3:2013+AMD1:2024 CSV determines the screening effectiveness
-    of a cable shield by applying a well-defined current and voltage to the screen
-    of the cable and measuring the induced voltage in order to determine the surface
-    transfer impedance. This test measures only the magnetic component of the transfer
-    impedance. This second edition cancels and replaces the first edition published
-    in 2006. This edition constitutes a technical revision. This edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\n- now three different test configurations are described;<br />\r\n- formulas
-    to calculate the maximum frequency up to which the different test configurations
-    can be used are included;<br />\r\n- the effect of ground loops is described."
+  content: |-
+    IEC 62153-4-3:2013+AMD1:2024 CSV determines the screening effectiveness of a cable shield by applying a well-defined current and voltage to the screen of the cable and measuring the induced voltage in order to determine the surface transfer impedance. This test measures only the magnetic component of the transfer impedance. This second edition cancels and replaces the first edition published in 2006. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - now three different test configurations are described;<br/>
+    - formulas to calculate the maximum frequency up to which the different test configurations can be used are included;<br/>
+    - the effect of ground loops is described.
 status:
   stage:
     content: PUBLISHED
@@ -112,7 +107,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

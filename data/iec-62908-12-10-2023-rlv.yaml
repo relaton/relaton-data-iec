@@ -1,7 +1,7 @@
 ---
 id: IEC6290812102023RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 62908-12-10:2023 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62908-12-10::rlv
+- content: 'urn:iec:std:iec:62908-12-10:2023::rlv:'
   type: URN
 date:
 - type: published
@@ -83,20 +83,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62908-12-10:2023 RLV contains both the official IEC International
-    Standard and its Redline version. The Redline version is available in English
-    only and provides you with a quick and easy way to compare all the changes between
-    the official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62908-12-10:2023
-    specifies the standard measuring conditions and measurement methods for determining
-    touch and hovering performance of a touch sensor module. This document is applicable
-    to touch sensor modules, where the structural relationship between touch sensor,
-    touch controller, touch sensor module, display panel, touch display panel, and
-    touch display module is defined in IEC 62908-1-2. This second edition cancels
-    and replaces the first edition published in 2017. This edition constitutes a technical
-    revision. This edition includes the following significant technical changes with
-    respect to the previous edition:<br />\r\n- added hovering performance measurement
-    methods, especially in-plane characteristics at a constant distance from the touch
-    sensor;<br />\r\n- added pen touch performance."
+  content: |-
+    IEC 62908-12-10:2023 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62908-12-10:2023 specifies the standard measuring conditions and measurement methods for determining touch and hovering performance of a touch sensor module. This document is applicable to touch sensor modules, where the structural relationship between touch sensor, touch controller, touch sensor module, display panel, touch display panel, and touch display module is defined in IEC 62908-1-2. This second edition cancels and replaces the first edition published in 2017. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - added hovering performance measurement methods, especially in-plane characteristics at a constant distance from the touch sensor;<br/>
+    - added pen touch performance.
 status:
   stage:
     content: REVISED
@@ -118,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

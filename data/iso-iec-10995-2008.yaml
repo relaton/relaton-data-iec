@@ -1,7 +1,7 @@
 ---
 id: ISOIEC109952008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 10995:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:10995:2008-04:::'
+- content: 'urn:iec:std:iso-iec:10995:2008:::'
   type: URN
 date:
 - type: published
@@ -98,25 +98,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <div id="MathJax_Message" style="display: none;"></div>
+  content: |2-
+
     <p>ISO/IEC 10995:2008 specifies an accelerated aging test method for estimating the life expectancy for the retrievability of information stored on recordable or rewritable optical disks.</p>
     <p>This test includes details on the following formats: DVD-R/-RW/-RAM, +R/+RW. It may be applied to additional optical disk formats with the appropriate specification substitutions and may be updated by committee in the future as required.</p>
     <p>ISO/IEC 10995:2008 includes the following:</p>
-    <ul>
-    <li>stress conditions;</li>
-    <li>assumptions;</li>
-    <li>ambient conditions:
-    <ul>
-    <li>controlled storage condition, e.g. 25 °C and 50% RH, using Eyring model,</li>
-    <li>uncontrolled storage condition, e.g. 30 °C and 80% RH, using Arrhenius model;</li>
-    </ul>
-    </li>
-    <li>evaluation system description;</li>
-    <li>specimen preparation;</li>
-    <li>data acquisition procedure;</li>
-    <li>data interpretation.</li>
-    </ul>
+
+    stress conditions;
+    assumptions;
+    ambient conditions:
+
+    controlled storage condition, e.g. 25 °C and 50% RH, using Eyring model,
+    uncontrolled storage condition, e.g. 30 °C and 80% RH, using Arrhenius model;
+
+
+    evaluation system description;
+    specimen preparation;
+    data acquisition procedure;
+    data interpretation.
+
     <p>The methodology includes only the effects of temperature (T) and relative humidity (RH). It does not attempt to model degradation due to complex failure mechanism kinetics, nor does it test for exposure to light, corrosive gases, contaminants, handling, and variations in playback subsystems. Disks exposed to these additional sources of stress or higher levels of T and RH are expected to experience shorter usable lifetimes.</p>
 status:
   stage:
@@ -151,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

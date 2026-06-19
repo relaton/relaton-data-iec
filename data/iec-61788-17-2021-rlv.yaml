@@ -1,7 +1,7 @@
 ---
 id: IEC61788172021RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,7 +27,7 @@ docidentifier:
 - content: IEC 61788-17:2021 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61788-17::rlv
+- content: 'urn:iec:std:iec:61788-17:2021::rlv:'
   type: URN
 date:
 - type: published
@@ -79,22 +79,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61788-17:2021 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 61788-17:2021
-    specifies the measurements of the local critical current density (Jc) and its
-    distribution in large-area high-temperature superconducting (HTS) films by an
-    inductive method using third-harmonic voltages. The most important consideration
-    for precise measurements is to determine Jc at liquid nitrogen temperatures by
-    an electric-field criterion and obtain current-voltage characteristics from its
-    frequency dependence. Although it is possible to measure Jc in applied DC magnetic
-    fields [20] [21], the scope of this document is limited to the measurement without
-    DC magnetic fields. This technique intrinsically measures the critical sheet current
-    that is the product of Jc and the film thickness d. The range and measurement
-    resolution for Jcd of HTS films are as follows.<br />\r\n- Jcd: from 200 A/m to
-    32 kA/m (based on results, not limitation).<br />\r\n- Measurement resolution:
-    100 A/m (based on results, not limitation)."
+  content: |-
+    IEC 61788-17:2021 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61788-17:2021 specifies the measurements of the local critical current density (Jc) and its distribution in large-area high-temperature superconducting (HTS) films by an inductive method using third-harmonic voltages. The most important consideration for precise measurements is to determine Jc at liquid nitrogen temperatures by an electric-field criterion and obtain current-voltage characteristics from its frequency dependence. Although it is possible to measure Jc in applied DC magnetic fields [20] [21], the scope of this document is limited to the measurement without DC magnetic fields. This technique intrinsically measures the critical sheet current that is the product of Jc and the film thickness d. The range and measurement resolution for Jcd of HTS films are as follows.<br/>
+    - Jcd: from 200 A/m to 32 kA/m (based on results, not limitation).<br/>
+    - Measurement resolution: 100 A/m (based on results, not limitation).
 status:
   stage:
     content: PUBLISHED
@@ -116,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

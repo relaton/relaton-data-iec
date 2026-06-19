@@ -1,7 +1,7 @@
 ---
 id: IEC61340532022CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC 61340-5-3:2022 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61340-5-3::cmv
+- content: 'urn:iec:std:iec:61340-5-3:2022::cmv:'
   type: URN
 date:
 - type: published
@@ -83,28 +83,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61340-5-3:2022 CMV contains both the official standard and its commented
-    version. The commented version provides you with a quick and easy way to compare
-    all the changes between IEC 61340-5-3:2022 edition 3.0 and the previous IEC 61340-5-3:2015
-    edition 2.0. Futhermore, comments from IEC TC 101 experts are provided to explain
-    the reasons of the most relevant change.<br />\r\n<br />\r\nIEC 61340-5-3:2022
-    defines the ESD protective packaging properties required to protect ESD sensitive
-    devices (ESDSs) through all phases of production, rework and maintenance, transport
-    and storage. Test methods are referenced to evaluate packaging and packaging materials
-    for these product and material properties. Performance limits are provided.<br
-    />\r\nThis document does not address protection from electromagnetic interference
-    (EMI), electromagnetic pulsing (EMP) or protection of electrically initiated explosive
-    materials or devices.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\na) reference
-    to IEC 61340-4-10 was removed;<br />\r\nb) material resistance property \"electrostatic
-    field shielding\" was removed;<br />\r\nc) the requirement for electrostatic discharge
-    shielding was changed from 50 nJ to 20 nJ;<br />\r\nd) Table 1 – footnote \"b\"
-    was changed to mention the two-point probe in IEC 61340-2-3;<br />\r\ne) \"shall
-    be marked\" was changed to \"should be marked\" in 7.2.2 and 7.2.3;<br />\r\nf)
-    Table 3 – the classification symbol and the primary function code F was removed;<br
-    />\r\ng) Table A.2 – references to IEC TS 61340-5-4 [2] and IEC TR 61340-5-5 [3]
-    were added;<br />\r\nh) Annex C – guidance regarding electric field shielding
-    was added;<br />\r\ni) Annex D – low charging material property was added."
+  content: |-
+    IEC 61340-5-3:2022 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 61340-5-3:2022 edition 3.0 and the previous IEC 61340-5-3:2015 edition 2.0. Futhermore, comments from IEC TC 101 experts are provided to explain the reasons of the most relevant change.<br/>
+    <br/>
+    IEC 61340-5-3:2022 defines the ESD protective packaging properties required to protect ESD sensitive devices (ESDSs) through all phases of production, rework and maintenance, transport and storage. Test methods are referenced to evaluate packaging and packaging materials for these product and material properties. Performance limits are provided.<br/>
+    This document does not address protection from electromagnetic interference (EMI), electromagnetic pulsing (EMP) or protection of electrically initiated explosive materials or devices.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) reference to IEC 61340-4-10 was removed;<br/>
+    b) material resistance property "electrostatic field shielding" was removed;<br/>
+    c) the requirement for electrostatic discharge shielding was changed from 50 nJ to 20 nJ;<br/>
+    d) Table 1 – footnote "b" was changed to mention the two-point probe in IEC 61340-2-3;<br/>
+    e) "shall be marked" was changed to "should be marked" in 7.2.2 and 7.2.3;<br/>
+    f) Table 3 – the classification symbol and the primary function code F was removed;<br/>
+    g) Table A.2 – references to IEC TS 61340-5-4 [2] and IEC TR 61340-5-5 [3] were added;<br/>
+    h) Annex C – guidance regarding electric field shielding was added;<br/>
+    i) Annex D – low charging material property was added.
 status:
   stage:
     content: PUBLISHED
@@ -126,7 +119,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

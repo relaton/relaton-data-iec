@@ -1,7 +1,7 @@
 ---
 id: IEC624932015AMD12022CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -32,7 +32,7 @@ docidentifier:
 - content: IEC 62493:2015+AMD1:2022 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62493:2015-03::csv:+amd:1:2022-06
+- content: urn:iec:std:iec:62493:2015::csv::plus:amd:1:2022
   type: URN
 date:
 - type: published
@@ -85,38 +85,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62493:2015+AMD1:2022 applies to the assessment of lighting equipment
-    related to human exposure to electromagnetic fields. The assessment consists of
-    the induced internal electric field for frequencies from 20 kHz to 10 MHz and
-    the specific absorption rate (SAR) for frequencies from 100 kHz to 300 MHz around
-    lighting equipment. This second edition cancels and replaces the first edition
-    published in 2009. This edition constitutes a technical revision. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na) identification of lighting product types deemed to comply
-    with the standard without the need for test;<br />\r\nb) deletion of the need
-    for CISPR-15-compliance as a prerequisite for IEC 62493 compliance;<br />\r\nc)
-    inclusion of the consequences of the ICNIPR 2010 guidelines for (up to 100 kHz);<br
-    />\r\nd) adding some guidance to the Van der Hoofden test head method to improve
-    reproducibility of results;<br />\r\ne) inclusion of compliance demonstration
-    method for products having intentional radiators."
+  content: |-
+    IEC 62493:2015+AMD1:2022 applies to the assessment of lighting equipment related to human exposure to electromagnetic fields. The assessment consists of the induced internal electric field for frequencies from 20 kHz to 10 MHz and the specific absorption rate (SAR) for frequencies from 100 kHz to 300 MHz around lighting equipment. This second edition cancels and replaces the first edition published in 2009. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) identification of lighting product types deemed to comply with the standard without the need for test;<br/>
+    b) deletion of the need for CISPR-15-compliance as a prerequisite for IEC 62493 compliance;<br/>
+    c) inclusion of the consequences of the ICNIPR 2010 guidelines for (up to 100 kHz);<br/>
+    d) adding some guidance to the Van der Hoofden test head method to improve reproducibility of results;<br/>
+    e) inclusion of compliance demonstration method for products having intentional radiators.
 - language: fr
   script: Latn
-  content: "L'IEC 62439:2015+AMD1:2022 traite de l'évaluation d'un équipement d'éclairage
-    relativement à l'exposition humaine aux champs électromagnétiques. L'évaluation
-    comprend le champ électrique interne induit pour les fréquences comprises entre
-    20 kHz et 10 MHz et le débit d'absorption spécifique (DAS) pour les fréquences
-    comprises entre 100 kHz et 300 MHz autour de l'équipement d'éclairage. Cette deuxième
-    édition annule et remplace la première édition, parue en 2009. Cette édition constitue
-    une révision technique. La présente édition inclut les modifications techniques
-    significatives suivantes par rapport à l'édition précédente:<br />\r\na) identification
-    des types de produits d'éclairage considérés comme satisfaisant à la norme sans
-    qu'il soit nécessaire de procéder à des essais;<br />\r\nb) suppression de la
-    condition préalable consistant à se conformer à la norme CISPR 15 pour satisfaire
-    aux exigences de l'IEC 62493;<br />\r\nc) inclusion des conséquences des lignes
-    directrices de l'ICNIPR 2010 (jusqu'à 100 kHz);<br />\r\nd) ajout de recommandations
-    pour la \"méthode de la tête d'essai de Van der Hoofden\" afin d'améliorer la
-    reproductibilité des résultats;<br />\r\ne) inclusion de la méthode de démonstration
-    de conformité des produits dotés d'éléments rayonnants intentionnels."
+  content: |-
+    L'IEC 62439:2015+AMD1:2022 traite de l'évaluation d'un équipement d'éclairage relativement à l'exposition humaine aux champs électromagnétiques. L'évaluation comprend le champ électrique interne induit pour les fréquences comprises entre 20 kHz et 10 MHz et le débit d'absorption spécifique (DAS) pour les fréquences comprises entre 100 kHz et 300 MHz autour de l'équipement d'éclairage. Cette deuxième édition annule et remplace la première édition, parue en 2009. Cette édition constitue une révision technique. La présente édition inclut les modifications techniques significatives suivantes par rapport à l'édition précédente:<br/>
+    a) identification des types de produits d'éclairage considérés comme satisfaisant à la norme sans qu'il soit nécessaire de procéder à des essais;<br/>
+    b) suppression de la condition préalable consistant à se conformer à la norme CISPR 15 pour satisfaire aux exigences de l'IEC 62493;<br/>
+    c) inclusion des conséquences des lignes directrices de l'ICNIPR 2010 (jusqu'à 100 kHz);<br/>
+    d) ajout de recommandations pour la "méthode de la tête d'essai de Van der Hoofden" afin d'améliorer la reproductibilité des résultats;<br/>
+    e) inclusion de la méthode de démonstration de conformité des produits dotés d'éléments rayonnants intentionnels.
 status:
   stage:
     content: PUBLISHED
@@ -138,7 +122,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

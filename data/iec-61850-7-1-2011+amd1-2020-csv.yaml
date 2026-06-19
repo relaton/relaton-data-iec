@@ -1,7 +1,7 @@
 ---
 id: IEC61850712011AMD12020CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61850-7-1:2011+AMD1:2020 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61850-7-1:2011-07::csv:+amd:1:2020-08
+- content: urn:iec:std:iec:61850-7-1:2011::csv::plus:amd:1:2020
   type: URN
 date:
 - type: published
@@ -81,21 +81,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61850-7-1:2011+A1:2020 introduces the modelling methods, communication
-    principles, and information models that are used in the various parts of the IEC
-    61850-7 series. The purpose is to provide - from a conceptual point of view -
-    assistance to understand the basic modelling concepts and description methods
-    for:<br />\r\n- substation-specific information models for power utility automation
-    systems,<br />\r\n- device functions used for power utility automation purposes,
-    and<br />\r\n- communication systems to provide interoperability within power
-    utility facilities. Compared to the first edition, this second edition introduces:<br
-    />\r\n- the model for statistical and historical statistical data,<br />\r\n-
-    the concepts of proxies, gateways, LD hierarchy and LN inputs,<br />\r\n- the
-    model for time synchronisation,<br />\r\n- the concepts behind different testing
-    facilities,<br />\r\n- the extended logging function. It also clarifies certain
-    items.<br />\r\n<strong>This consolidated version consists of the second edition
-    (2011) and its amendment 1 (2020). Therefore, no need to order amendment in addition
-    to this publication.</strong>"
+  content: |-
+    IEC 61850-7-1:2011+A1:2020 introduces the modelling methods, communication principles, and information models that are used in the various parts of the IEC 61850-7 series. The purpose is to provide - from a conceptual point of view - assistance to understand the basic modelling concepts and description methods for:<br/>
+    - substation-specific information models for power utility automation systems,<br/>
+    - device functions used for power utility automation purposes, and<br/>
+    - communication systems to provide interoperability within power utility facilities. Compared to the first edition, this second edition introduces:<br/>
+    - the model for statistical and historical statistical data,<br/>
+    - the concepts of proxies, gateways, LD hierarchy and LN inputs,<br/>
+    - the model for time synchronisation,<br/>
+    - the concepts behind different testing facilities,<br/>
+    - the extended logging function. It also clarifies certain items.<br/>
+    <strong>This consolidated version consists of the second edition (2011) and its amendment 1 (2020). Therefore, no need to order amendment in addition to this publication.</strong>
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +113,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

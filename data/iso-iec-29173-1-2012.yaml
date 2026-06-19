@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2917312012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -30,7 +30,7 @@ docidentifier:
 - content: ISO/IEC 29173-1:2012
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29173-1:2012-11:::'
+- content: 'urn:iec:std:iso-iec:29173-1:2012:::'
   type: URN
 date:
 - type: published
@@ -98,15 +98,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 29173-1:2012 defines an interface protocol between a device driver of a mobile AIDC application platform and a mobile RFID interrogator within a mobile AIDC terminal. It is intended that ISO/IEC 29173-1:2012 be implemented in both the device driver of a mobile AIDC application platform and the mobile RFID interrogator. </p>
-    <p>Without this standard protocol, manufacturers of mobile RFID interrogators would likely develop multiple mobile RFID interrogator device drivers for different mobile AIDC application platforms. Moreover, they also would likely develop a proprietary interface protocol between the mobile AIDC application platform and the mobile RFID interrogator. On the other hand, if both the mobile AIDC application platform and the Mobile RFID interrogator developers follow this standardized mobile RFID interrogator device protocol, various independent products will be mutually interoperable without extra costs.</p>
-    <p>In accordance with the ISO/IEC 18000-63 type C RFID air interface, ISO/IEC 29173-1:2012 includes:</p>
-    <ul>
-    <li>types of command/response/notification protocol messages and their usages, </li>
-    <li>protocol message format, and</li>
-    <li>protocol message exchange procedures.</li>
-    </ul>
+  content: "<p>ISO/IEC 29173-1:2012 defines an interface protocol between a device
+    driver of a mobile AIDC application platform and a mobile RFID interrogator within
+    a mobile AIDC terminal. It is intended that ISO/IEC 29173-1:2012 be implemented
+    in both the device driver of a mobile AIDC application platform and the mobile
+    RFID interrogator. </p>\n<p>Without this standard protocol, manufacturers of mobile
+    RFID interrogators would likely develop multiple mobile RFID interrogator device
+    drivers for different mobile AIDC application platforms. Moreover, they also would
+    likely develop a proprietary interface protocol between the mobile AIDC application
+    platform and the mobile RFID interrogator. On the other hand, if both the mobile
+    AIDC application platform and the Mobile RFID interrogator developers follow this
+    standardized mobile RFID interrogator device protocol, various independent products
+    will be mutually interoperable without extra costs.</p>\n<p>In accordance with
+    the ISO/IEC 18000-63 type C RFID air interface, ISO/IEC 29173-1:2012 includes:</p>\n\ntypes
+    of command/response/notification protocol messages and their usages, \nprotocol
+    message format, and\nprotocol message exchange procedures.\n"
 status:
   stage:
     content: WITHDRAWN
@@ -140,7 +146,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

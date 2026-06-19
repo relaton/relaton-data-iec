@@ -1,0 +1,160 @@
+---
+id: ISOIEC29167212026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Automatic identification and data capture techniques
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 21: Crypto suite SIMON security services for air interface communications'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Automatic identification and data capture techniques
+    - Part 21: Crypto suite SIMON security services for air interface communications'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Techniques automatiques d'identification et de capture de données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 21: Services de sécurité par suite cryptographique SIMON pour communications
+    par interface radio'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Techniques automatiques d''identification
+    et de capture de données - Partie 21: Services de sécurité par suite cryptographique
+    SIMON pour communications par interface radio'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112576
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isoiec29167-21{ed2.0}en.pdf
+docidentifier:
+- content: ISO/IEC 29167-21:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:29167-21:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-03-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 31
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies the crypto suite for SIMON for the ISO/IEC 18000 air interface standards for radio frequency identification (RFID) devices. </p>
+    <p>SIMON is a symmetric block cipher that is parameterized in both its block length and key length. The block/key length options supported in this crypto suite (in bits) are 64/96, 96/96, 64/128, 128/128 and 128/256.</p>
+    <p>In this document, a Tag and an Interrogator can support one, a subset or all of the specified options, clearly stating what is supported.</p>
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:F

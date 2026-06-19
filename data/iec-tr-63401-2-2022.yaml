@@ -1,7 +1,7 @@
 ---
 id: IECTR6340122022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC TR 63401-2:2022
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63401-2:2022-06:tr::'
+- content: 'urn:iec:std:iec:63401-2:2022:tr::'
   type: URN
 date:
 - type: published
@@ -77,29 +77,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 63401-2:2022, which is a technical report, covers the \"control
-    interactions\" in converter interfaced generators e.g, wind and PV with the frequency
-    of the resulting oscillation below twice the system frequency. SSCI can be categorized
-    into:<br />\r\n1) SSCI in DFIG is caused by the interaction between DFIG wind
-    turbine converter controls and the series compensated network.<br />\r\n2) SSCI
-    involving FSC (both type-4 wind turbine or PV generators) is caused by the interaction
-    between wind turbine or solar PV's FSC controls and weak AC grid.<br />\r\nThis
-    technical report is organized into nine clauses. Clause 1 gives a brief introduction
-    and highlights the scope of this document. Clause 4 presents the historical background
-    of various types of subsynchronous oscillation (SSO) and revisits the terminologies,
-    definitions, and classification in the context of classical SSR and emerging SSCI
-    issues to better understand and classify the emerging interaction phenomena. Clause
-    5 provides the description, mechanism, and characteristics of the SSCI phenomenon
-    in the framework of real-world incidents, including the SSCI events in the ERCOT,
-    Guyuan, and Hami wind power systems. Clause 6 proposes two benchmark models to
-    study the SSCI DFIG and FSC-based wind turbines or PV generators. Clause 7 gives
-    an overview of existing and emerging modeling and stability analysis approaches
-    to investigate the SSCI phenomenon. Clause 8 outlines various techniques to mitigate
-    the SSCI. It discusses various SSCI mitigation schemes, such as bypassing the
-    series capacitor, selective tripping of WTGs, generator, and plant-level damping
-    control schemes. Clause 9 highlights the need for future works towards standardization
-    of terms, definitions, classification, analysis methods, benchmark models, and
-    mitigation methods."
+  content: |-
+    IEC TR 63401-2:2022, which is a technical report, covers the "control interactions" in converter interfaced generators e.g, wind and PV with the frequency of the resulting oscillation below twice the system frequency. SSCI can be categorized into:<br/>
+    1) SSCI in DFIG is caused by the interaction between DFIG wind turbine converter controls and the series compensated network.<br/>
+    2) SSCI involving FSC (both type-4 wind turbine or PV generators) is caused by the interaction between wind turbine or solar PV's FSC controls and weak AC grid.<br/>
+    This technical report is organized into nine clauses. Clause 1 gives a brief introduction and highlights the scope of this document. Clause 4 presents the historical background of various types of subsynchronous oscillation (SSO) and revisits the terminologies, definitions, and classification in the context of classical SSR and emerging SSCI issues to better understand and classify the emerging interaction phenomena. Clause 5 provides the description, mechanism, and characteristics of the SSCI phenomenon in the framework of real-world incidents, including the SSCI events in the ERCOT, Guyuan, and Hami wind power systems. Clause 6 proposes two benchmark models to study the SSCI DFIG and FSC-based wind turbines or PV generators. Clause 7 gives an overview of existing and emerging modeling and stability analysis approaches to investigate the SSCI phenomenon. Clause 8 outlines various techniques to mitigate the SSCI. It discusses various SSCI mitigation schemes, such as bypassing the series capacitor, selective tripping of WTGs, generator, and plant-level damping control schemes. Clause 9 highlights the need for future works towards standardization of terms, definitions, classification, analysis methods, benchmark models, and mitigation methods.
 status:
   stage:
     content: PUBLISHED
@@ -121,7 +103,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

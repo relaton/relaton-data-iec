@@ -1,7 +1,7 @@
 ---
 id: IEC619705522016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -39,7 +39,7 @@ docidentifier:
 - content: IEC 61970-552:2016
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61970-552:2016-09:::'
+- content: 'urn:iec:std:iec:61970-552:2016:::'
   type: URN
 date:
 - type: published
@@ -92,26 +92,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61970-552:2016 specifies the format and rules for exchanging modelling
-    information based upon the CIM. It uses the CIM RDF Schema presented in IEC 61970-501
-    as the meta-model framework for constructing XML documents of power system modelling
-    information. The style of these documents is called CIMXML format. This new edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\n- new clause that defines the versioning of CIMXML format;<br
-    />\r\n- addition of a statement about mandatory header;<br />\r\n- introduction
-    of the new urn:uuid form and discussion of the backwards compatibility."
+  content: |-
+    IEC 61970-552:2016 specifies the format and rules for exchanging modelling information based upon the CIM. It uses the CIM RDF Schema presented in IEC 61970-501 as the meta-model framework for constructing XML documents of power system modelling information. The style of these documents is called CIMXML format. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - new clause that defines the versioning of CIMXML format;<br/>
+    - addition of a statement about mandatory header;<br/>
+    - introduction of the new urn:uuid form and discussion of the backwards compatibility.
 - language: fr
   script: Latn
-  content: "L'IEC 61970-552:2016 spécifie le format et les règles pour échanger des
-    informations de modélisation basées sur le CIM. Elle utilise le Schéma RDF du
-    CIM présenté dans l'IEC 61970-501 comme le cadre de métamodèle pour générer les
-    documents XML contenant les informations relatives à la modélisation des réseaux
-    électriques. Le style de ces documents est appelé format CIMXML. Cette nouvelle
-    édition inclut les modifications techniques majeures suivantes par rapport à l'édition
-    précédente:<br />\r\n- nouvel Article définissant la version du format CIMXML;<br
-    />\r\n- ajout d'une déclaration sur le caractère obligatoire de l'en-tête;<br
-    />\r\n- présentation de la nouvelle forme urn:uuid et traitement de la compatibilité
-    ascendante."
+  content: |-
+    L'IEC 61970-552:2016 spécifie le format et les règles pour échanger des informations de modélisation basées sur le CIM. Elle utilise le Schéma RDF du CIM présenté dans l'IEC 61970-501 comme le cadre de métamodèle pour générer les documents XML contenant les informations relatives à la modélisation des réseaux électriques. Le style de ces documents est appelé format CIMXML. Cette nouvelle édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - nouvel Article définissant la version du format CIMXML;<br/>
+    - ajout d'une déclaration sur le caractère obligatoire de l'en-tête;<br/>
+    - présentation de la nouvelle forme urn:uuid et traitement de la compatibilité ascendante.
 status:
   stage:
     content: PUBLISHED
@@ -133,7 +125,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

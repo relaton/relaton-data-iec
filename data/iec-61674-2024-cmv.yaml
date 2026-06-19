@@ -1,7 +1,7 @@
 ---
 id: IEC616742024CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 61674:2024 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61674::cmv
+- content: 'urn:iec:std:iec:61674:2024::cmv:'
   type: URN
 date:
 - type: published
@@ -78,30 +78,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61674:2024 CMV contains both the official standard and its commented
-    version. The commented version provides you with a quick and easy way to compare
-    all the changes between IEC 61674:2024 edition 3.0 and the previous IEC 61674:2012
-    edition 2.0. Furthermore, comments from IEC SC 62C experts are provided to explain
-    the reasons of the most relevant changes, or to clarify any part of the content.<br
-    />\r\n<br />\r\nIEC 61674:2024 specifies the performance and some related constructional
-    requirements of DIAGNOSTIC DOSIMETERS intended for the measurement of AIR KERMA,
-    AIR KERMA LENGTH PRODUCT or AIR KERMA RATE, in photon radiation fields used in
-    medical X-ray imaging, such as RADIOGRAPHY, RADIOSCOPY and COMPUTED TOMOGRAPHY
-    (CT), for X-RADIATION with generating potentials in the range of 20 kV to 150
-    kV. This document is applicable to the performance of DOSIMETERS with VENTED IONIZATION
-    CHAMBERS and/or SEMICONDUCTOR DETECTORS as used in X-ray diagnostic imaging.<br
-    />\r\nIEC 61674:2024 cancels and replaces the second edition published in 2012.
-    This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) for mammography, the manufacturer specifies the REFERENCE VALUE for the
-    RADIATION QUALITY;<br />\r\nb) for mammography, the manufacturer provides the
-    MINIMUM RATED RANGE of RADIATION QUALITIES for the compliance test on energy dependence
-    of response;<br />\r\nc) the compliance test for analogue displays was removed;<br
-    />\r\nd) the compliance tests for range reset, the effect of leakage and recombination
-    losses were removed. These tests are already covered by the test on linearity
-    and cannot be conducted for modern devices. The estimation of COMBINED STANDARD
-    UNCERTAINTY was changed accordingly;<br />\r\ne) the compliance test for mains
-    rechargeable and battery-operated dosimeters were updated for modern devices"
+  content: |-
+    IEC 61674:2024 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 61674:2024 edition 3.0 and the previous IEC 61674:2012 edition 2.0. Furthermore, comments from IEC SC 62C experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
+    <br/>
+    IEC 61674:2024 specifies the performance and some related constructional requirements of DIAGNOSTIC DOSIMETERS intended for the measurement of AIR KERMA, AIR KERMA LENGTH PRODUCT or AIR KERMA RATE, in photon radiation fields used in medical X-ray imaging, such as RADIOGRAPHY, RADIOSCOPY and COMPUTED TOMOGRAPHY (CT), for X-RADIATION with generating potentials in the range of 20 kV to 150 kV. This document is applicable to the performance of DOSIMETERS with VENTED IONIZATION CHAMBERS and/or SEMICONDUCTOR DETECTORS as used in X-ray diagnostic imaging.<br/>
+    IEC 61674:2024 cancels and replaces the second edition published in 2012. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) for mammography, the manufacturer specifies the REFERENCE VALUE for the RADIATION QUALITY;<br/>
+    b) for mammography, the manufacturer provides the MINIMUM RATED RANGE of RADIATION QUALITIES for the compliance test on energy dependence of response;<br/>
+    c) the compliance test for analogue displays was removed;<br/>
+    d) the compliance tests for range reset, the effect of leakage and recombination losses were removed. These tests are already covered by the test on linearity and cannot be conducted for modern devices. The estimation of COMBINED STANDARD UNCERTAINTY was changed accordingly;<br/>
+    e) the compliance test for mains rechargeable and battery-operated dosimeters were updated for modern devices
 status:
   stage:
     content: PUBLISHED
@@ -123,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

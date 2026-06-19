@@ -1,7 +1,7 @@
 ---
 id: IEC623861052024RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 62386-105:2024 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62386-105::rlv
+- content: 'urn:iec:std:iec:62386-105:2024::rlv:'
   type: URN
 date:
 - type: published
@@ -78,27 +78,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62386-105:2024 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62386-105:2024
-    applies to control gear and control devices for control by digital signals of
-    electronic lighting equipment. Typically, a bus unit according to the IEC 62386
-    series contains firmware. There are circumstances where it can be necessary to
-    change the firmware after production or shipping of the product, for example if
-    the bus unit does not operate as intended. In such a case, a firmware update of
-    a bus unit via the interface is beneficial. This firmware update process is primarily
-    designed to be a bug fix process, not a feature extension process. Nevertheless,
-    the firmware update process can be used for feature extensions. But it is important
-    that the risk of negative effects to the complete system be considered in detail.
-    This second edition cancels and replaces the first edition published in 2020.
-    This edition constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) several commands have been modified, renamed and added;<br />\r\nb) variables
-    have been modified and added;<br />\r\nc) recommendations for implementation within
-    emergency control gear have been added;<br />\r\nd) requirements for block acceptance
-    have been changed;<br />\r\ne) example process-flow diagrams have been added;<br
-    />\r\nf) requirements for restarting and power-on have been changed."
+  content: |-
+    IEC 62386-105:2024 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62386-105:2024 applies to control gear and control devices for control by digital signals of electronic lighting equipment. Typically, a bus unit according to the IEC 62386 series contains firmware. There are circumstances where it can be necessary to change the firmware after production or shipping of the product, for example if the bus unit does not operate as intended. In such a case, a firmware update of a bus unit via the interface is beneficial. This firmware update process is primarily designed to be a bug fix process, not a feature extension process. Nevertheless, the firmware update process can be used for feature extensions. But it is important that the risk of negative effects to the complete system be considered in detail. This second edition cancels and replaces the first edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) several commands have been modified, renamed and added;<br/>
+    b) variables have been modified and added;<br/>
+    c) recommendations for implementation within emergency control gear have been added;<br/>
+    d) requirements for block acceptance have been changed;<br/>
+    e) example process-flow diagrams have been added;<br/>
+    f) requirements for restarting and power-on have been changed.
 status:
   stage:
     content: PUBLISHED
@@ -120,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

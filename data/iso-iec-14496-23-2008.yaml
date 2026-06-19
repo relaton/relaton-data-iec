@@ -1,7 +1,7 @@
 ---
 id: ISOIEC14496232008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 14496-23:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:14496-23:2008-01:::'
+- content: 'urn:iec:std:iso-iec:14496-23:2008:::'
   type: URN
 date:
 - type: published
@@ -93,21 +93,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 14496-23:2008 specifies Symbolic Music Representation (SMR). A symbolic representation of music is a logical structure based on:</p>
-    <ol>
-    <li>symbolic elements representing audiovisual events,</li>
-    <li>the relationship between those events, and</li>
-    <li>aspects related to how those events can be rendered (visually as music notation or audibly) and synchronized with other media types.</li>
-    </ol>
-    <p>The Symbolic Music Representation enables the development of new applications in several domains of entertainment, edutainment, infotainment, etc., from education and distance learning, to rehearsal and musical practice at home, from consumer electronics like set-top boxes for interactive TV to personal computers and mobiles systems. The SMR may be used to represent many kinds of symbolic music including different styles of Chant, Renaissance, Classic, Romantic and 20th Century styles, Korean notation, simplified notations for children, Braille, etc.. </p>
-    <p>ISO/IEC 14496-23:2008 specifies</p>
-    <ul>
-    <li>Symbolic Music Extensible Format (SM-XF) an XML based language used to encode musical scores as main scores, single parts and the associated lyrics; </li>
-    <li>Symbolic Music Formatting Language (SM-FL) an XML based language used to define the rendering rules that are applied to the SM-XF format for rendering it; </li>
-    <li>Symbolic Music Synchronization Information (SM-SI) a binary format describing the synchronisation information between the SMR elements and the other audiovisual elements; </li>
-    <li>syntax and semantics of the SMR bitstream. </li>
-    </ul>
+  content: "<p>ISO/IEC 14496-23:2008 specifies Symbolic Music Representation (SMR).
+    A symbolic representation of music is a logical structure based on:</p>\n\nsymbolic
+    elements representing audiovisual events,\nthe relationship between those events,
+    and\naspects related to how those events can be rendered (visually as music notation
+    or audibly) and synchronized with other media types.\n\n<p>The Symbolic Music
+    Representation enables the development of new applications in several domains
+    of entertainment, edutainment, infotainment, etc., from education and distance
+    learning, to rehearsal and musical practice at home, from consumer electronics
+    like set-top boxes for interactive TV to personal computers and mobiles systems.
+    The SMR may be used to represent many kinds of symbolic music including different
+    styles of Chant, Renaissance, Classic, Romantic and 20th Century styles, Korean
+    notation, simplified notations for children, Braille, etc.. </p>\n<p>ISO/IEC 14496-23:2008
+    specifies</p>\n\nSymbolic Music Extensible Format (SM-XF) an XML based language
+    used to encode musical scores as main scores, single parts and the associated
+    lyrics; \nSymbolic Music Formatting Language (SM-FL) an XML based language used
+    to define the rendering rules that are applied to the SM-XF format for rendering
+    it; \nSymbolic Music Synchronization Information (SM-SI) a binary format describing
+    the synchronisation information between the SMR elements and the other audiovisual
+    elements; \nsyntax and semantics of the SMR bitstream. \n"
 status:
   stage:
     content: PUBLISHED
@@ -141,7 +145,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

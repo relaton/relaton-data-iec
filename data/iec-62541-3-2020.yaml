@@ -1,7 +1,7 @@
 ---
 id: IEC6254132020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -36,7 +36,7 @@ docidentifier:
 - content: IEC 62541-3:2020
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-3:2020-07:::'
+- content: 'urn:iec:std:iec:62541-3:2020:::'
   type: URN
 date:
 - type: published
@@ -91,38 +91,24 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-3:2020 defines the OPC Unified Architecture (OPC UA) AddressSpace
-    and its Objects. This document is the OPC UA meta model on which OPC UA information
-    models are based. This third edition cancels and replaces the second edition published
-    in 2015. This edition includes the following significant technical changes with
-    respect to the previous edition:<br />\r\na) Added new improved approach for exposing
-    structure definitions. An Attribute on the DataType Node now simply contains a
-    binary description.<br />\r\nb) Added new flags for Variables to indicate atomicity
-    when reading or writing.<br />\r\nc) Added Roles and Permissions to allow configuration
-    of a role-based authorization.<br />\r\nd) Added new data types: “Union”, “Decimal”,
-    “OptionSet”, “DateString”, “TimeString”, “DurationString”, NormalizedString”,
-    “DecimalString”, and “AudioDataType”.<br />\r\ne) Added definition on how to use
-    the ModellingRules OptionalPlaceHolder and MandatoryPlaceHolder for Methods.<br
-    />\r\nf) Added optional Properties “MaxCharacters” and “MaxByteStringLength” to
-    Variable Nodes."
+  content: |-
+    IEC 62541-3:2020 defines the OPC Unified Architecture (OPC UA) AddressSpace and its Objects. This document is the OPC UA meta model on which OPC UA information models are based. This third edition cancels and replaces the second edition published in 2015. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Added new improved approach for exposing structure definitions. An Attribute on the DataType Node now simply contains a binary description.<br/>
+    b) Added new flags for Variables to indicate atomicity when reading or writing.<br/>
+    c) Added Roles and Permissions to allow configuration of a role-based authorization.<br/>
+    d) Added new data types: “Union”, “Decimal”, “OptionSet”, “DateString”, “TimeString”, “DurationString”, NormalizedString”, “DecimalString”, and “AudioDataType”.<br/>
+    e) Added definition on how to use the ModellingRules OptionalPlaceHolder and MandatoryPlaceHolder for Methods.<br/>
+    f) Added optional Properties “MaxCharacters” and “MaxByteStringLength” to Variable Nodes.
 - language: fr
   script: Latn
-  content: "L'IEC 62541-3:2020 définit l'AddressSpace de l'Architecture Unifiée OPC
-    (OPC UA) et ses Objets. Le présent document correspond au métamodèle OPC UA sur
-    lequel se fondent les modèles d'information OPC UA. Cette troisième édition annule
-    et remplace la deuxième édition parue en 2015. Cette édition inclut les modifications
-    techniques majeures suivantes par rapport à l'édition précédente:<br />\r\na)
-    ajout d'une nouvelle approche améliorée afin de présenter les définitions de la
-    structure (un Attribut sur le Nœud du DataType contient désormais simplement une
-    description binaire);<br />\r\nb) ajout de nouveaux fanions pour les Variables
-    afin d'indiquer l'atomicité à la lecture ou à l'écriture;<br />\r\nc) ajout de
-    Rôles et d'Autorisations afin de permettre la configuration d'une autorisation
-    fondée sur les rôles;<br />\r\nd) ajout de nouveaux types de données: \"Union\",
-    \"Decimal\", \"OptionSet\", \"DateString\", \"TimeString\", \"DurationString\",
-    \"NormalizedString\", \"DecimalString\" et \"AudioDataType\";<br />\r\ne) ajout
-    d'une définition expliquant comment utiliser les OptionalPlaceHolder et MandatoryPlaceHolder
-    de ModellingRules pour les Méthodes;<br />\r\nf) ajout de Propriétés facultatives
-    \"MaxCharacters\" et \"MaxByteStringLength\" aux Nœuds de variable."
+  content: |-
+    L'IEC 62541-3:2020 définit l'AddressSpace de l'Architecture Unifiée OPC (OPC UA) et ses Objets. Le présent document correspond au métamodèle OPC UA sur lequel se fondent les modèles d'information OPC UA. Cette troisième édition annule et remplace la deuxième édition parue en 2015. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout d'une nouvelle approche améliorée afin de présenter les définitions de la structure (un Attribut sur le Nœud du DataType contient désormais simplement une description binaire);<br/>
+    b) ajout de nouveaux fanions pour les Variables afin d'indiquer l'atomicité à la lecture ou à l'écriture;<br/>
+    c) ajout de Rôles et d'Autorisations afin de permettre la configuration d'une autorisation fondée sur les rôles;<br/>
+    d) ajout de nouveaux types de données: "Union", "Decimal", "OptionSet", "DateString", "TimeString", "DurationString", "NormalizedString", "DecimalString" et "AudioDataType";<br/>
+    e) ajout d'une définition expliquant comment utiliser les OptionalPlaceHolder et MandatoryPlaceHolder de ModellingRules pour les Méthodes;<br/>
+    f) ajout de Propriétés facultatives "MaxCharacters" et "MaxByteStringLength" aux Nœuds de variable.
 status:
   stage:
     content: REVISED
@@ -144,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

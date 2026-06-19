@@ -1,7 +1,7 @@
 ---
 id: IEC6210622018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC 62106-2:2018
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62106-2:2018-10:::'
+- content: 'urn:iec:std:iec:62106-2:2018:::'
   type: URN
 date:
 - type: published
@@ -85,20 +85,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62106-2:2018 defines the coding and definition of features for the
-    Radio Data System (RDS).<br />\r\nIEC 62106-2:2018 together with IEC 62106-1,
-    IEC 62106-3, IEC 62106-4, IEC 62106-5 and IEC 62106-6, cancels and replaces IEC
-    62106:2015, and constitutes a technical revision.<br />\r\nThis edition includes
-    the following significant technical changes with respect to IEC 62106:2015:<br
-    />\r\n•    Provision has been made to carry RDS on multiple data-streams (RDS2).<br
-    />\r\n•    Data in the additional data-streams is using a newly defined group
-    type C data structure.<br />\r\n•    AF coding below 87,6 MHz (down to 64,1 MHz)
-    using ODA-AID 0x6365 (see IEC 62106-6).<br />\r\n•    Long PS (UTF-8) support
-    has been added using group type 15A.<br />\r\n•    Coding for the following applications
-    is no longer detailed in the RDS standard as these can use in future the ODA concept:
-    EWS, TDC, IH and RP.<br />\r\n•    Obsolete and no longer part of the RDS standard
-    are: MS (Group 0A, 0B and 15B) certain DI codes (mono/stereo, artificial head,
-    compression), Language code, and PIN (Group 1A)."
+  content: |-
+    IEC 62106-2:2018 defines the coding and definition of features for the Radio Data System (RDS).<br/>
+    IEC 62106-2:2018 together with IEC 62106-1, IEC 62106-3, IEC 62106-4, IEC 62106-5 and IEC 62106-6, cancels and replaces IEC 62106:2015, and constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to IEC 62106:2015:<br/>
+    •    Provision has been made to carry RDS on multiple data-streams (RDS2).<br/>
+    •    Data in the additional data-streams is using a newly defined group type C data structure.<br/>
+    •    AF coding below 87,6 MHz (down to 64,1 MHz) using ODA-AID 0x6365 (see IEC 62106-6).<br/>
+    •    Long PS (UTF-8) support has been added using group type 15A.<br/>
+    •    Coding for the following applications is no longer detailed in the RDS standard as these can use in future the ODA concept: EWS, TDC, IH and RP.<br/>
+    •    Obsolete and no longer part of the RDS standard are: MS (Group 0A, 0B and 15B) certain DI codes (mono/stereo, artificial head, compression), Language code, and PIN (Group 1A).
 status:
   stage:
     content: REVISED
@@ -120,7 +116,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

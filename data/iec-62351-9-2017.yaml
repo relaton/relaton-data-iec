@@ -1,7 +1,7 @@
 ---
 id: IEC6235192017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -44,7 +44,7 @@ docidentifier:
 - content: IEC 62351-9:2017
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62351-9:2017-05:::'
+- content: 'urn:iec:std:iec:62351-9:2017:::'
   type: URN
 date:
 - type: published
@@ -115,24 +115,10 @@ abstract:
     used. This document assumes that the reader understands cryptography and PKI principles.
 - language: fr
   script: Latn
-  content: "IEC 62351-9:2017 porte sur la gestion de clé cryptographique, c'est-à-dire
-    sur la manière de générer, distribuer, révoquer et manipuler les certificats de
-    clé publique et les clés cryptographiques pour protéger les données numériques
-    et leurs communications. La manipulation des clés asymétriques (les clés privées
-    et les certificats de clé publique, par exemple) et les clés symétriques pour
-    les groupes (GDOI) font également partie du domaine d'application de la présente
-    norme.<br />\r\nLa présente partie de l'IEC 62351 part du principe que d'autres
-    normes ont déjà choisi le type de clés et la cryptographie qui seront utilisés,
-    dans la mesure où les algorithmes de cryptographie et les supports de clé choisis
-    sont en principe liés aux politiques de sécurité locales propres à une organisation
-    et à la nécessité de satisfaire aux autres normes internationales. Le présent
-    document spécifie donc uniquement les techniques de gestion de ces infrastructures
-    de clé et de cryptographie sélectionnées. Il s'agit de définir les exigences et
-    les technologies permettant d'assurer l'interopérabilité de la gestion de clé.<br
-    />\r\nLa présente partie de l'IEC 62351 a pour objet de garantir l'interopérabilité
-    entre les différents fournisseurs en spécifiant ou limitant les options de gestion
-    de clé à utiliser. Le présent document part du principe que le lecteur comprend
-    les principes de cryptographie et d'infrastructure à clés publiques."
+  content: |-
+    IEC 62351-9:2017 porte sur la gestion de clé cryptographique, c'est-à-dire sur la manière de générer, distribuer, révoquer et manipuler les certificats de clé publique et les clés cryptographiques pour protéger les données numériques et leurs communications. La manipulation des clés asymétriques (les clés privées et les certificats de clé publique, par exemple) et les clés symétriques pour les groupes (GDOI) font également partie du domaine d'application de la présente norme.<br/>
+    La présente partie de l'IEC 62351 part du principe que d'autres normes ont déjà choisi le type de clés et la cryptographie qui seront utilisés, dans la mesure où les algorithmes de cryptographie et les supports de clé choisis sont en principe liés aux politiques de sécurité locales propres à une organisation et à la nécessité de satisfaire aux autres normes internationales. Le présent document spécifie donc uniquement les techniques de gestion de ces infrastructures de clé et de cryptographie sélectionnées. Il s'agit de définir les exigences et les technologies permettant d'assurer l'interopérabilité de la gestion de clé.<br/>
+    La présente partie de l'IEC 62351 a pour objet de garantir l'interopérabilité entre les différents fournisseurs en spécifiant ou limitant les options de gestion de clé à utiliser. Le présent document part du principe que le lecteur comprend les principes de cryptographie et d'infrastructure à clés publiques.
 status:
   stage:
     content: REVISED
@@ -154,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC607492012019RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC 60749-20-1:2019 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60749-20-1::rlv
+- content: 'urn:iec:std:iec:60749-20-1:2019::rlv:'
   type: URN
 date:
 - type: published
@@ -83,26 +83,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60749-20-1:2019 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<p>IEC 60749-20-1:2019 applies
-    to all devices subjected to bulk solder reflow processes during PCB assembly,
-    including plastic encapsulated packages, process sensitive devices, and other
-    moisture-sensitive devices made with moisture-permeable materials (epoxies, silicones,
-    etc.) that are exposed to the ambient air.<br />\r\nThe purpose of this document
-    is to provide SMD manufacturers and users with standardized methods for handling,
-    packing, shipping, and use of moisture/reflow sensitive SMDs that have been classified
-    to the levels defined in IEC 60749-20. These methods are provided to avoid damage
-    from moisture absorption and exposure to solder reflow temperatures that can result
-    in yield and reliability degradation. By using these procedures, safe and damage-free
-    reflow can be achieved, with the dry packing process, providing a minimum shelf
-    life capability in sealed dry-bags from the seal date. This edition includes the
-    following significant technical changes with respect to the previous edition:<br
-    />\r\n- updates to subclauses to better align the test method with IPC/JEDEC J-STD-033C,
-    including new sections on aqueous cleaning and dry pack precautions;<br />\r\n-
-    addition of two annexes on colorimetric testing of HIC (humidity indicator card)
-    and derivation of bake tables.</p>\r\n\r\n<ol style=\"list-style-type:lower-alpha\">\r\n</ol>"
+  content: |+
+    IEC 60749-20-1:2019 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    <p>IEC 60749-20-1:2019 applies to all devices subjected to bulk solder reflow processes during PCB assembly, including plastic encapsulated packages, process sensitive devices, and other moisture-sensitive devices made with moisture-permeable materials (epoxies, silicones, etc.) that are exposed to the ambient air.<br/>
+    The purpose of this document is to provide SMD manufacturers and users with standardized methods for handling, packing, shipping, and use of moisture/reflow sensitive SMDs that have been classified to the levels defined in IEC 60749-20. These methods are provided to avoid damage from moisture absorption and exposure to solder reflow temperatures that can result in yield and reliability degradation. By using these procedures, safe and damage-free reflow can be achieved, with the dry packing process, providing a minimum shelf life capability in sealed dry-bags from the seal date. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - updates to subclauses to better align the test method with IPC/JEDEC J-STD-033C, including new sections on aqueous cleaning and dry pack precautions;<br/>
+    - addition of two annexes on colorimetric testing of HIC (humidity indicator card) and derivation of bake tables.</p>
+
+
 status:
   stage:
     content: PUBLISHED
@@ -124,7 +112,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
@@ -136,3 +124,4 @@ ext:
     project_number:
       content: '102122'
   price_code: iec:RD
+...

@@ -1,7 +1,7 @@
 ---
 id: IEC603352732002AMD12006AMD22009CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -47,7 +47,7 @@ docidentifier:
 - content: IEC 60335-2-73:2002+AMD1:2006+AMD2:2009 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60335-2-73:2002-10::csv:+amd:1:2006-01+amd:2:2009-09
+- content: urn:iec:std:iec:60335-2-73:2002::csv::plus:amd:1:2006:plus:amd:2:2009
   type: URN
 date:
 - type: published
@@ -102,25 +102,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60335-2-73:2002+A1:2006+A2:2009 Deals with the safety of fixed electric
-    immersion heaters intended for installation in a water tank for heating water
-    to temperature below its boiling point. The rated voltage is not more than 250
-    V for single-phase and 480 V for other appliances. This consolidated version consists
-    of the second edition (2002), its amendment 1 (2006) and its amendment 2 (2009).
-    Therefore, no need to order amendments in addition to this publication.<br />\r\n<br
-    />\r\nThis publication is to be read in conjunction with <a href=\"http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/36839\">IEC
-    60335-1:2006</a>."
+  content: |-
+    IEC 60335-2-73:2002+A1:2006+A2:2009 Deals with the safety of fixed electric immersion heaters intended for installation in a water tank for heating water to temperature below its boiling point. The rated voltage is not more than 250 V for single-phase and 480 V for other appliances. This consolidated version consists of the second edition (2002), its amendment 1 (2006) and its amendment 2 (2009). Therefore, no need to order amendments in addition to this publication.<br/>
+    <br/>
+    This publication is to be read in conjunction with IEC 60335-1:2006.
 - language: fr
   script: Latn
-  content: "La CEI 60335-2-73:2002+A1:2006+A2:2009 Traite de la sécurité des thermoplongeurs
-    électriques installés à poste fixe à usages domestiques et analogues, destinés
-    à être installés dans une cuve pour chauffer de l'eau à une température inférieure
-    à l'ébullition. La tension assignée n'est pas supérieure à 250 V pour les appareils
-    monophasés et à 480 V pour les autres appareils. Cette version consolidée comprend
-    la deuxième édition (2002), son amendement 1 (2006) et son amendement 2 (2009).
-    Il n'est donc pas nécessaire de commander les amendements avec cette publication.<br
-    />\r\n<br />\r\nCette publication doit être lue conjointement avec la <a href=\"http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/36839\">CEI
-    60335-1:2006</a>."
+  content: |-
+    La CEI 60335-2-73:2002+A1:2006+A2:2009 Traite de la sécurité des thermoplongeurs électriques installés à poste fixe à usages domestiques et analogues, destinés à être installés dans une cuve pour chauffer de l'eau à une température inférieure à l'ébullition. La tension assignée n'est pas supérieure à 250 V pour les appareils monophasés et à 480 V pour les autres appareils. Cette version consolidée comprend la deuxième édition (2002), son amendement 1 (2006) et son amendement 2 (2009). Il n'est donc pas nécessaire de commander les amendements avec cette publication.<br/>
+    <br/>
+    Cette publication doit être lue conjointement avec la CEI 60335-1:2006.
 status:
   stage:
     content: REVISED
@@ -142,7 +133,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

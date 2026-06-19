@@ -1,7 +1,7 @@
 ---
 id: IEC61800922023AMD12025CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61800-9-2:2023+AMD1:2025 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61800-9-2:2023-10::csv:+amd:1:2025-12
+- content: urn:iec:std:iec:61800-9-2:2023::csv::plus:amd:1:2025
   type: URN
 date:
 - type: published
@@ -81,28 +81,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61800-9-2:2023+AMD1:2025 CSV specifies energy efficiency indicators
-    of power electronics (complete drive modules (CDM), input or output sub drive
-    modules (SDM), power drive systems (PDS) and motor starters, all used for motor
-    driven equipment.<br />\r\nIt defines IE and IES classes, their limit values and
-    provides test procedures for the classification of the overall losses of the motor
-    system. Furthermore, this document proposes a methodology for the implementation
-    of the best energy efficiency solution of drive systems. This depends on the architecture
-    of the motor driven system, on the speed/torque profile and on the operating points
-    over time of the driven load equipment. It provides a link for the energy efficiency
-    evaluation and classification of the extended product.<br />\r\nThis edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) Additional IES Classes defined to IES5;<br />\r\nb) Removed reference
-    motor loss data and now point to IEC 60034-30-2;<br />\r\nc) Expanded and modified
-    factors in Clause 6 for CDMs;<br />\r\nd) Annex C is now the Mathematical Model
-    for CDM Losses;<br />\r\ne) Moved the mathematical model for the CDM to Annex
-    C;<br />\r\nf) Added Sub Drive Input Module and Sub Drive Output Modules to Annex
-    B;<br />\r\ng) Annex D is now the Converter Topology (old Annex C);<br />\r\nh)
-    Annex E is now the Interpolation of Motor Losses (Old Annex D);<br />\r\ni) Annex
-    E expanded to include various motor connections and updated interpolation method;<br
-    />\r\nj) New Annex E for determination of Interpolation Coefficients;<br />\r\nk)
-    Annex F is the old Annex E;<br />\r\nl) New Annex J Explanation of Correction
-    Factors for the Reference Losses in Table 8."
+  content: |-
+    IEC 61800-9-2:2023+AMD1:2025 CSV specifies energy efficiency indicators of power electronics (complete drive modules (CDM), input or output sub drive modules (SDM), power drive systems (PDS) and motor starters, all used for motor driven equipment.<br/>
+    It defines IE and IES classes, their limit values and provides test procedures for the classification of the overall losses of the motor system. Furthermore, this document proposes a methodology for the implementation of the best energy efficiency solution of drive systems. This depends on the architecture of the motor driven system, on the speed/torque profile and on the operating points over time of the driven load equipment. It provides a link for the energy efficiency evaluation and classification of the extended product.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Additional IES Classes defined to IES5;<br/>
+    b) Removed reference motor loss data and now point to IEC 60034-30-2;<br/>
+    c) Expanded and modified factors in Clause 6 for CDMs;<br/>
+    d) Annex C is now the Mathematical Model for CDM Losses;<br/>
+    e) Moved the mathematical model for the CDM to Annex C;<br/>
+    f) Added Sub Drive Input Module and Sub Drive Output Modules to Annex B;<br/>
+    g) Annex D is now the Converter Topology (old Annex C);<br/>
+    h) Annex E is now the Interpolation of Motor Losses (Old Annex D);<br/>
+    i) Annex E expanded to include various motor connections and updated interpolation method;<br/>
+    j) New Annex E for determination of Interpolation Coefficients;<br/>
+    k) Annex F is the old Annex E;<br/>
+    l) New Annex J Explanation of Correction Factors for the Reference Losses in Table 8.
 status:
   stage:
     content: PUBLISHED
@@ -124,7 +118,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

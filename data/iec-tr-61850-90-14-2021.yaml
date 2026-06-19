@@ -1,7 +1,7 @@
 ---
 id: IECTR6185090142021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: IEC TR 61850-90-14:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-90-14:2021-12:tr::'
+- content: 'urn:iec:std:iec:61850-90-14:2021:tr::'
   type: URN
 date:
 - type: published
@@ -80,16 +80,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 61850-90-14:2021(E), which is a technical report, specifies the
-    information model of devices and functions related to systems of power utility
-    automation, specifically related to FACTS (Flexible AC Transmission Systems) and
-    Power Conversion applications.<br />\r\nThe IEC 61850-90-14 information model
-    standard utilizes existing IEC 61850-7-4 logical nodes where possible, but also
-    defines specific logical nodes where needed.<br />\r\nSpecifically, the scope
-    of this document:<br />\r\n• Covers communication between control system of FACTS,
-    HVDC and Power Conversion and SCADA and HMI systems<br />\r\n• Includes the data
-    model for FACTS, HVDC and Power conversion devices<br />\r\n• Does not cover Protection
-    relays<br />\r\n• Does not cover process bus<br />\r\n• Does not cover valve communication"
+  content: |-
+    IEC TR 61850-90-14:2021(E), which is a technical report, specifies the information model of devices and functions related to systems of power utility automation, specifically related to FACTS (Flexible AC Transmission Systems) and Power Conversion applications.<br/>
+    The IEC 61850-90-14 information model standard utilizes existing IEC 61850-7-4 logical nodes where possible, but also defines specific logical nodes where needed.<br/>
+    Specifically, the scope of this document:<br/>
+    • Covers communication between control system of FACTS, HVDC and Power Conversion and SCADA and HMI systems<br/>
+    • Includes the data model for FACTS, HVDC and Power conversion devices<br/>
+    • Does not cover Protection relays<br/>
+    • Does not cover process bus<br/>
+    • Does not cover valve communication
 status:
   stage:
     content: PUBLISHED
@@ -111,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

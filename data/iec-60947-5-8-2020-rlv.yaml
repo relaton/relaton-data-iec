@@ -1,7 +1,7 @@
 ---
 id: IEC60947582020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 60947-5-8:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60947-5-8::rlv
+- content: 'urn:iec:std:iec:60947-5-8:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -81,23 +81,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60947-5-8:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 60947-5-8:2020
-    specifies requirements for three-position enabling switches. These switches are
-    used as components of enabling devices to provide signals that,<br />\r\n- when
-    activated, allow machine operation to be initiated by a separate start control,
-    and<br />\r\n- when de-activated,<br />\r\n-- initiate a stop function, and<br
-    />\r\n-- prevent initiation of machine operation.<br />\r\nThis second edition
-    cancels and replaces the first edition published in 2006. This edition constitutes
-    a technical revision. This edition includes the following significant technical
-    changes with respect to the previous edition:<br />\r\n- due to the increasing
-    range of useful applications of three-position enabling switches, note of scope,
-    operational characteristics and tests are reviewed;<br />\r\n- figures for example
-    of devices incorporating enabling switch are added in Annex A;<br />\r\n- new
-    Annex B for procedure to determine reliability data for the switch used in functional
-    safety applications is added."
+  content: |-
+    IEC 60947-5-8:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 60947-5-8:2020 specifies requirements for three-position enabling switches. These switches are used as components of enabling devices to provide signals that,<br/>
+    - when activated, allow machine operation to be initiated by a separate start control, and<br/>
+    - when de-activated,<br/>
+    -- initiate a stop function, and<br/>
+    -- prevent initiation of machine operation.<br/>
+    This second edition cancels and replaces the first edition published in 2006. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - due to the increasing range of useful applications of three-position enabling switches, note of scope, operational characteristics and tests are reviewed;<br/>
+    - figures for example of devices incorporating enabling switch are added in Annex A;<br/>
+    - new Annex B for procedure to determine reliability data for the switch used in functional safety applications is added.
 status:
   stage:
     content: PUBLISHED
@@ -119,7 +114,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC21000192010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 21000-19:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:21000-19:2010-06:::'
+- content: 'urn:iec:std:iso-iec:21000-19:2010:::'
   type: URN
 date:
 - type: published
@@ -93,14 +93,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 21000-19:2010 describes MPEG-21 Media Value Chain Ontology (MVCO). The MVCO may be used to capture knowledge about media value chains and to represent it in a computer readable way, concepts in the domain and the relationships between those concepts. </p>
     <p>ISO/IEC 21000-19:2010 describes the following technology.</p>
-    <ul>
-    <li>Model: the model is described in Clause 6, by way of a narrative description of the Value Chain, its main elements and relations.</li>
-    <li>Representation: the MVCO has been formalised as a normative OWL Ontology, and the description of which is given in this Clause. The description consists of listing the classes, the object properties, the datatype properties, and the class individuals. Classes are described by giving the name, an English definition, the class hierarchy, and the restrictions imposed on the class. The representation is given in Clause 7. Annex B<b> </b>contains the normative OWL (XML/RDF) comprising the entire semantics of the elements in the model.</li>
-    <li>Ontology use: an Informative section is provided with non normative descriptions of use, extensions and an API (Annex A).</li>
-    </ul>
+
+    Model: the model is described in Clause 6, by way of a narrative description of the Value Chain, its main elements and relations.
+    Representation: the MVCO has been formalised as a normative OWL Ontology, and the description of which is given in this Clause. The description consists of listing the classes, the object properties, the datatype properties, and the class individuals. Classes are described by giving the name, an English definition, the class hierarchy, and the restrictions imposed on the class. The representation is given in Clause 7. Annex B contains the normative OWL (XML/RDF) comprising the entire semantics of the elements in the model.
+    Ontology use: an Informative section is provided with non normative descriptions of use, extensions and an API (Annex A).
 status:
   stage:
     content: PUBLISHED
@@ -134,7 +133,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

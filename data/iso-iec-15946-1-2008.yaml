@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1594612008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 15946-1:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:15946-1:2008-03:::'
+- content: 'urn:iec:std:iso-iec:15946-1:2008:::'
   type: URN
 date:
 - type: published
@@ -97,15 +97,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 15946 specifies public-key cryptographic techniques based on elliptic curves. It consists of five parts and includes the establishment of keys for symmetric cryptographic techniques, and digital signature mechanisms.</p>
-    <p>ISO/IEC 15946-1:2008 specifically addresses the general techniques based on elliptic curves. It describes the mathematical background and specifies the general techniques necessary for implementing mechanisms based on elliptic curves defined over finite fields or pairings based on elliptic curves.</p>
-    <p>ISO/IEC 15946-1:2008 specifies</p>
-    <ul>
-    <li>conventional functions, </li>
-    <li>elliptic curves over any finite field such as a prime field and an extension field with characteristic two or three together with coordinates,</li>
-    <li>pairings over an elliptic curve.</li>
-    </ul>
+  content: "<p>ISO/IEC 15946 specifies public-key cryptographic techniques based on
+    elliptic curves. It consists of five parts and includes the establishment of keys
+    for symmetric cryptographic techniques, and digital signature mechanisms.</p>\n<p>ISO/IEC
+    15946-1:2008 specifically addresses the general techniques based on elliptic curves.
+    It describes the mathematical background and specifies the general techniques
+    necessary for implementing mechanisms based on elliptic curves defined over finite
+    fields or pairings based on elliptic curves.</p>\n<p>ISO/IEC 15946-1:2008 specifies</p>\n\nconventional
+    functions, \nelliptic curves over any finite field such as a prime field and an
+    extension field with characteristic two or three together with coordinates,\npairings
+    over an elliptic curve.\n"
 status:
   stage:
     content: REVISED
@@ -139,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

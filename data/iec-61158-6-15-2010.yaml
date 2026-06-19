@@ -1,7 +1,7 @@
 ---
 id: IEC611586152010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-6-15:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-6-15:2010-08:::'
+- content: 'urn:iec:std:iec:61158-6-15:2010:::'
   type: URN
 date:
 - type: published
@@ -113,26 +113,13 @@ abstract:
     editorial corrections.
 - language: fr
   script: Latn
-  content: "L'IEC 61158-6-15:2010 fournit des éléments communs pour les communications
-    de messagerie prioritaires et non prioritaires élémentaires entre les programmes
-    d’application des environnements d’automatisation et le matériel spécifique au
-    bus de terrain de type 15. On utilise le terme \"prioritaire\" pour traduire la
-    présence d’une fenêtre temporelle, à l’intérieur de laquelle une ou plusieurs
-    actions spécifiées doivent être terminées avec un niveau de certitude défini.
-    Si les actions spécifiées ne sont pas terminées à l’intérieur de cette fenêtre
-    temporelle, les applications qui ont demandé l’exécution de ces actions risquent
-    de présenter des dysfonctionnements, accompagnés de risques pour les équipements,
-    l’usine, voire les vies humaines.<br />\r\nLa présente norme définit d’une manière
-    abstraite le comportement visible de manière externe fourni par la couche application
-    du bus de terrain de type 15 en termes<br />\r\na) de syntaxe abstraite définissant
-    les unités de données de protocole de couche application transmises entre les
-    entités d’application communicantes,<br />\r\nb) de syntaxe de transfert définissant
-    les unités de données de protocole de couche application transmises entre les
-    entités d’application communicantes,<br />\r\nc) de diagramme d’états de contexte
-    d’application définissant le comportement de service d’application visible entre
-    les entités d’application communicantes; et<br />\r\nd) de diagramme d’états de
-    relation d’application définissant le comportement de communication visible entre
-    les entités d’application communicantes."
+  content: |-
+    L'IEC 61158-6-15:2010 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 15. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle une ou plusieurs actions spécifiées doivent être terminées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas terminées à l’intérieur de cette fenêtre temporelle, les applications qui ont demandé l’exécution de ces actions risquent de présenter des dysfonctionnements, accompagnés de risques pour les équipements, l’usine, voire les vies humaines.<br/>
+    La présente norme définit d’une manière abstraite le comportement visible de manière externe fourni par la couche application du bus de terrain de type 15 en termes<br/>
+    a) de syntaxe abstraite définissant les unités de données de protocole de couche application transmises entre les entités d’application communicantes,<br/>
+    b) de syntaxe de transfert définissant les unités de données de protocole de couche application transmises entre les entités d’application communicantes,<br/>
+    c) de diagramme d’états de contexte d’application définissant le comportement de service d’application visible entre les entités d’application communicantes; et<br/>
+    d) de diagramme d’états de relation d’application définissant le comportement de communication visible entre les entités d’application communicantes.
 status:
   stage:
     content: PUBLISHED
@@ -154,7 +141,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

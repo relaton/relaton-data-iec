@@ -1,7 +1,7 @@
 ---
 id: IEC611583212019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-3-21:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-3-21:2019-04:::'
+- content: 'urn:iec:std:iec:61158-3-21:2019:::'
   type: URN
 date:
 - type: published
@@ -103,30 +103,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-3-21:2019 defines in an abstract way the externally visible
-    service provided by the Type 21 fieldbus data-link layer in terms of the primitive
-    actions and events of the service; the parameters associated with each primitive
-    action and event, and the form which they take and the interrelationship between
-    these actions and events, and their valid sequences. It cancels and replaces the
-    first edition published in 2010 and constitutes a technical revision. The main
-    changes are listed below:<br />\r\n•Added Network Control Message Type;<br />\r\n•Miscellaneous
-    editorial corrections."
+  content: |-
+    IEC 61158-3-21:2019 defines in an abstract way the externally visible service provided by the Type 21 fieldbus data-link layer in terms of the primitive actions and events of the service; the parameters associated with each primitive action and event, and the form which they take and the interrelationship between these actions and events, and their valid sequences. It cancels and replaces the first edition published in 2010 and constitutes a technical revision. The main changes are listed below:<br/>
+    •Added Network Control Message Type;<br/>
+    •Miscellaneous editorial corrections.
 - language: fr
   script: Latn
-  content: "L’IEC 61158-3-21:2019 fournit les éléments communs pour les communications
-    de messagerie de base à temps critique entre des dispositifs dans un environnement
-    d'automation. Le terme \"à temps critique\" dans ce contexte signifie la communication
-    hiérarchisée par priorité et déterministe dans le temps sans collision en duplex
-    intégral, dont l'une ou plusieurs actions spécifiées sont tenues d'être parachevées
-    avec un certain niveau défini de certitude. Le manquement à parachever les actions
-    spécifiées dans les limites du délai requis risque d'entraîner la défaillance
-    des applications qui demandent ces actions, avec le risque concomitant pour l'équipement,
-    la centrale et éventuellement pour la vie humaine.<br />\r\nLa présente norme
-    définit de manière abstraite le service visible de l'extérieur fourni par la couche
-    liaison de données de type 21 en termes:<br />\r\na) des actions et événements
-    primitifs du service;<br />\r\nb) des paramètres associés à chaque action primitive
-    et événement primitif, et la forme qu'ils prennent; et<br />\r\nc) des interrelations
-    entre ces actions et événements, et leurs séquences valides."
+  content: |-
+    L’IEC 61158-3-21:2019 fournit les éléments communs pour les communications de messagerie de base à temps critique entre des dispositifs dans un environnement d'automation. Le terme "à temps critique" dans ce contexte signifie la communication hiérarchisée par priorité et déterministe dans le temps sans collision en duplex intégral, dont l'une ou plusieurs actions spécifiées sont tenues d'être parachevées avec un certain niveau défini de certitude. Le manquement à parachever les actions spécifiées dans les limites du délai requis risque d'entraîner la défaillance des applications qui demandent ces actions, avec le risque concomitant pour l'équipement, la centrale et éventuellement pour la vie humaine.<br/>
+    La présente norme définit de manière abstraite le service visible de l'extérieur fourni par la couche liaison de données de type 21 en termes:<br/>
+    a) des actions et événements primitifs du service;<br/>
+    b) des paramètres associés à chaque action primitive et événement primitif, et la forme qu'ils prennent; et<br/>
+    c) des interrelations entre ces actions et événements, et leurs séquences valides.
 status:
   stage:
     content: PUBLISHED
@@ -148,7 +136,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

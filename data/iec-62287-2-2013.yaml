@@ -1,7 +1,7 @@
 ---
 id: IEC6228722013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -53,7 +53,7 @@ docidentifier:
 - content: IEC 62287-2:2013
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62287-2:2013-03:::'
+- content: 'urn:iec:std:iec:62287-2:2013:::'
   type: URN
 date:
 - type: published
@@ -108,40 +108,28 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62287-2:2013 specifies operational and performance requirements, methods
-    of testing and required test results for Class B \"SO\" shipborne AIS equipment
-    using Self-organised TDMA (SOTDMA) techniques as described in Recommendation ITU-R
-    M.1371. This standard takes into account other associated IEC International Standards
-    and existing national standards, as applicable. The main differences between Class
-    B \"CS\" (IEC 62287-1) and Class B \"SO\" units are that the Class B \"SO\":<br
-    />\r\n- covers all 25 kHz channels listed in Recommendation ITU-R M.1084-5;<br
-    />\r\n- only uses the internal GNSS, no position sensor input is allowed;<br />\r\n-
-    requires use of VDL Message 17 for correction of the internal GNSS;<br />\r\n-
-    has a presentation interface;<br />\r\n- has additional reporting intervals, down
-    to 5 s;<br />\r\n- has two power settings, with a high level of 5 W;<br />\r\n-
-    has the capability to transmit binary messages. It is applicable for AIS equipment
-    used on craft that are not covered by a mandatory carriage requirement of AIS
-    under SOLAS Chapter V."
+  content: |-
+    IEC 62287-2:2013 specifies operational and performance requirements, methods of testing and required test results for Class B "SO" shipborne AIS equipment using Self-organised TDMA (SOTDMA) techniques as described in Recommendation ITU-R M.1371. This standard takes into account other associated IEC International Standards and existing national standards, as applicable. The main differences between Class B "CS" (IEC 62287-1) and Class B "SO" units are that the Class B "SO":<br/>
+    - covers all 25 kHz channels listed in Recommendation ITU-R M.1084-5;<br/>
+    - only uses the internal GNSS, no position sensor input is allowed;<br/>
+    - requires use of VDL Message 17 for correction of the internal GNSS;<br/>
+    - has a presentation interface;<br/>
+    - has additional reporting intervals, down to 5 s;<br/>
+    - has two power settings, with a high level of 5 W;<br/>
+    - has the capability to transmit binary messages. It is applicable for AIS equipment used on craft that are not covered by a mandatory carriage requirement of AIS under SOLAS Chapter V.
 - language: fr
   script: Latn
-  content: "L'IEC 62287-2:2013 spécifie les exigences opérationnelles et de performance,
-    les méthodes d'essai et les résultats d'essai exigibles pour le transpondeur embarqué
-    du système d'identification automatique (AIS) de classe B \"SO\" utilisant les
-    techniques auto-organisées TDMA (SOTDMA) telles qu'elles sont décrites dans la
-    Recommandation UIT-R M.1371. La présente Norme prend en compte d'autres normes
-    internationales IEC associées et des normes nationales existantes, selon le cas.<br
-    />\r\nLes différences principales entre les unités de la classe B \"CS\" (IEC
-    62287-1) et de la classe B \"SO\" sont le fait que la classe B \"SO\":<br />\r\n-
-    couvre tous les voies de 25 kHz énumérées dans la Recommandation UIT-R M.1084-5;<br
-    />\r\n- n'utilise que le système mondial de navigation par satellite (GNSS) interne,
-    aucune entrée provenant d'un capteur de position n’est autorisée;<br />\r\n- nécessite
-    l'utilisation du message 17 sur une liaison de données en ondes métriques (VDL)
-    pour la correction du GNSS interne;<br />\r\n- a une interface de présentation;<br
-    />\r\n- a des intervalles de rapport supplémentaires, jusqu'à 5 s;<br />\r\n-
-    a deux réglages de puissance, avec un niveau supérieur de 5 W;<br />\r\n- a la
-    capacité de transmettre des messages binaires.<br />\r\nElle est applicable aux
-    équipements AIS utilisés sur le navire, qui ne sont pas visés par l'exigence relative
-    aux AIS de bord obligatoires selon le Chapitre V de la SOLAS."
+  content: |-
+    L'IEC 62287-2:2013 spécifie les exigences opérationnelles et de performance, les méthodes d'essai et les résultats d'essai exigibles pour le transpondeur embarqué du système d'identification automatique (AIS) de classe B "SO" utilisant les techniques auto-organisées TDMA (SOTDMA) telles qu'elles sont décrites dans la Recommandation UIT-R M.1371. La présente Norme prend en compte d'autres normes internationales IEC associées et des normes nationales existantes, selon le cas.<br/>
+    Les différences principales entre les unités de la classe B "CS" (IEC 62287-1) et de la classe B "SO" sont le fait que la classe B "SO":<br/>
+    - couvre tous les voies de 25 kHz énumérées dans la Recommandation UIT-R M.1084-5;<br/>
+    - n'utilise que le système mondial de navigation par satellite (GNSS) interne, aucune entrée provenant d'un capteur de position n’est autorisée;<br/>
+    - nécessite l'utilisation du message 17 sur une liaison de données en ondes métriques (VDL) pour la correction du GNSS interne;<br/>
+    - a une interface de présentation;<br/>
+    - a des intervalles de rapport supplémentaires, jusqu'à 5 s;<br/>
+    - a deux réglages de puissance, avec un niveau supérieur de 5 W;<br/>
+    - a la capacité de transmettre des messages binaires.<br/>
+    Elle est applicable aux équipements AIS utilisés sur le navire, qui ne sont pas visés par l'exigence relative aux AIS de bord obligatoires selon le Chapitre V de la SOLAS.
 status:
   stage:
     content: REVISED
@@ -163,7 +151,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

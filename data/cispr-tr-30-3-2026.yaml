@@ -1,7 +1,7 @@
 ---
 id: CISPRTR3032026
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: CISPR TR 30-3:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:cispr:30-3:2026-01:tr::'
+- content: 'urn:iec:std:cispr:30-3:2026:tr::'
   type: URN
 date:
 - type: published
@@ -76,20 +76,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "CISPR TR 30-3:2026 which is a Technical report , details the construction
-    and parameters of a reference luminaire, a measurement procedure and conditions
-    for assessment of the radio disturbance characteristics of electronic control
-    gears (ECG) for LED light sources applied inside. This document is limited to
-    ECGs (also called “control gears”) as well as end-user replaceable ECGs with the
-    following characteristics or applications:<br />\r\n- applied in luminaires with
-    safety protection class I;<br />\r\nNOTE This means that the mains interface of
-    the ECG itself can have either a protective earth (PE) or a functional earth (FE)
-    terminal. For details, see 4.6 and Table 2.<br />\r\nlinear form factor, i.e.
-    fits within the space provision defined in Figure A.1 a).<br />\r\n- ECGs with
-    a rated output power less than 360 W.<br />\r\nExcluded from the scope of this
-    document are<br />\r\n- ECGs for applications that are excluded in CISPR 15:2018
-    and CISPR 15:2018/AMD1:2024, and<br />\r\n- control gear with only L, N input
-    terminals (without PE terminal)."
+  content: |-
+    CISPR TR 30-3:2026 which is a Technical report , details the construction and parameters of a reference luminaire, a measurement procedure and conditions for assessment of the radio disturbance characteristics of electronic control gears (ECG) for LED light sources applied inside. This document is limited to ECGs (also called “control gears”) as well as end-user replaceable ECGs with the following characteristics or applications:<br/>
+    - applied in luminaires with safety protection class I;<br/>
+    NOTE This means that the mains interface of the ECG itself can have either a protective earth (PE) or a functional earth (FE) terminal. For details, see 4.6 and Table 2.<br/>
+    linear form factor, i.e. fits within the space provision defined in Figure A.1 a).<br/>
+    - ECGs with a rated output power less than 360 W.<br/>
+    Excluded from the scope of this document are<br/>
+    - ECGs for applications that are excluded in CISPR 15:2018 and CISPR 15:2018/AMD1:2024, and<br/>
+    - control gear with only L, N input terminals (without PE terminal).
 status:
   stage:
     content: PUBLISHED
@@ -111,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

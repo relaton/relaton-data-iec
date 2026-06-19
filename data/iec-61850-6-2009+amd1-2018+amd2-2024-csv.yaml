@@ -1,7 +1,7 @@
 ---
 id: IEC6185062009AMD12018AMD22024CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -27,7 +27,7 @@ docidentifier:
 - content: IEC 61850-6:2009+AMD1:2018+AMD2:2024 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61850-6:2009-12::csv:+amd:1:2018-06+amd:2:2024-11
+- content: urn:iec:std:iec:61850-6:2009::csv::plus:amd:1:2018:plus:amd:2:2024
   type: URN
 date:
 - type: published
@@ -79,18 +79,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61850-6:2009+AMD1:2018+AMD2:2024 CSV specifies a file format for describing
-    communication-related IED (Intelligent Electronic Device) configurations and IED
-    parameters, communication system configurations, switch yard (function) structures,
-    and the relations between them. The main purpose of this format is to exchange
-    IED capability descriptions, and SA system descriptions between IED engineering
-    tools and the system engineering tool(s) of different manufacturers in a compatible
-    way. The main changes with respect to the previous edition are as follows:<br
-    />\r\n- functional extensions added based on changes in other Parts of IEC 61850,
-    especially in IEC 61850-7-2 and IEC 61850-7-3;<br />\r\n- functional extensions
-    concerning the engineering process, especially for configuration data exchange
-    between system configuration tools, added;<br />\r\n- clarifications and corrections.<br
-    />\r\nThis publication is of core relevance for Smart Grid."
+  content: |-
+    IEC 61850-6:2009+AMD1:2018+AMD2:2024 CSV specifies a file format for describing communication-related IED (Intelligent Electronic Device) configurations and IED parameters, communication system configurations, switch yard (function) structures, and the relations between them. The main purpose of this format is to exchange IED capability descriptions, and SA system descriptions between IED engineering tools and the system engineering tool(s) of different manufacturers in a compatible way. The main changes with respect to the previous edition are as follows:<br/>
+    - functional extensions added based on changes in other Parts of IEC 61850, especially in IEC 61850-7-2 and IEC 61850-7-3;<br/>
+    - functional extensions concerning the engineering process, especially for configuration data exchange between system configuration tools, added;<br/>
+    - clarifications and corrections.<br/>
+    This publication is of core relevance for Smart Grid.
 status:
   stage:
     content: PUBLISHED
@@ -112,7 +106,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

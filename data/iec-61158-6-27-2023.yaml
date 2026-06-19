@@ -1,7 +1,7 @@
 ---
 id: IEC611586272023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -48,7 +48,7 @@ docidentifier:
 - content: IEC 61158-6-27:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-6-27:2023-03:::'
+- content: 'urn:iec:std:iec:61158-6-27:2023:::'
   type: URN
 date:
 - type: published
@@ -101,44 +101,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-6-27:2023 provides common elements for basic time-critical and
-    non-time-critical messaging communications between application programs in an
-    automation environment and material specific to Type 27 fieldbus. The term \"time-critical\"
-    is used to represent the presence of a time-window, within which one or more specified
-    actions are required to be completed with some defined level of certainty. Failure
-    to complete specified actions within the time window risks failure of the applications
-    requesting the actions, with attendant risk to equipment, plant and possibly human
-    life.<br />\r\nThis document defines in an abstract way the externally visible
-    behavior provided by the Type 27 fieldbus application layer in terms of<br />\r\nthe
-    abstract syntax defining the application layer protocol data units conveyed between
-    communicating application entities,<br />\r\nthe transfer syntax defining the
-    application layer protocol data units conveyed between communicating application
-    entities,<br />\r\nthe application context state machines defining the application
-    service behavior visibly between communicating application entities, and<br />\r\nthe
-    application relationship state machines defining the communication behavior visibly
-    between communicating application entities."
+  content: |-
+    IEC 61158-6-27:2023 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 27 fieldbus. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This document defines in an abstract way the externally visible behavior provided by the Type 27 fieldbus application layer in terms of<br/>
+    the abstract syntax defining the application layer protocol data units conveyed between communicating application entities,<br/>
+    the transfer syntax defining the application layer protocol data units conveyed between communicating application entities,<br/>
+    the application context state machines defining the application service behavior visibly between communicating application entities, and<br/>
+    the application relationship state machines defining the communication behavior visibly between communicating application entities.
 - language: fr
   script: Latn
-  content: "L’IEC 61158-6-27:2023 donne les éléments communs visant à assurer les
-    communications de messagerie de base à temps critique et à temps non critique
-    entre les programmes d’application d’un environnement d’automatisation et d’un
-    matériel spécifique au bus de terrain de type 27. Le terme \"à temps critique\"
-    est utilisé pour indiquer la présence d’une fenêtre temporelle, dans laquelle
-    il est exigé de réaliser une ou plusieurs actions spécifiées selon un niveau défini
-    de certitude. Tout manquement à réaliser ces actions dans la fenêtre de temps
-    prévue risque de provoquer la défaillance des applications qui les demandent,
-    avec le risque de mettre en danger l’équipement, l’usine, voire les personnes.<br
-    />\r\nLe présent document définit de manière abstraite les caractéristiques visibles
-    de l’extérieur fournies par la couche application de bus de terrain de type 27
-    en ce qui concerne:<br />\r\nla syntaxe abstraite définissant les unités de données
-    du protocole de la couche application transmises entre les entités d’application
-    de communication;<br />\r\nla syntaxe de transfert définissant les unités de données
-    du protocole de la couche application transmises entre les entités d’application
-    de communication;<br />\r\nles diagrammes d’états de contexte d’application définissant
-    le comportement de service d’application observable entre les entités d’application
-    en communication; et<br />\r\nles diagrammes d’états de relations entre applications
-    définissant le comportement de communication visible entre les entités d’application
-    en communication."
+  content: |-
+    L’IEC 61158-6-27:2023 donne les éléments communs visant à assurer les communications de messagerie de base à temps critique et à temps non critique entre les programmes d’application d’un environnement d’automatisation et d’un matériel spécifique au bus de terrain de type 27. Le terme "à temps critique" est utilisé pour indiquer la présence d’une fenêtre temporelle, dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon un niveau défini de certitude. Tout manquement à réaliser ces actions dans la fenêtre de temps prévue risque de provoquer la défaillance des applications qui les demandent, avec le risque de mettre en danger l’équipement, l’usine, voire les personnes.<br/>
+    Le présent document définit de manière abstraite les caractéristiques visibles de l’extérieur fournies par la couche application de bus de terrain de type 27 en ce qui concerne:<br/>
+    la syntaxe abstraite définissant les unités de données du protocole de la couche application transmises entre les entités d’application de communication;<br/>
+    la syntaxe de transfert définissant les unités de données du protocole de la couche application transmises entre les entités d’application de communication;<br/>
+    les diagrammes d’états de contexte d’application définissant le comportement de service d’application observable entre les entités d’application en communication; et<br/>
+    les diagrammes d’états de relations entre applications définissant le comportement de communication visible entre les entités d’application en communication.
 status:
   stage:
     content: PUBLISHED
@@ -160,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1956662019AMD22025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -45,11 +45,13 @@ docidentifier:
 - content: ISO/IEC 19566-6:2019/AMD2:2025
   type: IEC
   primary: true
-- content: urn:iec:std:iso-iec:19566-6:2019-07:::||amd:2:2025-03
+- content: urn:iec:std:iso-iec:19566-6:2019:::::amd:2:2025
   type: URN
 date:
 - type: published
   at: '2025-03-27'
+- type: obsoleted
+  at: '2026-02-03'
 contributor:
 - role:
   - type: publisher
@@ -109,7 +111,7 @@ script:
 - Latn
 status:
   stage:
-    content: PUBLISHED
+    content: REVISED
 copyright:
 - from: '2019'
   owner:
@@ -140,11 +142,11 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec
   ics:
   - code: 35.040.30
     text: Coding of graphical and photographical information
-  price_code: iso:XZ
+  price_code: iso:B

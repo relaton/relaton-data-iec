@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300452008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -28,7 +28,7 @@ docidentifier:
 - content: ISO/IEC 23004-5:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23004-5:2008-02:::'
+- content: 'urn:iec:std:iso-iec:23004-5:2008:::'
   type: URN
 date:
 - type: published
@@ -92,17 +92,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>ISO/IEC 23004-5:2008 specifies the interfaces of the support application programming interface (API) and the realization technology used for Component Download in MPEG Multimedia Middleware (M3W). Component Download is an optional framework for M3W Platforms. The goal of this realization technology is to enable controlled download of software components to a device. In this context controlled means that before the actual transfer of the component we are able to assess whether the component actually "fits". </p>
-    <p>ISO/IEC 23004-5:2008 specifies the following entities. </p>
-    <ul>
-    <li>Repository - contains components that can be downloaded. </li>
-    <li>Target - enables receiving components. </li>
-    <li>Locator - responsible for locating all the entities (realization of the roles) that participate in a particular download. </li>
-    <li>Decider - assesses the feasibility of a particular download (this can include technical fit, business fit, etc.). </li>
-    <li>Initiator - initiates and coordinates the download process.</li>
-    </ul>
-    <p>These entities together enable through different deployments a large number of component download and upload scenarios, varying from point-to-point transfer to broadcast of components.</p>
+  content: "<p>ISO/IEC 23004-5:2008 specifies the interfaces of the support application
+    programming interface (API) and the realization technology used for Component
+    Download in MPEG Multimedia Middleware (M3W). Component Download is an optional
+    framework for M3W Platforms. The goal of this realization technology is to enable
+    controlled download of software components to a device. In this context controlled
+    means that before the actual transfer of the component we are able to assess whether
+    the component actually \"fits\". </p>\n<p>ISO/IEC 23004-5:2008 specifies the following
+    entities. </p>\n\nRepository - contains components that can be downloaded. \nTarget
+    - enables receiving components. \nLocator - responsible for locating all the entities
+    (realization of the roles) that participate in a particular download. \nDecider
+    - assesses the feasibility of a particular download (this can include technical
+    fit, business fit, etc.). \nInitiator - initiates and coordinates the download
+    process.\n\n<p>These entities together enable through different deployments a
+    large number of component download and upload scenarios, varying from point-to-point
+    transfer to broadcast of components.</p>"
 status:
   stage:
     content: PUBLISHED
@@ -136,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

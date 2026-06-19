@@ -1,7 +1,7 @@
 ---
 id: IECTS6081512025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC TS 60815-1:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60815-1:2025-11:ts::'
+- content: 'urn:iec:std:iec:60815-1:2025:ts::'
   type: URN
 date:
 - type: published
@@ -78,71 +78,38 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 60815-1:2025 is applicable to the selection of insulators, and
-    the determination of their relevant dimensions, to be used in outdoor high-voltage
-    systems with respect to pollution. For the purposes of this technical specification
-    series, the insulators are divided into the following broad categories, each dealt
-    with in a specific part as follows:<br />\r\n- IEC TS 60815-2 – Ceramic and glass
-    insulators for AC systems;<br />\r\n- IEC TS 60815-3 – Polymer insulators for
-    AC systems;<br />\r\n- IEC TS 60815-4 – Insulators for DC systems.<br />\r\nThis
-    document provides general definitions, gives methods for the evaluation of site
-    pollution severity (SPS) and outlines the principles to arrive at an informed
-    judgement on the probable behaviour of a given insulator in certain pollution
-    environments. The general principles described are applicable to both AC and DC
-    systems. However, the applicability part mainly refers to AC. More information
-    about DC can be found in IEC TS 60815-4.<br />\r\nThis document is applicable
-    to all types of external insulation, including insulation forming part of other
-    apparatus. The term \"insulator\" is used hereafter to refer to any type of insulator.<br
-    />\r\nThe objective of this technical specification series is to:<br />\r\n- understand
-    and identify parameters of the system, application, equipment and site influencing
-    the pollution behaviour of insulators,<br />\r\n- understand and choose the appropriate
-    approach to the design and selection of the insulator solution, based on available
-    data, time and resources.<br />\r\n- characterise the type of pollution at a site
-    and determine the site pollution severity (SPS) value and the SPS class,<br />\r\n-
-    determine the reference unified specific creepage distance (RUSCD) of \"reference\"
-    insulator based on the SPS class,<br />\r\n- select candidate insulators and determine
-    corrections to apply to RUSCD to arrive at the USCD of the \"candidate\" insulators
-    by taking into account their specific properties (notably their shed profiles),
-    conditions of the site, the application and the type of system,<br />\r\n- evaluate
-    the relative advantages and disadvantages of the possible solutions, using HTM
-    or non-HTM insulators,<br />\r\n- assess the need and merits of \"hybrid\" solutions
-    or mitigative measures.<br />\r\nThe IEC 60815 series does not deal with the effects
-    of ice and snow on polluted insulators.<br />\r\nCIGRE documents form a useful
-    complement to this technical specification for those wishing to study in greater
-    depth the performance of insulators under pollution.<br />\r\nThis second edition
-    cancels and replaces the first edition of IEC TS 60815‑1 published in 2008. This
-    edition constitutes a technical revision.<br />\r\nThis edition includes the following
-    significant technical changes with respect to the previous edition:<br />\r\na)
-    In the Scope, it is clarified that this specification is applicable to AC and
-    DC conditions while it mainly refers to AC conditions. Detailed application indications
-    refer to AC only. The RUSCD is determined based on the SPS class of reference
-    insulators, and this document does not deal with the effects of ice and snow on
-    polluted insulators;<br />\r\nb) Some terms and definitions are modified or introduced
-    in this document, such as RUSCD, creepage factor, average diameter, SPS value
-    and SPS class, hydrophobicity transfer and HTM, etc.;<br />\r\nc) Clause 5 is
-    re-organized and revised regarding input parameters for the selection and dimensioning
-    of insulators, including system requirements and environmental conditions;<br
-    />\r\nd) Clause 6 \"Determination of site pollution severity (SPS) class\" is
-    re-organized and re-written. A distinction was made between SPS value and SPS
-    class. The measurement of pollution that is made on the de-energized reference
-    insulator is valid for AC only;<br />\r\ne) A new pollution class, extremely heavy
-    class f, is added. It is applicable only to the special situations of extremely
-    heavy pollution when the RUSCD of class e cannot meet the requirements. The RUSCD
-    value for class f is not specified;<br />\r\nf) The parameters of reference insulators
-    were defined;<br />\r\ng) The profiles of reference insulators for type B pollution,
-    both cap-and-pin and long rod insulators were added in this revision. The severity
-    interval for pollution class definition was differentiated for cap and pin insulators
-    and long rod insulators for type B pollution, as already foreseen for type A pollution;<br
-    />\r\nh) The DDDG measurement method was also revised;<br />\r\ni) From RUSCD
-    of reference insulator to USCD of candidate insulator, the correction factors
-    are introduced and revised, such as altitude correction, diameter correction,
-    shed profile correction and parallel insulator number correction;<br />\r\nj)
-    Profile suitability on ceramic and glass insulators was simplified;<br />\r\nk)
-    The general guidance on materials is revised. The concept of hydrophobicity transfer
-    and hydrophobicity transfer material (HTM) are introduced, recognising that a
-    reduced creepage distance may be used for HTM insulators;<br />\r\nl) In the laboratory
-    artificial pollution test for solid layer, the relation between SDD and ESDD is
-    revised;<br />\r\nm) The statistical method is updated."
+  content: |-
+    IEC TS 60815-1:2025 is applicable to the selection of insulators, and the determination of their relevant dimensions, to be used in outdoor high-voltage systems with respect to pollution. For the purposes of this technical specification series, the insulators are divided into the following broad categories, each dealt with in a specific part as follows:<br/>
+    - IEC TS 60815-2 – Ceramic and glass insulators for AC systems;<br/>
+    - IEC TS 60815-3 – Polymer insulators for AC systems;<br/>
+    - IEC TS 60815-4 – Insulators for DC systems.<br/>
+    This document provides general definitions, gives methods for the evaluation of site pollution severity (SPS) and outlines the principles to arrive at an informed judgement on the probable behaviour of a given insulator in certain pollution environments. The general principles described are applicable to both AC and DC systems. However, the applicability part mainly refers to AC. More information about DC can be found in IEC TS 60815-4.<br/>
+    This document is applicable to all types of external insulation, including insulation forming part of other apparatus. The term "insulator" is used hereafter to refer to any type of insulator.<br/>
+    The objective of this technical specification series is to:<br/>
+    - understand and identify parameters of the system, application, equipment and site influencing the pollution behaviour of insulators,<br/>
+    - understand and choose the appropriate approach to the design and selection of the insulator solution, based on available data, time and resources.<br/>
+    - characterise the type of pollution at a site and determine the site pollution severity (SPS) value and the SPS class,<br/>
+    - determine the reference unified specific creepage distance (RUSCD) of "reference" insulator based on the SPS class,<br/>
+    - select candidate insulators and determine corrections to apply to RUSCD to arrive at the USCD of the "candidate" insulators by taking into account their specific properties (notably their shed profiles), conditions of the site, the application and the type of system,<br/>
+    - evaluate the relative advantages and disadvantages of the possible solutions, using HTM or non-HTM insulators,<br/>
+    - assess the need and merits of "hybrid" solutions or mitigative measures.<br/>
+    The IEC 60815 series does not deal with the effects of ice and snow on polluted insulators.<br/>
+    CIGRE documents form a useful complement to this technical specification for those wishing to study in greater depth the performance of insulators under pollution.<br/>
+    This second edition cancels and replaces the first edition of IEC TS 60815‑1 published in 2008. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) In the Scope, it is clarified that this specification is applicable to AC and DC conditions while it mainly refers to AC conditions. Detailed application indications refer to AC only. The RUSCD is determined based on the SPS class of reference insulators, and this document does not deal with the effects of ice and snow on polluted insulators;<br/>
+    b) Some terms and definitions are modified or introduced in this document, such as RUSCD, creepage factor, average diameter, SPS value and SPS class, hydrophobicity transfer and HTM, etc.;<br/>
+    c) Clause 5 is re-organized and revised regarding input parameters for the selection and dimensioning of insulators, including system requirements and environmental conditions;<br/>
+    d) Clause 6 "Determination of site pollution severity (SPS) class" is re-organized and re-written. A distinction was made between SPS value and SPS class. The measurement of pollution that is made on the de-energized reference insulator is valid for AC only;<br/>
+    e) A new pollution class, extremely heavy class f, is added. It is applicable only to the special situations of extremely heavy pollution when the RUSCD of class e cannot meet the requirements. The RUSCD value for class f is not specified;<br/>
+    f) The parameters of reference insulators were defined;<br/>
+    g) The profiles of reference insulators for type B pollution, both cap-and-pin and long rod insulators were added in this revision. The severity interval for pollution class definition was differentiated for cap and pin insulators and long rod insulators for type B pollution, as already foreseen for type A pollution;<br/>
+    h) The DDDG measurement method was also revised;<br/>
+    i) From RUSCD of reference insulator to USCD of candidate insulator, the correction factors are introduced and revised, such as altitude correction, diameter correction, shed profile correction and parallel insulator number correction;<br/>
+    j) Profile suitability on ceramic and glass insulators was simplified;<br/>
+    k) The general guidance on materials is revised. The concept of hydrophobicity transfer and hydrophobicity transfer material (HTM) are introduced, recognising that a reduced creepage distance may be used for HTM insulators;<br/>
+    l) In the laboratory artificial pollution test for solid layer, the relation between SDD and ESDD is revised;<br/>
+    m) The statistical method is updated.
 status:
   stage:
     content: PUBLISHED
@@ -164,7 +131,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

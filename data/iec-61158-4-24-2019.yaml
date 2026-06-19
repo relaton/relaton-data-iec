@@ -1,7 +1,7 @@
 ---
 id: IEC611584242019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-4-24:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-4-24:2019-04:::'
+- content: 'urn:iec:std:iec:61158-4-24:2019:::'
   type: URN
 date:
 - type: published
@@ -105,38 +105,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-4-24:2019 specifies procedures for the timely transfer of data
-    and control information from one data-link user entity to a peer user entity,
-    and among the data-link entities forming the distributed data-link service provider
-    and the structure of the fieldbus DLPDUs used for the transfer of data and control
-    information by the protocol of this standard, and their representation as physical
-    interface data units. This second edition cancels and replaces the first edition
-    published in 2014. This edition constitutes a technical revision with the following
-    technical changes:<br />\r\n• patent declaration in the Introduction;<br />\r\n•
-    corrections on transmission sequence of fixed-width time slot type in 4.3.2;<br
-    />\r\n• technical extension for band sharing between I/O data exchange and message
-    communication;<br />\r\n• spelling and grammar"
+  content: |-
+    IEC 61158-4-24:2019 specifies procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This second edition cancels and replaces the first edition published in 2014. This edition constitutes a technical revision with the following technical changes:<br/>
+    • patent declaration in the Introduction;<br/>
+    • corrections on transmission sequence of fixed-width time slot type in 4.3.2;<br/>
+    • technical extension for band sharing between I/O data exchange and message communication;<br/>
+    • spelling and grammar
 - language: fr
   script: Latn
-  content: "L'IEC-61158-4-24:2019 spécifie<br />\r\na) les procédures de transfert
-    en temps opportun des données et des informations de commande entre une entité
-    utilisateur de liaison de données et une entité utilisateur homologue et, parmi
-    les entités de liaison de données formant le fournisseur de services distribués
-    de liaison de données;<br />\r\nb) les procédures pour donner des opportunités
-    de communication à toutes les entités DL participantes, séquentiellement et de
-    manière cyclique pour le transfert déterministe et synchronisé à intervalles cycliques
-    pouvant aller jusqu'à 64 ms;<br />\r\nc) les procédures pour donner les opportunités
-    de communication disponibles pour la transmission de données prioritaires ainsi
-    que pour la transmission de données non prioritaires, sans nuire à la transmission
-    de données prioritaire;<br />\r\nd) les procédures pour donner des opportunités
-    de communication cyclique et acyclique pour la transmission de données prioritaires
-    avec accès hiérarchisés;<br />\r\ne) les procédures pour donner des opportunités
-    de communication selon le contrôle d'accès au support physique normalisé par l'ISO/IEC/IEEE
-    8802 3, avec des dispositions pour les nœuds à ajouter ou à retirer lors du fonctionnement
-    normal;<br />\r\nf) la structure des DLPDU de bus de terrain utilisées par le
-    protocole du présent document pour le transfert des données et des informations
-    de commande, et leur représentation sous forme d'unités de données d'interface
-    physique."
+  content: |-
+    L'IEC-61158-4-24:2019 spécifie<br/>
+    a) les procédures de transfert en temps opportun des données et des informations de commande entre une entité utilisateur de liaison de données et une entité utilisateur homologue et, parmi les entités de liaison de données formant le fournisseur de services distribués de liaison de données;<br/>
+    b) les procédures pour donner des opportunités de communication à toutes les entités DL participantes, séquentiellement et de manière cyclique pour le transfert déterministe et synchronisé à intervalles cycliques pouvant aller jusqu'à 64 ms;<br/>
+    c) les procédures pour donner les opportunités de communication disponibles pour la transmission de données prioritaires ainsi que pour la transmission de données non prioritaires, sans nuire à la transmission de données prioritaire;<br/>
+    d) les procédures pour donner des opportunités de communication cyclique et acyclique pour la transmission de données prioritaires avec accès hiérarchisés;<br/>
+    e) les procédures pour donner des opportunités de communication selon le contrôle d'accès au support physique normalisé par l'ISO/IEC/IEEE 8802 3, avec des dispositions pour les nœuds à ajouter ou à retirer lors du fonctionnement normal;<br/>
+    f) la structure des DLPDU de bus de terrain utilisées par le protocole du présent document pour le transfert des données et des informations de commande, et leur représentation sous forme d'unités de données d'interface physique.
 status:
   stage:
     content: REVISED
@@ -158,7 +142,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IECTR6185090122020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC TR 61850-90-12:2020
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-90-12:2020-07:tr::'
+- content: 'urn:iec:std:iec:61850-90-12:2020:tr::'
   type: URN
 date:
 - type: published
@@ -77,31 +77,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 61850-90-12:2020, which is a Technical Report, is intended for
-    an audience familiar with electrical power automation based on IEC 61850 and related
-    power system management, and particularly for data network engineers and system
-    integrators. It is intended to help them to understand the technologies, configure
-    a wide area network, define requirements, write specifications, select components,
-    and conduct tests.<br />\r\nThis document provides definitions, guidelines, and
-    recommendations for the engineering of WANs, in particular for protection, control
-    and monitoring based on IEC 61850 and related standards.<br />\r\nThis document
-    addresses substation-to-substation communication, substation-to-control centre,
-    and control centre-to-control centre communication. In particular, this document
-    addresses the most critical aspects of IEC 61850 such as protection related data
-    transmission via GOOSE and SMVs, and the multicast transfer of large volumes of
-    synchrophasor data.<br />\r\nThe document addresses issues such as topology, redundancy,
-    traffic latency and quality of service, traffic management, clock synchronization,
-    security, and maintenance of the network.<br />\r\nThis document contains use
-    cases that show how utilities tackle their WAN engineering. This second edition
-    cancels and replaces the first edition published in 2015. This edition constitutes
-    a technical revision.<br />\r\nThis edition includes the following significant
-    technical changes with respect to the previous edition:<br />\r\na) extension
-    of use case with respect to distribution and customer-side applications;<br />\r\nb)
-    extensions of wireless access technologies as well as power line communication
-    ones applicable to the above-mentioned use case;<br />\r\nc) revisions regarding
-    radio communication technology performance;<br />\r\nd) extension of network migration
-    with respect to packet switched network;<br />\r\ne) a new mapping of multiprotocol
-    label switching technology to teleprotection."
+  content: |-
+    IEC TR 61850-90-12:2020, which is a Technical Report, is intended for an audience familiar with electrical power automation based on IEC 61850 and related power system management, and particularly for data network engineers and system integrators. It is intended to help them to understand the technologies, configure a wide area network, define requirements, write specifications, select components, and conduct tests.<br/>
+    This document provides definitions, guidelines, and recommendations for the engineering of WANs, in particular for protection, control and monitoring based on IEC 61850 and related standards.<br/>
+    This document addresses substation-to-substation communication, substation-to-control centre, and control centre-to-control centre communication. In particular, this document addresses the most critical aspects of IEC 61850 such as protection related data transmission via GOOSE and SMVs, and the multicast transfer of large volumes of synchrophasor data.<br/>
+    The document addresses issues such as topology, redundancy, traffic latency and quality of service, traffic management, clock synchronization, security, and maintenance of the network.<br/>
+    This document contains use cases that show how utilities tackle their WAN engineering. This second edition cancels and replaces the first edition published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) extension of use case with respect to distribution and customer-side applications;<br/>
+    b) extensions of wireless access technologies as well as power line communication ones applicable to the above-mentioned use case;<br/>
+    c) revisions regarding radio communication technology performance;<br/>
+    d) extension of network migration with respect to packet switched network;<br/>
+    e) a new mapping of multiprotocol label switching technology to teleprotection.
 status:
   stage:
     content: PUBLISHED
@@ -123,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

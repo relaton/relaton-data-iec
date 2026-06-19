@@ -1,7 +1,7 @@
 ---
 id: IEC623861032022CMV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC 62386-103:2022 CMV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62386-103::cmv
+- content: 'urn:iec:std:iec:62386-103:2022::cmv:'
   type: URN
 date:
 - type: published
@@ -81,21 +81,16 @@ abstract:
     version. The commented version provides you with a quick and easy way to compare
     all the changes between IEC 62386-103:2022 edition 2.0 and the previous IEC 62386-103:2014+AMD1:2018
     CSV edition 1.1. Futhermore, comments from IEC TC 34 experts are provided to explain
-    the reasons of the most relevant changes.<br />\r\n<br />\r\nIEC 62386-103:2022
-    is applicable to control devices for control by digital signals of electronic
-    lighting equipment. This second edition cancels and replaces the first edition
-    published in 2014 and Amendment 1:2018. This edition constitutes a technical revision.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:\r\n<ol style=\"list-style-type:lower-alpha\">\r\n\t<li
-    style=\"text-align:justify\">the scope has been updated;</li>\r\n\t<li style=\"text-align:justify\">quiescent
-    mode has been updated;</li>\r\n\t<li style=\"text-align:justify\">non-volatile
-    memory (NVM) save time has been added, and SAVE PERSISTENT VARIABLES command removed;</li>\r\n\t<li
-    style=\"text-align:justify\">memory bank 0 has been modified, and common memory
-    bank requirements have been added;</li>\r\n\t<li style=\"text-align:justify\">IDENTIFY
-    DEVICE has been updated;</li>\r\n\t<li style=\"text-align:justify\">version number
-    has been changed;</li>\r\n\t<li style=\"text-align:justify\">bus unit configuration
-    has been added; and</li>\r\n\t<li style=\"text-align:justify\">instance types
-    and configuration have been added.</li>\r\n</ol>"
+    the reasons of the most relevant changes.<br/>\n<br/>\nIEC 62386-103:2022 is applicable
+    to control devices for control by digital signals of electronic lighting equipment.
+    This second edition cancels and replaces the first edition published in 2014 and
+    Amendment 1:2018. This edition constitutes a technical revision. This edition
+    includes the following significant technical changes with respect to the previous
+    edition:\n\n\tthe scope has been updated;\n\tquiescent mode has been updated;\n\tnon-volatile
+    memory (NVM) save time has been added, and SAVE PERSISTENT VARIABLES command removed;\n\tmemory
+    bank 0 has been modified, and common memory bank requirements have been added;\n\tIDENTIFY
+    DEVICE has been updated;\n\tversion number has been changed;\n\tbus unit configuration
+    has been added; and\n\tinstance types and configuration have been added.\n"
 status:
   stage:
     content: PUBLISHED
@@ -117,7 +112,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

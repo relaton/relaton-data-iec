@@ -1,7 +1,7 @@
 ---
 id: ISOIEC30118122021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: ISO/IEC 30118-12:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:30118-12:2021-10:::'
+- content: 'urn:iec:std:iso-iec:30118-12:2021:::'
   type: URN
 date:
 - type: published
@@ -89,13 +89,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>The OCF Cloud specifications are divided into a series of documents:</p>
-    <ul>
-    <li>OCF Cloud security specification (this document): The cloud security specification document specifies the security recuirements and definitions for OCF devices and OCF clouds implementations.</li>
-    <li>OCF Device to Cloud Specification: The OCF Device to Cloud Specification document defines functional extensions and capabilities to meet the requirements of the OCF Cloud. This document specifies new Resource Types to enable the functionality and any extensions required to connect an OCF device to an OCF cloud.</li>
-    <li>OCF Cloud API for cloud services specification: The Cloud API for cloud services specification defines the OCF cloud API.</li>
-    </ul>
+
+    OCF Cloud security specification (this document): The cloud security specification document specifies the security recuirements and definitions for OCF devices and OCF clouds implementations.
+    OCF Device to Cloud Specification: The OCF Device to Cloud Specification document defines functional extensions and capabilities to meet the requirements of the OCF Cloud. This document specifies new Resource Types to enable the functionality and any extensions required to connect an OCF device to an OCF cloud.
+    OCF Cloud API for cloud services specification: The Cloud API for cloud services specification defines the OCF cloud API.
 status:
   stage:
     content: PUBLISHED
@@ -129,7 +128,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IECTR610002152023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC TR 61000-2-15:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61000-2-15:2023-02:tr::'
+- content: 'urn:iec:std:iec:61000-2-15:2023:tr::'
   type: URN
 date:
 - type: published
@@ -78,26 +78,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 61000-2-15: 2023 which is a Technical Report, addresses in particular
-    the following main phenomena, which affect the power quality in modern distribution
-    systems with high penetration of power electronics converters. As some aspects
-    of the subject have already been addressed in the past, considering the evolution
-    of the LV and MV networks, this document focuses on the following aspects:<br
-    />\r\nresonances in the network, modelling and on-site validation;<br />\r\nsupraharmonics
-    and measurements issues;<br />\r\nimpact of increased number of power electronic
-    converters;<br />\r\nstability and instability issues for the equipment to be
-    connected<br />\r\nThe target phenomena and conditions of this document are the
-    following:<br />\r\nfrequency: ≤ 2 kHz, 2 kHz to 9 kHz, ≥ 9 kHz;<br />\r\nvoltage
-    levels: LV, MV;<br />\r\nharmonic sources: all types of converters (EV battery
-    chargers, appliances, etc.…).<br />\r\nSome of these frequency ranges have already
-    been standardized in some countries (Japan, Germany, Switzerland, etc.), but the
-    resulting phenomena developed will benefit being described in more details, with
-    a focus on the interaction between the converters and the electrical networks.
-    The case of the presence of a large number of converters is also at stake. Some
-    complex phenomena can also arise when the full system is not stable anymore. NOTE Whereas
-    it is expected that the models and derived calculations form this document can
-    be applied to the Americas electrical systems its formal validation studies are
-    still pending."
+  content: |-
+    IEC TR 61000-2-15: 2023 which is a Technical Report, addresses in particular the following main phenomena, which affect the power quality in modern distribution systems with high penetration of power electronics converters. As some aspects of the subject have already been addressed in the past, considering the evolution of the LV and MV networks, this document focuses on the following aspects:<br/>
+    resonances in the network, modelling and on-site validation;<br/>
+    supraharmonics and measurements issues;<br/>
+    impact of increased number of power electronic converters;<br/>
+    stability and instability issues for the equipment to be connected<br/>
+    The target phenomena and conditions of this document are the following:<br/>
+    frequency: ≤ 2 kHz, 2 kHz to 9 kHz, ≥ 9 kHz;<br/>
+    voltage levels: LV, MV;<br/>
+    harmonic sources: all types of converters (EV battery chargers, appliances, etc.…).<br/>
+    Some of these frequency ranges have already been standardized in some countries (Japan, Germany, Switzerland, etc.), but the resulting phenomena developed will benefit being described in more details, with a focus on the interaction between the converters and the electrical networks. The case of the presence of a large number of converters is also at stake. Some complex phenomena can also arise when the full system is not stable anymore. NOTE Whereas it is expected that the models and derived calculations form this document can be applied to the Americas electrical systems its formal validation studies are still pending.
 status:
   stage:
     content: PUBLISHED
@@ -119,7 +110,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

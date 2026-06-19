@@ -1,7 +1,7 @@
 ---
 id: ISOIEC163172011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 16317:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:16317:2011-09:::'
+- content: 'urn:iec:std:iso-iec:16317:2011:::'
   type: URN
 date:
 - type: published
@@ -93,21 +93,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 16317:2011 specifies maintenance of network connectivity and presence by proxies to extend the sleep duration of hosts.</p>
     <p>ISO/IEC 16317:2011 specifies:</p>
-    <ul>
-    <li>capabilities that a proxy may expose to a host;</li>
-    <li>information that must be exchanged between a host and a proxy;</li>
-    <li>proxy behaviour for 802.3 (Ethernet) and 802.11 (WiFi);</li>
-    <li>required and optional behaviour of a proxy while it is operating, including responding to packets, generating packets, ignoring packets, and waking the host.</li>
-    </ul>
+
+    capabilities that a proxy may expose to a host;
+    information that must be exchanged between a host and a proxy;
+    proxy behaviour for 802.3 (Ethernet) and 802.11 (WiFi);
+    required and optional behaviour of a proxy while it is operating, including responding to packets, generating packets, ignoring packets, and waking the host.
+
     <p>ISO/IEC 16317:2011 does not:</p>
-    <ul>
-    <li>specify communication mechanisms between hosts and proxies;</li>
-    <li>extend or modify the referenced specifications (and for any discrepancies those specifications are authoritative);</li>
-    <li>support security and communication protocols such as IPsec, MACSec, SSL, TLS, Mobile IP, etc.</li>
-    </ul>
+
+    specify communication mechanisms between hosts and proxies;
+    extend or modify the referenced specifications (and for any discrepancies those specifications are authoritative);
+    support security and communication protocols such as IPsec, MACSec, SSL, TLS, Mobile IP, etc.
 status:
   stage:
     content: PUBLISHED
@@ -141,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

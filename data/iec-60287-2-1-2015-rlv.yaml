@@ -1,7 +1,7 @@
 ---
 id: IEC60287212015RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -46,7 +46,7 @@ docidentifier:
 - content: IEC 60287-2-1:2015 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60287-2-1::rlv
+- content: 'urn:iec:std:iec:60287-2-1:2015::rlv:'
   type: URN
 date:
 - type: published
@@ -101,27 +101,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 60287-2-1:2015 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\nIEC 60287-2-1:2015 is
-    solely applicable to the conditions of steady-state operation of cables at all
-    alternating voltages, and direct voltages up to 5 kV, buried directly in the ground,
-    in ducts, in troughs or in steel pipes, both with and without partial drying-out
-    of the soil, as well as cables in air. The term \"steady state\" is intended to
-    mean a continuous constant current (100 % load factor) just sufficient to produce
-    asymptotically the maximum conductor temperature, the surrounding ambient conditions
-    being assumed constant. This part of IEC 60287 provides formulae for thermal resistance.
-    This second edition of IEC 60287-2-1 cancels and replaces the first edition, published
-    in 1994, Amendment 1:2001, Amendment 2:2006 and Corrigendum 1:2008. This edition
-    includes the following significant technical changes with respect to the previous
-    edition:<br />\r\na) inclusion of a reference to the use of finite element methods
-    where analytical methods are not available for the calculation of external thermal
-    resistance;<br />\r\nb) explanation about SL and SA type cables;<br />\r\nc) calculation
-    method for T3 for unarmoured three-core cables with extruded insulation and individual
-    copper tape screens on each core;<br />\r\nd) change of condition for X in 5.4;<br
-    />\r\ne) inclusion of constants or installation conditions for water filled ducts
-    in Table 4."
+  content: |-
+    IEC 60287-2-1:2015 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    IEC 60287-2-1:2015 is solely applicable to the conditions of steady-state operation of cables at all alternating voltages, and direct voltages up to 5 kV, buried directly in the ground, in ducts, in troughs or in steel pipes, both with and without partial drying-out of the soil, as well as cables in air. The term "steady state" is intended to mean a continuous constant current (100 % load factor) just sufficient to produce asymptotically the maximum conductor temperature, the surrounding ambient conditions being assumed constant. This part of IEC 60287 provides formulae for thermal resistance. This second edition of IEC 60287-2-1 cancels and replaces the first edition, published in 1994, Amendment 1:2001, Amendment 2:2006 and Corrigendum 1:2008. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) inclusion of a reference to the use of finite element methods where analytical methods are not available for the calculation of external thermal resistance;<br/>
+    b) explanation about SL and SA type cables;<br/>
+    c) calculation method for T3 for unarmoured three-core cables with extruded insulation and individual copper tape screens on each core;<br/>
+    d) change of condition for X in 5.4;<br/>
+    e) inclusion of constants or installation conditions for water filled ducts in Table 4.
 status:
   stage:
     content: REVISED
@@ -143,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

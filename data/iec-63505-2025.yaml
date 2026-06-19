@@ -1,7 +1,7 @@
 ---
 id: IEC635052025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -22,7 +22,7 @@ docidentifier:
 - content: IEC 63505:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63505:2025-04:::'
+- content: 'urn:iec:std:iec:63505:2025:::'
   type: URN
 date:
 - type: published
@@ -74,13 +74,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63505:2025 gives guidance on VT measurement methods and conditioning
-    prior to VT testing in SiC power MOSFETs to reduce or eliminate the effect of
-    the aforementioned hysteresis. The method is applicable for PBTI testing, NBTI
-    and threshold voltage changes caused by switching events are excluded from the
-    scope.<br />\r\nSiC MOSFETs have threshold voltage hysteresis caused by transient
-    trap effects, which impacts the evaluation of the actual the VT shift caused by
-    stress tests such as bias temperature instabilities (BTI)."
+  content: |-
+    IEC 63505:2025 gives guidance on VT measurement methods and conditioning prior to VT testing in SiC power MOSFETs to reduce or eliminate the effect of the aforementioned hysteresis. The method is applicable for PBTI testing, NBTI and threshold voltage changes caused by switching events are excluded from the scope.<br/>
+    SiC MOSFETs have threshold voltage hysteresis caused by transient trap effects, which impacts the evaluation of the actual the VT shift caused by stress tests such as bias temperature instabilities (BTI).
 status:
   stage:
     content: PUBLISHED
@@ -102,7 +98,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

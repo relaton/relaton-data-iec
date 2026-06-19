@@ -1,7 +1,7 @@
 ---
 id: ISOIEC781661996
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -44,7 +44,7 @@ docidentifier:
 - content: ISO/IEC 7816-6:1996
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:7816-6:1996-05:::'
+- content: 'urn:iec:std:iso-iec:7816-6:1996:::'
   type: URN
 date:
 - type: published
@@ -117,22 +117,20 @@ abstract:
     the card.</p>"
 - language: fr
   script: Latn
-  content: |-
-    La présente partie de l'ISO/CEI 7816 spécifie directement ou par référence les éléments de données (DE), qui comprennent les DE composites, utilisés dans l'échange intersectoriel et basés sur les cartes à circuits intégrés (ICC). Elle identifie les caractéristiques ci-dessous de chaque DE : <ul>
-    <li>Identificateur ; </li>
-    <li>Nom ; </li>
-    <li>Description et référence ISO ; </li>
-    <li>Format et codage (s'il n'est pas disponible dans d'autres normes ISO ou dans les autres parties de l'ISO/CEI 7816).</li>
-    </ul>
-    La disposition de chaque DE est décrite telle qu'elle apparaît à
-    l'interface entre le dispositif d'interface (IFD) et le ICC. La présente
-    partie de l'ISO/CEI 7816 définit les moyens d'extraction des DE dans la
-    carte (octets historiques, remise à zéro, commandes à exécuter
-    et commandes définies dans cette norme internationale). La présente
-    partie de l'ISO/CEI 7816 donne la définition des DE sans considération
-    des restrictions faites sur l'utilisation des DE. Il est prévu d'incorporer
-    de nouveaux objets de données intersectoriels dans la présente norme
-    ; voir l'article 7 pour la procédure à suivre.
+  content: "La présente partie de l'ISO/CEI 7816 spécifie directement ou par référence
+    les éléments de données (DE), qui comprennent les DE composites, utilisés dans
+    l'échange intersectoriel et basés sur les cartes à circuits intégrés (ICC). Elle
+    identifie les caractéristiques ci-dessous de chaque DE : \nIdentificateur ; \nNom
+    ; \nDescription et référence ISO ; \nFormat et codage (s'il n'est pas disponible
+    dans d'autres normes ISO ou dans les autres parties de l'ISO/CEI 7816).\n\nLa
+    disposition de chaque DE est décrite telle qu'elle apparaît à\nl'interface entre
+    le dispositif d'interface (IFD) et le ICC. La présente\npartie de l'ISO/CEI 7816
+    définit les moyens d'extraction des DE dans la\ncarte (octets historiques, remise
+    à zéro, commandes à exécuter\net commandes définies dans cette norme internationale).
+    La présente\npartie de l'ISO/CEI 7816 donne la définition des DE sans considération\ndes
+    restrictions faites sur l'utilisation des DE. Il est prévu d'incorporer\nde nouveaux
+    objets de données intersectoriels dans la présente norme\n; voir l'article 7 pour
+    la procédure à suivre."
 status:
   stage:
     content: REPLACED
@@ -166,7 +164,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC261392024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -37,7 +37,7 @@ docidentifier:
 - content: ISO/IEC 26139:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:26139:2024-10:::'
+- content: 'urn:iec:std:iso-iec:26139:2024:::'
   type: URN
 date:
 - type: published
@@ -102,12 +102,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: <p><span lang="EN">This document defines the Form Post Response Mode. In
-    this mode, Authorization Response parameters are encoded as HTML form values that
-    are auto-submitted in the User Agent, and thus are transmitted via the HTTP </span><span
-    lang="EN">POST</span><span lang="EN"> method to the Client, with the result parameters
-    being encoded in the body using the </span><span lang="EN">application/x-www-form-urlencoded</span><span
-    lang="EN"> format. </span></p>
+  content: "<p>This document defines the Form Post Response Mode. In this mode, Authorization
+    Response parameters are encoded as HTML form values that are auto-submitted in
+    the User Agent, and thus are transmitted via the HTTP POST method to the Client,
+    with the result parameters being encoded in the body using the application/x-www-form-urlencoded
+    format. </p>"
 status:
   stage:
     content: PUBLISHED
@@ -141,7 +140,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

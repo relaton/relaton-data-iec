@@ -1,7 +1,7 @@
 ---
 id: ISOIEC186702025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -33,7 +33,7 @@ docidentifier:
 - content: ISO/IEC 18670:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:18670:2025-04:::'
+- content: 'urn:iec:std:iso-iec:18670:2025:::'
   type: URN
 date:
 - type: published
@@ -99,11 +99,11 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This specification defines a standard data format for referencing software artifacts that match the data model of modern distributed version control systems.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This format includes the typical tree-like structure of a filesystem hierarchy, but also, special nodes to track revisions and releases, as well as the full status of a version control system, with all its development branches.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">A key property of SWHIDs is that they can be computed using cryptographically strong functions directly from the digital objects they refer to, by anyone that has access to a copy of those objects. This enables decentralised and independent verification of integrity, without relying on a registry or a central authority.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The computation of the SWHID identifiers is based on Merkle Acyclic Directed Graphs, a natural generalization of Merkle trees.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The resolution of SWHIDs, that is, the process of obtaining a copy of a digital artifact corresponding to a given SWHID, is outside the scope of this specification.</span></p>
+    <p class="MsoBodyText">This specification defines a standard data format for referencing software artifacts that match the data model of modern distributed version control systems.</p>
+    <p class="MsoBodyText">This format includes the typical tree-like structure of a filesystem hierarchy, but also, special nodes to track revisions and releases, as well as the full status of a version control system, with all its development branches.</p>
+    <p class="MsoBodyText">A key property of SWHIDs is that they can be computed using cryptographically strong functions directly from the digital objects they refer to, by anyone that has access to a copy of those objects. This enables decentralised and independent verification of integrity, without relying on a registry or a central authority.</p>
+    <p class="MsoBodyText">The computation of the SWHID identifiers is based on Merkle Acyclic Directed Graphs, a natural generalization of Merkle trees.</p>
+    <p class="MsoBodyText">The resolution of SWHIDs, that is, the process of obtaining a copy of a digital artifact corresponding to a given SWHID, is outside the scope of this specification.</p>
 status:
   stage:
     content: PUBLISHED
@@ -137,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

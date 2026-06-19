@@ -1,0 +1,123 @@
+---
+id: ISOPAS15118232026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+- language: en
+  script: Latn
+  content: Vehicle to grid communication interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 23: Second generation network layer and application layer requirements
+    conformance test plan for DC charging'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Road vehicles - Vehicle to grid communication interface - Part 23: Second
+    generation network layer and application layer requirements conformance test plan
+    for DC charging'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112262
+- type: obp
+  content: https://webstore.iec.ch/preview/info_isopas15118-23{ed1.0}en.pdf
+docidentifier:
+- content: ISO PAS 15118-23:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso:15118-23:2026:pas::'
+  type: URN
+date:
+- type: published
+  at: '2026-05-29'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      identifier:
+      - content: '69'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    ISO PAS 15118-23:2026 This document specifies conformance tests in the form of an abstract test suite (ATS) for a system under test (SUT) that implements an electric-vehicle communication controller (EVCC) or a supply-equipment communication controller (SECC) for all direct current (DC)-specific requirements specified in ISO 15118-20 that are associated to the DC charging type. These conformance tests specify the testing of capabilities and behaviours of an SUT, as well as checking what is observed against the conformance requirements specified in ISO 15118-20 and against what the implementer states the SUT implementation's capabilities are.<br/>
+    The capability tests within the ATS check that the observable capabilities of the SUT are in accordance with the static conformance requirements defined in ISO 15118-20. The behaviour tests of the ATS examine an implementation as thoroughly as practical over the full range of dynamic conformance requirements defined in ISO 15118-20 and within the capabilities of the SUT.<br/>
+    The test architecture for this document is inherited from the test architecture specified in ISO 15118-21. If further aspects for DC-specific requirements are necessary, they extend this architecture and are specified in this document. The abstract test cases in this document are described leveraging this test architecture and are specified in descriptive tabular format covering the ISO/OSI layer 3 to 7 (network to application layers).<br/>
+    In terms of coverage, this document only covers normative sections and requirements in ISO 15118-20. This document can additionally refer to specific tests for requirements on referenced standards (e.g. IETF RFCs, W3C Recommendation, etc.) if they are relevant in terms of conformance for implementations according to ISO 15118-20. However, it is explicitly not intended to widen the scope of this conformance specification to such external standards, if it is not technically necessary for the purpose of conformance testing for ISO 15118-20. Furthermore, the conformance tests specified in this document do not include the assessment of performance nor robustness or reliability of an implementation. They cannot provide judgments on the physical realization of abstract service primitives, how a system is implemented, how it provides any requested service, nor the environment of the protocol implementation. Furthermore, the abstract test cases defined in this document only consider the communication protocol and the system's behaviour defined ISO 15118-20. Power flow between the EVSE and the EV is not a prerequisite for the test cases specified in this document.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '137948'
+  price_code: iso:H

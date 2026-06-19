@@ -1,7 +1,7 @@
 ---
 id: IEC62541112020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC 62541-11:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62541-11::rlv
+- content: 'urn:iec:std:iec:62541-11:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -78,25 +78,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-11:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<div>IEC 62541-11:2020 is part
-    of the OPC Unified Architecture standard series and defines the information model
-    associated with Historical Access (HA). It particularly includes additional and
-    complementary descriptions of the NodeClasses and Attributes needed for Historical
-    Access, additional standard Properties, and other information and behaviour.<br
-    />\r\nThe complete AddressSpace Model including all NodeClasses and Attributes
-    is specified in IEC 62541-3. The predefined Information Model is defined in IEC
-    62541-5. The Services to detect and access historical data and events, and description
-    of the ExtensibleParameter types are specified in IEC 62541-4. This document includes
-    functionality to compute and return Aggregates like minimum, maximum, average
-    etc. The Information Model and the concrete working of Aggregates are defined
-    in IEC 62541-13. This third edition cancels and replaces the second edition published
-    in 2015. This edition constitutes a technical revision. This edition includes
-    the following significant technical changes with respect to the previous edition:<br
-    />\r\na) a new method for determining the first historical point has been added;<br
-    />\r\nb) added clarifications on how to add, insert, modify, and delete annotations.</div>"
+  content: |-
+    IEC 62541-11:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    IEC 62541-11:2020 is part of the OPC Unified Architecture standard series and defines the information model associated with Historical Access (HA). It particularly includes additional and complementary descriptions of the NodeClasses and Attributes needed for Historical Access, additional standard Properties, and other information and behaviour.<br/>
+    The complete AddressSpace Model including all NodeClasses and Attributes is specified in IEC 62541-3. The predefined Information Model is defined in IEC 62541-5. The Services to detect and access historical data and events, and description of the ExtensibleParameter types are specified in IEC 62541-4. This document includes functionality to compute and return Aggregates like minimum, maximum, average etc. The Information Model and the concrete working of Aggregates are defined in IEC 62541-13. This third edition cancels and replaces the second edition published in 2015. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) a new method for determining the first historical point has been added;<br/>
+    b) added clarifications on how to add, insert, modify, and delete annotations.
 status:
   stage:
     content: REVISED
@@ -118,7 +105,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

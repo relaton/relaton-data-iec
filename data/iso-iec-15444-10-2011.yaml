@@ -1,7 +1,7 @@
 ---
 id: ISOIEC15444102011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 15444-10:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:15444-10:2011-12:::'
+- content: 'urn:iec:std:iso-iec:15444-10:2011:::'
   type: URN
 date:
 - type: published
@@ -93,16 +93,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
+  content: |
     <p>ISO/IEC 15444-10:2011 defines a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital volumetric images, or multi-component volumetric images. This set of methods extends the elements in the core coding system described in Rec. ITU‑T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.801 | ISO/IEC 15444-2. Extensions which pertain to encoding and decoding are defined as procedures which may be used in combination with the encoding and decoding processes described in Rec. ITU-T T.800 | ISO/IEC 15444-1 and Rec. ITU-T T.801 | ISO/IEC 15444-2. Each encoding or decoding extension shall be used only in combination with particular coding processes and only in accordance with the requirements set forth herein. ISO/IEC 15444-10:2011 also defines extensions to the compressed data format, i.e. interchange format and the abbreviated formats.</p>
     <p>In particular, for Rec. ITU-T T.801 | ISO/IEC 15444-2, the following extensions are supported by ISO/IEC 15444-10:2011:</p>
-    <ul>
-    <li>       variable DC offset;</li>
-    <li>       arbitrary wavelet transform kernels;</li>
-    <li>       multi-component transformations;</li>
-    <li>       non-linear transformations;</li>
-    <li>       region-of-interest.</li>
-    </ul>
+
+           variable DC offset;
+           arbitrary wavelet transform kernels;
+           multi-component transformations;
+           non-linear transformations;
+           region-of-interest.
 status:
   stage:
     content: PUBLISHED
@@ -136,7 +135,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

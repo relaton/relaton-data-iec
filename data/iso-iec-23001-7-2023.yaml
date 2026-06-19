@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300172023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 23001-7:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23001-7:2023-08:::'
+- content: 'urn:iec:std:iso-iec:23001-7:2023:::'
   type: URN
 date:
 - type: published
@@ -94,10 +94,10 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document specifies common encryption formats for use in any file format based on ISO/IEC 14496-12. File, item, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This document does not define a DRM system.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The AES-128 symmetric block cipher is used to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, initialization vector storage and processing is specified for each scheme.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.</span></p>
+    <p class="MsoBodyText">This document specifies common encryption formats for use in any file format based on ISO/IEC 14496-12. File, item, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This document does not define a DRM system.</p>
+    <p class="MsoBodyText">The AES-128 symmetric block cipher is used to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, initialization vector storage and processing is specified for each scheme.</p>
+    <p class="MsoBodyText">Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption.</p>
+    <p class="MsoBodyText">An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.</p>
 status:
   stage:
     content: PUBLISHED
@@ -131,7 +131,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

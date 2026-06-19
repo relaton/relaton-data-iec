@@ -1,7 +1,7 @@
 ---
 id: IECTS81001222025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -31,7 +31,7 @@ docidentifier:
 - content: IEC TS 81001-2-2:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:81001-2-2:2025-10:ts::'
+- content: 'urn:iec:std:iec:81001-2-2:2025:ts::'
   type: URN
 date:
 - type: published
@@ -83,35 +83,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 81001-2-2:2025 presents an informative set of common, high-level
-    security-related capabilities and additional considerations to be used across
-    the life cycle of health software and health IT systems, for the information exchange
-    between the health software manufacturers (including medical device manufacturers),
-    healthcare delivery organizations (HDOs) and other stakeholders. It is applicable
-    to health software running on any platform and in any environment such as cloud,
-    on premise or hybrid.<br />\r\nWhile important security topics, the following
-    are outside the scope of this document:<br />\r\na) the security policies of the
-    HDO,<br />\r\nb) the product and services security policies of the manufacturer,<br
-    />\r\nc) determinations of risk tolerance by the HDO or manufacturer, and<br />\r\nd)
-    clinical studies where there is a need to secure personal data.<br />\r\nAs security
-    risks can be caused by any product on health IT systems and health IT Infrastructure,
-    considerations in this document can be applied for other products that are not
-    health software.<br />\r\nIEC TS 81001-2-2:2025 withdraws and replaces:<br />\r\n–
-    IEC TR 80001-2-2, Application of risk management for IT-networks incorporating
-    medical devices – Part 2-2: Guidance for the communication of medical device security
-    needs, risks and controls<br />\r\n– IEC TR 80001-2-8, Application of risk management
-    for IT-networks incorporating medical devices – Part 2-8: Application guidance
-    – Guidance on standards for establishing the security capabilities identified
-    in IEC TR 80001-2-2<br />\r\nThis document includes the following significant
-    changes:<br />\r\na) Combines and updates the contents of IEC TR 80001-2-2 and
-    IEC TR 80001-2-8;<br />\r\nb) Extends the scope to health software instead to
-    only medical device software;<br />\r\nc) Aligns contents and definitions to ISO
-    81001-1:2021 and the updated IEC 80001-1;<br />\r\nd) Removed the Configuration
-    of Security Features (CNFS) capability, as any configurable security capability
-    shall be clearly communicated.<br />\r\ne) Provide security control mappings to
-    several new standards, e.g. IEC TR 60601-4-5, IEC 62443-4-2, ISO/IEEE 11073-40102
-    and the recent versions of previous standards, e.g. ISO/IEC 27002 and NIST 800-53
-    version 5."
+  content: |-
+    IEC TS 81001-2-2:2025 presents an informative set of common, high-level security-related capabilities and additional considerations to be used across the life cycle of health software and health IT systems, for the information exchange between the health software manufacturers (including medical device manufacturers), healthcare delivery organizations (HDOs) and other stakeholders. It is applicable to health software running on any platform and in any environment such as cloud, on premise or hybrid.<br/>
+    While important security topics, the following are outside the scope of this document:<br/>
+    a) the security policies of the HDO,<br/>
+    b) the product and services security policies of the manufacturer,<br/>
+    c) determinations of risk tolerance by the HDO or manufacturer, and<br/>
+    d) clinical studies where there is a need to secure personal data.<br/>
+    As security risks can be caused by any product on health IT systems and health IT Infrastructure, considerations in this document can be applied for other products that are not health software.<br/>
+    IEC TS 81001-2-2:2025 withdraws and replaces:<br/>
+    – IEC TR 80001-2-2, Application of risk management for IT-networks incorporating medical devices – Part 2-2: Guidance for the communication of medical device security needs, risks and controls<br/>
+    – IEC TR 80001-2-8, Application of risk management for IT-networks incorporating medical devices – Part 2-8: Application guidance – Guidance on standards for establishing the security capabilities identified in IEC TR 80001-2-2<br/>
+    This document includes the following significant changes:<br/>
+    a) Combines and updates the contents of IEC TR 80001-2-2 and IEC TR 80001-2-8;<br/>
+    b) Extends the scope to health software instead to only medical device software;<br/>
+    c) Aligns contents and definitions to ISO 81001-1:2021 and the updated IEC 80001-1;<br/>
+    d) Removed the Configuration of Security Features (CNFS) capability, as any configurable security capability shall be clearly communicated.<br/>
+    e) Provide security control mappings to several new standards, e.g. IEC TR 60601-4-5, IEC 62443-4-2, ISO/IEEE 11073-40102 and the recent versions of previous standards, e.g. ISO/IEC 27002 and NIST 800-53 version 5.
 status:
   stage:
     content: PUBLISHED
@@ -133,7 +121,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

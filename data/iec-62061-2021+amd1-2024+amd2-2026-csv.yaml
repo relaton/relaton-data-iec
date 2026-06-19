@@ -1,0 +1,140 @@
+---
+id: IEC620612021AMD12024AMD22026CSV
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Safety of machinery
+  type: title-intro
+- language: en
+  script: Latn
+  content: Functional safety of safety-related control systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Safety of machinery - Functional safety of safety-related control systems
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112847
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62061{ed2.2}en.pdf
+docidentifier:
+- content: IEC 62061:2021+AMD1:2024+AMD2:2026 CSV
+  type: IEC
+  primary: true
+- content: urn:iec:std:iec:62061:2021::csv::plus:amd:1:2024:plus:amd:2:2026
+  type: URN
+date:
+- type: published
+  at: '2026-03-20'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 44
+      identifier:
+      - content: '44'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2.2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62061:2021+AMD1:2024+AMD1:2026 CSV specifies requirements and makes recommendations for the design, integration and validation of safety-related control systems (SCS) for machines. It is applicable to control systems used, either singly or in combination, to carry out safety functions on machines that are not portable by hand while working, including a group of machines working together in a coordinated manner. This document is a machinery sector specific standard within the framework of IEC 61508 (all parts). The design of complex programmable electronic subsystems or subsystem elements is not within the scope of this document. The main body of this sector standard specifies general requirements for the design, and verification of a safety-related control system intended to be used in high/continuous demand mode.<br/>
+    This document:<br/>
+    - is concerned only with functional safety requirements intended to reduce the risk of hazardous situations;<br/>
+    - is restricted to risks arising directly from the hazards of the machine itself or from a group of machines working together in a coordinated manner;<br/>
+    This document does not cover<br/>
+    - electrical hazards arising from the electrical control equipment itself (e.g. electric shock – see IEC 60204-1);<br/>
+    - other safety requirements necessary at the machine level such as safeguarding;<br/>
+    - specific measures for security aspects – see IEC TR 63074.<br/>
+    This document is not intended to limit or inhibit technological advancement.<br/>
+    IEC 62061:2021 cancels and replaces the first edition, published in 2005, Amendment 1:2012 and Amendment 2:2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - structure has been changed and contents have been updated to reflect the design process of the safety function,<br/>
+    - standard extended to non-electrical technologies,<br/>
+    - definitions updated to be aligned with IEC 61508-4,<br/>
+    - functional safety plan introduced and configuration management updated (Clause 4),<br/>
+    - requirements on parametrization expanded (Clause 6),<br/>
+    - reference to requirements on security added (Subclause 6.8),<br/>
+    - requirements on periodic testing added (Subclause 6.9),<br/>
+    - various improvements and clarification on architectures and reliability calculations (Clause 6 and Clause 7),<br/>
+    - shift from "SILCL" to "maximum SIL" of a subsystem (Clause 7),<br/>
+    - use cases for software described including requirements (Clause 8),<br/>
+    - requirements on independence for software verification (Clause 8) and validation activities (Clause 9) added,<br/>
+    - new informative annex with examples (Annex G),<br/>
+    - new informative annexes on typical MTTFD values, diagnostics and calculation methods for the architectures (Annex C, Annex D and Annex H).
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '13.110'
+    text: Safety of machinery
+  - code: 25.040.99
+    text: Other industrial automation systems
+  - code: '29.020'
+    text: Electrical engineering in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '100331'
+  price_code: iec:CSK

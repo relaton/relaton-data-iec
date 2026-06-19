@@ -1,7 +1,7 @@
 ---
 id: ISOIEC23360152021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: ISO/IEC 23360-1-5:2021
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23360-1-5:2021-10:::'
+- content: 'urn:iec:std:iso-iec:23360-1-5:2021:::'
   type: URN
 date:
 - type: published
@@ -91,27 +91,27 @@ abstract:
   content: "<p>This document defines a system interface for compiled applications
     and a minimal environment for support of installation scripts. Its purpose is
     to enable a uniform industry standard environment for high-volume applications
-    conforming to the LSB. <br />These specifications are composed of two basic parts:
+    conforming to the LSB. <br/>These specifications are composed of two basic parts:
     a common part describing those parts of the interface that remain constant across
     all implementations of the LSB, and an architecture-specific part describing the
     parts of the interface that vary by processor architecture. Together, the common
     part and the relevant architecture-specific part for a single hardware architecture
     provide a complete interface specification for compiled application programs on
-    systems that share a common hardware architecture. <br />The LSB contains both
+    systems that share a common hardware architecture. <br/>The LSB contains both
     a set of Application Program Interfaces (APIs) and Application Binary Interfaces
     (ABIs). APIs may appear in the source code of portable applications, while the
     compiled binary of that application may use the larger set of ABIs. A conforming
     implementation provides all of the ABIs listed here. The compilation system may
     replace (e.g. by macro definition) certain APIs with calls to one or more of the
     underlying binary interfaces, and may insert calls to binary interfaces as needed.
-    <br />The LSB is primarily a binary interface definition. Not all of the source
-    level APIs available to applications may be contained in this specification. <br
-    />This is the Imaging module of the Linux Standard Base (LSB). This module provides
-    the fundamental system interfaces, libraries, and runtime environment upon which
-    conforming applications and libraries requiring the LSB Imaging module depend.
-    <br />Interfaces described in LSB Imaging are mandatory except where explicitly
-    listed otherwise. Interfaces described in the LSB Imaging module supplement those
-    described in the LSB Core module. They do not depend on other LSB modules. </p>"
+    <br/>The LSB is primarily a binary interface definition. Not all of the source
+    level APIs available to applications may be contained in this specification. <br/>This
+    is the Imaging module of the Linux Standard Base (LSB). This module provides the
+    fundamental system interfaces, libraries, and runtime environment upon which conforming
+    applications and libraries requiring the LSB Imaging module depend. <br/>Interfaces
+    described in LSB Imaging are mandatory except where explicitly listed otherwise.
+    Interfaces described in the LSB Imaging module supplement those described in the
+    LSB Core module. They do not depend on other LSB modules. </p>"
 status:
   stage:
     content: PUBLISHED
@@ -145,7 +145,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

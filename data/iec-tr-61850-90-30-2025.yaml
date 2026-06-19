@@ -1,7 +1,7 @@
 ---
 id: IECTR6185090302025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: IEC TR 61850-90-30:2025
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-90-30:2025-03:tr::'
+- content: 'urn:iec:std:iec:61850-90-30:2025:tr::'
   type: URN
 date:
 - type: published
@@ -77,30 +77,24 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 61850-90-30:2025, which is a Technical Report, describes extensions
-    of the SCL Substation/Process Section allowing the creation of a comprehensive,
-    IED and hardware independent specification of an IEC 61850 based power system.<br
-    />\r\nIt addresses how to:<br />\r\n• decompose functions in SCL<br />\r\n• show
-    function classifications in SCL<br />\r\n• relate functions with the SCL Substation
-    and Process Section<br />\r\n• relate functions to Logical Nodes and IEDs/Specification
-    IEDs<br />\r\n• present information flow between functions in a hardware/implementation
-    independent way<br />\r\n• position Functions in relation to \"Application Schemes\",
-    \"Distributed Functions\", \"Protection Schemes\"<br />\r\n• consider the relationship
-    to Basic Application Profiles (BAP) defined in IEC TR 61850-7-6<br />\r\nThe document
-    addresses the engineering process as far as it is related to the specification
-    of Functions and their instantiation in IEC 61850 based power system. This includes
-    the impact on the SCL Process Section during system configuration.<br />\r\nThe
-    engineering process related to the definition of Applications and their instantiation
-    is addressed in the Basic Application Profile Document (BAP) in IEC TR 61850-7-6.<br
-    />\r\nThe System Configuration process is described in IEC 61850-6.<br />\r\nModifications
-    and extensions of SCL are done in a way to guarantee backwards compatibility.<br
-    />\r\nIn addition, this document introduces:<br />\r\n• Some further elements
-    to SCL that improve the content and usefulness of SSD files and facilitate the
-    handling of SCL files for engineering purposes,<br />\r\n• New variants of IED
-    specific files: ISD file and FSD files,<br />\r\n• Evolution of the engineering
-    rights management, to first improve the usage of SED and add a new concept of
-    System Configuration Collaboration (SCC file) which allows collaboration on the
-    same project with different engineers."
+  content: |-
+    IEC TR 61850-90-30:2025, which is a Technical Report, describes extensions of the SCL Substation/Process Section allowing the creation of a comprehensive, IED and hardware independent specification of an IEC 61850 based power system.<br/>
+    It addresses how to:<br/>
+    • decompose functions in SCL<br/>
+    • show function classifications in SCL<br/>
+    • relate functions with the SCL Substation and Process Section<br/>
+    • relate functions to Logical Nodes and IEDs/Specification IEDs<br/>
+    • present information flow between functions in a hardware/implementation independent way<br/>
+    • position Functions in relation to "Application Schemes", "Distributed Functions", "Protection Schemes"<br/>
+    • consider the relationship to Basic Application Profiles (BAP) defined in IEC TR 61850-7-6<br/>
+    The document addresses the engineering process as far as it is related to the specification of Functions and their instantiation in IEC 61850 based power system. This includes the impact on the SCL Process Section during system configuration.<br/>
+    The engineering process related to the definition of Applications and their instantiation is addressed in the Basic Application Profile Document (BAP) in IEC TR 61850-7-6.<br/>
+    The System Configuration process is described in IEC 61850-6.<br/>
+    Modifications and extensions of SCL are done in a way to guarantee backwards compatibility.<br/>
+    In addition, this document introduces:<br/>
+    • Some further elements to SCL that improve the content and usefulness of SSD files and facilitate the handling of SCL files for engineering purposes,<br/>
+    • New variants of IED specific files: ISD file and FSD files,<br/>
+    • Evolution of the engineering rights management, to first improve the usage of SED and add a new concept of System Configuration Collaboration (SCC file) which allows collaboration on the same project with different engineers.
 status:
   stage:
     content: PUBLISHED
@@ -122,7 +116,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iec

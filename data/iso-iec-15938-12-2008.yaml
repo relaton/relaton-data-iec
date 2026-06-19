@@ -1,7 +1,7 @@
 ---
 id: ISOIEC15938122008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 15938-12:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:15938-12:2008-11:::'
+- content: 'urn:iec:std:iso-iec:15938-12:2008:::'
   type: URN
 date:
 - type: published
@@ -99,10 +99,10 @@ abstract:
   script: Latn
   content: |-
     <p>ISO/IEC 15938-12:2008 describes the query format tools which may be used independently or in combination with other parts of ISO/IEC 15938. Each query format tool is described in two normative sections:</p>
-    <ul>
-    <li>Syntax (normative specification of the query and management format);</li>
-    <li>Semantic: (normative definition of the semantics of all the components of the corresponding query format specification).</li>
-    </ul>
+
+    Syntax (normative specification of the query and management format);
+    Semantic: (normative definition of the semantics of all the components of the corresponding query format specification).
+
     <p>The query format provides a standardized interface for multimedia content information retrieval systems (e.g. MPEG-7 databases) in three aspects which are input query format, output query format, and query managements. The input query format specifies the interface through which the users can describe their search criteria with a set of precise input parameters in addition to a set of preferred output parameters to depict the return result sets. The output query format specifies the interface format for the result set. The query management provides means for selecting services (e.g. MPEG-7 database) or aggregated services (e.g. service provider that administers a set of different services) based on service properties (e.g. supported query format).</p>
 status:
   stage:
@@ -137,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

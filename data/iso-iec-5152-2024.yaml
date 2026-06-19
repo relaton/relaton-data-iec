@@ -1,7 +1,7 @@
 ---
 id: ISOIEC51522024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -25,7 +25,7 @@ docidentifier:
 - content: ISO/IEC 5152:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:5152:2024-07:::'
+- content: 'urn:iec:std:iso-iec:5152:2024:::'
   type: URN
 date:
 - type: published
@@ -90,17 +90,17 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document provides statistical methodologies to estimate false match rates (FMRs) from small biometric sample sets.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document intends to:</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">lay out a methodology for biometric performance estimation based on extrapolation using extreme value statistical models;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">provide statistical methodologies to estimate FMRs of biometric verification systems;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">be applicable to systems that include algorithms that produce likelihood dissimilarity or similarity scores;</span></p>
-    <p class="Noteindent"><span lang="EN-GB">NOTE<span style="mso-tab-count: 1;">            </span>Throughout the document, if not otherwise specified, scores refer to similarity scores.</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">specify the methodology for data recording and result reporting;</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">introduce metrics for the estimated biometric performance.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The following are not within the scope of this document.</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Estimation of false positive identification rates for one-to-many implementations.</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Estimation of false accept rates for verification transactions.</span></p>
+    <p class="MsoBodyText">This document provides statistical methodologies to estimate false match rates (FMRs) from small biometric sample sets.</p>
+    <p class="MsoBodyText">This document intends to:</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->lay out a methodology for biometric performance estimation based on extrapolation using extreme value statistical models;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->provide statistical methodologies to estimate FMRs of biometric verification systems;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->be applicable to systems that include algorithms that produce likelihood dissimilarity or similarity scores;</p>
+    <p class="Noteindent">NOTE            Throughout the document, if not otherwise specified, scores refer to similarity scores.</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->specify the methodology for data recording and result reporting;</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->introduce metrics for the estimated biometric performance.</p>
+    <p class="MsoBodyText">The following are not within the scope of this document.</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->Estimation of false positive identification rates for one-to-many implementations.</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->Estimation of false accept rates for verification transactions.</p>
 status:
   stage:
     content: PUBLISHED
@@ -134,7 +134,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

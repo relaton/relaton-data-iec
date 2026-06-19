@@ -1,7 +1,7 @@
 ---
 id: ISOIEC261362024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -37,7 +37,7 @@ docidentifier:
 - content: ISO/IEC 26136:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:26136:2024-10:::'
+- content: 'urn:iec:std:iso-iec:26136:2024:::'
   type: URN
 date:
 - type: published
@@ -103,8 +103,8 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p><span lang="EN">OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It enables Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner. </span></p>
-    <p><span lang="EN">This document defines a logout mechanism that uses front-channel communication via the User Agent between the OP and RPs being logged out that does not need an OpenID Provider iframe on Relying Party pages. Other protocols have used HTTP GETs to RP URLs that clear login state to achieve this. This document does the same thing. </span></p>
+    <p>OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It enables Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner. </p>
+    <p>This document defines a logout mechanism that uses front-channel communication via the User Agent between the OP and RPs being logged out that does not need an OpenID Provider iframe on Relying Party pages. Other protocols have used HTTP GETs to RP URLs that clear login state to achieve this. This document does the same thing. </p>
 status:
   stage:
     content: PUBLISHED
@@ -138,7 +138,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

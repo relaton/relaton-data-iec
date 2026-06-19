@@ -1,7 +1,7 @@
 ---
 id: IEC6040421996AMD12008CSV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -40,7 +40,7 @@ docidentifier:
 - content: IEC 60404-2:1996+AMD1:2008 CSV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60404-2:1996-03::csv:+amd:1:2008-04
+- content: urn:iec:std:iec:60404-2:1996::csv::plus:amd:1:2008
   type: URN
 date:
 - type: published
@@ -93,16 +93,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "Applies to grain oriented and non-oriented electrical sheet and strip
-    for a.c. measurements of magnetic properities at frequencies up to 400 Hz and
-    for d.c. magnetic measurements. Defines the general principles and the technical
-    details of the measurement of the magnetic properties of electrical steel sheet
-    and strip by means of an Epstein frame. The a.c. magnetic characteristics are
-    determined for sinusoidal induced voltages, for specified peak values of magnetic
-    polarization and for a specified frequency. <strong>This consolidated version
-    consists of the third edition (2000) and its amendment 1 (2008). Therefore, no
-    need to order amendment in addition to this publication.</strong><br />\r\nThe
-    contents of the corrigendum of March 2018 have been included in this copy."
+  content: |-
+    Applies to grain oriented and non-oriented electrical sheet and strip for a.c. measurements of magnetic properities at frequencies up to 400 Hz and for d.c. magnetic measurements. Defines the general principles and the technical details of the measurement of the magnetic properties of electrical steel sheet and strip by means of an Epstein frame. The a.c. magnetic characteristics are determined for sinusoidal induced voltages, for specified peak values of magnetic polarization and for a specified frequency. <strong>This consolidated version consists of the third edition (2000) and its amendment 1 (2008). Therefore, no need to order amendment in addition to this publication.</strong><br/>
+    The contents of the corrigendum of March 2018 have been included in this copy.
 - language: fr
   script: Latn
   content: S'applique aux tôles et bandes magnétiques à grains orientés et non orientés,
@@ -137,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

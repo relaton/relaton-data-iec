@@ -1,7 +1,7 @@
 ---
 id: ISOIEC439662023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 4396-6:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:4396-6:2023-12:::'
+- content: 'urn:iec:std:iso-iec:4396-6:2023:::'
   type: URN
 date:
 - type: published
@@ -94,9 +94,9 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document is a service definition that provides an abstract description of the application programming interface (API) seen by an Application Process using a distributed inter-process communication (IPC) facility (DIF). APIs reflect the specific constraints and conventions of an operating system or programming language. This document does not do that. A service definition specifies the interactions between an Application Process and IPC independent of such specifics.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">The application process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific (or may not exist at all), but this sequence of interaction will be maintained. The notation here is used to emphasize that the participants can only act on what they see and must not make assumptions about any events that may have occurred elsewhere. Hence the primitives are described in terms of primitives invoked locally to cause an action, submit, and primitives locally invoked to deliver information on state.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.</span></p>
+    <p class="MsoBodyText">This document is a service definition that provides an abstract description of the application programming interface (API) seen by an Application Process using a distributed inter-process communication (IPC) facility (DIF). APIs reflect the specific constraints and conventions of an operating system or programming language. This document does not do that. A service definition specifies the interactions between an Application Process and IPC independent of such specifics.</p>
+    <p class="MsoBodyText">The application process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific (or may not exist at all), but this sequence of interaction will be maintained. The notation here is used to emphasize that the participants can only act on what they see and must not make assumptions about any events that may have occurred elsewhere. Hence the primitives are described in terms of primitives invoked locally to cause an action, submit, and primitives locally invoked to deliver information on state.</p>
+    <p class="MsoBodyText">This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.</p>
 status:
   stage:
     content: PUBLISHED
@@ -130,7 +130,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

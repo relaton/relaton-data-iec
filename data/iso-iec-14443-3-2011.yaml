@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1444332011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 14443-3:2011
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:14443-3:2011-04:::'
+- content: 'urn:iec:std:iso-iec:14443-3:2011:::'
   type: URN
 date:
 - type: published
@@ -99,14 +99,14 @@ abstract:
   script: Latn
   content: |-
     <p>ISO/IEC 14443-3:2011 describes:</p>
-    <ul>
-    <li>polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);</li>
-    <li>the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;</li>
-    <li>the initial Request and Answer to Request command content;</li>
-    <li>methods to detect and communicate with one PICC among several PICCs (anticollision);</li>
-    <li>other parameters required to initialize communications between a PICC and PCD;</li>
-    <li>optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria.</li>
-    </ul>
+
+    polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
+    the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
+    the initial Request and Answer to Request command content;
+    methods to detect and communicate with one PICC among several PICCs (anticollision);
+    other parameters required to initialize communications between a PICC and PCD;
+    optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria.
+
     <p>Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443-4.</p>
     <p>ISO/IEC 14443-3:2011 is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443-2).</p>
 status:
@@ -142,7 +142,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

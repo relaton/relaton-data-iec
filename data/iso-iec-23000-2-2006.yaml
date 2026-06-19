@@ -1,7 +1,7 @@
 ---
 id: ISOIEC2300022006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -44,7 +44,7 @@ docidentifier:
 - content: ISO/IEC 23000-2:2006
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23000-2:2006-07:::'
+- content: 'urn:iec:std:iso-iec:23000-2:2006:::'
   type: URN
 date:
 - type: published
@@ -113,7 +113,7 @@ abstract:
   script: Latn
   content: |-
     <p>ISO/IEC 23000-2:2006 specifies a method to import MPEG-1 Layer III coded media files (i.e. MP3) that may contain ID3V1 meta-data into the framework of MPEG-4 as an MPEG-4 file. Optionally, the media file can have an associated JPEG image (e.g. album cover art). The major components of the specification are:</p>
-    <ul><li>a method to convert the Layer III bitstream into a series of MPEG-4 Access Units suitable for storage in an MPEG-4 file;</li><li>a method to represent the ID3V1 meta-data using a concise set of MPEG-7 constructs, and place that MPEG-7 description into the MPEG-4 file;</li><li>a method to encapsulate a JPEG compressed image into the MPEG-4 file.</li></ul>
+    a method to convert the Layer III bitstream into a series of MPEG-4 Access Units suitable for storage in an MPEG-4 file;a method to represent the ID3V1 meta-data using a concise set of MPEG-7 constructs, and place that MPEG-7 description into the MPEG-4 file;a method to encapsulate a JPEG compressed image into the MPEG-4 file.
     <p>Additional components permit using the MPEG-21 file format, which supports a more precise association of coded audio, meta-data and image information, and also permits the creation of a music album via encapsulation of a set of MPEG-4 files (i.e. songs) within a single MPEG-21 file.</p>
 status:
   stage:
@@ -148,7 +148,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

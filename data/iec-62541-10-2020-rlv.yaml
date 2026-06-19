@@ -1,7 +1,7 @@
 ---
 id: IEC62541102020RLV
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC 62541-10:2020 RLV
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62541-10::rlv
+- content: 'urn:iec:std:iec:62541-10:2020::rlv:'
   type: URN
 date:
 - type: published
@@ -78,26 +78,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62541-10:2020 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.\r\n<div>IEC 62541-10:2020 defines
-    the information model associated with Programs in the OPC Unified Architecture.
-    This includes the description of the NodeClasses, standard Properties, Methods
-    and Events and associated behaviour and information for Programs. The complete
-    Address Space model including all NodeClasses and Attributes is specified in IEC
-    62541-3. The Services such as those used to invoke the Methods used to manage
-    Programs are specified in IEC 62541 4. This third edition cancels and replaces
-    the second edition published in 2015. This edition includes several clarifications
-    and in addition the following significant technical changes with respect to the
-    previous edition:<br />\r\na) Changed ProgramType to ProgramStateMachineType.
-    This is in line with the NodeSet (and thus implementations). In ProgramDiagnosticDataType:
-    changed the definition of lastInputArguments and lastOutputArguments and added
-    two additional fields for the argument values. Also changed StatusResult into
-    StatusCode. Created new version of the type to ProgramDiagnostic2DataType.<br
-    />\r\nb) Changed Optional modelling rule to OptionalPlaceHolder for Program control
-    Methods. Following the clarification in IEC 62541-3, this now allows subtypes
-    (or instances) to add arguments.</div>"
+  content: |-
+    IEC 62541-10:2020 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.
+    IEC 62541-10:2020 defines the information model associated with Programs in the OPC Unified Architecture. This includes the description of the NodeClasses, standard Properties, Methods and Events and associated behaviour and information for Programs. The complete Address Space model including all NodeClasses and Attributes is specified in IEC 62541-3. The Services such as those used to invoke the Methods used to manage Programs are specified in IEC 62541 4. This third edition cancels and replaces the second edition published in 2015. This edition includes several clarifications and in addition the following significant technical changes with respect to the previous edition:<br/>
+    a) Changed ProgramType to ProgramStateMachineType. This is in line with the NodeSet (and thus implementations). In ProgramDiagnosticDataType: changed the definition of lastInputArguments and lastOutputArguments and added two additional fields for the argument values. Also changed StatusResult into StatusCode. Created new version of the type to ProgramDiagnostic2DataType.<br/>
+    b) Changed Optional modelling rule to OptionalPlaceHolder for Program control Methods. Following the clarification in IEC 62541-3, this now allows subtypes (or instances) to add arguments.
 status:
   stage:
     content: REVISED
@@ -119,7 +104,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

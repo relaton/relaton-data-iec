@@ -1,7 +1,7 @@
 ---
 id: IEC611584192010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: IEC 61158-4-19:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-4-19:2010-08:::'
+- content: 'urn:iec:std:iec:61158-4-19:2010:::'
   type: URN
 date:
 - type: published
@@ -83,20 +83,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-3-19:2010(E) specifies procedures for the timely transfer of
-    data and control information from one data-link user entity to a peer user entity,
-    and among the data-link entities forming the distributed data-link service provider
-    and the structure of the fieldbus DLPDUs used for the transfer of data and control
-    information by the protocol of this standard, and their representation as physical
-    interface data units. This second edition cancels and replaces the first edition
-    published in 2007 and constitutes a technical revision. The main changes with
-    respect to the previous edition are:<br />\r\n- increasing the number of supported
-    devices (511 instead of 254);<br />\r\n- introducing a communication version identification;<br
-    />\r\n- adding a mechanism for remote address allocation;<br />\r\n- introducing
-    enhanced parameter addressing (32 bit instead of 16 bit);<br />\r\n- restructuring
-    control and status word;<br />\r\n- improving the redundancy and hotplug features;<br
-    />\r\n- improving the error handling;<br />\r\n- adding a multiplexing protocol
-    (SMP: Type 19 Messaging Protocol)."
+  content: |-
+    IEC 61158-3-19:2010(E) specifies procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are:<br/>
+    - increasing the number of supported devices (511 instead of 254);<br/>
+    - introducing a communication version identification;<br/>
+    - adding a mechanism for remote address allocation;<br/>
+    - introducing enhanced parameter addressing (32 bit instead of 16 bit);<br/>
+    - restructuring control and status word;<br/>
+    - improving the redundancy and hotplug features;<br/>
+    - improving the error handling;<br/>
+    - adding a multiplexing protocol (SMP: Type 19 Messaging Protocol).
 status:
   stage:
     content: REVISED
@@ -118,7 +114,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC61850722010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -51,7 +51,7 @@ docidentifier:
 - content: IEC 61850-7-2:2010
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61850-7-2:2010-08:::'
+- content: 'urn:iec:std:iec:61850-7-2:2010:::'
   type: URN
 date:
 - type: published
@@ -104,34 +104,31 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61850-7-2:2010 applies to the ACSI communication for utility automation.
-    The ACSI provides the following abstract communication service interfaces:<br
-    />\r\n- abstract interface describing communications between a client and a remote
-    server;<br />\r\n- and abstract interface for fast and reliable system-wide event
-    distribution between an application in one device and many remote applications
-    in different devices (publisher/sub-scriber) and for transmission of sampled measured
-    values (publisher/subscriber).<br />\r\nMajor technical changes with regard to
-    the previous edition are as follows:<br />\r\n- data types not required have been
-    removed,<br />\r\n- service tracking for control blocks have been added,<br />\r\n-
-    security issues are solved by the IEC 62351 series,<br />\r\n- service tracking
-    for control blocks have been added,<br />\r\n- the view concept will be according
-    to the new work on role bases access (RBA),<br />\r\n- security issues are solved
-    by the IEC 62351 series.<br />\r\nThis publication is of core relevance for Smart
-    Grid."
+  content: |-
+    IEC 61850-7-2:2010 applies to the ACSI communication for utility automation. The ACSI provides the following abstract communication service interfaces:<br/>
+    - abstract interface describing communications between a client and a remote server;<br/>
+    - and abstract interface for fast and reliable system-wide event distribution between an application in one device and many remote applications in different devices (publisher/sub-scriber) and for transmission of sampled measured values (publisher/subscriber).<br/>
+    Major technical changes with regard to the previous edition are as follows:<br/>
+    - data types not required have been removed,<br/>
+    - service tracking for control blocks have been added,<br/>
+    - security issues are solved by the IEC 62351 series,<br/>
+    - service tracking for control blocks have been added,<br/>
+    - the view concept will be according to the new work on role bases access (RBA),<br/>
+    - security issues are solved by the IEC 62351 series.<br/>
+    This publication is of core relevance for Smart Grid.
 - language: fr
   script: Latn
-  content: "IEC 61850-7-2:2010 s’applique aux communications ACSI pour l’automatisation
-    des systèmes. L’ACSI fournit les interfaces abstraites pour les services de communication
-    suivants.<br />\r\na) Interface abstraite décrivant les communications entre un
-    client et un serveur éloigné pour<br />\r\n– l’accès et l’extraction des données
-    en temps réel,<br />\r\n– la commande de dispositif,<br />\r\n– la consignation
-    et la journalisation des événements,<br />\r\n– le contrôle de groupes de réglages,<br
-    />\r\n– l'autodescription des dispositifs (dictionnaire de données de dispositif),<br
-    />\r\n– typage de données et reconnaissance des types de données, et<br />\r\n–
-    transfert de fichier.<br />\r\nb) Interface abstraite pour la distribution rapide
-    et fiable des événements au niveau du système entre une application d’un dispositif
-    et plusieurs applications éloignées dans des dispositifs différents (d'éditeur/abonné)
-    et la transmission de valeurs mesurées échantillonnées"
+  content: |-
+    IEC 61850-7-2:2010 s’applique aux communications ACSI pour l’automatisation des systèmes. L’ACSI fournit les interfaces abstraites pour les services de communication suivants.<br/>
+    a) Interface abstraite décrivant les communications entre un client et un serveur éloigné pour<br/>
+    – l’accès et l’extraction des données en temps réel,<br/>
+    – la commande de dispositif,<br/>
+    – la consignation et la journalisation des événements,<br/>
+    – le contrôle de groupes de réglages,<br/>
+    – l'autodescription des dispositifs (dictionnaire de données de dispositif),<br/>
+    – typage de données et reconnaissance des types de données, et<br/>
+    – transfert de fichier.<br/>
+    b) Interface abstraite pour la distribution rapide et fiable des événements au niveau du système entre une application d’un dispositif et plusieurs applications éloignées dans des dispositifs différents (d'éditeur/abonné) et la transmission de valeurs mesurées échantillonnées
 status:
   stage:
     content: PUBLISHED
@@ -153,7 +150,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1977062024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -29,7 +29,7 @@ docidentifier:
 - content: ISO/IEC 19770-6:2024
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19770-6:2024-01:::'
+- content: 'urn:iec:std:iso-iec:19770-6:2024:::'
   type: URN
 date:
 - type: published
@@ -94,16 +94,16 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoBodyText"><span lang="EN-GB">This document provides specifications for a transport format which enables the digital encapsulation of this data. This document refers to an encapsulation of hardware identification (HWID) data as a HWID tag, just as ISO/IEC 19770-2 refers to software identification (SWID) tags for software identification.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document applies to the following.</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Tag producers: organizations that create HWID tags for use by others in the market. A tag producer can be part of the organization creating the hardware or a third-party organization. These organizations can be broken down into two major categories.</span></p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Device or component providers: entities responsible for the manufacturing or creation of the hardware device and/or associated operating system, virtual environment, or application platform. Platform providers which support this document can additionally provide tag management capabilities at the level of the platform or operating system.</span></p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Tag tool providers: entities that provide tools to create hardware identification tags. For example, tools within development environments that generate hardware identification tags, or installation tools that can create tags on behalf of the installation process, and/or desktop management tools that can create tags for underlying hardware, virtual machines, or platforms that did not originally have a hardware identification tag.</span></p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Tag consumers: tools and/or organizations who utilize information from HWID tags are broken down into the following two major categories.</span></p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">Device or component consumers: entities that purchase, install, integrate, and/or otherwise deploy physical or virtual hardware or components.</span></p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]--><span lang="EN-GB" style="mso-fareast-font-family: Cambria; mso-bidi-font-family: Cambria;"><span style="mso-list: Ignore;">—<span style="font: 7.0pt 'Times New Roman';">     </span></span></span><!--[endif]--><span lang="EN-GB">IT discovery and processing tool providers: entities that provide tools to collect, store, and process hardware identification tags. These tools may be targeted at a variety of different market segments, including security, asset management, and logistics.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document deals only with hardware device or component identification.</span></p>
-    <p class="MsoBodyText"><span lang="EN-GB">This document does not detail information technology asset management (ITAM) processes required for discovery and management of hardware (which is provided in ISO/IEC 19770-1) software identification tags (as defined by ISO/IEC 19770-2), entitlement tags (as defined by ISO/IEC 19770-3), or resource utilization measurements (as defined by ISO/IEC 19770-4).</span></p>
+    <p class="MsoBodyText">This document provides specifications for a transport format which enables the digital encapsulation of this data. This document refers to an encapsulation of hardware identification (HWID) data as a HWID tag, just as ISO/IEC 19770-2 refers to software identification (SWID) tags for software identification.</p>
+    <p class="MsoBodyText">This document applies to the following.</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->Tag producers: organizations that create HWID tags for use by others in the market. A tag producer can be part of the organization creating the hardware or a third-party organization. These organizations can be broken down into two major categories.</p>
+    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—     <!--[endif]-->Device or component providers: entities responsible for the manufacturing or creation of the hardware device and/or associated operating system, virtual environment, or application platform. Platform providers which support this document can additionally provide tag management capabilities at the level of the platform or operating system.</p>
+    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—     <!--[endif]-->Tag tool providers: entities that provide tools to create hardware identification tags. For example, tools within development environments that generate hardware identification tags, or installation tools that can create tags on behalf of the installation process, and/or desktop management tools that can create tags for underlying hardware, virtual machines, or platforms that did not originally have a hardware identification tag.</p>
+    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—     <!--[endif]-->Tag consumers: tools and/or organizations who utilize information from HWID tags are broken down into the following two major categories.</p>
+    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—     <!--[endif]-->Device or component consumers: entities that purchase, install, integrate, and/or otherwise deploy physical or virtual hardware or components.</p>
+    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—     <!--[endif]-->IT discovery and processing tool providers: entities that provide tools to collect, store, and process hardware identification tags. These tools may be targeted at a variety of different market segments, including security, asset management, and logistics.</p>
+    <p class="MsoBodyText">This document deals only with hardware device or component identification.</p>
+    <p class="MsoBodyText">This document does not detail information technology asset management (ITAM) processes required for discovery and management of hardware (which is provided in ISO/IEC 19770-1) software identification tags (as defined by ISO/IEC 19770-2), entitlement tags (as defined by ISO/IEC 19770-3), or resource utilization measurements (as defined by ISO/IEC 19770-4).</p>
 status:
   stage:
     content: PUBLISHED
@@ -137,7 +137,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

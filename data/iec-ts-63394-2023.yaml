@@ -1,7 +1,7 @@
 ---
 id: IECTS633942023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -35,7 +35,7 @@ docidentifier:
 - content: IEC TS 63394:2023
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63394:2023-02:ts::'
+- content: 'urn:iec:std:iec:63394:2023:ts::'
   type: URN
 date:
 - type: published
@@ -88,31 +88,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TS 63394:2023 In the context of the safety of machinery, the sector
-    standard IEC 62061, along with ISO 13849 1, provides requirements to manufacturers
-    of machines for the design, development and integration of safety-related control
-    systems (SCS) or safety-related parts of control systems (SRP/CS), depending on
-    technology used (mechanical, pneumatic, hydraulic or electrical technologies)
-    to perform safety function(s). This document does not replace ISO 13849-1 and
-    IEC 62061. This document gives additional guidance to the application of IEC 62061
-    or ISO 13849-1.<br />\r\nThis document:<br />\r\n– gives guidelines and specifies
-    additional requirements for specific safety functions based on the methodology
-    of ISO 12100, which are relevant in machinery and respecting typical boundary
-    conditions of machinery;<br />\r\n– considers safety functions which are designed
-    for high demand mode of operation yet are rarely operated, called rarely activated
-    safety functions;<br />\r\n– gives additional information for the calculation
-    of failure rates using other (non-electronic) technologies based e.g. on Weibull
-    distribution, because all the formula defined in IEC 62061 and ISO 13849-1 are
-    based on exponential distribution.<br />\r\nTherefore, the basis for these guidelines
-    and additional requirements is<br />\r\n– a typical classification of safety functions;<br
-    />\r\n– a consideration of typical architectures used for designing safety functions;<br
-    />\r\n– a consideration of modes of operation of safety functions;<br />\r\n–
-    the derivation and evaluation of PFH formulas for subsystems considering the used
-    technology.<br />\r\nThis document does not address low demand mode of operation
-    according to IEC 61508.<br />\r\nThis document does not take into account either
-    layer of protection analysis (LOPA) or basic process control system (BPCS), according
-    to IEC 61511 as a risk reduction measure.<br />\r\nThis document considers all
-    lifecycle phases of the machine regarding functional safety, and SCS or SRP/CS."
+  content: |-
+    IEC TS 63394:2023 In the context of the safety of machinery, the sector standard IEC 62061, along with ISO 13849 1, provides requirements to manufacturers of machines for the design, development and integration of safety-related control systems (SCS) or safety-related parts of control systems (SRP/CS), depending on technology used (mechanical, pneumatic, hydraulic or electrical technologies) to perform safety function(s). This document does not replace ISO 13849-1 and IEC 62061. This document gives additional guidance to the application of IEC 62061 or ISO 13849-1.<br/>
+    This document:<br/>
+    – gives guidelines and specifies additional requirements for specific safety functions based on the methodology of ISO 12100, which are relevant in machinery and respecting typical boundary conditions of machinery;<br/>
+    – considers safety functions which are designed for high demand mode of operation yet are rarely operated, called rarely activated safety functions;<br/>
+    – gives additional information for the calculation of failure rates using other (non-electronic) technologies based e.g. on Weibull distribution, because all the formula defined in IEC 62061 and ISO 13849-1 are based on exponential distribution.<br/>
+    Therefore, the basis for these guidelines and additional requirements is<br/>
+    – a typical classification of safety functions;<br/>
+    – a consideration of typical architectures used for designing safety functions;<br/>
+    – a consideration of modes of operation of safety functions;<br/>
+    – the derivation and evaluation of PFH formulas for subsystems considering the used technology.<br/>
+    This document does not address low demand mode of operation according to IEC 61508.<br/>
+    This document does not take into account either layer of protection analysis (LOPA) or basic process control system (BPCS), according to IEC 61511 as a risk reduction measure.<br/>
+    This document considers all lifecycle phases of the machine regarding functional safety, and SCS or SRP/CS.
 status:
   stage:
     content: PUBLISHED
@@ -134,7 +123,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iec

@@ -1,7 +1,7 @@
 ---
 id: IEC61158642019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -50,7 +50,7 @@ docidentifier:
 - content: IEC 61158-6-4:2019
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61158-6-4:2019-06:::'
+- content: 'urn:iec:std:iec:61158-6-4:2019:::'
   type: URN
 date:
 - type: published
@@ -105,46 +105,24 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61158-6-4:2019 provides common elements for basic time-critical and
-    non-time-critical messaging communications between application programs in an
-    automation environment and material specific to Type 2 fieldbus. The term “time-critical”
-    is used to represent the presence of a time-window, within which one or more specified
-    actions are required to be completed with some defined level of certainty. Failure
-    to complete specified actions within the time window risks failure of the applications
-    requesting the actions, with attendant risk to equipment, plant and possibly human
-    life.<br />\r\nThis International Standard specifies interactions between remote
-    applications and defines the externally visible behavior provided by the Type
-    2 fieldbus application layer. The purpose of this document is to define the protocol
-    provided to<br />\r\na) define the wire-representation of the service primitives
-    defined in this document, and<br />\r\nb) define the externally visible behavior
-    associated with their transfer. This document specifies the protocol of the Type
-    2 fieldbus application layer, in conformance with the OSI Basic Reference Model
-    (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br />\r\nThis
-    third edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na) additional user parameters to services;<br
-    />\r\nb) additional services to support distributed objects;<br />\r\nc) additional
-    secure services."
+  content: |-
+    IEC 61158-6-4:2019 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 2 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This International Standard specifies interactions between remote applications and defines the externally visible behavior provided by the Type 2 fieldbus application layer. The purpose of this document is to define the protocol provided to<br/>
+    a) define the wire-representation of the service primitives defined in this document, and<br/>
+    b) define the externally visible behavior associated with their transfer. This document specifies the protocol of the Type 2 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br/>
+    This third edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) additional user parameters to services;<br/>
+    b) additional services to support distributed objects;<br/>
+    c) additional secure services.
 - language: fr
   script: Latn
-  content: "l’IEC 61158-6-4:2019 fournit des éléments communs pour les communications
-    à temps critique ou non entre des programmes d’application dans un environnement
-    et avec un matériel d’automation spécifiques aux bus de terrain de type 4. Le
-    terme \"en temps critique\" signale l'existence d'une fenêtre temporelle dans
-    laquelle des actions spécifiées doivent être exécutées, avec un niveau de certitude
-    défini. La non-réalisation des actions spécifiées dans la fenêtre temporelle induit
-    un risque de défaillance des applications qui demandent ces actions, avec les
-    risques relatifs à l'équipement, les installations et éventuellement la vie humaine.<br
-    />\r\nLa présente norme internationale spécifie les interactions entre les applications
-    distantes et définit le comportement, visible par un observateur externe, assuré
-    par la couche Application de bus de terrain de type 4, en termes<br />\r\na) de
-    syntaxe abstraite formelle définissant les unités de données de protocole de couche
-    Application, acheminées entre les entités d'application en communication;<br />\r\nb)
-    de syntaxe de transfert définissant les règles de codage qui s'appliquent aux
-    unités de données de protocole de couche Application;<br />\r\nc) de diagramme
-    d'états de contexte d'application définissant le comportement de service d'application
-    observable entre les entités d'application en communication;<br />\r\nd) de diagrammes
-    d'états de relations d'applications définissant le comportement de communication
-    visible entre les entités d'application en communication."
+  content: |-
+    l’IEC 61158-6-4:2019 fournit des éléments communs pour les communications à temps critique ou non entre des programmes d’application dans un environnement et avec un matériel d’automation spécifiques aux bus de terrain de type 4. Le terme "en temps critique" signale l'existence d'une fenêtre temporelle dans laquelle des actions spécifiées doivent être exécutées, avec un niveau de certitude défini. La non-réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui demandent ces actions, avec les risques relatifs à l'équipement, les installations et éventuellement la vie humaine.<br/>
+    La présente norme internationale spécifie les interactions entre les applications distantes et définit le comportement, visible par un observateur externe, assuré par la couche Application de bus de terrain de type 4, en termes<br/>
+    a) de syntaxe abstraite formelle définissant les unités de données de protocole de couche Application, acheminées entre les entités d'application en communication;<br/>
+    b) de syntaxe de transfert définissant les règles de codage qui s'appliquent aux unités de données de protocole de couche Application;<br/>
+    c) de diagramme d'états de contexte d'application définissant le comportement de service d'application observable entre les entités d'application en communication;<br/>
+    d) de diagrammes d'états de relations d'applications définissant le comportement de communication visible entre les entités d'application en communication.
 status:
   stage:
     content: REVISED
@@ -166,7 +144,7 @@ copyright:
 place:
 - city: Geneva
 ext:
-  schema_version: v1.0.0
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iec

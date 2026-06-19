@@ -1,0 +1,142 @@
+---
+id: IEC6254192026RLV
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Alarms and Conditions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 9: Alarms and Conditions'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113150
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62541-9{ed4.0.RLV}en.pdf
+docidentifier:
+- content: IEC 62541-9:2026 RLV
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62541-9:2026::rlv:'
+  type: URN
+date:
+- type: published
+  at: '2026-04-16'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      identifier:
+      - content: '65'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "IEC 62541-9:2026 RLV contains both the official IEC International Standard
+    and its Redline version. The Redline version is available in English only and
+    provides you with a quick and easy way to compare all the changes between the
+    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62541-9:2026
+    specifies the representation of Alarms and Conditions in the OPC Unified Architecture.
+    Included is the Information Model representation of Alarms and Conditions in the
+    OPC UA address space. Other aspects of alarm systems like alarm philosophy, life
+    cycle, alarm response times, alarm types and many other details are captured in
+    standards such as IEC 62682 and ISA 18.2. The Alarms and Conditions Information
+    Model in this document, is designed in accordance with IEC 62682 and ISA 18.2.
+    Annex C specifies a recommended mapping between OPC Classic Alarm & Events (A&E)
+    servers to the model described in this document. Annex A describes recommended
+    localized names for Alarm states. Annex B describes examples (e.g. Event sequences,
+    Alarm areas in AddressSpace). This fourth edition cancels and replaces the third
+    edition published in 2020. This edition constitutes a technical revision.<br />\r\nThis
+    edition includes the following significant technical changes with respect to the
+    previous edition:<br />\r\na) addition of \"Comment\" parameter to Alarm shelving
+    methods;<br />\r\nb) addition of method that allows a client to get the members
+    of a group, since it is possible that the AddressSpace does not expose instances
+    of alarms;<br />\r\nc) addition of deadband properties for all limits in the limit
+    AlarmType (from which all other types described in this issue are derived);<br
+    />\r\nd) addition of text explaining the disabling of alarms is no longer supported
+    in ISA 18.2 and that it is maintained in this document for backward compatibility,
+    but that it is recommended that Alarm not be disabled;<br />\r\ne) addition of
+    optional severities for limit alarms;<br />\r\nf) addition of new AlarmState variable
+    type that can be used to collect alarm information for displays on graphics;<br
+    />\r\ng) addition of SupportsFilterRetain property to improve Client filtering;<br
+    />\r\nh) removal of ConditionSubClassId and ConditionSubClassNames from the conditiontype
+    definition since they are now defined in BaseEventType."
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '115405'
+  price_code: iec:RV
