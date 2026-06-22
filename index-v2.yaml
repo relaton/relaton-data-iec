@@ -1895,14 +1895,7 @@
     _type: pubid:iec:fragment-identifier
     number: '1'
     edition:
-      number: !ruby/object:Parslet::Slice
-        position: !ruby/object:Parslet::Position
-          string: CISPR 14-1:2016/AMD1/FRAG5 ED5
-          bytepos: 29
-        str: '5'
-        line_cache: !ruby/object:Parslet::Source::LineCache
-          line_ends: []
-          last_line_end:
+      number: '5'
     base:
       _type: pubid:iec:amendment
       number: '1'
@@ -102288,14 +102281,7 @@
     number: '60309'
     year: '1994'
     edition:
-      number: !ruby/object:Parslet::Slice
-        position: !ruby/object:Parslet::Position
-          string: IEC 60309-3:1994/FRAG1 ED1
-          bytepos: 25
-        str: '1'
-        line_cache: !ruby/object:Parslet::Source::LineCache
-          line_ends: []
-          last_line_end:
+      number: '1'
     base:
       _type: pubid:iec:international-standard
       number: '60309'
@@ -148522,6 +148508,13 @@
     subpart: '54'
     year: '2022'
   :file: data/iec-60601-2-54-2022.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60601'
+    part: '2'
+    subpart: '91'
+    year: '2026'
+  :file: data/iec-60601-2-91-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60601'
@@ -222282,6 +222275,16 @@
     year: '2026'
   :file: data/iec-61754-2-2026.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61754'
+      part: '4'
+      year: '2022'
+  :file: data/iec-61754-4-2022-amd1-2026.yaml
+- :id:
     _type: pubid:iec:corrigendum
     number: '1'
     year: '2025'
@@ -222291,6 +222294,25 @@
       part: '13'
       year: '2024'
   :file: data/iec-61754-13-2024-cor1-2025.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    number: '61754'
+    year: '2022'
+    base:
+      _type: pubid:iec:consolidated-identifier
+      number: '61754'
+      year: '2022'
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '61754'
+        part: '4'
+        year: '2022'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-61754-4-2022+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '61755'
@@ -232846,6 +232868,12 @@
     part: '1'
     year: '2024'
   :file: data/iec-62024-1-2024.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62024'
+    part: '3'
+    year: '2026'
+  :file: data/iec-62024-3-2026.yaml
 - :id:
     _type: pubid:iec:vap-identifier
     number: '62024'
@@ -255764,6 +255792,13 @@
     subpart: '41'
     year: '2025'
   :file: data/iec-tr-62715-6-41-2025.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62715'
+    part: '6'
+    subpart: '42'
+    year: '2026'
+  :file: data/iec-62715-6-42-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '62715'

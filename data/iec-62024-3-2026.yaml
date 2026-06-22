@@ -1,41 +1,43 @@
 ---
-id: IEC6175442022RLV
+id: IEC6202432026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Fibre optic interconnecting devices and passive components
+  content: High frequency inductive components
   type: title-intro
 - language: en
   script: Latn
-  content: Fibre optic connector interfaces
+  content: Electrical characteristics and measuring methods
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 4: Type SC connector family'
+  content: 'Part 3: AC loss measured by sinusoidal wave of inductors for DC-to-DC
+    converters'
   type: title-part
 - language: en
   script: Latn
-  content: 'Fibre optic interconnecting devices and passive components - Fibre optic
-    connector interfaces - Part 4: Type SC connector family'
+  content: 'High frequency inductive components - Electrical characteristics and measuring
+    methods - Part 3: AC loss measured by sinusoidal wave of inductors for DC-to-DC
+    converters'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/74619
+  content: https://webstore.iec.ch/publication/80760
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iec61754-4{ed3.0.RLV}en.pdf
+  content: https://webstore.iec.ch/preview/info_iec62024-3{ed1.0}en.pdf
 docidentifier:
-- content: IEC 61754-4:2022 RLV
+- content: IEC 62024-3:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61754-4:2022::rlv:'
+- content: 'urn:iec:std:iec:62024-3:2026:::'
   type: URN
 date:
 - type: published
-  at: '2022-02-28'
+  at: '2026-06-19'
 - type: stable-until
-  at: '2032-12-31'
+  at: '2031-12-31'
 contributor:
 - role:
   - type: publisher
@@ -64,16 +66,16 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 86/SC 86B
+        content: TC 51
       identifier:
-      - content: '86'
+      - content: '51'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '1'
 language:
 - en
 script:
@@ -81,17 +83,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    IEC 61754-4:2022 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
-    <br/>
-    IEC 61754-4:2021 specifies the standard interface dimensions for type SC family of connectors. This third edition cancels and replaces the second edition published in 2013 and constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
-    - the test method IEC 61300-3-22 for the compression force of the ferrule was added;<br/>
-    - Annex A (informative) with cut out dimension requirements for testing the strength of mounted adaptors was added.
+  content: IEC 62024-3:2026 specifies test methods for AC losses of high-frequency
+    inductive components for power supplies used in DC-to-DC converters and similar
+    devices at currents close to actual operation and introduces the measurement principle,
+    scope of application and matters to be noted for each method. This document is
+    applicable to leaded and surface mount inductors with dimensions in accordance
+    with IEC 62024-2.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2022'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -113,10 +115,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 33.180.20
-    text: Fibre optic interconnecting devices
+  - code: 29.100.10
+    text: Magnetic components
   structuredidentifier:
     type: IEC
     project_number:
-      content: '21769'
-  price_code: iec:RC
+      content: '114392'
+  price_code: iec:E
