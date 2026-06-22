@@ -41,3 +41,11 @@ Bundler.with_unbundled_env do
   system(env, "bundle", "exec", "ruby", File.expand_path("crawler_legacy.rb", __dir__)) ||
     abort("crawler_legacy.rb failed")
 end
+
+# Stage the incremental cursor so it gets committed. The reusable crawler workflow
+# (relaton/support) only stages data/* and index*.yaml; per its contract, "any
+# files except 'data/*', index.yaml have to be committed explicitly". Without this
+# last_change.txt is written to disk by DataFetcher#save_last_change but never
+# committed, so every run re-queries from the same stale cursor.
+last_change = File.expand_path("last_change.txt", __dir__)
+system("git", "add", last_change) if File.exist?(last_change)
