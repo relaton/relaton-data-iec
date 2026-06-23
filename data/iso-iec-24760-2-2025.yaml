@@ -112,14 +112,32 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;">This document:</p>
-    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;">—    provides guidelines for the implementation of systems for the management of identity information;</p>
-    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;">—    specifies requirements for the implementation and operation of a framework for identity management;</p>
-    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;">—    is applicable to any information system where information relating to identity is processed or stored;</p>
-    <p class="ListContinue1" style="tab-stops: 19.85pt 39.7pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;">—    is considered to be a horizontal document for the following reasons:</p>
-    <p class="ListContinue2-" style="margin-left: 55.5pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1; tab-stops: 19.85pt 40.3pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><!-- [if !supportLists]-->¾     <!--[endif]-->it applies concepts such as distinguishing the term “identity” from the term “identifier” on the implementation of systems for the management of identity information and on the requirements for the implementation and operation of a framework for identity management, </p>
-    <p class="ListContinue2-" style="margin-left: 55.5pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1; tab-stops: 19.85pt 40.3pt 59.55pt 79.4pt 99.25pt 119.05pt 138.9pt 158.75pt 178.6pt 7.0cm; mso-layout-grid-align: none; text-autospace: none;"><!-- [if !supportLists]-->¾     <!--[endif]-->it provides an important contribution to assess identity management systems with regard to their privacy-friendliness and their ability to assure the relevant attributes of an identity, and consequently it provides a foundation and a common understanding for any other standard addressing identity, identity information, and identity management.</p>
+  content: |+
+    <p>This document:</p>
+
+    provides guidelines for the implementation of systems for the management of identity information;
+    specifies requirements for the implementation and operation of a framework for identity management;
+    is applicable to any information system where information relating to identity is processed or stored;
+    is considered to be a horizontal document for the following reasons:
+
+    it applies concepts such as distinguishing the term “identity” from the term “identifier” on the implementation of systems for the management of identity information and on the requirements for the implementation and operation of a framework for identity management,
+    it provides an important contribution to assess identity management systems with regard to their privacy-friendliness and their ability to assure the relevant attributes of an identity, and consequently it provides a foundation and a common understanding for any other standard addressing identity, identity information, and identity management.
+
+
+- language: fr
+  script: Latn
+  content: |+
+    <p class="MsoBodyText">Le présent document:</p>
+
+    fournit des lignes directrices pour la mise en œuvre de systèmes pour la gestion des informations d'identité;
+    spécifie les exigences relatives à la mise en œuvre et à l'exploitation d'un cadre pour la gestion de l'identité;
+    est applicable à tout système d'information dans lequel les informations relatives à l'identité sont traitées ou stockées;
+    est considéré comme un document horizontal pour les raisons suivantes:
+
+    il applique des concepts tels que la distinction entre le terme “identité” et le terme “identificateur” concernant la mise en œuvre de systèmes de gestion des informations d'identité et les exigences relatives à la mise en œuvre et au fonctionnement d'un cadre de gestion de l'identité;
+    il apporte une contribution importante à l'évaluation des systèmes de gestion de l'identité en ce qui concerne leur protection de la vie privée et leur capacité à assurer les attributs pertinents d'une identité, et par conséquent il fournit une base et une compréhension commune pour toute autre norme traitant de l'identité, des informations d'identité et de la gestion de l'identité.
+
+
 status:
   stage:
     content: PUBLISHED
@@ -161,3 +179,4 @@ ext:
   - code: '35.030'
     text: IT Security
   price_code: iso:F
+...
