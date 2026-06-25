@@ -111,13 +111,32 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p class="MsoBodyText">This document:</p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—    <!--[endif]-->provides requirements and guidance for the management of identity information and for ensuring that an identity management system conforms to ISO/IEC 24760-1 and ISO/IEC 24760-2;</p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—    <!--[endif]-->is applicable to any information system where information relating to identity is processed or stored;</p>
-    <p class="ListContinue1" style="mso-list: l0 level1 lfo1;"><!-- [if !supportLists]-->—    <!--[endif]-->is considered to be a horizontal document for the following reasons:</p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—   <!--[endif]-->it applies concepts such as distinguishing the term “identity” from the term “identifier” on the implementation of systems for the management of identity information and on the requirements for the implementation and operation of a framework for identity management, </p>
-    <p class="MsoListContinue2" style="mso-list: l1 level1 lfo2;"><!-- [if !supportLists]-->—   <!--[endif]-->it provides an important contribution to assess identity management systems with regard to their privacy-friendliness and their ability to assure the relevant attributes of an identity, and consequently it provides a foundation and a common understanding for any other standard addressing identity, identity information, and identity management.</p>
+  content: "<p class=\"MsoBodyText\">This document:</p>\n\nprovides requirements and
+    guidance for the management of identity information and for ensuring that an identity
+    management system conforms to ISO/IEC 24760-1 and ISO/IEC 24760-2;\nis applicable
+    to any information system where information relating to identity is processed
+    or stored;\nis considered to be a horizontal document for the following reasons:\n\nit
+    applies concepts such as distinguishing the term “identity” from the term “identifier”
+    on the implementation of systems for the management of identity information and
+    on the requirements for the implementation and operation of a framework for identity
+    management, \nit provides an important contribution to assess identity management
+    systems with regard to their privacy-friendliness and their ability to assure
+    the relevant attributes of an identity, and consequently it provides a foundation
+    and a common understanding for any other standard addressing identity, identity
+    information, and identity management.\n\n\n"
+- language: fr
+  script: Latn
+  content: |+
+    <p class="MsoBodyText">Le présent document:</p>
+
+    fournit des exigences et des recommandations pour la gestion des informations d'identité et pour s'assurer qu'un système de gestion de l'identité est conforme à l'ISO/IEC 24760-1 et à l'ISO/IEC 24760-2;
+    est applicable à tout système d'information dans lequel les informations relatives à l'identité sont traitées ou stockées;
+    est considéré comme un document horizontal pour les raisons suivantes:
+
+    il applique des concepts tels que la distinction entre le terme « identité » et le terme « identificateur » concernant la mise en œuvre de systèmes de gestion des informations d'identité et les exigences relatives à la mise en œuvre et au fonctionnement d'un cadre de gestion de l'identité;
+    il apporte une contribution importante à l'évaluation des systèmes de gestion de l'identité en ce qui concerne leur protection de la vie privée et leur capacité à assurer les attributs pertinents d'une identité, et par conséquent il fournit une base et une compréhension commune pour toute autre norme traitant de l'identité, des informations d'identité et de la gestion de l'identité.
+
+
 status:
   stage:
     content: PUBLISHED
@@ -159,3 +178,4 @@ ext:
   - code: '35.030'
     text: IT Security
   price_code: iso:E
+...

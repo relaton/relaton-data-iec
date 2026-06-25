@@ -184390,6 +184390,29 @@
     - RLV
   :file: data/iec-60800-2021-rlv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60800'
+      year: '2021'
+  :file: data/iec-60800-2021-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60800'
+        year: '2021'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60800-2021+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60801'
     part: '1'
@@ -240815,6 +240838,7 @@
     number: '61760'
     part: '1'
     year: '2026'
+    database: false
   :file: data/iec-61760-1-2026.yaml
 - :id:
     _type: pubid:iec:vap-identifier
@@ -240823,6 +240847,7 @@
       number: '61760'
       part: '1'
       year: '2026'
+      database: false
     vap:
     - CMV
   :file: data/iec-61760-1-2026-cmv.yaml
@@ -263693,6 +263718,7 @@
     number: '62321'
     part: '13'
     year: '2026'
+    database: false
   :file: data/iec-62321-13-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
@@ -311365,6 +311391,14 @@
       - IEC
       database: false
   :file: data/iso-iec-9834-1-1993-amd2-1998.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '9837'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-9837-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '9858'
