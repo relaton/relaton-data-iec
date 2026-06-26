@@ -1,5 +1,5 @@
 ---
-id: ISOIEC2309052025
+id: ISOIEC2913842026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,53 +9,45 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Coded representation of immersive media
+  content: User interface accessibility
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 5: Visual volumetric video-based coding (V3C) and video-based point
-    cloud compression (V-PCC)'
+  content: 'Part 4: Applying user accessibility needs'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Coded representation of immersive media - Part
-    5: Visual volumetric video-based coding (V3C) and video-based point cloud compression
-    (V-PCC)'
+  content: 'Information technology - User interface accessibility - Part 4: Applying
+    user accessibility needs'
   type: main
 - language: fr
   script: Latn
-  content: Technologie de l'information
+  content: Technologies de l'information
   type: title-intro
 - language: fr
   script: Latn
-  content: Représentation codée de média immersifs
+  content: Accessibilité de l'interface utilisateur
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de
-    nuage de points basée sur la vidéo (V-PCC)'
+  content: 'Partie 4: Prise en compte des besoins d''accessibilité des utilisateurs'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologie de l''information - Représentation codée de média immersifs
-    - Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de nuage
-    de points basée sur la vidéo (V-PCC)'
+  content: 'Technologies de l''information - Accessibilité de l''interface utilisateur
+    - Partie 4: Prise en compte des besoins d''accessibilité des utilisateurs'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/105985
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec23090-5{ed3.0}en.pdf
+  content: https://webstore.iec.ch/publication/114540
 docidentifier:
-- content: ISO/IEC 23090-5:2025
+- content: ISO/IEC 29138-4:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23090-5:2025:::'
+- content: 'urn:iec:std:iso-iec:29138-4:2026:::'
   type: URN
 date:
 - type: published
-  at: '2025-03-03'
-- type: obsoleted
   at: '2026-06-26'
 contributor:
 - role:
@@ -99,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 29
+        content: ISO/IEC JTC 1/SC 35
       identifier:
       - content: '1'
       type: technical-committee
@@ -108,7 +100,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '1'
 language:
 - en
 - fr
@@ -117,16 +109,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: <p class="MsoBodyText">This document specifies the syntax, semantics, and
-    decoding for visual volumetric media using video‑based coding methods. Furthermore,
-    this document specifies processes that may be needed for reconstruction of visual
-    volumetric media, and may also include additional processes such as post‑decoding,
-    pre-reconstruction, post‑reconstruction, and adaptation.</p>
+  content: |-
+    <p>This document provides guidance on applying the set of user accessibility needs (UANs) to the procurement, development and evaluation of ICT products and services. This includes guidance on documenting the application of user accessibility needs.</p>
+    <p>Applying user accessibility needs helps improve accessibility for all users and in particular for users with special needs that might otherwise be overlooked.</p>
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2025'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -160,6 +150,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 35.040.40
-    text: Coding of audio, video, multimedia and hypermedia information
-  price_code: iso:B
+  - code: 35.240.80
+    text: IT applications in health care technology
+  price_code: iso:C

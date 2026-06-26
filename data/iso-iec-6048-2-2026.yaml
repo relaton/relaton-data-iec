@@ -1,5 +1,5 @@
 ---
-id: ISOIEC2309052025
+id: ISOIEC604822026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,53 +9,40 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Coded representation of immersive media
+  content: JPEG AI learning-based image coding system
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 5: Visual volumetric video-based coding (V3C) and video-based point
-    cloud compression (V-PCC)'
+  content: 'Part 2: Profiling'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Coded representation of immersive media - Part
-    5: Visual volumetric video-based coding (V3C) and video-based point cloud compression
-    (V-PCC)'
+  content: 'Information technology - JPEG AI learning-based image coding system -
+    Part 2: Profiling'
   type: main
 - language: fr
   script: Latn
-  content: Technologie de l'information
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Représentation codée de média immersifs
+  content: Titre manque
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de
-    nuage de points basée sur la vidéo (V-PCC)'
+  content: 'Partie 2: Titre manque'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologie de l''information - Représentation codée de média immersifs
-    - Partie 5: Codage basé sur la vidéo volumétrique (V3C) et compression de nuage
-    de points basée sur la vidéo (V-PCC)'
+  content: 'Titre manque - Partie 2: Titre manque'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/105985
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec23090-5{ed3.0}en.pdf
+  content: https://webstore.iec.ch/publication/114538
 docidentifier:
-- content: ISO/IEC 23090-5:2025
+- content: ISO/IEC 6048-2:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:23090-5:2025:::'
+- content: 'urn:iec:std:iso-iec:6048-2:2026:::'
   type: URN
 date:
 - type: published
-  at: '2025-03-03'
-- type: obsoleted
   at: '2026-06-26'
 contributor:
 - role:
@@ -108,7 +95,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '1'
 language:
 - en
 - fr
@@ -117,16 +104,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: <p class="MsoBodyText">This document specifies the syntax, semantics, and
-    decoding for visual volumetric media using video‑based coding methods. Furthermore,
-    this document specifies processes that may be needed for reconstruction of visual
-    volumetric media, and may also include additional processes such as post‑decoding,
-    pre-reconstruction, post‑reconstruction, and adaptation.</p>
+  content: <p class="MsoNormal">This document specifies a subset of the syntax specified
+    in Rec. ITU-T T.840.1 | ISO/IEC 6048-1 via one Main stream profile and three decoder
+    tool subsets as three decoder profiles. It also defines higher bounds on tile
+    and picture sizes via levels of a decoder profile that a conforming decoder implementation
+    shall support, and specifies profiles, each being tailored to certain application
+    domains, and defines the levels of the profiles.</p>
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2025'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -160,6 +148,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 35.040.40
-    text: Coding of audio, video, multimedia and hypermedia information
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
   price_code: iso:B
