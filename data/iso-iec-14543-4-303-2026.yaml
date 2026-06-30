@@ -1,46 +1,43 @@
 ---
-id: ISOIEC98372026
+id: ISOIEC1454343032026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Systems and software engineering
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Systems resilience concepts
+  content: Home Electronic System (HES) architecture
   type: title-main
 - language: en
   script: Latn
-  content: Systems and software engineering - Systems resilience concepts
-  type: main
-- language: fr
+  content: 'Part 4-303: Application protocol for electric vehicle supply equipment
+    (EVSE) chargers and controllers'
+  type: title-part
+- language: en
   script: Latn
-  content: Ingénierie des systèmes et du logiciel
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Concepts de résilience des systèmes
-  type: title-main
-- language: fr
-  script: Latn
-  content: Ingénierie des systèmes et du logiciel - Concepts de résilience des systèmes
+  content: 'Information technology - Home Electronic System (HES) architecture - Part
+    4-303: Application protocol for electric vehicle supply equipment (EVSE) chargers
+    and controllers'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/114498
+  content: https://webstore.iec.ch/publication/94896
 - type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec9837{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_isoiec14543-4-303{ed1.0}en.pdf
 docidentifier:
-- content: ISO/IEC 9837:2026
+- content: ISO/IEC 14543-4-303:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:9837:2026:::'
+- content: 'urn:iec:std:iso-iec:14543-4-303:2026:::'
   type: URN
 date:
 - type: published
-  at: '2026-06-25'
+  at: '2026-06-29'
+- type: stable-until
+  at: '2030-12-31'
 contributor:
 - role:
   - type: publisher
@@ -83,7 +80,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 7
+        content: ISO/IEC JTC 1/SC 25
       identifier:
       - content: '1'
       type: technical-committee
@@ -95,15 +92,16 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>This document establishes concepts for understanding and improving systems resilience. Systems resilience addresses the capabilities of systems under adversity.</p>
-    <p>This document is applicable to human-created systems that can be either physical or conceptual, or a combination of both. It applies to systems as defined in ISO/IEC/IEEE 15288, including services and products. It is not intended to apply to naturally occurring systems.</p>
+  content: ISO/IEC 14543-4-303:2026 specifies an application-layer protocol important
+    for ensuring interoperability among the products of various manufacturers regarding
+    communications between electric vehicle supply equipment (EVSE) chargers and controllers.
+    It uses the network enhanced communications device (NECD) protocol specified in
+    ISO/IEC 14543-4-3. This protocol is based on UDP using IPv4 or IPv6 (TCP is optional).
 status:
   stage:
     content: PUBLISHED
@@ -142,8 +140,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 01.040.35
-    text: Information technology (Vocabularies)
-  - code: '35.080'
-    text: Software
-  price_code: iso:C
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '125853'
+  price_code: iso:E

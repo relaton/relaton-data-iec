@@ -1,46 +1,54 @@
 ---
-id: ISOIEC98372026
+id: ISOIEC88012026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Systems and software engineering
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Systems resilience concepts
+  content: 3D printing and scanning
   type: title-main
 - language: en
   script: Latn
-  content: Systems and software engineering - Systems resilience concepts
+  content: Data standard operating procedure (SOP)
+  type: title-part
+- language: en
+  script: Latn
+  content: Information technology - 3D printing and scanning - Data standard operating
+    procedure (SOP)
   type: main
 - language: fr
   script: Latn
-  content: Ingénierie des systèmes et du logiciel
+  content: Technologies de l'information
   type: title-intro
 - language: fr
   script: Latn
-  content: Concepts de résilience des systèmes
+  content: Impression et numérisation 3D
   type: title-main
 - language: fr
   script: Latn
-  content: Ingénierie des systèmes et du logiciel - Concepts de résilience des systèmes
+  content: Mode opératoire normalisé (SOP) pour les données
+  type: title-part
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Impression et numérisation 3D - Mode opératoire
+    normalisé (SOP) pour les données
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/114498
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec9837{ed1.0}en.pdf
+  content: https://webstore.iec.ch/publication/114638
 docidentifier:
-- content: ISO/IEC 9837:2026
+- content: ISO/IEC 8801:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:9837:2026:::'
+- content: 'urn:iec:std:iso-iec:8801:2026:::'
   type: URN
 date:
 - type: published
-  at: '2026-06-25'
+  at: '2026-06-30'
 contributor:
 - role:
   - type: publisher
@@ -83,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 7
+        content: ISO/IEC JTC 1
       identifier:
       - content: '1'
       type: technical-committee
@@ -102,8 +110,9 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p>This document establishes concepts for understanding and improving systems resilience. Systems resilience addresses the capabilities of systems under adversity.</p>
-    <p>This document is applicable to human-created systems that can be either physical or conceptual, or a combination of both. It applies to systems as defined in ISO/IEC/IEEE 15288, including services and products. It is not intended to apply to naturally occurring systems.</p>
+    <p>This document describes a standard operating procedure (SOP) for the curation and quality control of test data, consisting of 3D scanned data and its corresponding label data, for the evaluation of modelling from 3D scanned data.</p>
+    <p>This document classifies the main task phases and defines the required tasks in each phase of the 3D scanned and labelled data SOP.</p>
+    <p>This document defines essential requirements for test data for evaluating modelling from 3D scanned data and describes how to verify conformance to these requirements.</p>
 status:
   stage:
     content: PUBLISHED
@@ -142,8 +151,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 01.040.35
-    text: Information technology (Vocabularies)
-  - code: '35.080'
-    text: Software
-  price_code: iso:C
+  - code: '35.020'
+    text: Information technology (IT) in general
+  price_code: iso:B
