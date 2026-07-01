@@ -1,32 +1,34 @@
 ---
-id: IEC600602026SER
+id: IECTS635372026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: High-voltage test techniques
-  type: title-intro
-- language: en
-  script: Latn
-  content: ALL PARTS
+  content: Hardware-in-the-loop simulation test of power system stability control
+    system
   type: title-main
 - language: en
   script: Latn
-  content: High-voltage test techniques - ALL PARTS
+  content: Hardware-in-the-loop simulation test of power system stability control
+    system
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/303
+  content: https://webstore.iec.ch/publication/87054
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iects63537{ed1.0}en.pdf
 docidentifier:
-- content: IEC 60060:2026 SER
+- content: IEC TS 63537:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60060:2026::ser:'
+- content: 'urn:iec:std:iec:63537:2026:ts::'
   type: URN
 date:
 - type: published
   at: '2026-06-30'
+- type: stable-until
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -55,9 +57,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 42
+        content: TC 8/SC 8C
       identifier:
-      - content: '42'
+      - content: '8'
       type: technical-committee
     abbreviation:
       language: en
@@ -72,16 +74,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: A 15% discount of the total catalogue price is included.<br>This pack contains
-    the following:<br><a href="https://webstore.iec.ch/publication/107038">IEC 60060-1:2025
-    RLV</a><br><a href="https://webstore.iec.ch/publication/107039">IEC 60060-2:2025
-    RLV</a><br><a href="https://webstore.iec.ch/publication/302">IEC 60060-3:2006</a><br>
-- language: fr
-  script: Latn
-  content: Ce pack contient les parties suivantes:</br ><a href="https://webstore.iec.ch/publication/107038">IEC
-    60060-1:2025 RLV</a><br><a href="https://webstore.iec.ch/publication/107039">IEC
-    60060-2:2025 RLV</a><br><a href="https://webstore.iec.ch/publication/302">IEC
-    60060-3:2006</a><br>
+  content: IEC TS 63537:2026 addresses the requirements for hardware-in-the-loop (HIL)
+    simulation test of power system stability control system (see definition in 3.1.2).
+    Its purpose is to provide guidelines encompassing the use of terms and definitions,
+    as well as the objective and general requirements for HIL simulation test. The
+    TS covers the test requirements, test system, test contents, and test quality
+    management. This document improves the safe and stable operation of the power
+    system.
 status:
   stage:
     content: PUBLISHED
@@ -105,11 +104,15 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-specification
   flavor: iec
   ics:
-  - code: 17.220.20
-    text: Measurement of electrical and magnetic quantities
-  - code: '19.080'
-    text: Electrical and electronic testing
-  price_code: iec:ST
+  - code: '29.240'
+    text: Power transmission and distribution networks
+  - code: 29.240.30
+    text: Control equipment for electric power systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '119195'
+  price_code: iec:E
