@@ -41107,6 +41107,38 @@
     database: false
   :file: data/iso-iec-19075-10-2024.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '19075'
+      part: '2'
+      year: '2021'
+      publisher: ISO
+      copublishers:
+      - IEC
+  :file: data/iso-iec-19075-2-2021-cor1-2026.yaml
+- :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '19075'
+      part: '5'
+      year: '2021'
+      publisher: ISO
+      copublishers:
+      - IEC
+  :file: data/iso-iec-19075-5-2021-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '19086'
     part: '1'
@@ -62004,6 +62036,14 @@
     - IEC
     database: false
   :file: data/iso-iec-27000-2018.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '27000'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-27000-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '27001'
@@ -150667,6 +150707,25 @@
     - CSV
   :file: data/iec-60502-2-2014+amd1-2024-csv.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60502'
+          part: '2'
+          year: '2014'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2024'
+      vap:
+      - CSV
+  :file: data/iec-60502-2-2014+amd1-2024-csv-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60503'
     year: '1998'
@@ -195983,6 +196042,7 @@
     _type: pubid:iec:international-standard
     number: '60940'
     year: '2026'
+    database: false
   :file: data/iec-60940-2026.yaml
 - :id:
     _type: pubid:iec:technical-specification
@@ -291351,6 +291411,7 @@
     _type: pubid:iec:technical-specification
     number: '63537'
     year: '2026'
+    database: false
   :file: data/iec-ts-63537-2026.yaml
 - :id:
     _type: pubid:iec:technical-report

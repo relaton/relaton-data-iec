@@ -1,37 +1,54 @@
 ---
-id: ISOIECSYMBOL2026DB
+id: ISOIEC270002026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Graphical symbols for use on equipment
+  content: Information security, cybersecurity and privacy protection
+  type: title-intro
+- language: en
+  script: Latn
+  content: Information security management systems
   type: title-main
 - language: en
   script: Latn
-  content: Graphical symbols for use on equipment
+  content: Overview
+  type: title-part
+- language: en
+  script: Latn
+  content: Information security, cybersecurity and privacy protection - Information
+    security management systems - Overview
   type: main
 - language: fr
   script: Latn
-  content: ISO 7000 et IEC 60417 base de données des symboles graphiques
+  content: Sécurité de l'information, cybersécurité et protection de la vie privée
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Systèmes de management de la sécurité de l'information
   type: title-main
 - language: fr
   script: Latn
-  content: ISO 7000 et IEC 60417 base de données des symboles graphiques
+  content: Vue d'ensemble
+  type: title-part
+- language: fr
+  script: Latn
+  content: Sécurité de l'information, cybersécurité et protection de la vie privée
+    - Systèmes de management de la sécurité de l'information - Vue d'ensemble
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/7514
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiecSYMBOL{ed1.0}b.pdf
+  content: https://webstore.iec.ch/publication/114782
 docidentifier:
-- content: ISO/IEC SYMBOL:2026 DB
+- content: ISO/IEC 27000:2026
   type: IEC
   primary: true
-- type: URN
+- content: 'urn:iec:std:iso-iec:27000:2026:::'
+  type: URN
 date:
 - type: published
-  at: '2026-03-04'
+  at: '2026-07-03'
 contributor:
 - role:
   - type: publisher
@@ -74,16 +91,16 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 3/SC 3C
+        content: ISO/IEC JTC 1/SC 27
       identifier:
-      - content: '3'
+      - content: '1'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '1'
+  content: '6'
 language:
 - en
 - fr
@@ -93,9 +110,13 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    12-month subscription to ISO/IEC SYMBOL Database<br/>
-    <br/>
-    ISO/IEC SYMBOL DB contains more than 5200 graphical symbols published in IEC 60417 and ISO 7000. These symbols are used to identify equipment or a part of equipment, indicate functional states, designate connections, provide information on packaging or provide instruction for the operation of the equipment. The symbols are available in GIF and vectorized PDF formats. The database provides classified views by shape, function, and application, as well as a search facility.
+    <p class="MsoBodyText">This document gives an overview of the concepts and principles used in the documents related to information security management systems (ISMS), including ISO/IEC 27001.</p>
+    <p class="MsoBodyText">This document is considered to be a horizontal document as it provides an explanation of the concepts and principles that underpin information security and ISMS.</p>
+- language: fr
+  script: Latn
+  content: |-
+    <p>Le présent document donne une vue d'ensemble des concepts et des principes utilisés dans des documents relatifs aux systèmes de management de la sécurité de l'information (SMSI), y compris l'ISO/IEC 27001.</p>
+    <p>Le présent document est pris en considération comme un document transversal, car il explique les concepts et les principes qui sous-tendent la sécurité de l'information et le SMSI.</p>
 status:
   stage:
     content: PUBLISHED
@@ -134,10 +155,8 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 01.080.10
-    text: Public information symbols. Signs. Plates. Labels
-  - code: 01.080.20
-    text: Graphical symbols for use on specific equipment
-  - code: '29.020'
-    text: Electrical engineering in general
-  price_code: iso:DB
+  - code: '35.030'
+    text: IT Security
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  price_code: iso:B

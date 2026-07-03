@@ -1,62 +1,71 @@
 ---
-id: IEC62841342016AMD12019
+id: ISOIEC1907552021COR12026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Amendment 1
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Electric motor-operated hand-held tools, transportable tools and lawn and
-    garden machinery
+  content: Guidance for the use of database language SQL
   type: title-main
 - language: en
   script: Latn
-  content: 'Safety -- Part 3-4: Particular requirements for transportable bench grinders'
+  content: 'Part 5: Row pattern recognition -- Technical Corrigendum 1'
   type: title-part
 - language: en
   script: Latn
-  content: 'Amendment 1 - Electric motor-operated hand-held tools, transportable tools
-    and lawn and garden machinery - Safety -- Part 3-4: Particular requirements for
-    transportable bench grinders'
+  content: 'Information technology - Guidance for the use of database language SQL
+    - Part 5: Row pattern recognition -- Technical Corrigendum 1'
   type: main
 - language: fr
   script: Latn
-  content: Amendement 1
+  content: Technologies de l'information
   type: title-intro
 - language: fr
   script: Latn
-  content: Outils électroportatifs à moteur, outils portables et machines pour jardins
-    et pelouses
+  content: Recommandations pour l'utilisation du langage de base de données SQL
   type: title-main
 - language: fr
   script: Latn
-  content: 'Sécurité -- Partie 3-4: Exigences particulières pour les tourets à meuler
-    transportables'
+  content: 'Partie 5: Reconnaissance de formes de lignes -- Rectificatif technique
+    1'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Amendement 1 - Outils électroportatifs à moteur, outils portables et machines
-    pour jardins et pelouses - Sécurité -- Partie 3-4: Exigences particulières pour
-    les tourets à meuler transportables'
+  content: 'Technologies de l''information - Recommandations pour l''utilisation du
+    langage de base de données SQL - Partie 5: Reconnaissance de formes de lignes
+    -- Rectificatif technique 1'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/63683
+  content: https://webstore.iec.ch/publication/114781
 docidentifier:
-- content: IEC 62841-3-4:2016/AMD1:2019
+- content: ISO/IEC 19075-5:2021/COR1:2026
   type: IEC
   primary: true
-- content: urn:iec:std:iec:62841-3-4:2016:::::amd:1:2019
+- content: urn:iec:std:iso-iec:19075-5:2021:::::cor:1:2026
   type: URN
 date:
 - type: published
-  at: '2019-07-02'
-- type: stable-until
-  at: '2030-12-31'
+  at: '2026-07-01'
 contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
 - role:
   - type: publisher
   organization:
@@ -84,9 +93,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 116
+        content: ISO/IEC JTC 1/SC 32
       identifier:
-      - content: '116'
+      - content: '1'
       type: technical-committee
     abbreviation:
       language: en
@@ -103,8 +112,20 @@ status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2016'
+- from: '2021'
   owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
   - organization:
       uri:
       - type: org
@@ -125,10 +146,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 25.140.20
-    text: Electric tools
-  structuredidentifier:
-    type: IEC
-    project_number:
-      content: '102456'
-  price_code: iec:A
+  - code: '35.060'
+    text: Languages used in information technology
+  price_code: iso:ZZ
