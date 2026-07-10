@@ -52617,6 +52617,15 @@
     - IEC
   :file: data/iso-iec-tr-23888-3-2026.yaml
 - :id:
+    _type: pubid:iec:technical-report
+    number: '23888'
+    part: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-tr-23888-1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '23894'
     year: '2023'
@@ -79472,6 +79481,22 @@
       subpart: '7'
       year: '2020'
   :file: data/iec-60076-22-7-2020-cor1-2023.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60076'
+    part: '4'
+    year: '2026'
+  :file: data/iec-60076-4-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60076'
+      part: '4'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-60076-4-2026-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60077'
@@ -258334,6 +258359,12 @@
     vap:
     - RLV
   :file: data/iec-ts-63222-1-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '63223'
+    part: '2'
+    year: '2026'
+  :file: data/iec-63223-2-2026.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '63224'
