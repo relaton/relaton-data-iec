@@ -228763,6 +228763,15 @@
     year: '2016'
   :file: data/iec-ts-62073-2016.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:technical-specification
+      number: '62073'
+      year: '2016'
+  :file: data/iec-ts-62073-2016-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '62074'
     part: '1'
@@ -232078,6 +232087,22 @@
       part: '3'
       year: '2019'
   :file: data/iec-62228-3-2019-cor1-2023.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62228'
+    part: '7'
+    year: '2026'
+  :file: data/iec-62228-7-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '62228'
+      part: '7'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-62228-7-2026-rlv.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '62229'
@@ -253255,6 +253280,22 @@
       copublishers:
       - ASTM
   :file: data/iec-astm-62885-6-2023-cor1-2024.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62885'
+    part: '2'
+    year: '2026'
+  :file: data/iec-62885-2-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '62885'
+      part: '2'
+      year: '2026'
+    vap:
+    - CMV
+  :file: data/iec-62885-2-2026-cmv.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '62886'
