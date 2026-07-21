@@ -11,6 +11,6 @@ gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 
 # pubid 2.x is unpublished; track the branch carrying the lean IEC to_hash/from_hash
 # for the index-v2 generation.
-gem "pubid", git: "https://github.com/metanorma/pubid.git", branch: "rt-new-lutaml-model"
+gem "pubid", git: "https://github.com/metanorma/pubid.git", branch: "main"
 
 gem "pry-byebug"
