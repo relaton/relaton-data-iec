@@ -1,0 +1,195 @@
+---
+id: IEC6185074102026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-410: Basic communication structure'
+  type: title-main
+- language: en
+  script: Latn
+  content: Hydroelectric power plants, steam and gas turbines -- Logical node classes
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part
+    7-410: Basic communication structure - Hydroelectric power plants, steam and gas
+    turbines -- Logical node classes'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes
+    électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-410: Structure de communication de base'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Centrales hydroélectriques -- Communication pour le contrôle-commande
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes
+    électriques - Partie 7-410: Structure de communication de base - Centrales hydroélectriques
+    -- Communication pour le contrôle-commande'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/67492
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61850-7-410{ed3.0}en.pdf
+docidentifier:
+- content: IEC 61850-7-410:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-7-410:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-07-16'
+- type: stable-until
+  at: '2030-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      identifier:
+      - content: '57'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-7-410:2026 specifies the logical node classes for use in the domain of hydroelectric power stations, steam and gas turbines.<br/>
+    This IEC61850 domain information model standard utilizes the existing Logical Node (LN) classes defined in IEC 61850-7-4, Basic communication structure – Compatible logical node classes and data object classes where possible, while defining new and extended domain specific LN classes to provide the necessary data objects for application to functions and systems in the domain of hydroelectric power stations, steam and gas turbines. The domain information model includes the interface towards a central operator centre’s control functions.<br/>
+    The Scope of this document, related to steam and gas turbine specifics, is limited to overall control functions and generator and turbine control functions. For hydroelectric power, the scope includes the entire power station automation system.<br/>
+    Edition 3 is intended to form a basis for extensions in local implementations. Such extensions may be defined in profiles. Many of the Logical Nodes defined in this document are designed to be suitable for use in domains beyond the scope of hydro power plants and steam and gas turbines. A suggested structure of the Logical Nodes into packages for integration with other domains is provided in Annex G (informative), Migration of this document to the future edition of IEC 61850.<br/>
+    This third edition cancels and replaces the second edition published in 2012 and Amendment 1:2016. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) New concepts and constructs for modelling of large power generation;<br/>
+    b) Addition of new Logical Nodes to cover systems and details of the power generation domain previously not modelled in a sufficient way;<br/>
+    c) Review of existing Logical Nodes concerning structure, use of Common Data Classes and naming;<br/>
+    d) Fixes and improvements of some names and descriptions of Data Objects;<br/>
+    e) Improvements of the structure and enumerations within the Domain Logical Nodes;<br/>
+    f) Addition of new Logical Nodes with respect to maintenance and supervision functionality;<br/>
+    g) Updating of Logical Nodes for PSS functionality (LNs: APSS, APST and APSF) reflecting the updated PSS standard IEEE 421.5:2016;<br/>
+    h) Incorporation of Amendment 1, including among other things the Group E Logical Nodes;<br/>
+    i) Resolutions to all known UML Issues related to IEC 61850-7-410;<br/>
+    j) This 3rd edition is autogenerated from the UML file;<br/>
+    k) Upon publication the updated IEC 61850-7-410 NameSpace will be made available as a Code Component on the TC57 web page.<br/>
+    In the Edition 3 of this document, a new modelling approach is applied. In order to achieve greater efficiency and harmonization of the IEC 61850 information model by streamlining the Namespaces it is divided into, the structure of the latest revisions of the Namespaces related to the power generation domain, aims to:<br/>
+    – share common concepts, approaches, and models in the generation domains,<br/>
+    – increase the modularity of the model itself and enable its extension.<br/>
+    This edition hence introduces a new modeling approach, which is further explained in Clause 5. The pillars upon which the new approach is founded are as follows:<br/>
+    – a layered architecture for the power station model, in accordance with the control hierarchy concepts defined in IEC 60050-351-55;<br/>
+    – a comprehensive review of the models considering the approach outlined in IEC 61850-7-420:2021, aimed at harmonizing fundamental concepts in the power generation domain;<br/>
+    – a systematic alignment with the concepts outlined in IEC 61850-7-500:2017.<br/>
+    Specific aspects typical of the large power generation domain are also addressed in the present document. The relationship between concepts described in this document and the ones of related standards can be found in Annex B and Annex C.<br/>
+    In addition to this objective, Edition 3 provides clarifications on the purposes and intended use of such information model in a new set of explanatory clauses, which were not present in the previous editions.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 61850-7-410:2026 spécifie les classes de nœuds logiques à utiliser dans le domaine des centrales hydroélectriques, des centrales électriques à turbine à vapeur et des centrales électriques à turbine à gaz.<br/>
+    La présente norme IEC 61850 de modèle d’informations de domaine utilise dans la mesure du possible les classes de nœuds logiques (LN, Logical Node) existantes définies dans l’IEC 61850-7-4, Structure de communication de base – Classes de nœuds logiques et classes d’objets de données compatibles, tout en définissant de nouvelles classes LN, étendues et spécifiques à un domaine, afin de fournir les objets de données nécessaires pour une transposition aux fonctions et systèmes dans le domaine des centrales hydroélectriques, des centrales électriques à turbine à vapeur et des centrales électriques à turbine à gaz. Le modèle d’informations de domaine inclut une interface avec les fonctions de commande associées à un centre des opérateurs.<br/>
+    Le domaine d’application du présent document, relatif aux spécificités des turbines à vapeur et à gaz est limité aux fonctions de commande globales, et aux fonctions de commande du générateur et de la turbine. Pour la production hydroélectrique, le domaine d’application englobe l’ensemble du système d’automatisation de la centrale électrique.<br/>
+    L’Édition 3 est destinée à constituer une base, à associer à des extensions pour des mises en œuvre locales. De telles extensions peuvent être définies dans des profils. Bon nombre des nœuds logiques définis dans le présent document sont conçus pour pouvoir être utilisés dans des domaines autres que les centrales hydroélectriques et les turbines à vapeur et à gaz. Une proposition de structure des nœuds logiques en paquets pour intégration avec d’autres domaines est fournie dans l’Annexe G (informative), Migration du présent document vers la future édition de l’IEC 61850.<br/>
+    Cette troisième édition annule et remplace la seconde édition parue en 2012, incluant l’Amendement 1:2016. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l’édition précédente:<br/>
+    a) nouveaux concepts et constructions pour la modélisation de génération de grande puissance;<br/>
+    b) ajout de nouveaux nœuds logiques pour couvrir les systèmes et les détails associés au domaine de la génération de puissance, qui ne bénéficiaient pas précédemment d’une modélisation suffisamment détaillée;<br/>
+    c) révision des nœuds logiques existants concernant leur structure, l’utilisation des classes de données communes (CDC, Common Data Class) et leur nommage;<br/>
+    d) correction et amélioration de certains noms et descriptions associés à des objets de données;<br/>
+    e) amélioration de la structure et des énumérations au sein des nœuds logiques de domaine;<br/>
+    f) ajout de nouveaux nœuds logiques concernant la fonctionnalité de maintenance et de supervision;<br/>
+    g) mise à jour des nœuds logiques pour la fonctionnalité de stabilisateur de système de puissance (PSS, Power System Stabilizer) (LN: APSS, APST et APSF) afin de refléter la mise à jour de la norme IEEE 421.5:2016 relative aux PSS;<br/>
+    h) ajout de l’Amendement 1, comprenant entre autres les nœuds logiques du groupe E;<br/>
+    i) résolution de tous les problèmes connus liés au langage de modélisation unifié (UML, Unified Modelling Language) relatifs à l’IEC 61850-7-410;<br/>
+    j) cette 3e édition a été générée automatiquement à partir du fichier UML;<br/>
+    k) dès publication de la mise à jour de l’IEC 61850-7-410, l’espace de nom sera rendu disponible comme un élément de code sur la page web du TC57.<br/>
+    L’Édition 3 du présent document intègre une nouvelle approche de modélisation. Afin d’assurer une plus grande efficacité et une meilleure harmonisation du modèle d’informations de l’IEC 61850, en procédant par rationalisation des espaces de noms selon lesquels il est divisé, la structure des dernières révisions des espaces de noms relatifs au domaine de la génération de puissance, a pour but:<br/>
+    – de partager les concepts, approches et modèles communs dans les domaines de génération,<br/>
+    – d’augmenter la modularité du modèle à proprement parler, et de permettre son extensibilité.<br/>
+    La présente édition introduit par conséquent une nouvelle approche de modélisation, qui est expliquée plus en détail à l’Article 5. Les piliers sur lesquels se fonde la nouvelle approche sont les suivants:<br/>
+    – une architecture en couches pour le modèle de centrale électrique, conformément aux concepts de hiérarchie de commande définis dans la section 55 de l’IEC 60050-351;<br/>
+    – une révision complète des modèles en tenant compte de l’approche définie dans l’IEC 61850-7-420:2021, visant à harmoniser les concepts fondamentaux dans le domaine de la génération de puissance;<br/>
+    – un alignement systématique avec les concepts définis dans l’IEC 61850-7-500:2017.<br/>
+    Des aspects spécifiques, caractéristiques du domaine de la génération de grande puissance, sont également traités dans le présent document. La relation entre les concepts décrits dans le présent document et ceux relatifs aux normes collatérales peut être consultée à l’Annexe B et à l’Annexe C.<br/>
+    En complément de cet objectif, l’Édition 3 donne des clarifications sur les objets et l’utilisation prévue d’un tel modèle d’informations, dans un nouvel ensemble d’articles explicatifs, qui ne figuraient pas dans les éditions précédentes.<br/>
+    La langue employée pour l’élaboration de cette Norme internationale est l’anglais.<br/>
+    La version française de cette norme n'a pas été soumise au vote.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104539'
+  price_code: iec:P

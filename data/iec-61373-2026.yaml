@@ -1,0 +1,150 @@
+---
+id: IEC613732026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Railway applications
+  type: title-intro
+- language: en
+  script: Latn
+  content: Rolling stock equipment
+  type: title-main
+- language: en
+  script: Latn
+  content: Shock and vibration tests
+  type: title-part
+- language: en
+  script: Latn
+  content: Railway applications - Rolling stock equipment - Shock and vibration tests
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68999
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec61373{ed3.0}en.pdf
+docidentifier:
+- content: IEC 61373:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61373:2026:::'
+  type: URN
+date:
+- type: published
+  at: '2026-07-17'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 9
+      identifier:
+      - content: '9'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61373:2026 specifies the requirements for testing items of equipment intended for use on railway vehicles which are subsequently subjected to vibrations and shock owing to the nature of railway operational environment. To gain assurance that the quality of the equipment is acceptable, it is exposed to tests of reasonable duration that simulate the service conditions seen throughout its expected life.<br/>
+    Simulated long-life testing can be achieved in a number of ways each having their associated advantages and disadvantages, the following being the most common:<br/>
+    a) amplification: where the amplitudes are increased and the time base decreased;<br/>
+    b) time compression: where the amplitude history is retained and the time base is decreased (increase of the frequency);<br/>
+    c) decimation: where time slices of the historical data are removed when the amplitudes are below a specified threshold value.<br/>
+    The amplification method as stated in item a) above, is used in this document and together with the publications referred to in Clause 2; it defines the default test procedure to be followed when vibration testing items for use on railway vehicles.<br/>
+    Whilst this document is primarily concerned with railway vehicles on fixed rail systems, its wider use is not precluded. For systems operating on pneumatic tyres, or other transportation systems such as trolleybuses, where the level of shock and vibration clearly differ from those obtained on fixed rail systems, specific test levels can be considered. In that case, the frequency spectra and the shock duration and amplitude are computed in compliance with the guidelines in Annex A.<br/>
+    Annex F provides the functional random vibration load that can be considered by the user for urban vehicles operating on pneumatic tyres.<br/>
+    This document applies to single axis testing. However, multi-axis testing is possible.<br/>
+    The anchoring bolts at the fixing point(s) of the equipment are not evaluated in this document.<br/>
+    This document is intended to evaluate equipment which is attached to the main structure of the vehicle (and components mounted thereon). It is not intended to test equipment which forms part of the main structure. Main structure in the sense of this document means car body, bogie and axle.<br/>
+    The following items are out of scope of this document:<br/>
+    – the traction motors for railway vehicles;<br/>
+    – any mechanical substructure not equipped with electrical, electronic or pneumatic component.<br/>
+    Additional or special vibration tests for some specific equipment are not specified in this document, for example:<br/>
+    a) equipment mounted on, or linked to, items which are known to produce defined frequency excitation;<br/>
+    b) equipment such as pantographs, shoegear, or suspension components which are known to be exposed to specific shock and vibration excitation;<br/>
+    c) equipment intended for use in special operational environments as specified by the customer;<br/>
+    d) transportation and handling tests.<br/>
+    This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) consideration of specific ASD spectra from onboard measurements and certification limited to the specific case;<br/>
+    b) exclusion from the scope of applicability of traction motors and any substructure not equipped with electrical, electronic or pneumatic device;<br/>
+    c) clarification for order of testing and typical test sequence, taking into account the possibility of simultaneous multi-axis testing;<br/>
+    d) recommendation and guidance for removing resilient mounts of the equipment (if located between the equipment and the main structure) during the long-life test;<br/>
+    e) qualification of the fixture device used to attach the equipment to the test bench;<br/>
+    f) guidance for using a measuring point as a possibility to assess mechanical integrity;<br/>
+    g) change of the method to calculate the acceleration ratio which shall be applied to the functional ASD value to obtain the simulated long-life ASD value;<br/>
+    h) duration of long-life test can be set from 5 h to 100 h per axis, with corresponding acceleration ratio (default value) indicated in a table;<br/>
+    i) clarification of the concept of structural integrity;<br/>
+    j) description of test exemption cases, subassembly tests, and finite element analysis for structural parts of equipment (new Annex E);<br/>
+    k) the lowest frequency f1 of ASD spectra of Category 1 and Category 2 is fixed at 5 Hz as a default value, and the lowest frequency f1 of ASD spectra of Category 3 is fixed at 10 Hz as a default value;<br/>
+    l) update of ASD spectra for functional random vibration test: Table 1, Table 2, Table 3, Table 4, Table A.2 and Figure 6, Figure 7, Figure 8, Figure 10. This update was recommended in the Rail Safety and Standard Board research program document: “Vibration environment for rail vehicle mounted Equipment”;<br/>
+    m) new annex F dedicated on urban vehicle operating on pneumatic tyres.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 45.060.01
+    text: Railway rolling stock in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '105416'
+  price_code: iec:L

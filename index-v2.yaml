@@ -22774,6 +22774,24 @@
     - IEC
   :file: data/iso-iec-14496-12-2026.yaml
 - :id:
+    _type: pubid:iec:international-standard
+    number: '14496'
+    part: '22'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-14496-22-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '14496'
+    part: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-14496-1-2026.yaml
+- :id:
     _type: pubid:iec:amendment
     number: '1'
     year: '2003'
@@ -50217,6 +50235,15 @@
   :file: data/iso-iec-23009-8-2025.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '23009'
+    part: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23009-1-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '23026'
     year: '2006'
     publisher: ISO
@@ -50826,6 +50853,15 @@
     copublishers:
     - IEC
   :file: data/iso-iec-23090-5-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '23090'
+    part: '29'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23090-29-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '23091'
@@ -55664,6 +55700,15 @@
   :file: data/iso-iec-tr-25005-2-2025.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '25005'
+    part: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-25005-1-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '25010'
     year: '2011'
     publisher: ISO
@@ -58808,6 +58853,16 @@
     copublishers:
     - IEC
   :file: data/iso-iec-29110-5-2-1-2025.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '29110'
+    part: '7'
+    subpart: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-29110-7-1-2026.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '29112'
@@ -64433,6 +64488,22 @@
     - IEEE
   :file: data/iso-iec-ieee-31320-2-2012.yaml
 - :id:
+    _type: pubid:iec:international-standard
+    number: '31700'
+    part: '1'
+    year: '2023'
+    publisher: ISO
+  :file: data/iso-31700-1-2023.yaml
+- :id:
+    _type: pubid:iec:technical-report
+    number: '31700'
+    part: '2'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-tr-31700-2-2026.yaml
+- :id:
     _type: pubid:iec:corrigendum
     number: '1'
     year: '2012'
@@ -65666,6 +65737,14 @@
     - IEC
     - IEEE
   :file: data/iso-iec-ieee-42030-2019.yaml
+- :id:
+    _type: pubid:iec:technical-report
+    number: '42106'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-tr-42106-2026.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '42112'
@@ -124238,6 +124317,62 @@
     vap:
     - CSV
   :file: data/iec-60335-2-109-2023+amd1-2026-csv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60335'
+    part: '2'
+    subpart: '2'
+    year: '2026'
+  :file: data/iec-60335-2-2-2026.yaml
+- :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '120'
+      year: '2024'
+  :file: data/iec-60335-2-120-2024-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60335'
+        part: '2'
+        subpart: '120'
+        year: '2024'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60335-2-120-2024+amd1-2026-csv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '2'
+      year: '2026'
+    vap:
+    - CMV
+  :file: data/iec-60335-2-2-2026-cmv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '2'
+      year: '2026'
+    vap:
+    - EXV
+  :file: data/iec-60335-2-2-2026-exv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60336'
@@ -184784,6 +184919,17 @@
     - RLV
   :file: data/iec-61000-6-3-2026-rlv.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61000'
+      part: '4'
+      subpart: '30'
+      year: '2025'
+  :file: data/iec-61000-4-30-2025-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '61003'
     part: '1'
@@ -204079,6 +204225,24 @@
   :file: data/iec-61300-2-33-2026-cmv.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '61300'
+    part: '2'
+    subpart: '2'
+    year: '2026'
+  :file: data/iec-61300-2-2-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '2'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-61300-2-2-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '61301'
     year: '1994'
   :file: data/iec-61301-1994.yaml
@@ -207093,6 +207257,11 @@
     number: '61373'
     year: '1999'
   :file: data/iec-61373-1999.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '61373'
+    year: '2026'
+  :file: data/iec-61373-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '61374'
@@ -220581,6 +220750,13 @@
     vap:
     - CSV
   :file: data/iec-61850-10-2012+amd1-2025-csv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '61850'
+    part: '7'
+    subpart: '410'
+    year: '2026'
+  :file: data/iec-61850-7-410-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '61851'
@@ -245447,6 +245623,20 @@
     year: '2026'
   :file: data/iec-ts-62607-6-24-2026.yaml
 - :id:
+    _type: pubid:iec:technical-specification
+    number: '62607'
+    part: '4'
+    subpart: '9'
+    year: '2026'
+  :file: data/iec-ts-62607-4-9-2026.yaml
+- :id:
+    _type: pubid:iec:technical-specification
+    number: '62607'
+    part: '4'
+    subpart: '10'
+    year: '2026'
+  :file: data/iec-ts-62607-4-10-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '62608'
     part: '1'
@@ -246915,6 +247105,22 @@
     part: '1'
     year: '2012'
   :file: data/iec-62674-1-2012.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62674'
+    part: '1'
+    year: '2026'
+  :file: data/iec-62674-1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '62674'
+      part: '1'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-62674-1-2026-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '62675'
@@ -259430,6 +259636,13 @@
     subpart: '1'
     year: '2026'
   :file: data/iec-ts-63346-2-1-2026.yaml
+- :id:
+    _type: pubid:iec:technical-specification
+    number: '63346'
+    part: '2'
+    subpart: '2'
+    year: '2026'
+  :file: data/iec-ts-63346-2-2-2026.yaml
 - :id:
     _type: pubid:iec:systems-reference-document
     number: '63347'
