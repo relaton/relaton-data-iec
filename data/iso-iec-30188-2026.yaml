@@ -1,45 +1,51 @@
 ---
-id: IEC60745271989
+id: ISOIEC301882026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: 'Safety of hand-held motor-operated electric tools. Part 2: Particular
-    requirements for spray guns for non-flammable liquids'
+  content: Digital twin
+  type: title-intro
+- language: en
+  script: Latn
+  content: Reference architecture
   type: title-main
 - language: en
   script: Latn
-  content: 'Safety of hand-held motor-operated electric tools. Part 2: Particular
-    requirements for spray guns for non-flammable liquids'
-  type: main
-- language: fr
-  script: Latn
-  content: 'Sécurité des outils électroportatifs à moteur. Deuxième partie: Règles
-    particulières pour les pistolets pour liquides non inflammables'
-  type: title-main
-- language: fr
-  script: Latn
-  content: 'Sécurité des outils électroportatifs à moteur. Deuxième partie: Règles
-    particulières pour les pistolets pour liquides non inflammables'
+  content: Digital twin - Reference architecture
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/3226
+  content: https://webstore.iec.ch/publication/68098
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iec60745-2-7{ed1.0}b.img.pdf
+  content: https://webstore.iec.ch/preview/info_isoiec30188{ed1.0}en.pdf
 docidentifier:
-- content: IEC 60745-2-7:1989
+- content: ISO/IEC 30188:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60745-2-7:1989-05:::'
+- content: 'urn:iec:std:iso-iec:30188:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '1989-05-30'
+  at: '2026-07-22'
 - type: stable-until
-  at: '2026-07-31'
+  at: '2031-12-31'
 contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
 - role:
   - type: publisher
   organization:
@@ -67,9 +73,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 116
+        content: ISO/IEC JTC 1/SC 41
       identifier:
-      - content: '116'
+      - content: '1'
       type: technical-committee
     abbreviation:
       language: en
@@ -79,24 +85,32 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: Applies to spray guns used for spraying non-flammable liquids which incorporate
-    the motor in the hand-held unit.
-- language: fr
-  script: Latn
-  content: S'applique aux pistolets utilisés pour pulvériser des liquides non inflammables
-    et dont le moteur est incorporé dans l'unité portative.
+  content: ISO/IEC 30188:2026 specifies a general reference architecture for a digital
+    twin system in terms of defining system fundamentals through the use of architecture
+    views.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '1989'
+- from: '2026'
   owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
   - organization:
       uri:
       - type: org
@@ -117,12 +131,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 25.140.20
-    text: Electric tools
-  - code: '87.100'
-    text: Paint coating equipment
+  - code: '35.020'
+    text: Information technology (IT) in general
   structuredidentifier:
     type: IEC
     project_number:
-      content: '5255'
-  price_code: iec:B
+      content: '104896'
+  price_code: iso:E

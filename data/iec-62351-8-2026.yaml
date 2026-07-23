@@ -1,0 +1,208 @@
+---
+id: IEC6235182026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 8: Role-based access control for power system management'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and
+    communications security - Part 8: Role-based access control for power system management'
+  type: main
+- language: fr
+  script: Latn
+  content: Gestion des systèmes de puissance et échanges d'informations associés
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité des communications et des données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 8: Contrôle d''accès basé sur les rôles pour la gestion de systèmes
+    de puissance'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d''informations associés
+    - Sécurité des communications et des données - Partie 8: Contrôle d''accès basé
+    sur les rôles pour la gestion de systèmes de puissance'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/85153
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec62351-8{ed2.0}en.pdf
+docidentifier:
+- content: IEC 62351-8:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62351-8:2026-07:::'
+  type: URN
+date:
+- type: published
+  at: '2026-07-22'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      identifier:
+      - content: '57'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62351-8:2026 is to facilitate role-based access control (RBAC) for power system management. RBAC assigns human users, automated systems, and software applications (collectively called "subjects" in this document) to specified "roles", and restricts their access to only those resources, which the security policies identify as necessary for their roles.<br/>
+    As electric power systems become more automated and cyber security concerns become more prominent, it is becoming increasingly critical to ensure that access to data (read, write, control, etc.) is restricted. As in many aspects of security, RBAC is not just a technology; it is a way of running a business. RBAC is not a new concept; in fact, it is used by many operating systems to control access to system resources. Specifically, RBAC provides an alternative to the all-or-nothing super-user model in which all subjects have access to all data, including control commands.<br/>
+    RBAC is a primary method to meet the security principle of least privilege, which states that no subject should be authorized more permissions than necessary for performing that subject’s task. With RBAC, authorization is separated from authentication. RBAC enables an organization to subdivide super-user capabilities and package them into special user accounts' termed roles for assignment to specific individuals according to their associated duties. This subdivision enables security policies to determine who or what systems are permitted access to which data in other systems. RBAC thus provides a means of reallocating system controls as defined by the organization policy. In particular, RBAC can protect sensitive system operations from inadvertent (or deliberate) actions by unauthorized users. Clearly RBAC is not confined to human users though; it applies equally well to automated systems and software applications, i.e., software parts operating independent of user interactions.<br/>
+    The following interactions are in scope:<br/>
+    – local (direct wired) access to the object by a human user, a local and automated computer agent, or a built-in human machine interface (HMI) or panel;<br/>
+    – remote (via dial-up or wireless media) access to the object by a human user;<br/>
+    – remote (via dial-up or wireless media) access to the object by a remote automated computer agent, e.g., another object at another substation, a distributed energy resource at an end-user’s facility, or a control centre application.<br/>
+    While this document defines a set of mandatory roles to be supported, the exchange format for defined specific or custom roles is also in scope of this document. This is achieved by defining two different encoding approaches to handle the definition of custom roles, either based on specific permissions or based on constraints to existing permissions. The definition on handling custom based roles was started in IEC 62351-90-1 and taken over into the IEC 62351-8:2020. Moreover, additionally to the definition of custom roles based on associated permissions, this document also includes options how to assign permissions to objects in a general way. Referencing documents will provide a mapping to a concrete data model to ensure an interoperability for standard roles used in different data models as well as for custom defined roles. Referencing documents might be standards such as IEC PAS 61850-90-19 or IEC 60870-5-7:2025 or also definitions by an operator.<br/>
+    Out of scope for this document are all topics which are not directly related to the definition of roles and access tokens for local and remote access, especially administrative or organizational tasks, such as:<br/>
+    – definition of usernames and password definitions/policies;<br/>
+    – management of keys and/or key exchange;<br/>
+    – engineering process of roles;<br/>
+    – assignment of roles;<br/>
+    – selection of trusted certification authorities issuing credentials (access tokens);<br/>
+    – defining the tasks of a security officer;<br/>
+    – integrating local policies in RBAC.<br/>
+    Existing standards (see ANSI INCITS 359-2004, IEC 62443 (all parts), and IEEE 802.1X-2020) in process control industry and access control (RFC 2904 and RFC 2905) are not sufficient for addressing specifics of power system automation as none of them specify either the exact role name and associated permissions or the format of the access tokens nor the detailed mechanism by which access tokens are transferred to and authenticated by the target system. This is addressed in this document by defining the access token format, distribution and verification based on existing technology.<br/>
+    Throughout the document security events are defined. These security events are intended to support the error handling and thus to increase system resilience. Implementations need to provide a mechanism for announcing security events.<br/>
+    The information about security events and potential detailed information can only be provided by the entity based on the availability of this information through the underlying platform or utilized components.<br/>
+    It is strongly recommended that the security events defined throughout the document are made available to the operational infrastructure by cyber security events as specified in IEC 62351 14 and/or by monitoring objects as specified in IEC 62351-7. Annex A provides a mapping of the defined events in this document to the notion of IEC 62351-14.<br/>
+    Notices, warnings, errors, and alarms are used to indicate the severity of an event from a security point of view. The following notion from IEC 62351-14 is used:<br/>
+    – A notice refers to a cyber security related activity during the routine use or maintenance of an entity. It does not relate to a cyber security breach or attack or deviation from the normal operating condition of an entity.<br/>
+    – A warning is a deviation from the normal operating condition of an entity but not necessary a cyber-attack.<br/>
+    – An error describes an unforeseen condition, which can indicate unauthorized activity. It might not require immediate action.<br/>
+    – An alarm is an indication of a serious problem, which might indicate unauthorized activity. Action is expected to be taken immediately.<br/>
+    In any case, it is expected that an organization’s security policy determines the final handling of events based on the operational environment. For instance, the assessment of one of more alarms could rise to the level of an incident.<br/>
+    This second edition cancels and replaces the first edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Removal of mapping of roles to permission to objects based on the target data model and/or protocol to allow for other mappings than IEC 61850. Mapping is delegated to separate documents;<br/>
+    b) Specification of handling of a combination of roles and permissions as operationSet to allow more fine-grained assignments to objects;<br/>
+    c) Specification of a simplified roles assignment to more efficiently handle situations in which roles are used relating to different data models, including examples;<br/>
+    d) Inclusion of new profile to allow for fetching RBAC information from LDAP repositories;<br/>
+    e) Definition of specific security events throughout the document;<br/>
+    f) Alignment of terminology and enhancement with examples.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62351-8:2026 a pour objet de faciliter le contrôle d'accès basé sur les rôles (RBAC) pour la gestion de systèmes de puissance. Le RBAC attribue des utilisateurs humains, des systèmes automatisés et des applications logicielles (appelés "sujets" dans le présent document) aux "rôles" spécifiés et limite leur accès à ces ressources uniquement, que les politiques de sécurité identifient comme nécessaires à leurs rôles.<br/>
+    Les systèmes électriques de puissance étant de plus en plus automatisés et les préoccupations relatives à la cybersécurité étant de plus en plus importantes, il est de plus en plus critique d'assurer la restriction de l'accès aux données (lecture, écriture, contrôle, etc.). Comme pour beaucoup d'aspects liés à la sécurité, le RBAC n'est pas uniquement une technologie; il s'agit d'une manière de diriger une entreprise. Le RBAC n'est pas un concept nouveau; en réalité, il est utilisé par de nombreux systèmes d'exploitation pour contrôler l'accès aux ressources de systèmes. Le RBAC fournit notamment une alternative au modèle tout ou rien de super utilisateur dans lequel tous les sujets ont accès à toutes les données, y compris aux commandes de contrôle.<br/>
+    Le RBAC est une méthode primaire pour satisfaire au principe de sécurité de moindre privilège, qui indique qu'il convient qu'aucun sujet ne se voit attribué plus de permissions que nécessaire pour effectuer la tâche affectée audit sujet. Avec le RBAC, l'autorisation est distincte de l'authentification. Le RBAC permet à une organisation de subdiviser les capacités des super-utilisateurs et de les regrouper dans des comptes d'utilisateurs spéciaux, appelés rôles, pour les attribuer à des personnes spécifiques en fonction des responsabilités qui leur sont associées. Cette sous-division permet aux politiques de sécurité de déterminer les personnes ou les systèmes qui ont accès aux données dans d'autres systèmes. Le RBAC fournit ainsi un moyen de réattribuer des contrôles de systèmes comme cela est défini par la politique organisationnelle. Le RBAC peut notamment protéger des opérations sensibles de systèmes contre des actions commises par inadvertance (ou délibérées) par des utilisateurs non autorisés. Cependant, le RBAC ne se limite clairement pas aux utilisateurs humains; il s'applique tout aussi bien aux systèmes automatisés qu'aux applications logicielles, c'est à dire, aux parties logicielles qui fonctionnent indépendamment des interactions avec l'utilisateur.<br/>
+    Les interactions suivantes relèvent du domaine d'application:<br/>
+    – accès local (raccordé directement) à l'objet par un utilisateur humain, un agent ordinateur automatisé local, ou à l'aide de l'IHM ou du panneau intégré(e) aux objets;<br/>
+    – accès à distance (par ligne commutée ou support sans fil) à l'objet par un utilisateur humain;<br/>
+    – accès à distance (par ligne commutée ou support sans fil) à l'objet par un agent ordinateur automatisé distant, par exemple, un autre objet dans un autre poste, une ressource d'énergie distribuée dans l'installation d'un utilisateur final, ou une application centrale de contrôle.<br/>
+    Tandis que le présent document définit un ensemble de rôles obligatoires à prendre en charge, le format d'échange de rôles définis spécifiques ou personnalisés relève également du domaine d'application du présent document. Pour ce faire, deux approches de codage différentes sont définies pour traiter la définition des rôles personnalisés, soit selon des permissions spécifiques, soit selon des contraintes imposées aux permissions existantes. La définition du traitement des rôles personnalisés a été lancée dans l'IEC 62351-90-1 et reprise dans l'IEC 62351-8:2020. En outre, en plus de la définition de rôles personnalisés fondée sur les permissions associées, le présent document inclut également des options sur la manière d'attribuer les permissions aux objets de manière générale. Les documents de référence fournissent une correspondance avec un modèle de données concret pour assurer l'interopérabilité des rôles normalisés utilisés dans différents modèles de données, ainsi que des rôles personnalisés. Les documents de référence peuvent être des normes telles que l'IEC PAS 61850-90-19 ou l'IEC 60870-5-7:2025, ou encore des définitions établies par un opérateur.<br/>
+    Tous les thèmes non directement liés à la définition des rôles et des jetons d'accès concernant les accès locaux et distants, en particulier les tâches administratives ou organisationnelles, ne relèvent pas du domaine d'application du présent document. Ils incluent, entre autres:<br/>
+    – définition des noms d'utilisateurs et définitions/stratégies de mots de passe;<br/>
+    – gestion de clés et/ou échange de clés;<br/>
+    – processus d'ingénierie des rôles;<br/>
+    – attribution des rôles;<br/>
+    – choix des autorités de certification de confiance émettant des justificatifs d'identité (jetons d'accès);<br/>
+    – définition des tâches d'un responsable de la sécurité;<br/>
+    – intégration de politiques locales dans le RBAC.<br/>
+    Les normes existantes (voir ANSI INCITS 359-2004, IEC 62443 (toutes les parties), et IEEE 802.1X-2020) relatives à l'industrie du contrôle de processus et au contrôle d'accès (RFC 2904 et RFC 2905) ne suffisent pas pour traiter les spécificités de l'automatisation des systèmes de puissance, car aucune d'entre elles ne spécifie le nom de rôle exact et les permissions associées ou le format des jetons d'accès ou encore le mécanisme détaillé par lequel les jetons d'accès sont transférés au système cible et authentifiés par celui-ci. Le présent document aborde cette question en définissant le format des jetons d'accès, leur distribution et leur vérification à partir de la technologie existante.<br/>
+    Dans l'ensemble du document, des événements de sécurité sont définis. Ces événements de sécurité sont destinés à prendre en charge la gestion des erreurs et à augmenter ainsi la résilience d'un système. Il est nécessaire que les mises en œuvre fournissent un mécanisme pour annoncer les événements de sécurité.<br/>
+    Les informations relatives aux événements de sécurité et les informations détaillées potentielles peuvent uniquement être fournies par l'entité en fonction de la disponibilité de ces informations par l'intermédiaire de la plateforme sous-jacente ou des composants utilisés.<br/>
+    Il est fortement recommandé que les événements de sécurité définis dans le document soient rendus accessibles à l'infrastructure opérationnelle par les événements de cybersécurité spécifiés dans l'IEC 62351-14 et/ou par la surveillance des objets comme cela est spécifié dans l'IEC 62351-7. Annexe A présente une correspondance entre les événements définis dans le présent document et la notion de l'IEC 62351-14.<br/>
+    Les avis, les avertissements, les erreurs et les alarmes sont utilisés pour indiquer la sévérité d'un événement du point de vue de la sécurité. La notion suivante de l'IEC 62351-14 est utilisée:<br/>
+    – Un avis fait référence à une activité liée à la cybersécurité pendant l'utilisation ou la maintenance courante d'une entité. Il ne concerne pas une atteinte à la sécurité informatique, une attaque ou une déviation par rapport aux conditions de fonctionnement normal d'une entité.<br/>
+    – Un avertissement est une déviation par rapport aux conditions de fonctionnement normal d'une entité, mais il ne s'agit pas nécessairement d'une cyberattaque.<br/>
+    – Une erreur décrit une condition imprévue, qui peut indiquer une activité non autorisée. Elle peut ne pas exiger une action immédiate.<br/>
+    – Une alarme est l'indication d'un problème grave, qui peut indiquer une activité non autorisée. Il est prévu que des mesures soient prises immédiatement.<br/>
+    Il est, en toute circonstance, prévu qu'une politique de sécurité de l'organisation détermine le traitement final des événements selon l'environnement opérationnel. Par exemple, l'évaluation d'une ou de plusieurs alarmes peut atteindre le niveau d'un incident.<br/>
+    Cette deuxième édition annule et remplace la première édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) Suppression de la mise en correspondance des rôles avec les permissions pour les objets selon le modèle de données et/ou le protocole cible pour permettre d'autres mises en correspondance que celles de l'IEC 61850. La mise en correspondance est déléguée à des documents distincts;<br/>
+    b) Spécification du traitement d'une combinaison de rôles et de permissions en tant qu'operationSet pour permettre des affectations plus fines aux objets;<br/>
+    c) Spécification d'une affectation simplifiée des rôles pour traiter plus efficacement les situations dans lesquelles les rôles sont utilisés en relation avec différents modèles de données, y compris des exemples;<br/>
+    d) Inclusion d'un nouveau profil pour permettre de récupérer des informations RBAC à partir de référentiels LDAP;<br/>
+    e) Définition d'événements de sécurité spécifiques dans l'ensemble du document;<br/>
+    f) Alignement de la terminologie et renforcement avec des exemples.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '117672'
+  price_code: iec:N
