@@ -1,5 +1,5 @@
 ---
-id: ISOIEC178782000
+id: ISOIEC231672026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,54 +9,36 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Telecommunications and information exchange between systems
+  content: Cloud computing
   type: title-main
 - language: en
   script: Latn
-  content: Private Integrated Services Network  -- Inter-exchange signalling protocol
-    -- Private User Mobility (PUM) -- Call handling additional network features
+  content: Common technologies and techniques
   type: title-part
 - language: en
   script: Latn
-  content: Information technology - Telecommunications and information exchange between
-    systems - Private Integrated Services Network  -- Inter-exchange signalling protocol
-    -- Private User Mobility (PUM) -- Call handling additional network features
+  content: Information technology - Cloud computing - Common technologies and techniques
   type: main
 - language: fr
   script: Latn
-  content: Technologies de l'information
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Télécommunications et échange d'information entre systèmes
+  content: Titre manque
   type: title-main
 - language: fr
   script: Latn
-  content: Réseau privé à intégration de services -- Protocole de signalisation d'interéchange
-    -- Mobilité de l'usager privé (PUM) -- Caractéristiques additionnelles de réseau
-    de traitement d'appel
-  type: title-part
-- language: fr
-  script: Latn
-  content: Technologies de l'information - Télécommunications et échange d'information
-    entre systèmes - Réseau privé à intégration de services -- Protocole de signalisation
-    d'interéchange -- Mobilité de l'usager privé (PUM) -- Caractéristiques additionnelles
-    de réseau de traitement d'appel
+  content: Titre manque
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/98006
+  content: https://webstore.iec.ch/publication/115259
 docidentifier:
-- content: ISO/IEC 17878:2000
+- content: ISO/IEC 23167:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:17878:2000-04:::'
+- content: 'urn:iec:std:iso-iec:23167:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '2000-04-27'
-- type: obsoleted
-  at: '2003-03-21'
+  at: '2026-07-24'
 contributor:
 - role:
   - type: publisher
@@ -99,7 +81,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 6
+        content: ISO/IEC JTC 1/SC 38
       identifier:
       - content: '1'
       type: technical-committee
@@ -114,11 +96,25 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |
+    <p>This document provides a description of a set of common technologies and techniques used in conjunction with cloud computing. These include:</p>
+
+    virtual machines (VMs) and hypervisors;
+    containers and container management systems (CMSs);
+    serverless computing;
+    microservices architecture;
+    automation;
+    platform as a service systems and architecture;
+    storage services;
+    security, scalability and networking as applied to the above cloud computing technologies.
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2000'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -152,6 +148,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 33.040.35
-    text: Telephone networks
-  price_code: iso:B
+  - code: '35.210'
+    text: Cloud computing
+  price_code: iso:F

@@ -1,5 +1,5 @@
 ---
-id: ISOIEC178782000
+id: ISOIEC2309332026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,18 +9,16 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Telecommunications and information exchange between systems
+  content: Internet of media things
   type: title-main
 - language: en
   script: Latn
-  content: Private Integrated Services Network  -- Inter-exchange signalling protocol
-    -- Private User Mobility (PUM) -- Call handling additional network features
+  content: 'Part 3: Media data formats and application programming interface (API)'
   type: title-part
 - language: en
   script: Latn
-  content: Information technology - Telecommunications and information exchange between
-    systems - Private Integrated Services Network  -- Inter-exchange signalling protocol
-    -- Private User Mobility (PUM) -- Call handling additional network features
+  content: 'Information technology - Internet of media things - Part 3: Media data
+    formats and application programming interface (API)'
   type: main
 - language: fr
   script: Latn
@@ -28,35 +26,29 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: Télécommunications et échange d'information entre systèmes
+  content: Internet des objets media
   type: title-main
 - language: fr
   script: Latn
-  content: Réseau privé à intégration de services -- Protocole de signalisation d'interéchange
-    -- Mobilité de l'usager privé (PUM) -- Caractéristiques additionnelles de réseau
-    de traitement d'appel
+  content: 'Partie 3: API et formats des données'
   type: title-part
 - language: fr
   script: Latn
-  content: Technologies de l'information - Télécommunications et échange d'information
-    entre systèmes - Réseau privé à intégration de services -- Protocole de signalisation
-    d'interéchange -- Mobilité de l'usager privé (PUM) -- Caractéristiques additionnelles
-    de réseau de traitement d'appel
+  content: 'Technologies de l''information - Internet des objets media - Partie 3:
+    API et formats des données'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/98006
+  content: https://webstore.iec.ch/publication/115258
 docidentifier:
-- content: ISO/IEC 17878:2000
+- content: ISO/IEC 23093-3:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:17878:2000-04:::'
+- content: 'urn:iec:std:iso-iec:23093-3:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '2000-04-27'
-- type: obsoleted
-  at: '2003-03-21'
+  at: '2026-07-24'
 contributor:
 - role:
   - type: publisher
@@ -99,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 6
+        content: ISO/IEC JTC 1/SC 29
       identifier:
       - content: '1'
       type: technical-committee
@@ -108,17 +100,29 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '1'
+  content: '3'
 language:
 - en
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This document specifies the syntax and semantics of description schemes for representing data exchanged by media things (e.g. media sensors, media actuators, and media storages). Moreover, it specifies the APIs to exchange these data between media things. The following interfaces are under the scope of this document:</p>
+
+    APIs for accessing media sensors, actuators, storage, managers, controllers, and aggregators;
+    structured data formats (XML) representing media thing’s base data types, including sensors, actuators, storage, managers, aggregators, controllers, and their elements;
+    structured data formats (XML) representing the media sensor’s output data; and,
+    structured data formats (XML) representing media actuator’s commands.
+
+    <p>This document does not specify how sensing and actuating are carried out but defines the interfaces between the media things.</p>
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2000'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -152,6 +156,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 33.040.35
-    text: Telephone networks
-  price_code: iso:B
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  price_code: iso:H

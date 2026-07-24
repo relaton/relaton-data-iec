@@ -49504,6 +49504,15 @@
   :file: data/iso-iec-23093-2-2025.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '23093'
+    part: '3'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23093-3-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '23094'
     part: '1'
     year: '2020'
@@ -49627,6 +49636,14 @@
     copublishers:
     - IEC
   :file: data/iso-iec-ts-23167-2020.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '23167'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23167-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '23186'
@@ -79989,6 +80006,16 @@
     vap:
     - RLV
   :file: data/iec-60079-10-2-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:interpretation-sheet
+    number: '6'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60079'
+      part: '11'
+      year: '2023'
+  :file: data/iec-60079-11-2023-ish6-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60080'
@@ -174417,6 +174444,12 @@
   :file: data/iec-tr-60909-4-2021.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '60909'
+    part: '0'
+    year: '2026'
+  :file: data/iec-60909-0-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '60910'
     year: '1988'
   :file: data/iec-60910-1988.yaml
@@ -230213,6 +230246,22 @@
     part: '2'
     year: '2023'
   :file: data/iec-62146-2-2023.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '62146'
+    part: '1'
+    year: '2026'
+  :file: data/iec-62146-1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '62146'
+      part: '1'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-62146-1-2026-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '62148'
