@@ -24537,6 +24537,18 @@
     publisher: ISO
   :file: data/iso-pas-15118-23-2026.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    publisher: ISO
+    base:
+      _type: pubid:iec:international-standard
+      number: '15118'
+      part: '20'
+      year: '2022'
+      publisher: ISO
+  :file: data/iso-15118-20-2022-amd1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '15145'
     year: '1997'
@@ -57836,6 +57848,14 @@
     copublishers:
     - IEC
   :file: data/iso-iec-29151-2017.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '29151'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-29151-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '29154'
@@ -172610,6 +172630,16 @@
       year: '2021'
   :file: data/iec-60884-3-1-2021-cor2-2025.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60884'
+      part: '1'
+      year: '2022'
+  :file: data/iec-60884-1-2022-cor2-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60885'
     part: '2'
@@ -250222,6 +250252,33 @@
     - CSV
   :file: data/iec-62788-7-3-2022+amd1-2024-csv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62788'
+      part: '2'
+      subpart: '1'
+      year: '2023'
+  :file: data/iec-62788-2-1-2023-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '62788'
+        part: '2'
+        subpart: '1'
+        year: '2023'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-62788-2-1-2023+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:technical-specification
     number: '62789'
     year: '2014'
@@ -261122,6 +261179,11 @@
     part: '210'
     year: '2025'
   :file: data/iec-63584-210-2025.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '63585'
+    year: '2026'
+  :file: data/iec-63585-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '63589'

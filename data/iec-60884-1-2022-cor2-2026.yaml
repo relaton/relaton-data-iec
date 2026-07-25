@@ -1,37 +1,56 @@
 ---
-id: IEC600925042026
+id: IEC6088412022COR22026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Electrical installations in ships
+  content: Corrigendum 2
+  type: title-intro
+- language: en
+  script: Latn
+  content: Plugs and socket-outlets for household and similar purposes
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 504: Automation, control and instrumentation'
+  content: 'Part 1: General requirements'
   type: title-part
 - language: en
   script: Latn
-  content: 'Electrical installations in ships - Part 504: Automation, control and
-    instrumentation'
+  content: 'Corrigendum 2 - Plugs and socket-outlets for household and similar purposes
+    - Part 1: General requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Corrigendum 2
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Prises de courant pour usages domestiques et analogues
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Exigences générales'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Corrigendum 2 - Prises de courant pour usages domestiques et analogues
+    - Partie 1: Exigences générales'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/68493
-- type: obp
-  content: https://webstore.iec.ch/preview/info_iec60092-504{ed5.0}en.pdf
+  content: https://webstore.iec.ch/publication/114060
 docidentifier:
-- content: IEC 60092-504:2026
+- content: IEC 60884-1:2022/COR2:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60092-504:2026-04:::'
+- content: urn:iec:std:iec:60884-1:2022:::::cor:2:2026
   type: URN
 date:
 - type: published
-  at: '2026-04-17'
+  at: '2026-07-24'
 - type: stable-until
-  at: '2028-12-31'
+  at: '2026-12-31'
 contributor:
 - role:
   - type: publisher
@@ -60,34 +79,26 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 18
+        content: TC 23/SC 23B
       identifier:
-      - content: '18'
+      - content: '23'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '5'
+  content: '4'
 language:
 - en
+- fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: |-
-    IEC 60092-504:2026 specifies requirements for electrical, electronic and programmable equipment supporting essential services intended for automation, control, monitoring, alert, safety and protection systems. This fifth edition cancels and replaces the fourth edition published in 2016. This edition constitutes a technical revision.<br/>
-    This edition includes the following significant technical changes with respect to the previous edition:<br/>
-    a) aligned bridge and machinery alert references throughout the document;<br/>
-    b) transfer of EMC items to IEC 60533 throughout the document;<br/>
-    c) update of power management and energy management (9.5 and 9.6).
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2026'
+- from: '2022'
   owner:
   - organization:
       uri:
@@ -109,10 +120,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 47.020.60
-    text: Electrical equipment of ships and  of marine structures
+  - code: 29.120.30
+    text: Plugs, socket-outlets, couplers
   structuredidentifier:
     type: IEC
     project_number:
-      content: '105152'
-  price_code: iec:L
+      content: '139847'
+  price_code: iec:ZZ
