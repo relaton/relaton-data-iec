@@ -1,38 +1,48 @@
 ---
-id: ISOIEC2212332023
+id: ISOIECGUIDE9832008AMD12026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Information technology
-  type: title-intro
-- language: en
-  script: Latn
-  content: Cloud computing
+  content: Uncertainty of measurement
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 3: Reference architecture'
+  content: 'Part 3: Guide to the expression of uncertainty in measurement (GUM:1995)
+    -- Amendment 1: Nonlinearity in measurement models'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Cloud computing - Part 3: Reference architecture'
+  content: 'Uncertainty of measurement - Part 3: Guide to the expression of uncertainty
+    in measurement (GUM:1995) -- Amendment 1: Nonlinearity in measurement models'
+  type: main
+- language: fr
+  script: Latn
+  content: Incertitude de mesure
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Guide pour l''expression de l''incertitude de mesure (GUM:1995)
+    -- Amendement 1: Titre manque'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Incertitude de mesure - Partie 3: Guide pour l''expression de l''incertitude
+    de mesure (GUM:1995) -- Amendement 1: Titre manque'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/88948
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec22123-3{ed1.0}en.pdf
+  content: https://webstore.iec.ch/publication/115398
 docidentifier:
-- content: ISO/IEC 22123-3:2023
+- content: ISO/IEC GUIDE 98-3:2008/AMD1:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:22123-3:2023-09:::'
+- content: urn:iec:std:iso-iec:98-3:2008:guide::::amd:1:2026
   type: URN
 date:
 - type: published
-  at: '2023-09-22'
+  at: '2026-07-27'
 contributor:
 - role:
   - type: publisher
@@ -75,9 +85,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 38
-      identifier:
-      - content: '1'
+        content: ISO/TMB
       type: technical-committee
     abbreviation:
       language: en
@@ -87,22 +95,14 @@ edition:
   content: '1'
 language:
 - en
+- fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: <p class="MsoBodyText">This document specifies the cloud computing reference
-    architecture (CCRA).</p>
-- language: fr
-  script: Latn
-  content: <p class="MsoBodyText">Le présent document spécifie l'architecture de référence
-    de l'informatique en nuage (CCRA).</p>
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2023'
+- from: '2008'
   owner:
   - organization:
       uri:
@@ -133,9 +133,9 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: guide
   flavor: iec
   ics:
-  - code: '35.210'
-    text: Cloud computing
-  price_code: iso:ZZ
+  - code: '17.020'
+    text: Metrology and measurement in general
+  price_code: iso:XZ

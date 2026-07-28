@@ -1,5 +1,5 @@
 ---
-id: ISOIEC2212332023
+id: ISOIEC19763132026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,30 +9,46 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Cloud computing
+  content: Metamodel framework for interoperability (MFI)
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 3: Reference architecture'
+  content: 'Part 13: Metamodel for form design registration'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Cloud computing - Part 3: Reference architecture'
+  content: 'Information technology - Metamodel framework for interoperability (MFI)
+    - Part 13: Metamodel for form design registration'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Cadre du métamodèle pour l'interopérabilité (MFI)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 13: Métamodèle pour l''enregistrement de la conception des formulaires'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Cadre du métamodèle pour l''interopérabilité
+    (MFI) - Partie 13: Métamodèle pour l''enregistrement de la conception des formulaires'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/88948
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec22123-3{ed1.0}en.pdf
+  content: https://webstore.iec.ch/publication/115399
 docidentifier:
-- content: ISO/IEC 22123-3:2023
+- content: ISO/IEC 19763-13:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:22123-3:2023-09:::'
+- content: 'urn:iec:std:iso-iec:19763-13:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '2023-09-22'
+  at: '2026-07-27'
 contributor:
 - role:
   - type: publisher
@@ -75,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 38
+        content: ISO/IEC JTC 1/SC 32
       identifier:
       - content: '1'
       type: technical-committee
@@ -87,22 +103,23 @@ edition:
   content: '1'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: <p class="MsoBodyText">This document specifies the cloud computing reference
-    architecture (CCRA).</p>
-- language: fr
-  script: Latn
-  content: <p class="MsoBodyText">Le présent document spécifie l'architecture de référence
-    de l'informatique en nuage (CCRA).</p>
+  content: "<p>This document provides a metamodel to describe the structure and semantics
+    of an implemented form devoid of any specific, domain semantics, e.g. in healthcare,
+    social science, e-government and e-business, or representation format so that
+    data can be faithfully exchanged between systems and system components, and associations
+    expressed between sets of form designs whose data can be compared, joined or composed
+    for analysis.</p>"
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2023'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -136,6 +153,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '35.210'
-    text: Cloud computing
-  price_code: iso:ZZ
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  price_code: iso:G

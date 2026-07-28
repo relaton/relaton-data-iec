@@ -1,38 +1,45 @@
 ---
-id: ISOIEC2212332023
+id: ISOIEC259862026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Information technology
+  content: Software engineering
   type: title-intro
 - language: en
   script: Latn
-  content: Cloud computing
+  content: NESMA functional size measurement method
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 3: Reference architecture'
+  content: Easy functional sizing (EFS)
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Cloud computing - Part 3: Reference architecture'
+  content: Software engineering - NESMA functional size measurement method - Easy
+    functional sizing (EFS)
+  type: main
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+- language: fr
+  script: Latn
+  content: Titre manque
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/88948
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec22123-3{ed1.0}en.pdf
+  content: https://webstore.iec.ch/publication/115402
 docidentifier:
-- content: ISO/IEC 22123-3:2023
+- content: ISO/IEC 25986:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:22123-3:2023-09:::'
+- content: 'urn:iec:std:iso-iec:25986:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '2023-09-22'
+  at: '2026-07-27'
 contributor:
 - role:
   - type: publisher
@@ -75,7 +82,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 38
+        content: ISO/IEC JTC 1
       identifier:
       - content: '1'
       type: technical-committee
@@ -87,22 +94,14 @@ edition:
   content: '1'
 language:
 - en
+- fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: <p class="MsoBodyText">This document specifies the cloud computing reference
-    architecture (CCRA).</p>
-- language: fr
-  script: Latn
-  content: <p class="MsoBodyText">Le présent document spécifie l'architecture de référence
-    de l'informatique en nuage (CCRA).</p>
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2023'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -136,6 +135,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '35.210'
-    text: Cloud computing
-  price_code: iso:ZZ
+  - code: '35.080'
+    text: Software
+  price_code: iso:C
