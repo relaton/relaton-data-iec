@@ -1,8 +1,12 @@
 ---
-id: IEC6003482026CMV
+id: IEC6003482026COR12026
 schema_version: v1.5.6
 type: standard
 title:
+- language: en
+  script: Latn
+  content: Corrigendum 1
+  type: title-intro
 - language: en
   script: Latn
   content: Rotating electrical machines
@@ -13,23 +17,38 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Rotating electrical machines - Part 8: Terminal markings and direction
-    of rotation'
+  content: 'Corrigendum 1 - Rotating electrical machines - Part 8: Terminal markings
+    and direction of rotation'
+  type: main
+- language: fr
+  script: Latn
+  content: Corrigendum 1
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Machines électriques tournantes
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 8: Marquages des bornes et sens de rotation'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Corrigendum 1 - Machines électriques tournantes - Partie 8: Marquages
+    des bornes et sens de rotation'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/113926
-- type: obp
-  content: https://webstore.iec.ch/preview/info_iec60034-8{ed4.0.CMV}en.pdf
+  content: https://webstore.iec.ch/publication/114738
 docidentifier:
-- content: IEC 60034-8:2026 CMV
+- content: IEC 60034-8:2026/COR1:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60034-8:2026::cmv:'
+- content: urn:iec:std:iec:60034-8:2026:::::cor:1:2026
   type: URN
 date:
 - type: published
-  at: '2026-06-02'
+  at: '2026-07-29'
 - type: stable-until
   at: '2027-12-31'
 contributor:
@@ -72,26 +91,9 @@ edition:
   content: '4'
 language:
 - en
+- fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: |-
-    CORRECTED VERSION 2026-07<br/>
-    <br/>
-    IEC 60034-8:2026 CMV contains both the official standard and its commented version. The commented version provides you with a quick and easy way to compare all the changes between IEC 60034-8:2026 edition 4.0 and the previous IEC 60034-8:2007+AMD1:2014 CSV edition 3.1. Furthermore, comments from IEC TC 2 experts are provided to explain the reasons of the most relevant changes, or to clarify any part of the content.<br/>
-    <br/>
-    IEC 60034-8:2026 applies to AC and DC machines and specifies:<br/>
-    a) rules for the identification of winding connection points;<br/>
-    b) marking of winding terminals;<br/>
-    c) direction of rotation;<br/>
-    d) relationship between terminal markings and direction of rotation;<br/>
-    e) terminal marking of auxiliary devices;<br/>
-    f) connection diagrams of machines for common applications.<br/>
-    This fourth edition cancels and replaces the third edition published in 2007 and Amendment 1:2014. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
-    a) The inclusion of turbine-type synchronous machines in the scope.<br/>
-    The content of the corrigendum 1 (2026-07) has been included in this copy.
 status:
   stage:
     content: PUBLISHED
@@ -123,5 +125,5 @@ ext:
   structuredidentifier:
     type: IEC
     project_number:
-      content: '125593'
-  price_code: iec:ML
+      content: '140228'
+  price_code: iec:ZZ
