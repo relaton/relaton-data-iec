@@ -1,5 +1,5 @@
 ---
-id: IEC6105812016RLV
+id: IEC6105812026RLV
 schema_version: v1.5.6
 type: standard
 title:
@@ -17,22 +17,20 @@ title:
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/25468
+  content: https://webstore.iec.ch/publication/115499
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iec61058-1{ed4.0.RLV}en.pdf
+  content: https://webstore.iec.ch/preview/info_iec61058-1{ed5.0.RLV}en.pdf
 docidentifier:
-- content: IEC 61058-1:2016 RLV
+- content: IEC 61058-1:2026 RLV
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61058-1:2016::rlv:'
+- content: 'urn:iec:std:iec:61058-1:2026::rlv:'
   type: URN
 date:
 - type: published
-  at: '2016-07-20'
+  at: '2026-07-30'
 - type: stable-until
-  at: '2026-07-30'
-- type: obsoleted
-  at: '2026-07-30'
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -70,7 +68,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '4'
+  content: '5'
 language:
 - en
 script:
@@ -79,15 +77,21 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    IEC 61058-1:2016 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
-    IEC 61058-1:2016 applies to switches for appliances. The switches are intended to control electrical appliances and other equipment for household or similar purposes with a rated voltage not exceeding 480 V and a rated current not exceeding 63 A. This fourth edition cancels and replaces the third edition published in 2000, amendment 1:2001 and amendment 2:2007. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
-    a) requirements for mechanical switches are now given in IEC 61058-1-1;<br/>
-    b) requirements for electronic switches are now given in IEC 61058-1-2.
+    IEC 61058-1:2026 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 61058-1:2026 applies to switches or switching devices for appliances. The switches are intended to control electrical appliances and other equipment for household or similar purposes with a rated voltage not exceeding 600 V and a rated current not exceeding 63 A. This fifth edition cancels and replaces the fourth edition published in 2016. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Extension to 600 V in the scope;<br/>
+    b) Add requirements on ground-fuse (Clause 17);<br/>
+    c) DC arc extinction test (Annex P and Clause 17);<br/>
+    d) Table 5 re-arranged to line-up with classifications;<br/>
+    e) Table 6 correction due to inhomogeneous values;<br/>
+    f) Deletion of X3 capacitors in classification and in Table 19.
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
-- from: '2016'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -114,5 +118,5 @@ ext:
   structuredidentifier:
     type: IEC
     project_number:
-      content: '21577'
+      content: '117521'
   price_code: iec:RG

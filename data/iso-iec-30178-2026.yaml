@@ -1,42 +1,51 @@
 ---
-id: IECTR61000192024
+id: ISOIEC301782026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Electromagnetic compatibility (EMC)
+  content: Internet of Things (IoT)
   type: title-intro
 - language: en
   script: Latn
-  content: 'Part 1-9: General'
+  content: Data format, value and coding for interoperability
   type: title-main
 - language: en
   script: Latn
-  content: Evaluation of uncertainty for the measurement of harmonic current emissions
-  type: title-part
-- language: en
-  script: Latn
-  content: 'Electromagnetic compatibility (EMC) - Part 1-9: General - Evaluation of
-    uncertainty for the measurement of harmonic current emissions'
+  content: Internet of Things (IoT) - Data format, value and coding for interoperability
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/81994
+  content: https://webstore.iec.ch/publication/68222
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iectr61000-1-9{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_isoiec30178{ed1.0}en.pdf
 docidentifier:
-- content: IEC TR 61000-1-9:2024
+- content: ISO/IEC 30178:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61000-1-9:2024-03:tr::'
+- content: 'urn:iec:std:iso-iec:30178:2026-07:::'
   type: URN
 date:
 - type: published
-  at: '2024-03-11'
+  at: '2026-07-30'
 - type: stable-until
-  at: '2029-12-31'
+  at: '2030-12-31'
 contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
 - role:
   - type: publisher
   organization:
@@ -64,9 +73,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 77/SC 77A
+        content: ISO/IEC JTC 1/SC 41
       identifier:
-      - content: '77'
+      - content: '1'
       type: technical-committee
     abbreviation:
       language: en
@@ -81,17 +90,26 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC TR 61000-1-9:2024 which is a Technical Report, provides examples for
-    the evaluation of measurement uncertainty of harmonic emission tests performed
-    using IEC 61000-3-2 and IEC 61000-3-12, and their application to the relevant
-    conformity decisions. It also contains practical formulae to enable calculations
-    in accordance with ISO/IEC Guide 98-3 (GUM).
+  content: ISO/IEC 30178:2026 defines common formats, values, and coding for data
+    interoperability and exchange among systems in the Internet of Things (IoT).
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2024'
+- from: '2026'
   owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
   - organization:
       uri:
       - type: org
@@ -109,15 +127,13 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: technical-report
+    content: international-standard
   flavor: iec
   ics:
-  - code: 33.100.10
-    text: Emission
-  - code: 33.100.01
-    text: Electromagnetic compatibility in general
+  - code: '35.020'
+    text: Information technology (IT) in general
   structuredidentifier:
     type: IEC
     project_number:
-      content: '115212'
-  price_code: iec:F
+      content: '104965'
+  price_code: iso:G
