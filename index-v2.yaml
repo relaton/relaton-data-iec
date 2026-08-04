@@ -46086,6 +46086,15 @@
       - IEC
   :file: data/iso-iec-23001-10-2020-amd2-2025.yaml
 - :id:
+    _type: pubid:iec:international-standard
+    number: '23001'
+    part: '19'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23001-19-2026.yaml
+- :id:
     _type: pubid:iec:corrigendum
     number: '1'
     year: '2013'
@@ -54748,6 +54757,15 @@
     - IEC
     - IEEE
   :file: data/iso-iec-ieee-26512-2018.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '26512'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    - IEEE
+  :file: data/iso-iec-ieee-26512-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '26513'
@@ -123197,6 +123215,33 @@
     vap:
     - EXV
   :file: data/iec-60335-2-2-2026-exv.yaml
+- :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '16'
+      year: '2022'
+  :file: data/iec-60335-2-16-2022-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60335'
+        part: '2'
+        subpart: '16'
+        year: '2022'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60335-2-16-2022+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60336'

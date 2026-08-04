@@ -1,51 +1,54 @@
 ---
-id: ISOIEC291512026
+id: ISOIEC23001192026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Information security, cybersecurity and privacy protection
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Controls, requirements, and guidance for personally identifiable information
-    protection
+  content: MPEG systems technologies
   type: title-main
 - language: en
   script: Latn
-  content: Information security, cybersecurity and privacy protection - Controls,
-    requirements, and guidance for personally identifiable information protection
+  content: 'Part 19: Carriage of green metadata'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 19: Carriage
+    of green metadata'
   type: main
 - language: fr
   script: Latn
-  content: Sécurité de l'information, cybersécurité et protection de la vie privée
+  content: Technologies de l'information
   type: title-intro
 - language: fr
   script: Latn
-  content: Mesures de sécurité, exigences et recommandations pour la protection des
-    données à caractère personnel
+  content: Technologies des systèmes MPEG
   type: title-main
 - language: fr
   script: Latn
-  content: Sécurité de l'information, cybersécurité et protection de la vie privée
-    - Mesures de sécurité, exigences et recommandations pour la protection des données
-    à caractère personnel
+  content: 'Partie 19: Titre manque'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
+    19: Titre manque'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/115318
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec29151{ed2.0}en.pdf
+  content: https://webstore.iec.ch/publication/115578
 docidentifier:
-- content: ISO/IEC 29151:2026
+- content: ISO/IEC 23001-19:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29151:2026-07:::'
+- content: 'urn:iec:std:iso-iec:23001-19:2026-08:::'
   type: URN
 date:
 - type: published
-  at: '2026-07-24'
+  at: '2026-08-04'
 contributor:
 - role:
   - type: publisher
@@ -88,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 27
+        content: ISO/IEC JTC 1/SC 29
       identifier:
       - content: '1'
       type: technical-committee
@@ -97,7 +100,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '1'
 language:
 - en
 - fr
@@ -107,9 +110,9 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    <p class="MsoNormal">This document specifies controls, purpose, and guidance for implementing controls, to meet the requirements identified by a risk and impact assessment related to the protection of personally identifiable information (PII).</p>
-    <p class="MsoNormal">In particular, this document specifies requirements and guidance based on ISO/IEC 27002, taking into consideration the controls for processing PII that can be applicable within the context of an organization's information security risk environment(s).</p>
-    <p class="MsoNormal">This document is applicable to all types and sizes of organizations acting as PII controllers (as defined in ISO/IEC 29100), including public and private companies, government entities and not-for-profit organizations that process PII, in particular, organizations that do not establish or operate a privacy information management system.</p>
+    <p>This document defines a storage and delivery format for metadata for energy-efficient decoding, encoding, presentation, and selection of media (green metadata) as defined in ISO/IEC 23001-11. The green metadata are timed metadata which can be associated with other tracks in the ISO Base Media File Format. Timed metadata such as power consumption information and their metrics are defined in this document for carriage in files based on ISO/IEC 14496-12.</p>
+    <p>In the context of DASH delivery, the green metadata representations and their association to the media representations are also defined using the signalling mechanisms specified in ISO/IEC 23009-1:2022 and ISO/IEC 23009-3[1].</p>
+    <p>These metadata can be used for multiple purposes, including optimizing power consumption during playback and supporting dynamic adaptive streaming.</p>
 status:
   stage:
     content: PUBLISHED
@@ -148,6 +151,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '35.030'
-    text: IT Security
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
   price_code: iso:F
