@@ -1,0 +1,119 @@
+---
+id: IECPAS637202026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Rigid circuit board
+  type: title-intro
+- language: en
+  script: Latn
+  content: Routing parameters
+  type: title-main
+- language: en
+  script: Latn
+  content: Rigid circuit board - Routing parameters
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/111572
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iecpas63720{ed1.0}en.pdf
+docidentifier:
+- content: IEC PAS 63720:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63720:2026-08:pas::'
+  type: URN
+date:
+- type: published
+  at: '2026-08-06'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 91
+      identifier:
+      - content: '91'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC PAS 63720:2026 defines standardized routing parameter tables applicable to the design of rigid circuit board with mechanically or laser drilled vias.<br/>
+    These parameter tables are based on the concept of "Routing Classes" initially introduced in the French standard NF-93713 (1971-1989, cancelled: 2019). They are linked to the pitch of electronic components (e.g., BGA, QFN, connector, etc.) and thus allow a better coupling with component and circuit board manufacturers.<br/>
+    They can be easily integrated into EDA tools to facilitate the work of designers, while ensuring a common standard of communication between customers and manufacturers.<br/>
+    Routing classes should not be confused with IPC performance classes, which are used in the context of circuit board acceptance (IPC-A-600) as well as qualification and performance (IPC-6012) standards. Additional information on circuit board design is provided by IPC-2221 (Generic Standard on Printed Board Design), IPC-2222 (Sectional Design Standard for Rigid Organic Printed Boards) and IPC-2226 (Sectional Design Standard for High Density Interconnect (HDI) Printed Boards).<br/>
+    This document is based on French AFNOR Spec 2212 and was submitted as a PAS document.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '31.190'
+    text: Electronic component assemblies
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '137350'
+  price_code: iec:F

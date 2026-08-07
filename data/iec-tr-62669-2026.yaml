@@ -1,0 +1,129 @@
+---
+id: IECTR626692026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Case studies supporting IEC 62232
+  type: title-intro
+- language: en
+  script: Latn
+  content: Determination of RF field strength, power density and SAR in the vicinity
+    of radiocommunication base stations for the purpose of evaluating human exposure
+  type: title-main
+- language: en
+  script: Latn
+  content: Case studies supporting IEC 62232 - Determination of RF field strength,
+    power density and SAR in the vicinity of radiocommunication base stations for
+    the purpose of evaluating human exposure
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/82053
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iectr62669{ed3.0}en.pdf
+docidentifier:
+- content: IEC TR 62669:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:62669:2026-08:tr::'
+  type: URN
+date:
+- type: published
+  at: '2026-08-06'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 106
+      identifier:
+      - content: '106'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 62669:2026 presents a series of case studies in which electromagnetic field (EMF) exposure is evaluated in accordance with IEC 62232:2025 [1]. The case studies presented in this document involve intentionally radiating base stations (BSs). The BS transmits on one or more antennas using one or more frequencies in the range 110 MHz to 300 GHz. RF exposure assessments consider, as a minimum, the contribution of ambient sources in at least the 100 kHz to 300 GHz frequency range.<br/>
+    Case studies presented in this document illustrate typical usage of IEC 62232:2025 for the RF exposure assessments of the most common BS types, deployed in mobile and wireless networks, such as small cells, street cells, macro BSs, and parabolic dish antennas used for wireless transmission or mobile backhaul. Many case studies also illustrate the implementation of the actual maximum approach and RF exposure assessment of massive multiple-input, multiple-output (mMIMO) BSs, which are deployed in operational mobile networks, such as 5G.<br/>
+    The case studies are provided for guidance only and are not a substitute for a thorough understanding of the requirements of IEC 62232:2025. Based on the technical outcome and lessons learned from each case study, suggestions are made about RF assessment topics to be considered in the next edition of IEC 62232. New assessment techniques for metrics specified in ICNIRP-2020 [2], such as whole-body average SAR (wbSAR) above 10 GHz and absorbed power density (APD), are also introduced.<br/>
+    NOTE 1 Trade names and trademarks of measurement equipment and computation tools given in this document and in the attached test reports are examples of suitable products available commercially. This information is given for the convenience of users of this document and does not constitute an endorsement by IEC of these products.<br/>
+    NOTE 2 The lower frequency considered for ambient sources, 100 kHz, is derived from ICNIRP-2020 [2] and ICNIRP-1998 [3]. Some applicable exposure limit guidelines, however, require ambient fields to be evaluated as low as 3 kHz, e.g. IEEE Std C95.1-2019 [4] and Safety Code 6 [5].<br/>
+    This third edition cancels and replaces the second edition published in 2019. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) additional case studies and technical updates illustrating the implementation of IEC 62232:2025;<br/>
+    b) general implementation of the actual maximum approach for beamforming antennas;<br/>
+    c) validation of power or EIRP control features;<br/>
+    d) in-situ measurement and implementation of extrapolation methods;<br/>
+    e) introduction of emerging laboratory measurement methods for product compliance assessments.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '13.280'
+    text: Radiation protection
+  - code: '17.240'
+    text: Radiation measurements
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '115252'
+  price_code: iec:P
