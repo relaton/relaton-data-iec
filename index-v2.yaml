@@ -147582,6 +147582,31 @@
     - RLV
   :file: data/iec-60645-7-2025-rlv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60645'
+      part: '6'
+      year: '2022'
+  :file: data/iec-60645-6-2022-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60645'
+        part: '6'
+        year: '2022'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60645-6-2022+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60646'
     year: '1979'
@@ -197740,6 +197765,12 @@
   :file: data/iec-ts-61200-102-2020.yaml
 - :id:
     _type: pubid:iec:technical-specification
+    number: '61200'
+    part: '201'
+    year: '2026'
+  :file: data/iec-ts-61200-201-2026.yaml
+- :id:
+    _type: pubid:iec:technical-specification
     number: '61201'
     year: '2007'
   :file: data/iec-ts-61201-2007.yaml
@@ -210359,6 +210390,22 @@
   :file: data/iec-61514-2026-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '61514'
+    part: '2'
+    year: '2026'
+  :file: data/iec-61514-2-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '61514'
+      part: '2'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-61514-2-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '61515'
     year: '1995'
   :file: data/iec-61515-1995.yaml
@@ -210748,6 +210795,15 @@
     number: '61540'
     year: '2023'
   :file: data/iec-61540-2023.yaml
+- :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61540'
+      year: '2023'
+  :file: data/iec-61540-2023-cor1-2026.yaml
 - :id:
     _type: pubid:iec:amendment
     number: '1'

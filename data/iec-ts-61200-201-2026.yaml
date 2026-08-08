@@ -1,38 +1,37 @@
 ---
-id: IECTR6254112020
+id: IECTS612002012026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: OPC Unified Architecture
+  content: Application guidance based on the IEC 60364 series
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 1: Overview and concepts'
+  content: 'Part 201: Asynchronous motor starting and protection'
   type: title-part
 - language: en
   script: Latn
-  content: 'OPC Unified Architecture - Part 1: Overview and concepts'
+  content: 'Application guidance based on the IEC 60364 series - Part 201: Asynchronous
+    motor starting and protection'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/61109
+  content: https://webstore.iec.ch/publication/105251
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iectr62541-1{ed3.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iects61200-201{ed1.0}en.pdf
 docidentifier:
-- content: IEC TR 62541-1:2020
+- content: IEC TS 61200-201:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62541-1:2020-11:tr::'
+- content: 'urn:iec:std:iec:61200-201:2026-08:ts::'
   type: URN
 date:
 - type: published
-  at: '2020-11-18'
+  at: '2026-08-07'
 - type: stable-until
-  at: '2026-12-31'
-- type: obsoleted
-  at: '2026-01-13'
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -61,16 +60,16 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 65/SC 65E
+        content: TC 64
       identifier:
-      - content: '65'
+      - content: '64'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '1'
 language:
 - en
 script:
@@ -78,15 +77,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC 62541-1:2020 presents the concepts and overview of the OPC Unified
-    Architecture (OPC UA). Reading this document is helpful to understand the remaining
-    parts of this multi-part document set. Each of the other parts of IEC 62451 is
-    briefly explained along with a suggested reading order.
+  content: IEC TS 61200-201:2026 provides guidance, based on the general requirements
+    provided in the IEC 60364 series, on the implementation of protective measures
+    for low-voltage asynchronous motors. This document covers the control and the
+    protection of low-voltage asynchronous motors.
 status:
   stage:
-    content: REPLACED
+    content: PUBLISHED
 copyright:
-- from: '2020'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -105,15 +104,13 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: technical-report
+    content: technical-specification
   flavor: iec
   ics:
-  - code: 25.040.40
-    text: Industrial process measurement and control
-  - code: 35.100.01
-    text: Open systems interconnection in general
+  - code: 91.140.50
+    text: Electricity supply systems
   structuredidentifier:
     type: IEC
     project_number:
-      content: '101121'
-  price_code: iec:G
+      content: '131720'
+  price_code: iec:J
