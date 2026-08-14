@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    logger (1.7.0)
+    parslet (2.0.0)
+    pubid-core (1.15.19)
+      parslet
+    pubid-iec (1.15.19)
+      parslet
+      pubid-core (= 1.15.19)
+    relaton-index (0.2.22)
+      pubid-core (~> 1.15.6)
+      relaton-logger (~> 0.2.0)
+      rubyzip (~> 2.3.0)
+    relaton-logger (0.2.4)
+      logger (~> 1.6)
+    rubyzip (2.3.2)
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  pubid-iec (~> 1.15.19)
+  relaton-index (~> 0.2.22)
+  relaton-logger (~> 0.2.4)
+
+CHECKSUMS
+  bundler (4.0.11) sha256=5bcec0fb78302e48d02ee46f10ee6e6942be647ba5b44a6d1ddfda9a240ce785
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
+  parslet (2.0.0) sha256=d45130695d39b43d7e6a91f4d2ec66b388a8d822bae38de9b4de9a5fbde1f606
+  pubid-core (1.15.19) sha256=57cd259b9958dcb31617dfbc9b141d525bdf0c0741e02000b5f64eb5b3c2d46f
+  pubid-iec (1.15.19) sha256=285524e8ee7516420ea81eacb661c91dd78a017726857d9969165bb92375c59d
+  relaton-index (0.2.22) sha256=21d0e56f2e9eb4204a2034e413033ff0e16f6a72db21c5040fb500a768506dd9
+  relaton-logger (0.2.4) sha256=1494cc7330e6d654afcb825904361371010b1d83d13705314a10a147f7f53358
+  rubyzip (2.3.2) sha256=3f57e3935dc2255c414484fbf8d673b4909d8a6a57007ed754dde39342d2373f
+
+BUNDLED WITH
+  4.0.11
