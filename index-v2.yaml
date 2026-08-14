@@ -123243,6 +123243,33 @@
     - CSV
   :file: data/iec-60335-2-16-2022+amd1-2026-csv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '40'
+      year: '2024'
+  :file: data/iec-60335-2-40-2024-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60335'
+        part: '2'
+        subpart: '40'
+        year: '2024'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60335-2-40-2024+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60336'
     year: '2005'
@@ -170375,6 +170402,22 @@
     vap:
     - CSV
   :file: data/iec-60851-1-2021+amd1-2025-csv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60851'
+    part: '5'
+    year: '2026'
+  :file: data/iec-60851-5-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60851'
+      part: '5'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-60851-5-2026-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60852'
@@ -232068,6 +232111,16 @@
     - CMV
   :file: data/iec-62196-1-2025-cmv.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62196'
+      part: '3'
+      year: '2026'
+  :file: data/iec-62196-3-2026-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '62197'
     part: '1'
@@ -252986,6 +253039,21 @@
       subpart: '22'
       year: '2025'
   :file: data/iec-62841-2-22-2025-cor1-2026.yaml
+- :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2025'
+      base:
+        _type: pubid:iec:international-standard
+        number: '62841'
+        part: '4'
+        subpart: '3'
+        year: '2020'
+  :file: data/iec-62841-4-3-2020-amd1-2025-cor1-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '62842'
