@@ -180636,6 +180636,31 @@
     - RLV
   :file: data/iec-60974-4-2025-rlv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60974'
+      part: '10'
+      year: '2020'
+  :file: data/iec-60974-10-2020-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60974'
+        part: '10'
+        year: '2020'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60974-10-2020+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60975'
     year: '1989'
