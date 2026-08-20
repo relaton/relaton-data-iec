@@ -1,0 +1,200 @@
+---
+id: IEC60947532026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Low-voltage switchgear and controlgear
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 5-3: Control circuit devices and switching elements'
+  type: title-main
+- language: en
+  script: Latn
+  content: Requirements for proximity devices with defined behaviour under fault conditions
+    (PDDB)
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Low-voltage switchgear and controlgear - Part 5-3: Control circuit devices
+    and switching elements - Requirements for proximity devices with defined behaviour
+    under fault conditions (PDDB)'
+  type: main
+- language: fr
+  script: Latn
+  content: Appareillage à basse tension
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 5-3: Appareils et éléments de commutation pour circuits de commande'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Exigences pour dispositifs de détection de proximité à comportement défini
+    dans des conditions de défaut (PDDB)
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Appareillage à basse tension - Partie 5-3: Appareils et éléments de commutation
+    pour circuits de commande - Exigences pour dispositifs de détection de proximité
+    à comportement défini dans des conditions de défaut (PDDB)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/75167
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec60947-5-3{ed3.0}en.pdf
+docidentifier:
+- content: IEC 60947-5-3:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:60947-5-3:2026-08:::'
+  type: URN
+date:
+- type: published
+  at: '2026-08-19'
+- type: stable-until
+  at: '2028-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 121/SC 121A
+      identifier:
+      - content: '121'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60947-5-3:2026 provides additional requirements to those given in IEC 60947-5-2 and IEC 60947-5-1:2024, Annex D (reed contact magnetic switches). It addresses the fault performance aspects of proximity devices with a defined behaviour under fault conditions (PDDB). It does not address any other characteristics that can be required for specific applications.<br/>
+    This document does not apply to protective equipment to directly detect the presence of persons, that are covered by the IEC 61496 series or IEC TS 62998 series.<br/>
+    NOTE 1 A PDDB device can be used to detect indirectly the presence of a person, for example by detecting the position of a platform on which the operator stands (example, garbage trucks).<br/>
+    This document does not specify requirements for the analogue output of PDDB, if any.<br/>
+    This document does not deal with any specific requirements on acoustic noise as the noise emission of proximity devices is not considered to be a relevant hazard.<br/>
+    A PDDB product is intended to be used as sensing subsystem of a safety related control system according to IEC 62061 or ISO 13849-1. Depending on construction principles and complexity, this document is based on product development of the IEC 61508 series to meet the product specific requirements of one or more of the following:<br/>
+    – IEC 61508 series;<br/>
+    – IEC 62061;<br/>
+    – ISO 13849 series.<br/>
+    NOTE 2 The Functional safety device type classification regarding functional safety correlates with IEC 62683-2-3.<br/>
+    This document includes requirements for PDDB when designed for use as part of an interlocking device according to ISO 14119.<br/>
+    This document does not consider aspects of:<br/>
+    – software updates and self-evolving behaviour;<br/>
+    – explosive atmospheres.<br/>
+    This third edition cancels and replaces the second edition published in 2013. This edition constitutes a technical revision.<br/>
+    This third edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Update of the scope, refined fault performance aspects and relation to standards of functional safety.<br/>
+    b) The ‘safe state’ is generally determined as ‘OFF-state’ (see 3.1.8).<br/>
+    c) Update of EMC requirements in 8.2.6 with references to IEC 60947-5-2:2019 for acceptance criteria A, B and C and requirements of Table 17 for acceptance criterion DS.<br/>
+    d) Interface types for binary interfaces are introduced (see 4.6.2 and Annex B).<br/>
+    e) Functional safety device types according to ISO 13849-1:2023 Annex O (see 4.9).<br/>
+    f) Interlocking device type and coding level according to ISO 14119 are adapted (see 4.10 and 4.11).<br/>
+    g) The operating modes target present (4.12.2) and target absent (4.12.3) are introduced.<br/>
+    h) The ‘switching distance’ replaces the terms ‘release’ and ‘operating’. The behaviour of the PDDB is described according to the operating mode (4.12).<br/>
+    i) The context and verification of the switching distances are considered according to ISO/IEC Guide 98-3:2008 (GUM) and IEC TR 63649 (see 8.2.1.3 and 9.4.2).<br/>
+    j) Requirements for electrical equipment class III are refined.<br/>
+    k) The risk time is replaced with the safety response time (3.1.11).<br/>
+    l) Annex A gives a new example of safety related control system.<br/>
+    m) The test sequences (see 9.3.1) are updated for the specific behaviour of a PDDB.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 60947-5-3:2026 fournit des exigences supplémentaires à celles énoncées dans l'IEC 60947-5-2 et l'IEC 60947-5-1:2024, Annexe D (interrupteurs magnétiques à lames souples). Elle couvre les aspects de défaut des dispositifs de détection de proximité à comportement défini (PDDB, Proximity Devices with a Defined Behaviour) dans les conditions de défaut. Elle ne couvre aucune autre fonctionnalité qui peut être exigée pour des applications spécifiques.<br/>
+    Le présent document ne s'applique pas aux équipements de protection destinés à détecter directement la présence de personnes, qui sont couverts par la série IEC 61496 ou la série IEC TS 62998.<br/>
+    NOTE 1 Un dispositif PDDB peut être utilisé pour détecter indirectement la présence d'une personne, par exemple en détectant la position d'une plateforme sur laquelle se situe l'opérateur (camions poubelles, par exemple).<br/>
+    Le présent document ne spécifie pas d'exigences relatives à la sortie analogique du PDDB, le cas échéant.<br/>
+    Le présent document ne traite pas des exigences spécifiques concernant le bruit acoustique dans la mesure où l'émission de bruit par les dispositifs de détection de proximité n'est pas considérée comme un phénomène dangereux.<br/>
+    Un produit PDDB est destiné à être utilisé comme sous système de détection d'un système de commande relatif à la sécurité selon l'IEC 62061 ou l'ISO 13849-1. En fonction des principes de construction et de la complexité, le présent document repose sur le développement de produits de la série IEC 61508 afin de satisfaire aux exigences spécifiques aux produits d'une ou de plusieurs des normes suivantes:<br/>
+    – série IEC 61508;<br/>
+    – IEC 62061;<br/>
+    – série ISO 13849.<br/>
+    NOTE 2 La classification des types de dispositifs de sécurité fonctionnelle par rapport à la sécurité fonctionnelle est corrélée avec l'IEC 62683-2-3.<br/>
+    Le présent document comporte des exigences relatives aux PDDB lorsqu'ils sont conçus pour être utilisés en tant que partie d'un dispositif de verrouillage selon l'ISO 14119.<br/>
+    Le présent document ne tient pas compte des aspects relatifs:<br/>
+    – aux mises à jour logicielles et au comportement autoévolutif;<br/>
+    – aux atmosphères explosives.<br/>
+    Cette troisième édition annule et remplace la deuxième édition parue en 2013. Cette édition constitue une révision technique.<br/>
+    Cette troisième édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) mise à jour du domaine d'application, précision des aspects de défaut et de la relation avec les normes de sécurité fonctionnelle;<br/>
+    b) l'"état de sécurité" est généralement déterminé comme étant l'"état INACTIF" (voir le 3.1.8);<br/>
+    c) mise à jour des exigences de CEM au 8.2.6 avec référence à l'IEC 60947-5-2:2019 pour les critères d'acceptation A, B et C et aux exigences du Tableau 17 pour le critère d'acceptation DS;<br/>
+    d) introduction des types d'interfaces pour les interfaces binaires (voir le 4.6.2 et l'Annexe B);<br/>
+    e) types de dispositifs de sécurité fonctionnelle selon l'ISO 13849-1:2023, Annexe O (voir le 4.9);<br/>
+    f) adaptation du type et du niveau de codage des dispositifs de verrouillage selon l'ISO 14119 (voir le 4.10 et le 4.11);<br/>
+    g) introduction des modes de fonctionnement Cible présente (4.12.2) et Cible absente (4.12.3);<br/>
+    h) remplacement des termes "portée de déclenchement" et "distance de fonctionnement" par la "distance de commutation". Le comportement du PDDB est décrit en fonction du mode de fonctionnement (4.12);<br/>
+    i) prise en compte du contexte et de la vérification des distances de commutation conformément au Guide 98-3:2008 de l'ISO/IEC (GUM) et à l'IEC TR 63649 (voir le 8.2.1.3 et le 9.4.2);<br/>
+    j) précision des exigences pour la classe d'équipement électrique III;<br/>
+    k) remplacement du temps de risque par le temps de réponse de sécurité (3.1.11);<br/>
+    l) l'Annexe A donne un nouvel exemple de système de commande relatif à la sécurité;<br/>
+    m) mise à jour des séquences d'essais (voir le 9.3.1) pour le comportement spécifique d'un PDDB.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '110252'
+  price_code: iec:L
