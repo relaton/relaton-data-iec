@@ -1,0 +1,116 @@
+---
+id: IECPAS6185090192026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-19: Use of Role Based Access Control (RBAC) with IEC 61850'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part
+    90-19: Use of Role Based Access Control (RBAC) with IEC 61850'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/90330
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iecpas61850-90-19{ed1.0}en.pdf
+docidentifier:
+- content: IEC PAS 61850-90-19:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-90-19:2026-08:pas::'
+  type: URN
+date:
+- type: published
+  at: '2026-08-20'
+- type: stable-until
+  at: '2027-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      identifier:
+      - content: '57'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC PAS 61850-90-19:2026 document takes over the IEC 61850 data model specific definitions such as the definition of permissions and their assignment to roles from IEC 62351-8.<br/>
+    The general requirements for Role-Based Access Control (RBAC) are defined in IEC 62351-8. This part of IEC 61850, which is a Publicly Available Specification, applies those requirements to the IEC 61850 environment, including the RBAC modelling considerations, the impacts on IEC 61850 models and protocols, and the resulting engineering process requirements.<br/>
+    Additionally, the binding of permissions to objects is defined to allow an interoperable implementation regarding the semantic of roles. This is achieved by an assignment to unique data objects based on the SCL description. Note that for this, IEC 61850-6:2009+AMD1:2018+AMD2:2024 is a prerequisite as it defined a unique identification of objects in SCL.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '121895'
+  price_code: iec:L
