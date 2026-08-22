@@ -1,50 +1,56 @@
 ---
-id: IEC61029281995
+id: IEC63522192026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Safety of transportable motor-operated electric tools
+  content: Electrical relays
+  type: title-intro
+- language: en
+  script: Latn
+  content: Tests and measurements
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 2: Particular requirements for single spindle vertical moulders'
+  content: 'Part 19: Electrical endurance'
   type: title-part
 - language: en
   script: Latn
-  content: 'Safety of transportable motor-operated electric tools - Part 2: Particular
-    requirements for single spindle vertical moulders'
+  content: 'Electrical relays - Tests and measurements - Part 19: Electrical endurance'
   type: main
 - language: fr
   script: Latn
-  content: Sécurité des machines-outils électriques semi-fixes
+  content: Relais électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Essais et mesurages
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 2: Règles particulières pour les toupies monobroches verticales'
+  content: 'Partie 19: Endurance électrique'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Sécurité des machines-outils électriques semi-fixes - Partie 2: Règles
-    particulières pour les toupies monobroches verticales'
+  content: 'Relais électriques - Essais et mesurages - Partie 19: Endurance électrique'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/4333
+  content: https://webstore.iec.ch/publication/70631
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iec61029-2-8{ed1.0}b.img.pdf
+  content: https://webstore.iec.ch/preview/info_iec63522-19{ed1.0}en.pdf
 docidentifier:
-- content: IEC 61029-2-8:1995
+- content: IEC 63522-19:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61029-2-8:1995-04:::'
+- content: 'urn:iec:std:iec:63522-19:2026-08:::'
   type: URN
 date:
 - type: published
-  at: '1995-04-20'
+  at: '2026-08-21'
 - type: stable-until
-  at: '2026-08-31'
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -73,9 +79,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 116
+        content: TC 94
       identifier:
-      - content: '116'
+      - content: '94'
       type: technical-committee
     abbreviation:
       language: en
@@ -91,17 +97,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Applies to transportable single spindle vertical moulders with a maximum
-    cutter block diameter of 180 mm.
+  content: IEC 63522-19:2026 This part defines a test method to measure electrical
+    endurance of electrical relays and provides the appropriate severities and conditions
+    for measurements designed to assess the ability of DUTs to perform under expected
+    conditions of transportation, storage and all aspects of operational use.
 - language: fr
   script: Latn
-  content: S'applique aux toupies monobroches verticales semi-fixes munies d'un outil
-    coupant d'un diamètre maximal de 180 mm.
+  content: IEC 63522-19:2026 La présente partie définit une méthode d'essai pour mesurer
+    l'endurance électrique des relais électriques, et fournit les sévérités et conditions
+    appropriées pour les mesurages destinés à évaluer l'aptitude de tous les types
+    de relais électriques à fonctionner dans des conditions prévues de transport,
+    de stockage et tous les aspects d'utilisation opérationnelle.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '1995'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -123,12 +134,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 25.140.20
-    text: Electric tools
-  - code: 25.080.20
-    text: Boring and milling machines
+  - code: 29.120.70
+    text: Relays
   structuredidentifier:
     type: IEC
     project_number:
-      content: '6863'
-  price_code: iec:F
+      content: '106513'
+  price_code: iec:H

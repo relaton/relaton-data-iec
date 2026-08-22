@@ -105622,6 +105622,36 @@
     - CSV
   :file: data/iec-60317-27-1-2020+amd1-2024-csv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '2'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60317'
+      part: '0'
+      subpart: '1'
+      year: '2013'
+  :file: data/iec-60317-0-1-2013-amd2-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '60317'
+        part: '0'
+        subpart: '1'
+        year: '2013'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2019'
+      - _type: pubid:iec:amendment
+        number: '2'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-60317-0-1-2013+amd1-2019+amd2-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60318'
     part: '1'
@@ -221131,6 +221161,13 @@
     year: '2026'
   :file: data/iec-61851-23-1-2026.yaml
 - :id:
+    _type: pubid:iec:international-standard
+    number: '61851'
+    part: '23'
+    subpart: '3'
+    year: '2026'
+  :file: data/iec-61851-23-3-2026.yaml
+- :id:
     _type: pubid:iec:technical-report
     number: '61852'
     year: '1998'
@@ -261564,6 +261601,12 @@
       part: '48'
       year: '2024'
   :file: data/iec-63522-48-2024-cor1-2025.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '63522'
+    part: '19'
+    year: '2026'
+  :file: data/iec-63522-19-2026.yaml
 - :id:
     _type: pubid:iec:technical-specification
     number: '63527'
