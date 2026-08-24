@@ -1,41 +1,61 @@
 ---
-id: ISOIECIEEE880232021AMD12021
+id: ISOIECIEEE88021AS2021AMD22026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Telecommunications and information exchange between systems
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Specific requirements for local and metropolitan area networks
+  content: Telecommunications and information exchange between systems
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 3: Standard for Ethernet -- Amendment 1: Physical layer specifications
-    and management parameters for 2.5 Gb/s and 5 Gb/s operation over backplane'
+  content: 'Local and metropolitan area networks -- Part 1AS: Timing and synchronization
+    for time-sensitive applications in bridged local area networks -- Amendment 2:
+    YANG data model'
   type: title-part
 - language: en
   script: Latn
-  content: 'Telecommunications and information exchange between systems - Specific
-    requirements for local and metropolitan area networks - Part 3: Standard for Ethernet
-    -- Amendment 1: Physical layer specifications and management parameters for 2.5
-    Gb/s and 5 Gb/s operation over backplane'
+  content: 'Information technology - Telecommunications and information exchange between
+    systems - Local and metropolitan area networks -- Part 1AS: Timing and synchronization
+    for time-sensitive applications in bridged local area networks -- Amendment 2:
+    YANG data model'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Télécommunications et échange d'information entre systèmes
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Réseaux locaux et métropolitains -- Partie 1AS: Temporisation et synchronisation
+    pour les applications sensibles au temps des réseaux locaux pontés -- Amendement
+    2: Modèle de données YANG'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Télécommunications et échange d''information
+    entre systèmes - Réseaux locaux et métropolitains -- Partie 1AS: Temporisation
+    et synchronisation pour les applications sensibles au temps des réseaux locaux
+    pontés -- Amendement 2: Modèle de données YANG'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/73367
+  content: https://webstore.iec.ch/publication/116162
 docidentifier:
-- content: ISO/IEC/IEEE 8802-3:2021/AMD1:2021
+- content: ISO/IEC/IEEE 8802-1AS:2021/AMD2:2026
   type: IEC
   primary: true
-- content: urn:iec:std:iso-iec-ieee:8802-3:2021:::::amd:1:2021
+- content: urn:iec:std:iso-iec-ieee:8802-1::::::amd:2:2026
   type: URN
 date:
 - type: published
-  at: '2021-12-23'
-- type: obsoleted
   at: '2026-08-24'
 contributor:
 - role:
@@ -102,14 +122,15 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '3'
+  content: '2'
 language:
 - en
+- fr
 script:
 - Latn
 status:
   stage:
-    content: REVISED
+    content: PUBLISHED
 copyright:
 - from: '2021'
   owner:
@@ -159,4 +180,4 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  price_code: iso:B
+  price_code: iso:G
