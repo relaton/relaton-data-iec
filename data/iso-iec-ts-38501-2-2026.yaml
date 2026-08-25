@@ -1,5 +1,5 @@
 ---
-id: ISOIECIEEE8802A2026
+id: ISOIECTS3850122026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,16 +9,16 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Telecommunications and information exchange between systems
+  content: Governance of IT implementation guidance
   type: title-main
 - language: en
   script: Latn
-  content: 'Local and metropolitan area networks -- Part A: Overview and architecture'
+  content: 'Part 2: Assessment scheme and examples'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Telecommunications and information exchange between
-    systems - Local and metropolitan area networks -- Part A: Overview and architecture'
+  content: 'Information technology - Governance of IT implementation guidance - Part
+    2: Assessment scheme and examples'
   type: main
 - language: fr
   script: Latn
@@ -26,32 +26,29 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: Télécommunications et échange d'information entre systèmes
+  content: Gouvernance des technologies de l'information
   type: title-main
 - language: fr
   script: Latn
-  content: 'Réseaux locaux et métropolitains -- Partie A: Présentation et architecture'
+  content: 'Partie 2: Schéma d''évaluation et exemples'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Télécommunications et échange d''information
-    entre systèmes - Réseaux locaux et métropolitains -- Partie A: Présentation et
-    architecture'
+  content: 'Technologies de l''information - Gouvernance des technologies de l''information
+    - Partie 2: Schéma d''évaluation et exemples'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/116159
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiecieee8802-A{ed2.0}en.pdf
+  content: https://webstore.iec.ch/publication/116260
 docidentifier:
-- content: ISO/IEC/IEEE 8802-A:2026
+- content: ISO/IEC TS 38501-2:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec-ieee:8802-::::'
+- content: 'urn:iec:std:iso-iec:38501-2:2026-08:ts::'
   type: URN
 date:
 - type: published
-  at: '2026-08-24'
+  at: '2026-08-25'
 contributor:
 - role:
   - type: publisher
@@ -82,20 +79,6 @@ contributor:
       script: Latn
       content: IEC
 - role:
-  - type: publisher
-  organization:
-    uri:
-    - type: org
-      content: www.ieee.org
-    name:
-    - language: en
-      script: Latn
-      content: Institute of Electrical and Electronics Engineers
-    abbreviation:
-      language: en
-      script: Latn
-      content: IEEE
-- role:
   - type: author
     description:
     - content: committee
@@ -108,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 6
+        content: ISO/IEC JTC 1/SC 40
       identifier:
       - content: '1'
       type: technical-committee
@@ -117,7 +100,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '1'
 language:
 - en
 - fr
@@ -126,10 +109,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "<p>This document contains descriptions of the IEEE 802® standards published
-    by the IEEE for frame-based data networks as well as a reference model (RM) for
-    protocol standards. A specification for the identification of public, private,
-    and standard protocols is included.</p>"
+  content: |-
+    <p class="MsoBodyText">This document provides guidance on the assessment scheme to be used when implementing the governance of IT in organizations in accordance with ISO/IEC 38500 and ISO/IEC 38501-1.</p>
+    <p class="MsoBodyText">It establishes the assessment framework and rating scale appropriate for principles-based governance of IT, and provides sample governance of IT characteristics for each of the 11 principles listed in ISO/IEC 38500 (see Annex A).</p>
+    <p class="MsoBodyText">This document can be used by individuals responsible for governance of IT in an organization, as well as individuals supporting the governance of IT in organizations, and is applicable to organizations of all sizes and types.</p>
 status:
   stage:
     content: PUBLISHED
@@ -160,26 +143,16 @@ copyright:
         language: en
         script: Latn
         content: IEC
-  - organization:
-      uri:
-      - type: org
-        content: www.ieee.org
-      name:
-      - language: en
-        script: Latn
-        content: Institute of Electrical and Electronics Engineers
-      abbreviation:
-        language: en
-        script: Latn
-        content: IEEE
 place:
 - city: Geneva
 ext:
   schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-specification
   flavor: iec
   ics:
-  - code: '35.110'
-    text: Networking
-  price_code: iso:H
+  - code: '35.020'
+    text: Information technology (IT) in general
+  - code: 03.100.02
+    text: Governance and ethics
+  price_code: iso:C

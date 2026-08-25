@@ -49257,6 +49257,15 @@
   :file: data/iso-iec-23090-30-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '23090'
+    part: '15'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-23090-15-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '23091'
     part: '3'
     year: '2018'
@@ -63461,6 +63470,15 @@
     copublishers:
     - IEC
   :file: data/iso-iec-ts-38501-2015.yaml
+- :id:
+    _type: pubid:iec:technical-specification
+    number: '38501'
+    part: '2'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-ts-38501-2-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '38502'
@@ -146867,6 +146885,20 @@
     vap:
     - RLV
   :file: data/iec-60623-2017-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60623'
+    year: '2026'
+  :file: data/iec-60623-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60623'
+      year: '2026'
+    vap:
+    - CMV
+  :file: data/iec-60623-2026-cmv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: 60623A
@@ -270439,6 +270471,24 @@
       - IEC
       - IEEE
   :file: data/iso-iec-ieee-8802-1as-2021-amd3-2026.yaml
+- :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    - IEEE
+    base:
+      _type: pubid:iec:international-standard
+      number: '8802'
+      part: '3'
+      year: '2026'
+      publisher: ISO
+      copublishers:
+      - IEC
+      - IEEE
+  :file: data/iso-iec-ieee-8802-3-2026-cor1-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '8803'

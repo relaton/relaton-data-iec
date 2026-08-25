@@ -1,5 +1,5 @@
 ---
-id: ISOIECIEEE8802A2026
+id: ISOIEC23090152026
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,16 +9,16 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: Telecommunications and information exchange between systems
+  content: Coded representation of immersive media
   type: title-main
 - language: en
   script: Latn
-  content: 'Local and metropolitan area networks -- Part A: Overview and architecture'
+  content: 'Part 15: Conformance testing for versatile video coding'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Telecommunications and information exchange between
-    systems - Local and metropolitan area networks -- Part A: Overview and architecture'
+  content: 'Information technology - Coded representation of immersive media - Part
+    15: Conformance testing for versatile video coding'
   type: main
 - language: fr
   script: Latn
@@ -26,28 +26,25 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: Télécommunications et échange d'information entre systèmes
+  content: Représentation codée de média immersifs
   type: title-main
 - language: fr
   script: Latn
-  content: 'Réseaux locaux et métropolitains -- Partie A: Présentation et architecture'
+  content: 'Partie 15: Essai de conformité pour le codage vidéo polyvalent'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Télécommunications et échange d''information
-    entre systèmes - Réseaux locaux et métropolitains -- Partie A: Présentation et
-    architecture'
+  content: 'Technologies de l''information - Représentation codée de média immersifs
+    - Partie 15: Essai de conformité pour le codage vidéo polyvalent'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/116159
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiecieee8802-A{ed2.0}en.pdf
+  content: https://webstore.iec.ch/publication/116258
 docidentifier:
-- content: ISO/IEC/IEEE 8802-A:2026
+- content: ISO/IEC 23090-15:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec-ieee:8802-::::'
+- content: 'urn:iec:std:iso-iec:23090-15:2026-08:::'
   type: URN
 date:
 - type: published
@@ -82,20 +79,6 @@ contributor:
       script: Latn
       content: IEC
 - role:
-  - type: publisher
-  organization:
-    uri:
-    - type: org
-      content: www.ieee.org
-    name:
-    - language: en
-      script: Latn
-      content: Institute of Electrical and Electronics Engineers
-    abbreviation:
-      language: en
-      script: Latn
-      content: IEEE
-- role:
   - type: author
     description:
     - content: committee
@@ -108,7 +91,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 6
+        content: ISO/IEC JTC 1/SC 29
       identifier:
       - content: '1'
       type: technical-committee
@@ -117,7 +100,7 @@ contributor:
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '3'
 language:
 - en
 - fr
@@ -126,10 +109,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "<p>This document contains descriptions of the IEEE 802® standards published
-    by the IEEE for frame-based data networks as well as a reference model (RM) for
-    protocol standards. A specification for the identification of public, private,
-    and standard protocols is included.</p>"
+  content: <p class="MsoBodyText">This document specifies a set of tests and procedures
+    designed to indicate whether encoders or decoders meet the requirements specified
+    in Rec. ITU-T H.266 | ISO/IEC 23090-3.</p>
 status:
   stage:
     content: PUBLISHED
@@ -160,18 +142,6 @@ copyright:
         language: en
         script: Latn
         content: IEC
-  - organization:
-      uri:
-      - type: org
-        content: www.ieee.org
-      name:
-      - language: en
-        script: Latn
-        content: Institute of Electrical and Electronics Engineers
-      abbreviation:
-        language: en
-        script: Latn
-        content: IEEE
 place:
 - city: Geneva
 ext:
@@ -180,6 +150,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '35.110'
-    text: Networking
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
   price_code: iso:H
