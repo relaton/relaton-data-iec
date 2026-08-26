@@ -43640,6 +43640,15 @@
   :file: data/iso-iec-21617-1-2025.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '21617'
+    part: '1'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-21617-1-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '21778'
     year: '2017'
     publisher: ISO
@@ -155987,6 +155996,12 @@
   :file: data/iec-60728-11-2023-rlv.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '60728'
+    part: '114'
+    year: '2026'
+  :file: data/iec-60728-114-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '60729'
     year: '1982'
   :file: data/iec-60729-1982.yaml
@@ -213003,6 +213018,29 @@
     - CMV
   :file: data/iec-61591-2023-cmv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61591'
+      year: '2023'
+  :file: data/iec-61591-2023-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '61591'
+        year: '2023'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-61591-2023+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:technical-report
     number: '61592'
     year: '2003'
@@ -257625,6 +257663,12 @@
     year: '2020'
   :file: data/iec-63092-2-2020.yaml
 - :id:
+    _type: pubid:iec:technical-specification
+    number: '63092'
+    part: '3'
+    year: '2026'
+  :file: data/iec-ts-63092-3-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '63093'
     part: '7'
@@ -260787,6 +260831,13 @@
     part: '1'
     year: '2025'
   :file: data/iec-63402-1-2025.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '63402'
+    part: '2'
+    subpart: '2'
+    year: '2026'
+  :file: data/iec-63402-2-2-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '63403'
@@ -265915,6 +265966,19 @@
     vap:
     - CSV
   :file: data/iec-80601-2-49-2018+amd1-2024-csv.yaml
+- :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    publisher: ISO
+    base:
+      _type: pubid:iec:international-standard
+      number: '80601'
+      part: '2'
+      subpart: '13'
+      year: '2022'
+      publisher: ISO
+  :file: data/iso-80601-2-13-2022-amd1-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '8063'
