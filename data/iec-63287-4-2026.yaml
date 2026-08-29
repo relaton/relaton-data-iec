@@ -1,60 +1,58 @@
 ---
-id: IEC60745232006AMD12010
+id: IEC6328742026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Amendment 1
+  content: Semiconductor devices
   type: title-intro
 - language: en
   script: Latn
-  content: Hand-held motor-operated electric tools
+  content: Guidelines for reliability qualification plans
   type: title-main
 - language: en
   script: Latn
-  content: 'Safety -- Part 2-3: Particular requirements for grinders, polishers and
-    disk-type sanders'
+  content: 'Part 4: Early failure assessment'
   type: title-part
 - language: en
   script: Latn
-  content: 'Amendment 1 - Hand-held motor-operated electric tools - Safety -- Part
-    2-3: Particular requirements for grinders, polishers and disk-type sanders'
+  content: 'Semiconductor devices - Guidelines for reliability qualification plans
+    - Part 4: Early failure assessment'
   type: main
 - language: fr
   script: Latn
-  content: Amendement 1
+  content: Dispositifs à semiconducteurs
   type: title-intro
 - language: fr
   script: Latn
-  content: Outils électroportatifs à moteur
+  content: Lignes directrices concernant les plans de qualification de la fiabilité
   type: title-main
 - language: fr
   script: Latn
-  content: 'Sécurité -- Partie 2-3: Règles particulières pour les meuleuses, lustreuses
-    et ponceuses du type à disque'
+  content: 'Partie 4: Évaluation des défaillances précoces'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Amendement 1 - Outils électroportatifs à moteur - Sécurité -- Partie 2-3:
-    Règles particulières pour les meuleuses, lustreuses et ponceuses du type à disque'
+  content: 'Dispositifs à semiconducteurs - Lignes directrices concernant les plans
+    de qualification de la fiabilité - Partie 4: Évaluation des défaillances précoces'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/3211
+  content: https://webstore.iec.ch/publication/91114
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iec63287-4{ed1.0}en.pdf
 docidentifier:
-- content: IEC 60745-2-3:2006/AMD1:2010
+- content: IEC 63287-4:2026
   type: IEC
   primary: true
-- content: urn:iec:std:iec:60745-2-3:2006:::::amd:1:2010
+- content: 'urn:iec:std:iec:63287-4:2026-08:::'
   type: URN
 date:
 - type: published
-  at: '2010-11-10'
+  at: '2026-08-28'
 - type: stable-until
-  at: '2027-12-31'
-- type: obsoleted
-  at: '2026-07-31'
+  at: '2031-12-31'
 contributor:
 - role:
   - type: publisher
@@ -83,16 +81,16 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 116
+        content: TC 47
       identifier:
-      - content: '116'
+      - content: '47'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '1'
 language:
 - en
 - fr
@@ -101,17 +99,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The contents of the corrigendum of February 2011 have been included in
-    this copy.
+  content: IEC 63287-4:2026 gives guidelines for the development of reliability qualification
+    plans using the early failure assessment, based on the environmental conditioning
+    and proposed usage of the product. This document is not intended for military-
+    and space-related applications.
 - language: fr
   script: Latn
-  content: Le contenu du corrigendum de février 2011 a été pris en considération dans
-    cet exemplaire.
+  content: L’IEC 63287-4:2026 fournit des lignes directrices pour l'élaboration de
+    plans de qualification de la fiabilité qui utilisent l'évaluation des défaillances
+    précoces, sur la base des conditions environnementales et de l’utilisation prévue
+    du produit. Le présent document n’est pas destiné aux applications militaires
+    et spatiales.
 status:
   stage:
-    content: REPLACED
+    content: PUBLISHED
 copyright:
-- from: '2006'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -133,10 +136,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 25.140.20
-    text: Electric tools
+  - code: 31.080.01
+    text: Semiconductor devices in general
   structuredidentifier:
     type: IEC
     project_number:
-      content: '16688'
+      content: '122732'
   price_code: iec:D
