@@ -29391,6 +29391,22 @@
     - IEC
   :file: data/iso-iec-15944-8-2026.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '2'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15944'
+      part: '7'
+      year: '2009'
+      publisher: ISO
+      copublishers:
+      - IEC
+  :file: data/iso-iec-15944-7-2009-amd2-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '15945'
     year: '2002'
@@ -56391,6 +56407,14 @@
     copublishers:
     - IEC
   :file: data/iso-iec-ts-27571-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '27572'
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+  :file: data/iso-iec-27572-2026.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '27599'
@@ -152765,6 +152789,13 @@
     - CMV
   :file: data/iec-60695-2-10-2026-cmv.yaml
 - :id:
+    _type: pubid:iec:technical-specification
+    number: '60695'
+    part: '11'
+    subpart: '12'
+    year: '2026'
+  :file: data/iec-ts-60695-11-12-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '60696'
     year: '1981'
@@ -186549,6 +186580,24 @@
     vap:
     - EXV
   :file: data/iec-61010-2-201-2024-exv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '61010'
+    part: '2'
+    subpart: '020'
+    year: '2026'
+  :file: data/iec-61010-2-020-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '61010'
+      part: '2'
+      subpart: '020'
+      year: '2026'
+    vap:
+    - RLV
+  :file: data/iec-61010-2-020-2026-rlv.yaml
 - :id:
     _type: pubid:iec:amendment
     number: '1'
@@ -232532,6 +232581,37 @@
     vap:
     - CSV
   :file: data/iec-62209-2-2010+amd1-2019-csv.yaml
+- :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    copublishers:
+    - IEEE
+    base:
+      _type: pubid:iec:international-standard
+      number: '62209'
+      part: '1528'
+      year: '2020'
+      copublishers:
+      - IEEE
+  :file: data/iec-ieee-62209-1528-2020-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '62209'
+        part: '1528'
+        year: '2020'
+        copublishers:
+        - IEEE
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-ieee-62209-1528-2020+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:technical-report
     number: '62210'

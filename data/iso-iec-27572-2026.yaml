@@ -1,58 +1,40 @@
 ---
-id: ISOIEC2912822026
+id: ISOIEC275722026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Information security, cybersecurity and privacy protection
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Verification of cryptographic protocols
+  content: Brain–computer interfaces
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 2: Evaluation methods and activities for cryptographic protocols'
+  content: Reference architecture
   type: title-part
 - language: en
   script: Latn
-  content: 'Information security, cybersecurity and privacy protection - Verification
-    of cryptographic protocols - Part 2: Evaluation methods and activities for cryptographic
-    protocols'
-  type: main
-- language: fr
-  script: Latn
-  content: Sécurité de l'information, cybersécurité et protection de la vie privée
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Vérification des protocoles cryptographiques
-  type: title-main
-- language: fr
-  script: Latn
-  content: 'Partie 2: Méthodes et activités d''évaluation pour les protocoles cryptographiques'
-  type: title-part
-- language: fr
-  script: Latn
-  content: 'Sécurité de l''information, cybersécurité et protection de la vie privée
-    - Vérification des protocoles cryptographiques - Partie 2: Méthodes et activités
-    d''évaluation pour les protocoles cryptographiques'
+  content: Information technology - Brain–computer interfaces - Reference architecture
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/116518
+  content: https://webstore.iec.ch/publication/84993
 - type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec29128-2{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_isoiec27572{ed1.0}en.pdf
 docidentifier:
-- content: ISO/IEC 29128-2:2026
+- content: ISO/IEC 27572:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:29128-2:2026-09:::'
+- content: 'urn:iec:std:iso-iec:27572:2026-09:::'
   type: URN
 date:
 - type: published
-  at: '2026-09-01'
+  at: '2026-09-02'
+- type: stable-until
+  at: '2031-12-31'
 contributor:
 - role:
   - type: publisher
@@ -95,7 +77,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 27
+        content: ISO/IEC JTC 1/SC 43
       identifier:
       - content: '1'
       type: technical-committee
@@ -107,19 +89,20 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "<p>This document specifies an extension of evaluation methods and activities
-    for cryptographic protocols based on ISO/IEC 15408-4, which provides a framework
-    for evaluation methods and activities. This document provides a mapping between
-    the work items for cryptographic protocol evaluation and the associated evaluation
-    activities or evaluation methods. Additionally, this document also provides security
-    assurance classification based on the cryptographic assessment performed by automated
-    provers in four different levels of increasing assurance.</p>"
+  content: ISO/IEC 27572:2026 specifies the brain–computer interface (BCI) reference
+    architecture (RA). The BCI RA defines the key characteristics of BCI systems,
+    provides a common language for stakeholders, and addresses their concerns. It
+    also provides guidance to system architects on efficient BCI system design, typical
+    implementation categories and effects of using BCI technology in developing applications.
+    Additionally, this document serves as a technical reference for architects, manufacturers,
+    vendors, service providers, regulators and the public to better understand the
+    BCI architecture, its functions and the underlying technology that supports the
+    BCI systems.
 status:
   stage:
     content: PUBLISHED
@@ -158,6 +141,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: '35.030'
-    text: IT Security
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '117512'
   price_code: iso:C
