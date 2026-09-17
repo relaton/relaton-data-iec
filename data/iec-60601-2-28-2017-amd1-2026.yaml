@@ -1,65 +1,61 @@
 ---
-id: ISOIEC19566102026
+id: IEC606012282017AMD12026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Information technology
+  content: Amendment 1
   type: title-intro
 - language: en
   script: Latn
-  content: JPEG systems
+  content: Medical electrical equipment
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 10: Reference software'
+  content: 'Part 2-28: Particular requirements for the basic safety and essential
+    performance of X-ray tube assemblies for medical diagnosis'
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - JPEG systems - Part 10: Reference software'
+  content: 'Amendment 1 - Medical electrical equipment - Part 2-28: Particular requirements
+    for the basic safety and essential performance of X-ray tube assemblies for medical
+    diagnosis'
   type: main
 - language: fr
   script: Latn
-  content: Titre manque
+  content: Amendement 1
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Appareils électromédicaux
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 10: Titre manque'
+  content: 'Partie 2-28: Exigences particulières pour la sécurité de base et les performances
+    essentielles des gaines équipées pour diagnostic médical'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Titre manque - Partie 10: Titre manque'
+  content: 'Amendement 1 - Appareils électromédicaux - Partie 2-28: Exigences particulières
+    pour la sécurité de base et les performances essentielles des gaines équipées
+    pour diagnostic médical'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/116758
-- type: obp
-  content: https://webstore.iec.ch/preview/info_isoiec19566-10{ed2.0}en.pdf
+  content: https://webstore.iec.ch/publication/109279
 docidentifier:
-- content: ISO/IEC 19566-10:2026
+- content: IEC 60601-2-28:2017/AMD1:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:19566-10:2026-09:::'
+- content: urn:iec:std:iec:60601-2-28:2017:::::amd:1:2026
   type: URN
 date:
 - type: published
-  at: '2026-09-11'
+  at: '2026-09-16'
+- type: stable-until
+  at: '2028-12-31'
 contributor:
-- role:
-  - type: publisher
-  organization:
-    uri:
-    - type: org
-      content: www.iso.org
-    name:
-    - language: en
-      script: Latn
-      content: International Organization for Standardization
-    abbreviation:
-      language: en
-      script: Latn
-      content: ISO
 - role:
   - type: publisher
   organization:
@@ -87,46 +83,27 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: ISO/IEC JTC 1/SC 29
+        content: TC 62/SC 62B
       identifier:
-      - content: '1'
+      - content: '62'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '3'
 language:
 - en
 - fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: "<p>This document specifies a reference software implementation of ISO/IEC
-    19566-5 [1]. The reference software is accompanied with a reference dataset which
-    provides an extensive list of the various JUMBF data structures specified in ISO/IEC
-    19566-5 [1].</p>"
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2026'
+- from: '2017'
   owner:
-  - organization:
-      uri:
-      - type: org
-        content: www.iso.org
-      name:
-      - language: en
-        script: Latn
-        content: International Organization for Standardization
-      abbreviation:
-        language: en
-        script: Latn
-        content: ISO
   - organization:
       uri:
       - type: org
@@ -147,6 +124,10 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 35.040.30
-    text: Coding of graphical and photographical information
-  price_code: iso:G
+  - code: 11.040.55
+    text: Diagnostic equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '134907'
+  price_code: iec:C
