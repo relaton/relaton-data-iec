@@ -1,0 +1,124 @@
+id: IECTS618508062026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 80-6: Using IEC 61850 for communication between power system automation equipment and control or maintenance centres'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 80-6: Using IEC 61850 for communication between power system automation equipment and control or maintenance centres'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/68044
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iects61850-80-6{ed1.0}en.pdf
+docidentifier:
+- content: IEC TS 61850-80-6:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:61850-80-6:2026-09:ts::'
+  type: URN
+date:
+- type: published
+  at: '2026-09-18'
+- type: stable-until
+  at: '2026-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      identifier:
+      - content: '57'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-80-6:2026, which is a technical specification, provides a comprehensive overview of the various aspects that need to be considered while using IEC 61850 for information exchange between power system automation equipment and control or maintenance centres or other system level applications. This document:<br/>
+    defines use cases and communication requirements that require an information exchange between power system automation equipment and control or maintenance centres;<br/>
+    describes the usage of the configuration language of IEC 61850‑6;<br/>
+    gives guidelines for the selection of communication services and architectures compatible with IEC 61850;<br/>
+    describes the engineering workflow;<br/>
+    introduces the use of a Proxy/Gateway concept;<br/>
+    describes the links regarding the Specific Communication Service Mapping (SCSM);<br/>
+    defines the abstract conformance test cases that build the basis for the conformance test procedures elaborated by the UCAIug Testing Sub Committee.<br/>
+    This document does not define constraints or limitations for specific device implementations. There is no specific clause for cyber security, which is tackled when it is necessary. The model for IEC TS 61850-80-6 provides security functions based upon the security threats and security functions found in IEC TS 62351-1 and IEC TS 62351-2. This document touches on several security aspects with the following basic assumptions:<br/>
+    Information authentication and integrity (e.g., the ability to provide tamper detection) is needed.<br/>
+    In case of operational issues, encryption (to achieve confidentiality) is optional. This typically applies for GOOSE and SV messages in the power utility automation system LAN.<br/>
+    End-to-end information authentication and integrity methods, regardless of information hierarchies, need to be provided. The typical method to provide this security function is through some type of information/message authentication code. IEC 62351-4 and IEC 62351-9 describe how authentication and integrity is achieved for IEC 61850-8-1. IEC 62351-4 provides means to ensure end-to-end data integrity through Proxy/Gateways.<br/>
+    Beneath information authentication and integrity, information availability is an important aspect for telecontrol. This document provides redundancy architectures to enhance the availability of information in control and maintenance centres
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104861'
+  price_code: iec:N

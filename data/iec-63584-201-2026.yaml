@@ -1,31 +1,31 @@
-id: IEC635842024
+id: IEC635842012026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Open Charge Point Protocol (OCPP)
+  content: Open Charge Point Protocol 2.01
   type: title-main
 - language: en
   script: Latn
-  content: Open Charge Point Protocol (OCPP)
+  content: Open Charge Point Protocol 2.01
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/95734
+  content: https://webstore.iec.ch/publication/111418
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iec63584{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iec63584-201{ed1.0}en.pdf
 docidentifier:
-- content: IEC 63584:2024
+- content: IEC 63584-201:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63584:2024-12:::'
+- content: 'urn:iec:std:iec:63584-201:2026-09:::'
   type: URN
 date:
 - type: published
-  at: '2024-12-18'
+  at: '2026-09-18'
 - type: stable-until
-  at: '2027-12-31'
+  at: '2029-12-31'
 contributor:
 - role:
   - type: publisher
@@ -71,12 +71,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC 63584:2024 The Open Charge Point Protocol (OCPP) provides the communication between a Charging Station and a Charging Station Management System (CSMS) and is designed to accommodate any type of charging technique. It is based on OCPP 2.0.1 and was submitted as a Fast-Track document.
+  content: |-
+    IEC 63584-201:2026 The Open Charge Point Protocol (OCPP) provides the communication between a Charging Station and a Charging Station Management System (CSMS) and is designed to accommodate any type of charging technique. It is based on OCPP 2.0.1 and was submitted as a Fast-Track document.<br/>
+    This second edition cancels and replaces IEC 63584 published in 2024. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to IEC 63584:2024:<br/>
+    a) introduced clarifications/improvements to requirements, use cases and sequence diagrams based on member feedback and TWG taskgroup meetings;<br/>
+    b) renamed all "OCTT" references in part 5 and 6 to "Test System" based on IEC feedback;<br/>
+    c) structural changes to the part 6 testcase descriptions to improve readability;<br/>
+    d) continuous improvements to part 6 testcase descriptions based on feedback from active certification program and CWG taskgroup meetings.
 status:
   stage:
-    content: REPLACED
+    content: PUBLISHED
 copyright:
-- from: '2024'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -103,5 +110,5 @@ ext:
   structuredidentifier:
     type: IEC
     project_number:
-      content: '126392'
+      content: '137268'
   price_code: iec:P
