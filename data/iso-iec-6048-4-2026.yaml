@@ -1,54 +1,62 @@
-id: IEC6181112015AMD22026
+id: ISOIEC604842026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Amendment 2
+  content: Information technology
   type: title-intro
 - language: en
   script: Latn
-  content: Electromechanical telecom elementary relays of assessed quality
+  content: JPEG AI learning-based image coding system
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 1: Generic specification and blank detail specification'
+  content: 'Part 4: Conformance'
   type: title-part
 - language: en
   script: Latn
-  content: 'Amendment 2 - Electromechanical telecom elementary relays of assessed quality - Part 1: Generic specification and blank detail specification'
+  content: 'Information technology - JPEG AI learning-based image coding system - Part 4: Conformance'
   type: main
 - language: fr
   script: Latn
-  content: Amendement 2
-  type: title-intro
-- language: fr
-  script: Latn
-  content: Relais télécom électromagnétiques élémentaires soumis au régime d'assurance qualité
+  content: Titre manque
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 1: Spécification générique et spécification particulière cadre'
+  content: 'Partie 4: Titre manque'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Amendement 2 - Relais télécom électromagnétiques élémentaires soumis au régime d''assurance qualité - Partie 1: Spécification générique et spécification particulière cadre'
+  content: 'Titre manque - Partie 4: Titre manque'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/110001
+  content: https://webstore.iec.ch/publication/117111
 docidentifier:
-- content: IEC 61811-1:2015/AMD2:2026
+- content: ISO/IEC 6048-4:2026
   type: IEC
   primary: true
-- content: urn:iec:std:iec:61811-1:2015:::::amd:2:2026
+- content: 'urn:iec:std:iso-iec:6048-4:2026-09:::'
   type: URN
 date:
 - type: published
-  at: '2026-07-10'
-- type: stable-until
-  at: '2027-12-31'
+  at: '2026-09-21'
 contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
 - role:
   - type: publisher
   organization:
@@ -76,27 +84,43 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 94
+        content: ISO/IEC JTC 1/SC 29
       identifier:
-      - content: '94'
+      - content: '1'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '2'
+  content: '1'
 language:
 - en
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: "<p>This document specifies the framework, concepts, methodology for testing, and criteria to be achieved to claim conformance to the image coding technology Rec. ITU-T T.840.1 | ISO/IEC 6048-1, known as Learning-based image coding (JPEG AI). It lists the conformance testing procedures.</p>"
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2015'
+- from: '2026'
   owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
   - organization:
       uri:
       - type: org
@@ -117,10 +141,6 @@ ext:
     content: international-standard
   flavor: iec
   ics:
-  - code: 29.120.70
-    text: Relays
-  structuredidentifier:
-    type: IEC
-    project_number:
-      content: '135631'
-  price_code: iec:B
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  price_code: iso:B
