@@ -9571,6 +9571,40 @@
         number: '11801'
   :file: data/iso-iec-11801-2002-amd2-2010-cor1-2010.yaml
 - :id:
+    _type: pubid:iec:amendment
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      year: '2017'
+      publisher: ISO
+      copublishers:
+      - IEC
+      number: '11801'
+      part: '6'
+  :file: data/iso-iec-11801-6-2017-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        year: '2017'
+        publisher: ISO
+        copublishers:
+        - IEC
+        number: '11801'
+        part: '6'
+      - _type: pubid:iec:amendment
+        year: '2026'
+        number: '1'
+    vap:
+    - CSV
+  :file: data/iso-iec-11801-6-2017+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:technical-report
     year: '2005'
     publisher: ISO
@@ -62603,6 +62637,15 @@
     number: '30189'
     part: '1'
   :file: data/iso-iec-tr-30189-1-2025.yaml
+- :id:
+    _type: pubid:iec:technical-report
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    number: '30189'
+    part: '2'
+  :file: data/iso-iec-tr-30189-2-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     year: '2013'
@@ -152887,6 +152930,24 @@
   :file: data/iec-60695-5-2-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
+    year: '2026'
+    number: '60695'
+    part: '1'
+    subpart: '12'
+  :file: data/iec-60695-1-12-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      year: '2026'
+      number: '60695'
+      part: '1'
+      subpart: '12'
+    vap:
+    - RLV
+  :file: data/iec-60695-1-12-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
     year: '1981'
     number: '60696'
   :file: data/iec-60696-1981.yaml
@@ -232285,6 +232346,33 @@
     - CSV
   :file: data/iec-62153-4-7-2021+amd1-2025-csv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    year: '2026'
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      year: '2018'
+      number: '62153'
+      part: '4'
+      subpart: '17'
+  :file: data/iec-62153-4-17-2018-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        year: '2018'
+        number: '62153'
+        part: '4'
+        subpart: '17'
+      - _type: pubid:iec:amendment
+        year: '2026'
+        number: '1'
+    vap:
+    - CSV
+  :file: data/iec-62153-4-17-2018+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:technical-report
     year: '2005'
     number: '62154'
@@ -265439,6 +265527,15 @@
     number: '80079'
     part: '49'
   :file: data/iso-iec-80079-49-2024.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    number: '80079'
+    part: '38'
+  :file: data/iso-iec-80079-38-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     year: '2015'
