@@ -1,0 +1,23 @@
+name: api.relaton.org ingest
+
+# A push here changes this dataset; tell api.relaton.org to re-ingest
+# this flavor. The receiver (repository_dispatch) lives in
+# relaton/relaton-api-js and ingests only the flavor named below.
+on:
+  push:
+    branches: [v2]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger ingest for this flavor
+        env:
+          GH_TOKEN: ${{ secrets.RELATON_CI_PAT }}
+        run: |
+          curl -fsS -X POST             -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json"             https://api.github.com/repos/relaton/relaton-api-js/dispatches \
+            -d '{"event_type":"relaton-data-update","client_payload":{"flavor":"iec"}}'
