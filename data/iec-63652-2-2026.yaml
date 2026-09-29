@@ -15,6 +15,18 @@ title:
   script: Latn
   content: 'NFC Forum Specifications - Part 2: NFC Data Exchange Format'
   type: main
+- language: fr
+  script: Latn
+  content: Spécifications du NFC Forum
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Format d''échange de données NFC'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Spécifications du NFC Forum - Partie 2: Format d''échange de données NFC'
+  type: main
 source:
 - type: src
   content: https://webstore.iec.ch/publication/106859
@@ -24,7 +36,7 @@ docidentifier:
 - content: IEC 63652-2:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63652-2:2026:::'
+- content: 'urn:iec:std:iec:63652-2:2026-02:::'
   type: URN
 date:
 - type: published
@@ -71,26 +83,18 @@ edition:
   content: '1'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: IEC 62652-2:2026, the NFC Data Exchange Format (NDEF) specification, is
-    a common data format for NFC Forum Devices. The NFC Data Exchange Format specification
-    defines the NDEF data structure format as well as rules to construct a valid NDEF
-    Message as an ordered and unbroken collection of NDEF Records. Furthermore, it
-    defines the mechanism for specifying the types of application data encapsulated
-    in NDEF Records. The NDEF specification defines only the data structure format
-    to exchange application or service specific data in an interoperable way, and
-    it does not define any NDEF Record Types in detail - NDEF Record Types are defined
-    in separate specifications. This NDEF specification assumes a reliable underlying
-    protocol and therefore this specification does not specify the data exchange between
-    two NFC Forum Devices. An NFC Forum Device can process the NDEF information independently
-    of the way it has received the NDEF Message. Because of the large number of existing
-    message encapsulation formats, record marking protocols, and multiplexing protocols,
-    it is best to be explicit about the design goals of NDEF and, in particular, about
-    what is outside the scope of NDEF.
+  content: IEC 62652-2:2026, the NFC Data Exchange Format (NDEF) specification, is a common data format for NFC Forum Devices. The NFC Data Exchange Format specification defines the NDEF data structure format as well as rules to construct a valid NDEF Message as an ordered and unbroken collection of NDEF Records. Furthermore, it defines the mechanism for specifying the types of application data encapsulated in NDEF Records. The NDEF specification defines only the data structure format to exchange application or service specific data in an interoperable way, and it does not define any NDEF Record Types in detail - NDEF Record Types are defined in separate specifications. This NDEF specification assumes a reliable underlying protocol and therefore this specification does not specify the data exchange between two NFC Forum Devices. An NFC Forum Device can process the NDEF information independently of the way it has received the NDEF Message. Because of the large number of existing message encapsulation formats, record marking protocols, and multiplexing protocols, it is best to be explicit about the design goals of NDEF and, in particular, about what is outside the scope of NDEF.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 63652-2:2026, la spécification Format d'échange de données NFC (NDEF) définit un format d'encapsulation de message permettant d'échanger des informations entre deux Appareils NFC Forum.<br/>
+    Le NDEF est un format de message binaire léger qui peut être utilisé pour encapsuler dans une unique construction de message une ou plusieurs charges utiles définies par une application et de type et de taille arbitraires. Chaque charge utile est décrite par un type, une longueur, et un identificateur facultatif. Les identificateurs de type peuvent être des URI, des types de médias MIME, ou des types spécifiques à la NFC. Ce dernier format permet l'identification compacte de types bien connus couramment utilisés dans les applications du NFC Forum, ou l'autoattribution d'un espace de noms pour les organisations qui souhaitent l'utiliser à des fins spécifiques à la NFC. La Longueur de charge utile NDEF est un entier non signé qui indique le nombre d'octets de la charge utile. Un cliché d'Enregistrement court NDEF compact est prévu pour les très petites charges utiles. L'Identificateur de charge utile NDEF facultatif permet l'association de plusieurs charges utiles et l'établissement de références croisées entre elles. Les Charges utiles NDEF peuvent comprendre des Messages NDEF imbriqués ou des chaînes de fragments liés de longueur inconnue au moment où les données sont générées. Le NDEF est strictement un format de message, qui ne prévoit pas de concept de connexion ou de circuit logique, et ne traite pas non plus des problèmes de tête de ligne.
 status:
   stage:
     content: PUBLISHED
