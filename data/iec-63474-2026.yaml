@@ -13,8 +13,19 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: Electrical and electronic household and office equipment - Measurement
-    of networked standby power of edge equipment
+  content: Electrical and electronic household and office equipment - Measurement of networked standby power of edge equipment
+  type: main
+- language: fr
+  script: Latn
+  content: Appareils électriques et électroniques pour application domestique et équipement de bureau
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Mesurage de la consommation d'énergie en veille avec maintien de la connexion au réseau des équipements de périphérie
+  type: title-main
+- language: fr
+  script: Latn
+  content: Appareils électriques et électroniques pour application domestique et équipement de bureau - Mesurage de la consommation d'énergie en veille avec maintien de la connexion au réseau des équipements de périphérie
   type: main
 source:
 - type: src
@@ -72,6 +83,7 @@ edition:
   content: '2'
 language:
 - en
+- fr
 script:
 - Latn
 abstract:
@@ -102,6 +114,35 @@ abstract:
     This second edition cancels and replaces the first edition published in 2023. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
     - the scope and the measurement method were extended to battery operated products;<br/>
     - terms and definitions, and measurement conditions have been updated and aligned for both IEC 62301 (ED3) and this document, IEC 63474 (ED2)
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 63474:2026 spécifie des méthodes de mesure de la puissance électrique en mode veille avec maintien de la connexion au réseau et de consignation des résultats pour les équipements de périphérie.<br/>
+    Le mesurage de la puissance et de la consommation d'énergie en mode non actif, autre que le mode veille avec maintien de la connexion au réseau, est traité dans l'IEC 62301 [1], y compris la plage de tensions d'entrée.<br/>
+    Le présent document s'applique aux équipements de périphérie qui sont alimentés par:<br/>
+    - un réseau électrique en courant alternatif basse tension (LV ≤ 1 000 V en courant alternatif), ou<br/>
+    - une alimentation externe qui fournit un courant alternatif ou continu basse tension (LV ≤ 1 000 V) ou très basse tension (ELV ≤ 50 V), ou<br/>
+    - une source séparée d'alimentation en courant continu très basse tension (ELV ≤ 50 V en courant continu), ou<br/>
+    - une batterie principale interne.<br/>
+    Les conditions qui ne relèvent pas du domaine d'application du présent document sont les suivantes:<br/>
+    - modes actifs (fonction principale),<br/>
+    - autres modes non actifs (qui sont couverts soit par l'IEC 62301 [1], soit par des normes de groupes de produits spécifiques),<br/>
+    - conditions dans lesquelles les batteries principales sont chargées autrement qu'en mode maintenance,<br/>
+    - état déconnecté de l'équipement.<br/>
+    Le présent document s'applique aux groupes de produits suivants lorsqu'un mode veille avec maintien de la connexion au réseau est présent:<br/>
+    - équipements de périphérie avec une fonction de réactivation du réseau, tels que les appareils ménagers, les appareils de traitement de l'information, les systèmes et équipements audio, vidéo et multimédia,<br/>
+    - récepteurs radio numériques avec une fonction d'avertissement d'urgence,<br/>
+    - équipements de combustion au gaz avec des composants électriques.<br/>
+    NOTE 1 Les mesurages de la puissance, la consommation d'énergie et l'aptitude à la fonction des produits au cours de leur utilisation prévue (lorsqu'ils assurent leurs fonctions principales) sont généralement spécifiés dans les normes de produits et ne sont pas couverts par le présent document.<br/>
+    NOTE 2 Le mode veille avec maintien de la connexion au réseau pour les appareils d'éclairage et le mesurage de la puissance est spécifié dans l'IEC 63103 [4].<br/>
+    NOTE 3 Les équipements d'interconnexion (équipements fournissant une infrastructure et une fonction de réseau) ne relèvent pas du domaine d'application du présent document. Le mesurage de la puissance électrique en mode veille avec maintien de la connexion au réseau des équipements d'interconnexion fait l'objet de la norme ETSI EN 303 423 [5].<br/>
+    Le présent document fournit également une méthode d'essai de la gestion de l'énergie et permet d'établir la possibilité ou non de désactiver les connexions au réseau sans fil.<br/>
+    NOTE 4 Les équipements de périphérie peuvent également inclure des batteries auxiliaires.<br/>
+    Cette publication de groupe en EE est principalement destinée à être utilisée comme norme EE pour les produits mentionnés dans le domaine d'application, mais elle est également destinée à être utilisée par les TC dans la préparation de publications pour les produits qui sont inclus dans la limite mentionnée dans le domaine d'application du présent document.<br/>
+    Cette deuxième édition annule et remplace la première édition parue en 2023. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - le domaine d'application et la méthode de mesure ont été étendus aux produits alimentés par batterie;<br/>
+    - les termes et définitions, et les conditions de mesure ont été mis à jour et alignés à la fois pour l'IEC 62301 (ED3) et pour le présent document, l'IEC 63474 (ED2).
 status:
   stage:
     content: PUBLISHED
