@@ -1,38 +1,38 @@
 ---
-id: IECTR62055212005
+id: IECTR6367612026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Electricity metering
+  content: Multimedia systems and equipment for vehicles
   type: title-intro
 - language: en
   script: Latn
-  content: Payment systems
+  content: External visual systems of external human-machine interfaces (eHMI) for automated vehicles
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 21: Framework for standardization'
+  content: 'Part 1: General'
   type: title-part
 - language: en
   script: Latn
-  content: 'Electricity metering - Payment systems - Part 21: Framework for standardization'
+  content: 'Multimedia systems and equipment for vehicles - External visual systems of external human-machine interfaces (eHMI) for automated vehicles - Part 1: General'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/6391
+  content: https://webstore.iec.ch/publication/85513
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iectr62055-21{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iectr63676-1{ed1.0}en.pdf
 docidentifier:
-- content: IEC TR 62055-21:2005
+- content: IEC TR 63676-1:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62055-21:2005-08:tr::'
+- content: 'urn:iec:std:iec:63676-1:2026-10:tr::'
   type: URN
 date:
 - type: published
-  at: '2005-08-11'
+  at: '2026-10-05'
 - type: stable-until
   at: '2030-12-31'
 contributor:
@@ -63,9 +63,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 13
+        content: TC 100
       identifier:
-      - content: '13'
+      - content: '100'
       type: technical-committee
     abbreviation:
       language: en
@@ -80,12 +80,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: sets out a framework for the integration of standards into a system specification for electricity payment metering systems. It addresses the payment metering system application process, generic processes, generic functions, data elements, system entities and interfaces that exist in present payment metering systems.
+  content: |-
+    <p>IEC TR 63676-1:2026 describes the system overview of external visual systems of external human - machine interfaces (eHMIs). These systems are specifically designed for use in automated vehicles. It provides an introduction and background information on the concept of eHMIs, highlighting their significance in the context of automated vehicles. Additionally, it describes the architecture and key components of external visual systems used in eHMI multimedia systems.<br/>
+    It does not deal with:<br/>
+    a) external display usage scenario;<br/>
+    b) UX and UI of external display;<br/>
+    c) hardware performance of eHMI;<br/>
+    d) eHMI regulation of automated vehicle;<br/>
+    e) special vehicle conditions that use eHMI external displays, such as trucks, ambulances, fire engines, buses, and taxis.</p>
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2005'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -107,12 +114,10 @@ ext:
     content: technical-report
   flavor: iec
   ics:
-  - code: 17.220.20
-    text: Measurement of electrical and magnetic quantities
-  - code: 91.140.50
-    text: Electricity supply systems
+  - code: 33.160.60
+    text: Multimedia systems and teleconferencing equipment
   structuredidentifier:
     type: IEC
     project_number:
-      content: '8653'
-  price_code: iec:M
+      content: '117912'
+  price_code: iec:D
