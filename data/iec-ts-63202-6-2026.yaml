@@ -1,40 +1,36 @@
 ---
-id: IECTR6289930422026
+id: IECTS6320262026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Printed electronics
-  type: title-intro
-- language: en
-  script: Latn
-  content: 'Part 304-2: Equipment'
+  content: Photovoltaic cells
   type: title-main
 - language: en
   script: Latn
-  content: Sintering -- Temperature measurement method for thermal treatment system
+  content: 'Part 6: Hot water soaking test for crystalline silicon photovoltaic cells'
   type: title-part
 - language: en
   script: Latn
-  content: 'Printed electronics - Part 304-2: Equipment - Sintering -- Temperature measurement method for thermal treatment system'
+  content: 'Photovoltaic cells - Part 6: Hot water soaking test for crystalline silicon photovoltaic cells'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/79774
+  content: https://webstore.iec.ch/publication/67426
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iectr62899-304-2{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iects63202-6{ed1.0}en.pdf
 docidentifier:
-- content: IEC TR 62899-304-2:2026
+- content: IEC TS 63202-6:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62899-304-2:2026-09:tr::'
+- content: 'urn:iec:std:iec:63202-6:2026-10:ts::'
   type: URN
 date:
 - type: published
-  at: '2026-09-29'
+  at: '2026-10-07'
 - type: stable-until
-  at: '2029-12-31'
+  at: '2030-12-31'
 contributor:
 - role:
   - type: publisher
@@ -63,9 +59,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC 119
+        content: TC 82
       identifier:
-      - content: '119'
+      - content: '82'
       type: technical-committee
     abbreviation:
       language: en
@@ -81,8 +77,9 @@ abstract:
 - language: en
   script: Latn
   content: |-
-    IEC TR 62899-304-2:2026 provides information on methods for determining the sample temperature during the thermal treatment process in the production of PE products.<br/>
-    This document also compares the characteristics of contact and non-contact temperature measurement methods.
+    IEC TS 63202:2026 defines a hot water soaking test to determine whether crystalline silicon photovoltaic (PV) cells have metallization that is durable enough to be used in PV modules.<br/>
+    It is applied to crystalline silicon PV cells whose metallization is made with conductive metal pastes.<br/>
+    Hot water soaking test is an accelerated aging test carried out using conditions of high temperature and humidity. This test can be used to identify cells with poor metal adhesion. Such cells shed some of their metal during delivery and storage, causing visual defects and potential risk of module reliability issues.
 status:
   stage:
     content: PUBLISHED
@@ -106,15 +103,13 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: technical-report
+    content: technical-specification
   flavor: iec
   ics:
-  - code: '19.080'
-    text: Electrical and electronic testing
-  - code: 37.100.10
-    text: Reproduction equipment
+  - code: '27.160'
+    text: Solar energy engineering
   structuredidentifier:
     type: IEC
     project_number:
-      content: '113574'
+      content: '104505'
   price_code: iec:C
