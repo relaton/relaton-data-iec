@@ -1,32 +1,40 @@
 ---
-id: IECSRD633172025
+id: IEC6318292026
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Low-voltage direct current (LVDC) industry applications
+  content: Magnetic powder cores
+  type: title-intro
+- language: en
+  script: Latn
+  content: Guidelines on dimensions and the limits of surface irregularities
   type: title-main
 - language: en
   script: Latn
-  content: Low-voltage direct current (LVDC) industry applications
+  content: 'Part 9: Ellipse-cores'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Magnetic powder cores - Guidelines on dimensions and the limits of surface irregularities - Part 9: Ellipse-cores'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/66375
+  content: https://webstore.iec.ch/publication/96274
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iecsrd63317{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iec63182-9{ed1.0}en.pdf
 docidentifier:
-- content: IEC SRD 63317:2025
+- content: IEC 63182-9:2026
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63317:2025-10:srd::'
+- content: 'urn:iec:std:iec:63182-9:2026-10:::'
   type: URN
 date:
 - type: published
-  at: '2025-10-01'
+  at: '2026-10-09'
 - type: stable-until
-  at: '2030-12-31'
+  at: '2031-12-31'
 contributor:
 - role:
   - type: publisher
@@ -55,7 +63,9 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: SyC LVDC
+        content: TC 51
+      identifier:
+      - content: '51'
       type: technical-committee
     abbreviation:
       language: en
@@ -70,12 +80,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC SRD 63317:2025 which is a systems reference deliverable describes certain aspects of standardization of LVDC in industrial applications. These industrial applications apply to the secondary economic sector where the processing of resources obtains to the production, distribution and storage of physical goods, especially in a factory or special area. This document covers the generation, distribution and consumption of LVDC power at these premises. This document follows the IEC Systems Approach from the domain to the gap analysis and give guidance by describing reference implementation.
+  content: |-
+    IEC 63182-9:2026 specifies the dimensions that are of importance for mechanical interchangeability for a preferred range of ellipse-cores made of metallic magnetic powder, and gives guidelines on allowable limits of surface irregularities applicable to ellipse-cores.<br/>
+    This document is a specification useful in the negotiations between magnetic powder core suppliers and users about surface irregularities.<br/>
+    The use of "derived" standards which give more detailed specifications of component parts while still permitting compliance with this document is discussed in Annex A.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2025'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -94,13 +107,13 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: system-reference-deliverable
+    content: international-standard
   flavor: iec
   ics:
-  - code: '29.020'
-    text: Electrical engineering in general
+  - code: 29.100.10
+    text: Magnetic components
   structuredidentifier:
     type: IEC
     project_number:
-      content: '103986'
-  price_code: iec:H
+      content: '126752'
+  price_code: iec:C

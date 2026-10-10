@@ -1,32 +1,40 @@
 ---
-id: IECSRD633172025
+id: IECTR60870131997AMD12026CSV
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Low-voltage direct current (LVDC) industry applications
+  content: Telecontrol equipment and systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 1-3: General considerations'
   type: title-main
 - language: en
   script: Latn
-  content: Low-voltage direct current (LVDC) industry applications
+  content: Glossary
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Telecontrol equipment and systems - Part 1-3: General considerations - Glossary'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/66375
+  content: https://webstore.iec.ch/publication/117319
 - type: obp
-  content: https://webstore.iec.ch/preview/info_iecsrd63317{ed1.0}en.pdf
+  content: https://webstore.iec.ch/preview/info_iectr60870-1-3{ed2.1}en.pdf
 docidentifier:
-- content: IEC SRD 63317:2025
+- content: IEC TR 60870-1-3:1997+AMD1:2026 CSV
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:63317:2025-10:srd::'
+- content: urn:iec:std:iec:60870-1-3:1997:tr:csv::plus:amd:1:2026
   type: URN
 date:
 - type: published
-  at: '2025-10-01'
+  at: '2026-10-09'
 - type: stable-until
-  at: '2030-12-31'
+  at: '2028-12-31'
 contributor:
 - role:
   - type: publisher
@@ -55,14 +63,16 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: SyC LVDC
+        content: TC 57
+      identifier:
+      - content: '57'
       type: technical-committee
     abbreviation:
       language: en
       script: Latn
       content: IEC
 edition:
-  content: '1'
+  content: '2.1'
 language:
 - en
 script:
@@ -70,12 +80,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC SRD 63317:2025 which is a systems reference deliverable describes certain aspects of standardization of LVDC in industrial applications. These industrial applications apply to the secondary economic sector where the processing of resources obtains to the production, distribution and storage of physical goods, especially in a factory or special area. This document covers the generation, distribution and consumption of LVDC power at these premises. This document follows the IEC Systems Approach from the domain to the gap analysis and give guidance by describing reference implementation.
+  content: IEC TR 60870-1-3:1997+AMD1:2026 CSV covers terms which are specifically relevant to telecontrol techniques as well as other terms which are necessary for the understanding of telecontrol standards. Is a technical report of type 3.
 status:
   stage:
     content: PUBLISHED
 copyright:
-- from: '2025'
+- from: '1997'
   owner:
   - organization:
       uri:
@@ -94,13 +104,15 @@ place:
 ext:
   schema_version: v1.1.2
   doctype:
-    content: system-reference-deliverable
+    content: technical-report
   flavor: iec
   ics:
-  - code: '29.020'
-    text: Electrical engineering in general
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: '33.200'
+    text: Telecontrol. Telemetering
   structuredidentifier:
     type: IEC
     project_number:
-      content: '103986'
-  price_code: iec:H
+      content: '5969'
+  price_code: iec:CU
