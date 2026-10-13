@@ -1,0 +1,147 @@
+---
+id: IECIEEE6270412026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Determining the peak spatial-average specific absorption rate (SAR) in the human body from wireless communications devices, 100 kHz to 10 GHz
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: General requirements for using the finite-difference time-domain (FDTD) method for SAR calculations'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Determining the peak spatial-average specific absorption rate (SAR) in the human body from wireless communications devices, 100 kHz to 10 GHz - Part 1: General requirements for using the finite-difference time-domain (FDTD) method for SAR calculations'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/66841
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iecieee62704-1{ed2.0}en.pdf
+docidentifier:
+- content: IEC/IEEE 62704-1:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec-ieee:62704-1:2026-10:::'
+  type: URN
+date:
+- type: published
+  at: '2026-10-12'
+- type: stable-until
+  at: '2029-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 106
+      identifier:
+      - content: '106'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC/IEEE 62704-1:2026 defines the methodology for the application of the finite-difference time domain (FDTD) technique when used for determining the peak spatial-average specific absorption rate (psSAR) in the human body exposed to wireless communication devices with known uncertainty. It defines methods to validate the computational model of the device under test (DUT) and to assess its uncertainty when used in SAR simulations. Moreover, it defines procedures to determine the psSAR in a cubical volume and to verify the correct implementation of the FDTD simulation software. The applicable frequency range is 100 kHz to 10 GHz.<br/>
+    This document does not recommend specific SAR limits; these are found elsewhere, for example, in the guidelines published by the International Commission on Non-Ionizing Radiation Protection (ICNIRP) or in IEEE Std C95.1.<br/>
+    This second edition cancels and replaces the first edition published in 2017. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) specification of a SAR averaging algorithm for the calculation of the psSAR from computational results for arbitrarily shaped homogeneous phantoms, which avoids inconsistencies with respect to the algorithm for SAR averaging algorithm specified in IEC/IEEE 62209-1528 for SAR measurement methods;<br/>
+    b) provision of SHA-256 checksums for all supplemental files;<br/>
+    c) addition of brief informative discussion on developmental stages of IEC and IEEE computational modelling standards for SAR evaluations.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+  - organization:
+      uri:
+      - type: org
+        content: www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEEE
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.060.20
+    text: Receiving and transmitting equipment
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '104201'
+  price_code: iec:L
