@@ -123637,6 +123637,54 @@
   :file: data/iec-60335-9-1972.yaml
 - :id:
     _type: pubid:iec:international-standard
+    year: '2026'
+    number: '60335'
+    part: '2'
+    subpart: '125'
+  :file: data/iec-60335-2-125-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    year: '2026'
+    number: '60335'
+    part: '2'
+    subpart: '53'
+  :file: data/iec-60335-2-53-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      year: '2026'
+      number: '60335'
+      part: '2'
+      subpart: '53'
+    vap:
+    - RLV
+  :file: data/iec-60335-2-53-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      year: '2026'
+      number: '60335'
+      part: '2'
+      subpart: '53'
+    vap:
+    - EXV
+  :file: data/iec-60335-2-53-2026-exv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      year: '2026'
+      number: '60335'
+      part: '2'
+      subpart: '53'
+    vap:
+    - EXV
+    - RLV
+  :file: data/iec-60335-2-53-2026-exv-rlv.yaml
+- :id:
+    _type: pubid:iec:international-standard
     year: '1970'
     number: '60336'
   :file: data/iec-60336-1970.yaml
@@ -217082,6 +217130,31 @@
     number: '61754'
     part: '20'
   :file: data/iec-pas-61754-20-2001.yaml
+- :id:
+    _type: pubid:iec:amendment
+    year: '2026'
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      year: '2022'
+      number: '61754'
+      part: '6'
+  :file: data/iec-61754-6-2022-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        year: '2022'
+        number: '61754'
+        part: '6'
+      - _type: pubid:iec:amendment
+        year: '2026'
+        number: '1'
+    vap:
+    - CSV
+  :file: data/iec-61754-6-2022+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:international-standard
     year: '2005'
