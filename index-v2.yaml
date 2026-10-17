@@ -123684,6 +123684,33 @@
     - RLV
   :file: data/iec-60335-2-53-2026-exv-rlv.yaml
 - :id:
+    _type: pubid:iec:amendment
+    year: '2026'
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      year: '2024'
+      number: '60335'
+      part: '2'
+      subpart: '41'
+  :file: data/iec-60335-2-41-2024-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        year: '2024'
+        number: '60335'
+        part: '2'
+        subpart: '41'
+      - _type: pubid:iec:amendment
+        year: '2026'
+        number: '1'
+    vap:
+    - CSV
+  :file: data/iec-60335-2-41-2024+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:international-standard
     year: '1970'
     number: '60336'
