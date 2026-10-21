@@ -13,6 +13,13 @@ FileUtils.rm Dir.glob("index-v2*") unless mode == "latest"
 # Build index-v2 (lean pubid#to_hash): fetch publications + index data/ and static/.
 Relaton::Iec::DataFetcher.fetch("iec-harmonised-#{mode}")
 
+# In-development projects: same Harmonized API (projects endpoint, same OAuth
+# app), fetched into data/projects so the publications tree and its machine
+# index stay publications-only; the API ingest picks the subtree up via its
+# glob. Runs after the publications fetch because the all-mode rebuild wipes
+# data/ wholesale.
+Relaton::Iec::ProjectFetcher.fetch("iec-projects-#{mode}", output: "data/projects")
+
 # Index static files into index-v2. Parse the docid into a pubid so they
 # serialize as lean hashes like the fetched data (DataFetcher already indexes
 # static during rebuild; this keeps the explicit pass for safety/clarity).
@@ -47,5 +54,7 @@ end
 # files except 'data/*', index.yaml have to be committed explicitly". Without this
 # last_change.txt is written to disk by DataFetcher#save_last_change but never
 # committed, so every run re-queries from the same stale cursor.
-last_change = File.expand_path("last_change.txt", __dir__)
-system("git", "add", last_change) if File.exist?(last_change)
+%w[last_change.txt last_change_projects.txt].each do |name|
+  cursor = File.expand_path(name, __dir__)
+  system("git", "add", cursor) if File.exist?(cursor)
+end
