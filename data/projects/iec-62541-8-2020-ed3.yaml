@@ -1,0 +1,163 @@
+---
+id: IEC6254182020ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 8: Data Access'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 8: Data Access'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 8: Accès aux données'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 8: Accès aux données'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101129
+docidentifier:
+- content: IEC 62541-8:2020 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:101129
+  type: URN
+date:
+- type: published
+  at: '2020-06-22'
+- type: created
+  at: '2017-07-28'
+- type: forecast
+  at: '2020-07-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-8:2020 is part of the overall OPC Unified Architecture (OPC UA) standard series and defines the information model associated with Data Access (DA). It particularly includes additional VariableTypes and complementary descriptions of the NodeClasses and Attributes needed for Data Access, additional Properties, and other information and behaviour.<br/>
+    The complete address space model, including all NodeClasses and Attributes is specified in IEC 62541-3. The services to detect and access data are specified in IEC 62541-4.<br/>
+    This third edition cancels and replaces the second edition published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) added new VariableTypes for AnalogItems;<br/>
+    b) added an Annex that specifies a recommended mapping of OPC UA Dataccess to OPC COM DataAccess;<br/>
+    c) changed the ambiguous description of "Bad_NotConnected";<br/>
+    d) updated description for EUInformation to refer to latest revision of UNCEFACT units.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62541-8:2020 fait partie intégrante de la série de normes générales sur l'architecture unifiée OPC (OPC UA). Elle définit le modèle d'information associé à l'Accès aux données (DA). Elle spécifie notamment des VariableTypes supplémentaires et fournit des descriptions complémentaires concernant les NodeClasses et attributs nécessaires pour l'Accès aux données, ainsi que des propriétés supplémentaires et d'autres paramètres relatifs aux informations et au comportement.<br/>
+    Le modèle d'espace d'adresses complet, comprenant toutes les NodeClasses et tous les Attributs, est spécifié dans l'IEC 62541-3. Les services de détection et d'accès aux données sont spécifiés dans l'IEC 62541-4.<br/>
+    Cette troisième édition annule et remplace la deuxième édition parue en 2015. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout de nouveaux VariableTypes pour les AnalogItems;<br/>
+    b) ajout d'une annexe qui spécifie le mapping recommandé entre OPC UA DataAccess et OPC COM DataAccess;<br/>
+    c) modification de la description ambiguë de "Bad_NotConnected";<br/>
+    d) mise à jour de la description de EUInformation pour renvoyer à la dernière révision des unités CEFACT-ONU.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21054
+    docidentifier:
+    - content: iec:proj:21054
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:115404
+    docidentifier:
+    - content: iec:proj:115404
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:61117
+    docidentifier:
+    - content: iec:pub:61117
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

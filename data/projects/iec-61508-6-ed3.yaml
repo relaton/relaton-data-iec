@@ -1,0 +1,127 @@
+---
+id: IEC615086ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Functional safety of electrical/electronic/programmable electronic safety-related systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Guidelines on the application of IEC 61508-2 and IEC 61508-3'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 6: Guidelines on the application of IEC 61508-2 and IEC 61508-3'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité fonctionnelle des systèmes électriques / électroniques / électroniques programmables relatifs à la sécurité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6: Lignes directrices pour l''application de la CEI 61508-2 et de la CEI 61508-3 (voir Sécurité fonctionnelle et IEC 61508)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité fonctionnelle des systèmes électriques / électroniques / électroniques programmables relatifs à la sécurité - Partie 6: Lignes directrices pour l''application de la CEI 61508-2 et de la CEI 61508-3 (voir Sécurité fonctionnelle et IEC 61508)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113098
+docidentifier:
+- content: IEC 61508-6 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:113098
+  type: URN
+date:
+- type: created
+  at: '2022-09-23'
+- type: forecast
+  at: '2027-01-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61508-6:2026 covers those aspects to be considered when electrical/electronic/programmable electronic (E/E/PE) systems are used to carry out safety functions.<br/>
+    A first objective is to facilitate the development of product and application sector international standards by the technical committees responsible for the product or application sector. This will allow all the relevant factors, associated with the product or application, to be fully considered and thereby meet the specific needs of users of the product and the application sector.<br/>
+    A second objective is to enable the development of E/E/PE safety-related systems where product or application sector international standards do not exist.<br/>
+    The scope of this document is the functional safety for E/E/PE safety-related systems but, apart from normative requirements in the hazard and risk analysis phase, this document does not itself provide normative requirements for malevolent action arising from a security risk.<br/>
+    NOTE 1 For requirements and/or guidance on security see the IEC 62443 series and ISO/IEC 27000 series.<br/>
+    NOTE 2 For guidance on the coordination between safety and security, refer to IEC TR 63069.<br/>
+    This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) the following new annexes have been created:<br/>
+    1) Annex F gives examples on how to include failures of the diagnostic function in the calculation of the safety parameters;<br/>
+    2) Annex G gives guidance on failure rate estimation from field feedback with confidence intervals.<br/>
+    3) Annex H gives guidance on robust safety architecture.<br/>
+    b) new common cause method on redundancy at PCB device level estimation of β (Clause D.6) and for estimation of β suitable for complex semiconductor (Clause D.7) has been added;<br/>
+    c) examples from ISO/TR 12489:2013 have been included (Annex B);<br/>
+    d) corrections and explanations have been made related to formulas and their applicability.<br/>
+    It has the status of a basic safety publication according to IEC Guide 104 and has been developed according to ISO/IEC Guide 51.
+status:
+  stage:
+    abbreviation: CFDIS
+    content: '50.20'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14800
+    docidentifier:
+    - content: iec:proj:14800
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control

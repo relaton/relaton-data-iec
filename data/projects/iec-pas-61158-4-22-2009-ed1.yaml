@@ -1,0 +1,128 @@
+---
+id: IECPAS611584222009ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-22: Data-link layer protocol specification -- Type SNpTYPE elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-22: Data-link layer protocol specification -- Type SNpTYPE elements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17760
+docidentifier:
+- content: IEC PAS 61158-4-22:2009 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:17760
+  type: URN
+date:
+- type: published
+  at: '2009-08-11'
+- type: created
+  at: '2009-01-23'
+- type: forecast
+  at: '2009-10-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC/PAS 61158-4-22:2009(E) provides basic time-critical messaging communications between devices in an automation environment. This protocol provides communication opportunities to all participating data-link entities in a synchronously-starting cyclic manner, according to a pre-established schedule, and in a cyclic or acyclic asynchronous manner, as requested each cycle by each of those data-link entities. It contains an additional profile - SNpTYPE - which may be integrated into a future new edition of the IEC 61158-4 series.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17811
+    docidentifier:
+    - content: iec:proj:17811
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20572
+    docidentifier:
+    - content: iec:pub:20572
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer

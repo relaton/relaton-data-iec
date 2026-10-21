@@ -1,0 +1,165 @@
+---
+id: IEC623861032022ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital addressable lighting interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 103: General requirements -- Control devices'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital addressable lighting interface - Part 103: General requirements -- Control devices'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface d'éclairage adressable numérique
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 103: Exigences générales -- Dispositifs de commande'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface d''éclairage adressable numérique - Partie 103: Exigences générales -- Dispositifs de commande'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104677
+docidentifier:
+- content: IEC 62386-103:2022 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:104677
+  type: URN
+date:
+- type: published
+  at: '2022-11-16'
+- type: created
+  at: '2020-10-23'
+- type: forecast
+  at: '2022-12-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 34
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62386-103:2022 is applicable to control devices for control by digital signals of electronic lighting equipment. This second edition cancels and replaces the first edition published in 2014 and Amendment 1:2018. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    the scope has been updated;<br/>
+    quiescent mode has been updated;<br/>
+    non-volatile memory (NVM) save time has been added, and SAVE PERSISTENT VARIABLES command removed;<br/>
+    memory bank 0 has been modified, and common memory bank requirements have been added;<br/>
+    IDENTIFY DEVICE has been updated;<br/>
+    version number has been changed;<br/>
+    bus unit configuration has been added; and<br/>
+    instance types and configuration have been added.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62386-103:2022 s'applique aux dispositifs de commande par signaux numériques des équipements d'éclairage électroniques. Cette deuxième édition annule et remplace la première édition parue en 2014 et l'Amendement 1:2018. Cette édition constitue une révision technique. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    le domaine d'application a été mis à jour;<br/>
+    le mode repos a été mis à jour;<br/>
+    la durée de sauvegarde de la mémoire non volatile (NVM) a été ajoutée, et la commande SAVE PERSISTENT VARIABLES a été supprimée;<br/>
+    le bloc de mémoire 0 a été modifié, et les exigences communes pour les blocs de mémoire ont été ajoutées;<br/>
+    IDENTIFY DEVICE a été mise à jour;<br/>
+    le numéro de version a été modifié;<br/>
+    la configuration de l'unité de bus a été ajoutée; et<br/>
+    les types d'instances et leur configuration ont été ajoutés.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16941
+    docidentifier:
+    - content: iec:proj:16941
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:23720
+    docidentifier:
+    - content: iec:proj:23720
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:67776
+    docidentifier:
+    - content: iec:pub:67776
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 29.140.50
+    text: Lighting installation systems
+  - code: 29.140.99
+    text: Other standards related to lamps

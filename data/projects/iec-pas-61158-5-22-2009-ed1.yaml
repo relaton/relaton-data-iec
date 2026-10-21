@@ -1,0 +1,128 @@
+---
+id: IECPAS611585222009ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-22: Application layer service definition -- Type SNpTYPE elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 5-22: Application layer service definition -- Type SNpTYPE elements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17761
+docidentifier:
+- content: IEC PAS 61158-5-22:2009 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:17761
+  type: URN
+date:
+- type: published
+  at: '2009-08-11'
+- type: created
+  at: '2009-01-23'
+- type: forecast
+  at: '2009-10-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC/PAS 61158-5-22:2009(E) provides user programs with a means to access the fieldbus communication environment. In this respect, the FAL can be viewed as a "window between corresponding application programs." It provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type SNpTYPE fieldbus. It contains an additional profile - SNpTYPE - which may be integrated into a future new edition of the IEC 61158-5 series.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17812
+    docidentifier:
+    - content: iec:proj:17812
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20573
+    docidentifier:
+    - content: iec:pub:20573
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer

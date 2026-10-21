@@ -1,0 +1,161 @@
+---
+id: IEC6254142015ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Services'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 4: Services'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture Unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4: Services'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture Unifiée OPC - Partie 4: Services'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21050
+docidentifier:
+- content: IEC 62541-4:2015 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21050
+  type: URN
+date:
+- type: published
+  at: '2015-03-25'
+- type: created
+  at: '2013-04-12'
+- type: forecast
+  at: '2015-03-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-4:2015 defines the OPC Unified Architecture (OPC UA) Services. The Services described are the collection of abstract Remote Procedure Calls (RPC) that are implemented by OPC UA Servers and called by OPC UA Clients. This second edition cancels and replaces the first edition published in 2011. It constitutes a technical revision. It includes the following changes:<br/>
+    - Update for 6.4 Redundancy.<br/>
+    - Clarifications for Publish and Reconnect scenarios.<br/>
+    - Handling of MonitoredItem changes in short network interruption scenarios.<br/>
+    - Update for 6.1.3 Determining if a Certificate is Trusted.<br/>
+    - Revised definition of parameters semaphoreFile and isOnline in Service RegisterServer.<br/>
+    - Services ModifySubscription and ModifyMonitoredItems.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62541-4:2015 définit les Services de l'Architecture Unifiée OPC (OPC UA). Les Services décrits sont le recueil d'appels de procédures abstraites distantes (RPC - Remote Procedure Calls) qui sont mises en oeuvre par les Serveurs OPC UA et qui sont appelées par les Clients OPC UA. Cette deuxième édition annule et remplace la première édition parue en 2011. Elle constitue une révision technique. Cette édition inclut les modifications suivantes:<br/>
+    - Mise à jour de 6.4 Redondance.<br/>
+    - Clarifications pour les scénarios Publish et Reconnect.<br/>
+    - Gestion des modifications de MonitoredItem dans les scénarios de courte interruption du réseau.<br/>
+    - Mise à jour de 6.1.3 Déterminer si un Certificat est fiable.<br/>
+    - Révision de la définition des paramètres semaphoreFile et isOnline dans le Service.<br/>
+    - Services ModifySubscription et ModifyMonitoredItems.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16534
+    docidentifier:
+    - content: iec:proj:16534
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:101125
+    docidentifier:
+    - content: iec:proj:101125
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:21995
+    docidentifier:
+    - content: iec:pub:21995
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

@@ -1,0 +1,141 @@
+---
+id: ISOIEC147762222005ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information techonology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Small computer system interface (SCSI)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 222: Fibre Channel Protocol for SCSI, Second Version (FCP-2)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information techonology - Small computer system interface (SCSI) - Part 222: Fibre Channel Protocol for SCSI, Second Version (FCP-2)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/13951
+docidentifier:
+- content: ISO/IEC 14776-222:2005 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:13951
+  type: URN
+date:
+- type: published
+  at: '2005-02-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The SCSI protocol is designed to provide an efficient peer-to-peer I&#x2F;O bus with the maximum number of hosts and peripherals determined by the bus width (8 or 16). Data may be transferred asynchronously or synchronously at rates that depend primarily on device implementation and cable length. SCSI is an I&#x2F;O interface that may be operated over a wide range of media and transfer rates. This international standard defines a Fibre Channel mapping layer (FC-4) that uses the services defined by NCITS Project 1311D, Fibre Channel Framing and Signaling Interface (FC-FS) to transmit SCSI command, data, and status information between a SCSI initiator and a SCSI target. The use of this standard enables the transmission of standard SCSI command formats, the transmission of standard SCSI data and parameter strings, and the receipt of SCSI status and sense information across the Fibre Channel using only the standard Fibre Channel frame and sequence formats. The Fibre Channel protocol operates with Fibre Channel Classes of Service 1, 2, and 3 and operates across Fibre Channel fabrics and arbitrated loops.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:10169
+    docidentifier:
+    - content: iec:pub:10169
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

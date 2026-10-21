@@ -1,0 +1,130 @@
+---
+id: IEC62055522008ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Payment systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 52: Standard transfer specification (STS) -- Physical layer protocol for a two-way virtual token carrier for direct local connection'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Payment systems - Part 52: Standard transfer specification (STS) -- Physical layer protocol for a two-way virtual token carrier for direct local connection'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/14813
+docidentifier:
+- content: IEC 62055-52:2008 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:14813
+  type: URN
+date:
+- type: published
+  at: '2008-05-14'
+- type: created
+  at: '2006-01-13'
+- type: forecast
+  at: '2008-05-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62055-52:2008(E) specifies a physical layer protocol of the STS for transferring units of credit and other management information between a client (typically a HHU) and a server (an STS-compliant electricity payment meter), typically over a direct local connection. It is complementary to the application layer protocol specified in IEC 62055-41 and should be used in conjunction with that standard. It is intended for use across a range of payment meters developed by different manufacturers and to ensure compatibility between these products and other client devices. It specifies a client/server communications protocol.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:132298
+    docidentifier:
+    - content: iec:proj:132298
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6396
+    docidentifier:
+    - content: iec:pub:6396
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 91.140.50
+    text: Electricity supply systems

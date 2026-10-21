@@ -1,0 +1,184 @@
+---
+id: IEC611586102019ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-10: Application layer protocol specification -- Type 10 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-10: Application layer protocol specification -- Type 10 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-10: Spécification du protocole de la couche application -- Eléments de type 10'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 6-10: Spécification du protocole de la couche application -- Eléments de type 10'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100315
+docidentifier:
+- content: IEC 61158-6-10:2019 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:100315
+  type: URN
+date:
+- type: published
+  at: '2019-06-20'
+- type: created
+  at: '2015-10-23'
+- type: forecast
+  at: '2019-06-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-6-10:2019 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 2 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This International Standard specifies interactions between remote applications and defines the externally visible behavior provided by the Type 2 fieldbus application layer. The purpose of this document is to define the protocol provided to<br/>
+    a) define the wire-representation of the service primitives defined in this document, and<br/>
+    b) define the externally visible behavior associated with their transfer. This document specifies the protocol of the Type 2 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545).<br/>
+    This fourth edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) integration of system redundancy basic functionality;<br/>
+    b) integration of dynamic reconfiguration basic functionality;<br/>
+    c) integration of reporting system basic functionality;<br/>
+    d) integration of asset management basic functionality;<br/>
+    e) integration of media redundancy ring interconnection basic functionality.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61158-6-10:2019 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 10. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle une ou plusieurs actions spécifiées doivent être terminées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les actions risquent de connaître une défaillance, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.<br/>
+    La présente norme définit de manière abstraite les caractéristiques visibles en externe offertes par la couche application de bus de terrain de type 10 en termes<br/>
+    a) de la syntaxe abstraite définissant les unités de données de protocole de couche application acheminées entre les entités d'application engagées dans une communication,<br/>
+    b) de la syntaxe de transfert définissant les unités de données de protocole de couche application acheminées entre les entités d'application engagées dans une communication,<br/>
+    c) de diagramme d'états de contexte d'application définissant les caractéristiques du service d'application visibles entre les entités d'application de communication, et<br/>
+    d) des diagrammes d'états de Relation entre applications définissant le comportement de communication visible entre des entités d'application engagées dans une communication.<br/>
+    La présente norme vise à définir le protocole mis en place pour<br/>
+    a) définir la représentation filaire des primitives de service définies dans l’IEC 61158-5-10 et<br/>
+    b) définir le comportement visible de l'extérieur associé à leur transfert.<br/>
+    La présente norme spécifie le protocole de la couche application de bus de terrain de type 10, conformément au modèle de référence de base OSI (ISO/IEC 7498-1) et à la structure de couche application OSI (ISO/IEC 9545).
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20245
+    docidentifier:
+    - content: iec:proj:20245
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22147
+    docidentifier:
+    - content: iec:proj:22147
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:116237
+    docidentifier:
+    - content: iec:proj:116237
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:59893
+    docidentifier:
+    - content: iec:pub:59893
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

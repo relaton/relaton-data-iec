@@ -1,0 +1,140 @@
+---
+id: IEC627691002020ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Field device integration (FDI)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 100: Profiles -- Generic protocols'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Field device integration (FDI) - Part 100: Profiles -- Generic protocols'
+  type: main
+- language: fr
+  script: Latn
+  content: Intégration des appareils de terrain (FDI)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 100: Profils -- Protocoles génériques'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration des appareils de terrain (FDI) - Partie 100: Profils -- Protocoles génériques'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100956
+docidentifier:
+- content: IEC 62769-100:2020 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:100956
+  type: URN
+date:
+- type: published
+  at: '2020-09-24'
+- type: created
+  at: '2017-10-27'
+- type: forecast
+  at: '2020-10-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62769-100:2020 specifies an FDI profile of IEC 62769 for generic protocols. That means that all interfaces are defined, and a host can add support for more protocols without changing its implementation. Nevertheless, there are some protocol-specific definitions (PSD) that need to be specified per protocol using this profile. Annex C specifies what PSDs need to be defined per protocol so that FDI Device Packages, FDI Communication Packages for Gateways and FDI Communication Servers, FDI Communication Servers, Gateways and Devices supporting such a protocol can work together in a host not aware about this specific protocol.
+- language: fr
+  script: Latn
+  content: L'IEC 62769-100:2020 spécifie un profil FDI de l'IEC 62769 pour les protocoles génériques. Cela signifie que toutes les interfaces sont définies et qu'un hôte peut ajouter la prise en charge de plusieurs protocoles sans modifier sa mise en œuvre. Néanmoins, il est nécessaire de spécifier certaines définitions spécifiques au protocole (PSD) à l'aide de ce profil. L'Annexe C spécifie les PSD qu’il est nécessaire de définir par protocole, de sorte que les Paquetages d'appareils FDI, les Paquetages de communication FDI pour les Passerelles et les Serveurs de communication FDI, les Serveurs de communication FDI, les Passerelles et les Appareils prenant en charge ce type de protocole puissent fonctionner ensemble dans un hôte, quel que soit ce protocole spécifique.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:107204
+    docidentifier:
+    - content: iec:proj:107204
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:60899
+    docidentifier:
+    - content: iec:pub:60899
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

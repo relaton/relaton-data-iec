@@ -1,0 +1,155 @@
+---
+id: IEC60749152020ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Semiconductor devices
+  type: title-intro
+- language: en
+  script: Latn
+  content: Mechanical and climatic test methods
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 15: Resistance to soldering temperature for through-hole mounted devices'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Semiconductor devices - Mechanical and climatic test methods - Part 15: Resistance to soldering temperature for through-hole mounted devices'
+  type: main
+- language: fr
+  script: Latn
+  content: Dispositifs à semiconducteurs
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Méthodes d'essais mécaniques et climatiques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 15: Résistance à la température de brasage pour dispositifs par trous traversants'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Dispositifs à semiconducteurs - Méthodes d''essais mécaniques et climatiques - Partie 15: Résistance à la température de brasage pour dispositifs par trous traversants'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103229
+docidentifier:
+- content: IEC 60749-15:2020 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:103229
+  type: URN
+date:
+- type: published
+  at: '2020-07-14'
+- type: created
+  at: '2019-05-03'
+- type: forecast
+  at: '2020-08-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60749-15:2020 describes a test used to determine whether encapsulated solid state devices used for through-hole mounting can withstand the effects of the temperature to which they are subjected during soldering of their leads by using wave soldering. In order to establish a standard test procedure for the most reproducible methods, the solder dip method is used because of its more controllable conditions. This procedure determines whether devices are capable of withstanding the soldering temperature encountered in printed wiring board assembly operations, without degrading their electrical characteristics or internal connections. This test is destructive and may be used for qualification, lot acceptance and as a product monitor. The heat is conducted through the leads into the device package from solder heat at the reverse side of the board. This procedure does not simulate wave soldering or reflow heat exposure on the same side of the board as the package body. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - inclusion of new Clause 3, Terms and definitions;<br/>
+    - clarification of the use of a soldering iron for producing the heating effect;<br/>
+    - inclusion an option to use accelerated ageing.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 60749-15:2020 décrit un essai utilisé pour déterminer si les dispositifs à semiconducteurs encapsulés utilisés pour le montage par trous traversants peuvent résister aux effets de la température à laquelle ils sont soumis pendant le brasage de leurs broches en utilisant le brasage à la vague. Dans le but d'établir une procédure d'essai normalisée pour les méthodes les plus reproductibles, la méthode d'immersion dans la brasure est utilisée en raison de ses conditions plus contrôlables. Cette procédure détermine si les dispositifs sont capables de résister à la température de brasage rencontrée lors d'opérations de fabrication des cartes à câblage imprimé, sans endommager leurs caractéristiques électriques ou leurs connexions internes. Cet essai est destructif et il peut être utilisé en vue de la qualification, de l’acceptation de lots et pour contrôler les produits.<br/>
+    La chaleur du brasage se propage dans le boîtier du dispositif par les broches de l'autre côté de la carte. Cette procédure ne simule pas l'exposition à la chaleur du brasage à la vague ou à la chaleur de refusion sur le même côté de la carte que le corps du boîtier. La présente édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - ajout de l'Article 3, Termes et définitions;<br/>
+    - clarification sur l'utilisation d'un fer à braser pour produire un effet thermique;<br/>
+    - ajout d'une option relative à l'utilisation du vieillissement accéléré.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:17523
+    docidentifier:
+    - content: iec:proj:17523
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:65050
+    docidentifier:
+    - content: iec:pub:65050
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 31.080.01
+    text: Semiconductor devices in general

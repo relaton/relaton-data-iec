@@ -1,0 +1,129 @@
+---
+id: IEC632034011ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Wearable electronic devices and technologies
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 401-1: Devices and systems: functional elements'
+  type: title-main
+- language: en
+  script: Latn
+  content: Measurement method of the stretchable resistive strain sensor
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Wearable electronic devices and technologies - Part 401-1: Devices and systems: functional elements - Measurement method of the stretchable resistive strain sensor'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies et dispositifs électroniques prêt-à-porter
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 401-1 : Dispositifs et systèmes: éléments de fonctionnement'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Méthode de mesure du capteur de déformation extensible de type résistif
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies et dispositifs électroniques prêt-à-porter - Partie 401-1 : Dispositifs et systèmes: éléments de fonctionnement - Méthode de mesure du capteur de déformation extensible de type résistif'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/121432
+docidentifier:
+- content: IEC 63203-401-1 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:121432
+  type: URN
+date:
+- type: created
+  at: '2023-11-10'
+- type: forecast
+  at: '2027-02-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 124
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63203-401 ED2 specifies a measurement method of the linear area and strain limits and gauge factor of stretchable resistive strain sensors for large deformations. This document primarily targets strain sensors that undergo large deformations and utilize resistance changes in conductive films made of conductive particles or organic elastic polymers. This is not a measurement method for strain sensor materials. Furthermore, it cannot be applied to conventional strain gauges that utilize resistance changes in thin metal films.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) a new "INTRODUCTION" section has been added to explain the background of the revision, the differences from metal foil strain gauges, and the necessity of this document;<br/>
+    b) in Clause 1, the scope has been limited to the measurement methods for sensor element linearity and gauge factor. Measurement items described in ED1, for which the specifications were incomplete, have been removed;<br/>
+    c) in Clause 2, uncited standards have been removed;<br/>
+    d) in Clause 3, unnecessary terms have been removed;<br/>
+    e) in Clause 4, the superfluous explanations have been removed;<br/>
+    f) in Subclause 5.2, the requirements for the sensor device to be measured have been clearly stated. In ED1, there was confusion between the evaluation of sensor materials and the evaluation of sensor devices. Additionally, information regarding the internal details of the sensor element, which is proprietary to the supplier and unnecessary for the sensor user, has been removed;<br/>
+    g) in Clause 6, the description of the testing equipment has been clearly stated that either vertical or horizontal tensile testing machines may be used; however, the vertical type is permitted only when deformation due to the sensor's own weight can be disregarded. In addition, requirements for elements necessary for measurement, which were missing in ED1, are specified: these include, for example, a load cell for determining mechanical strain limits, as well as capabilities for measuring length and electrical resistance;<br/>
+    h) in Clause 7, the measurement procedure has been significantly revised. First, the linear region is determined, and the gauge factor within that linear region is calculated. The linear region is determined based on the relationship between length change and stress change (mechanical) and the relationship between length change and resistance change (electrical). References to response characteristics and hysteresis have been removed, as no specific measurement procedures were provided for them. In the practical application of sensor devices, these factors are treated as "errors" relative to the sensor's linear response. (Please note that the purpose of this document is not material evaluation.)
+status:
+  stage:
+    abbreviation: RFDIS
+    content: '50.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101879
+    docidentifier:
+    - content: iec:proj:101879
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '31.020'
+    text: Electronic components in general

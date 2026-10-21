@@ -1,0 +1,131 @@
+---
+id: IEC615084ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Functional safety of electrical/electronic/programmable electronic safety-related systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Definitions and abbreviations'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 4: Definitions and abbreviations'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité fonctionnelle des systèmes électriques/électroniques/électroniques programmables relatifs à la sécurité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4: Définitions et abréviations'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité fonctionnelle des systèmes électriques/électroniques/électroniques programmables relatifs à la sécurité - Partie 4: Définitions et abréviations'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113096
+docidentifier:
+- content: IEC 61508-4 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:113096
+  type: URN
+date:
+- type: created
+  at: '2022-09-23'
+- type: forecast
+  at: '2027-01-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61508-4:2026 covers those aspects to be considered when electrical/electronic/programmable electronic (E/E/PE) systems are used to carry out safety functions.<br/>
+    A first objective is to facilitate the development of product and application sector international standards by the technical committees responsible for the product or application sector. This will allow all the relevant factors, associated with the product or application, to be fully considered and thereby meet the specific needs of users of the product and the application sector.<br/>
+    A second objective is to enable the development of E/E/PE safety-related systems where product or application sector international standards do not exist.<br/>
+    The scope of this document is functional safety for E/E/PE safety-related systems but, apart from normative requirements in the hazard and risk analysis phase, this document does not itself provide normative requirements for malevolent action arising from a security risk.<br/>
+    NOTE 1 For requirements and/or guidance on security, see the IEC 62443 series and ISO/IEC 27000 family.<br/>
+    NOTE 2 For guidance on the coordination between safety and security, refer to IEC TR 63069.<br/>
+    This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) a set of definitions has been introduced or modified to cover aspects of:<br/>
+      1) software off-line support tools, tool impact class (TIC, TIC1, TIC2, TIC3), tool error detection (TD);<br/>
+      2) software technology classes (SWTC I, SWTC II, SWTC III, related to “artificial Intelligence”);<br/>
+      3) diagnostic functions, diagnostic function failure, diagnostic detection failure, diagnostic undetected failure, diagnostic safe failure fraction (DSFF);<br/>
+      4) levels of independence of persons (IL1, IL2, IL3);<br/>
+      5) common cause initiators and common cause coupling (CCI, CCC);<br/>
+      6) selection of techniques and methods (shortcuts in tables);<br/>
+    b) various clarifications have been made in definitions;<br/>
+    c) the normative references and the bibliography have been updated.<br/>
+    It has the status of a basic safety publication according to IEC Guide 104 and has been developed according to ISO/IEC Guide 51.
+status:
+  stage:
+    abbreviation: CFDIS
+    content: '50.20'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14798
+    docidentifier:
+    - content: iec:proj:14798
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '29.020'
+    text: Electrical engineering in general

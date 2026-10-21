@@ -1,0 +1,125 @@
+---
+id: ISO1511822014ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Road vehicles -- Vehicle-to-Grid Communication Interface -- Part 2: Network and application protocol requirements'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Road vehicles -- Vehicle-to-Grid Communication Interface -- Part 2: Network and application protocol requirements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19787
+docidentifier:
+- content: ISO 15118-2:2014 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19787
+  type: URN
+date:
+- type: published
+  at: '2014-03-31'
+- type: created
+  at: '2011-04-15'
+- type: forecast
+  at: '2014-04-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: ISO 15118-2:2014 specifies the communication between battery electric vehicles (BEV) or plug-in hybrid electric vehicles (PHEV) and the Electric Vehicle Supply Equipment. The application layer message set defined in ISO 15118-2:2014 is designed to support the energy transfer from an EVSE to an EV. ISO 15118-1 contains additional use case elements describing the bidirectional energy transfer. The implementation of these use cases requires enhancements of the application layer message set defined herein. The purpose of ISO 15118-2:2014 is to detail the communication between an EV (BEV or a PHEV) and an EVSE. Aspects are specified to detect a vehicle in a communication network and enable an Internet Protocol (IP) based communication between EVCC and SECC. ISO 15118-2:2014 defines messages, data model, XML/EXI based data representation format, usage of V2GTP, TLS, TCP and IPv6. In addition, it describes how data link layer services can be accessed from a layer 3 perspective. The Data Link Layer and Physical Layer functionality is described in ISO 15118-3.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23481
+    docidentifier:
+    - content: iec:proj:23481
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:134407
+    docidentifier:
+    - content: iec:proj:134407
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:9273
+    docidentifier:
+    - content: iec:pub:9273
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles

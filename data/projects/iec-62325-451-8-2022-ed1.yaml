@@ -1,0 +1,137 @@
+---
+id: IEC6232545182022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Framework for energy market communications
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 451-8: HVDC Scheduling process, contextual and assembly models for European style market'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Framework for energy market communications - Part 451-8: HVDC Scheduling process, contextual and assembly models for European style market'
+  type: main
+- language: fr
+  script: Latn
+  content: Cadre pour les communications pour le marché de l'énergie
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 451-8: Processus de programmation de liaisons HVDC, modèles contextuels et modèles d''assemblage pour le marché de style européen'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Cadre pour les communications pour le marché de l''énergie - Partie 451-8: Processus de programmation de liaisons HVDC, modèles contextuels et modèles d''assemblage pour le marché de style européen'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103395
+docidentifier:
+- content: IEC 62325-451-8:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103395
+  type: URN
+date:
+- type: published
+  at: '2022-03-24'
+- type: created
+  at: '2019-11-01'
+- type: forecast
+  at: '2022-05-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62325-451-8:2022 specifies a UML package for the HVDC Link scheduling business process and its associated document contextual models, assembly models and XML schemas for use within the European style electricity markets.<br/>
+    This part of IEC 62325 is based on the European style market contextual model (IEC 62325-351). The business process covered by this part of IEC 62325 is described in Subclause 5.3.<br/>
+    The relevant aggregate core components (ACCs) defined in IEC 62325-351 have been contextualised into aggregated business information entities (ABIEs) to satisfy the requirements of the European style market HVDC Link scheduling business process.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62325-451-8:2022 spécifie un paquetage UML (Unified Modelling Language) pour le processus métier de programmation de liaisons HVDC ainsi que les modèles contextuels de document, les modèles d'assemblage et les schémas XML associés à appliquer au sein des marchés de l'électricité de style européen.<br/>
+    La présente partie de l'IEC 62325 s'appuie sur le modèle contextuel pour les marchés de style européen (IEC 62325-351). Le processus métier couvert par la présente partie de l'IEC 62325 est décrit en 5.3.<br/>
+    Les composants de base agrégés (ACC, Aggregate Core Component) pertinents définis dans l'IEC 62325-351 ont été contextualisés sous la forme d'entités d'information métier agrégées (ABIE, Aggregated Business Information Entity) afin de satisfaire aux exigences du processus métier de programmation de liaisons HVDC sur les marchés de style européen.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:65407
+    docidentifier:
+    - content: iec:pub:65407
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

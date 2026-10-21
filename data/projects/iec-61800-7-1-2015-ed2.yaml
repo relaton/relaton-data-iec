@@ -1,0 +1,154 @@
+---
+id: IEC61800712015ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Adjustable speed electrical power drive systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-1: Generic interface and use of profiles for power drive systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: Interface definition
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Adjustable speed electrical power drive systems - Part 7-1: Generic interface and use of profiles for power drive systems - Interface definition'
+  type: main
+- language: fr
+  script: Latn
+  content: Entraînements électriques de puissance à vitesse variable
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-1: Interface générique et utilisation de profils pour les entraînements électriques de puissance'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Définition de l'interface
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Entraînements électriques de puissance à vitesse variable - Partie 7-1: Interface générique et utilisation de profils pour les entraînements électriques de puissance - Définition de l''interface'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20867
+docidentifier:
+- content: IEC 61800-7-1:2015 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20867
+  type: URN
+date:
+- type: published
+  at: '2015-11-20'
+- type: created
+  at: '2013-01-30'
+- type: forecast
+  at: '2015-10-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 22/SC 22G
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61800-7-1:2015 specifies a generic interface between power drive system(s) (PDS) and the application control program in a controller. The generic PDS interface is not specific to any particular communication network technology. Annexes of this part of IEC 61800 specify the mapping of the different drive profiles types onto the generic PDS interface. The functions specified in this part of IEC 61800 are not intended to ensure functional safety. This requires additional measures according to the relevant standards, agreements and laws. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) mapping of drive profile type 1 onto additional network technologies;<br/>
+    b) minor updates in the subclauses for profile types 1, 2 and 4, in relation with corresponding changes in the dedicated IEC 61800-7-20x parts.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61800-7-1:2015 spécifie une interface générique entre le ou les entraînements électriques de puissance (PDS) et le programme de commande d'application dans un contrôleur. L'interface PDS générique n'est pas spécifique à une technologie de réseaux de communication particulière. Les annexes de la présente partie de l'IEC 61800 spécifient la correspondance des différents types de profils d'entraînement avec l'interface PDS générique. Les fonctions spécifiées dans la présente partie de l'IEC 61800 ne sont pas destinées à assurer la sécurité fonctionnelle. Ceci exige l'application de mesures supplémentaires conformes aux normes, conventions et lois pertinentes. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) mise en correspondance du profil de dispositif d'entraînement de type 1 avec les technologies de réseau supplémentaires;<br/>
+    b) mises à jour mineures des paragraphes concernant les profils de types 1, 2 et 4 pour correspondre aux modifications correspondantes apportées dans les parties dédiées de l'IEC 61800-7-20x.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:11968
+    docidentifier:
+    - content: iec:proj:11968
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:23757
+    docidentifier:
+    - content: iec:pub:23757
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  - code: 35.100.05
+    text: Multilayer applications

@@ -1,0 +1,141 @@
+---
+id: ISOIEC141651312000ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fibre Channel
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 131: Switch Fabric Requirements (FC-SW)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Fibre Channel - Part 131: Switch Fabric Requirements (FC-SW)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10088
+docidentifier:
+- content: ISO/IEC 14165-131:2000 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:10088
+  type: URN
+date:
+- type: published
+  at: '2000-05-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Fibre Channel provides a general data transport vehicle for Upper Level Protocols (ULPs) such as Intelligent Peripheral Interface (IPI) and Small Computer System Interface (SCSI) command sets, the High-Performance Parallel Interface (HIPPI) data framing, IP (Internet Protocol), ANSI&#x2F;IEEE 802.2, and others. This ISO&#x2F;IEC standard for FC-SW specifies tools and algorithms for interconnection and initialization of Fibre Channel switches to create a multi-switch Fibre Channel Fabric. This Standard defines an E_Port (iPExpansion Portlp) that operates in a manner similar to an N_Port and F_Port, as defined in ISO&#x2F;IEC 14165-111, with additional functionality provided for interconnecting switches. This standard decribes the following: - An overview of the Switched-based Fabric; - The general behavior for all modes of the Switch Port; - The services provided for use by the Switch Fabrics; - Fabric Configuration process.'
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:9883
+    docidentifier:
+    - content: iec:pub:9883
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

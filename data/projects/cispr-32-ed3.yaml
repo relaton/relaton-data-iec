@@ -1,0 +1,155 @@
+---
+id: CISPR32ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility of multimedia equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: Emission requirements
+  type: title-main
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility of multimedia equipment - Emission requirements
+  type: main
+- language: fr
+  script: Latn
+  content: Compatibilité électromagnétique des équipements multimédia
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Exigences d'émission
+  type: title-main
+- language: fr
+  script: Latn
+  content: Compatibilité électromagnétique des équipements multimédia - Exigences d'émission
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/122372
+docidentifier:
+- content: CISPR 32 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:122372
+  type: URN
+date:
+- type: created
+  at: '2024-01-05'
+- type: forecast
+  at: '2027-01-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International special committee on radio interference
+    abbreviation:
+      language: en
+      script: Latn
+      content: CISPR
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: CISPR/CIS/I
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC CISPR 32: 2026 applies to multimedia equipment (MME) as defined in 3.1.27. This also includes MME with any of the following features:<br/>
+    - MME intended primarily for professional use;<br/>
+    - MME that contains a radio function;<br/>
+    - MME that is battery powered.<br/>
+    The emission requirements in this document are not intended to be applicable to the intentional transmissions from a radio communication device operated in accordance with the ITU-R Radio Regulations, nor to any spurious emissions related to these intentional transmissions.  This document covers two classes of MME (Class A and Class B). The MME classes are specified in Clause 4.  The objectives of this document are:<br/>
+    a) to establish requirements which provide an adequate level of protection of the radio spectrum, allowing radio services to operate as intended in the frequency range 9 kHz to 400 GHz;<br/>
+    b) to specify procedures to ensure the reproducibility of measurement and the repeatability of results.<br/>
+    CISPR 32 has been prepared by CISPR subcommittee I: Electromagnetic compatibility of information technology equipment, multimedia equipment and receivers. It is an International Standard.  This third edition cancels and replaces the first edition published in 2015 and  Amendment 1:2019. This edition constitutes a technical revision.  This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) numerous maintenance items are addressed to improve the testing of MME;<br/>
+    b) alignment and update of Scope;<br/>
+    c) incorporation of in situ methods and requirements;<br/>
+    d) revision of TV Tuner Port requirements;<br/>
+    e) inclusion of APD methods and limits;<br/>
+    f) inclusion of conducted requirements below 950 MHz for satellite broadcast receiver tuner ports;<br/>
+    g) editorial improvements and corrections identified from Edition 2 amendment 1;<br/>
+    h) DC network port requirements;<br/>
+    i) informative annex covering testing MME with radio transmission function;<br/>
+    j) informative annex explaining the changes above 1 GHz in Edition 2 Amendment 1;<br/>
+    k) informative annex on the use of a VHF-LISN as a cable termination of AC power cables to improve test reproducibility (VHF-LISN characteristics are defined in CISPR 16-1-4:2025);<br/>
+    l) update of references to the latest basic standards;<br/>
+    m) conversion of RVC methodology from Informative to Normative;<br/>
+    n) adding informative Annex O providing rationale for inclusion of RVC method for radiated emission measurements above 1 GHz;<br/>
+    o) emission limits below 150 kHz on AC mains for class B equipment are added, in line with IEC 61000-6-3:2026 and CISPR PAS 39.
+status:
+  stage:
+    abbreviation: RFDIS
+    content: '50.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20486
+    docidentifier:
+    - content: iec:proj:20486
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:23578
+    docidentifier:
+    - content: iec:proj:23578
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:23620
+    docidentifier:
+    - content: iec:proj:23620
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101226
+    docidentifier:
+    - content: iec:proj:101226
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.100.10
+    text: Emission

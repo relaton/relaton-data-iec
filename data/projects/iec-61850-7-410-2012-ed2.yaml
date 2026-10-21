@@ -1,0 +1,170 @@
+---
+id: IEC6185074102012ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-410: Basic communication structure'
+  type: title-main
+- language: en
+  script: Latn
+  content: Hydroelectric power plants -- Communication for monitoring and control
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 7-410: Basic communication structure - Hydroelectric power plants -- Communication for monitoring and control'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-410: Structure de communication de base'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Centrales hydroélectriques -- Communication pour le contrôle-commande
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques - Partie 7-410: Structure de communication de base - Centrales hydroélectriques -- Communication pour le contrôle-commande'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17868
+docidentifier:
+- content: IEC 61850-7-410:2012 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:17868
+  type: URN
+date:
+- type: published
+  at: '2012-10-30'
+- type: created
+  at: '2009-07-03'
+- type: forecast
+  at: '2012-11-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-7-410:2012 specifies the additional common data classes, logical nodes and data objects required for the use of IEC 61850 in a hydropower plant. The main changes with respect to the previous edition are as follows:<br/>
+    - the logical nodes in IEC 61850-7-410:2007 that were not specific to hydropower plants have been transferred to IEC 61850-7-4:2010;<br/>
+    - the definitions of logical nodes in this edition of IEC 61850-7-410 have been updated;<br/>
+    - most of the modelling examples and background information included in IEC 61850-7-410:2007 have been transferred to IEC/TR 61850-7-510.<br/>
+    This new edition of IEC 61850-7-410 includes additional general-purpose logical nodes that were not included in IEC 61850-7-4:2010, but are required in order to represent the complete control and monitoring system of a hydropower plant.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61850-7-410:2012 spécifie les classes de données communes, noeuds logiques et objets de données complémentaires qui sont indispensables pour l'utilisation de la CEI 61850 dans une centrale hydroélectrique. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - les noeuds logiques dans la CEI 61850-7-410:2007, qui n'étaient pas spécifiques aux centrales hydroélectriques, ont été transférés dans la CEI 61850-7-4:2010;<br/>
+    - les définitions des noeuds logiques dans cette édition de la CEI 61850-7-410 ont été mises à jour;<br/>
+    - la plupart des exemples de modélisation et d'informations de référence inclus dans la CEI 61850-7-410:2007 ont été transférés dans la CEI/TR 61850-7-510.<br/>
+    Cette édition de la CEI 61850-7-410 inclut des noeuds logiques complémentaires d'usage général qui ne sont pas inclus dans la CEI 61850-7-4:2010 et qui sont indispensables pour représenter le système complet de contrôle - commande d'une centrale hydroélectrique.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:13406
+    docidentifier:
+    - content: iec:proj:13406
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19766
+    docidentifier:
+    - content: iec:proj:19766
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:104539
+    docidentifier:
+    - content: iec:proj:104539
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6018
+    docidentifier:
+    - content: iec:pub:6018
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

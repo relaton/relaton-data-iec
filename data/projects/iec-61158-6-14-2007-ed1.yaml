@@ -1,0 +1,149 @@
+---
+id: IEC611586142007ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-14: Application layer protocol specification -- Type 14 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-14: Application layer protocol specification -- Type 14 elements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16062
+docidentifier:
+- content: IEC 61158-6-14:2007 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:16062
+  type: URN
+date:
+- type: published
+  at: '2007-12-14'
+- type: created
+  at: '2005-04-01'
+- type: forecast
+  at: '2007-11-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: It provides user programs with a means to access the fieldbus communication environment. In this respect, the FAL can be viewed as a "window between corresponding application programs." This standard provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 2 fieldbus. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life. It includes the following significant changes from the previous edition deletion of the former Type 6 fieldbus for lack of market relevance; addition of new types of fieldbuses; partition of part 6 of the third edition into multiple parts numbered.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:10895
+    docidentifier:
+    - content: iec:proj:10895
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14009
+    docidentifier:
+    - content: iec:proj:14009
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14341
+    docidentifier:
+    - content: iec:proj:14341
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:18676
+    docidentifier:
+    - content: iec:proj:18676
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19231
+    docidentifier:
+    - content: iec:pub:19231
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  - code: 25.040.40
+    text: Industrial process measurement and control

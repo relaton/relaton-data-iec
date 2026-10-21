@@ -1,0 +1,152 @@
+---
+id: IEC6254172025ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Profiles'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 7: Profiles'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7: Profils'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 7: Profils'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/115403
+docidentifier:
+- content: IEC 62541-7:2025 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:115403
+  type: URN
+date:
+- type: published
+  at: '2025-12-16'
+- type: created
+  at: '2023-01-27'
+- type: forecast
+  at: '2026-01-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-7: 2025 specifies value and structure of Profiles in the OPC Unified Architecture.<br/>
+    OPC UA Profiles are used to segregate features with regard to testing of OPC UA products and the nature of the testing. The scope of this document includes defining functionality that can only be tested. The definition of actual TestCases is not within the scope of this document, but the general categories of TestCases are covered by this document.<br/>
+    Most OPC UA applications will conform to several, but not all of the Profiles.<br/>
+    This fourth edition cancels and replaces the third edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Profiles and ConformanceUnits are not part of this document, but are solely managed in a public database as described in Clause 1.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-7: 2025 spécifie la valeur et la structure des Profils dans l'Architecture unifiée OPC.<br/>
+    Les Profils OPC UA document permettent de classer les caractéristiques en fonction des essais de produits OPC UA et de la nature des essais. Le domaine d'application du présent document inclut la définition d'une fonctionnalité qui peut seulement être soumise à l'essai. La définition des TestCases réels ne relève pas du domaine d'application du présent document, mais les catégories de TestCases générales sont couvertes par le présent document.<br/>
+    La plupart des applications OPC UA sont conformes à plusieurs Profils, mais pas à l'ensemble des Profils.<br/>
+    Cette quatrième édition annule et remplace la troisième édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) les Profils et les ConformanceUnits ne font pas partie du présent document, mais sont uniquement gérés dans une base de données publique, comme cela est décrit à l'Article 1.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101128
+    docidentifier:
+    - content: iec:proj:101128
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:82275
+    docidentifier:
+    - content: iec:pub:82275
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

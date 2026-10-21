@@ -1,0 +1,139 @@
+---
+id: IECTS62056511998ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data exchange for meter reading, tariff and load control
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 51: Application layer protocols'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Data exchange for meter reading, tariff and load control - Part 51: Application layer protocols'
+  type: main
+- language: fr
+  script: Latn
+  content: Comptage d'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Echange de données pour la lecture des compteurs, le contrôle des tarifs et de la charge
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 51:  Protocoles de couche application'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Comptage d''électricité - Echange de données pour la lecture des compteurs, le contrôle des tarifs et de la charge - Partie 51:  Protocoles de couche application'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/8659
+docidentifier:
+- content: IEC TS 62056-51:1998 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:8659
+  type: URN
+date:
+- type: published
+  at: '1998-11-24'
+- type: created
+  at: '1994-04-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Describes an architectured application layer used for communication with metering equipment. The associated physical medium and lower layer protocols in a collapsed three-layer model are unspecified. The DLMS protocol is covered by IEC 61334-4-41. This is a Technical Report type 2.
+- language: fr
+  script: Latn
+  content: Décrit une architecture de couche application utilisée pour communiquer avec les équipements de comptage. Le support physique et les protocoles de couches basses qui y sont associés dans un modèle réduit à 3 couches ne sont pas specifiés. Le protocole DLMS est couvert par la CEI 61334-4-41. C'est un Rapport technique de type 2.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6407
+    docidentifier:
+    - content: iec:pub:6407
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  - code: '33.200'
+    text: Telecontrol. Telemetering

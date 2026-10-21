@@ -1,0 +1,144 @@
+---
+id: IEC60839742001ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Alarm systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-4: Message formats and protocols for serial data interfaces in alarm transmission systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: Common transport layer protocol
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Alarm systems - Part 7-4: Message formats and protocols for serial data interfaces in alarm transmission systems - Common transport layer protocol'
+  type: main
+- language: fr
+  script: Latn
+  content: Systèmes d'alarme
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-4: Formats de message et protocoles pour les interfaces de données série dans les systèmes de transmission d''alarme'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Protocole de la couche commune de transport
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Systèmes d''alarme - Partie 7-4: Formats de message et protocoles pour les interfaces de données série dans les systèmes de transmission d''alarme - Protocole de la couche commune de transport'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/5858
+docidentifier:
+- content: IEC 60839-7-4:2001 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:5858
+  type: URN
+date:
+- type: published
+  at: '2001-03-09'
+- type: created
+  at: '1993-11-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 79
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Specifies the transport layer message structure, formats and transmission procedures to be used at standard interfaces in alarm transmission systems. Should be used at all such interfaces where equipment from one supplier is intended to inter-work with equipment from other suppliers, and where the underlying system architecture does not provide the necessary facilities to support the common application layer.
+- language: fr
+  script: Latn
+  content: Spécifie la structure des messages de la couche de transport, les formats et les procédures de transmission à utiliser au niveau des interfaces normalisées dans les systèmes de transmission d'alarme. Est à utiliser pour toutes les interfaces dans lesquelles le matériel provenant d'un fournisseur est destiné à travailler en liaison avec celui provenant d'autres fournisseurs, et dans lesquelles l'architecture sous-tendue du système ne donne pas les possibilités nécessaires pour supporter la couche d'application commune.
+status:
+  stage:
+    abbreviation: WPUB
+    content: '95.99'
+  iteration: '1'
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:11590
+    docidentifier:
+    - content: iec:proj:11590
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:3672
+    docidentifier:
+    - content: iec:pub:3672
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '13.320'
+    text: Alarm and warning systems

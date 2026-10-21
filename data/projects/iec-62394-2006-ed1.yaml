@@ -1,0 +1,124 @@
+---
+id: IEC623942006ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Service diagnostic interface for consumer electronics products and networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Implementation for ECHONET
+  type: title-main
+- language: en
+  script: Latn
+  content: Service diagnostic interface for consumer electronics products and networks - Implementation for ECHONET
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/13164
+docidentifier:
+- content: IEC 62394:2006 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:13164
+  type: URN
+date:
+- type: published
+  at: '2006-06-26'
+- type: created
+  at: '2003-09-19'
+- type: forecast
+  at: '2006-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: requirements for service diagnostic software to be implemented in products that incorporate a digital interface. It does not specify requirements for carrying out remote diagnosis or for manufacturer-dependent software.requires the use of a controller (exclusive controller or general-purpose controller/PC) into which service diagnostic software can be loaded. Part of this controller software should be standardized while another part of this controller software is manufacturer-/product-related.is the minimal specification necessary to be able to carry out computerized diagnosis and covers the standardized software of the controller as well as the standardized software and provisions in the DUT.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:20069
+    docidentifier:
+    - content: iec:proj:20069
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20481
+    docidentifier:
+    - content: iec:pub:20481
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.160.99
+    text: Other audio, video and audiovisual equipment
+  - code: 35.100.05
+    text: Multilayer applications

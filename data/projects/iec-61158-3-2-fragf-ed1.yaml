@@ -1,0 +1,111 @@
+---
+id: IEC6115832FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications de bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-2: Définition du service de la couche de liaison de données -- Eléments de type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications de bus de terrain - Partie 3-2: Définition du service de la couche de liaison de données -- Eléments de type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21092
+docidentifier:
+- content: IEC 61158-3-2/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21092
+  type: URN
+date:
+- type: forecast
+  at: '2013-06-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61158-3-2:2007 définit de manière abstraite le service visible externe fourni par la couche de liaison de données de bus de terrain de type 2, en termes:<br/>
+    - des actions et événements primitifs du service;<br/>
+    - des paramètres associés à chaque action et à chaque événement primitifs,<br/>
+    - ainsi que la forme de ces derniers, de l'interrelation entre ces actions et événements, et leurs séquences valides. Cette première édition et les parties associées de la sous-série CEI 61158-3 annulent et remplacent la CEI 61158-3:2003. L'édition de la présente partie constitue une révision mineure. La présente partie et les parties de type 2 associées annulent et remplacent également la CEI/PAS 62410 publiée en 2005. La présente édition comporte les modifications importantes suivantes par rapport à l'édition précédente:<br/>
+    - suppression du bus de terrain de type 6 précédent, et du  paramètre fictif applicable à une couche de liaison de données de bus de terrain de type 5, pour défaut de pertinence de commercialisation;<br/>
+    - ajout de nouveaux types de bus de terrain;<br/>
+    - division de la présente partie en plusieurs parties numérotées 3-1, 3-2,..., 3-19. La présente version bilingue (2013-07) correspond à la version anglaise monolingue publiée en 2007-12.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:16004
+    docidentifier:
+    - content: iec:proj:16004
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22077
+    docidentifier:
+    - content: iec:proj:22077
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

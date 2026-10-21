@@ -1,0 +1,150 @@
+---
+id: IEC61340322002ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electrostatics
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 3-2: Methods for simulation of electrostatic effects'
+  type: title-main
+- language: en
+  script: Latn
+  content: Machine model (MM) -- Component testing
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electrostatics - Part 3-2: Methods for simulation of electrostatic effects - Machine model (MM) -- Component testing'
+  type: main
+- language: fr
+  script: Latn
+  content: Electrostatique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 3-2: Méthodes pour la simulation des effets électrostatiques'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Modèles de machine (MM) -- Essais des composants
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Electrostatique - Partie 3-2: Méthodes pour la simulation des effets électrostatiques - Modèles de machine (MM) -- Essais des composants'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/7873
+docidentifier:
+- content: IEC 61340-3-2:2002 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:7873
+  type: URN
+date:
+- type: published
+  at: '2002-03-25'
+- type: created
+  at: '1996-01-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 101
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Describes the discharge current waveforms used to define the MM and the basic equipment requirements used to develop these waveforms. Test parameters are defined for testing and classifying the electrostatic discharge (ESD) sensitivity of non-powered devices to the MM.
+    The purpose of this standard is to establish a test model that will replicate MM failures and will define the MM transient current discharge waveform and all necessary test parameters to ensure reliable, reproducible test results. Reproducible data will allow accurate comparisons of MM ESD sensitivity levels.
+- language: fr
+  script: Latn
+  content: |-
+    Décrit les formes d'onde de courant de décharge utilisées pour définir le MM et les prescriptions d'appareils de base utilisés pour développer ces formes d'onde. Les paramètres d'essai sont définis pour les essais et la classification de la sensibilité des décharges électrostatiques (ESD) des composants à semiconducteur dispositifs de faible puissance au MM.
+    L'objet de cette norme est d'établir un modèle d'essai qui reproduit des défaillances du MM et définit la forme de la décharge de courant transitoire du MM et tous les paramètres d'essai nécessaires pour assurer des résultats d'essai fiableset reproductibles. Les données reproductibles permettent des comparaisons précises des niveaux de sensibilité des décharges électrostatiques (ESD) du MM.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:14467
+    docidentifier:
+    - content: iec:proj:14467
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19660
+    docidentifier:
+    - content: iec:pub:19660
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.99
+    text: Other standards related to electricity and magnetism
+  - code: '29.020'
+    text: Electrical engineering in general

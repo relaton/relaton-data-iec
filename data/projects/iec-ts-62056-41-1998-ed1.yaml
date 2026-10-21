@@ -1,0 +1,145 @@
+---
+id: IECTS62056411998ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data exchange for meter reading, tariff and load control
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 41: Data exchange using wide area networks: Public switched telephone network (PSTN) with LINK+ protocol'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Data exchange for meter reading, tariff and load control - Part 41: Data exchange using wide area networks: Public switched telephone network (PSTN) with LINK+ protocol'
+  type: main
+- language: fr
+  script: Latn
+  content: Comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Echange de données pour la lecture des compteurs, le contrôle des tarifs et de la charge
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 41: Echange de données sur réseaux larges: Réseau téléphonique public commuté (RTPC) avec protocole LIAISON+'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Comptage de l''électricité - Echange de données pour la lecture des compteurs, le contrôle des tarifs et de la charge - Partie 41: Echange de données sur réseaux larges: Réseau téléphonique public commuté (RTPC) avec protocole LIAISON+'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/8658
+docidentifier:
+- content: IEC TS 62056-41:1998 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:8658
+  type: URN
+date:
+- type: published
+  at: '1998-11-16'
+- type: created
+  at: '1994-04-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Describes a 3 layer data exchange architecture used for communication with large industrial and commercial customer's metering equipment (remote reading for billing purpose). The public switched telephone network (PSTN) is used as a communication medium for this data exchange. 
+
+    This publication is a Technical report type 2
+- language: fr
+  script: Latn
+  content: |-
+    Décrit une architecture d'échange de données en trois couches utilisée pour communiquer avec les équipements de comptage des gros clients industriels et commerciaux (télé-relève des compteurs aux fins de facturation). Le réseau public commuté (RTPC) est employé comme média de communication pour cet échange de données.
+
+    Cette publication est un Rapport Technique Type 2
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6400
+    docidentifier:
+    - content: iec:pub:6400
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  - code: '33.200'
+    text: Telecontrol. Telemetering

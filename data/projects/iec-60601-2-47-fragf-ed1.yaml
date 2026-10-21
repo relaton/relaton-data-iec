@@ -1,0 +1,109 @@
+---
+id: IEC60601247FRAGfED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Appareils électromédicaux
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 2-47: Règles particulières de sécurité et performances essentielles des systèmes d''électrocardiographie ambulatoires'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Appareils électromédicaux - Partie 2-47: Règles particulières de sécurité et performances essentielles des systèmes d''électrocardiographie ambulatoires'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/14987
+docidentifier:
+- content: IEC 60601-2-47/FRAGf ED1
+  type: IEC
+  primary: true
+- content: iec:proj:14987
+  type: URN
+date:
+- type: forecast
+  at: '2006-04-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62D
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    Spécifie les exigences particulières de sécurité applicables aux systèmes électrocardiographiques ambulatoires.
+
+    Les systèmes des types suivants relèvent du domaine d'application de la présente norme:
+
+    a) systèmes qui assurent un enregistrement en continu et une analyse en continu de l'ECG permettant une nouvelle analyse globale donnant des résultats essentiellement similaires. Les systèmes peuvent d'abord enregistrer et mémoriser l'ECG, puis l'analyser ultérieurement sur une unité distincte, ou ils peuvent enregistrer et analyser l'ECG simultanément. Le type de support de stockage utilisé ne relève pas de la présente norme.
+
+    b) systèmes qui assurent une analyse en continu et seulement un enregistrement partiel ou limité ne permettant pas de nouvelle analyse globale de l'ECG.
+
+    Les aspects de sécurité de la présente norme s'appliquent à tous les types de systèmes appartenant à l'une des catégories mentionnées ci-dessus.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:4442
+    docidentifier:
+    - content: iec:proj:4442
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:16376
+    docidentifier:
+    - content: iec:proj:16376
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

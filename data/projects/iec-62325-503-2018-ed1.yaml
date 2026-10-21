@@ -1,0 +1,150 @@
+---
+id: IEC623255032018ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Framework for energy market communications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 503: Market data exchanges guidelines for the IEC 62325-351 profile'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Framework for energy market communications - Part 503: Market data exchanges guidelines for the IEC 62325-351 profile'
+  type: main
+- language: fr
+  script: Latn
+  content: Cadre pour les communications pour le marché de l'énergie
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 503: Lignes directrices concernant les échanges de données du marché pour le profil défini dans l’IEC 62325-351'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Cadre pour les communications pour le marché de l''énergie - Partie 503: Lignes directrices concernant les échanges de données du marché pour le profil défini dans l’IEC 62325-351'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100810
+docidentifier:
+- content: IEC 62325-503:2018 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:100810
+  type: URN
+date:
+- type: published
+  at: '2018-07-26'
+- type: created
+  at: '2017-05-12'
+- type: forecast
+  at: '2018-08-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62325-503:2018 specifies a standard for a communication platform which every Transmission System Operator (TSO) in Europe can use to exchange reliably and securely documents for the energy market. Consequently a European market participant (TSO, regional supervision centre, distribution utility, power exchange, etc.) could benefit from a single, common, harmonised and secure platform for message exchange with other participants; thus, reducing the cost of building different information technology (IT) platforms to interface with all the parties involved. This edition cancels and replaces IEC TS 62325-503 published in 2014.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Use of ISO/IEC 19464:2014, Advanced Message Queuing Protocol (AMQP) v1.0 specification;<br/>
+    b) Splitting of the node described in the IEC TS 62325-503:2014 into a broker that implements the messaging function and a directory;<br/>
+    c) Increase of operability and resilience of the communication system with the ability for an endpoint to send and receive messages through several brokers;<br/>
+    d) Benefits of standardisation, performance and scalability of the AMQP protocol for transferring messages.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62325-503:2018 spécifie une norme relative à une plate-forme de communication que chaque gestionnaire de réseau de transport (GRT) en Europe peut utiliser pour échanger en toute fiabilité et sécurité des documents destinés au marché de l’énergie. Par conséquent, un participant aux marchés européens (GRT, centre régional de surveillance, régie de distribution, bourse d’électricité, etc.) peut tirer profit d’une plate-forme commune unique harmonisée et sûre d’échange des messages avec les autres participants, réduisant ainsi le coût de mise en place de différentes plates-formes de technologies de l’information (TI) assurant l’interface avec toutes les parties concernées. Cette édition annule et remplace l'IEC TS 62325-503 parue en 2014.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l’édition précédente:<br/>
+    a) Utilisation de l’ISO/IEC 19464:2014, Advanced Message Queuing Protocol (AMQP) v1.0 specification (disponible en anglais seulement);<br/>
+    b) Répartition du nœud décrit dans l’IEC TS 62325-503:2014 dans un courtier qui met en œuvre la fonction de transmission de messages et un annuaire;<br/>
+    c) Renforcement de l’opérabilité et de la résilience du système de communication avec capacité pour un point d’extrémité d’envoyer et de recevoir des messages par l’intermédiaire de plusieurs courtiers;<br/>
+    d) Avantage issu de la normalisation, des performances et de l’évolutivité du protocole AMQP de transfert de messages.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20391
+    docidentifier:
+    - content: iec:proj:20391
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:60690
+    docidentifier:
+    - content: iec:pub:60690
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

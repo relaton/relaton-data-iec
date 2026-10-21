@@ -1,0 +1,104 @@
+---
+id: IEC623514COR1ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Corrigendum 1
+  type: title-intro
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Data and communications security -- Part 4: Profiles including MMS and derivatives'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Corrigendum 1 - Power systems management and associated information exchange - Data and communications security -- Part 4: Profiles including MMS and derivatives'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103318
+docidentifier:
+- content: IEC 62351-4/COR1 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103318
+  type: URN
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62351:2018(E) specifies security requirements both at the transport layer and at the application layer. While IEC TS 62351-4:2007 primarily provided some limited support at the application layer for authentication during handshake for the Manufacturing Message Specification (MMS) based applications, this document provides support for extended integrity and authentication both for the handshake phase and for the data transfer phase. It provides for shared key management and data transfer encryption at the application layer and it provides security end-to-end (E2E) with zero or more intermediate entities. While IEC TS 62351-4:2007 only provides support for systems based on the MMS, i.e. systems using an Open Systems Interworking (OSI) protocol stack, this document provides support for application protocols using other protocol stacks, e.g. an Internet protocol suite. This support is extended to protect application protocols using XML encoding. This extended security at the application layer is referred to as E2E-security. In addition to E2E security, this part of IEC 62351 also provides mapping to environmental protocols carrying the security related information. Only OSI and XMPP environments are currently considered
+status:
+  stage:
+    abbreviation: CAN
+    content: '50.98'
+  iteration: '1'
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: iec:proj:13503
+    docidentifier:
+    - content: iec:proj:13503
+      type: URN
+- type: updates
+  bibitem:
+    formattedref:
+      content: iec:proj:22022
+    docidentifier:
+    - content: iec:proj:22022
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

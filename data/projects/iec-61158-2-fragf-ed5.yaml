@@ -1,0 +1,111 @@
+---
+id: IEC611582FRAGFED5
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: " Partie 2: Spécification de couche physique et définition des services"
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain -  Partie 2: Spécification de couche physique et définition des services'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19244
+docidentifier:
+- content: IEC 61158-2/FRAGF ED5
+  type: IEC
+  primary: true
+- content: iec:proj:19244
+  type: URN
+date:
+- type: forecast
+  at: '2011-06-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '5'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61158-2:2010 spécifie les exigences applicables aux composants de bus de terrain. Elle spécifie également les exigences de configuration des supports et des réseaux requises pour garantir un niveau d'intégrité des données:<br/>
+    a) avant vérification d'erreur de la couche liaison de données;<br/>
+    b) interopérabilité entre dispositifs au niveau de la couche physique. La couche physique des bus de terrain est conforme à la couche 1 du modèle OSI à 7 couches, telle que définie dans l'ISO 7498, à l'exception du fait que, pour certains types, les délimiteurs de trame se trouvent dans la couche physique tandis que pour d'autres types, ils se trouvent dans la couche liaison de données. Cette cinquième édition annule et remplace la quatrième édition parue en 2007 et constitue une révision technique. Cette édition inclut les modifications techniques majeures suivantes:<br/>
+    - Pour le Type 18, Tableau 157, tolérance réduite à 5 %;<br/>
+    - Pour le Type 18, en 32.5.3.1, la longueur minimale du câble a été retirée;<br/>
+    - Pour le Type 18, en 32.5.4 et R.2.2, la référence du câble a été retirée;<br/>
+    - Pour le Type 18, Tableaux 160 et 161, la valeur de la résistance de terminaison a été modifiée à 680 Ω. La présente version bilingue, correspond à la version anglaise monolingue publiée en 2010-07.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:17797
+    docidentifier:
+    - content: iec:proj:17797
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:19168
+    docidentifier:
+    - content: iec:proj:19168
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

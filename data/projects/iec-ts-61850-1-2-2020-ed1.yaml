@@ -1,0 +1,148 @@
+---
+id: IECTS61850122020ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 1-2: Guideline on extending IEC 61850'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 1-2: Guideline on extending IEC 61850'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100139
+docidentifier:
+- content: IEC TS 61850-1-2:2020 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:100139
+  type: URN
+date:
+- type: published
+  at: '2020-06-16'
+- type: created
+  at: '2017-04-14'
+- type: forecast
+  at: '2020-07-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 61850-1-2:2020, which is a technical specification, is intended for any users but primarily for standardization bodies that are considering using IEC 61850 as a base standard within the scope of their work and are willing to extend it as allowed by the IEC 61850 standards. This document identifies the required steps and high-level requirements in achieving such extensions of IEC 61850 and provides guidelines for the individual steps.<br/>
+    Within that scope, this document addresses the following cases:<br/>
+    • The management of product-level standards for products that have an interface based on IEC 61850<br/>
+    • The management of domain-level standards based on IEC 61850<br/>
+    • The management of transitional standards based on IEC 61850<br/>
+    • The management of private namespaces based on IEC 61850<br/>
+    • The development of standards offering the mapping of IEC 61850 data model at CDC level<br/>
+    • The development and management of IEC 61850 profiles for domains (underlying the role of IEC TR 62361-103 and IEC TR 61850-7-6)<br/>
+    This document includes both technical and process aspects:<br/>
+    On the technical side, this document:<br/>
+    • Reminds the main basic requirements (mostly referring to the appropriate parts of the series which host the requirements or recommendations)<br/>
+    • Lists all possible flexibilities offered by the standards<br/>
+    • Defines which flexibilities are allowed/possible per type of extension cases<br/>
+    On the process side, the document covers:<br/>
+    • The initial analysis of how the existing IEC 61850 object models and/or communication services may be applied and what allowed extensions may be required for utilizing them in new or specific domains (including private ones). The results of that step are expected to be documented<br/>
+    • The extension of the IEC 61850 object models for new domains. The typical associated work is to identify existing logical nodes which can be reused "as is", to determine if existing logical nodes can be extended, or to define new logical nodes<br/>
+    • The purpose and process to use transitional namespaces, which are expected to be merged eventually into an existing standard namespace<br/>
+    • The management of standard namespaces<br/>
+    • The development of private namespaces
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:104668
+    docidentifier:
+    - content: iec:proj:104668
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:135428
+    docidentifier:
+    - content: iec:proj:135428
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:59652
+    docidentifier:
+    - content: iec:pub:59652
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

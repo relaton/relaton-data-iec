@@ -1,0 +1,103 @@
+---
+id: IEC624332FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Modèles de circuits intégrés pour la CEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Modèles de circuits intégrés pour la simulation du comportement lors de perturbations électromagnétiques -- Modélisation des émissions conduites (ICEM-CE)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Modèles de circuits intégrés pour la CEM - Partie 2: Modèles de circuits intégrés pour la simulation du comportement lors de perturbations électromagnétiques -- Modélisation des émissions conduites (ICEM-CE)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19666
+docidentifier:
+- content: IEC 62433-2/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19666
+  type: URN
+date:
+- type: forecast
+  at: '2012-10-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47/SC 47A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62433-2:2008 définit des macromodèles pour circuits intégrés, destinés à simuler les émissions électromagnétiques conduites sur une carte de circuit imprimé. On appelle habituellement ce modèle: Modèle des émissions de circuits intégrés - Émission conduite (ICEM-CE). Le modèle ICEM-CE peut également être utilisé pour modéliser une puce de circuit intégré, un bloc fonctionnel et un bloc à propriété intellectuelle (IP). Le modèle ICEM-CE peut être utilisé pour modéliser à la fois des circuits intégrés numériques et analogiques. Les émissions conduites ont fondamentalement deux origines:<br/>
+    - les émissions conduites par l'intermédiaire des bornes d'alimentation et des structures de référence de masse;<br/>
+    - les émissions conduites par l'intermédiaire des bornes d'entrée/sortie (E/S). Le modèle ICEM-CE traite ces deux types d'origine en une approche unique. La présente norme définit les structures et les composants du macromodèle pour la simulation des perturbations électromagnétiques en tenant compte des activités internes du circuit intégré. La présente norme fournit des données générales, pouvant être mises en oeuvre dans des formats ou des langages différents tels que: IBIS, IMIC, SPICE, VHDL-AMS et Verilog. On choisit toutefois SPICE comme environnement de simulation par défaut pour couvrir la totalité des émissions conduites. La présente norme spécifie également les exigences relatives aux informations qui doivent être incorporées dans chaque modèle ICEM-CE ou élément constituant du modèle pour la circulation du modèle. La syntaxe de la description ne fait toutefois pas partie du domaine d'application de la présente norme.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:14478
+    docidentifier:
+    - content: iec:proj:14478
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22575
+    docidentifier:
+    - content: iec:proj:22575
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

@@ -1,0 +1,175 @@
+---
+id: IEC61850812011ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 8-1: Specific communication service mapping (SCSM)'
+  type: title-main
+- language: en
+  script: Latn
+  content: Mappings to MMS (ISO 9506-1 and ISO 9506-2) and to ISO/IEC 8802-3
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 8-1: Specific communication service mapping (SCSM) - Mappings to MMS (ISO 9506-1 and ISO 9506-2) and to ISO/IEC 8802-3'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 8-1: Mise en correspondance des services de communication spécifiques (SCSM)'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Mise en correspondance pour MMS (ISO 9506-1 et ISO 9506-2) et pour l'ISO/CEI 8802-3
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques - Partie 8-1: Mise en correspondance des services de communication spécifiques (SCSM) - Mise en correspondance pour MMS (ISO 9506-1 et ISO 9506-2) et pour l''ISO/CEI 8802-3'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16341
+docidentifier:
+- content: IEC 61850-8-1:2011 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:16341
+  type: URN
+date:
+- type: published
+  at: '2011-06-17'
+- type: created
+  at: '2007-06-29'
+- type: forecast
+  at: '2011-05-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-8-1:2011 specifies a method of exchanging time-critical and non-time-critical data through local-area networks by mapping ACSI to MMS and ISO/IEC 8802-3 frames. Defines a standardized method of using the ISO 9506 services to implement the exchange of data. For those ACSI services defined in IEC 61850-7-2 that are not mapped to MMS, this part defines additional protocols. It describes real utility devices with respect to their external visible data and behaviour using an object oriented approach. The objects are abstract in nature and may be used to a wide variety of applications. The use of this mapping goes far beyond the application in the utility communications. The main changes with respect to the previous edition are listed below:<br/>
+    - the support of gigabit Ethernet,<br/>
+    - the link layer redundancy,<br/>
+    - the extension of the length of the object reference,<br/>
+    - the extension of the reason for inclusion type for comprehensive logging,<br/>
+    - the mapping of the tracking services,<br/>
+    - a second mapping of the objectReference when used in the tracking services, or as linking,<br/>
+    - the extension of the AdditionalCause enumeration,<br/>
+    - the simulation of GOOSE telegram,<br/>
+    - the so-called fixed-length encoded GOOSE,<br/>
+    - the removal of the SCL Control Block.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61850-8-1:2011 spécifie une méthode d'échange de données prioritaires et de données non prioritaires par l'intermédiaire de réseaux locaux par la mise en correspondance de l'ACSI avec les trames MMS et ISO/CEI 8802-3. Définit une méthode normalisée d'utilisation des services ISO 9506 pour mettre en oeuvre l'échange de données. Pour ces services ACSI définis dans la CEI 61850-7-2 qui ne sont pas mis en correspondance en MMS, cette partie définit des protocoles additionnels. Elle décrit des équipements de distribution réels en fonction de leurs données et comportements visibles externes en utilisant une approche orientée objet. Les objets sont de nature abstraite et peuvent être utilisés dans des applications très diverses. L'utilisation de cette mise en correspondance dépasse l'application dans les communications de distribution. Les principales modifications apportées à l'édition précédente sont les suivantes:<br/>
+    - la prise en charge d'Ethernet gigabit,<br/>
+    - la redondance de couche liaison,<br/>
+    - l'extension de la longueur de la référence d'objet,<br/>
+    - l'extension de la raison du type d'inclusion pour une journalisation complète,<br/>
+    - la mise en correspondance des services de suivi,<br/>
+    - une deuxième mise en correspondance de la référence d'objet lorsqu'elle est utilisée dans les services de suivi, ou en tant que lien,<br/>
+    - l'extension de l'énumération AdditionalCause,<br/>
+    - la simulation de télégramme GOOSE,<br/>
+    - le GOOSE nommé codé de longueur fixe,<br/>
+    - l'élimination du bloc de commande SCL.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:8418
+    docidentifier:
+    - content: iec:proj:8418
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:100216
+    docidentifier:
+    - content: iec:proj:100216
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6021
+    docidentifier:
+    - content: iec:pub:6021
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

@@ -1,0 +1,168 @@
+---
+id: IEC6193762006ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital audio
+  type: title-intro
+- language: en
+  script: Latn
+  content: Interface for non-linear PCM encoded audio bitstreams applying IEC 60958
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Non-linear PCM bitstreams according to the MPEG-2 AAC and MPEG-4 AAC formats'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital audio - Interface for non-linear PCM encoded audio bitstreams applying IEC 60958 - Part 6: Non-linear PCM bitstreams according to the MPEG-2 AAC and MPEG-4 AAC formats'
+  type: main
+- language: fr
+  script: Latn
+  content: Audionumérique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interface pour les flux de bits audio à codage MIC non linéaire conformement à la CEI 60958
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6: Flux de bits MIC non linéaire selon les formats MPEG-2 AAC et MPEG-4 AAC'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Audionumérique - Interface pour les flux de bits audio à codage MIC non linéaire conformement à la CEI 60958 - Partie 6: Flux de bits MIC non linéaire selon les formats MPEG-2 AAC et MPEG-4 AAC'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/13687
+docidentifier:
+- content: IEC 61937-6:2006 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:13687
+  type: URN
+date:
+- type: published
+  at: '2006-01-25'
+- type: created
+  at: '2004-01-09'
+- type: forecast
+  at: '2005-08-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61937-6:2006 specifies the method for IEC 60958 to convey non-linear PCM bitstreams encoded in accordance with the MPEG-2 AAC (Advanced Audio Coding) and MPEG-4 AAC formats. This second edition of IEC 61937-6 cancels and replaces the first edition published in 2002. It contains the following significant technical changes:<br/>
+    - addition of data-type for MPEG2 AAC low sampling frequency;<br/>
+    - addition of data-type for MPEG-4 AAC.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61937-6:2006 spécifie la méthode de la CEI 60958 pour acheminer des flux de bits MIC non linéaire codés selon les formats MPEG-2 AAC (codage du son avancé) et MPEG-4 AAC. Cette deuxième édition de la CEI 61937-6 annule et remplace la première édition parue en 2002. Elle contient les modifications techniques importantes suivantes:<br/>
+    - ajout du type de données au format MPEG-2 AAC à faible fréquence d'échantillonnage;<br/>
+    - ajout du type de données au format MPEG-4 AAC.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:10714
+    docidentifier:
+    - content: iec:proj:10714
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19645
+    docidentifier:
+    - content: iec:proj:19645
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20329
+    docidentifier:
+    - content: iec:proj:20329
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6136
+    docidentifier:
+    - content: iec:pub:6136
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.160.60
+    text: Multimedia systems and teleconferencing equipment
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information

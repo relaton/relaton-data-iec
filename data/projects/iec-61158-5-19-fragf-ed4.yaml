@@ -1,0 +1,128 @@
+---
+id: IEC61158519FRAGFED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-19: Application layer service definition -- Type 19 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 5-19: Application layer service definition -- Type 19 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels"
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5-19 : Définition des services de la couche application -- Éléments de type 19</p>'
+  type: title-part
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels - Spécifications des bus de terrain - Partie 5-19 : Définition des services de la couche application -- Éléments de type 19</p>"
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104782
+docidentifier:
+- content: IEC 61158-5-19/FRAGF ED4
+  type: IEC
+  primary: true
+- content: iec:proj:104782
+  type: URN
+date:
+- type: created
+  at: '2015-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-5-19:2019 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 19 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This International Standard defines in an abstract way the externally visible service provided by the fieldbus application layer in terms of<br/>
+    a) an abstract model for defining application resources (objects) capable of being manipulated by users via the use of the FAL service,<br/>
+    b) the primitive actions and events of the service;<br/>
+    c) the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    d) the interrelationship between these actions and events, and their valid sequences.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61158-5-19:2019 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 19. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé de terminer une ou plusieurs actions spécifiées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les actions risquent de connaître une défaillance, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.<br/>
+    La présente norme définit de manière abstraite le service visible de l'extérieur fourni par la couche application de bus de terrain en termes<br/>
+    a) d’un modèle abstrait pour la définition des ressources d’application (objets) qui peuvent être manipulées par les utilisateurs par l'intermédiaire de l’utilisation du service FAL,<br/>
+    b) des actions primitives et des événements du service;<br/>
+    c) des paramètres associés à chaque action et événement primitif, et de la forme qu’ils peuvent prendre; et<br/>
+    d) des interrelations entre ces actions et événements, et de leurs séquences valides.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

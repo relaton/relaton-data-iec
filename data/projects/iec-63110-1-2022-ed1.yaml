@@ -1,0 +1,149 @@
+---
+id: IEC6311012022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Protocol for management of electric vehicles charging and discharging infrastructures
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Basic definitions, use cases and architectures'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Protocol for management of electric vehicles charging and discharging infrastructures - Part 1: Basic definitions, use cases and architectures'
+  type: main
+- language: fr
+  script: Latn
+  content: Protocole de gestion des infrastructures de charge et de décharge des véhicules électriques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Définitions de base, cas d''utilisation et architectures'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Protocole de gestion des infrastructures de charge et de décharge des véhicules électriques - Partie 1: Définitions de base, cas d''utilisation et architectures'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100390
+docidentifier:
+- content: IEC 63110-1:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:100390
+  type: URN
+date:
+- type: published
+  at: '2022-07-29'
+- type: created
+  at: '2017-01-20'
+- type: forecast
+  at: '2022-09-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63110-1:2022, as a basis for the other parts of IEC 63110, covers the definitions, use cases and architecture for the management of electric vehicle charging and discharging infrastructures.<br/>
+    It addresses the general requirements for the establishment of an e-mobility eco-system, therefore covering the communication flows between different e-mobility actors as well as data flows with the electric power system.<br/>
+    This document covers the following features:<br/>
+    – management of energy transfer (e.g., charging session), reporting, including information exchanges related to the required energy, grid usage, contractual data, and metering data;<br/>
+    – asset management of EVSE, including controlling, monitoring, maintaining, provisioning, firmware update and configuration (profiles) of EVSE;<br/>
+    – authentication/authorization/payment of charging and discharging sessions, including roaming, pricing, and metering information;<br/>
+    – the provision of other e-mobility services;<br/>
+    – cybersecurity.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 63110-1:2022, qui sert de base aux autres parties de l'IEC 63110, couvre les définitions, cas d'utilisation et architectures pour la gestion des infrastructures de charge et de décharge des véhicules électriques.<br/>
+    Elle porte sur les exigences générales relatives à la mise en place d'un écosystème de mobilité électrique et couvre donc les flux de communication entre les différents acteurs de mobilité électrique, ainsi que les flux de données avec le système d'alimentation électrique.<br/>
+    Le présent document couvre les caractéristiques suivantes:<br/>
+    – la gestion du transfert d'énergie (session de charge, par exemple), la consignation, y compris les échanges d'informations relatives à l'énergie exigée, l'utilisation du réseau électrique, les données contractuelles et les données de comptage;<br/>
+    – la gestion des actifs du SAVE, y compris le contrôle, la surveillance, la maintenance, l'approvisionnement, la mise à jour du micrologiciel et la configuration (profils) du SAVE;<br/>
+    – l'authentification/l'autorisation/le paiement des sessions de charge et de décharge, y compris les informations d'itinérance, de tarification et de comptage;<br/>
+    – la fourniture d'autres services de mobilité électrique;<br/>
+    – la cybersécurité.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:60000
+    docidentifier:
+    - content: iec:pub:60000
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
+  - code: 03.100.70
+    text: Management systems

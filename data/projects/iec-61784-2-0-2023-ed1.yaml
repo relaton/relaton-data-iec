@@ -1,0 +1,151 @@
+---
+id: IEC61784202023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Profiles
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2-0: Additional real-time fieldbus profiles based on ISO/IEC/IEEE 8802-3 -- General concepts and terminology'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial networks - Profiles - Part 2-0: Additional real-time fieldbus profiles based on ISO/IEC/IEEE 8802-3 -- General concepts and terminology'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profils
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2-0: Profils de bus de terrain supplémentaires pour les réseaux en temps réel fondés sur l’ISO/IEC/IEEE 8802-3 -- Concepts généraux et terminologie'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux industriels - Profils - Partie 2-0: Profils de bus de terrain supplémentaires pour les réseaux en temps réel fondés sur l’ISO/IEC/IEEE 8802-3 -- Concepts généraux et terminologie'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/116346
+docidentifier:
+- content: IEC 61784-2-0:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:116346
+  type: URN
+date:
+- type: published
+  at: '2023-03-22'
+- type: created
+  at: '2020-04-17'
+- type: forecast
+  at: '2023-03-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61784-2-0:2023 specifies:<br/>
+    basic principles of performance indicators expressing RTE performance of a CP (see 5.1);<br/>
+    how an application-dependent class could be used to find out a suitable CP to meet application requirements (see 5.2);<br/>
+    characteristics of RTE performance indicators (see 5.3);<br/>
+    the methodology of a conformance test for an RTE end device for one or more CPs (see Clause 6).
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61784-2-0:2023 spécifie:<br/>
+    les principes de base des indicateurs de performance exprimant la performance RTE d’un CP (voir 5.1);<br/>
+    la façon dont une classe dépendante de l’application peut être utilisée pour rechercher un CP adapté aux exigences d’une application (voir 5.2);<br/>
+    les caractéristiques des indicateurs de performance RTE (voir 5.3);<br/>
+    la méthodologie d’un essai de conformité d’un élément final RTE pour un ou plusieurs CP (voir l’Article 6).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:83463
+    docidentifier:
+    - content: iec:pub:83463
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.240.50
+    text: IT applications in industry

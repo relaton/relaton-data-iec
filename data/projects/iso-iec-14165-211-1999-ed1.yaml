@@ -1,0 +1,141 @@
+---
+id: ISOIEC141652111999ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fibre channel
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 211: Mapping to HIPPI-FP (FC-FP)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Fibre channel - Part 211: Mapping to HIPPI-FP (FC-FP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9381
+docidentifier:
+- content: ISO/IEC 14165-211:1999 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:9381
+  type: URN
+date:
+- type: published
+  at: '1999-02-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Fibre Channel provides a general data transport vehicle for Upper Level Protocols (ULPs) such as Intelligent Peripheral Interface (IPI) and Small Computer System Interface (SCSI) command sets, the High-Performance Parallel Interface (HIPPI) data framing, IP (Internet Protocol), ANSI&#x2F;IEEE 802.2, and others. This part of ISO&#x2F;IEC 14165 defines the frame format and protocol definitions required to transfer information for upper-layer protocols that use the High-Performance Parallel Interface Framing Protocol (HIPPI-FP) when using a lower-layer serial link interface operating according to the Fibre Channel Physical and Signaling Interface (FC-PH) and Fibre Channel Enhanced Physical (FC-EP) requirements. For example, the HIPPI upper-layer protocols would use FC-FP when the underlying physical layer is Fibre Channel, and would use HIPPI-FP when the underlying physical layer is HIPPI.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:9886
+    docidentifier:
+    - content: iec:pub:9886
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

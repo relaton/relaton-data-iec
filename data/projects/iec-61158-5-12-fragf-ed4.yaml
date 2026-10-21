@@ -1,0 +1,118 @@
+---
+id: IEC61158512FRAGFED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-12: Application layer service definition -- Type 12 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 5-12: Application layer service definition -- Type 12 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels"
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: "Partie 5-12 : Définition des services de la couche liaison de données -<br />\r\nEléments de type 12</p>"
+  type: title-part
+- language: fr
+  script: Latn
+  content: |-
+    <p>Réseaux de communication industriels - Spécifications des bus de terrain - Partie 5-12 : Définition des services de la couche liaison de données -<br/>
+    Eléments de type 12</p>
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104786
+docidentifier:
+- content: IEC 61158-5-12/FRAGF ED4
+  type: IEC
+  primary: true
+- content: iec:proj:104786
+  type: URN
+date:
+- type: created
+  at: '2015-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 61158-5-12:2019 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 12 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.
+- language: fr
+  script: Latn
+  content: L’IEC 61158-5-12:2019 fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 12. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle il est exigé qu’une ou plusieurs actions spécifiées soient réalisées selon un certain niveau de certitude. Si les actions spécifiées ne sont pas réalisées dans la fenêtre temporelle, les applications demandant les actions risquent de connaître une défaillance, avec les risques que cela comporte pour les équipements, les installations et éventuellement la vie humaine.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

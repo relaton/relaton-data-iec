@@ -1,0 +1,157 @@
+---
+id: IEC62056622013ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-2: COSEM interface classes'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 6-2: COSEM interface classes'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange des données dans les équipements de comptage de l'énergie électrique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-2: Classes d''interfaces COSEM'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange des données dans les équipements de comptage de l''énergie électrique - La suite DLMS/COSEM - Partie 6-2: Classes d''interfaces COSEM'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18915
+docidentifier:
+- content: IEC 62056-6-2:2013 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:18915
+  type: URN
+date:
+- type: published
+  at: '2013-05-30'
+- type: created
+  at: '2010-11-12'
+- type: forecast
+  at: '2013-06-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62056-6-2:2013 specifies a model of a meter as it is seen through its communication interface(s). Generic building blocks are defined using object-oriented methods, in the form of interface classes to model meters from simple up to very complex functionality.
+- language: fr
+  script: Latn
+  content: La CEI 62056-6-2:2013 spécifie un modèle d'un compteur tel qu'il est vu à travers son/ses interface(s) de communication. Des blocs génériques de base sont définis à l'aide de méthodes orientées objet, sous la forme de classes d'interfaces pour modéliser les compteurs à partir d'une fonctionnalité simple jusqu'à une fonctionnalité très complexe.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14143
+    docidentifier:
+    - content: iec:proj:14143
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:21725
+    docidentifier:
+    - content: iec:proj:21725
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6410
+    docidentifier:
+    - content: iec:pub:6410
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems

@@ -1,0 +1,182 @@
+---
+id: IEC61158622010ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-2: Application layer protocol specification -- Type 2 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-2: Application layer protocol specification -- Type 2 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-2: Spécification de protocole de la couche application -- Eléments de Type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 6-2: Spécification de protocole de la couche application -- Eléments de Type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17545
+docidentifier:
+- content: IEC 61158-6-2:2010 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:17545
+  type: URN
+date:
+- type: published
+  at: '2010-08-06'
+- type: created
+  at: '2009-01-16'
+- type: forecast
+  at: '2010-08-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-6-2:2010 provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 2 fieldbus. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life. It specifies interactions between remote applications and defines the externally visible behavior provided by the Type 2 fieldbus application layer. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are:<br/>
+    - update of normative and bibliographic references;<br/>
+    - update of abbreviations;<br/>
+    - update list of service request/response PDUs (Time Sync and Parameter ASEs/objects);<br/>
+    - update of Time Sync ASE/object;<br/>
+    - new Parameter ASE/object;<br/>
+    - update/add object and services codes for Time Sync and Parameter ASEs;<br/>
+    - new QoS specification.<br/>
+    This bilingual version published in 2012-07 corresponds to the English version published in 2010-08.
+- language: fr
+  script: Latn
+  content: |-
+    La IEC 61158-6-2:2010 fournit les éléments communs pour les communications de messagerie de base à temps critique et à temps non critique entre des programmes d'application dans un environnement d'automatisation et le matériau spécifique au bus de terrain de Type 2. Le terme "à temps critique" sert à représenter la présence d'une fenêtre temporelle, dans les limites de laquelle une ou plusieurs actions spécifiées sont tenues d'être parachevées avec un certain niveau défini de certitude. Le manquement à parachever les actions spécifiées dans les limites de la fenêtre temporelle risque d'entraîner la défaillance des applications qui demandent ces actions, avec le risque concomitant pour l'équipement, l'installation et éventuellement pour la vie humaine. Elle spécifie les interactions entre les applications distantes et définit le comportement visible de l'extérieur fourni par la couche application de bus de terrain de Type 2. Cette deuxième édition annule et remplace la première édition, parue en 2007. Elle constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont:<br/>
+    - mise à jour des références normatives et bibliographiques;<br/>
+    - mise à jour des abréviations;<br/>
+    - liste de mise à jour pour les PDU de demande/réponse de service (ASE/objets Time Sync et Parameter);<br/>
+    - mise à jour d'ASE/objet Time Sync;<br/>
+    - nouvel ASE/objet Parameter;<br/>
+    - mise à jour/ajout de codes d'objet et de services pour les ASE Time Sync et Parameter;<br/>
+    - nouvelle spécification de QoS.<br/>
+    La présente version bilingue (2012-07) correspond à la version anglaise monolingue publiée en 2010-08.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16051
+    docidentifier:
+    - content: iec:proj:16051
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19540
+    docidentifier:
+    - content: iec:proj:19540
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22154
+    docidentifier:
+    - content: iec:proj:22154
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19238
+    docidentifier:
+    - content: iec:pub:19238
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

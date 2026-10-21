@@ -1,0 +1,163 @@
+---
+id: IEC6185074102007ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-410: Hydroelectric power plants'
+  type: title-main
+- language: en
+  script: Latn
+  content: Communication for monitoring and control
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 7-410: Hydroelectric power plants - Communication for monitoring and control'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-410: Centrales hydroélectriques'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Communication pour contrôle et commande
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques - Partie 7-410: Centrales hydroélectriques - Communication pour contrôle et commande'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/13406
+docidentifier:
+- content: IEC 61850-7-410:2007 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:13406
+  type: URN
+date:
+- type: published
+  at: '2007-08-10'
+- type: created
+  at: '2004-01-16'
+- type: forecast
+  at: '2007-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-7-410:2007 specifies the additional common data classes, logical nodes and data objects required for the use of IEC 61850 in a hydropower plant. The Logical Nodes and Data Objects (DO) defined in this part of IEC 61850 belong to the following fields of use:<br/>
+    - electrical functions;<br/>
+    - mechanical functions;<br/>
+    - hydrological functions;<br/>
+    - sensors.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61850-7-410:2007 spécifie des classes de données communes additionnelles, noeuds logiques et objets de données qui sont indispensables pour l'utilisation de la CEI 61850 dans une centrale hydroélectrique. Les Noeuds Logiques et Objets de Donnée définis dans la présente partie de la CEI 61850 appartiennent aux domaines d'utilisation suivants:<br/>
+    - fonctions électriques;<br/>
+    - fonctions mécaniques;<br/>
+    - fonctions hydrologiques;<br/>
+    - capteurs.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17868
+    docidentifier:
+    - content: iec:proj:17868
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19432
+    docidentifier:
+    - content: iec:proj:19432
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20081
+    docidentifier:
+    - content: iec:pub:20081
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

@@ -1,0 +1,174 @@
+---
+id: IEC61784382016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Profiles
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-8: Functional safety fieldbuses -- Additional specifications for CPF 8'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Profiles - Part 3-8: Functional safety fieldbuses -- Additional specifications for CPF 8'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profils
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-8: Bus de terrain de sécurité fonctionnelle -- Spécifications supplémentaires pour CPF 8'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseux de communication industriels - Profils - Partie 3-8: Bus de terrain de sécurité fonctionnelle -- Spécifications supplémentaires pour CPF 8'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23587
+docidentifier:
+- content: IEC 61784-3-8:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:23587
+  type: URN
+date:
+- type: published
+  at: '2016-07-28'
+- type: created
+  at: '2012-08-10'
+- type: forecast
+  at: '2016-06-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61784-3-8:2016 specifies a safety communication layer (services and protocol) based on CPF 8 of IEC 61784-1, IEC 61784-2 and IEC 61158 Type 18 and Type 23. It identifies the principles for functional safety communications defined in IEC 61784-3 that are relevant for this safety communication layer. This safety communication layer is intended for implementation in safety devices only. This second edition cancels and replaces the first edition published in 2010. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - Added FSCP 8/2;<br/>
+    - Added FSCP 8/2 Clause 12;<br/>
+    - Added content for FSCP 8/2 to Clauses 1 to 3 (scope, references, terms);<br/>
+    - Moved previous FSCP 8/1 to Clause 11 (demoting all old heading levels by one);<br/>
+    - Restructured old Clauses 4 to 10 to point to appropriate subclauses as appropriate.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61784-3-8:2016 spécifie une couche de communication de sécurité (services et protocole) reposant sur CPF 8 de l'IEC 61784-1, de l'IEC 61784-2 et de l'IEC 61158 Type 18 et Type 23. Elle identifie les principes en matière de communications de sécurité fonctionnelle définies dans l'IEC 61784-3 pertinents pour cette couche de communication de sécurité. Cette couche de communication de sécurité est destinée à être mise en oeuvre uniquement sur les appareils de sécurité. Cette deuxième édition annule et remplace la première édition, parue en 2010. Cette édition constitue une révision technique. Les modifications techniques majeures par rapport à l'édition précédente sont énumérées ci-dessous:<br/>
+    - FSCP 8/2 ajouté;<br/>
+    - FSCP 8/2, Article 12 ajouté;<br/>
+    - Contenu relatif à FSCP 8/2 ajouté aux Articles 1 à 3 (domaine d'application, références, termes);<br/>
+    - FSCP 8/1 précédent déplacé vers l'Article 11 (rétrogradant tous les anciens en-têtes d'un niveau);<br/>
+    - Anciens Articles 4 à 10 restructurés pour pointer vers les paragraphes appropriés, selon le cas.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18481
+    docidentifier:
+    - content: iec:proj:18481
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20093
+    docidentifier:
+    - content: iec:proj:20093
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:105364
+    docidentifier:
+    - content: iec:proj:105364
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:25519
+    docidentifier:
+    - content: iec:pub:25519
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

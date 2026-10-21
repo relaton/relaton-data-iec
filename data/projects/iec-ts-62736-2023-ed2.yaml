@@ -1,0 +1,148 @@
+---
+id: IECTS627362023ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Ultrasonics
+  type: title-intro
+- language: en
+  script: Latn
+  content: Pulse-echo scanners
+  type: title-main
+- language: en
+  script: Latn
+  content: Simple methods for periodic testing to verify stability of an imaging system's elementary performance
+  type: title-part
+- language: en
+  script: Latn
+  content: Ultrasonics - Pulse-echo scanners - Simple methods for periodic testing to verify stability of an imaging system's elementary performance
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104929
+docidentifier:
+- content: IEC TS 62736:2023 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:104929
+  type: URN
+date:
+- type: published
+  at: '2023-01-13'
+- type: created
+  at: '2020-12-11'
+- type: forecast
+  at: '2023-02-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 87
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 62736:2023 specifies requirements and methods for periodic testing of the quality of diagnostic medical ultrasound systems using reflection-mode (pulse-echo) imaging. Image measurement and interpretation workstations are included. This document includes minimum sets of such tests intended for frequent users of medical ultrasound systems, for quality assurance professionals in their organizations, or those hired from other quality-control and/or service-provider organizations. The procedures are for a wide range of more common diagnostic ultrasound systems, currently operating from 1 MHz to 40 MHz, although available phantoms meet the specifications only from 1 MHz to 23 MHz.<br/>
+    The tests are defined in three levels, with the simplest and most cost-effective performed most frequently:<br/>
+    - Level 1 comprises five quick tests/observations to be performed daily to monthly by those normally operating the systems.<br/>
+    - Level 2 includes one necessary test for all systems in addition to those of Level 1, two Level 1 tests performed more rigorously, two tests that are for special situations or equipment, and one that is just optional, included because it is highly developed. Level 2 tests are performed annually by those with meaningful quality assurance training.<br/>
+    - Level 3 extends the two special situations tests to all systems, adds one optional test and includes a periodic review of the QA programme.<br/>
+    Frequent distance-measurement accuracy tests are recommended in this document only for certain classes of position encoding that are not now known to be highly stable and without bias. QA in all dimensions is recommended in this document as the first test for such systems.<br/>
+    The test methodology is applicable for transducers operating in the 1 MHz to 23 MHz frequency range. The types of transducers used with these scanners include<br/>
+    a) electronic phased arrays,<br/>
+    b) linear arrays,<br/>
+    c) convex arrays,<br/>
+    d) mechanical transducers,<br/>
+    e) two-dimensional arrays operated in a 2D imaging mode,<br/>
+    f) transducers operating in 3D imaging mode for a limited number of sets of reconstructed 2D images, and<br/>
+    g) three-dimensional scanning transducers based on a combination of the above types.<br/>
+    All tests on scanners considered here evaluate basic pulse-echo techniques and might detect most failures in other modes. Dedicated Doppler systems, or other systems for detection of blood motion, are excluded from this scope as specialized equipment is required to test them. Such test equipment can be specific to the intended application of the Doppler system. This document includes definition of terms and specifies methods for measuring the maximum relative depth of penetration of real-time ultrasound B MODE scanners, though this penetration measure is listed as less frequently applied.<br/>
+    IEC TS 62736:2023 cancels and replaces the first edition published in 2016. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) expansion of the applicable types of transducers and the frequency range of application;<br/>
+    b) extension of test protocols and image assessments, including for very-low-echo spheres;<br/>
+    c) revision of phantom designs and their acoustic properties, consistent with the second edition of IEC TS 62791;<br/>
+    d) inclusion of luminance tests for system-image display consistency at scanner and remote monitors;<br/>
+    e) addition of special considerations for 3D-imaging transducers (Annex D) and workbook examples (Annex E).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19118
+    docidentifier:
+    - content: iec:proj:19118
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:68174
+    docidentifier:
+    - content: iec:pub:68174
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 17.140.50
+    text: Electroacoustics

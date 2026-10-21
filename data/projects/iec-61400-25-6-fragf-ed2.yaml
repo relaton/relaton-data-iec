@@ -1,0 +1,114 @@
+---
+id: IEC61400256FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Wind energy generation systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 25-6: Communications for monitoring and control of wind power plants'
+  type: title-main
+- language: en
+  script: Latn
+  content: Logical node classes and data classes for condition monitoring
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Wind energy generation systems - Part 25-6: Communications for monitoring and control of wind power plants - Logical node classes and data classes for condition monitoring'
+  type: main
+- language: fr
+  script: Latn
+  content: Systèmes de génération d'énergie éolienne
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 25-6: Communications pour la surveillance et la commande des centrales éoliennes – Classes de nœuds logiques et classes de données pour la surveillance d''état'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Systèmes de génération d''énergie éolienne - Partie 25-6: Communications pour la surveillance et la commande des centrales éoliennes – Classes de nœuds logiques et classes de données pour la surveillance d''état'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101466
+docidentifier:
+- content: IEC 61400-25-6/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:101466
+  type: URN
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 88
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>IEC 61400-25-6:2016 specifies the information models related to condition monitoring for wind power plants and the information exchange of data values related to these models. This standard is to be used with other standards of the IEC 61400-25 series. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - major restructuring of the data model to accommodate flexibility; removal of UFF58 format;<br/>
+    - access to data using the standard reporting and logging functions;<br/>
+    - recommendations for creating data names to accommodate needed flexibility</p>
+- language: fr
+  script: Latn
+  content: |-
+    l’IEC 61400-25-6:2016 spécifie les modèles d’information liés à la surveillance d’état pour les centrales éoliennes et l’échange d’information des valeurs de données liées à ces modèles. La présente norme doit être utilisée avec d'autres normes de la série CEI 61400-25. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - restructuration majeure du modèle de données afin d’obtenir la flexibilité necessaire<br/>
+    - le format UFF58 n’est plus utilise.<br/>
+    - l’accès aux données utilise désormais les fonctions normalisées d’établissement de rapports et de journalisation<br/>
+    - les recommandations concernant la création de noms de données afin d’obtenir la flexibilité nécessaire
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '27.180'
+    text: Wind turbine energy systems

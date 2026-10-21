@@ -1,0 +1,163 @@
+---
+id: IEC61784122023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Profiles
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1-2: Fieldbus profiles -- Communication Profile Family 2'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial networks - Profiles - Part 1-2: Fieldbus profiles -- Communication Profile Family 2'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profils
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1-2: Profils de bus de terrain -- Famille de profils de communication 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux industriels - Profils - Partie 1-2: Profils de bus de terrain -- Famille de profils de communication 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/116338
+docidentifier:
+- content: IEC 61784-1-2:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:116338
+  type: URN
+date:
+- type: published
+  at: '2023-03-22'
+- type: created
+  at: '2020-04-17'
+- type: forecast
+  at: '2023-03-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61784-1-2:2023 defines Communication Profile Family 2 (CPF 2). CPF 2 specifies a set of protocol specific communication profiles (CPs) based on the IEC 61158 series (Type 2) and other standards, to be used in the design of devices involved in communications in factory manufacturing and process control.<br/>
+    NOTE 1 All CPs are based on standards or draft standards or International Standards published by the IEC or on standards or International Standards established by other standards bodies or open standards processes.<br/>
+    NOTE 2 Some CPs of CPF 2 are specified in IEC 61784-2-2.<br/>
+    Each CP selects an appropriate consistent and compatible subset of services and protocols from the relevant set that is defined and modelled in the IEC 61158 series. For the selected subset of services and protocols, the profile also describes any possible or necessary constraints in parameter values.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61784-1-2:2023 définit la famille de profils de communication 2 (CPF 2). La CPF 2 spécifie un jeu de profils de communication spécifiques à un protocole (CP) basé sur la série IEC 61158 (Type 2) et d’autres normes, à utiliser pour la conception des dispositifs impliqués dans les communications dans la fabrication en usine et la commande de processus.<br/>
+    NOTE 1 Tous les CP sont fondés sur des normes, des projets de normes ou des Normes internationales publiées par l’IEC, ou bien sur des normes ou des Normes internationales établies par d’autres organismes de normalisation, ou encore sur des processus de normes ouvertes.<br/>
+    NOTE 2 Certains CP de la CPF 2 sont spécifiés dans l’IEC 61784-2-2.<br/>
+    Chaque CP sélectionne un sous-ensemble de services et de protocoles approprié, cohérent et compatible, à partir de l’ensemble du jeu pertinent défini et modélisé dans la série IEC 61158. Le profil décrit également, pour le sous-ensemble sélectionné de services et de protocoles, toute contrainte possible ou nécessaire au niveau des valeurs des paramètres.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:100309
+    docidentifier:
+    - content: iec:proj:100309
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:139987
+    docidentifier:
+    - content: iec:proj:139987
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:83455
+    docidentifier:
+    - content: iec:pub:83455
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.240.50
+    text: IT applications in industry

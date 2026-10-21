@@ -1,0 +1,147 @@
+---
+id: IEC6137526ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electronic railway equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: Train communication network (TCN)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2-6: Train-to-ground communication'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electronic railway equipment - Train communication network (TCN) - Part 2-6: Train-to-ground communication'
+  type: main
+- language: fr
+  script: Latn
+  content: Matériel électronique ferroviaire
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseau embarqué de train (TCN)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2-6: Communication train-sol'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériel électronique ferroviaire - Réseau embarqué de train (TCN) - Partie 2-6: Communication train-sol'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104607
+docidentifier:
+- content: IEC 61375-2-6 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:104607
+  type: URN
+date:
+- type: created
+  at: '2020-09-18'
+- type: forecast
+  at: '2026-05-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 9
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <!--StartFragment -->
+    <p>This second edition cancels and replaces the first edition published in 2018. This edition constitutes a technical revision.</p>
+
+    <p>This edition includes the following significant technical changes with respect to the previous edition:</p>
+
+    <p>a) updated communication protocol;</p>
+
+    <p>b) distinction between services (Clause 6 and Clause 7) and applications (Annex B);</p>
+
+    <p>c) ComID harmonization: The new/updated ComID numbering scheme for this document to maintain backward compatibility is as follows: new ComIDs ranges from 1000 to 9999, and 000 to 999 will remain for the old ones;</p>
+
+    <p>d) MCG and GCG service access point.</p>
+
+    <p>This part of IEC 61375 establishes the specification for the communication between the on-board subsystems and the ground subsystems.</p>
+
+    <p>The communication system, interfaces and protocols are specified as a mobile communication function, using any available wireless technology.</p>
+
+    <p>This document provides requirements in order to:</p>
+
+    <p>a) select the wireless network on the basis of the quality of service (QoS) parameters requested by the application;</p>
+
+    <p>b) allow either train control and monitoring system (TCMS) applications or on-board multimedia and telematic services (OMTS) applications, or both, which are installed on-board and which communicate through the on-board communication network, to have a remote access to applications running on ground installations;</p>
+
+    <p>c) allow applications running on ground installations to have a remote access to the TCMS applications or OMTS applications running on-board.</p>
+
+    <p>This document specifies further requirements which allow the applications running on-board and the applications running on ground to connect to each other applying the virtual/functional addressing mechanism specified by IEC 61375-2-3 and exchanging application data sets produced or consumed by the on-board functions implemented in the devices attached to the TCN network.</p>
+
+    <p>Furthermore, this document covers the security requirements in order to grant the access only to authenticated and authorised applications and to allow encryption of exchanged data.</p>
+status:
+  stage:
+    abbreviation: CAN
+    content: '30.98'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19164
+    docidentifier:
+    - content: iec:proj:19164
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 45.060.01
+    text: Railway rolling stock in general

@@ -1,0 +1,173 @@
+---
+id: IEC6243932012ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: High availability automation networks
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Parallel Redundancy Protocol (PRP) and High-availability Seamless Redundancy (HSR)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - High availability automation networks - Part 3: Parallel Redundancy Protocol (PRP) and High-availability Seamless Redundancy (HSR)'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux industriels de communication
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseaux d'automatisme à haute disponibilité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Protocole de redondance parallèle (PRP) et redondance transparente de haute disponibilité (HSR)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux industriels de communication - Réseaux d''automatisme à haute disponibilité - Partie 3: Protocole de redondance parallèle (PRP) et redondance transparente de haute disponibilité (HSR)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18879
+docidentifier:
+- content: IEC 62439-3:2012 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:18879
+  type: URN
+date:
+- type: published
+  at: '2012-07-05'
+- type: created
+  at: '2010-11-05'
+- type: forecast
+  at: '2012-07-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62439-3:2012 specifies two redundancy protocols designed to provide seamless recovery in case of single failure of an inter-bridge link or bridge in the network, which are based on the same scheme: duplication of the LAN, resp. duplication of the transmitted information. This second edition cancels and replaces the first edition published in 2010. It constitutes a technical revision. The main changes with respect to the previous edition are:<br/>
+    - specification of the interconnection of PRP and HSR networks;<br/>
+    - introduction of a suffix for PRP frames;<br/>
+    - clarification and modification of specifications to ensure interoperability;<br/>
+    - slackening of the specifications to allow different implementations;<br/>
+    - consideration of clock synchronization according to IEC 61588;<br/>
+    - introduction of test modes to simplify testing and maintenance.
+
+    <br/><br/>This publication is to be read in conjunction with IEC 62439-1:2010.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62439-3:2012 spécifie deux protocoles de redondance conçus pour assurer une reprise transparente en cas de défaillance unique d'une maille inter-étage ou d'un pont au sein du réseau, qui reposent sur le même schéma: duplication du réseau local, duplication des informations transmises. Cette deuxième édition annule et remplace la première édition parue en 2010. Elle constitue une révision technique. Les principales modifications apportées à l'édition précédente sont:<br/>
+    - spécification de l'interconnexion des réseaux PRP et HSR;<br/>
+    - introduction d'un suffixe pour les trames PRP;<br/>
+    - clarification et modification des spécifications pour garantir l'interopérabilité;<br/>
+    - assouplissement des spécifications pour permettre des mises en  oeuvre différentes;<br/>
+    - prise en compte de la synchronisation des horloges conformément à la CEI 61588;<br/>
+    - introduction de modes d'essai visant à simplifier les essais et la maintenance.
+
+    <br/><br/>Cette publication doit être lue conjointement avec la CEI 62439-1:2010.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18331
+    docidentifier:
+    - content: iec:proj:18331
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23273
+    docidentifier:
+    - content: iec:proj:23273
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:7018
+    docidentifier:
+    - content: iec:pub:7018
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

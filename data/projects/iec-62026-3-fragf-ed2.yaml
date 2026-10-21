@@ -1,0 +1,108 @@
+---
+id: IEC620263FRAGfED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Appareillage à basse tension
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces appareil de commande-appareil (CDI)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: DeviceNet'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Appareillage à basse tension - Interfaces appareil de commande-appareil (CDI) - Partie 3: DeviceNet'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16783
+docidentifier:
+- content: IEC 62026-3/FRAGf ED2
+  type: IEC
+  primary: true
+- content: iec:proj:16783
+  type: URN
+date:
+- type: forecast
+  at: '2009-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 121/SC 121A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62026-3 : 2008 spécifie un système d'interfaces entre un ou plusieurs appareils de commande d'une part, et des appareils ou éléments de commutation pour circuits de commande, d'autre part. Le système d'interfaces utilise deux paires conductrices torsadées blindées, réunies dans un câble - l'une des paires fournit un support de communication différentiel et l'autre alimente les appareils. Cette partie définit des exigences permettant l'interchangeabilité des composants incluant de telles interfaces.
+    Cette deuxième édition de la CEI 62026-3 annule et remplace la première édition parue en 2000. Cette deuxième édition constitue une révision technique.
+    La version française de cette norme n'a pas été soumise au vote.
+    Les principales modifications effectuées par rapport à l'édition antérieure sont indiquées ci-dessous:-ajout de nouveaux services au protocole de messagerie de base de 5.2;-remplacement des exigences détaillées relatives à la couche d'application dans les annexes antérieures par des références en 5.3 aux spécifications correspondantes dans la nouvelle édition de la CEI 61158 (2007);-ajout d'exigences pour un protocole de sécurité correspondant en 5.6 (par référence à la CEI 61784-3);-présentation modifiée des spécifications de câbles et de connecteurs en 8.2 et 8.4, et ajout d'un nouveau type;-ajout de références pour les essais de sécurité à la fois pour les essais de CEM et les essais logiques de 8.10 et 9.3.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:15248
+    docidentifier:
+    - content: iec:proj:15248
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:20111
+    docidentifier:
+    - content: iec:proj:20111
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

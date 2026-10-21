@@ -1,0 +1,174 @@
+---
+id: IEC6254152015ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Information Model'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 5: Information Model'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Modèle d''informations'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 5: Modèle d''informations'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21051
+docidentifier:
+- content: IEC 62541-5:2015 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21051
+  type: URN
+date:
+- type: published
+  at: '2015-03-25'
+- type: created
+  at: '2013-04-12'
+- type: forecast
+  at: '2015-02-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-5.2015 defines the Information Model of the OPC Unified Architecture. The Information Model describes standardised Nodes of a Server's AddressSpace. These Nodes are standardised types as well as standardised instances used for diagnostics or as entry points to server-specific Nodes. This second edition cancels and replaces the first edition published in 2011 and constitutes a technical revision. This edition includes the following changes:<br/>
+    - Defined ProgressEventType;<br/>
+    - Defined DataType called BitFieldMaskDataType;<br/>
+    - Delete Property SamplingRateCount in ServerDiagnosticSummaryDataType;<br/>
+    - Added the Property "EffectiveTransitionTime" to TransitionVariableType;<br/>
+    - Introduced VariableType OptionSetType;<br/>
+    - Added a new EventType called SystemStatusChangeEventType;<br/>
+    - Added properties to ServerCapabilitiesType. Added an object for operation limits. Added type OperationLimitsType containing that information;<br/>
+    - Added SecureChannelId to AuditActivateSessionEventType;<br/>
+    - Added normative Annex C defining FileType and Methods;<br/>
+    - Added a Method GetMonitoredItems on ServerType;<br/>
+    - Removed the concept of ModelParent. Added meta data for namespaces in ServerType and created types for managing that. Added representations for ModellingRules OptionalPlaceholder and MandatoryPlaceholder;<br/>
+    - Added new types NonTransparentNetworkRedundancyType, NetworkGroupDataType and EndpointUrlListDataType.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62541-5:2015 définit le Modèle d'informations de l'Architecture unifiée OPC. Le Modèle d'informations décrit des Noeuds (Nodes) normalisés d'un Espace d'Adresses (AddressSpace) d'un Serveur (Server). Ces Noeuds sont des types normalisés ainsi que des instances normalisées utilisés pour le diagnostic ou comme des points d'entrée à des Noeuds spécifiques au serveur. Cette deuxième édition annule et remplace la première édition parue en 2011. Elle constitue une révision technique. Cette édition inclut les modifications suivantes:<br/>
+    - ProgressEventType identifiant l'avancement d'une opération telle que l'appel d'un service;<br/>
+    - DataType appelé BitFieldMaskDataType;<br/>
+    - Propriété SamplingRateCount supprimée dans le ServerDiagnosticSummaryDataType;<br/>
+    - Ajout de la propriété "EffectiveTransitionTime" au TransitionVariableType;<br/>
+    - Introduction du VariableType OptionSetType;<br/>
+    - Ajout d'un nouveau EventType appelé SystemStatusChangeEventType;<br/>
+    - Ajout de propriétés à ServerCapabilitiesType, de même qu'ajout d'un objet pour les limites de fonctionnement. Ajout du type OperationLimitsType;<br/>
+    - Ajout de SecureChannelId à AuditActivateSession-EventType;<br/>
+    - Ajout d'une Annexe C normative définissant le FileType et les Méthodes utilisés pour le transfert de fichiers;<br/>
+    - Ajout d'une Méthode GetMonitoredItems à ServerType;<br/>
+    - Suppression du concept de ModelParent;<br/>
+    - Ajout de métadonnées pour les espaces de noms dans ServerType. Ajout des représentations pour les ModellingRules OptionalPlaceholder et MandatoryPlaceholder;<br/>
+    - Ajout des nouveaux types NonTransparentNetworkRedundancyType, NetworkGroupDataType et EndpointUrlListDataType afin de gérer la redondance HotAndMiorrored. Ajout d'une description supplémentaire de la redondance et mise à jour de l'énumération RedundancySupport en 12.5.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16535
+    docidentifier:
+    - content: iec:proj:16535
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:101126
+    docidentifier:
+    - content: iec:proj:101126
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:21994
+    docidentifier:
+    - content: iec:pub:21994
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

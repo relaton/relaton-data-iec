@@ -1,0 +1,138 @@
+---
+id: IEC618043FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Blocs fonctionnels (FB) pour les procédés industriels
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Langage de description électronique de produit (EDDL)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Blocs fonctionnels (FB) pour les procédés industriels - Partie 3: Langage de description électronique de produit (EDDL)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19197
+docidentifier:
+- content: IEC 61804-3/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:19197
+  type: URN
+date:
+- type: forecast
+  at: '2011-05-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61804-3:2010 spécifie la technologie de langage de description électronique de produit (Electronic Device Description Language: EDDL), qui permet en utilisant les outils d'ingénierie l'intégration de produit dans les systèmes tout au long du cycle de vie. Elle spécifie EDDL en tant que langage générique pour décrire les propriétés des composants système mettant en oeuvre des automatismes. Elle spécifie la sémantique et la structure lexicale indépendament de la syntaxe. Une syntaxe spécifique est définie à l'Annexe A mais il est possible d'utiliser le modèle sémantique avec d'autres syntaxes. Cette deuxième édition annule et remplace la première édition parue en 2006 et constitue une révision technique. Les principales modifications par rapport à l'édition précédente sont:<br />
+    1.Ajouts:<br />
+    - Éléments de langage pour décrire les dispositifs modulaires, 7.9, 7.10, 7.36.1, 7.36.2, 7.36.3, 7.36.13 et 7.36.15;<br />
+    - Éléments de langage pour décrire la configuration hors connexion, 7.31;<br />
+    - Utilisation de UTF-8, voir A.2.3;<br />
+    - Divers BuiltIn;<br />
+    - Référencement de BLOCK_A. Mises à jour pour décrire l'accès à des blocs multiples, voir 7.4.1, 7.38.18 à 7.38.26;<br />
+    - Ajout de l'attribut VALIDITY (validité) à différentes structures lexicales;<br />
+    - Prise en charge d'images multilingues, voir 7.18.21;<br />
+    - En 7.23.1, suppression de la restriction de la liste d'éléments de MENU;<br />
+    - Limitation syntaxique sur les instructions conditionnelles en 7.23.2.1 pour restreindre la disposition de MENU;<br />
+    - Ajout de LIST (liste) et suppression de VARIABLE_LIST (liste des variables) dans les éléments de MENU en 7.23.2.1;<br />
+    - Types de données de valeur de retour additionnels pour METHOD TYPE, voir 7.24.2.3;<br />
+    - Remplacement de la référence par une spécification spécifique au contexte dans le Tableau 170;<br />
+    - Clarification sur le comportement des KEY_POINT (point clé), voir 7.35.2.4;<br />
+    - Ajout de TRANSPARENT à la structure lexicale pour rendre la liste d'attributs cohérente, voir 7.36.11;<br />
+    - Clarification sur le comportement des fichiers, voir 7.36.10;<br />
+    - Ajout dans le Tableau 5 de nouveaux mots clés;<br />
+    - Ajout de la syntaxe EDDL formelle en A.6.<br />
+    2.Corrections:<br />
+    - Suppression en A.6 de toutes les constructions non nécessaires utilisant l'élément auxiliaire ..._listR. Celles-ci avaient été créées par un outil de vérification de syntaxe imparfait.<br />
+    - Suppression de tous les "stmt1:" et "stmt2:" superflus en A.6. Ceux-ci avaient été créés par un outil de vérification de syntaxe imparfait.<br />
+    - A.6, désormais cohérent en ce qui concerne l'utilisation d'un deux-points à la fin d'un terme après modification des deux-points.<br />
+    - Références non utilisées supprimées.<br />
+    - Parenthèses et "<exp>" supprimés dans plusieurs structures lexicales.<br />
+    - "[   <expr>]" supprimé dans plusieurs structures lexicales dans lesquelles l'expression conditionnelle n'est pas possible.<br />
+    - Attribut WIDTH (largeur) remplacé par HEIGHT (hauteur) dans le paragraphe spécifiant HEIGHT.<br />
+    - Fautes d'orthographe telles que GUAGE remplacé par GAUGE.<br />
+    - Limitation syntaxique sur les instructions conditionnelles dans les ACTIONS (par exemple, voir 7.14.2.3 et 7.14.2.4) pour prendre en charge les éléments conditionnels uniquement dans les éléments METHOD (méthode).<br />
+    - Clarification sur le comportement des fichiers en 7.15.<br />
+    - Ajout de GRID (grille) et IMAGES à la liste des attributs, voir 7.19.<br />
+    - Suppression d'une duplication de liste d'éléments en 7.23.2.1.<br />
+    - Définition et appel des METHOD avec un paramètre et une valeur de retour, voir 7.24.<br />
+    - Restriction sur METHOD CLASS (classe de méthode), voir 7.24.2.2.<br />
+    - Clarification sur le comportement de SCALING_FACTOR (facteur d'échelle), voir Tableau 165.<br />
+    - Suppression d'opérateurs EDDL de la liste de mots-clés EDDL, voir Tableau A.5.<br />
+    - Clarification sur le codage de TIME_VALUE (valeur d'heure) constituant la base absolue, voir Tableau D.16 et Tableau D.17.<br />
+    La présente version bilingue, publiée en 2011-07, correspond à la version anglaise. La version française de cette norme n'a pas été soumise au vote.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:17033
+    docidentifier:
+    - content: iec:proj:17033
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:19635
+    docidentifier:
+    - content: iec:proj:19635
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

@@ -1,0 +1,101 @@
+---
+id: CISPR11AMD1FRAG4ED7
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Fragment 4: Introduction of E-field measurements below 30 MHz'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Fragment 4: Introduction of E-field measurements below 30 MHz'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/120796
+docidentifier:
+- content: CISPR 11/AMD1/FRAG4 ED7
+  type: IEC
+  primary: true
+- content: iec:proj:120796
+  type: URN
+date:
+- type: created
+  at: '2023-09-29'
+- type: forecast
+  at: '2027-12-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International special committee on radio interference
+    abbreviation:
+      language: en
+      script: Latn
+      content: CISPR
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: CISPR/CIS/B
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '7'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    CISPR 11: 2022 applies to industrial, scientific and medical electrical equipment operating in the frequency range 0 Hz to 400 GHz and to domestic and similar appliances designed to generate and/or use locally radio-frequency energy. This document covers emission requirements related to radio-frequency (RF) disturbances in the frequency range of 9 kHz to 400 GHz. Measurements are only performed in frequency ranges where limits are specified in Clause 6. For ISM RF applications in the meaning of the definition found in the ITU Radio Regulations (see Definition 3.1.20), this document covers emission requirements related to radio-frequency disturbances in the frequency range of 9 kHz to 18 GHz. ISM equipment which incorporates radio transmit/receive functions (host equipment with radio functionality) is included in the scope of this document, see Annex F. However, the emission requirements in this document are not intended to be applicable to the intentional transmissions from a radio transmitter as defined by the ITU including their spurious emissions. Requirements for ISM RF lighting equipment and UV irradiators operating at frequencies within the ISM frequency bands defined by the ITU Radio Regulations are contained in this document. Robots used for industrial, scientific and medical applications are in the scope of this document. Equipment covered by other CISPR product and product family emission standards are excluded from the scope of this document. This seventh edition cancels and replaces the sixth edition published in 2015, Amendment 1:2016 and Amendment 2:2019. This edition constitutes a technical revision.This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    introduction of limits for radiated disturbances in the frequency range above 1 GHz for group 1 equipment in line with the requirements given in the generic emission standards;<br/>
+    introduction of limits for conducted disturbances on the wired network port in line with the requirements given in the generic emission standards;<br/>
+    introduction of requirements for equipment which incorporates radio transmit/receive functions;<br/>
+    introduction of definitions for various types of robots;<br/>
+    consideration of some particular conditions when measuring robots, such as measurement setups and operating modes of robots;<br/>
+    introduction of information related to various types of wireless power transfer equipment.
+status:
+  stage:
+    abbreviation: ACD
+    content: '20.99'
+  iteration: '1'
+relation:
+- type: derivedFrom
+  bibitem:
+    formattedref:
+      content: iec:proj:120652
+    docidentifier:
+    - content: iec:proj:120652
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.100.10
+    text: Emission

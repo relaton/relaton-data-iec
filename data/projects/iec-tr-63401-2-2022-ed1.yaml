@@ -1,0 +1,130 @@
+---
+id: IECTR6340122022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Dynamic characteristics of inverter-based resources in bulk power systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Sub- and Super-synchronous control Interactions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Dynamic characteristics of inverter-based resources in bulk power systems - Part 2: Sub- and Super-synchronous control Interactions'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/102898
+docidentifier:
+- content: IEC TR 63401-2:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:102898
+  type: URN
+date:
+- type: published
+  at: '2022-06-27'
+- type: created
+  at: '2021-07-16'
+- type: forecast
+  at: '2022-07-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 8/SC 8A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 63401-2:2022, which is a technical report, covers the "control interactions" in converter interfaced generators e.g, wind and PV with the frequency of the resulting oscillation below twice the system frequency. SSCI can be categorized into:<br/>
+    1) SSCI in DFIG is caused by the interaction between DFIG wind turbine converter controls and the series compensated network.<br/>
+    2) SSCI involving FSC (both type-4 wind turbine or PV generators) is caused by the interaction between wind turbine or solar PV's FSC controls and weak AC grid.<br/>
+    This technical report is organized into nine clauses. Clause 1 gives a brief introduction and highlights the scope of this document. Clause 4 presents the historical background of various types of subsynchronous oscillation (SSO) and revisits the terminologies, definitions, and classification in the context of classical SSR and emerging SSCI issues to better understand and classify the emerging interaction phenomena. Clause 5 provides the description, mechanism, and characteristics of the SSCI phenomenon in the framework of real-world incidents, including the SSCI events in the ERCOT, Guyuan, and Hami wind power systems. Clause 6 proposes two benchmark models to study the SSCI DFIG and FSC-based wind turbines or PV generators. Clause 7 gives an overview of existing and emerging modeling and stability analysis approaches to investigate the SSCI phenomenon. Clause 8 outlines various techniques to mitigate the SSCI. It discusses various SSCI mitigation schemes, such as bypassing the series capacitor, selective tripping of WTGs, generator, and plant-level damping control schemes. Clause 9 highlights the need for future works towards standardization of terms, definitions, classification, analysis methods, benchmark models, and mitigation methods.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:142287
+    docidentifier:
+    - content: iec:proj:142287
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:64438
+    docidentifier:
+    - content: iec:pub:64438
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
+  - code: '27.180'
+    text: Wind turbine energy systems
+  - code: '29.020'
+    text: Electrical engineering in general

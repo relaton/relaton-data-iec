@@ -1,0 +1,186 @@
+---
+id: IEC60512281002024ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Connectors for electrical and electronic equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: Tests and measurements
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 28-100: Signal integrity tests up to 2 000 MHz -- Tests 28a to 28g'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Connectors for electrical and electronic equipment - Tests and measurements - Part 28-100: Signal integrity tests up to 2 000 MHz -- Tests 28a to 28g'
+  type: main
+- language: fr
+  script: Latn
+  content: Connecteurs pour équipements électriques et électroniques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Essais et mesures
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 28-100: Essais d’intégrité des signaux jusqu’à 2 000 MHz -- Essais 28a à 28g'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Connecteurs pour équipements électriques et électroniques - Essais et mesures - Partie 28-100: Essais d’intégrité des signaux jusqu’à 2 000 MHz -- Essais 28a à 28g'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/106730
+docidentifier:
+- content: IEC 60512-28-100:2024 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:106730
+  type: URN
+date:
+- type: published
+  at: '2024-08-02'
+- type: created
+  at: '2021-08-27'
+- type: forecast
+  at: '2024-08-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 48/SC 48B
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60512-28-100:2024 specifies the test methods for signal integrity and transmission performance for connectors specified in respective parts of IEC 60603-7, IEC61076-1, IEC 61076-2, IEC 61076-3 and IEC 63171 series of standards for connecting hardware applications from 0,1 MHz up to 2 000 MHz, with reference to this document.<br/>
+    Note: This document is also suitable for testing signal integrity and transmission performance of connectors up to a lower value of maximum frequency; however, the test methodology specified in the detail specification for any given connector remains the reference conformance test for that connector.<br/>
+    The list of connector series of standards does not preclude referencing this document in other connector manufacturer’s specifications or published standards.<br/>
+    Test procedures provided herein are:<br/>
+    - insertion loss, test 28a;<br/>
+    - return loss, test 28b;<br/>
+    - near-end crosstalk (NEXT) test 28c;<br/>
+    - far-end crosstalk (FEXT), test 28d;<br/>
+    - transverse conversion loss (TCL), test 28f;<br/>
+    - transverse conversion transfer loss (TCTL), test 28g.<br/>
+    Other test procedures referenced herein are:<br/>
+    - shield transfer impedance (ZT), see IEC 60512‑26‑100, test 26e.<br/>
+    - coupling attenuation (aC), see IEC 62153-4-7 and IEC 62153‑4‑12.<br/>
+    - low frequency coupling attenuation (aCLF) see IEC 62153-4-7 and IEC 62153-4-15<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    -The frequency range has been modified to start at 0,1 MHz instead of 1 MHz, to include single-pair connectors.<br/>
+    -All tables and requirements have been revised down to 0,1 MHz, and partially improved to reduce the impact of the test fixture.<br/>
+    -Formulae to calculate the S-parameters from single-ended parameters have been added.<br/>
+    -A note was added for those parameters which are not applicable to single-pair connectors.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 60512-28-100:2024 spécifie les méthodes d’essai pour l’intégrité du signal et les performances de transmission pour les connecteurs spécifiés dans les parties respectives de l'IEC 60603-7, l'IEC 61076-1, l'IEC 61076-2, l'IEC 61076-3 et de la série de normes IEC 63171 pour connecter les applications matérielles de 0,1 MHz à 2 000 MHz, en référence au présent document.<br/>
+    NOTE Le présent document convient également pour soumettre à essai l’intégrité des signaux et les performances de transmission des connecteurs jusqu’à une valeur inférieure de fréquence maximale; toutefois, la méthodologie d’essai spécifiée dans la spécification particulière pour un connecteur donné reste l’essai de conformité de référence pour ce connecteur.<br/>
+    La liste de séries de normes concernant les connecteurs n’exclut pas le fait de faire référence au présent document dans d’autres normes publiées ou spécifications des fabricants de connecteurs.<br/>
+    Les procédures d’essai spécifiées ici sont les suivantes:<br/>
+    - perte d’insertion, essai 28a;<br/>
+    - affaiblissement de réflexion, essai 28b;<br/>
+    - paradiaphonie (NEXT), essai 28c;<br/>
+    - télédiaphonie (FEXT), essai 28d;<br/>
+    - perte de conversion transverse (TCL), essai 28f;<br/>
+    - perte de transfert de conversion transverse (TCTL), essai 28g.<br/>
+    Les autres procédures d’essai citées ici en référence sont:<br/>
+    - impédance de transfert, (ZT), voir l’IEC 60512‑26‑100, essai 26e;<br/>
+    - affaiblissement de couplage (aC), voir l’IEC 62153-4-7 et l’IEC 62153‑4‑12;<br/>
+    - affaiblissement de couplage basse fréquence (aCLF), voir l’IEC 62153-4-7 et l’IEC 62153-4-15.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:23157
+    docidentifier:
+    - content: iec:proj:23157
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:139027
+    docidentifier:
+    - content: iec:proj:139027
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:70911
+    docidentifier:
+    - content: iec:pub:70911
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 31.220.10
+    text: Plug-and-socket devices. Connectors

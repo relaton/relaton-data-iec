@@ -1,0 +1,108 @@
+---
+id: IEC60533ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electrical and electronic installations in ships
+  type: title-intro
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility (EMC)
+  type: title-main
+- language: en
+  script: Latn
+  content: Electrical and electronic installations in ships - Electromagnetic compatibility (EMC)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105730
+docidentifier:
+- content: IEC 60533 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:105730
+  type: URN
+date:
+- type: created
+  at: '2021-07-02'
+- type: forecast
+  at: '2026-11-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 18
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60533:2026 contains requirements and guidelines to ensure electromagnetic compatibility on board all types and sizes of ships unless more specific standards are applicable for specific types or sizes of ships. These requirements and guidelines can be applied during the building process but also when maintenance or upgrades are required.<br/>
+    This fourth edition cancels and replaces the third edition, published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) It is recognised that in the ship building process different parties are involved with each its specific role. In this edition requirements are linked to the different roles.<br/>
+    b) It is recognised that not all equipment onboard a ship is specifically designed for the maritime environment. For that reason, the risk-based approach is introduced to minimise risks on interference from non-maritime equipment.<br/>
+    c) The number of EMC zones has been increased, and the zones have been divided into two groups: spatial zones (separated by steel bulkheads, decks and distance) and power grid zones (separated by transformers, converters and filters). This was done to cover risk areas, such as those near antennas, and to allow dealing with the fact that the boundaries of EMC spatial zones and EMC power grid zones usually not align.<br/>
+    d) The upper frequency limit has been increased to match new technological developments.<br/>
+    e) The requirements from IEC 62742 have been integrated in this document, where applicable, since there are more and more ships where composite and metal construction materials are combined.
+status:
+  stage:
+    abbreviation: BPUB
+    content: '60.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:17759
+    docidentifier:
+    - content: iec:proj:17759
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.100.10
+    text: Emission
+  - code: 47.020.60
+    text: Electrical equipment of ships and  of marine structures

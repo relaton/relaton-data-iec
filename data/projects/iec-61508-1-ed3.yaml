@@ -1,0 +1,129 @@
+---
+id: IEC615081ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Functional safety of electrical/electronic/programmable electronic safety-related systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: General requirements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 1: General requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité fonctionnelle des systèmes électriques/électroniques/électroniques programmables relatifs à la sécurité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Exigences générales'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité fonctionnelle des systèmes électriques/électroniques/électroniques programmables relatifs à la sécurité - Partie 1: Exigences générales'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113072
+docidentifier:
+- content: IEC 61508-1 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:113072
+  type: URN
+date:
+- type: created
+  at: '2022-09-23'
+- type: forecast
+  at: '2027-01-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61508-1:2026 covers those aspects to be considered when electrical/electronic/programmable electronic (E/E/PE) systems are used to carry out safety functions.<br/>
+    A first objective is to facilitate the development of product and application sector international standards by the technical committees responsible for the product or application sector. This will allow all the relevant factors, associated with the product or application, to be fully considered and thereby meet the specific needs of users of the product and the application sector.<br/>
+    A second objective is to enable the development of E/E/PE safety-related systems where product or application sector international standards do not exist.<br/>
+    The scope of this document is functional safety for E/E/PE safety-related systems but, apart from normative requirements in the hazard and risk analysis phase, the IEC 61508 series does not itself provide normative requirements for malevolent action arising from a security risk.<br/>
+    NOTE 1 For requirements and/or guidance on security see the IEC 62443 series and the ISO/IEC 27000 family.<br/>
+    NOTE 2 For guidance on the coordination between safety and security, refer to IEC TR 63069.<br/>
+    This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) the scope includes clarification on 'artificial Intelligence' (software technology class), human factors and security. The related requirements are limited to the hazard and risk analysis (refer to 7.1.2.3 on human factors and 7.4.2.3 for security) and further references to external guidance;<br/>
+    b) the interfaces to other parts of IEC 61508 have been clarified and duplication of requirements in other Parts has been removed;<br/>
+    c) the differentiation between the required safety integrity level (SIL) and the achieved Systematic Capability (SC) has been clarified;<br/>
+    d) more detailed requirements on competence of people have been provided;<br/>
+    e) requirements on levels of independence for functional safety assurance activities (Annex B) have been introduced;<br/>
+    It has the status of a basic safety publication according to IEC Guide 104 and has been developed according to ISO/IEC Guide 51.
+status:
+  stage:
+    abbreviation: CFDIS
+    content: '50.20'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14795
+    docidentifier:
+    - content: iec:proj:14795
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '13.110'
+    text: Safety of machinery
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '29.020'
+    text: Electrical engineering in general

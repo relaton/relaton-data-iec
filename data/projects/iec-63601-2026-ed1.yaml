@@ -1,0 +1,113 @@
+---
+id: IEC636012026ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Guideline for evaluating bias temperature instability of silicon carbide metal-oxide-semiconductor devices for power electronic conversion
+  type: title-main
+- language: en
+  script: Latn
+  content: Guideline for evaluating bias temperature instability of silicon carbide metal-oxide-semiconductor devices for power electronic conversion
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/127952
+docidentifier:
+- content: IEC 63601:2026 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:127952
+  type: URN
+date:
+- type: published
+  at: '2026-02-03'
+- type: created
+  at: '2024-08-13'
+- type: forecast
+  at: '2026-02-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63601:2026 covers SiC-based PECS devices having a gate dielectric region biased to turn devices on and off. This typically refers to MOS devices such as MOSFETs and IGBTs. In this document, only NMOS (N-type MOS) devices are discussed as these are dominant for power device applications; however, the procedures apply to PMOS (P-type MOS) devices as well.<br/>
+    This document does not define device failure criteria, acceptable use conditions or acceptable lifetime targets. That is up to the device manufacturers and users. However, it provides stress procedures such that the threshold voltage stability over time as affected by gate bias and temperature can be demonstrated and evaluated.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:99394
+    docidentifier:
+    - content: iec:pub:99394
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 31.080.30
+    text: Transistors

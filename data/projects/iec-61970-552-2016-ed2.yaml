@@ -1,0 +1,146 @@
+---
+id: IEC619705522016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 552: CIMXML Model exchange format'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part 552: CIMXML Model exchange format'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d'application pour système de gestion d'énergie (EMS-API)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 552: Format d''échange de modèle CIMXML'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d''application pour système de gestion d''énergie (EMS-API) - Partie 552: Format d''échange de modèle CIMXML'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21882
+docidentifier:
+- content: IEC 61970-552:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21882
+  type: URN
+date:
+- type: published
+  at: '2016-09-27'
+- type: created
+  at: '2014-02-21'
+- type: forecast
+  at: '2016-10-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61970-552:2016 specifies the format and rules for exchanging modelling information based upon the CIM. It uses the CIM RDF Schema presented in IEC 61970-501 as the meta-model framework for constructing XML documents of power system modelling information. The style of these documents is called CIMXML format. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - new clause that defines the versioning of CIMXML format;<br/>
+    - addition of a statement about mandatory header;<br/>
+    - introduction of the new urn:uuid form and discussion of the backwards compatibility.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61970-552:2016 spécifie le format et les règles pour échanger des informations de modélisation basées sur le CIM. Elle utilise le Schéma RDF du CIM présenté dans l'IEC 61970-501 comme le cadre de métamodèle pour générer les documents XML contenant les informations relatives à la modélisation des réseaux électriques. Le style de ces documents est appelé format CIMXML. Cette nouvelle édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - nouvel Article définissant la version du format CIMXML;<br/>
+    - ajout d'une déclaration sur le caractère obligatoire de l'en-tête;<br/>
+    - présentation de la nouvelle forme urn:uuid et traitement de la compatibilité ascendante.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19081
+    docidentifier:
+    - content: iec:proj:19081
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:25939
+    docidentifier:
+    - content: iec:pub:25939
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

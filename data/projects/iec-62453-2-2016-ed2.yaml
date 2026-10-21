@@ -1,0 +1,172 @@
+---
+id: IEC6245322016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Field device tool (FDT) interface specification
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Concepts and detailed description'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Field device tool (FDT) interface specification - Part 2: Concepts and detailed description'
+  type: main
+- language: fr
+  script: Latn
+  content: Spécification des interfaces des outils des dispositifs de terrain (FDT)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Concepts et description détaillée'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Spécification des interfaces des outils des dispositifs de terrain (FDT) - Partie 2: Concepts et description détaillée'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20441
+docidentifier:
+- content: IEC 62453-2:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20441
+  type: URN
+date:
+- type: published
+  at: '2016-12-16'
+- type: created
+  at: '2012-08-17'
+- type: forecast
+  at: '2016-05-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62453-2:2016 explains the common principles of the field device tool concept. These principles can be used in various industrial applications such as engineering systems, configuration programs and monitoring and diagnostic applications. This standard specifies the general objects, general object behavior and general object interactions that provide the base of FDT. This second edition cancels and replaces the first edition published in 2009. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - Clarification for categories of DTMs (e.g. new category ‘Composite Device DTM’)<br/>
+    - Clarification: Command functions<br/>
+    - New concept: Static function<br/>
+    - Clarification for Communication Channel and communication<br/>
+    - Clarifications for identification<br/>
+    - Clarifications for scanning and DTM assignment<br/>
+    - New concept: PLC tool support
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62453-2:2016 explique les principes courants du concept relatif aux outils des dispositifs de terrain. Ces principes peuvent être utilisés dans diverses applications industrielles telles que les systèmes d'ingénierie, les programmes de configuration et les applications de surveillance et de diagnostic. La présente norme spécifie les objets généraux, leur comportement ainsi que leurs interactions qui constituent la base des outils FDT. Cette deuxième édition annule et remplace la première édition parue en 2009. Cette édition constitue une révision technique. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - Clarification pour les catégories des DTM (par exemple; la nouvelle catégorie ‘Composite Device DTM’ («DTM d’Equipement composite»))<br/>
+    - Clarification: fonctions de commande (Command)<br/>
+    - Nouveau concept: fonction statique (Static)<br/>
+    - Clarification pour «Voie de Communication» (Communication Channel) et communication<br/>
+    - Clarifications pour identification<br/>
+    - Clarifications pour balayage et attribution du DTM<br/>
+    - Nouveau concept: prise en charge de l'outil PLC.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:15386
+    docidentifier:
+    - content: iec:proj:15386
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:15654
+    docidentifier:
+    - content: iec:proj:15654
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:104561
+    docidentifier:
+    - content: iec:proj:104561
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:31317
+    docidentifier:
+    - content: iec:pub:31317
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  - code: '35.110'
+    text: Networking

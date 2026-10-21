@@ -1,0 +1,135 @@
+---
+id: IEC634302025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Data container format for wearable sensor
+  type: title-main
+- language: en
+  script: Latn
+  content: Data container format for wearable sensor
+  type: main
+- language: fr
+  script: Latn
+  content: Conteneur de données pour capteur prêt-à-porter
+  type: title-main
+- language: fr
+  script: Latn
+  content: Conteneur de données pour capteur prêt-à-porter
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105002
+docidentifier:
+- content: IEC 63430:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:105002
+  type: URN
+date:
+- type: published
+  at: '2025-02-12'
+- type: created
+  at: '2022-01-07'
+- type: forecast
+  at: '2025-03-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63430:2025 specifies a container format for sensing data and its system requirements. This document applies to edge computing devices such as smartphones, home gateways, multimedia coordinators, etc., and cloud systems.<br/>
+    This document describes the following technical specifications:<br/>
+    - container format for wearable sensor data;<br/>
+    - Schema Repository that defines the parameters and syntax of sensor data;<br/>
+    - communication and system requirements between the edge computing device and Schema Repository.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 63430:2025 spécifie le format d'un Conteneur pour les données de détection, ainsi que ses exigences de système. Le présent document s'applique aux dispositifs informatiques de périphérie comme les mobiles multifonctions, les passerelles domestiques, les coordinateurs multimédias, etc., ainsi qu'aux systèmes cloud.<br/>
+    Le présent document décrit les spécifications techniques suivantes:<br/>
+    - le format du Conteneur pour les données de capteur prêt-à-porter;<br/>
+    - le Référentiel de schéma qui définit les paramètres et la syntaxe des données de capteur;<br/>
+    - les exigences en matière de communication et de système entre le dispositif informatique de périphérie et le Référentiel de schéma.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:68298
+    docidentifier:
+    - content: iec:pub:68298
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: 59.080.80
+    text: Smart textiles

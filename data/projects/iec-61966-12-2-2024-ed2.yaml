@@ -1,0 +1,135 @@
+---
+id: IEC619661222024ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Multimedia systems and equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: Colour measurement and management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 12-2: Simple metadata format for identification of colour gamut'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Multimedia systems and equipment - Colour measurement and management - Part 12-2: Simple metadata format for identification of colour gamut'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104573
+docidentifier:
+- content: IEC 61966-12-2:2024 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:104573
+  type: URN
+date:
+- type: published
+  at: '2024-10-22'
+- type: created
+  at: '2020-09-04'
+- type: forecast
+  at: '2024-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61966-12-2:2024 specifies the colour gamut metadata format for video systems intended for use in CE (consumer electronics) devices. The metadata specified in this part of IEC 61966-12 is limited to the gamut description for display types comprising the three primary additive colours, whose white and black points have the same chromaticity. It is fundamentally based on the conventional VESA-EDID format.<br/>
+    When associated with content, the simple metadata format defines the gamut for which the content was created. It can be used by the display for controlled colour reproduction even if the display’s colour gamut is different from that of the content. When associated with a display, the simple metadata format defines the display colour gamut. It can be used during content creation to enable improved colour reproduction.<br/>
+    This document provides the simplest, but unambiguous solution for typical CE devices that are based on colour gamut information communication.<br/>
+    IEC 61966-12-2:2024 cancels and replaces the first edition published in 2014. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) the number of bits of metadata format has been extended in Clause 4;<br/>
+    b) Annex C has been added for handling HDR content.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19260
+    docidentifier:
+    - content: iec:proj:19260
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:67578
+    docidentifier:
+    - content: iec:pub:67578
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.180.20
+    text: Colours and measurement of light
+  - code: 33.160.40
+    text: Video systems

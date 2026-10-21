@@ -1,0 +1,160 @@
+---
+id: IEC6120432000ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Low-voltage power supplies, d.c. output
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Electromagnetic compatibility (EMC)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Low-voltage power supplies, d.c. output - Part 3: Electromagnetic compatibility (EMC)'
+  type: main
+- language: fr
+  script: Latn
+  content: Alimentations basse tension, sortie continue
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Compatibilité électromagnétique (CEM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Alimentations basse tension, sortie continue - Partie 3: Compatibilité électromagnétique (CEM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/7430
+docidentifier:
+- content: IEC 61204-3:2000 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:7430
+  type: URN
+date:
+- type: published
+  at: '2000-11-09'
+- type: created
+  at: '1995-07-28'
+- type: forecast
+  at: '2000-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 22/SC 22E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Specifies electromagnetic compatibility (EMC) requirements for power supply units (PSUs) providing d.c. output(s) up to 200 V at a power level of up to 30 kW, operating from a.c. or d.c. source voltages of up to 600 V.
+
+    The contents of the corrigendum of December 2000 have been included in this copy.
+- language: fr
+  script: Latn
+  content: |-
+    Spécifie les prescriptions de compatibilité électro-magnétique (CEM) pour les alimentations générant des tensions continues jusqu'à 200 V à des puissances jusqu'à 30 kW, et qui sont elles-mêmes alimentées par des sources alternatives ou continues ne dépassant pas 600 V.
+
+    Le contenu du corrigendum de décembre 2000 a été pris en considération dans cet exemplaire.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:11188
+    docidentifier:
+    - content: iec:proj:11188
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:15991
+    docidentifier:
+    - content: iec:proj:15991
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:1000001808
+    docidentifier:
+    - content: iec:proj:1000001808
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19338
+    docidentifier:
+    - content: iec:pub:19338
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general

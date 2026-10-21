@@ -1,0 +1,113 @@
+---
+id: IEC6350428042023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Software-Hardware Interface for Multi-Many-Core
+  type: title-main
+- language: en
+  script: Latn
+  content: Software-Hardware Interface for Multi-Many-Core
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/118136
+docidentifier:
+- content: IEC 63504-2804:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:118136
+  type: URN
+date:
+- type: published
+  at: '2023-10-17'
+- type: created
+  at: '2023-05-26'
+- type: forecast
+  at: '2023-11-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 91
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 63504-2804:2023 defines an architecture description standard from the software design perspective - this provides a common interface that abstracts the hardware properties that are critical to enable multicore tools. The standard includes performance estimation accuracy for complex processors like Very Long Instruction Word (VLIW) core and complex contention scenarios, description of caches to include uncached memory regions and caches for subsets of memories, properties for coarse power consumption estimation, and reusability by separating eXtensible Markup Language (XML) files for processor description and other memory/communication-related information. This is an IEC/IEEE dual logo standard.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:85839
+    docidentifier:
+    - content: iec:pub:85839
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: '35.060'
+    text: Languages used in information technology

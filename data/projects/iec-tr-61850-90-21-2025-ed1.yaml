@@ -1,0 +1,128 @@
+---
+id: IECTR6185090212025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-21: Travelling Wave Fault Location'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 90-21: Travelling Wave Fault Location'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113432
+docidentifier:
+- content: IEC TR 61850-90-21:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:113432
+  type: URN
+date:
+- type: published
+  at: '2025-02-12'
+- type: created
+  at: '2022-11-18'
+- type: forecast
+  at: '2025-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 61850-90-21:2025, which is a Technical Report, aims to provide background information, use cases, data models and guidance on the application of such a technique.<br/>
+    This document will<br/>
+    1) describe the principles of fault location based on travelling waves aided by communications;<br/>
+    2) specify use cases for this method under the following application scenarios:<br/>
+    a) Single-ended fault location,<br/>
+    b) Double-ended fault location through communications between two devices,<br/>
+    c) Double-ended fault location with communications to a master station,<br/>
+    d) Wide area fault location applications,<br/>
+    e) Pulse radar echo method,<br/>
+    f) Substation integration with other fault location and disturbance recording functions,<br/>
+    g) Testing and calibration;<br/>
+    3) describe the information model for each use case;<br/>
+    4) give guidance on scheme configuration.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:79568
+    docidentifier:
+    - content: iec:pub:79568
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

@@ -1,0 +1,164 @@
+---
+id: IEC6254132025ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Address Space Model'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 3: Address Space Model'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Modèle d''espace d''adressage'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 3: Modèle d''espace d''adressage'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/115399
+docidentifier:
+- content: IEC 62541-3:2025 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:115399
+  type: URN
+date:
+- type: published
+  at: '2025-12-22'
+- type: created
+  at: '2023-01-27'
+- type: forecast
+  at: '2025-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-3: 2025 describes the OPC Unified Architecture (OPC UA) AddressSpace and its Objects. This specification is the OPC UA meta model on which OPC UA information models are based. This fourth edition cancels and replaces the third edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) addition of the concept and modelling elements for Interfaces and AddIns;<br/>
+    b) addition of Currency;<br/>
+    c) addition of Method Meta Data to define additional attributes for Method Arguments;<br/>
+    d) addition of ApplyRestrictionToBrowse bit to AccessRestrictionType;<br/>
+    e) addition of a Non-Volatile Storage bit to AccessLevelExType;<br/>
+    f) addition of a Constant bit and ConfigurationConstant bit to AccessLevelExType;<br/>
+    g) the View NodeClass has been changed to define the EventNotifier as an EventNotifierType in the same way the Object NodeClass defines it;<br/>
+    h) correctition of HasNotifier, HasEventSource, and Organizes, to include ObjectType as valid source node;<br/>
+    i) NamingRules have become deprecated;<br/>
+    j) addition of AssociatedWith ReferenceType.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-3: 2025 décrit l'AddressSpace de l'Architecture unifiée OPC (OPC UA) et ses Objets. La présente spécification correspond au métamodèle OPC UA sur lequel se fondent les modèles d'information OPC UA. Cette quatrième édition annule et remplace la troisième édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout du concept et des éléments de modélisation pour les Interfaces et AddIns;<br/>
+    b) ajout de Currency;<br/>
+    c) ajout des Métadonnées de Méthode afin de définir des attributs supplémentaires pour les Arguments de Méthode;<br/>
+    d) ajout du bit ApplyRestrictionToBrowse à AccessRestrictionType;<br/>
+    e) ajout d'un bit de mémoire rémanente à AccessLevelExType;<br/>
+    f) ajout d'un bit Constant et d'un bit ConfigurationConstant à AccessLevelExType;<br/>
+    g) modification de la NodeClass View pour définir l'EventNotifier comme un EventNotifierType de la même manière que la NodeClass Object le définit;<br/>
+    h) correction de HasNotifier, HasEventSource et Organizes afin d'inclure ObjectType comme nœud source valide;<br/>
+    i) dépréciation de NamingRules;<br/>
+    j) ajout du ReferenceType AssociatedWith.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101124
+    docidentifier:
+    - content: iec:proj:101124
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:82258
+    docidentifier:
+    - content: iec:pub:82258
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

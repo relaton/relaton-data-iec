@@ -1,0 +1,104 @@
+---
+id: IEC611621FRAGFED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Matériels et systèmes de navigation et de radiocommunication maritimes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces numériques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Emetteur unique et récepteurs multiples'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de navigation et de radiocommunication maritimes - Interfaces numériques - Partie 1: Emetteur unique et récepteurs multiples'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21012
+docidentifier:
+- content: IEC 61162-1/FRAGF ED4
+  type: IEC
+  primary: true
+- content: iec:proj:21012
+  type: URN
+date:
+- type: forecast
+  at: '2013-05-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 80
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: La CEI 61162-1:2010 contient les exigences pour la communication des données entre les instruments maritimes électroniques, les équipements de navigation et de radiocommunications lorsqu'ils sont interconnectés via un système approprié. La présente partie de la CEI 61162 est destinée à supporter l'émission unidirectionnelle de données série entre un émetteur unique et un ou plusieurs récepteurs. Ces données sont au format ASCII imprimable et peuvent inclure des informations telles que la position, la vitesse, la profondeur, l'allocation de fréquences, etc. Les messages types peuvent être de longueur comprise entre environ 11 et 79 caractères au maximum et nécessitent généralement une émission pas plus rapidement qu'un seul message à la seconde. Les définitions électriques de la présente norme ne sont pas destinées à gérer les applications à large bande passante comme les radars ou l'imagerie vidéo, ou encore les bases de données intensives et les applications de transfert de fichiers. En l'absence de disposition garantissant l'émission des messages et compte tenu de la capacité limitée de vérification des erreurs, il convient que la présente norme soit utilisée avec précaution dans toutes les applications de sécurité.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:18188
+    docidentifier:
+    - content: iec:proj:18188
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22762
+    docidentifier:
+    - content: iec:proj:22762
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

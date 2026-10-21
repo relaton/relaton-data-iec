@@ -1,0 +1,154 @@
+---
+id: IEC6243972011ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: High availability automation networks
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Ring-based Redundancy Protocol (RRP)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - High availability automation networks - Part 7: Ring-based Redundancy Protocol (RRP)'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseaux de haute disponibilité pour l'automation
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7: Protocole de redondance pour réseau en anneau (RRP)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Réseaux de haute disponibilité pour l''automation - Partie 7: Protocole de redondance pour réseau en anneau (RRP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18010
+docidentifier:
+- content: IEC 62439-7:2011 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:18010
+  type: URN
+date:
+- type: published
+  at: '2011-12-16'
+- type: created
+  at: '2010-01-22'
+- type: forecast
+  at: '2012-01-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62439-7:2011 specifies a redundancy protocol that is based on a ring topology, in which the redundancy protocol is executed at the end nodes, as opposed to being built into the switches. Each node detects link failure and link establishment using media-sensing technologies, and shares the link information with the other nodes, to guarantee fast connectivity recovery times. The nodes have equal RRP network management functions.<br/>
+    <br/>
+    This publication is to be read in conjunction with IEC 62439-1:2010. The contents of the corrigendum of May 2015 have been included in this copy.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62439-7:2011 établit les spécifications d'un protocole de redondance basé sur une topologie en anneau, au sein de laquelle il est exécuté aux noeuds d'extrémité, et non pas intégré aux commutateurs. Chaque n ud détecte la défaillance ou l'établissement d'une liaison à l'aide de technologies de détection de supports. Il partage ensuite les informations relatives à la liaison avec les autres noeuds, et ce, dans le but de garantir une reprise rapide de la connectivité. Les noeuds disposent de fonctions de gestion des réseaux à protocole de redondance pour réseau en anneau (RRP).<br/>
+    <br/>
+    Cette publication doit être lue conjointement avec la CEI 62439-1:2010. Le contenu du corrigendum de mai 2015 a été pris en considération dans cet exemplaire.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22740
+    docidentifier:
+    - content: iec:proj:22740
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:7023
+    docidentifier:
+    - content: iec:pub:7023
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

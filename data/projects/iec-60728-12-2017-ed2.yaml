@@ -1,0 +1,132 @@
+---
+id: IEC60728122017ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Cable networks for television signals, sound signals and interactive services
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 12: Electromagnetic compatibility of systems'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Cable networks for television signals, sound signals and interactive services - Part 12: Electromagnetic compatibility of systems'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22335
+docidentifier:
+- content: IEC 60728-12:2017 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:22335
+  type: URN
+date:
+- type: published
+  at: '2017-06-19'
+- type: created
+  at: '2014-10-10'
+- type: forecast
+  at: '2017-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60728-12:2017(E) applies to the radiation characteristics and immunity to electromagnetic disturbance of cable networks for television signals, sound signals and interactive services and covers the frequency range 0,15 MHz to 3,5 GHz. This second edition cancels and replaces the first edition published in 2001. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) IEC 60728-12 with its methods of measurement and EMC performance requirements is explicitly dedicated to “under operating conditions (in situ)” to ensure the ongoing EMC integrity of cable networks.<br/>
+    b) The first intermediate frequency range (1st IF range) for satellite signal transmission was extended to cover now frequencies from 950 MHz up to 3 500 MHz.<br/>
+    c) The method of measurement and the requirements for in-band immunity were extended taking into account the new EMC environment due to the allocation of broadband wireless services in the frequency band 694 MHz to 862 MHz. As a consequence, the limits of in-band immunity were specified for analogue and additionally for digital signals in this frequency range.<br/>
+    d) The substitution method of measurement (power method) was deleted.<br/>
+    e) EMC measurements below 30 MHz were deleted.<br/>
+    f) New Annex D “Measurements at other distances than the standard distance of 3 m”.<br/>
+    g) New Annex E “GPS based leakage detection system for cable networks”.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:5130
+    docidentifier:
+    - content: iec:proj:5130
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:27762
+    docidentifier:
+    - content: iec:pub:27762
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.060.40
+    text: Cabled distribution systems
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general

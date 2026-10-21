@@ -1,0 +1,127 @@
+---
+id: IEC608231990ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Microprocessor system bus (VMSbus)
+  type: title-intro
+- language: en
+  script: Latn
+  content: Serial sub-system bus of the IEC 60821 Bus (VMEbus)
+  type: title-main
+- language: en
+  script: Latn
+  content: Microprocessor system bus (VMSbus) - Serial sub-system bus of the IEC 60821 Bus (VMEbus)
+  type: main
+- language: fr
+  script: Latn
+  content: Bus système à microprocesseurs (VMSbus)
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Bus sous-système série du Bus CEI 60821 (VMEbus)
+  type: title-main
+- language: fr
+  script: Latn
+  content: Bus système à microprocesseurs (VMSbus) - Bus sous-système série du Bus CEI 60821 (VMEbus)
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/5740
+docidentifier:
+- content: IEC 60823:1990 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:5740
+  type: URN
+date:
+- type: published
+  at: '1990-11-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Describes an interfacing method used to connect boards within a subrack, and an extended interfacing method used to connect subracks and standalone boards over limited distances. The interconnection of these boards and subracks is provided by a serial data medium. Should be used in conjunction with IEC 60821. Note: -For the price of this publication. please consult the ISO/IEC price-code list.'
+- language: fr
+  script: Latn
+  content: 'Décrit une méthode d''interfaçage utilisée pour connecter des cartes à l''intérieur d''un châssis, ainsi qu''une méthode d''interfaçage étendue pour connecter entre eux des châssis et des cartes individuelles sur des distances limitées. L''interconnexion de ces cartes et châssis est effectuée par l''intermédiaire d''un support physique de données série. Doit être utilisée en conjonction avec la CEI 60821. Note: - Pour le prix de cette publication, veuillez consulter la liste du code-prix ISO/CEI.'
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:17988
+    docidentifier:
+    - content: iec:pub:17988
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

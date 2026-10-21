@@ -1,0 +1,138 @@
+---
+id: IEC615083ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Functional safety of electrical/electronic/programmable electronic safety-related systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Software requirements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 3: Software requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité fonctionnelle des systèmes électriques / électroniques / électroniques programmables relatifs à la sécurité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Exigences concernant les logiciels'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité fonctionnelle des systèmes électriques / électroniques / électroniques programmables relatifs à la sécurité - Partie 3: Exigences concernant les logiciels'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113095
+docidentifier:
+- content: IEC 61508-3 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:113095
+  type: URN
+date:
+- type: created
+  at: '2022-09-23'
+- type: forecast
+  at: '2027-01-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61508-3:2026 covers those aspects to be considered when electrical/electronic/programmable electronic (E/E/PE) systems are used to carry out safety functions.<br/>
+    A first objective is to facilitate the development of product and application sector international standards by the technical committees responsible for the product or application sector. This will allow all the relevant factors, associated with the product or application, to be fully considered and thereby meet the specific needs of users of the product and the application sector.<br/>
+    A second objective is to enable the development of E/E/PE safety-related systems where product or application sector international standards do not exist.<br/>
+    The scope of this document is functional safety for E/E/PE safety-related systems but, apart from normative requirements in the hazard and risk analysis phase, the IEC 61508 series does not itself provide normative requirements for malevolent action arising from a security risk.<br/>
+    NOTE 1 For requirements and/or guidance on security, see the IEC 62443 series and ISO/IEC 27000 family.<br/>
+    NOTE 2 For guidance on the coordination between safety and security, refer to IEC TR 63069.<br/>
+    NOTE 3 For an example of the use of IEC 61508 series to develop application sector standards see IEC 61511.<br/>
+    This third edition cancels and replaces the second edition published in 2010. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) the requirements of IEC TS 61508‑3‑1:2016 have been incorporated into Clause 7 and extended to address requirements to achieve Systematic Capability SC 3 and SC 4;<br/>
+    b) the requirements regarding formal methods have been clarified throughout all software life cycle phases and IEC TS 61508‑3‑2:2024 is referenced;<br/>
+    c) the interfaces to other Parts of IEC 61508:2026 have been clarified and duplication of requirements with other Parts has been removed;<br/>
+    d) the requirement to undertake software functional failure analysis has been renamed software failure analysis and transferred from the functional safety assessment life cycle phase to the software architectural design phase;<br/>
+    e) new requirements for software off-line support tools (SOFSTs) are given in Annex H;<br/>
+    f) the differentiation between the required Safety Integrity Level (SIL) and the achieved Systematic Capability (SC) has been clarified;<br/>
+    g) a new table has been added to Annex A to define requirements on management activities which occur throughout the entire software life cycle; this table includes requirements on traceability, which have been removed from individual phase requirements;<br/>
+    h) requirements on regression testing have been added;<br/>
+    i) detailed requirements on software used in diagnostics are referenced to IEC 61508‑2:2026;<br/>
+    j) the guidance on data driven systems has been provided in a separate annex from the guidance on data configuration and limited variability programming; the guidance on limited variability programming has been updated to be consistent with IEC 61131‑3:2025.<br/>
+    This edition has the status of a basic safety publication according to IEC Guide 104 and has been developed according to ISO/IEC Guide 51.
+status:
+  stage:
+    abbreviation: CFDIS
+    content: '50.20'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14797
+    docidentifier:
+    - content: iec:proj:14797
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21926
+    docidentifier:
+    - content: iec:proj:21926
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control

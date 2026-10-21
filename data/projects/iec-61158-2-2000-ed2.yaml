@@ -1,0 +1,166 @@
+---
+id: IEC6115822000ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Fieldbus standard for use in industrial control systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Physical Layer specification and service definition'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Fieldbus standard for use in industrial control systems - Part 2: Physical Layer specification and service definition'
+  type: main
+- language: fr
+  script: Latn
+  content: Bus de terrain utilisé dans les systèmes de contrôle industriel
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Spécification de la Couche Physique et définition du service'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Bus de terrain utilisé dans les systèmes de contrôle industriel - Partie 2: Spécification de la Couche Physique et définition du service'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/7274
+docidentifier:
+- content: IEC 61158-2:2000 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:7274
+  type: URN
+date:
+- type: published
+  at: '2000-08-01'
+- type: created
+  at: '1993-07-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Fieldbus is a digital serial, multidrop, data bus for communication with low-level industrial control and instrumentation devices such as transducers, actuators and local controllers. The Physical Layer provides for transparent transmission of Data Link Layer entities across physical connections. Specifies the requirements for Fieldbus component parts. Also specifies the media and network configuration requirements necessary to ensure agreed levels of: a) data integrity before Data Link error checking; b) interoperability between devices at the Physical Layer.'
+- language: fr
+  script: Latn
+  content: 'Un bus de terrain est un bus numérique de transmission de données, série, à accès multiple, destiné à la communication avec des dispositifs industriels de commande et d''instrumentation de bas niveau tels que des transducteurs, des actionneurs et des régulateurs locaux. La couche physique assure la transmission transparent d''unités de données entre des entités de couches liaison à travers des raccordements physiques. Spécifie les prescriptions relatives aux composants du Bus de Terrain. Elle spécifie également les prescriptions de configuration des supports et du réseau nécessaires pour assurer les niveaux convenus: a) d''intégrité de données avant le contrôle d''erreur de la Couche Liaison de Données; b) d''interopérabilité entre les dispositifs au niveau de la Couche Physique.'
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7270
+    docidentifier:
+    - content: iec:proj:7270
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7271
+    docidentifier:
+    - content: iec:proj:7271
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7272
+    docidentifier:
+    - content: iec:proj:7272
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7277
+    docidentifier:
+    - content: iec:proj:7277
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:10870
+    docidentifier:
+    - content: iec:proj:10870
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19159
+    docidentifier:
+    - content: iec:pub:19159
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: 35.240.50
+    text: IT applications in industry

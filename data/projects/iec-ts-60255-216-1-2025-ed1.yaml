@@ -1,0 +1,125 @@
+---
+id: IECTS6025521612025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Measuring relays and protection equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 216-1: Digital interface'
+  type: title-main
+- language: en
+  script: Latn
+  content: General requirements and tests for protection functions using digital communication as input and output
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Measuring relays and protection equipment - Part 216-1: Digital interface - General requirements and tests for protection functions using digital communication as input and output'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112098
+docidentifier:
+- content: IEC TS 60255-216-1:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:112098
+  type: URN
+date:
+- type: published
+  at: '2025-08-11'
+- type: created
+  at: '2023-04-21'
+- type: forecast
+  at: '2025-08-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 95
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 60255-216-1:2025 covers protection functions with digital inputs and outputs complying with IEC 61850 series and IEC 61869 series, in particular regarding<br/>
+    - subscription to sampled values (SV) streams representing energising inputs instead of analog inputs (see Figure 1);<br/>
+    - subscription to GOOSE (e.g. circuit breaker position, circuit breaker failure);<br/>
+    - publication of GOOSE messages (e.g. trip signals);<br/>
+    - subscription to time synchronisation messages.<br/>
+    On this basis, this document formulates requirements for protection functions with digital inputs and outputs and for the IED hosting them. The document also covers tests related to the functional interoperability and functional requirements of these protection functions, in addition to the general conformance tests required by IEC 61850-10:2012 and test related requirements in IEC TR 61850‑10-3:2022.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:77735
+    docidentifier:
+    - content: iec:pub:77735
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 29.120.70
+    text: Relays

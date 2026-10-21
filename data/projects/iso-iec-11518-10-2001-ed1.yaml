@@ -1,0 +1,141 @@
+---
+id: ISOIEC11518102001ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: High-performance parallel interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 10: 6 400 Mbit&#x2F;s Physical Layer (HIPPI-6400-PH)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - High-performance parallel interface - Part 10: 6 400 Mbit&#x2F;s Physical Layer (HIPPI-6400-PH)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11022
+docidentifier:
+- content: ISO/IEC 11518-10:2001 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:11022
+  type: URN
+date:
+- type: published
+  at: '2001-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Specifies a physical-level, point-to-point, full-duplex, link interface for reliable, flow-controlled transmission of user data at 6 400 Mbit&#x2F;s per direction, across distances of up to 1 km. Characteristics of a HIPPI-6400-PH physical-layer interface include: - user data transfer bandwidth of 6 400 Mbit&#x2F;s (800 MByte&#x2F;s); - a full-duplex link capable of independent full-bandwidth transfers in both directions simultaneously; - four virtual circuits providing a limited multiplexing capability; - a fixed-size transfer unit, i.e., a 32-byte micropacket, for hardware efficiency; - a small transfer unit resulting in low latency for short Messages, and a component for large transfers; - credit-based flow control that prevents buffer overflow; - end-to-end, as well as link-to-link, checksums; - automatic retransmission to correct flawed data providing guaranteed, in-order, reliable, data delivery; - an a.c. coupled parallel electrical interface for driving parallel copper cable over limited distances; - a parallel electrical interface for driving a local optical interface for longer distances.'
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:9607
+    docidentifier:
+    - content: iec:pub:9607
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

@@ -1,0 +1,93 @@
+---
+id: IECTS632552ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Systems Reference Deliverable (SRD)- Predicting Electrical Compatibility
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Labels for Establishing Electrical Compatibility'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Systems Reference Deliverable (SRD)- Predicting Electrical Compatibility - Part 2: Labels for Establishing Electrical Compatibility'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103071
+docidentifier:
+- content: IEC TS 63255-2 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103071
+  type: URN
+date:
+- type: created
+  at: '2019-06-28'
+- type: forecast
+  at: '2025-03-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SyC LVDC
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    This document is applicable to the interface between an electricity supply and a load in the context where an unskilled person may connect the two without skilled supervision. <br/>
+    It establishes general principles for the creation of a machine-readable label to be attached to electrical equipment (load or supply), encoding the basic electrical compatibility information already contained in the IEC 60335-1 ratings plate, plus the type of connector and its pinout, and whether a supply provides galvanic separation (or a load requires the supply to provide it).<br/>
+    The document is applicable to barrel connector plugs and sockets connecting LVDC equipment.<br/>
+    The document specifies the format of the machine-readable label.  The label format is extensible, ensuring backwards compatibility if in the future the scope is widened to include more connectors and voltages, additional lab-measured parameters and other types of interfaces.<br/>
+    The document specifies a method for creating the machine-readable label that only requires a computer with a printer, a continuity tester, and a micrometer to measure the barrel connector dimensions.  The method does not in this limited scope require access to any information that is not evident on the product.<br/>
+    The document gives guidance on the creation of a smartphone app that is able to read the labels on a supply and a load – perhaps in separate locations at separate times and give a simple – but limited and not definitive or guaranteed – statement of (non)compatibility.
+status:
+  stage:
+    abbreviation: CAN
+    content: '30.98'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec

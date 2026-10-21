@@ -1,0 +1,126 @@
+---
+id: IEC610004332005ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility (EMC)
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 4-33: Testing and measurement techniques'
+  type: title-main
+- language: en
+  script: Latn
+  content: Measurement methods for high-power transient parameters
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility (EMC) - Part 4-33: Testing and measurement techniques - Measurement methods for high-power transient parameters'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/10193
+docidentifier:
+- content: IEC 61000-4-33:2005 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:10193
+  type: URN
+date:
+- type: published
+  at: '2005-09-27'
+- type: created
+  at: '2000-01-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 77/SC 77C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Provides a basic description of the methods and means (e.g., instrumentation) for measuring responses arising from high-power transient electromagnetic parameters. These responses can include: - the electric (E) and/or magnetic (H) fields (e.g., incident fields or incident plus scattered fields within a system under test); - the current I (e.g., induced by a transient field or within a system under test); - the voltage V (e.g., induced by a transient field or within a system under test); - the charge Q induced on a cable or other conductor. These measured quantities are generally complicated time-dependent waveforms, which can be described approximately by several scalar parameters, or "observables". These parameters include: - the peak amplitude of the response, - the waveform rise-time, - the pulse width, and - mathematically defined norms obtained from the waveform. This International Standard provides information on the measurement of these waveforms and on the mathematical determination of the characterizing parameters. It does not provide information on specific level requirements for testing. It has the status of a basic EMC publication in accordance with IEC Guide 107.'
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:140232
+    docidentifier:
+    - content: iec:proj:140232
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:4215
+    docidentifier:
+    - content: iec:pub:4215
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.100.10
+    text: Emission
+  - code: 33.100.20
+    text: Immunity

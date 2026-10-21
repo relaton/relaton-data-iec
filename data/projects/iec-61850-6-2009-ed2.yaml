@@ -1,0 +1,182 @@
+---
+id: IEC6185062009ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Configuration description language for communication in electrical substations related to IEDs'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 6: Configuration description language for communication in electrical substations related to IEDs'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes électriques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6: Langage pour la description de configuration pour la communication dans les postes électriques, entre les dispositifs électroniques intelligents (IED)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques - Partie 6: Langage pour la description de configuration pour la communication dans les postes électriques, entre les dispositifs électroniques intelligents (IED)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/15126
+docidentifier:
+- content: IEC 61850-6:2009 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:15126
+  type: URN
+date:
+- type: published
+  at: '2009-12-17'
+- type: created
+  at: '2005-11-25'
+- type: forecast
+  at: '2009-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-6:2009 specifies a file format for describing communication-related IED (Intelligent Electronic Device) configurations and IED parameters, communication system configurations, switch yard (function) structures, and the relations between them. The main purpose of this format is to exchange IED capability descriptions, and SA system descriptions between IED engineering tools and the system engineering tool(s) of different manufacturers in a compatible way. The main changes with respect to the previous edition are as follows:<br/>
+    - functional extensions added based on changes in other Parts of IEC 61850, especially in IEC 61850-7-2 and IEC 61850-7-3;<br/>
+    - functional extensions concerning the engineering process, especially for configuration data exchange between system configuration tools, added;<br/>
+    - clarifications and corrections.<br/>
+    This publication is of core relevance for Smart Grid.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 61850-6:2009 spécifie un format de fichier destiné à décrire les configurations de dispositifs électroniques intelligents (IED) liées à la communication, les paramètres de ces IED, les configurations de systèmes de communication, les structures du poste extérieur (aspect fonctionnel), ainsi que des relations entre tous ces éléments. Ce format a pour objectif principal d'assurer l'échange de descriptions de capacités d'IED et de descriptions de systèmes SA entre des outils d'ingénierie d'IED et le ou les outils d'ingénierie système de différents fabricants sans problème de compatibilité. Par rapport à l'édition précédente, les principales modifications sont les suivantes:<br/>
+    • ajout d'extensions fonctionnelles sur la base des modifications apportées à d'autres parties (Parties 7-2 et 7-3, notamment);<br/>
+    • ajout d'extensions fonctionnelles concernant le processus d'ingénierie, notamment pour l'échange de données de configuration entre les différents outils de configuration système;<br/>
+    • apport de clarifications et de corrections. Les points nécessitant des clarifications sont publiés dans une base de données disponible à l'adresse suivante: www.tissue.iec61850.com. Les incompatibilités émergentes sont énumérées en 8.2.3
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:9365
+    docidentifier:
+    - content: iec:proj:9365
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:23369
+    docidentifier:
+    - content: iec:proj:23369
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101801
+    docidentifier:
+    - content: iec:proj:101801
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:101802
+    docidentifier:
+    - content: iec:proj:101802
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:117232
+    docidentifier:
+    - content: iec:proj:117232
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:117232
+    docidentifier:
+    - content: iec:proj:117232
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6013
+    docidentifier:
+    - content: iec:pub:6013
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

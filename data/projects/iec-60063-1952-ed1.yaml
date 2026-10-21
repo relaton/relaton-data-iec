@@ -1,0 +1,125 @@
+---
+id: IEC600631952ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Series of preferred values and their associated tolerances for resistors and capacitors
+  type: title-main
+- language: en
+  script: Latn
+  content: Series of preferred values and their associated tolerances for resistors and capacitors
+  type: main
+- language: fr
+  script: Latn
+  content: Séries de valeurs recommandées et tolérances associées pour résistances et condensateurs
+  type: title-main
+- language: fr
+  script: Latn
+  content: Séries de valeurs recommandées et tolérances associées pour résistances et condensateurs
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/1000001292
+docidentifier:
+- content: IEC 60063:1952 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:1000001292
+  type: URN
+date:
+- type: published
+  at: '1952-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 40
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Gives preferred values for fixed resistors and capacitors for ordinary and close tolerances of resistors and capacitors used in electronic equipment.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '1952'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:652
+    docidentifier:
+    - content: iec:proj:652
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:12583
+    docidentifier:
+    - content: iec:pub:12583
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 31.040.01
+    text: Resistors in general
+  - code: 31.060.01
+    text: Capacitors in general

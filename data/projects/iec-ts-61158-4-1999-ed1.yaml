@@ -1,0 +1,126 @@
+---
+id: IECTS6115841999ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital data communications for measurement and control
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus for use in industrial control systems
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4: Data Link protocol specification'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital data communications for measurement and control - Fieldbus for use in industrial control systems - Part 4: Data Link protocol specification'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/7279
+docidentifier:
+- content: IEC TS 61158-4:1999 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:7279
+  type: URN
+date:
+- type: published
+  at: '1999-03-24'
+- type: created
+  at: '1991-07-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Provides basic time-critical messaging communications between devices in an automation environment. Specifies: a) procedures for a single protocol for the timely transfer of data and control information; b) the structure of the Fieldbus Data Link (DL) Protocol Data Units. Provides communication opportunities to all participating data-link entities in a cyclic asynchronous and in a synchronous manner.'
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:10246
+    docidentifier:
+    - content: iec:proj:10246
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19197
+    docidentifier:
+    - content: iec:pub:19197
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer

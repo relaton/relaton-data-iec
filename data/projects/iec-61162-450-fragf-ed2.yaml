@@ -1,0 +1,132 @@
+---
+id: IEC61162450FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Maritime navigation and radiocommunication equipment and systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Digital interfaces
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 450: Multiple talkers and multiple listeners -- Ethernet interconnection'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Maritime navigation and radiocommunication equipment and systems - Digital interfaces - Part 450: Multiple talkers and multiple listeners -- Ethernet interconnection'
+  type: main
+- language: fr
+  script: Latn
+  content: Matériels et systèmes de navigation et de radiocommunication maritimes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces numériques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 450: Émetteurs multiples et récepteurs multiples -- Interconnexion Ethernet'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de navigation et de radiocommunication maritimes - Interfaces numériques - Partie 450: Émetteurs multiples et récepteurs multiples -- Interconnexion Ethernet'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/102228
+docidentifier:
+- content: IEC 61162-450/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:102228
+  type: URN
+date:
+- type: created
+  at: '2016-07-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 80
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61162-450:2018 spécifie les exigences d'interface et les méthodes d'essai de la communication à grande vitesse entre les matériels de navigation et de radiocommunication embarqués, et entre ce type de systèmes et d'autres systèmes de navigation qui nécessitent de communiquer avec les matériels de navigation et de radiocommunication. Le présent document repose sur l'application d'une série appropriée de normes internationales existantes visant à définir le cadre de mise en œuvre du transfert de données entre les dispositifs sur un réseau Ethernet embarqué.<br/>
+    Le présent document spécifie un réseau de type bus Ethernet dans lequel un récepteur peut recevoir des messages d'un émetteur avec les propriétés suivantes.<br/>
+    - Le présent document comporte les dispositions en matière de distribution multidiffusion des informations mises en forme selon l'IEC 61162-1 (relevés de position et autres mesurages, par exemple) et en matière de transmission de blocs de données générales (fichier binaire) entre un radar et un VDR, par exemple. Enfin, il contient les dispositions relatives à la distribution multidiffusion des informations mises en forme selon l'IEC 61162-3 (relevés de position et autres mesurages, par exemple).<br/>
+    - Le présent document se limite aux protocoles pour les matériels (nœuds de réseau) connectés à un seul réseau Ethernet composé uniquement d'un ou de deux dispositifs et câbles de niveau OSI (Infrastructure de réseau).<br/>
+    - Le présent document fournit les exigences relatives aux interfaces de matériel uniquement. En spécifiant les protocoles de transmission des sentences IEC 61162-1, des messages PGN IEC 61162-3 et des données générales de fichier binaire, ces exigences assurent l'interopérabilité entre le matériel mettant en œuvre le présent document, ainsi qu'un certain niveau de comportement sûr du matériel lui-même.<br/>
+    - Le présent document permet au matériel utilisant d'autres protocoles que ceux qu'il spécifie de partager une infrastructure de réseau comportant des interfaces satisfaisant aux exigences décrites pour l'ONF.<br/>
+    - Le présent document comporte les dispositions en matière de filtrage du trafic réseau afin de limiter la quantité de trafic à un niveau que chaque matériel individuel peut gérer.<br/>
+    Le présent document ne comporte aucune exigence système autre que celles qui peuvent être déduites de la somme des exigences du matériel seul. La norme connexe IEC 61162-460 aborde les exigences système.<br/>
+    Cette deuxième édition de l'IEC 61162-450 annule et remplace la première édition parue en 2011 et l'Amendement 1:2016. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) le filtrage du trafic réseau est admis selon la surveillance du trafic IGMP, et les nœuds doivent mettre en œuvre IGMP;<br/>
+    b) l'équilibrage de trafic réseau est admis;<br/>
+    c) ajout d'une nouvelle encapsulation des PGN de l'IEC 61162-3;<br/>
+    d) ajout d'une nouvelle alternative pour le transfert de fichiers binaires: TCP/IP reposant sur l'Annexe H de l'IEC 62388:2007 sur les radars;<br/>
+    e) ajout de la balise d'authentification générale "a:" pour prendre en charge la gestion des risques de cybersécurité.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:108136
+    docidentifier:
+    - content: iec:proj:108136
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 47.020.70
+    text: Navigation and control equipment

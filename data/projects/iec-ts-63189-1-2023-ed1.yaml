@@ -1,0 +1,125 @@
+---
+id: IECTS6318912023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Virtual power plants
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Architecture and functional requirements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Virtual power plants - Part 1: Architecture and functional requirements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101560
+docidentifier:
+- content: IEC TS 63189-1:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:101560
+  type: URN
+date:
+- type: published
+  at: '2023-09-26'
+- type: created
+  at: '2018-03-16'
+- type: forecast
+  at: '2023-11-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 8/SC 8B
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 63189-1:2023 covers the terms and definitions, system composition and control modes of virtual power plant (VPP). It defines the functional requirements for VPPs, including power generation forecasting, load forecasting, generation and consumption scheduling, control and management of energy storage devices and loads, coordinated optimization of distributed energy resources, status monitoring and communication, data collection and analysis, and market transactions.<br/>
+    Since a virtual power plant is a cluster of dispersed energy converting installations, which are aggregated, it uses additional systems to achieve its objectives (e.g. regional energy meteorology forecasting, site specific energy management systems, SCADA and other communication systems).<br/>
+    Local regulations, the electricity market model and the corresponding manner of organising the market related to the utilisation of controllable DER affect the management, control and operation of VPPs.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:139328
+    docidentifier:
+    - content: iec:proj:139328
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:61957
+    docidentifier:
+    - content: iec:pub:61957
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general

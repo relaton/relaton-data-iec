@@ -1,0 +1,160 @@
+---
+id: IEC61280292009ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Fibre optic communication subsystem test procedures
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-9: Digital systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: Optical signal-to-noise ratio measurement for dense wavelength-division multiplexed systems
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Fibre optic communication subsystem test procedures - Part 2-9: Digital systems - Optical signal-to-noise ratio measurement for dense wavelength-division multiplexed systems'
+  type: main
+- language: fr
+  script: Latn
+  content: Procédures d'essai des sous-systèmes de télécommunications à fibres optiques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 2-9: Systèmes numériques'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Mesure du rapport signal sur bruit optique pour les systèmes multiplexés à répartition en longueur d'onde dense
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Procédures d''essai des sous-systèmes de télécommunications à fibres optiques - Partie 2-9: Systèmes numériques - Mesure du rapport signal sur bruit optique pour les systèmes multiplexés à répartition en longueur d''onde dense'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16428
+docidentifier:
+- content: IEC 61280-2-9:2009 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:16428
+  type: URN
+date:
+- type: published
+  at: '2009-02-11'
+- type: created
+  at: '2007-08-17'
+- type: forecast
+  at: '2009-03-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 86/SC 86C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61280-2-9:2009 provides a parameter definition and a test method for obtaining optical signal-to-noise ratio (OSNR) using apparatus that measures the optical spectrum at a multichannel interface. Because noise measurement is made on an optical spectrum analyzer, the measured noise does not include source relative intensity noise (RIN) or receiver noise. Three implementations for an optical spectrum analyser (OSA) are discussed:<br/>
+    - a diffraction-grating-based OSA,<br/>
+    - a Michelson interferometer-based OSA,<br/>
+    - and a Fabry-Perot-based OSA.<br/>
+    This second addition cancels and replaces the first edition published in 2002 and constitutes a technical revision. The main changes from the previous edition are as follows:<br/>
+    - A paragraph has been added to the Scope describing the limitations due to signal spectral width and wavelength filtering;<br/>
+    - and Annex B has been added to further explain error in measuring noise level due to signal spectral width and wavelength filtering.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61280-2-9:2009 fournit une définition de paramètres et une méthode d'essai pour obtenir un rapport signal sur bruit optique (OSNR) en utilisant un appareillage destiné à mesurer le spectre optique au niveau d'une interface multivoie. Du fait qu'une mesure de bruit est effectuée sur un analyseur de spectre optique, le bruit mesuré n'inclut pas le bruit à intensité relatif de la source (RIN) ou le bruit de récepteur. Trois réalisations relatives aux analyseurs de spectre optique (OSA) sont en cours de discussion:<br/>
+    - un OSA réalisé à partir d'un réseau de diffraction,<br/>
+    - un OSA réalisé à partir d'un interféromètre Michelson,<br/>
+    - et un OSA réalisé à partir d'un Fabry-Perot.<br/>
+    Cette deuxième édition annule et remplace la première édition parue en 2002 et constitue une révision technique. Les changements principaux par rapport à la première édition sont les suivants:<br/>
+    - Un paragraphe a été ajouté au Domaine d'application, décrivant les limites dues à la largeur spectrale du signal et au filtrage en longueur d'onde;<br/>
+    - et L'Annexe B a été ajoutée, afin de mieux expliquer les erreurs survenant lors de la mesure du niveau de bruit dû à la largeur spectrale du signal et au filtrage en longueur d'onde.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:11010
+    docidentifier:
+    - content: iec:proj:11010
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:5094
+    docidentifier:
+    - content: iec:pub:5094
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.180.20
+    text: Fibre optic interconnecting devices

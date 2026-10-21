@@ -1,0 +1,120 @@
+---
+id: IECTS630192019ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Photovoltaic power systems (PVPS)
+  type: title-intro
+- language: en
+  script: Latn
+  content: Information model for availability
+  type: title-main
+- language: en
+  script: Latn
+  content: Photovoltaic power systems (PVPS) - Information model for availability
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22635
+docidentifier:
+- content: IEC TS 63019:2019 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22635
+  type: URN
+date:
+- type: published
+  at: '2019-05-09'
+- type: created
+  at: '2015-07-10'
+- type: forecast
+  at: '2019-05-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 82
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 63019:2019 provides a framework from which the availability metrics of a PVPS can be derived and reported. It describes how data are categorized and defines generic information categories to which time can be assigned for a PVPS considering internal and external conditions based on fraction of time, system health, and condition by specifying the following:<br/>
+    - generic information categories of a PVPS considering availability and production.<br/>
+    - information category priority to discriminate between concurrent categories.<br/>
+    - entry and exit point for each information category to allocate designation of time.<br/>
+    The PVPS comprises all photovoltaic (PV) modules, inverters, DC and AC collection systems, grid interconnection equipment, the site, its infrastructure, and all functional service elements. Formulas in this document provide normative guidance for standardization. Beyond that, it is not the intention of this document to specify exactly how other undefined, time-based availability metrics shall be calculated. The annexes are examples and guiding principles for developing methods for calculation and estimation of availability metrics, subject to the knowledge and concurrence for use by the involved stakeholders. Estimates and calculations also have recommendations on how they are to be used as part of the informative function.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:27253
+    docidentifier:
+    - content: iec:pub:27253
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering

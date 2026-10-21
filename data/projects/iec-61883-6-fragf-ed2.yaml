@@ -1,0 +1,120 @@
+---
+id: IEC618836FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: french fragment
+  type: title-main
+- language: en
+  script: Latn
+  content: french fragment
+  type: main
+- language: fr
+  script: Latn
+  content: Matériel audio/vidéo grand public
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interface numérique
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6: Protocole de transmission de données audio et musicales'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériel audio/vidéo grand public - Interface numérique - Partie 6: Protocole de transmission de données audio et musicales'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20017
+docidentifier:
+- content: IEC 61883-6/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20017
+  type: URN
+date:
+- type: forecast
+  at: '2012-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100/TA 4
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61883-6:2005 décrit un protocole de transmission de données audio et musicales utilisant l'IEEE 1394 et spécifie les exigences essentielles pour l'application du protocole. Ce protocole peut être appliqué à tous les modules ou dispositifs d'un type quelconque de traitement, génération et blocs de fonction de conversion de données audio et/ou musicales. Ce document ne traite que la transmission de données audio et musicales. Cette deuxième édition de la CEI 61883-6 annule et remplace la première édition parue en 2002. Cette édition contient les modifications techniques significatives suivantes:<br/>
+    - Elle complète la transmission du format de données.<br/>
+    - Elle introduit les nouveaux types de données pour le code de temps SMPTE, le compte d'échantillons, les données audio et auxiliaire linéaires de haute précision multi-bits.<br/>
+    - Elle modifie la terminologie "données audio brutes" en "audio linéaire multi-bits (MBLA)".<br/>
+    - Elle définit le multiplexage de séquence et les données MIDI nécessaires au processus d'adaptation à l'AM824.<br/>
+    - Elle décrit la transmission de données spécifique à une application, par exemple DVD audio et SACD.<br/>
+    - Elle spécifie l'indicateur N indiquant le contrôle de rythme par commande et précise la définition et l'interprétation du nouveau code de fréquence d'échantillonnage (SFC). La présente version bilingue (2012-07) correspond à la version anglaise monolingue publiée en 2005-10.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:12701
+    docidentifier:
+    - content: iec:proj:12701
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17562
+    docidentifier:
+    - content: iec:proj:17562
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

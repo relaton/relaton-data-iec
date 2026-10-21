@@ -1,0 +1,116 @@
+---
+id: IEC636022026ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Guidelines for representing switching losses of SIC MOSFETs in datasheets
+  type: title-main
+- language: en
+  script: Latn
+  content: Guidelines for representing switching losses of SIC MOSFETs in datasheets
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/127972
+docidentifier:
+- content: IEC 63602:2026 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:127972
+  type: URN
+date:
+- type: published
+  at: '2026-02-09'
+- type: created
+  at: '2024-08-13'
+- type: forecast
+  at: '2026-03-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63602:2026 specifies how to correctly display essential parameters of SiC-based PECS devices having a gate dielectric region biased to turn devices on and off. This typically refers to MOS devices such as MOSFETs and IGBTs. In this document, only NMOS devices are discussed as these are dominant for power device applications; however, the procedures apply to PMOS devices as well. In contrast to silicon power MOSFETs certain aspects of SiC power MOSFETs require a dedicated approach in order to represent device parameters correctly in the datasheet. Details are explained in the following paragraphs, among others the most important topics are:<br/>
+    - substantially higher switching speeds ad high VDS;<br/>
+    - strong impact of test setup (see Clause 5);<br/>
+    - impact of body diode as a function of the applied negative gate bias ant the limitations arising for the VG(off) values depending on the actual device.<br/>
+    This document does not define device failure criteria, acceptable use conditions or acceptable lifetime targets. That is up to the device manufacturers and users. However, it provides stress procedures such that the threshold voltage stability over time as affected by gate bias and temperature can be demonstrated and evaluated.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:99414
+    docidentifier:
+    - content: iec:pub:99414
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 31.080.30
+    text: Transistors

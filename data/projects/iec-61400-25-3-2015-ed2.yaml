@@ -1,0 +1,163 @@
+---
+id: IEC614002532015ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Wind turbines
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 25-3: Communications for monitoring and control of wind power plants'
+  type: title-main
+- language: en
+  script: Latn
+  content: Information exchange models
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Wind turbines - Part 25-3: Communications for monitoring and control of wind power plants - Information exchange models'
+  type: main
+- language: fr
+  script: Latn
+  content: Eoliennes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 25-3: Communications pour la surveillance et la commande des centrales éoliennes'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Modèles d'échange d'information
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Eoliennes - Partie 25-3: Communications pour la surveillance et la commande des centrales éoliennes - Modèles d''échange d''information'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20070
+docidentifier:
+- content: IEC 61400-25-3:2015 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20070
+  type: URN
+date:
+- type: published
+  at: '2015-06-30'
+- type: created
+  at: '2012-02-17'
+- type: forecast
+  at: '2015-06-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 88
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61400-25-3:2015 specifies an abstract communication service interface describing the information exchange between a client and a server for:<br/>
+    - data access and retrieval,<br/>
+    - device control,<br/>
+    - event reporting and logging,<br/>
+    - self-description of devices (device data dictionary),<br/>
+    - data typing and discovery of data types.<br/>
+    Main changes with respect to the previous edition consist of:<br/>
+    - harmonization with newer editions of IEC 61850 standards;<br/>
+    - reduction of overlap between standards and simplification by increased referencing, etc.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61400-25-3:2015 spécifie une interface abstraite pour les services de communication qui décrit l'échange d'information entre un client et un serveur pour:<br/>
+    - l'accès et la récupération des données,<br/>
+    - la commande des dispositifs,<br/>
+    - les rapports et journalisations d'événements,<br/>
+    - l'autodescription des dispositifs (dictionnaire de données de dispositif),<br/>
+    - l'établissement de types de données et la découverte de types de données. Cette nouvelle édition comporte les changements importants suivants par rapport à l'édition précédente:<br/>
+    - l'harmonisation avec de nouvelles éditions de la série IEC 61850;<br/>
+    - la réduction de l'écart entre les normes et la simplification par un référencement amélioré, etc.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14259
+    docidentifier:
+    - content: iec:proj:14259
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:22812
+    docidentifier:
+    - content: iec:pub:22812
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '27.180'
+    text: Wind turbine energy systems

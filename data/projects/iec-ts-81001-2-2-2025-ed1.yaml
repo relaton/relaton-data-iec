@@ -1,0 +1,151 @@
+---
+id: IECTS81001222025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Health software and health IT systems safety, effectiveness and security
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-2: Coordination'
+  type: title-main
+- language: en
+  script: Latn
+  content: Guidance for the implementation, disclosure and communication of security needs, risks and controls
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Health software and health IT systems safety, effectiveness and security - Part 2-2: Coordination - Guidance for the implementation, disclosure and communication of security needs, risks and controls'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112812
+docidentifier:
+- content: IEC TS 81001-2-2:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:112812
+  type: URN
+date:
+- type: published
+  at: '2025-10-01'
+- type: created
+  at: '2023-01-13'
+- type: forecast
+  at: '2025-10-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 81001-2-2:2025 presents an informative set of common, high-level security-related capabilities and additional considerations to be used across the life cycle of health software and health IT systems, for the information exchange between the health software manufacturers (including medical device manufacturers), healthcare delivery organizations (HDOs) and other stakeholders. It is applicable to health software running on any platform and in any environment such as cloud, on premise or hybrid.<br/>
+    While important security topics, the following are outside the scope of this document:<br/>
+    a) the security policies of the HDO,<br/>
+    b) the product and services security policies of the manufacturer,<br/>
+    c) determinations of risk tolerance by the HDO or manufacturer, and<br/>
+    d) clinical studies where there is a need to secure personal data.<br/>
+    As security risks can be caused by any product on health IT systems and health IT Infrastructure, considerations in this document can be applied for other products that are not health software.<br/>
+    IEC TS 81001-2-2:2025 withdraws and replaces:<br/>
+    – IEC TR 80001-2-2, Application of risk management for IT-networks incorporating medical devices – Part 2-2: Guidance for the communication of medical device security needs, risks and controls<br/>
+    – IEC TR 80001-2-8, Application of risk management for IT-networks incorporating medical devices – Part 2-8: Application guidance – Guidance on standards for establishing the security capabilities identified in IEC TR 80001-2-2<br/>
+    This document includes the following significant changes:<br/>
+    a) Combines and updates the contents of IEC TR 80001-2-2 and IEC TR 80001-2-8;<br/>
+    b) Extends the scope to health software instead to only medical device software;<br/>
+    c) Aligns contents and definitions to ISO 81001-1:2021 and the updated IEC 80001-1;<br/>
+    d) Removed the Configuration of Security Features (CNFS) capability, as any configurable security capability shall be clearly communicated.<br/>
+    e) Provide security control mappings to several new standards, e.g. IEC TR 60601-4-5, IEC 62443-4-2, ISO/IEEE 11073-40102 and the recent versions of previous standards, e.g. ISO/IEC 27002 and NIST 800-53 version 5.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18770
+    docidentifier:
+    - content: iec:proj:18770
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21094
+    docidentifier:
+    - content: iec:proj:21094
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:78673
+    docidentifier:
+    - content: iec:pub:78673
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 11.040.01
+    text: Medical equipment in general
+  - code: 35.240.80
+    text: IT applications in health care technology

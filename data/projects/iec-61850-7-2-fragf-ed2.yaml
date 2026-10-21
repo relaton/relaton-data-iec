@@ -1,0 +1,134 @@
+---
+id: IEC6185072FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-2: Basic information and communication structure'
+  type: title-main
+- language: en
+  script: Latn
+  content: Abstract communication service interface (ACSI)
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 7-2: Basic information and communication structure - Abstract communication service interface (ACSI)'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l’automatisation des systèmes électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-2: Informations de base et structure de communication'
+  type: title-main
+- language: fr
+  script: Latn
+  content: "Interface abstraite pour les services de communication (ACSI)\r\n (ACSI)"
+  type: title-part
+- language: fr
+  script: Latn
+  content: "Réseaux et systèmes de communication pour l’automatisation des systèmes électriques - Partie 7-2: Informations de base et structure de communication - Interface abstraite pour les services de communication (ACSI)\r\n (ACSI)"
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/102882
+docidentifier:
+- content: IEC 61850-7-2/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:102882
+  type: URN
+date:
+- type: created
+  at: '2007-05-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-7-2:2010 applies to the ACSI communication for utility automation. The ACSI provides the following abstract communication service interfaces.<br/>
+    a) Abstract interface describing communications between a client and a remote server for<br/>
+    – real-time data access and retrieval,<br/>
+    – device control,<br/>
+    – event reporting and logging,<br/>
+    – setting group control,<br/>
+    – self-description of devices (device data dictionary),<br/>
+    – data typing and discovery of data types, and<br/>
+    – file transfer.<br/>
+    b) Abstract interface for fast and reliable system-wide event distribution between an application in one device and many remote applications in different devices (publisher/sub-scriber) and for transmission of sampled measured values (publisher/subscriber).
+
+    This publication is of core relevance for Smart Grid.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 61850-7-2:2010 s’applique aux communications ACSI pour l’automatisation des systèmes. L’ACSI fournit les interfaces abstraites pour les services de communication suivants.<br/>
+    a) Interface abstraite décrivant les communications entre un client et un serveur éloigné pour<br/>
+    – l’accès et l’extraction des données en temps réel,<br/>
+    – la commande de dispositif,<br/>
+    – la consignation et la journalisation des événements,<br/>
+    – le contrôle de groupes de réglages,<br/>
+    – l'autodescription des dispositifs (dictionnaire de données de dispositif),<br/>
+    – typage de données et reconnaissance des types de données, et<br/>
+    – transfert de fichier.<br/>
+    b) Interface abstraite pour la distribution rapide et fiable des événements au niveau du système entre une application d’un dispositif et plusieurs applications éloignées dans des dispositifs différents (d'éditeur/abonné) et la transmission de valeurs mesurées échantillonnées
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

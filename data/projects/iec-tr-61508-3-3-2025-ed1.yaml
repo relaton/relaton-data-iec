@@ -1,0 +1,137 @@
+---
+id: IECTR61508332025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Functional safety of electrical/electronic/programmable electronic safety-related systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 3-3: Object-oriented software in safety-related systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 3-3: Object-oriented software in safety-related systems'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/128092
+docidentifier:
+- content: IEC TR 61508-3-3:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:128092
+  type: URN
+date:
+- type: published
+  at: '2025-07-16'
+- type: created
+  at: '2024-08-15'
+- type: forecast
+  at: '2025-07-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 61508-3-3:2025 makes a proposal as to which topics to consider and which methods and techniques to use when designing object-oriented software to ensure suitable quality for use in functional safety applications.<br/>
+    Object-oriented languages are perceived as "state-of-the-art" nowadays. Such languages seem to be excluded from use by several statements in IEC 61508-3. However there are additions in some tables such as in IEC 61508-3:2010, Table B.1, where notes are added under which their use might be justified. Such exceptions that would allow, for example, dynamic objects, name the main concerns such as memory allocation and predictable timing issues and guide the user to safe use of object-oriented languages. These considerations are taken up in this document to specify methods and techniques that allow the reduction of systematic faults to the levels required by the respective systematic capabilities.<br/>
+    This document is not intended to replace any part of IEC 61508-3. Rules that exist in IEC 61508‑3 are valid here as well and are not repeated, including rules that concern:<br/>
+    • the software life cycle,<br/>
+    • involvement of the assessor,<br/>
+    • modularization,<br/>
+    • principle of information hiding,<br/>
+    • proving and conventional testing,<br/>
+    • basic aspects of documentation,<br/>
+    • low coupling and high cohesion,<br/>
+    • responsibilities and training of people,<br/>
+    • operational experience as described in IEC 61508-4 and IEC 61508-7<br/>
+    This TR is a supplement to the IEC 61508 standard series. It has to be read in conjunction with IEC 61508-3 and proposes a way how the use of object-oriented software in safety relevant applications can be justified.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101531
+    docidentifier:
+    - content: iec:proj:101531
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:99554
+    docidentifier:
+    - content: iec:pub:99554
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '13.110'
+    text: Safety of machinery
+  - code: 25.040.40
+    text: Industrial process measurement and control

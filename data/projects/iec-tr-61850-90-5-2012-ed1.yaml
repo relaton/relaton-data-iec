@@ -1,0 +1,122 @@
+---
+id: IECTR618509052012ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-5: Use of IEC 61850 to transmit synchrophasor information according to IEEE C37.118'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 90-5: Use of IEC 61850 to transmit synchrophasor information according to IEEE C37.118'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19401
+docidentifier:
+- content: IEC TR 61850-90-5:2012 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19401
+  type: URN
+date:
+- type: published
+  at: '2012-05-09'
+- type: created
+  at: '2011-06-10'
+- type: forecast
+  at: '2012-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEC/TR 61850-90-5:2012(E) provides a way of exchanging synchrophasor data between PMUs, PDCs WAMPAC (Wide Area Monitoring, Protection, and Control), and between control center applications. The data, to the extent covered in IEEE C37.118-2005, are transported in a way that is compliant to the concepts of IEC 61850. However, given the primary scope and use cases, this document also provides routable profiles for IEC 61850-8-1 GOOSE and IEC 61850-9-2 SV packets. These routable packets can be utilized to transport general IEC 61850 data as well as synchrophasor data. Keywords: communication network, power utility, synchrophasor.'
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:136989
+    docidentifier:
+    - content: iec:proj:136989
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6026
+    docidentifier:
+    - content: iec:pub:6026
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

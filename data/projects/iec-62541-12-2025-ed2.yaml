@@ -1,0 +1,160 @@
+---
+id: IEC62541122025ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 12: Discovery and global services'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 12: Discovery and global services'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 12: Services globaux et de découverte'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 12: Services globaux et de découverte'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/115397
+docidentifier:
+- content: IEC 62541-12:2025 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:115397
+  type: URN
+date:
+- type: published
+  at: '2025-12-22'
+- type: created
+  at: '2023-01-27'
+- type: forecast
+  at: '2025-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-12:2025 specifies how OPC Unified Architecture (OPC UA) Clients and Servers interact with DiscoveryServers when used in different scenarios. It specifies the requirements for the LocalDiscoveryServer, LocalDiscoveryServer-ME and GlobalDiscoveryServer. It also defines information models for Certificate management, KeyCredential management and AuthorizationServices.<br/>
+    Annex A informatively discusses deployment and configuration aspects.<br/>
+    Annex B defines NodeSet and numeric NodeIds.<br/>
+    Annex F provides installation rules for the LDS.<br/>
+    Annex H compares the Certificate management defined in this document with IETF RFC 7030.<br/>
+    This second edition cancels and replaces the first edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) addition of a "Quantity Model" which can be referenced from EngineeringUnit Properties. The model defines quantities and assigned units. In addition it provides alternative units and the conversion to them;<br/>
+    b) addition of rules for ValuePrecision Property:<br/>
+    • can also be used for other subtypes like Duration and Decimal.<br/>
+    • additional rules when ValuePrecision has negative values.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-12:2025 spécifie la manière dont les Clients et les Serveurs de l'Architecture Unifiée OPC (OPC UA) interagissent avec les DiscoveryServers lorsqu'ils sont utilisés dans différents scénarios. Elle définit les exigences pour le LocalDiscoveryServer, le LocalDiscoveryServer-ME et le GlobalDiscoveryServer. Elle définit également les modèles d'information pour la gestion des Certificats, la gestion des KeyCredentials et les AuthorizationServices.<br/>
+    L'Annexe A, informative, examine les aspects relatifs au déploiement et à la configuration.<br/>
+    L'Annexe B définit le NodeSet et les NodeIds numériques.<br/>
+    L'Annexe F fournit les règles d'installation du LDS.<br/>
+    L'Annexe H compare la gestion des Certificates définie dans le présent document à la IETF RFC 7030.<br/>
+    Cette deuxième édition annule et remplace la première édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout d'un "modèle de quantité" qui peut être référencé à partir des propriétés EngineeringUnit. Le modèle définit les grandeurs et les unités attribuées. En outre, il fournit des unités alternatives et les règles de conversion vers ces unités;<br/>
+    b) ajout de règles pour la propriété ValuePrecision:<br/>
+    • peut également être utilisé pour d'autres sous-types tels que Duration et Decimal;<br/>
+    • règles supplémentaires lorsque ValuePrecision a des valeurs négatives.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22988
+    docidentifier:
+    - content: iec:proj:22988
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:82256
+    docidentifier:
+    - content: iec:pub:82256
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control

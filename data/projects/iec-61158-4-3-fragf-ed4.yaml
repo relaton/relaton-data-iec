@@ -1,0 +1,124 @@
+---
+id: IEC6115843FRAGFED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-3: Data-link layer protocol specification -- Type 3 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-3: Data-link layer protocol specification -- Type 3 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels"
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-3 : Spécification du protocole de la couche liaison de données -- Éléments de type 3</p>'
+  type: title-part
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-3 : Spécification du protocole de la couche liaison de données -- Éléments de type 3</p>"
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104780
+docidentifier:
+- content: IEC 61158-4-3/FRAGF ED4
+  type: IEC
+  primary: true
+- content: iec:proj:104780
+  type: URN
+date:
+- type: created
+  at: '2015-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-4-3:2019 data-link layer provides basic time-critical messaging communications between devices in an automation environment.<br/>
+    This protocol provides communication opportunities to a pre-selected “master” subset of data-link entities in a cyclic asynchronous manner, sequentially to each of those data-link entities. Other data-link entities communicate only as permitted and delegated by those master data-link entities.<br/>
+    For a given master, its communications with other data-link entities can be cyclic, or acyclic with prioritized access, or a combination of the two.<br/>
+    This protocol provides a means of sharing the available communication resources in a fair manner. There are provisions for time synchronization and for isochronous operation.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-3:2019 la couche liaison de données permet la communication de messages de base, critiques du point de vue temporel, entre appareils dans un environnement d'automatisation.<br/>
+    Ce protocole donne les moyens de communiquer à un sous-ensemble “maître” présélectionné d'entités de liaison de données de manière asynchrone cyclique, séquentiellement pour chacune de ces entités de liaison de données. D'autres entités de liaison de données communiquent uniquement si elles sont autorisées et déléguées par ces entités de liaison de données "maîtres".<br/>
+    Les communications d'un maître avec d'autres entités de liaison de données peuvent être cycliques ou acycliques avec accès selon un ordre de priorité, ou une combinaison des deux.<br/>
+    Ce protocole est un moyen de partager de manière équitable les ressources de communication disponibles. Il comporte des dispositions de fonctionnement synchrone et isochrone.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

@@ -1,0 +1,106 @@
+---
+id: IEC623563FRAGfED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: french fragment
+  type: title-main
+- language: en
+  script: Latn
+  content: french fragment
+  type: main
+- language: fr
+  script: Latn
+  content: Enregistrement vidéo
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Format de type D-11 12,65 mm
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Mappage de données à travers l''interface de transport de données série (SDTI)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Enregistrement vidéo - Format de type D-11 12,65 mm - Partie 3: Mappage de données à travers l''interface de transport de données série (SDTI)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20112
+docidentifier:
+- content: IEC 62356-3/FRAGf ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20112
+  type: URN
+date:
+- type: forecast
+  at: '2012-04-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100/TA 6
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: La CEI 62356-3:2003 spécifie le mappage du flux de données d'images compressées de type D-11 dans la zone de charge utile SDTI (Interface de transport de données série) (SMPTE 305.2M) ainsi que le mappage de quatre canaux de données AES3 et des données de code temporel dans des paquets H-ANC. Le mappage du flux de données d'images compressées de type D-11 est défini pour les vitesses d'images codées à la source de 24/1,001/P, 24/P, 25/P, 50-I, 30/1,001/P et 60/1,001. Pour la transmission de données d'images compressées codées à des vitesses d'image source de 25/P et 50/I, l'interface de transport de données série fonctionne à une vitesse de trame de 25 Hz. Pour la transmission de données d'images compressées codées à des vitesses d'images source de 30/1,001P et 60/1,001I, l'interface de transport de données série fonctionne à une vitesse de trame de 30/1,001 Hz.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:12566
+    docidentifier:
+    - content: iec:proj:12566
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

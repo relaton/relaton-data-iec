@@ -1,0 +1,102 @@
+---
+id: IEC62141FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: french fragment
+  type: title-main
+- language: en
+  script: Latn
+  content: french fragment
+  type: main
+- language: fr
+  script: Latn
+  content: Format d'enregistrement à balayage hélicoïdal pour cassette vidéo numérique utilisant une bande magnétique de 12,65 mm avec système de compression MPEG-4
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Format D-16
+  type: title-main
+- language: fr
+  script: Latn
+  content: Format d'enregistrement à balayage hélicoïdal pour cassette vidéo numérique utilisant une bande magnétique de 12,65 mm avec système de compression MPEG-4 - Format D-16
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20028
+docidentifier:
+- content: IEC 62141/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20028
+  type: URN
+date:
+- type: forecast
+  at: '2012-04-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100/TA 6
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: La CEI 62141:2005 définit le contenu des pistes, leur format et la méthode d'enregistrement des blocs de données contenant de la vidéo compressée, des données audio AES3 et des données associées qui forment les enregistrements hélicoïdaux sur une bande de 12,65 mm dans des cassettes. La présente norme prend en charge l'enregistrement de formats d'image source utilisant 1920 x 1080 pixels avec la structure d'échantillonnage 4:4:4 et 4:2:2 spécifiée dans la SMPTE 274M aux fréquences image de 23,98 Hz, 24 Hz, 25 Hz et 29,97 Hz, et utilisant 1280 x 720 pixels avec la structure d'échantillonnage 4:2:2 spécifiée dans la SMPTE 296M aux fréquences image de 50 Hz et 59,94 Hz (voir note). Cette norme prend également en charge l'enregistrement de 12 voies de données audio AES3 et 3 lignes de données non compressées d'intervalle de suppression vertical. Cette norme inclut les opérations de mise en paquets et de brassage prenant en charge la compression d'image utilisant les méthodes de codage DCT et DPCM définies par l'ISO/CEI 14496-2 ("MPEG-4 simple studio profile"). La présente version bilingue (2012-11) correspond à la version anglaise monolingue publiée en 2005-10.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:14117
+    docidentifier:
+    - content: iec:proj:14117
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

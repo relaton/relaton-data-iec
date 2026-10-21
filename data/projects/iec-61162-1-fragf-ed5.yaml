@@ -1,0 +1,132 @@
+---
+id: IEC611621FRAGFED5
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Maritime navigation and radiocommunication equipment and systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Digital interfaces
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Single talker and multiple listeners'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Maritime navigation and radiocommunication equipment and systems - Digital interfaces - Part 1: Single talker and multiple listeners'
+  type: main
+- language: fr
+  script: Latn
+  content: Matériels et systèmes de navigation et de radiocommunication maritimes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces numériques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Émetteur unique et récepteurs multiples'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de navigation et de radiocommunication maritimes - Interfaces numériques - Partie 1: Émetteur unique et récepteurs multiples'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101741
+docidentifier:
+- content: IEC 61162-1/FRAGF ED5
+  type: IEC
+  primary: true
+- content: iec:proj:101741
+  type: URN
+date:
+- type: created
+  at: '2015-05-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 80
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '5'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: French version
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61162-1:2016 contient les exigences pour la communication des données entre les instruments maritimes électroniques, les équipements de navigation et de radiocommunications lorsqu'ils sont interconnectés via un système approprié.<br/>
+    La présente partie de l'IEC 61162 est destinée à supporter l'émission unidirectionnelle de données série entre un émetteur unique et un ou plusieurs récepteurs. Ces données sont au format ASCII imprimable et peuvent inclure des informations telles que la position, la vitesse, la profondeur, l'allocation de fréquences, etc. Les messages types peuvent être de longueur comprise entre environ 11 et 79 caractères au maximum et nécessitent généralement une émission pas plus rapide qu'un seul message par seconde.<br/>
+    Les définitions électriques de la présente norme ne sont pas destinées à gérer les applications à large bande passante comme les radars ou l'imagerie vidéo, ou encore les bases de données intensives et les applications de transfert de fichiers. En l'absence de disposition garantissant l'émission des messages et compte tenu de la capacité limitée de vérification des erreurs, il convient que la présente norme soit utilisée avec précaution dans toutes les applications de sécurité.<br/>
+    Pour les applications dans lesquelles un débit d'émission plus rapide est nécessaire, il convient de se référer à l'IEC 61162-2.<br/>
+    Pour les applications relatives aux matériels côtiers du système d'identification automatique (SIA), il convient de se référer à la série IEC 62320.<br/>
+    Cette cinquième édition annule et remplace la quatrième édition parue en 2010, dont elle constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - de nouveaux identificateurs ont été ajoutés dans le Tableau 4;<br/>
+    - les sentences CBR et MEB ont été supprimées, car elles sont maintenant uniquement utilisées par le matériel côtier SIA;<br/>
+    - les nouvelles sentences ACN, ALC, ALF, ARC, HRC, HRM, MOB, NSR, RLM, RRT, SM1, SM2, SM3, SM4, SMB, SPW et TRL ont été ajoutées;<br/>
+    - des révisions ont été apportées à ABK, ABM, GNS, NAK, NRM, RMC, ROR et TTD;<br/>
+    - les méthodes d'essai à l'Annex B ont été révisées.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:108134
+    docidentifier:
+    - content: iec:proj:108134
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 47.020.70
+    text: Navigation and control equipment

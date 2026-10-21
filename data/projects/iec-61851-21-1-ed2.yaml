@@ -1,0 +1,127 @@
+---
+id: IEC61851211ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Conductive power and energy transfer systems for electric vehicles
+  type: title-intro
+- language: en
+  script: Latn
+  content: Part 21-1 Electric vehicle on-board charger EMC requirements for conductive connection to AC/DC supply
+  type: title-main
+- language: en
+  script: Latn
+  content: Conductive power and energy transfer systems for electric vehicles - Part 21-1 Electric vehicle on-board charger EMC requirements for conductive connection to AC/DC supply
+  type: main
+- language: fr
+  script: Latn
+  content: Systèmes de transfert de puissance et d'énergie par conduction pour véhicules électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 21-1: Exigences CEM relatives à la connexion conductive des chargeurs embarqués pour véhicules électriques à une alimentation en courant alternatif ou continu'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Systèmes de transfert de puissance et d''énergie par conduction pour véhicules électriques - Partie 21-1: Exigences CEM relatives à la connexion conductive des chargeurs embarqués pour véhicules électriques à une alimentation en courant alternatif ou continu'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105406
+docidentifier:
+- content: IEC 61851-21-1 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:105406
+  type: URN
+date:
+- type: created
+  at: '2021-05-14'
+- type: forecast
+  at: '2026-10-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61851-21-1:2026 (E) covers electromagnetic compatibility (EMC) requirements for conductive connection of an electric vehicle (EV) to an AC or DC supply. It applies only to on-board charging systems either tested on a host vehicle or tested on the charging system component level (ESA – electronic sub assembly). This document does not set any requirements for the vehicle as a whole when the on-board charger (OBC) is tested on host vehicle level. Vehicle requirements are defined for example in CISPR 12 or the ISO 11451 series.<br/>
+    This document is also useful for industrial trucks and vehicles designed primarily to be used off-road, for example forestry and construction machines, in charging mode.<br/>
+    This document is not applicable to trolley buses and rail vehicles.<br/>
+    Bidirectional power transfer between the EV rechargeable energy storage system (RESS) and the grid (for vehicle to grid in grid-following mode) or a load/islanded installation (for vehicle to load or home in grid-forming mode) will be dedicatedly treated in a future edition of IEC 61851 21 1. Until then, host vehicles in grid-following mode are treated as an additional operating mode for emission requirements and the same requirements apply.<br/>
+    <br/>
+    This second edition cancels and replaces the first edition published in 2017. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a)    Clause 1: The Scope has been defined more precisely;<br/>
+    b)    Clause 2: Normative references have been updated;<br/>
+    c)    Clause 3: Some definitions have been added;<br/>
+    d)    Clause 4: A bidirectional charging mode has been added;<br/>
+    e)    Clause 5: The test setup for vehicle in charging mode has been described more precisely and the figures and their keys have been updated. In Tables 2 &amp; 3 pulse modulation testing has been added. The frequency range has been extended down to 9 kHz for conducted emission measurements and up to 6 GHz for radiated emission and immunity measurements. Additionally, the emission test operating conditions have been defined more precisely.<br/>
+    f)    Annex A (normative): DC-charging-AN has been defined more precisely;<br/>
+    g)    Annex B (informative) has been added;<br/>
+    h)    Annex C (informative) has been added;<br/>
+    i)    Annex D (informative) on future work items has been added.
+status:
+  stage:
+    abbreviation: BPUB
+    content: '60.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20447
+    docidentifier:
+    - content: iec:proj:20447
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles

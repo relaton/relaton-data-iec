@@ -1,0 +1,192 @@
+---
+id: IEC6235152023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Security for IEC 60870-5 and derivatives'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and communications security - Part 5: Security for IEC 60870-5 and derivatives'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d’informations associées – Sécurité des communications et des données – Partie 5: Aspects de sécurité pour l’IEC 60870-5 et ses dérivés'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d’informations associées – Sécurité des communications et des données – Partie 5: Aspects de sécurité pour l’IEC 60870-5 et ses dérivés'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103466
+docidentifier:
+- content: IEC 62351-5:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103466
+  type: URN
+date:
+- type: published
+  at: '2023-01-13'
+- type: created
+  at: '2019-07-19'
+- type: forecast
+  at: '2023-02-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62351-5:2023 defines the application profile (A-profile) secure communication mechanism specifying messages, procedures and algorithms for securing the operation of all protocols based on or derived from IEC 60870-5, Telecontrol Equipment and Systems – Transmission Protocols.<br/>
+    For the measures described in this document to take effect, they must be accepted and referenced by the specifications for the protocols themselves. This document is written to enable that process.<br/>
+    The subsequent audience for this document is intended to be the developers of products that implement these protocols.<br/>
+    Portions of this document may also be of use to managers and executives in order to understand the purpose and requirements of the work.<br/>
+    This document is organized working from the general to the specific, as follows:<br/>
+    • Clauses 2 through 4 provide background terms, definitions, and references.<br/>
+    • Clause 5 describes the problems this specification is intended to address.<br/>
+    • Clause 6 describes the mechanism generically without reference to a specific protocol.<br/>
+    • Clauses 7 and 8 describe the mechanism more precisely and are the primary normative part of this specification.<br/>
+    • Clause 9 define the interoperability requirements for this secure communication mechanism.<br/>
+    • Clause 10 describes the requirements for other standards referencing this document.<br/>
+    The actions of an organization in response to events and error conditions described in this document are expected to be defined by the organization’s security policy and they are beyond the scope of this document.<br/>
+    <br/>
+    This International Standard cancels and replaces IEC TS 62351-5 published in 2013. It constitutes a technical revision. The primary changes in this International Standard are:<br/>
+    a) The secure communication mechanism is performed on per controlling station/controlled station association.<br/>
+    b) User management to add, change or delete a User, was removed.<br/>
+    c) Symmetric method to change the Update Key was removed.<br/>
+    d) Asymmetric method to the change Update Key was reviewed.<br/>
+    e) Challenge/Reply procedure and concepts were removed.<br/>
+    f) Aggressive Mode concept was replaced with the Secure Data message exchange mechanism.<br/>
+    g) Authenticated encryption of application data was added.<br/>
+    h) The list of permitted security algorithms has been updated.<br/>
+    i) The rules for calculating messages sequence numbers have been updated<br/>
+    j) Events monitoring and logging was added
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62351-5:2023 définit le mécanisme de communication sécurisée du profil d'application (profil A) qui spécifie les messages, les procédures et les algorithmes pour sécuriser le fonctionnement de tous les protocoles fondés sur ou dérivés de l’IEC 60870-5, Matériels et systèmes de téléconduite – Protocoles de transmission.<br/>
+    Pour que les mesures décrites dans le présent document entrent en application, elles doivent être acceptées et référencées par les spécifications des protocoles eux-mêmes. Le présent document est rédigé dans le but de permettre ce processus.<br/>
+    Il est prévu que les lecteurs suivants du présent document soient les personnes chargées d’élaborer les produits qui mettent en œuvre ces protocoles.<br/>
+    Certaines parties du présent document peuvent également être utiles aux gestionnaires et aux cadres dirigeants pour comprendre le but et les exigences du travail.<br/>
+    Ce document est organisé du plus général au plus spécifique, comme suit:<br/>
+    • les Articles 2 à 4 fournissent des termes, des définitions et des références de contexte;<br/>
+    • l’Article 5 décrit les problèmes que la présente spécification est destinée à traiter;<br/>
+    • l’Article 6 décrit le mécanisme de manière générale, sans référence à un protocole spécifique;<br/>
+    • les Articles 7 et 8 décrivent le mécanisme plus précisément. Ils constituent la partie normative principale de la présente spécification;<br/>
+    • l’Article 9 définit les exigences d’interopérabilité pour ce mécanisme de communication sécurisée y compris la relation entre cette norme et la CEI 62351-3 pour la sécurité de la couche transport;<br/>
+    • l’Article 10 décrit les exigences des autres normes qui font référence au présent document.<br/>
+    Il est attendu que les actions d’une organisation en réponse aux événements et conditions d’erreurs décrits dans le présent document soient définies par la politique de sécurité de l’organisme. Elles ne relèvent pas du domaine d’application du présent document.<br/>
+    Cette Norme internationale annule et remplace l'IEC TS 62351-5 parue en 2013. Elle constitue une révision technique. Les modifications principales présentées dans la présente Norme internationale sont les suivantes:<br/>
+    a) le mécanisme de communication sécurisée est réalisé par une association poste de conduite/poste téléconduit;<br/>
+    b) la gestion des Utilisateurs, qui sert à ajouter, modifier ou supprimer un Utilisateur, a été supprimée;<br/>
+    c) la méthode symétrique, qui sert à modifier la Clé de Mise à Jour, a été supprimée;<br/>
+    d) la méthode asymétrique, qui sert à modifier la Clé de Mise à Jour, a été révisée;<br/>
+    e) la procédure et les concepts de Stimulation/Réponse ont été supprimés;<br/>
+    f) le concept de Mode Agressif a été remplacé par le mécanisme d’échange de messages de Données Sécurisées;<br/>
+    g) un chiffrement authentifié des données d’application a été ajouté;<br/>
+    h) la liste des algorithmes de sécurité admis a été mise à jour;<br/>
+    i) les règles de calcul des numéros de séquence des messages ont été mises à jour;<br/>
+    j) la surveillance et l’enregistrement des événements ont été ajoutés.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:13504
+    docidentifier:
+    - content: iec:proj:13504
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:17972
+    docidentifier:
+    - content: iec:proj:17972
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:65511
+    docidentifier:
+    - content: iec:pub:65511
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

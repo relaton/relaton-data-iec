@@ -1,0 +1,109 @@
+---
+id: IEC624394FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseaux d'automatisation à haute disponibilité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4: Protocole de redondance inter-réseau (CRP)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Réseaux d''automatisation à haute disponibilité - Partie 4: Protocole de redondance inter-réseau (CRP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20340
+docidentifier:
+- content: IEC 62439-4/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20340
+  type: URN
+date:
+- type: forecast
+  at: '2012-08-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62439-4:2010 est applicable aux réseaux d'automatisation à haute disponibilité basés sur la technologie ISO/CEI 8802-3 (IEEE 802.3) (Ethernet). Elle définit un protocole de redondance basé sur la duplication du réseau, le protocole de redondance étant exécuté dans les n uds terminaux, par opposition à un protocole de redondance intégré aux commutateurs. La décision de commutation est prise individuellement par chaque n ud. La capacité de connexion inter-réseau permet à des n uds terminaux simples d'être connectés à l'un ou l'autre des deux réseaux. Elle annule et remplace la CEI 62439 publiée en 2008. et constitue une révision technique. Elle inclut les modifications techniques majeures suivantes par rapport à la CEI 62439 (2008):<br/>
+    - ajout d'une méthode de calcul pour les RSTP (Rapid spanning tree protocol, IEEE 802.1Q), <br/>
+    - ajout de deux nouveaux protocoles de redondance: HSR (High-availability Seamless Redundancy) et DRP (Distributed Redundancy Protocol), <br/>
+    - transfert des anciens Articles 1 à 4 (introduction, définitions, aspects généraux) et des Annexes (taxonomie, calcul de disponibilité) dans la CEI 62439-1, qui sert désormais de base pour les autres documents, <br/>
+    - transfert de l'Article 5 (MRP) dans la CEI 62439-2 avec des modifications éditoriales mineures,<br/>
+    - transfert de l'Article 6 (PRP) dans la CEI 62439-3 avec des modifications éditoriales mineures, <br/>
+    - transfert de l'Article 7 (CRP) dans la CEI 62439-4 avec des modifications éditoriales mineures, et <br/>
+    - transfert de l'Article 8 (BRP) dans la CEI 62439-5 avec des modifications éditoriales mineures,<br/>
+    - ajout d'une méthode de calcul de la durée maximale de rétablissement de RSTP dans une configuration réduite (anneau) dans la CEI 62439-1 comme Article 8, <br/>
+    - ajout de spécifications de protocole HSR (High-availability Seamless Redundancy), qui partage les principes de PRP dans la CEI 62439-3 comme Article 5, et<br/>
+    - introduction du protocole DRP en tant que CEI 62439-6.
+    Cette publication doit être lue conjointement avec IEC 62439-1 :2010
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:18332
+    docidentifier:
+    - content: iec:proj:18332
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

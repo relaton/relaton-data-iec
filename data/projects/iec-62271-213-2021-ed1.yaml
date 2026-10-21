@@ -1,0 +1,170 @@
+---
+id: IEC622712132021ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: High-voltage switchgear and controlgear
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 213: Voltage detecting and indicating system'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'High-voltage switchgear and controlgear - Part 213: Voltage detecting and indicating system'
+  type: main
+- language: fr
+  script: Latn
+  content: Appareillage à haute tension
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 213: Système détecteur et indicateur de tension'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Appareillage à haute tension - Partie 213: Système détecteur et indicateur de tension'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22738
+docidentifier:
+- content: IEC 62271-213:2021 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22738
+  type: URN
+date:
+- type: published
+  at: '2021-06-24'
+- type: created
+  at: '2015-10-02'
+- type: forecast
+  at: '2021-06-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 17/SC 17C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62271-213:2021 is applicable to the voltage detecting and indicating system (VDIS) to be installed on indoor and outdoor high-voltage equipment.<br/>
+    The VDIS as defined by this document includes a coupling system per phase (capacitive, resistive coupling or other technology) to connect to live parts (main circuit).<br/>
+    This first edition cancels and replaces the first edition of IEC 61243-5 published in1997 and the first edition of IEC 62271-206 published in 2011. This edition constitutes a merging of the content of IEC 61243-5 and IEC 62271-206.<br/>
+    This edition includes the following significant technical changes with respect to the previous editions of IEC 61243-5 and IEC 62271-206:<br/>
+    a) an optional output signal is defined to be used for multipurpose use cases;<br/>
+    b) only one interface is defined for voltage detecting and indicating system (VDIS);<br/>
+    c) the measurement of the current carrying capacity of the voltage limiting element is considered as inaccurate and is not considered in this document. The experience shows that a probability of the failure of the coupling element is negligible.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 62271-213:2021 s’applique au système détecteur et indicateur de tension (VDIS) à installer sur des équipements haute tension pour installation à l’intérieur et à l’extérieur.<br/>
+    Le VDIS défini par le présent document comprend un système de couplage par phase (couplage capacitif, résistif ou d’une autre technologie) assurant la connexion avec les parties actives (circuit principal).<br/>
+    Cette première édition annule et remplace la première édition de l’IEC 61243-5 parue en 1997 et la première édition de l’IEC 62271-206 parue en 2011. Cette édition est issue de la fusion de l’IEC 61243-5 et de l’IEC 62271-206.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport aux éditions précédentes de l’IEC 61243-5 et l’IEC 62271-206:<br/>
+    a) un signal de sortie facultatif est défini pour être utilisé dans les cas d’utilisation générale;<br/>
+    b) une seule interface est définie pour le système détecteur et indicateur de tension (VDIS);<br/>
+    c) le mesurage de la capacité de courant admissible dans le dispositif limiteur de tension est considéré comme étant inexact et n’est pas traité dans le présent document. L’expérience démontre que la probabilité d’une défaillance de l’élément de couplage est négligeable.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7515
+    docidentifier:
+    - content: iec:proj:7515
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16759
+    docidentifier:
+    - content: iec:proj:16759
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:127492
+    docidentifier:
+    - content: iec:proj:127492
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:27638
+    docidentifier:
+    - content: iec:pub:27638
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '13.260'
+    text: Protection against electric shock.  Live working
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  - code: 29.240.20
+    text: Power transmission and distribution lines

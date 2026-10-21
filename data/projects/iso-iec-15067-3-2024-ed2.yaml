@@ -1,0 +1,172 @@
+---
+id: ISOIEC1506732024ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Home Electronic System (HES) application model
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Model of an energy management system for HES'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Home Electronic System (HES) application model - Part 3: Model of an energy management system for HES'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/118773
+docidentifier:
+- content: ISO/IEC 15067-3:2024 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:118773
+  type: URN
+date:
+- type: published
+  at: '2024-09-12'
+- type: created
+  at: '2023-06-30'
+- type: forecast
+  at: '2024-10-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    ISO/IEC 15067-3:2024 focuses on a model of a system in homes and buildings that can manage energy consumption and generation of electricity by devices on premises dynamically in response to electricity availability from:<br/>
+    – sources within the home or building such as solar panels, wind turbines, or storage (stationary or mobile),<br/>
+    – neighbourhood microgrids,<br/>
+    – transactive energy,<br/>
+    – energy aggregators, and<br/>
+    – public utilities.<br/>
+    This document specifies a model including a framework and methods for energy management consisting of interconnected elements that can be configured to support various methods for a Home Electronic System (HES) energy management system. The methods specified are intended to be generic and representative of a wide range of situations. This document applies to the customer grid-edge portion of the electricity grid (within a home or building) and applies even if the consumer has sufficient local power generation to operate without connecting to a public utility.<br/>
+    This document includes an energy management model that balances power supplied from internal and external sources with demand from appliances and electric vehicle chargers. The model offers flexibility for locating the energy management equipment in a stand-alone product, embedded in consumer electronics, or hosted in a gateway. This gateway can be a generic communications interface between a home network and an external network, an energy management gateway designed for handling energy-related data, or the HES gateway specified in the ISO/IEC 15045 series.<br/>
+    This model specifies a local controller that achieves the allocation of power in accordance with available supplies, consumer preferences for appliance operation, and power requirements of these appliances within constraints set by the consumer. Such constraints are typically financial (a budget for electricity) but can also include goals such as using green sources and minimizing their impact on climate change. This controller is called the energy management agent (EMA) since it acts as an agent for the consumer. This model accommodates an EMA with technology of artificial intelligence to facilitate energy management.<br/>
+    This second edition cancels and replaces the first edition published in 2012. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) This edition revises ISO/IEC 15067-3:2012 by expanding beyond demand response to include a balance between multiple sources of power and appliance demands for this power.<br/>
+    b) This edition specifies a system framework that addresses the need for user-centric energy management by providing control options for consumers.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:10656
+    docidentifier:
+    - content: iec:proj:10656
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18354
+    docidentifier:
+    - content: iec:proj:18354
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:86714
+    docidentifier:
+    - content: iec:pub:86714
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

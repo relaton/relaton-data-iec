@@ -1,0 +1,139 @@
+---
+id: IEC62676222013ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Video surveillance systems for use in security applications
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-2: Video transmission protocols'
+  type: title-main
+- language: en
+  script: Latn
+  content: IP interoperability implementation based on HTTP and REST services
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Video surveillance systems for use in security applications - Part 2-2: Video transmission protocols - IP interoperability implementation based on HTTP and REST services'
+  type: main
+- language: fr
+  script: Latn
+  content: Systèmes de vidéosurveillance destinés à être utilisés dans les applications de sécurité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 2-2: Protocoles de transmission vidéo'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Mise en oeuvre de l'intéropérabilité IP en fonction des services HTTP et REST
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Systèmes de vidéosurveillance destinés à être utilisés dans les applications de sécurité - Partie 2-2: Protocoles de transmission vidéo - Mise en oeuvre de l''intéropérabilité IP en fonction des services HTTP et REST'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20253
+docidentifier:
+- content: IEC 62676-2-2:2013 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20253
+  type: URN
+date:
+- type: published
+  at: '2013-11-07'
+- type: created
+  at: '2010-04-02'
+- type: forecast
+  at: '2013-11-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 79
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62676-2-2:2013 specifies a compliant IP video protocol based on HTTP and REST services. Video transmission devices are often equipped with web servers that respond to HTTP requests. The HTTP response may contain XML content (for GET actions), XML response information (for SET actions), or various text/binary content (for retrieval of configuration data, etc.). REST is an approach to creating services that expose all information as resources in a uniform way. A video transmission device supporting compliance to the requirements of this standard based on HTTP and REST Services as described in this document is declared as compatible to ´IEC 62676-2 HTTP and REST interoperability.´
+- language: fr
+  script: Latn
+  content: La CEI 62676-2-2:2013 spécifie un protocole vidéo IP reposant sur les services HTTP et REST. Les dispositifs de vidéotransmission sont souvent équipés de serveurs web qui répondent aux requêtes HTTP. La réponse HTTP peut posséder un contenu XML (pour les actions GET), des informations de réponse XML (pour les actions SET) ou divers contenus texte/binaire (pour l'extraction de données de configuration, etc.). REST est une approche de création de services qui expose uniformément toutes les informations sous forme de ressources. Un dispositif de vidéotransmission satisfaisant aux exigences de la présente Norme sur la base des services HTTP et REST tel que décrit dans le présent document est déclaré comme étant compatible avec "l'interopérabilité HTTP et REST de la CEI 62676-2".
+status:
+  stage:
+    abbreviation: WPUB
+    content: '95.99'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:7350
+    docidentifier:
+    - content: iec:pub:7350
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '13.320'
+    text: Alarm and warning systems

@@ -1,0 +1,114 @@
+---
+id: IEC61158414FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-14: Spécification des protocoles des couches de liaison de données -- Eléments de Type 14'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-14: Spécification des protocoles des couches de liaison de données -- Eléments de Type 14'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22003
+docidentifier:
+- content: IEC 61158-4-14/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22003
+  type: URN
+date:
+- type: forecast
+  at: '2014-06-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-14:2007 spécifie:<br/>
+    - les procédures de transfert opportun des données et des informations de commande entre une entité utilisateur de liaison de données et une entité utilisateur homologue, et parmi les entités de liaison de données formant le fournisseur de service de liaison de données distribué;<br/>
+    - les procédures permettant à toutes les entités DL participantes de communiquer, de manière séquentielle et cyclique dans le cadre d'un transfert déterministe et synchronisé, à intervalles cycliques jusqu'à une milliseconde;<br/>
+    - les procédures permettant à la transmission de données à contrainte de temps de communiquer avec une transmission de données sans contrainte de temps, sans préjudice pour la première;<br/>
+    - les procédures permettant à la transmission de données à contrainte de temps de communiquer de manière cyclique et acyclique, avec un accès en priorité;<br/>
+    - les procédures permettant d'assurer la communication en fonction du contrôle d'accès au support ISO/CEI 8802-3, avec des dispositions relatives aux noeuds à ajouter ou à retirer pendant le fonctionnement normal;<br/>
+    - la structure des DLPDU de bus de terrain utilisée par le protocole de la présente norme pour le transfert des données et des informations de commande, et leur représentation sous forme d'unités de données d'interface physique. Cette première édition et les parties associées de la CEI 61158-4 annulent et remplacent la CEI 61158-4:2003. L'édition de la présente partie constitue un ajout technique. La présente partie et les parties associées Type 14 annulent et remplacent également l'IEC/PAS 62409, publiée en 2005. La présente édition de la CEI 61158-4 inclut les modifications majeures suivantes par rapport à l'édition précédente:<br/>
+    - suppression de l'ancien bus de terrain de Type 6, et du paramètre fictif pour une couche liaison de données de bus de terrain de Type 5, qui ne sont plus adaptés au marché;<br/>
+    - ajouts nouveaux types de bus de terrain;<br/>
+    - division de la présente partie en plusieurs parties numérotées -4 1, -4 2,  , -4-19. La présente version bilingue (2015-06) correspond à la version anglaise monolingue publiée en 2007-12.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:16025
+    docidentifier:
+    - content: iec:proj:16025
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:18637
+    docidentifier:
+    - content: iec:proj:18637
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

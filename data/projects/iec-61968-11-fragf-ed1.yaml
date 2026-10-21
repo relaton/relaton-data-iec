@@ -1,0 +1,106 @@
+---
+id: IEC6196811FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Intégration d'applications pour les services électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces système pour la gestion de la distribution
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 11: Extensions du modèle d''information commun (CIM) pour la distribution'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration d''applications pour les services électriques - Interfaces système pour la gestion de la distribution - Partie 11: Extensions du modèle d''information commun (CIM) pour la distribution'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19433
+docidentifier:
+- content: IEC 61968-11/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19433
+  type: URN
+date:
+- type: forecast
+  at: '2011-08-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    IEC 61968-11:2010 specifies the distribution extensions of the Common Information Model (CIM) specified in IEC 61970-301. It defines a standard set of extensions of common information model, which support message definitions in Parts 3 to 9 of IEC 61968, IEC 61968-13 and IEC 61968-14. The scope of this document is the information model that extends the base CIM for the needs of distribution networks, as well as for integration with enterprise-wide information systems typically used within electrical utilities. The information model is defined in UML which is platform-independent and electronically processable language that is then used to create message payload definitions in different required formats.
+    <br /><br />This publication is of core relevance for Smart Grid</a>.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:17767
+    docidentifier:
+    - content: iec:proj:17767
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:19377
+    docidentifier:
+    - content: iec:proj:19377
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

@@ -1,0 +1,155 @@
+---
+id: IEC611584122019ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-12: Data-link layer protocol specification -- Type 12 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-12: Data-link layer protocol specification -- Type 12 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-12: Spécification du protocole de la couche liaison de données -- Éléments de type 12'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-12: Spécification du protocole de la couche liaison de données -- Éléments de type 12'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103135
+docidentifier:
+- content: IEC 61158-4-12:2019 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:103135
+  type: URN
+date:
+- type: published
+  at: '2019-04-18'
+- type: created
+  at: '2015-10-23'
+- type: forecast
+  at: '2019-04-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEC 61158-4-12:2019 specifies procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This fourth edition cancels and replaces the third edition published in 2014 and constitutes a technical revision. The main changes are: technical corrections and editorial improvements for clarification.'
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-12:2019 la couche de liaison de données assure les communications de messagerie à contrainte de temps de base entre les appareils d’un environnement d’automatisation.<br/>
+    Ce protocole offre des opportunités de communication à toutes les entités de liaison de données participantes<br/>
+    a) de manière cyclique et synchrone, et<br/>
+    b) de manière cyclique ou acyclique asynchrone, comme demandé par chaque cycle de chacune de ces entités de liaison de données.<br/>
+    Par conséquent, ce protocole peut se caractériser comme assurant un accès cyclique et acyclique asynchrone, mais avec un redémarrage synchrone de chaque cycle.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22092
+    docidentifier:
+    - content: iec:proj:22092
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:64867
+    docidentifier:
+    - content: iec:pub:64867
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

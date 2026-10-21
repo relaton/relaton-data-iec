@@ -1,0 +1,163 @@
+---
+id: IEC6113922022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Single-drop digital communication interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Functional safety extensions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial networks - Single-drop digital communication interface - Part 2: Functional safety extensions'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interface de communication numérique point à point
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Extensions de sécurité fonctionnelle'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux industriels - Interface de communication numérique point à point - Partie 2: Extensions de sécurité fonctionnelle'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103578
+docidentifier:
+- content: IEC 61139-2:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103578
+  type: URN
+date:
+- type: published
+  at: '2022-08-19'
+- type: created
+  at: '2020-01-17'
+- type: forecast
+  at: '2022-07-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61139-2:2022 specifies the extensions to SDCI in IEC 61131-9 for functional safety. This comprises:<br/>
+    • a standardized OSSDe interface for redundant switching signals based on IEC 61131-2,<br/>
+    • minor modifications/extensions to state machines of SDCI to support the safety operations,<br/>
+    • a lean functional safety communication protocol on top of the standard SDCI communication which is a black channel according to IEC 61784-3:2021,<br/>
+    • protocol management functions for configuration, parameterization, and commissioning,<br/>
+    • IODD extensions for functional safety,<br/>
+    • a Device tool interface to support Dedicated Tools according to functional safety standards.<br/>
+    This document does not cover:<br/>
+    • communication interfaces or systems including multi-point or multi-drop linkages,<br/>
+    • communication interfaces or systems including multi-channel or encrypted linkages,<br/>
+    • wireless communication interfaces or systems,<br/>
+    • integration of SDCI-FS into upper-level systems such as fieldbuses/FSCPs.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61139-2:2022 spécifie les extensions de la SDCI de l'IEC 61131-9 pour la sécurité fonctionnelle. Elle comprend:<br/>
+    • une interface OSSDe normalisée pour les signaux de commutation redondants, fondée sur l'IEC 61131-2;<br/>
+    • des modifications/extensions mineures des diagrammes d'états de la SDCI afin de prendre en charge les opérations de sécurité;<br/>
+    • un protocole de communication de sécurité fonctionnelle affiné en plus de la communication SDCI normalisée, qui constitue un canal noir selon l'IEC 61784-3:2021;<br/>
+    • des fonctions de gestion de protocole pour la configuration, le paramétrage et la mise en service;<br/>
+    • des extensions de l'IODD pour la sécurité fonctionnelle;<br/>
+    • une interface d'outil d'Appareil pour prendre en charge les outils dédiés, conformément aux normes de sécurité fonctionnelle.<br/>
+    Le présent document ne couvre pas:<br/>
+    • les interfaces ou systèmes de communication qui incluent des liaisons multipoints;<br/>
+    • les interfaces ou systèmes de communication qui incluent des liaisons chiffrées ou multicanaux;<br/>
+    • les interfaces ou systèmes de communication sans fil;<br/>
+    • l'intégration de la SDCI-FS aux systèmes de niveau supérieur, tels que les bus de terrain/FSCP.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:65693
+    docidentifier:
+    - content: iec:pub:65693
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems

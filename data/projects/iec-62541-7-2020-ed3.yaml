@@ -1,0 +1,199 @@
+---
+id: IEC6254172020ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Profiles'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 7: Profiles'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7: Profils'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 7: Profils'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101128
+docidentifier:
+- content: IEC 62541-7:2020 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:101128
+  type: URN
+date:
+- type: published
+  at: '2020-06-22'
+- type: created
+  at: '2017-07-28'
+- type: forecast
+  at: '2020-07-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-7:2020 defines the OPC Unified Architecture (OPC UA) Profiles. The Profiles in this document are used to segregate features with regard to testing of OPC UA products and the nature of the testing (tool based or lab based). This includes the testing performed by the OPC Foundation provided OPC UA CTT (a self-test tool) and by the OPC Foundation provided Independent certification test labs. This could equally as well refer to test tools provided by another organization or a test lab provided by another organization. What is important is the concept of automated tool-based testing versus lab-based testing. The scope of this standard includes defining functionality that can only be tested in a lab and defining the grouping of functionality that is to be used when testing OPC UA products either in a lab or using automated tools. The definition of actual TestCases is not within the scope of this document, but the general categories of TestCases are within the scope of this document.<br/>
+    Most OPC UA applications will conform to several, but not all, of the Profiles.<br/>
+    This third edition cancels and replaces the second edition published in 2015. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) new functional Profiles:<br/>
+    • profiles for global discovery and global certificate management;<br/>
+    • profiles for global KeyCredential management and global access token management;<br/>
+    • facet for durable subscriptions;<br/>
+    • standard UA Client Profile;<br/>
+    • profiles for administration of user roles and permissions.<br/>
+    b) new transport Profiles:<br/>
+    • HTTPS with JSON encoding;<br/>
+    • secure WebSockets (WSS) with binary or JSON encoding;<br/>
+    • reverse connectivity.<br/>
+    c) new security Profiles:<br/>
+    • transportSecurity – TLS 1.2 with PFS (with perfect forward secrecy);<br/>
+    • securityPolicy [A] – Aes128-Sha256-RsaOaep (replaces Base128Rsa15);<br/>
+    • securityPolicy – Aes256-Sha256-RsaPss adds perfect forward secrecy for UA TCP);<br/>
+    • user Token JWT (Jason Web Token).<br/>
+    d) deprecated Security Profiles (due to broken algorithms):<br/>
+    • securityPolicy – Basic128Rsa15 (broken algorithm Sha1);<br/>
+    • securityPolicy – Basic256 (broken algorithm Sha1);<br/>
+    • transportSecurity – TLS 1.0 (broken algorithm RC4);<br/>
+    • transportSecurity – TLS 1.1 (broken algorithm RC4).<br/>
+    e) deprecated Transport (missing support on most platforms):<br/>
+    • SOAP/HTTP with WS-SecureConversation (all encodings).
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62541-7:2020 définit les Profils de l'architecture unifiée OPC (OPC UA). Les Profils du présent document permettent de classer les caractéristiques en fonction des essais de produits OPC UA et de la nature des essais (via un outil ou en laboratoire). Cela inclut les essais effectués à l'aide de l'outil d'essai de conformité CTT OPC UA développé par la Fondation OPC (outil d'essai autonome), ainsi que les essais réalisés par des laboratoires de certification indépendants de cette même fondation. Le présent document peut également faire référence aux outils d'essai ou au laboratoire d'essai d'un autre organisme. Dans le cas présent, l'élément important est le concept qui oppose les essais fondés sur un outil automatisé et les essais en laboratoire. Le domaine d'application de la présente norme inclut la définition d'une fonctionnalité qui ne peut être soumise à l'essai qu'en laboratoire, ainsi que la définition du regroupement des fonctionnalités à utiliser durant les essais de produits OPC UA effectués en laboratoire ou à l'aide d'outils automatisés. La définition des TestCases réels ne relève pas du domaine d'application du présent document, mais les catégories de TestCases générales relèvent du domaine d'application du présent document.<br/>
+    La plupart des applications OPC UA sont conformes à plusieurs Profils, mais pas à l'ensemble des Profils.<br/>
+    Cette troisième édition annule et remplace la deuxième édition parue en 2015. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout de nouveaux profils fonctionnels:<br/>
+    • profils pour la découverte globale et la gestion globale des certificats;<br/>
+    • profils pour la gestion globale de KeyCredential et pour la gestion globale des jetons d'accès;<br/>
+    • facette pour les abonnements durables;<br/>
+    • profil client UA normalisé;<br/>
+    • profils pour l'administration des rôles et permissions des utilisateurs.<br/>
+    b) ajout de nouveaux profils de transport:<br/>
+    • HTTPS avec codage JSON;<br/>
+    • Secure WebSockets (WSS) avec codage binaire ou JSON;<br/>
+    • connectivité inversée.<br/>
+    c) ajout de nouveaux profils de sécurité:<br/>
+    • TransportSecurity – TLS 1.2 avec PFS (confidentialité persistante);<br/>
+    • SecurityPolicy [A] – Aes128-Sha256-RsaOaep (en remplacement de Base128Rsa15);<br/>
+    • SecurityPolicy – Aes256-Sha256-RsaPss ajoute la confidentialité persistante pour UA TCP);<br/>
+    • jeton d'utilisateur JWT (Jason Web Token).<br/>
+    d) spécification des profils de sécurité déconseillés (en raison des algorithmes cassés):<br/>
+    • SecurityPolicy – Basic128Rsa15 (algorithme Sha1 cassé);<br/>
+    • SecurityPolicy – Basic256 (algorithme Sha1 cassé);<br/>
+    • TransportSecurity – TLS 1.0 (algorithme RC4 cassé);<br/>
+    • TransportSecurity – TLS 1.1 (algorithme RC4 cassé).<br/>
+    e) transport déconseillé (absence de prise en charge sur la plupart des plateformes):<br/>
+    • SOAP/HTTP avec WS-SecureConversation (tous les codages).
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21053
+    docidentifier:
+    - content: iec:proj:21053
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:115403
+    docidentifier:
+    - content: iec:proj:115403
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:61116
+    docidentifier:
+    - content: iec:pub:61116
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

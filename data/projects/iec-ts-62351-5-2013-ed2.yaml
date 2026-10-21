@@ -1,0 +1,140 @@
+---
+id: IECTS6235152013ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Security for IEC 60870-5 and derivatives'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and communications security - Part 5: Security for IEC 60870-5 and derivatives'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17972
+docidentifier:
+- content: IEC TS 62351-5:2013 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:17972
+  type: URN
+date:
+- type: published
+  at: '2013-04-29'
+- type: created
+  at: '2009-09-04'
+- type: forecast
+  at: '2013-04-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC/TS 62351-5:2013(E) specifies messages, procedures and algorithms for securing the operation of all protocols based on or derived from IEC 60870-5: Telecontrol equipment and systems - Transmission protocols. This Technical Specification applies to at least those protocols listed in IEC 60870-5-101, 5-102, 5-103, 5-104. This new edition includes the following main changes with respect to the previous edition:<br/>
+    - adds the capability to change Update Keys remotely;<br/>
+    - adds security statistics to aid in detecting attacks;<br/>
+    - adds measures to avoid being forced to change session keys too often;<br/>
+    - discards unexpected messages more often as possible attacks;<br/>
+    - adds to the list of permitted security algorithms;<br/>
+    - adds new rules for calculating challenge sequence numbers.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:13504
+    docidentifier:
+    - content: iec:proj:13504
+      type: URN
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:103466
+    docidentifier:
+    - content: iec:proj:103466
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6908
+    docidentifier:
+    - content: iec:pub:6908
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

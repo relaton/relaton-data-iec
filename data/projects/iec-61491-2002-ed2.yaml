@@ -1,0 +1,147 @@
+---
+id: IEC614912002ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electrical equipment of industrial machines
+  type: title-intro
+- language: en
+  script: Latn
+  content: Serial data link for real-time communication between controls and drives
+  type: title-main
+- language: en
+  script: Latn
+  content: Electrical equipment of industrial machines - Serial data link for real-time communication between controls and drives
+  type: main
+- language: fr
+  script: Latn
+  content: Equipement électrique des machines industrielles
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Liaison des données sérielles pour communications en temps réel entre unités de commande et dispositifs d'entraînement
+  type: title-main
+- language: fr
+  script: Latn
+  content: Equipement électrique des machines industrielles - Liaison des données sérielles pour communications en temps réel entre unités de commande et dispositifs d'entraînement
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11552
+docidentifier:
+- content: IEC 61491:2002 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:11552
+  type: URN
+date:
+- type: published
+  at: '2002-10-18'
+- type: created
+  at: '2001-04-27'
+- type: forecast
+  at: '2002-11-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 22/SC 22G
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Defines a real-time optical serial interface between the control unit and its associate drives which is utilized to transmit periodic and non periodic data.
+- language: fr
+  script: Latn
+  content: Définit une interface sérielle optique en temps réel entre la commande numérique et ses dispositifs d'entraînement associés, utilisées pour la transmission de données périodiques ou non.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:8021
+    docidentifier:
+    - content: iec:proj:8021
+      type: URN
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:16678
+    docidentifier:
+    - content: iec:proj:16678
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19783
+    docidentifier:
+    - content: iec:pub:19783
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: '33.200'
+    text: Telecontrol. Telemetering

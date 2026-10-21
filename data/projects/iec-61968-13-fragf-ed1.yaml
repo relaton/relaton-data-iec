@@ -1,0 +1,104 @@
+---
+id: IEC6196813FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Intégration d'applications pour les services électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces systèmes pour la gestion de la distribution
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 13: Format d''échange du modèle CIM RDF pour la distribution'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration d''applications pour les services électriques - Interfaces systèmes pour la gestion de la distribution - Partie 13: Format d''échange du modèle CIM RDF pour la distribution'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19434
+docidentifier:
+- content: IEC 61968-13/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19434
+  type: URN
+date:
+- type: forecast
+  at: '2011-08-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: La CEI 61968-13:2008 spécifie le format et les règles pour l'échange d'informations de modélisation sur la base du CIM (Common Information Model) et en rapport avec des données de réseau de distribution. Permet l'échange de données d'instance en masse. Ainsi, il convient que les données de modèles de réseau importées soient suffisantes pour permettre d'accomplir l'analyse de connectivité de réseau, y compris le suivi de réseau, l'analyse d'interruptions de service, les calculs de flux de charge, etc. La présente partie pourrait être utilisée pour synchroniser des bases de données de systèmes d'informations géographiques avec des bases de données de systèmes de conduite à distance.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:14727
+    docidentifier:
+    - content: iec:proj:14727
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22682
+    docidentifier:
+    - content: iec:proj:22682
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

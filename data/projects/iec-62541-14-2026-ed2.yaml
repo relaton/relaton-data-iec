@@ -1,0 +1,166 @@
+---
+id: IEC62541142026ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 14: PubSub'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 14: PubSub'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 14: PubSub'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 14: PubSub'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/115398
+docidentifier:
+- content: IEC 62541-14:2026 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:115398
+  type: URN
+date:
+- type: published
+  at: '2026-01-12'
+- type: created
+  at: '2023-01-27'
+- type: forecast
+  at: '2026-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-14:2026 defines the PubSub communication model. It defines an OPC UA publish subscribe pattern which complements the client server pattern defined by the Services in IEC 62541-4. See IEC 62541-1 for an overview of the two models and their distinct uses.<br/>
+    PubSub allows the distribution of data and events from an OPC UA information source to interested observers inside a device network as well as in IT and analytics cloud systems.<br/>
+    This document consists of<br/>
+    • a general introduction of the PubSub concepts,<br/>
+    • a definition of the PubSub configuration parameters,<br/>
+    • mapping of PubSub concepts and configuration parameters to messages and transport protocols,<br/>
+    • and a PubSub configuration model.<br/>
+    This second edition cancels and replaces the first edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Addition of a “Quantity Model” which can be referenced from EngineeringUnit Properties. The model defines quantities and assigned units. In addition it provides alternative units and the conversion to them.<br/>
+    b) Addion of rules for ValuePrecision Property:<br/>
+    • can also be used for other subtypes like Duration and Decimal.<br/>
+    • rules have been added when ValuePrecision has negative values.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-14:2026 définit le modèle de communication PubSub. Elle définit un modèle publication/abonnement OPC UA qui vient compléter le modèle client/serveur défini par les Services dans l'IEC 62541-4. Pour obtenir une présentation des deux modèles et de leurs utilisations, voir l'IEC 62541-1.<br/>
+    PubSub permet de distribuer des données et des événements provenant d'une source d'informations OPC UA aux observateurs d'intérêt à l'intérieur d'un réseau de dispositifs ainsi que dans les systèmes Cloud informatiques et d'analyse.<br/>
+    Le présent document se compose:<br/>
+    • d'une présentation générale des concepts PubSub;<br/>
+    • d'une définition des paramètres de configuration PubSub;<br/>
+    • d'un mapping des concepts et des paramètres de configuration PubSub avec les messages et les protocoles de transport; et<br/>
+    • d'un modèle de configuration PubSub.<br/>
+    Cette deuxième édition annule et remplace la première édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout d'un "modèle de quantité" qui peut être référencé à partir des propriétés EngineeringUnit. Le modèle définit les grandeurs et les unités attribuées. En outre, il fournit des unités alternatives et les règles de conversion vers ces unités;<br/>
+    b) ajout de règles pour la propriété ValuePrecision:<br/>
+    • peut également être utilisée pour d'autres sous-types tels que Duration et Decimal;<br/>
+    • ajout de règles lorsque ValuePrecision a des valeurs négatives.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101120
+    docidentifier:
+    - content: iec:proj:101120
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:82257
+    docidentifier:
+    - content: iec:pub:82257
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

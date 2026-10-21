@@ -1,0 +1,162 @@
+---
+id: IEC62443422019ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Security for industrial automation and control systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 4-2: Technical security requirements for IACS components'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Security for industrial automation and control systems - Part 4-2: Technical security requirements for IACS components'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité des systèmes d'automatisation et de commande industrielles
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 4-2: Exigences de sécurité technique des composants IACS'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Sécurité des systèmes d''automatisation et de commande industrielles - Partie 4-2: Exigences de sécurité technique des composants IACS'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21919
+docidentifier:
+- content: IEC 62443-4-2:2019 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21919
+  type: URN
+date:
+- type: published
+  at: '2019-02-27'
+- type: created
+  at: '2014-03-14'
+- type: forecast
+  at: '2019-03-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62443-4-2:2019 provides detailed technical control system component requirements (CRs) associated with the seven foundational requirements (FRs) described in IEC TS 62443-1-1 including defining the requirements for control system capability security levels and their components, SL-C(component).<br/>
+    As defined in IEC TS 62443-1-1 there are a total of seven foundational requirements (FRs):<br/>
+    a) identification and authentication control (IAC),<br/>
+    b) use control (UC),<br/>
+    c) system integrity (SI),<br/>
+    d) data confidentiality (DC),<br/>
+    e) restricted data flow (RDF),<br/>
+    f) timely response to events (TRE), and<br/>
+    g) resource availability (RA).<br/>
+    These seven FRs are the foundation for defining control system security capability levels. Defining security capability levels for the control system component is the goal and objective of this document as opposed to SL-T or achieved SLs (SL-A), which are out of scope.<br/>
+    The contents of the corrigendum of August 2022 have been included in this copy.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62443-4-2:2019 indique les exigences relatives au composant (CR) d'un système de commande technique ainsi que les sept exigences fondamentales (FR) décrites dans l'IEC TS 62443-1-1, y compris la définition des exigences relatives aux niveaux de sécurité de capacité des systèmes de commande et à leurs composants, SL-C(composant).<br/>
+    Comme l'indique l'IEC TS 62443-1-1, il existe en tout sept exigences fondamentales (FR):<br/>
+    a) contrôle d'identification et d'authentification (IAC),<br/>
+    b) contrôle d'utilisation (UC),<br/>
+    c) intégrité du système (SI),<br/>
+    d) confidentialité des données (DC),<br/>
+    e) transfert de données limité (RDF),<br/>
+    f) réponse appropriée aux événements (TRE), et<br/>
+    g) disponibilité des ressources (RA).<br/>
+    Ces sept exigences fondamentales sont à la base de la définition des niveaux de capacité de sécurité des systèmes de commande. Le présent document a pour objet de définir les niveaux de capacité de sécurité du composant du système de commande, par opposition au SL-T ou aux niveaux de sécurité atteints (SL-A), qui n'entrent pas dans le domaine d'application.<br/>
+    Le contenu du corrigendum d'août 2022 a été pris en considération dans cet exemplaire.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:111692
+    docidentifier:
+    - content: iec:proj:111692
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:34421
+    docidentifier:
+    - content: iec:pub:34421
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.030'
+    text: IT Security

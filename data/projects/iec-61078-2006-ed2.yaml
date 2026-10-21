@@ -1,0 +1,147 @@
+---
+id: IEC610782006ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Analysis techniques for dependability
+  type: title-intro
+- language: en
+  script: Latn
+  content: Reliability block diagram and boolean methods
+  type: title-main
+- language: en
+  script: Latn
+  content: Analysis techniques for dependability - Reliability block diagram and boolean methods
+  type: main
+- language: fr
+  script: Latn
+  content: Techniques d'analyse pour la sûreté de fonctionnement
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Bloc-diagramme de fiabilité et méthodes booléennes
+  type: title-main
+- language: fr
+  script: Latn
+  content: Techniques d'analyse pour la sûreté de fonctionnement - Bloc-diagramme de fiabilité et méthodes booléennes
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/12048
+docidentifier:
+- content: IEC 61078:2006 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:12048
+  type: URN
+date:
+- type: published
+  at: '2006-01-19'
+- type: created
+  at: '2001-11-30'
+- type: forecast
+  at: '2006-01-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 56
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This International Standard describes procedures for modelling the dependability of a system and for using the model in order to calculate reliability and availability measures. The RBD modelling technique is intended to be applied primarily to systems without repair and where the order in which failures occur does not matter. For systems where the order of failures is to be taken into account or where repairs are to be carried out, other modelling techniques, such as Markov analysis, are more suitable.
+- language: fr
+  script: Latn
+  content: La présente Norme internationale décrit les procédures de modélisation de la sûreté de fonctionnement d'un système et l'utilisation du modèle pour calculer la fiabilité et la disponibilité. La technique de modélisation BDF est destinée à être appliquée principalement aux systèmes sans réparation et où l'ordre d'apparition des défaillances n'a pas d'importance. Pour les systèmes où l'ordre des défaillances est à prendre en compte, ou lorsque des réparations sont effectuées, d'autres techniques de modélisation, telle que l'analyse de Markov conviennent mieux.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7071
+    docidentifier:
+    - content: iec:proj:7071
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:20728
+    docidentifier:
+    - content: iec:proj:20728
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:4461
+    docidentifier:
+    - content: iec:pub:4461
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 03.120.01
+    text: Quality in general
+  - code: 03.120.99
+    text: Other standards related to quality

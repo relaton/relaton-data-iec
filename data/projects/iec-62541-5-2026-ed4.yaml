@@ -1,0 +1,179 @@
+---
+id: IEC6254152026ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Information Model'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 5: Information Model'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Modèle d''information'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 5: Modèle d''information'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/115401
+docidentifier:
+- content: IEC 62541-5:2026 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:115401
+  type: URN
+date:
+- type: published
+  at: '2026-01-06'
+- type: created
+  at: '2023-01-27'
+- type: forecast
+  at: '2026-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-5:2026 This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Annex B has been removed and used to create IEC 62451-16;<br/>
+    b) Annex C has been removed and used to create IEC 62451-20;<br/>
+    c) currency information model has been added;<br/>
+    d) information model for Interfaces and AddIns has been added;<br/>
+    e) information model for Method Metadata has been added;<br/>
+    f) MaxSessions, MaxSubscriptions, and MaxMonitoredItems have been added to capabilities;<br/>
+    g) information model for ordered list of objects has been added;<br/>
+    h) PortableQualifiedName and PortableNodeId DataTypes have been added;<br/>
+    i) UriString DataType has been added;<br/>
+    j) SemanticVersionString DataType has been added;<br/>
+    k) AssociatedWith Reference Type has been added;<br/>
+    l) ConfigurationVersion Property has been added to NamespaceMetadataType;<br/>
+    m) AuditClientEventType and AuditClientUpdateMethodResultEventType have been added;<br/>
+    n) ModelVersion has been added to NamespaceMetadataType;<br/>
+    o) NoTransparentBackupRedundancyType has been added to support a Primary/Standby use case;<br/>
+    p) BitFieldType and BitFieldDefinitionType have been added.<br/>
+    This fourth edition cancels and replaces the third edition published in 2020. This edition constitutes a technical revision.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-5:2026 définit le Modèle d'information. Le Modèle d'information décrit des Nœuds normalisés de l'AddressSpace d'un Serveur. Ces Nœuds sont des types normalisés ainsi que des instances normalisées utilisés pour le diagnostic ou comme des points d'entrée à des Nœuds spécifiques au serveur. Ainsi, le Modèle d'information définit l'AddressSpace d'un Serveur OPC UA vide. Cependant, tous les Serveurs ne sont pas supposés fournir la totalité de ces Nœuds.<br/>
+    L'Annexe C normative définit le Système de description de Type OPC Binary.<br/>
+    L'Annexe B fait référence aux informations d'encodage pour les DataTypes personnalisés dans les versions précédentes du présent document.<br/>
+    Cette quatrième édition annule et remplace la troisième édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) l'Annexe B a été supprimée et utilisée afin de créer l'IEC 62451-16;<br/>
+    b) l'Annexe C a été supprimée et utilisée afin de créer l'IEC 62451-20;<br/>
+    c) un modèle d'information a été ajouté pour les Devises;<br/>
+    d) un modèle d'information a été ajouté pour les Interfaces et les AddIns;<br/>
+    e) un modèle d'information a été ajouté pour les Métadonnées de Méthode;<br/>
+    f) les capacités MaxSessions, MaxSubscriptions et MaxMonitoredItems ont été ajoutées;<br/>
+    g) un modèle d'information a été ajouté pour la liste ordonnée d'objets;<br/>
+    h) les DataTypes PortableQualifiedName et PortableNodeId ont été ajoutés;<br/>
+    i) le DataType UriString a été jouté;<br/>
+    j) le DataType SemanticVersionString a été ajouté;<br/>
+    k) le Type de Référence AssociatedWith a été ajouté;<br/>
+    l) la Propriété ConfigurationVersion a été ajoutée au NamespaceMetadataType;<br/>
+    m) l'AuditClientEventType et l'AuditClientUpdateMethodResultEventType ont été ajoutés;<br/>
+    n) la ModelVersion a été ajoutée au NamespaceMetadataType;<br/>
+    o) le NoTransparentBackupRedundancyType a été ajouté pour prendre en charge un cas d'utilisation primaire/de secours;<br/>
+    p) le BitFieldType et le BitFieldDefinitionType ont été ajoutés.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101126
+    docidentifier:
+    - content: iec:proj:101126
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:82273
+    docidentifier:
+    - content: iec:pub:82273
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

@@ -1,0 +1,166 @@
+---
+id: IEC61158322023ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-2: Data-link layer service definition -- Type 2 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 3-2: Data-link layer service definition -- Type 2 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-2: Définition des services de la couche liaison de données -- Éléments de type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 3-2: Définition des services de la couche liaison de données -- Éléments de type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104249
+docidentifier:
+- content: IEC 61158-3-2:2023 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:104249
+  type: URN
+date:
+- type: published
+  at: '2023-03-09'
+- type: created
+  at: '2020-04-17'
+- type: forecast
+  at: '2023-03-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-3-2:2023 is one of a series produced to facilitate the interconnection of automation system components. It is related to other standards in the set as defined by the "three-layer" fieldbus reference model described in IEC 61158‑1.<br/>
+    Throughout the set of fieldbus standards, the term "service" refers to the abstract capability provided by one layer of the OSI Basic Reference Model to the layer immediately above. Thus, the data-link layer service defined in this document is a conceptual architectural service, independent of administrative and implementation divisions.
+- language: fr
+  script: Latn
+  content: L’IEC 61158-3-2:2023 fournit les éléments communs pour les communications de messagerie prioritaires entre les appareils d’un environnement d’automatisation. Le terme "prioritaire" est utilisé pour indiquer la présence d’une fenêtre temporelle, dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon un niveau défini de certitude. La non-réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui demandent ces actions, avec les risques qui en découlent pour l’équipement, les installations et éventuellement la vie humaine.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22077
+    docidentifier:
+    - content: iec:proj:22077
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:103146
+    docidentifier:
+    - content: iec:proj:103146
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:139848
+    docidentifier:
+    - content: iec:proj:139848
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:66934
+    docidentifier:
+    - content: iec:pub:66934
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

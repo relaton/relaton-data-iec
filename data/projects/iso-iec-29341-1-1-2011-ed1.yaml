@@ -1,0 +1,147 @@
+---
+id: ISOIEC29341112011ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: UPnP Device Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1-1: UPnP Device Architecture Version 1.1'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - UPnP Device Architecture - Part 1-1: UPnP Device Architecture Version 1.1'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18887
+docidentifier:
+- content: ISO/IEC 29341-1-1:2011 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:18887
+  type: URN
+date:
+- type: published
+  at: '2011-09-12'
+- type: forecast
+  at: '2011-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    ISO/IEC 29341-1-1:2011(E) The UPnP Device Architecture (formerly known as the DCP Framework). It defines the protocols for communication between controllers, or control points, and devices. For discovery, description, control, eventing, and presentation, the UPnP Device Architecture uses the following protocol stack:<br/>   
+    - UPnP vendor-specific information;<br/>                         
+    - information defined by UPnP;<br/>                              
+    - UPnPspecific protocols such as the Simple Service Discovery Protocol (SSDP) the General Event Notification Architecture (GENA) and the multicast event protocol defined in this document, and others that are referenced. SSDP is delivered via either multicast or unicast UDP. Multicast events are delivered via multicast UDP. GENA is delivered via HTTP. Ultimately, all messages above are delivered over IP. The remaining clauses of this document describe the content and format for each of these protocol layers in detail.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:11432
+    docidentifier:
+    - content: iec:pub:11432
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

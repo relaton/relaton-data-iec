@@ -1,0 +1,177 @@
+---
+id: IEC61158432007ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-3: Data-link layer protocol specification -- Type 3 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-3: Data-link layer protocol specification -- Type 3 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-3: Spécification du protocole de la couche liaison de données -- Eléments de type 3'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-3: Spécification du protocole de la couche liaison de données -- Eléments de type 3'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16019
+docidentifier:
+- content: IEC 61158-4-3:2007 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:16019
+  type: URN
+date:
+- type: published
+  at: '2007-12-14'
+- type: created
+  at: '2005-04-01'
+- type: forecast
+  at: '2007-11-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-4-3:2007 specifies the procedures for the timely transfer of data and control information from one data-link user entity to a peer user entity, and among the data-link entities forming the distributed data-link service provider and the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This first edition and its companion parts of the IEC 61158-4 subseries cancel and replace IEC 61158-4:2003. It constitutes an editorial revision. It includes the following changes:<br/>
+    - deletion of the former Type 6 fieldbus, and the placeholder for a Type 5 fieldbus data link layer, for lack of market relevance;<br/>
+    - addition of new types of fieldbuses;<br/>
+    - division of this part into multiple parts numbered -4 1, -4 2, , -4-19. This bilingual version (2014-08) corresponds to the English version, published in 2007-12.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-3:2007 spécifie des procédures de transfert en temps opportun de données et d'informations de commande d'une entité utilisateur de liaison de données à une entité utilisateur homologue ainsi qu'entre entités de liaison de données qui constituent le fournisseur de services distribués de la liaison et la structure des DLPDU de bus de terrain utilisées pour le transfert des données et les des informations de commande par le protocole objet de la présente norme, ainsi que leur représentation en tant qu'unité de données d'interface de couche physique. Cette première édition et ses parties d'accompagnement de la sous-série CEI 61158-4 annulent et remplacent la CEI 61158-4:2003. Elle constitue une révision éditoriale. Cette édition de la CEI 61158-4 inclut les modifications suivantes:<br/>
+    - suppression du précédent bus de terrain de Type 6 et de la référence à une couche de liaison de données de bus de terrain de Type 5, en raison du manque d'adéquation au marché;<br/>
+    - ajout de nouveaux types de bus de terrain;<br/>
+    - division de cette partie en parties multiples numérotées -4 1, -4 2, , -4-19. La présente version bilingue (2014-08) correspond à la version anglaise monolingue publiée en 2007-12.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:10893
+    docidentifier:
+    - content: iec:proj:10893
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14007
+    docidentifier:
+    - content: iec:proj:14007
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:18634
+    docidentifier:
+    - content: iec:proj:18634
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21647
+    docidentifier:
+    - content: iec:proj:21647
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19194
+    docidentifier:
+    - content: iec:pub:19194
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer

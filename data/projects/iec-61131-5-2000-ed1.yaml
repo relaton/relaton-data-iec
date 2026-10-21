@@ -1,0 +1,144 @@
+---
+id: IEC6113152000ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Programmable controllers
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5: Communications'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Programmable controllers - Part 5: Communications'
+  type: main
+- language: fr
+  script: Latn
+  content: Automates programmables
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5: Communications'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Automates programmables - Partie 5: Communications'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/7202
+docidentifier:
+- content: IEC 61131-5:2000 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:7202
+  type: URN
+date:
+- type: published
+  at: '2000-11-15'
+- type: created
+  at: '1990-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65B
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61131-5:2000 specifies communication aspects of a programmable controller. It specifies from the viewpoint of a PC how any device can communicate with a PC as a server and how a PC can communicate with any device. In particular, it specifies the behavior of the PC as it provides services on behalf of other devices and the services the PC application program can request from other devices. This bilingual version (2012-08) corresponds to the monolingual English version, published in 2000-11.
+
+    <br/><br/>This publication is to be read in conjunction with the IEC 61131 series.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61131-5:2000 spécifie les aspects des automates programmables (AP) relatifs à la communication. Elle spécifie, du point de vue d'un AP, la manière dont chaque périphérique peut communiquer avec un AP en tant que serveur et la manière dont l'AP peut communiquer avec chaque périphérique. Elle spécifie, en particulier, le comportement de l'AP lorsqu'il fournit des services pour le compte d'autres périphériques et les services que le programme application de l'AP peut demander aux autres périphériques. La présente version bilingue (2012-08) correspond à la version anglaise monolingue publiée en 2000-11.
+
+    <br/><br/>Cette publication doit être lue conjointement avec la série CEI 61131.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19950
+    docidentifier:
+    - content: iec:proj:19950
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:4554
+    docidentifier:
+    - content: iec:pub:4554
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry

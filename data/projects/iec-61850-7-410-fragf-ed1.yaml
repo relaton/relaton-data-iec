@@ -1,0 +1,109 @@
+---
+id: IEC618507410FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux et systèmes de communication pour l'automatisation des systèmes électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 7-410: Centrales hydroélectriques'
+  type: title-main
+- language: fr
+  script: Latn
+  content: Communication pour contrôle et commande
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques - Partie 7-410: Centrales hydroélectriques - Communication pour contrôle et commande'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19432
+docidentifier:
+- content: IEC 61850-7-410/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:19432
+  type: URN
+date:
+- type: forecast
+  at: '2011-08-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61850-7-410:2007 spécifie des classes de données communes additionnelles, noeuds logiques et objets de données qui sont indispensables pour l'utilisation de la CEI 61850 dans une centrale hydroélectrique. Les Noeuds Logiques et Objets de Donnée définis dans la présente partie de la CEI 61850 appartiennent aux domaines d'utilisation suivants:<br/>
+    - fonctions électriques;<br/>
+    - fonctions mécaniques;<br/>
+    - fonctions hydrologiques;<br/>
+    - capteurs.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:13406
+    docidentifier:
+    - content: iec:proj:13406
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17868
+    docidentifier:
+    - content: iec:proj:17868
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

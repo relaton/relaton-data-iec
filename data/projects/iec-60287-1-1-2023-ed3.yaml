@@ -1,0 +1,137 @@
+---
+id: IEC60287112023ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electric cables
+  type: title-intro
+- language: en
+  script: Latn
+  content: Calculation of the current rating
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1-1: Current rating equations (100 % load factor) and calculation of losses -- General'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electric cables - Calculation of the current rating - Part 1-1: Current rating equations (100 % load factor) and calculation of losses -- General'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104906
+docidentifier:
+- content: IEC 60287-1-1:2023 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:104906
+  type: URN
+date:
+- type: published
+  at: '2023-05-22'
+- type: created
+  at: '2020-12-04'
+- type: forecast
+  at: '2023-06-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 20
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60287-1-1:2023 is applicable to the conditions of steady-state operation of cables at all alternating voltages, and direct voltages up to 5 kV, buried directly in the ground, in ducts, troughs or in steel pipes, both with and without partial drying-out of the soil, as well as cables in air. The term "steady state" is intended to mean a continuous constant current (100 % load factor) just sufficient to produce asymptotically the maximum conductor temperature, the surrounding ambient conditions being assumed constant. This document provides formulae for current ratings and losses. The formulae given are essentially literal and designedly leave open the selection of certain important parameters. These can be divided into three groups:<br/>
+    - parameters related to construction of a cable (for example, thermal resistivity of insulating material) for which representative values have been selected based on published work;<br/>
+    - parameters related to the surrounding conditions, which can vary widely, the selection of which depends on the country in which the cables are used or will be used;<br/>
+    - parameters which result from an agreement between manufacturer and user and which involve a margin for security of service (for example, maximum conductor temperature).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14148
+    docidentifier:
+    - content: iec:proj:14148
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20525
+    docidentifier:
+    - content: iec:proj:20525
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:68118
+    docidentifier:
+    - content: iec:pub:68118
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 29.060.20
+    text: Cables

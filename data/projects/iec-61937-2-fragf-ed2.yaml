@@ -1,0 +1,116 @@
+---
+id: IEC619372FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: french fragment
+  type: title-main
+- language: en
+  script: Latn
+  content: french fragment
+  type: main
+- language: fr
+  script: Latn
+  content: Audionumérique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interface pour les flux de bits audio à codage MIC non linéaire conformément à la CEI 60958
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Salve d''informations'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Audionumérique - Interface pour les flux de bits audio à codage MIC non linéaire conformément à la CEI 60958 - Partie 2: Salve d''informations'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19476
+docidentifier:
+- content: IEC 61937-2/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:19476
+  type: URN
+date:
+- type: forecast
+  at: '2011-09-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100/TA 20
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61937-2:2011 spécifie l'interface audionumérique pour acheminer des flux de bits audio à codage MIC non linéaire conformément à la CEI 60958-1 et à la CEI 60958-3. La présente norme spécifie la salve d'information qui définit le contenu d'informations sur les données contenues dans la charge-utile de salve. Cette deuxième édition annule et remplace la première édition publiée en 2000. La présente édition contient les importantes modifications techniques suivantes par rapport à l'édition précédente:<br/>
+    a) Les nouveaux types-de-données audio AC-3 amélioré, MPEG-2 AAC faible fréquence d'échantillonnage, MPEG-4 AAC, DTS type IV, ATRAC-X, WMA professional et MAT sont ajoutés.<br/>
+    b) Le champ type-de-données dans Pc est étendu des bits 0 à 4 aux bits 0 à 6. La présente version bilingue correspond à la version anglaise monolingue publiée en 2007-05.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:15023
+    docidentifier:
+    - content: iec:proj:15023
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:103894
+    docidentifier:
+    - content: iec:proj:103894
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

@@ -1,0 +1,154 @@
+---
+id: IEC62541102020ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 10: Programs'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 10: Programs'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 10: Programmes'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 10: Programmes'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101131
+docidentifier:
+- content: IEC 62541-10:2020 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:101131
+  type: URN
+date:
+- type: published
+  at: '2020-07-07'
+- type: created
+  at: '2017-07-28'
+- type: forecast
+  at: '2020-07-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-10:2020 defines the information model associated with Programs in the OPC Unified Architecture. This includes the description of the NodeClasses, standard Properties, Methods and Events and associated behaviour and information for Programs. The complete Address Space model including all NodeClasses and Attributes is specified in IEC 62541-3. The Services such as those used to invoke the Methods used to manage Programs are specified in IEC 62541 4. This third edition cancels and replaces the second edition published in 2015. This edition includes several clarifications and in addition the following significant technical changes with respect to the previous edition:<br/>
+    a) Changed ProgramType to ProgramStateMachineType. This is in line with the NodeSet (and thus implementations). In ProgramDiagnosticDataType: changed the definition of lastInputArguments and lastOutputArguments and added two additional fields for the argument values. Also changed StatusResult into StatusCode. Created new version of the type to ProgramDiagnostic2DataType.<br/>
+    b) Changed Optional modelling rule to OptionalPlaceHolder for Program control Methods. Following the clarification in IEC 62541-3, this now allows subtypes (or instances) to add arguments.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-10:2020 définit le modèle d'information associé avec des Programmes dans l'Architecture unifiée OPC. Elle comprend la description des NodeClasses, des Propriétés, Méthodes et Evénements normalisés et du comportement associé ainsi que des informations relatives aux Programmes. Le modèle d'espace d'adressage complet, comprenant toutes les NodeClasses et tous les Attributs, est spécifié dans l'IEC 62541-3. Les Services tels que ceux utilisés pour invoquer les Méthodes appliquées pour gérer les Programmes sont spécifiés dans l'IEC 62541-4. Cette troisième édition annule et remplace la deuxième édition parue en 2015.<br/>
+    Cette édition inclut plusieurs clarifications ainsi que les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) remplacement de ProgramType par ProgramStateMachineType, conformément au NodeSet (et donc aux mises en œuvre). Dans le programme ProgramDiagnosticDataType, modification des définitions de lastInputArguments et lastOutputArguments, et ajout de deux champs complémentaires pour les valeurs d'arguments. Remplacement également de StatusResult par StatusCode. Création d'une nouvelle version du type de ProgramDiagnostic2DataType;<br/>
+    b) remplacement de la règle de modélisation Facultative par OptionalPlaceHolder pour les Méthodes de Commande de Programme. Ceci fait suite à la clarification apportée dans l'IEC 62541-3, et permet aux sous-types (ou instances) d'ajouter des arguments.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21056
+    docidentifier:
+    - content: iec:proj:21056
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:115407
+    docidentifier:
+    - content: iec:proj:115407
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:61119
+    docidentifier:
+    - content: iec:pub:61119
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

@@ -1,0 +1,137 @@
+---
+id: IEC6338032025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Standard interface for connecting charging stations to local energy management systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Part 3 Communication protocol and cybersecurity specific aspects
+  type: title-main
+- language: en
+  script: Latn
+  content: Standard interface for connecting charging stations to local energy management systems - Part 3 Communication protocol and cybersecurity specific aspects
+  type: main
+- language: fr
+  script: Latn
+  content: Interface normale pour la connexion de bornes de charge aux systèmes locaux de gestion de l’énergie
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Protocole de communication et aspects spécifiques liés à la cybersécurité'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface normale pour la connexion de bornes de charge aux systèmes locaux de gestion de l’énergie - Partie 3: Protocole de communication et aspects spécifiques liés à la cybersécurité'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/111074
+docidentifier:
+- content: IEC 63380-3:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:111074
+  type: URN
+date:
+- type: published
+  at: '2025-07-08'
+- type: created
+  at: '2021-03-05'
+- type: forecast
+  at: '2025-07-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 69
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63380-3:2025 defines the secure information exchange between local energy management systems and electric vehicle charging stations. The local energy management systems communicate to the charging station controllers via the resource manager.<br/>
+    This document specifies the application of relevant transport protocols; in this case, SPINE (smart premises interoperable neutral-message exchange), SHIP (smart home IP), and ECHONET Lite. Other communication protocols can be defined in future editions
+- language: fr
+  script: Latn
+  content: |-
+    IEC 63380-3:2025 définit l’échange sécurisé d’informations entre les systèmes locaux de gestion de l’énergie et les bornes de charge pour véhicules électriques. Les systèmes locaux de gestion de l’énergie communiquent avec les contrôleurs de charge par l’intermédiaire du gestionnaire des ressources.<br/>
+    Le présent document spécifie l’application des protocoles de transport pertinents: en l’occurrence, SPINE (Smart Premises Interoperable Neutral-Message Exchange), SHIP (Smart Home IP) et ECHONET Lite. D’autres protocoles de communication peuvent être définis dans les prochaines éditions.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:76169
+    docidentifier:
+    - content: iec:pub:76169
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  - code: '43.120'
+    text: Electric road vehicles

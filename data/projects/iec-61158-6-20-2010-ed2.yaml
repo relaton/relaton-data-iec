@@ -1,0 +1,137 @@
+---
+id: IEC611586202010ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-20: Application layer protocol specification -- Type 20 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-20: Application layer protocol specification -- Type 20 elements'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18680
+docidentifier:
+- content: IEC 61158-6-20:2010 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:18680
+  type: URN
+date:
+- type: published
+  at: '2010-08-06'
+- type: created
+  at: '2009-01-16'
+- type: forecast
+  at: '2010-08-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEC 61158-6-20:2010(E) specifies the protocol of the Type 20 fieldbus application layer, in conformance with the OSI Basic Reference Model (ISO/IEC 7498-1) and the OSI application layer structure (ISO/IEC 9545). It defines the protocol provided to define the wire-representation of the service primitives defined in IEC 61158-5-20:2010, and the externally visible behavior associated with their transfer. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical revision. The main changes with respect to the previous edition are: revised Identify FAL PDU, see 5.3.2 and revised Read device variables with status FAL PDU, see 5.3.9.'
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16068
+    docidentifier:
+    - content: iec:proj:16068
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22152
+    docidentifier:
+    - content: iec:proj:22152
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:19240
+    docidentifier:
+    - content: iec:pub:19240
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

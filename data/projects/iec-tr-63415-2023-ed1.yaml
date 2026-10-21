@@ -1,0 +1,129 @@
+---
+id: IECTR634152023ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Nuclear Power plants
+  type: title-intro
+- language: en
+  script: Latn
+  content: Instrumentation and control systems
+  type: title-main
+- language: en
+  script: Latn
+  content: Use of formal security models for I&C security architecture design and assessment
+  type: title-part
+- language: en
+  script: Latn
+  content: Nuclear Power plants - Instrumentation and control systems - Use of formal security models for I&C security architecture design and assessment
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/107084
+docidentifier:
+- content: IEC TR 63415:2023 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:107084
+  type: URN
+date:
+- type: published
+  at: '2023-08-30'
+- type: created
+  at: '2021-10-08'
+- type: forecast
+  at: '2024-04-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 45/SC 45A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 63415:2023 provides an overview over the formalized modelling and designing of cybersecure architectures to apply for I&amp;C system cybersecurity enforcement at NPPs. The plant-specific risk assessment can use the techniques covered by this TR. This document considers the complex problem of NPP I&amp;C architecture synthesis to address particular issues:<br/>
+    - asset classification,<br/>
+    - barrier measures assignment,<br/>
+    - the information transfer and links conformity with security requirements.<br/>
+    This document provides guidance on creating a comprehensive security model applicable to NPP I&amp;C systems that describes NPP I&amp;C cybersecurity architecture and aids in accomplishing the main tasks of I&amp;C system secure design, which are:<br/>
+    - specification of system designs with increased determinism that enhance security,<br/>
+    - mapping of the security requirements into the security architecture of the I&amp;C system,<br/>
+    - definition of the security requirements for information exchange between components within the I&amp;C system, operators and other systems,<br/>
+    - assistance in the determination of the security degree assignment with a model-based technique considering asset properties and formal grouping of the assets,<br/>
+    design and establishment of security zones boundaries.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:71453
+    docidentifier:
+    - content: iec:pub:71453
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety

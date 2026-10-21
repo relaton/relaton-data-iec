@@ -1,0 +1,123 @@
+---
+id: IECTS6245353902025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Field Device Tool (FDT) Interface Specification
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 53-90: Communication implementation for CLI and HTML – IEC 61784 CPF 9'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Field Device Tool (FDT) Interface Specification - Part 53-90: Communication implementation for CLI and HTML – IEC 61784 CPF 9'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/114777
+docidentifier:
+- content: IEC TS 62453-53-90:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:114777
+  type: URN
+date:
+- type: published
+  at: '2025-04-15'
+- type: created
+  at: '2023-04-14'
+- type: forecast
+  at: '2025-04-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 62453-53-90:2025 provides information for integrating the HART®[1] technology into the CLI-based implementation of FDT interface specification (IEC TS 62453-43).<br/>
+    This document specifies implementation of communication and other services based on IEC 62453‑309.<br/>
+    This document neither contains the FDT specification nor modifies it.<br/>
+    [1] HART® and WirelessHART® are trade names of products supplied by FieldComm Group. This information is given for convenience of users of this document and does not constitute an endorsement by IEC of the product named. Equivalent products may be used if they can be shown to lead to the same results.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:81231
+    docidentifier:
+    - content: iec:pub:81231
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications
+  - code: '35.110'
+    text: Networking

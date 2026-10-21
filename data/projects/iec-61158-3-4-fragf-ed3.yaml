@@ -1,0 +1,126 @@
+---
+id: IEC6115834FRAGFED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-4: Data-link layer service definition -- Type 4 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 3-4: Data-link layer service definition -- Type 4 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels"
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-4 : définition des services de couche liaison de données -- Elements de type 4</p>'
+  type: title-part
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels - Spécifications des bus de terrain - Partie 3-4 : définition des services de couche liaison de données -- Elements de type 4</p>"
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104776
+docidentifier:
+- content: IEC 61158-3-4/FRAGF ED3
+  type: IEC
+  primary: true
+- content: iec:proj:104776
+  type: URN
+date:
+- type: created
+  at: '2015-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-3-4:2019 provides common elements for basic time-critical messaging communications between devices in an automation environment. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This International Standard defines in an abstract way the externally visible services provided by the Type 4 fieldbus data-link layer in terms of<br/>
+    a) the primitive actions and events of the services;<br/>
+    b) the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    c) the interrelationship between these actions and events, and their valid sequences.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61158-3-4:2019 fournit les éléments communs des communications de messagerie critiques du point de vue temporel entre dispositifs dans un environnement automatisé. Le terme "en temps critique" signale l'existence d'une fenêtre temporelle dans laquelle des actions spécifiées doivent être exécutées, avec un niveau de certitude défini. La non-réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui demandent ces actions, avec les risques afférents pour l'équipement, les installations et éventuellement la vie humaine.<br/>
+    La présente norme définit de manière abstraite les services visibles de l'extérieur fournis par la couche liaison de données de réseau de terrain de type 4 en termes<br/>
+    a) des actions et événements primitifs des services;<br/>
+    b) de paramètres associés à chaque événement et action de primitive, ainsi que de forme prise par ces paramètres; et<br/>
+    c) d'interaction entre ces événements et ces actions, ainsi que de séquences valides desdits événements et actions.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

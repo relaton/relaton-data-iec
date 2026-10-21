@@ -1,0 +1,111 @@
+---
+id: IEC620712FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: french fragment
+  type: title-main
+- language: en
+  script: Latn
+  content: french fragment
+  type: main
+- language: fr
+  script: Latn
+  content: Système de magnétoscope numérique à cassette à balayage hélicoïdal à signal compressé utilisant une bande magnétique de 6,35 mm
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Format D-7
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Format de compression'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Système de magnétoscope numérique à cassette à balayage hélicoïdal à signal compressé utilisant une bande magnétique de 6,35 mm - Format D-7 - Partie 2: Format de compression'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20792
+docidentifier:
+- content: IEC 62071-2/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20792
+  type: URN
+date:
+- type: forecast
+  at: '2013-02-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100/TA 6
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62071-2:2005 définit la structure de données sur base DV pour l'interface des données audionumériques, de sous-code, et vidéo comprimées avec les paramètres suivants:<br/>
+    - système 525/60 - structure d'échantillonnage de l'image 4:1:1, débit de données 25 Mb/s;<br/>
+    - système 525/60 - structure d'échantillonnage de l'image 4:2:2, débit de données 50 Mb/s;<br/>
+    - système 625/50 - structure d'échantillonnage de l'image 4:1:1, débit de données 25 Mb/s;<br/>
+    - système 625/50 - structure d'échantillonnage de l'image 4:2:2, débit de données 50 Mb/s. La présente version bilingue (2013-07) correspond à la version anglaise monolingue publiée en 2005-10.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:13621
+    docidentifier:
+    - content: iec:proj:13621
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

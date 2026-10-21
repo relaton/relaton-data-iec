@@ -1,0 +1,165 @@
+---
+id: IEC6115822014ED6
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Physical layer specification and service definition'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 2: Physical layer specification and service definition'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Spécification et définition des services de la couche physique'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 2: Spécification et définition des services de la couche physique'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19168
+docidentifier:
+- content: IEC 61158-2:2014 ED6
+  type: IEC
+  primary: true
+- content: iec:proj:19168
+  type: URN
+date:
+- type: published
+  at: '2014-07-17'
+- type: created
+  at: '2010-11-12'
+- type: forecast
+  at: '2014-08-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '6'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-2:2014 specifies the requirements for fieldbus component parts. It also specifies the media and network configuration requirements necessary to ensure agreed levels of data integrity before data-link layer error checking and interoperability between devices at the physical layer. The fieldbus physical layer conforms to layer 1 of the OSI 7-layer model as defined by ISO 7498 with the exception that, for some types, frame delimiters are in the physical layer while for other types they are in the data-link layer. This sixth edition cancels and replaces the fifth edition published in 2010. It constitutes a technical revision. This edition includes the following changes:<br/>
+    - new Type 20 specification;<br/>
+    - new Type 24 specification;<br/>
+    - RS232 media specification for Type 4 removed.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-2:2014 spécifie les exigences applicables aux composants de bus de terrain. Elle spécifie également les exigences de configuration des supports et des réseaux requises pour garantir un niveau d'intégrité des données avant vérification d'erreur de la couche liaison de données et l'interopérabilité entre appareils au niveau de la couche physique. La couche physique des bus de terrain est conforme à la couche 1 du modèle OSI à 7 couches, telle que définie dans l'ISO/CEI 7498, à l'exception du fait que, pour certains types, les délimiteurs de trame se trouvent dans la couche physique tandis que pour d'autres types, ils se trouvent dans la couche liaison de données. Cette sixième édition annule et remplace la cinquième édition parue en 2010. Elle constitue une révision technique. Elle inclut les modifications suivantes:<br/>
+    - nouvelle spécification de Type 20;<br/>
+    - nouvelle spécification de Type 24;<br/>
+    - spécification des supports RS232 pour Type 4 retirée.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:17797
+    docidentifier:
+    - content: iec:proj:17797
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:104248
+    docidentifier:
+    - content: iec:proj:104248
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:4625
+    docidentifier:
+    - content: iec:pub:4625
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.240.50
+    text: IT applications in industry

@@ -1,0 +1,157 @@
+---
+id: IEC62056612015ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-1: Object Identification System (OBIS)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 6-1: Object Identification System (OBIS)'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange des données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-1: Système d''identification des objets (OBIS)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange des données de comptage de l''électricité - La suite DLMS/COSEM - Partie 6-1: Système d''identification des objets (OBIS)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21724
+docidentifier:
+- content: IEC 62056-6-1:2015 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21724
+  type: URN
+date:
+- type: published
+  at: '2015-11-19'
+- type: created
+  at: '2013-12-20'
+- type: forecast
+  at: '2015-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62056-6-1:2015 specifies the overall structure of the OBject Identification System (OBIS) and the mapping of all commonly used data items in metering equipment to their identification codes. OBIS provides a unique identifier for all data within the metering equipment, including not only measurement values, but also abstract values used for configuration or obtaining information about the behaviour of the metering equipment. This second edition cancels and replaces the first edition of IEC 62056-6-1, published in 2013. It constitutes a technical revision. The main technical changes with respect to the previous edition are listed in Annex B (informative).
+- language: fr
+  script: Latn
+  content: L'IEC 62056-6-1:2015 spécifie la structure globale du Système d'Identification d'OBjet (OBIS) et la mise en correspondance de tous les éléments de données couramment utilisés dans le matériel de comptage avec leurs codes d'identification. Le système OBIS fournit un identifiant unique pour toutes les données du matériel de comptage, incluant non seulement les valeurs de mesure, mais également des valeurs abstraites utilisées pour la configuration ou pour obtenir des informations sur le comportement du matériel de comptage. Cette deuxième édition annule et remplace la première édition de l'IEC 62056-6-1, parue en 2013. Cette édition constitue une révision technique. Les modifications techniques majeures par rapport à l'édition précédente sont énumérées dans l'Annexe B (informative).
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18914
+    docidentifier:
+    - content: iec:proj:18914
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23231
+    docidentifier:
+    - content: iec:proj:23231
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:23737
+    docidentifier:
+    - content: iec:pub:23737
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems

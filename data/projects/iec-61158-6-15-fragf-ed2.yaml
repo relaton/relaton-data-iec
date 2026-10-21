@@ -1,0 +1,128 @@
+---
+id: IEC61158615FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-15: Application layer protocol specification -- Type 15 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 6-15: Application layer protocol specification -- Type 15 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-15: Spécification des protocoles des couches d''application – Eléments de type 15'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 6-15: Spécification des protocoles des couches d''application – Eléments de type 15'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105314
+docidentifier:
+- content: IEC 61158-6-15/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:105314
+  type: URN
+date:
+- type: created
+  at: '2009-01-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-6-15:2010 (E) provides common elements for basic time-critical and non-time-critical messaging communications between application programs in an automation environment and material specific to Type 15 fieldbus. The term “time-critical” is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This standard defines in an abstract way the externally visible behavior provided by the Type 15 fieldbus Application Layer in terms of<br/>
+    a) the abstract syntax defining the application layer protocol data units conveyed between communicating application entities,<br/>
+    b) the transfer syntax defining the application layer protocol data units conveyed between communicating application entities,<br/>
+    c) the application context state machine defining the application service behavior visible between communicating application entities; and<br/>
+    d) the application relationship state machines defining the communication behavior visible between communicating application entities.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-6-15:2010 (FR) fournit des éléments communs pour les communications de messagerie prioritaires et non prioritaires élémentaires entre les programmes d’application des environnements d’automatisation et le matériel spécifique au bus de terrain de type 15. On utilise le terme "prioritaire" pour traduire la présence d’une fenêtre temporelle, à l’intérieur de laquelle une ou plusieurs actions spécifiées doivent être terminées avec un niveau de certitude défini. Si les actions spécifiées ne sont pas terminées à l’intérieur de cette fenêtre temporelle, les applications qui ont demandé l’exécution de ces actions risquent de présenter des dysfonctionnements, accompagnés de risques pour les équipements, l’usine, voire les vies humaines.<br/>
+    La présente norme définit d’une manière abstraite le comportement visible de manière externe fourni par la couche application du bus de terrain de type 15 en termes<br/>
+    a) de syntaxe abstraite définissant les unités de données de protocole de couche application transmises entre les entités d’application communicantes,<br/>
+    b) de syntaxe de transfert définissant les unités de données de protocole de couche application transmises entre les entités d’application communicantes,<br/>
+    c) de diagramme d’états de contexte d’application définissant le comportement de service d’application visible entre les entités d’application communicantes; et<br/>
+    d) de diagramme d’états de relation d’application définissant le comportement de communication visible entre les entités d’application communicantes.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

@@ -1,0 +1,102 @@
+---
+id: IEC620262FRAGfED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Appareillage à basse tension
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces appareil de commande-appareil (CDI)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Interface capteur-actionneur (AS-i)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Appareillage à basse tension - Interfaces appareil de commande-appareil (CDI) - Partie 2: Interface capteur-actionneur (AS-i)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/16782
+docidentifier:
+- content: IEC 62026-2/FRAGf ED2
+  type: IEC
+  primary: true
+- content: iec:proj:16782
+  type: URN
+date:
+- type: forecast
+  at: '2009-09-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 121/SC 121A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 62026-2 :2008  spécifie une méthode de communication entre un seul appareil de commande et des éléments de commutation. Elle établit un système d'interopérabilité pour les composants équipés des interfaces de communication spécifiées. Le système complet est appelé "Interface capteur-actionneur (AS-i)".
+    Cette deuxième édition de la CEI 62026-2 annule et remplace la première édition parue en 2000. Cette deuxième édition constitue une révision technique.
+    Les principales modifications apportées par rapport à l'édition précédente sont indiquées ci-dessous: -doublement du nombre d'esclaves, passant de 31 à 62, par l'introduction de sous-adresses; -introduction du système de sécurité AS-I.
+    La présente version bilingue, publiée en 2009-08, correspond à la version anglaise.
+    La version française de cette norme n'a pas été soumise au vote.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:15247
+    docidentifier:
+    - content: iec:proj:15247
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

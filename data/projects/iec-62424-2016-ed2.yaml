@@ -1,0 +1,164 @@
+---
+id: IEC624242016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Representation of process control engineering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Requests in P&I diagrams and data exchange between P&ID tools and PCE-CAE tools
+  type: title-main
+- language: en
+  script: Latn
+  content: Representation of process control engineering - Requests in P&I diagrams and data exchange between P&ID tools and PCE-CAE tools
+  type: main
+- language: fr
+  script: Latn
+  content: Représentation de l'ingénierie de commande de processus
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Demandes sous forme de diagrammes P&I et échange de données entre outils P&ID et outils PCE-CAE
+  type: title-main
+- language: fr
+  script: Latn
+  content: Représentation de l'ingénierie de commande de processus - Demandes sous forme de diagrammes P&I et échange de données entre outils P&ID et outils PCE-CAE
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20010
+docidentifier:
+- content: IEC 62424:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20010
+  type: URN
+date:
+- type: published
+  at: '2016-07-15'
+- type: created
+  at: '2012-01-27'
+- type: forecast
+  at: '2016-06-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62424:2016 specifies how process control engineering requests are represented in a P&amp;ID for automatic transferring data between P&amp;ID and PCE tool and to avoid misinterpretation of graphical P&amp;ID symbols for PCE. It also defines the exchange of process control engineering request relevant data between a process control engineering tool and a P&amp;ID tool by means of a data transfer language (called CAEX). These provisions apply to the export/import applications of such tools. This second edition cancels and replaces the first edition published in 2008. This edition constitutes a technical revision. It is a compatible extension of the first edition. The main changes and extensions are:<br/>
+    - updated definitions and new definitions;<br/>
+    - identification replaced with reference designation;<br/>
+    - updated PCE categories and process functions;<br/>
+    - CAEX version 3.0, introduction of: native multiple role support;<br/>
+    - nested interfaces;<br/>
+    - life cycle meta information;<br/>
+    - a separate Attribute library;<br/>
+    - updated examples;<br/>
+    - updated electronic data model of the PCE request: new normative attribute library for basic PCE request attributes;<br/>
+    - new informative extended attribute library for further PCE request attributes;<br/>
+    - new informative electronic data model for the PCE request.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62424:2016 spécifie la méthode de représentation des demandes d'ingénierie de commande de processus dans un diagramme P&amp;I en vue d'un transfert automatique de données entre les outils P&amp;ID et PCE, et de manière à prévenir toute interprétation erronée des symboles P&amp;ID graphiques pour une application PCE. Elle définit également l'échange de données de type demandes d'ingénierie de commande de processus entre un outil d'ingénierie de commande de processus et un outil P&amp;ID au moyen d'un langage de transfert de données (appelé CAEX). Ces dispositions s'appliquent aux fonctions exportation/importation de ces outils. Cette deuxième édition annule et remplace la première édition parue en 2008. Cette édition constitue une révision technique. Elle est une extension compatible de la première édition. Les principales modifications et extensions sont décrites à l'Annexe E et résumées ci-dessous:<br/>
+    - mise à jour et ajout de définitions;<br/>
+    - remplacement du terme "identification" par "désignation de référence";<br/>
+    - mise à jour des catégories PCE et des fonctions de traitement;<br/>
+    - version CAEX 3.0, introduisant les éléments suivants: rôles multiples natifs;<br/>
+    - interfaces imbriquées;<br/>
+    - informations supplémentaires sur le cycle de vie;<br/>
+    - bibliothèque Attribute séparée;<br/>
+    - exemples mis à jour;<br/>
+    - mise à jour du modèle de données électroniques de la demande PCE: nouvelle bibliothèque d'attributs normative pour les attributs de demande PCE de base;<br/>
+    - nouvelle bibliothèque d'attributs étendue informative pour les autres attributs de demande PCE;<br/>
+    - nouveau modèle de données électroniques informatif de la demande PCE.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14692
+    docidentifier:
+    - content: iec:proj:14692
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:25442
+    docidentifier:
+    - content: iec:pub:25442
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry

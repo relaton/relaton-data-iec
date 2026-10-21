@@ -1,0 +1,128 @@
+---
+id: IEC61326ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electrical equipment for measurement, control and laboratory use
+  type: title-intro
+- language: en
+  script: Latn
+  content: EMC requirements
+  type: title-main
+- language: en
+  script: Latn
+  content: Electrical equipment for measurement, control and laboratory use - EMC requirements
+  type: main
+- language: fr
+  script: Latn
+  content: Matériels électriques de mesure, de commande et de laboratoire
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Prescriptions relatives à la CEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: Matériels électriques de mesure, de commande et de laboratoire - Prescriptions relatives à la CEM
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/1000001489
+docidentifier:
+- content: IEC 61326 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:1000001489
+  type: URN
+date:
+- type: published
+  at: '2002-02-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:10482
+    docidentifier:
+    - content: iec:proj:10482
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:11139
+    docidentifier:
+    - content: iec:proj:11139
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:12107
+    docidentifier:
+    - content: iec:proj:12107
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:12424
+    docidentifier:
+    - content: iec:proj:12424
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 33.100.20
+    text: Immunity

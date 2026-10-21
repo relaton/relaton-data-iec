@@ -1,0 +1,131 @@
+---
+id: IEC61937102017ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital audio
+  type: title-intro
+- language: en
+  script: Latn
+  content: Interface for non-linear PCM encoded audio bitstreams applying IEC 60958
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 10: Non-linear PCM bitstreams according to the MPEG-4 audio lossless coding (ALS) format'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital audio - Interface for non-linear PCM encoded audio bitstreams applying IEC 60958 - Part 10: Non-linear PCM bitstreams according to the MPEG-4 audio lossless coding (ALS) format'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22462
+docidentifier:
+- content: IEC 61937-10:2017 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:22462
+  type: URN
+date:
+- type: published
+  at: '2017-07-28'
+- type: created
+  at: '2014-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 100
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61937-10:2017(E) specifies the method for IEC 60958 to convey non-linear PCM bitstreams encoded in accordance with the MPEG-4 audio lossless coding (ALS) format.<br/>
+    This second edition cancels and replaces the first edition published in 2011. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Addition of Levels 2, 3, 4 of MPEG-4 ALS Simple Profile;<br/>
+    b) Addition of data-type bits 0-4 and data-type bits 5-6 for MPEG-4 ALS with LATM/LOAS header.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:16387
+    docidentifier:
+    - content: iec:proj:16387
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:30707
+    docidentifier:
+    - content: iec:pub:30707
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 33.160.30
+    text: Audio systems
+  - code: 35.240.99
+    text: IT applications in other fields

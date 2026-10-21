@@ -1,0 +1,108 @@
+---
+id: IEC61158615FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-15: Spécification des protocoles des couches d''application -- Eléments de type 15'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 6-15: Spécification des protocoles des couches d''application -- Eléments de type 15'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21670
+docidentifier:
+- content: IEC 61158-6-15/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21670
+  type: URN
+date:
+- type: forecast
+  at: '2014-02-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-6-15:2007 vise à définir le protocole mis en place pour définir la représentation filaire des primitives de service définies dans la norme CEI 61158-5-15, et définir le comportement visible de l'extérieur associé à leur transfert. La présente norme spécifie le protocole de la couche Application de bus de terrain de Type 15, en conformité avec le modèle de référence de base OSI (ISO/CEI 7498) et avec la structure de la couche Application OSI (ISO/CEI 9545). Cette première édition et les parties qui l'accompagnent de la sous-série CEI 61158-6 annulent et remplacent la CEI 61158-6:2003. Cette partie et ses parties d'accompagnement pour le Type 15 annulent et remplacent également la CEI/PAS 62030, publiée en 2005. L'édition de la présente partie constitue un ajout technique. Cette édition de la CEI 61158-6 inclut les modifications majeures suivantes par rapport à l'édition précédente:<br/>
+    - suppression du bus de terrain de type 6 précédent pour défaut de pertinence de commercialisation;<br/>
+    - ajout de nouveaux types de bus de terrain;<br/>
+    - fractionnement de la partie 6 de la troisième édition en plusieurs parties numérotées -6-2, -6-3,... La présente version bilingue (2014-12) correspond à la version anglaise monolingue publiée en 2007-12.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:16064
+    docidentifier:
+    - content: iec:proj:16064
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:18677
+    docidentifier:
+    - content: iec:proj:18677
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

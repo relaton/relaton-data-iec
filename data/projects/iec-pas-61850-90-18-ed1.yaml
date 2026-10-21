@@ -1,0 +1,100 @@
+---
+id: IECPAS618509018ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-18: Alarm handling in IEC 61850 based systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 90-18: Alarm handling in IEC 61850 based systems'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/137488
+docidentifier:
+- content: IEC PAS 61850-90-18 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:137488
+  type: URN
+date:
+- type: created
+  at: '2026-01-27'
+- type: forecast
+  at: '2026-11-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC PAS 61850-90-18:2026 (E), which is a Publicly Available Specification, is to create a common and uniform way to handle alarms in IEC 61850 and IEC 61400-25 based systems. It includes how alarms shall be modelled, and how IEC 61850 services shall be used to exchange alarms states.<br/>
+    This document is aligned with terms and definitions from the IEC 62682 series, Management of Alarm Systems for the Process Industries.<br/>
+    Relevant use cases from the following application domains are documented:<br/>
+    – WG10: IED communications and associated data models in power systems<br/>
+    – WG17: Distributed Energy Resources<br/>
+    – WG18: Hydroelectric power plants<br/>
+    – JWG25: Wind Power systems<br/>
+    The focus of this document is on the definition of a data model for alarms, and on the exchange of alarm data in an IEC 61850 system. It accommodates IEC 61850 engineering workflows based on SCL. How an alarm management system is designed, engineered, operated, maintained and optimized, or how alarms are presented in an HMI system, are out of scope.<br/>
+    In this document, the term 'process' is used according to the IEC 62682 definition and is intended to be understood in a broad sense. It is not used to refer to the process bus according to the IEC 61850 standard.<br/>
+    Annex A proposes implementation recommendations under the form of a candidate conformance block if this document is incorporated as an International Standard in the IEC 61850 series in the future.
+status:
+  stage:
+    abbreviation: BPUB
+    content: '60.00'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

@@ -1,0 +1,165 @@
+---
+id: IEC619703012020ED7
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 301: Common information model (CIM) base'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part 301: Common information model (CIM) base'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d'application pour système de gestion d'énergie (EMS-API)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 301: Base de modèle d''information commun (CIM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d''application pour système de gestion d''énergie (EMS-API) - Partie 301: Base de modèle d''information commun (CIM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101919
+docidentifier:
+- content: IEC 61970-301:2020 ED7
+  type: IEC
+  primary: true
+- content: iec:proj:101919
+  type: URN
+date:
+- type: published
+  at: '2020-06-26'
+- type: created
+  at: '2018-02-23'
+- type: forecast
+  at: '2020-07-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '7'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61970-301:2020 lays down the common information model (CIM), which is an abstract model that represents all the major objects in an electric utility enterprise typically involved in utility operations. By providing a standard way of representing power system resources as object classes and attributes, along with their relationships, the CIM facilitates the integration of network applications developed independently by different vendors, between entire systems running network applications developed independently, or between a system running network applications and other systems concerned with different aspects of power system operations, such as generation or distribution management. SCADA is modeled to the extent necessary to support power system simulation and inter-control centre communication. The CIM facilitates integration by defining a common language (i.e. semantics) based on the CIM to enable these applications or systems to access public data and exchange information independent of how such information is represented internally.<br/>
+    This edition reflects the model content version ‘IEC61970CIM17v38’, dated ‘2020-01-21’, and includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Added Feeder modelling;<br/>
+    b) Added ICCP configuration modelling;<br/>
+    c) Correction of issues found in interoperability testing or use of the standard;<br/>
+    d) Improved documentation;<br/>
+    e) Updated Annex A with custom extensions;<br/>
+    f) Added Annex B Examples of PST transformer modelling;<br/>
+    g) Added Annex C HVDC use cases.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 61970-301:2020 Le modèle d'information commun (CIM – common information model) est un modèle abstrait qui représente tous les objets principaux d'une entreprise de service public d'électricité habituellement nécessaires aux opérations d'une entreprise de service public d'électricité. La représentation normalisée des ressources de systèmes de puissance comme classes et attributs d'objets ainsi que leurs relations que fournit le CIM facilite l'intégration et l'interopérabilité des applications réseau développées de façon indépendante par différents fournisseurs, entre des systèmes complets exploitant des applications réseau développés de façon indépendante ou entre un système exploitant des applications réseau et d'autres systèmes concernés par différents aspects des opérations d'un système de puissance tels que la gestion de la production ou de la distribution.<br/>
+    Cette septième édition annule et remplace la sixième édition parue en 2016. Cette septième édition constitue une révision technique.<br/>
+    Cette édition reflète la version du contenu du modèle "IEC61970CIM17v38", datée de<br/>
+    "2020-01-21", et inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) modélisation Feeder ajoutée;<br/>
+    b) modélisation de la configuration ICCP ajoutée;<br/>
+    c) correction de problèmes détectés dans les essais d’interopérabilité ou l’utilisation de la norme;<br/>
+    d) documentation améliorée;<br/>
+    e) Annexe A mise à jour avec des extensions personnalisées;<br/>
+    f) Annexe B ajoutée Exemples de modélisation de transformateur PST;<br/>
+    g) Annexe C ajoutée Cas d’utilisation CCHT.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22691
+    docidentifier:
+    - content: iec:proj:22691
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:105242
+    docidentifier:
+    - content: iec:proj:105242
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:62698
+    docidentifier:
+    - content: iec:pub:62698
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

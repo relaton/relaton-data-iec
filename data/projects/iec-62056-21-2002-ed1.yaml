@@ -1,0 +1,154 @@
+---
+id: IEC62056212002ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data exchange for meter reading, tariff and load control
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 21: Direct local data exchange'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering - Data exchange for meter reading, tariff and load control - Part 21: Direct local data exchange'
+  type: main
+- language: fr
+  script: Latn
+  content: Equipements de mesure de l'énergie électrique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Echange des données pour la lecture des compteurs, le contrôle des tarifs et de la charge
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 21: Echange des données directes en local'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Equipements de mesure de l''énergie électrique - Echange des données pour la lecture des compteurs, le contrôle des tarifs et de la charge - Partie 21: Echange des données directes en local'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9250
+docidentifier:
+- content: IEC 62056-21:2002 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:9250
+  type: URN
+date:
+- type: published
+  at: '2002-05-15'
+- type: created
+  at: '1998-05-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Describes hardware and protocol specifications for local meter data
+    exchange. In such systems, a hand-held unit (HHU) or a unit with equivalent functions is connected to a tariff device or a group of devices.
+    <br /><br />This publication is of high relevance for Smart Grid</a>.
+- language: fr
+  script: Latn
+  content: |-
+    Décrit le matériel et les protocoles des échanges de
+    données de compteurs effectués en local. Dans ces systèmes, un terminal de saisie portable (TSP) ou un appareil aux fonctions équivalentes est connecté à un ou plusieurs appareils de
+    tarification.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:7146
+    docidentifier:
+    - content: iec:proj:7146
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6398
+    docidentifier:
+    - content: iec:pub:6398
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems

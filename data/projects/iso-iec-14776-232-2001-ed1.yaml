@@ -1,0 +1,141 @@
+---
+id: ISOIEC147762322001ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Small computer system interface (SCSI)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 232: Serial Bus Protocol 2 (SBP-2)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Small computer system interface (SCSI) - Part 232: Serial Bus Protocol 2 (SBP-2)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11614
+docidentifier:
+- content: ISO/IEC 14776-232:2001 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:11614
+  type: URN
+date:
+- type: published
+  at: '2001-11-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The SCSI command set is designed to provide efficient peer-to-peer operation of input&#x2F;output devices (disks, tapes, printers, etc.) by an operating system; it assumes a command-response protocol. This part of ISO&#x2F;IEC 14776 defines a protocol for the transport of commands and data over High Performance Serial Bus. The transport protocol, Serial Bus Protocol 2 or SBP-2, permits the exchange of commands, data and status between initiators and targets connected to Serial Bus. Serial interconnects offer a migration path for SCSI into the future because they may be better suited to cost reduction and speed increases than the parallel interconnects first utilized by SCSI. The solutions provided by SBP-2 are of general applicability to large classes of Serial Bus peripheral devices. Mechanisms are provided for the delivery of commands, date and status independent of the command set or device class of the peripheral. SBP-2 provides a generic framework that may be referenced by other documents or standards that address the unique requirements of a particular class of devices.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:10171
+    docidentifier:
+    - content: iec:pub:10171
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

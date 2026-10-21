@@ -1,0 +1,132 @@
+---
+id: IEC6152312023ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Delay and power calculation standards
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: Integrated Circuit (IC) Open Library Architecture (OLA)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Delay and power calculation standards - Part 1: Integrated Circuit (IC) Open Library Architecture (OLA)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/118073
+docidentifier:
+- content: IEC 61523-1:2023 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:118073
+  type: URN
+date:
+- type: published
+  at: '2023-10-11'
+- type: created
+  at: '2023-05-24'
+- type: forecast
+  at: '2023-11-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 91
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61523-1:2023 focuses on delay and power calculation for integrated circuit design with support for modeling logical behavior and signal integrity.<br/>
+    The standard specifications covered in this document are as follows:<br/>
+    - Description language for timing and power modeling, called the “delay calculation language” (DCL)<br/>
+    - Software procedural interface (PI) for communications between EDA applications and compiled libraries of DCL descriptions<br/>
+    - Standard file exchange format for parasitic information about the chip design: Standard Parasitic Exchange Format (SPEF)<br/>
+    - Informative usage examples<br/>
+    - Informative notes.<br/>
+    This is an IEC/IEEE dual logo standard.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19841
+    docidentifier:
+    - content: iec:proj:19841
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:85754
+    docidentifier:
+    - content: iec:pub:85754
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: '35.060'
+    text: Languages used in information technology

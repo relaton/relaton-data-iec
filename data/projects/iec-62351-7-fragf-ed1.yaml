@@ -1,0 +1,132 @@
+---
+id: IEC623517FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Power systems management and associated information exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: Data and communications security
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7: Network and System Management (NSM) data object models'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Power systems management and associated information exchange - Data and communications security - Part 7: Network and System Management (NSM) data object models'
+  type: main
+- language: fr
+  script: Latn
+  content: Gestion des systèmes de puissance et échanges d'informations associés
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité des communications et des données
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7 : Modèles d’objets de données de gestion de réseaux et de systèmes (NSM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Gestion des systèmes de puissance et échanges d''informations associés - Sécurité des communications et des données - Partie 7 : Modèles d’objets de données de gestion de réseaux et de systèmes (NSM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103393
+docidentifier:
+- content: IEC 62351-7/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103393
+  type: URN
+date:
+- type: created
+  at: '2014-04-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    EC 62351-7:2017 defines network and system management (NSM) data object models that are specific to power system operations. These NSM data objects will be used to monitor the health of networks and systems, to detect possible security intrusions, and to manage the performance and reliability of the information infrastructure. The goal is to define a set of abstract objects that will allow the remote monitoring of the health and condition of IEDs (Intelligent Electronic Devices), RTUs (Remote Terminal Units), DERs (Distributed Energy Resources) systems and other systems that are important to power system operations.<br/>
+    This edition of IEC 62351-7 cancels and replaces IEC TS 62351-7 published in 2010. This new edition constitutes a technical revision and includes the following significant technical changes with respect to IEC TS 62351-7:2010:<br/>
+    a) NSM object data model reviewed and enriched;<br/>
+    b) UML model adopted for NSM objects description;<br/>
+    c) SNMP protocol MIBs translation included as Code Components<br/>
+    The Code Components included in this IEC standard are also available as electronic machine readable file at: http://www.iec.ch/tc57/supportdocuments/IEC_62351-7.MIBS.light.zip.
+- language: fr
+  script: Latn
+  content: |-
+    EC 62351-7:2017 définit des modèles d’objets de données de gestion de réseaux et de systèmes (NSM – network and system management) spécifiques aux opérations des systèmes de puissance. Ces objets de données NSM servent à surveiller la bonne santé des réseaux et des systèmes afin de détecter les intrusions de sécurité potentielles, et de gérer les performances et la fiabilité de l’infrastructure d’information. L’objectif est de définir un ensemble d’objets abstraits qui permet de surveiller à distance la bonne santé des appareils électroniques intelligents (IED – Intelligent Electronic Devices), des terminaux à distance (RTU – Remote Terminal Units), des systèmes de ressources énergétiques décentralisées (DER – Distributed Energy Resources) et des autres systèmes importants pour les opérations des opérations des systèmes de puissance.<br/>
+    Cette édition de l’IEC 62351-7 annule et remplace l’IEC TS 62351-7 parue en 2010. Cette nouvelle édition constitue une révision technique et inclut les modifications techniques majeures suivantes par rapport à l'IEC TS 62351-7:2010:<br/>
+    a) revue et enrichissement du modèle de données d’objets NSM;<br/>
+    b) adoption du modèle UML pour la description des objets NSM;<br/>
+    c) traduction des MIB de protocole SNMP inclus comme composants codés.<br/>
+    Les composants codés inclus dans la présente norme IEC sont également disponibles sous forme d’un fichier électronique lisible sur machine: http://www.iec.ch/tc57/supportdocuments/IEC_62351-7.MIBS.light.zip.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:111032
+    docidentifier:
+    - content: iec:proj:111032
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

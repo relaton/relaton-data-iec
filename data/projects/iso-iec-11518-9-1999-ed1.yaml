@@ -1,0 +1,141 @@
+---
+id: ISOIEC1151891999ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: High-Performance Parallel Interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9: Serial Specification (HIPPI-SERIAL)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - High-Performance Parallel Interface - Part 9: Serial Specification (HIPPI-SERIAL)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9819
+docidentifier:
+- content: ISO/IEC 11518-9:1999 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:9819
+  type: URN
+date:
+- type: published
+  at: '1999-04-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Defines a physical-level interface for transmitting digital data at 800 Mbit/s or 1 600 Mbit/s serially over fibre-optic cables across distances of up to 10 km. The signalling sequences and protocol used are compatible with HIPPI-PH, ISO/IEC 11518-1, which is limited to 25 m distances. HIPPI-Serial may be integrated as a host's native interface, or used as an external extender for HIPPI-PH ports.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:9611
+    docidentifier:
+    - content: iec:pub:9611
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

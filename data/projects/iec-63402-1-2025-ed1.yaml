@@ -1,0 +1,154 @@
+---
+id: IEC6340212025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Energy Efficiency
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Customer Energy Management Systems -- Part 1: General Requirements and Architecture'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Energy Efficiency - Customer Energy Management Systems -- Part 1: General Requirements and Architecture'
+  type: main
+- language: fr
+  script: Latn
+  content: Efficacité énergétique
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Système de gestion d'énergie client
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Part 1: Exigences générales et architecture'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Efficacité énergétique - Système de gestion d''énergie client - Part 1: Exigences générales et architecture'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/105359
+docidentifier:
+- content: IEC 63402-1:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:105359
+  type: URN
+date:
+- type: published
+  at: '2025-06-26'
+- type: created
+  at: '2021-07-30'
+- type: forecast
+  at: '2025-07-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 23/SC 23K
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63402-1:2025 specifies general requirements and the architecture between the Point of Common Coupling (PCC) and smart devices (SD) operating within the Smart Grid premises-side system (i.e. residential or commercial but not industrial premises).<br/>
+    This document does not include requirements for:<br/>
+    - safety<br/>
+    - electromagnetic compatibility (EMC);<br/>
+    - data security, as it is assumed that the underlying protocols will take the data security aspect into account<br/>
+    - special equipment (e.g. legacy heat pumps) with a direct physical connection to the grid, as such equipment bypasses the customer energy manager (CEM) and is not HBES/BACS enabled (covered by other standards than the IEC 63402 series).<br/>
+    This group EE publication is primarily intended to be used as an EE standard for the products mentioned in the scope, but is also intended to be used by TCs in the preparation of publications for products which are included in the boundary mentioned in the scope of this document.<br/>
+    It has the status of a group energy efficiency publication in accordance with IEC Guide 118.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 63402-1:2025 spécifie les exigences générales et l'architecture entre le point de couplage commun (PCC) et les appareils intelligents (SD, Smart Devices) qui fonctionnent dans la partie "locaux" du réseau intelligent (c'est-à-dire les résidences ou les bâtiments commerciaux, mais pas les locaux industriels).<br/>
+    Le présent document ne traite pas des exigences relatives aux aspects suivants:<br/>
+    - la sécurité;<br/>
+    - la compatibilité électromagnétique (CEM);<br/>
+    - la sécurité des données, dans la mesure où les protocoles sous-jacents sont réputés prendre en compte l'aspect sécurité des données;<br/>
+    - les équipements spéciaux (par exemple, pompes à chaleur classiques) avec un raccordement physique direct au réseau, dans la mesure où ce type d'équipement contourne le gestionnaire d'énergie client (CEM, Customer Energy Manager) et n'est pas activé par un système HBES/SGTB (traités dans d'autres normes que la série IEC 63402).<br/>
+    Elle a le statut d’une publication groupée sur l’efficacité énergétique conformément au Guide 118 de l’IEC.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:68879
+    docidentifier:
+    - content: iec:pub:68879
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 03.100.70
+    text: Management systems
+  - code: '27.015'
+    text: Energy efficiency. Energy conservation in general
+  - code: '29.020'
+    text: Electrical engineering in general

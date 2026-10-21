@@ -1,0 +1,161 @@
+---
+id: IEC61968112013ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Application integration at electric utilities
+  type: title-intro
+- language: en
+  script: Latn
+  content: System interfaces for distribution management
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 11: Common information model (CIM) extensions for distribution'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Application integration at electric utilities - System interfaces for distribution management - Part 11: Common information model (CIM) extensions for distribution'
+  type: main
+- language: fr
+  script: Latn
+  content: Intégration d'applications pour les services électriques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interfaces système pour la gestion de distribution
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 11: Extensions du modèle d''information commun (CIM) pour la distribution'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration d''applications pour les services électriques - Interfaces système pour la gestion de distribution - Partie 11: Extensions du modèle d''information commun (CIM) pour la distribution'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19377
+docidentifier:
+- content: IEC 61968-11:2013 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:19377
+  type: URN
+date:
+- type: published
+  at: '2013-03-06'
+- type: created
+  at: '2011-06-10'
+- type: forecast
+  at: '2013-02-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61968-11:2013 specifies the distribution extensions of the common information model (CIM) specified in IEC 61970-301. It defines a standard set of extensions of common information model (CIM), which support message definitions in IEC 61968-3 to IEC 61968-9, IEC 61968-13 and IEC 61968-14. The scope of this standard is the information model that extends the base CIM for the needs of distribution networks, as well as for integration with enterprise-wide information systems typically used within electrical utilities. Major changes with respect to the first edition are summarized below:<br/>
+    - Introduction of new classes to support flexible naming of identified objects.<br/>
+    - Introduction of new classes to support single line diagrams exchange.<br/>
+    - Consolidated transmission and distribution models for lines, transformers, switching, sensing and other auxiliary equipment.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61968-11:2013 spécifie les extensions pour la distribution du modèle d'information commun (CIM - common information model) spécifié dans la CEI 61970-301. Elle définit un ensemble normalisé d'extensions du modèle d'information commun (CIM), qui prennent en charge les définitions de message données dans la CEI 61968-3 à la CEI 61968-9, la CEI 61968-13 et la CEI 61968-14. Le domaine d'application de la présente norme est le modèle d'information qui étend le CIM de base pour les besoins des réseaux de distribution, ainsi que pour l'intégration avec les systèmes d'information à l'échelle de l'entreprise qui sont typiquement utilisés dans les entreprises de distribution électrique. Les principaux changements par rapport à la première édition sont résumés ci-dessous:<br/>
+    - Introduction de nouvelles classes pour prendre en charge la dénomination de manière flexible des "identified objects".<br/>
+    - Introduction de nouvelles classes pour prendre en charge l'échange de schémas unifilaires.<br/>
+    - Modèles de transport et de distribution consolidés pour les lignes, transformateurs, organes de commutation, organes de détection et autres équipements auxiliaires.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:17767
+    docidentifier:
+    - content: iec:proj:17767
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:140747
+    docidentifier:
+    - content: iec:proj:140747
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6199
+    docidentifier:
+    - content: iec:pub:6199
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

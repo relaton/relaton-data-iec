@@ -1,0 +1,146 @@
+---
+id: IEC6232545112017ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Framework for energy market communications
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 451-1: Acknowledgement business process and contextual model for CIM European market'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Framework for energy market communications - Part 451-1: Acknowledgement business process and contextual model for CIM European market'
+  type: main
+- language: fr
+  script: Latn
+  content: Cadre pour les communications pour le marché de l'énergie
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 451-1: Processus métier d''accusé de réception et modèle contextuel pour le marché européen CIM'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Cadre pour les communications pour le marché de l''énergie - Partie 451-1: Processus métier d''accusé de réception et modèle contextuel pour le marché européen CIM'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/23417
+docidentifier:
+- content: IEC 62325-451-1:2017 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:23417
+  type: URN
+date:
+- type: published
+  at: '2017-01-30'
+- type: created
+  at: '2016-03-04'
+- type: forecast
+  at: '2017-02-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62325-451-1:2017 specifies a UML package for the acknowledgment business process and its associated document contextual model, assembly model and XML schema for use within the European style electricity markets. The relevant aggregate core components (ACCs) defined in IEC 62325-351 have been contextualized into aggregated business information entities (ABIEs) to satisfy the requirements of the European style market acknowledgment business process. The contextualized ABIEs have been assembled into the acknowledgment document contextual model. This new edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - addition of an optional attribute ProcessType to the acknowledgement document to ease routing of incoming acknowledgement document instances to the appropriate application;<br/>
+    - clarification of the activity diagram for the acknowledgement process;<br/>
+    - addition of the list of constraints on datatypes.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62325-451-1:2017 spécifie un paquetage UML pour le processus métier d'accusé de réception et ses modèle contextuel de document, modèle d'assemblage et schéma XML associés à appliquer sur les marchés de l'électricité de style européen. Les composants de base agrégés (ACC, aggregate core components) pertinents définis dans l'IEC 62325-351 ont été contextualisés en entités d’information métier agrégées (ABIE, aggregated business information entities) afin de satisfaire aux exigences du processus métier d'accusé de réception pour les marchés de style européen. Les ABIE contextualisées ont été assemblées dans le modèle contextuel de document d'accusé de réception. Cette nouvelle édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - ajout d'un attribut facultatif ProcessType au document d'accusé de réception pour faciliter l'acheminement des instances du document d'accusé de réception à l'arrivée vers l'application appropriée;<br/>
+    - explication du diagramme d'activité pour le processus d'accusé de réception;<br/>
+    - ajout de la liste des contraintes sur les types de données.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18103
+    docidentifier:
+    - content: iec:proj:18103
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:31307
+    docidentifier:
+    - content: iec:pub:31307
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

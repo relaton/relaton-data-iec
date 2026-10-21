@@ -1,0 +1,122 @@
+---
+id: IECTR6185090122015ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-12: Wide area network engineering guidelines'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 90-12: Wide area network engineering guidelines'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22519
+docidentifier:
+- content: IEC TR 61850-90-12:2015 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22519
+  type: URN
+date:
+- type: published
+  at: '2015-07-23'
+- type: created
+  at: '2015-01-09'
+- type: forecast
+  at: '2015-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC TR 61850-90-12:2015(E) provides definitions, guidelines, and recommendations for the engineering of WANs, in particular for protection, control and monitoring based on IEC 61850 and related standards. It addresses substation-to-substation communication, substation-to-control centre and control centre-to-control centre communication. In particular, this Technical Report addresses the most critical aspects of IEC 61850 such as protection related data transmission via GOOSE and SMVs, and the multicast transfer of large volumes of synchrophasor data. The Technical Report addresses issues such as topology, redundancy, traffic latency and quality of service, traffic management, clock synchronization, security and maintenance of the network. This Technical Report contains use cases that show how utilities tackle their WAN engineering. This Technical Report is intended for an audience familiar with electrical power automation based on IEC 61850 and particularly for data network engineers and system integrators. It is intended to help them to understand the technologies, configure a wide area network, define requirements, write specifications, select components and conduct tests.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:102469
+    docidentifier:
+    - content: iec:proj:102469
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:22942
+    docidentifier:
+    - content: iec:pub:22942
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

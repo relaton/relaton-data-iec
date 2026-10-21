@@ -1,0 +1,111 @@
+---
+id: IEC6115843FRAGFED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: |-
+    Spécifications des bus de
+    terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-3: Spécification du protocole de la couche de liaison de données -- Eléments de Type 3'
+  type: title-part
+- language: fr
+  script: Latn
+  content: |-
+    Réseaux de communication industriels - Spécifications des bus de
+    terrain - Partie 4-3: Spécification du protocole de la couche de liaison de données -- Eléments de Type 3
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19551
+docidentifier:
+- content: IEC 61158-4-3/FRAGF ED2
+  type: IEC
+  primary: true
+- content: iec:proj:19551
+  type: URN
+date:
+- type: forecast
+  at: '2011-10-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61158-4-3:2010 spécifie un protocole qui donne les moyens de communiquer à un sous-ensemble "maître" présélectionné d'entités de liaison de données de manière asynchrone cyclique, séquentiellement pour chacune de ces entités de liaison de données. D'autres entités de liaison de données communiquent uniquement si elles sont autorisées et déléguées par ces entités de liaison de données "maîtres". Les communications d'un maître avec d'autres entités de liaison de données peuvent être cycliques ou acycliques avec accès selon un ordre de priorité, ou une combinaison des deux. Ce protocole est un moyen de partager de manière équitable les ressources de communication disponibles. Il comporte des dispositions de fonctionnement synchrone et isochrone. Cette deuxième édition annule et remplace la première édition publiée en 2007. Elle constitue une révision technique. Les principales modifications effectuées par rapport à l'édition antérieure sont:<br/>
+    - Des corrections ont été apportées au Tableau A.15 et au Tableau A.16;<br/>
+    - Les brevets qui ont expiré ont été retirés et de nouveaux brevets ont été ajoutés. La présente version bilingue (2012-07) correspond à la version anglaise monolingue publiée en 2010-08.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:18634
+    docidentifier:
+    - content: iec:proj:18634
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22089
+    docidentifier:
+    - content: iec:proj:22089
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

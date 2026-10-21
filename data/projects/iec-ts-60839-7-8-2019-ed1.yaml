@@ -1,0 +1,123 @@
+---
+id: IECTS60839782019ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Alarm systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 7-8: Message formats and protocols for serial data interfaces in alarm transmission systems'
+  type: title-main
+- language: en
+  script: Latn
+  content: Requirements for common protocol for alarm transmission using the Internet protocol
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Alarm systems - Part 7-8: Message formats and protocols for serial data interfaces in alarm transmission systems - Requirements for common protocol for alarm transmission using the Internet protocol'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21117
+docidentifier:
+- content: IEC TS 60839-7-8:2019 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21117
+  type: URN
+date:
+- type: published
+  at: '2019-05-24'
+- type: created
+  at: '2013-05-17'
+- type: forecast
+  at: '2019-05-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 79
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60839-7-8:2019 specifies a protocol for point-to-point transmission of alarms and faults, as well as communications monitoring, between a supervised premises transceiver and a receiving centre transceiver using the Internet protocol (IP).<br/>
+    The protocol is intended for use over any network that supports the transmission of IP data. These include Ethernet, xDSL, GPRS, WiFi, UMTS and WIMAX.<br/>
+    The system performance characteristics for alarm transmission are specified in IEC 60839‑5‑1.<br/>
+    The performance characteristics of the supervised premises equipment comply with the requirements of its associated alarm system standard and apply for transmission of all types of alarms including, but not limited to, fire, intrusion, access control and social alarms.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:27073
+    docidentifier:
+    - content: iec:pub:27073
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '13.320'
+    text: Alarm and warning systems

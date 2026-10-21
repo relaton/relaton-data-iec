@@ -1,0 +1,117 @@
+---
+id: IECTR62433412025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: EMC IC modelling
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 4-1: Use of ICIM-CI model to predict the IC conducted immunity in a PCB'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'EMC IC modelling - Part 4-1: Use of ICIM-CI model to predict the IC conducted immunity in a PCB'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103948
+docidentifier:
+- content: IEC TR 62433-4-1:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103948
+  type: URN
+date:
+- type: published
+  at: '2025-08-26'
+- type: created
+  at: '2022-03-04'
+- type: forecast
+  at: '2025-09-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47/SC 47A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 62433-4-1:2025 provides an overview of good practices to extract an ICIM-CI model from measurements and to build a numerical model of the PCB in which the ICIM-CI model is used to predict RF immunity of an IC in its application PCB.<br/>
+    This document also discusses factors which can be considered to obtain proper results in an ICIM-CI model extraction and use of the actual model at the PCB level.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:66332
+    docidentifier:
+    - content: iec:pub:66332
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics

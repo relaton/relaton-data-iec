@@ -1,0 +1,137 @@
+---
+id: IEC60870511990ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Telecontrol equipment and systems. Part 5: Transmission protocols'
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Section One: Transmission frame formats'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Telecontrol equipment and systems. Part 5: Transmission protocols - Section One: Transmission frame formats'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de téléconduite. Cinquième partie : Protocoles de transmission'
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Section un: Formats de trames de transmission'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de téléconduite. Cinquième partie : Protocoles de transmission - Section un: Formats de trames de transmission'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/5979
+docidentifier:
+- content: IEC 60870-5-1:1990 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:5979
+  type: URN
+date:
+- type: published
+  at: '1990-02-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    Covers asynchronous data transmission with half duplex and duplex link protocols operating with window size one for message transfers.
+    Specifies the basic requirements for services to be provided by the link plus physical layers, for telecontrol applications. In particular it specifies standards on coding, formatting and synchronizing data frames of variable and filed lengths which meet specified data integrity requirements.
+    <br /><br />This publication is of high relevance for Smart Grid</a>.
+- language: fr
+  script: Latn
+  content: Se rapporte à des protocoles de transmission de données asynchrones semi-duplex et duplex de niveau de liaison de données, fonctionnant avec une largeur de fenêtre égale à 1 pour les transferts de messages. Spécifie les exigences de base des services devant être fournies par les couches physique et liaison de données pour les applications de téléconduite. En particulier, définit des normes concernant le codage, le formatage et la synchronisation de trames de longueurs variables ou fixes qui répondent à des prescriptions d'intégrité des données spécifiques.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:5980
+    docidentifier:
+    - content: iec:proj:5980
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:3742
+    docidentifier:
+    - content: iec:pub:3742
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

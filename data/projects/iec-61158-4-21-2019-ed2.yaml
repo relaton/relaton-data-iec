@@ -1,0 +1,166 @@
+---
+id: IEC611584212019ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 4-21: Data-link layer protocol specification -- Type 21 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 4-21: Data-link layer protocol specification -- Type 21 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-21: Spécification du protocole de la couche liaison de données -- Éléments de type 21'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-21: Spécification du protocole de la couche liaison de données -- Éléments de type 21'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103137
+docidentifier:
+- content: IEC 61158-4-21:2019 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:103137
+  type: URN
+date:
+- type: published
+  at: '2019-04-10'
+- type: created
+  at: '2015-10-23'
+- type: forecast
+  at: '2019-04-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-4-21:2019 describes procedures for the timely transfer of data and control information from one data link user entity to a peer user entity, and among the data link entities forming the distributed data link service provider and procedures for giving communication opportunities based on standard ISO/IEC 8802-3 MAC, with provisions for nodes to be added or removed during normal operation; structure of the fieldbus data link protocol data units (DLPDUs) used for the transfer of data and control information by the protocol of this standard, and their representation as physical interface data units. This second edition cancels and replaces the first edition published in 2010. This edition constitutes a technical revision. The main changes are:<br/>
+    • added Frame control Value, DLM function and DLL constants;<br/>
+    • changed NCM_RETRY_RNMS to NCM_CHECK_NET_INTEGRITY_REQ;<br/>
+    • updated DLM state table;<br/>
+    • miscellaneous editorial corrections.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-21:2019 décrit:<br/>
+    a) des procédures de transfert en temps opportun de données et d'informations de commande d'une entité utilisateur de liaison de données à une entité utilisateur homologue ainsi qu'entre entités de liaison de données qui constituent le fournisseur de services distribués de la liaison;<br/>
+    b) des procédures offrant des moyens de communication, fondées sur la commande d’accès au support (MAC) de l’ISO/IEC 8802 3, ainsi que des dispositions permettant d'ajouter et de retirer des nœuds au cours du fonctionnement normal;<br/>
+    c) la structure des unités de données de protocole de liaison de données (DLPDU) de bus de terrain utilisées pour le transfert des données et les informations de commande par le protocole objet du présent document, ainsi que leur représentation en tant qu'unité de données d'interface de couche physique.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18640
+    docidentifier:
+    - content: iec:proj:18640
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:116217
+    docidentifier:
+    - content: iec:proj:116217
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:64869
+    docidentifier:
+    - content: iec:pub:64869
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

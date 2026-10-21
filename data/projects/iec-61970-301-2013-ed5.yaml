@@ -1,0 +1,155 @@
+---
+id: IEC619703012013ED5
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 301: Common information model (CIM) base'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part 301: Common information model (CIM) base'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d'application pour système de gestion d'énergie (EMS-API)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 301: Base de modèle d''information commun (CIM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d''application pour système de gestion d''énergie (EMS-API) - Partie 301: Base de modèle d''information commun (CIM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20374
+docidentifier:
+- content: IEC 61970-301:2013 ED5
+  type: IEC
+  primary: true
+- content: iec:proj:20374
+  type: URN
+date:
+- type: published
+  at: '2013-12-13'
+- type: created
+  at: '2012-07-20'
+- type: forecast
+  at: '2014-01-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '5'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61970-301:2013 defines the Common Information Model (CIM), that is an abstract model representing all the major objects in an electric utility enterprise typically involved in utility operations. By providing a standard way of representing power system resources as object classes and attributes, along with their relationships, the CIM facilitates the integration of Energy Management System (EMS) applications developed independently by different vendors, between entire EMS systems developed independently, or between an EMS system and other systems concerned with different aspects of power system operations, such as generation or distribution management. SCADA is modeled to the extent necessary to support power system simulation and inter-control center communication. The CIM facilitates integration by defining a common language (i.e. semantics) based on the CIM to enable these applications or systems to access public data and exchange information independent of how such information is represented internally. Major changes from the fourth edition include the following:<br/>
+    - transformer models have been modified to be consistent for use by distribution and transmission purposes;<br/>
+    - a more general and clear naming approach was added and several ambiguous attributes related to naming were dropped;<br/>
+    - phase component wires models have been enhanced to describe internal phase specific attributes and connections;<br/>
+    - addition of diagram layout models to facilitate the exchange of diagram layout information.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61970-301:2013 définit le CIM qui est un modèle abstrait représentant tous les objets principaux d'une entreprise de distribution d'électricité habituellement nécessaires aux opérations d'une entreprise d'électricité. En fournissant une façon normalisée de représenter des ressources de réseaux électriques comme classes et attributs d'objets ainsi que leurs relations, le CIM facilite l'intégration des applications de l'EMS développées de façon indépendante par différents fournisseurs, entre des systèmes EMS complets développés de façon indépendante ou entre un système EMS et d'autres systèmes concernés par différents aspects des opérations d'un réseau électrique tels que la gestion de la production ou de la distribution. Le système SCADA est modélisé dans toute la mesure nécessaire pour prendre en charge la simulation des systèmes énergétiques et la communication entre des centres de commande. Le CIM facilite l'intégration en définissant un langage commun (c'est-à-dire une sémantique) fondé sur le modèle CIM pour permettre à ces applications ou systèmes d'accéder aux données publiques et d'échanger des informations indépendamment de la représentation interne de ces informations. Les modifications techniques majeures par rapport à l'édition précédente sont les suivantes:<br/>
+    - les modèles de transformateurs ont été modifiés pour qu'ils soient adaptés à une utilisation dans les domaines de la distribution et du transport;<br/>
+    - l'ajout d'une approche de dénomination plus générale et plus claire et suppression des attributs ambigus liés à la dénomination;<br/>
+    - des modèles de fils de phase pour les composants ont été améliorés pour décrire les connexions et les attributs spécifiques de phase interne;<br/>
+    - des modèles de présentation des diagrammes ont été ajoutés pour faciliter l'échange des informations sur la présentation des diagrammes.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:19746
+    docidentifier:
+    - content: iec:proj:19746
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:22691
+    docidentifier:
+    - content: iec:proj:22691
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6210
+    docidentifier:
+    - content: iec:pub:6210
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

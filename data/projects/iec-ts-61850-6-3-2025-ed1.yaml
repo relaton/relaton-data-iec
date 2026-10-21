@@ -1,0 +1,121 @@
+---
+id: IECTS61850632025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 6-3: Format of machine-processable rules for validation of IEC 61850 XML-based files'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 6-3: Format of machine-processable rules for validation of IEC 61850 XML-based files'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/113532
+docidentifier:
+- content: IEC TS 61850-6-3:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:113532
+  type: URN
+date:
+- type: published
+  at: '2025-07-08'
+- type: created
+  at: '2024-03-01'
+- type: forecast
+  at: '2025-07-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 61850-6-3:2025, which is a Technical Specification, describes how to use and define formal rules, in a machine-processable format: OCL, that can be imported and interpreted by tools.<br/>
+    The following main use cases are supported:<br/>
+    – Validate SCL files at every stage of the specification and engineering process;<br/>
+    – Verify the conformity of a SCL file after completion of the upgrading/downgrading rules;<br/>
+    – Extend standard OCL rules with private OCL rules<br/>
+    The purpose of this document is limited to the publication of the format and method to write correct and structured rules. The rules themselves are published as code components of the corresponding IEC 61850 parts.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:79695
+    docidentifier:
+    - content: iec:pub:79695
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

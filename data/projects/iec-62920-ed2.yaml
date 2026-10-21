@@ -1,0 +1,134 @@
+---
+id: IEC62920ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Photovoltaic power generating systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: EMC requirements and test methods for power conversion equipment
+  type: title-main
+- language: en
+  script: Latn
+  content: Photovoltaic power generating systems - EMC requirements and test methods for power conversion equipment
+  type: main
+- language: fr
+  script: Latn
+  content: Systèmes de production d'énergie photovoltaïque
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Exigences de CEM et méthodes d'essai pour les équipements de conversion de puissance
+  type: title-main
+- language: fr
+  script: Latn
+  content: Systèmes de production d'énergie photovoltaïque - Exigences de CEM et méthodes d'essai pour les équipements de conversion de puissance
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/107695
+docidentifier:
+- content: IEC 62920 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:107695
+  type: URN
+date:
+- type: created
+  at: '2021-11-19'
+- type: forecast
+  at: '2026-10-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 82
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62920:2026 specifies electromagnetic compatibility (EMC) requirements for power conversion equipment (PCE) (e.g. DC to DC, DC to AC and AC to DC) for use in photovoltaic (PV) power systems with or without electrical energy storage devices.<br/>
+    PCE covered by this document can be grid-interactive, which is termed as a grid connected power converter (GCPC), or stand-alone. It can be supplied by single or multiple photovoltaic modules grouped in various array configurations. The PCE can be intended for use in conjunction with batteries or other forms of energy storage and therefore a uni-or bidirectional.<br/>
+    This document covers not only PCE connected to a public low voltage AC mains network or other low voltage AC mains installation, but also PCE connected to a medium or high voltage AC network with or without step-down power transformers. Requirements for the PCE connected to a medium or high voltage AC network are specified in this document. However, some requirements relevant to grid interconnection are addressed with other standards specifying power quality or their own grid codes in some countries.<br/>
+    This document provides test methods and test conditions for PCE at a test site, but not for photovoltaic modules and other balance of system components.<br/>
+    <br/>
+    This second edition cancels and replaces the first edition published in 2017 and Amendment 1:2021. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) PCE with radio functionality is added in the scope;<br/>
+    b) operating conditions for tests are revised to cover wired and wireless communications;<br/>
+    c) immunity requirements for antenna ports are added;<br/>
+    d) the surge test is added in the immunity requirements for wired and wireless network ports of class B PCE;<br/>
+    e) performance criteria are revised to cover wired and wireless communications;<br/>
+    f) current limits are added in the table of disturbance limits at the DC power port for class A PCE to cover requirements of the measurement of common mode current when artificial networks are used as voltage probes;<br/>
+    g) limits of conducted common mode disturbance at the antenna port are added;<br/>
+    h) conditional measurement methods and limits of conducted common mode (asymmetric mode) disturbance at ports other than power ports are added;<br/>
+    electromagnetic radiation disturbance limits above 1 GHz are added;<br/>
+    i) an annex for the rational conditional measurement methods and limits of conducted common mode (asymmetric mode) disturbance at ports other than power ports is added.
+status:
+  stage:
+    abbreviation: BPUB
+    content: '60.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21435
+    docidentifier:
+    - content: iec:proj:21435
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:103494
+    docidentifier:
+    - content: iec:proj:103494
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering

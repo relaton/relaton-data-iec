@@ -1,0 +1,206 @@
+---
+id: ISOIEC247752011ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Storage management
+  type: title-main
+- language: en
+  script: Latn
+  content: Information technology - Storage management
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18089
+docidentifier:
+- content: ISO/IEC 24775:2011 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:18089
+  type: URN
+date:
+- type: published
+  at: '2011-02-23'
+- type: forecast
+  at: '2011-02-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    ISO/IEC 24775:2011(E) defines an interface for the secure, extensible, and interoperable management of a distributed and heterogeneous storage system. This interface uses an object-oriented, XML-based, messagingbased protocol designed to support the specific requirements of managing devices and subsystems in this storage environment. Using this protocol, this International Standard describes the information available to a WBEM Client from an SMI-S compliant CIM WBEM Server. This second edition cancels and replaces the first edition published in 2007 and constitutes a technical. This edition includes the following significant changes with respect to the previous edition:<br/>
+    - Expanded scope: The range of SAN components modeled by the profiles defined in this specification has been greatly expanded. Many of the profiles that were identified as either future work or experimental content at the time of the initial publication have matured to full profiles. In addition, new areas have been modelled and included (e.g., SCSI Target Ports).<br/>
+    - Improved organization: The specification has been reorganized to provide more information more easily. The experimental content has been incorporated into the body of the document, rather than being segregated in an annex, to ease planning for adoption of emerging techniques.<br/>
+    - Additional documentation of best practices and deployment concerns: The specification now includes a more formal representation of common deployment and usage practices, a more complete treatment of backward compatibility issues and a more detailed discussion of the capabilities of the API, grouping them into a five-level architecture, spanning from physical devices to application-level manipulation, and addressing error conditions, configuration, accounting performance and security issues at each level.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:15659
+    docidentifier:
+    - content: iec:proj:15659
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20832
+    docidentifier:
+    - content: iec:proj:20832
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20835
+    docidentifier:
+    - content: iec:proj:20835
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20836
+    docidentifier:
+    - content: iec:proj:20836
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20837
+    docidentifier:
+    - content: iec:proj:20837
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20838
+    docidentifier:
+    - content: iec:proj:20838
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20839
+    docidentifier:
+    - content: iec:proj:20839
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20840
+    docidentifier:
+    - content: iec:proj:20840
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20841
+    docidentifier:
+    - content: iec:proj:20841
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:21449
+    docidentifier:
+    - content: iec:pub:21449
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

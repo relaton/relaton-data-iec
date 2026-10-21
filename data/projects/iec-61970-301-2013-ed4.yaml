@@ -1,0 +1,157 @@
+---
+id: IEC619703012013ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Energy management system application program interface (EMS-API)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 301: Common information model (CIM) base'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Energy management system application program interface (EMS-API) - Part 301: Common information model (CIM) base'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface de programmation d'application pour système de gestion d'énergie (EMS-API)
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 301: Base de modèle d''information commun (CIM)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface de programmation d''application pour système de gestion d''énergie (EMS-API) - Partie 301: Base de modèle d''information commun (CIM)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/19746
+docidentifier:
+- content: IEC 61970-301:2013 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:19746
+  type: URN
+date:
+- type: published
+  at: '2013-05-23'
+- type: created
+  at: '2011-10-21'
+- type: forecast
+  at: '2013-06-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61970-301:2013 deals with the common information model (CIM), an abstract model that represents all the major objects in an electric utility enterprise typically involved in utility operations. The object classes represented in the CIM are abstract in nature and may be used in a wide variety of applications. The use of the CIM goes far beyond its application in an EMS. This standard is to be understood as a tool to enable integration in any domain where a common power system model is needed to facilitate interoperability and plug compatibility between applications and systems independent of any particular implementation. Major changes from the third edition include the following:<br/>
+    - extensions have been added to support UCTE exchange;<br/>
+    - the transformer regulation model has been expanded to support phase shifting transformer models needed by ENTSO-E;<br/>
+    - zero and negative sequence impedance terms have been added;<br/>
+    - new StateVariables package has been added;<br/>
+    - additional classes have been added.
+- language: fr
+  script: Latn
+  content: |-
+    La CEI 61970-301:2013 traite du modèle d'information commun (CIM), un modèle abstrait qui représente tous les objets principaux d'une entreprise de service public de distribution d'électricité habituellement impliqués dans les opérations de l'entreprise. Les classes d'objets représentées dans le CIM sont de nature abstraite et peuvent être utilisées dans une large gamme d'applications. L'utilisation du CIM n'est pas limitée à son application dans un EMS. Cette norme est destinée à être comprise comme un outil permettant l'intégration dans tout domaine où un modèle commun de réseau est nécessaire pour faciliter l'interopérabilité et la compatibilité de connexion entre des applications et des systèmes indépendants de toute mise en oeuvre particulière. Les principales modifications par rapport à la troisième édition sont les suivantes:<br/>
+    - extensions ajoutées pour prendre en charge l'échange UCTE;<br/>
+    - extension du modèle de régulation des transformateurs afin de prendre en charge les modèles de transformateurs de déphasage dont a besoin l'ENTSO-E;<br/>
+    - ajout des termes "impédance homopolaire" et "impédance inverse" aux endroits où ils étaient absents;<br/>
+    - ajout d'un nouveau paquetage StateVariables afin de prendre en charge l'échange de solutions de modèles de réseau à partir du calcul de répartition, de l'estimation d'état, etc.;<br/>
+    - ajout de classes complémentaires.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18022
+    docidentifier:
+    - content: iec:proj:18022
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:20374
+    docidentifier:
+    - content: iec:proj:20374
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20192
+    docidentifier:
+    - content: iec:pub:20192
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

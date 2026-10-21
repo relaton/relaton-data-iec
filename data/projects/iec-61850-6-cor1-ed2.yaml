@@ -1,0 +1,112 @@
+---
+id: IEC618506COR1ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Corrigendum 1
+  type: title-intro
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6: Configuration description language for communication in electrical substations related to IEDs'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Corrigendum 1 - Communication networks and systems for power utility automation - Part 6: Configuration description language for communication in electrical substations related to IEDs'
+  type: main
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques — Partie 6: Langage pour la description de configuration pour la communication dans les postes électriques, entre les dispositifs électroniques intelligents (IED)'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Réseaux et systèmes de communication pour l''automatisation des systèmes électriques — Partie 6: Langage pour la description de configuration pour la communication dans les postes électriques, entre les dispositifs électroniques intelligents (IED)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101802
+docidentifier:
+- content: IEC 61850-6/COR1 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:101802
+  type: URN
+date:
+- type: forecast
+  at: '2018-02-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61850-6:2009(E) specifies a file format for describing communication-related IED (Intelligent Electronic Device) configurations and IED parameters, communication system configurations, switch yard (function) structures, and the relations between them. The main purpose of this format is to exchange IED capability descriptions, and SA system descriptions between IED engineering tools and the system engineering tool(s) of different manufacturers in a compatible way. The main changes with respect to the previous edition are as follows:<br/>
+    - functional extensions added based on changes in other Parts of IEC 61850, especially in IEC 61850-7-2 and IEC 61850-7-3;<br/>
+    - functional extensions concerning the engineering process, especially for configuration data exchange between system configuration tools, added;<br/>
+    - clarifications and corrections.<br/>
+    <br/>
+    This publication is of core relevance for Smart Grid.
+status:
+  stage:
+    abbreviation: CAN
+    content: '50.98'
+  iteration: '1'
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: iec:proj:15126
+    docidentifier:
+    - content: iec:proj:15126
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

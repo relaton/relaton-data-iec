@@ -1,0 +1,139 @@
+---
+id: IECTR6185090302025ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Communication networks and systems for power utility automation
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 90-30: IEC 61850 Function Modelling in SCL'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Communication networks and systems for power utility automation - Part 90-30: IEC 61850 Function Modelling in SCL'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/125472
+docidentifier:
+- content: IEC TR 61850-90-30:2025 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:125472
+  type: URN
+date:
+- type: published
+  at: '2025-03-11'
+- type: created
+  at: '2024-04-24'
+- type: forecast
+  at: '2025-04-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 57
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TR 61850-90-30:2025, which is a Technical Report, describes extensions of the SCL Substation/Process Section allowing the creation of a comprehensive, IED and hardware independent specification of an IEC 61850 based power system.<br/>
+    It addresses how to:<br/>
+    • decompose functions in SCL<br/>
+    • show function classifications in SCL<br/>
+    • relate functions with the SCL Substation and Process Section<br/>
+    • relate functions to Logical Nodes and IEDs/Specification IEDs<br/>
+    • present information flow between functions in a hardware/implementation independent way<br/>
+    • position Functions in relation to "Application Schemes", "Distributed Functions", "Protection Schemes"<br/>
+    • consider the relationship to Basic Application Profiles (BAP) defined in IEC TR 61850-7-6<br/>
+    The document addresses the engineering process as far as it is related to the specification of Functions and their instantiation in IEC 61850 based power system. This includes the impact on the SCL Process Section during system configuration.<br/>
+    The engineering process related to the definition of Applications and their instantiation is addressed in the Basic Application Profile Document (BAP) in IEC TR 61850-7-6.<br/>
+    The System Configuration process is described in IEC 61850-6.<br/>
+    Modifications and extensions of SCL are done in a way to guarantee backwards compatibility.<br/>
+    In addition, this document introduces:<br/>
+    • Some further elements to SCL that improve the content and usefulness of SSD files and facilitate the handling of SCL files for engineering purposes,<br/>
+    • New variants of IED specific files: ISD file and FSD files,<br/>
+    • Evolution of the engineering rights management, to first improve the usage of SED and add a new concept of System Configuration Collaboration (SCC file) which allows collaboration on the same project with different engineers.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101212
+    docidentifier:
+    - content: iec:proj:101212
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:94414
+    docidentifier:
+    - content: iec:pub:94414
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iec
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering

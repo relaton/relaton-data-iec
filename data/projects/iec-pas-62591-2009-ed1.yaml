@@ -1,0 +1,128 @@
+---
+id: IECPAS625912009ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: WirelessHART<sup>TM</sup> communication network and communication profile
+  type: title-part
+- language: en
+  script: Latn
+  content: Industrial communication networks - Fieldbus specifications - WirelessHART<sup>TM</sup> communication network and communication profile
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/17092
+docidentifier:
+- content: IEC PAS 62591:2009 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:17092
+  type: URN
+date:
+- type: published
+  at: '2009-01-22'
+- type: created
+  at: '2008-07-18'
+- type: forecast
+  at: '2009-04-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC/PAS 62591:2009(E) specifies the procedures for the transfer of data and control information from one Data-Link user entity to another user entity or many, and among the Data-Link entities forming the distributed datalink service provider as well as the structure of the fieldbus DLPDUs used for the transfer of data and control information by the protocol of this publication, and their representation as physical interface data units. The procedures are defined in terms of the interactions between DL-entities (DLEs) through the exchange of fieldbus DLPDUs; the interactions between a DL-service (DLS) provider and a DLS-user in the same system through the exchange of DLS primitives; the interactions between a DLS-provider and a Ph-service provider in the same system through the exchange of Ph-service primitives.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17089
+    docidentifier:
+    - content: iec:proj:17089
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:20741
+    docidentifier:
+    - content: iec:pub:20741
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: publicly-available-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

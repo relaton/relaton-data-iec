@@ -1,0 +1,107 @@
+---
+id: IEC6115842FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 4-2: Spécification du protocole de la couche liaison de données -- Eléments de type 2'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 4-2: Spécification du protocole de la couche liaison de données -- Eléments de type 2'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21648
+docidentifier:
+- content: IEC 61158-4-2/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21648
+  type: URN
+date:
+- type: forecast
+  at: '2014-02-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- fr
+script:
+- Latn
+abstract:
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61158-4-2:2007 décrit un protocole qui offre des opportunités de communication séquentielle et synchrone cyclique à toutes les entités de liaison de données participantes. Un accès planifié de premier plan est proposé à toutes les activités à contrainte de temps, un accès non planifié l'étant aux activités moins critiques. Ce protocole permet d'optimiser chaque opportunité d'accès en concaténant plusieurs DLSDU et DLPCI associés en une seule DLPDU, améliorant le transfert de données des entités de liaison de données qui émettent activement plusieurs flux de données. Cette première édition et ses parties d'accompagnement de la sous-série CEI 61158-4 annulent et remplacent la CEI 61158-4:2003. Elle constitue une révision mineure. Cette partie et ses parties d'accompagnement pour le Type 2 annulent et remplacent également la CEI/PAS 62413, publiée en 2005. Elle inclut les modifications suivantes:<br/>
+    - suppression du précédent bus de terrain de Type 6 et de la référence à une couche de liaison de données de bus de terrain de Type 5, en raison du manque d'adéquation au marché;<br/>
+    - ajout de nouveaux types de bus de terrain; division de cette partie en parties multiples numérotées -4 1, -4 2,  , -4-19. La présente version bilingue (2014-07) correspond à la version anglaise monolingue publiée en 2007-12.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+relation:
+- type: mergedInto
+  bibitem:
+    formattedref:
+      content: iec:proj:16018
+    docidentifier:
+    - content: iec:proj:16018
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:17543
+    docidentifier:
+    - content: iec:proj:17543
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec

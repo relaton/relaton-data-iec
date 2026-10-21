@@ -1,0 +1,164 @@
+---
+id: IEC6228722013ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Maritime navigation and radiocommunication equipment and systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Class B shipborne equipment of the automatic identification system (AIS)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Self-organising time division multiple access (SOTDMA) techniques'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Maritime navigation and radiocommunication equipment and systems - Class B shipborne equipment of the automatic identification system (AIS) - Part 2: Self-organising time division multiple access (SOTDMA) techniques'
+  type: main
+- language: fr
+  script: Latn
+  content: Matériels et systèmes de navigation et de radiocommunication maritimes
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Transpondeur embarqué du Système d'Identification Automatique (AIS) de classe B
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Techniques auto-organisées d''accès multiple par répartition dans le temps (SOTDMA)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Matériels et systèmes de navigation et de radiocommunication maritimes - Transpondeur embarqué du Système d''Identification Automatique (AIS) de classe B - Partie 2: Techniques auto-organisées d''accès multiple par répartition dans le temps (SOTDMA)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18003
+docidentifier:
+- content: IEC 62287-2:2013 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:18003
+  type: URN
+date:
+- type: published
+  at: '2013-03-18'
+- type: created
+  at: '2010-03-26'
+- type: forecast
+  at: '2013-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 80
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62287-2:2013 specifies operational and performance requirements, methods of testing and required test results for Class B "SO" shipborne AIS equipment using Self-organised TDMA (SOTDMA) techniques as described in Recommendation ITU-R M.1371. This standard takes into account other associated IEC International Standards and existing national standards, as applicable. The main differences between Class B "CS" (IEC 62287-1) and Class B "SO" units are that the Class B "SO":<br/>
+    - covers all 25 kHz channels listed in Recommendation ITU-R M.1084-5;<br/>
+    - only uses the internal GNSS, no position sensor input is allowed;<br/>
+    - requires use of VDL Message 17 for correction of the internal GNSS;<br/>
+    - has a presentation interface;<br/>
+    - has additional reporting intervals, down to 5 s;<br/>
+    - has two power settings, with a high level of 5 W;<br/>
+    - has the capability to transmit binary messages. It is applicable for AIS equipment used on craft that are not covered by a mandatory carriage requirement of AIS under SOLAS Chapter V.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62287-2:2013 spécifie les exigences opérationnelles et de performance, les méthodes d'essai et les résultats d'essai exigibles pour le transpondeur embarqué du système d'identification automatique (AIS) de classe B "SO" utilisant les techniques auto-organisées TDMA (SOTDMA) telles qu'elles sont décrites dans la Recommandation UIT-R M.1371. La présente Norme prend en compte d'autres normes internationales IEC associées et des normes nationales existantes, selon le cas.<br/>
+    Les différences principales entre les unités de la classe B "CS" (IEC 62287-1) et de la classe B "SO" sont le fait que la classe B "SO":<br/>
+    - couvre tous les voies de 25 kHz énumérées dans la Recommandation UIT-R M.1084-5;<br/>
+    - n'utilise que le système mondial de navigation par satellite (GNSS) interne, aucune entrée provenant d'un capteur de position n’est autorisée;<br/>
+    - nécessite l'utilisation du message 17 sur une liaison de données en ondes métriques (VDL) pour la correction du GNSS interne;<br/>
+    - a une interface de présentation;<br/>
+    - a des intervalles de rapport supplémentaires, jusqu'à 5 s;<br/>
+    - a deux réglages de puissance, avec un niveau supérieur de 5 W;<br/>
+    - a la capacité de transmettre des messages binaires.<br/>
+    Elle est applicable aux équipements AIS utilisés sur le navire, qui ne sont pas visés par l'exigence relative aux AIS de bord obligatoires selon le Chapitre V de la SOLAS.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23349
+    docidentifier:
+    - content: iec:proj:23349
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:6774
+    docidentifier:
+    - content: iec:pub:6774
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 47.020.70
+    text: Navigation and control equipment

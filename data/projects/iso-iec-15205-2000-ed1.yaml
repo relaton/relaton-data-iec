@@ -1,0 +1,137 @@
+---
+id: ISOIEC152052000ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: SBus
+  type: title-intro
+- language: en
+  script: Latn
+  content: Chip and module interconnect bus
+  type: title-main
+- language: en
+  script: Latn
+  content: SBus - Chip and module interconnect bus
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/9789
+docidentifier:
+- content: ISO/IEC 15205:2000 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:9789
+  type: URN
+date:
+- type: published
+  at: '2000-06-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An input/output expansion bus with a 32- or 64-bit width is described in this standard. The SBus is designed for systems requiring a small number expansion ports. SBus Cards may be connected to a standard Sbus Connector mounted on the motherboard. SBus Devices may also be attached to the SBus directly on the system's motherboard. The dimensions of the SBus Card are 83,8 mm by 146,7 mm, making the cards appropriate for small computer systems that make extensive use of highly integrated circuits. The SBus Cards are designed to be installed in a plane parallel to the system's motherboard as mezzanine cards. They are designed to provide connections for devices external to the computer system through an exposed back panel. The form factor is useful in Futurebus+, VMEbus, desktop computers, and similar applications. The SBus has the capability of transferring data at rates up to 168 Mbytes/s, depending on the implementation options selected. SBus Cards may either serve as Masters on the bus, providing all virtual address information as well as the data to be transferred, or they may serve as Slaves on the bus, providing data transfer according to the requirements of some other SBus Master. The SBus Master for a data transfer is selected by an arbitration process managed by the single SBus Controller on the SBus. The SBus Controller provides a virtual to physical address translation service.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:10242
+    docidentifier:
+    - content: iec:pub:10242
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems

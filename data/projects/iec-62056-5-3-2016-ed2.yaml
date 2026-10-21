@@ -1,0 +1,157 @@
+---
+id: IEC62056532016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-3: DLMS/COSEM application layer'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 5-3: DLMS/COSEM application layer'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange des données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 5-3: Couche application DLMS/COSEM'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange des données de comptage de l''électricité - La suite DLMS/COSEM - Partie 5-3: Couche application DLMS/COSEM'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21723
+docidentifier:
+- content: IEC 62056-5-3:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21723
+  type: URN
+date:
+- type: published
+  at: '2016-03-04'
+- type: created
+  at: '2013-12-20'
+- type: forecast
+  at: '2015-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62056-5-3:2016 specifies the DLMS/COSEM application layer in terms of structure, services and protocols for COSEM clients and servers, and defines how to use the DLMS/COSEM application layer in various communication profiles. It defines services for establishing and releasing application associations, and data communication services for accessing the methods and attributes of COSEM interface objects, defined in IEC 62056-6-2:2016, using either logical name (LN) or short name (SN) referencing. This second edition cancels and replaces the first edition of IEC 62056-5-3 published in 2013.
+- language: fr
+  script: Latn
+  content: L'IEC 62056-5-3:2016 indique la couche application DLMS/COSEM en termes de structure, de services et de protocoles pour les clients et serveurs COSEM, et définit comment utiliser la couche application DLMS/COSEM dans différents profils de communication. Elle définit les services permettant d'établir et de libérer des associations d'applications, ainsi que les services de communication de données permettant d'accéder aux méthodes et aux attributs des objets d'interface COSEM, définis dans l'IEC 62056-6-2, à l'aide du référencement par nom logique (LN) ou par nom abrégé (SN). Cette deuxième édition annule et remplace la première édition de l'IEC 62056-5-3 parue en 2013.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18949
+    docidentifier:
+    - content: iec:proj:18949
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23218
+    docidentifier:
+    - content: iec:proj:23218
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:24282
+    docidentifier:
+    - content: iec:pub:24282
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems

@@ -1,0 +1,156 @@
+---
+id: IEC623861052024ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital addressable lighting interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 105: Particular requirements for control gear and control devices -- Firmware transfer'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Digital addressable lighting interface - Part 105: Particular requirements for control gear and control devices -- Firmware transfer'
+  type: main
+- language: fr
+  script: Latn
+  content: Interface d'éclairage adressable numérique
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 105: Exigences particulières pour appareillages et dispositifs de commande -- Transfert du microprogramme'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Interface d''éclairage adressable numérique - Partie 105: Exigences particulières pour appareillages et dispositifs de commande -- Transfert du microprogramme'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/112213
+docidentifier:
+- content: IEC 62386-105:2024 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:112213
+  type: URN
+date:
+- type: published
+  at: '2024-12-12'
+- type: created
+  at: '2022-07-29'
+- type: forecast
+  at: '2024-12-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 34
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62386-105:2024 applies to control gear and control devices for control by digital signals of electronic lighting equipment. Typically, a bus unit according to the IEC 62386 series contains firmware. There are circumstances where it can be necessary to change the firmware after production or shipping of the product, for example if the bus unit does not operate as intended. In such a case, a firmware update of a bus unit via the interface is beneficial. This firmware update process is primarily designed to be a bug fix process, not a feature extension process. Nevertheless, the firmware update process can be used for feature extensions. But it is important that the risk of negative effects to the complete system be considered in detail. This second edition cancels and replaces the first edition published in 2020. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) several commands have been modified, renamed and added;<br/>
+    b) variables have been modified and added;<br/>
+    c) recommendations for implementation within emergency control gear have been added;<br/>
+    d) requirements for block acceptance have been changed;<br/>
+    e) example process-flow diagrams have been added;<br/>
+    f) requirements for restarting and power-on have been changed.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 62386-105:2024 s’applique aux appareillages et dispositifs de commande par signaux numériques des équipements d’éclairage électroniques. Un appareillage de bus conforme à la série IEC 62386 contient généralement un microprogramme. Il peut être nécessaire, dans certaines circonstances, de modifier ce microprogramme après la production ou l’expédition du produit, par exemple lorsque l’appareillage de bus ne fonctionne pas comme prévu. Dans ce cas, il est bénéfique de mettre à jour le microprogramme de l’appareillage de bus par l’intermédiaire de l’interface. Ce processus de mise à jour du microprogramme est principalement conçu comme un processus de correction des bogues et non comme un processus d’extension de caractéristiques. Le processus de mise à jour du microprogramme peut néanmoins être utilisé pour l’extension des caractéristiques. Il est important cependant d’étudier en détail le risque d’effets négatifs sur le système entier. Cette deuxième édition annule et remplace la première édition parue en 2020. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l’édition précédente:<br/>
+    a) plusieurs commandes ont été modifiées, renommées et ajoutées;<br/>
+    b) des variables ont été modifiées et ajoutées;<br/>
+    c) des recommandations de mise en œuvre dans les appareillages de commande de secours ont été ajoutées;<br/>
+    d) les exigences relatives à l’acceptation des blocs ont été modifiées;<br/>
+    e) des exemples de schémas de flux de processus ont été ajoutés;<br/>
+    f) les exigences relatives au redémarrage et à la mise sous tension ont été modifiées.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101158
+    docidentifier:
+    - content: iec:proj:101158
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:77874
+    docidentifier:
+    - content: iec:pub:77874
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 29.140.50
+    text: Lighting installation systems
+  - code: 29.140.99
+    text: Other standards related to lamps

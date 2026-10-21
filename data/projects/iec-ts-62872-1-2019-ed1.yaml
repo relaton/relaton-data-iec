@@ -1,0 +1,128 @@
+---
+id: IECTS6287212019ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial-process measurement, control and automation
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: System interface between industrial facilities and the smart grid'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial-process measurement, control and automation - Part 1: System interface between industrial facilities and the smart grid'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/102022
+docidentifier:
+- content: IEC TS 62872-1:2019 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:102022
+  type: URN
+date:
+- type: published
+  at: '2019-06-26'
+- type: created
+  at: '2018-03-23'
+- type: forecast
+  at: '2019-07-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62872-1:2019(E) defines the interface, in terms of information flow, between industrial facilities and the “smart grid”. It identifies, profiles and extends where required, the standards needed to allow the exchange of the information needed to support the planning, management and control of electric energy flow between the industrial facility and the smart grid.<br/>
+    The scope of this document specifically excludes the protocols needed for the direct control of energy resources within a facility where the control and ultimate liability for such control is delegated by the industrial facility to the external entity (e.g. distributed energy resource (DER) control by the electrical grid operator).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20794
+    docidentifier:
+    - content: iec:proj:20794
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:62884
+    docidentifier:
+    - content: iec:pub:62884
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  - code: 35.100.05
+    text: Multilayer applications

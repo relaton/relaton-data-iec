@@ -1,0 +1,132 @@
+---
+id: IEC6115834FRAGFED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-4: Data-link layer service definition -- Type 4 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 3-4: Data-link layer service definition -- Type 4 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-4: Définition des services de la couche liaison de données -- Éléments de type 4'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Spécifications des bus de terrain - Partie 3-4: Définition des services de la couche liaison de données -- Éléments de type 4'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/120453
+docidentifier:
+- content: IEC 61158-3-4/FRAGF ED4
+  type: IEC
+  primary: true
+- content: iec:proj:120453
+  type: URN
+date:
+- type: created
+  at: '2020-04-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-3-4:2023 provides common elements for basic time-critical messaging communications between devices in an automation environment. The term "time-critical" is used to represent the presence of a time-window, within which one or more specified actions are required to be completed with some defined level of certainty. Failure to complete specified actions within the time window risks failure of the applications requesting the actions, with attendant risk to equipment, plant and possibly human life.<br/>
+    This document defines in an abstract way the externally visible services provided by the Type 4 fieldbus data-link layer in terms of<br/>
+    the primitive actions and events of the services;<br/>
+    the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    the interrelationship between these actions and events, and their valid sequences.<br/>
+    The purpose of this document is to define the services provided to<br/>
+    the Type 4 fieldbus application layer at the boundary between the application and data-link layers of the fieldbus reference model;<br/>
+    systems management at the boundary between the data-link layer and systems management of the fieldbus reference model.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61158-3-4:2023 fournit les éléments communs pour les communications de messagerie prioritaires entre les appareils d’un environnement d’automatisation. Le terme "prioritaire" est utilisé pour indiquer la présence d’une fenêtre temporelle, dans laquelle il est exigé de réaliser une ou plusieurs actions spécifiées selon un niveau défini de certitude. La non‑réalisation des actions spécifiées dans la fenêtre temporelle induit un risque de défaillance des applications qui demandent ces actions, avec les risques qui en découlent pour l’équipement, les installations et éventuellement la vie humaine.<br/>
+    Le présent document définit de manière abstraite les services visibles externes fournis par la couche liaison de données de bus de terrain de type 4, concernant:<br/>
+    les actions et événements liés aux primitives du service;<br/>
+    les paramètres associés à chaque action et événement de primitive, ainsi que la forme prise par ces paramètres; et<br/>
+    l’interrelation entre ces actions et événements, et leurs séquences valides.<br/>
+    Le présent document a pour objet de définir les services fournis:<br/>
+    la couche application de bus de terrain de type 4 à la limite entre les couches application et liaison de données du modèle de référence de bus de terrain;<br/>
+    la gestion-système à la frontière entre la couche liaison de données et la gestion-système du modèle de référence de bus de terrain.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking

@@ -1,0 +1,119 @@
+---
+id: IECTS633832022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Cybersecurity aspects of devices used for power metering and monitoring, power quality monitoring, data collection and analysis
+  type: title-main
+- language: en
+  script: Latn
+  content: Cybersecurity aspects of devices used for power metering and monitoring, power quality monitoring, data collection and analysis
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104815
+docidentifier:
+- content: IEC TS 63383:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:104815
+  type: URN
+date:
+- type: published
+  at: '2022-11-23'
+- type: created
+  at: '2021-03-19'
+- type: forecast
+  at: '2022-12-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 85
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 63383:2022 deals with cybersecurity related to measuring devices (PMD according to IEC 61557-12 and PQI according to IEC 62586-1) and devices for data collection (devices according to IEC 62974-1) that are intended to be installed in restricted access areas.<br/>
+    This document deals with cybersecurity aspects (e.g. device hardening or device resilience) of device(s) used for power metering and monitoring, power quality monitoring, data collection and analysis, but does not cover requirements for organisational cybersecurity (e.g. end-user security policy).<br/>
+    This document is a first attempt to develop awareness by manufacturers and other relevant stakeholders about cybersecurity aspects and provide basic guidance for achieving the appropriate security mitigation against vulnerabilities to security threats:<br/>
+    – in coherence with device/system approaches described in relevant standards such as IEC 62443 (all parts) and ISO/IEC 27001,<br/>
+    – based on generic system use-cases.<br/>
+    This document does not cover billing meters covered by the IEC 62053-2x set of standards.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:67992
+    docidentifier:
+    - content: iec:pub:67992
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general

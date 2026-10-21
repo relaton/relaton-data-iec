@@ -1,0 +1,144 @@
+---
+id: IEC629792017ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Photovoltaic modules
+  type: title-intro
+- language: en
+  script: Latn
+  content: Bypass diode
+  type: title-main
+- language: en
+  script: Latn
+  content: Thermal runaway test
+  type: title-part
+- language: en
+  script: Latn
+  content: Photovoltaic modules - Bypass diode - Thermal runaway test
+  type: main
+- language: fr
+  script: Latn
+  content: Modules photovoltaïques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Diode de derivation
+  type: title-main
+- language: fr
+  script: Latn
+  content: Essai d'emballement thermique
+  type: title-part
+- language: fr
+  script: Latn
+  content: Modules photovoltaïques - Diode de derivation - Essai d'emballement thermique
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22063
+docidentifier:
+- content: IEC 62979:2017 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22063
+  type: URN
+date:
+- type: published
+  at: '2017-08-10'
+- type: created
+  at: '2015-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 82
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62979:2017 provides a method for evaluating whether a bypass diode as mounted in the module is susceptible to thermal runaway or if there is sufficient cooling for it to survive the transition from forward bias operation to reverse bias operation without overheating. This test methodology is particularly suited for testing of Schottky barrier diodes, which have the characteristic of increasing leakage current as a function of reverse bias voltage at high temperature, making them more susceptible to thermal runaway.
+- language: fr
+  script: Latn
+  content: l'IEC 62979:2017 donne une méthode permettant de déterminer si la diode de dérivation montée dans le module est susceptible de faire l'objet d'un emballement thermique ou si le refroidissement est suffisant pour lui permettre de résister au passage entre un fonctionnement en polarisation directe et un fonctionnement en polarisation inverse sans surchauffe. Cette méthodologie d'essai est particulièrement adaptée pour les diodes Schottky, qui ont la particularité d'augmenter le courant de fuite en fonction de la tension de polarisation inverse à haute température, ce qui les rend plus propices à l'emballement thermique.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:134028
+    docidentifier:
+    - content: iec:proj:134028
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:31701
+    docidentifier:
+    - content: iec:pub:31701
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering

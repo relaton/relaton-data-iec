@@ -1,0 +1,155 @@
+---
+id: IEC61784312010ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Profiles
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3-1: Functional safety fieldbuses -- Additional specifications for CPF 1'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Profiles - Part 3-1: Functional safety fieldbuses -- Additional specifications for CPF 1'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profils
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3-1: Bus de terrain à sécurité fonctionnelle -- Spécifications complémentaires pour le CPF 1'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Profils - Partie 3-1: Bus de terrain à sécurité fonctionnelle -- Spécifications complémentaires pour le CPF 1'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/18477
+docidentifier:
+- content: IEC 61784-3-1:2010 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:18477
+  type: URN
+date:
+- type: published
+  at: '2010-06-29'
+- type: created
+  at: '2008-02-01'
+- type: forecast
+  at: '2010-06-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61784-3-1:2010 specifies a safety communication layer (services and protocol) based on CPF 1 of IEC 61784-1 and IEC 61158 Types 1 and 9. It identifies the principles for functional safety communications defined in IEC 61784-3 that are relevant for this safety communication layer. This second edition cancels and replaces the first edition published in 2007. This edition constitutes a technical revision. The main changes with respect to the previous edition are:<br/>
+    - updates in relation with changes in IEC 61784-3;<br/>
+    - adjustment of Figure 5;<br/>
+    - change of sequence number from two octets to four octets in 7.2.2 to match the final protocol from the consortium;<br/>
+    - addition of details for time synchronization in 7.2.4;<br/>
+    - addition of information for safety response time in 9.3;<br/>
+    - addition of information in constraints for calculation of system characteristics in 9.5.
+- language: fr
+  script: Latn
+  content: L'IEC 61784-3-1:2010 spécifie une couche de communication de sécurité (services et protocole) basée sur la CPF 1 de l’IEC 61784 1 et l’IEC 61158 Types 1 et 9. Elle identifie les principes de communication de sécurité fonctionnelle définis dans l’IEC 61784 3 qui sont pertinents pour cette couche de communication de sécurité.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:13236
+    docidentifier:
+    - content: iec:proj:13236
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:5880
+    docidentifier:
+    - content: iec:pub:5880
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

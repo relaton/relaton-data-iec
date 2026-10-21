@@ -1,0 +1,161 @@
+---
+id: IEC6276910312020ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Field Device Integration (FDI)
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 103-1: Profiles'
+  type: title-main
+- language: en
+  script: Latn
+  content: PROFIBUS
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Field Device Integration (FDI) - Part 103-1: Profiles - PROFIBUS'
+  type: main
+- language: fr
+  script: Latn
+  content: Intégration des appareils de terrain (FDI)
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 103-1: Profils'
+  type: title-main
+- language: fr
+  script: Latn
+  content: PROFIBUS
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Intégration des appareils de terrain (FDI) - Partie 103-1: Profils - PROFIBUS'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/100748
+docidentifier:
+- content: IEC 62769-103-1:2020 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:100748
+  type: URN
+date:
+- type: published
+  at: '2020-04-28'
+- type: created
+  at: '2017-05-05'
+- type: forecast
+  at: '2020-05-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62769-103-1:2020 specifies an FDI profile of IEC 62769 for IEC 61784 1_CP 3/1 (PROFIBUS DP) and IEC 61784 1_CP3/2 (PROFIBUS PA). This second edition cancels and replaces the first edition published in 2015. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) support for generic protocol extension for faster adoption of other technologies;<br/>
+    b) support for Package Developers to build EDDs targeted for today’s EDD bases system under a single development tool.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62769-103-1:2020 spécifie un profil FDI de l’IEC 62769 pour l’IEC 61784 1_CP 3/1 (PROFIBUS DP) et l’IEC 61784 1_CP 3/2 (PROFIBUS PA). Cette deuxième édition annule et remplace la première édition parue en 2015. Cette édition constitue une révision technique. Cette édition inclut les modifications techniques majeures suivantes par rapport à l’édition précédente:<br/>
+    a) prise en charge d’extensions de protocoles génériques, pour une adoption plus rapide d’autres technologies;<br/>
+    b) capacité offerte aux Développeurs de Paquetages d’élaborer des EDD ciblant les systèmes actuels de bases EDD, en exploitant un seul outil de développement.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:20972
+    docidentifier:
+    - content: iec:proj:20972
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:107201
+    docidentifier:
+    - content: iec:proj:107201
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:60640
+    docidentifier:
+    - content: iec:pub:60640
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

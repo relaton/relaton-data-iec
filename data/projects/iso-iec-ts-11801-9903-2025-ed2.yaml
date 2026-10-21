@@ -1,0 +1,166 @@
+---
+id: ISOIECTS1180199032025ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Generic cabling for customer premises
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 9903: Modelling of channels and links'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Generic cabling for customer premises - Part 9903: Modelling of channels and links'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/129892
+docidentifier:
+- content: ISO/IEC TS 11801-9903:2025 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:129892
+  type: URN
+date:
+- type: published
+  at: '2025-09-24'
+- type: created
+  at: '2024-11-01'
+- type: forecast
+  at: '2025-10-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    ISO/IEC TS 11801-9903:2025 establishes modelling of limits for mixed-mode transmission parameters within and between two pairs of balanced cabling. This document consists of a detailed description of matrix modelling and gives explanations on how to convert matrices, by using the S to T and T to S matrix conversion. Further it consists of terms and definitions used, how specific parameters are modelled, alternative calculation and signal-to-noise ratio (SNR) modelling.<br/>
+    Chain parameters and alternative approaches and formulas are described for combining component cable and connector transmission parameters into cabling link and channel transmission parameters. S-parameter limit matrix formulas are covered, which can be transformed into T-parameter limit matrices for use in chain parameter link and channel limit formulas. The formulas are applicable to all transmission parameters for forming complete differential-mode, mixed-mode, and common-mode link and channel models.<br/>
+    Terms and definitions used for modelling are discussed, together with how modelling is done for specific transmission parameters. Alternative calculation models are explained, and the SNR modelling introduced.<br/>
+    This second edition cancels and replaces the first edition published in 2021. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) the expansion of the list of specified parameters to include mixed-mode mode-conversion and related unbalance attenuation parameters;<br/>
+    b) the addition of an informative annex covering the topic of signal-to-noise ratio and its relation to the S-parameter matrix channel model.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21689
+    docidentifier:
+    - content: iec:proj:21689
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:103412
+    docidentifier:
+    - content: iec:proj:103412
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:102884
+    docidentifier:
+    - content: iec:pub:102884
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

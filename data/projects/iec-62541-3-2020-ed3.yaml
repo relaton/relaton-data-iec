@@ -1,0 +1,161 @@
+---
+id: IEC6254132020ED3
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC Unified Architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Address Space Model'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC Unified Architecture - Part 3: Address Space Model'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Modèle d''espace d''adressage'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 3: Modèle d''espace d''adressage'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/101124
+docidentifier:
+- content: IEC 62541-3:2020 ED3
+  type: IEC
+  primary: true
+- content: iec:proj:101124
+  type: URN
+date:
+- type: published
+  at: '2020-07-08'
+- type: created
+  at: '2017-07-28'
+- type: forecast
+  at: '2020-07-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '3'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-3:2020 defines the OPC Unified Architecture (OPC UA) AddressSpace and its Objects. This document is the OPC UA meta model on which OPC UA information models are based. This third edition cancels and replaces the second edition published in 2015. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Added new improved approach for exposing structure definitions. An Attribute on the DataType Node now simply contains a binary description.<br/>
+    b) Added new flags for Variables to indicate atomicity when reading or writing.<br/>
+    c) Added Roles and Permissions to allow configuration of a role-based authorization.<br/>
+    d) Added new data types: “Union”, “Decimal”, “OptionSet”, “DateString”, “TimeString”, “DurationString”, NormalizedString”, “DecimalString”, and “AudioDataType”.<br/>
+    e) Added definition on how to use the ModellingRules OptionalPlaceHolder and MandatoryPlaceHolder for Methods.<br/>
+    f) Added optional Properties “MaxCharacters” and “MaxByteStringLength” to Variable Nodes.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 62541-3:2020 définit l'AddressSpace de l'Architecture Unifiée OPC (OPC UA) et ses Objets. Le présent document correspond au métamodèle OPC UA sur lequel se fondent les modèles d'information OPC UA. Cette troisième édition annule et remplace la deuxième édition parue en 2015. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) ajout d'une nouvelle approche améliorée afin de présenter les définitions de la structure (un Attribut sur le Nœud du DataType contient désormais simplement une description binaire);<br/>
+    b) ajout de nouveaux fanions pour les Variables afin d'indiquer l'atomicité à la lecture ou à l'écriture;<br/>
+    c) ajout de Rôles et d'Autorisations afin de permettre la configuration d'une autorisation fondée sur les rôles;<br/>
+    d) ajout de nouveaux types de données: "Union", "Decimal", "OptionSet", "DateString", "TimeString", "DurationString", "NormalizedString", "DecimalString" et "AudioDataType";<br/>
+    e) ajout d'une définition expliquant comment utiliser les OptionalPlaceHolder et MandatoryPlaceHolder de ModellingRules pour les Méthodes;<br/>
+    f) ajout de Propriétés facultatives "MaxCharacters" et "MaxByteStringLength" aux Nœuds de variable.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:21049
+    docidentifier:
+    - content: iec:proj:21049
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:115399
+    docidentifier:
+    - content: iec:proj:115399
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:61112
+    docidentifier:
+    - content: iec:pub:61112
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

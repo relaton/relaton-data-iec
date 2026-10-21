@@ -1,0 +1,157 @@
+---
+id: IEC62056622016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 6-2: COSEM interface classes'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 6-2: COSEM interface classes'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange de données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 6-2: Classes d''interfaces COSEM'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange de données de comptage de l''électricité - La suite DLMS/COSEM - Partie 6-2: Classes d''interfaces COSEM'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21725
+docidentifier:
+- content: IEC 62056-6-2:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:21725
+  type: URN
+date:
+- type: published
+  at: '2016-02-23'
+- type: created
+  at: '2013-12-20'
+- type: forecast
+  at: '2015-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62056-6-2:2016 specifies a model of a meter as it is seen through its communication interface(s). Generic building blocks are defined using object-oriented methods, in the form of interface classes to model meters from simple up to very complex functionality. Annexes A to F (informative) provide additional information related to some interface classes.
+- language: fr
+  script: Latn
+  content: L'IEC 62056:2016 spécifie un modèle d'un compteur tel qu'il est vu à travers son/ses interface(s) de communication. Des blocs génériques de base sont définis à l'aide de méthodes orientées objet, sous la forme de classes d'interfaces pour modéliser les compteurs à partir d'une fonctionnalité simple jusqu'à une fonctionnalité très complexe. Les Annexe A à F (informatives) donnent des informations supplémentaires relatives à certaines classes d'interface.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18915
+    docidentifier:
+    - content: iec:proj:18915
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:23232
+    docidentifier:
+    - content: iec:proj:23232
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:24231
+    docidentifier:
+    - content: iec:pub:24231
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '35.110'
+    text: Networking
+  - code: 91.140.50
+    text: Electricity supply systems

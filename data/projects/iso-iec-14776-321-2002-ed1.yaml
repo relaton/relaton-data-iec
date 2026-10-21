@@ -1,0 +1,141 @@
+---
+id: ISOIEC147763212002ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Small Computer System Interface-3 (SCSI-3)
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 321: SCSI-3 Block Commands (SBC)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Small Computer System Interface-3 (SCSI-3) - Part 321: SCSI-3 Block Commands (SBC)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/11746
+docidentifier:
+- content: ISO/IEC 14776-321:2002 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:11746
+  type: URN
+date:
+- type: published
+  at: '2002-08-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1/SC 25
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The SCSI command set described in this document is designed to provide efficient peer-to-peer operation of input&#x2F;output logical units by an operating system using block transfers. The SCSI command set assumes an underlying command-response protocol. This SCSI command set provides multiple operating systems concurrent control over one or more input&#x2F;output logical units. However, the multiple operating systems are assumed to coordinate their actions properly to prevent data corruption. This SCSI standard provides commands that assist with coordination between multiple operating systems. However, details of the coordination are beyond the scope of the SCSI command set.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:10174
+    docidentifier:
+    - content: iec:pub:10174
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment

@@ -1,0 +1,143 @@
+---
+id: IEC62056752016ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electricity metering data exchange
+  type: title-intro
+- language: en
+  script: Latn
+  content: The DLMS/COSEM suite
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 7-5: Local data transmission profiles for Local Networks (LN)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electricity metering data exchange - The DLMS/COSEM suite - Part 7-5: Local data transmission profiles for Local Networks (LN)'
+  type: main
+- language: fr
+  script: Latn
+  content: Echange des données de comptage de l'électricité
+  type: title-intro
+- language: fr
+  script: Latn
+  content: La suite DLMS/COSEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 7-5: Profils de transmission de données locales pour réseaux locaux (LN)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Echange des données de comptage de l''électricité - La suite DLMS/COSEM - Partie 7-5: Profils de transmission de données locales pour réseaux locaux (LN)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20586
+docidentifier:
+- content: IEC 62056-7-5:2016 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:20586
+  type: URN
+date:
+- type: published
+  at: '2016-05-12'
+- type: created
+  at: '2013-03-29'
+- type: forecast
+  at: '2016-03-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 13
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62056-7-5:2016 specifies DLMS/COSEM communication profiles for transmitting metering data modelled by COSEM interface objects through a Local Data Transmission Interface (LDTI). The LDTI may be part of a meter or of a Local Network Access Point (LNAP) hosting a DLMS/COSEM server.
+- language: fr
+  script: Latn
+  content: L'IEC 62056-7-5:2016 spécifie les profils de communication DLMS/COSEM pour la transmission des données de comptage modélisées par les objets d'interface COSEM par l'intermédiaire d'une interface de transmission de données locales (LDTI). La LDTI peut faire partie d'un compteur ou d'un point d'accès au réseau local (LNAP) hébergeant un serveur DLMS/COSEM.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:24779
+    docidentifier:
+    - content: iec:pub:24779
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  - code: 91.140.50
+    text: Electricity supply systems

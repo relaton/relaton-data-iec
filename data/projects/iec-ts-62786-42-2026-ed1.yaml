@@ -1,0 +1,124 @@
+---
+id: IECTS62786422026ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Distributed energy resources connection with the grid
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 42: Technical requirements for voltage measurement used to control DER and loads'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Distributed energy resources connection with the grid - Part 42: Technical requirements for voltage measurement used to control DER and loads'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/103826
+docidentifier:
+- content: IEC TS 62786-42:2026 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:103826
+  type: URN
+date:
+- type: published
+  at: '2026-01-30'
+- type: created
+  at: '2021-03-12'
+- type: forecast
+  at: '2026-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 8
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 62786-42:2026 defines minimum requirements for AC voltage measurement used to control distributed energy resources (DER) and loads connected to distribution networks.<br/>
+    This document specifies the characteristics of voltage magnitude measurement to evaluate their performances (including voltage and frequency measuring range, accuracy, voltage and frequency operating range, resolution, etc).<br/>
+    This document describes the main use cases of voltage measurement, with associated level of performances.<br/>
+    This document describes the principle of functional tests to evaluate the specified characteristics and defines the influencing factors that affect these performances, under steady state or dynamic conditions.<br/>
+    This document defines the functional requirements applicable to voltage measurement which can be embedded inside DER or loads controller or performed as an external control system. In the case of DER, this document is a subpart of requirements which are defined in the other parts of the IEC 62786 series.<br/>
+    This document is applicable to DER and loads regardless of voltage level at the point of connection to the distribution grid.<br/>
+    This document does not specify hardware, software or a method for voltage measurement. It does not specify tests linked to environmental conditions associated to hardware devices (climatic, mechanical stress, electromagnetic compatibility test, etc).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:66147
+    docidentifier:
+    - content: iec:pub:66147
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general

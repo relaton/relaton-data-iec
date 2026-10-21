@@ -1,0 +1,124 @@
+---
+id: IECSRD62913232019ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Generic smart grid requirements
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-3: Resources connected to the grid domains'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Generic smart grid requirements - Part 2-3: Resources connected to the grid domains'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/22240
+docidentifier:
+- content: IEC SRD 62913-2-3:2019 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:22240
+  type: URN
+date:
+- type: published
+  at: '2019-05-17'
+- type: created
+  at: '2014-08-08'
+- type: forecast
+  at: '2019-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SyC Smart Energy
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC SRD 62913-2-3:2019(E) initiates and illustrates the IEC’s systems approach based on Use Cases and involving the identification of generic smart grid requirements for further standardization work for resources connected to the electric power systems – i.e. distributed energy resources, smart home/commercial/industrial/DR-customer energy management, energy storage, and bulk generation domains – based on the methods and tools developed in IEC SRD 62913-1.<br/>
+    This document captures possible "common and repeated usage" of a smart grid system, under the format of "Uses Cases" with a view to feeding further standardization activities. Use Cases can be described in different ways and can represent competing alternatives. From there, this document derives the common requirements to be considered by these further standardization activities in term of interfaces between actors interacting with the given system.<br/>
+    To this end, Use Case implementations are given for information purposes only. The interface requirements to be considered for later standardization activities are summarized (typically information pieces, communication services and specific non-functional requirements: performance level, security specification, etc.).<br/>
+    This analysis is based on the business input from domain experts as well as existing material on grid management in a smart grid environment when relevant. Table 1 highlights the domains and business Use Cases described in this document.<br/>
+    Electric vehicles are on one hand considered as a DER and normally should fit in IEC SRD 62913-2-3; but on the other hand, and for historical reasons, they are separated into two documents and covered in the IEC SRD 62913-2-4 electric transportation domain.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:28101
+    docidentifier:
+    - content: iec:pub:28101
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: system-reference-deliverable
+  flavor: iec
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  - code: '29.240'
+    text: Power transmission and distribution networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering

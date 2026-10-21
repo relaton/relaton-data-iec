@@ -1,0 +1,133 @@
+---
+id: IECTS6172422025ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Photovoltaic system performance
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Power performance index and capacity evaluation method'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Photovoltaic system performance - Part 2: Power performance index and capacity evaluation method'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104149
+docidentifier:
+- content: IEC TS 61724-2:2025 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:104149
+  type: URN
+date:
+- type: published
+  at: '2025-09-22'
+- type: created
+  at: '2020-03-20'
+- type: forecast
+  at: '2025-09-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 82
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 61724-2:2025 applies to grid-connected PV systems comprising at least one inverter.<br/>
+    The test evaluates the PV system only in conditions where output is unconstrained by limitations in AC power output from the inverters. This document defines a test of a PV system's power performance index (PPI). PPI, defined in IEC 61724‑1, is the ratio of a system's measured power output under test conditions to its expected output at those conditions based on the system's design.<br/>
+    The test is intended to be performed over a short period of typically three to five days and is typically used to satisfy a contractual performance guarantee as part of the final completion of a PV power plant. This second edition cancels and replaces the first edition published in 2016. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Adapting the document for bifacial PV systems, in accordance with the latest edition of IEC 61724‑1 and current industry practices.<br/>
+    b) Adapting the test procedure to account for the limited times of unconstrained system operation which are now common because of high DC-to-AC ratios (clipping) and interconnection limits (curtailment).<br/>
+    c) Adapting the test procedure to achieve a test that can be performed in a short time of three to five days during favourable conditions.<br/>
+    d) Focusing the document more heavily on the use of modern PV system modelling software to obtain the expected performance of the system under test.<br/>
+    e) Simplifying the mathematical procedure for calculating the test results.<br/>
+    f) Clearly identifying test elections (optional choices to be made in conducting the test) and providing a template for documenting these elections.<br/>
+    g) Clarifying the discussion of the test boundary that separates tested variables from untested variables.<br/>
+    h) Expanding and clarifying the discussion of data filtering.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22651
+    docidentifier:
+    - content: iec:proj:22651
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:66710
+    docidentifier:
+    - content: iec:pub:66710
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering

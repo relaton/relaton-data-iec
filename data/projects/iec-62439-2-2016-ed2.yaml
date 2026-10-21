@@ -1,0 +1,165 @@
+---
+id: IEC6243922016ED2
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: High availability automation networks
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Media Redundancy Protocol (MRP)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - High availability automation networks - Part 2: Media Redundancy Protocol (MRP)'
+  type: main
+- language: fr
+  script: Latn
+  content: Réseaux de communication industriels
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Réseaux d'automatisme à haute disponibilité
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Protocole de redondance du support (MRP)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Réseaux de communication industriels - Réseaux d''automatisme à haute disponibilité - Partie 2: Protocole de redondance du support (MRP)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/20504
+docidentifier:
+- content: IEC 62439-2:2016 ED2
+  type: IEC
+  primary: true
+- content: iec:proj:20504
+  type: URN
+date:
+- type: published
+  at: '2016-03-30'
+- type: created
+  at: '2012-09-14'
+- type: forecast
+  at: '2016-02-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62439-2:2016 is applicable to high-availability automation networks based on the ISO/IEC/IEEE 8802-3 (IEEE 802.3) (Ethernet) technology. This part of the IEC 62439 series specifies a recovery protocol based on a ring topology, designed to react deterministically on a single failure of an inter-switch link or switch in the network, under the control of a dedicated media redundancy manager node.This second edition cancels and replaces the first edition published in 2010. This edition constitutes a technical revision. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - adding a protocol extension to select the media redundancy manager automatically;<br/>
+    - adding a protocol to redundantly connect media redundancy protocol rings.<br/>
+    <br/>
+    This publication is to be read in conjunction with IEC 62439-1:2010.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62439-2:2016 concerne les réseaux de haute disponibilité pour l'automation reposant sur la technologie ISO/IEC/IEEE 8802-3 (IEEE 802.3) (Ethernet). La présente partie de la série IEC 62439 spécifie un protocole de reprise reposant sur une topologie en anneau, conçu pour réagir de manière déterministe sur une seule défaillance d'une maille interétage ou d'un commutateur du réseau, sous le contrôle d'un n ud du gestionnaire de redondance du support dédié. Cette deuxième édition annule et remplace la première édition parue en 2010. Cette édition constitue une révision technique. Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    - ajout d'une extension de protocole pour sélectionner automatiquement le gestionnaire de redondance du support;<br/>
+    - ajout d'un protocole pour connecter de manière redondante les anneaux du protocole de redondance du support.<br/>
+    <br/>
+    Cette publication doit être lue conjointement avec la IEC 62439-1:2010.
+status:
+  stage:
+    abbreviation: DELPUB
+    content: '99.60'
+  iteration: '1'
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18330
+    docidentifier:
+    - content: iec:proj:18330
+      type: URN
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:102008
+    docidentifier:
+    - content: iec:proj:102008
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:24434
+    docidentifier:
+    - content: iec:pub:24434
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.05
+    text: Multilayer applications

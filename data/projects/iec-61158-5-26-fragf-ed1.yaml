@@ -1,0 +1,129 @@
+---
+id: IEC61158526FRAGFED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Industrial communication networks
+  type: title-intro
+- language: en
+  script: Latn
+  content: Fieldbus specifications
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 5-26: Application layer service definition -- Type 26 elements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial communication networks - Fieldbus specifications - Part 5-26: Application layer service definition -- Type 26 elements'
+  type: main
+- language: fr
+  script: Latn
+  content: "<p>Réseaux de communication industriels"
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Spécifications des bus de terrain
+  type: title-main
+- language: fr
+  script: Latn
+  content: "Partie 5-26 : Définition des services de la couche application -</p>\r\n\r\n<p>Éléments de type 26</p>"
+  type: title-part
+- language: fr
+  script: Latn
+  content: |-
+    <p>Réseaux de communication industriels - Spécifications des bus de terrain - Partie 5-26 : Définition des services de la couche application -</p>
+
+    <p>Éléments de type 26</p>
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104774
+docidentifier:
+- content: IEC 61158-5-26/FRAGF ED1
+  type: IEC
+  primary: true
+- content: iec:proj:104774
+  type: URN
+date:
+- type: created
+  at: '2015-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65C
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61158-5-25: 2019-04 defines in an abstract way the externally visible service provided by the different Types of fieldbus Application Layer in terms of<br/>
+    a) an abstract model for defining application resources (objects) capable of being manipulated by users via the use of the FAL service;<br/>
+    b) the primitive actions and events of the service;<br/>
+    c) the parameters associated with each primitive action and event, and the form which they take; and<br/>
+    d) the interrelationship between these actions and events, and their valid sequences.
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 6158-5-25:2019-04 définit de manière abstraite le service, visible par un observateur extérieur, assuré par les différents Types de la couche Application de bus de terrain, en termes<br/>
+    a) de modèle abstrait visant à la définition des ressources d'application (objets) qui peuvent être manipulées par des utilisateurs utilisant un service FAL;<br/>
+    b) d'événements et d'actions liées aux primitives du service;<br/>
+    c) de paramètres associés à chaque événement et action de primitive, ainsi que de forme prise par ces paramètres; et<br/>
+    d) d'interaction entre ces événements et ces actions, ainsi que de séquences valides desdits événements et actions.
+status:
+  stage:
+    abbreviation: MERGED
+    content: '30.97'
+  iteration: '1'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.100.70
+    text: Application layer
+  - code: '35.110'
+    text: Networking

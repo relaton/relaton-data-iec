@@ -1,0 +1,187 @@
+---
+id: IEC60601244ED4
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Medical electrical equipment
+  type: title-intro
+- language: en
+  script: Latn
+  content: 'Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography'
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography'
+  type: main
+- language: fr
+  script: Latn
+  content: Appareils électromédicaux
+  type: title-intro
+- language: fr
+  script: Latn
+  content: 'Partie 2-44: Exigences particulières pour la sécurité de base et les performances essentielles des équipements à rayonnement X de tomodensitométrie'
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Appareils électromédicaux - Partie 2-44: Exigences particulières pour la sécurité de base et les performances essentielles des équipements à rayonnement X de tomodensitométrie'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/131715
+docidentifier:
+- content: IEC 60601-2-44 ED4
+  type: IEC
+  primary: true
+- content: iec:proj:131715
+  type: URN
+date:
+- type: created
+  at: '2025-01-31'
+- type: forecast
+  at: '2026-11-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 62/SC 62B
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '4'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60601-2-44:2026 applies to the BASIC SAFETY and ESSENTIAL PERFORMANCE of CT SCANNERS, hereafter also referred to as ME EQUIPMENT.<br/>
+    If a clause or subclause is specifically intended to be applicable to ME EQUIPMENT only, or to ME SYSTEMS only, the title and content of that clause or subclause will say so. If that is not the case, the clause or subclause applies both to ME EQUIPMENT and to ME SYSTEMS, as relevant.<br/>
+    The scope of this document is limited to CT SCANNERS intended to be used for head imaging, body imaging, or both characterised by an ENCLOSURE of the x-ray source(s) and imaging detector(s) in a common protective cover in the shape of a toroid. It includes safety requirements for the X-RAY GENERATORS used in CT SCANNERS, including those where HIGH-VOLTAGE GENERATORS are integrated with an X-RAY TUBE ASSEMBLY.<br/>
+    The scope of this document excludes RADIOTHERAPY SIMULATORS and systems where the image is created by a source other than an X-RAY TUBE.<br/>
+    IEC 60601-2-44:2026 cancels and replaces the third edition published in 2009, Amendment 1:2012 and Amendment 2:2016. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) new requirements for calculation, display and recording of SSDE (according to IEC 62985), and of CTDIVOL for scan projection RADIOGRAM (SPR);<br/>
+    b) a revision of the requirements for CT SCANNER used for RADIOTHERAPY planning;<br/>
+    c) a revision of requirements for dose checks (dose notification, dose alert), in particular for interventional procedures;<br/>
+    d) a revision of requirements for dose statements in the ACCOMPANYING DOCUMENTS;<br/>
+    e) a new requirement for a DICOM image based dose survey.<br/>
+    In addition, several other changes and new requirements have been included.<br/>
+    In detail, this document compared to IEC 60601-2-44:2009/AMD1:2012/AMD2:2016 includes the following changes:<br/>
+    f) new definition of terms for:<br/>
+    1) RECONSTRUCTED SECTION THICKNESS,<br/>
+    2) NOMINAL RECONSTRUCTED SECTION THICKNESS,<br/>
+    3) NOMINAL TOTAL ACQUISITION BEAM WIDTH,<br/>
+    4) READY STATE,<br/>
+    5) INSTRUCTIONS FOR USE,<br/>
+    6) REFERENCE CLINICAL PROTOCOL,<br/>
+    7) CTDI DOSIMETRY PHANTOM,<br/>
+    8) ALTERNATE DOSE ALERT BEHAVIOR,<br/>
+    9) CT GUIDED INTERVENTIONAL PROCEDURE,<br/>
+    10) CTDIVOL (Z),<br/>
+    11) SSDE(Z),<br/>
+    12) PATIENT SUPPORT;<br/>
+    g) terms revised for CTDIVOL and DLP, new definitions for CTDIVOL and DLP for scan mode (SPR);<br/>
+    h) new notes regarding ESSENTIAL PERFORMANCE;<br/>
+    i) requirements deleted for SENSITIVITY PROFILE STATEMENT;<br/>
+    j) new requirements for:<br/>
+    1) specification in ACCOMPANYING DOCUMENTS,<br/>
+    2) warning against unexpected movement of the PATIENT SUPPORT,<br/>
+    3) CTDIVOL and DLP for SPR,<br/>
+    4) display/recording of SSDE,<br/>
+    5) dose summary as DICOM image and DICOM Dose SR,<br/>
+    6) REFERENCE CLINICAL PROTOCOLS,<br/>
+    7) AEC with XYZ-modulation,<br/>
+    8) prevention of unlimited scanning,<br/>
+    9) Metal Artifact Reduction (MAR) in imaging performance;<br/>
+    k) requirements revised for:<br/>
+    1) linear movements of the PATIENT SUPPORT and gantry in Emergency stopping devices,<br/>
+    2) deterministic effects,<br/>
+    3) dose checks,<br/>
+    4) system performance,<br/>
+    5) RTP (alignments, typical modes, etc.),<br/>
+    6) user information (CTDI100, perfusion, etc.),<br/>
+    7) dose statements,<br/>
+    8) indicator lights,<br/>
+    9) safety measures against excessive X RADIATION,<br/>
+    10) indication and position of the TOMOGRAPHIC PLANE and TOMOGRAPHIC SECTION(S),<br/>
+    11) indication of LOADING STATE,<br/>
+    12) axial scan modes for CTDI measurements,<br/>
+    13) lightmarker (203.117): indication of an (offset) reference plane instead of indication of the TOMOGRAPHIC PLANE possible;<br/>
+    l) several changes to account for state-of-the-art and for clarification;<br/>
+    m) addition of informative Annex EE (Reference template for the content for listing of REFERENCE CLINICAL PROTOCOLS)
+status:
+  stage:
+    abbreviation: BPUB
+    content: '60.00'
+  iteration: '1'
+relation:
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:14865
+    docidentifier:
+    - content: iec:proj:14865
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18476
+    docidentifier:
+    - content: iec:proj:18476
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:18577
+    docidentifier:
+    - content: iec:proj:18577
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:22643
+    docidentifier:
+    - content: iec:proj:22643
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 11.040.50
+    text: Radiographic equipment

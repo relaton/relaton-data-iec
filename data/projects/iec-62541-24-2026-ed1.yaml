@@ -1,0 +1,137 @@
+---
+id: IEC62541242026ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: OPC unified architecture
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 24: Scheduler'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'OPC unified architecture - Part 24: Scheduler'
+  type: main
+- language: fr
+  script: Latn
+  content: Architecture unifiée OPC
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 24: Ordonnanceur'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Architecture unifiée OPC - Partie 24: Ordonnanceur'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/114963
+docidentifier:
+- content: IEC 62541-24:2026 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:114963
+  type: URN
+date:
+- type: published
+  at: '2026-01-08'
+- type: created
+  at: '2023-05-05'
+- type: forecast
+  at: '2026-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62541-24:2026 specifies an OPC UA information model to expose information, at what dates and times specific actions are executed by the OPC UA Server. Those schedules can optionally also be manipulated via the information model.<br/>
+    The schedule defines on which dates they are active, and can also reference global calendars representing specific dates, for example public holidays. In addition, the schedule defines times and actions that will be executed at that time. The model defines writing Variables and calling Methods but can be extended to other actions as well.<br/>
+    The NamespaceUri for all NodeIds defined in this document is defined in Annex A.
+- language: fr
+  script: Latn
+  content: |-
+    IEC 62541-24:2026 spécifie un Modèle d'information OPC UA pour présenter des informations, aux dates et heures auxquelles des actions spécifiques sont exécutées par le Serveur OPC UA. Ces programmes peuvent aussi être éventuellement manipulés au travers du modèle d'information.<br/>
+    Le programme définit les dates auxquelles les actions ont lieu, et peut également référencer des calendriers globaux indiquant des dates spécifiques, comme les jours fériés. De plus, le programme définit les heures et les actions exécutées au moment indiqué. Le modèle définit l'écriture de Variables et l'appel de Méthodes, mais peut également être étendu à d'autres actions.<br/>
+    Le NamespaceUri pour tous les NodeIds définis dans le présent document est défini à l'Annexe A.
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:81523
+    docidentifier:
+    - content: iec:pub:81523
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems

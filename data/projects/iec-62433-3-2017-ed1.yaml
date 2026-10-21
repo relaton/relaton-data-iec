@@ -1,0 +1,133 @@
+---
+id: IEC6243332017ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: EMC IC modelling
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Models of integrated circuits for EMI behavioural simulation -- Radiated emissions modelling (ICEM-RE)'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'EMC IC modelling - Part 3: Models of integrated circuits for EMI behavioural simulation -- Radiated emissions modelling (ICEM-RE)'
+  type: main
+- language: fr
+  script: Latn
+  content: Modèles de circuits intégrés pour la CEM
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Modèles de circuits intégrés pour la simulation du comportement lors de perturbations électromagnétiques -- Modélisation des émissions rayonnées (ICEM-RE)'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Modèles de circuits intégrés pour la CEM - Partie 3: Modèles de circuits intégrés pour la simulation du comportement lors de perturbations électromagnétiques -- Modélisation des émissions rayonnées (ICEM-RE)'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/21777
+docidentifier:
+- content: IEC 62433-3:2017 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:21777
+  type: URN
+date:
+- type: published
+  at: '2017-01-27'
+- type: created
+  at: '2014-06-27'
+- type: forecast
+  at: '2017-03-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 47/SC 47A
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEC 62433-3:2017 provides a method for deriving a macro-model to allow the simulation of the radiated emission levels of an Integrated Circuit (IC). This model is commonly called Integrated Circuit Emission Model - Radiated Emission, ICEM-RE.  The model is intended to be used for modelling a complete IC, with or without its associated package, a functional block and an Intellectual Property (IP) block of both analogue and digital ICs (input/output pins, digital core and supply), when measured or simulated data cannot be directly imported into simulation tools.
+- language: fr
+  script: Latn
+  content: 'L''IEC 62433-3:2017 présente une méthode pour déterminer un macromodèle permettant de simuler les niveaux d''émissions rayonnées d''un circuit intégré. Ce modèle est habituellement appelé: modèle des émissions de circuits intégrés - Emissions rayonnées (ICEM-RE: Integrated Circuit Emission Model – Radiated Emission). Le modèle est destiné à être utilisé pour modéliser un circuit intégré complet, avec ou sans son boîtier, un bloc fonctionnel et un bloc à propriété intellectuelle (IP) de circuits intégrés analogiques et numériques (broches d''entrée/sortie, cœur numérique et alimentation), lorsque les données mesurées ou simulées ne peuvent pas être importées directement dans des outils de simulation.'
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:33478
+    docidentifier:
+    - content: iec:pub:33478
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  - code: 33.100.10
+    text: Emission

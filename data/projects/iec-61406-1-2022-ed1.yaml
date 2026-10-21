@@ -1,0 +1,146 @@
+---
+id: IEC6140612022ED1
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Identification Link
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 1: General requirements'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Identification Link - Part 1: General requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Lien d’identification
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Exigences générales'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Lien d’identification - Partie 1: Exigences générales'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/104621
+docidentifier:
+- content: IEC 61406-1:2022 ED1
+  type: IEC
+  primary: true
+- content: iec:proj:104621
+  type: URN
+date:
+- type: published
+  at: '2022-09-15'
+- type: created
+  at: '2021-01-29'
+- type: forecast
+  at: '2022-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 65/SC 65E
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61406-1:2022 specifies minimum requirements for a globally unique identification of physical objects which also constitutes a link to its related digital information. This identification is designated hereinafter as "Identification Link" (IL), with the encoded data designated as IL string. The IL string has the data-format of a link (URL). The IL is machine-readable and is attached to the physical object in a 2D symbol or NFC tag. The requirements in this standard apply to physical objects:<br/>
+    - that are provided by the manufacturer as an individual unit,<br/>
+    - and that have already been given a unique identity by the manufacturer.<br/>
+    This document does not specify any requirements on the content and the layout of nameplates/typeplates (e.g. spatial arrangement, content of the plain texts, approval symbols etc.).
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 61406-1:2022 spécifie les exigences minimales pour permettre une identification unique et globale des objets physiques, qui constitue également un renvoi vers ses informations numériques connexes. Cette identification est par la suite appelée "lien d’identification" (IL), les données codées étant désignées "chaîne IL". La chaîne IL a le format de données d’un lien (URL). L’IL est lisible par machine et associé à l’objet physique sous la forme d’un symbole 2D ou d’une balise NFC. Les exigences de la présente norme s’appliquent aux objets physiques:<br/>
+    - qui sont fournis par le fabricant sous forme d’unité individuelle;<br/>
+    - et auxquels le fabricant a déjà attribué une identité unique.<br/>
+    Le présent document ne spécifie aucune exigence relative au contenu et à la disposition des plaques signalétiques (par exemple organisation spatiale, contenu des textes bruts, symboles d’homologation, etc.).
+status:
+  stage:
+    abbreviation: PPUB
+    content: '60.60'
+  iteration: '1'
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: iec:proj:129797
+    docidentifier:
+    - content: iec:proj:129797
+      type: URN
+- type: hasSuccessor
+  bibitem:
+    formattedref:
+      content: iec:pub:67673
+    docidentifier:
+    - content: iec:pub:67673
+      type: URN
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
