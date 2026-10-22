@@ -1,0 +1,123 @@
+---
+id: IECTS631022026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Grid code compliance assessment methods for grid connection of renewable energy power plants
+  type: title-main
+- language: en
+  script: Latn
+  content: Grid code compliance assessment methods for grid connection of renewable energy power plants
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/89555
+- type: obp
+  content: https://webstore.iec.ch/preview/info_iects63102{ed2.0}en.pdf
+docidentifier:
+- content: IEC TS 63102:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iec:63102:2026-10:ts::'
+  type: URN
+date:
+- type: published
+  at: '2026-10-21'
+- type: stable-until
+  at: '2030-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC 8/SC 8A
+      identifier:
+      - content: '8'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 63102:2026 highlights the recommended technical methods of grid code compliance assessment of renewable energy (RE) power plants connected to the grid, including wind power plants, photovoltaic (PV) power plants, and hybrid power plants. Hybrid power plants refer to wind/PV power plants equipped with energy storage systems or combined power plants based on wind, PV, and energy storage. The electrical behaviour of RE power plants in this document includes the operating area, control performance, fault ride-through capability, power quality, oscillation, and grid adaptability.<br/>
+    Compliance assessment is the process of determining whether the electrical behaviour of RE power plants meets the specific technical requirements in grid codes or technical regulations. The assessment methods include compliance field test, compliance simulation, hardware-in-the-loop (HIL) simulation and compliance monitoring. The input for compliance assessment includes relevant supporting documents, test results, validated simulation models, controller hardware, and continuous monitoring data. This document focuses exclusively on assessment methods from a technical perspective. It does not address certification-related procedures.<br/>
+    This document is applicable to RE power plants connected to the electrical power grid.<br/>
+    This second edition cancels and replaces the first edition published in 2021. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) in terms of scope, wind and PV power plants are replaced by the renewable energy power plants that includes wind power plants, PV power plants and hybrid power plants. Oscillation and grid adaptability are added in the assessment scope;<br/>
+    b) Clause 5 optimizes the descriptions of compliance field testing, compliance simulation, HIL simulation and compliance monitoring assessment methods, and recommends corresponding assessment methods according to different phases of renewable energy power plants and various assessment items;<br/>
+    c) Clause 6 supplements compliance field test methods for reactive power capability assessment;<br/>
+    d) Clause 7 adds synthetic inertia response and voltage slope control to control performance assessment, adjusts recommended contents for field testing and HIL simulation, f) improves applicable conditions and reference procedures of assessment methods, and updates illustrative charts and figures;<br/>
+    e) Clause 8 adds cascaded under and over voltage ride-through assessment cases, and refines simulation procedures and requirements for simulation results;<br/>
+    f) Clause 9 incorporates compliance simulation and monitoring methods into power quality assessment;<br/>
+    g) oscillation assessment is newly introduced, adopting combined time-domain and frequency-domain simulation as well as monitoring methods, with the consideration of renewable energy power plants connected to grid via HVDC;<br/>
+    i) grid adaptability assessment is newly supplemented, specifically covering the following withstand capability, such as voltage unbalance factor, flicker and harmonics, phase angle jump and grid strength;<br/>
+    j) Annex A adds topological structure examples of renewable energy power plants, compliance simulation setup, and improves contents including HIL simulation setup, monitoring of electrical performance and harmonics simulation.
+status:
+  stage:
+    content: PUBLISHED
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-specification
+  flavor: iec
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
+  - code: '27.180'
+    text: Wind turbine energy systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      content: '121213'
+  price_code: iec:L
