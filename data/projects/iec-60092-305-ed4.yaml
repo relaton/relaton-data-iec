@@ -5,29 +5,42 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: Systematic review of IEC 92-305 (1980)
+  content: Electrical installations in ships
   type: title-main
 - language: en
   script: Latn
-  content: Systematic review of IEC 92-305 (1980)
+  content: 'Part 305: Equipment -- Storage batteries'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Electrical installations in ships - Part 305: Equipment -- Storage batteries'
   type: main
 - language: fr
   script: Latn
-  content: Examen systématique de la CEI 92-305 (1980)
+  content: Installations électriques à bord des navires
   type: title-main
 - language: fr
   script: Latn
-  content: Examen systématique de la CEI 92-305 (1980)
+  content: 'Partie 305: Matériel -- Batteries d''accumulateurs'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Installations électriques à bord des navires - Partie 305: Matériel -- Batteries d''accumulateurs'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/989
+  content: https://webstore.iec.ch/publication/121832
 docidentifier:
 - content: IEC 60092-305 ED4
   type: IEC
   primary: true
-- content: iec:proj:989
+- content: iec:proj:121832
   type: URN
+date:
+- type: created
+  at: '2023-12-08'
+- type: forecast
+  at: '2026-12-18'
 contributor:
 - role:
   - type: publisher
@@ -69,10 +82,20 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 60092-305:2026 is applicable to the installation of all fixed position storage batteries up to 1 500 V DC of all types, sizes, and chemistries for use in or on ships.<br/>
+    This document is not applicable to portable batteries and to primary cells.<br/>
+    This fourth edition cancels and replaces the third edition published in 1980, Amendment 1:1989. This edition constitutes a technical revision.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Complete revised version.<br/>
+    b) Implementing different battery systems
 status:
   stage:
-    abbreviation: DEL
-    content: '10.98'
+    abbreviation: PRVD
+    content: '50.60'
   iteration: '1'
 relation:
 - type: related
@@ -89,6 +112,13 @@ relation:
     docidentifier:
     - content: iec:proj:988
       type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:102704
+    docidentifier:
+    - content: iec:proj:102704
+      type: URN
 place:
 - city: Geneva
 ext:
@@ -96,3 +126,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iec
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and  of marine structures

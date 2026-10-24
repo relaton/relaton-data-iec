@@ -5,42 +5,50 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: Safety of power converters for use in photovoltaic power systems
+  content: Photovoltaic power systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Safety
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 2: Particular requirements for inverters'
+  content: 'Power conversion equipment -- Part 2: Particular requirements for inverters'
   type: title-part
 - language: en
   script: Latn
-  content: 'Safety of power converters for use in photovoltaic power systems - Part 2: Particular requirements for inverters'
+  content: 'Photovoltaic power systems - Safety - Power conversion equipment -- Part 2: Particular requirements for inverters'
   type: main
 - language: fr
   script: Latn
-  content: Sécurité des convertisseurs de puissance utilisés dans les systèmes photovoltaïques
+  content: Systèmes photovoltaïques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Sécurité
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 2: Exigences particulières pour les onduleurs'
+  content: 'Équipements de conversion de puissance -- Partie 2: Exigences particulières pour les onduleurs'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Sécurité des convertisseurs de puissance utilisés dans les systèmes photovoltaïques - Partie 2: Exigences particulières pour les onduleurs'
+  content: 'Systèmes photovoltaïques - Sécurité - Équipements de conversion de puissance -- Partie 2: Exigences particulières pour les onduleurs'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/102098
+  content: https://webstore.iec.ch/publication/118373
 docidentifier:
 - content: IEC 62109-2 ED2
   type: IEC
   primary: true
-- content: iec:proj:102098
+- content: iec:proj:118373
   type: URN
 date:
 - type: created
-  at: '2018-04-27'
+  at: '2023-06-09'
 - type: forecast
-  at: '2024-04-27'
+  at: '2026-12-18'
 contributor:
 - role:
   - type: publisher
@@ -82,10 +90,39 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62109-2:2026 covers the particular safety requirements relevant to DC to AC power conversion equipment (PCE) intended for use in photovoltaic power systems, herein referred to as "PV inverters" or simply "inverters". This document is also applicable to PCE that have or perform inverter functions in addition to other functions.<br/>
+    This document defines the minimum requirements for inverters regarding protection against electric shock, energy, fire, mechanical and other hazards.<br/>
+    This document covers PV inverters with inputs and outputs with system voltages not exceeding the low voltage limits of 1 500 V DC and 1 000 V AC, line to line and line to earth, including PV, battery, mains and non-mains AC systems, or other sources.<br/>
+    This document can also be used for accessories for use with PV inverters, except where more appropriate standards exist. Where a PV combiner is integrated into an inverter, the combiner is considered a part of the inverter and this document applies.<br/>
+    The purpose of the requirements of this document is to ensure that the design and methods of construction used provide adequate protection for the operator and the surrounding area against:<br/>
+    a) electric shock and energy hazards;<br/>
+    b) mechanical hazards;<br/>
+    c) excessive temperature hazards;<br/>
+    d) spread of fire from the equipment;<br/>
+    e) chemical hazards;<br/>
+    f) sonic pressure hazards;<br/>
+    g) liberated fluids, gases and explosion hazards.<br/>
+    <br/>
+    This second edition cancels and replaces the first edition published in 2011. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Applicable requirements changes given in the similar list in IEC 61209-1:2026, insofar as they apply in this document.<br/>
+    b) Removal of transportable and handheld equipment from the Scope, and of specifically-related requirements.<br/>
+    c) Addition of requirements for ac source management systems including addition of an AC source management test.<br/>
+    d) Changes to the requirements for transient output voltage variations including added cumulative overvoltage duration limits.<br/>
+    e) Changes to the requirements for steady state output frequency.<br/>
+    f) Removal of allowances for intentionally non-sinusoidal output waveforms.<br/>
+    g) Removal of requirements regarding inverter isolation and array grounding related to PV earth fault protection (now changed and covered in IEC 61209-1:2026 with reference to IEC 63112).<br/>
+    h) Addition of requirements for stand-alone inverter maximum AC output current limitation functions including functional safety aspects.<br/>
+    i) Changes to the requirements for fault tolerance of automatic disconnecting means (also moved into Subclause 7.3.201 and re-titled as “Protection against DC shock hazard on the AC mains for grid-interactive inverters”) including functional safety aspects.<br/>
+    j) Removal of requirements for inverter backfeed current onto the PV array (now covered in IEC 61209-1:2026).<br/>
+    k) Removal of requirements for fault indication (now covered in IEC 61209-1:2026).
 status:
   stage:
-    abbreviation: CAN
-    content: '30.98'
+    abbreviation: PRVD
+    content: '50.60'
   iteration: '1'
 relation:
 - type: related
@@ -94,6 +131,13 @@ relation:
       content: iec:proj:13618
     docidentifier:
     - content: iec:proj:13618
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:102098
+    docidentifier:
+    - content: iec:proj:102098
       type: URN
 place:
 - city: Geneva
