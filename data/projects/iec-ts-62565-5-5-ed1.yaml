@@ -73,6 +73,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC TS 62565-5-5:2027 which is a Technical Specification, establishes a detail specification (DS) for:<br/>
+    • graphene-carbon nanotube (CNT) composite suspension as conductive agent<br/>
+    used for the<br/>
+    • electrodes of lithium-ion batteries.<br/>
+    This document is intended to be used for the following applications:<br/>
+    • negative electrodes in lithium-ion battery, mainly H2O-based;<br/>
+    • positive electrodes in lithium-ion battery, mainly N-methyl-2-pyrrolidone (NMP)-based.<br/>
+    The current application modes include mixture with other components and coatings on active materials.<br/>
+    Numeric values for the key control characteristics are specified in this document based on a broad industrial consensus of the supply and demand chain.
 status:
   stage:
     abbreviation: RDTS
@@ -85,3 +98,6 @@ ext:
   doctype:
     content: technical-specification
   flavor: iec
+  ics:
+  - code: '07.120'
+    text: Nanotechnologies
