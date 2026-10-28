@@ -37,18 +37,18 @@ title:
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/101637
+  content: https://webstore.iec.ch/publication/121394
 docidentifier:
 - content: IEC 61800-9-1 ED2
   type: IEC
   primary: true
-- content: iec:proj:101637
+- content: iec:proj:121394
   type: URN
 date:
 - type: created
-  at: '2017-12-01'
+  at: '2023-11-03'
 - type: forecast
-  at: '2024-09-25'
+  at: '2026-12-01'
 contributor:
 - role:
   - type: publisher
@@ -90,10 +90,37 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61800-9-1:2026 specifies the general methodology to energy efficiency standardization for any extended product by using the guidance of the extended product approach (EPA).<br/>
+    It enables product committees for driven equipment connected to motor systems (so called extended products) to interface with the relative power losses of the connected motor system (e.g. power drive system) in order to calculate the system energy efficiency for the whole application.<br/>
+    This is based on specified calculation models for speed/load profiles, the duty profiles and relative power losses of appropriate torque versus speed operating points.<br/>
+    This document is applicable to motor systems operated by a motor starter or by a converter (power drive system).<br/>
+    This document does not specify requirements for environmental impact declarations.<br/>
+    Power drive systems designed to drive DC motors are not included in the scope of this document.<br/>
+    This document is a group energy efficiency publication as defined in IEC Guide 118 with the energy efficiency function to establish a clear and simple system methodology for the comparison of the energy performance of motor systems to help product and system improvement.<br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) addition of Annex D - Examples of indexing and evaluation of energy consumption;<br/>
+    b) correction of errors of symbols in several formulas and tables.
+- language: fr
+  script: Latn
+  content: |-
+    L’IEC 61800-9-1:2026 spécifie la méthodologie générale pour la normalisation de l’efficacité énergétique de tout produit étendu en utilisant les recommandations de l’approche produit étendu (EPA).<br/>
+    Il permet aux comités de produits responsables d’équipements entraînés par des systèmes moteurs (désignés "produits étendus") de déterminer les pertes de puissance relatives du système moteur intégré (entraînement électrique de puissance, par exemple) afin de calculer l’efficacité énergétique du système pour toute l’application.<br/>
+    Ces calculs reposent sur des modèles de calcul spécifiés pour les profils de vitesse/charge, les profils de service et les pertes de puissance relatives aux points de fonctionnement couple/vitesse appropriés.<br/>
+    Le présent document est applicable aux systèmes moteurs entraînés par un démarreur de moteur ou par un convertisseur (entraînements électriques de puissance).<br/>
+    Le présent document ne spécifie pas les exigences relatives aux déclarations sur l’impact environnemental.<br/>
+    Les entraînements électriques de puissance conçus pour entraîner des moteurs à courant continu n’entrent pas dans le domaine d’application du présent document.<br/>
+    Le présent document est une publication de groupe sur l’efficacité énergétique, telle que définie dans l’IEC Guide 118, dont la fonction efficacité énergétique est d’établir une méthodologie système claire et simple pour comparer la performance énergétique des systèmes moteurs afin de contribuer à l’amélioration des produits et des systèmes.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l’édition précédente:<br/>
+    a) ajout de l’Annexe D - Exemples d’indexation et d’évaluation de la consommation d’énergie;<br/>
+    b) correction d’erreurs de symboles dans plusieurs formules et tableaux.
 status:
   stage:
-    abbreviation: CAN
-    content: '30.98'
+    abbreviation: BPUB
+    content: '60.00'
   iteration: '1'
 relation:
 - type: related
@@ -102,6 +129,13 @@ relation:
       content: iec:proj:22026
     docidentifier:
     - content: iec:proj:22026
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:101637
+    docidentifier:
+    - content: iec:proj:101637
       type: URN
 place:
 - city: Geneva

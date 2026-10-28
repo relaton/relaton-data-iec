@@ -82,6 +82,17 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>IEC 63452: 2026 provides a consistent approach to manage cybersecurity of railway applications in a railway system. It is applicable across the scope covered by IEC TC 9, which includes railway networks (including high-speed lines, mainlines, and freight-lines), urban transport networks (including metros, tramways, trolleybuses, and fully automated transport systems), and magnetic levitated transport systems. It includes rolling stock, fixed installations, operational management systems (including supervision, information, communication, signalling, and processing systems) for railway operation.</p>
+
+    <p>This document refers to and adapts the relevant part of to the railway sector, detailing the cybersecurity management, zoning, risk management, supply chain management, cybersecurity requirements, cybersecurity assurance, as well as operational, maintenance, and decommissioning requirements. It outlines the cybersecurity activities and cybersecurity deliverables needed to identify, monitor, and manage cybersecurity risks within a railway application life cycle and in its operational environment (railway system) to a level tolerable by the railway duty holder. It also provides guidance on how to secure legacy systems.</p>
+
+    <p>Furthermore, this document provides guidance on coordinating and synchronizing the cybersecurity activities with the generic reliability, availability, maintainability, and safety (RAMS) life cycle defined in, and provides criteria for application to other life cycles.</p>
+
+    <p>Lastly, while this document does not provide safety requirements or constraints on the safety case for railway applications, it does offer guidance on the relationship between cybersecurity and safety processes.</p>
 status:
   stage:
     abbreviation: RFDIS
@@ -94,3 +105,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iec
+  ics:
+  - code: '45.020'
+    text: Railway engineering in general
