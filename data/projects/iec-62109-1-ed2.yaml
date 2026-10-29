@@ -5,30 +5,46 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: Safety of power converters for use in photovoltaic power systems
+  content: Photovoltaic power systems
+  type: title-intro
+- language: en
+  script: Latn
+  content: Safety
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 1: General requirements'
+  content: 'Power conversion equipment -- Part 1: General requirements'
   type: title-part
 - language: en
   script: Latn
-  content: 'Safety of power converters for use in photovoltaic power systems - Part 1: General requirements'
+  content: 'Photovoltaic power systems - Safety - Power conversion equipment -- Part 1: General requirements'
+  type: main
+- language: fr
+  script: Latn
+  content: Sécurité des convertisseurs de puissance utilisés dans les systèmes photovoltaïques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 1: Exigences générales'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Sécurité des convertisseurs de puissance utilisés dans les systèmes photovoltaïques - Partie 1: Exigences générales'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/102097
+  content: https://webstore.iec.ch/publication/118372
 docidentifier:
 - content: IEC 62109-1 ED2
   type: IEC
   primary: true
-- content: iec:proj:102097
+- content: iec:proj:118372
   type: URN
 date:
 - type: created
-  at: '2018-04-27'
+  at: '2023-06-09'
 - type: forecast
-  at: '2024-04-30'
+  at: '2026-12-11'
 contributor:
 - role:
   - type: publisher
@@ -67,12 +83,40 @@ edition:
   content: '2'
 language:
 - en
+- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 62109-1:2026 provides general requirements applicable to all types of power conversion equipment (PCE) for use in photovoltaic (PV) systems where a uniform technical level with respect to safety is necessary. This document defines the minimum requirements for PCE regarding protection against electric shock, energy, fire, mechanical and other hazards. This document covers PCE with inputs and outputs with system voltages not exceeding the low voltage limits of 1 500 V DC and 1 000 V AC, line to line and line to earth, including PV, battery, mains and non-mains AC systems, or other sources. Where a PV combiner is integrated into a PCE, the combiner is considered a part of the PCE and this document applies.<br/>
+    The purpose of the requirements of this Part 1 of IEC 62109 is to ensure that the design and methods of construction used in PV PCE provide adequate protection for the operator and the surrounding area against:<br/>
+    - electric shock and energy hazards;<br/>
+    - mechanical hazards;<br/>
+    - excessive temperature hazards;<br/>
+    - spread of fire from the equipment;<br/>
+    - chemical hazards;<br/>
+    - sonic pressure hazards;<br/>
+    - liberated fluids, gases and explosion hazards.<br/>
+    <br/>
+    This second edition cancels and replaces the first edition published in 2010. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    - Scope: Removes handheld and transportable equipment.<br/>
+    - PV safety: New requirements for earth faults and arc faults.<br/>
+    - Backfeed: Updated requirements for reverse current and voltage backfeed.<br/>
+    - Electrical safety: Updated requirements for shock protection, touch current and live parts.<br/>
+    - Protection devices: New and updated requirements for switches, disconnectors and circuit breakers.<br/>
+    - Insulation: Updated requirements for clearance, creepage and insulation.<br/>
+    - Outdoor equipment: Updated requirements for environmental and water/dust protection.<br/>
+    - PV &amp; batteries: New/updated requirements for PV and battery circuits and batteries.<br/>
+    - Isolation: Updated requirements for isolating equipment from power sources.<br/>
+    - Functional safety: Expanded requirements covering both software and hardware.<br/>
+    - Testing: New and updated safety and electrical tests.<br/>
+    - New risk: Added requirements addressing gas build-up and possible explosion risks.
 status:
   stage:
-    abbreviation: CAN
-    content: '30.98'
+    abbreviation: PRVD
+    content: '50.60'
   iteration: '1'
 relation:
 - type: related
@@ -81,6 +125,13 @@ relation:
       content: iec:proj:9666
     docidentifier:
     - content: iec:proj:9666
+      type: URN
+- type: related
+  bibitem:
+    formattedref:
+      content: iec:proj:102097
+    docidentifier:
+    - content: iec:proj:102097
       type: URN
 place:
 - city: Geneva
