@@ -166497,6 +166497,13 @@
   :file: data/iec-60794-3-11-2026-cmv.yaml
 - :id:
     _type: pubid:iec:international-standard
+    year: '2026'
+    number: '60794'
+    part: '1'
+    subpart: '122'
+  :file: data/iec-60794-1-122-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     year: '1984'
     number: '60795'
   :file: data/iec-60795-1984.yaml
@@ -209621,6 +209628,20 @@
     part: '28'
     subpart: '2'
   :file: data/iec-ts-61400-28-2-2026.yaml
+- :id:
+    _type: pubid:iec:corrigendum
+    year: '2026'
+    number: '1'
+    base:
+      _type: pubid:iec:amendment
+      year: '2025'
+      number: '1'
+      base:
+        _type: pubid:iec:international-standard
+        year: '2019'
+        number: '61400'
+        part: '1'
+  :file: data/iec-61400-1-2019-amd1-2025-cor1-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     year: '2022'
