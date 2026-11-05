@@ -5,11 +5,19 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: Robots for household and similar use – Safety – Particular requirements
+  content: Robots for household and similar use
+  type: title-intro
+- language: en
+  script: Latn
+  content: Safety
   type: title-main
 - language: en
   script: Latn
-  content: Robots for household and similar use – Safety – Particular requirements
+  content: Particular requirements
+  type: title-part
+- language: en
+  script: Latn
+  content: Robots for household and similar use - Safety - Particular requirements
   type: main
 source:
 - type: src
@@ -65,6 +73,29 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 63682:2026 deals with the safety of robots based on appliances within scope of IEC TC 61. The requirements given by this document are applied in addition to the requirements given in the appliance-specific Part 2 manual mode standard of the IEC 60335-series, as far as applicable. These resulting robots intended for household and similar purposes, have a rated voltage being not more than 250 V for single-phase appliances and 480 V for other appliances, including direct current (DC) supplied appliances and battery-operated appliances. This document covers appliances for indoor use.<br/>
+    However, in general, it does not take into account: <br/>
+    – persons (including children) whose physical, sensory or mental capabilities; or lack of experience and knowledge prevents them from using the appliance safely without supervision or instruction; <br/>
+    – children playing with the appliance. <br/>
+    The IEC 60335-2-series can include additional requirements due to the specific function performed by the appliance.<br/>
+    Requirements for docking stations for type 3 mobile robots are specified in normative Annex A.<br/>
+    Other standards can be applicable for some functions such as audio/video functions.<br/>
+    This document does not apply to<br/>
+    – vacuum cleaners and water-suction cleaning appliances and automatic battery-operated cleaners for household use (IEC 60335-2-2);<br/>
+    – battery chargers (IEC 60335-2-29);<br/>
+    – particular requirements for robotic battery powered electrical lawnmowers (IEC 60335-2-107, IEC 62841-4-12);<br/>
+    – appliances for medical purposes (IEC 60601-1);<br/>
+    – electric toys (IEC 62115);<br/>
+    – automatic floor treatment machines for commercial use (IEC 63327);<br/>
+    – driverless industrial trucks (ISO 3691-4);<br/>
+    – industrial robots (ISO 10218 series)<br/>
+    – personal care robots such as mobile servant, physical assistant, personal carrier robots (ISO 13482);<br/>
+    – electric motor-operated hand-held tools, transportable tools and lawn and garden machinery (IEC 60745 series, IEC 61029 series, IEC 62841 series);<br/>
+    – machines designed for use in corrosive or explosive environments (dust, vapour or gas; IEC 60079 series).
 status:
   stage:
     abbreviation: RFDIS
