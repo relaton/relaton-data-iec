@@ -9,11 +9,13 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: 'Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography'
+  content: 'Part 2-44: Particular requirements for the basic safety and essential
+    performance of X-ray equipment for computed tomography'
   type: title-main
 - language: en
   script: Latn
-  content: 'Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography'
+  content: 'Medical electrical equipment - Part 2-44: Particular requirements for
+    the basic safety and essential performance of X-ray equipment for computed tomography'
   type: main
 - language: fr
   script: Latn
@@ -21,11 +23,14 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: 'Partie 2-44: Exigences particulières pour la sécurité de base et les performances essentielles des équipements à rayonnement X de tomodensitométrie'
+  content: 'Partie 2-44: Exigences particulières pour la sécurité de base et les performances
+    essentielles des équipements à rayonnement X de tomodensitométrie'
   type: title-main
 - language: fr
   script: Latn
-  content: 'Appareils électromédicaux - Partie 2-44: Exigences particulières pour la sécurité de base et les performances essentielles des équipements à rayonnement X de tomodensitométrie'
+  content: 'Appareils électromédicaux - Partie 2-44: Exigences particulières pour
+    la sécurité de base et les performances essentielles des équipements à rayonnement
+    X de tomodensitométrie'
   type: main
 source:
 - type: src
@@ -141,6 +146,64 @@ abstract:
     13) lightmarker (203.117): indication of an (offset) reference plane instead of indication of the TOMOGRAPHIC PLANE possible;<br/>
     l) several changes to account for state-of-the-art and for clarification;<br/>
     m) addition of informative Annex EE (Reference template for the content for listing of REFERENCE CLINICAL PROTOCOLS)
+- language: fr
+  script: Latn
+  content: |-
+    L'IEC 60601-2-44 s'applique à la SÉCURITÉ DE BASE et aux PERFORMANCES ESSENTIELLES des TOMODENSITOMÈTRES, également désignés ci après sous le terme APPAREILS EM.<br/>
+    Si un article ou un paragraphe est spécifiquement destiné à être applicable uniquement aux APPAREILS EM, ou uniquement aux SYSTÈMES EM, le titre et le contenu de cet article ou de ce paragraphe l'indiquent. Si cela n'est pas le cas, l'article ou le paragraphe s'applique à la fois aux APPAREILS EM et aux SYSTÈMES EM, selon le cas.<br/>
+    Le domaine d'application du présent document est limité aux TOMODENSITOMÈTRES destinés à être utilisés pour l'imagerie de la tête, l'imagerie du corps ou les deux, caractérisés par une ENVELOPPE de la ou des sources de rayonnement X et du ou des détecteurs d'imagerie dans un couvercle de protection commun de forme toroïdale. Cette norme comprend les exigences de sécurité des GROUPES RADIOGÈNES utilisés dans les TOMODENSITOMÈTRES, y compris celles pour les GÉNÉRATEURS RADIOLOGIQUES lorsqu'ils sont intégrés avec une GAINE ÉQUIPÉE D'UN TUBE RADIOGÈNE.<br/>
+    Le domaine d'application du présent document exclut les SIMULATEURS DE RADIOTHÉRAPIE et les systèmes où l'image est créée par une source autre qu'un TUBE RADIOGÈNE.<br/>
+    L'IEC 60601-2-44 annule et remplace la troisième édition parue en 2009, l'Amendement 1:2012 et l'Amendement 2:2016. Cette édition constitue une révision technique.<br/>
+    Cette édition inclut les modifications techniques majeures suivantes par rapport à l'édition précédente:<br/>
+    a) de nouvelles exigences pour le calcul, l'affichage et l'enregistrement de SSDE (conformément à l'IEC 62985), et de CTDIVOL pour le RADIOGRAMME de projection par balayage (SPR);<br/>
+    b) une révision des exigences relatives aux TOMODENSITOMÈTRES utilisés pour la planification en RADIOTHÉRAPIE;<br/>
+    c) une révision des exigences relatives aux contrôles de dose (notification de dose, alerte de dose), en particulier pour les procédures d'intervention;<br/>
+    d) une révision des exigences relatives aux indications de dose dans les DOCUMENTS D'ACCOMPAGNEMENT;<br/>
+    e) une nouvelle exigence pour une étude de dose fondée sur des images DICOM.<br/>
+    En outre, plusieurs autres modifications et nouvelles exigences ont été incluses.<br/>
+    En détail, par rapport à l'IEC 60601 2 44:2009/AMD1:2012/AMD2:2016, le présent document comprend les modifications suivantes:<br/>
+    f) nouvelle définition des termes suivants:<br/>
+    1) ÉPAISSEUR DE COUPE RECONSTRUITE,<br/>
+    2) ÉPAISSEUR NOMINALE DE COUPE RECONSTRUITE,<br/>
+    3) LARGEUR NOMINALE TOTALE DU FAISCEAU D'ACQUISITION,<br/>
+    4) ÉTAT PRÊT,<br/>
+    5) INSTRUCTIONS D'UTILISATION,<br/>
+    6) PROTOCOLE CLINIQUE DE RÉFÉRENCE,<br/>
+    7) FANTÔME DOSIMÉTRIQUE CTDI,<br/>
+    8) COMPORTEMENT ALTERNATIF DE L'ALERTE DE DOSE,<br/>
+    9) PROCÉDURE D'INTERVENTION GUIDÉE PAR TOMODENSITOMÉTRIE,<br/>
+    10) CTDIVOL (Z),<br/>
+    11) SSDE(Z),<br/>
+    12) SUPPORT DU PATIENT;<br/>
+    g) termes révisés pour CTDIVOL et DLP, nouvelles définitions pour CTDIVOL et DLP en mode de balayage (SPR);<br/>
+    h) nouvelles notes concernant les PERFORMANCES ESSENTIELLES;<br/>
+    i) exigences supprimées concernant la DÉTERMINATION DU PROFIL DE SENSIBILITÉ;<br/>
+    j) nouvelles exigences suivantes:<br/>
+    1) spécification dans les DOCUMENTS D'ACCOMPAGNEMENT,<br/>
+    2) avertissement contre tout mouvement inattendu du SUPPORT DU PATIENT,<br/>
+    3) CTDIVOL et DLP pour SPR,<br/>
+    4) affichage/enregistrement de SSDE,<br/>
+    5) récapitulatif de dose sous forme d'image DICOM et de SR de dose DICOM,<br/>
+    6) PROTOCOLES CLINIQUES DE RÉFÉRENCE,<br/>
+    7) AEC avec modulation XYZ,<br/>
+    8) prévention des balayages illimités,<br/>
+    9) réduction des artefacts métalliques (MAR) dans les performances d'imagerie;<br/>
+    k) exigences révisées suivantes:<br/>
+    1) mouvements linéaires du SUPPORT DU PATIENT et du portique dans les dispositifs d'arrêt d'urgence,<br/>
+    2) effets déterministes,<br/>
+    3) contrôles de dose,<br/>
+    4) performance du système,<br/>
+    5) RTP (alignements, modes types, etc.),<br/>
+    6) Informations utilisateur (CTDI100, perfusion, etc.),<br/>
+    7) déclarations de dose,<br/>
+    8) voyants lumineux,<br/>
+    9) mesures de sécurité contre les RAYONNEMENTS X excessifs,<br/>
+    10) indication et position du PLAN TOMOGRAPHIQUE et de la ou des COUPES TOMOGRAPHIQUES,<br/>
+    11) indication de l'ÉTAT DE CHARGE,<br/>
+    12) modes de balayage axial pour les mesures CTDI,<br/>
+    13) repère lumineux (203.117): indication d'un plan de référence (décalé) à la place de l'indication du PLAN TOMOGRAPHIQUE possible;<br/>
+    l) plusieurs modifications pour tenir compte de l'état de la technique et apporter des précisions;<br/>
+    m) ajout de l'Annexe EE informative (Modèle de référence pour le contenu de la liste des PROTOCOLES CLINIQUES DE RÉFÉRENCE).
 status:
   stage:
     abbreviation: BPUB
