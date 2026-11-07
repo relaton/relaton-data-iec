@@ -9,9 +9,7 @@ title:
   type: title-intro
 - language: en
   script: Latn
-  content: |-
-    Instrumentation and control important to
-    safety
+  content: Instrumentation and control systems important to safety
   type: title-main
 - language: en
   script: Latn
@@ -19,24 +17,40 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: |-
-    Nuclear power plants - Instrumentation and control important to
+  content: Nuclear power plants - Instrumentation and control systems important to
     safety - Detection of leakage in coolant systems
+  type: main
+- language: fr
+  script: Latn
+  content: Centrales nucléaires de puissance
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Systèmes d'instrumentation et de contrôle-commande importants pour la sûreté
+  type: title-main
+- language: fr
+  script: Latn
+  content: Détection des fuites dans les systèmes de refroidissement
+  type: title-part
+- language: fr
+  script: Latn
+  content: Centrales nucléaires de puissance - Systèmes d'instrumentation et de contrôle-commande
+    importants pour la sûreté - Détection des fuites dans les systèmes de refroidissement
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/20914
+  content: https://webstore.iec.ch/publication/122852
 docidentifier:
 - content: IEC 61250 ED2
   type: IEC
   primary: true
-- content: iec:proj:20914
+- content: iec:proj:122852
   type: URN
 date:
 - type: created
-  at: '2013-02-14'
+  at: '2024-01-26'
 - type: forecast
-  at: '2016-04-24'
+  at: '2026-11-30'
 contributor:
 - role:
   - type: publisher
@@ -75,12 +89,27 @@ edition:
   content: '2'
 language:
 - en
+- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    IEC 61250:2026 establishes the requirements for instrumentation necessary to detect leakage from reactor coolant systems of all types of light water and heavy water nuclear reactors. Methods of leakage detection are described and characteristics of different methods of detection and of differentiating between allowable and abnormal leakages are given.<br/>
+    <br/>
+    IEC 61250 has been prepared by subcommittee 45A: Instrumentation, control and electrical power systems of nuclear facilities, of IEC technical committee 45: Nuclear instrumentation. It is an International Standard.<br/>
+    <br/>
+    This second edition cancels and replaces the first edition published in 1994. This edition constitutes a technical revision.<br/>
+    <br/>
+    This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    <br/>
+    A.) to take into account new advances in leakage detection technology, and to renew general design requirements for leakage detection systems;<br/>
+    B.) to align the document with the new revisions of reference standards and documents;
 status:
   stage:
-    abbreviation: CAN
-    content: '30.98'
+    abbreviation: BPUB
+    content: '60.00'
   iteration: '1'
 relation:
 - type: related
@@ -97,3 +126,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iec
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety

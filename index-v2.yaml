@@ -62998,6 +62998,14 @@
   :file: data/iso-iec-tr-30194-2024.yaml
 - :id:
     _type: pubid:iec:international-standard
+    year: '2026'
+    publisher: ISO
+    copublishers:
+    - IEC
+    number: '30199'
+  :file: data/iso-iec-30199-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
     year: '1974'
     publisher: ISO
     number: '3066'
@@ -220076,6 +220084,22 @@
     vap:
     - RLV
   :file: data/iec-61800-9-1-2026-rlv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        year: '2016'
+        number: '61800'
+        part: '5'
+        subpart: '2'
+      - _type: pubid:iec:amendment
+        year: '2026'
+        number: '1'
+    vap:
+    - CSV
+  :file: data/iec-61800-5-2-2016+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:vap-identifier
     base:
