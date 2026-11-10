@@ -9,24 +9,38 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 3: Specifications for individual materials -- Sheet 1: Sheets produced from beech veneer'
+  content: 'Part 3: Specifications for individual materials -- Sheet 1: Sheets produced from beech and birch veneers'
   type: title-part
 - language: en
   script: Latn
-  content: 'Non-impregnated densified laminated wood for electrical purposes - Part 3: Specifications for individual materials -- Sheet 1: Sheets produced from beech veneer'
+  content: 'Non-impregnated densified laminated wood for electrical purposes - Part 3: Specifications for individual materials -- Sheet 1: Sheets produced from beech and birch veneers'
+  type: main
+- language: fr
+  script: Latn
+  content: Stratifiés de bois densifiés, non imprégnés, à usages électriques
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 3: Spécifications pour matériaux particuliers -- Feuille 1: Planches réalisées à partir de placages de hêtre et de bouleau'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Stratifiés de bois densifiés, non imprégnés, à usages électriques - Partie 3: Spécifications pour matériaux particuliers -- Feuille 1: Planches réalisées à partir de placages de hêtre et de bouleau'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/11872
+  content: https://webstore.iec.ch/publication/142688
 docidentifier:
 - content: IEC 61061-3-1 ED2
   type: IEC
   primary: true
-- content: iec:proj:11872
+- content: iec:proj:142688
   type: URN
 date:
 - type: created
-  at: '2001-08-10'
+  at: '2026-11-13'
+- type: forecast
+  at: '2028-03-31'
 contributor:
 - role:
   - type: publisher
@@ -65,12 +79,13 @@ edition:
   content: '2'
 language:
 - en
+- fr
 script:
 - Latn
 status:
   stage:
-    abbreviation: DEL
-    content: '10.98'
+    abbreviation: ACD
+    content: '20.99'
   iteration: '1'
 relation:
 - type: related
@@ -87,3 +102,8 @@ ext:
   doctype:
     content: international-standard
   flavor: iec
+  ics:
+  - code: 17.220.99
+    text: Other standards related to electricity and magnetism
+  - code: 29.035.01
+    text: Insulating materials in general
