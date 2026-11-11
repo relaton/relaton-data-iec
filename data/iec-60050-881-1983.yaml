@@ -90,8 +90,7 @@ abstract:
 - language: en
   script: Latn
   content: Replaces IEC 60050(65) (1964). It has the status of a horizontal standard
-    in accordance with <a href="https://webstore.iec.ch/advsearchform?&RefNbr=108&typepub=GUIDE">IEC
-    Guide 108</a>.
+    in accordance with IEC Guide 108.
 - language: fr
   script: Latn
   content: Cette publication remplace la CEI 60050(65) (1964). Elle a le statut de
@@ -99,7 +98,9 @@ abstract:
     IEC 108&lt;&#x2F;a&gt;.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '1983'
   owner:
@@ -133,4 +134,7 @@ ext:
     type: IEC
     project_number:
       content: '510'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:M

@@ -103,7 +103,9 @@ abstract:
     The first group is characterized by the performance of short modular exponentiations. The challenge size needs to be optimized since it has a proportional impact on workloads.The second group is characterized by the possibility of a "coupon" strategy for the claimant. A verifier can authenticate a claimant without computational power. The challenge size has no impact on workloads.The third group is characterized by the possibility of a "coupon" strategy for the verifier. A verifier without computational power can authenticate a claimant. The challenge size has no impact on workloads.The fourth group has no possibility of a "coupon" strategy.
 status:
   stage:
-    content: REVISED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2004'
   owner:
@@ -141,4 +143,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: REVISED
+    content: REVISED
   price_code: iso:B

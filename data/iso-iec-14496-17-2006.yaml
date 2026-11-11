@@ -100,7 +100,9 @@ abstract:
     <p>The flexible framing structure for text streams, consisting of so-called TTUs (Timed Text Units), allows for easy and convenient adaptation to the various transport layers. By using TTUs, multiple small text access units can be aggregated into one transport packet, but TTUs can also be used to fragment large text access units across multiple transport packets, while providing a reasonable level of error resilience in case of packet loss or non-recoverable packet errors. For each transport layer, the most suitable TTU structure can be chosen. If so desired, the text access units can be re-partitioned into TTUs for most effective adaptation to other transport systems.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -138,4 +140,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:D

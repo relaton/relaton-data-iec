@@ -80,7 +80,9 @@ abstract:
     IEC 61588:2021 defines a network protocol, the Precision Time Protocol (PTP), enabling accurate and precise synchronization of the real-time clocks of devices in networked distributed systems. The protocol is applicable to systems where devices communicate via networks, including Ethernet. The standard allows multicast communication, unicast communication or both. The standard specifies requirements for mapping the protocol to specific network implementations and defines such mappings, including User Datagram Protocol (UDP)/Internet Protocol (IP versions 4 and 6), and layer-2 IEEE 802.3 Ethernet.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2021'
   owner:
@@ -110,4 +112,7 @@ ext:
     type: IEC
     project_number:
       content: '105175'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:P

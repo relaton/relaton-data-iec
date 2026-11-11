@@ -23,7 +23,7 @@ docidentifier:
 - content: IEC 60664:2026 SER
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60664:2026::ser:'
+- content: urn:iec:std:iec:60664:::ser
   type: URN
 date:
 - type: published
@@ -89,7 +89,9 @@ abstract:
     60664-4:2005</a><br>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2026'
   owner:
@@ -115,4 +117,7 @@ ext:
   ics:
   - code: 29.080.30
     text: Insulation systems
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:SQ

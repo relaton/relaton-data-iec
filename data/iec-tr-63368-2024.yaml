@@ -78,18 +78,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC TR 63368:2024 provides guidance on off-site real-time simulation tests
-    of control and protection (C&P) systems for HVDC power transmission systems. The
-    off-site real-time simulation tests are carried out after the testing of C&P devices
-    and prior to on-site system tests.<br />\r\nThis document covers point-to-point,
-    back-to-back, and multi-terminal HVDC systems of line commutated converters (LCC),
-    voltage-sourced converters (VSC) and hybrid HVDC technologies.<br />\r\nIn order
-    to provide practical guidance for the functional performance tests of HVDC power
-    transmission systems, this document covers the test environment, the contents
-    and methods of functional performance tests, and the test report."
+  content: |-
+    IEC TR 63368:2024 provides guidance on off-site real-time simulation tests of control and protection (C&amp;P) systems for HVDC power transmission systems. The off-site real-time simulation tests are carried out after the testing of C&amp;P devices and prior to on-site system tests.<br/>
+    This document covers point-to-point, back-to-back, and multi-terminal HVDC systems of line commutated converters (LCC), voltage-sourced converters (VSC) and hybrid HVDC technologies.<br/>
+    In order to provide practical guidance for the functional performance tests of HVDC power transmission systems, this document covers the test environment, the contents and methods of functional performance tests, and the test report.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2024'
   owner:
@@ -119,4 +116,7 @@ ext:
     type: IEC
     project_number:
       content: '102774'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:G

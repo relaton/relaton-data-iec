@@ -74,10 +74,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC 63584-210:2025 is the OCPP version 2.1. Version 2.1 is an extension of OCPP 2.0.1. OCPP 2.1 has its own JSON schemas, but the schemas are OCPP 2.0.1 schemas that have been extended with optional fields that are used by OCPP 2.1 functionality. With the minor exceptions mentioned below, all application logic developed for OCPP 2.0.1 will continue to work in OCPP 2.1 without any changes. The new features of OCPP 2.1, of course, require new application logic.
+  content: IEC 63584-210:2025 is the OCPP version 2.1. Version 2.1 is an extension
+    of OCPP 2.0.1. OCPP 2.1 has its own JSON schemas, but the schemas are OCPP 2.0.1
+    schemas that have been extended with optional fields that are used by OCPP 2.1
+    functionality. With the minor exceptions mentioned below, all application logic
+    developed for OCPP 2.0.1 will continue to work in OCPP 2.1 without any changes.
+    The new features of OCPP 2.1, of course, require new application logic.
 status:
   stage:
-    content: REVISED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2025'
   owner:
@@ -107,4 +114,7 @@ ext:
     type: IEC
     project_number:
       content: '133108'
+  stagename:
+    abbreviation: REVISED
+    content: REVISED
   price_code: iec:P

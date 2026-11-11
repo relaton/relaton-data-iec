@@ -99,7 +99,9 @@ abstract:
     <p class="MsoBodyText">This document does not specify a complete protocol for the transmission of neural networks, but focuses on compression of network parameters. Only the syntax format, semantics, associated decoding process requirements, parameter sparsification, parameter transformation methods, parameter quantization, entropy coding method and integration/signalling within existing exchange formats are specified, while other matters such as pre-processing, system signalling and multiplexing, data loss recovery and post-processing are considered to be outside the scope of this document. Additionally, the internal processing steps performed within a decoder are also considered to be outside the scope of this document; only the externally observable output behaviour is required to conform to the specifications of this document.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2024'
   owner:
@@ -137,4 +139,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:H

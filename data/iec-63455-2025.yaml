@@ -109,7 +109,9 @@ abstract:
     Le présent document vise à faciliter l’utilisation du code en ligne 4b/10b dans les systèmes complexes en fournissant le protocole de code en ligne 4b/10b. Il définit le protocole de code en ligne 4b/10b pour les interconnexions dans les systèmes complexes, principalement les systèmes distribués en temps réel tels que les systèmes embarqués, les systèmes de commande, les dispositifs IdO, les dispositifs portatifs, les réseaux de capteurs, les systèmes de divertissement, les systèmes robotiques, et les engins spatiaux. Plus précisément, le code en ligne 4b/10b est celui qui réalise simultanément l’horloge intégrée, l’équilibrage du courant continu, la détection d’erreurs et la correction d’erreurs, dont les fonctions ne sont pas assumées par un seul code en ligne conventionnel, de sorte que le code en ligne 4b/10b puisse réaliser des communications numériques hautement fiables. La caractéristique la plus importante du code en ligne 4b/10b est qu’il s’agit d’un code en ligne avec une capacité de correction d’erreurs. La correction d’erreurs n’est donc pas nécessaire dans les couches supérieures et la communication peut être effectuée en utilisant uniquement le code en ligne 4b/10b dans les environnements bruyants.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2025'
   owner:
@@ -141,4 +143,7 @@ ext:
     type: IEC
     project_number:
       content: '109192'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:F

@@ -99,7 +99,9 @@ abstract:
     <p>This document specifies the cryptographic syntax of an ACBio instance. The cryptographic syntax of an ACBio instance is defined in this document applying a data structure specified in Cryptographic Message Syntax (CMS) schema whose concrete values can be represented using a compact binary encoding. This document does not define protocols to be used between entities such as BPUs, claimant, and validator. Its concern is entirely with the content and encoding of the ACBio instances for the various processing activities.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2019'
   owner:
@@ -137,4 +139,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:G

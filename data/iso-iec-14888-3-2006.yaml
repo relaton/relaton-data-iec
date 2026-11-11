@@ -103,7 +103,9 @@ abstract:
     <p>The verification of a digital signature requires the signing entity's verification key. It is thus essential for a verifier to be able to associate the correct verification key with the signing entity, or more precisely, with (parts of) the signing entity's identification data. This association may be provided by another means that is not covered in ISO/IEC 14888-3:2006. Whatever the nature of such means, the scheme is then said to be 'certificate-based'. If not, the association between the correct verification key and the signing entity's identification data is somehow inherent in the verification key itself. In such a case, the scheme is said to be 'identity-based'. Depending on the two different ways of checking the correctness of the verification keys, the digital signature mechanisms specified in ISO/IEC 14888-3:2006 are categorized in two groups: certificate-based and identity-based.</p>
 status:
   stage:
-    content: REVISED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2006'
   owner:
@@ -141,4 +143,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: REVISED
+    content: REVISED
   price_code: iso:B

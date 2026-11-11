@@ -1,3 +1,4 @@
+---
 id: IEC635842024
 schema_version: v1.5.6
 type: standard
@@ -71,10 +72,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC 63584:2024 The Open Charge Point Protocol (OCPP) provides the communication between a Charging Station and a Charging Station Management System (CSMS) and is designed to accommodate any type of charging technique. It is based on OCPP 2.0.1 and was submitted as a Fast-Track document.
+  content: IEC 63584:2024 The Open Charge Point Protocol (OCPP) provides the communication
+    between a Charging Station and a Charging Station Management System (CSMS) and
+    is designed to accommodate any type of charging technique. It is based on OCPP
+    2.0.1 and was submitted as a Fast-Track document.
 status:
   stage:
-    content: REPLACED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2024'
   owner:
@@ -104,4 +110,7 @@ ext:
     type: IEC
     project_number:
       content: '126392'
+  stagename:
+    abbreviation: REPLACED
+    content: REPLACED
   price_code: iec:P

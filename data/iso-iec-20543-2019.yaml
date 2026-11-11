@@ -100,7 +100,9 @@ abstract:
     <p>Random bit generators as evaluated in this document aim to output bit strings that appear evenly distributed. Depending on the distribution of random numbers required by the consuming application, however, it is worth noting that additional steps can be necessary (and can well be critical to security) for the consuming application to transform the random bit strings produced by the RBG into random numbers of a distribution suitable to the application requirements. Such subsequent transformations are outside the scope of evaluations performed in this document.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2019'
   owner:
@@ -138,4 +140,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:F

@@ -106,22 +106,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 61643-341:2020 specifies standard test circuits and methods for thyristor
-    surge suppressor (TSS) components. These surge protective components, SPCs, are
-    specially formulated thyristors designed to limit overvoltages and divert surge
-    currents by clamping and switching actions. These SPCs are used in the construction
-    of surge protective devices (SPDs) and equipment used in Information & Communications
-    Technologies (ICT) networks with voltages up to AC 1 000 V and DC 1 500 V. This
-    document is applicable to gated or non-gated TSS components with third quadrant
-    (-v and –i) characteristics of blocking, conducting or switching. This document
-    contains information on<br />\r\n- terminology;<br />\r\n- letter symbols;<br
-    />\r\n- essential ratings and characteristics;<br />\r\n- rating verification
-    and characteristic measurement;<br />\r\nThis document does not apply to the conventional
-    three-terminal thyristors as covered by IEC 60747-6. This second edition of IEC
-    61643-341 cancels and replaces the first edition published in 2001. This edition
-    constitutes a technical revision.This edition includes the following significant
-    technical changes with respect to the previous edition: Addition of performance
-    values."
+  content: |-
+    IEC 61643-341:2020 specifies standard test circuits and methods for thyristor surge suppressor (TSS) components. These surge protective components, SPCs, are specially formulated thyristors designed to limit overvoltages and divert surge currents by clamping and switching actions. These SPCs are used in the construction of surge protective devices (SPDs) and equipment used in Information &amp; Communications Technologies (ICT) networks with voltages up to AC 1 000 V and DC 1 500 V. This document is applicable to gated or non-gated TSS components with third quadrant (-v and –i) characteristics of blocking, conducting or switching. This document contains information on<br/>
+    - terminology;<br/>
+    - letter symbols;<br/>
+    - essential ratings and characteristics;<br/>
+    - rating verification and characteristic measurement;<br/>
+    This document does not apply to the conventional three-terminal thyristors as covered by IEC 60747-6. This second edition of IEC 61643-341 cancels and replaces the first edition published in 2001. This edition constitutes a technical revision.This edition includes the following significant technical changes with respect to the previous edition: Addition of performance values.
 - language: fr
   script: Latn
   content: |-
@@ -133,7 +124,9 @@ abstract:
     Le présent document ne s'applique pas aux thyristors conventionnels à trois bornes couverts dans l'IEC 60747-6. Cette deuxième édition de l'IEC 61643-341 annule et remplace la première édition parue en 2001. Cette édition constitue une révision technique. Cette édition inclut la modification technique majeure suivante par rapport à l'édition précédente: Ajout de valeurs de performances.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -163,4 +156,7 @@ ext:
     type: IEC
     project_number:
       content: '23210'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:L

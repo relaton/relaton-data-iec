@@ -99,7 +99,9 @@ abstract:
     <p class="MsoBodyText">This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2023'
   owner:
@@ -137,4 +139,7 @@ ext:
   ics:
   - code: 35.100.30
     text: Network layer
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:C

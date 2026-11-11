@@ -87,7 +87,9 @@ abstract:
     The purpose of this format is to formally and efficiently exchange wind turbine and wind power plant IED capability descriptions, and system descriptions between IED engineering tools and the system engineering tool(s) of different manufacturers in a compatible way. The file format is also intended to provide report configuration and alarms as well as HMI interface information from a wind power plant. This information can be used to engineer overlying SCADA systems for the site, for connected DSO, or TSO, or for fleet operators' maintenance and surveillance systems. Finally, the SCL is intended as a documentation of the configuration and topology of the delivered system.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2019'
   owner:
@@ -117,4 +119,7 @@ ext:
     type: IEC
     project_number:
       content: '100276'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:L

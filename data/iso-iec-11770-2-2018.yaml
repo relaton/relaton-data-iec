@@ -100,7 +100,9 @@ abstract:
     <p>This document does not specify the means to be used to establish initial secret keys; that is, all the mechanisms specified in this document require an entity to share a secret key with at least one other entity (e.g. a TTP). For general guidance on the key lifecycle, see ISO/IEC 11770-1. This document does not explicitly address the issue of inter-domain key management. This document also does not define the implementation of key management mechanisms; products complying with this document are not necessarily compatible.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2018'
   owner:
@@ -138,4 +140,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:E

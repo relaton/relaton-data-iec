@@ -105,7 +105,9 @@ abstract:
     <p>ISO/IEC 21000-15:2006 further specifies mechanisms to automate the exchange of Event Reports. Event Reports may for instance, embed Event Report Requests that are to be processed upon reception of the Event Report by a Peer. This mechanism allows for Event Reports to be automatically forwarded to another Peer, or for sending back an Acknowledgment of Receipt to the Event Report's originating Peer.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -143,4 +145,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:F

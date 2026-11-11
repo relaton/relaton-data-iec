@@ -99,7 +99,9 @@ abstract:
     <p>The Notification WSDL specifies the ApplicationSessionTerminated operation. The operation specifies one input message for the event notification that Service Requesters receive from the Service Provider. Service Requesters may also receive the event notifications from web services, e.g. ECMA-348, that use ISO/IEC 25437:2012 for session management.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2012'
   owner:
@@ -137,4 +139,7 @@ ext:
   ics:
   - code: 35.100.60
     text: Presentation layer
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ

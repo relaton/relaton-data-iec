@@ -34,7 +34,7 @@ docidentifier:
 - content: IEC 62271:2026 SER
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62271:2026::ser:'
+- content: urn:iec:std:iec:62271:::ser
   type: URN
 date:
 - type: published
@@ -190,7 +190,9 @@ abstract:
     TR 62271-322:2026</a><br>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2026'
   owner:
@@ -218,4 +220,7 @@ ext:
     text: High voltage switchgear and controlgear
   - code: 29.130.99
     text: Other switchgear and controlgear
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:SI

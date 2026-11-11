@@ -87,7 +87,9 @@ abstract:
     IEC 61162-2:2024 contains the requirements for data communication between maritime electronic instruments, navigation and radiocommunication equipment when interconnected via an appropriate interface. This document is intended to support one-way serial data transmission from a single talker to one or more listeners. This data is in printable ASCII form and can include any information as specified by approved sentences or information coded according to the rules for proprietary sentences. Typical messages can be from 11 to a maximum of 79 characters in length and generally require repetition rates up to once per 20 ms. The electrical definitions in this document are intended to accommodate higher data rates than are specified in IEC 61162-1. Since there is no provision for guaranteed delivery of messages and only limited error-checking capability, it is important this document is used with caution in all safety applications.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2024'
   owner:
@@ -117,4 +119,7 @@ ext:
     type: IEC
     project_number:
       content: '108135'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:MT

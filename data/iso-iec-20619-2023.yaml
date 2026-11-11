@@ -88,10 +88,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: <p class="MsoNormal">This specification defines the C# programming language and its required library. It defines all the necessary components that are needed to implement this Suite. This Suite does not change if one or more components are updated by a new standard edition. The Suite changes only when new components are added to it and/or existing components are removed from it.</p>
+  content: <p class="MsoNormal">This specification defines the C# programming language
+    and its required library. It defines all the necessary components that are needed
+    to implement this Suite. This Suite does not change if one or more components
+    are updated by a new standard edition. The Suite changes only when new components
+    are added to it and/or existing components are removed from it.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2023'
   owner:
@@ -129,4 +135,7 @@ ext:
   ics:
   - code: '35.060'
     text: Languages used in information technology
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ

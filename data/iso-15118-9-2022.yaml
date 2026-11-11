@@ -119,7 +119,9 @@ abstract:
     NOTE En raison de limites techniques, il n'est pas possible de définir une suite de tests exhaustive, à cela s'ajoutent des motifs d'ordre budgétaire qui peuvent également restreindre les tests. Le présent document a donc pour but d'augmenter la probabilité que différentes implémentations puissent fonctionner de manière interopérable. Pour vérifier ces implémentations, une suite de tests de protocole est ainsi spécifiée afin de garantir la conformité de chaque implémentation à la spécification du protocole. Cependant, la suite de tests de protocole spécifiée ne peut pas garantir la conformité d'une implémentation à la spécification, car ces tests visent davantage à détecter les erreurs potentielles que leur absence. La conformité à une seule suite de tests ne permet donc pas de garantir l'interopérabilité des implémentations. Néanmoins, ces tests permettent de s'assurer qu'une implémentation possède les capacités requises et que son comportement est conforme et cohérent dans toutes les instances de communication représentatives des conditions réelles.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2022'
   owner:
@@ -151,4 +153,7 @@ ext:
     type: IEC
     project_number:
       content: '101594'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:G
