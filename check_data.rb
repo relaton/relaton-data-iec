@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require "yaml"
-require "relaton_iec"
+require "relaton/iec"
 
 #
 # Compare elements of source and destination
@@ -80,10 +80,11 @@ path = ARGV.first || "static/*.{yaml,yml}"
 
 errors = false
 Dir[path].each do |f|
-  yaml = YAML.load_file(f)
-  hash = RelatonIec::HashConverter.hash_to_bib yaml
-  item = RelatonIec::IecBibliographicItem.new(**hash)
-  if (messages = compare(yaml, item.to_hash))&.any?
+  yaml = File.read(f, encoding: "utf-8")
+  hash1 = YAML.safe_load yaml
+  item = Relaton::Iec::Item.from_yaml yaml
+  hash2 = YAML.safe_load item.to_yaml
+  if (messages = compare(hash1, hash2))&.any?
     errors = true
     puts "Parsing #{f} failed. Parsed content doesn't match to source."
     print_msg messages
@@ -94,7 +95,7 @@ Dir[path].each do |f|
     errors = true
     puts "Parsing #{f} failed. No primary id."
   end
-rescue ArgumentError, NoMethodError, TypeError => e
+rescue StandardError => e
   errors = true
   puts "Parsing #{f} failed. Error: #{e.message}."
   puts e.backtrace
