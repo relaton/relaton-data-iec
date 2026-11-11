@@ -98,7 +98,9 @@ abstract:
     <p>This document specifies the physical and logical requirements for localization. The system comprises interrogators, also known as readers, and tags, also known as labels. An interrogator receives information from a tag by transmitting a modulated RF signal to the tag and the tag responds by modulating the reflection coefficient of its antenna, thereby backscattering an information signal to the interrogator. The modulated RF signal for data exchange is based on the relevant part of the ISO/IEC 18000 series and, in addition, there is a superimposed modulated RF signal with the same or different carrier frequency intended for localization. This document describes the signals required for localization, the method to derive localization information from the signals received by the interrogator and the requirements onto tags and interrogators.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2019'
   owner:
@@ -136,4 +138,7 @@ ext:
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:C

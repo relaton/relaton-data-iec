@@ -100,7 +100,9 @@ abstract:
     <p>It specifies cryptographic mechanisms that use the Elliptic Curves Diffie-Hellman (ECDH) protocol with a key length of 256 bits for key agreement and the AES algorithm in GCM mode to provide data authenticated encryption.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2016'
   owner:
@@ -138,4 +140,7 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ

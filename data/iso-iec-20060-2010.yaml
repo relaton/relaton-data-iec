@@ -103,7 +103,9 @@ abstract:
     <p>OTA defines a standard software kernel whose functions and programming interface are common across all terminal types. This kernel is based on a standard VM, which is implemented on each CPU type and which provides drivers for the terminal's I/O and all low-level CPU-specific logical and arithmetic functions. High-level libraries, terminal programs and payment applications may be developed using these standard kernel functions.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2010'
   owner:
@@ -141,4 +143,7 @@ ext:
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:H

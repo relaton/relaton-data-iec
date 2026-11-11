@@ -80,10 +80,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: sets out a framework for the integration of standards into a system specification for electricity payment metering systems. It addresses the payment metering system application process, generic processes, generic functions, data elements, system entities and interfaces that exist in present payment metering systems.
+  content: sets out a framework for the integration of standards into a system specification
+    for electricity payment metering systems. It addresses the payment metering system
+    application process, generic processes, generic functions, data elements, system
+    entities and interfaces that exist in present payment metering systems.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2005'
   owner:
@@ -115,4 +120,7 @@ ext:
     type: IEC
     project_number:
       content: '8653'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:M

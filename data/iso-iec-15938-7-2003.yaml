@@ -101,7 +101,9 @@ abstract:
     <p>The conformance testing consists of two stages: Systems testing and Description Definition Language (DDL) testing. The Systems conformance testing involves decoding the description stream, which may be in binary or textual access unit form, and checking that after the decoding of each access unit the current description tree maintained by the terminal is DDL conformant. In the case that the input description to the Systems processor is an XML file, the conformance is directly performed by the DDL testing. The DDL conformance testing involves parsing the textual XML description and checking that the description is well-formed and valid according to the schema comprised from parts 1, 2, 3, 4 and 5 of ISO/IEC 15938. The conformance testing of descriptions does not involve checking the semantics of the descriptions.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2003'
   owner:
@@ -139,4 +141,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:E

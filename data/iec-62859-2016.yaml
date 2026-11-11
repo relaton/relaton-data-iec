@@ -99,29 +99,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62859:2016 provides a framework to manage the interactions between
-    safety and cybersecurity for nuclear power plant (NPP) systems, taking into account
-    current IEC standards addressing these issues and the specifics of nuclear I&C
-    programmable digital systems. This standard establishes requirements and guidance
-    to:<br />\r\n- integrate cybersecurity provisions in nuclear I&C architectures
-    and systems, which are fundamentally tailored for safety;<br />\r\n- avoid potential
-    conflicts between safety and cybersecurity provisions;<br />\r\n- aid the identification
-    and the leveraging of the potential synergies between safety and cybersecurity."
+  content: |-
+    IEC 62859:2016 provides a framework to manage the interactions between safety and cybersecurity for nuclear power plant (NPP) systems, taking into account current IEC standards addressing these issues and the specifics of nuclear I&amp;C programmable digital systems. This standard establishes requirements and guidance to:<br/>
+    - integrate cybersecurity provisions in nuclear I&amp;C architectures and systems, which are fundamentally tailored for safety;<br/>
+    - avoid potential conflicts between safety and cybersecurity provisions;<br/>
+    - aid the identification and the leveraging of the potential synergies between safety and cybersecurity.
 - language: fr
   script: Latn
-  content: "L'IEC 62859:2016 fournit un cadre de travail permettant de gérer les interactions
-    entre sûreté et cybersécurité pour les systèmes dans les NPP, en prenant en compte
-    les normes du SC 45A traitant de ces questions et des particularités des systèmes
-    programmables numériques utilisés pour l'I&C dans le nucléaire. La présente norme
-    document établit des exigences et des lignes directrices pour:<br />\r\n- intégrer
-    des dispositions en matière de cybersécurité à des architectures et systèmes d'I&C
-    nucléaires, fondamentalement conçus pour la sûreté;<br />\r\n- éviter d'éventuelles
-    divergences entre les dispositions en matière de sûreté et de cybersécurité;<br
-    />\r\n- favoriser l'identification et l'exploitation des synergies potentielles
-    entre la sûreté et la cybersécurité."
+  content: |-
+    L'IEC 62859:2016 fournit un cadre de travail permettant de gérer les interactions entre sûreté et cybersécurité pour les systèmes dans les NPP, en prenant en compte les normes du SC 45A traitant de ces questions et des particularités des systèmes programmables numériques utilisés pour l'I&amp;C dans le nucléaire. La présente norme document établit des exigences et des lignes directrices pour:<br/>
+    - intégrer des dispositions en matière de cybersécurité à des architectures et systèmes d'I&amp;C nucléaires, fondamentalement conçus pour la sûreté;<br/>
+    - éviter d'éventuelles divergences entre les dispositions en matière de sûreté et de cybersécurité;<br/>
+    - favoriser l'identification et l'exploitation des synergies potentielles entre la sûreté et la cybersécurité.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2016'
   owner:
@@ -151,4 +145,7 @@ ext:
     type: IEC
     project_number:
       content: '20548'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:F

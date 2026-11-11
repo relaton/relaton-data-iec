@@ -92,15 +92,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 30162:2022 specifies network models for IIoT connectivity and
-    general compatibility requirements for devices and networks within IIoT systems
-    in terms of:<br />\r\na) data transmission protocols interaction;<br />\r\nb)
-    distributed data interoperability & management;<br />\r\nc) connectivity framework;<br
-    />\r\nd) connectivity transport;<br />\r\ne) connectivity network;<br />\r\nf)
-    best practices and guidance to use in IIoT area."
+  content: |-
+    ISO/IEC 30162:2022 specifies network models for IIoT connectivity and general compatibility requirements for devices and networks within IIoT systems in terms of:<br/>
+    a) data transmission protocols interaction;<br/>
+    b) distributed data interoperability &amp; management;<br/>
+    c) connectivity framework;<br/>
+    d) connectivity transport;<br/>
+    e) connectivity network;<br/>
+    f) best practices and guidance to use in IIoT area.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2022'
   owner:
@@ -146,4 +150,7 @@ ext:
     type: IEC
     project_number:
       content: '102354'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:F

@@ -120,7 +120,9 @@ abstract:
     <p class="MsoBodyText" style="mso-layout-grid-align: none; text-autospace: none;">This document contains mechanisms which, after a successful redaction, allow the attestation to remain verifiable using the verification transformation and attest that non-redacted fields of the attested message are unmodified. This document further details that the three transformations have the property whereby it is computationally infeasible to derive the private attestation transformation, given the redaction and or the verification transformation and key(s).</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2024'
   owner:
@@ -158,4 +160,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:G

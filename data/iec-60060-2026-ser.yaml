@@ -22,7 +22,7 @@ docidentifier:
 - content: IEC 60060:2026 SER
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:60060:2026::ser:'
+- content: urn:iec:std:iec:60060:::ser
   type: URN
 date:
 - type: published
@@ -84,7 +84,9 @@ abstract:
     60060-3:2006</a><br>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2026'
   owner:
@@ -112,4 +114,7 @@ ext:
     text: Measurement of electrical and magnetic quantities
   - code: '19.080'
     text: Electrical and electronic testing
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:ST

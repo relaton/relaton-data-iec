@@ -27,7 +27,7 @@ docidentifier:
 - content: IEC 62351:2026 SER
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:62351:2026::ser:'
+- content: urn:iec:std:iec:62351:::ser
   type: URN
 date:
 - type: published
@@ -119,7 +119,9 @@ abstract:
     TS 62351-100-6:2022</a><br>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2026'
   owner:
@@ -145,4 +147,7 @@ ext:
   ics:
   - code: '33.200'
     text: Telecontrol. Telemetering
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:SD

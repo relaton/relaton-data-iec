@@ -26,7 +26,7 @@ docidentifier:
 - content: IEC 61892:2026 SER
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61892:2026::ser:'
+- content: urn:iec:std:iec:61892:::ser
   type: URN
 date:
 - type: published
@@ -93,7 +93,9 @@ abstract:
     href="https://webstore.iec.ch/publication/27009">IEC 61892-7:2019</a><br>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2026'
   owner:
@@ -121,4 +123,7 @@ ext:
     text: Electrical equipment of ships and  of marine structures
   - code: 29.260.99
     text: Other electrical equipment for working in special conditions
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:SS

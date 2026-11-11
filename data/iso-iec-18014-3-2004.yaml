@@ -102,7 +102,9 @@ abstract:
     <p>The usage of linking operations reduces the level of trust required in the time-stamping service. The trustworthiness of linked tokens depends on the integrity of the linking operations carried out by the time-stamping service. The integrity of the linking operations performed by the time-stamping service can be verified algorithmically. A time-stamping service producing linked tokens may publish values derived from the linking operations into widely available media to further bind the issued tokens to widely-witnessed events and provide additional assurance of integrity. A time-stamping service producing linked tokens may also use aggregation operations to bind multiple token requests together, thus providing higher throughput through the use of co-operating processes. Algorithms applicable to linking, aggregation and publishing operations are covered.</p>
 status:
   stage:
-    content: REVISED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2004'
   owner:
@@ -140,4 +142,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: REVISED
+    content: REVISED
   price_code: iso:B

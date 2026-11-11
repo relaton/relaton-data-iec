@@ -82,7 +82,9 @@ abstract:
     IEC 62769-100:2023 specifies an FDI®[1] profile of IEC 62769 for Generic Protocols. That means that all interfaces are defined and a host can add support for more protocols without changing its implementation. Nevertheless, there are some protocol specific definitions (PSD) that need to be specified per protocol using this profile. Annex C specifies what PSD need to be defined per protocol so that FDI® Device Packages, FDI® Communication Packages for Gateways and FDI® Communication Servers, FDI® Communication Server, Gateways and Devices supporting such a protocol can work together in a host not aware about this specific protocol.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2023'
   owner:
@@ -114,4 +116,7 @@ ext:
     type: IEC
     project_number:
       content: '107204'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:RC

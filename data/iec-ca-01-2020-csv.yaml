@@ -24,7 +24,7 @@ docidentifier:
 - content: IEC CA 01:2020 CSV
   type: IEC
   primary: true
-- content: 'urn:iec:std:ca:01:2020::csv:'
+- content: 'urn:iec:std:iec:01:2020::csv:'
   type: URN
 date:
 - type: published
@@ -81,7 +81,9 @@ abstract:
     and proven, best practices across the IEC CA Systems.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -104,4 +106,7 @@ ext:
   doctype:
     content: other
   flavor: iec
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:ZZ

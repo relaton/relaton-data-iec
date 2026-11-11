@@ -81,25 +81,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63096:2020 provides a catalogue of highly recommended and optional
-    security controls graded (see Clause 5 to Clause 20) in line with the security
-    degrees defined by IEC 62645. These are intended for nuclear I&C programmable
-    digital systems and architecture including related activities (I&C platform development,
-    project engineering, operation and maintenance).<br />\r\nThis document is intended
-    to be used for designing I&C systems for new NPPs, and modernizing and modifying
-    I&C systems for existing NPPs throughout the I&C programmable digital systems
-    lifecycle. It may also be applicable to other types of nuclear facilities.<br
-    />\r\nThis document addresses the whole scope of nuclear I&C programmable digital
-    systems, both safety and non-safety classified. The scope of this document also
-    includes sensors, actuators and electrical systems that belong to the I&C control
-    loop. It is also applicable to those parts of electrical systems covered by IEC
-    63046, which rely on digital programmable technology. For better readability the
-    terms “nuclear I&C programmable digital systems”, “I&C system” or “I&C platform”
-    used in this document implicitly include electrical systems if the electrical
-    system includes a programmable digital systems."
+  content: |-
+    IEC 63096:2020 provides a catalogue of highly recommended and optional security controls graded (see Clause 5 to Clause 20) in line with the security degrees defined by IEC 62645. These are intended for nuclear I&amp;C programmable digital systems and architecture including related activities (I&amp;C platform development, project engineering, operation and maintenance).<br/>
+    This document is intended to be used for designing I&amp;C systems for new NPPs, and modernizing and modifying I&amp;C systems for existing NPPs throughout the I&amp;C programmable digital systems lifecycle. It may also be applicable to other types of nuclear facilities.<br/>
+    This document addresses the whole scope of nuclear I&amp;C programmable digital systems, both safety and non-safety classified. The scope of this document also includes sensors, actuators and electrical systems that belong to the I&amp;C control loop. It is also applicable to those parts of electrical systems covered by IEC 63046, which rely on digital programmable technology. For better readability the terms “nuclear I&amp;C programmable digital systems”, “I&amp;C system” or “I&amp;C platform” used in this document implicitly include electrical systems if the electrical system includes a programmable digital systems.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -129,4 +119,7 @@ ext:
     type: IEC
     project_number:
       content: '23542'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:P

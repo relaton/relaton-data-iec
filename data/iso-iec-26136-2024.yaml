@@ -107,7 +107,9 @@ abstract:
     <p>This document defines a logout mechanism that uses front-channel communication via the User Agent between the OP and RPs being logged out that does not need an OpenID Provider iframe on Relying Party pages. Other protocols have used HTTP GETs to RP URLs that clear login state to achieve this. This document does the same thing. </p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2024'
   owner:
@@ -145,4 +147,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ

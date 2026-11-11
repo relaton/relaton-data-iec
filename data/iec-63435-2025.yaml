@@ -80,17 +80,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 63435:2025 specifies the characteristics of operator support systems
-    (OSS) used by the control room staff, maintenance engineers and emergency response
-    staff, establishes general principles for OSS lifecycle and requirements for OSS
-    design following the human factors engineering (HFE) programme. This document
-    also gives the human factors guidelines and the verification and validation (V&V)
-    requirements for OSS design.<br />\r\nThis document is applicable to new nuclear
-    facilities whose conceptual design is initiated after the publication of this
-    document but it can also be used for designing OSS in existing nuclear facilities."
+  content: |-
+    IEC 63435:2025 specifies the characteristics of operator support systems (OSS) used by the control room staff, maintenance engineers and emergency response staff, establishes general principles for OSS lifecycle and requirements for OSS design following the human factors engineering (HFE) programme. This document also gives the human factors guidelines and the verification and validation (V&amp;V) requirements for OSS design.<br/>
+    This document is applicable to new nuclear facilities whose conceptual design is initiated after the publication of this document but it can also be used for designing OSS in existing nuclear facilities.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2025'
   owner:
@@ -120,4 +117,7 @@ ext:
     type: IEC
     project_number:
       content: '106955'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:H

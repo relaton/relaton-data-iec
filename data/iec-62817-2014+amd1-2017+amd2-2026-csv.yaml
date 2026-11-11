@@ -76,10 +76,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEC 62817:2014+AMD1:2017+AMD2:2026 CSV is a design qualification standard applicable to solar trackers for photovoltaic systems, but may be used for trackers in other solar applications. The standard defines test procedures for both key components and for the complete tracker system. In some cases, test procedures describe methods to measure and/or calculate parameters to be reported in the defined tracker specification sheet. In other cases, the test procedure results in a pass/fail criterion. This standard ensures the user of the said tracker that parameters reported in the specification sheet were measured by consistent and accepted industry procedures. The tests with pass/fail criteria are engineered with the purpose of separating tracker designs that are likely to have early failures from those designs that are sound and suitable for use as specified by the manufacturer.
+  content: IEC 62817:2014+AMD1:2017+AMD2:2026 CSV is a design qualification standard
+    applicable to solar trackers for photovoltaic systems, but may be used for trackers
+    in other solar applications. The standard defines test procedures for both key
+    components and for the complete tracker system. In some cases, test procedures
+    describe methods to measure and/or calculate parameters to be reported in the
+    defined tracker specification sheet. In other cases, the test procedure results
+    in a pass/fail criterion. This standard ensures the user of the said tracker that
+    parameters reported in the specification sheet were measured by consistent and
+    accepted industry procedures. The tests with pass/fail criteria are engineered
+    with the purpose of separating tracker designs that are likely to have early failures
+    from those designs that are sound and suitable for use as specified by the manufacturer.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2014'
   owner:
@@ -109,4 +121,7 @@ ext:
     type: IEC
     project_number:
       content: '20144'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:CSH

@@ -138,7 +138,9 @@ abstract:
     <p>Un flux binaire multiplexé conformément à l'ISO/CEI 13818-1:2007, que ce soit un flux de transport ou un flux de programme, se compose de deux couches: celle qui est en surface est la couche système, celle qui est la plus profonde est la couche de compression. La couche système remplit les fonctions nécessaires pour utiliser un ou plusieurs flux de données comprimées dans un système. Les parties vidéo et audio de l'ISO/CEI 13818-1:2007 définissent la couche de compression codée pour les données audio et vidéo. Le codage d'autres types de données n'est pas défini par l'ISO/CEI 13818-1:2007, mais est assuré par la couche système à condition que ces autres types de données soient conformes aux contraintes définies en 2.7.</p>
 status:
   stage:
-    content: REVISED
+    content: '95'
+  substage:
+    content: '99'
 copyright:
 - from: '2007'
   owner:
@@ -176,4 +178,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: REVISED
+    content: REVISED
   price_code: iso:B

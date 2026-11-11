@@ -101,7 +101,9 @@ abstract:
     Type RW (Rewritable) provides for data to be written read and erased many times over the recording surfaces of the disk.Type WORM (Write Once Read Many) provides for data once written to be read a multiplicity of times. This type uses a Write Once Read Many times recording material (written marks cannot be erased and attempted modifications of the written marks are detectable). Multisession (incremental write operations) recording may be performed on Type WORM disks.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -139,4 +141,7 @@ ext:
   ics:
   - code: 35.220.30
     text: Optical storage devices
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ

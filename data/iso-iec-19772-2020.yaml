@@ -99,7 +99,9 @@ abstract:
     <p>NOTE     Examples of types of data that can need to be sent in unencrypted form, but whose integrity is to be protected, include addresses, port numbers, sequence numbers, protocol version numbers and other network protocol fields that indicate how the plaintext is to be handled, forwarded or processed.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -137,4 +139,7 @@ ext:
   ics:
   - code: '35.030'
     text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:D

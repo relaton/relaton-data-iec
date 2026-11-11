@@ -76,33 +76,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62623:2022 RLV contains both the official IEC International Standard
-    and its Redline version. The Redline version is available in English only and
-    provides you with a quick and easy way to compare all the changes between the
-    official IEC Standard and its previous edition.<br />\r\n<br />\r\nIEC 62623:2022
-    covers personal computing products. It applies to desktop and notebook computers
-    as defined in 4.1 that are marketed as final products and that are hereafter referred
-    to as the equipment under test (EUT) or product. This document specifies:<br />\r\n-
-    a test procedure to enable the measurement of the power and/or energy consumption
-    in each of the EUT's power modes;<br />\r\n- formulas for calculating the typical
-    energy consumption (TEC) for a given period (normally annual);<br />\r\n- a majority
-    profile to be used with this document which enables conversion of average power
-    into energy within the TEC formulas;<br />\r\n- a pre-defined format for the presentation
-    of results.<br />\r\nThis document does not set any pass/fail criteria for the
-    EUTs. Users of the test results define such criteria. IEC 62623:2022 cancels and
-    replaces the first edition published in 2012. This edition constitutes a technical
-    revision. The first edition of this standard was originally based on ECMA-383.
-    This edition includes the following significant technical changes with respect
-    to the previous edition:<br />\r\na) Additions to terms & definitions and modification
-    to short & long idle descriptions.<br />\r\nb) Test setup modifications for notebooks
-    where battery pack cannot be removed for testing.<br />\r\nc) Categorisation procedure
-    based on ECMA-389 removed.<br />\r\nd) Replace majority profile with new duty
-    cycle study including new duty cycle attributes for desktop and notebook in a
-    residential and enterprise application.<br />\r\ne) Removal of any reference and
-    test methodology to ENERGY STAR V5."
+  content: |-
+    IEC 62623:2022 RLV contains both the official IEC International Standard and its Redline version. The Redline version is available in English only and provides you with a quick and easy way to compare all the changes between the official IEC Standard and its previous edition.<br/>
+    <br/>
+    IEC 62623:2022 covers personal computing products. It applies to desktop and notebook computers as defined in 4.1 that are marketed as final products and that are hereafter referred to as the equipment under test (EUT) or product. This document specifies:<br/>
+    - a test procedure to enable the measurement of the power and/or energy consumption in each of the EUT's power modes;<br/>
+    - formulas for calculating the typical energy consumption (TEC) for a given period (normally annual);<br/>
+    - a majority profile to be used with this document which enables conversion of average power into energy within the TEC formulas;<br/>
+    - a pre-defined format for the presentation of results.<br/>
+    This document does not set any pass/fail criteria for the EUTs. Users of the test results define such criteria. IEC 62623:2022 cancels and replaces the first edition published in 2012. This edition constitutes a technical revision. The first edition of this standard was originally based on ECMA-383. This edition includes the following significant technical changes with respect to the previous edition:<br/>
+    a) Additions to terms &amp; definitions and modification to short &amp; long idle descriptions.<br/>
+    b) Test setup modifications for notebooks where battery pack cannot be removed for testing.<br/>
+    c) Categorisation procedure based on ECMA-389 removed.<br/>
+    d) Replace majority profile with new duty cycle study including new duty cycle attributes for desktop and notebook in a residential and enterprise application.<br/>
+    e) Removal of any reference and test methodology to ENERGY STAR V5.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2022'
   owner:
@@ -132,4 +124,7 @@ ext:
     type: IEC
     project_number:
       content: '103256'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:RD

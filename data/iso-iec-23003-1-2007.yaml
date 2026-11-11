@@ -98,7 +98,9 @@ abstract:
     Agnostic to the underlying compression scheme. MPEG Surround is flexible to extend virtually any audio compression scheme including PCM, towards multi-channel.High quality binaural (virtual surround) representation on stereo headphones. Additionally, the binaural processing can be enabled in the MPEG Surround encoder, supporting virtual surround on legacy stereo playback devices.The MPEG Surround generated stereo downmix can be rendered compatible to legacy matrix surround systems. In addition, MPEG Surround offers an "Enhanced Matrix Mode" which achieves a higher quality than competing surround sound technologies.For the typical MPEG Surround decoding operation modes, a low power decoding variant is available.Next to typical stereo to 5.1 channel operation, MPEG Surround is scalable to its number of input and output channels. Furthermore, upon decoding, the channel configuration can be matched to the reproduction capabilities.The bit rate overhead for MPEG Surround is flexible, allowing scalability from low bitrate applications such as Internet radio to high quality applications such as digital TV broadcasting.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2007'
   owner:
@@ -136,4 +138,7 @@ ext:
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:H

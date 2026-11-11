@@ -101,7 +101,9 @@ abstract:
     <p>ISO/IEC 7816-12:2005 provides two protocols for control transfers. This is to support the protocol T=0 (version A) or to use the transfer on APDU level (version B). ISO/IEC 7816-12:2005 provides the state diagrams for the USB-ICC for each of the transfers (bulk transfers, control transfers version A and version B). Examples of possible sequences which the USB-ICC must be able to handle are given in an informative annex.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2005'
   owner:
@@ -139,4 +141,7 @@ ext:
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:F

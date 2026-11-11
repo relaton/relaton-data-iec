@@ -105,44 +105,29 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "IEC 62566-2:2020 provides requirements for achieving highly reliable HDL-Programmed
-    Devices (HPDs), for use in I&C systems of nuclear power plants performing functions
-    of safety category B or C as defined by IEC 61226.<br />\r\nThe programming of
-    HPDs relies on Hardware Description Languages (HDL) and related software tools.
-    They are typically based on blank Field Programmable Gate Arrays (FPGAs) or similar
-    micro-electronic technologies such as Programmable Logic Devices (PLD), Complex
-    Programmable Logic Devices (CPLDs), etc. General purpose integrated circuits such
-    as microprocessors are not HPDs.<br />\r\nThis document provides requirements
-    on:<br />\r\na) a dedicated HPD life-cycle addressing each phase of the development
-    of HPDs, including specification of requirements, design, implementation, integration
-    and validation, as well as verification activities associated with each phase,<br
-    />\r\nb) planning and complementary activities such as modification and production,<br
-    />\r\nc) selection of pre-developed components. This includes micro-electronic
-    technologies and Pre-Developed Blocks (PDBs),<br />\r\nd) tools used to design,
-    implement and verify HPDs."
+  content: |-
+    IEC 62566-2:2020 provides requirements for achieving highly reliable HDL-Programmed Devices (HPDs), for use in I&amp;C systems of nuclear power plants performing functions of safety category B or C as defined by IEC 61226.<br/>
+    The programming of HPDs relies on Hardware Description Languages (HDL) and related software tools. They are typically based on blank Field Programmable Gate Arrays (FPGAs) or similar micro-electronic technologies such as Programmable Logic Devices (PLD), Complex Programmable Logic Devices (CPLDs), etc. General purpose integrated circuits such as microprocessors are not HPDs.<br/>
+    This document provides requirements on:<br/>
+    a) a dedicated HPD life-cycle addressing each phase of the development of HPDs, including specification of requirements, design, implementation, integration and validation, as well as verification activities associated with each phase,<br/>
+    b) planning and complementary activities such as modification and production,<br/>
+    c) selection of pre-developed components. This includes micro-electronic technologies and Pre-Developed Blocks (PDBs),<br/>
+    d) tools used to design, implement and verify HPDs.
 - language: fr
   script: Latn
-  content: "l'IEC 62566-2:2020 énonce des exigences pour atteindre une haute fiabilité
-    dans les \"circuits intégrés programmés en HDL\" (HPD) destinés aux systèmes d'I&C
-    des centrales nucléaires de puissance réalisant des fonctions de sûreté de catégorie
-    B ou C telles que définies par l'IEC 61226.<br />\r\nLa programmation des HPD
-    repose sur des langages de description de matériel (HDL) et des outils logiciels
-    associés. Les HPD sont typiquement basés sur des réseaux de portes programmables
-    sur site (FPGA) vierges ou sur des technologies microélectroniques similaires
-    telles que les réseaux logiques programmables (PLD), les réseaux logiques programmables
-    complexes (CPLD), etc. Les circuits intégrés d'usage général tels que les microprocesseurs
-    ne sont pas des HPD.<br />\r\nLe présent document énonce des exigences sur:<br
-    />\r\na) un cycle de vie de HPD dédié concernant chaque phase du développement
-    des HPD, notamment la spécification des exigences, la conception, la réalisation,
-    l'intégration et la validation, ainsi que les activités de vérification associées
-    à chacune des phases;<br />\r\nb) la planification et les activités complémentaires
-    telles que la modification et la production;<br />\r\nc) le choix des composants
-    prédéveloppés, notamment les technologies microélectroniques et les blocs prédéveloppés
-    (PDB);<br />\r\nd) les outils utilisés pour concevoir, réaliser et vérifier les
-    HPD."
+  content: |-
+    l'IEC 62566-2:2020 énonce des exigences pour atteindre une haute fiabilité dans les "circuits intégrés programmés en HDL" (HPD) destinés aux systèmes d'I&amp;C des centrales nucléaires de puissance réalisant des fonctions de sûreté de catégorie B ou C telles que définies par l'IEC 61226.<br/>
+    La programmation des HPD repose sur des langages de description de matériel (HDL) et des outils logiciels associés. Les HPD sont typiquement basés sur des réseaux de portes programmables sur site (FPGA) vierges ou sur des technologies microélectroniques similaires telles que les réseaux logiques programmables (PLD), les réseaux logiques programmables complexes (CPLD), etc. Les circuits intégrés d'usage général tels que les microprocesseurs ne sont pas des HPD.<br/>
+    Le présent document énonce des exigences sur:<br/>
+    a) un cycle de vie de HPD dédié concernant chaque phase du développement des HPD, notamment la spécification des exigences, la conception, la réalisation, l'intégration et la validation, ainsi que les activités de vérification associées à chacune des phases;<br/>
+    b) la planification et les activités complémentaires telles que la modification et la production;<br/>
+    c) le choix des composants prédéveloppés, notamment les technologies microélectroniques et les blocs prédéveloppés (PDB);<br/>
+    d) les outils utilisés pour concevoir, réaliser et vérifier les HPD.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -172,4 +157,7 @@ ext:
     type: IEC
     project_number:
       content: '23488'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:K

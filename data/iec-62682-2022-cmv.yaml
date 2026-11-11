@@ -80,7 +80,9 @@ abstract:
     The primary function within the alarm system is to notify operators of abnormal process conditions or equipment malfunctions and support the response. The alarm systems can include both the basic process control system (BPCS) and the safety instrumented system (SIS), each of which uses measurements of process conditions and logic to generate alarms. Figure 1 illustrates the concepts of alarm and response dataflow through the alarm system. The alarm system also includes a mechanism for communicating the alarm information to the operator via an HMI, usually a computer screen or an annunciator. Additional functions of the alarm system are an alarm and event log, an alarm historian, and the generation of performance metrics for the alarm system. There are external systems that can use the data from the alarm system.
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2022'
   owner:
@@ -112,4 +114,7 @@ ext:
     type: IEC
     project_number:
       content: '103485'
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iec:MP

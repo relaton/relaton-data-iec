@@ -98,7 +98,9 @@ abstract:
     <p>The scope of ISO/IEC TR 16167:2011 is limited to calls from a user of an enterprise network to an authority, where the authority is represented by a SAP (PSAP or PEAP). This includes the special case where a PEAP acts as an enterprise user in making an emergency call to a PSAP. Authority to authority calls, authority to enterprise user calls and enterprise user to enterprise user calls within the context of an emergency are out of scope, with the exception of return calls and verification calls as follow-up to an emergency call from the user to an authority.</p>
 status:
   stage:
-    content: PUBLISHED
+    content: '60'
+  substage:
+    content: '60'
 copyright:
 - from: '2011'
   owner:
@@ -136,4 +138,7 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
   price_code: iso:ZZ
