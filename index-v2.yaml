@@ -123952,6 +123952,47 @@
   :file: data/iec-60335-2-17-2022+amd1-2026-csv.yaml
 - :id:
     _type: pubid:iec:international-standard
+    number: '60335'
+    part: '2'
+    subpart: '102'
+    year: '2026'
+  :file: data/iec-60335-2-102-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '102'
+      year: '2026'
+    vap:
+    - CMV
+  :file: data/iec-60335-2-102-2026-cmv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '102'
+      year: '2026'
+    vap:
+    - EXV
+  :file: data/iec-60335-2-102-2026-exv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '102'
+      year: '2026'
+    vap:
+    - EXV
+    - CMV
+  :file: data/iec-60335-2-102-2026-exv-cmv.yaml
+- :id:
+    _type: pubid:iec:international-standard
     number: '60336'
     year: '1970'
   :file: data/iec-60336-1970.yaml
@@ -147367,6 +147408,11 @@
     number: '60619'
     year: '1993'
   :file: data/iec-60619-1993.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60619'
+    year: '2026'
+  :file: data/iec-60619-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60620'
@@ -185929,6 +185975,17 @@
     year: '2001'
   :file: data/iec-ts-61000-6-5-2001.yaml
 - :id:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61000'
+      part: '6'
+      subpart: '3'
+      year: '2026'
+  :file: data/iec-61000-6-3-2026-cor1-2026.yaml
+- :id:
     _type: pubid:iec:international-standard
     number: '61003'
     part: '1'
@@ -196580,6 +196637,31 @@
     year: '2025'
   :file: data/iec-ts-61169-1-7-2025.yaml
 - :id:
+    _type: pubid:iec:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61169'
+      part: '54'
+      year: '2021'
+  :file: data/iec-61169-54-2021-amd1-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:consolidated-identifier
+      identifiers:
+      - _type: pubid:iec:international-standard
+        number: '61169'
+        part: '54'
+        year: '2021'
+      - _type: pubid:iec:amendment
+        number: '1'
+        year: '2026'
+    vap:
+    - CSV
+  :file: data/iec-61169-54-2021+amd1-2026-csv.yaml
+- :id:
     _type: pubid:iec:technical-specification
     number: '61170'
     year: '1993'
@@ -201350,6 +201432,11 @@
     number: '61250'
     year: '1994'
   :file: data/iec-61250-1994.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '61250'
+    year: '2026'
+  :file: data/iec-61250-2026.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '61251'

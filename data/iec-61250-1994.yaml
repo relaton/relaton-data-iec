@@ -46,13 +46,15 @@ docidentifier:
 - content: IEC 61250:1994
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61250:1994:::'
+- content: 'urn:iec:std:iec:61250:1994-01:::'
   type: URN
 date:
 - type: published
   at: '1994-01-31'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-11-12'
+- type: obsoleted
+  at: '2026-11-12'
 contributor:
 - role:
   - type: publisher
@@ -106,15 +108,15 @@ abstract:
 - language: fr
   script: Latn
   content: Définit les prescriptions pour l'instrumentation nécessaire pour détecter
-    les fuites dans les systèmes de refroidissement des réacteurs nucléaires à eau
-    légère. Elle décrit les méthodes de détection des fuites et les caractéristiques
+    les fuites dans les systèmes de refroidissement des réacteurs nucléaires à
+    eau légère. Elle décrit les méthodes de détection des fuites et les caractéristiques
     des différentes méthodes de détection et de différenciation des fuites admissibles
     et anormales.
 status:
   stage:
-    content: '60'
+    content: '95'
   substage:
-    content: '60'
+    content: '99'
 copyright:
 - from: '1994'
   owner:
@@ -145,6 +147,6 @@ ext:
     project_number:
       content: '7586'
   stagename:
-    abbreviation: PUBLISHED
-    content: PUBLISHED
+    abbreviation: REVISED
+    content: REVISED
   price_code: iec:D
