@@ -1,0 +1,167 @@
+---
+id: ISOIEC2579122026
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: OpenID connect FAPI security profile 1.0
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 2: Advanced'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - OpenID connect FAPI security profile 1.0 - Part
+    2: Advanced'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Profil de sécurité 1.0 basé sur le protocole OpenID Connect conçu pour
+    les API financières, FAPI
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 2: Niveau avancé'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Profil de sécurité 1.0 basé sur le
+    protocole OpenID Connect conçu pour les API financières, FAPI - Partie 2: Niveau
+    avancé'
+  type: main
+source:
+- type: src
+  content: https://webstore.iec.ch/publication/117975
+docidentifier:
+- content: ISO/IEC 25791-2:2026
+  type: IEC
+  primary: true
+- content: 'urn:iec:std:iso-iec:25791-2:2026-11:::'
+  type: URN
+date:
+- type: published
+  at: '2026-11-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iso.org
+    name:
+    - language: en
+      script: Latn
+      content: International Organization for Standardization
+    abbreviation:
+      language: en
+      script: Latn
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: www.iec.ch
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Electrotechnical Commission
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: ISO/IEC JTC 1
+      identifier:
+      - content: '1'
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: IEC
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    <p>This part of the document specifies the method of</p>
+    <ul>
+    <li>applications to obtain the OAuth tokens in an appropriately secure manner for higher risk access to data;</li>
+    <li>applications to use OpenID Connect to identify the customer; and</li>
+    <li>using tokens to interact with the REST endpoints that provides protected data.</li>
+    </ul>
+    <p>This document is applicable to higher risk use cases which includes commercial and investment banking and other similar industries.</p>
+status:
+  stage:
+    content: '60'
+  substage:
+    content: '60'
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: www.iso.org
+      name:
+      - language: en
+        script: Latn
+        content: International Organization for Standardization
+      abbreviation:
+        language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - type: org
+        content: www.iec.ch
+      name:
+      - language: en
+        script: Latn
+        content: International Electrotechnical Commission
+      abbreviation:
+        language: en
+        script: Latn
+        content: IEC
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iec
+  ics:
+  - code: '35.030'
+    text: IT Security
+  stagename:
+    abbreviation: PUBLISHED
+    content: PUBLISHED
+  price_code: iso:D

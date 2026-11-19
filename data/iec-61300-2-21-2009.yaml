@@ -50,13 +50,15 @@ docidentifier:
 - content: IEC 61300-2-21:2009
   type: IEC
   primary: true
-- content: 'urn:iec:std:iec:61300-2-21:2009:::'
+- content: 'urn:iec:std:iec:61300-2-21:2009-12:::'
   type: URN
 date:
 - type: published
   at: '2009-12-17'
 - type: stable-until
-  at: '2026-12-31'
+  at: '2026-11-16'
+- type: obsoleted
+  at: '2026-11-16'
 contributor:
 - role:
   - type: publisher
@@ -117,9 +119,9 @@ abstract:
     - la définition avec précision du nombre de 24 cycles dans la sévérité.
 status:
   stage:
-    content: '60'
+    content: '95'
   substage:
-    content: '60'
+    content: '99'
 copyright:
 - from: '2009'
   owner:
@@ -150,6 +152,6 @@ ext:
     project_number:
       content: '15409'
   stagename:
-    abbreviation: PUBLISHED
-    content: PUBLISHED
+    abbreviation: REVISED
+    content: REVISED
   price_code: iec:D
