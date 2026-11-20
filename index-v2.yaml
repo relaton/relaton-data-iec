@@ -43311,6 +43311,14 @@
     publisher: ISO
     copublishers:
     - IEC
+    number: '21117'
+    year: '2026'
+  :file: data/iso-iec-21117-2026.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    publisher: ISO
+    copublishers:
+    - IEC
     number: '21118'
     year: '2005'
   :file: data/iso-iec-21118-2005.yaml
@@ -124037,6 +124045,47 @@
     vap:
     - CSV
   :file: data/iec-60335-2-52-2021+amd1-2026-csv.yaml
+- :id:
+    _type: pubid:iec:international-standard
+    number: '60335'
+    part: '2'
+    subpart: '84'
+    year: '2026'
+  :file: data/iec-60335-2-84-2026.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '84'
+      year: '2026'
+    vap:
+    - CMV
+  :file: data/iec-60335-2-84-2026-cmv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '84'
+      year: '2026'
+    vap:
+    - EXV
+  :file: data/iec-60335-2-84-2026-exv.yaml
+- :id:
+    _type: pubid:iec:vap-identifier
+    base:
+      _type: pubid:iec:international-standard
+      number: '60335'
+      part: '2'
+      subpart: '84'
+      year: '2026'
+    vap:
+    - EXV
+    - CMV
+  :file: data/iec-60335-2-84-2026-exv-cmv.yaml
 - :id:
     _type: pubid:iec:international-standard
     number: '60336'
