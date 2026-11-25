@@ -7,11 +7,21 @@ on:
   push:
     branches: [v2]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Deploy"]
+    types: [completed]
 
 permissions: {}
 
 jobs:
   dispatch:
+    # The workflow_run payload also fires for non-default branches and
+    # failed builds; data-deploy.yml's publish gate skips both, so neither
+    # ever changes the published index and neither may ingest.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     steps:
       - name: Trigger ingest for this flavor
