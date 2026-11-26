@@ -2,19 +2,30 @@
 # See https://github.com/metanorma/cimas
 name: Deploy
 
-# A finished crawl, the fallback cron, or a human. Nothing here builds on a
-# push.
+# A finished crawl, or a human. Nothing here builds on a push, and nothing here
+# runs on a cron. This file publishes; its sibling `check-index.yml` ("Check
+# index") runs the same build on a pull request and stops short of Pages.
 #
 # Dropped `pull_request`: publication is gated on the repo's default branch
 # inside data-deploy.yml, so a PR ran the whole build — npm ci, the Vue compile
 # and a full corpus parse, then a Pages artifact upload, minutes of it — and then
-# skipped the deploy job.
+# skipped the deploy job. What was worth keeping about that run was the build
+# itself: it was the fleet's only proof that `data/` parses and `relaton index`
+# succeeds, and `relaton index` parses the whole corpus, so one bad YAML file
+# fails the build for the entire flavor. That check now lives in check-index.yml
+# — same reusable workflow, so it can never drift from what publishes, and no
+# Pages work because data-deploy.yml gates it on the run's ref.
 #
 # Dropped `push`: it never fired on crawler commits anyway (crawler.yml pushes
 # with the default actions/checkout GITHUB_TOKEN, and GitHub deliberately raises
 # no workflow events for those, to avoid recursion), so it only ever covered
-# human pushes. The cost of losing it: a hand-committed data or config fix now
-# waits for the cron below, or a `workflow_dispatch`.
+# human pushes — and only in repos whose default branch was inside the old
+# `push: branches: [ master, main ]` list. For a repo that had moved its default
+# branch (relaton-data-oasis is on v2) no push, human or crawler, ever triggered
+# a deploy, so there the migration is a strict no-op; the dropped
+# `tags: [ v* ]` was inert everywhere, since the deploy gate rejects a tag ref.
+# The cost of losing it, where it worked at all: a hand-committed data or config
+# fix now waits for the next finished crawl, or a `workflow_dispatch`.
 on:
   # Publish because the crawl finished, not an hour after it was meant to.
   # Scheduled dispatch drifts badly under load: 11 of relaton-data-iana's last
@@ -25,26 +36,34 @@ on:
   # `workflows:` matches crawler.yml's `name:`; Cimas syncs both templates, so
   # they stay in step (pinned by spec/data_deploy_caller_template_spec.rb).
   # `branches:` filters the *triggering* run's branch: listing every default
-  # branch name in use across the fleet (23 of the 29 data repos are on v2, the
-  # rest on main or master) keeps this file repo-agnostic, so it needs no
+  # branch name in use across the fleet (23 of the 30 data repos are on v2, six
+  # on main, one on master) keeps this file repo-agnostic, so it needs no
   # per-repo edit. The run itself is against the repo's default branch, which
   # keeps data-deploy.yml's publish gate and the raw-YAML --base-url links
   # correct.
+  #
+  # A name list can only ever be a pre-filter: in a repo that has MORE than
+  # one of those branches, a crawl on a non-default one matches the
+  # list, and the Deploy it fires runs against the default branch — so the
+  # publish gate passes and it republishes for real. data-deploy.yml therefore
+  # also requires the triggering run's `head_branch` to be the repo's actual
+  # default branch. Keep the list anyway: it costs nothing and stops a run
+  # spinning up at all.
   workflow_run:
     workflows: [ Crawler ]
     types: [ completed ]
     branches: [ master, main, v2 ]
-  # Fallback only, and it is NOT about days the crawler commits nothing —
-  # `types: [completed]` fires on every crawler run regardless of whether the
-  # "Push data" step committed. What this covers is a crawler that never ran or
-  # was disabled, and picking up upstream relaton/relaton changes that alter the
-  # generated index. Cost: a second full build per day (~3 min on the largest
-  # flavor, which includes compiling the frontend); drop to weekly if it bites.
+  # No cron of its own. `types: [ completed ]` above fires on EVERY finished
+  # crawl, committed data or not, and Crawler runs daily — so `workflow_run`
+  # already gives exactly one publish per day. The build checks out
+  # relaton/relaton@main each time, so an upstream change to the generated index
+  # arrives through that same run; that was the fallback's other job.
   #
-  # Set clear of the crawler's observed run window rather than one hour after
-  # its nominal cron — see the note on workflow_run above.
-  schedule:
-  - cron: '0 18 * * *'
+  # What this costs: a day whose crawl FAILS gets no deploy at all, because
+  # data-deploy.yml gates the build on the crawler's conclusion. Pages keeps
+  # serving the previous deployment. Use `workflow_dispatch` to publish sooner.
+  # Do not re-add a cron: it re-ran the whole build — npm ci, the Vue compile, a
+  # full corpus parse — and republished identical bytes, in 31 repos, every day.
   workflow_dispatch:
 
 jobs:
@@ -54,8 +73,8 @@ jobs:
     # serializes Pages deployments per repo — so every caller gets them without
     # a copy of its own to drift.
     #
-    # And no `with:` block, ever. Cimas copies this file byte-for-byte into 29
-    # relaton-data-* repos, so an input set here is either wrong for the other 28
+    # And no `with:` block, ever. Cimas copies this file byte-for-byte into 30
+    # relaton-data-* repos, so an input set here is either wrong for the other 29
     # or, once a repo hand-edits it, silently reverted by the next `cimas sync` —
     # the page just loses its favicon and description, with nothing red in CI.
     # Per-repo branding (title/favicon/description) lives in relaton/support's
@@ -67,4 +86,32 @@ jobs:
     # defaulted to `gem`. That default is now `git`, so those pins set the value
     # they would inherit anyway and a sync dropping them is the cleanup, not the
     # damage. Do not re-add one here.
+    #
+    # `permissions:` is the one thing this job does declare, and it is
+    # deliberately wider than `contents: read`. A called workflow cannot exceed
+    # what the caller granted, so a caller needs the UNION of every scope every
+    # job of the called workflow asks for — data-deploy.yml declares
+    # `contents: read` at workflow level and adds `pages: write` +
+    # `id-token: write` on its own `deploy` job. `issues: write`, below, is for
+    # a request build_index_page does not make yet.
+    #
+    # Narrowing this to `contents: read` — the reflexive "minimal permissions"
+    # edit — does not fail at parse time. It fails minutes into the build, at the
+    # deploy step, in all 30 repos at once, with:
+    #
+    #   The workflow is requesting 'pages: write', but is only allowed 'pages: none'.
+    #
+    # `issues: write` is granted AHEAD of the shared workflow. `relaton index`
+    # reports the documents it cannot put in the machine index as an issue in
+    # this repo, so build_index_page will ask for that scope — and a caller that
+    # lacks it then fails every run as `startup_failure`, 0 jobs, no log. Until
+    # data-deploy.yml asks, the extra grant does nothing. It must reach every
+    # data repo through `cimas sync` BEFORE data-deploy.yml asks for it.
+    #
+    # Pinned by spec/data_deploy_caller_template_spec.rb. Do not narrow it.
+    permissions:
+      contents: read   # the four checkouts in build_index_page
+      pages: write     # actions/deploy-pages in the deploy job
+      id-token: write  # OIDC verification for that deployment
+      issues: write    # relaton index reports unindexable documents as an issue
     uses: relaton/support/.github/workflows/data-deploy.yml@main
