@@ -5,29 +5,46 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: Systematic review of IEC 60554-3-5 (1984)
+  content: Specification for cellulosic papers for electrical purposes
   type: title-main
 - language: en
   script: Latn
-  content: Systematic review of IEC 60554-3-5 (1984)
+  content: 'Part 3: Specifications for individual materials -- Sheet 5: General purpose
+    paper'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Specification for cellulosic papers for electrical purposes - Part 3:
+    Specifications for individual materials -- Sheet 5: General purpose paper'
   type: main
 - language: fr
   script: Latn
-  content: Examen systématique de la CEI 60554-3-5 (1984)
+  content: Spécification pour papiers cellulosiques à usages électriques
   type: title-main
 - language: fr
   script: Latn
-  content: Examen systématique de la CEI 60554-3-5 (1984)
+  content: 'Partie 3: Spécifications pour matériaux particuliers -- Feuille 5: Papiers
+    spéciaux'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Spécification pour papiers cellulosiques à usages électriques - Partie
+    3: Spécifications pour matériaux particuliers -- Feuille 5: Papiers spéciaux'
   type: main
 source:
 - type: src
-  content: https://webstore.iec.ch/publication/4087
+  content: https://webstore.iec.ch/publication/115594
 docidentifier:
 - content: IEC 60554-3-5 ED2
   type: IEC
   primary: true
-- content: iec:proj:4087
+- content: iec:proj:115594
   type: URN
+date:
+- type: created
+  at: '2023-02-03'
+- type: forecast
+  at: '2027-12-29'
 contributor:
 - role:
   - type: publisher
@@ -71,8 +88,8 @@ script:
 - Latn
 status:
   stage:
-    abbreviation: DEL
-    content: '10.98'
+    abbreviation: ACD
+    content: '20.99'
   iteration: '1'
 relation:
 - type: related
@@ -96,3 +113,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iec
+  ics:
+  - code: 29.035.10
+    text: Paper and board insulating materials
