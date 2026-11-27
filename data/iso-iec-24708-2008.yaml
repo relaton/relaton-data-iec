@@ -28,11 +28,13 @@ docidentifier:
 - content: ISO/IEC 24708:2008
   type: IEC
   primary: true
-- content: 'urn:iec:std:iso-iec:24708:2008:::'
+- content: 'urn:iec:std:iso-iec:24708:2008-12:::'
   type: URN
 date:
 - type: published
   at: '2008-12-15'
+- type: obsoleted
+  at: '2026-11-26'
 contributor:
 - role:
   - type: publisher
@@ -92,19 +94,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "<p>ISO/IEC 24708:2008 specifies the syntax, semantics, and encodings of
-    a set of messages (BIP messages) that enable a BioAPI-conforming application (see
-    ISO/IEC 19784-1) to request biometric operations in BioAPI-conforming biometric
-    service providers (BSPs) across node or process boundaries, and to be notified
-    of events originating in those remote BSPs. It also specifies extensions to the
-    architecture and behaviour of the BioAPI framework (specified in ISO/IEC 19784-1)
-    that supports the creation, processing, sending and reception of BIP messages.
-    It is applicable to all distributed applications of BioAPI.</p>"
+  content: "<p>ISO/IEC 24708:2008 specifies the syntax, semantics, and encodings of a set of messages (BIP messages) that enable a BioAPI-conforming application (see ISO/IEC 19784-1) to request biometric operations in BioAPI-conforming biometric service providers (BSPs) across node or process boundaries, and to be notified of events originating in those remote BSPs. It also specifies extensions to the architecture and behaviour of the BioAPI framework (specified in ISO/IEC 19784-1) that supports the creation, processing, sending and reception of BIP messages. It is applicable to all distributed applications of BioAPI.</p>"
 status:
   stage:
-    content: '60'
+    content: '95'
   substage:
-    content: '60'
+    content: '99'
 copyright:
 - from: '2008'
   owner:
@@ -143,6 +138,6 @@ ext:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   stagename:
-    abbreviation: PUBLISHED
-    content: PUBLISHED
-  price_code: iso:H
+    abbreviation: WITHDRAWN
+    content: WITHDRAWN
+  price_code: iso:B
